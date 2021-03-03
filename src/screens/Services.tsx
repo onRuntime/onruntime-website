@@ -13,6 +13,9 @@ const Services = () => {
         <section className={[servicesStyles.services, utilsStyles.container].join(' ')}>
             <Head>
                 <title>{t.services.head.title} | onRuntime Studio</title>
+
+                <meta property="og:title" content={`${t.services.head.title} | onRuntime Studio`} />
+                <meta name="twitter:title" content={`${t.services.head.title} | onRuntime Studio`} />
             </Head>
             <h1 className={servicesStyles.title}>Services</h1>
             <p className={servicesStyles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, porro.</p>

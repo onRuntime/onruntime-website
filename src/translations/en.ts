@@ -3,6 +3,7 @@ export default {
         locale: {
             name: "English"
         },
+        desc: "onRuntime is a Franco-American studio that brings together teams of creators and develops applications, website and game platforms.",
         projects: "Projects",
         services: "Services",
         about: "About",
