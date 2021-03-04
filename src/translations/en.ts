@@ -48,6 +48,9 @@ export default {
         head: {
             title: "Services"
         },
+        intro: {
+            subtitle: 'Here are our pricing for you, which one is right for you?'
+        },
         packs: {
             starter: {
                 title: "Starter pack",

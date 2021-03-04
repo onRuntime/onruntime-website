@@ -48,6 +48,9 @@ export default {
         head: {
             title: "Services"
         },
+        intro: {
+            subtitle: 'Nous avons quelques offres à vous proposer pour créer votre prochain site, laquelle vous convient ?'
+        },
         packs: {
             starter: {
                 title: "Pack starter",

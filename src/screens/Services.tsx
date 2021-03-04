@@ -19,7 +19,7 @@ const Services = () => {
                 <meta name="twitter:title" content={`${t.services.head.title} | onRuntime Studio`} />
             </Head>
             <h1 className={servicesStyles.title}>Services</h1>
-            <p className={servicesStyles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, porro.</p>
+            <p className={servicesStyles.desc}>{t.services.intro.subtitle}</p>
             <div className={servicesStyles.row}>
                 <div className={servicesStyles.item}>
                     <h2 className={servicesStyles.title}>{t.services.packs.starter.title}</h2>
