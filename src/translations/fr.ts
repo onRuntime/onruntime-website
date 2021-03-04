@@ -33,7 +33,7 @@ export default {
         },
         projects: {
             title: "Derniers projets",
-            desc: "Quelques projets innovants auxquels nous avons contribué à développer ces dernières années.",
+            desc: "Quelques projets innovants que nous avons contribué à développer ces dernières années.",
             btn: "Voir tous les projets"
         }
     },
