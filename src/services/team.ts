@@ -20,7 +20,7 @@ export function getTeamMembers(): TeamMember[] {
 
     const members: TeamMember[] = slugs
         .map((slug: string) => getTeamMember(slug))
-        .sort((member1: TeamMember, member2: TeamMember) => (member1.role > member2.role ? 1 : -1));
+        .sort((member1: TeamMember, member2: TeamMember) => (member1.level > member2.level ? 1 : -1));
 
     return members;
 }
