@@ -6,6 +6,15 @@ export default {
         projects: "Projets",
         services: "Services",
         about: "A propos",
+        roles: {
+            director: 'Directeur',
+            deputy_director: 'Directeur adjoint',
+            leaders: {
+                rvby: 'Leader de RVBY',
+                berrygames: 'Leader de BerryGames',
+                netflixaddicts: 'Leader de NetflixAddicts'
+            }
+        }
     },
     home: {
         head: {
