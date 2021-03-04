@@ -1,33 +1,34 @@
 @import "../theme.scss";
 
 .button {
-    background-color: $colorWhitePrimary;
-    color: $colorDarkPrimary;
-    padding: 12px 24px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: $fontFamilyPrimary;
-    font-size: $fontSizeNormal;
-    font-weight: $fontWeightMedium;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    transition: all 0.2s;
-    line-height: 1;
-    opacity: .9;
+    user-select      : none;
+    background-color : $colorWhitePrimary;
+    color            : $colorDarkPrimary;
+    padding          : 12px 24px;
+    border-radius    : 10px;
+    display          : flex;
+    align-items      : center;
+    justify-content  : center;
+    font-family      : $fontFamilyPrimary;
+    font-size        : $fontSizeNormal;
+    font-weight      : $fontWeightMedium;
+    text-align       : center;
+    cursor           : pointer;
+    outline          : none;
+    border           : none;
+    transition       : all 0.2s;
+    line-height      : 1;
+    opacity          : .9;
 
     &:hover {
-        opacity: 1;
-        color: $colorDarkPrimary;
+        opacity : 1;
+        color   : $colorDarkPrimary;
     }
 
     &__outline {
-        background-color: transparent;
-        color: $colorWhitePrimary;
-        border: 1px solid $colorWhitePrimary;
+        background-color : transparent;
+        color            : $colorWhitePrimary;
+        border           : 1px solid $colorWhitePrimary;
 
         &:hover {
             color: inherit;
