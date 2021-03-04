@@ -23,7 +23,8 @@
       "@components/*": ["./src/components/*"],
       "@styles/*": ["./src/styles/*"],
       "@screens/*": ["./src/screens/*"],
-      "@services/*": ["./src/services/*"]
+      "@services/*": ["./src/services/*"],
+      "@stores/*": ["./src/stores/*"]
     }
   },
   "include": [

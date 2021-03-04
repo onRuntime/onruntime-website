@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 
 import servicesStyles from '@styles/modules/Services.module.scss'
 import utilsStyles from '@styles/modules/Utils.module.scss'
+import Button from '@components/Button'
 
 const Services = () => {
     const router = useRouter();
@@ -78,7 +79,9 @@ const Services = () => {
                     </ul>
                 </div>
             </div>
-            <a className={[servicesStyles.btn, utilsStyles.btn].join(' ')} href="mailto:contact@onruntime.com" >{t.services.contact}</a>
+            <Button to="mailto:contact@onruntime.com" className={servicesStyles.btn}>
+                {t.services.contact}
+            </Button>
         </section>
     )
 }
