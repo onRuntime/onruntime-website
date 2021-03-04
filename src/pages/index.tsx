@@ -5,10 +5,10 @@ import { GetStaticProps } from 'next'
 export default Home
 
 export const getStaticProps: GetStaticProps = async () => {
-    const allProjectsData = getSortedProjectsData()
+    const projects = getSortedProjectsData()
     return {
         props: {
-            allProjectsData
+            projects
         }
     }
 }

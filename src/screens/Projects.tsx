@@ -3,19 +3,14 @@ import { useRouter } from 'next/router'
 
 import projectsStyles from '@styles/modules/Projects.module.scss'
 import utilsStyles from '@styles/modules/Utils.module.scss'
+import ProjectList from '@components/ProjectList'
+import { Project } from '@stores/projects'
 
-const Projects = ({
-    allProjectsData
-}: {
-    allProjectsData: {
-        id: string
-        title: string
-        desc: string
-        link: string,
-        thumbnail_link: string,
-        tags: Array<string>
-    }[]
-}) => {
+interface Props {
+    data: Project[];
+}
+
+const Projects = ({ data }: Props) => {
     const router = useRouter();
     const { locale } = router;
     const t = require(`../translations/${locale}`).default;
@@ -27,22 +22,7 @@ const Projects = ({
             </Head>
             <h1 className={projectsStyles.title}>{t.projects.title}</h1>
             <p className={projectsStyles.desc}>{t.projects.desc}</p>
-            <div className={projectsStyles.row}>
-                {allProjectsData.map(({ id, title, desc, link, thumbnail_link, tags }) => (
-                    <a className={projectsStyles.item} key={id} href={link} target="_blank">
-                        <div className={projectsStyles.frame}>
-                            <img className={projectsStyles.img} src={thumbnail_link} alt={`${title} Demo`} />
-                        </div>
-                        <div className={projectsStyles.content}>
-                            <ul className={projectsStyles.tags}>
-                                {tags.map(tag => <li className={projectsStyles.tag}>{tag}</li>)}
-                            </ul>
-                            <h3 className={projectsStyles.title}>{title}</h3>
-                            <p className={projectsStyles.desc}>{desc}</p>
-                        </div>
-                    </a>
-                ))}
-            </div>
+            <ProjectList data={data} />
         </section>
     )
 }

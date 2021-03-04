@@ -1,0 +1,63 @@
+@import "../theme.scss";
+
+.item {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+
+    &.reverse {
+        .col.large {
+            text-align: right;
+
+            @media (max-width: $breakpoint-tablet) {
+                text-align: center;
+            }
+        }
+
+        @media (max-width: $breakpoint-tablet) {
+            flex-direction: column-reverse;
+        }
+    }
+
+    .col {
+        .img {
+            height: auto;
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        &.large {
+            flex: 1;
+            padding: 0 50px;
+
+            .name {
+                font-size: $fontSizeLarge;
+                font-weight: $fontWeightBold;
+
+                span {
+                    font-size: $fontSizeSmall;
+                    font-weight: $fontWeightRegular;
+                    font-style: italic;
+                    color: rgba($color: $colorWhitePrimary, $alpha: 0.5);
+
+                    @media (max-width: $breakpoint-tablet) {
+                        display: block;
+                    }
+                }
+                
+                @media (max-width: $breakpoint-tablet) {
+                    margin-top: 15px;
+                }
+            }
+
+            .desc {
+                margin-top: 15px;
+            }
+        }
+    }
+
+    @media (max-width: $breakpoint-tablet) {
+        flex-direction: column;
+        text-align: center;
+    }
+}
