@@ -94,6 +94,14 @@ export default {
     about: {
         head: {
             title: "A propos"
+        },
+        btn: "En savoir plus sur nous",
+        team: {
+            role: {
+                director: 'Directeur',
+                deputy_director: 'Directeur adjoint',
+                project_leader: 'Leader de %project_name%'
+            }
         }
     }
 }
