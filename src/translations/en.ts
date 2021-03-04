@@ -105,8 +105,14 @@ export default {
         head: {
             title: "About"
         },
+        intro: {
+            title: 'Hey, welcome to onRuntime Studio',
+            subtitle: 'Dévelopers, Designers et Artists from all places',
+            desc: 'Basically we have been passionate about web development and general development for over 6 years. We are very interested in new technologies and the world of creation (design, music, etc.) in general, from there we have created a Studio and a community around it, we love to gather around a cup of coffee ☕️ to discuss, play and above all create projects.'
+        },
         btn: "Know more about us",
         team: {
+            title: 'Leaders',
             role: {
                 director: 'Director',
                 deputy_director: 'Deputy director',

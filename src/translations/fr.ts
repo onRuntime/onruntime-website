@@ -42,7 +42,7 @@ export default {
             title: "Projets"
         },
         title: "Projets",
-        desc: "Quelques projets innovants auxquels nous avons contribué à développer ces dernières années."
+        desc: "Quelques projets innovants que nous avons contribué à développer ces dernières années."
     },
     services: {
         head: {
@@ -105,8 +105,14 @@ export default {
         head: {
             title: "A propos"
         },
+        intro: {
+            title: 'Hey, bienvenue chez onRuntime Studio',
+            subtitle: 'Développeurs, Designers et Artistes de tous horizons',
+            desc: 'À la base, nous sommes passionnés par le développement web et le développement en général depuis plus de 6 ans. Nous sommes très intéressés par les nouvelles technologies et le monde de la création (design, musique, etc.) en général, à partir de là nous avons créé un Studio et une communauté autour de celui ci, nous adorons nous retrouver autour d\'une tasse de café ☕️ pour discuter, jouer et surtout créer des projets.'
+        },
         btn: "En savoir plus sur nous",
         team: {
+            title: 'Leaders',
             role: {
                 director: 'Directeur',
                 deputy_director: 'Directeur adjoint',
