@@ -19,6 +19,14 @@ const Projects = ({ data }: Props) => {
         <section className={[projectsStyles.projects, utilsStyles.container].join(' ')}>
             <Head>
                 <title>{t.projects.head.title} | onRuntime Studio</title>
+
+                <meta name="description" content={t.projects.desc} />
+
+                <meta property="og:title" content={`${t.projects.head.title} | onRuntime Studio`} />
+                <meta name="twitter:title" content={`${t.projects.head.title} | onRuntime Studio`} />
+
+                <meta property="og:description" content={t.projects.desc} />
+                <meta name="twitter:description" content={t.projects.desc} />
             </Head>
             <h1 className={projectsStyles.title}>{t.projects.title}</h1>
             <p className={projectsStyles.desc}>{t.projects.desc}</p>

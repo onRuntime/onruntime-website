@@ -21,6 +21,9 @@ const Home = ({ projects }: Props) => {
         <section className={[homeStyles.home, utilsStyles.container].join(' ')}>
             <Head>
                 <title>{t.home.head.title} | onRuntime Studio</title>
+
+                <meta property="og:title" content={`${t.home.head.title} | onRuntime Studio`} />
+                <meta name="twitter:title" content={`${t.home.head.title} | onRuntime Studio`} />
             </Head>
             <div className={homeStyles.featured}>
                 <h1 className={homeStyles.title}>{t.home.featured.title}</h1>

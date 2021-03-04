@@ -21,6 +21,9 @@ const About = ({ teamMembers }: Props) => {
         <section className={[aboutStyles.about, utilsStyles.container].join(' ')}>
             <Head>
                 <title>{t.about.head.title} | onRuntime Studio</title>
+
+                <meta property="og:title" content={`${t.about.head.title} | onRuntime Studio`} />
+                <meta name="twitter:title" content={`${t.about.head.title} | onRuntime Studio`} />
             </Head>
             <div className={aboutStyles.intro}>
                 <div className={aboutStyles.col}>
