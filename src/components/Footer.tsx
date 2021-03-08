@@ -1,8 +1,8 @@
 import React from 'react';
 import { useRouter } from 'next/router'
+import Link from '@components/Link';
 
 import footerStyle from '@styles/modules/Footer.module.scss'
-import Link from './Link';
 
 const Footer = () => {
     const router = useRouter();
@@ -11,11 +11,11 @@ const Footer = () => {
     return (
         <footer className={footerStyle.footer}>
             <ul className={footerStyle.social}>
-                <li className={footerStyle.socialItem}><a href="https://linkedin.com/company/onruntime" target="_blank" className={footerStyle.socialLink}><i className="ri-linkedin-fill"></i></a></li>
-                <li className={footerStyle.socialItem}><a href="https://github.com/onRuntime" target="_blank" className={footerStyle.socialLink}><i className="ri-github-fill"></i></a></li>
-                <li className={footerStyle.socialItem}><a href="https://discord.gg/ucX9c5yXmX" target="_blank" className={footerStyle.socialLink}><i className="ri-discord-fill"></i></a></li>
-                <li className={footerStyle.socialItem}><a href="https://twitter.com/onRuntime" target="_blank" className={footerStyle.socialLink}><i className="ri-twitter-fill"></i></a></li>
-                <li className={footerStyle.socialItem}><a href="https://instagram.com/onruntime" target="_blank" className={footerStyle.socialLink}><i className="ri-instagram-fill"></i></a></li>
+                <li className={footerStyle.socialItem}><Link href="https://linkedin.com/company/onruntime" className={footerStyle.socialLink}><i className="ri-linkedin-fill"></i></Link></li>
+                <li className={footerStyle.socialItem}><Link href="https://github.com/onRuntime" className={footerStyle.socialLink}><i className="ri-github-fill"></i></Link></li>
+                <li className={footerStyle.socialItem}><Link href="https://discord.gg/ucX9c5yXmX" className={footerStyle.socialLink}><i className="ri-discord-fill"></i></Link></li>
+                <li className={footerStyle.socialItem}><Link href="https://twitter.com/onRuntime" className={footerStyle.socialLink}><i className="ri-twitter-fill"></i></Link></li>
+                <li className={footerStyle.socialItem}><Link href="https://instagram.com/onruntime" className={footerStyle.socialLink}><i className="ri-instagram-fill"></i></Link></li>
             </ul>
             <ul className={footerStyle.lang}>
                 <li className={footerStyle.langItem}>
