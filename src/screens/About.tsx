@@ -20,10 +20,11 @@ const About = ({ teamMembers }: Props) => {
 
     const leadersRef = React.createRef<HTMLDivElement>();
 
-    const handleClickToLeaders = () => {
+    const handleClickToLeaders = event => {
+        event.preventDefault();
         leadersRef.current.scrollIntoView({
             behavior: 'smooth'
-        })
+        });
     }
 
     return (
