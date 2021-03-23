@@ -28,7 +28,7 @@ export default {
         },
         about: {
             title: "We are a studio that brings together teams of creators",
-            desc: "Basically we have been passionate about web development and development in general for over 6 years. We are very interested in new technologies and the world of creation (design, music, etc.) in general, so we created a Studio and a community around that studio. We love to gather around a cup of coffee ☕️ to discuss, play and above all create projects.",
+            desc: "Basically we have been passionate about web and software development for over 6 years. We are very interested in new technologies and the world of creation (design, music, etc.) in general, so we created a Studio and a community around that studio. We love to gather around a cup of coffee ☕️ to discuss, play and above all create projects.",
             btn: "Learn more about us"
         },
         projects: {
@@ -111,7 +111,7 @@ export default {
         intro: {
             title: 'Welcome to onRuntime Studio',
             subtitle: 'Developers, designers and artists from all walks of life',
-            desc: 'Basically we have been passionate about web development and development in general for over 6 years. We are very interested in new technologies and the world of creation (design, music, etc.) in general, so we created a Studio and a community around that studio. We love to gather around a cup of coffee ☕️ to discuss, play and above all create projects.'
+            desc: 'Basically we have been passionate about web and software development for over 6 years. We are very interested in new technologies and the world of creation (design, music, etc.) in general, so we created a Studio and a community around that studio. We love to gather around a cup of coffee ☕️ to discuss, play and above all create projects.'
         },
         btn: "Learn more about us",
         team: {

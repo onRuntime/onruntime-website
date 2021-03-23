@@ -28,7 +28,7 @@ export default {
         },
         about: {
             title: "Nous sommes un studio qui rassemble des groupes de créateurs",
-            desc: "À la base, nous sommes passionnés par le développement web et le développement en général depuis plus de 6 ans. Nous sommes très intéressés par les nouvelles technologies et le monde de la création (design, musique, etc.) en général, donc nous avons créé un Studio et une communauté autour de celui-ci. Nous aimons nous retrouver autour d'une tasse de café ☕️ pour discuter, jouer et surtout créer des projets.",
+            desc: "À la base, nous sommes passionnés par le développement web et logiciel depuis plus de 6 ans. Nous sommes très intéressés par les nouvelles technologies et le monde de la création (design, musique, etc.) en général, donc nous avons créé un Studio et une communauté autour de celui-ci. Nous aimons nous retrouver autour d'une tasse de café ☕️ pour discuter, jouer et surtout créer des projets.",
             btn: "En savoir plus sur nous"
         },
         projects: {
@@ -111,7 +111,7 @@ export default {
         intro: {
             title: 'Bienvenue chez onRuntime Studio',
             subtitle: 'Développeurs, designers et artistes de tous horizons',
-            desc: 'À la base, nous sommes passionnés par le développement web et le développement en général depuis plus de 6 ans. Nous sommes très intéressés par les nouvelles technologies et le monde de la création (design, musique, etc.) en général, donc nous avons créé un Studio et une communauté autour de celui-ci. Nous aimons nous retrouver autour d\'une tasse de café ☕️ pour discuter, jouer et surtout créer des projets.'
+            desc: 'À la base, nous sommes passionnés par le développement web et logiciel depuis plus de 6 ans. Nous sommes très intéressés par les nouvelles technologies et le monde de la création (design, musique, etc.) en général, donc nous avons créé un Studio et une communauté autour de celui-ci. Nous aimons nous retrouver autour d\'une tasse de café ☕️ pour discuter, jouer et surtout créer des projets.'
         },
         btn: "En savoir plus sur nous",
         team: {
