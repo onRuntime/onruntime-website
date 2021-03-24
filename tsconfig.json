@@ -24,7 +24,8 @@
       "@styles/*": ["./src/styles/*"],
       "@screens/*": ["./src/screens/*"],
       "@services/*": ["./src/services/*"],
-      "@stores/*": ["./src/stores/*"]
+      "@stores/*": ["./src/stores/*"],
+      "@hooks/*": ["./src/hooks/*"]
     }
   },
   "include": [

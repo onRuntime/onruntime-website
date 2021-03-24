@@ -1,7 +1,8 @@
 @import "../theme.scss";
 
 .container {
-    width: 100%;
+    padding: 0 15px;
+    width: calc(100% - 15px * 2);
     max-width: 1280px;
     margin: 0 auto;
 }
