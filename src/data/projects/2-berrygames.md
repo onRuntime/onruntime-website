@@ -6,6 +6,6 @@ desc: "BerryGames was created in summer 2018 and closed in February 2021. The ba
             infrastructure developed, optimized and secured by our dear developers would ensure you a perfect and smooth
             gaming experience on our platforms."
 link: "https://berrygames.net/" #https://github.com/onRuntime/?q=berrygames
-thumbnail_link: "./assets/img/projects/berrygames.png"
+thumbnail_link: "/assets/img/projects/berrygames.png"
 tags: ["Open Source", "Minecraft"]
 ---

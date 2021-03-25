@@ -35,6 +35,14 @@ const Navbar = (props) => {
                 <li className={navbarStyles.navItem}>
                     <NavLink
                         className={navbarStyles.navLink}
+                        href="/music"
+                    >
+                        {t.main.music}
+                    </NavLink>
+                </li>
+                <li className={navbarStyles.navItem}>
+                    <NavLink
+                        className={navbarStyles.navLink}
                         href="/about"
                     >
                         {t.main.about}

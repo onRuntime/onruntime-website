@@ -6,11 +6,13 @@ export default {
         desc: "onRuntime is a French-Canadian studio that brings together teams of creators and develops applications, websites and game platforms.",
         projects: "Projects",
         services: "Services",
+        music: "Music",
         about: "About",
         roles: {
             director: 'Director',
             deputy_director: 'Deputy director',
             leaders: {
+                music: 'Leader of onRuntime Music',
                 rvby: 'Leader of RVBY',
                 berrygames: 'Leader of BerryGames',
                 netflixaddicts: 'Leader of NetflixAddicts'
@@ -103,6 +105,12 @@ export default {
             }
         },
         contact: "Get in touch"
+    },
+    music: {
+        head: {
+            title: "Music"
+        },
+        soon: 'Coming soon'
     },
     about: {
         head: {

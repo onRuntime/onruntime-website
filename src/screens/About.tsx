@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head'
+import Image from 'next/image'
 import { useRouter } from 'next/router'
 
 import { TeamMember } from '@stores/team-members'
@@ -43,7 +44,7 @@ const About = ({ teamMembers }: Props) => {
                     <button className={[buttonStyles.button, aboutStyles.btn].join(' ')} onClick={handleClickToLeaders}>{t.about.btn}</button>
                 </div>
                 <div className={aboutStyles.col}>
-                    <img className={aboutStyles.img} src="./assets/img/logo/onruntime-transparent-white.png" alt="onRuntime Logo" />
+                    <Image className={aboutStyles.img} src="/assets/img/logo/onruntime-transparent-white.png" alt="onRuntime Logo" width={1000} height={1000} />
                 </div>
             </div>
             <div className={aboutStyles.team} ref={leadersRef}>
