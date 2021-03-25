@@ -3,14 +3,16 @@ export default {
         locale: {
             name: "Français"
         },
-        desc: "onRuntime est un studio franco-américain qui rassemble des équipes de créateurs et développe des applications, des sites web et des plateformes de jeux.",
+        desc: "onRuntime est un studio franco-canadien qui rassemble des équipes de créateurs et développe des applications, des sites web et des plateformes de jeux.",
         projects: "Projets",
         services: "Services",
+        music: "Musique",
         about: "A propos",
         roles: {
             director: 'Directeur',
             deputy_director: 'Directeur adjoint',
             leaders: {
+                music: 'Leader d\'onRuntime Musique',
                 rvby: 'Leader de RVBY',
                 berrygames: 'Leader de BerryGames',
                 netflixaddicts: 'Leader de NetflixAddicts'
@@ -22,13 +24,13 @@ export default {
             title: 'Accueil'
         },
         featured: {
-            title: "Hey, bienvenue chez onRuntime Studio",
+            title: "Bienvenue chez onRuntime Studio",
             desc: "Développeurs, designers et artistes de tous horizons",
             btn: "Qui sommes nous ?"
         },
         about: {
             title: "Nous sommes un studio qui rassemble des groupes de créateurs",
-            desc: "À la base, nous sommes passionnés par le développement web et le développement en général depuis plus de 6 ans. Nous sommes très intéressés par les nouvelles technologies et le monde de la création (design, musique, etc.) en général, à partir de là nous avons créé un Studio et une communauté autour de celui ci, nous adorons nous retrouver autour d'une tasse de café ☕️ pour discuter, jouer et surtout créer des projets.",
+            desc: "À la base, nous sommes passionnés par le développement web et logiciel depuis plus de 6 ans. Nous sommes très intéressés par les nouvelles technologies et le monde de la création (design, musique, etc.) en général, donc nous avons créé un Studio et une communauté autour de celui-ci. Nous aimons nous retrouver autour d'une tasse de café ☕️ pour discuter, jouer et surtout créer des projets.",
             btn: "En savoir plus sur nous"
         },
         projects: {
@@ -49,7 +51,7 @@ export default {
             title: "Services"
         },
         intro: {
-            subtitle: 'Nous avons quelques offres à vous proposer pour créer votre prochain site, laquelle vous convient ?'
+            subtitle: 'Choisissez votre pack :  '
         },
         packs: {
             starter: {
@@ -59,7 +61,7 @@ export default {
                 content: {
                     showcase_site: "Site vitrine",
                     content_integration: "Intégration des contenus",
-                    page: "Site une page",
+                    page: "Site one-page",
                     slider: "Slider (3 slides)",
                     ass: "15 jours de service après-vente"
                 }
@@ -74,7 +76,7 @@ export default {
                     page: "Site à pages multiples",
                     slider: "Slider (3 slides) avec animations",
                     ass: "1 mois de service après-vente",
-                    logo: "Design d’un logo POLICE"
+                    logo: "Logotype personnalisé"
                 }
             },
             expert: {
@@ -87,7 +89,7 @@ export default {
                     page: "Site à pages multiples",
                     slider: "Slider (3 slides) avec animations",
                     ass: "2 mois de service après-vente",
-                    logo: "Design d’un logo POLICE",
+                    logo: "Logotype personnalisé",
                     design: "Design graphique sur mesure"
                 }
             },
@@ -104,14 +106,20 @@ export default {
         },
         contact: "Entrer en contact"
     },
+    music: {
+        head: {
+            title: "Musique"
+        },
+        soon: 'Bientôt disponible'
+    },
     about: {
         head: {
             title: "A propos"
         },
         intro: {
-            title: 'Hey, bienvenue chez onRuntime Studio',
-            subtitle: 'Développeurs, Designers et Artistes de tous horizons',
-            desc: 'À la base, nous sommes passionnés par le développement web et le développement en général depuis plus de 6 ans. Nous sommes très intéressés par les nouvelles technologies et le monde de la création (design, musique, etc.) en général, à partir de là nous avons créé un Studio et une communauté autour de celui ci, nous adorons nous retrouver autour d\'une tasse de café ☕️ pour discuter, jouer et surtout créer des projets.'
+            title: 'Bienvenue chez onRuntime Studio',
+            subtitle: 'Développeurs, designers et artistes de tous horizons',
+            desc: 'À la base, nous sommes passionnés par le développement web et logiciel depuis plus de 6 ans. Nous sommes très intéressés par les nouvelles technologies et le monde de la création (design, musique, etc.) en général, donc nous avons créé un Studio et une communauté autour de celui-ci. Nous aimons nous retrouver autour d\'une tasse de café ☕️ pour discuter, jouer et surtout créer des projets.'
         },
         btn: "En savoir plus sur nous",
         team: {

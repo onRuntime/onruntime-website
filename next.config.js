@@ -3,6 +3,9 @@ module.exports = {
     locales: ['en', 'fr'],
     defaultLocale: 'en'
   },
+  images: {
+    domains: ['picsum.photos'],
+  },
   webpack: (config, { isServer }) => {
     // Fixes npm packages that depend on `fs` module
     if (!isServer) {

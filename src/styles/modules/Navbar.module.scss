@@ -33,6 +33,11 @@
     .nav {
         display: flex;
         align-items: center;
+        text-align: center;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+
         .navItem {
             margin: 0 15px;
             .navLink {
@@ -53,14 +58,14 @@
     }
 
     .lang {
-        height: 100%;
         display: flex;
         align-items: center;
+        margin-left: 10px;
 
         .langLogo {
             max-height: 30px;
-            height: 100%;
-            width: auto;
+            height: auto;
+            width: 30px;
         }
     }
 }
