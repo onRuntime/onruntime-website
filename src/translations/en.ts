@@ -3,7 +3,7 @@ export default {
         locale: {
             name: "English"
         },
-        desc: "onRuntime is a Franco-American studio that brings together teams of creators and develops applications, website and game platforms.",
+        desc: "onRuntime is a French-Canadian studio that brings together teams of creators and develops applications, websites and game platforms.",
         projects: "Projects",
         services: "Services",
         about: "About",
@@ -22,18 +22,18 @@ export default {
             title: "Home"
         },
         featured: {
-            title: "Hey, welcome to onRuntime Studio",
-            desc: "Developers, designers and artists from all places",
+            title: "Welcome to onRuntime Studio",
+            desc: "Developers, designers and artists from all walks of life",
             btn: "Who are we ?"
         },
         about: {
             title: "We are a studio that brings together teams of creators",
-            desc: "Basically we have been passionate about web development and general development for over 6 years. We are very interested in new technologies and the world of creation (design, music, etc.) in general, from there we have created a Studio and a community around it, we love to gather around a cup of coffee ☕️ to discuss, play and above all create projects.",
-            btn: "Know more about us"
+            desc: "Basically we have been passionate about web and software development for over 6 years. We are very interested in new technologies and the world of creation (design, music, etc.) in general, so we created a Studio and a community around that studio. We love to gather around a cup of coffee ☕️ to discuss, play and above all create projects.",
+            btn: "Learn more about us"
         },
         projects: {
             title: "Latest Projects",
-            desc: "Some innovative projects which we have helped to develop in recent years.",
+            desc: "Some innovative projects we've developed or contributed to in recent years.",
             btn: "View all projects"
         }
     },
@@ -42,60 +42,60 @@ export default {
             title: "Projects"
         },
         title: "Projects",
-        desc: "Some innovative projects which we have helped to develop in recent years.",
+        desc: "Some innovative projects we've developed or contributed to in recent years.",
     },
     services: {
         head: {
             title: "Services"
         },
         intro: {
-            subtitle: 'Here are our pricing for you, which one is right for you?'
+            subtitle: 'Pick your pack :'
         },
         packs: {
             starter: {
                 title: "Starter pack",
                 price: "500 €",
-                alternative: "or 100 € per months during 5 months",
+                alternative: "or 100 € per month for 5 months",
                 content: {
                     showcase_site: "Showcase site",
                     content_integration: "Content integration",
-                    page: "One page site",
+                    page: "Single page site",
                     slider: "Slider (3 slides)",
-                    ass: "15 days after-sales service"
+                    ass: "15 days after-sales support"
                 }
             },
             pro: {
                 title: "Pro pack",
                 price: "750 €",
-                alternative: "or 150 € per months during 5 months",
+                alternative: "or 150 € per month for 5 months",
                 content: {
                     showcase_site: "Showcase site",
                     content_integration: "Content integration",
-                    page: "Multiple page site",
+                    page: "Multiple-page site",
                     slider: "Slider (3 slides) with animations",
-                    ass: "1 month after-sales service",
-                    logo: "Design of a FONT logo"
+                    ass: "1 month after-sales support",
+                    logo: "Custom wordmark logo"
                 }
             },
             expert: {
                 title: "Expert pack",
                 price: "1000 €",
-                alternative: "or 200 € per months during 5 months",
+                alternative: "or 200 € per month for 5 months",
                 content: {
                     showcase_site: "Showcase site or E-commerce",
                     content_integration: "Content integration",
-                    page: "Multiple page site",
+                    page: "Multiple-page site",
                     slider: "Slider (3 slides) with animations",
-                    ass: "2 month after-sales service",
-                    logo: "Design of a FONT logo",
-                    design: "Custom graphic design"
+                    ass: "2 month after-sales support",
+                    logo: "Custom wordmark logo",
+                    design: "Custom-made graphic design"
                 }
             },
             custom: {
                 title: "Personalized pack",
-                price: "Custom made",
+                price: "Custom-made",
                 content: {
-                    custom: "Custom site",
+                    custom: "Custom-made site",
                     needs: "According to your needs",
                     meeting: "Monthly meeting",
                     quotation: "Quotation"
@@ -109,11 +109,11 @@ export default {
             title: "About"
         },
         intro: {
-            title: 'Hey, welcome to onRuntime Studio',
-            subtitle: 'Dévelopers, Designers et Artists from all places',
-            desc: 'Basically we have been passionate about web development and general development for over 6 years. We are very interested in new technologies and the world of creation (design, music, etc.) in general, from there we have created a Studio and a community around it, we love to gather around a cup of coffee ☕️ to discuss, play and above all create projects.'
+            title: 'Welcome to onRuntime Studio',
+            subtitle: 'Developers, designers and artists from all walks of life',
+            desc: 'Basically we have been passionate about web and software development for over 6 years. We are very interested in new technologies and the world of creation (design, music, etc.) in general, so we created a Studio and a community around that studio. We love to gather around a cup of coffee ☕️ to discuss, play and above all create projects.'
         },
-        btn: "Know more about us",
+        btn: "Learn more about us",
         team: {
             title: 'Leaders',
             role: {
