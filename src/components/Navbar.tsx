@@ -1,6 +1,7 @@
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
+import Image from 'next/image';
 
-import navbarStyles from '@styles/modules/Navbar.module.scss'
+import navbarStyles from '@styles/modules/Navbar.module.scss';
 import React from 'react';
 import Link from './Link';
 
@@ -12,7 +13,7 @@ const Navbar = (props) => {
     return (
         <nav {...props} className={navbarStyles.navbar} >
             <Link href="/" className={navbarStyles.brand}>
-                <img src="/assets/img/favicon/android-chrome-512x512.png" className={navbarStyles.brandLogo} alt="onRuntime Logo" />
+                <Image src="/assets/img/favicon/android-chrome-512x512.png" className={navbarStyles.brandLogo} alt="onRuntime Logo" height={48} width={48} priority={true} />
                 <h1 className={navbarStyles.brandTitle}>onRuntime</h1>
             </Link>
             <ul className={navbarStyles.nav}>
@@ -50,7 +51,7 @@ const Navbar = (props) => {
                 </li>
             </ul>
             <Link href={router.asPath} className={navbarStyles.lang} locale={(locale == 'en') ? 'fr' : 'en'}>
-                <img className={navbarStyles.langLogo} src={`/assets/img/emoji/flag-${locale}.png`} />
+                <Image className={navbarStyles.langLogo} src={`/assets/img/emoji/flag-${locale}.png`} height={30} width={30} priority={true}  />
             </Link>
         </nav>
     )

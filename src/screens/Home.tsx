@@ -36,7 +36,7 @@ const Home = ({ projects }: Props) => {
             </div>
             <div className={homeStyles.about}>
                 <div className={homeStyles.col}>
-                    <Image className={homeStyles.img} src="https://picsum.photos/seed/picsum/1920/1080" width={1920} height={1080} alt="" />
+                    <Image className={homeStyles.img} src="https://picsum.photos/seed/picsum/1920/1080" width={1920} height={1080} alt="" priority={true} />
                 </div>
                 <div className={homeStyles.col}>
                     <h2 className={homeStyles.title}>{t.home.about.title}</h2>
