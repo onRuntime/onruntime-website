@@ -44,7 +44,7 @@ const About = ({ teamMembers }: Props) => {
                     <button className={[buttonStyles.button, aboutStyles.btn].join(' ')} onClick={handleClickToLeaders}>{t.about.btn}</button>
                 </div>
                 <div className={aboutStyles.col}>
-                    <Image className={aboutStyles.img} src="/assets/img/logo/onruntime-transparent-white.png" alt="onRuntime Logo" width={1000} height={1000} />
+                    <Image className={aboutStyles.img} src="/assets/img/logo/onruntime-transparent-white.png" alt="onRuntime Logo" width={1000} height={1000} priority={true} />
                 </div>
             </div>
             <div className={aboutStyles.team} ref={leadersRef}>
