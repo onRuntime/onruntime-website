@@ -22,6 +22,13 @@ export default {
         tiny: "11px"
     },
     breakpoint: {
-        tablet: "768px"
+        /* Desktops and laptops */
+        desktop: "1824px",
+        /* iPads (landscape) */
+        laptop: "1224px",
+        /* iPads (portrait) */
+        tablet: "1024px",
+        /* Smartphones (landscape) */
+        mobile: "768px"
     }
 };

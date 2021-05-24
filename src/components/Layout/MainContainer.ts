@@ -13,5 +13,5 @@ export default styled.main`
     margin: 50px auto;
     padding: 0 15px;
     width: calc(100% - 15px * 2);
-    max-width: 1224px;
+    max-width: ${({ theme }) => theme.breakpoint.laptop};
 `;

@@ -197,13 +197,6 @@ export default createGlobalStyle`
         }
     }
 
-    section {
-        animation-duration: 1s;
-        animation-name: fadeIn;
-        animation-fill-mode: both;
-        opacity: 1;
-    }
-
     /* animations */
 
     @keyframes fadeIn {
