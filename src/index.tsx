@@ -2,10 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import "./i18n";
 
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        <React.Suspense fallback={<div>Loading...</div>}>
+            <App />
+        </React.Suspense>
     </React.StrictMode>,
     document.getElementById("root")
 );
