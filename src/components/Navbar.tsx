@@ -2,83 +2,76 @@ import React from "react";
 import styled from "styled-components";
 import { useLocation } from "react-router";
 import Link from "./Link";
-import ShadowBonusLogo from "assets/images/shadowbonus.svg";
+import onRuntimeLogo from "assets/images/onruntime.png";
+import * as ROUTES from "constants/routes";
 
 const Navbar: React.FC = () => {
     const { pathname } = useLocation();
 
     return (
         <Container>
-            <Content>
-                <LogoContainer>
-                    <Link href="/">
-                        <Logo src={ShadowBonusLogo} draggable={false} />
-                    </Link>
-                </LogoContainer>
-                <Nav>
-                    <NavItem>
-                        <NavLink href="/" active={pathname}>
-                            <NavIcon className="ri-gift-fill" />
-                            Bonus
-                        </NavLink>
-                    </NavItem>
-                    {/* <NavItem><NavLink soon><NavIcon className="ri-money-dollar-circle-fill" /> Machines à sous</NavLink></NavItem> */}
-                    <NavItem>
-                        <NavLink soon={true}>
-                            <NavIcon className="ri-star-half-fill" />
-                            Avis Casino
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href={"https://streamelements.com/vitapvpey/store"}>
-                            <NavIcon className="ri-vip-diamond-fill" />
-                            Concours
-                        </NavLink>
-                    </NavItem>
-                </Nav>
-                <NavX className="ri-menu-4-fill" />
-            </Content>
+            <Brand href={ROUTES.HOME}>
+                <BrandLogo src={onRuntimeLogo} draggable={false} height={48} width={48} />
+                <BrandTitle>onRuntime</BrandTitle>
+            </Brand>
+            <Nav>
+                <NavItem>
+                    <NavLink href={ROUTES.PROJECTS} active={pathname === ROUTES.PROJECTS}>
+                        Projects
+                    </NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink href={ROUTES.ABOUT} active={pathname === ROUTES.ABOUT}>
+                        Team
+                    </NavLink>
+                </NavItem>
+            </Nav>
+            <Lang>
+                <LangImage src={"bruh"} draggable={false} height={30} width={30} />
+            </Lang>
         </Container>
     );
 };
 
 const Container = styled.nav`
     display: flex;
-    height: 80px;
+    height: 60px;
+    padding: 0 15px;
     align-items: center;
     user-select: none;
+    justify-content: space-between;
 `;
 
-const Content = styled.div`
+const Brand = styled(Link)`
+    position: relative;
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    max-width: 1224px;
-    width: calc(100% - 15px * 2);
-    padding: 0 15px;
-    margin: 0 auto;
 `;
 
-const LogoContainer = styled.div`
-    height: 80px;
-    width: 135px;
-    transition: all .2s;
-    cursor: pointer;
-    :hover {
-        transform: scale(1.05);
-    }
-`;
-
-const Logo = styled.img`
+const BrandLogo = styled.img`
+    max-height: 80%;
     height: 100%;
-    width: 100%;
+    width: auto;
+`;
+
+const BrandTitle = styled.h1`
+    position: absolute;
+    font-size: ${({ theme }) => theme.size.medium};
+    right: -200%;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.normal}) {
+        display: none;
+    }
 `;
 
 const Nav = styled.ul`
     display: flex;
-    @media (max-width: 768px) {
-        display: none;
-    }
+    align-items: center;
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
 `;
 
 const NavItem = styled.li`
@@ -93,33 +86,24 @@ const NavItem = styled.li`
     }
 `;
 
-const NavLink = styled(Link) <{ active?: boolean; soon?: boolean }>`
+const NavLink = styled(Link) <{ active: boolean }>`
     position: relative;
-    color: ${({ active }) => (active ? "rgb(72, 255, 123)" : "rgb(150, 150, 150)")};
-    font-weight: ${({ active }) => (active ? "600" : "400")};
+    color: ${({ active, theme }) => (active ? theme.colors.text.lightest : theme.colors.text.light)};
+    font-weight: ${({ active, theme }) => (active ? theme.weight.bold : theme.weight.normal)};
     display: flex;
     align-items: center;
-
-    ${({ soon }) => (soon && `
-        filter: brightness(0.6);
-        cursor: initial;
-
-        :hover {
-            color: rgb(150, 150, 150);
-        }
-    `)};
 `;
 
-const NavIcon = styled.i`
-    margin-right: 8px;
+const Lang = styled(Link)`
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 `;
 
-const NavX = styled.i`
-    font-size: 25px;
-    display: none;
-    @media (max-width: 768px) {
-        display: block;
-    }
+const LangImage = styled.img`
+    max-height: 30px;
+    height: auto;
+    width: 30px;
 `;
 
 export default Navbar;

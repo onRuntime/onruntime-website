@@ -143,7 +143,7 @@ export default createGlobalStyle`
     body {
         font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue",
             "Lucida Grande", sans-serif;
-        background-color: ${props => props.theme.colors.layout.darker};
+        background-color: ${({ theme }) => theme.colors.layout.darker};
     }
 
     /* scrollbar */
@@ -179,11 +179,11 @@ export default createGlobalStyle`
     input,
     button,
     textarea {
-        font-family: ${props => props.theme.family.primary};
-        font-size: ${props => props.theme.size.normal};
-        font-weight: ${props => props.theme.weight.regular};
+        font-family: ${({ theme }) => theme.family.primary};
+        font-size: ${({ theme }) => theme.size.normal};
+        font-weight: ${({ theme }) => theme.weight.regular};
         text-align: left;
-        color: ${props => props.theme.colors.text.lightest};
+        color: ${({ theme }) => theme.colors.text.lightest};
     }
 
     a {
