@@ -143,34 +143,34 @@ export default createGlobalStyle`
     body {
         font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue",
             "Lucida Grande", sans-serif;
-        background-color: ${props => props.theme.colors.layout.darkest};
+        background-color: ${props => props.theme.colors.layout.darker};
     }
 
     /* scrollbar */
 
     html,
     body {
-    scrollbar-color: rgba(0, 0, 0, 0.6) rgba(0, 0, 0, 0.3);
+        scrollbar-color: rgba(0, 0, 0, 0.6) rgba(0, 0, 0, 0.3);
     }
 
     ::-webkit-scrollbar {
-    width: 7px;
-    /* for vertical scrollbars */
-    height: 7px;
-    /* for horizontal scrollbars */
+        width: 7px;
+        /* for vertical scrollbars */
+        height: 7px;
+        /* for horizontal scrollbars */
     }
 
     ::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.3);
+        background: rgba(0, 0, 0, 0.3);
     }
 
     ::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.6);
-    height: 10px;
+        background: rgba(0, 0, 0, 0.6);
+        height: 10px;
     }
 
     ::-webkit-scrollbar-track-piece {
-    height: 30px;
+        height: 30px;
     }
 
     /* fonts */
@@ -179,29 +179,51 @@ export default createGlobalStyle`
     input,
     button,
     textarea {
-    font-family: $fontFamilyPrimary;
-    font-size: $fontSizeNormal;
-    font-weight: $fontWeightRegular;
-    text-align: left;
-    color: $colorWhitePrimary;
+        font-family: ${props => props.theme.family.primary};
+        font-size: ${props => props.theme.size.normal};
+        font-weight: ${props => props.theme.weight.regular};
+        text-align: left;
+        color: ${props => props.theme.colors.text.lightest};
     }
 
     a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.5);
-    transition: all 0.2s;
-    cursor: pointer;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+        transition: all 0.2s;
+        cursor: pointer;
 
-    &:hover {
-        color: rgba(255, 255, 255, 1);
-    }
+        :hover {
+            color: rgba(255, 255, 255, 1);
+        }
     }
 
     section {
-    animation-duration: 1s;
-    animation-name: fadeIn;
-    animation-fill-mode: both;
-    opacity: 1;
+        animation-duration: 1s;
+        animation-name: fadeIn;
+        animation-fill-mode: both;
+        opacity: 1;
     }
 
+    /* animations */
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes loadingImage {
+        0% {
+            background-position: 0% 0;
+        }
+        50% {
+            background-position: 100% 0;
+        }
+        100% {
+            background-position: 0% 0;
+        }
+    }
 `;

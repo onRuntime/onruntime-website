@@ -1,3 +1,6 @@
+import main from "./main";
 import dark from "./dark";
 
-export default { dark };
+const complete = (theme) => { return { ...main, ...theme }; };
+
+export default { dark: complete(dark) };

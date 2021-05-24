@@ -18,12 +18,12 @@ const App: React.FC = () => {
                 <header>
                     <Navbar />
                 </header>
-                {/* <Switch>
+                <Switch>
                     {screens.map((routeProps: RouteProps, index: number) => (
                         <Route key={index} {...routeProps} />
                     ))}
                 </Switch>
-                <Footer /> */}
+                {/*<Footer /> */}
             </Router>
         </ThemeProvider>
     );
