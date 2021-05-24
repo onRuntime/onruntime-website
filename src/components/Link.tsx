@@ -1,22 +1,19 @@
-import React from 'react';
-import NextLink from 'next/link';
+import React from "react";
+import { Link as InternalLink } from "react-router-dom";
 
-interface Props {
+interface LinkProps {
     href: string;
-    as?: string;
+    as?: React.ComponentType<unknown>;
     className?: string;
-    locale?: string;
     children: React.ReactNode;
-};
+}
 
-const Link = ({ href, as, className, locale, children }: Props) => {
+const Link: React.FC<LinkProps> = ({ href, as, className, children }: LinkProps) => {
     const internal = /^\/(?!\/)/.test(href);
 
     if (internal) {
         return (
-            <NextLink href={href} as={as} locale={locale}>
-                <a className={className}>{children}</a>
-            </NextLink>
+            <InternalLink to={href} component={as} className={className}>{children}</InternalLink>
         );
     }
 

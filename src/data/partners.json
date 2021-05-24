@@ -1,0 +1,174 @@
+[
+    {
+        "id": "magicalspin",
+        "color": "rgb(148, 27, 132)",
+        "logo": "https://picsum.photos/200/300",
+        "title": "Magical Spin",
+        "description": "magicalspin.com",
+        "tag": "3 offres de bienvenue consécutives",
+        "percentage": 100,
+        "maximum": 1000,
+        "spinsAmount": 20,
+        "wager": false,
+        "note": 4.5,
+        "link": "https://bit.ly/38vPN8w",
+        "wallpaper": "/p-static/wallpapers/elsius.svg",
+        "promo": "10€ offerts sans dépot avec le code VITA-10",
+        "promoCode": "VITA-10",
+        "informations": [
+            {
+                "title": "Informations sur le bonus",
+                "description": "Dépôt min. : **10€** - VPN autorisé : **Oui**\n\nMise max. : **7.5€** - Bonus hunt : **Oui**\n\n**NON WAGER** - Cryptomonnaies : **Oui**"
+            },
+            {
+                "title": "Précisions",
+                "description": "Pour profiter de l’offre de bienvenue, il faut déposer un minimum de 25€. Pensez à utiliser le code VITA-10 pour obtenir 10€ gratuitement (sans dépôt)."
+            },
+            {
+                "title": "Support du casino",
+                "description": "Service live chat 7J/7 de 9h du matin jusqu'à 1h du matin (CET).\n\n*[support@magicalspin.com](mailto:support@magicalspin.com)*"
+            }
+        ]
+    },
+    {
+        "id": "azurcasino",
+        "color": "rgb(24, 140, 226)",
+        "logo": "https://picsum.photos/200/300",
+        "title": "Azur Casino",
+        "description": "azurcasino2.com",
+        "tag": "L'irrésistible",
+        "percentage": 100,
+        "maximum": 500,
+        "spinsAmount": 20,
+        "wager": false,
+        "note": 4.5,
+        "link": "https://bit.ly/38vPN8w",
+        "wallpaper": "/p-static/wallpapers/gandom.svg",
+        "informations": [
+            {
+                "title": "Informations sur le bonus",
+                "description": "Dépôt min. : **10€** - VPN autorisé : **Oui**\n\nMise max. : **7.5€** - Bonus hunt : **Oui**\n\n**NON WAGER** - Cryptomonnaies : **Oui**"
+            },
+            {
+                "title": "Précisions",
+                "description": "Pour profiter de l’offre de bienvenue, il faut déposer un minimum de 25€. Pensez à utiliser le code VITA-10 pour obtenir 10€ gratuitement (sans dépôt)."
+            },
+            {
+                "title": "Support du casino",
+                "description": "Service live chat 7J/7 de 9h du matin jusqu'à 1h du matin (CET).\n\n*[support@magicalspin.com](mailto:support@magicalspin.com)*"
+            }
+        ]
+    },
+    {
+        "id": "princeali",
+        "color": "rgb(6, 89, 118)",
+        "logo": "https://picsum.photos/200/300",
+        "title": "Prince Ali",
+        "description": "princeali.casino",
+        "tag": "L'incontournable",
+        "percentage": 100,
+        "maximum": 3000,
+        "wager": false,
+        "note": 4.5,
+        "link": "https://bit.ly/38vPN8w",
+        "wallpaper": "/p-static/wallpapers/banzaislots.svg",
+        "promo": "10€ offerts sans dépot avec le code VITA-10",
+        "promoCode": "VITA-10",
+        "informations": [
+            {
+                "title": "Informations sur le bonus",
+                "description": "Dépôt min. : **10€** - VPN autorisé : **Oui**\n\nMise max. : **7.5€** - Bonus hunt : **Oui**\n\n**NON WAGER** - Cryptomonnaies : **Oui**"
+            },
+            {
+                "title": "Précisions",
+                "description": "Pour profiter de l’offre de bienvenue, il faut déposer un minimum de 25€. Pensez à utiliser le code VITA-10 pour obtenir 10€ gratuitement (sans dépôt)."
+            }
+        ]
+    },
+    {
+        "id": "magicalspin",
+        "color": "rgb(148, 27, 132)",
+        "logo": "https://picsum.photos/200/300",
+        "title": "Magical Spin",
+        "description": "magicalspin.com",
+        "tag": "",
+        "percentage": 100,
+        "maximum": 1000,
+        "spinsAmount": 20,
+        "wager": false,
+        "note": 4.5,
+        "link": "https://bit.ly/38vPN8w",
+        "wallpaper": "",
+        "promo": "10€ offerts sans dépot avec le code VITA-10",
+        "promoCode": "VITA-10",
+        "informations": [
+            {
+                "title": "Informations sur le bonus",
+                "description": "Dépôt min. : **10€** - VPN autorisé : **Oui**\n\nMise max. : **7.5€** - Bonus hunt : **Oui**\n\n**NON WAGER** - Cryptomonnaies : **Oui**"
+            },
+            {
+                "title": "Précisions",
+                "description": "Pour profiter de l’offre de bienvenue, il faut déposer un minimum de 25€. Pensez à utiliser le code VITA-10 pour obtenir 10€ gratuitement (sans dépôt)."
+            },
+            {
+                "title": "Support du casino",
+                "description": "Service live chat 7J/7 de 9h du matin jusqu'à 1h du matin (CET).\n\n*[support@magicalspin.com](mailto:support@magicalspin.com)*"
+            }
+        ]
+    },
+    {
+        "id": "azurcasino",
+        "color": "rgb(24, 140, 226)",
+        "logo": "https://picsum.photos/200/300",
+        "title": "Azur Casino",
+        "description": "azurcasino2.com",
+        "tag": "",
+        "percentage": 100,
+        "maximum": 500,
+        "spinsAmount": 20,
+        "wager": false,
+        "note": 4.5,
+        "link": "https://bit.ly/38vPN8w",
+        "wallpaper": "",
+        "informations": [
+            {
+                "title": "Informations sur le bonus",
+                "description": "Dépôt min. : **10€** - VPN autorisé : **Oui**\n\nMise max. : **7.5€** - Bonus hunt : **Oui**\n\n**NON WAGER** - Cryptomonnaies : **Oui**"
+            },
+            {
+                "title": "Précisions",
+                "description": "Pour profiter de l’offre de bienvenue, il faut déposer un minimum de 25€. Pensez à utiliser le code VITA-10 pour obtenir 10€ gratuitement (sans dépôt)."
+            },
+            {
+                "title": "Support du casino",
+                "description": "Service live chat 7J/7 de 9h du matin jusqu'à 1h du matin (CET).\n\n*[support@magicalspin.com](mailto:support@magicalspin.com)*"
+            }
+        ]
+    },
+    {
+        "id": "princeali",
+        "color": "rgb(6, 89, 118)",
+        "logo": "https://picsum.photos/200/300",
+        "title": "Prince Ali",
+        "description": "princeali.casino",
+        "tag": "",
+        "percentage": 100,
+        "maximum": 3000,
+        "wager": false,
+        "note": 4.5,
+        "link": "https://bit.ly/38vPN8w",
+        "wallpaper": "",
+        "promo": "10€ offerts sans dépot avec le code VITA-10",
+        "promoCode": "VITA-10",
+        "informations": [
+            {
+                "title": "Informations sur le bonus",
+                "description": "Dépôt min. : **10€** - VPN autorisé : **Oui**\n\nMise max. : **7.5€** - Bonus hunt : **Oui**\n\n**NON WAGER** - Cryptomonnaies : **Oui**"
+            },
+            {
+                "title": "Précisions",
+                "description": "Pour profiter de l’offre de bienvenue, il faut déposer un minimum de 25€. Pensez à utiliser le code VITA-10 pour obtenir 10€ gratuitement (sans dépôt)."
+            }
+        ]
+    }
+]

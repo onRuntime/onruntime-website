@@ -1,78 +1,125 @@
-import { useRouter } from 'next/router';
-import Image from 'next/image';
+import React from "react";
+import styled from "styled-components";
+import { useLocation } from "react-router";
+import Link from "./Link";
+import ShadowBonusLogo from "assets/images/shadowbonus.svg";
 
-import navbarStyles from '@styles/modules/Navbar.module.scss';
-import React from 'react';
-import Link from './Link';
-
-const Navbar = (props) => {
-    const router = useRouter();
-    const { locale } = router;
-    const t = require(`../translations/${locale}`).default;
+const Navbar: React.FC = () => {
+    const { pathname } = useLocation();
 
     return (
-        <nav {...props} className={navbarStyles.navbar} >
-            <Link href="/" className={navbarStyles.brand}>
-                <Image src="/assets/img/favicon/android-chrome-512x512.png" className={navbarStyles.brandLogo} alt="onRuntime Logo" height={48} width={48} priority={true} />
-                <h1 className={navbarStyles.brandTitle}>onRuntime</h1>
-            </Link>
-            <ul className={navbarStyles.nav}>
-                <li className={navbarStyles.navItem}>
-                    <NavLink
-                        className={navbarStyles.navLink}
-                        href="/projects"
-                    >
-                        {t.main.projects}
-                    </NavLink>
-                </li>
-                <li className={navbarStyles.navItem}>
-                    <NavLink
-                        className={navbarStyles.navLink}
-                        href="/services"
-                    >
-                        {t.main.services}
-                    </NavLink>
-                </li>
-                <li className={navbarStyles.navItem}>
-                    <NavLink
-                        className={navbarStyles.navLink}
-                        href="/music"
-                    >
-                        {t.main.music}
-                    </NavLink>
-                </li>
-                <li className={navbarStyles.navItem}>
-                    <NavLink
-                        className={navbarStyles.navLink}
-                        href="/about"
-                    >
-                        {t.main.about}
-                    </NavLink>
-                </li>
-            </ul>
-            <Link href={router.asPath} className={navbarStyles.lang} locale={(locale == 'en') ? 'fr' : 'en'}>
-                <Image className={navbarStyles.langLogo} src={`/assets/img/emoji/flag-${locale}.png`} height={30} width={30} priority={true}  />
-            </Link>
-        </nav>
-    )
-}
+        <Container>
+            <Content>
+                <LogoContainer>
+                    <Link href="/">
+                        <Logo src={ShadowBonusLogo} draggable={false} />
+                    </Link>
+                </LogoContainer>
+                <Nav>
+                    <NavItem>
+                        <NavLink href="/" active={pathname}>
+                            <NavIcon className="ri-gift-fill" />
+                            Bonus
+                        </NavLink>
+                    </NavItem>
+                    {/* <NavItem><NavLink soon><NavIcon className="ri-money-dollar-circle-fill" /> Machines à sous</NavLink></NavItem> */}
+                    <NavItem>
+                        <NavLink soon={true}>
+                            <NavIcon className="ri-star-half-fill" />
+                            Avis Casino
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href={"https://streamelements.com/vitapvpey/store"}>
+                            <NavIcon className="ri-vip-diamond-fill" />
+                            Concours
+                        </NavLink>
+                    </NavItem>
+                </Nav>
+                <NavX className="ri-menu-4-fill" />
+            </Content>
+        </Container>
+    );
+};
 
+const Container = styled.nav`
+    display: flex;
+    height: 80px;
+    align-items: center;
+    user-select: none;
+`;
 
+const Content = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1224px;
+    width: calc(100% - 15px * 2);
+    padding: 0 15px;
+    margin: 0 auto;
+`;
 
-const NavLink = ({ href, className, children }: {
-    href: string;
-    className: string;
-    children: React.ReactNode;
-}) => {
-    const router = useRouter();
-    const { asPath } = router;
-    if (asPath.includes(href)) className = [className, navbarStyles.active].join(' ')
+const LogoContainer = styled.div`
+    height: 80px;
+    width: 135px;
+    transition: all .2s;
+    cursor: pointer;
+    :hover {
+        transform: scale(1.05);
+    }
+`;
 
-    return (
-        <Link href={href} className={className}>
-            {children}
-        </Link>
-    )
-}
+const Logo = styled.img`
+    height: 100%;
+    width: 100%;
+`;
 
-export default Navbar
+const Nav = styled.ul`
+    display: flex;
+    @media (max-width: 768px) {
+        display: none;
+    }
+`;
+
+const NavItem = styled.li`
+    margin: 0 15px;
+
+    :first-child {
+        margin-left: 0;
+    }
+
+    :last-child {
+        margin-right: 0;
+    }
+`;
+
+const NavLink = styled(Link) <{ active?: boolean; soon?: boolean }>`
+    position: relative;
+    color: ${({ active }) => (active ? "rgb(72, 255, 123)" : "rgb(150, 150, 150)")};
+    font-weight: ${({ active }) => (active ? "600" : "400")};
+    display: flex;
+    align-items: center;
+
+    ${({ soon }) => (soon && `
+        filter: brightness(0.6);
+        cursor: initial;
+
+        :hover {
+            color: rgb(150, 150, 150);
+        }
+    `)};
+`;
+
+const NavIcon = styled.i`
+    margin-right: 8px;
+`;
+
+const NavX = styled.i`
+    font-size: 25px;
+    display: none;
+    @media (max-width: 768px) {
+        display: block;
+    }
+`;
+
+export default Navbar;
