@@ -10,7 +10,7 @@ const screens: RouteProps[] = [
     { path: ROUTES.PROJECTS, exact: true, component: Projects },
     { path: ROUTES.ABOUT, exact: true, component: About },
     { path: ROUTES.HOME, exact: true, component: Home },
-    { path: "*", component: Error },
+    { component: Error },
 ];
 
 export default screens;

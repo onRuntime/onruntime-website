@@ -9,6 +9,7 @@ import Footer from "components/Footer";
 import screens from "screens";
 
 import "remixicon/fonts/remixicon.css";
+import MainContainer from "components/Layout/MainContainer";
 
 const App: React.FC = () => {
     return (
