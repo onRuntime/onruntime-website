@@ -1,11 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 import { useLocation } from "react-router";
+import { useTranslation } from "react-i18next";
+
 import Link from "./Link";
 import onRuntimeLogo from "assets/images/onruntime.png";
 import * as ROUTES from "constants/routes";
 
 const Navbar: React.FC = () => {
+
+    const [t] = useTranslation();
     const { pathname } = useLocation();
 
     return (
@@ -16,14 +20,10 @@ const Navbar: React.FC = () => {
             </Brand>
             <Nav>
                 <NavItem>
-                    <NavLink href={ROUTES.PROJECTS} active={pathname === ROUTES.PROJECTS}>
-                        Projects
-                    </NavLink>
+                    <NavLink href={ROUTES.PROJECTS} active={pathname === ROUTES.PROJECTS}>{t("main.projects")}</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href={ROUTES.ABOUT} active={pathname === ROUTES.ABOUT}>
-                        Team
-                    </NavLink>
+                    <NavLink href={ROUTES.ABOUT} active={pathname === ROUTES.ABOUT}>{t("main.about")}</NavLink>
                 </NavItem>
             </Nav>
             <Lang>

@@ -2,17 +2,17 @@ import { useTranslation } from "react-i18next";
 
 import Head from "components/Head";
 
-const Home: React.FC = () => {
+const Projects: React.FC = () => {
     const [t] = useTranslation();
 
     return (
         <>
             <Head
-                title={t("home.head.title")}
-                description={t("main.desc")}
+                title={t("about.head.title")}
+                description={t("about.head.desc")}
             />
         </>
     );
 };
 
-export default Home;
+export default Projects;
