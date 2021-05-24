@@ -23,7 +23,7 @@ const App: React.FC = () => {
                         <Route key={index} {...routeProps} />
                     ))}
                 </Switch>
-                {/*<Footer /> */}
+                <Footer />
             </Router>
         </ThemeProvider>
     );
