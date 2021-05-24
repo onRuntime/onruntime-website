@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import Link from "./Link";
 import onRuntimeLogo from "assets/images/onruntime.png";
 import * as ROUTES from "constants/routes";
+import FlagEnIcon from "assets/emojis/flag-en.png";
 
 const Navbar: React.FC = () => {
 
@@ -27,7 +28,7 @@ const Navbar: React.FC = () => {
                 </NavItem>
             </Nav>
             <Lang>
-                <LangImage src={"bruh"} draggable={false} height={30} width={30} />
+                <LangImage src={FlagEnIcon} draggable={false} height={30} width={30} />
             </Lang>
         </Container>
     );
@@ -60,7 +61,7 @@ const BrandTitle = styled.h1`
     font-size: ${({ theme }) => theme.size.medium};
     right: -200%;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.normal}) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
         display: none;
     }
 `;
