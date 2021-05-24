@@ -5,6 +5,7 @@ import Link from "../components/Link";
 import * as ROUTES from "constants/routes";
 import Head from "components/Head";
 import { APPNAME } from "constants/main";
+import MainContainer from "components/Layout/MainContainer";
 
 const Error: React.FC = () => {
     const [t] = useTranslation();
@@ -17,13 +18,13 @@ const Error: React.FC = () => {
     );
 };
 
-const Container = styled.div`
+const Container = styled(MainContainer)`
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    height: 100%;
+    height: calc(100% - 60px - 200px);
 `;
 
 const Title = styled.h2`
@@ -35,8 +36,8 @@ const Description = styled.h2`
     margin-top: 30px;
 
     a {
-        color: ${({ theme }) => theme.colors.text.lightest};;
-        font-weight: ${({ theme }) => theme.weight.bold};;
+        color: ${({ theme }) => theme.colors.text.lightest};
+        font-weight: ${({ theme }) => theme.weight.bold};
     }
 `;
 

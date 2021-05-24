@@ -10,7 +10,7 @@ export default styled.main`
     display: flex;
     flex: 1;
     flex-direction: column;
-    margin: 50px auto;
+    margin: 0 auto;
     padding: 0 15px;
     width: calc(100% - 15px * 2);
     max-width: ${({ theme }) => theme.breakpoint.laptop};
