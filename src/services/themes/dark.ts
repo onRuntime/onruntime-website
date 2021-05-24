@@ -14,13 +14,11 @@ export default {
             lighter: "rgb(200, 200, 200)",
             light: "rgb(150, 150, 150)",
             dark: "rgb(135, 135, 135)",
-            darker: "rgb(100, 100, 100)"
+            darker: "rgb(100, 100, 100)",
+            darkest: "rgb(30, 31, 32)"
         },
         accent: {
-            light: "rgb(67, 181, 147)",
-            lightShadow: "rgb(67 181 147 / 70%)",
-            dark: "rgb(255, 121, 198)",
-            darkShadow: "rgb(255 121 198 / 70%)"
+            light: "rgb(255, 255, 255)",
         }
     }
 };
