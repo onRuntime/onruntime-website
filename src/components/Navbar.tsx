@@ -4,7 +4,7 @@ import { useLocation } from "react-router";
 import { useTranslation } from "react-i18next";
 
 import Link from "./Link";
-import onRuntimeLogo from "assets/images/onruntime.png";
+import onRuntimeLogo from "assets/images/onruntime.svg";
 import * as ROUTES from "constants/routes";
 import FlagEnIcon from "assets/emojis/flag-en.png";
 
@@ -48,18 +48,24 @@ const Brand = styled(Link)`
     height: 100%;
     display: flex;
     align-items: center;
+    filter: brightness(.75);
+    transition: all .2s;
+
+    :hover {
+        filter: brightness(1);
+    }
 `;
 
 const BrandLogo = styled.img`
-    max-height: 80%;
-    height: 100%;
+    height: 30px;
     width: auto;
+    transform: scale(.75);
 `;
 
 const BrandTitle = styled.h1`
     position: absolute;
     font-size: ${({ theme }) => theme.size.medium};
-    right: -200%;
+    right: -350%;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
         display: none;

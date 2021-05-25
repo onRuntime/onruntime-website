@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Head from "components/Head";
 import Button from "components/Layout/Button";
 import MainContainer from "components/Layout/MainContainer";
-import onRuntimeLogo from "assets/images/onruntime.png";
+import onRuntimeLogo from "assets/images/onruntime.svg";
 
 const Projects: React.FC = () => {
     const [t] = useTranslation();
@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
                         <IntroButton>{t("about.btn")}</IntroButton>
                     </IntroCol>
                     <IntroCol>
-                        <IntroImage src={onRuntimeLogo} alt="onRuntime Logo" width={1000} height={1000} />
+                        <IntroImage src={onRuntimeLogo} alt="onRuntime Logo" width={1000} height={1000} draggable={false} />
                     </IntroCol>
                 </Intro>
                 <Team>
@@ -87,6 +87,7 @@ const IntroImage = styled.img`
     height: auto;
     border-radius: 10px;
     align-self: flex-end;
+    transform: scale(.75);
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
         align-self: center;
