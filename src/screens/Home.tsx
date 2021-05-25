@@ -5,7 +5,10 @@ import Head from "components/Head";
 import MainContainer from "components/Layout/MainContainer";
 import Button from "components/Layout/Button";
 import Link from "components/Link";
+import ProjectList from "components/ProjectList";
 import * as ROUTES from "constants/routes";
+
+import projectsData from "data/projects";
 
 const Home: React.FC = () => {
     const [t] = useTranslation();
@@ -35,6 +38,7 @@ const Home: React.FC = () => {
                 <Projects>
                     <ProjectsTitle>{t("home.projects.title")}</ProjectsTitle>
                     <ProjectsDescription>{t("home.projects.desc")}</ProjectsDescription>
+                    <ProjectList data={projectsData.slice(0, 3)} />
                     <ProjectsButton href={ROUTES.PROJECTS} as={Link} outline>{t("home.projects.btn")}</ProjectsButton>
                 </Projects>
             </Container>
