@@ -3,6 +3,9 @@ import styled from "styled-components";
 
 import Head from "components/Head";
 import MainContainer from "components/Layout/MainContainer";
+import ProjectList from "components/ProjectList";
+
+import projectsData from "data/projects";
 
 const Projects: React.FC = () => {
     const [t] = useTranslation();
@@ -16,6 +19,7 @@ const Projects: React.FC = () => {
             <Container>
                 <Title>{t("projects.title")}</Title>
                 <Description>{t("projects.desc")}</Description>
+                <ProjectList data={projectsData} />
             </Container>
         </MainContainer>
     );
