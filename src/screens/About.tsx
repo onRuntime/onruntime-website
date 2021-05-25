@@ -5,9 +5,19 @@ import Head from "components/Head";
 import Button from "components/Layout/Button";
 import MainContainer from "components/Layout/MainContainer";
 import onRuntimeLogo from "assets/images/onruntime.svg";
+import React from "react";
 
 const Projects: React.FC = () => {
     const [t] = useTranslation();
+    
+    const teamRef = React.createRef<HTMLDivElement>();
+
+    const handleClickToLeaders = (event) => {
+        event.preventDefault();
+        teamRef.current.scrollIntoView({
+            behavior: "smooth"
+        });
+    };
 
     return (
         <MainContainer>
@@ -21,13 +31,13 @@ const Projects: React.FC = () => {
                         <IntroSubtitle>{t("about.intro.subtitle")}</IntroSubtitle>
                         <IntroTitle>{t("about.intro.title")}</IntroTitle>
                         <IntroDescription>{t("about.intro.desc")}</IntroDescription>
-                        <IntroButton>{t("about.btn")}</IntroButton>
+                        <IntroButton onClick={handleClickToLeaders}>{t("about.btn")}</IntroButton>
                     </IntroCol>
                     <IntroCol>
                         <IntroImage src={onRuntimeLogo} alt="onRuntime Logo" width={1000} height={1000} draggable={false} />
                     </IntroCol>
                 </Intro>
-                <Team>
+                <Team ref={teamRef}>
                     <TeamTitle>{t("about.team.title")}</TeamTitle>
                 </Team>
             </Container>
