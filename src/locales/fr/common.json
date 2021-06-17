@@ -1,0 +1,71 @@
+{
+  "main": {
+      "locale": {
+          "name": "English"
+      },
+      "desc": "onRuntime is a French-Canadian studio that brings together teams of creators and develops applications, websites and game platforms.",
+      "projects": "Projets",
+      "about": "À propos",
+      "roles": {
+          "director": "Director",
+          "deputy_director": "Deputy director",
+          "leaders": {
+              "music": "Leader of onRuntime Music",
+              "rvby": "Leader of RVBY",
+              "berrygames": "Leader of BerryGames",
+              "netflixaddicts": "Leader of NetflixAddicts"
+          }
+      }
+  },
+  "home": {
+      "head": {
+          "title": "Home"
+      },
+      "featured": {
+          "title": "Welcome to onRuntime Studio",
+          "desc": "Developers, designers and artists from all walks of life",
+          "btn": "Who are we ?"
+      },
+      "about": {
+          "title": "We are a studio that brings together teams of creators",
+          "desc": "Basically we have been passionate about web and software development for over 6 years. We are very interested in new technologies and the world of creation (design, music, etc.) in general, so we created a Studio and a community around that studio. We love to gather around a cup of coffee ☕️ to discuss, play and above all create projects.",
+          "btn": "Learn more about us"
+      },
+      "projects": {
+          "title": "Latest Projects",
+          "desc": "Some innovative projects we've developed or contributed to in recent years.",
+          "btn": "View all projects"
+      }
+  },
+  "projects": {
+      "head": {
+          "title": "Projects",
+          "desc": "Some innovative projects we've developed or contributed to in recent years."
+      },
+      "title": "Projects",
+      "desc": "Some innovative projects we've developed or contributed to in recent years."
+  },
+  "about": {
+      "head": {
+          "title": "About",
+          "desc": "Welcome to onRuntime Studio, developers, designers and artists from all walks of life"
+      },
+      "intro": {
+          "title": "Welcome to onRuntime Studio",
+          "subtitle": "Developers, designers and artists from all walks of life",
+          "desc": "Basically we have been passionate about web and software development for over 6 years. We are very interested in new technologies and the world of creation (design, music, etc.) in general, so we created a Studio and a community around that studio. We love to gather around a cup of coffee ☕️ to discuss, play and above all create projects."
+      },
+      "btn": "Learn more about us",
+      "team": {
+          "title": "Members",
+          "since": "joined"
+      }
+  },
+  "error": {
+      "head": {
+          "title": "Error"
+      },
+      "title": "Sorry, this page isnt available.",
+      "desc": "The link you followed may be broken, or the page may have been removed. Go back to"
+  }
+}
