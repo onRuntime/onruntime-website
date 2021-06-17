@@ -1,8 +1,7 @@
-export interface Project {
-    id: string;
+export type Project = {
     title: string;
     desc: string;
     link: string;
-    thumbnail_link: string;
+    thumbnail_url: string;
     tags: Array<string>
 }
