@@ -1,6 +1,11 @@
 import main from "./main";
 import dark from "./dark";
+import { Theme } from "src/types/themes";
 
-const complete = (theme) => { return { ...main, ...theme }; };
+const complete = (theme: Theme) => {
+  return { ...main, ...theme };
+};
 
-export default { dark: complete(dark) };
+const themes = { dark: complete(dark) };
+
+export default themes;
