@@ -1,5 +1,5 @@
 {
-  "name": "nextjs",
+  "name": "onruntime-website",
   "options": {
     "allow-unauthenticated": true,
     "memory": "256Mi",
