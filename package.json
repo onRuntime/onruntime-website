@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start -p ${PORT:=3000}"
+    "start": "next start -p ${PORT:=3000}",
+    "docker:build": "docker build . -t wsh-website",
+    "docker:run": "docker run -p 3000:3000 wsh-website"
   },
   "dependencies": {
     "moment": "^2.29.1",
