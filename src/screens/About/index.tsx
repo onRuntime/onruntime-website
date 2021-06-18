@@ -12,10 +12,9 @@ import useTranslation from "@hooks/useTranslation";
 const Projects: React.FC = () => {
   const { t } = useTranslation();
 
-  const teamRef = React.createRef<HTMLDivElement>();
+  const teamRef = React.createRef<any>();
 
-  const handleClickToLeaders = (event) => {
-    event.preventDefault();
+  const handleClickToLeaders = () => {
     teamRef.current.scrollIntoView({
       behavior: "smooth",
     });

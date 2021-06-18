@@ -108,7 +108,7 @@ const NavLink = styled(Link)<{ active: boolean }>`
   color: ${({ active, theme }) =>
     active ? theme.colors.text.lightest : theme.colors.text.light};
   font-weight: ${({ active, theme }) =>
-    active ? theme.weight.bold : theme.weight.normal};
+    active ? theme.weight.bold : theme.weight.regular};
   display: flex;
   align-items: center;
 `;

@@ -15,27 +15,24 @@ const MemberCard: React.FC<MemberCardProps> = ({
 }: MemberCardProps) => {
   const { t } = useTranslation();
 
-  const [state, setState] = React.useState<{
-    height: number;
-    isContentOpen: boolean;
-  }>({
-    height: 0,
-    isContentOpen: false,
-  });
-  const containerRef = React.useRef<HTMLDivElement>();
+  const [height, setHeight] = React.useState<number>(0);
+  const [contentOpen, setContentOpen] = React.useState<boolean>(false);
+
+  const containerRef = React.useRef<HTMLDivElement>(null);
 
   React.useEffect(() => {
-    setState({ ...state, height: containerRef.current.clientWidth });
-  }, [state, setState]);
+    if (containerRef.current) setHeight(containerRef.current.clientWidth);
+  }, []);
 
-  const handleContentOpen = () => {
-    setState({ ...state, isContentOpen: state.isContentOpen ? false : true });
-  };
+  const handleContentOpen = React.useCallback(
+    () => setContentOpen(!contentOpen),
+    [contentOpen]
+  );
 
   return (
     <Container
       ref={containerRef}
-      height={state.height}
+      height={height}
       onMouseEnter={handleContentOpen}
       onMouseLeave={handleContentOpen}
     >
@@ -45,7 +42,7 @@ const MemberCard: React.FC<MemberCardProps> = ({
         height={500}
         draggable={false}
       />
-      <Content href={external_url} isOpen={state.isContentOpen}>
+      <Content href={external_url} contentOpen={contentOpen}>
         <Name>{`${firstname} ${lastname}`}</Name>
         <Job>{job}</Job>
         <Joined>{`${t("about.team.since")} ${moment(
@@ -81,7 +78,7 @@ const ThumbnailImage = styled.img`
   object-fit: cover;
 `;
 
-const Content = styled(Link)<{ isOpen?: boolean }>`
+const Content = styled(Link)<{ contentOpen?: boolean }>`
   position: absolute;
   top: 0;
   left: 0;
@@ -97,8 +94,8 @@ const Content = styled(Link)<{ isOpen?: boolean }>`
   backdrop-filter: blur(5px);
   opacity: 0;
   animation-duration: 1s;
-  animation-name: ${({ isOpen }) =>
-    isOpen === false ? "fadeOut" : isOpen === true ? "fadeIn" : ""};
+  animation-name: ${({ contentOpen }) =>
+    contentOpen === false ? "fadeOut" : contentOpen === true ? "fadeIn" : ""};
   animation-fill-mode: both;
   overflow-y: auto;
 `;

@@ -20,7 +20,7 @@ const Home: React.FC = () => {
         <Featured>
           <FeaturedTitle>{t("home.featured.title")}</FeaturedTitle>
           <FeaturedDescription>{t("home.featured.desc")}</FeaturedDescription>
-          <FeaturedButton href={ROUTES.ABOUT} as={Link} outline>
+          <FeaturedButton href={ROUTES.ABOUT} outline>
             {t("home.featured.btn")}
           </FeaturedButton>
         </Featured>
@@ -36,16 +36,14 @@ const Home: React.FC = () => {
           <AboutCol>
             <AboutTitle>{t("home.about.title")}</AboutTitle>
             <AboutDescription>{t("home.about.desc")}</AboutDescription>
-            <AboutButton href={ROUTES.ABOUT} as={Link}>
-              {t("home.about.btn")}
-            </AboutButton>
+            <AboutButton href={ROUTES.ABOUT}>{t("home.about.btn")}</AboutButton>
           </AboutCol>
         </About>
         <Projects>
           <ProjectsTitle>{t("home.projects.title")}</ProjectsTitle>
           <ProjectsDescription>{t("home.projects.desc")}</ProjectsDescription>
           <ProjectList data={projectsData.slice(0, 3)} />
-          <ProjectsButton href={ROUTES.PROJECTS} as={Link} outline>
+          <ProjectsButton href={ROUTES.PROJECTS} outline>
             {t("home.projects.btn")}
           </ProjectsButton>
         </Projects>
@@ -75,7 +73,11 @@ const FeaturedDescription = styled.div`
   font-weight: ${({ theme }) => theme.weight.medium};
 `;
 
-const FeaturedButton = styled(Button)`
+const FeaturedButton = styled(({ children, ...props }) => (
+  <Button as={Link} {...props}>
+    {children}
+  </Button>
+))`
   margin-top: 30px;
 `;
 
@@ -117,7 +119,11 @@ const AboutDescription = styled.p`
   opacity: 0.75;
 `;
 
-const AboutButton = styled(Button)`
+const AboutButton = styled(({ children, ...props }) => (
+  <Button as={Link} {...props}>
+    {children}
+  </Button>
+))`
   margin-top: 15px;
   width: 80%;
   :hover {
@@ -146,7 +152,11 @@ const ProjectsDescription = styled.p`
   max-width: 700px;
 `;
 
-const ProjectsButton = styled(Button)`
+const ProjectsButton = styled(({ children, ...props }) => (
+  <Button as={Link} {...props}>
+    {children}
+  </Button>
+))`
   margin-top: 50px;
 `;
 
