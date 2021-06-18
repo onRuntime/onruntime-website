@@ -6,7 +6,7 @@ const useTranslation = (
 ): { t: any; locale: string | undefined } => {
   const router = useRouter();
   const { locale } = router;
-  const translation = require(`../locales/${locale}/${namespace}`);
+  const translation = require(`../locales/${locale || "en"}/${namespace}`);
   const translate = (key: string) => {
     const keyList = key.split(".");
     let parent = translation;
