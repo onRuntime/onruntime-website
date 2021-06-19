@@ -30,7 +30,7 @@ const Home: React.FC = () => {
               src={"https://picsum.photos/seed/picsum/1920/1080"}
               width={1920}
               height={1080}
-              alt=""
+              alt={"onRuntime Wallpaper"}
             />
           </AboutCol>
           <AboutCol>
@@ -59,7 +59,7 @@ const Featured = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 128px 0;
+  margin: 128px 0;
 `;
 
 const FeaturedTitle = styled.div`
