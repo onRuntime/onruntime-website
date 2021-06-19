@@ -1,4 +1,6 @@
-const projects = [
+import { Project } from "src/types/project";
+
+const projects: Project[] = [
   {
     title: "Twitter Smooth Extension",
     desc: "projects.list.twittersmooth.desc",
