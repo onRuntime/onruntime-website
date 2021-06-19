@@ -6,6 +6,7 @@ import GlobalStyle from "@components/Layout/GlobalStyle";
 import Footer from "@components/Footer";
 import Navbar from "@components/Navbar";
 import Head from "@components/Head";
+import Script from "@components/Script";
 
 import "remixicon/fonts/remixicon.css";
 
@@ -21,6 +22,7 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => {
       <Navbar />
       <Component {...pageProps} />
       <Footer />
+      <Script />
     </ThemeProvider>
   );
 };
