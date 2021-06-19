@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Link from "../../Link";
 import { Project } from "../../../types/project";
 import React from "react";
+import useTranslation from "@hooks/useTranslation";
 
 interface ProjectCardProps {
   data: Project;
@@ -11,6 +12,7 @@ interface ProjectCardProps {
 const ProjectCard: React.FC<ProjectCardProps> = ({
   data: { title, desc, link, thumbnail_url, tags },
 }: ProjectCardProps) => {
+  const { t } = useTranslation();
   return (
     <Container href={link}>
       <Frame>
@@ -28,7 +30,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           ))}
         </Tag>
         <Title>{title}</Title>
-        <Description>{desc}</Description>
+        <Description>{t(desc)}</Description>
       </Content>
     </Container>
   );
