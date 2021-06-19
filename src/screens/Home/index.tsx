@@ -100,6 +100,7 @@ const AboutCol = styled.div`
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     align-items: center;
     text-align: center;
+    padding: 10px 0;
   }
 `;
 
