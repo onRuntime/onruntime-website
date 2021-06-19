@@ -1,8 +1,10 @@
-const members = [
+import { Member } from "src/types/members";
+
+const members: Member[] = [
   {
     firstname: "Jérémy",
     lastname: "Baudrin",
-    job: "President & CTO",
+    job: "main.roles.president.cto",
     thumbnail_url: "/static/images/members/jeremy-baudrin.jpg",
     external_url: "https://linkedin.com/in/jeremybdn/",
     joined_at: "2015/01/01",
@@ -11,7 +13,7 @@ const members = [
   {
     firstname: "Antoine",
     lastname: "Kingue",
-    job: "President & CEO",
+    job: "main.roles.president.ceo",
     thumbnail_url: "/static/images/members/antoine-kingue.jpg",
     external_url: "https://linkedin.com/in/antoinekm/",
     joined_at: "2015/01/01",
