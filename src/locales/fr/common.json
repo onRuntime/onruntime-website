@@ -1,71 +1,101 @@
 {
   "main": {
-      "locale": {
-          "name": "English"
+    "locale": {
+      "name": "Français"
+    },
+    "desc": "onRuntime est un studio franco-américain qui rassemble des équipes de créateurs et développe des applications, des sites web et des plateformes de jeux.",
+    "projects": "Projets",
+    "about": "À propos",
+    "roles": {
+      "director": "Directeur",
+      "president": {
+        "ceo": "Président et CEO",
+        "cto": "Président et CTO"
       },
-      "desc": "onRuntime is a French-Canadian studio that brings together teams of creators and develops applications, websites and game platforms.",
-      "projects": "Projets",
-      "about": "À propos",
-      "roles": {
-          "director": "Director",
-          "deputy_director": "Deputy director",
-          "leaders": {
-              "music": "Leader of onRuntime Music",
-              "rvby": "Leader of RVBY",
-              "berrygames": "Leader of BerryGames",
-              "netflixaddicts": "Leader of NetflixAddicts"
-          }
+      "deputy_director": "Directeur adjoint",
+      "leaders": {
+        "music": "Leader d'onRuntime Music",
+        "rvby": "Leader de RVBY",
+        "berrygames": "Leader de BerryGames",
+        "netflixaddicts": "Leader de NetflixAddicts"
       }
+    }
   },
   "home": {
-      "head": {
-          "title": "Home"
-      },
-      "featured": {
-          "title": "Welcome to onRuntime Studio",
-          "desc": "Developers, designers and artists from all walks of life",
-          "btn": "Who are we ?"
-      },
-      "about": {
-          "title": "We are a studio that brings together teams of creators",
-          "desc": "Basically we have been passionate about web and software development for over 6 years. We are very interested in new technologies and the world of creation (design, music, etc.) in general, so we created a Studio and a community around that studio. We love to gather around a cup of coffee ☕️ to discuss, play and above all create projects.",
-          "btn": "Learn more about us"
-      },
-      "projects": {
-          "title": "Latest Projects",
-          "desc": "Some innovative projects we've developed or contributed to in recent years.",
-          "btn": "View all projects"
-      }
+    "head": {
+      "title": "Accueil"
+    },
+    "featured": {
+      "title": "Bienvenue chez onRuntime Studio",
+      "desc": "Développeurs, designers et artistes de tous horizons",
+      "btn": "Qui sommes-nous ?"
+    },
+    "about": {
+      "title": "Nous sommes un studio qui rassemble des groupes de créateurs",
+      "desc": "À la base, nous sommes passionnés par le développement web et le développement en général depuis plus de 6 ans. Nous sommes très intéressés par les nouvelles technologies et le monde de la création (design, musique, etc.) en général, à partir de là nous avons créé un Studio et une communauté autour de celui ci, nous adorons nous retrouver autour d'une tasse de café ☕️ pour discuter, jouer et surtout créer des projets.",
+      "btn": "En savoir plus sur nous"
+    },
+    "projects": {
+      "title": "Derniers projets",
+      "desc": "Quelques projets innovants que nous avons contribué à développer ces dernières années.",
+      "btn": "Voir tous les projets"
+    }
   },
   "projects": {
-      "head": {
-          "title": "Projects",
-          "desc": "Some innovative projects we've developed or contributed to in recent years."
-      },
-      "title": "Projects",
-      "desc": "Some innovative projects we've developed or contributed to in recent years."
+    "head": {
+      "title": "Projets",
+      "desc": "Quelques projets innovants que nous avons contribué à développer ces dernières années."
+    },
+    "title": "Projets",
+    "desc": "Quelques projets innovants que nous avons contribué à développer ces dernières années.",
+    "list": {
+        "twittersmooth": {
+            "desc": "Twitter Smooth est une extension qui permet de changer le thème de Twitter et de le rendre smooth."
+        },
+        "instagramdark": {
+            "desc": "Instagram Dark est une extension qui vise à changer le thème du site Web Instagram et à le rendre sombre comme l'application iOS lorsque le système est en mode sombre."
+        },
+        "clockapp": {
+            "desc": "Clock App est une application React Native basique créée avec Expo basée sur un template de Dribbble."
+        },
+        "ultradjs": {
+            "desc": "UltraD.JS est un package utilisant Discord.js pour faciliter la création de bots."
+        },
+        "rvby": {
+            "desc": "Rendez-vous sur le site officiel RVBY pour retrouver nos hoodies et t-shirts ainsi que nos collections du moment, pour un style chic, élégant et raffiné en toutes circonstances."
+        },
+        "netflixaddicts": {
+            "desc": "À tous les fans de séries et de films Netflix ! Retrouvez des avis, des conseils et bien plus sur notre site !"
+        },
+        "berrygames": {
+            "desc": "BerryGames a été créé à l'été 2018 et fermé en février 2021. L'idée de base était de faire un serveur mini-jeux innovant, touchant une communauté internationale via notre système d'internationalisation à travers nos plateformes. 3 Mini Jeux et une partie RP dans les Hubs auraient été jouables à l'ouverture du serveur. Notre infrastructure développée, optimisée et sécurisée par nos chers développeurs vous aurait assuré une expérience de jeu parfaite et fluide sur nos plateformes."
+        },
+        "farugames": {
+            "desc": "FaruGames, un réseau de jeux Minecraft désormais fermé."
+        }
+    }
   },
   "about": {
-      "head": {
-          "title": "About",
-          "desc": "Welcome to onRuntime Studio, developers, designers and artists from all walks of life"
-      },
-      "intro": {
-          "title": "Welcome to onRuntime Studio",
-          "subtitle": "Developers, designers and artists from all walks of life",
-          "desc": "Basically we have been passionate about web and software development for over 6 years. We are very interested in new technologies and the world of creation (design, music, etc.) in general, so we created a Studio and a community around that studio. We love to gather around a cup of coffee ☕️ to discuss, play and above all create projects."
-      },
-      "btn": "Learn more about us",
-      "team": {
-          "title": "Members",
-          "since": "joined"
-      }
+    "head": {
+      "title": "À propos",
+      "desc": "Bienvenue chez onRuntime Studio, développeurs, designers et artistes de tous horizons"
+    },
+    "intro": {
+      "title": "Bienvenue chez onRuntime Studio",
+      "subtitle": "Développeurs, designers et artistes de tous horizons",
+      "desc": "À la base, nous sommes passionnés par le développement web et le développement en général depuis plus de 6 ans. Nous sommes très intéressés par les nouvelles technologies et le monde de la création (design, musique, etc.) en général, à partir de là nous avons créé un Studio et une communauté autour de celui ci, nous adorons nous retrouver autour d'une tasse de café ☕️ pour discuter, jouer et surtout créer des projets."
+    },
+    "btn": "En savoir plus sur nous",
+    "team": {
+      "title": "Membres",
+      "since": "membre depuis"
+    }
   },
   "error": {
-      "head": {
-          "title": "Error"
-      },
-      "title": "Sorry, this page isnt available.",
-      "desc": "The link you followed may be broken, or the page may have been removed. Go back to"
+    "head": {
+      "title": "Erreur"
+    },
+    "title": "Désolé, cette page n'est pas disponible.",
+    "desc": "Le lien que vous avez suivi est peut-être cassé, ou la page a peut-être été supprimée. Revenir sur"
   }
 }
