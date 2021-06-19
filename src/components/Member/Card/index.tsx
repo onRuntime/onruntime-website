@@ -22,7 +22,12 @@ const MemberCard: React.FC<MemberCardProps> = ({
 
   React.useEffect(() => {
     if (containerRef.current) setHeight(containerRef.current.clientWidth);
+    window.addEventListener("resize", handleResize);
   }, []);
+
+  const handleResize = () => {
+    if (containerRef.current) setHeight(containerRef.current.clientWidth);
+  };
 
   const handleContentOpen = React.useCallback(
     () => setContentOpen(!contentOpen),
