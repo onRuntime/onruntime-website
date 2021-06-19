@@ -48,7 +48,7 @@ const Container = styled(Link)`
   flex-direction: column;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-    width: calc(90% - 10px);
+    width: calc(100% - 10px);
   }
 `;
 
