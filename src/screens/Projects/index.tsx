@@ -26,6 +26,7 @@ const Projects: React.FC = () => {
 };
 
 const Container = styled.div`
+  margin-top: 128px;
   display: flex;
   flex-direction: column;
   align-items: center;
