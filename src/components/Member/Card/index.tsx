@@ -44,7 +44,7 @@ const MemberCard: React.FC<MemberCardProps> = ({
       />
       <Content href={external_url} contentOpen={contentOpen}>
         <Name>{`${firstname} ${lastname}`}</Name>
-        <Job>{job}</Job>
+        <Job>{t(job)}</Job>
         <Joined>{`${t("about.team.since")} ${moment(
           new Date(joined_at)
         ).fromNow()}`}</Joined>
