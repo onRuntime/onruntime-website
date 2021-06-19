@@ -16,7 +16,7 @@ const MemberCard: React.FC<MemberCardProps> = ({
   const { t } = useTranslation();
 
   const [height, setHeight] = React.useState<number>(0);
-  const [contentOpen, setContentOpen] = React.useState<boolean>(false);
+  const [contentOpen, setContentOpen] = React.useState<boolean | null>(null);
 
   const containerRef = React.useRef<HTMLDivElement>(null);
 
@@ -78,7 +78,7 @@ const ThumbnailImage = styled.img`
   object-fit: cover;
 `;
 
-const Content = styled(Link)<{ contentOpen?: boolean }>`
+const Content = styled(Link)<{ contentOpen?: boolean | null }>`
   position: absolute;
   top: 0;
   left: 0;
@@ -92,11 +92,8 @@ const Content = styled(Link)<{ contentOpen?: boolean }>`
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(5px);
-  opacity: 0;
-  animation-duration: 1s;
-  animation-name: ${({ contentOpen }) =>
-    contentOpen === false ? "fadeOut" : contentOpen === true ? "fadeIn" : ""};
-  animation-fill-mode: both;
+  transition: opacity 0.5s;
+  opacity: ${({ contentOpen }) => (contentOpen ? 1 : 0)};
   overflow-y: auto;
 `;
 
