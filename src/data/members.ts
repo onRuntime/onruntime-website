@@ -19,12 +19,20 @@ const members: Member[] = [
     joined_at: "2015/01/01",
   },
   {
-    firstname: "Bodin",
-    lastname: "Lucas",
+    firstname: "Lucas",
+    lastname: "Bodin",
     job: "main.roles.designer",
     thumbnail_url: "/static/images/members/lucas-bodin.jpg",
-    external_url: "https://lucasb.fr/",
+    external_url: "https://linkedin.com/in/lucasbdn",
     joined_at: "2019/01/01",
+  },
+  {
+    firstname: "Younès",
+    lastname: "Bessa",
+    job: "main.roles.developer",
+    thumbnail_url: "/static/images/members/younes-bessa.jpg",
+    external_url: "https://linkedin.com/in/younesbessa",
+    joined_at: "2020/01/01",
   },
 ];
 
