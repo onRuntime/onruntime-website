@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import moment from "moment";
-
 import { Member } from "../../../types/members";
-import Link from "../../Link";
+import Link from "@components/Link";
 import useTranslation from "@hooks/useTranslation";
+
+import moment from "moment";
+import "moment/locale/fr";
 
 interface MemberCardProps {
   data: Member;
@@ -13,7 +14,7 @@ interface MemberCardProps {
 const MemberCard: React.FC<MemberCardProps> = ({
   data: { firstname, lastname, job, thumbnail_url, external_url, joined_at },
 }: MemberCardProps) => {
-  const { t } = useTranslation();
+  const { t, locale } = useTranslation();
 
   const [height, setHeight] = React.useState<number>(0);
   const [contentOpen, setContentOpen] = React.useState<boolean | null>(null);
@@ -50,9 +51,9 @@ const MemberCard: React.FC<MemberCardProps> = ({
       <Content href={external_url} contentOpen={contentOpen}>
         <Name>{`${firstname} ${lastname}`}</Name>
         <Job>{t(job)}</Job>
-        <Joined>{`${t("about.team.since")} ${moment(
-          new Date(joined_at)
-        ).fromNow()}`}</Joined>
+        <Joined>{`${t("about.team.since")} ${moment(new Date(joined_at))
+          .locale(locale || "en")
+          .fromNow()}`}</Joined>
       </Content>
     </Container>
   );
