@@ -34,6 +34,14 @@ const members: Member[] = [
     external_url: "https://linkedin.com/in/younesbessa",
     joined_at: "2020/01/01",
   },
+  {
+    firstname: "Romain",
+    lastname: "Favrot",
+    job: "main.roles.designer",
+    thumbnail_url: "/static/images/members/romain-favrot.jpg",
+    external_url: "",
+    joined_at: "2020/01/01",
+  },
 ];
 
 export default members;
