@@ -66,7 +66,10 @@ const Home: React.FC = () => {
   );
 };
 
-const Container = styled.div``;
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 
 const Featured = styled.div`
   display: flex;
@@ -147,7 +150,7 @@ const AboutButton = styled(({ children, ...props }) => (
 `;
 
 const Partners = styled.div`
-  margin-top: 128px;
+  margin-top: 96px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -165,7 +168,7 @@ const PartnersImage = styled.img`
 `;
 
 const Projects = styled.div`
-  margin-top: 128px;
+  margin-top: 96px;
   display: flex;
   flex-direction: column;
   align-items: center;
