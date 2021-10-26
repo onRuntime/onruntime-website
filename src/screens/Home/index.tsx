@@ -39,6 +39,20 @@ const Home: React.FC = () => {
             <AboutButton href={ROUTES.ABOUT}>{t("home.about.btn")}</AboutButton>
           </AboutCol>
         </About>
+        <Partners>
+          <Link href={"https://needfor-school.com"}>
+            <PartnersImage
+              src={"/static/images/partners/needforschool_logo.png"}
+              alt={"Need for School"}
+            />
+          </Link>
+          <Link href={"https://incomingwaves.com"}>
+            <PartnersImage
+              src={"/static/images/partners/waves_logo.png"}
+              alt={"Incoming Waves"}
+            />
+          </Link>
+        </Partners>
         <Projects>
           <ProjectsTitle>{t("home.projects.title")}</ProjectsTitle>
           <ProjectsDescription>{t("home.projects.desc")}</ProjectsDescription>
@@ -129,6 +143,24 @@ const AboutButton = styled(({ children, ...props }) => (
   width: 80%;
   :hover {
     color: ${({ theme }) => theme.colors.text.darkest};
+  }
+`;
+
+const Partners = styled.div`
+  margin-top: 128px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+`;
+
+const PartnersImage = styled.img`
+  width: auto;
+  height: 50px;
+  filter: grayscale(1) brightness(0.8);
+  transition: all 0.2s;
+
+  :hover {
+    filter: none;
   }
 `;
 
