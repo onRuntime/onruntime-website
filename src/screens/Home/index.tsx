@@ -39,6 +39,29 @@ const Home: React.FC = () => {
             <AboutButton href={ROUTES.ABOUT}>{t("home.about.btn")}</AboutButton>
           </AboutCol>
         </About>
+        <Partners>
+          <PartnersTitle>{t("home.partners.title")}</PartnersTitle>
+          <PartnersDescription>{t("home.partners.desc")}</PartnersDescription>
+          <PartnersImages>
+            <PartnersLink href={"https://www.needfor-school.com/"}>
+              <PartnersImage
+                src={"/static/images/partners/needforschool_logo.png"}
+                width={1920}
+                height={1080}
+                alt={"Need for School"}
+              />
+            </PartnersLink>
+
+            <PartnersLink href={"https://incomingwaves.com/"}>
+              <PartnersImage
+                src={"/static/images/partners/waves_logo.png"}
+                width={1920}
+                height={1080}
+                alt={"Incoming Waves"}
+              />
+            </PartnersLink>
+          </PartnersImages>
+        </Partners>
         <Projects>
           <ProjectsTitle>{t("home.projects.title")}</ProjectsTitle>
           <ProjectsDescription>{t("home.projects.desc")}</ProjectsDescription>
@@ -129,6 +152,55 @@ const AboutButton = styled(({ children, ...props }) => (
   width: 80%;
   :hover {
     color: ${({ theme }) => theme.colors.text.darkest};
+  }
+`;
+
+const Partners = styled.div`
+  margin-top: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1.25;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    flex-direction: column;
+  }
+`;
+
+const PartnersTitle = styled.h2`
+  font-size: ${({ theme }) => theme.size.title};
+  font-weight: ${({ theme }) => theme.weight.bold};
+`;
+
+const PartnersDescription = styled.p`
+  margin-top: 20px;
+  font-size: ${({ theme }) => theme.size.medium};
+  font-weight: ${({ theme }) => theme.weight.medium};
+  max-width: 700px;
+  margin-bottom: 40px;
+`;
+
+const PartnersImages = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
+const PartnersLink = styled(Link)`
+  :not(:last-child) {
+    margin-right: 20px;
+  }
+`;
+
+const PartnersImage = styled.img`
+  width: 80px;
+  height: auto;
+  border-radius: 10px;
+  filter: grayscale(100%);
+  transition: all 0.3s;
+
+  :hover {
+    filter: none;
   }
 `;
 
