@@ -40,27 +40,18 @@ const Home: React.FC = () => {
           </AboutCol>
         </About>
         <Partners>
-          <PartnersTitle>{t("home.partners.title")}</PartnersTitle>
-          <PartnersDescription>{t("home.partners.desc")}</PartnersDescription>
-          <PartnersImages>
-            <PartnersLink href={"https://www.needfor-school.com/"}>
-              <PartnersImage
-                src={"/static/images/partners/needforschool_logo.png"}
-                width={1920}
-                height={1080}
-                alt={"Need for School"}
-              />
-            </PartnersLink>
-
-            <PartnersLink href={"https://incomingwaves.com/"}>
-              <PartnersImage
-                src={"/static/images/partners/waves_logo.png"}
-                width={1920}
-                height={1080}
-                alt={"Incoming Waves"}
-              />
-            </PartnersLink>
-          </PartnersImages>
+          <Link href={"https://needfor-school.com"}>
+            <PartnersImage
+              src={"/static/images/partners/needforschool_logo.png"}
+              alt={"Need for School"}
+            />
+          </Link>
+          <Link href={"https://incomingwaves.com"}>
+            <PartnersImage
+              src={"/static/images/partners/waves_logo.png"}
+              alt={"Incoming Waves"}
+            />
+          </Link>
         </Partners>
         <Projects>
           <ProjectsTitle>{t("home.projects.title")}</ProjectsTitle>
@@ -158,46 +149,15 @@ const AboutButton = styled(({ children, ...props }) => (
 const Partners = styled.div`
   margin-top: 128px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  text-align: center;
-  line-height: 1.25;
-
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-    flex-direction: column;
-  }
-`;
-
-const PartnersTitle = styled.h2`
-  font-size: ${({ theme }) => theme.size.title};
-  font-weight: ${({ theme }) => theme.weight.bold};
-`;
-
-const PartnersDescription = styled.p`
-  margin-top: 20px;
-  font-size: ${({ theme }) => theme.size.medium};
-  font-weight: ${({ theme }) => theme.weight.medium};
-  max-width: 700px;
-  margin-bottom: 40px;
-`;
-
-const PartnersImages = styled.div`
-  display: flex;
-  justify-content: center;
-`;
-
-const PartnersLink = styled(Link)`
-  :not(:last-child) {
-    margin-right: 20px;
-  }
 `;
 
 const PartnersImage = styled.img`
-  width: 80px;
-  height: auto;
-  border-radius: 10px;
-  filter: grayscale(100%);
-  transition: all 0.3s;
+  width: auto;
+  height: 50px;
+  filter: grayscale(1) brightness(0.8);
+  transition: all 0.2s;
 
   :hover {
     filter: none;
