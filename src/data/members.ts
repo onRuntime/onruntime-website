@@ -35,12 +35,12 @@ const members: Member[] = [
     joined_at: "2020/01/01",
   },
   {
-    firstname: "Romain",
-    lastname: "Favrot",
-    job: "main.roles.designer",
-    thumbnail_url: "/static/images/members/romain-favrot.jpg",
-    external_url: "",
-    joined_at: "2020/01/01",
+    firstname: "Maxime",
+    lastname: "Kock--Bouabid",
+    job: "main.roles.developer",
+    thumbnail_url: "/static/images/members/maxime-kock-bouabid.jpg",
+    external_url: "https://linkedin.com/in/maxime-kock-bouabid",
+    joined_at: "2021/10/27",
   },
 ];
 
