@@ -40,6 +40,12 @@ const Home: React.FC = () => {
           </AboutCol>
         </About>
         <Partners>
+          <Link href={"https://droitaucoeurcoaching.com/"}>
+            <PartnersImage
+              src={"/static/images/partners/droitaucoeur_logo.png"}
+              alt={"Droit au coeur"}
+            />
+          </Link>
           <Link href={"https://needfor-school.com"}>
             <PartnersImage
               src={"/static/images/partners/needforschool_logo.png"}
