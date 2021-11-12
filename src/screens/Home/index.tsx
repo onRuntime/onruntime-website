@@ -160,6 +160,7 @@ const Partners = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-right: 150px;
 `;
 
 const PartnersImage = styled.img`
