@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
           </IntroCol>
           <IntroCol>
             <IntroImage
-              src={"./static/images/logo/onruntime.svg"}
+              src={"/static/images/logo/onruntime.svg"}
               alt={"onRuntime Logo"}
               width={1000}
               height={1000}
