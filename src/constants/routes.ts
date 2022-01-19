@@ -1,3 +1,8 @@
-export const HOME = "/";
-export const PROJECTS = "/projects";
-export const ABOUT = "/about";
+const ROUTES = {
+  HOME: "/",
+  PROJECTS: "/projects",
+  PROJECTS_INSTAGRAM_DARK: "/projects/instagram-dark",
+  ABOUT: "/about",
+};
+
+export default ROUTES;
