@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 import Link from "@components/Link";
-import * as ROUTES from "@constants/routes";
+import ROUTES from "@constants/routes";
 import Head from "@components/Head";
 import { APPNAME } from "@constants/main";
 import MainContainer from "@components/Layout/MainContainer";

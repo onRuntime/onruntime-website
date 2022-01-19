@@ -5,7 +5,7 @@ import MainContainer from "@components/Layout/MainContainer";
 import Button from "@components/Layout/Button";
 import Link from "@components/Link";
 import ProjectList from "@components/Project/List";
-import * as ROUTES from "@constants/routes";
+import ROUTES from "@constants/routes";
 
 import projectsData from "@data/projects";
 import useTranslation from "@hooks/useTranslation";
