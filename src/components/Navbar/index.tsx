@@ -22,7 +22,10 @@ const Navbar: React.FC = () => {
       </Brand>
       <Nav>
         <NavItem>
-          <NavLink href={ROUTES.PROJECTS} active={pathname === ROUTES.PROJECTS}>
+          <NavLink
+            href={ROUTES.PROJECTS}
+            active={pathname.includes(ROUTES.PROJECTS)}
+          >
             {t("main.projects")}
           </NavLink>
         </NavItem>
