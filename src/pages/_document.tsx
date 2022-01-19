@@ -1,3 +1,5 @@
+/* eslint-disable react/display-name */
+/* eslint-disable @next/next/no-document-import-in-page */
 import Document, {
   DocumentContext,
   DocumentInitialProps,
