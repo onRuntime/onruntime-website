@@ -6,7 +6,6 @@ import { NextPage } from "next";
 import React from "react";
 import styled from "styled-components";
 import is from "is_js";
-import { cpus } from "os";
 import Link from "@components/Link";
 
 const InstagramDark: NextPage = () => {
