@@ -20,7 +20,6 @@ const InstagramDark: NextPage = () => {
   });
 
   React.useEffect(() => {
-    console.log(is.edge());
     if (is.firefox()) {
       setBrowser({
         name: "Firefox",
