@@ -52,10 +52,10 @@ const Home: React.FC = () => {
               alt={"Need for School"}
             />
           </Link>
-          <Link href={"https://incomingwaves.com"}>
+          <Link href={"https://studiowaves.fr/"}>
             <PartnersImage
               src={"/static/images/partners/waves_logo.png"}
-              alt={"Incoming Waves"}
+              alt={"Studio Waves"}
             />
           </Link>
         </Partners>
