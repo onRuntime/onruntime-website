@@ -10,6 +10,7 @@
     "docker:run": "docker run -p 3000:3000 onruntime-website"
   },
   "dependencies": {
+    "is_js": "^0.9.0",
     "moment": "^2.29.1",
     "next": "latest",
     "react": "^17.0.2",
