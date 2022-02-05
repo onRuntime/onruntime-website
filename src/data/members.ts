@@ -35,6 +35,14 @@ const members: Member[] = [
     joined_at: "2020/01/01",
   },
   {
+    firstname: "Demba",
+    lastname: "Mbow",
+    job: "main.roles.developer",
+    thumbnail_url: "/static/images/members/demba-mbow.jpg",
+    external_url: "https://linkedin.com/in/demba-mbow-43a303201",
+    joined_at: "2020/11/29",
+  },
+  {
     firstname: "Maxime",
     lastname: "Kock--Bouabid",
     job: "main.roles.developer",
