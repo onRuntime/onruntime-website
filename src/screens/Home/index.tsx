@@ -40,24 +40,24 @@ const Home: React.FC = () => {
           </AboutCol>
         </About>
         <Partners>
-          <Link href={"https://droitaucoeurcoaching.com/"}>
+          <PartnerLink href={"https://droitaucoeurcoaching.com/"}>
             <PartnersImage
               src={"/static/images/partners/droitaucoeur_logo.png"}
               alt={"Droit au coeur"}
             />
-          </Link>
-          <Link href={"https://needfor-school.com"}>
+          </PartnerLink>
+          <PartnerLink href={"https://needfor-school.com"}>
             <PartnersImage
               src={"/static/images/partners/needforschool_logo.png"}
               alt={"Need for School"}
             />
-          </Link>
-          <Link href={"https://studiowaves.fr/"}>
+          </PartnerLink>
+          <PartnerLink href={"https://studiowaves.fr/"}>
             <PartnersImage
               src={"/static/images/partners/waves_logo.png"}
               alt={"Studio Waves"}
             />
-          </Link>
+          </PartnerLink>
         </Partners>
         <Projects>
           <ProjectsTitle>{t("home.projects.title")}</ProjectsTitle>
@@ -160,7 +160,26 @@ const Partners = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-right: 150px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
+const PartnerLink = styled(Link)`
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    margin-top: 30px;
+
+    :first-child {
+      margin-top: 0;
+    }
+  }
 `;
 
 const PartnersImage = styled.img`
