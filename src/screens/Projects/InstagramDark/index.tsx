@@ -111,7 +111,6 @@ const Video = styled.iframe`
   height: 500px;
   width: 100%;
   max-width: 700px;
-  pointer-events: none;
 `;
 
 export default InstagramDark;
