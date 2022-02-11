@@ -56,30 +56,34 @@
     "desc": "Some innovative projects we've developed or contributed to in recent years.",
     "list": {
       "twittersmooth": {
-          "desc": "Twitter smooth extension is an extension which aims to change the theme of the Twitter website, and make it a smooth theme."
+        "desc": "Twitter smooth extension is an extension which aims to change the theme of the Twitter website, and make it a smooth theme."
       },
       "instagramdark": {
-          "desc": "Instagram dark extension is an extension which aims to change the theme of the Instagram website, and make it a dark theme like the iOS app when the system is in dark mode."
+        "desc": "Instagram dark extension is an extension which aims to change the theme of the Instagram website, and make it a dark theme like the iOS app when the system is in dark mode.",
+        "download": "Download",
+        "for": "for",
+        "now": "now",
+        "available": "*Available on Edge, Chrome et Firefox"
       },
       "clockapp": {
-          "desc": "Clock App is a basic React Native App made with Expo based on a Dribbble design template."
+        "desc": "Clock App is a basic React Native App made with Expo based on a Dribbble design template."
       },
       "ultradjs": {
-          "desc": "UltraD.JS is a package using Discord.js to create bots easily."
+        "desc": "UltraD.JS is a package using Discord.js to create bots easily."
       },
       "rvby": {
-          "desc": "Visit the official RVBY website to find our hoodies and t-shirts as well as our current collections, for a chic, elegant and refined style in all circumstances."
+        "desc": "Visit the official RVBY website to find our hoodies and t-shirts as well as our current collections, for a chic, elegant and refined style in all circumstances."
       },
       "netflixaddicts": {
-          "desc": "To all fans of Netflix series and movies! Find opinions, advice and more on our site!"
+        "desc": "To all fans of Netflix series and movies! Find opinions, advice and more on our site!"
       },
       "berrygames": {
-          "desc": "BerryGames was created in summer 2018 and closed in February 2021. The basic idea was to make an innovative Mini Games server, touching an international community by our system of internationalization through our platforms. 3 Mini Games and a RP part in the Hubs would have been playable at the server opening.Our infrastructure developed, optimized and secured by our dear developers would ensure you a perfect and smooth gaming experience on our platforms."
+        "desc": "BerryGames was created in summer 2018 and closed in February 2021. The basic idea was to make an innovative Mini Games server, touching an international community by our system of internationalization through our platforms. 3 Mini Games and a RP part in the Hubs would have been playable at the server opening.Our infrastructure developed, optimized and secured by our dear developers would ensure you a perfect and smooth gaming experience on our platforms."
       },
       "farugames": {
-          "desc": "FaruGames, a now-closed Minecraft Games Network."
+        "desc": "FaruGames, a now-closed Minecraft Games Network."
       }
-  }
+    }
   },
   "about": {
     "head": {
