@@ -53,14 +53,12 @@ const InstagramDark: NextPage = () => {
           <DownloadButton href={browser.link} outline>{`Download ${
             browser.name ? `for ${browser.name}` : "now"
           }`}</DownloadButton>
-          <Video
-            width="1920"
-            height="1080"
-            src="https://www.youtube.com/embed/lTHWX66-kUg?controls=0&mute=1&showinfo=0&rel=0&autoplay=1&loop=1&playlist=lTHWX66-kUg"
-            title="YouTube video player"
-            frameBorder="0"
-            allowFullScreen
-          />
+          <Video playsInline autoPlay loop muted>
+            <source
+              src="/static/videos/instagram-dark-theme-demo-video.mp4"
+              type="video/mp4"
+            />
+          </Video>
         </Container>
       </MainContainer>
     </>
@@ -106,7 +104,7 @@ const DownloadButton = styled(({ children, ...props }) => (
   margin-top: 30px;
 `;
 
-const Video = styled.iframe`
+const Video = styled.video`
   margin-top: 30px;
   height: 500px;
   width: 100%;
