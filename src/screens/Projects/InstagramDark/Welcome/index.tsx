@@ -5,38 +5,10 @@ import useTranslation from "@hooks/useTranslation";
 import { NextPage } from "next";
 import React from "react";
 import styled from "styled-components";
-import is from "is_js";
 import Link from "@components/Link";
 
 const Welcome: NextPage = () => {
   const { t } = useTranslation();
-
-  const [browser, setBrowser] = React.useState<{
-    name: string | null;
-    link: string;
-  }>({
-    name: null,
-    link: "https://chrome.google.com/webstore/detail/instagram-dark-theme/hhpaefgagkcciebgfdmoljlebdmpfcfb",
-  });
-
-  React.useEffect(() => {
-    if (is.firefox()) {
-      setBrowser({
-        name: "Firefox",
-        link: "https://addons.mozilla.org/fr/firefox/addon/instagram-dark-theme",
-      });
-    } else if (is.edge()) {
-      setBrowser({
-        name: "Edge",
-        link: "https://microsoftedge.microsoft.com/addons/detail/instagram-dark-theme/dhpoocfaphdchlaabhnacbffnacpagoj",
-      });
-    } else if (is.chrome()) {
-      setBrowser({
-        name: "Chrome",
-        link: "https://chrome.google.com/webstore/detail/instagram-dark-theme/hhpaefgagkcciebgfdmoljlebdmpfcfb",
-      });
-    }
-  }, []);
 
   return (
     <>
@@ -48,58 +20,113 @@ const Welcome: NextPage = () => {
           description={t("projects.list.instagramdark.desc")}
         />
         <Container>
-          <Title>{"Instagram Dark"}</Title>
-          <Description>{t("projects.list.instagramdark.desc")}</Description>
-          <DownloadButton href={browser.link} outline>{`${t(
-            "projects.list.instagramdark.download"
-          )} ${
-            browser.name
-              ? `${t("projects.list.instagramdark.for")} ${browser.name}*`
-              : `${t("projects.list.instagramdark.now")}*`
-          }`}</DownloadButton>
-          <Available>{t("projects.list.instagramdark.available")}</Available>
-          <Video
-            width="1920"
-            height="1080"
-            src="https://www.youtube.com/embed/lTHWX66-kUg?controls=0&mute=1&showinfo=0&rel=0&autoplay=1&loop=1&playlist=lTHWX66-kUg"
-            title="YouTube video player"
-            frameBorder="0"
-            allowFullScreen
+          <Logo
+            src={"/static/images/projects/igdark-logo.png"}
+            alt={"Instagram Dark Logo"}
+            width={100}
+            height={100}
           />
-          <SocialList>
-            <SocialLink href="https://linkedin.com/company/onruntime">
-              <Linkedin>
-                <SocialIcon className={"ri-linkedin-box-fill"} />
-                <SocialTitle>{"LinkedIn"}</SocialTitle>
-              </Linkedin>
-            </SocialLink>
-            <SocialLink href="https://github.com/onRuntime">
-              <Github>
-                <SocialTitle>
-                  <SocialIcon className={"ri-github-fill"} />
-                  {"Github"}
-                </SocialTitle>
-              </Github>
-            </SocialLink>
-            <SocialLink href="https://discord.gg/ucX9c5yXmX">
-              <Discord>
-                <SocialIcon className={"ri-discord-fill"} />
-                <SocialTitle>{"Discord"}</SocialTitle>
-              </Discord>
-            </SocialLink>
-            <SocialLink href="https://twitter.com/onRuntime">
-              <Twitter>
-                <SocialIcon className={"ri-twitter-fill"} />
-                <SocialTitle>{"Twitter"}</SocialTitle>
-              </Twitter>
-            </SocialLink>
-            <SocialLink href="https://instagram.com/onruntime">
-              <Instagram>
-                <SocialIcon className={"ri-instagram-fill"} />
-                <SocialTitle>{"Instagram"}</SocialTitle>
-              </Instagram>
-            </SocialLink>
-          </SocialList>
+          <Header>
+            <Title>{t("projects.list.instagramdark.welcome.thanks")}</Title>
+            <Description>
+              {t("projects.list.instagramdark.welcome.teamthanks")}
+            </Description>
+          </Header>
+          <Video playsInline autoPlay loop muted>
+            <source
+              src="/static/videos/instagram-dark-theme-demo-video.mp4"
+              type="video/mp4"
+            />
+          </Video>
+          <ListWrapper>
+            <Instruction>
+              {t("projects.list.instagramdark.welcome.supportus")}
+            </Instruction>
+            <SocialList>
+              <SocialLink href="https://www.patreon.com/onruntime">
+                <Patreon>
+                  <SocialIcon className={"ri-patreon-fill"} />
+                  <SocialTitle>{"Patreon"}</SocialTitle>
+                </Patreon>
+              </SocialLink>
+              <SocialLink href="https://github.com/onRuntime/instagram-dark-extension">
+                <Github>
+                  <SocialTitle>
+                    <SocialIcon className={"ri-github-fill"} />
+                    {"Github"}
+                  </SocialTitle>
+                </Github>
+              </SocialLink>
+            </SocialList>
+          </ListWrapper>
+          <ListWrapper>
+            <Instruction>
+              {t("projects.list.instagramdark.welcome.followus")}
+            </Instruction>
+            <SocialList>
+              <SocialLink href="https://twitter.com/onRuntime">
+                <Twitter>
+                  <SocialIcon className={"ri-twitter-fill"} />
+                  <SocialTitle>{"Twitter"}</SocialTitle>
+                </Twitter>
+              </SocialLink>
+              <SocialLink href="https://linkedin.com/company/onruntime">
+                <Linkedin>
+                  <SocialIcon className={"ri-linkedin-box-fill"} />
+                  <SocialTitle>{"LinkedIn"}</SocialTitle>
+                </Linkedin>
+              </SocialLink>
+              <SocialLink href="https://discord.gg/ucX9c5yXmX">
+                <Discord>
+                  <SocialIcon className={"ri-discord-fill"} />
+                  <SocialTitle>{"Discord"}</SocialTitle>
+                </Discord>
+              </SocialLink>
+              <SocialLink href="https://instagram.com/onruntime">
+                <Instagram>
+                  <SocialIcon className={"ri-instagram-fill"} />
+                  <SocialTitle>{"Instagram"}</SocialTitle>
+                </Instagram>
+              </SocialLink>
+            </SocialList>
+          </ListWrapper>
+          <ListWrapper>
+            <Instruction>
+              {t("projects.list.instagramdark.welcome.share")}
+            </Instruction>
+            <SocialList>
+              <SocialLink href="https://twitter.com/intent/tweet?url=https://onruntime.com/projects/instagram-dark&text=Hey%20everyone%20!%20I%20just%20installed%20an%20amazing%20extension%20called%20Instagram%20Dark%20!%20Check%20it%20out:&via=onRuntime">
+                <Twitter>
+                  <SocialIcon className={"ri-twitter-fill"} />
+                  <SocialTitle>{"Twitter"}</SocialTitle>
+                </Twitter>
+              </SocialLink>
+              <SocialLink href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark&amp;src=sdkpreparse">
+                <Facebook>
+                  <SocialIcon className={"ri-facebook-box-fill"} />
+                  <SocialTitle>{"Facebook"}</SocialTitle>
+                </Facebook>
+              </SocialLink>
+              <SocialLink href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark">
+                <Linkedin>
+                  <SocialIcon className={"ri-linkedin-fill"} />
+                  <SocialTitle>{"LinkedIn"}</SocialTitle>
+                </Linkedin>
+              </SocialLink>
+              <SocialLink href="https://tumblr.com/widgets/share/tool/preview?canonicalUrl=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark&title=&caption=">
+                <Tumblr>
+                  <SocialIcon className={"ri-tumblr-fill"} />
+                  <SocialTitle>{"Tumblr"}</SocialTitle>
+                </Tumblr>
+              </SocialLink>
+              <SocialLink href="mailto:?body=https://onruntime.com/projects/instagram-dark">
+                <Email>
+                  <SocialIcon className={"ri-mail-fill"} />
+                  <SocialTitle>{"Email"}</SocialTitle>
+                </Email>
+              </SocialLink>
+            </SocialList>
+          </ListWrapper>
         </Container>
       </MainContainer>
     </>
@@ -117,13 +144,15 @@ const Background = styled.div`
 `;
 
 const Container = styled.div`
-  margin-top: 128px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   line-height: 1.25;
 `;
+
+const Header = styled.header``;
 
 const Title = styled.h1`
   font-size: ${({ theme }) => theme.size.title};
@@ -137,35 +166,36 @@ const Description = styled.p`
   max-width: 700px;
 `;
 
-const DownloadButton = styled(({ children, ...props }) => (
-  <Button as={Link} {...props}>
-    {children}
-  </Button>
-))`
-  margin-top: 30px;
-`;
-
-const Available = styled.span`
-  margin-top: 15px;
-  font-size: ${({ theme }) => theme.size.tiny};
-  color: ${({ theme }) => theme.colors.text.light};
-`;
-
-const Video = styled.iframe`
+const Video = styled.video`
   margin-top: 30px;
   height: 500px;
   width: 100%;
   max-width: 700px;
 `;
 
+const Instruction = styled.span`
+  font-size: ${({ theme }) => theme.size.medium};
+  font-weight: ${({ theme }) => theme.weight.semiBold};
+`;
+
+const Logo = styled.img`
+  width: 100px;
+  height: auto;
+`;
+
+const ListWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+`;
+
 const SocialList = styled.div`
   display: flex;
   margin: 0 auto;
   justify-content: center;
-  padding-bottom: 50px;
   align-items: center;
-  padding: 100px 15px 0;
   width: calc(100% - 15px * 2);
+  margin-top: 10px;
 `;
 
 const SocialLink = styled(Link)`
@@ -220,6 +250,38 @@ const Instagram = styled(Button)`
   width: 100%;
   background-color: #dd2a7b;
   color: ${({ theme }) => theme.colors.text.lightest};
+`;
+
+const Patreon = styled(Button)`
+  padding: 1rem 2rem;
+  width: 100%;
+  background-color: #ff424d;
+  color: ${({ theme }) => theme.colors.text.lightest};
+  margin-right: 10px;
+`;
+
+const Facebook = styled(Button)`
+  padding: 1rem 2rem;
+  width: 100%;
+  background-color: #4267b2;
+  color: ${({ theme }) => theme.colors.text.lightest};
+  margin-right: 10px;
+`;
+
+const Email = styled(Button)`
+  padding: 1rem 2rem;
+  width: 100%;
+  background-color: ${({ theme }) => theme.colors.layout.dark};
+  color: ${({ theme }) => theme.colors.text.lightest};
+  margin-right: 10px;
+`;
+
+const Tumblr = styled(Button)`
+  padding: 1rem 2rem;
+  width: 100%;
+  background-color: #011935;
+  color: ${({ theme }) => theme.colors.text.lightest};
+  margin-right: 10px;
 `;
 
 export default Welcome;
