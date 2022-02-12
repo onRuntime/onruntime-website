@@ -63,7 +63,14 @@
         "download": "Télécharger",
         "for": "pour",
         "now": "maintenant",
-        "available": "*Disponible sur Edge, Chrome et Firefox"
+        "available": "*Disponible sur Edge, Chrome et Firefox",
+        "welcome": {
+          "thanks": "Merci beaucoup !",
+          "teamthanks": "L'équipe d'onRuntime Studio te remercie d'avoir installé notre extension et te souhaite la bienvenue dans notre grande famille !",
+          "supportus": "Soutenez-nous sur...",
+          "followus": "Suivez-nous sur...",
+          "share": "Partagez via…"
+        }
       },
       "clockapp": {
         "desc": "Clock App est une application React Native basique créée avec Expo basée sur un template de Dribbble."
