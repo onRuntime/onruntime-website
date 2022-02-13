@@ -43,20 +43,22 @@ const Welcome: NextPage = () => {
               {t("projects.list.instagramdark.welcome.supportus")}
             </Instruction>
             <SocialList>
-              <SocialLink href="https://www.patreon.com/onruntime">
-                <Patreon>
-                  <SocialIcon className={"ri-patreon-fill"} />
-                  <SocialTitle>{"Patreon"}</SocialTitle>
-                </Patreon>
-              </SocialLink>
-              <SocialLink href="https://github.com/onRuntime/instagram-dark-extension">
-                <Github>
-                  <SocialTitle>
-                    <SocialIcon className={"ri-github-fill"} />
-                    {"Github"}
-                  </SocialTitle>
-                </Github>
-              </SocialLink>
+              <SocialButton
+                href="https://www.patreon.com/onruntime"
+                backgroundColor="#ff424d;"
+              >
+                <SocialIcon className={"ri-patreon-fill"} />
+                <SocialTitle>{"Patreon"}</SocialTitle>
+              </SocialButton>
+              <SocialButton
+                href="https://github.com/onRuntime/instagram-dark-extension"
+                backgroundColor="#2b3137;"
+              >
+                <SocialTitle>
+                  <SocialIcon className={"ri-github-fill"} />
+                  {"Github"}
+                </SocialTitle>
+              </SocialButton>
             </SocialList>
           </ListWrapper>
           <ListWrapper>
@@ -64,30 +66,42 @@ const Welcome: NextPage = () => {
               {t("projects.list.instagramdark.welcome.followus")}
             </Instruction>
             <SocialList>
-              <SocialLink href="https://twitter.com/onRuntime">
-                <Twitter>
+              <SocialButton
+                href="https://twitter.com/onRuntime"
+                backgroundColor="#1c9bef;"
+              >
+                <SocialTitle>
                   <SocialIcon className={"ri-twitter-fill"} />
-                  <SocialTitle>{"Twitter"}</SocialTitle>
-                </Twitter>
-              </SocialLink>
-              <SocialLink href="https://linkedin.com/company/onruntime">
-                <Linkedin>
-                  <SocialIcon className={"ri-linkedin-box-fill"} />
-                  <SocialTitle>{"LinkedIn"}</SocialTitle>
-                </Linkedin>
-              </SocialLink>
-              <SocialLink href="https://discord.gg/ucX9c5yXmX">
-                <Discord>
+                  {"Twitter"}
+                </SocialTitle>
+              </SocialButton>
+              <SocialButton
+                href="https://linkedin.com/company/onruntime"
+                backgroundColor="#0b65c2;"
+              >
+                <SocialTitle>
+                  <SocialIcon className={"ri-linkedin-fill"} />
+                  {"LinkedIn"}
+                </SocialTitle>
+              </SocialButton>
+              <SocialButton
+                href="https://discord.gg/ucX9c5yXmX"
+                backgroundColor="#404eed;"
+              >
+                <SocialTitle>
                   <SocialIcon className={"ri-discord-fill"} />
-                  <SocialTitle>{"Discord"}</SocialTitle>
-                </Discord>
-              </SocialLink>
-              <SocialLink href="https://instagram.com/onruntime">
-                <Instagram>
+                  {"Discord"}
+                </SocialTitle>
+              </SocialButton>
+              <SocialButton
+                href="https://instagram.com/onruntime"
+                backgroundColor="#dd2a7b;"
+              >
+                <SocialTitle>
                   <SocialIcon className={"ri-instagram-fill"} />
-                  <SocialTitle>{"Instagram"}</SocialTitle>
-                </Instagram>
-              </SocialLink>
+                  {"Instagram"}
+                </SocialTitle>
+              </SocialButton>
             </SocialList>
           </ListWrapper>
           <ListWrapper>
@@ -95,36 +109,51 @@ const Welcome: NextPage = () => {
               {t("projects.list.instagramdark.welcome.share")}
             </Instruction>
             <SocialList>
-              <SocialLink href="https://twitter.com/intent/tweet?url=https://onruntime.com/projects/instagram-dark&text=Hey%20everyone%20!%20I%20just%20installed%20an%20amazing%20extension%20called%20Instagram%20Dark%20!%20Check%20it%20out:&via=onRuntime">
-                <Twitter>
+              <SocialButton
+                href="https://twitter.com/intent/tweet?url=https://onruntime.com/projects/instagram-dark&text=Hey%20everyone%20!%20I%20just%20installed%20an%20amazing%20extension%20called%20Instagram%20Dark%20!%20Check%20it%20out:&via=onRuntime"
+                backgroundColor="#1c9bef;"
+              >
+                <SocialTitle>
                   <SocialIcon className={"ri-twitter-fill"} />
-                  <SocialTitle>{"Twitter"}</SocialTitle>
-                </Twitter>
-              </SocialLink>
-              <SocialLink href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark&amp;src=sdkpreparse">
-                <Facebook>
+                  {"Twitter"}
+                </SocialTitle>
+              </SocialButton>
+              <SocialButton
+                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark&amp;src=sdkpreparse"
+                backgroundColor="#4267b2;"
+              >
+                <SocialTitle>
                   <SocialIcon className={"ri-facebook-box-fill"} />
-                  <SocialTitle>{"Facebook"}</SocialTitle>
-                </Facebook>
-              </SocialLink>
-              <SocialLink href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark">
-                <Linkedin>
+                  {"Facebook"}
+                </SocialTitle>
+              </SocialButton>
+              <SocialButton
+                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark"
+                backgroundColor="#0b65c2;"
+              >
+                <SocialTitle>
                   <SocialIcon className={"ri-linkedin-fill"} />
-                  <SocialTitle>{"LinkedIn"}</SocialTitle>
-                </Linkedin>
-              </SocialLink>
-              <SocialLink href="https://tumblr.com/widgets/share/tool/preview?canonicalUrl=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark&title=&caption=">
-                <Tumblr>
+                  {"LinkedIn"}
+                </SocialTitle>
+              </SocialButton>
+              <SocialButton
+                href="https://tumblr.com/widgets/share/tool/preview?canonicalUrl=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark&title=&caption="
+                backgroundColor="#011935;"
+              >
+                <SocialTitle>
                   <SocialIcon className={"ri-tumblr-fill"} />
-                  <SocialTitle>{"Tumblr"}</SocialTitle>
-                </Tumblr>
-              </SocialLink>
-              <SocialLink href="mailto:?body=https://onruntime.com/projects/instagram-dark">
-                <Email>
+                  {"Tumblr"}
+                </SocialTitle>
+              </SocialButton>
+              <SocialButton
+                href="mailto:?body=https://onruntime.com/projects/instagram-dark"
+                backgroundColor="#4b4b4c;"
+              >
+                <SocialTitle>
                   <SocialIcon className={"ri-mail-fill"} />
-                  <SocialTitle>{"Email"}</SocialTitle>
-                </Email>
-              </SocialLink>
+                  {"Email"}
+                </SocialTitle>
+              </SocialButton>
             </SocialList>
           </ListWrapper>
         </Container>
@@ -132,6 +161,19 @@ const Welcome: NextPage = () => {
     </>
   );
 };
+
+const SocialButton = styled(({ children, ...props }) => (
+  <Button as={Link} {...props}>
+    {children}
+  </Button>
+))<{ backgroundColor: string }>`
+  padding: 1rem 2rem;
+  width: 100%;
+  color: ${({ theme }) => theme.colors.text.lightest};
+  margin-right: 10px;
+  ${({ backgroundColor }) =>
+    backgroundColor && `background-color: ${backgroundColor}`}
+`;
 
 const Background = styled.div`
   position: fixed;
@@ -198,11 +240,6 @@ const SocialList = styled.div`
   margin-top: 10px;
 `;
 
-const SocialLink = styled(Link)`
-  display: flex;
-  margin-bottom: 10px;
-`;
-
 const SocialIcon = styled.i`
   margin-right: 5px;
 `;
@@ -211,77 +248,6 @@ const SocialTitle = styled.h2`
   font-weight: ${({ theme }) => theme.weight.medium};
   display: flex;
   align-items: center;
-`;
-
-const Linkedin = styled(Button)`
-  padding: 1rem 2rem;
-  width: 100%;
-  background-color: #0b65c2;
-  color: ${({ theme }) => theme.colors.text.lightest};
-  margin-right: 10px;
-`;
-
-const Github = styled(Button)`
-  padding: 1rem 2rem;
-  width: 100%;
-  background-color: #2b3137;
-  color: ${({ theme }) => theme.colors.text.lightest};
-  margin-right: 10px;
-`;
-
-const Discord = styled(Button)`
-  padding: 1rem 2rem;
-  width: 100%;
-  background-color: #404eed;
-  color: ${({ theme }) => theme.colors.text.lightest};
-  margin-right: 10px;
-`;
-
-const Twitter = styled(Button)`
-  padding: 1rem 2rem;
-  width: 100%;
-  background-color: #1c9bef;
-  color: ${({ theme }) => theme.colors.text.lightest};
-  margin-right: 10px;
-`;
-
-const Instagram = styled(Button)`
-  padding: 1rem 2rem;
-  width: 100%;
-  background-color: #dd2a7b;
-  color: ${({ theme }) => theme.colors.text.lightest};
-`;
-
-const Patreon = styled(Button)`
-  padding: 1rem 2rem;
-  width: 100%;
-  background-color: #ff424d;
-  color: ${({ theme }) => theme.colors.text.lightest};
-  margin-right: 10px;
-`;
-
-const Facebook = styled(Button)`
-  padding: 1rem 2rem;
-  width: 100%;
-  background-color: #4267b2;
-  color: ${({ theme }) => theme.colors.text.lightest};
-  margin-right: 10px;
-`;
-
-const Email = styled(Button)`
-  padding: 1rem 2rem;
-  width: 100%;
-  background-color: ${({ theme }) => theme.colors.layout.dark};
-  color: ${({ theme }) => theme.colors.text.lightest};
-  margin-right: 10px;
-`;
-
-const Tumblr = styled(Button)`
-  padding: 1rem 2rem;
-  width: 100%;
-  background-color: #011935;
-  color: ${({ theme }) => theme.colors.text.lightest};
-  margin-right: 10px;
 `;
 
 export default Welcome;
