@@ -160,9 +160,10 @@ const Welcome: NextPage = () => {
           </ListWrapper>
           <Disclaimer>
             {t("projects.list.instagramdark.welcome.disclaimer")}
-            <Here href="https://github.com/onRuntime/instagram-dark-extension">
+            <HereLink href="https://github.com/onRuntime/instagram-dark-extension">
               {t("projects.list.instagramdark.welcome.here")}
-            </Here>
+            </HereLink>
+            .
           </Disclaimer>
         </Container>
       </MainContainer>
@@ -202,7 +203,9 @@ const Container = styled.div`
   line-height: 1.25;
 `;
 
-const Header = styled.header``;
+const Header = styled.header`
+  margin-top: 15px;
+`;
 
 const Title = styled.h1`
   font-size: ${({ theme }) => theme.size.title};
@@ -235,9 +238,9 @@ const Disclaimer = styled.span`
   max-width: 650px;
 `;
 
-const Here = styled(Link)`
+const HereLink = styled(Link)`
   font-size: ${({ theme }) => theme.size.tiny};
-  color: ${({ theme }) => theme.colors.text.lightest};
+  text-decoration: underline;
 `;
 
 const Logo = styled.img`
