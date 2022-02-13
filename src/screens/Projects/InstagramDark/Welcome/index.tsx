@@ -18,6 +18,8 @@ const Welcome: NextPage = () => {
           title={"Projects"}
           subtitle={"Instagram Dark"}
           description={t("projects.list.instagramdark.desc")}
+          noIndex
+          noFollow
         />
         <Container>
           <Logo
