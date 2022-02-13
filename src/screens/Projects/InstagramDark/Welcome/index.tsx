@@ -34,7 +34,7 @@ const Welcome: NextPage = () => {
           </Header>
           <Video playsInline autoPlay loop muted>
             <source
-              src="/static/videos/instagram-dark-theme-demo-video.mp4"
+              src="/static/videos/instagram-dark-extension-demo-video.mp4"
               type="video/mp4"
             />
           </Video>
