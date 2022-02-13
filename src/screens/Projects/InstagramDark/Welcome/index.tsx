@@ -21,7 +21,7 @@ const Welcome: NextPage = () => {
         />
         <Container>
           <Logo
-            src={"/static/images/projects/igdark-logo.png"}
+            src={"/static/images/projects/instagram-dark-extension-logo.png"}
             alt={"Instagram Dark Logo"}
             width={100}
             height={100}
