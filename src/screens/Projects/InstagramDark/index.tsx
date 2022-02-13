@@ -50,9 +50,14 @@ const InstagramDark: NextPage = () => {
         <Container>
           <Title>{"Instagram Dark"}</Title>
           <Description>{t("projects.list.instagramdark.desc")}</Description>
-          <DownloadButton href={browser.link} outline>{`Download ${
-            browser.name ? `for ${browser.name}` : "now"
+          <DownloadButton href={browser.link} outline>{`${t(
+            "projects.list.instagramdark.download"
+          )} ${
+            browser.name
+              ? `${t("projects.list.instagramdark.for")} ${browser.name}*`
+              : `${t("projects.list.instagramdark.now")}*`
           }`}</DownloadButton>
+          <Available>{t("projects.list.instagramdark.available")}</Available>
           <Video playsInline autoPlay loop muted>
             <source
               src="/static/videos/instagram-dark-theme-demo-video.mp4"
@@ -102,6 +107,12 @@ const DownloadButton = styled(({ children, ...props }) => (
   </Button>
 ))`
   margin-top: 30px;
+`;
+
+const Available = styled.span`
+  margin-top: 15px;
+  font-size: ${({ theme }) => theme.size.tiny};
+  color: ${({ theme }) => theme.colors.text.light};
 `;
 
 const Video = styled.video`

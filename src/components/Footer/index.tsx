@@ -35,6 +35,13 @@ const Footer: React.FC = () => {
             <SocialIcon className={"ri-instagram-fill"} />
           </SocialLink>
         </SocialItem>
+        <SocialItem>
+          <SocialLink
+            href={"https://youtube.com/channel/UCYpdQWzxWvJwQ4v45w-tk9A"}
+          >
+            <SocialIcon className={"ri-youtube-fill"} />
+          </SocialLink>
+        </SocialItem>
       </Social>
       <Lang>
         <LangItem>

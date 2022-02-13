@@ -55,30 +55,41 @@
     "title": "Projets",
     "desc": "Quelques projets innovants que nous avons contribué à développer ces dernières années.",
     "list": {
-        "twittersmooth": {
-            "desc": "Twitter Smooth est une extension qui permet de changer le thème de Twitter et de le rendre smooth."
-        },
-        "instagramdark": {
-            "desc": "Instagram Dark est une extension qui vise à changer le thème du site Web Instagram et à le rendre sombre comme l'application iOS lorsque le système est en mode sombre."
-        },
-        "clockapp": {
-            "desc": "Clock App est une application React Native basique créée avec Expo basée sur un template de Dribbble."
-        },
-        "ultradjs": {
-            "desc": "UltraD.JS est un package utilisant Discord.js pour faciliter la création de bots."
-        },
-        "rvby": {
-            "desc": "Rendez-vous sur le site officiel RVBY pour retrouver nos hoodies et t-shirts ainsi que nos collections du moment, pour un style chic, élégant et raffiné en toutes circonstances."
-        },
-        "netflixaddicts": {
-            "desc": "À tous les fans de séries et de films Netflix ! Retrouvez des avis, des conseils et bien plus sur notre site !"
-        },
-        "berrygames": {
-            "desc": "BerryGames a été créé à l'été 2018 et fermé en février 2021. L'idée de base était de faire un serveur mini-jeux innovant, touchant une communauté internationale via notre système d'internationalisation à travers nos plateformes. 3 Mini Jeux et une partie RP dans les Hubs auraient été jouables à l'ouverture du serveur. Notre infrastructure développée, optimisée et sécurisée par nos chers développeurs vous aurait assuré une expérience de jeu parfaite et fluide sur nos plateformes."
-        },
-        "farugames": {
-            "desc": "FaruGames, un réseau de jeux Minecraft désormais fermé."
+      "twittersmooth": {
+        "desc": "Twitter Smooth est une extension qui permet de changer le thème de Twitter et de le rendre smooth."
+      },
+      "instagramdark": {
+        "desc": "Instagram Dark est une extension qui vise à changer le thème du site Web Instagram et à le rendre sombre comme l'application iOS lorsque le système est en mode sombre.",
+        "download": "Télécharger",
+        "for": "pour",
+        "now": "maintenant",
+        "available": "*Disponible sur Edge, Chrome et Firefox",
+        "welcome": {
+          "thanks": "Merci beaucoup !",
+          "teamthanks": "L'équipe d'onRuntime Studio te remercie d'avoir installé notre extension et te souhaite la bienvenue dans notre grande famille !",
+          "supportus": "Soutenez-nous sur...",
+          "followus": "Suivez-nous sur...",
+          "share": "Partagez via…"
         }
+      },
+      "clockapp": {
+        "desc": "Clock App est une application React Native basique créée avec Expo basée sur un template de Dribbble."
+      },
+      "ultradjs": {
+        "desc": "UltraD.JS est un package utilisant Discord.js pour faciliter la création de bots."
+      },
+      "rvby": {
+        "desc": "Rendez-vous sur le site officiel RVBY pour retrouver nos hoodies et t-shirts ainsi que nos collections du moment, pour un style chic, élégant et raffiné en toutes circonstances."
+      },
+      "netflixaddicts": {
+        "desc": "À tous les fans de séries et de films Netflix ! Retrouvez des avis, des conseils et bien plus sur notre site !"
+      },
+      "berrygames": {
+        "desc": "BerryGames a été créé à l'été 2018 et fermé en février 2021. L'idée de base était de faire un serveur mini-jeux innovant, touchant une communauté internationale via notre système d'internationalisation à travers nos plateformes. 3 Mini Jeux et une partie RP dans les Hubs auraient été jouables à l'ouverture du serveur. Notre infrastructure développée, optimisée et sécurisée par nos chers développeurs vous aurait assuré une expérience de jeu parfaite et fluide sur nos plateformes."
+      },
+      "farugames": {
+        "desc": "FaruGames, un réseau de jeux Minecraft désormais fermé."
+      }
     }
   },
   "about": {
