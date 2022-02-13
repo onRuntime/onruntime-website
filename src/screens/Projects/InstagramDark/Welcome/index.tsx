@@ -156,6 +156,12 @@ const Welcome: NextPage = () => {
               </SocialButton>
             </SocialList>
           </ListWrapper>
+          <Disclaimer>
+            {t("projects.list.instagramdark.welcome.disclaimer")}
+            <Here href="https://github.com/onRuntime/instagram-dark-extension">
+              {t("projects.list.instagramdark.welcome.here")}
+            </Here>
+          </Disclaimer>
         </Container>
       </MainContainer>
     </>
@@ -218,6 +224,18 @@ const Video = styled.video`
 const Instruction = styled.span`
   font-size: ${({ theme }) => theme.size.medium};
   font-weight: ${({ theme }) => theme.weight.semiBold};
+`;
+
+const Disclaimer = styled.span`
+  font-size: ${({ theme }) => theme.size.tiny};
+  color: ${({ theme }) => theme.colors.text.light};
+  margin-top: 30px;
+  max-width: 650px;
+`;
+
+const Here = styled(Link)`
+  font-size: ${({ theme }) => theme.size.tiny};
+  color: ${({ theme }) => theme.colors.text.lightest};
 `;
 
 const Logo = styled.img`
