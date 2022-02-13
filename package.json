@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start -p ${PORT:=3000}",
+    "start": "next start",
+    "lint": "next lint",
     "docker:build": "docker build . -t onruntime-website",
     "docker:run": "docker run -p 3000:3000 onruntime-website"
   },
