@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Link from "@components/Link";
 import ROUTES from "@constants/routes";
 import Head from "@components/Head";
-import { APPNAME } from "@constants/main";
+import { APP_NAME } from "@constants/main";
 import MainContainer from "@components/Layout/MainContainer";
 import useTranslation from "@hooks/useTranslation";
 
@@ -14,7 +14,7 @@ const Error: React.FC = () => {
       <Head title={t("error.head.title")} />
       <Title>{t("error.title")}</Title>
       <Description>
-        {t("error.desc")} <Link href={ROUTES.HOME}>{APPNAME}</Link>.
+        {t("error.desc")} <Link href={ROUTES.HOME}>{APP_NAME}</Link>.
       </Description>
     </Container>
   );

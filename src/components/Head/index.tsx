@@ -1,48 +1,80 @@
-import React from "react";
-import NextHead from "next/head";
-import { APPNAME } from "@constants/main";
+import { APP_NAME, APP_URL } from "@constants/main";
+import { NextSeo } from "next-seo";
+import { useRouter } from "next/router";
 
-interface IHead {
+interface Props {
   title?: string;
   subtitle?: string;
   description?: string;
+  keywords?: string[];
+  thumbnailUrl?: string;
+  noIndex?: boolean;
+  noFollow?: boolean;
 }
 
-const Head: React.FC<IHead> = ({ title, subtitle, description }: IHead) => {
+const Head: React.FC<Props> = ({
+  title,
+  subtitle,
+  description,
+  keywords,
+  thumbnailUrl,
+  noIndex,
+  noFollow,
+}: Props) => {
+  const { locales, asPath } = useRouter();
+
   const finalTitle = title
-    ? `${subtitle ? `${subtitle} - ` : ""}${title} | ${APPNAME}`
-    : APPNAME;
+    ? `${subtitle ? `${subtitle} - ` : ""}${title} | ${APP_NAME}`
+    : APP_NAME;
+
+  const finalThumbnailUrl =
+    thumbnailUrl || "/static/images/open-graph-image.jpg";
+
+  const languageAlternates =
+    locales &&
+    locales.map((locale) => ({
+      hrefLang: locale,
+      href: `${APP_URL}/${locale}${asPath}`,
+    }));
 
   return (
-    <NextHead>
-      <title>{finalTitle}</title>
-      {description && (
-        <>
-          <meta name={"description"} content={description} />
-          <meta property={"og:description"} content={description} />
-          <meta name={"twitter:description"} content={description} />
-        </>
-      )}
-      <meta name={"keywords"} content={"onruntime, runtime, studio"} />
-
-      <meta property={"og:site_name"} content={APPNAME} />
-      <meta property={"og:type"} content="website" />
-      <meta property={"og:url"} content="https://onruntime.com" />
-      <meta property={"og:title"} content={APPNAME} />
-      <meta
-        property={"og:image"}
-        content={"/static/images/open-graph-image.jpg"}
-      />
-
-      <meta name={"twitter:card"} content={"summary_large_image"} />
-      <meta name={"twitter:url"} content={"https://onruntime.com"} />
-      <meta name={"twitter:site"} content={"@onRuntime"} />
-      <meta name={"twitter:title"} content={APPNAME} />
-      <meta
-        name={"twitter:image"}
-        content={"/static/images/open-graph-image.jpg"}
-      />
-    </NextHead>
+    <NextSeo
+      title={finalTitle}
+      description={description}
+      openGraph={{
+        title: finalTitle,
+        description: description,
+        site_name: APP_NAME,
+        images: [
+          {
+            url: finalThumbnailUrl,
+            alt: finalTitle,
+            type: "image/jpeg",
+          },
+        ],
+      }}
+      twitter={{
+        handle: "@onruntime",
+        site: "@onruntime",
+        cardType: "summary_large_image",
+      }}
+      languageAlternates={languageAlternates}
+      additionalMetaTags={[
+        {
+          property: "keywords",
+          content: `onruntime, runtime, studio${
+            keywords ? `, ${keywords.join(", ").toLowerCase()}` : ""
+          }`,
+        },
+        {
+          name: "viewport",
+          content:
+            "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=0",
+        },
+      ]}
+      noindex={noIndex}
+      nofollow={noFollow}
+    />
   );
 };
 
