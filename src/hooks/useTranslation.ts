@@ -41,8 +41,6 @@ const useTranslation = (
       return parent.replace(regex, (match: any) => variables.shift() ?? match);
     }
 
-    console.log(`handle translation for ${key} => ${parent}`);
-
     return parent || key;
   };
 
