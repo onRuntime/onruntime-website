@@ -69,7 +69,9 @@
           "teamthanks": "L'équipe d'onRuntime Studio te remercie d'avoir installé notre extension et te souhaite la bienvenue dans notre grande famille !",
           "supportus": "Soutenez-nous sur...",
           "followus": "Suivez-nous sur...",
-          "share": "Partagez via…"
+          "share": "Partagez via…",
+          "disclaimer":"Avertissement: Lorsque vous commencez à utiliser Instagram Dark, vous vous abonnez automatiquement au compte Instagram d'onRuntime. Vous pouvez simplement vous désabonner mais nous apprécierions que vous ne le fassiez pas car cela nous soutient et nous aide à nous développer. Cette application est entièrement gratuite, nous ne volons pas vos données personnelles et vous pouvez consulter le code source ",
+          "here":"ici."
         }
       },
       "clockapp": {
