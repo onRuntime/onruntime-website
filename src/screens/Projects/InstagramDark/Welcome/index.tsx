@@ -49,17 +49,19 @@ const Welcome: NextPage = () => {
                 href="https://www.patreon.com/onruntime"
                 backgroundColor="#ff424d;"
               >
-                <SocialIcon className={"ri-patreon-fill"} />
-                <SocialTitle>{"Patreon"}</SocialTitle>
+                <SocialContent>
+                  <SocialIcon className={"ri-patreon-fill"} />
+                  <SocialTitle>{"Patreon"}</SocialTitle>
+                </SocialContent>
               </SocialButton>
               <SocialButton
                 href="https://github.com/onRuntime/instagram-dark-extension"
                 backgroundColor="#2b3137;"
               >
-                <SocialTitle>
+                <SocialContent>
                   <SocialIcon className={"ri-github-fill"} />
-                  {"Github"}
-                </SocialTitle>
+                  <SocialTitle>{"Github"}</SocialTitle>
+                </SocialContent>
               </SocialButton>
             </SocialList>
           </ListWrapper>
@@ -72,37 +74,37 @@ const Welcome: NextPage = () => {
                 href="https://twitter.com/onRuntime"
                 backgroundColor="#1c9bef;"
               >
-                <SocialTitle>
+                <SocialContent>
                   <SocialIcon className={"ri-twitter-fill"} />
-                  {"Twitter"}
-                </SocialTitle>
+                  <SocialTitle>{"Twitter"}</SocialTitle>
+                </SocialContent>
               </SocialButton>
               <SocialButton
                 href="https://linkedin.com/company/onruntime"
                 backgroundColor="#0b65c2;"
               >
-                <SocialTitle>
+                <SocialContent>
                   <SocialIcon className={"ri-linkedin-fill"} />
-                  {"LinkedIn"}
-                </SocialTitle>
+                  <SocialTitle>{"LinkedIn"}</SocialTitle>
+                </SocialContent>
               </SocialButton>
               <SocialButton
                 href="https://discord.gg/ucX9c5yXmX"
                 backgroundColor="#404eed;"
               >
-                <SocialTitle>
+                <SocialContent>
                   <SocialIcon className={"ri-discord-fill"} />
-                  {"Discord"}
-                </SocialTitle>
+                  <SocialTitle>{"Discord"}</SocialTitle>
+                </SocialContent>
               </SocialButton>
               <SocialButton
                 href="https://instagram.com/onruntime"
                 backgroundColor="#dd2a7b;"
               >
-                <SocialTitle>
+                <SocialContent>
                   <SocialIcon className={"ri-instagram-fill"} />
-                  {"Instagram"}
-                </SocialTitle>
+                  <SocialTitle>{"Instagram"}</SocialTitle>
+                </SocialContent>
               </SocialButton>
             </SocialList>
           </ListWrapper>
@@ -115,46 +117,46 @@ const Welcome: NextPage = () => {
                 href="https://twitter.com/intent/tweet?url=https://onruntime.com/projects/instagram-dark&text=Hey%20everyone%20!%20I%20just%20installed%20an%20amazing%20extension%20called%20Instagram%20Dark%20!%20Check%20it%20out:&via=onRuntime"
                 backgroundColor="#1c9bef;"
               >
-                <SocialTitle>
+                <SocialContent>
                   <SocialIcon className={"ri-twitter-fill"} />
-                  {"Twitter"}
-                </SocialTitle>
+                  <SocialTitle>{"Twitter"}</SocialTitle>
+                </SocialContent>
               </SocialButton>
               <SocialButton
                 href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark&amp;src=sdkpreparse"
                 backgroundColor="#4267b2;"
               >
-                <SocialTitle>
+                <SocialContent>
                   <SocialIcon className={"ri-facebook-box-fill"} />
-                  {"Facebook"}
-                </SocialTitle>
+                  <SocialTitle>{"Facebook"}</SocialTitle>
+                </SocialContent>
               </SocialButton>
               <SocialButton
                 href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark"
                 backgroundColor="#0b65c2;"
               >
-                <SocialTitle>
+                <SocialContent>
                   <SocialIcon className={"ri-linkedin-fill"} />
-                  {"LinkedIn"}
-                </SocialTitle>
+                  <SocialTitle>{"LinkedIn"}</SocialTitle>
+                </SocialContent>
               </SocialButton>
               <SocialButton
                 href="https://tumblr.com/widgets/share/tool/preview?canonicalUrl=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark&title=&caption="
                 backgroundColor="#011935;"
               >
-                <SocialTitle>
+                <SocialContent>
                   <SocialIcon className={"ri-tumblr-fill"} />
-                  {"Tumblr"}
-                </SocialTitle>
+                  <SocialTitle>{"Tumblr"}</SocialTitle>
+                </SocialContent>
               </SocialButton>
               <SocialButton
                 href="mailto:?body=https://onruntime.com/projects/instagram-dark"
                 backgroundColor="#4b4b4c;"
               >
-                <SocialTitle>
+                <SocialContent>
                   <SocialIcon className={"ri-mail-fill"} />
-                  {"Email"}
-                </SocialTitle>
+                  <SocialTitle>{"Email"}</SocialTitle>
+                </SocialContent>
               </SocialButton>
             </SocialList>
           </ListWrapper>
@@ -182,6 +184,10 @@ const SocialButton = styled(({ children, ...props }) => (
   margin-right: 10px;
   ${({ backgroundColor }) =>
     backgroundColor && `background-color: ${backgroundColor}`}
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    margin-top: 5px;
+    padding: 1rem;
+  }
 `;
 
 const Background = styled.div`
@@ -265,12 +271,21 @@ const SocialList = styled.div`
 
 const SocialIcon = styled.i`
   margin-right: 5px;
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    margin-right: 0px;
+  }
 `;
 
-const SocialTitle = styled.h2`
+const SocialContent = styled.div`
   font-weight: ${({ theme }) => theme.weight.medium};
   display: flex;
   align-items: center;
+`;
+
+const SocialTitle = styled.h2`
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    display: none;
+  }
 `;
 
 export default Welcome;
