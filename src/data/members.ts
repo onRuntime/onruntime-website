@@ -10,14 +10,14 @@ const members: Member[] = [
     joined_at: "2015/01/01",
     // format: yyyy-mm-dd
   },
-  {
+  /*   {
     firstname: "Antoine",
     lastname: "Kingue",
     job: "main.roles.president.ceo",
     thumbnail_url: "/static/images/members/antoine-kingue.jpg",
     external_url: "https://linkedin.com/in/antoinekm",
     joined_at: "2015/01/01",
-  },
+  }, */
   {
     firstname: "Lucas",
     lastname: "Bodin",
