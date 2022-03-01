@@ -14,7 +14,7 @@ const projects: Project[] = [
     desc: "projects.list.instagramdark.desc",
     link: ROUTES.PROJECTS_INSTAGRAM_DARK,
     thumbnail_url: "/static/images/projects/instagram-dark-extension.jpg",
-    tags: ["Open Source", "Extension", "+40k downloads"],
+    tags: ["Open Source", "Extension", "+50k downloads"],
   },
   // {
   //   title: "Clock App",
