@@ -10,7 +10,7 @@ interface ProjectCardProps {
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
-  data: { title, desc, link, thumbnail_url, tags },
+  data: { title, desc, link, thumbnail_url, tags, featured },
 }: ProjectCardProps) => {
   const { t } = useTranslation();
   return (
@@ -18,13 +18,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       <Frame>
         <FrameImage
           src={thumbnail_url}
-          alt={`${title} Demo`}
+          alt={title}
           width={1920}
           height={1080}
         />
       </Frame>
       <Content>
         <Tag>
+          {featured && (
+            <TagItem>
+              <i className={"ri-star-fill"} /> {t("projects.featured")}
+            </TagItem>
+          )}
           {tags.map((tag: string, key: number) => (
             <TagItem key={key}>{tag}</TagItem>
           ))}
@@ -48,6 +53,11 @@ const Container = styled(Link)`
   color: ${({ theme }) => theme.colors.text.lightest};
   display: flex;
   flex-direction: column;
+
+  :hover {
+    //box shadow
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.2);
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     width: calc(100% - 10px);
@@ -75,6 +85,7 @@ const Tag = styled.ul`
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  margin-left: -2px;
 `;
 
 const TagItem = styled.li`
@@ -84,8 +95,9 @@ const TagItem = styled.li`
   padding: 2px 12px;
   background-color: rgba(255, 255, 255, 0.2);
 
-  :first-child {
-    margin-left: 0;
+  i {
+    // align middle
+    vertical-align: middle;
   }
 
   :last-child {
