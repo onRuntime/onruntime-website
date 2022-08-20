@@ -27,7 +27,7 @@ const Home: React.FC = () => {
         <About>
           <AboutCol>
             <AboutImage
-              src={"https://picsum.photos/seed/picsum/1920/1080"}
+              src={"/static/images/team.jpg"}
               width={1920}
               height={1080}
               alt={"onRuntime Wallpaper"}
