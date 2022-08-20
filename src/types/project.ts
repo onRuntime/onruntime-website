@@ -4,4 +4,5 @@ export type Project = {
   link: string;
   thumbnail_url: string;
   tags: Array<string>;
+  featured?: boolean;
 };
