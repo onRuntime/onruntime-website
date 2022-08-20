@@ -47,6 +47,9 @@
       ],
       "@services/*": [
         "./src/services/*"
+      ],
+      "@typeDefs/*": [
+        "./src/types/*"
       ]
     },
     "types": [
