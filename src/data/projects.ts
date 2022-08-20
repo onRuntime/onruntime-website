@@ -1,5 +1,5 @@
 import ROUTES from "@constants/routes";
-import { Project } from "src/types/project";
+import { Project } from "@typeDefs/project";
 
 const projects: Project[] = [
   // {
@@ -9,6 +9,28 @@ const projects: Project[] = [
   //   thumbnail_url: "/static/images/projects/twitter-smooth-extension.jpg",
   //   tags: ["Open Source", "Extension"],
   // },
+  {
+    title: "Tonight Pass",
+    desc: "Tonight Pass te permet de réserver ton pass de soirée VIP en avance et couper les files d’attentes des événements.",
+    link: "https://tonightpass.com",
+    thumbnail_url: "/static/images/projects/tonightpass.jpg",
+    tags: ["Semi Open Source", "Booking Service"],
+    featured: true,
+  },
+  {
+    title: "Open Graph Image",
+    desc: "About Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc",
+    link: "https://github.com/onRuntime/onruntime-og-image",
+    thumbnail_url: "/static/images/projects/open-graph-image.png",
+    tags: ["Open Source", "Open Graph", "Image Generator"],
+  },
+  {
+    title: "@onruntime/next-link",
+    desc: "Customized next/link for @onRuntime Next.js projects.",
+    link: "https://github.com/onRuntime/next-link",
+    thumbnail_url: "/static/images/projects/next-link.png",
+    tags: ["Open Source", "Package"],
+  },
   {
     title: "Instagram Dark Extension",
     desc: "projects.list.instagramdark.desc",
