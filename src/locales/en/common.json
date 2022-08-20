@@ -54,6 +54,7 @@
     },
     "title": "Projects",
     "desc": "Some innovative projects we've developed or contributed to in recent years.",
+    "featured": "Featured",
     "list": {
       "twittersmooth": {
         "desc": "Twitter smooth extension is an extension which aims to change the theme of the Twitter website, and make it a smooth theme."

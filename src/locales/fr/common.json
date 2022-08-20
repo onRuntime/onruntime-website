@@ -54,6 +54,7 @@
     },
     "title": "Projets",
     "desc": "Quelques projets innovants que nous avons contribué à développer ces dernières années.",
+    "featured": "En vedette",
     "list": {
       "twittersmooth": {
         "desc": "Twitter Smooth est une extension qui permet de changer le thème de Twitter et de le rendre smooth."
