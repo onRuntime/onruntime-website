@@ -118,7 +118,7 @@ const AboutCol = styled.div`
   flex-direction: column;
   flex: 1;
   justify-content: center;
-  padding: 10px;
+  padding: 25px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     align-items: center;
