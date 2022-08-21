@@ -24,8 +24,7 @@ const members: Member[] = [
     job: "main.roles.designer",
     thumbnail_url: "/static/images/members/lucas-bodin.jpg",
     external_url: "https://linkedin.com/in/lucasbdn",
-    joined_at: "2022/04/11",
-    //joined_at: "2019/01/01",
+    joined_at: "2019/01/01",
   },
   {
     firstname: "Younès",
