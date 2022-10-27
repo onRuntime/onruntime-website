@@ -9,6 +9,7 @@ import Head from "@components/Head";
 import Script from "@components/Script";
 
 import "remixicon/fonts/remixicon.css";
+import InformationBanner from "@components/InformationBanner";
 
 const App = ({ Component, pageProps }: AppProps): JSX.Element => {
   return (
@@ -19,6 +20,16 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => {
         }
       />
       <GlobalStyle />
+
+      <InformationBanner
+        text={
+          "🚚\u00A0Devis sur-mesure, prise en charge rapide, offres compétitives via notre serveur Discord\u00A0🚚"
+        }
+        onClick={() => {
+          window.open("https://discord.gg/JNyy9cKpeM");
+        }}
+      />
+
       <Navbar />
       <Component {...pageProps} />
       <Footer />
