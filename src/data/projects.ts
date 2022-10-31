@@ -11,7 +11,7 @@ const projects: Project[] = [
   // },
   {
     title: "Tonight Pass",
-    desc: "Tonight Pass te permet de réserver ton pass de soirée VIP en avance et couper les files d’attentes des événements.",
+    desc: "projects.list.tonightpass.desc",
     link: "https://tonightpass.com",
     thumbnail_url: "/static/images/projects/tonightpass.jpg",
     tags: ["Semi Open Source", "Booking Service"],
@@ -19,14 +19,14 @@ const projects: Project[] = [
   },
   {
     title: "Open Graph Image",
-    desc: "About Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc",
+    desc: "projects.list.opengraphimage.desc",
     link: "https://github.com/onRuntime/onruntime-og-image",
     thumbnail_url: "/static/images/projects/open-graph-image.png",
     tags: ["Open Source", "Open Graph", "Image Generator"],
   },
   {
     title: "@onruntime/next-link",
-    desc: "Customized next/link for @onRuntime Next.js projects.",
+    desc: "projects.list.nextlink.desc",
     link: "https://github.com/onRuntime/next-link",
     thumbnail_url: "/static/images/projects/next-link.png",
     tags: ["Open Source", "Package"],
