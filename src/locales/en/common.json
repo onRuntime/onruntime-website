@@ -4,6 +4,7 @@
       "name": "English"
     },
     "desc": "onRuntime is a French-Canadian studio that brings together teams of creators and develops applications, websites and game platforms.",
+    "informationbanner":"🚚\u00A0Need a website? Customized quotation, fast support, competitive offers via our Discord server\u00A0🚚",
     "projects": "Projects",
     "about": "About",
     "roles": {
@@ -56,6 +57,15 @@
     "desc": "Some innovative projects we've developed or contributed to in recent years.",
     "featured": "Featured",
     "list": {
+      "tonightpass": {
+        "desc": "Tonight Pass allows you to book a VIP party pass in advance and cut the lines at events."
+      },
+      "opengraphimage": {
+        "desc": "Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc."
+      },
+      "nextlink":{
+        "desc": "Next/link personnalisé pour les projets @onRuntime en Next.js."
+      },
       "twittersmooth": {
         "desc": "Twitter smooth extension is an extension which aims to change the theme of the Twitter website, and make it a smooth theme."
       },

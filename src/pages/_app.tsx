@@ -10,8 +10,10 @@ import Script from "@components/Script";
 
 import "remixicon/fonts/remixicon.css";
 import InformationBanner from "@components/InformationBanner";
+import useTranslation from "@hooks/useTranslation";
 
 const App = ({ Component, pageProps }: AppProps): JSX.Element => {
+  const { t } = useTranslation();
   return (
     <ThemeProvider theme={themes.dark}>
       <Head
@@ -22,9 +24,7 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => {
       <GlobalStyle />
 
       <InformationBanner
-        text={
-          "🚚\u00A0Devis sur-mesure, prise en charge rapide, offres compétitives via notre serveur Discord\u00A0🚚"
-        }
+        text={t("main.informationbanner")}
         onClick={() => {
           window.open("https://discord.gg/JNyy9cKpeM");
         }}
