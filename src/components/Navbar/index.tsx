@@ -3,6 +3,7 @@ import Link from "../Link";
 import ROUTES from "@constants/routes";
 import { useRouter } from "next/dist/client/router";
 import useTranslation from "@hooks/useTranslation";
+import LINKS from "@constants/links";
 
 const Navbar: React.FC = () => {
   const router = useRouter();
@@ -32,6 +33,11 @@ const Navbar: React.FC = () => {
         <NavItem>
           <NavLink href={ROUTES.ABOUT} active={pathname === ROUTES.ABOUT}>
             {t("main.about")}
+          </NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href={LINKS.DOCUMENTATION}>
+            {t("main.documentation")}
           </NavLink>
         </NavItem>
       </Nav>
@@ -106,7 +112,7 @@ const NavItem = styled.li`
   }
 `;
 
-const NavLink = styled(Link)<{ active: boolean }>`
+const NavLink = styled(Link)<{ active?: boolean }>`
   position: relative;
   color: ${({ active, theme }) =>
     active ? theme.colors.text.lightest : theme.colors.text.light};
