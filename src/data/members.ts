@@ -54,9 +54,9 @@ const members: Member[] = [
     firstname: "Ines",
     lastname: "Munoz",
     job: "main.roles.growth-hacker",
-    thumbnail_url: "/static/images/members/",
-    external_url: "",
-    joined_at: "2022/11/01",
+    thumbnail_url: "/static/images/members/ines-munoz.jpg",
+    external_url: "https://www.linkedin.com/in/in%C3%A8s-munoz-6259b3230",
+    joined_at: "2022/11/02",
   },
   {
     firstname: "Alois",
