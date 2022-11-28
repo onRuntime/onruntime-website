@@ -25,6 +25,15 @@
         "berrygames": "Leader of BerryGames",
         "netflixaddicts": "Leader of NetflixAddicts"
       }
+    },
+    "status": {
+      "co-founder": "Co-founder",
+      "founder": "Founder",
+      "admin": "Admin",
+      "lead" : "Lead",
+      "expert": "Expert",
+      "senior": "Senior",
+      "junior": "Junior"
     }
   },
   "home": {
