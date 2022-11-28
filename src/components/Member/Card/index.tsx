@@ -12,7 +12,15 @@ interface MemberCardProps {
 }
 
 const MemberCard: React.FC<MemberCardProps> = ({
-  data: { firstname, lastname, job, thumbnail_url, external_url, joined_at },
+  data: {
+    firstname,
+    lastname,
+    job,
+    states,
+    thumbnail_url,
+    external_url,
+    joined_at,
+  },
 }: MemberCardProps) => {
   const { t, locale } = useTranslation();
 
@@ -50,7 +58,9 @@ const MemberCard: React.FC<MemberCardProps> = ({
       />
       <Content href={external_url} contentOpen={contentOpen}>
         <Name>{`${firstname} ${lastname}`}</Name>
-        <Job>{t(job)}</Job>
+        <Job>
+          {t(states)} / {t(job)}
+        </Job>
         <Joined>{`${t("about.team.since")} ${moment(new Date(joined_at))
           .locale(locale || "en")
           .fromNow()}`}</Joined>
@@ -109,6 +119,7 @@ const Name = styled.h3`
 
 const Job = styled.h4`
   font-size: ${({ theme }) => theme.size.small};
+  white-space: auto;
 `;
 
 const Joined = styled.p`
