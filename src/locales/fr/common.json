@@ -10,20 +10,30 @@
     "roles": {
       "director": "Directeur",
       "president": {
-        "ceo": "Président et CEO",
-        "cto": "Président et CTO"
+        "ceo": "CEO",
+        "cto": "CTO"
       },
       "deputy_director": "Directeur adjoint",
       "designer": "Designer",
       "developer": "Développeur",
       "secretary": "Secrétaire",
       "growth-hacker": "Growth Hacker",
+      "comunity-manager": "Community Manager",
       "leaders": {
         "music": "Leader d'onRuntime Music",
         "rvby": "Leader de RVBY",
         "berrygames": "Leader de BerryGames",
         "netflixaddicts": "Leader de NetflixAddicts"
       }
+    },
+    "status": {
+      "co-founder": "Co-fondateur",
+      "founder": "Fondateur",
+      "admin": "Admin",
+      "lead" : "Lead",
+      "expert": "Expert",
+      "senior": "Senior",
+      "junior": "Junior"
     }
   },
   "home": {
