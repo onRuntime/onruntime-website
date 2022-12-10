@@ -16,12 +16,24 @@
       "deputy_director": "Deputy director",
       "designer": "Designer",
       "developer": "Developer",
+      "product-owner": "Product owner",
+      "comunity-manager": "Community manager",
+      "growth-hacker": "Growth hacker",
       "leaders": {
         "music": "Leader of onRuntime Music",
         "rvby": "Leader of RVBY",
         "berrygames": "Leader of BerryGames",
         "netflixaddicts": "Leader of NetflixAddicts"
       }
+    },
+    "status": {
+      "co-founder": "Co-founder",
+      "founder": "Founder",
+      "admin": "Admin",
+      "lead" : "Lead",
+      "expert": "Expert",
+      "senior": "Senior",
+      "junior": "Junior"
     }
   },
   "home": {
