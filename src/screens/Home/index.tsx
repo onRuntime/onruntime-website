@@ -46,12 +46,6 @@ const Home: React.FC = () => {
               alt={"Droit au coeur"}
             />
           </PartnerLink>
-          <PartnerLink href={"https://needfor-school.com"}>
-            <PartnersImage
-              src={"/static/images/partners/needforschool_logo.png"}
-              alt={"Need for School"}
-            />
-          </PartnerLink>
           <PartnerLink href={"https://studiowaves.fr/"}>
             <PartnersImage
               src={"/static/images/partners/waves_logo.png"}
