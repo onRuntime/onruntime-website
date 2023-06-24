@@ -47,33 +47,6 @@ const members: Member[] = [
     external_url: "https://linkedin.com/in/younesbessa",
     joined_at: "2020/01/01",
   },
-  {
-    firstname: "Alexis",
-    lastname: "Mouchon",
-    job: "main.roles.developer",
-    states: "main.status.junior",
-    thumbnail_url: "/static/images/members/alexis-mouchon.jpg",
-    external_url: "https://linkedin.com/in/alexis-mouchon",
-    joined_at: "2022/11/01",
-  },
-  {
-    firstname: "Ines",
-    lastname: "Munoz",
-    job: "main.roles.comunity-manager",
-    states: "main.status.senior",
-    thumbnail_url: "/static/images/members/ines-munoz.jpg",
-    external_url: "https://www.linkedin.com/in/in%C3%A8s-munoz-6259b3230",
-    joined_at: "2022/11/02",
-  },
-  {
-    firstname: "Mareh",
-    lastname: "Mannaa",
-    job: "main.roles.comunity-manager",
-    states: "main.status.junior",
-    thumbnail_url: "/static/images/members/mareh.jpg",
-    external_url: "https://www.linkedin.com/in/mareh-mannaa-0a9088231/",
-    joined_at: "2022/11/02",
-  },
 ];
 
 export default members;
