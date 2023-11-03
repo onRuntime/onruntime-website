@@ -71,6 +71,11 @@ export default class MyDocument extends Document {
             href="/static/images/favicon/favicon-16x16.png"
           />
           <link rel="manifest" href="/manifest.json" />
+          <script
+            defer
+            data-domain="onruntime.com"
+            src="https://plausible.io/js/script.js"
+          />
         </Head>
         <body>
           <Main />
