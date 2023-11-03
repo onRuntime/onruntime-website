@@ -1,13 +1,11 @@
-import React from "react";
-import styled from "styled-components";
-
 import Head from "@components/Head";
 import Button from "@components/Layout/Button";
 import MainContainer from "@components/Layout/MainContainer";
 import MemberList from "@components/Member/List";
-
 import membersData from "@data/members";
 import useTranslation from "@hooks/useTranslation";
+import React from "react";
+import styled from "styled-components";
 
 const Projects: React.FC = () => {
   const { t } = useTranslation();

@@ -1,6 +1,7 @@
 import { useRouter } from "next/dist/client/router";
 import React from "react";
 import styled from "styled-components";
+
 import Link from "../Link";
 
 const Footer: React.FC = () => {
@@ -45,13 +46,13 @@ const Footer: React.FC = () => {
       </Social>
       <Lang>
         <LangItem>
-          <LangLink href={pathname} locale="en" current={locale === "en"}>
-            English
+          <LangLink href={pathname} locale={"en"} current={locale === "en"}>
+            {"English"}
           </LangLink>
         </LangItem>
         <LangItem>
-          <LangLink href={pathname} locale="fr" current={locale === "fr"}>
-            Français
+          <LangLink href={pathname} locale={"fr"} current={locale === "fr"}>
+            {"Français"}
           </LangLink>
         </LangItem>
       </Lang>

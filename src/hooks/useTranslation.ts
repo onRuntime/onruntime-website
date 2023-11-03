@@ -2,7 +2,7 @@
 import { useRouter } from "next/router";
 
 const useTranslation = (
-  namespace = "common"
+  namespace = "common",
 ): {
   t: (key: string, variables?: string[]) => any;
   locale: string | undefined;
@@ -14,18 +14,20 @@ const useTranslation = (
     translation = require(`../locales/${locale}/${namespace}.json`);
   } catch (err) {
     console.error(
-      `An error occurred while loading the translation file: ${namespace}`
+      `An error occurred while loading the translation file: ${namespace}`,
     );
   }
 
   if (!translation) {
     try {
-      translation = require(`../locales/${
-        locales && locales.length > 0 ? locales[0] : "en"
-      }/${namespace}.json`);
+      translation = require(
+        `../locales/${
+          locales && locales.length > 0 ? locales[0] : "en"
+        }/${namespace}.json`,
+      );
     } catch (err) {
       console.error(
-        `An error occurred while loading the fallback translation file: ${namespace}`
+        `An error occurred while loading the fallback translation file: ${namespace}`,
       );
     }
   }

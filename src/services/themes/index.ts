@@ -1,6 +1,7 @@
-import main from "./main";
-import dark from "./dark";
 import { Theme } from "src/types/themes";
+
+import dark from "./dark";
+import main from "./main";
 
 const complete = (theme: Theme) => {
   return { ...main, ...theme };

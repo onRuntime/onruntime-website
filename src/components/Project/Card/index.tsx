@@ -1,9 +1,9 @@
+import useTranslation from "@hooks/useTranslation";
+import React from "react";
 import styled from "styled-components";
 
-import Link from "../../Link";
 import { Project } from "../../../types/project";
-import React from "react";
-import useTranslation from "@hooks/useTranslation";
+import Link from "../../Link";
 
 interface ProjectCardProps {
   data: Project;

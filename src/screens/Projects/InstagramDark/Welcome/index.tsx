@@ -1,11 +1,11 @@
 import Head from "@components/Head";
 import Button from "@components/Layout/Button";
 import MainContainer from "@components/Layout/MainContainer";
+import Link from "@components/Link";
 import useTranslation from "@hooks/useTranslation";
 import { NextPage } from "next";
 import React from "react";
 import styled from "styled-components";
-import Link from "@components/Link";
 
 const Welcome: NextPage = () => {
   const { t } = useTranslation();
@@ -36,8 +36,8 @@ const Welcome: NextPage = () => {
           </Header>
           <Video playsInline autoPlay loop muted>
             <source
-              src="/static/videos/instagram-dark-extension-demo-video.mp4"
-              type="video/mp4"
+              src={"/static/videos/instagram-dark-extension-demo-video.mp4"}
+              type={"video/mp4"}
             />
           </Video>
           <ListWrapper>
@@ -46,8 +46,8 @@ const Welcome: NextPage = () => {
             </Instruction>
             <SocialList>
               <SocialButton
-                href="https://www.patreon.com/onruntime"
-                backgroundColor="#ff424d;"
+                href={"https://www.patreon.com/onruntime"}
+                backgroundColor={"#ff424d;"}
               >
                 <SocialContent>
                   <SocialIcon className={"ri-patreon-fill"} />
@@ -55,8 +55,8 @@ const Welcome: NextPage = () => {
                 </SocialContent>
               </SocialButton>
               <SocialButton
-                href="https://github.com/onRuntime/instagram-dark-extension"
-                backgroundColor="#2b3137;"
+                href={"https://github.com/onRuntime/instagram-dark-extension"}
+                backgroundColor={"#2b3137;"}
               >
                 <SocialContent>
                   <SocialIcon className={"ri-github-fill"} />
@@ -71,8 +71,8 @@ const Welcome: NextPage = () => {
             </Instruction>
             <SocialList>
               <SocialButton
-                href="https://twitter.com/onRuntime"
-                backgroundColor="#1c9bef;"
+                href={"https://twitter.com/onRuntime"}
+                backgroundColor={"#1c9bef;"}
               >
                 <SocialContent>
                   <SocialIcon className={"ri-twitter-fill"} />
@@ -80,8 +80,8 @@ const Welcome: NextPage = () => {
                 </SocialContent>
               </SocialButton>
               <SocialButton
-                href="https://linkedin.com/company/onruntime"
-                backgroundColor="#0b65c2;"
+                href={"https://linkedin.com/company/onruntime"}
+                backgroundColor={"#0b65c2;"}
               >
                 <SocialContent>
                   <SocialIcon className={"ri-linkedin-fill"} />
@@ -89,8 +89,8 @@ const Welcome: NextPage = () => {
                 </SocialContent>
               </SocialButton>
               <SocialButton
-                href="https://discord.gg/ucX9c5yXmX"
-                backgroundColor="#404eed;"
+                href={"https://discord.gg/ucX9c5yXmX"}
+                backgroundColor={"#404eed;"}
               >
                 <SocialContent>
                   <SocialIcon className={"ri-discord-fill"} />
@@ -98,8 +98,8 @@ const Welcome: NextPage = () => {
                 </SocialContent>
               </SocialButton>
               <SocialButton
-                href="https://instagram.com/onruntime"
-                backgroundColor="#dd2a7b;"
+                href={"https://instagram.com/onruntime"}
+                backgroundColor={"#dd2a7b;"}
               >
                 <SocialContent>
                   <SocialIcon className={"ri-instagram-fill"} />
@@ -114,8 +114,10 @@ const Welcome: NextPage = () => {
             </Instruction>
             <SocialList>
               <SocialButton
-                href="https://twitter.com/intent/tweet?url=https://onruntime.com/projects/instagram-dark&text=Hey%20everyone%20!%20I%20just%20installed%20an%20amazing%20extension%20called%20Instagram%20Dark%20!%20Check%20it%20out:&via=onRuntime"
-                backgroundColor="#1c9bef;"
+                href={
+                  "https://twitter.com/intent/tweet?url=https://onruntime.com/projects/instagram-dark&text=Hey%20everyone%20!%20I%20just%20installed%20an%20amazing%20extension%20called%20Instagram%20Dark%20!%20Check%20it%20out:&via=onRuntime"
+                }
+                backgroundColor={"#1c9bef;"}
               >
                 <SocialContent>
                   <SocialIcon className={"ri-twitter-fill"} />
@@ -123,8 +125,10 @@ const Welcome: NextPage = () => {
                 </SocialContent>
               </SocialButton>
               <SocialButton
-                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark&amp;src=sdkpreparse"
-                backgroundColor="#4267b2;"
+                href={
+                  "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark&amp;src=sdkpreparse"
+                }
+                backgroundColor={"#4267b2;"}
               >
                 <SocialContent>
                   <SocialIcon className={"ri-facebook-box-fill"} />
@@ -132,8 +136,10 @@ const Welcome: NextPage = () => {
                 </SocialContent>
               </SocialButton>
               <SocialButton
-                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark"
-                backgroundColor="#0b65c2;"
+                href={
+                  "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark"
+                }
+                backgroundColor={"#0b65c2;"}
               >
                 <SocialContent>
                   <SocialIcon className={"ri-linkedin-fill"} />
@@ -141,8 +147,10 @@ const Welcome: NextPage = () => {
                 </SocialContent>
               </SocialButton>
               <SocialButton
-                href="https://tumblr.com/widgets/share/tool/preview?canonicalUrl=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark&title=&caption="
-                backgroundColor="#011935;"
+                href={
+                  "https://tumblr.com/widgets/share/tool/preview?canonicalUrl=https%3A%2F%2Fonruntime.com%2Fprojects%2Finstagram-dark&title=&caption="
+                }
+                backgroundColor={"#011935;"}
               >
                 <SocialContent>
                   <SocialIcon className={"ri-tumblr-fill"} />
@@ -150,8 +158,10 @@ const Welcome: NextPage = () => {
                 </SocialContent>
               </SocialButton>
               <SocialButton
-                href="mailto:?body=https://onruntime.com/projects/instagram-dark"
-                backgroundColor="#4b4b4c;"
+                href={
+                  "mailto:?body=https://onruntime.com/projects/instagram-dark"
+                }
+                backgroundColor={"#4b4b4c;"}
               >
                 <SocialContent>
                   <SocialIcon className={"ri-mail-fill"} />
@@ -162,10 +172,12 @@ const Welcome: NextPage = () => {
           </ListWrapper>
           <Disclaimer>
             {t("projects.list.instagramdark.welcome.disclaimer")}
-            <HereLink href="https://github.com/onRuntime/instagram-dark-extension">
+            <HereLink
+              href={"https://github.com/onRuntime/instagram-dark-extension"}
+            >
               {t("projects.list.instagramdark.welcome.here")}
             </HereLink>
-            .
+            {"."}
           </Disclaimer>
         </Container>
       </MainContainer>

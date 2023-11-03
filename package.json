@@ -6,7 +6,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
     "docker:build": "docker build . -t onruntime-website",
     "docker:run": "docker run -p 3000:3000 onruntime-website"
   },
@@ -25,15 +26,10 @@
     "@types/react": "17.0.4",
     "@types/react-dom": "17.0.3",
     "@types/styled-components": "5.1.29",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
     "babel-plugin-styled-components": "^2.0.0",
-    "eslint": "^8.0.0",
-    "eslint-config-next": "^14.0.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.24.0",
-    "prettier": "^2.3.1",
+    "eslint": "^8.52.0",
+    "eslint-config-antoine": "^1.0.13",
+    "prettier": "^3.0.3",
     "typescript": "^5.0.0"
   },
   "license": "MIT"

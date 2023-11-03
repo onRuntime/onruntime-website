@@ -1,6 +1,7 @@
 import styled from "styled-components";
-import MemberCard from "../Card";
+
 import { Member } from "../../../types/members";
+import MemberCard from "../Card";
 
 interface MemberListProps {
   data: Member[];

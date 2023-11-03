@@ -1,6 +1,6 @@
 import { APP_NAME, APP_URL } from "@constants/main";
-import { NextSeo } from "next-seo";
 import { useRouter } from "next/router";
+import { NextSeo } from "next-seo";
 
 interface Props {
   title?: string;
@@ -43,7 +43,7 @@ const Head: React.FC<Props> = ({
       description={description}
       openGraph={{
         title: finalTitle,
-        description: description,
+        description,
         site_name: APP_NAME,
         images: [
           {
