@@ -1,12 +1,12 @@
 import Head from "@components/Head";
 import Button from "@components/Layout/Button";
 import MainContainer from "@components/Layout/MainContainer";
+import Link from "@components/Link";
 import useTranslation from "@hooks/useTranslation";
+import is from "is_js";
 import { NextPage } from "next";
 import React from "react";
 import styled from "styled-components";
-import is from "is_js";
-import Link from "@components/Link";
 
 const InstagramDark: NextPage = () => {
   const { t } = useTranslation();
@@ -51,7 +51,7 @@ const InstagramDark: NextPage = () => {
           <Title>{"Instagram Dark"}</Title>
           <Description>{t("projects.list.instagramdark.desc")}</Description>
           <DownloadButton href={browser.link} outline>{`${t(
-            "projects.list.instagramdark.download"
+            "projects.list.instagramdark.download",
           )} ${
             browser.name
               ? `${t("projects.list.instagramdark.for")} ${browser.name}*`
@@ -60,8 +60,8 @@ const InstagramDark: NextPage = () => {
           <Available>{t("projects.list.instagramdark.available")}</Available>
           <Video playsInline autoPlay loop muted>
             <source
-              src="/static/videos/instagram-dark-extension-demo-video.mp4"
-              type="video/mp4"
+              src={"/static/videos/instagram-dark-extension-demo-video.mp4"}
+              type={"video/mp4"}
             />
           </Video>
         </Container>

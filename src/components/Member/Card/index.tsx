@@ -1,10 +1,10 @@
-import React from "react";
-import styled from "styled-components";
-import { Member } from "../../../types/members";
 import Link from "@components/Link";
 import useTranslation from "@hooks/useTranslation";
-
 import moment from "moment";
+import React from "react";
+import styled from "styled-components";
+
+import { Member } from "../../../types/members";
 import "moment/locale/fr";
 
 interface MemberCardProps {
@@ -40,7 +40,7 @@ const MemberCard: React.FC<MemberCardProps> = ({
 
   const handleContentOpen = React.useCallback(
     () => setContentOpen(!contentOpen),
-    [contentOpen]
+    [contentOpen],
   );
 
   return (
@@ -59,7 +59,9 @@ const MemberCard: React.FC<MemberCardProps> = ({
       <Content href={external_url} contentOpen={contentOpen}>
         <Name>{`${firstname} ${lastname}`}</Name>
         <Job>
-          {t(states)} / {t(job)}
+          {t(states)}
+          {" / "}
+          {t(job)}
         </Job>
         <Joined>{`${t("about.team.since")} ${moment(new Date(joined_at))
           .locale(locale || "en")

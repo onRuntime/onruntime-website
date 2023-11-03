@@ -1,5 +1,5 @@
-import React from "react";
 import NextLink from "next/link";
+import React from "react";
 
 interface Props {
   href: string;
@@ -30,8 +30,8 @@ const Link: React.FC<Props> = ({
     <a
       href={href}
       className={className}
-      target="_blank"
-      rel="noopener noreferrer"
+      target={"_blank"}
+      rel={"noopener noreferrer"}
     >
       {children}
     </a>

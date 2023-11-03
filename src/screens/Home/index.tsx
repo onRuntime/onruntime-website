@@ -1,14 +1,12 @@
-import styled from "styled-components";
-
 import Head from "@components/Head";
-import MainContainer from "@components/Layout/MainContainer";
 import Button from "@components/Layout/Button";
+import MainContainer from "@components/Layout/MainContainer";
 import Link from "@components/Link";
 import ProjectList from "@components/Project/List";
 import ROUTES from "@constants/routes";
-
 import projectsData from "@data/projects";
 import useTranslation from "@hooks/useTranslation";
+import styled from "styled-components";
 
 const Home: React.FC = () => {
   const { t } = useTranslation();

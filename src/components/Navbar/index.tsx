@@ -1,8 +1,9 @@
-import styled from "styled-components";
-import Link from "../Link";
 import ROUTES from "@constants/routes";
-import { useRouter } from "next/dist/client/router";
 import useTranslation from "@hooks/useTranslation";
+import { useRouter } from "next/dist/client/router";
+import styled from "styled-components";
+
+import Link from "../Link";
 
 const Navbar: React.FC = () => {
   const router = useRouter();
@@ -18,7 +19,7 @@ const Navbar: React.FC = () => {
           height={48}
           width={48}
         />
-        <BrandTitle>onRuntime</BrandTitle>
+        <BrandTitle>{"onRuntime"}</BrandTitle>
       </Brand>
       <Nav>
         <NavItem>
@@ -35,7 +36,7 @@ const Navbar: React.FC = () => {
           </NavLink>
         </NavItem>
       </Nav>
-      <Lang href={pathname} locale={locale == "en" ? "fr" : "en"}>
+      <Lang href={pathname} locale={locale === "en" ? "fr" : "en"}>
         <LangImage
           src={`/static/images/emojis/flag-${locale}.png`}
           draggable={false}

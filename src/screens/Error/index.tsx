@@ -1,11 +1,10 @@
-import styled from "styled-components";
-
-import Link from "@components/Link";
-import ROUTES from "@constants/routes";
 import Head from "@components/Head";
-import { APP_NAME } from "@constants/main";
 import MainContainer from "@components/Layout/MainContainer";
+import Link from "@components/Link";
+import { APP_NAME } from "@constants/main";
+import ROUTES from "@constants/routes";
 import useTranslation from "@hooks/useTranslation";
+import styled from "styled-components";
 
 const Error: React.FC = () => {
   const { t } = useTranslation();
@@ -14,7 +13,8 @@ const Error: React.FC = () => {
       <Head title={t("error.head.title")} />
       <Title>{t("error.title")}</Title>
       <Description>
-        {t("error.desc")} <Link href={ROUTES.HOME}>{APP_NAME}</Link>.
+        {t("error.desc")} <Link href={ROUTES.HOME}>{APP_NAME}</Link>
+        {"."}
       </Description>
     </Container>
   );

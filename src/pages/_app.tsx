@@ -1,7 +1,5 @@
 import { AppProps } from "next/app";
 import { ThemeProvider } from "styled-components";
-
-import themes from "@services/themes";
 import GlobalStyle from "@components/Layout/GlobalStyle";
 import Footer from "@components/Footer";
 import Navbar from "@components/Navbar";
@@ -11,6 +9,7 @@ import Script from "@components/Script";
 import "remixicon/fonts/remixicon.css";
 import InformationBanner from "@components/InformationBanner";
 import useTranslation from "@hooks/useTranslation";
+import themes from "@services/themes";
 
 const App = ({ Component, pageProps }: AppProps): JSX.Element => {
   const { t } = useTranslation();

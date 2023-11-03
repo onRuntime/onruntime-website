@@ -3,6 +3,6 @@ export type Project = {
   desc: string;
   link: string;
   thumbnail_url: string;
-  tags: Array<string>;
+  tags: string[];
   featured?: boolean;
 };
