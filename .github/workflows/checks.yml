@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Project
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 2
       - name: '[Push] Get commit message'
@@ -38,7 +38,7 @@ jobs:
     needs: pre_ci
     steps:
       - name: Checkout Project
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Use Node.js 16
         uses: actions/setup-node@v2
         with:
@@ -60,7 +60,7 @@ jobs:
     needs: pre_ci
     steps:
       - name: Checkout Project
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Use Node.js 16
         uses: actions/setup-node@v2
         with:
