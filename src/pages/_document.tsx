@@ -74,8 +74,8 @@ export default class MyDocument extends Document {
           <link rel={"manifest"} href={"/manifest.json"} />
           <script
             defer
-            data-domain={"onruntime.com"}
-            src={"https://plausible.io/js/script.js"}
+            src={"https://analytics.eu.umami.is/script.js"}
+            data-website-id={"a1dcf9f4-44a8-4deb-afeb-cf8465c41f72"}
           />
         </Head>
         <body>
