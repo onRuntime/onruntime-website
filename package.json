@@ -27,7 +27,7 @@
     "@types/react-dom": "17.0.3",
     "@types/styled-components": "5.1.32",
     "babel-plugin-styled-components": "^2.0.0",
-    "eslint": "^8.52.0",
+    "eslint": "^9.0.0",
     "eslint-config-antoine": "^1.0.13",
     "prettier": "^3.0.3",
     "typescript": "^5.0.0"
