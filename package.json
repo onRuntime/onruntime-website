@@ -23,8 +23,8 @@
   },
   "devDependencies": {
     "@types/node": "20.16.11",
-    "@types/react": "17.0.4",
-    "@types/react-dom": "17.0.3",
+    "@types/react": "17.0.83",
+    "@types/react-dom": "17.0.26",
     "@types/styled-components": "5.1.32",
     "babel-plugin-styled-components": "^2.0.0",
     "eslint": "^8.52.0",
