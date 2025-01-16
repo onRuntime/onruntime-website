@@ -1,36 +1,42 @@
 {
-  "name": "onruntime",
+  "name": "new",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint . --ext .ts,.tsx",
-    "lint:fix": "eslint . --ext .ts,.tsx --fix",
-    "docker:build": "docker build . -t onruntime-website",
-    "docker:run": "docker run -p 3000:3000 onruntime-website"
+    "lint": "next lint"
   },
   "dependencies": {
-    "is_js": "^0.9.0",
-    "moment": "^2.29.1",
-    "next": "^12.0.8",
-    "next-seo": "^6.0.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "remixicon": "^4.0.0",
-    "styled-components": "^5.2.3"
+    "@mdx-js/loader": "^3.1.0",
+    "@next/mdx": "^15.1.4",
+    "@radix-ui/react-navigation-menu": "^1.2.3",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@t3-oss/env-nextjs": "^0.11.1",
+    "@vercel/og": "^0.6.4",
+    "@vercel/speed-insights": "^1.1.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.471.1",
+    "next": "15.1.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "reflect-metadata": "^0.2.2",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.24.1"
   },
   "devDependencies": {
-    "@types/node": "20.16.11",
-    "@types/react": "17.0.4",
-    "@types/react-dom": "17.0.3",
-    "@types/styled-components": "5.1.32",
-    "babel-plugin-styled-components": "^2.0.0",
-    "eslint": "^8.52.0",
-    "eslint-config-antoine": "^1.0.13",
-    "prettier": "^3.0.3",
-    "typescript": "^5.0.0"
-  },
-  "license": "MIT"
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-antoine": "^1.0.14",
+    "eslint-config-next": "15.1.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
 }
