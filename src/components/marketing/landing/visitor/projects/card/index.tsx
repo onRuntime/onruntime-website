@@ -18,7 +18,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
   return (
     <Link
-      className="flex flex-col gap-3 max-w-64"
+      className="flex flex-col gap-3 max-w-[415px] sm:max-w-64"
       href={Routes.project(project.id)}
       ref={ref}
     >
