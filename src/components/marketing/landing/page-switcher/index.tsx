@@ -16,7 +16,7 @@ const PageSwitcher: React.FC = () => {
         value={pathname.replace("/", "")}
         className="w-fit mx-auto"
       >
-        <TabsList className="grid w-full grid-cols-2">
+        <TabsList className="grid w-full grid-cols-2 bg-background/50 shadow-xs backdrop-blur-2xl">
           <Link href={Routes.landing.customer}>
             <TabsTrigger value="customer">
               Je suis un potentiel client

@@ -8,43 +8,23 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import Projects from "@/constants/projects";
 import Routes from "@/constants/routes";
-import { OnRuntimeWordMark } from "@/logos/components";
+import { cn } from "@/lib/utils";
+import { OnRuntimeLogo, OnRuntimeWordMark } from "@/logos/components";
+import Image from "next/image";
 import Link from "next/link";
-import type React from "react";
+import React from "react";
+import Navigation from "./navigation";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="z-50 fixed w-full max-w-4xl mt-2.5 flex justify-between items-center p-2.5 bg-background rounded-lg shadow-xs filter:backdrop-blur">
+    <nav className="z-50 fixed w-full max-w-4xl mt-2.5 flex justify-between items-center p-2.5 bg-background/50 rounded-lg shadow-xs backdrop-blur-2xl">
       <Link href={Routes.landing.visitor}>
         <OnRuntimeWordMark height={24} />
       </Link>
 
-      <NavigationMenu className="hidden md:flex">
-        <NavigationMenuList>
-          <NavigationMenuItem>
-            <NavigationMenuTrigger>Nos services</NavigationMenuTrigger>
-
-            <NavigationMenuContent>
-              <NavigationMenuLink>Link</NavigationMenuLink>
-            </NavigationMenuContent>
-          </NavigationMenuItem>
-
-          <NavigationMenuItem>
-            <NavigationMenuTrigger>Nos projets</NavigationMenuTrigger>
-
-            <NavigationMenuContent>
-              <NavigationMenuLink>Link</NavigationMenuLink>
-            </NavigationMenuContent>
-          </NavigationMenuItem>
-
-          <Link href="/docs" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Le studio
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuList>
-      </NavigationMenu>
+      <Navigation />
 
       <div className="flex gap-2">
         <Button className={"hidden md:inline-flex"} variant={"outline"}>

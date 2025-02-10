@@ -27,6 +27,7 @@ const Featured: React.FC = () => {
 
             <Button variant={"outline"}>Voir notre travail</Button>
           </div>
+
           <DotPattern
             width={30}
             height={30}

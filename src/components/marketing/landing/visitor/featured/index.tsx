@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import React from "react";
 import Partners from "./partners";
+import { OnRuntimeWordMark } from "@/logos/components";
 
 const Featured: React.FC = () => {
   return (
@@ -37,13 +38,37 @@ const Featured: React.FC = () => {
           />
         </div>
 
-        <Image
-          src={"/static/images/onruntime-team.jpg"}
-          alt={"Équipe onRuntime Studio"}
-          width={6000}
-          height={4000}
-          className="mt-12 max-h-[510px] rounded-sm object-cover"
-        />
+        <div className="relative mt-12 rounded-sm overflow-hidden">
+          <Image
+            src={"/static/images/onruntime-team.jpg"}
+            alt={"Équipe onRuntime Studio"}
+            width={6000}
+            height={4000}
+            className="z-[-1] max-h-[510px] object-cover"
+          />
+
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end items-center p-5 md:p-10 gap-5">
+            <Image
+              className="hidden md:block self-start"
+              src={"/static/images/quotes.png"}
+              alt={""}
+              width={46}
+              height={43}
+            />
+
+            <p className="hidden md:block text-background leading-5">
+              À la base, nous sommes passionnés par le développement web et le
+              développement en général depuis plus de 6 ans. Nous sommes très
+              intéressés par les nouvelles technologies et le monde de la
+              création (design, musique, etc.). À partir de là nous avons créé
+              un Studio et une communauté autour de celui ci, nous adorons nous
+              retrouver autour d'une tasse de café ☕️ pour discuter, jouer et
+              surtout créer des projets.
+            </p>
+
+            <OnRuntimeWordMark fill="white" height={24} className="self-end" />
+          </div>
+        </div>
 
         <Partners />
       </div>
