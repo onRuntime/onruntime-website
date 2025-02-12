@@ -1,8 +1,14 @@
-export type Project = {
-  title: string;
-  desc: string;
-  link: string;
-  thumbnail_url: string;
-  tags: string[];
-  featured?: boolean;
-};
+export interface Project {
+  id: string;
+  name: string;
+  tags: Tag[];
+  shortDescription: string;
+  description: string;
+  iconUrl: string;
+  showcaseUrl: string;
+}
+
+export enum Tag {
+  FEATURED = "featured",
+  OPEN_SOURCE = "open-source",
+}
