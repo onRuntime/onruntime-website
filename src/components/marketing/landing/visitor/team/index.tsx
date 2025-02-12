@@ -31,7 +31,7 @@ const Team: React.FC = () => {
         <p className="leading-6">
           Composée de talents variés, allant de développeurs à des designers
           passionnés. Chacun apporte sa touche unique à nos projets. Ensemble,
-          nous formons un collectif où l'innovation est au cœur de tout ce que
+          nous formons un collectif où l&apos;innovation est au cœur de tout ce que
           nous entreprenons.
         </p>
 

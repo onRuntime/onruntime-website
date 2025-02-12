@@ -62,7 +62,7 @@ const Featured: React.FC = () => {
               intéressés par les nouvelles technologies et le monde de la
               création (design, musique, etc.). À partir de là nous avons créé
               un Studio et une communauté autour de celui ci, nous adorons nous
-              retrouver autour d'une tasse de café ☕️ pour discuter, jouer et
+              retrouver autour d&apos;une tasse de café ☕️ pour discuter, jouer et
               surtout créer des projets.
             </p>
 

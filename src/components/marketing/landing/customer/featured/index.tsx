@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import DotPattern from "@/components/ui/dot-pattern";
 import Safari from "@/components/ui/safari";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
 import React from "react";
 
 const Featured: React.FC = () => {

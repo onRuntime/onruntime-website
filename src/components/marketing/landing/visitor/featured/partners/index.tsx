@@ -1,4 +1,3 @@
-import { VelocityScroll } from "@/components/ui/scroll-based-velocity";
 import { OnRuntimeWordMark } from "@/logos/components";
 import React from "react";
 
