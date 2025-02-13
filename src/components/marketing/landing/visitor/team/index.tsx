@@ -20,7 +20,7 @@ const Team: React.FC = () => {
   ];
 
   return (
-    <section className="px-4 md:px-0 max-w-5xl py-16 mx-auto flex justify-between items-center">
+    <section className="conventionnal-layout py-16 flex justify-between items-center">
       <div className="flex flex-row"></div>
 
       <div className="flex flex-col gap-6 items-start max-w-md">

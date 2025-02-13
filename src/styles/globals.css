@@ -70,3 +70,13 @@
     @apply text-muted-foreground;
   }
 }
+
+@layer components {
+  .conventionnal-layout {
+    @apply px-4 md:px-0 max-w-5xl mx-auto;
+  }
+
+  .hero-title {
+    @apply font-medium text-5xl md:text-6xl text-foreground;
+  }
+}
