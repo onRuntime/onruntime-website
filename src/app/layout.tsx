@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils/cn";
 import Navbar from "@/components/marketing/navbar";
 import { Provider } from "react-wrap-balancer";
 import Footer from "@/components/layout/footer/footer";
+import Script from "next/script";
 
 export const googleSans = localFont({
   src: [
@@ -45,6 +46,7 @@ const RootLayout = async ({ children }: React.PropsWithChildren) => (
         <Footer />
       </Provider>
     </body>
+    <Script defer src="https://cloud.umami.is/script.js" data-website-id="a1dcf9f4-44a8-4deb-afeb-cf8465c41f72"/>
   </html>
 );
 
