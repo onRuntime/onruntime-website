@@ -59,7 +59,7 @@ const TeamGrid: React.FC = () => {
                 sizes="(max-width: 768px) 50vw, 25vw"
               />
               <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                <Link href={member.link}>
+                <Link href={member.link} target="_blank">
                   <Button 
                     className="bg-white text-black hover:bg-white/90 hover:text-black"
                   >
