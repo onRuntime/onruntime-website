@@ -1,4 +1,3 @@
-import { OnRuntimeWordMark } from "@/logos/components";
 import Image from "next/image";
 import React from "react";
 
