@@ -17,13 +17,13 @@ const PageSwitcher: React.FC = () => {
         className="w-fit mx-auto"
       >
         <TabsList className="grid w-full grid-cols-2 bg-background/50 shadow-xs backdrop-blur-2xl">
-          <Link href={Routes.landing.customer}>
+          <Link href={Routes.landing.customer} scroll={false}>
             <TabsTrigger value="customer">
               Je suis un potentiel client
             </TabsTrigger>
           </Link>
 
-          <Link href={Routes.landing.visitor}>
+          <Link href={Routes.landing.visitor} scroll={false}>
             <TabsTrigger value="">Je suis un simple visiteur</TabsTrigger>
           </Link>
         </TabsList>
