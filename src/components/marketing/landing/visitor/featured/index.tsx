@@ -22,7 +22,7 @@ const Featured: React.FC = () => {
           <h2 className="text-center text-muted-foreground">
             <Balancer>
               Une communauté dynamique de créateurs : développeurs, designers et
-              artistes de divers horizons, unis par l'innovation et la créativité.
+              artistes de divers horizons, unis par l&apos;innovation et la créativité.
             </Balancer>
           </h2>
 
