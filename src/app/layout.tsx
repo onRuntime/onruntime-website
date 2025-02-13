@@ -9,6 +9,8 @@ import Navbar from "@/components/marketing/navbar";
 import { Provider } from "react-wrap-balancer";
 import Footer from "@/components/layout/footer/footer";
 import Script from "next/script";
+import { Toaster } from "@/components/ui/toaster";
+import { MaintenanceToast } from "@/components/maintenance-toast";
 
 export const googleSans = localFont({
   src: [
@@ -45,6 +47,9 @@ const RootLayout = async ({ children }: React.PropsWithChildren) => (
 
         <Footer />
       </Provider>
+
+      <Toaster />
+      <MaintenanceToast />
     </body>
 
     {/* Umami Analytics */}
