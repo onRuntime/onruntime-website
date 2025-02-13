@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
       <p className="mt-5">
         Donnons vie à votre vision !
         <br/>
-        Notre équipe d'experts passionnés conçoit et développe des solutions web sur-mesure qui allient performance technique et expérience utilisateur innovante. Du design créatif au développement robuste, nous transformons vos idées en réalisations web impactantes qui démarquent votre marque dans l'univers numérique.
+        Notre équipe d&apos;experts passionnés conçoit et développe des solutions web sur-mesure qui allient performance technique et expérience utilisateur innovante. Du design créatif au développement robuste, nous transformons vos idées en réalisations web impactantes qui démarquent votre marque dans l&apos;univers numérique.
       </p>
     </section>
   )
