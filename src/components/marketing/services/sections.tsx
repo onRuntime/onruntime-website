@@ -118,7 +118,7 @@ export const TechnologiesSection = () => (
         <VelocityScroll
           defaultVelocity={1}
           numRows={1}
-          className="text-base md:text-2xl font-medium"
+          className="text-2xl md:text-2xl font-medium"
         >
           <span className="inline-flex items-center gap-4 ml-4">
             <TechnologyList />
@@ -127,7 +127,7 @@ export const TechnologiesSection = () => (
         <VelocityScroll
           defaultVelocity={-1}
           numRows={1}
-          className="text-base md:text-2xl font-medium"
+          className="text-2xl md:text-2xl font-medium"
         >
           <span className="inline-flex items-center gap-4 ml-4">
             <TechnologyList />
