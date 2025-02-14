@@ -18,7 +18,7 @@ export async function POST(req: Request) {
 
     const { name, email, message } = result.data;
 
-    const { data, error } = await resend.emails.send({
+    const { error } = await resend.emails.send({
       from: 'business@onruntime.com',
       to: 'contact@onruntime.com',
       subject: `Nouveau message de contact de ${name}`,
