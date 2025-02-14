@@ -19,7 +19,7 @@ const NavigationServices: React.FC = () => (
         <li className="row-span-3">
           <NavigationMenuLink asChild>
             <Link
-              href={Routes.landing.customer}
+              href={Routes.services}
               className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-onruntime-magenta/5 to-muted p-6 no-underline outline-none focus:shadow-md"
             >
               <OnRuntimeLogo className="" />
