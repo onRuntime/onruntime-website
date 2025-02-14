@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
 import DotPattern from "@/components/ui/dot-pattern";
 import Safari from "@/components/ui/safari";
+import Routes from "@/constants/routes";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 import React from "react";
 
 const Featured: React.FC = () => {
@@ -22,7 +24,9 @@ const Featured: React.FC = () => {
           </h2>
 
           <div className="flex gap-3">
-            <Button>Réserver une prestation</Button>
+            <Link href={Routes.contact}>
+              <Button>Réserver une prestation</Button>
+            </Link>
 
             <Button variant={"outline"}>Voir notre travail</Button>
           </div>

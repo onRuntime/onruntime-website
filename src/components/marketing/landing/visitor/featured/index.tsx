@@ -6,6 +6,8 @@ import React from "react";
 import Partners from "./partners";
 import { OnRuntimeWordMark } from "@/logos/components";
 import Balancer from "react-wrap-balancer";
+import Routes from "@/constants/routes";
+import Link from "next/link";
 
 const Featured: React.FC = () => {
   return (
@@ -14,20 +16,27 @@ const Featured: React.FC = () => {
         <div className="relative max-w-xl flex flex-col items-center gap-6">
           <h1 className="font-medium text-5xl md:text-6xl text-foreground text-center">
             <Balancer>
-              La machine à rêves, {" "}
-              <span className="text-onruntime-blue inline">onRuntime Studio</span>.
+              La machine à rêves,{" "}
+              <span className="text-onruntime-blue inline">
+                onRuntime Studio
+              </span>
+              .
             </Balancer>
           </h1>
 
           <h2 className="text-center text-muted-foreground">
             <Balancer>
               Une communauté dynamique de créateurs : développeurs, designers et
-              artistes de divers horizons, unis par l&apos;innovation et la créativité.
+              artistes de divers horizons, unis par l&apos;innovation et la
+              créativité.
             </Balancer>
           </h2>
 
           <div className="flex gap-3">
-            <Button>Réserver une prestation</Button>
+            <Link href={Routes.contact}>
+              <Button>Réserver une prestation</Button>
+            </Link>
+
             <Button variant={"outline"}>Voir notre travail</Button>
           </div>
 
@@ -65,9 +74,9 @@ const Featured: React.FC = () => {
                 développement en général depuis plus de 6 ans. Nous sommes très
                 intéressés par les nouvelles technologies et le monde de la
                 création (design, musique, etc.). À partir de là nous avons créé
-                un Studio et une communauté autour de celui-ci, nous adorons nous
-                retrouver autour d&apos;une tasse de café ☕️ pour discuter, jouer et
-                surtout créer des projets.
+                un Studio et une communauté autour de celui-ci, nous adorons
+                nous retrouver autour d&apos;une tasse de café ☕️ pour
+                discuter, jouer et surtout créer des projets.
               </Balancer>
             </p>
 
