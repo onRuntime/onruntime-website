@@ -7,7 +7,7 @@ import Link from "next/link";
 import Routes from "@/constants/routes";
 import Services from "@/constants/services";
 import ProjectTimeline from './timeline';
-import { ConsultingSection, ExpertiseSection, ValuePropositionSection } from '@/components/marketing/services/sections';
+import { ConsultingSection, ExpertiseSection, TechnologiesSection, ValuePropositionSection } from '@/components/marketing/services/sections';
 
 // Service card component with expandable sub-services
 const ServiceCard = ({ 
@@ -28,7 +28,7 @@ const ServiceCard = ({
   }>;
   route: string;
 }) => (
-  <div className="flex flex-col gap-6">
+  <div className="flex flex-col gap-6 w-full">
     <div className="group relative overflow-hidden rounded-lg border bg-background p-6 hover:border-onruntime-blue transition-colors">
       <Link href={route} className="absolute inset-0" />
       <div className="flex flex-col gap-4">
@@ -66,8 +66,8 @@ const ServiceCard = ({
 
 const ServicesPage = () => {
   return (
-    <main className="min-h-screen pt-32 pb-16">
-      <div className="px-4 md:px-0 max-w-5xl mx-auto space-y-32">
+    <main className="min-h-screen pt-32 pb-16 w-full">
+      <div className="px-4 md:px-0 max-w-5xl mx-auto space-y-32 w-full">
         {/* Hero Section */}
         <div className="relative max-w-2xl mx-auto flex flex-col items-center gap-6 text-center">
           <h1 className="font-medium text-4xl md:text-5xl text-foreground">
@@ -99,7 +99,7 @@ const ServicesPage = () => {
         <ValuePropositionSection />
 
         {/* Services Grid */}
-        <div className="flex flex-col gap-16">
+        <div className="flex flex-col gap-16 w-full">
           {Services.map((service) => (
             <ServiceCard 
               key={service.id}
@@ -116,7 +116,7 @@ const ServicesPage = () => {
         <ExpertiseSection />
 
         {/* Technologies */}
-        {/* <div>
+        <div className="w-full">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-medium text-foreground mb-4">
               Notre stack technologique
@@ -126,10 +126,10 @@ const ServicesPage = () => {
             </p>
           </div>
           <TechnologiesSection />
-        </div> */}
+        </div>
 
         {/* Notre processus */}
-        <div className="bg-card rounded-lg p-8 border">
+        <div className="bg-card rounded-lg p-8 border w-full">
           <div className="max-w-xl mx-auto text-center mb-12">
             <h2 className="text-3xl font-medium text-foreground mb-4">
               Notre processus de travail
