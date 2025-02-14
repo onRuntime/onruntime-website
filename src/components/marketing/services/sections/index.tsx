@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { VelocityScroll } from "@/components/ui/scroll-based-velocity";
 import Link from "next/link";
 import { ArrowRight, GitPullRequestArrow, Timer, Users } from "lucide-react";
+import Image from "next/image";
 
 export const ValuePropositionSection = () => (
   <div className="grid md:grid-cols-3 gap-8">
@@ -57,7 +58,6 @@ const technologies = [
   "Node.js",
   "Python",
   "Django",
-  "FastAPI",
   "PHP",
   "Laravel",
   "NestJS",
@@ -160,6 +160,24 @@ export const ConsultingSection = () => (
   </div>
 );
 
+const techPartners = [
+  {
+    name: "Google Cloud Platform",
+    logo: "/static/images/partners/google-cloud.svg",
+    description: "Infrastructure cloud robuste et évolutive"
+  },
+  {
+    name: "Amazon Web Services",
+    logo: "/static/images/partners/aws.svg",
+    description: "Solutions cloud complètes et flexibles"
+  },
+  {
+    name: "Shopify",
+    logo: "/static/images/partners/shopify.svg",
+    description: "Solutions e-commerce personnalisées"
+  }
+]
+
 export const ExpertiseSection = () => (
   <div className="grid md:grid-cols-2 gap-12">
     <div>
@@ -193,8 +211,33 @@ export const ExpertiseSection = () => (
       </dl>
     </div>
 
-    <div className="grid grid-cols-2 gap-4">
-      {/* Logos des technologies/certifications */}
+    <div className="space-y-8">
+      <h3 className="text-lg font-medium text-foreground">
+        Nos technologies partenaires
+      </h3>
+      
+      <div className="grid grid-cols-1 gap-6">
+        {techPartners.map((partner) => (
+          <div 
+            key={partner.name}
+            className="flex items-center gap-6 p-4 rounded-lg border bg-background hover:bg-accent/50 transition-colors"
+          >
+            <div className="relative w-16 h-12 flex-shrink-0">
+              <Image
+                src={partner.logo}
+                alt={partner.name}
+                className="object-contain"
+                fill
+                sizes="64px"
+              />
+            </div>
+            <div>
+              <h4 className="font-medium text-foreground">{partner.name} Partner</h4>
+              <p className="text-sm text-muted-foreground">{partner.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   </div>
 );
