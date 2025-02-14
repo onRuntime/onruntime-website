@@ -31,8 +31,6 @@ export async function POST(req: Request) {
       `
     });
 
-    console.log(data);
-
     if (error) {
       console.error(error);
       return NextResponse.json(
