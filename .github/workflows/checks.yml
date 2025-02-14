@@ -9,6 +9,7 @@ jobs:
     env:
       CI: true
       NEXT_PUBLIC_APP_URL: "https://onruntime.com"
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
 
     steps:
       - name: Checkout repo

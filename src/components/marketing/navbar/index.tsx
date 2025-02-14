@@ -16,9 +16,11 @@ const Navbar: React.FC = () => {
         <Navigation />
 
         <div className="flex gap-2">
-          <Button className={"hidden md:inline-flex"} variant={"outline"}>
-            Nous contacter
-          </Button>
+          <Link href={Routes.contact}>
+            <Button className={"hidden md:inline-flex"} variant={"outline"}>
+              Nous contacter
+            </Button>
+          </Link>
 
           <Button className="inline-flex md:hidden" variant={"outline"}>
             ...

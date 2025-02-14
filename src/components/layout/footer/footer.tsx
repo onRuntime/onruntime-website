@@ -16,7 +16,7 @@ const navigation = {
     { name: "Status", href: Routes.unknown },
   ],
   Autres: [
-    { name: "Contact", href: Routes.unknown },
+    { name: "Contact", href: Routes.contact },
     { name: "CGU & CGV", href: Routes.unknown },
     { name: "Mentions légales", href: Routes.unknown },
   ],
