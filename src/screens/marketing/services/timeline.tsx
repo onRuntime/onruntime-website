@@ -1,4 +1,6 @@
-import React from 'react';
+"use client";
+
+import React, { useEffect, useRef, useState } from 'react';
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 
@@ -55,6 +57,44 @@ const ProjectTimeline = () => {
     }
   ];
 
+  const [path, setPath] = useState("");
+  const timelineRef = useRef<HTMLDivElement>(null);
+  const pointRefs = useRef<Array<HTMLDivElement | null>>([]);
+
+  useEffect(() => {
+    const calculatePath = () => {
+      if (!timelineRef.current) return;
+
+      const validPointRefs = pointRefs.current.filter((ref): ref is HTMLDivElement => ref !== null);
+      if (validPointRefs.length === 0) return;
+
+      const points = validPointRefs.map(ref => {
+        const rect = ref.getBoundingClientRect();
+        const timelineRect = timelineRef.current!.getBoundingClientRect();
+        return {
+          x: rect.left - timelineRect.left + rect.width / 2,
+          y: rect.top - timelineRect.top + rect.height / 2
+        };
+      });
+
+      let svgPath = `M ${points[0].x} ${points[0].y}`;
+      
+      for (let i = 0; i < points.length - 1; i++) {
+        const current = points[i];
+        const next = points[i + 1];
+        const midY = (current.y + next.y) / 2;
+        
+        svgPath += ` C ${current.x} ${midY}, ${next.x} ${midY}, ${next.x} ${next.y}`;
+      }
+
+      setPath(svgPath);
+    };
+
+    calculatePath();
+    window.addEventListener('resize', calculatePath);
+    return () => window.removeEventListener('resize', calculatePath);
+  }, []);
+
   return (
     <div className="w-full">
       <div className="text-center mb-8">
@@ -64,36 +104,55 @@ const ProjectTimeline = () => {
         </p>
       </div>
 
-      <div className="relative">
-        {/* Ligne de connexion en arrière-plan */}
-        <div 
-          className="absolute left-4 top-4 bottom-4 w-0.5 bg-gradient-to-b from-onruntime-blue via-onruntime-magenta to-onruntime-blue"
-          style={{
-            maskImage: "linear-gradient(to bottom, transparent 2%, white 2%, white 98%, transparent 98%)",
-            WebkitMaskImage: "linear-gradient(to bottom, transparent 2%, white 2%, white 98%, transparent 98%)"
-          }}
-        />
+      <div className="relative" ref={timelineRef}>
+        <svg
+          className="absolute inset-0 w-full h-full pointer-events-none"
+          style={{ minHeight: '100%' }}
+        >
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stopColor="hsl(var(--onruntime-blue))" />
+              <stop offset="50%" stopColor="hsl(var(--onruntime-magenta))" />
+              <stop offset="100%" stopColor="hsl(var(--onruntime-blue))" />
+            </linearGradient>
+          </defs>
+          <path
+            d={path}
+            fill="none"
+            stroke="url(#gradient)"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeDasharray="8 8"
+            className="transition-all duration-300 animate-[dash_30s_linear_infinite]"
+          />
+        </svg>
 
-        <div className="relative flex flex-col gap-8 md:gap-16">
+        <div className="relative flex flex-col gap-8 md:gap-16 max-w-2xl mx-auto">
           {phases.map((phase, index) => (
             <div 
               key={index} 
               className={cn(
                 "flex gap-8",
-                index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse",
+                // Sur mobile, on alterne les points à gauche et à droite
+                index % 2 === 0 ? "flex-row" : "flex-row-reverse",
                 "group"
               )}
             >
-              {/* Point de connexion animé */}
-              <div className={cn(
-                "relative flex-none w-8 h-8 mt-2",
-                index % 2 === 0 ? "md:translate-x-0" : "md:translate-x-0"
-              )}>
+              <div 
+                ref={(el) => {
+                  pointRefs.current[index] = el;
+                }}
+                className={cn(
+                  "relative flex-none w-8 h-8 mt-2",
+                  // Ajout d'un décalage sur mobile aussi
+                  index % 2 === 0 ? "ml-0" : "-ml-4",
+                  "md:ml-0"
+                )}
+              >
                 <div className="absolute inset-0 bg-background border-2 border-onruntime-blue rounded-full group-hover:scale-125 transition-transform" />
                 <div className="absolute inset-2 bg-onruntime-blue rounded-full animate-pulse" />
               </div>
 
-              {/* Contenu */}
               <div className={cn(
                 "flex-1 p-6 rounded-lg border bg-card hover:border-onruntime-blue transition-colors",
                 "group-hover:shadow-lg group-hover:shadow-onruntime-blue/5"
