@@ -179,7 +179,7 @@ export const ExpertiseSection = () => (
           </dd>
         </div>
         <div className="space-y-2">
-          <dt className="text-3xl font-medium text-foreground">50+</dt>
+          <dt className="text-3xl font-medium text-foreground">7+</dt>
           <dd className="text-sm text-muted-foreground">Projets réalisés</dd>
         </div>
         <div className="space-y-2">
