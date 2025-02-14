@@ -102,6 +102,13 @@ const Services: Service[] = [
         route: Routes.service.integration.prestashop,
         icon: ShoppingBag,
       },
+      {
+        id: "strapi",
+        name: "Strapi",
+        description: "Développement de CMS headless avec Strapi",
+        route: Routes.service.integration.strapi,
+        icon: Database,
+      },
     ],
   },
   {

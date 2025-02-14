@@ -72,7 +72,6 @@ const technologies = [
   "PrestaShop",
   "Strapi",
   "WooCommerce",
-  "Drupal",
 
   // Infrastructure & Data
   "AWS",

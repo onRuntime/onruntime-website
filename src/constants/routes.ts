@@ -31,6 +31,7 @@ const Routes = {
       webflow: "/services/integration/webflow",
       squarespace: "/services/integration/squarespace",
       prestashop: "/services/integration/prestashop",
+      strapi: "/services/integration/strapi",
     },
     
     // Développement Frontend
