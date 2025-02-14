@@ -7,6 +7,7 @@ const Routes = {
 	},
 
 	team: "/team",
+	contact: "/contact",
 
 	project: (id: string) => `/projects/${id}`,
 };
