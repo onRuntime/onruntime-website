@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, LucideIcon } from "lucide-react";
 import Link from "next/link";
 import Routes from "@/constants/routes";
 import Services from "@/constants/services";
@@ -19,12 +19,12 @@ const ServiceCard = ({
 }: { 
   name: string;
   description: string;
-  icon: React.ComponentType<any>;
+  icon: LucideIcon;
   subServices: Array<{
     name: string;
     description: string;
     route: string;
-    icon?: React.ComponentType<any>;
+    icon?: LucideIcon;
   }>;
   route: string;
 }) => (

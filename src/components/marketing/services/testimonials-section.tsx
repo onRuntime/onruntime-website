@@ -42,7 +42,7 @@ const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
             <Quote className="w-8 h-8 text-onruntime-blue" />
             
             <p className="flex-1 text-foreground italic">
-              "{testimonial.content}"
+              &quot;{testimonial.content}&quot;
             </p>
 
             <div className="flex items-center gap-4">

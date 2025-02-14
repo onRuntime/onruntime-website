@@ -59,7 +59,7 @@ const ProjectTimeline = () => {
     <div className="w-full">
       <div className="text-center mb-8">
         <p className="text-muted-foreground">
-          Ce processus représente notre approche idéale, mais nous l'adaptons toujours à vos besoins et contraintes spécifiques. 
+          Ce processus représente notre approche idéale, mais nous l&apos;adaptons toujours à vos besoins et contraintes spécifiques. 
           Certaines étapes peuvent être ajustées ou ignorées selon votre situation.
         </p>
       </div>

@@ -32,7 +32,7 @@ export const ValuePropositionSection = () => (
       </div>
       <h3 className="text-lg font-medium text-foreground">Équipe Dédiée</h3>
       <p className="text-muted-foreground">
-        Des experts passionnés qui s'investissent pleinement dans la réussite de votre projet.
+        Des experts passionnés qui s&apos;investissent pleinement dans la réussite de votre projet.
       </p>
     </div>
   </div>
@@ -78,12 +78,12 @@ export const ExpertiseSection = () => (
         Une expertise reconnue
       </h2>
       <p className="text-muted-foreground mb-6">
-        Avec plus de 10 ans d'expérience cumulée, notre équipe maîtrise les dernières technologies et les meilleures pratiques du développement web et mobile.
+        Avec plus de 10 ans d&apos;expérience cumulée, notre équipe maîtrise les dernières technologies et les meilleures pratiques du développement web et mobile.
       </p>
       <dl className="grid grid-cols-2 gap-4 md:gap-8">
         <div className="space-y-2">
           <dt className="text-3xl font-medium text-foreground">10+</dt>
-          <dd className="text-sm text-muted-foreground">Années d'expérience</dd>
+          <dd className="text-sm text-muted-foreground">Années d&apos;expérience</dd>
         </div>
         <div className="space-y-2">
           <dt className="text-3xl font-medium text-foreground">50+</dt>
