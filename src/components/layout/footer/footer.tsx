@@ -17,8 +17,9 @@ const navigation = {
   ],
   Autres: [
     { name: "Contact", href: Routes.contact },
-    { name: "CGU & CGV", href: Routes.unknown },
-    { name: "Mentions légales", href: Routes.unknown },
+    { name: "Conditions générales", href: Routes.legal.terms },
+    { name: "Politique de confidentialité", href: Routes.legal.privacy }, 
+    { name: "Détails de l'entreprise", href: Routes.legal.company },
   ],
   Réseaux: [
     { name: "LinkedIn", href: Routes.unknown },
