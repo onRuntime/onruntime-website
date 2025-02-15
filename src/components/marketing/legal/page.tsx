@@ -60,7 +60,7 @@ const LegalPage: React.FC<LegalPageProps> = ({
             Notre équipe est à votre disposition pour répondre à toutes vos questions.
           </p>
 
-          <Link href="mailto:legal@onruntime.com">
+          <Link href="mailto:admin@onruntime.com">
             <Button className="flex items-center gap-2">
               <Mail className="w-4 h-4" />
               Nous contacter
