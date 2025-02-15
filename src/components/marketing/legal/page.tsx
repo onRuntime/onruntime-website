@@ -71,7 +71,7 @@ const LegalPage: React.FC<LegalPageProps> = ({
         {/* Links to other legal pages */}
         <nav className="mt-8 flex flex-wrap gap-4 text-sm text-muted-foreground">
           <Link href={Routes.legal.company} className="hover:text-foreground transition-colors">
-            Détails de l'entreprise
+            Détails de l&apos;entreprise
           </Link>
           <Link href={Routes.legal.privacy} className="hover:text-foreground transition-colors">
             Politique de confidentialité
