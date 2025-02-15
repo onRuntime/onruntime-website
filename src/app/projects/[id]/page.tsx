@@ -3,14 +3,15 @@ import Projects from "@/constants/projects";
 import ProjectPage from "@/screens/marketing/projects";
 import type { Metadata } from "next";
 
-interface ProjectPageProps {
-  params: {
-    id: string;
-  };
-}
+type Params = Promise<{ id: string }>;
 
-export async function generateMetadata({ params }: ProjectPageProps): Promise<Metadata> {
-  const project = Projects.find(p => p.id === params.id);
+export async function generateMetadata({ 
+  params 
+}: { 
+  params: Params 
+}): Promise<Metadata> {
+  const { id } = await params;
+  const project = Projects.find(p => p.id === id);
 
   if (!project) {
     return {
@@ -25,8 +26,13 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
   };
 }
 
-export default function Page({ params }: ProjectPageProps) {
-  const project = Projects.find(p => p.id === params.id);
+export default async function Page({ 
+  params 
+}: { 
+  params: Params 
+}) {
+  const { id } = await params;
+  const project = Projects.find(p => p.id === id);
 
   if (!project) {
     notFound();
@@ -35,7 +41,6 @@ export default function Page({ params }: ProjectPageProps) {
   return <ProjectPage project={project} />;
 }
 
-// Generate static params for all projects
 export async function generateStaticParams() {
   return Projects.map((project) => ({
     id: project.id,
