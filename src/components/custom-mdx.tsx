@@ -35,9 +35,9 @@ const components = {
   hr: (props: React.HTMLProps<HTMLHRElement>) => <hr className="border-border my-8" {...props} />,
 }
 
-interface MDXProps {
-  components?: Record<string, React.ComponentType<any>>
-  [key: string]: any
+export interface MDXProps {
+  components?: Record<string, React.ComponentType<React.HTMLAttributes<HTMLElement>>>
+  [key: string]: unknown
 }
 
 interface CustomMDXProps {
