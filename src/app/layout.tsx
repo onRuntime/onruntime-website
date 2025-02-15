@@ -52,30 +52,34 @@ const RootLayout = async ({ children }: React.PropsWithChildren) => (
       <MaintenanceToast />
     </body>
 
-    {/* Umami Analytics */}
-    <Script
-      defer
-      src="https://cloud.umami.is/script.js"
-      data-website-id="a1dcf9f4-44a8-4deb-afeb-cf8465c41f72"
-    />
+    {process.env.NODE_ENV !== "development" && (
+      <>
+        {/* Umami Analytics */}
+        <Script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="a1dcf9f4-44a8-4deb-afeb-cf8465c41f72"
+        />
 
-    {/* Google Analytics */}
-    <Script
-      defer
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-SGGDZ43QL4"
-    />
-    <Script
-      id="google-analytics"
-      dangerouslySetInnerHTML={{
-        __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-SGGDZ43QL4');
-    `,
-      }}
-    />
+        {/* Google Analytics */}
+        <Script
+          defer
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-SGGDZ43QL4"
+        />
+        <Script
+          id="google-analytics"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-SGGDZ43QL4');
+            `,
+          }}
+        />
+      </>
+    )}
   </html>
 );
 

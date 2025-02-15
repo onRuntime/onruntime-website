@@ -7,6 +7,7 @@ import "./env.mjs";
 const nextConfig: NextConfig = {
 	pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
 	reactStrictMode: process.env.NODE_ENV === "development",
+  transpilePackages: ["next-mdx-remote"],
 	env: {
 		NEXT_PUBLIC_NODE_ENV: process.env.NODE_ENV,
 	},

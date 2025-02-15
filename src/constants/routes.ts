@@ -1,4 +1,3 @@
-// src/constants/routes.ts
 const Routes = {
   unknown: "#",
 
@@ -11,9 +10,7 @@ const Routes = {
   contact: "/contact",
   services: "/services",
 
-  // Routes détaillées des services
   service: {
-    // Design UI/UX
     design: {
       root: "/services/design",
       moodboard: "/services/design/moodboard",
@@ -23,7 +20,6 @@ const Routes = {
       audit: "/services/design/audit",
     },
     
-    // Intégration
     integration: {
       root: "/services/integration",
       shopify: "/services/integration/shopify",
@@ -34,7 +30,6 @@ const Routes = {
       strapi: "/services/integration/strapi",
     },
     
-    // Développement Frontend
     frontend: {
       root: "/services/frontend",
       web: "/services/frontend/web",
@@ -43,7 +38,6 @@ const Routes = {
       pwa: "/services/frontend/pwa",
     },
     
-    // Développement Backend
     backend: {
       root: "/services/backend",
       api: "/services/backend/api",
@@ -54,7 +48,13 @@ const Routes = {
     },
   },
 
-  project: (id: string) => `/projects/${id}`,
+	legal: {
+		company: "/company",
+		terms: "/terms",
+		privacy: "/privacy",
+	},
+
+	project: (id: string) => `/projects/${id}`,
 };
 
 export default Routes;

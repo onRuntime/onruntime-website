@@ -13,6 +13,7 @@ const Partners: React.FC = () => {
             alt="French Tech Normandy"
             width={100}
             height={100}
+            draggable={false}
             className="h-20 w-20 object-contain grayscale transition-all duration-300 hover:grayscale-0"
           />
 
@@ -21,6 +22,7 @@ const Partners: React.FC = () => {
             alt="Need For School"
             width={100}
             height={100}
+            draggable={false}
             className="h-20 w-20 object-contain grayscale transition-all duration-300 hover:grayscale-0"
           />
         </div>
