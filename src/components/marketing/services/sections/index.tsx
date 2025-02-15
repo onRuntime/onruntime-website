@@ -11,7 +11,7 @@ export const ValuePropositionSection = () => (
       <div className="p-3 rounded-lg bg-onruntime-blue/10 text-onruntime-blue">
         <GitPullRequestArrow className="w-6 h-6" />
       </div>
-      <h3 className="text-lg font-medium text-foreground">Approche Flexible</h3>
+      <h3 className="text-lg font-medium text-foreground">Approche flexible</h3>
       <p className="text-muted-foreground">
         Notre méthodologie s&apos;adapte à vos besoins spécifiques, garantissant
         une collaboration fluide et efficace.
@@ -23,7 +23,7 @@ export const ValuePropositionSection = () => (
         <Timer className="w-6 h-6" />
       </div>
       <h3 className="text-lg font-medium text-foreground">
-        Time-to-Market Optimisé
+        Time-to-Market optimisé
       </h3>
       <p className="text-muted-foreground">
         Des solutions rapides et efficaces pour lancer votre projet dans les
@@ -35,7 +35,7 @@ export const ValuePropositionSection = () => (
       <div className="p-3 rounded-lg bg-onruntime-blue/10 text-onruntime-blue">
         <Users className="w-6 h-6" />
       </div>
-      <h3 className="text-lg font-medium text-foreground">Équipe Dédiée</h3>
+      <h3 className="text-lg font-medium text-foreground">Équipe dédiée</h3>
       <p className="text-muted-foreground">
         Des experts passionnés qui s&apos;investissent pleinement dans la
         réussite de votre projet.
