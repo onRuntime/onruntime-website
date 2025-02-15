@@ -22,7 +22,7 @@ const NavigationServices: React.FC = () => (
         <div className="group h-full select-none rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground">
           <Link href={Routes.services} className="flex h-full flex-col justify-between">
             <div className="flex flex-col gap-3">
-              <OnRuntimeLogo className="w-24" />
+              <OnRuntimeLogo className="w-32" />
 
               <h3 className="text-lg font-medium leading-none">
                 Nos services
