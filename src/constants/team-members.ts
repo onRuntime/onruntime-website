@@ -11,7 +11,7 @@ const TeamMembers: Record<string, TeamMember> = {
   },
   "lucas-bodin": {
     name: "Lucas Bodin",
-    roles: [TeamRole.CO_FOUNDER, TeamRole.DEVELOPER],
+    roles: [TeamRole.CO_FOUNDER, TeamRole.DESIGNER],
     website: "https://www.lucasb.fr",
     avatar: "/static/images/members/lucas-bodin.jpg",
     github: "https://github.com/lucasbodin",
@@ -20,6 +20,7 @@ const TeamMembers: Record<string, TeamMember> = {
   "antoine-kingue": {
     name: "Antoine Kingue",
     roles: [TeamRole.CO_FOUNDER, TeamRole.DEVELOPER],
+    website: "https://antoinek.fr",
     avatar: "/static/images/members/antoine-kingue.jpg",
     github: "https://github.com/antoinekm",
     linkedin: "https://www.linkedin.com/in/antoinekm",
