@@ -4,6 +4,7 @@ import { useEffect } from "react"
 import { useLocalStorage } from "usehooks-ts"
 import { useToast } from "@/hooks/use-toast"
 import { Button } from "@/components/ui/button"
+import Routes from "@/constants/routes"
 
 const STORAGE_KEY = "maintenance-toast-dismissed"
 
@@ -25,7 +26,7 @@ export function MaintenanceToast() {
               <Button 
                 variant="outline" 
                 size="sm"
-                onClick={() => window.open("https://twitter.com/onruntime", "_blank")}
+                onClick={() => window.open(Routes.socials.x, "_blank")}
               >
                 Suivre les actualités
               </Button>

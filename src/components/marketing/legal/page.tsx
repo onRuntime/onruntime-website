@@ -70,13 +70,13 @@ const LegalPage: React.FC<LegalPageProps> = ({
 
         {/* Links to other legal pages */}
         <nav className="mt-8 flex flex-wrap gap-4 text-sm text-muted-foreground">
-          <Link href={Routes.legal.company} className="hover:text-foreground transition-colors">
+          <Link href={Routes.legals.company} className="hover:text-foreground transition-colors">
             Détails de l&apos;entreprise
           </Link>
-          <Link href={Routes.legal.privacy} className="hover:text-foreground transition-colors">
+          <Link href={Routes.legals.privacy} className="hover:text-foreground transition-colors">
             Politique de confidentialité
           </Link>
-          <Link href={Routes.legal.terms} className="hover:text-foreground transition-colors">
+          <Link href={Routes.legals.terms} className="hover:text-foreground transition-colors">
             Conditions générales
           </Link>
         </nav>
