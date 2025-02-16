@@ -1,4 +1,5 @@
 import { LucideIcon } from "lucide-react";
+import TeamMembers from "@/constants/team-members";
 
 export enum Tag {
   FEATURED = "featured",
@@ -24,12 +25,9 @@ export interface Metric {
   description?: string;
 }
 
-export interface TeamMember {
-  name: string;
+export interface ProjectTeamMember {
+  ref: keyof typeof TeamMembers;
   role: string;
-  avatar?: string;
-  github?: string;
-  linkedin?: string;
 }
 
 export interface Testimonial {
@@ -51,6 +49,7 @@ export interface Project {
   longDescription: string; // Description détaillée du projet
   iconUrl: string;
   showcaseUrl: string;
+  thumbnailUrl: string;
   
   // Informations détaillées
   website?: string; // URL du projet
@@ -64,7 +63,7 @@ export interface Project {
   metrics: Metric[];
   
   // Équipe et témoignages
-  team: TeamMember[];
+  team: ProjectTeamMember[];
   testimonials?: Testimonial[];
   
   // Galerie

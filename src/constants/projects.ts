@@ -15,6 +15,7 @@ import {
   Paintbrush,
   Palette,
   Server,
+  Shield,
   Smartphone,
   Target,
   Ticket,
@@ -25,15 +26,14 @@ const Projects: Project[] = [
     id: "tonightpass",
     name: "Tonight Pass",
     tags: [Tag.FEATURED],
-    shortDescription:
-      "Réserve ton pass de soirée VIP en avance et coupe les files d'attentes.",
-    description:
-      "Tonight Pass permet de réserver un pass de soirée VIP en avance et couper les files d'attentes des événements.",
-    longDescription: `Tonight Pass révolutionne la façon dont les noctambules vivent leurs soirées. Notre plateforme offre une solution innovante pour réserver des accès VIP aux meilleurs événements nocturnes, permettant aux utilisateurs d'éviter les files d'attente et de profiter d'une expérience premium.
+    shortDescription: "Découvrez et réservez les meilleurs événements adaptés à vos goûts.",
+    description: "Tonight Pass est une plateforme innovante qui simplifie la découverte et la réservation d'événements grâce à un système de recommandations personnalisées basé sur vos préférences.",
+    longDescription: `Tonight Pass révolutionne la façon dont les gens découvrent et participent aux événements. Notre plateforme combine technologie et expérience utilisateur pour offrir des recommandations personnalisées et une billetterie simplifiée.
 
-La plateforme met en relation les organisateurs d'événements avec les fêtards, offrant une solution tout-en-un pour la gestion des réservations, des accès VIP et des promotions spéciales. Chaque aspect de l'application a été pensé pour optimiser l'expérience utilisateur et simplifier la gestion des événements pour les organisateurs.`,
+La plateforme met en relation les organisateurs d'événements et les participants, offrant une solution complète de gestion des réservations, de recommandations intelligentes et d'analyse de données. L'application a été conçue pour optimiser l'expérience de découverte d'événements tout en simplifiant leur gestion pour les organisateurs.`,
     iconUrl: "/static/images/projects/tonightpass/icon.svg",
     showcaseUrl: "/static/images/projects/showcases/tonightpass.jpg",
+    thumbnailUrl: "/static/images/projects/thumbnails/tonightpass.jpg",
     website: "https://tonightpass.com",
     repository: undefined,
     startDate: "2021-04",
@@ -41,35 +41,35 @@ La plateforme met en relation les organisateurs d'événements avec les fêtards
 
     features: [
       {
-        title: "Réservation instantanée",
-        description: "Réservez votre place en quelques clics et recevez une confirmation immédiate",
+        title: "Billetterie simplifiée",
+        description: "Réservez vos billets en quelques clics pour tous types d'événements",
         icon: Ticket
       },
       {
-        title: "Pass VIP digital",
-        description: "Accédez directement aux établissements avec votre pass digital",
-        icon: Crown
+        title: "Recommandations personnalisées",
+        description: "Découvrez des événements adaptés à vos goûts",
+        icon: Compass
       },
       {
-        title: "Découverte d'événements",
-        description: "Explorez les meilleurs événements de votre ville avec des recommandations personnalisées",
-        icon: Compass
+        title: "E-tickets sécurisés",
+        description: "Accédez aux événements avec des billets numériques sécurisés",
+        icon: Shield
       }
     ],
 
     technologies: [
       {
-        name: "React Native",
-        description: "Application mobile cross-platform",
+        name: "React & React Native",
+        description: "Applications web et mobile",
         icon: Code
       },
       {
-        name: "Node.js",
-        description: "Backend API et services",
+        name: "Nest.js", 
+        description: "Backend API",
         icon: Server
       },
       {
-        name: "PostgreSQL",
+        name: "MongoDB",
         description: "Base de données principale",
         icon: Database
       }
@@ -77,29 +77,82 @@ La plateforme met en relation les organisateurs d'événements avec les fêtards
 
     metrics: [
       {
-        label: "Utilisateurs actifs",
-        value: "10k+",
-        description: "Utilisateurs mensuels actifs",
+        label: "Temps gagné",
+        value: "45min",
+        description: "En moyenne par recherche d'événement",
       },
       {
-        label: "Établissements partenaires",
-        value: "50+",
-        description: "Dans toute la France",
+        label: "Couverture",
+        value: "100%",
+        description: "Disponible partout en France", 
       },
       {
-        label: "Réservations",
-        value: "100k+",
-        description: "Réservations effectuées",
-      },
+        label: "Facilité",
+        value: "1-clic",
+        description: "Pour réserver n'importe quel événement",
+      }
     ],
 
     team: [
       {
-        name: "Jérémy Baudrin",
+        ref: "antoine-kingue",
+        role: "Product Manager",
+      },
+      {
+        ref: "killian-mendy",
+        role: "Product Manager",
+      },
+      {
+        ref: "jeremy-baudrin",
         role: "Lead Developer",
-        avatar: "/static/images/members/jeremy-baudrin.jpg",
-        github: "https://github.com/jerembdn",
-        linkedin: "https://linkedin.com/in/jeremybdn",
+      },
+      {
+        ref: "lucas-bodin",
+        role: "Lead Designer",
+      },
+      {
+        ref: "maeva-leclerc",
+        role: "Lead Marketing",
+      },
+      {
+        ref: "mareh-mannaa",
+        role: "Marketing",
+      },
+      {
+        ref: "alois-gradelet",
+        role: "Community Manager",
+      },
+      {
+        ref: "ines-munoz",
+        role: "Community Manager",
+      },
+      {
+        ref: "maceo-vaz-da-mota",
+        role: "Designer",
+      },
+      {
+        ref: "younes-bessa",
+        role: "Developer",
+      },
+      {
+        ref: "alexis-lecourt",
+        role: "Developer",
+      },
+      {
+        ref: "oumaima-haddar",
+        role: "Developer",
+      },
+      {
+        ref: "alexis-mouchon",
+        role: "Developer",
+      },
+      {
+        ref: "amel-tolba",
+        role: "Developer",
+      },
+      {
+        ref: "ines-ferreira",
+        role: "Developer",
       },
     ],
 
@@ -115,21 +168,26 @@ La plateforme met en relation les organisateurs d'événements avec les fêtards
     ],
 
     challenges: [
-      "Gestion du temps réel pour les disponibilités",
-      "Mise en place d'un système de paiement sécurisé",
-      "Scalabilité pour gérer les pics d'affluence",
+      "Développement d'une expérience de billetterie fluide et intuitive",
+      "Création d'un système de recommandation personnalisé",
+      "Mise en place d'une infrastructure scalable",
+      "Gestion des pics de trafic lors des mises en vente",
     ],
-
+    
     learnings: [
-      "Importance de l'UX dans le processus de réservation",
-      "Gestion des données en temps réel avec WebSocket",
-      "Optimisation des performances sur mobile",
+      "Importance de la simplicité dans le parcours de réservation",
+      "Nécessité d'une interface adaptée aux différents types d'événements",
+      "Gestion efficace d'une base de données d'événements",
+      "Équilibre entre rapidité et fiabilité du service",
     ],
-
+    
     futurePlans: [
-      "Expansion internationale",
-      "Intégration de la réalité augmentée",
-      "Programme de fidélité avancé",
+      "Déploiement de bornes dans les établissements",
+      "Lancement d'une plateforme de recrutement événementiel",
+      "Mise en place d'un service de location de salles",
+      "Création d'un réseau de fournisseurs événementiels",
+      "Développement d'outils avancés pour les organisateurs",
+      "Perfectionnement du système de recommandations",
     ],
   },
 
@@ -148,6 +206,7 @@ La plateforme met en relation les organisateurs d'événements avec les fêtards
   Chaque composant est conçu pour être modulaire, performant et hautement personnalisable, permettant aux équipes de développement de créer rapidement des interfaces utilisateur cohérentes tout en maintenant une excellente expérience développeur.`,
     iconUrl: "/static/images/projects/kitchn/icon.svg",
     showcaseUrl: "/static/images/projects/kitchn/showcase.jpg",
+    thumbnailUrl: "/static/images/projects/kitchn/thumbnail.jpg",
     website: "https://kitchn.tonightpass.com",
     repository: "https://github.com/tonightpass/kitchn",
     startDate: "2022-10",
@@ -228,57 +287,36 @@ La plateforme met en relation les organisateurs d'événements avec les fêtards
 
     team: [
       {
-        name: "Lucas Bodin",
+        ref: "lucas-bodin",
         role: "Lead Designer",
-        avatar: "/static/images/members/lucas-bodin.jpg",
-        github: "https://github.com/lucasbodin",
-        linkedin: "https://linkedin.com/in/lucasbodin",
       },
       {
-        name: "Macéo Vaz Da Mota",
+        ref: "maceo-vaz-da-mota",
         role: "Designer",
-        avatar: "/static/images/members/lucas-bodin.jpg",
-        linkedin: "https://linkedin.com/in/macéo-vaz-da-mota-74b8b2258",
       },
       {
-        name: "Antoine Kingue",
+        ref: "antoine-kingue",
         role: "Lead Developer",
-        avatar: "/static/images/members/antoine-kingue.jpg",
-        github: "https://github.com/antoinekm",
-        linkedin: "https://linkedin.com/in/antoinekm",
       },
       {
-        name: "Jérémy Baudrin",
+        ref: "jeremy-baudrin",
         role: "Developer",
-        avatar: "/static/images/members/jeremy-baudrin.jpg",
-        github: "https://github.com/jerembdn",
-        linkedin: "https://linkedin.com/in/jeremybdn",
       },
       {
-        name: "Younès Bessa",
+        ref: "younes-bessa",
         role: "Developer",
-        avatar: "/static/images/members/younes-bessa.jpg",
-        github: "https://github.com/younesbessa",
-        linkedin: "https://linkedin.com/in/younesbessa",
       },
       {
-        name: "Alexis Mouchon",
+        ref: "alexis-mouchon",
         role: "Developer",
-        avatar: "/static/images/members/alexis-mouchon.jpg",
-        github: "https://github.com/siralex214",
-        linkedin: "https://linkedin.com/in/alexis-mouchon",
       },
       {
-        name: "Alexis Lecourt",
+        ref: "alexis-lecourt",
         role: "Developer",
-        github: "https://github.com/ibaky",
-        linkedin: "https://linkedin.com/in/alexis-lecourt-b46a64329",
       },
       {
-        name: "Inès Ferreira",
+        ref: "ines-ferreira",
         role: "Developer",
-        github: "https://github.com/tigersnowy",
-        linkedin: "https://linkedin.com/in/ines-ferreira-ds",
       },
     ],
 
@@ -328,6 +366,7 @@ L'extension utilise des algorithmes avancés basés sur l'Écoindex pour calcule
 Avec une approche ludique et éducative, Kartrak rend la conscience environnementale accessible et engageante.`,
     iconUrl: "/static/images/projects/kartrak/icon.svg",
     showcaseUrl: "/static/images/projects/kartrak/showcase.jpg",
+    thumbnailUrl: "/static/images/projects/kartrak/thumbnail.jpg",
     website:
       "https://chromewebstore.google.com/detail/kartrak/bheoaeahkgfmogmgkfldoecmnlbhlibf",
     repository: "https://github.com/onruntime/kartrak",
@@ -401,25 +440,16 @@ Avec une approche ludique et éducative, Kartrak rend la conscience environnemen
 
     team: [
       {
-        name: "Lucas Bodin",
+        ref: "lucas-bodin",
         role: "Product Manager",
-        avatar: "/static/images/members/lucas-bodin.jpg",
-        github: "https://github.com/imazyx",
-        linkedin: "https://www.linkedin.com/in/lucasbdn",
       },
       {
-        name: "Antoine Kingue",
+        ref: "antoine-kingue",
         role: "Lead Developer",
-        avatar: "/static/images/members/antoine-kingue.jpg",
-        github: "https://github.com/antoinekm",
-        linkedin: "https://linkedin.com/in/antoinekm",
       },
       {
-        name: "Jérémy Baudrin",
+        ref: "jeremy-baudrin",
         role: "Developer",
-        avatar: "/static/images/members/jeremy-baudrin.jpg",
-        github: "https://github.com/jerembdn",
-        linkedin: "https://linkedin.com/in/jeremybdn",
       },
     ],
 

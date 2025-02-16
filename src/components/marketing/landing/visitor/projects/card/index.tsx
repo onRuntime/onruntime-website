@@ -25,7 +25,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       <div className="relative">
         <Image
           className="relative rounded-lg object-cover h-[200px] w-full"
-          src={project.showcaseUrl}
+          src={project.thumbnailUrl}
           alt={project.name}
           width={260}
           height={200}
