@@ -1,4 +1,4 @@
-// src/types/project.ts
+import { LucideIcon } from "lucide-react";
 
 export enum Tag {
   FEATURED = "featured",
@@ -8,13 +8,13 @@ export enum Tag {
 export interface Technology {
   name: string;
   description: string;
-  icon: string; // URL vers l'icône de la technologie
+  icon: LucideIcon;
 }
 
 export interface Feature {
   title: string;
   description: string;
-  icon?: string;
+  icon?: LucideIcon;
   image?: string;
 }
 
@@ -27,7 +27,7 @@ export interface Metric {
 export interface TeamMember {
   name: string;
   role: string;
-  avatar: string;
+  avatar?: string;
   github?: string;
   linkedin?: string;
 }
