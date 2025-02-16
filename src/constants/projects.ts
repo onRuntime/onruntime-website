@@ -7,7 +7,6 @@ import {
   Chrome,
   Code,
   Compass,
-  Crown,
   Database,
   FileCode,
   FileText,
