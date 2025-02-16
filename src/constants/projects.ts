@@ -31,8 +31,8 @@ const Projects: Project[] = [
 
 La plateforme met en relation les organisateurs d'événements et les participants, offrant une solution complète de gestion des réservations, de recommandations intelligentes et d'analyse de données. L'application a été conçue pour optimiser l'expérience de découverte d'événements tout en simplifiant leur gestion pour les organisateurs.`,
     iconUrl: "/static/images/projects/tonightpass/icon.svg",
-    showcaseUrl: "/static/images/projects/showcases/tonightpass.jpg",
-    thumbnailUrl: "/static/images/projects/thumbnails/tonightpass.jpg",
+    showcaseUrl: "/static/images/projects/tonightpass/showcase.jpg",
+    thumbnailUrl: "/static/images/projects/tonightpass/thumbnail.jpg",
     website: "https://tonightpass.com",
     repository: undefined,
     startDate: "2021-04",
