@@ -18,7 +18,7 @@ const TeamGrid: React.FC = () => {
   const selectedMembers = ['jeremy-baudrin', 'antoine-kingue', 'lucas-bodin', 'younes-bessa'];
   const teamMembersArray = Object.entries(TeamMembers)
     .filter(([key]) => selectedMembers.includes(key))
-    .map(([_, member]) => ({
+    .map(([, member]) => ({
     name: member.name,
     mainRole: roleToDisplay[member.roles[0]],
     secondaryRole: member.roles[1] ? roleToDisplay[member.roles[1]] : undefined,
