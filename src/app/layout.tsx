@@ -10,9 +10,9 @@ import Footer from "@/components/layout/footer/footer";
 import Script from "next/script";
 import { Toaster } from "@/components/ui/toaster";
 import { MaintenanceToast } from "@/components/maintenance-toast";
-import { Outfit } from "next/font/google"
+import { Figtree } from "next/font/google"
 
-export const outfit = Outfit({
+export const outfit = Figtree({
   subsets: ["latin"],
   variable: "--font-outfit",
 });
