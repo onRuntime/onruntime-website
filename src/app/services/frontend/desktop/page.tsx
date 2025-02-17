@@ -29,7 +29,7 @@ const DesktopServicePage = () => {
       description={metadata.description}
       heroTitle="Applications Desktop Multiplateformes"
       heroDescription="Développez des applications de bureau modernes et performantes pour Windows, macOS et Linux. Notre expertise vous garantit des applications professionnelles qui tirent parti de toute la puissance du desktop."
-      heroImage="/static/images/services/desktop-hero.jpg"
+      heroImage="/static/images/services/frontend/desktop/frontend-systeme.jpg"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -57,7 +57,7 @@ const DesktopServicePage = () => {
             icon: Cpu
           }
         ]}
-        image="/static/images/services/desktop-features.jpg"
+        image="/static/images/services/frontend/desktop/frontend-developpement.jpg"
       />
 
       {/* Avantages des applications desktop */}
@@ -86,7 +86,7 @@ const DesktopServicePage = () => {
             icon: Database
           }
         ]}
-        image="/static/images/services/desktop-benefits.jpg"
+        image="/static/images/services/frontend/desktop/frontend-app.jpg"
         reversed
       />
 
@@ -174,6 +174,8 @@ const DesktopServicePage = () => {
             icon: Cloud
           }
         ]}
+        image="/static/images/services/frontend/desktop/frontend-complementaire.jpg"
+
       />
     </ServiceLayout>
   );
