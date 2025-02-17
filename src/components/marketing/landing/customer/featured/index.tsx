@@ -5,16 +5,19 @@ import Routes from "@/constants/routes";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
+import Balancer from "react-wrap-balancer";
 
 const Featured: React.FC = () => {
   return (
     <header className="bg-gradient-to-t from-onruntime-magenta/10 to-transparent overflow-hidden">
       <div className="px-4 md:px-0 pt-16 flex flex-col justify-center items-center max-w-5xl mx-auto">
         <div className="relative max-w-xl flex flex-col items-center gap-6">
-          <h1 className="font-medium text-5xl md:text-6xl text-foreground text-center">
-            {"Vous méritez "}
-            <span className="text-onruntime-magenta inline">le meilleur</span>
-            {" pour votre projet."}
+          <h1 className="font-semibold text-5xl md:text-6xl text-foreground text-center">
+            <Balancer>
+              {"Vous méritez "}
+              <span className="text-onruntime-magenta inline">le meilleur</span>
+              {" pour votre projet."}
+            </Balancer>
           </h1>
 
           <h2 className="text-center text-muted-foreground">
