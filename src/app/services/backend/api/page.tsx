@@ -29,7 +29,7 @@ const APIServicePage = () => {
       description={metadata.description}
       heroTitle="APIs RESTful & GraphQL"
       heroDescription="Développez des APIs modernes, sécurisées et performantes pour vos applications. Notre expertise vous garantit des interfaces robustes et évolutives qui répondent à vos besoins spécifiques."
-      heroImage="/static/images/services/api-hero.jpg"
+      heroImage="/static/images/services/back-end/api-restful/api-hero.jpg"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -57,7 +57,7 @@ const APIServicePage = () => {
             icon: FileJson
           }
         ]}
-        image="/static/images/services/api-features.jpg"
+        image="/static/images/services/back-end/api-restful/excellence-api.jpg"
       />
 
       {/* Avantages des APIs modernes */}
@@ -86,7 +86,7 @@ const APIServicePage = () => {
             icon: Zap
           }
         ]}
-        image="/static/images/services/api-benefits.jpg"
+        image="/static/images/services/back-end/api-restful/api-robuste.jpeg"
         reversed
       />
 
@@ -174,6 +174,7 @@ const APIServicePage = () => {
             icon: Layers
           }
         ]}
+        image="/static/images/services/back-end/api-restful/service-complementaire.jpg"
       />
     </ServiceLayout>
   );

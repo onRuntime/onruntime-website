@@ -76,8 +76,8 @@ const DesignServicePage = () => {
   return (
     <ServiceOverviewPage
       service={designService}
-      heroImage="/static/images/services/design-hero.jpg"
-      showCaseImage="/static/images/services/design-showcase.jpg"
+      heroImage="/static/images/services/design/hero-design.jpg"
+      showCaseImage="/static/images/services/design/showcase-design.jpeg"
       benefits={benefits}
       processList={processList}
     />

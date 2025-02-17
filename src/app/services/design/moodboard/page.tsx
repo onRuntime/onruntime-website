@@ -29,7 +29,7 @@ const MoodboardServicePage = () => {
       description={metadata.description}
       heroTitle="Moodboards & Direction Artistique"
       heroDescription="Donnez vie à votre vision grâce à des moodboards soigneusement élaborés. Notre expertise en design vous aide à définir une direction artistique claire et inspirante pour votre projet."
-      heroImage="/static/images/services/moodboard-hero.jpg"
+      heroImage="/static/images/services/design/moodboard/hero-moodboard.jpg"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -57,7 +57,7 @@ const MoodboardServicePage = () => {
             icon: Target
           }
         ]}
-        image="/static/images/services/moodboard-features.jpg"
+        image="/static/images/services/design/moodboard/direction-artistique.jpeg"
       />
 
       {/* Avantages des moodboards */}
@@ -86,7 +86,7 @@ const MoodboardServicePage = () => {
             icon: Brush
           }
         ]}
-        image="/static/images/services/moodboard-benefits.jpg"
+        image="/static/images/services/design/moodboard/vision-claire.jpeg"
         reversed
       />
 
@@ -174,6 +174,7 @@ const MoodboardServicePage = () => {
             icon: PenTool
           }
         ]}
+        image="/static/images/services/design/moodboard/services-supplementaires.jpeg"
       />
     </ServiceLayout>
   );

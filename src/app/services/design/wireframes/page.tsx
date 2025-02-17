@@ -29,7 +29,7 @@ const WireframesServicePage = () => {
       description={metadata.description}
       heroTitle="Wireframes & Architecture UX"
       heroDescription="Structurez vos interfaces utilisateur avec des wireframes professionnels. Notre expertise en UX design vous garantit une architecture intuitive et une expérience utilisateur optimale dès les premières étapes de votre projet."
-      heroImage="/static/images/services/wireframes-hero.jpg"
+      heroImage="/static/images/services/design/wireframes/hero-wireframes.jpg"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -57,7 +57,7 @@ const WireframesServicePage = () => {
             icon: MousePointer
           }
         ]}
-        image="/static/images/services/wireframes-features.jpg"
+        image="/static/images/services/design/wireframes/excellence-conception-ux.jpg"
       />
 
       {/* Avantages des wireframes */}
@@ -86,7 +86,7 @@ const WireframesServicePage = () => {
             icon: FileCheck
           }
         ]}
-        image="/static/images/services/wireframes-benefits.jpg"
+        image="/static/images/services/design/wireframes/design-structure.webp"
         reversed
       />
 
@@ -174,6 +174,7 @@ const WireframesServicePage = () => {
             icon: FileText
           }
         ]}
+        image="/static/images/services/design/moodboard/services-supplementaires.jpeg"
       />
     </ServiceLayout>
   );

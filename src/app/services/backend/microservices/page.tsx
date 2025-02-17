@@ -29,7 +29,7 @@ const MicroservicesServicePage = () => {
       description={metadata.description}
       heroTitle="Architecture Microservices"
       heroDescription="Transformez vos applications monolithiques en architectures microservices modernes et scalables. Notre expertise vous garantit une infrastructure flexible, résiliente et performante."
-      heroImage="/static/images/services/microservices-hero.jpg"
+      heroImage="/static/images/services/back-end/microservices/architecture-hero.jpg"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -57,7 +57,7 @@ const MicroservicesServicePage = () => {
             icon: Shield
           }
         ]}
-        image="/static/images/services/microservices-features.jpg"
+        image="/static/images/services/back-end/microservices/excellence-microservice.jpg"
       />
 
       {/* Avantages des microservices */}
@@ -86,7 +86,7 @@ const MicroservicesServicePage = () => {
             icon: LineChart
           }
         ]}
-        image="/static/images/services/microservices-benefits.jpg"
+        image="/static/images/services/back-end/microservices/moderne-flexible.jpeg"
         reversed
       />
 
@@ -174,6 +174,7 @@ const MicroservicesServicePage = () => {
             icon: Gauge
           }
         ]}
+        image="/static/images/services/back-end/microservices/service-complementaire.jpg"
       />
     </ServiceLayout>
   );

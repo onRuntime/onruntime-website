@@ -29,7 +29,7 @@ const UIDesignServicePage = () => {
       description={metadata.description}
       heroTitle="Design d'Interface Utilisateur"
       heroDescription="Créez des interfaces modernes, élégantes et intuitives pour vos applications. Notre expertise en design UI vous garantit des maquettes professionnelles qui captiveront vos utilisateurs."
-      heroImage="/static/images/services/ui-design-hero.jpg"
+      heroImage="/static/images/services/design/maquettage-ui/hero-ui.jpg"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -57,7 +57,7 @@ const UIDesignServicePage = () => {
             icon: Zap
           }
         ]}
-        image="/static/images/services/ui-design-features.jpg"
+        image="/static/images/services/design/maquettage-ui/excellence-design-ui.jpeg"
       />
 
       {/* Avantages du design UI */}
@@ -86,7 +86,7 @@ const UIDesignServicePage = () => {
             icon: SlidersHorizontal
           }
         ]}
-        image="/static/images/services/ui-design-benefits.jpg"
+        image="/static/images/services/design/maquettage-ui/design-ui-professionnel.jpeg"
         reversed
       />
 
@@ -174,6 +174,7 @@ const UIDesignServicePage = () => {
             icon: Code
           }
         ]}
+        image="/static/images/services/design/moodboard/services-supplementaires.jpeg"
       />
     </ServiceLayout>
   );
