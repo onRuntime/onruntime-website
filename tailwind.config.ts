@@ -11,7 +11,7 @@ export default {
   	extend: {
   		fontFamily: {
   			sans: [
-  				'var(--font-google-sans)'
+  				'var(--font-outfit)'
   			]
   		},
   		colors: {
