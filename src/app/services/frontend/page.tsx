@@ -3,7 +3,7 @@ import Services from '@/constants/services';
 import ServiceOverviewPage from '@/components/marketing/services/service-overview';
 import { ServiceCategory } from '@/types/service';
 import type { Metadata } from "next";
-import { Cpu, Gauge, GitBranch, HeartOff, Shield } from 'lucide-react';
+import { Cpu, Gauge, GitBranch, Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: "Développement Frontend | onRuntime Studio",
