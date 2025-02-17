@@ -55,7 +55,7 @@ const ListItem = ({ title, description, href, className }: ListItemProps) => {
           </div>
 
           <div className="flex-1">
-            <div className="text-sm font-medium leading-none mb-1">{title}</div>
+            <div className="text-sm font-semibold leading-none mb-1">{title}</div>
             <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
               {description}
             </p>

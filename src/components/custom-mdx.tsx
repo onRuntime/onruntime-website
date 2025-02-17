@@ -9,7 +9,7 @@ const components = {
     <h2 className="text-3xl font-semibold mb-3 mt-6 text-foreground" {...props} />
   ),
   h3: (props: React.HTMLProps<HTMLHeadingElement>) => (
-    <h3 className="text-2xl font-medium mb-2 mt-4 text-foreground" {...props} />
+    <h3 className="text-2xl font-semibold mb-2 mt-4 text-foreground" {...props} />
   ),
   p: (props: React.HTMLProps<HTMLParagraphElement>) => (
     <p className="text-base mb-4 text-muted-foreground" {...props} />

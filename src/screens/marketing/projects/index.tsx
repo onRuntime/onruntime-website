@@ -45,7 +45,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
               ))}
             </div>
 
-            <h1 className="font-medium text-4xl md:text-5xl text-foreground">
+            <h1 className="font-semibold text-4xl md:text-5xl text-foreground">
               {project.name}
             </h1>
 
@@ -95,7 +95,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
             </div>
             <div>
               <p className="text-sm text-muted-foreground">Date de début</p>
-              <p className="font-medium">
+              <p className="font-semibold">
                 {new Date(project.startDate).toLocaleDateString("fr-FR", {
                   year: "numeric",
                   month: "long",
@@ -110,7 +110,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
             </div>
             <div>
               <p className="text-sm text-muted-foreground">Statut</p>
-              <p className="font-medium capitalize">{project.status}</p>
+              <p className="font-semibold capitalize">{project.status}</p>
             </div>
           </div>
 
@@ -120,13 +120,13 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
             </div>
             <div>
               <p className="text-sm text-muted-foreground">Équipe</p>
-              <p className="font-medium">{project.team.length} membres</p>
+              <p className="font-semibold">{project.team.length} membres</p>
             </div>
           </div>
         </div>
 
         <div className="prose prose-neutral dark:prose-invert max-w-none">
-          <h2 className="text-3xl font-medium text-foreground mb-6">
+          <h2 className="text-3xl font-semibold text-foreground mb-6">
             À propos du projet
           </h2>
           <div className="text-muted-foreground whitespace-pre-line">
@@ -136,13 +136,13 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
 
         {project.metrics && (
           <div className="space-y-8">
-            <h2 className="text-3xl font-medium text-foreground text-center">
+            <h2 className="text-3xl font-semibold text-foreground text-center">
               Impact et Métriques
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               {project.metrics.map((metric, index) => (
                 <div key={index} className="text-center space-y-2">
-                  <p className="text-4xl font-medium text-foreground">
+                  <p className="text-4xl font-semibold text-foreground">
                     {metric.value}
                   </p>
                   <p className="text-sm text-muted-foreground">
@@ -160,7 +160,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
         )}
 
         <div className="space-y-8">
-          <h2 className="text-3xl font-medium text-foreground text-center">
+          <h2 className="text-3xl font-semibold text-foreground text-center">
             Fonctionnalités clés
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -174,7 +174,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
                     <feature.icon className="w-6 h-6" />
                   </div>
                 )}
-                <h3 className="text-lg font-medium text-foreground">
+                <h3 className="text-lg font-semibold text-foreground">
                   {feature.title}
                 </h3>
                 <p className="text-muted-foreground">{feature.description}</p>
@@ -184,7 +184,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
         </div>
 
         <div className="space-y-8">
-          <h2 className="text-3xl font-medium text-foreground text-center">
+          <h2 className="text-3xl font-semibold text-foreground text-center">
             Technologies utilisées
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -197,7 +197,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
                   <tech.icon className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium text-foreground">
+                  <h3 className="text-lg font-semibold text-foreground">
                     {tech.name}
                   </h3>
                   <p className="text-sm text-muted-foreground">
@@ -210,7 +210,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
         </div>
 
         <div className="space-y-8">
-          <h2 className="text-3xl font-medium text-foreground text-center">
+          <h2 className="text-3xl font-semibold text-foreground text-center">
             Galerie
           </h2>
           <div className="grid grid-cols-2 gap-8">
@@ -233,7 +233,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
         </div>
 
         <div className="space-y-8">
-          <h2 className="text-3xl font-medium text-foreground text-center">
+          <h2 className="text-3xl font-semibold text-foreground text-center">
             L&apos;équipe
           </h2>
           <div className="grid md:grid-cols-4 gap-6">
@@ -259,7 +259,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
                   </div>
 
                   <div>
-                    <h3 className="font-medium text-foreground">
+                    <h3 className="font-semibold text-foreground">
                       {member.name}
                     </h3>
                     <p className="text-sm text-muted-foreground">
@@ -299,7 +299,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
 
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-6">
-            <h2 className="text-2xl font-medium text-foreground">
+            <h2 className="text-2xl font-semibold text-foreground">
               Défis rencontrés
             </h2>
             <ul className="space-y-4">
@@ -315,7 +315,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
           </div>
 
           <div className="space-y-6">
-            <h2 className="text-2xl font-medium text-foreground">
+            <h2 className="text-2xl font-semibold text-foreground">
               Apprentissages clés
             </h2>
             <ul className="space-y-4">
@@ -333,7 +333,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
 
         {project.futurePlans && (
           <div className="space-y-6">
-            <h2 className="text-2xl font-medium text-foreground">
+            <h2 className="text-2xl font-semibold text-foreground">
               Perspectives futures
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
@@ -348,7 +348,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
 
         <div className="relative overflow-hidden rounded-lg border bg-card p-8">
           <div className="max-w-2xl">
-            <h2 className="text-2xl font-medium text-foreground mb-4">
+            <h2 className="text-2xl font-semibold text-foreground mb-4">
               Intéressé par ce projet ?
             </h2>
             <p className="text-muted-foreground mb-6">
