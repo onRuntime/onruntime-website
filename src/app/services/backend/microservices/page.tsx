@@ -86,7 +86,7 @@ const MicroservicesServicePage = () => {
             icon: LineChart
           }
         ]}
-        image="/static/images/services/back-end/microservices/moderne-flexible.jpeg"
+        image="/static/images/services/back-end/microservices/moderne-flexible.webp"
         reversed
       />
 
