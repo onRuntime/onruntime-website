@@ -66,7 +66,7 @@ const ContactPage = () => {
       <div className="px-4 md:px-0 max-w-5xl mx-auto">
         {/* Hero Section */}
         <div className="relative max-w-2xl mx-auto flex flex-col items-center gap-6 text-center mb-16">
-          <h1 className="font-medium text-4xl md:text-5xl text-foreground">
+          <h1 className="font-semibold text-4xl md:text-5xl text-foreground">
             Discutons de votre projet
           </h1>
           
@@ -92,7 +92,7 @@ const ContactPage = () => {
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
               <div className="space-y-4">
                 <label className="block">
-                  <span className="text-sm font-medium text-foreground">Nom complet</span>
+                  <span className="text-sm font-semibold text-foreground">Nom complet</span>
                   <input 
                     {...register('name')}
                     type="text"
@@ -108,7 +108,7 @@ const ContactPage = () => {
                 </label>
 
                 <label className="block">
-                  <span className="text-sm font-medium text-foreground">Email</span>
+                  <span className="text-sm font-semibold text-foreground">Email</span>
                   <input 
                     {...register('email')}
                     type="email"
@@ -124,7 +124,7 @@ const ContactPage = () => {
                 </label>
 
                 <label className="block">
-                  <span className="text-sm font-medium text-foreground">Message</span>
+                  <span className="text-sm font-semibold text-foreground">Message</span>
                   <textarea
                     {...register('message')}
                     className={cn(
@@ -149,7 +149,7 @@ const ContactPage = () => {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h2 className="text-xl font-medium text-foreground mb-4">Informations de contact</h2>
+              <h2 className="text-xl font-semibold text-foreground mb-4">Informations de contact</h2>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <div className="p-2 rounded-md bg-muted">
@@ -184,14 +184,14 @@ const ContactPage = () => {
             </div>
 
             <div>
-              <h2 className="text-xl font-medium text-foreground mb-4">Horaires d&apos;ouverture</h2>
+              <h2 className="text-xl font-semibold text-foreground mb-4">Horaires d&apos;ouverture</h2>
               <div className="space-y-2">
                 <p className="text-sm">
-                  <span className="text-foreground font-medium">Lundi - Vendredi:</span>
+                  <span className="text-foreground font-semibold">Lundi - Vendredi:</span>
                   <span className="text-muted-foreground ml-2">9:00 - 18:00</span>
                 </p>
                 <p className="text-sm">
-                  <span className="text-foreground font-medium">Weekend:</span>
+                  <span className="text-foreground font-semibold">Weekend:</span>
                   <span className="text-muted-foreground ml-2">Fermé</span>
                 </p>
               </div>

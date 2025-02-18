@@ -2,7 +2,6 @@ import "reflect-metadata";
 import "@/styles/reset.css";
 import "@/styles/globals.css";
 
-import localFont from "next/font/local";
 import type React from "react";
 import { cn } from "@/lib/utils/cn";
 import Navbar from "@/components/marketing/navbar";
@@ -11,30 +10,15 @@ import Footer from "@/components/layout/footer/footer";
 import Script from "next/script";
 import { Toaster } from "@/components/ui/toaster";
 import { MaintenanceToast } from "@/components/maintenance-toast";
+import { Figtree } from "next/font/google"
 
-export const googleSans = localFont({
-  src: [
-    {
-      path: "../fonts/ProductSans-Regular.ttf",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../fonts/ProductSans-Medium.ttf",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../fonts/ProductSans-Bold.ttf",
-      weight: "700",
-      style: "normal",
-    },
-  ],
-  variable: "--font-google-sans",
+export const outfit = Figtree({
+  subsets: ["latin"],
+  variable: "--font-outfit",
 });
 
 const RootLayout = async ({ children }: React.PropsWithChildren) => (
-  <html lang={"fr"} className={cn(googleSans.variable)}>
+  <html lang={"fr"} className={cn(outfit.variable)}>
     <body
       className={
         "flex flex-col min-h-screen items-center bg-muted text-sm md:text-lg"

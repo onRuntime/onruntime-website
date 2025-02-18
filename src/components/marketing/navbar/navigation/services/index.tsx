@@ -24,7 +24,7 @@ const NavigationServices: React.FC = () => (
             >
               <OnRuntimeLogo className="" />
 
-              <div className="mb-2 mt-4 text-lg font-medium">Nos services</div>
+              <div className="mb-2 mt-4 text-lg font-semibold">Nos services</div>
 
               <p className="text-sm leading-tight text-muted-foreground">
                 Chez onRuntime, nous vous accompagnons dans la réalisation de
@@ -63,7 +63,7 @@ const ListItem = React.forwardRef<
           )}
           {...props}
         >
-          <div className="text-sm font-medium leading-none">{title}</div>
+          <div className="text-sm font-semibold leading-none">{title}</div>
           <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
             {children}
           </p>
