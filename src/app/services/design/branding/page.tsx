@@ -29,7 +29,7 @@ const BrandingServicePage = () => {
       description={metadata.description}
       heroTitle="Branding & Identité de Marque"
       heroDescription="Donnez vie à votre marque avec une identité visuelle distinctive et mémorable. Notre expertise en branding vous aide à créer une image de marque qui résonne avec votre audience et reflète vos valeurs."
-      heroImage="/static/images/services/design/charte-graphique/charte-graphique-hero.jpg"
+      heroImage="/static/images/services/design/charte-graphique/charte-graphique-hero.webp"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -57,7 +57,7 @@ const BrandingServicePage = () => {
             icon: PenTool
           }
         ]}
-        image="/static/images/services/design/charte-graphique/excellence-branding.jpg"
+        image="/static/images/services/design/charte-graphique/excellence-branding.webp"
       />
 
       {/* Avantages du branding */}
@@ -86,7 +86,7 @@ const BrandingServicePage = () => {
             icon: Globe
           }
         ]}
-        image="/static/images/services/design/charte-graphique/identite-distinctive.jpg"
+        image="/static/images/services/design/charte-graphique/identite-distinctive.webp"
         reversed
       />
 
@@ -101,7 +101,7 @@ const BrandingServicePage = () => {
               name: "Émilie Robert",
               role: "Directrice Marketing",
               company: "BrandNew",
-              image: "/static/images/testimonials/emilie-robert.jpg"
+              image: "/static/images/testimonials/emilie-robert.webp"
             }
           },
           {
@@ -110,7 +110,7 @@ const BrandingServicePage = () => {
               name: "Lucas Dupont",
               role: "Fondateur",
               company: "StartupVision",
-              image: "/static/images/testimonials/lucas-dupont.jpg"
+              image: "/static/images/testimonials/lucas-dupont.webp"
             }
           },
           {
@@ -119,7 +119,7 @@ const BrandingServicePage = () => {
               name: "Marie Lambert",
               role: "Directrice Communication",
               company: "InnoGroup",
-              image: "/static/images/testimonials/marie-lambert.jpg"
+              image: "/static/images/testimonials/marie-lambert.webp"
             }
           }
         ]}
@@ -174,7 +174,7 @@ const BrandingServicePage = () => {
             icon: FileImage
           }
         ]}
-        image="/static/images/services/design/charte-graphique/service-complementaire.jpg"
+        image="/static/images/services/design/charte-graphique/service-complementaire.webp"
       />
     </ServiceLayout>
   );

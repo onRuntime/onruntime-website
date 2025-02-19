@@ -29,7 +29,7 @@ const DatabaseServicePage = () => {
       description={metadata.description}
       heroTitle="Architecture de Bases de Données"
       heroDescription="Concevez et optimisez vos bases de données pour des performances optimales et une scalabilité maximale. Notre expertise vous garantit une architecture robuste qui répond à vos besoins actuels et futurs."
-      heroImage="/static/images/services/back-end/bases-de-données/database-hero.jpg"
+      heroImage="/static/images/services/back-end/bases-de-données/database-hero.webp"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -57,7 +57,7 @@ const DatabaseServicePage = () => {
             icon: History
           }
         ]}
-        image="/static/images/services/back-end/bases-de-données/excellence-database.jpg"
+        image="/static/images/services/back-end/bases-de-données/excellence-database.webp"
       />
 
       {/* Avantages des bases de données modernes */}
@@ -86,7 +86,7 @@ const DatabaseServicePage = () => {
             icon: Search
           }
         ]}
-        image="/static/images/services/back-end/bases-de-données/solution-moderne.jpg"
+        image="/static/images/services/back-end/bases-de-données/solution-moderne.webp"
         reversed
       />
 
@@ -174,7 +174,7 @@ const DatabaseServicePage = () => {
             icon: Timer
           }
         ]}
-        image="/static/images/services/back-end/bases-de-données/service-complementaire.jpeg"
+        image="/static/images/services/back-end/bases-de-données/service-complementaire.webp"
       />
     </ServiceLayout>
   );

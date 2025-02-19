@@ -57,7 +57,7 @@ const CloudServicePage = () => {
             icon: Scale
           }
         ]}
-        image="/static/images/services/back-end/solutions-cloud/multi-cloud.jpg"
+        image="/static/images/services/back-end/solutions-cloud/multi-cloud.webp"
       />
 
       {/* Avantages du cloud */}
@@ -86,7 +86,7 @@ const CloudServicePage = () => {
             icon: Lock
           }
         ]}
-        image="/static/images/services/back-end/solutions-cloud/infrastructure-modern.jpg"
+        image="/static/images/services/back-end/solutions-cloud/infrastructure-modern.webp"
         reversed
       />
 
@@ -174,7 +174,7 @@ const CloudServicePage = () => {
             icon: Timer
           }
         ]}
-        image="/static/images/services/back-end/solutions-cloud/service-complementaire.jpg"
+        image="/static/images/services/back-end/solutions-cloud/service-complementaire.webp"
       />
     </ServiceLayout>
   );
