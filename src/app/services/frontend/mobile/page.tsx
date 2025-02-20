@@ -29,7 +29,7 @@ const MobileFrontendServicePage = () => {
       description={metadata.description}
       heroTitle="Développement Mobile React Native"
       heroDescription="Créez des applications mobiles natives performantes pour iOS et Android avec React Native. Notre expertise vous garantit des applications robustes et une expérience utilisateur exceptionnelle."
-      heroImage="/static/images/services/frontend/mobile/frontend-react.jpg"
+      heroImage="/static/images/services/frontend/mobile/frontend-react.webp"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -57,7 +57,7 @@ const MobileFrontendServicePage = () => {
             icon: PenTool
           }
         ]}
-        image="/static/images/services/frontend/mobile/frontend-ux.jpg"
+        image="/static/images/services/frontend/mobile/frontend-ux.webp"
       />
 
       {/* Avantages du développement mobile */}
@@ -86,7 +86,7 @@ const MobileFrontendServicePage = () => {
             icon: AppWindow
           }
         ]}
-        image="/static/images/services/frontend/mobile/frontend-multiplatforme.jpg"
+        image="/static/images/services/frontend/mobile/frontend-multiplatforme.webp"
         reversed
       />
 
@@ -174,7 +174,7 @@ const MobileFrontendServicePage = () => {
             icon: MessageSquare
           }
         ]}
-            image="/static/images/services/frontend/mobile/frontend-complementaire.jpg"
+            image="/static/images/services/frontend/mobile/frontend-complementaire.webp"
       />
     </ServiceLayout>
   );

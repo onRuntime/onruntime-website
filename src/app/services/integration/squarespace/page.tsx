@@ -56,7 +56,7 @@ const SquarespaceServicePage = () => {
             icon: ImageIcon
           }
         ]}
-        image="/static/images/services/integration/squarespace-design.jpg"
+        image="/static/images/services/integration/squarespace-design.webp"
       />
 
       {/* Avantages Squarespace */}
@@ -85,7 +85,7 @@ const SquarespaceServicePage = () => {
             icon: Share2
           }
         ]}
-        image="/static/images/services/integration/squarespace-marketing.jpg"
+        image="/static/images/services/integration/squarespace-marketing.webp"
         reversed
       />
 
@@ -173,7 +173,7 @@ const SquarespaceServicePage = () => {
             icon: MessageSquare
           }
         ]}
-        image="/static/images/services/integration/squarespace-complementaire.jpg"
+        image="/static/images/services/integration/squarespace-complementaire.webp"
       />
     </ServiceLayout>
   );

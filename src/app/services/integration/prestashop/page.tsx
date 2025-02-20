@@ -29,7 +29,7 @@ const PrestaShopServicePage = () => {
       description={metadata.description}
       heroTitle="Développement e-commerce avec PrestaShop"
       heroDescription="Lancez une boutique en ligne professionnelle avec PrestaShop. Notre expertise vous garantit une solution e-commerce puissante, évolutive et parfaitement adaptée à vos besoins."
-      heroImage="/static/images/services/integration/prestashop-shop.jpg"
+      heroImage="/static/images/services/integration/prestashop-shop.webp"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -57,7 +57,7 @@ const PrestaShopServicePage = () => {
             icon: Shield
           }
         ]}
-        image="/static/images/services/integration/prestashop-control.jpg"
+        image="/static/images/services/integration/prestashop-control.webp"
       />
 
       {/* Avantages PrestaShop */}
@@ -86,7 +86,7 @@ const PrestaShopServicePage = () => {
             icon: BarChart
           }
         ]}
-        image="/static/images/services/integration/prestashop-buy.jpg"
+        image="/static/images/services/integration/prestashop-buy.webp"
         reversed
       />
 
@@ -174,7 +174,7 @@ const PrestaShopServicePage = () => {
             icon: MessageSquare
           }
         ]}
-        image="/static/images/services/integration/prestashop-complementaire.jpg"
+        image="/static/images/services/integration/prestashop-complementaire.webp"
       />
     </ServiceLayout>
   );

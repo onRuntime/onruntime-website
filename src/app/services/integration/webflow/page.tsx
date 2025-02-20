@@ -57,7 +57,7 @@ const WebflowServicePage = () => {
             icon: Settings
           }
         ]}
-        image="/static/images/services/integration/webflow-nocode.jpg"
+        image="/static/images/services/integration/webflow-nocode.webp"
       />
 
       {/* Avantages Webflow */}
@@ -86,7 +86,7 @@ const WebflowServicePage = () => {
             icon: Zap
           }
         ]}
-        image="/static/images/services/integration/webflow-responsive.jpg"
+        image="/static/images/services/integration/webflow-responsive.webp"
         reversed
       />
 
@@ -174,7 +174,7 @@ const WebflowServicePage = () => {
             icon: MessageSquare
           }
         ]}
-            image="/static/images/services/integration/webflow-complementaire.jpg"
+            image="/static/images/services/integration/webflow-complementaire.webp"
 
       />
     </ServiceLayout>

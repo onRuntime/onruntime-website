@@ -149,7 +149,7 @@ const ServiceOverviewPage: React.FC<ServiceOverviewPageProps> = ({
         </div>
         <div className="relative aspect-square rounded-lg overflow-hidden">
           <Image 
-            src="/static/images/services/frontend/frontend-avantages.jpg"
+            src="/static/images/services/frontend/frontend-avantages.webp"
             alt="Avantages"
             fill
             className="object-cover"

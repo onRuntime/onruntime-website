@@ -57,7 +57,7 @@ const StrapiServicePage = () => {
             icon: Shield
           }
         ]}
-        image="/static/images/services/integration/strapi-security.jpg"
+        image="/static/images/services/integration/strapi-security.webp"
       />
 
       {/* Avantages Strapi */}
@@ -86,7 +86,7 @@ const StrapiServicePage = () => {
             icon: Workflow
           }
         ]}
-        image="/static/images/services/integration/strapi-cms.jpg"
+        image="/static/images/services/integration/strapi-cms.webp"
         reversed
       />
 
@@ -174,7 +174,7 @@ const StrapiServicePage = () => {
             icon: MessageSquare
           }
         ]}
-        image="/static/images/services/integration/strapi-complementaire.jpg"
+        image="/static/images/services/integration/strapi-complementaire.webp"
       />
     </ServiceLayout>
   );

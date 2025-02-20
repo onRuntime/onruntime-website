@@ -57,7 +57,7 @@ const WordPressServicePage = () => {
             icon: Settings
           }
         ]}
-        image="/static/images/services/integration/wordpress-solution.jpg"
+        image="/static/images/services/integration/wordpress-solution.webp"
       />
 
       {/* Avantages WordPress */}
@@ -86,7 +86,7 @@ const WordPressServicePage = () => {
             icon: Zap
           }
         ]}
-        image="/static/images/services/integration/wordpress-seo.jpg"
+        image="/static/images/services/integration/wordpress-seo.webp"
         reversed
       />
 
@@ -174,7 +174,7 @@ const WordPressServicePage = () => {
             icon: MessageSquare
           }
         ]}
-            image="/static/images/services/integration/wordpress-complementaire.jpg"
+            image="/static/images/services/integration/wordpress-complementaire.webp"
 
       />
     </ServiceLayout>
