@@ -29,7 +29,7 @@ const MoodboardServicePage = () => {
       description={metadata.description}
       heroTitle="Moodboards & Direction Artistique"
       heroDescription="Donnez vie à votre vision grâce à des moodboards soigneusement élaborés. Notre expertise en design vous aide à définir une direction artistique claire et inspirante pour votre projet."
-      heroImage="/static/images/services/design/moodboard/hero-moodboard.webp"
+      heroImage="/static/images/services/design/moodboard/hero-moodboard.jpg"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
