@@ -29,7 +29,7 @@ const PWAServicePage = () => {
       description={metadata.description}
       heroTitle="Progressive Web Apps (PWA)"
       heroDescription="Transformez votre site web en véritable application installable avec les Progressive Web Apps. Offrez une expérience utilisateur exceptionnelle, en ligne comme hors ligne."
-      heroImage="/static/images/services/pwa-hero.jpg"
+      heroImage="/static/images/services/frontend/pwa/frontend-pwa.webp"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -57,7 +57,7 @@ const PWAServicePage = () => {
             icon: Bell
           }
         ]}
-        image="/static/images/services/pwa-features.jpg"
+        image="/static/images/services/frontend/pwa/frontend-nowifi.webp"
       />
 
       {/* Avantages des PWA */}
@@ -86,7 +86,7 @@ const PWAServicePage = () => {
             icon: Zap
           }
         ]}
-        image="/static/images/services/pwa-benefits.jpg"
+        image="/static/images/services/frontend/pwa/frontend-mobile.webp"
         reversed
       />
 
@@ -174,6 +174,8 @@ const PWAServicePage = () => {
             icon: Shield
           }
         ]}
+        image="/static/images/services/frontend/pwa/frontend-seo.webp"
+
       />
     </ServiceLayout>
   );

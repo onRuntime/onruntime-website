@@ -57,7 +57,7 @@ const ShopifyServicePage = () => {
             icon: Settings
           }
         ]}
-        image="/static/images/services/shopify-features.jpg"
+        image="/static/images/services/integration/shopify-mobile.webp"
       />
 
       {/* Avantages Shopify */}
@@ -86,7 +86,7 @@ const ShopifyServicePage = () => {
             icon: Truck
           }
         ]}
-        image="/static/images/services/shopify-benefits.jpg"
+        image="/static/images/services/integration/shopify-buy.webp"
         reversed
       />
 
@@ -174,6 +174,7 @@ const ShopifyServicePage = () => {
             icon: MessageSquare
           }
         ]}
+            image="/static/images/services/integration/shopify-complementaire.webp"
       />
     </ServiceLayout>
   );

@@ -76,8 +76,8 @@ const IntegrationServicePage = () => {
   return (
     <ServiceOverviewPage
       service={integrationService}
-      heroImage="/static/images/services/integration-hero.jpg"
-      showCaseImage="/static/images/services/integration-showcase.jpg"
+      heroImage="/static/images/services/integration/integration-ecommerce.webp"
+      showCaseImage="/static/images/services/integration/integration-team.webp"
       benefits={benefits}
       processList={processList}
     />

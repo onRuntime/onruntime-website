@@ -76,8 +76,8 @@ const FrontendServicePage = () => {
   return (
     <ServiceOverviewPage
       service={frontendService}
-      heroImage="/static/images/services/frontend-hero.jpg"
-      showCaseImage="/static/images/services/frontend-showcase.jpg"
+      heroImage="/static/images/services/frontend/frontend-developpement.webp"
+      showCaseImage="/static/images/services/frontend/frontend-expertise.webp"
       benefits={benefits}
       processList={processList}
     />

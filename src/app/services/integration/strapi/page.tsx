@@ -29,7 +29,7 @@ const StrapiServicePage = () => {
       description={metadata.description}
       heroTitle="Développement CMS headless avec Strapi"
       heroDescription="Développez des applications modernes avec Strapi. Notre expertise vous garantit une solution de gestion de contenu flexible, évolutive et parfaitement adaptée à vos besoins."
-      heroImage="/static/images/services/strapi-hero.jpg"
+      heroImage="/static/images/services/integration/strapi.jpg"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -57,7 +57,7 @@ const StrapiServicePage = () => {
             icon: Shield
           }
         ]}
-        image="/static/images/services/strapi-features.jpg"
+        image="/static/images/services/integration/strapi-security.webp"
       />
 
       {/* Avantages Strapi */}
@@ -86,7 +86,7 @@ const StrapiServicePage = () => {
             icon: Workflow
           }
         ]}
-        image="/static/images/services/strapi-benefits.jpg"
+        image="/static/images/services/integration/strapi-cms.webp"
         reversed
       />
 
@@ -174,6 +174,7 @@ const StrapiServicePage = () => {
             icon: MessageSquare
           }
         ]}
+        image="/static/images/services/integration/strapi-complementaire.webp"
       />
     </ServiceLayout>
   );
