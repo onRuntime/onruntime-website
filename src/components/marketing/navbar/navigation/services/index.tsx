@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 import React from "react";
 import { ArrowRight, LucideIcon } from "lucide-react";
 import { OnRuntimeLogo } from "@/logos/components";
+import Link from "next/link";
 
 const NavigationServices: React.FC = () => (
   <NavigationMenuItem>
@@ -18,7 +19,7 @@ const NavigationServices: React.FC = () => (
     <NavigationMenuContent>
       <div className="grid w-full md:w-[600px] lg:w-[800px] grid-cols-1 md:grid-cols-[200px_1fr] lg:grid-cols-[280px_1fr] gap-3 p-4">
         <NavigationMenuLink asChild className="block">
-          <a 
+          <Link 
             href={Routes.services}
             className="group h-full select-none rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
           >
@@ -37,7 +38,7 @@ const NavigationServices: React.FC = () => (
                 <ArrowRight className="h-4 w-4" />
               </div>
             </div>
-          </a>
+          </Link>
         </NavigationMenuLink>
 
         <ul className="grid grid-cols-2 gap-3">
@@ -54,13 +55,13 @@ const NavigationServices: React.FC = () => (
               
               <div className="grid gap-1">
                 {service.subServices.map((subService) => (
-                  <a 
+                  <Link 
                     key={subService.id} 
                     href={subService.route}
                     className="text-xs text-muted-foreground hover:text-foreground transition-colors"
                   >
                     {subService.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </ListItem>
@@ -83,7 +84,7 @@ const ListItem = ({ className, title, children, icon: Icon, href }: ListItemProp
   return (
     <li>
       <NavigationMenuLink asChild>
-        <a 
+        <Link 
           href={href} 
           className={cn(
             "flex flex-col gap-2 h-full select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
@@ -98,7 +99,7 @@ const ListItem = ({ className, title, children, icon: Icon, href }: ListItemProp
           </div>
           
           {children}
-        </a>
+        </Link>
       </NavigationMenuLink>
     </li>
   );
