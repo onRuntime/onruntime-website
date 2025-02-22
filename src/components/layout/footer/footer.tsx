@@ -4,8 +4,8 @@ import Link from "next/link";
 import React from "react";
 
 const navigation = {
-  ["Navigation"]: [
-    { name: "Nos services", href: Routes.unknown },
+  Navigation: [
+    { name: "Nos services", href: Routes.services },
     { name: "Nos projets", href: Routes.unknown },
     { name: "Le Studio", href: Routes.unknown },
     { name: "Carrières", href: Routes.unknown },
