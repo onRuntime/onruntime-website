@@ -29,7 +29,7 @@ const MoodboardServicePage = () => {
       description={metadata.description}
       heroTitle="Moodboards & Direction Artistique"
       heroDescription="Donnez vie à votre vision grâce à des moodboards soigneusement élaborés. Notre expertise en design vous aide à définir une direction artistique claire et inspirante pour votre projet."
-      heroImage="/static/images/services/moodboard-hero.jpg"
+      heroImage="/static/images/services/design/moodboard/hero-moodboard.jpg"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -57,7 +57,7 @@ const MoodboardServicePage = () => {
             icon: Target
           }
         ]}
-        image="/static/images/services/moodboard-features.jpg"
+        image="/static/images/services/design/moodboard/direction-artistique.webp"
       />
 
       {/* Avantages des moodboards */}
@@ -86,7 +86,7 @@ const MoodboardServicePage = () => {
             icon: Brush
           }
         ]}
-        image="/static/images/services/moodboard-benefits.jpg"
+        image="/static/images/services/design/moodboard/vision-claire.webp"
         reversed
       />
 
@@ -101,7 +101,7 @@ const MoodboardServicePage = () => {
               name: "Marie Laurent",
               role: "Directrice Artistique",
               company: "Studio Créatif",
-              image: "/static/images/testimonials/marie-laurent.jpg"
+              image: "/static/images/testimonials/marie-laurent.webp"
             }
           },
           {
@@ -110,7 +110,7 @@ const MoodboardServicePage = () => {
               name: "Thomas Moreau",
               role: "Fondateur",
               company: "Brand New",
-              image: "/static/images/testimonials/thomas-moreau.jpg"
+              image: "/static/images/testimonials/thomas-moreau.webp"
             }
           },
           {
@@ -119,7 +119,7 @@ const MoodboardServicePage = () => {
               name: "Sophie Martin",
               role: "Creative Lead",
               company: "Design Factory",
-              image: "/static/images/testimonials/sophie-martin.jpg"
+              image: "/static/images/testimonials/sophie-martin.webp"
             }
           }
         ]}
@@ -174,6 +174,7 @@ const MoodboardServicePage = () => {
             icon: PenTool
           }
         ]}
+        image="/static/images/services/design/moodboard/services-supplementaires.webp"
       />
     </ServiceLayout>
   );
