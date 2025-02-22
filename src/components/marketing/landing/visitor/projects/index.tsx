@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { default as ProjectsConst } from "@/constants/projects";
 import React from "react";

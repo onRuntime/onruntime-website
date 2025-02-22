@@ -24,7 +24,7 @@ const LegalPage: React.FC<LegalPageProps> = ({
       <div className="px-4 md:px-0 max-w-3xl mx-auto">
         {/* Hero Section */}
         <div className="relative max-w-2xl mx-auto flex flex-col items-center gap-6 text-center mb-16">
-          <h1 className="font-medium text-4xl md:text-5xl text-foreground">
+          <h1 className="font-semibold text-4xl md:text-5xl text-foreground">
             {title}
           </h1>
           
@@ -53,7 +53,7 @@ const LegalPage: React.FC<LegalPageProps> = ({
 
         {/* Contact Section */}
         <div className="mt-16 p-6 border rounded-lg bg-card">
-          <h2 className="text-xl font-medium text-foreground mb-4">
+          <h2 className="text-xl font-semibold text-foreground mb-4">
             Une question à propos de nos conditions ?
           </h2>
           <p className="text-muted-foreground mb-6">
@@ -70,13 +70,13 @@ const LegalPage: React.FC<LegalPageProps> = ({
 
         {/* Links to other legal pages */}
         <nav className="mt-8 flex flex-wrap gap-4 text-sm text-muted-foreground">
-          <Link href={Routes.legal.company} className="hover:text-foreground transition-colors">
+          <Link href={Routes.legals.company} className="hover:text-foreground transition-colors">
             Détails de l&apos;entreprise
           </Link>
-          <Link href={Routes.legal.privacy} className="hover:text-foreground transition-colors">
+          <Link href={Routes.legals.privacy} className="hover:text-foreground transition-colors">
             Politique de confidentialité
           </Link>
-          <Link href={Routes.legal.terms} className="hover:text-foreground transition-colors">
+          <Link href={Routes.legals.terms} className="hover:text-foreground transition-colors">
             Conditions générales
           </Link>
         </nav>

@@ -28,7 +28,7 @@ const Team: React.FC = () => {
         </div>
 
         <div className="flex flex-col gap-6 lg:w-1/2">
-          <h2 className="text-4xl font-medium">
+          <h2 className="text-4xl font-semibold">
             Une équipe de créatifs passionnés pour briller.
           </h2>
 
@@ -42,7 +42,7 @@ const Team: React.FC = () => {
           <div className="flex flex-row flex-wrap gap-x-16 gap-y-6">
             {points.map((point) => (
               <div key={point.label} className="flex flex-col">
-                <span className="text-foreground text-3xl font-medium">
+                <span className="text-foreground text-3xl font-semibold">
                   {point.value}
                 </span>
 

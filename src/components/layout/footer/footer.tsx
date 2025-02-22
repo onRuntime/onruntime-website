@@ -11,22 +11,22 @@ const navigation = {
     { name: "Carrières", href: Routes.unknown },
     { name: "Blog", href: Routes.unknown },
   ],
-  Ressources: [
+  ["Ressources"]: [
     { name: "Communauté", href: Routes.unknown },
     { name: "Status", href: Routes.unknown },
   ],
-  Autres: [
+  ["Autres"]: [
     { name: "Contact", href: Routes.contact },
-    { name: "Conditions générales", href: Routes.legal.terms },
-    { name: "Politique de confidentialité", href: Routes.legal.privacy }, 
-    { name: "Détails de l'entreprise", href: Routes.legal.company },
+    { name: "Conditions générales", href: Routes.legals.terms },
+    { name: "Politique de confidentialité", href: Routes.legals.privacy }, 
+    { name: "Détails de l'entreprise", href: Routes.legals.company },
   ],
-  Réseaux: [
-    { name: "LinkedIn", href: Routes.unknown },
-    { name: "Github", href: Routes.unknown },
-    { name: "Discord", href: Routes.unknown },
-    { name: "X (twitter)", href: Routes.unknown },
-    { name: "Instagram", href: Routes.unknown },
+  ["Réseaux sociaux"]: [
+    { name: "LinkedIn", href: Routes.socials.linkedin },
+    { name: "Github", href: Routes.socials.github },
+    { name: "Discord", href: Routes.socials.discord },
+    { name: "X (Twitter)", href: Routes.socials.x },
+    { name: "Instagram", href: Routes.socials.instagram },
   ],
 };
 
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
                 <ul className="flex flex-col gap-3">
                   {links.map((link) => (
                     <li key={link.name}>
-                      <Link href={link.href} className="text-foreground">
+                      <Link href={link.href} className="text-foreground" target={link.href.startsWith("http") ? "_blank" : ""} rel={link.href.startsWith("http") ? "noopener noreferrer" : ""}>
                         {link.name}
                       </Link>
                     </li>

@@ -40,7 +40,7 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
           </div>
         </div>
         <div className="flex flex-col min-w-0">
-          <h3 className="text-foreground text-sm md:text-base font-medium truncate">
+          <h3 className="text-foreground text-sm md:text-base font-semibold truncate">
             {name}
           </h3>
           <div className="flex flex-col text-muted-foreground text-xs md:text-sm">
