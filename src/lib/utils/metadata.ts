@@ -75,10 +75,8 @@ export function constructMetadata({
     title: formattedTitle,
     description,
     
-    // Base URL pour les liens relatifs dans les balises meta
     metadataBase: new URL(siteConfig.url),
     
-    // URL canonique
     ...(canonical && { 
       alternates: { 
         canonical 
@@ -89,7 +87,6 @@ export function constructMetadata({
     creator: "onRuntime Studio",
     publisher: "onRuntime Studio",
     
-    // Open Graph
     openGraph: {
       type: ogType,
       locale: "fr_FR",
@@ -107,7 +104,6 @@ export function constructMetadata({
       ],
     },
     
-    // Twitter Card
     twitter: {
       card: "summary_large_image",
       title: formattedTitle,
@@ -117,11 +113,9 @@ export function constructMetadata({
       site: "@onruntime",
     },
     
-    // Icônes
     icons: {
       icon: [
         { url: "/favicon.ico" },
-        { url: "/icon.svg", type: "image/svg+xml" },
       ],
       shortcut: "/favicon-16x16.png",
       apple: [
@@ -129,10 +123,8 @@ export function constructMetadata({
       ],
     },
     
-    // Manifeste
     manifest: "/site.webmanifest",
     
-    // Robots
     ...(noIndex && {
       robots: {
         index: false,
