@@ -1,13 +1,16 @@
-import type { NextConfig } from "next";
-
 import createMDX from "@next/mdx";
 
 import "./env.mjs";
 
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
 	pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
 	reactStrictMode: process.env.NODE_ENV === "development",
   transpilePackages: ["next-mdx-remote"],
+	i18n: {
+		locales: ["fr"],
+    defaultLocale: "fr",
+	},
 	env: {
 		NEXT_PUBLIC_NODE_ENV: process.env.NODE_ENV,
 	},
