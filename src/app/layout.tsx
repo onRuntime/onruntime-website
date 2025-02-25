@@ -11,6 +11,7 @@ import Script from "next/script";
 import { Toaster } from "@/components/ui/toaster";
 import { MaintenanceToast } from "@/components/maintenance-toast";
 import { Figtree } from "next/font/google"
+import { OrganizationSchema } from "@/components/json-ld/organization-schema";
 
 export const figtree = Figtree({
   subsets: ["latin"],
@@ -24,6 +25,8 @@ const RootLayout = async ({ children }: React.PropsWithChildren) => (
         "flex flex-col min-h-screen items-center bg-muted text-sm md:text-lg"
       }
     >
+      <OrganizationSchema />
+
       <Provider>
         <Navbar />
 
