@@ -43,4 +43,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# public
+public/robots.txt
+public/sitemap*.xml
+
 .claude-files/
