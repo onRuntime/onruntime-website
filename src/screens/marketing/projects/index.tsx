@@ -18,6 +18,7 @@ import {
   User,
 } from "lucide-react";
 import TeamMembers from "@/constants/team-members";
+import { env } from "process";
 
 interface ProjectPageProps {
   project: Project;
@@ -85,7 +86,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
         </div>
 
         <div className="w-full">
-          <Safari width={1200} height={750} imageSrc={project.showcaseUrl} />
+          <Safari width={1200} height={750} imageSrc={project.showcaseUrl} url={new URL(project.website ||  env.NEXT_PUBLIC_APP_URL || "").hostname} />
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">
