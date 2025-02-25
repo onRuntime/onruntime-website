@@ -1,15 +1,16 @@
 import LegalPage from "@/components/marketing/legal/page"
 import { getPageContent } from "@/lib/mdx"
+import { constructMetadata } from "@/lib/utils/metadata"
 import type { Metadata } from "next"
 
 const contentPath = "legal/company"
 
 export async function generateMetadata(): Promise<Metadata> {
   const { frontmatter } = await getPageContent(contentPath)
-  return {
+  return constructMetadata({
     title: `${frontmatter.title} | onRuntime Studio`,
     description: frontmatter.description,
-  }
+  })
 }
 
 const CompanyPage = async () => {
