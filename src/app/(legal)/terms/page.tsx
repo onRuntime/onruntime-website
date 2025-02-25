@@ -3,7 +3,7 @@ import { getPageContent } from "@/lib/mdx"
 import { constructMetadata } from "@/lib/utils/metadata"
 import type { Metadata } from "next"
 
-const contentPath = "legal/privacy"
+const contentPath = "legal/terms"
 
 export async function generateMetadata(): Promise<Metadata> {
   const { frontmatter } = await getPageContent(contentPath)
