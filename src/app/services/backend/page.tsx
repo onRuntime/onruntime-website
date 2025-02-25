@@ -2,13 +2,13 @@ import React from 'react';
 import Services from '@/constants/services';
 import ServiceOverviewPage from '@/components/marketing/services/service-overview';
 import { ServiceCategory } from '@/types/service';
-import type { Metadata } from "next";
 import { Database, Server, Shield, Scale } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata: Metadata = {
+export const metadata = constructMetadata({
   title: "Agence de développement backend : API et infrastructures",
   description: "Conception d'architectures backend robustes et API sécurisées. Notre agence développe des solutions évolutives qui soutiennent votre croissance.",
-};
+});
 
 const BackendServicePage = () => {
   const backendService = Services.find(service => service.id === ServiceCategory.BACKEND);

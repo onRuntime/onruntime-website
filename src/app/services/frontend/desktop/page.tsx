@@ -16,17 +16,18 @@ import {
   LineChart,
   Cloud
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Développement Applications Desktop | onRuntime Studio",
   description: "Créez des applications de bureau performantes et multiplateformes avec Electron. Notre expertise en développement desktop vous garantit des applications robustes et intuitives.",
-};
+});
 
 const DesktopServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Applications Desktop Multiplateformes"
       heroDescription="Développez des applications de bureau modernes et performantes pour Windows, macOS et Linux. Notre expertise vous garantit des applications professionnelles qui tirent parti de toute la puissance du desktop."
       heroImage="/static/images/services/frontend/desktop/frontend-systeme.webp"

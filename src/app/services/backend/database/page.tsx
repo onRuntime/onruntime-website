@@ -16,17 +16,18 @@ import {
   BarChart,
   Timer
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Architecture et optimisation de bases de données pour entreprises",
   description: "Conception et optimisation de bases de données performantes et sécurisées. Notre agence assure intégrité, disponibilité et performance de vos données.",
-};
+});
 
 const DatabaseServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Architecture de Bases de Données"
       heroDescription="Concevez et optimisez vos bases de données pour des performances optimales et une scalabilité maximale. Notre expertise vous garantit une architecture robuste qui répond à vos besoins actuels et futurs."
       heroImage="/static/images/services/back-end/bases-de-données/database-hero.webp"

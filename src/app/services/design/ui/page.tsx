@@ -16,17 +16,18 @@ import {
   LayoutGrid,
   Code
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Design d'interfaces utilisateur modernes et attrayantes",
   description: "Création d'interfaces utilisateur élégantes et fonctionnelles. Notre expertise en design UI transforme vos wireframes en interfaces qui captivent.",
-};
+});
 
 const UIDesignServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Design d'Interface Utilisateur"
       heroDescription="Créez des interfaces modernes, élégantes et intuitives pour vos applications. Notre expertise en design UI vous garantit des maquettes professionnelles qui captiveront vos utilisateurs."
       heroImage="/static/images/services/design/maquettage-ui/hero-ui.webp"

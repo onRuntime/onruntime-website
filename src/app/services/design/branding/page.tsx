@@ -16,17 +16,18 @@ import {
   Megaphone,
   Share2,
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Création d'identité de marque mémorable et cohérente",
   description: "Développement d'identités visuelles distinctives qui reflètent vos valeurs. Notre agence conçoit des chartes graphiques qui renforcent votre image.",
-};
+});
 
 const BrandingServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Branding & Identité de Marque"
       heroDescription="Donnez vie à votre marque avec une identité visuelle distinctive et mémorable. Notre expertise en branding vous aide à créer une image de marque qui résonne avec votre audience et reflète vos valeurs."
       heroImage="/static/images/services/design/charte-graphique/charte-graphique-hero.webp"

@@ -16,17 +16,18 @@ import {
   Globe,
   Timer,
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Solutions cloud optimisées pour votre infrastructure digitale",
   description: "Déploiement et gestion de solutions cloud performantes et sécurisées. Notre agence vous accompagne dans votre transition vers le cloud computing.",
-};
+});
 
 const CloudServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Solutions Cloud"
       heroDescription="Optimisez votre infrastructure avec des solutions cloud modernes et évolutives. Notre expertise vous garantit un déploiement sécurisé et performant sur les principales plateformes cloud."
       heroImage="/static/images/services/back-end/solutions-cloud/cloud-hero.webp"

@@ -2,13 +2,13 @@ import React from 'react';
 import Services from '@/constants/services';
 import ServiceOverviewPage from '@/components/marketing/services/service-overview';
 import { ServiceCategory } from '@/types/service';
-import type { Metadata } from "next";
 import { Cpu, Gauge, GitBranch, Shield } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata: Metadata = {
+export const metadata = constructMetadata({
   title: "Agence de développement frontend : web et applications",
   description: "Création d'applications web modernes, performantes et évolutives. Notre expertise frontend garantit des interfaces réactives et des expériences fluides.",
-};
+});
 
 const FrontendServicePage = () => {
   const frontendService = Services.find(service => service.id === ServiceCategory.FRONTEND);

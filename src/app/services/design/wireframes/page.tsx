@@ -16,17 +16,18 @@ import {
   FileText,
   ListChecks
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Wireframes et architecture UX pour interfaces optimisées",
   description: "Conception de la structure et des parcours utilisateurs de vos interfaces. Nos wireframes garantissent une expérience utilisateur fluide et intuitive.",
-};
+});
 
 const WireframesServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Wireframes & Architecture UX"
       heroDescription="Structurez vos interfaces utilisateur avec des wireframes professionnels. Notre expertise en UX design vous garantit une architecture intuitive et une expérience utilisateur optimale dès les premières étapes de votre projet."
       heroImage="/static/images/services/design/wireframes/hero-wireframes.webp"

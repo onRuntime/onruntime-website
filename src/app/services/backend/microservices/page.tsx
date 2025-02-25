@@ -16,17 +16,18 @@ import {
   Timer,
   Workflow
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Architecture microservices pour applications évolutives",
   description: "Conception d'architectures microservices modulaires et scalables. Notre expertise vous garantit des systèmes résilients qui accompagnent votre croissance.",
-};
+});
 
 const MicroservicesServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Architecture Microservices"
       heroDescription="Transformez vos applications monolithiques en architectures microservices modernes et scalables. Notre expertise vous garantit une infrastructure flexible, résiliente et performante."
       heroImage="/static/images/services/back-end/microservices/architecture-hero.webp"

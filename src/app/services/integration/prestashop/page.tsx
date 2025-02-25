@@ -16,17 +16,18 @@ import {
   Truck,
   BarChart
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Développement PrestaShop | onRuntime Studio",
   description: "Créez votre boutique en ligne performante avec PrestaShop. Notre expertise vous garantit une solution e-commerce robuste et personnalisée pour développer votre activité.",
-};
+});
 
 const PrestaShopServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Développement e-commerce avec PrestaShop"
       heroDescription="Lancez une boutique en ligne professionnelle avec PrestaShop. Notre expertise vous garantit une solution e-commerce puissante, évolutive et parfaitement adaptée à vos besoins."
       heroImage="/static/images/services/integration/prestashop-shop.webp"

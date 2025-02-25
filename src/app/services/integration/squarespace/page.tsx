@@ -15,17 +15,18 @@ import {
   ShoppingBag,
   Shapes
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Développement Squarespace | onRuntime Studio",
   description: "Créez un site web élégant et fonctionnel avec Squarespace. Notre expertise vous permet de tirer le meilleur parti de cette plateforme intuitive et design.",
-};
+});
 
 const SquarespaceServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Sites web élégants avec Squarespace"
       heroDescription="Créez une présence en ligne raffinée avec Squarespace. Notre expertise vous garantit un site web esthétique, fonctionnel et parfaitement adapté à votre image de marque."
       heroImage="/static/images/services/integration/squarespace.jpg"

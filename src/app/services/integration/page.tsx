@@ -2,13 +2,13 @@ import React from 'react';
 import Services from '@/constants/services';
 import ServiceOverviewPage from '@/components/marketing/services/service-overview';
 import { ServiceCategory } from '@/types/service';
-import type { Metadata } from "next";
 import { Code, Zap, Layout, Sparkles } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata: Metadata = {
+export const metadata = constructMetadata({
   title: "Agence d'intégration WordPress, Shopify, Webflow ou autre CMS",
   description: "Services d'intégration professionnels pour CMS et plateformes e-commerce. Notre agence crée des sites performants adaptés à vos besoins spécifiques.",
-};
+});
 
 const IntegrationServicePage = () => {
   const integrationService = Services.find(service => service.id === ServiceCategory.INTEGRATION);

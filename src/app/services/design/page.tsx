@@ -2,13 +2,13 @@ import React from 'react';
 import Services from '@/constants/services';
 import ServiceOverviewPage from '@/components/marketing/services/service-overview';
 import { ServiceCategory } from '@/types/service';
-import type { Metadata } from "next";
 import { Lightbulb, Target, Users, Zap } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata: Metadata = {
+export const metadata = constructMetadata({
   title: "Agence de design UI/UX : interfaces modernes et intuitives",
   description: "Création d'interfaces utilisateur et expériences digitales engageantes. Notre agence de design conçoit des interfaces qui convertissent et fidélisent.",
-};
+});
 
 const DesignServicePage = () => {
   const designService = Services.find(service => service.id === ServiceCategory.DESIGN);

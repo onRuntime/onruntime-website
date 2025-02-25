@@ -16,17 +16,18 @@ import {
   Layers,
   BarChart,
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Développement d'API RESTful et GraphQL par notre agence",
   description: "Création d'API robustes, sécurisées et performantes pour vos applications. Notre expertise garantit des interfaces de programmation fiables et évolutives.",
-};
+});
 
 const APIServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="APIs RESTful & GraphQL"
       heroDescription="Développez des APIs modernes, sécurisées et performantes pour vos applications. Notre expertise vous garantit des interfaces robustes et évolutives qui répondent à vos besoins spécifiques."
       heroImage="/static/images/services/back-end/api-restful/api-hero.webp"

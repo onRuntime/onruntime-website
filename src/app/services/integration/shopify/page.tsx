@@ -16,17 +16,18 @@ import {
   Share2,
   MessageSquare 
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Développement Shopify | onRuntime Studio",
   description: "Créez votre boutique en ligne performante avec notre expertise Shopify. De la personnalisation à l'optimisation, nous vous accompagnons dans votre succès e-commerce.",
-};
+});
 
 const ShopifyServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Créez votre boutique en ligne avec Shopify"
       heroDescription="Transformez votre vision e-commerce en réalité avec notre expertise Shopify. Nous créons des boutiques en ligne performantes, esthétiques et optimisées pour la conversion."
       heroImage="/static/images/services/shopify-hero.jpg"

@@ -16,17 +16,18 @@ import {
   Code,
   Store
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Développement Mobile Frontend | onRuntime Studio",
   description: "Créez des applications mobiles performantes avec React Native. Notre expertise en développement mobile vous garantit des applications natives de qualité pour iOS et Android.",
-};
+});
 
 const MobileFrontendServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Développement Mobile React Native"
       heroDescription="Créez des applications mobiles natives performantes pour iOS et Android avec React Native. Notre expertise vous garantit des applications robustes et une expérience utilisateur exceptionnelle."
       heroImage="/static/images/services/frontend/mobile/frontend-react.webp"

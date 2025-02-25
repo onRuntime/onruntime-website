@@ -16,17 +16,18 @@ import {
   Globe,
   Paintbrush
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Développement Web Frontend | onRuntime Studio",
   description: "Créez des applications web modernes et performantes. Notre expertise en développement frontend vous garantit une expérience utilisateur exceptionnelle et des performances optimales.",
-};
+});
 
 const WebFrontendServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Développement Web Frontend"
       heroDescription="Créez des applications web modernes, réactives et performantes avec les dernières technologies frontend. Notre expertise vous garantit une expérience utilisateur exceptionnelle."
       heroImage="/static/images/services/frontend/web/frontend-web.webp"

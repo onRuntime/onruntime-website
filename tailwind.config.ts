@@ -11,7 +11,7 @@ export default {
   	extend: {
   		fontFamily: {
   			sans: [
-  				'var(--font-outfit)'
+  				'var(--font-figtree)'
   			]
   		},
   		colors: {

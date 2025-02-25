@@ -16,17 +16,18 @@ import {
   FileImage,
   Layers
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Création de moodboards pour définir l'identité de votre projet",
   description: "Définissez une direction artistique claire et cohérente pour votre projet. Nos moodboards professionnels établissent les fondations visuelles de votre identité.",
-};
+});
 
 const MoodboardServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Moodboards & Direction Artistique"
       heroDescription="Donnez vie à votre vision grâce à des moodboards soigneusement élaborés. Notre expertise en design vous aide à définir une direction artistique claire et inspirante pour votre projet."
       heroImage="/static/images/services/design/moodboard/hero-moodboard.jpg"

@@ -16,17 +16,18 @@ import {
   MousePointer,
   Laptop
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Développement Webflow | onRuntime Studio",
   description: "Créez un site web moderne et dynamique avec Webflow. De la conception visuelle à l'interaction utilisateur, nous donnons vie à votre vision avec une approche no-code professionnelle.",
-};
+});
 
 const WebflowServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Développement Webflow professionnel"
       heroDescription="Donnez vie à votre vision avec Webflow. Notre expertise vous garantit un site web moderne, interactif et parfaitement adapté à vos besoins, sans compromis sur la qualité."
       heroImage="/static/images/services/integration/webflow.jpg"

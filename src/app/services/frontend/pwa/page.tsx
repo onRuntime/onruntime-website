@@ -16,17 +16,18 @@ import {
   LineChart,
   Shield
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Développement Progressive Web App (PWA) | onRuntime Studio",
   description: "Créez des applications web progressives performantes qui offrent une expérience proche du natif. Notre expertise en PWA vous garantit des applications accessibles et engageantes.",
-};
+});
 
 const PWAServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Progressive Web Apps (PWA)"
       heroDescription="Transformez votre site web en véritable application installable avec les Progressive Web Apps. Offrez une expérience utilisateur exceptionnelle, en ligne comme hors ligne."
       heroImage="/static/images/services/frontend/pwa/frontend-pwa.webp"

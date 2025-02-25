@@ -12,13 +12,13 @@ import { Toaster } from "@/components/ui/toaster";
 import { MaintenanceToast } from "@/components/maintenance-toast";
 import { Figtree } from "next/font/google"
 
-export const outfit = Figtree({
+export const figtree = Figtree({
   subsets: ["latin"],
-  variable: "--font-outfit",
+  variable: "--font-figtree",
 });
 
 const RootLayout = async ({ children }: React.PropsWithChildren) => (
-  <html lang={"fr"} className={cn(outfit.variable)}>
+  <html lang={"fr"} className={cn(figtree.variable)}>
     <body
       className={
         "flex flex-col min-h-screen items-center bg-muted text-sm md:text-lg"

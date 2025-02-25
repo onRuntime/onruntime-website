@@ -16,17 +16,18 @@ import {
   MessageSquare,
   Zap
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Développement WordPress | onRuntime Studio",
   description: "Créez un site web professionnel avec WordPress. De la conception sur mesure à l'optimisation des performances, nous vous accompagnons dans la réalisation de votre projet web.",
-};
+});
 
 const WordPressServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Développement WordPress sur mesure"
       heroDescription="Créez un site web professionnel qui vous ressemble avec WordPress. Notre expertise vous garantit un site performant, sécurisé et parfaitement adapté à vos besoins."
       heroImage="/static/images/services/integration/wordpress.jpg"

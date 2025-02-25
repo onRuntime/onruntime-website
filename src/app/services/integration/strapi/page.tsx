@@ -16,17 +16,18 @@ import {
   Box,
   Network
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Développement Strapi | onRuntime Studio",
   description: "Créez des applications performantes avec Strapi, le CMS headless leader. Notre expertise vous garantit une solution évolutive et personnalisée pour gérer votre contenu.",
-};
+});
 
 const StrapiServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Développement CMS headless avec Strapi"
       heroDescription="Développez des applications modernes avec Strapi. Notre expertise vous garantit une solution de gestion de contenu flexible, évolutive et parfaitement adaptée à vos besoins."
       heroImage="/static/images/services/integration/strapi.jpg"

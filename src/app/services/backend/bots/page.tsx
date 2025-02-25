@@ -16,17 +16,18 @@ import {
   BarChart,
   Clock
 } from 'lucide-react';
+import { constructMetadata } from '@/lib/utils/metadata';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: "Création de bots Discord, Slack et automatisations intelligentes",
   description: "Développement de bots et d'automatisations pour améliorer vos processus. Notre agence conçoit des assistants virtuels qui optimisent votre productivité.",
-};
+});
 
 const BotsServicePage = () => {
   return (
     <ServiceLayout
-      title={metadata.title}
-      description={metadata.description}
+      title={metadata.title as string}
+      description={metadata.description as string}
       heroTitle="Bots & Automatisations"
       heroDescription="Développez des bots intelligents et des automatisations pour améliorer l'engagement et la productivité de votre communauté. Notre expertise vous garantit des bots fiables et performants pour Discord, Slack et autres plateformes."
       heroImage="/static/images/services/back-end/bots/bots-hero.webp"
