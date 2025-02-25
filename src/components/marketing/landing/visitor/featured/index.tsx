@@ -80,7 +80,7 @@ const Featured: React.FC = () => {
               </Balancer>
             </p>
 
-            <OnRuntimeWordMark fill="white" height={24} className="self-end" />
+            <OnRuntimeWordMark fill="white" height={24} className="self-end h-6" />
           </div>
         </div>
 

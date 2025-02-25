@@ -124,7 +124,7 @@ const Navbar: React.FC = () => {
         {/* Main navigation bar */}
         <div className="flex justify-between items-center p-2.5">
           <Link href={Routes.landing.visitor} onClick={closeMenu}>
-            <OnRuntimeWordMark height={24} />
+            <OnRuntimeWordMark className="h-6" height={24} />
           </Link>
 
           <Navigation />

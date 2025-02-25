@@ -51,7 +51,7 @@ const ListItem = ({ title, description, href, className }: ListItemProps) => {
           )}
         >
           <div className="flex items-center justify-center p-2 bg-muted rounded-md">
-            <OnRuntimeIcon height={24} />
+            <OnRuntimeIcon className="w-6 h-6" />
           </div>
 
           <div className="flex-1">

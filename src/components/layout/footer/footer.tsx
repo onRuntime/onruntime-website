@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
       <div className={"px-4 md:px-0 max-w-5xl text-xs md:text-sm mx-auto"}>
         <div className="flex flex-col md:flex-row justify-between md:items-start gap-8">
           <div className="flex flex-col items-start gap-5">
-            <OnRuntimeWordMark height={24} />
+            <OnRuntimeWordMark height={24} className="h-6" />
 
             <p>
               Un studio de créatif, à travers le monde.

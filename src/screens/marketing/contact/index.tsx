@@ -232,7 +232,7 @@ const ContactPage = () => {
               </div>
 
               <div className="pt-6 border-t">
-                <OnRuntimeWordMark height={24} className="mb-4" />
+                <OnRuntimeWordMark height={24} className="mb-4 h-4" />
                 <p className="text-sm text-muted-foreground">
                   Un studio créatif dédié à transformer vos idées en réalité
                   numérique.
