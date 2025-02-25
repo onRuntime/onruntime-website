@@ -6,8 +6,8 @@ import type { Metadata } from "next";
 import { Lightbulb, Target, Users, Zap } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: "Design UI/UX | onRuntime Studio",
-  description: "Création d'interfaces modernes et d'expériences utilisateur optimales. Notre expertise en design vous garantit des interfaces élégantes et fonctionnelles.",
+  title: "Agence de design UI/UX : interfaces modernes et intuitives",
+  description: "Création d'interfaces utilisateur et expériences digitales engageantes. Notre agence de design conçoit des interfaces qui convertissent et fidélisent.",
 };
 
 const DesignServicePage = () => {

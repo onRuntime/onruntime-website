@@ -2,8 +2,8 @@ import ServicesPage from "@/screens/marketing/services";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Nos Services | onRuntime Studio",
-  description: "Découvrez nos services de design UI/UX, développement web et mobile, et solutions sur mesure pour vos projets digitaux.",
+  title: "Agence de services digitaux : web, mobile et design UI/UX",
+  description: "Services complets de développement web, mobile, design UI/UX et intégration CMS. Notre agence crée des solutions sur mesure qui répondent à vos objectifs.",
 };
 
 export default ServicesPage;

@@ -6,8 +6,8 @@ import type { Metadata } from "next";
 import { Code, Zap, Layout, Sparkles } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: "Intégration | onRuntime Studio",
-  description: "Transformation de vos maquettes en sites web performants et responsive. Notre expertise en intégration garantit une expérience utilisateur optimale sur tous les appareils.",
+  title: "Agence d'intégration WordPress, Shopify, Webflow ou autre CMS",
+  description: "Services d'intégration professionnels pour CMS et plateformes e-commerce. Notre agence crée des sites performants adaptés à vos besoins spécifiques.",
 };
 
 const IntegrationServicePage = () => {

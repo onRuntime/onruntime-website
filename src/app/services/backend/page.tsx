@@ -6,8 +6,8 @@ import type { Metadata } from "next";
 import { Database, Server, Shield, Scale } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: "Développement Backend | onRuntime Studio",
-  description: "Création d'APIs et de systèmes backend robustes, sécurisés et évolutifs. Notre expertise garantit des solutions techniques performantes pour vos applications.",
+  title: "Agence de développement backend : API et infrastructures",
+  description: "Conception d'architectures backend robustes et API sécurisées. Notre agence développe des solutions évolutives qui soutiennent votre croissance.",
 };
 
 const BackendServicePage = () => {

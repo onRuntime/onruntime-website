@@ -18,8 +18,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Développement d'APIs | onRuntime Studio",
-  description: "Créez des APIs robustes, sécurisées et performantes. Notre expertise en développement backend vous garantit des APIs fiables et évolutives pour vos applications.",
+  title: "Développement d'API RESTful et GraphQL par notre agence",
+  description: "Création d'API robustes, sécurisées et performantes pour vos applications. Notre expertise garantit des interfaces de programmation fiables et évolutives.",
 };
 
 const APIServicePage = () => {

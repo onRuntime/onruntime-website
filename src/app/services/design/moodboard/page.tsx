@@ -18,8 +18,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Création de Moodboards | onRuntime Studio",
-  description: "Définissez l'identité visuelle de votre projet avec des moodboards professionnels. Notre expertise en design vous garantit une direction artistique claire et cohérente.",
+  title: "Création de moodboards pour définir l'identité de votre projet",
+  description: "Définissez une direction artistique claire et cohérente pour votre projet. Nos moodboards professionnels établissent les fondations visuelles de votre identité.",
 };
 
 const MoodboardServicePage = () => {

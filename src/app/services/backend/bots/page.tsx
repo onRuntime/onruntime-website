@@ -18,8 +18,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Développement de Bots Discord & Slack | onRuntime Studio",
-  description: "Créez des bots intelligents et des automatisations pour Discord, Slack et autres plateformes. Notre expertise vous garantit des bots performants et fiables.",
+  title: "Création de bots Discord, Slack et automatisations intelligentes",
+  description: "Développement de bots et d'automatisations pour améliorer vos processus. Notre agence conçoit des assistants virtuels qui optimisent votre productivité.",
 };
 
 const BotsServicePage = () => {

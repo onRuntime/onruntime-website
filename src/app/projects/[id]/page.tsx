@@ -21,8 +21,8 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${project.name} | onRuntime Studio`,
-    description: project.description,
+    title: `Étude de cas : ${project.name} - Projet digital par notre agence`,
+    description: `Découvrez comment notre agence a conçu et développé ${project.name}. ${project.shortDescription.slice(0, 100)}`,
   };
 }
 

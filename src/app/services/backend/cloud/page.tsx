@@ -18,8 +18,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Solutions Cloud | onRuntime Studio",
-  description: "Déployez et gérez vos applications dans le cloud avec expertise. Notre savoir-faire en cloud computing vous garantit une infrastructure flexible, sécurisée et performante.",
+  title: "Solutions cloud optimisées pour votre infrastructure digitale",
+  description: "Déploiement et gestion de solutions cloud performantes et sécurisées. Notre agence vous accompagne dans votre transition vers le cloud computing.",
 };
 
 const CloudServicePage = () => {

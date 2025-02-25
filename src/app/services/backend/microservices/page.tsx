@@ -18,8 +18,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Architecture Microservices | onRuntime Studio",
-  description: "Développez des applications scalables et résilientes avec une architecture microservices. Notre expertise vous garantit une infrastructure moderne et performante.",
+  title: "Architecture microservices pour applications évolutives",
+  description: "Conception d'architectures microservices modulaires et scalables. Notre expertise vous garantit des systèmes résilients qui accompagnent votre croissance.",
 };
 
 const MicroservicesServicePage = () => {

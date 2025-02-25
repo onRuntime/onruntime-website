@@ -18,8 +18,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Branding & Identité Visuelle | onRuntime Studio",
-  description: "Créez une identité de marque mémorable et cohérente. Notre expertise en branding vous garantit une identité visuelle qui reflète vos valeurs et capte votre audience.",
+  title: "Création d'identité de marque mémorable et cohérente",
+  description: "Développement d'identités visuelles distinctives qui reflètent vos valeurs. Notre agence conçoit des chartes graphiques qui renforcent votre image.",
 };
 
 const BrandingServicePage = () => {

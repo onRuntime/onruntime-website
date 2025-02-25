@@ -18,8 +18,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Design UI/Maquettes | onRuntime Studio",
-  description: "Créez des interfaces utilisateur modernes et attrayantes. Notre expertise en design UI vous garantit des maquettes professionnelles et une expérience utilisateur exceptionnelle.",
+  title: "Design d'interfaces utilisateur modernes et attrayantes",
+  description: "Création d'interfaces utilisateur élégantes et fonctionnelles. Notre expertise en design UI transforme vos wireframes en interfaces qui captivent.",
 };
 
 const UIDesignServicePage = () => {

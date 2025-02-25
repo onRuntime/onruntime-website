@@ -16,8 +16,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Audit UX/UI | onRuntime Studio",
-  description: "Optimisez vos interfaces avec un audit UX/UI professionnel. Notre expertise vous garantit une analyse approfondie et des recommandations concrètes pour améliorer l'expérience utilisateur.",
+  title: "Audit UX/UI et optimisation de vos interfaces digitales",
+  description: "Analyse approfondie et recommandations pour améliorer vos interfaces. Notre expertise identifie les opportunités d'optimisation de votre expérience utilisateur.",
 };
 
 const AuditServicePage = () => {

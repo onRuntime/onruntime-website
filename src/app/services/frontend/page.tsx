@@ -6,8 +6,8 @@ import type { Metadata } from "next";
 import { Cpu, Gauge, GitBranch, Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: "Développement Frontend | onRuntime Studio",
-  description: "Création d'applications web modernes, performantes et évolutives. Notre expertise en développement frontend garantit des solutions techniques robustes et innovantes.",
+  title: "Agence de développement frontend : web et applications",
+  description: "Création d'applications web modernes, performantes et évolutives. Notre expertise frontend garantit des interfaces réactives et des expériences fluides.",
 };
 
 const FrontendServicePage = () => {

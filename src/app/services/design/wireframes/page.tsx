@@ -18,8 +18,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Création de Wireframes | onRuntime Studio",
-  description: "Concevez l'architecture de vos interfaces avec des wireframes professionnels. Notre expertise UX vous garantit une structure claire et une navigation optimale.",
+  title: "Wireframes et architecture UX pour interfaces optimisées",
+  description: "Conception de la structure et des parcours utilisateurs de vos interfaces. Nos wireframes garantissent une expérience utilisateur fluide et intuitive.",
 };
 
 const WireframesServicePage = () => {

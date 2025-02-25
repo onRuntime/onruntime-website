@@ -18,8 +18,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Architecture et Optimisation de Bases de Données | onRuntime Studio",
-  description: "Concevez et optimisez vos bases de données pour des performances maximales. Notre expertise en bases de données vous garantit une architecture robuste et évolutive.",
+  title: "Architecture et optimisation de bases de données pour entreprises",
+  description: "Conception et optimisation de bases de données performantes et sécurisées. Notre agence assure intégrité, disponibilité et performance de vos données.",
 };
 
 const DatabaseServicePage = () => {
