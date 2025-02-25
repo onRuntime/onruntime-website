@@ -43,7 +43,7 @@ export function MaintenanceToast() {
             </div>
           </div>
         ),
-        duration: 0,
+        duration: Infinity,
       })
     }
   }, [toast, isDismissed, setIsDismissed])
