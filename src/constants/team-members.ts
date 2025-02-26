@@ -94,6 +94,11 @@ const TeamMembers: Record<string, TeamMember> = {
     roles: [TeamRole.COMMUNITY_MANAGER],
     linkedin: "https://linkedin.com/in/inesmunoz75012",
   },
+  "johann-six": {
+    name: "Johann Six",
+    roles: [TeamRole.DEVELOPER],
+    linkedin: "https://linkedin.com/in/johann-six",
+  }
 };
 
 export default TeamMembers;
