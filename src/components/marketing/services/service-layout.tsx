@@ -26,7 +26,6 @@ interface ServiceLayoutProps {
 
 const ServiceLayout: React.FC<ServiceLayoutProps> = ({
   title,
-  description,
   heroTitle,
   heroDescription,
   heroImage,
