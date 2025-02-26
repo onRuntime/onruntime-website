@@ -11,7 +11,7 @@ type OrganizationSchemaProps = {
 
 export const OrganizationSchema: React.FC<OrganizationSchemaProps> = ({
   useAppDir = true,
-  type = "Corporation",
+  type = "NonProfit",
   id = "https://onruntime.com/#organization",
   customData = {},
 }) => {

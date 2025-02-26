@@ -53,8 +53,8 @@ const navItems: NavItem[] = [
     })),
   },
   {
-    title: "Le studio",
-    path: Routes.unknown,
+    title: "L'association",
+    path: Routes.npo,
   },
 ];
 
