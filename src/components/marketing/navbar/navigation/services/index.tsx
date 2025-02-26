@@ -7,9 +7,8 @@ import {
 import Services from "@/constants/services";
 import Routes from "@/constants/routes";
 import { cn } from "@/lib/utils";
+import { ArrowRight, Code, Lightbulb, LucideIcon, Rocket } from "lucide-react";
 import React from "react";
-import { ArrowRight, LucideIcon } from "lucide-react";
-import { OnRuntimeLogo } from "@/logos/components";
 import Link from "next/link";
 
 const NavigationServices: React.FC = () => (
@@ -17,25 +16,40 @@ const NavigationServices: React.FC = () => (
     <NavigationMenuTrigger>Nos services</NavigationMenuTrigger>
 
     <NavigationMenuContent>
-      <div className="grid w-full md:w-[600px] lg:w-[800px] grid-cols-1 md:grid-cols-[200px_1fr] lg:grid-cols-[280px_1fr] gap-3 p-4">
+      <div className="grid w-full md:w-[600px] lg:w-[800px] grid-cols-1 md:grid-cols-[200px_1fr] lg:grid-cols-[200px_1fr] gap-3 p-4">
         <NavigationMenuLink asChild className="block">
           <Link 
             href={Routes.services}
-            className="group h-full select-none rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+            className="group h-full select-none rounded-md bg-muted p-4 no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
           >
             <div className="flex h-full flex-col justify-between">
-              <div className="flex flex-col gap-3">
-                <OnRuntimeLogo className="w-32" />
-                <h3 className="text-lg font-medium leading-none">
+              <div>
+                <h3 className="text-sm font-medium mb-2">
                   Nos services
                 </h3>
-                <p className="text-sm leading-snug text-muted-foreground">
+                <p className="text-xs text-muted-foreground mb-4">
                   Découvrez notre gamme complète de services de développement et de design pour donner vie à vos projets digitaux.
                 </p>
               </div>
-              <div className="flex items-center gap-2 text-sm text-muted-foreground group-hover:text-accent-foreground/80">
-                En savoir plus
-                <ArrowRight className="h-4 w-4" />
+              
+              <div className="space-y-3">
+                <div className="flex items-center gap-2 text-xs">
+                  <Lightbulb className="h-3.5 w-3.5 text-onruntime-blue" />
+                  <span>Conception</span>
+                </div>
+                <div className="flex items-center gap-2 text-xs">
+                  <Code className="h-3.5 w-3.5 text-onruntime-blue" />
+                  <span>Développement</span>
+                </div>
+                <div className="flex items-center gap-2 text-xs">
+                  <Rocket className="h-3.5 w-3.5 text-onruntime-blue" />
+                  <span>Déploiement</span>
+                </div>
+                
+                <div className="flex items-center gap-2 text-xs text-muted-foreground group-hover:text-accent-foreground/80 mt-4">
+                  En savoir plus
+                  <ArrowRight className="h-3 w-3" />
+                </div>
               </div>
             </div>
           </Link>

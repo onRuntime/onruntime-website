@@ -6,63 +6,120 @@ import {
 } from "@/components/ui/navigation-menu";
 import Projects from "@/constants/projects";
 import Routes from "@/constants/routes";
-import { cn } from "@/lib/utils";
-import { OnRuntimeIcon } from "@/logos/components";
+import { ArrowRight, Code, Eye, Github, Rocket } from "lucide-react";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import { Tag } from "@/types/project";
 
-const NavigationProjects: React.FC = () => (
-  <NavigationMenuItem>
-    <NavigationMenuTrigger>Nos projets</NavigationMenuTrigger>
+const NavigationProjects: React.FC = () => {
+  // Get featured projects first
+  const featuredProjects = Projects.filter(project => 
+    project.tags.includes(Tag.FEATURED)
+  ).slice(0, 2);
+  
+  // Get other projects (non-featured) up to 4 total
+  const remainingProjects = Projects.filter(project => 
+    !project.tags.includes(Tag.FEATURED)
+  ).slice(0, 4 - featuredProjects.length);
 
-    <NavigationMenuContent>
-      <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-        {Projects.map((project) => (
-          <ListItem
-            key={project.id}
-            title={project.name}
-            iconUrl={project.iconUrl}
-            href={Routes.project(project.id)}
-            description={project.shortDescription}
-          />
-        ))}
-      </ul>
-    </NavigationMenuContent>
-  </NavigationMenuItem>
-);
+  // Combine for display
+  const displayProjects = [...featuredProjects, ...remainingProjects].slice(0, 4);
 
-interface ListItemProps {
-  title: string;
-  iconUrl: string;
-  href: string;
-  description: string;
-  className?: string;
-}
-
-const ListItem = ({ title, description, href, className }: ListItemProps) => {
   return (
-    <li>
-      <NavigationMenuLink asChild>
-        <Link
-          href={href}
-          className={cn(
-            "flex items-start gap-2 select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-            className
-          )}
-        >
-          <div className="flex items-center justify-center p-2 bg-muted rounded-md">
-            <OnRuntimeIcon className="w-6 h-6" />
-          </div>
+    <NavigationMenuItem>
+      <NavigationMenuTrigger>Nos projets</NavigationMenuTrigger>
 
-          <div className="flex-1">
-            <div className="text-sm font-semibold leading-none mb-1">{title}</div>
-            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-              {description}
-            </p>
+      <NavigationMenuContent>
+        <div className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-[200px_1fr] lg:w-[600px]">
+          {/* Left sidebar with CTA - Moved from right to left */}
+          <NavigationMenuLink asChild className="block">
+            <Link 
+              href={Routes.projects}
+              className="group h-full select-none rounded-md bg-muted p-4 no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+            >
+              <div className="flex h-full flex-col justify-between">
+                <div>
+                  <h3 className="text-sm font-medium mb-2">Notre portfolio</h3>
+                  <p className="text-xs text-muted-foreground mb-4">
+                    Découvrez tous nos projets et réalisations pour divers secteurs
+                  </p>
+                </div>
+                
+                <div className="space-y-3">
+                  <div className="flex items-center gap-2 text-xs">
+                    <Rocket className="h-3.5 w-3.5 text-onruntime-blue" />
+                    <span>Applications Web & Mobile</span>
+                  </div>
+                  <div className="flex items-center gap-2 text-xs">
+                    <Code className="h-3.5 w-3.5 text-onruntime-blue" />
+                    <span>Projets Open Source</span>
+                  </div>
+                  <div className="flex items-center gap-2 text-xs">
+                    <Eye className="h-3.5 w-3.5 text-onruntime-blue" />
+                    <span>Design UI/UX</span>
+                  </div>
+                  
+                  <div className="flex items-center gap-2 text-xs text-muted-foreground group-hover:text-accent-foreground/80 mt-4">
+                    Voir tous les projets
+                    <ArrowRight className="h-3 w-3" />
+                  </div>
+                </div>
+              </div>
+            </Link>
+          </NavigationMenuLink>
+          
+          <div className="grid gap-3">
+            {/* Highlight first project with image */}
+            {displayProjects.length > 0 && (
+              <NavigationMenuLink asChild className="block">
+                <Link
+                  href={Routes.project(displayProjects[0].id)}
+                  className="group flex p-3 gap-4 select-none rounded-md no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                >
+                  <div className="relative h-12 w-12 overflow-hidden rounded-md">
+                    <Image
+                      src={displayProjects[0].iconUrl}
+                      alt={displayProjects[0].name}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <div className="text-sm font-semibold leading-none mb-1">{displayProjects[0].name}</div>
+                    <p className="line-clamp-2 text-xs leading-snug text-muted-foreground">
+                      {displayProjects[0].shortDescription}
+                    </p>
+                  </div>
+                </Link>
+              </NavigationMenuLink>
+            )}
+
+            {/* Other projects as list items */}
+            <div className="grid gap-2">
+              {displayProjects.slice(1).map((project) => (
+                <NavigationMenuLink asChild key={project.id}>
+                  <Link
+                    href={Routes.project(project.id)}
+                    className="block select-none space-y-1 rounded-md p-3 no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                  >
+                    <div className="flex items-center justify-between">
+                      <div className="text-sm font-medium leading-none">{project.name}</div>
+                      {project.tags.includes(Tag.OPEN_SOURCE) && (
+                        <Github className="h-3.5 w-3.5 text-muted-foreground" />
+                      )}
+                    </div>
+                    <p className="line-clamp-2 text-xs leading-snug text-muted-foreground">
+                      {project.shortDescription}
+                    </p>
+                  </Link>
+                </NavigationMenuLink>
+              ))}
+            </div>
           </div>
-        </Link>
-      </NavigationMenuLink>
-    </li>
+        </div>
+      </NavigationMenuContent>
+    </NavigationMenuItem>
   );
 };
 

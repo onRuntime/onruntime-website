@@ -4,6 +4,7 @@ import TeamMembers from "@/constants/team-members";
 export enum Tag {
   FEATURED = "featured",
   OPEN_SOURCE = "open-source",
+  CUSTOMER = "customer",
 }
 
 export interface Technology {

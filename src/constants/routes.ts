@@ -9,6 +9,7 @@ const Routes = {
   team: "/team",
   contact: "/contact",
   services: "/services",
+  projects: "/projects",
 
   service: {
     design: {

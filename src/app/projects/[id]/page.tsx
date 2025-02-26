@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Projects from "@/constants/projects";
-import ProjectPage from "@/screens/marketing/projects";
+import ProjectPage from "@/screens/marketing/projects/details";
 import type { Metadata } from "next";
 import { constructMetadata } from "@/lib/utils/metadata";
 import { ProjectSchema } from "@/components/json-ld/project-schema";

@@ -46,7 +46,7 @@ const Featured: React.FC = () => {
 
         <Safari
           url="tonightpass.com"
-          imageSrc="/static/images/mockup-tonightpass.com.png"
+          imageSrc="/static/images/projects/tonightpass/showcase.png"
           className="relative bottom-[-10px] mt-12 max-h-[510px] size-full rounded-t-md rounded-b-none"
         />
       </div>

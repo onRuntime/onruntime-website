@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 import { default as ProjectsConst } from "@/constants/projects";
 import React from "react";
 import ProjectCard from "./card";
+import Link from "next/link";
+import Routes from "@/constants/routes";
 
 const Projects: React.FC = () => {
   return (
@@ -11,7 +13,9 @@ const Projects: React.FC = () => {
       <div className="flex justify-between items-center">
         <h2 className="text-muted-foreground">Nos derniers projets</h2>
 
-        <Button variant={"outline"}>Voir tous les projets</Button>
+        <Link href={Routes.projects}>
+          <Button variant={"outline"}>Voir tous les projets</Button>
+        </Link>
       </div>
 
       <div className="flex flex-wrap gap-5 justify-center sm:justify-start">
