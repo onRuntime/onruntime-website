@@ -33,32 +33,9 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
   children,
   className
 }) => {
-  // TODO: To replace by next-seo
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": title,
-    "description": description,
-    "provider": {
-      "@type": "Organization",
-      "name": "onRuntime Studio",
-      "image": "https://onruntime.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Rouen & Paris",
-        "addressCountry": "FR"
-      }
-    }
-  };
 
   return (
     <>
-      {/* Métadonnées SEO */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
-      
       <main className={cn("min-h-screen pt-32 pb-16", className)}>
         <div className="px-4 md:px-0 max-w-5xl mx-auto">
           {/* Hero Section */}
