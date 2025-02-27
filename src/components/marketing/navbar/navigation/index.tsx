@@ -18,9 +18,9 @@ const Navigation: React.FC = () => {
 
         <NavigationProjects />
 
-        <Link href={Routes.unknown} legacyBehavior passHref>
+        <Link href={Routes.npo} legacyBehavior passHref>
           <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-            Le studio
+            {"L'association"}
           </NavigationMenuLink>
         </Link>
       </NavigationMenuList>

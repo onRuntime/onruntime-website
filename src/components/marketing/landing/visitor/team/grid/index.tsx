@@ -1,18 +1,7 @@
 import React from 'react';
 import TeamMemberCard from './card';
 import TeamMembers from '@/constants/team-members';
-import { TeamRole } from '@/types/team-member';
-
-const roleToDisplay: Record<TeamRole, string> = {
-  [TeamRole.CO_FOUNDER]: "Co-Fondateur",
-  [TeamRole.DEVELOPER]: "Développeur",
-  [TeamRole.LEAD_DEVELOPER]: "Lead Développeur",
-  [TeamRole.DESIGNER]: "Designer",
-  [TeamRole.MARKETING]: "Marketing",
-  [TeamRole.COMMUNITY_MANAGER]: "Community Manager",
-  [TeamRole.PRODUCT_MANAGER]: "Product Manager",
-  [TeamRole.STRATEGY_DEVELOPER]: "Strategy Developer"
-};
+import { roleToDisplay } from '@/types/team-member';
 
 const TeamGrid: React.FC = () => {
   const selectedMembers = ['jeremy-baudrin', 'antoine-kingue', 'lucas-bodin', 'younes-bessa'];

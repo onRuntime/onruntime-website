@@ -6,6 +6,7 @@ const Routes = {
     customer: "/customer",
   },
 
+  npo: "/npo",
   team: "/team",
   contact: "/contact",
   services: "/services",

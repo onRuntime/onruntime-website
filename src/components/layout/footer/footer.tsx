@@ -7,7 +7,7 @@ const navigation = {
   Navigation: [
     { name: "Nos services", href: Routes.services },
     { name: "Nos projets", href: Routes.projects },
-    { name: "Le Studio", href: Routes.unknown },
+    { name: "L'association", href: Routes.npo },
     { name: "Carrières", href: Routes.unknown },
     { name: "Blog", href: Routes.unknown },
   ],
