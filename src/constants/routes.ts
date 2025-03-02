@@ -7,7 +7,6 @@ const Routes = {
   },
 
   npo: "/npo",
-  team: "/team",
   contact: "/contact",
   services: "/services",
   projects: "/projects",

@@ -53,7 +53,7 @@ const Team: React.FC = () => {
             ))}
           </div>
 
-          <Link href={Routes.team}>
+          <Link href={Routes.npo}>
             <Button>En savoir plus</Button>
           </Link>
         </div>
