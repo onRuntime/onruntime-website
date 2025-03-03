@@ -42,6 +42,11 @@ const nextConfig = {
                 destination: '/projects/dark-theme-instagram',
                 permanent: true,
             },
+            {
+                source: '/about',
+                destination: '/npo',
+                permanent: false,
+            },
         ];
     },
 };
