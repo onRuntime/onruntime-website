@@ -1,12 +1,17 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextRequest, NextResponse } from "next/server";
 
-export async function GET(
-  request: NextRequest,
-  { params }: { params: { id: string } },
-) {
+export async function GET(request: NextRequest) {
   try {
-    const id = params.id;
+    const { searchParams } = new URL(request.url);
+    const id = searchParams.get("id");
+
+    if (!id) {
+      return NextResponse.json(
+        { error: "Job ID is required" },
+        { status: 400 },
+      );
+    }
 
     const apiKey = process.env.JOIN_API_KEY;
 
@@ -65,12 +70,10 @@ export async function GET(
     return NextResponse.json({ job });
   } catch (error) {
     console.error("Error fetching job from Join API:", error);
-
-    const mockJob = getMockJobById(params.id);
-    if (!mockJob) {
-      return NextResponse.json({ error: "Job not found" }, { status: 404 });
-    }
-    return NextResponse.json({ job: mockJob });
+    return NextResponse.json(
+      { error: "Internal Server Error" },
+      { status: 500 },
+    );
   }
 }
 

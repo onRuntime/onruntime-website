@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { notFound } from "next/navigation";
 import { constructMetadata } from "@/lib/utils/metadata";
 import JobDetailPage from "@/screens/marketing/careers/job-details";
@@ -25,12 +26,9 @@ async function getJobById(id: string): Promise<JobPosting | null> {
   }
 }
 
-type Props = {
-  params: { id: string };
-};
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const job = await getJobById(params.id);
+export async function generateMetadata(props: any): Promise<Metadata> {
+  const id = props.params.id;
+  const job = await getJobById(id);
 
   if (!job) {
     return constructMetadata({
@@ -48,8 +46,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
-export default async function Page({ params }: Props) {
-  const job = await getJobById(params.id);
+export default async function Page(props: any) {
+  const id = props.params.id;
+  const job = await getJobById(id);
 
   if (!job) {
     notFound();
