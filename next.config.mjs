@@ -5,7 +5,7 @@ import "./env.mjs";
 const nextConfig = {
     pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
     reactStrictMode: process.env.NODE_ENV === "development",
-    transpilePackages: ["next-mdx-remote"],
+    transpilePackages: ["next-seo"],
     i18n: {
         locales: ["fr"],
         defaultLocale: "fr",
