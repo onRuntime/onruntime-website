@@ -7,7 +7,11 @@ import { ChevronLeft, Tag as TagIcon } from "lucide-react";
 import { getGlossaryEntry, getRelatedEntries } from "@/lib/glossary";
 import { constructMetadata } from "@/lib/utils/metadata";
 
-export async function generateMetadata({ params }: { params: { letter: string; term: string } }) {
+export async function generateMetadata({ 
+  params 
+}: { 
+  params: { letter: string; term: string } 
+}) {
   const entry = await getGlossaryEntry(params.letter, params.term);
   
   if (!entry) {
@@ -23,7 +27,11 @@ export async function generateMetadata({ params }: { params: { letter: string; t
   });
 }
 
-export default async function TermPage({ params }: { params: { letter: string; term: string } }) {
+export default async function TermPage({ 
+  params 
+}: { 
+  params: { letter: string; term: string } 
+}) {
   const entry = await getGlossaryEntry(params.letter, params.term);
   
   if (!entry) {

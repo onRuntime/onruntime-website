@@ -7,7 +7,11 @@ import { getEntriesByLetter } from "@/lib/glossary";
 import { constructMetadata } from "@/lib/utils/metadata";
 import { Badge } from '@/components/ui/badge';
 
-export async function generateMetadata({ params }: { params: { letter: string } }) {
+export async function generateMetadata({ 
+  params 
+}: { 
+  params: { letter: string } 
+}) {
   const letter = params.letter.toLowerCase();
   
   if (!letter.match(/^[a-z]$/)) {
@@ -23,7 +27,11 @@ export async function generateMetadata({ params }: { params: { letter: string } 
   });
 }
 
-export default async function LetterPage({ params }: { params: { letter: string } }) {
+export default async function LetterPage({ 
+  params 
+}: { 
+  params: { letter: string } 
+}) {
   const letter = params.letter.toLowerCase();
   
   if (!letter.match(/^[a-z]$/)) {
