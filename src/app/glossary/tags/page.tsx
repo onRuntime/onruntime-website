@@ -78,7 +78,7 @@ export default async function TagsPage() {
         {tagList.length === 0 && (
           <div className="text-center py-12">
             <p className="text-muted-foreground">
-              Aucune catégorie n'est disponible pour le moment.
+              Aucune catégorie n&apos;est disponible pour le moment.
             </p>
           </div>
         )}

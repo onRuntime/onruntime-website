@@ -108,7 +108,7 @@ export function GlossarySearch({ entries }: GlossarySearchProps) {
 
       {isOpen && searchTerm.length >= 2 && results.length === 0 && (
         <div className="absolute z-50 w-full mt-1 rounded-md border border-border bg-background shadow-lg p-4 text-center text-muted-foreground">
-          Aucun résultat trouvé pour "{searchTerm}"
+          Aucun résultat trouvé pour &quot;{searchTerm}&quot;
         </div>
       )}
     </div>

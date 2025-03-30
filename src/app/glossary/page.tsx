@@ -133,7 +133,7 @@ export default async function GlossaryPage() {
         {availableLetters.length === 0 && (
           <div className="flex flex-col items-center justify-center py-12 text-center">
             <p className="text-muted-foreground mb-4">
-              Aucun terme n'a encore été ajouté au glossaire.
+              Aucun terme n&apos;a encore été ajouté au glossaire.
             </p>
             <p className="text-sm text-muted-foreground">
               Revenez bientôt pour découvrir notre glossaire complet.
