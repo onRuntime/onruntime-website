@@ -1,36 +1,17 @@
 import React from 'react';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import { ChevronLeft, Tag as TagIcon } from "lucide-react";
-import { getEntriesByTag } from "@/lib/glossary";
+import { getAllTags } from "@/lib/glossary";
 import { constructMetadata } from "@/lib/utils/metadata";
 
-export async function generateMetadata({ 
-  params 
-}: { 
-  params: { tag: string } 
-}) {
-  const tag = decodeURIComponent(params.tag);
-  
-  return constructMetadata({
-    title: `Termes liés à ${tag} | Glossaire`,
-    description: `Découvrez tous les termes du glossaire liés à la catégorie ${tag}.`,
-  });
-}
+export const metadata = constructMetadata({
+  title: "Tags du glossaire | onRuntime Studio",
+  description: "Explorez les différentes catégories de termes disponibles dans notre glossaire technique.",
+});
 
-export default async function TagPage({ 
-  params 
-}: { 
-  params: { tag: string } 
-}) {
-  const tag = decodeURIComponent(params.tag);
-  const entries = await getEntriesByTag(tag);
-  
-  if (entries.length === 0) {
-    notFound();
-  }
+export default async function TagsPage() {
+  const tags = await getAllTags();
   
   return (
     <main className="min-h-screen pt-32 pb-16">
@@ -45,44 +26,36 @@ export default async function TagPage({
           </Link>
         </div>
         
-        {/* Tag header */}
+        {/* Header */}
         <div className="mb-12">
-          <div className="flex items-center gap-3 mb-3">
-            <TagIcon className="h-6 w-6 text-primary" />
-            <h1 className="text-4xl font-semibold text-foreground">{tag}</h1>
-          </div>
-          
+          <h1 className="text-4xl font-semibold text-foreground mb-4">Catégories du glossaire</h1>
           <p className="text-muted-foreground text-lg">
-            {entries.length} terme{entries.length > 1 ? 's' : ''} lié{entries.length > 1 ? 's' : ''} à cette catégorie
+            Explorez les {tags.length} catégories de termes disponibles dans notre glossaire technique.
           </p>
         </div>
         
-        {/* Terms list */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {entries.map(entry => (
+        {/* Tags grid */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {tags.map(tag => (
             <Link 
-              key={entry.slug} 
-              href={`/glossary/${entry.letter}/${entry.slug}`}
-              className="p-6 border rounded-lg hover:border-primary transition-colors"
+              key={tag} 
+              href={`/glossary/tag/${encodeURIComponent(tag)}`}
+              className="p-4 border rounded-lg hover:border-primary transition-colors flex items-center gap-3"
             >
-              <h3 className="text-xl font-semibold text-foreground mb-3">{entry.term}</h3>
-              <p className="text-muted-foreground mb-4">{entry.shortDescription}</p>
-              
-              {entry.tags && entry.tags.length > 0 && (
-                <div className="flex flex-wrap gap-2 mt-auto">
-                  {entry.tags.map(t => (
-                    <Badge 
-                      key={t} 
-                      variant={t === tag ? "default" : "secondary"}
-                    >
-                      {t}
-                    </Badge>
-                  ))}
-                </div>
-              )}
+              <TagIcon className="h-5 w-5 text-primary flex-shrink-0" />
+              <span className="font-medium text-foreground">{tag}</span>
             </Link>
           ))}
         </div>
+        
+        {/* Empty state */}
+        {tags.length === 0 && (
+          <div className="text-center py-12">
+            <p className="text-muted-foreground">
+              Aucune catégorie n&apos;est disponible pour le moment.
+            </p>
+          </div>
+        )}
       </div>
     </main>
   );
