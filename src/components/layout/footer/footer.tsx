@@ -12,6 +12,7 @@ const navigation = {
     { name: "Blog", href: Routes.unknown },
   ],
   ["Ressources"]: [
+    { name: "Glossaire", href: Routes.glossary },
     { name: "Communauté", href: Routes.unknown },
     { name: "Status", href: Routes.unknown },
   ],
