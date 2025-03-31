@@ -1,0 +1,46 @@
+---
+term: "Backend"
+shortDescription: "Partie d'une application qui gère la logique métier, la base de données et le traitement des données côté serveur"
+relatedTerms: ["API", "Frontend", "Base de données"]
+tags: ["development", "architecture"]
+---
+
+## Définition
+
+Le backend, c'est un peu l'usine derrière la vitrine ! C'est toute la partie invisible qui fait tourner nos applications chez onRuntime. Quand vous utilisez Tonight Pass par exemple, vous interagissez avec une interface jolie et intuitive, mais c'est notre backend qui fait tout le boulot ingrat : vérifier vos identifiants, stocker les données des événements, calculer les recommandations, etc.
+
+## Ce qu'on y fait au quotidien
+
+### Serveurs
+Nos ingés backend passent leur temps à optimiser nos serveurs. Avec l'augmentation du trafic sur Tonight Pass, on a dû passer beaucoup de temps à optimiser tout ça ! On utilise principalement AWS et Google Cloud pour héberger nos applications.
+
+### APIs
+C'est notre spécialité ! On crée des API robustes qui permettent à nos frontends de récupérer exactement ce dont ils ont besoin. On a d'ailleurs une préférence pour les API REST, même si on s'amuse de plus en plus avec GraphQL sur certains projets.
+
+### Bases de données
+Là où on stocke tout ! Selon les projets, on jongle entre MongoDB (pour Tonight Pass), PostgreSQL (pour des projets qui nécessitent des relations complexes) et parfois Redis pour du cache. Le choix de la base de données est crucial et on y réfléchit toujours en amont.
+
+### Logique métier
+C'est le cœur de notre travail : transformer les besoins du client en code qui fonctionne. Pour les algorithmes de recommandation de Tonight Pass, par exemple, on a passé des semaines à peaufiner les règles et à optimiser les requêtes.
+
+## Notre stack backend favorite
+
+### Langages
+- **Node.js/TypeScript**: Notre combo préféré ! On l'utilise sur presque tous nos projets récents
+- **Python**: Parfait quand on doit faire des analyses de données ou du machine learning
+- **Go**: On l'a adopté pour certains microservices qui ont besoin de performances
+
+### Frameworks
+- **NestJS**: Notre framework Node.js préféré pour les grosses applications
+- **Express**: Pour les API plus simples ou les prototypes
+- **Django**: Quand on a besoin d'un admin robuste rapidement
+
+## Pourquoi c'est tellement important
+
+Le backend, c'est comme les fondations d'une maison — si c'est mal fait, tout s'écroule. Chez onRuntime, on est particulièrement fiers de:
+
+- Notre architecture qui supporte les pics de trafic sur Tonight Pass (merci les soirées du Nouvel An!)
+- Notre sécurité sans faille (on touche du bois)
+- Nos temps de réponse ultra rapides
+
+C'est souvent la partie la moins visible pour les clients, mais c'est celle qui nous donne le plus de fil à retordre... et de satisfaction quand tout fonctionne comme sur des roulettes !
