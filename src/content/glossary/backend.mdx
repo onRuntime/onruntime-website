@@ -7,45 +7,40 @@ tags: ["development", "architecture"]
 
 ## Définition
 
-Le backend (aussi appelé "côté serveur") constitue la partie invisible d'une application qui s'exécute sur le serveur. Il est responsable du traitement des données, de la logique métier, de l'authentification, de la sécurité et des interactions avec la base de données.
+Le backend, c'est un peu l'usine derrière la vitrine ! C'est toute la partie invisible qui fait tourner nos applications chez onRuntime. Quand vous utilisez Tonight Pass par exemple, vous interagissez avec une interface jolie et intuitive, mais c'est notre backend qui fait tout le boulot ingrat : vérifier vos identifiants, stocker les données des événements, calculer les recommandations, etc.
 
-## Composants principaux du backend
+## Ce qu'on y fait au quotidien
 
-### Serveur
-L'infrastructure physique ou virtuelle qui héberge l'application et traite les requêtes entrantes.
+### Serveurs
+Nos ingés backend passent leur temps à optimiser nos serveurs. Avec l'augmentation du trafic sur Tonight Pass, on a dû passer beaucoup de temps à optimiser tout ça ! On utilise principalement AWS et Google Cloud pour héberger nos applications.
 
-### API
-L'interface permettant au frontend de communiquer avec le backend et d'accéder aux données et fonctionnalités.
+### APIs
+C'est notre spécialité ! On crée des API robustes qui permettent à nos frontends de récupérer exactement ce dont ils ont besoin. On a d'ailleurs une préférence pour les API REST, même si on s'amuse de plus en plus avec GraphQL sur certains projets.
 
-### Base de données
-Le système de stockage permanent des données de l'application.
+### Bases de données
+Là où on stocke tout ! Selon les projets, on jongle entre MongoDB (pour Tonight Pass), PostgreSQL (pour des projets qui nécessitent des relations complexes) et parfois Redis pour du cache. Le choix de la base de données est crucial et on y réfléchit toujours en amont.
 
 ### Logique métier
-Les algorithmes et processus qui définissent le fonctionnement de l'application.
+C'est le cœur de notre travail : transformer les besoins du client en code qui fonctionne. Pour les algorithmes de recommandation de Tonight Pass, par exemple, on a passé des semaines à peaufiner les règles et à optimiser les requêtes.
 
-## Technologies backend courantes
+## Notre stack backend favorite
 
-### Langages de programmation
-- **Node.js**: Environnement JavaScript côté serveur
-- **Python**: Souvent utilisé avec Django ou Flask
-- **PHP**: Populaire pour le développement web
-- **Java**: Robuste et utilisé pour les applications d'entreprise
-- **Ruby**: Connu pour Ruby on Rails
+### Langages
+- **Node.js/TypeScript**: Notre combo préféré ! On l'utilise sur presque tous nos projets récents
+- **Python**: Parfait quand on doit faire des analyses de données ou du machine learning
+- **Go**: On l'a adopté pour certains microservices qui ont besoin de performances
 
-### Frameworks backend
-- **Express.js** (Node.js)
-- **Django** et **Flask** (Python)
-- **Laravel** (PHP)
-- **Spring Boot** (Java)
-- **Ruby on Rails** (Ruby)
+### Frameworks
+- **NestJS**: Notre framework Node.js préféré pour les grosses applications
+- **Express**: Pour les API plus simples ou les prototypes
+- **Django**: Quand on a besoin d'un admin robuste rapidement
 
-## Importance dans l'architecture web
+## Pourquoi c'est tellement important
 
-Le backend forme la colonne vertébrale de toute application web ou mobile complexe. Il assure la fiabilité, la sécurité et les performances de l'application. Une bonne architecture backend permet de:
+Le backend, c'est comme les fondations d'une maison — si c'est mal fait, tout s'écroule. Chez onRuntime, on est particulièrement fiers de:
 
-- Gérer efficacement de grands volumes de données
-- Supporter de nombreux utilisateurs simultanés
-- Maintenir la cohérence des données
-- Offrir une expérience utilisateur fluide
+- Notre architecture qui supporte les pics de trafic sur Tonight Pass (merci les soirées du Nouvel An!)
+- Notre sécurité sans faille (on touche du bois)
+- Nos temps de réponse ultra rapides
 
-Un développeur backend doit avoir une solide compréhension des principes de sécurité, d'optimisation des performances et de conception de bases de données.
+C'est souvent la partie la moins visible pour les clients, mais c'est celle qui nous donne le plus de fil à retordre... et de satisfaction quand tout fonctionne comme sur des roulettes !

@@ -7,49 +7,42 @@ tags: ["development", "architecture"]
 
 ## Définition
 
-Un framework est une structure logicielle réutilisable qui fournit un ensemble de fonctionnalités génériques, des conventions et des outils pour faciliter le développement d'applications. Il offre une architecture et des modèles de conception que les développeurs peuvent utiliser comme fondation pour construire leurs applications.
+Un framework, c'est un peu comme notre boîte à outils préfabriquée chez onRuntime. Plutôt que de tout construire à partir de zéro pour chaque projet (imaginez construire une maison en commençant par fabriquer vos propres clous !), on utilise ces structures qui nous donnent un bon point de départ et des conventions solides.
 
-## Différence entre framework et bibliothèque
+## La grande question : framework ou bibliothèque ?
 
-La distinction principale réside dans le contrôle du flux d'exécution:
+On entend souvent cette question chez nos clients, alors clarifions :
 
-- Avec une **bibliothèque**, le développeur contrôle le flux et décide quand appeler les fonctions de la bibliothèque.
-- Avec un **framework**, c'est le framework qui prend le contrôle et appelle le code du développeur (principe d'inversion de contrôle).
+- Une **bibliothèque**, c'est comme emprunter un outil spécifique pour une tâche précise. Vous gardez le contrôle et vous décidez quand l'utiliser.
+- Un **framework**, c'est comme entrer dans un atelier tout équipé avec ses propres règles. C'est lui qui vous dit comment travailler.
 
-> "Vous appelez une bibliothèque, un framework vous appelle."
+J'aime bien l'expression : "Vous appelez une bibliothèque, mais c'est un framework qui vous appelle." C'est exactement ça !
 
-## Types de frameworks
+## Les frameworks qu'on adore utiliser
 
-### Frameworks frontend
-- **React**: Bibliothèque pour construire des interfaces utilisateur (bien que souvent considéré comme un framework quand utilisé avec son écosystème)
-- **Angular**: Framework complet avec injection de dépendances, routage, et plus
-- **Vue.js**: Framework progressif qui s'adapte aux besoins
-- **Svelte**: Compile le code pour éliminer le travail d'abstraction au moment de l'exécution
+### Côté frontend
+- **React** : Techniquement une bibliothèque, mais l'écosystème autour (React Router, Redux, etc.) en fait presque un framework. C'est notre choix n°1 pour les interfaces utilisateur.
+- **Next.js** : Notre préféré pour les sites web complexes ! On l'a utilisé pour reconstruire notre propre site onRuntime.com.
+- **React Native** : Pour les apps mobiles de nos clients, c'est notre go-to. On l'a utilisé pour Tonight Pass avec de super résultats.
 
-### Frameworks backend
-- **Express** (Node.js): Léger et flexible pour le développement d'API
-- **Django** (Python): Framework complet avec administration intégrée
-- **Ruby on Rails**: Suit la convention plutôt que la configuration
-- **Spring Boot** (Java): Simplifie le développement d'applications Java
+### Côté backend
+- **NestJS** : On est complètement fans ! C'est structuré, modulaire, et ça nous fait gagner un temps fou sur les grosses applications.
+- **Express** : Plus léger que NestJS, on l'utilise pour les API simples ou les MVPs.
+- **Prisma** : Pas vraiment un framework backend complet, mais notre ORM préféré pour gérer les bases de données.
 
-### Frameworks full-stack
-- **Next.js**: Framework React avec rendu côté serveur
-- **Nuxt.js**: Équivalent pour Vue.js
-- **Meteor**: JavaScript isomorphique pour applications temps réel
+### Full-stack
+- **Next.js** (encore lui !) : On l'utilise de plus en plus comme solution full-stack grâce aux API routes.
+- **Redwood.js** : On l'a testé sur quelques projets et c'est prometteur ! Un peu comme Ruby on Rails mais pour l'écosystème JS.
 
-## Avantages des frameworks
+## Pourquoi on ne code pas tout à partir de zéro
 
-- **Productivité accrue**: Les développeurs peuvent se concentrer sur les fonctionnalités spécifiques à l'application
-- **Code standardisé**: Structure cohérente facilitant la maintenance
-- **Sécurité**: Implémentations robustes pour des problèmes courants
-- **Communauté**: Documentation et support de la communauté
-- **Bonnes pratiques**: Intégration des pratiques de développement recommandées
+- **On va beeeaucoup plus vite** : Exit les problèmes déjà résolus mille fois par d'autres
+- **Code plus propre** : Les conventions des frameworks nous forcent à être disciplinés
+- **Sécurité** : Les frameworks populaires sont scrutés par des milliers de développeurs qui traquent les failles
+- **Onboarding facilité** : Quand on intègre un nouveau dev dans l'équipe, s'il connaît déjà le framework, il est opérationnel en un rien de temps
 
-## Quand utiliser un framework
+## Quand on choisit d'utiliser (ou pas) un framework
 
-- Pour les projets de taille moyenne à grande
-- Lorsque plusieurs développeurs travaillent sur le même projet
-- Pour maintenir la cohérence du code sur le long terme
-- Lorsque le temps de développement est une contrainte importante
+Chez onRuntime, on adore les frameworks, mais on ne les utilise pas à l'aveugle. Pour un microservice ultra-spécifique, on préfère parfois une approche plus légère avec juste quelques bibliothèques. Pour notre application Kartrak par exemple, on a opté pour une approche plus minimaliste car les performances étaient critiques.
 
-Cependant, les frameworks peuvent être surdimensionnés pour des projets simples ou très spécifiques, où une solution sur mesure pourrait être plus appropriée.
+Mais soyons honnêtes, pour la plupart des projets clients où time-to-market est crucial, un bon framework nous fait gagner tellement de temps que le choix est vite fait !

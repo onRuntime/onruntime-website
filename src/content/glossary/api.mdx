@@ -7,32 +7,32 @@ tags: ["development", "technical"]
 
 ## Définition
 
-Une API (Application Programming Interface) est un ensemble de règles et de protocoles qui permettent à différentes applications de communiquer entre elles. Elle sert d'intermédiaire, permettant à des logiciels distincts d'interagir et d'échanger des données.
+Une API (Application Programming Interface) ? C'est essentiellement le langage que parlent nos applications pour communiquer entre elles. Chez onRuntime, on les utilise constamment pour connecter les différentes parties de nos projets. Imaginez une API comme un serveur dans un restaurant : vous passez commande (la requête), et il vous apporte ce que vous avez demandé (la réponse) sans que vous ayez besoin de savoir ce qui se passe en cuisine.
 
-## Pourquoi utiliser une API?
+## Pourquoi on adore les API
 
-- **Interopérabilité**: Permet à des systèmes différents de travailler ensemble
-- **Modularité**: Favorise le développement de composants indépendants
-- **Sécurité**: Contrôle l'accès aux fonctionnalités et aux données
-- **Évolutivité**: Permet de mettre à jour les composants sans affecter l'ensemble du système
+- **Elles font travailler tout le monde ensemble**: Différents systèmes peuvent échanger des données sans se prendre la tête
+- **Elles nous rendent modulaires**: On peut développer des composants indépendants et les connecter facilement
+- **Elles protègent nos données**: On contrôle précisément qui accède à quoi
+- **Elles nous font gagner du temps**: On peut mettre à jour une partie sans tout reconstruire
 
-## Types d'API
+## Les API qu'on utilise au quotidien
 
 ### API RESTful
-Les API REST utilisent les méthodes HTTP (GET, POST, PUT, DELETE) pour effectuer des opérations sur les ressources. Elles sont stateless et largement utilisées pour les services web.
+Notre pain quotidien ! On les utilise pour la plupart de nos projets web. Elles sont simples, stateless (pas de mémoire d'une requête à l'autre), et utilisent les méthodes HTTP classiques. Parfaites pour des interfaces découplées comme sur Tonight Pass.
 
 ### API GraphQL
-Développée par Facebook, GraphQL permet aux clients de demander exactement les données dont ils ont besoin, ce qui peut réduire le sur-fetching et le sous-fetching d'informations.
+On en est fans pour certains projets complexes ! Plutôt que de créer 15 endpoints différents, on laisse le client demander exactement les données dont il a besoin. Sur Kitchn, ça nous a sauvé pas mal de bande passante.
 
 ### API SOAP
-Un protocole plus ancien utilisant XML, avec des spécifications strictes et une sécurité intégrée.
+On ne va pas mentir, on ne les utilise plus trop... C'est un peu old-school avec leur XML et leurs spécifications ultra-strictes. Mais on en croise encore parfois sur des projets d'entreprise.
 
-## Utilisation dans le développement web
+## Comment on les utilise au quotidien
 
-Dans le développement web moderne, les API sont fondamentales pour construire des applications réactives et fonctionnelles. Elles permettent notamment:
+Chez onRuntime, les API sont au cœur de notre stack technique. Elles nous permettent de:
 
-- La communication entre le frontend et le backend
-- L'intégration de services tiers (paiement, cartographie, réseaux sociaux)
-- Le développement d'architectures microservices
+- Construire des applications découplées (frontend/backend séparés)
+- Intégrer facilement des services tiers (paiement, cartographie, etc.)
+- Développer notre architecture microservices sur certains projets
 
-Les développeurs utilisent des outils comme Postman ou Swagger pour tester et documenter les API.
+Quand on conçoit une API, on commence toujours par la documenter avec Swagger ou Postman. Ça nous aide à clarifier notre pensée et ça devient une référence précieuse pour toute l'équipe. Croyez-moi, ça évite beaucoup de réunions inutiles !
