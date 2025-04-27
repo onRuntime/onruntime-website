@@ -4160,9 +4160,9 @@ remark-rehype@^11.0.0:
     vfile "^6.0.0"
 
 resend@^4.1.2:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/resend/-/resend-4.3.0.tgz#4dc0bc1fa904930fc4618d66f5fa15dfb69222eb"
-  integrity sha512-4OBHeusMVSl0vcba2J3AaGzdZ1SXAAhX/Wkcwobe16AHmlW9h3li8wG62Fhvlsc61e+wlQoxcwJZP6WrBTbghQ==
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/resend/-/resend-4.4.1.tgz#28e3097ec05b2458c64491de9fdb06170dd32368"
+  integrity sha512-FR22bzMW3VfoyZSBc8ScGo8ShrMWHmWB0G3FrispzWCnYSEEK5M7pyRvZtInKmM/09lsJETKc2q66mX+dXPSmg==
   dependencies:
     "@react-email/render" "1.0.6"
 
