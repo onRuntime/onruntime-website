@@ -26,8 +26,6 @@ const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
   testimonials,
   className
 }) => {
-  return;
-
   return (
     <div className={cn("flex flex-col gap-12", className)}>
       <div className="text-center max-w-2xl mx-auto">

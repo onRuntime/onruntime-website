@@ -9,6 +9,7 @@ import Link from "next/link";
 import React from "react";
 import NavigationServices from "./services";
 import NavigationProjects from "./projects";
+import NavigationAgencies from "./agencies";
 
 const Navigation: React.FC = () => {
   return (
@@ -17,6 +18,8 @@ const Navigation: React.FC = () => {
         <NavigationServices />
 
         <NavigationProjects />
+        
+        <NavigationAgencies />
 
         <Link href={Routes.npo} legacyBehavior passHref>
           <NavigationMenuLink className={navigationMenuTriggerStyle()}>
