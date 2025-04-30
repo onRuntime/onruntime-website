@@ -2,7 +2,6 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { cn } from '@/lib/utils';
 
 interface FranceMapProps {
   cities: string[];
@@ -69,7 +68,7 @@ const FranceMap: React.FC<FranceMapProps> = ({ cities }) => {
           );
         })}
 
-        {/* Texte légend */}
+        {/* Texte légende */}
         <text
           x="30"
           y="30"

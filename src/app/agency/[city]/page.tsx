@@ -61,9 +61,6 @@ export default function CityPage({ params }: { params: { city: string } }) {
     notFound();
   }
   
-  // Get city data
-  const data = cityData[city as keyof typeof cityData];
-
   return (
     <main className="min-h-screen pt-32 pb-16">
       <div className="px-4 md:px-0 max-w-5xl mx-auto space-y-24">

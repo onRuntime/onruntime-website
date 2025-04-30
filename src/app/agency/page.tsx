@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Button } from "@/components/ui/button";
 import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
@@ -83,7 +82,7 @@ export default function AgencyLandingPage() {
               Un réseau national, une expertise locale
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              onRuntime Studio combine la force d'une présence nationale avec une connaissance approfondie des écosystèmes numériques locaux. Notre approche vous garantit des solutions parfaitement adaptées aux spécificités de votre région.
+              onRuntime Studio combine la force d&apos;une présence nationale avec une connaissance approfondie des écosystèmes numériques locaux. Notre approche vous garantit des solutions parfaitement adaptées aux spécificités de votre région.
             </p>
           </div>
 
@@ -191,7 +190,7 @@ export default function AgencyLandingPage() {
             </div>
             
             <div className="flex flex-col gap-4 p-6 rounded-lg border bg-card">
-              <h3 className="text-xl font-medium text-foreground">Connaissance de l'écosystème</h3>
+              <h3 className="text-xl font-medium text-foreground">Connaissance de l&apos;écosystème</h3>
               <p className="text-muted-foreground">
                 Une compréhension approfondie des acteurs locaux, des tendances régionales et des opportunités spécifiques à votre marché.
               </p>
@@ -200,7 +199,7 @@ export default function AgencyLandingPage() {
             <div className="flex flex-col gap-4 p-6 rounded-lg border bg-card">
               <h3 className="text-xl font-medium text-foreground">Réseau local</h3>
               <p className="text-muted-foreground">
-                Accès à un réseau de talents, partenaires et clients potentiels dans votre région, facilitant les collaborations et opportunités d'affaires.
+                Accès à un réseau de talents, partenaires et clients potentiels dans votre région, facilitant les collaborations et opportunités d&apos;affaires.
               </p>
             </div>
             
@@ -280,7 +279,7 @@ export default function AgencyLandingPage() {
               Prêt à collaborer avec notre agence locale ?
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Contactez-nous dès aujourd'hui pour discuter de votre projet avec notre équipe la plus proche de chez vous.
+              Contactez-nous dès aujourd&apos;hui pour discuter de votre projet avec notre équipe la plus proche de chez vous.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href={Routes.contact}>
