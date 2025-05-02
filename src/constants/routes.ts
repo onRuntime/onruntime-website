@@ -1,3 +1,5 @@
+// Ajout des routes pour les pages d'agence dans src/constants/routes.ts
+
 const Routes = {
   unknown: "#",
 
@@ -10,6 +12,12 @@ const Routes = {
   contact: "/contact",
   services: "/services",
   projects: "/projects",
+  
+  // Nouvelles routes pour les agences
+  agency: {
+    root: "/agency",
+    city: (id: string) => `/agency/${id}`,
+  },
 
   service: {
     design: {
@@ -49,21 +57,21 @@ const Routes = {
     },
   },
 
-	legals: {
-		company: "/company",
-		terms: "/terms",
-		privacy: "/privacy",
-	},
+  legals: {
+    company: "/company",
+    terms: "/terms",
+    privacy: "/privacy",
+  },
 
-	project: (id: string) => `/projects/${id}`,
+  project: (id: string) => `/projects/${id}`,
 
-	socials: {
+  socials: {
     discord: "https://discord.gg/ucX9c5yXmX",
     instagram: "https://www.instagram.com/onruntime/",
-		linkedin: "https://www.linkedin.com/company/onruntime",
-		github: "https://github.com/onruntime",
+    linkedin: "https://www.linkedin.com/company/onruntime",
+    github: "https://github.com/onruntime",
     x: "https://x.com/onruntime",
-	}
+  }
 };
 
 export default Routes;

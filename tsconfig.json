@@ -29,6 +29,6 @@
     "**/*.md",
     "**/*.mdx",
     ".next/types/**/*.ts"
-  ],
+, "src/app/agency/[city]"  ],
   "exclude": ["node_modules"]
 }

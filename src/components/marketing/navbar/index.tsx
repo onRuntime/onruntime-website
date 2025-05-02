@@ -8,8 +8,9 @@ import { OnRuntimeWordMark } from "@/logos/components";
 import Link from "next/link";
 import React, { useState, useRef, useEffect } from "react";
 import Navigation from "./navigation";
-import { ChevronDown, Menu } from "lucide-react";
+import { ChevronDown, Menu } from "lucide-react";   
 import { cn } from "@/lib/utils";
+import { cities } from '@/constants/cities';
 // Remove the useResizeObserver import since we're implementing our own
 
 // Define types for navigation items
@@ -30,7 +31,15 @@ interface NavItem {
   dropdown?: DropdownItem[];
 }
 
-// Navigation structure
+const majorCityIds = ['paris', 'lyon', 'marseille', 'bordeaux', 'lille'];
+const majorCities = cities
+  .filter(city => majorCityIds.includes(city.id))
+  .map(city => ({
+    title: `Agence ${city.name}`,
+    path: Routes.agency.city(city.id),
+  }));
+
+// Modification de la section navigation items pour inclure les agences
 const navItems: NavItem[] = [
   {
     title: "Nos services",
@@ -51,6 +60,20 @@ const navItems: NavItem[] = [
       title: project.name,
       path: Routes.project(project.id),
     })),
+  },
+  {
+    title: "Nos agences", // Nouvelle section pour les agences
+    path: Routes.agency.root,
+    dropdown: [
+      {
+        title: "Toutes nos agences",
+        path: Routes.agency.root,
+      },
+      ...majorCities.map(city => ({
+        title: city.title,
+        path: city.path,
+      })),
+    ],
   },
   {
     title: "L'association",
