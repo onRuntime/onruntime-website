@@ -53,7 +53,13 @@ export function generateStaticParams() {
   }));
 }
 
-export default function CityPage({ params }: { params: { city: string } }) {
+type PageProps = {
+  params: {
+    city: string;
+  };
+}
+
+export default function CityPage({ params }: PageProps) {
   const city = params.city.toLowerCase();
   
   // Check if city exists in our data
