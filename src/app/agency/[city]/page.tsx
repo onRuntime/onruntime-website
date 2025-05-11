@@ -23,19 +23,23 @@ const cityData = {
   }
 };
 
-// Generate metadata for the page
+type AgencyPageProps = {
+  params: Promise<{ city: string }>;
+}
+
 export async function generateMetadata({
   params,
 }: {
-  params: { city: string };
+  params: Promise<{ city: string }>;
 }): Promise<Metadata> {
   // Get city data if valid, or default
-  const city = params.city.toLowerCase();
-  const data = cityData[city as keyof typeof cityData];
+  const { city } = await params;
+  const cityLower = city.toLowerCase();
+  const data = cityData[cityLower as keyof typeof cityData];
   
   if (!data) {
     return constructMetadata({
-      title: "Agence non trouvée | onRuntime Studio",
+      title: "Agence non trouvée",
       description: "Cette agence n'existe pas.",
     });
   }
@@ -53,11 +57,12 @@ export function generateStaticParams() {
   }));
 }
 
-export default function CityPage({ params }: { params: { city: string } }) {
-  const city = params.city.toLowerCase();
+export default async function CityPage({ params }: AgencyPageProps) {
+  const { city } = await params;
+  const cityLower = city.toLowerCase();
   
   // Check if city exists in our data
-  if (!(city in cityData)) {
+  if (!(cityLower in cityData)) {
     notFound();
   }
   
@@ -65,22 +70,14 @@ export default function CityPage({ params }: { params: { city: string } }) {
     <main className="min-h-screen pt-32 pb-16">
       <div className="px-4 md:px-0 max-w-5xl mx-auto space-y-24">
         {/* Hero Section */}
-        <CityHeroSection city={city} />
+        <CityHeroSection city={cityLower} />
         
-        {/* Local Expertise Section */}
-        <LocalExpertise city={city} />
-        
-        {/* Our Process */}
-        <OurProcess city={city} />
-        
-        {/* Portfolio Section */}
-        <LocalPortfolio city={city} />
-        
-        {/* Testimonials */}
-        <LocalTestimonials city={city} />
-        
-        {/* Contact CTA */}
-        <ContactCTA city={city} />
+        {/* Other components */}
+        <LocalExpertise city={cityLower} />
+        <OurProcess city={cityLower} />
+        <LocalPortfolio city={cityLower} />
+        <LocalTestimonials city={cityLower} />
+        <ContactCTA city={cityLower} />
       </div>
     </main>
   );

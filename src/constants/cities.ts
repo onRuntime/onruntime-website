@@ -517,6 +517,99 @@ export const cities: City[] = [
     population: 309346,
     title: "Agence Web & Mobile à Nantes | Développement Digital Innovant",
     description: "Solutions digitales créatives et performantes à Nantes. Développement web, applications mobiles et design UI/UX par notre agence pour les entreprises du Grand Ouest.",
-    introText: "Au cœur de Nantes, ville créative et dynamique de l'Ouest, notre agence digitale accompagne les entreprises locales dans leur transformation numérique. Entre tradition maritime et innovation, nous concevons des expériences digitales qui reflètent l'esprit nantais: créatif, durable et tourné vers l'avenir."
+    introText: "Au cœur de Nantes, ville créative et dynamique de l'Ouest, notre agence digitale accompagne les entreprises locales dans leur transformation numérique. Entre tradition maritime et innovation, nous concevons des expériences digitales qui reflètent l'esprit nantais: créatif, durable et tourné vers l'avenir.",
+    expertiseText: "Notre équipe nantaise combine expertise technique et créativité pour répondre aux défis numériques des entreprises du Grand Ouest. Nous maîtrisons les technologies de pointe tout en comprenant les spécificités du tissu économique local, de l'industrie maritime aux startups innovantes.",
+    whyChooseUs: "Choisir onRuntime Studio à Nantes, c'est s'associer à une agence qui comprend l'écosystème digital du Grand Ouest. Notre approche combine innovation technique, sensibilité écologique et vision créative pour accompagner votre transformation numérique avec des solutions parfaitement adaptées à votre contexte.",
+    strengths: [
+      {
+        title: "Créativité atlantique",
+        description: "Solutions innovantes inspirées par l'écosystème créatif nantais et son dynamisme culturel."
+      },
+      {
+        title: "Développement durable",
+        description: "Approche éco-responsable du digital, reflétant l'engagement environnemental nantais."
+      },
+      {
+        title: "Expertise maritime et industrielle",
+        description: "Solutions adaptées au riche patrimoine industriel et portuaire de la région."
+      },
+      {
+        title: "Innovation collaborative",
+        description: "Méthodes de travail inspirées de l'esprit collaboratif des initiatives nantaises."
+      }
+    ],
+    focusedServices: [
+      {
+        name: "Applications éco-conçues",
+        description: "Solutions digitales responsables pour entreprises engagées dans la transition écologique.",
+        link: Routes.service.frontend.web
+      },
+      {
+        name: "Plateformes collaboratives",
+        description: "Outils digitaux favorisant l'économie collaborative et les initiatives locales.",
+        link: Routes.service.backend.api
+      },
+      {
+        name: "Design UI/UX innovant",
+        description: "Interfaces créatives reflétant l'esprit des Machines de l'Île et du patrimoine culturel nantais.",
+        link: Routes.service.design.ui
+      }
+    ],
+    localProjects: [
+      {
+        name: "Plateforme pour acteurs culturels",
+        description: "Solution connectant les initiatives culturelles nantaises et facilitant l'accès aux événements locaux.",
+        imageUrl: "/static/images/agency/nantes-culture.jpg",
+        tags: ["Web", "Culture", "Événementiel"]
+      },
+      {
+        name: "Application mobilité durable",
+        description: "Solution multimodale pour optimiser les déplacements urbains écologiques à Nantes.",
+        imageUrl: "/static/images/agency/nantes-mobilite.jpg",
+        tags: ["Mobile", "Green Tech", "Smart City"]
+      }
+    ],
+    testimonials: [
+      {
+        name: "Nicolas Durand",
+        role: "Directeur",
+        company: "Éco-Initiatives Nantes",
+        text: "Leur approche digitale responsable correspond parfaitement à nos valeurs. L'application développée a considérablement amplifié l'impact de nos actions environnementales."
+      },
+      {
+        name: "Marie Lefevre",
+        role: "Fondatrice",
+        company: "Collectif Culturel Nantais",
+        text: "La plateforme conçue par onRuntime a transformé notre visibilité et connecté les acteurs culturels nantais comme jamais auparavant."
+      }
+    ],
+    contactInfo: {
+      address: "4 Rue des Olivettes, 44000 Nantes",
+      phone: "+33 7 56 90 93 75",
+      email: "nantes@onruntime.com",
+      meetingPoints: ["Île de Nantes", "Quartier Bouffay", "Lieu Unique"]
+    },
+    stats: [
+      {
+        label: "Projets écologiques",
+        value: "20+",
+        description: "Solutions durables développées"
+      },
+      {
+        label: "Startups accompagnées",
+        value: "30+",
+        description: "Jeunes pousses de l'Ouest"
+      },
+      {
+        label: "Satisfaction client",
+        value: "96%",
+        description: "Clients satisfaits à Nantes"
+      }
+    ],
+    geo: {
+      latitude: "47.218371",
+      longitude: "-1.553621"
+    },
+    nearbyLocations: ["rennes", "angers", "la-rochelle", "vannes"]
   }
 ]
