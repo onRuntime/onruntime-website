@@ -30,7 +30,6 @@ const WebFrontendServicePage = () => {
       description={metadata.description as string}
       heroTitle="Développement Web Frontend"
       heroDescription="Créez des applications web modernes, réactives et performantes avec les dernières technologies frontend. Notre expertise vous garantit une expérience utilisateur exceptionnelle."
-      heroImage="/static/images/services/frontend/web/frontend-web.webp"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -58,7 +57,6 @@ const WebFrontendServicePage = () => {
             icon: PenTool
           }
         ]}
-        image="/static/images/services/frontend/web/frontend-techniques.webp"
       />
 
       {/* Avantages du développement frontend moderne */}
@@ -87,7 +85,6 @@ const WebFrontendServicePage = () => {
             icon: Search
           }
         ]}
-        image="/static/images/services/frontend/web/frontend-technologie.webp"
         reversed
       />
 
@@ -175,7 +172,6 @@ const WebFrontendServicePage = () => {
             icon: Globe
           }
         ]}
-        image="/static/images/services/frontend/web/frontend-design.webp"
       />
     </ServiceLayout>
   );

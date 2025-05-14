@@ -30,7 +30,6 @@ const WebflowServicePage = () => {
       description={metadata.description as string}
       heroTitle="Développement Webflow professionnel"
       heroDescription="Donnez vie à votre vision avec Webflow. Notre expertise vous garantit un site web moderne, interactif et parfaitement adapté à vos besoins, sans compromis sur la qualité."
-      heroImage="/static/images/services/integration/webflow.jpg"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -58,7 +57,6 @@ const WebflowServicePage = () => {
             icon: Settings
           }
         ]}
-        image="/static/images/services/integration/webflow-nocode.webp"
       />
 
       {/* Avantages Webflow */}
@@ -87,7 +85,6 @@ const WebflowServicePage = () => {
             icon: Zap
           }
         ]}
-        image="/static/images/services/integration/webflow-responsive.webp"
         reversed
       />
 
@@ -175,8 +172,6 @@ const WebflowServicePage = () => {
             icon: MessageSquare
           }
         ]}
-            image="/static/images/services/integration/webflow-complementaire.webp"
-
       />
     </ServiceLayout>
   );

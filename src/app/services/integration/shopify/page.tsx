@@ -30,7 +30,6 @@ const ShopifyServicePage = () => {
       description={metadata.description as string}
       heroTitle="Créez votre boutique en ligne avec Shopify"
       heroDescription="Transformez votre vision e-commerce en réalité avec notre expertise Shopify. Nous créons des boutiques en ligne performantes, esthétiques et optimisées pour la conversion."
-      heroImage="/static/images/services/shopify-hero.jpg"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -58,7 +57,6 @@ const ShopifyServicePage = () => {
             icon: Settings
           }
         ]}
-        image="/static/images/services/integration/shopify-mobile.webp"
       />
 
       {/* Avantages Shopify */}
@@ -87,7 +85,6 @@ const ShopifyServicePage = () => {
             icon: Truck
           }
         ]}
-        image="/static/images/services/integration/shopify-buy.webp"
         reversed
       />
 
@@ -175,7 +172,6 @@ const ShopifyServicePage = () => {
             icon: MessageSquare
           }
         ]}
-            image="/static/images/services/integration/shopify-complementaire.webp"
       />
     </ServiceLayout>
   );
