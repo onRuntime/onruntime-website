@@ -2,35 +2,25 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
-import { ArrowRight, LucideIcon } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Routes from "@/constants/routes";
-import { Service } from '@/types/service';
+import { ServiceBenefit, ServiceCategoryData, ServiceProcessStep } from '@/types/service';
 import { Badge } from '@/components/ui/badge';
 import ProcessTimeline from './process-timeline';
 
-interface ProcessStep {
-  title: string;
-  description: string;
-  services?: string[];
-}
-
 interface ServiceOverviewPageProps {
-  service: Service;
+  service: ServiceCategoryData;
+  benefits: ServiceBenefit[];
+  processList: ServiceProcessStep[];
   accentColor?: string;
-  benefits: {
-    title: string;
-    description: string;
-    icon: LucideIcon;
-  }[];
-  processList: ProcessStep[];
 }
 
 const ServiceOverviewPage: React.FC<ServiceOverviewPageProps> = ({
   service,
-  accentColor = "onruntime-blue",
   benefits,
-  processList
+  processList,
+  accentColor = "onruntime-blue",
 }) => {
   return (
     <main className="min-h-screen pt-32 pb-16 w-full">
@@ -234,19 +224,21 @@ const ServiceOverviewPage: React.FC<ServiceOverviewPageProps> = ({
           </div>
         </div>
 
-        <div className="mb-24">
-          <div className="text-center mb-12">
-            <Badge className="mb-4">Notre processus</Badge>
-            <h2 className="text-3xl font-medium text-foreground mb-4">
-              Comment nous travaillons
-            </h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
-              Une approche intégrée qui combine nos différentes expertises pour un résultat optimal.
-            </p>
-          </div>
+        {processList && processList.length > 0 && (
+          <div className="mb-24">
+            <div className="text-center mb-12">
+              <Badge className="mb-4">Notre processus</Badge>
+              <h2 className="text-3xl font-medium text-foreground mb-4">
+                Comment nous travaillons
+              </h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                Une approche intégrée qui combine nos différentes expertises pour un résultat optimal.
+              </p>
+            </div>
 
-          <ProcessTimeline steps={processList} />
-        </div>
+            <ProcessTimeline steps={processList} />
+          </div>
+        )}
 
         <div className="relative overflow-hidden rounded-xl border border-border bg-card p-12">
           <div className="relative z-10 max-w-2xl">
