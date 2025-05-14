@@ -30,7 +30,6 @@ const BotsServicePage = () => {
       description={metadata.description as string}
       heroTitle="Bots & Automatisations"
       heroDescription="Développez des bots intelligents et des automatisations pour améliorer l'engagement et la productivité de votre communauté. Notre expertise vous garantit des bots fiables et performants pour Discord, Slack et autres plateformes."
-      heroImage="/static/images/services/back-end/bots/bots-hero.webp"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -58,7 +57,6 @@ const BotsServicePage = () => {
             icon: Settings
           }
         ]}
-        image="/static/images/services/back-end/bots/excellence-developpement.webp"
       />
 
       {/* Avantages des bots modernes */}
@@ -87,7 +85,6 @@ const BotsServicePage = () => {
             icon: LineChart
           }
         ]}
-        image="/static/images/services/back-end/bots/bot-intelligent.webp"
         reversed
       />
 
@@ -175,7 +172,6 @@ const BotsServicePage = () => {
             icon: Heart
           }
         ]}
-        image="/static/images/services/back-end/bots/service-complementaire.webp"
       />
     </ServiceLayout>
   );

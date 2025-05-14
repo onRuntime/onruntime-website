@@ -29,7 +29,6 @@ const SquarespaceServicePage = () => {
       description={metadata.description as string}
       heroTitle="Sites web élégants avec Squarespace"
       heroDescription="Créez une présence en ligne raffinée avec Squarespace. Notre expertise vous garantit un site web esthétique, fonctionnel et parfaitement adapté à votre image de marque."
-      heroImage="/static/images/services/integration/squarespace.jpg"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -57,7 +56,6 @@ const SquarespaceServicePage = () => {
             icon: ImageIcon
           }
         ]}
-        image="/static/images/services/integration/squarespace-design.webp"
       />
 
       {/* Avantages Squarespace */}
@@ -86,7 +84,6 @@ const SquarespaceServicePage = () => {
             icon: Share2
           }
         ]}
-        image="/static/images/services/integration/squarespace-marketing.webp"
         reversed
       />
 
@@ -174,7 +171,6 @@ const SquarespaceServicePage = () => {
             icon: MessageSquare
           }
         ]}
-        image="/static/images/services/integration/squarespace-complementaire.webp"
       />
     </ServiceLayout>
   );

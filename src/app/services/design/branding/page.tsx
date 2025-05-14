@@ -30,7 +30,6 @@ const BrandingServicePage = () => {
       description={metadata.description as string}
       heroTitle="Branding & Identité de Marque"
       heroDescription="Donnez vie à votre marque avec une identité visuelle distinctive et mémorable. Notre expertise en branding vous aide à créer une image de marque qui résonne avec votre audience et reflète vos valeurs."
-      heroImage="/static/images/services/design/charte-graphique/charte-graphique-hero.webp"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -58,7 +57,6 @@ const BrandingServicePage = () => {
             icon: PenTool
           }
         ]}
-        image="/static/images/services/design/charte-graphique/excellence-branding.webp"
       />
 
       {/* Avantages du branding */}
@@ -87,7 +85,6 @@ const BrandingServicePage = () => {
             icon: Globe
           }
         ]}
-        image="/static/images/services/design/charte-graphique/identite-distinctive.webp"
         reversed
       />
 
@@ -175,7 +172,6 @@ const BrandingServicePage = () => {
             icon: FileImage
           }
         ]}
-        image="/static/images/services/design/charte-graphique/service-complementaire.webp"
       />
     </ServiceLayout>
   );

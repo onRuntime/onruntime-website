@@ -30,7 +30,6 @@ const CloudServicePage = () => {
       description={metadata.description as string}
       heroTitle="Solutions Cloud"
       heroDescription="Optimisez votre infrastructure avec des solutions cloud modernes et évolutives. Notre expertise vous garantit un déploiement sécurisé et performant sur les principales plateformes cloud."
-      heroImage="/static/images/services/back-end/solutions-cloud/cloud-hero.webp"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -58,7 +57,6 @@ const CloudServicePage = () => {
             icon: Scale
           }
         ]}
-        image="/static/images/services/back-end/solutions-cloud/multi-cloud.webp"
       />
 
       {/* Avantages du cloud */}
@@ -87,7 +85,6 @@ const CloudServicePage = () => {
             icon: Lock
           }
         ]}
-        image="/static/images/services/back-end/solutions-cloud/infrastructure-modern.webp"
         reversed
       />
 
@@ -175,7 +172,6 @@ const CloudServicePage = () => {
             icon: Timer
           }
         ]}
-        image="/static/images/services/back-end/solutions-cloud/service-complementaire.webp"
       />
     </ServiceLayout>
   );

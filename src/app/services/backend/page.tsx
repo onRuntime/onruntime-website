@@ -76,8 +76,6 @@ const BackendServicePage = () => {
   return (
     <ServiceOverviewPage
       service={backendService}
-      heroImage="/static/images/services/back-end/dev-back-hero.webp"
-      showCaseImage="/static/images/services/back-end/back-expert.webp"
       benefits={benefits}
       processList={processList}
     />

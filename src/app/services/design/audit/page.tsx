@@ -27,7 +27,6 @@ const AuditServicePage = () => {
       description={metadata.description}
       heroTitle="Audit UX/UI & Optimisation"
       heroDescription="Améliorez l'expérience utilisateur de vos interfaces grâce à un audit professionnel. Notre expertise vous garantit une analyse approfondie et des recommandations concrètes pour optimiser vos interfaces."
-      heroImage="/static/images/services/design/audit-ui/audit-hero.webp"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -55,7 +54,6 @@ const AuditServicePage = () => {
             icon: Eye
           }
         ]}
-        image="/static/images/services/design/audit-ui/analyse-ui-ux.webp"
       />
 
       {/* Avantages de l'audit */}
@@ -84,7 +82,6 @@ const AuditServicePage = () => {
             icon: MousePointer
           }
         ]}
-        image="/static/images/services/design/audit-ui/optimisation-donnees.webp"
         reversed
       />
 
@@ -172,7 +169,6 @@ const AuditServicePage = () => {
             icon: MessageSquare
           }
         ]}
-        image="/static/images/services/design/audit-ui/service-complementaire.webp"
       />
     </ServiceLayout>
   );

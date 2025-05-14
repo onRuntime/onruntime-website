@@ -30,7 +30,6 @@ const WordPressServicePage = () => {
       description={metadata.description as string}
       heroTitle="Développement WordPress sur mesure"
       heroDescription="Créez un site web professionnel qui vous ressemble avec WordPress. Notre expertise vous garantit un site performant, sécurisé et parfaitement adapté à vos besoins."
-      heroImage="/static/images/services/integration/wordpress.jpg"
     >
       {/* Caractéristiques principales */}
       <FeatureSection
@@ -58,7 +57,6 @@ const WordPressServicePage = () => {
             icon: Settings
           }
         ]}
-        image="/static/images/services/integration/wordpress-solution.webp"
       />
 
       {/* Avantages WordPress */}
@@ -87,7 +85,6 @@ const WordPressServicePage = () => {
             icon: Zap
           }
         ]}
-        image="/static/images/services/integration/wordpress-seo.webp"
         reversed
       />
 
@@ -175,8 +172,6 @@ const WordPressServicePage = () => {
             icon: MessageSquare
           }
         ]}
-            image="/static/images/services/integration/wordpress-complementaire.webp"
-
       />
     </ServiceLayout>
   );

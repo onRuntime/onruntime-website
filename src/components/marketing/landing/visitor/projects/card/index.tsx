@@ -17,17 +17,17 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
   return (
     <Link 
-      className="flex flex-col gap-3 w-full" 
+      className="flex flex-col gap-3 h-full group" 
       href={Routes.project(project.id)} 
       ref={ref}
     >
-      <div className="relative">
+      <div className="relative aspect-video w-full overflow-hidden rounded-lg">
         <Image 
-          className="relative rounded-lg object-cover h-[200px] w-full" 
+          className="object-cover transition-transform duration-300 group-hover:scale-105" 
           src={project.thumbnailUrl} 
           alt={project.name} 
-          width={260} 
-          height={200} 
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
         />
         <div className="absolute bottom-2 right-2 flex flex-wrap gap-2">
           {project.tags && project.tags.flatMap((tag) => {
@@ -42,10 +42,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           })}
         </div>
       </div>
-      <h3 className="text-foreground font-bold">{project.name}</h3>
-      <p className="text-sm text-muted-foreground leading-tight line-clamp-2">
-        {project.shortDescription}
-      </p>
+      <div className="flex flex-col flex-grow">
+        <h3 className="text-foreground font-medium">{project.name}</h3>
+        <p className="text-sm text-muted-foreground leading-tight line-clamp-2 mt-1">
+          {project.shortDescription}
+        </p>
+      </div>
     </Link>
   );
 };
