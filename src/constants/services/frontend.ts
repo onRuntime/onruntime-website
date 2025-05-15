@@ -29,7 +29,6 @@ import {
 import { ServiceBenefit, ServiceCategoryData, ServiceCategory, ServiceProcessStep } from "@/types/service";
 import Routes from "@/constants/routes";
 
-// Bénéfices pour la page de catégorie
 const frontendBenefits: ServiceBenefit[] = [
   {
     title: "Architecture évolutive",
@@ -53,7 +52,6 @@ const frontendBenefits: ServiceBenefit[] = [
   }
 ];
 
-// Processus pour la page de catégorie
 const frontendProcessList: ServiceProcessStep[] = [
   {
     title: "Architecture technique",

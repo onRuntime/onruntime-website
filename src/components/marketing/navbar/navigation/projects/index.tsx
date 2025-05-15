@@ -13,17 +13,15 @@ import Image from "next/image";
 import { Tag } from "@/types/project";
 
 const NavigationProjects: React.FC = () => {
-  // Get featured projects first
+  
   const featuredProjects = Projects.filter(project => 
     project.tags.includes(Tag.FEATURED)
   ).slice(0, 2);
-  
-  // Get other projects (non-featured) up to 4 total
+
   const remainingProjects = Projects.filter(project => 
     !project.tags.includes(Tag.FEATURED)
   ).slice(0, 4 - featuredProjects.length);
 
-  // Combine for display
   const displayProjects = [...featuredProjects, ...remainingProjects].slice(0, 4);
 
   return (
@@ -32,7 +30,7 @@ const NavigationProjects: React.FC = () => {
 
       <NavigationMenuContent>
         <div className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-[200px_1fr] lg:w-[600px]">
-          {/* Left sidebar with CTA - Moved from right to left */}
+          
           <NavigationMenuLink asChild className="block">
             <Link 
               href={Routes.projects}
@@ -70,7 +68,7 @@ const NavigationProjects: React.FC = () => {
           </NavigationMenuLink>
           
           <div className="grid gap-3">
-            {/* Highlight first project with image */}
+            
             {displayProjects.length > 0 && (
               <NavigationMenuLink asChild className="block">
                 <Link
@@ -95,7 +93,6 @@ const NavigationProjects: React.FC = () => {
               </NavigationMenuLink>
             )}
 
-            {/* Other projects as list items */}
             <div className="grid gap-2">
               {displayProjects.slice(1).map((project) => (
                 <NavigationMenuLink asChild key={project.id}>

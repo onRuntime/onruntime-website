@@ -22,7 +22,7 @@ const LegalPage: React.FC<LegalPageProps> = ({
   return (
     <main className="min-h-screen pt-32 pb-16">
       <div className="px-4 md:px-0 max-w-3xl mx-auto">
-        {/* Hero Section */}
+        
         <div className="relative max-w-2xl mx-auto flex flex-col items-center gap-6 text-center mb-16">
           <h1 className="font-semibold text-4xl md:text-5xl text-foreground">
             {title}
@@ -42,7 +42,6 @@ const LegalPage: React.FC<LegalPageProps> = ({
           />
         </div>
 
-        {/* Legal Content */}
         <p className="text-sm text-muted-foreground italic mb-8" suppressHydrationWarning>
           Dernière mise à jour : {new Date(lastUpdated).toLocaleDateString()}
         </p>
@@ -51,7 +50,6 @@ const LegalPage: React.FC<LegalPageProps> = ({
           {content}
         </div>
 
-        {/* Contact Section */}
         <div className="mt-16 p-6 border rounded-lg bg-card">
           <h2 className="text-xl font-semibold text-foreground mb-4">
             Une question à propos de nos conditions ?
@@ -68,7 +66,6 @@ const LegalPage: React.FC<LegalPageProps> = ({
           </Link>
         </div>
 
-        {/* Links to other legal pages */}
         <nav className="mt-8 flex flex-wrap gap-4 text-sm text-muted-foreground">
           <Link href={Routes.legals.company} className="hover:text-foreground transition-colors">
             Détails de l&apos;entreprise

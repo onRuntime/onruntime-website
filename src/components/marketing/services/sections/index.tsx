@@ -45,7 +45,7 @@ export const ValuePropositionSection = () => (
 );
 
 const technologies = [
-  // Core Web Technologies
+  
   "React",
   "Next.js",
   "Nuxt",
@@ -54,7 +54,6 @@ const technologies = [
   "TailwindCSS",
   "Sass",
 
-  // Backend
   "Node.js",
   "Python",
   "Django",
@@ -64,7 +63,6 @@ const technologies = [
   "Express",
   "Flask",
 
-  // CMS & E-commerce
   "WordPress",
   "Shopify",
   "Webflow",
@@ -73,7 +71,6 @@ const technologies = [
   "Strapi",
   "WooCommerce",
 
-  // Infrastructure & Data
   "AWS",
   "Google Cloud",
   "Azure",
@@ -105,15 +102,14 @@ const TechnologyList = () => (
 export const TechnologiesSection = () => (
   <div className="relative py-10 md:py-8">
     <div className="w-full overflow-hidden relative">
-      {/* Gradient overlay left */}
+      
       <div className="absolute left-0 top-0 w-32 h-full bg-gradient-to-r from-muted to-transparent z-10" />
 
-      {/* Gradient overlay right */}
       <div className="absolute right-0 top-0 w-32 h-full bg-gradient-to-l from-muted to-transparent z-10" />
 
       <div className="flex flex-col gap-2">
         {" "}
-        {/* Added gap-12 for spacing between rows */}
+        
         <VelocityScroll
           defaultVelocity={1}
           numRows={1}

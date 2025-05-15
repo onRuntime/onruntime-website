@@ -11,7 +11,6 @@ import { ArrowRight, LucideIcon } from "lucide-react";
 import React from "react";
 import Link from "next/link";
 
-// Interface pour les éléments affichés dans le menu 
 interface NavigationService {
   title: string;
   description: string;
@@ -26,7 +25,7 @@ interface NavigationService {
 }
 
 const NavigationServices: React.FC = () => {
-  // Convertir les données de service dans le format adapté à la navigation
+  
   const navServices: NavigationService[] = Services.map(service => ({
     title: service.name,
     description: service.description,
@@ -91,7 +90,7 @@ const NavigationServices: React.FC = () => {
                 </p>
                 
                 <div className="grid gap-1">
-                  {// service.subServices?.slice(0, 3)
+                  {
                   service.subServices?.map((subService) => (
                     <Link 
                       key={subService.title} 
@@ -101,15 +100,7 @@ const NavigationServices: React.FC = () => {
                       {subService.title}
                     </Link>
                   ))}
-                  {/* {service.subServices && service.subServices.length > 3 && (
-                    <Link 
-                      href={service.route}
-                      className="text-xs text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1"
-                    >
-                      Voir plus
-                      <ArrowRight className="h-2.5 w-2.5" />
-                    </Link>
-                  )} */}
+                  
                 </div>
               </ListItem>
             ))}
