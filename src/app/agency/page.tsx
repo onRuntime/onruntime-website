@@ -17,7 +17,7 @@ export const metadata = constructMetadata({
 
 export default function AgencyLandingPage() {
   
-  const majorAgencies = getMajorAgencies();
+  const majorAgencies = getMajorAgencies(10);
   
   return (
     <main className="min-h-screen pt-32 pb-16">
