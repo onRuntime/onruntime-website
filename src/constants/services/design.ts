@@ -28,7 +28,6 @@ import {
 import { ServiceBenefit, ServiceCategoryData, ServiceCategory, ServiceProcessStep } from "@/types/service";
 import Routes from "@/constants/routes";
 
-// Bénéfices pour la page de catégorie
 const designBenefits: ServiceBenefit[] = [
   {
     title: "Design UI/UX centré utilisateur",
@@ -52,7 +51,6 @@ const designBenefits: ServiceBenefit[] = [
   }
 ];
 
-// Processus pour la page de catégorie
 const designProcessList: ServiceProcessStep[] = [
   {
     title: "Analyse des besoins",

@@ -12,20 +12,16 @@ const Donations: React.FC = () => {
   const [isProcessing, setIsProcessing] = useState(false);
 
   const handleDonation = async () => {
-    // Dans une implémentation réelle, vous initieriez ici la session Stripe
-    // et redirigeriez l'utilisateur vers la page de paiement
-    
+
     setIsProcessing(true);
-    
-    // Simuler un traitement
+
     setTimeout(() => {
       setIsProcessing(false);
       toast({
         title: "Paiement simulé",
         description: `Votre don de ${selectedAmount || customAmount}€ a été traité avec succès. Dans une implémentation réelle, vous seriez redirigé vers Stripe.`,
       });
-      
-      // Réinitialiser le formulaire
+
       setSelectedAmount(null);
       setCustomAmount("");
     }, 1500);

@@ -8,7 +8,7 @@ interface FranceMapProps {
 }
 
 const FranceMap: React.FC<FranceMapProps> = ({ cities }) => {
-  // Coordonnées SVG pour les principales villes
+  
   const cityCoordinates = {
     paris: { x: 245, y: 115, label: "Paris" },
     marseille: { x: 280, y: 340, label: "Marseille" },
@@ -31,7 +31,7 @@ const FranceMap: React.FC<FranceMapProps> = ({ cities }) => {
         xmlns="http://www.w3.org/2000/svg"
         className="w-full h-full"
       >
-        {/* Contour de la France */}
+        
         <path
           d="M175,40 C160,45 145,60 135,75 C125,90 120,110 110,125 C100,140 85,155 75,175 C65,195 60,220 50,240 C40,260 25,280 20,305 C15,330 15,355 20,380 C25,405 35,425 50,445 C65,465 85,480 105,490 C125,500 150,505 175,505 C200,505 225,500 245,490 C265,480 285,465 300,445 C315,425 325,405 330,380 C335,355 340,330 345,305 C350,280 360,260 370,240 C380,220 390,200 395,175 C400,150 400,125 395,100 C390,75 380,50 365,35 C350,20 330,10 305,5 C280,0 255,5 230,15 C205,25 190,35 175,40Z"
           stroke="hsl(var(--border))"
@@ -39,7 +39,6 @@ const FranceMap: React.FC<FranceMapProps> = ({ cities }) => {
           fill="hsl(var(--muted))"
         />
 
-        {/* Points pour les villes */}
         {cities.map(city => {
           const coords = cityCoordinates[city as keyof typeof cityCoordinates];
           if (!coords) return null;
@@ -68,7 +67,6 @@ const FranceMap: React.FC<FranceMapProps> = ({ cities }) => {
           );
         })}
 
-        {/* Texte légende */}
         <text
           x="30"
           y="30"

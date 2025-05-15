@@ -1,4 +1,4 @@
-// src/constants/cities.ts
+
 import { City } from "@/types/city";
 import Routes from "@/constants/routes";
 

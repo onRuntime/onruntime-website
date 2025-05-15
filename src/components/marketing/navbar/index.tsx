@@ -12,7 +12,6 @@ import Navigation from "./navigation";
 import { ChevronDown, Menu } from "lucide-react";   
 import { cn } from "@/lib/utils";
 
-// Define types for navigation items
 interface SubNavItem {
   title: string;
   path: string;
@@ -33,16 +32,13 @@ interface NavItem {
 const Navbar: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [expandedSection, setExpandedSection] = useState<string | null>(null);
-  // Create a ref for the navbar
+  
   const navRef = useRef<HTMLDivElement>(null);
 
-  // Create a state to track the width manually since useResizeObserver has type issues with React 19
   const [navWidth, setNavWidth] = useState<number | undefined>(undefined);
 
-  // Get major agencies for the dropdown menu
   const majorAgencies = getMajorAgencies(5);
-  
-  // Dynamically create navigation items
+
   const navItems: NavItem[] = [
     {
       title: "Nos services",
@@ -84,11 +80,9 @@ const Navbar: React.FC = () => {
     },
   ];
 
-  // Set up our own resize observer
   useEffect(() => {
     if (!navRef.current) return;
 
-    // Create ResizeObserver instance
     const resizeObserver = new ResizeObserver((entries) => {
       for (const entry of entries) {
         const { width } = entry.contentRect;
@@ -96,16 +90,13 @@ const Navbar: React.FC = () => {
       }
     });
 
-    // Start observing
     resizeObserver.observe(navRef.current);
 
-    // Clean up
     return () => {
       resizeObserver.disconnect();
     };
   }, []);
 
-  // Close the mobile menu when screen size changes to desktop
   useEffect(() => {
     if (navWidth && navWidth >= 768 && mobileMenuOpen) {
       setMobileMenuOpen(false);
@@ -137,7 +128,7 @@ const Navbar: React.FC = () => {
           "flex flex-col bg-background/50 rounded-lg shadow-xs backdrop-blur-2xl transition-all duration-300"
         }
       >
-        {/* Main navigation bar */}
+        
         <div className="flex justify-between items-center p-2.5">
           <Link href={Routes.landing.visitor} onClick={closeMenu}>
             <OnRuntimeWordMark className="h-6" height={24} />
@@ -165,7 +156,6 @@ const Navbar: React.FC = () => {
           </div>
         </div>
 
-        {/* Mobile navigation menu */}
         {mobileMenuOpen && (
           <div className="px-3 flex flex-col space-y-4 md:hidden max-h-[calc(100vh-100px)] overflow-y-auto pb-4">
             {navItems.map((item) => (

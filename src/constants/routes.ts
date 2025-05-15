@@ -1,4 +1,4 @@
-// Ajout des routes pour les pages d'agence dans src/constants/routes.ts
+
 
 const Routes = {
   unknown: "#",
@@ -12,8 +12,7 @@ const Routes = {
   contact: "/contact",
   services: "/services",
   projects: "/projects",
-  
-  // Nouvelles routes pour les agences
+
   agency: {
     root: "/agency",
     city: (id: string) => `/agency/${id}`,

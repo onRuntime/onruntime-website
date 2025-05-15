@@ -2,7 +2,6 @@ import React from 'react';
 import ProcessTimeline from '@/components/marketing/services/process-timeline';
 import { Agency } from '@/types/agency';
 
-// Define standard process steps that will be used for all agencies
 const defaultProcessSteps = [
   { 
     title: "Analyse des besoins",
@@ -41,7 +40,7 @@ interface OurProcessProps {
 }
 
 const OurProcess: React.FC<OurProcessProps> = ({ agency }) => {
-  // Use the standard process steps for all agencies
+  
   const processSteps = defaultProcessSteps;
 
   return (

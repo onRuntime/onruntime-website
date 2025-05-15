@@ -21,11 +21,10 @@ export async function generateMetadata({
 }: {
   params: Promise<{ city: string }>;
 }): Promise<Metadata> {
-  // Get city ID from params
+  
   const { city } = await params;
   const cityLower = city.toLowerCase();
-  
-  // Find agency data
+
   const agency = getAgencyById(cityLower);
   
   if (!agency) {
@@ -45,16 +44,13 @@ export async function generateMetadata({
 export default async function CityPage({ params }: AgencyPageProps) {
   const { city } = await params;
   const cityLower = city.toLowerCase();
-  
-  // Get agency data
+
   const agency = getAgencyById(cityLower);
-  
-  // Check if agency exists in our data
+
   if (!agency) {
     notFound();
   }
-  
-  // Préparer les FAQs pour le schéma JSON-LD
+
   const faqItems = [
     {
       questionName: `Comment choisir la bonne agence web à ${agency.name} ?`,
@@ -76,7 +72,7 @@ export default async function CityPage({ params }: AgencyPageProps) {
   
   return (
     <main className="min-h-screen pt-32 pb-16">
-      {/* Add JSON-LD schemas for SEO */}
+      
       <LocalBusinessSchema 
         type="ProfessionalService"
         id={`https://onruntime.com/agency/${agency.id}#service`}
@@ -109,8 +105,7 @@ export default async function CityPage({ params }: AgencyPageProps) {
       <div className="px-4 md:px-0 max-w-5xl mx-auto space-y-24">
         <CityHeroSection agency={agency} />
         <LocalExpertise agency={agency} />
-        
-        {/* Section Défis Numériques Locaux */}
+
         <div className="space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
@@ -175,8 +170,7 @@ export default async function CityPage({ params }: AgencyPageProps) {
         </div>
         
         <LocalPortfolio agency={agency} />
-        
-        {/* Section FAQ - Transformée en questions réelles des utilisateurs */}
+
         <div className="space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
@@ -196,8 +190,7 @@ export default async function CityPage({ params }: AgencyPageProps) {
             ))}
           </div>
         </div>
-        
-        {/* Témoignages clients */}
+
         {agency.testimonials && agency.testimonials.length > 0 && (
           <div className="space-y-8">
             <div className="text-center">
@@ -241,9 +234,8 @@ export default async function CityPage({ params }: AgencyPageProps) {
   );
 }
 
-// Generate pages for available agencies
 export async function generateStaticParams() {
-  // Import all agencies and map to params
+  
   const { default: agencies } = await import('@/constants/agencies');
   
   return agencies.map((agency) => ({

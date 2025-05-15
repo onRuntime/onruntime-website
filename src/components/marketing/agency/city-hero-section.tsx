@@ -12,17 +12,16 @@ interface CityHeroSectionProps {
 }
 
 const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
-  // Use accent color from agency data (default to blue if not specified)
-  const accent = agency.accentColor || "blue";
   
-  // Use provided hero title/description or fallback to defaults
+  const accent = agency.accentColor || "blue";
+
   const heroTitle = agency.heroTitle || `Développement web à ${agency.name}`;
   const heroDescription = agency.heroDescription || agency.description;
 
   return (
     <div className="relative overflow-hidden rounded-xl border border-border bg-card mb-24">
       <div className="grid md:grid-cols-2 gap-6">
-        {/* Left content column */}
+        
         <div className="p-8 md:p-12 flex flex-col items-start gap-6 relative z-10">
           <h1 className="font-medium text-4xl md:text-5xl text-foreground">
             {heroTitle}
@@ -48,10 +47,9 @@ const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
           </Link>
         </div>
 
-        {/* Right visual column with abstract geometric elements */}
         <div className="relative hidden md:flex items-center justify-center p-8 overflow-hidden">
           <div className="relative z-10 w-full max-w-xs aspect-square">
-            {/* Central icon with city's primary focus */}
+            
             {agency.primaryStat && agency.primaryStat.icon && (
               <div className={`absolute inset-0 rounded-full bg-onruntime-${accent}/5 backdrop-blur-sm border border-onruntime-${accent}/10 flex items-center justify-center`}>
                 {React.createElement(
@@ -60,8 +58,7 @@ const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
                 )}
               </div>
             )}
-            
-            {/* City name with key focus */}
+
             <div 
               className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-background/80 backdrop-blur-sm p-4 rounded-lg border border-border shadow-sm"
               style={{ maxWidth: '160px' }}
@@ -74,7 +71,6 @@ const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
               )}
             </div>
 
-            {/* Decorative elements */}
             <div className={`absolute right-0 top-0 w-20 h-20 rounded-full bg-onruntime-${accent}/10 backdrop-blur-sm border border-onruntime-${accent}/20`}></div>
             <div className={`absolute left-12 bottom-12 w-16 h-16 rounded-full bg-onruntime-${accent}/15 backdrop-blur-sm border border-onruntime-${accent}/30`}></div>
             <div className={`absolute left-0 top-1/4 w-12 h-12 rounded-full bg-onruntime-${accent}/20 backdrop-blur-sm border border-onruntime-${accent}/40`}></div>
@@ -82,7 +78,6 @@ const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
         </div>
       </div>
 
-      {/* Background gradients */}
       <div className={`absolute inset-0 z-0 opacity-10 overflow-hidden`}>
         <div className={`absolute -right-20 -top-20 w-[400px] h-[400px] rounded-full bg-onruntime-${accent} blur-3xl`}></div>
         <div className={`absolute -left-20 -bottom-20 w-[300px] h-[300px] rounded-full bg-onruntime-${accent} blur-3xl`}></div>

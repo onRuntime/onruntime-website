@@ -12,10 +12,9 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 const NavigationAgencies: React.FC = () => {
-  // Get major agencies to feature in navigation
-  const majorAgencies = getMajorAgencies();
   
-  // Group agencies by region for better organization
+  const majorAgencies = getMajorAgencies();
+
   const agenciesByRegion = majorAgencies.reduce((acc, agency) => {
     if (!acc[agency.region]) {
       acc[agency.region] = [];
@@ -30,7 +29,7 @@ const NavigationAgencies: React.FC = () => {
 
       <NavigationMenuContent>
         <div className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-[200px_1fr] lg:w-[800px] lg:grid-cols-[250px_1fr]">
-          {/* Left sidebar */}
+          
           <NavigationMenuLink asChild className="block">
             <Link 
               href={Routes.agency.root}
@@ -55,10 +54,9 @@ const NavigationAgencies: React.FC = () => {
               </div>
             </Link>
           </NavigationMenuLink>
-          
-          {/* Regional listing */}
+
           <div className="grid gap-6">
-            {/* Highlight Major Agencies */}
+            
             <div className="space-y-3">
               <h4 className="text-sm font-medium">Principales agences</h4>
               <div className="grid grid-cols-2 gap-2">
@@ -77,8 +75,7 @@ const NavigationAgencies: React.FC = () => {
                 ))}
               </div>
             </div>
-            
-            {/* All regions and cities - shown on large screens */}
+
             <div className="hidden lg:block">
               <h4 className="text-sm font-medium mb-2">Toutes nos agences par région</h4>
               <div className="grid grid-cols-2 gap-3">
@@ -98,8 +95,7 @@ const NavigationAgencies: React.FC = () => {
                 ))}
               </div>
             </div>
-            
-            {/* CTA */}
+
             <div className="text-xs text-muted-foreground hover:text-accent-foreground pt-2 border-t">
               <Link href={Routes.agency.root} className="flex justify-between items-center">
                 <span>Voir toutes nos agences</span>

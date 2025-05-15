@@ -8,7 +8,7 @@ interface LocalTestimonialsProps {
 }
 
 const LocalTestimonials: React.FC<LocalTestimonialsProps> = ({ agency }) => {
-  // Use accent color from agency data or default to blue
+  
   const accent = agency.accentColor || "blue";
 
   return (

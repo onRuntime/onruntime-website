@@ -13,18 +13,15 @@ interface LocalPortfolioProps {
 }
 
 const LocalPortfolio: React.FC<LocalPortfolioProps> = ({ agency }) => {
-  // Au lieu d'utiliser des projets fictifs locaux, utilisons les projets réels
-  // Les projets mis en avant - on prend d'abord les featured s'il y en a
+
   const featuredProjects = Projects.filter(project => 
     project.tags.includes(Tag.FEATURED)
   ).slice(0, 1);
-  
-  // Puis 1-2 autres projets pour compléter
+
   const otherProjects = Projects.filter(project => 
     !project.tags.includes(Tag.FEATURED)
   ).slice(0, 2 - featuredProjects.length);
-  
-  // Combine pour affichage
+
   const displayProjects = [...featuredProjects, ...otherProjects].slice(0, 2);
 
   return (
@@ -53,8 +50,7 @@ const LocalPortfolio: React.FC<LocalPortfolioProps> = ({ agency }) => {
             <div className="p-6 flex-grow flex flex-col">
               <h3 className="text-xl font-medium mb-2">{project.name}</h3>
               <p className="text-sm text-muted-foreground mb-4">{project.description}</p>
-              
-              {/* Explication de la pertinence pour le marché local */}
+
               <div className="mb-4 p-3 bg-muted/50 rounded-md">
                 <p className="text-xs font-medium mb-1">Application au marché {agency.region}</p>
                 <p className="text-sm text-muted-foreground">
@@ -86,7 +82,6 @@ const LocalPortfolio: React.FC<LocalPortfolioProps> = ({ agency }) => {
         ))}
       </div>
 
-      {/* Appel à l'action adaptable au marché local */}
       <div className="p-6 border rounded-lg bg-card text-center">
         <p className="text-lg font-medium text-foreground mb-2">
           Un projet digital pour votre entreprise à {agency.name} ?

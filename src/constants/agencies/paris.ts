@@ -64,8 +64,7 @@ const parisAgency: Agency = {
       icon: Globe
     }
   ],
-  
-  // Featured services
+
   focusedServices: [
     {
       name: "Applications SaaS",

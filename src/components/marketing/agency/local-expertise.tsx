@@ -6,7 +6,7 @@ interface LocalExpertiseProps {
 }
 
 const LocalExpertise: React.FC<LocalExpertiseProps> = ({ agency }) => {
-  // Use accent color from agency data (default to blue if not specified)
+  
   const accent = agency.accentColor || "blue";
 
   return (
@@ -51,8 +51,7 @@ const LocalExpertise: React.FC<LocalExpertiseProps> = ({ agency }) => {
       <div className="p-6 border rounded-lg bg-card">
         <h3 className="text-xl font-medium text-foreground mb-4">Notre approche pour les projets à {agency.name}</h3>
         <p className="text-muted-foreground">{agency.whyChooseUs}</p>
-        
-        {/* Ajout d'une liste de bénéfices clairs */}
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
           {agency.benefits.map((benefit, index) => (
             <div key={index} className="flex items-start gap-3">

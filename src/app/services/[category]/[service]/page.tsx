@@ -8,7 +8,6 @@ import FAQSection from '@/components/marketing/services/faq-section';
 import { ServiceCategoryData, SubService } from '@/types/service';
 import { constructMetadata } from '@/lib/utils/metadata';
 
-// Types pour les paramètres
 type Props = {
   params: Promise<{
     category: string;
@@ -16,7 +15,6 @@ type Props = {
   }>;
 };
 
-// Fonction pour trouver un service et son sous-service
 function findService(category: string, service: string): { categoryData: ServiceCategoryData | undefined, subService: SubService | undefined } {
   const categoryData = Services.find(s => s.id === category);
   const subService = categoryData?.subServices.find(sub => sub.id === service);
@@ -24,7 +22,6 @@ function findService(category: string, service: string): { categoryData: Service
   return { categoryData, subService };
 }
 
-// Génération des métadonnées
 export async function generateMetadata({ params }: Props) {
   const { category, service } = await params;
   const { categoryData, subService } = findService(category, service);
@@ -43,12 +40,10 @@ export async function generateMetadata({ params }: Props) {
   });
 }
 
-// Page dynamique pour les sous-services
 export default async function ServicePage({ params }: Props) {
   const { category, service } = await params;
   const { categoryData, subService } = findService(category, service);
-  
-  // Si la catégorie ou le sous-service n'existent pas, afficher la page 404
+
   if (!categoryData || !subService) {
     notFound();
   }
@@ -60,7 +55,7 @@ export default async function ServicePage({ params }: Props) {
       heroTitle={subService.heroTitle || subService.name}
       heroDescription={subService.heroDescription || subService.description}
     >
-      {/* Caractéristiques principales */}
+      
       {subService.features && subService.features.length > 0 && (
         <FeatureSection
           title={`Excellence en ${subService.name.toLowerCase()}`}
@@ -69,7 +64,6 @@ export default async function ServicePage({ params }: Props) {
         />
       )}
 
-      {/* Avantages du service */}
       {subService.benefits && subService.benefits.length > 0 && (
         <FeatureSection
           title={`${subService.name} professionnel`}
@@ -79,7 +73,6 @@ export default async function ServicePage({ params }: Props) {
         />
       )}
 
-      {/* Témoignages */}
       {subService.testimonials && subService.testimonials.length > 0 && (
         <TestimonialsSection
           title="Ils nous font confiance"
@@ -88,7 +81,6 @@ export default async function ServicePage({ params }: Props) {
         />
       )}
 
-      {/* FAQ */}
       {subService.faqItems && subService.faqItems.length > 0 && (
         <FAQSection
           title="Questions fréquentes"
@@ -97,7 +89,6 @@ export default async function ServicePage({ params }: Props) {
         />
       )}
 
-      {/* Services complémentaires */}
       {subService.complementaryServices && subService.complementaryServices.length > 0 && (
         <FeatureSection
           title="Services complémentaires"
@@ -109,7 +100,6 @@ export default async function ServicePage({ params }: Props) {
   );
 }
 
-// Pré-génération des routes statiques
 export async function generateStaticParams() {
   const paths: { category: string; service: string }[] = [];
   

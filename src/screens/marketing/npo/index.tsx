@@ -24,7 +24,6 @@ import { roleToDisplay, TeamRole } from "@/types/team-member";
 import { TechnologiesSection } from "@/components/marketing/services/sections";
 import Donations from "@/components/marketing/npo/donations";
 
-// Filtrer uniquement les 3 co-fondateurs
 const coFounders = Object.entries(TeamMembers)
   .filter(([, member]) => member.roles.includes(TeamRole.CO_FOUNDER))
   .map(([id, member]) => ({
@@ -59,7 +58,6 @@ const npoValues = [
   },
 ];
 
-// Histoire de l'association (timeline)
 const historyTimeline = [
   {
     year: "2015",
@@ -100,7 +98,7 @@ const NPOPage: React.FC = () => {
 
       <main className="min-h-screen pt-32 pb-16 w-full">
         <div className="px-4 md:px-0 max-w-5xl mx-auto space-y-32 w-full">
-          {/* Hero Section */}
+          
           <div className="relative max-w-2xl mx-auto flex flex-col items-center gap-6 text-center mb-24">
             <h1 className="font-semibold text-4xl md:text-5xl text-foreground">
               L&apos;Association onRuntime Studio
@@ -131,7 +129,6 @@ const NPOPage: React.FC = () => {
             />
           </div>
 
-          {/* About Section with Timeline */}
           <section className="mb-24">
             <div className="text-center max-w-2xl mx-auto mb-12">
               <h2 className="text-3xl font-medium text-foreground mb-4">
@@ -147,9 +144,8 @@ const NPOPage: React.FC = () => {
               </p>
             </div>
 
-            {/* Timeline */}
             <div className="relative">
-              {/* Ligne verticale centrale */}
+              
               <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-border"></div>
 
               <div className="space-y-12">
@@ -162,10 +158,8 @@ const NPOPage: React.FC = () => {
                   >
                     <div className="w-1/2"></div>
 
-                    {/* Cercle central */}
                     <div className="absolute left-1/2 transform -translate-x-1/2 bg-background border-2 border-onruntime-blue rounded-full h-5 w-5 z-10"></div>
 
-                    {/* Contenu */}
                     <div
                       className={`w-1/2 p-4 ${
                         index % 2 === 0 ? "pr-12 text-right" : "pl-12"
@@ -187,7 +181,6 @@ const NPOPage: React.FC = () => {
             </div>
           </section>
 
-          {/* Team Section */}
           <section className="mb-24" id="team">
             <div className="text-center max-w-2xl mx-auto mb-12">
               <h2 className="text-3xl font-medium text-foreground mb-4">
@@ -261,7 +254,6 @@ const NPOPage: React.FC = () => {
             </div>
           </section>
 
-          {/* Values Section */}
           <section className="mb-24">
             <div className="text-center max-w-2xl mx-auto mb-12">
               <h2 className="text-3xl font-medium text-foreground mb-4">
@@ -293,7 +285,6 @@ const NPOPage: React.FC = () => {
             </div>
           </section>
 
-          {/* Technologies Section */}
           <section className="mb-24">
             <div className="text-center max-w-2xl mx-auto mb-12">
               <h2 className="text-3xl font-medium text-foreground mb-4">
@@ -308,7 +299,6 @@ const NPOPage: React.FC = () => {
             <TechnologiesSection />
           </section>
 
-          {/* Membership Section */}
           <section className="mb-24" id="adhesion">
             <div className="text-center max-w-2xl mx-auto mb-12">
               <h2 className="text-3xl font-medium text-foreground mb-4">
@@ -395,7 +385,6 @@ const NPOPage: React.FC = () => {
             </div>
           </section>
 
-          {/* Programme et initiatives */}
           <section className="mb-24" id="initiatives">
             <div className="text-center max-w-2xl mx-auto mb-12">
               <h2 className="text-3xl font-medium text-foreground mb-4">
@@ -489,7 +478,6 @@ const NPOPage: React.FC = () => {
             </div>
           </section>
 
-          {/* Discord Section */}
           <section className="mb-4">
             <div className="relative overflow-hidden rounded-lg border bg-card p-8">
               <div className="max-w-2xl">

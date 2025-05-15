@@ -24,7 +24,6 @@ import {
 import { ServiceBenefit, ServiceCategoryData, ServiceCategory, ServiceProcessStep } from "@/types/service";
 import Routes from "@/constants/routes";
 
-// Bénéfices pour la page de catégorie
 const integrationBenefits: ServiceBenefit[] = [
   {
     title: "Code propre et maintenable",
@@ -48,7 +47,6 @@ const integrationBenefits: ServiceBenefit[] = [
   }
 ];
 
-// Processus pour la page de catégorie
 const integrationProcessList: ServiceProcessStep[] = [
   {
     title: "Analyse des maquettes",

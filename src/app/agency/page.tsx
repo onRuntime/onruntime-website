@@ -16,7 +16,7 @@ export const metadata = constructMetadata({
 });
 
 export default function AgencyLandingPage() {
-  // Get major agencies to feature
+  
   const majorAgencies = getMajorAgencies();
   
   return (
@@ -27,7 +27,7 @@ export default function AgencyLandingPage() {
       />
       
       <div className="px-4 md:px-0 max-w-5xl mx-auto space-y-24">
-        {/* Hero Section */}
+        
         <div className="relative flex flex-col lg:flex-row gap-12 items-center">
           <div className="flex-1 flex flex-col items-start gap-6">
             <h1 className="font-medium text-4xl md:text-5xl text-foreground">
@@ -70,7 +70,6 @@ export default function AgencyLandingPage() {
           </div>
         </div>
 
-        {/* Expertise Nationale et Locale */}
         <div id="expertise-locale" className="space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
@@ -114,7 +113,6 @@ export default function AgencyLandingPage() {
           </div>
         </div>
 
-        {/* Cities Grid Section */}
         <div className="space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
@@ -157,7 +155,6 @@ export default function AgencyLandingPage() {
           </div>
         </div>
 
-        {/* Avantages de notre approche */}
         <div className="space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
@@ -199,7 +196,6 @@ export default function AgencyLandingPage() {
           </div>
         </div>
 
-        {/* Services Section (Brief) */}
         <div className="space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
@@ -258,7 +254,6 @@ export default function AgencyLandingPage() {
           </div>
         </div>
 
-        {/* CTA Section */}
         <div className="relative overflow-hidden rounded-lg border bg-card p-12">
           <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-onruntime-blue/10 to-transparent" />
           <div className="max-w-2xl">

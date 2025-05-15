@@ -1,11 +1,10 @@
 import { Metadata } from "next";
 
-// Configuration du site
 export const siteConfig = {
   name: "onRuntime Studio",
   description: "Agence digitale spécialisée en développement web, mobile et design UI/UX. Notre équipe d'experts transforme vos idées en solutions digitales performantes.",
   url: process.env.NEXT_PUBLIC_APP_URL || "https://onruntime.com",
-  ogImage: "/og.jpg", // Image OG par défaut (fallback)
+  ogImage: "/og.jpg", 
   links: {
     discord: "https://discord.gg/ucX9c5yXmX",
     instagram: "https://www.instagram.com/onruntime/",
@@ -15,12 +14,8 @@ export const siteConfig = {
   },
 };
 
-// Types possibles d'images OG
 export type OGImageType = 'default' | 'project' | 'service' | 'blog' | 'team' | 'legal';
 
-/**
- * Génère l'URL pour l'image OG avec les paramètres fournis
- */
 export function getOGImageUrl({
   title,
   description,
@@ -39,9 +34,6 @@ export function getOGImageUrl({
   return `${siteConfig.url}/api/og?${params.toString()}`;
 }
 
-/**
- * Construit l'ensemble des métadonnées pour une page
- */
 export function constructMetadata({
   title = siteConfig.name,
   description = siteConfig.description,
@@ -63,8 +55,7 @@ export function constructMetadata({
   const formattedTitle = title === siteConfig.name 
     ? title 
     : `${title} | ${siteConfig.name}`;
-  
-  // Génère l'URL de l'image OG si elle n'est pas fournie explicitement
+
   const finalOgImage = ogImage || getOGImageUrl({
     title,
     description,

@@ -25,10 +25,10 @@ const ServiceOverviewPage: React.FC<ServiceOverviewPageProps> = ({
   return (
     <main className="min-h-screen pt-32 pb-16 w-full">
       <div className="px-4 md:px-0 max-w-5xl mx-auto">
-        {/* Hero Section */}
+        
         <div className="relative overflow-hidden rounded-xl border border-border bg-card mb-24">
           <div className="grid md:grid-cols-2 gap-6">
-            {/* Left content column */}
+            
             <div className="p-8 md:p-12 flex flex-col items-start gap-6 relative z-10">
               <h1 className="font-medium text-4xl md:text-5xl text-foreground">
                 {service.name}
@@ -46,7 +46,6 @@ const ServiceOverviewPage: React.FC<ServiceOverviewPageProps> = ({
               </Link>
             </div>
 
-            {/* Right visual column */}
             <div className="relative hidden md:flex items-center justify-center p-8 overflow-hidden">
               <div className="relative z-10 w-full max-w-xs aspect-square">
                 <div className={`absolute inset-0 rounded-full bg-${accentColor}/5 backdrop-blur-sm border border-${accentColor}/10 flex items-center justify-center`}>
