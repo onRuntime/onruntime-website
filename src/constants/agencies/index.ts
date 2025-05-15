@@ -2,15 +2,24 @@
 import { Agency } from "@/types/agency";
 import parisAgency from "./paris";
 import rouenAgency from "./rouen";
-
 import lyonAgency from "./lyon";
+import marseilleAgency from "./marseille";
+import toulouseAgency from "./toulouse";
+import niceAgency from "./nice";
+import nantesAgency from "./nantes";
+import strasbourgAgency from "./strasbourg";
+import montpellierAgency from "./montpellier";
 
 const Agencies: Agency[] = [
   parisAgency,
   rouenAgency,
-  
+  marseilleAgency,
+  niceAgency,
+  nantesAgency,
+  strasbourgAgency,
+  montpellierAgency,
   lyonAgency,
-
+  toulouseAgency
 ];
 
 export default Agencies;
