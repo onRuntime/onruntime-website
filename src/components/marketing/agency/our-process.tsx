@@ -1,13 +1,12 @@
-'use client';
-
 import React from 'react';
 import ProcessTimeline from '@/components/marketing/services/process-timeline';
+import { Agency } from '@/types/agency';
 
-// Define steps for process
-const processSteps = [
+// Define standard process steps that will be used for all agencies
+const defaultProcessSteps = [
   { 
     title: "Analyse des besoins",
-    description: "Compréhension approfondie de vos objectifs commerciaux, de votre public cible et de vos exigences techniques.",
+    description: "Compréhension approfondie de vos objectifs commerciaux, de votre public cible et de vos exigences techniques spécifiques à votre région.",
     services: ["Consultation", "Stratégie"]
   },
   { 
@@ -32,25 +31,28 @@ const processSteps = [
   },
   { 
     title: "Support continu",
-    description: "Accompagnement post-lancement pour assurer le succès à long terme de votre solution.",
+    description: "Accompagnement post-lancement pour assurer le succès à long terme de votre solution digitale.",
     services: ["Maintenance", "Évolution"]
   }
 ];
 
 interface OurProcessProps {
-  city: string;
+  agency: Agency;
 }
 
-const OurProcess: React.FC<OurProcessProps> = ({ city }) => {
+const OurProcess: React.FC<OurProcessProps> = ({ agency }) => {
+  // Use the standard process steps for all agencies
+  const processSteps = defaultProcessSteps;
+
   return (
     <div className="space-y-8">
       <div className="text-center">
         <h2 className="text-3xl font-medium text-foreground mb-4">
-          Notre processus de travail à {city === 'paris' ? 'Paris' : 'Rouen'}
+          Notre processus de travail à {agency.name}
         </h2>
         <p className="text-muted-foreground max-w-3xl mx-auto">
           Une méthodologie éprouvée qui garantit des résultats exceptionnels pour nos clients
-          {city === 'paris' ? ' parisiens' : ' normands'}.
+          à {agency.name} et dans toute la région {agency.region}.
         </p>
       </div>
 

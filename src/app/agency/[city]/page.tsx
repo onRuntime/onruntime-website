@@ -7,21 +7,9 @@ import LocalExpertise from '@/components/marketing/agency/local-expertise';
 import OurProcess from '@/components/marketing/agency/our-process';
 import LocalPortfolio from '@/components/marketing/agency/local-portfolio';
 import ContactCTA from '@/components/marketing/agency/contact-cta';
-import LocalTestimonials from '@/components/marketing/agency/local-testimonials';
-
-// City data for SEO and content
-const cityData = {
-  paris: {
-    title: "Agence web à Paris | Développement sur mesure",
-    description: "Notre agence web à Paris offre des solutions de développement web et mobile sur mesure pour votre entreprise. Experts en design UI/UX et développement.",
-    metaDescription: "Votre partenaire digital à Paris pour le développement web, mobile et design UI/UX. Notre agence crée des solutions numériques innovantes adaptées à vos objectifs.",
-  },
-  rouen: {
-    title: "Agence digitale à Rouen | Web et Mobile",
-    description: "Agence digitale à Rouen spécialisée en développement web, mobile et design UI/UX. Solutions digitales sur mesure pour les entreprises normandes.",
-    metaDescription: "Votre partenaire digital à Rouen pour le développement web, mobile et design UI/UX. Notre agence accompagne les entreprises normandes dans leur transformation digitale.",
-  }
-};
+import { getAgencyById } from '@/constants/agencies';
+import { LocalBusinessSchema } from '@/components/json-ld/localbusiness-schema';
+import { BreadcrumbSchema } from '@/components/json-ld/breadcrumb-schema';
 
 type AgencyPageProps = {
   params: Promise<{ city: string }>;
@@ -32,53 +20,87 @@ export async function generateMetadata({
 }: {
   params: Promise<{ city: string }>;
 }): Promise<Metadata> {
-  // Get city data if valid, or default
+  // Get city ID from params
   const { city } = await params;
   const cityLower = city.toLowerCase();
-  const data = cityData[cityLower as keyof typeof cityData];
   
-  if (!data) {
+  // Find agency data
+  const agency = getAgencyById(cityLower);
+  
+  if (!agency) {
     return constructMetadata({
       title: "Agence non trouvée",
       description: "Cette agence n'existe pas.",
+      noIndex: true
     });
   }
 
   return constructMetadata({
-    title: data.title,
-    description: data.metaDescription,
+    title: agency.title,
+    description: agency.description,
   });
-}
-
-// Generate pages for supported cities
-export function generateStaticParams() {
-  return Object.keys(cityData).map((city) => ({
-    city: city,
-  }));
 }
 
 export default async function CityPage({ params }: AgencyPageProps) {
   const { city } = await params;
   const cityLower = city.toLowerCase();
   
-  // Check if city exists in our data
-  if (!(cityLower in cityData)) {
+  // Get agency data
+  const agency = getAgencyById(cityLower);
+  
+  // Check if agency exists in our data
+  if (!agency) {
     notFound();
   }
   
   return (
     <main className="min-h-screen pt-32 pb-16">
+      {/* Add JSON-LD schemas for SEO */}
+      <LocalBusinessSchema 
+        type="DigitalAgency"
+        id={`https://onruntime.com/agency/${agency.id}#localbusiness`}
+        description={agency.description}
+        geo={agency.geo}
+      />
+      
+      <BreadcrumbSchema 
+        itemListElements={[
+          {
+            position: 1,
+            name: "Accueil",
+            item: "https://onruntime.com/"
+          },
+          {
+            position: 2,
+            name: "Agences",
+            item: "https://onruntime.com/agency"
+          },
+          {
+            position: 3,
+            name: `Agence ${agency.name}`,
+            item: `https://onruntime.com/agency/${agency.id}`
+          }
+        ]}
+      />
+      
       <div className="px-4 md:px-0 max-w-5xl mx-auto space-y-24">
-        {/* Hero Section */}
-        <CityHeroSection city={cityLower} />
-        
-        {/* Other components */}
-        <LocalExpertise city={cityLower} />
-        <OurProcess city={cityLower} />
-        <LocalPortfolio city={cityLower} />
-        <LocalTestimonials city={cityLower} />
-        <ContactCTA city={cityLower} />
+        <CityHeroSection agency={agency} />
+        <LocalExpertise agency={agency} />
+        <OurProcess agency={agency} />
+        <LocalPortfolio agency={agency} />
+        {/* <LocalTestimonials agency={agency} />  */}
+        <ContactCTA agency={agency} />
       </div>
     </main>
   );
+}
+
+// Generate pages for available agencies
+export async function generateStaticParams() {
+  // Import all agencies and map to params
+  const { default: agencies } = await import('@/constants/agencies');
+  
+  return agencies.map((agency) => ({
+    city: agency.id,
+  }));
 }

@@ -7,21 +7,8 @@ import { ArrowRight, MapPin } from "lucide-react";
 import Routes from "@/constants/routes";
 import { constructMetadata } from '@/lib/utils/metadata';
 import FranceMap from '@/components/marketing/agency/france-map';
-
-// Liste des villes pour lesquelles nous avons des pages locales
-const cities = [
-  { name: "Paris", slug: "paris", population: "2,161,000", specialties: ["Fintech", "Fashion Tech", "AdTech"] },
-  { name: "Marseille", slug: "marseille", population: "870,000", specialties: ["Maritime Tech", "Logistique", "E-santé"] },
-  { name: "Lyon", slug: "lyon", population: "516,000", specialties: ["Cleantech", "Healthtech", "Industrie 4.0"] },
-  { name: "Toulouse", slug: "toulouse", population: "479,000", specialties: ["Aérospatiale", "IoT", "IA"] },
-  { name: "Nice", slug: "nice", population: "340,000", specialties: ["Smart City", "Tourisme Digital", "PropTech"] },
-  { name: "Nantes", slug: "nantes", population: "309,000", specialties: ["Green Tech", "E-commerce", "Digital Créatif"] },
-  { name: "Montpellier", slug: "montpellier", population: "290,000", specialties: ["MedTech", "AgriTech", "Gaming"] },
-  { name: "Strasbourg", slug: "strasbourg", population: "280,000", specialties: ["EdTech", "FinTech", "Solutions Transfrontalières"] },
-  { name: "Bordeaux", slug: "bordeaux", population: "257,000", specialties: ["WineTech", "Tourism Tech", "Mobilité"] },
-  { name: "Lille", slug: "lille", population: "232,000", specialties: ["Retail Tech", "Cybersécurité", "E-commerce"] },
-  { name: "Rouen", slug: "rouen", population: "111,000", specialties: ["Industrie Connectée", "Logistique Fluviale", "AgriTech"] }
-];
+import { getMajorAgencies } from '@/constants/agencies';
+import { OrganizationSchema } from '@/components/json-ld/organization-schema';
 
 export const metadata = constructMetadata({
   title: "Agence web en France | Développement sur mesure dans toutes les grandes villes",
@@ -29,8 +16,16 @@ export const metadata = constructMetadata({
 });
 
 export default function AgencyLandingPage() {
+  // Get major agencies to feature
+  const majorAgencies = getMajorAgencies();
+  
   return (
     <main className="min-h-screen pt-32 pb-16">
+      <OrganizationSchema 
+        type="DigitalAgency"
+        id="https://onruntime.com/agency#organization"
+      />
+      
       <div className="px-4 md:px-0 max-w-5xl mx-auto space-y-24">
         {/* Hero Section */}
         <div className="relative flex flex-col lg:flex-row gap-12 items-center">
@@ -70,7 +65,7 @@ export default function AgencyLandingPage() {
 
           <div className="flex-1 flex items-center justify-center">
             <div className="w-full max-w-md">
-              <FranceMap cities={cities.map(city => city.slug)} />
+              <FranceMap cities={majorAgencies.map(agency => agency.id)} />
             </div>
           </div>
         </div>
@@ -139,25 +134,25 @@ export default function AgencyLandingPage() {
           </div>
 
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {cities.map((city) => (
+            {majorAgencies.map((agency) => (
               <Link 
-                key={city.slug} 
-                href={`/agency/${city.slug}`}
+                key={agency.id} 
+                href={Routes.agency.city(agency.id)}
                 className="flex flex-col p-6 rounded-lg border bg-card hover:border-onruntime-blue transition-colors group"
               >
                 <h3 className="text-xl font-medium text-foreground mb-2 group-hover:text-onruntime-blue transition-colors">
-                  {city.name}
+                  {agency.name}
                 </h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Population: {city.population}
+                  Population: {agency.population.toLocaleString()}
                 </p>
                 <div className="flex flex-wrap gap-2 mt-auto">
-                  {city.specialties.map((specialty, index) => (
+                  {agency.strengths.slice(0, 3).map((strength, index) => (
                     <span 
                       key={index} 
                       className="inline-block text-xs px-2 py-1 rounded-full bg-muted"
                     >
-                      {specialty}
+                      {strength.title}
                     </span>
                   ))}
                 </div>
