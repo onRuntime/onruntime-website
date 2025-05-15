@@ -37,7 +37,9 @@ const Featured: React.FC = () => {
               <Button>Réserver une prestation</Button>
             </Link>
 
-            <Button variant={"outline"}>Voir notre travail</Button>
+            <Link href={Routes.projects}>
+              <Button variant={"outline"}>Voir notre travail</Button>
+            </Link>
           </div>
 
           <DotPattern
