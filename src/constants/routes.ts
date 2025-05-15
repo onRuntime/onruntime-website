@@ -12,6 +12,7 @@ const Routes = {
   contact: "/contact",
   services: "/services",
   projects: "/projects",
+  glossary: "/glossary",
 
   agency: {
     root: "/agency",
