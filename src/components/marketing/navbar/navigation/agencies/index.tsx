@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import Routes from "@/constants/routes";
 import { getMajorAgencies } from "@/constants/agencies";
-import { MapPin } from "lucide-react";
+import { ArrowRight, MapPin } from "lucide-react";
 import React from "react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
@@ -61,17 +61,18 @@ const NavigationAgencies: React.FC = () => {
               <h4 className="text-sm font-medium">Principales agences</h4>
               <div className="grid grid-cols-2 gap-2">
                 {majorAgencies.map(agency => (
-                  <Link
-                    key={agency.id}
-                    href={Routes.agency.city(agency.id)}
-                    className={cn(
-                      "flex items-center gap-2 rounded-md p-2 text-sm transition-colors",
-                      "hover:bg-accent hover:text-accent-foreground"
-                    )}
-                  >
-                    <MapPin className="h-4 w-4 text-onruntime-blue" />
-                    <div className="text-sm">{agency.name}</div>
-                  </Link>
+                  <NavigationMenuLink asChild key={agency.id}>
+                    <Link
+                      href={Routes.agency.city(agency.id)}
+                      className={cn(
+                        "flex items-center gap-2 rounded-md p-2 text-sm transition-colors",
+                        "hover:bg-accent hover:text-accent-foreground"
+                      )}
+                    >
+                      <MapPin className="h-4 w-4 text-onruntime-blue" />
+                      <div className="text-sm">{agency.name}</div>
+                    </Link>
+                  </NavigationMenuLink>
                 ))}
               </div>
             </div>
@@ -83,24 +84,30 @@ const NavigationAgencies: React.FC = () => {
                   <div key={region} className="space-y-2">
                     <h5 className="text-xs font-medium text-muted-foreground">{region}</h5>
                     {regionAgencies.slice(0, 3).map(agency => (
-                      <Link
-                        key={agency.id}
-                        href={Routes.agency.city(agency.id)}
-                        className="block text-xs hover:text-foreground transition-colors py-1"
-                      >
-                        {agency.name}
-                      </Link>
+                      <NavigationMenuLink asChild key={agency.id}>
+                        <Link
+                          href={Routes.agency.city(agency.id)}
+                          className="block text-xs hover:text-foreground transition-colors py-1"
+                        >
+                          {agency.name}
+                        </Link>
+                      </NavigationMenuLink>
                     ))}
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="text-xs text-muted-foreground hover:text-accent-foreground pt-2 border-t">
-              <Link href={Routes.agency.root} className="flex justify-between items-center">
-                <span>Voir toutes nos agences</span>
-                <MapPin className="h-3 w-3" />
-              </Link>
+            <div className="text-xs text-muted-foreground pt-2 border-t">
+              <NavigationMenuLink asChild>
+                <Link 
+                  href={Routes.agency.root} 
+                  className="flex justify-between items-center hover:text-accent-foreground transition-colors"
+                >
+                  <span>Voir toutes nos agences</span>
+                  <ArrowRight className="h-3 w-3" />
+                </Link>
+              </NavigationMenuLink>
             </div>
           </div>
         </div>
