@@ -56,11 +56,11 @@ const LocalPortfolio: React.FC<LocalPortfolioProps> = ({ agency }) => {
               
               {/* Explication de la pertinence pour le marché local */}
               <div className="mb-4 p-3 bg-muted/50 rounded-md">
-                <p className="text-xs font-medium mb-1">Pertinence pour {agency.name}:</p>
+                <p className="text-xs font-medium mb-1">Application au marché {agency.region}</p>
                 <p className="text-sm text-muted-foreground">
                   {index === 0 
-                    ? `Cette solution peut être adaptée aux ${agency.keyBusinessSectors[0]}, un secteur clé à ${agency.name}.` 
-                    : `Ce type de projet répond aux enjeux de ${agency.keyBusinessSectors[1] || agency.keyBusinessSectors[0]} dans la région ${agency.region}.`}
+                    ? `Notre expérience avec ce projet nous a permis de développer une expertise particulièrement applicable au secteur ${project.tags.includes(Tag.FEATURED) ? 'des nouvelles technologies' : 'du commerce digital'} dans la région ${agency.region}.` 
+                    : `Les compétences et technologies utilisées dans ce projet sont directement transférables aux besoins des entreprises de ${agency.name}, notamment dans ${project.tags.includes(Tag.OPEN_SOURCE) ? 'l\'innovation ouverte' : 'la transformation numérique'}.`}
                 </p>
               </div>
               
