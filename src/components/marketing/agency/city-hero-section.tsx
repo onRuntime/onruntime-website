@@ -16,7 +16,7 @@ const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
   const accent = agency.accentColor || "blue";
   
   // Use provided hero title/description or fallback to defaults
-  const heroTitle = agency.heroTitle || `Agence web à ${agency.name}`;
+  const heroTitle = agency.heroTitle || `Développement web à ${agency.name}`;
   const heroDescription = agency.heroDescription || agency.description;
 
   return (
@@ -32,18 +32,17 @@ const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
             {heroDescription}
           </p>
 
-          <div className="grid grid-cols-3 gap-4 w-full mt-4">
-            {agency.stats.slice(0, 3).map((stat, index) => (
-              <div key={index} className="flex flex-col items-center text-center">
-                <span className={`text-xl font-semibold text-onruntime-${accent}`}>{stat.value}</span>
-                <span className="text-xs text-muted-foreground">{stat.label}</span>
+          <div className="flex flex-wrap gap-4 mt-2">
+            {agency.keyBusinessSectors.slice(0, 3).map((sector, index) => (
+              <div key={index} className="px-3 py-1 bg-background rounded-full border text-sm">
+                {sector}
               </div>
             ))}
           </div>
 
           <Link href={Routes.contact}>
             <Button size="lg">
-              Discuter de votre projet
+              Démarrer votre projet à {agency.name}
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
           </Link>
@@ -62,7 +61,7 @@ const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
               </div>
             )}
             
-            {/* City name */}
+            {/* City name with key focus */}
             <div 
               className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-background/80 backdrop-blur-sm p-4 rounded-lg border border-border shadow-sm"
               style={{ maxWidth: '160px' }}
@@ -70,7 +69,7 @@ const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
               <p className="text-center font-medium text-lg capitalize">{agency.name}</p>
               {agency.primaryStat && (
                 <p className="text-xs text-center text-muted-foreground mt-1">
-                  {agency.primaryStat.label}: {agency.primaryStat.value}
+                  Spécialiste {agency.primaryStat.label}
                 </p>
               )}
             </div>

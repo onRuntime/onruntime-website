@@ -13,38 +13,11 @@ const LocalExpertise: React.FC<LocalExpertiseProps> = ({ agency }) => {
     <div className="space-y-12">
       <div className="text-center">
         <h2 className="text-3xl font-medium text-foreground mb-4">
-          Notre expertise à {agency.name}
+          Solutions web adaptées aux entreprises de {agency.name}
         </h2>
         <p className="text-muted-foreground max-w-3xl mx-auto">
           {agency.expertiseText}
         </p>
-      </div>
-
-      <div className="flex flex-col md:flex-row items-center justify-center gap-6 p-6 rounded-lg border bg-card">
-        <div className="flex items-center gap-2 text-sm">
-          {agency.contactInfo.address && (
-            <>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={`h-4 w-4 text-onruntime-${accent}`}>
-                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
-                <circle cx="12" cy="10" r="3" />
-              </svg>
-              <span className="font-medium">{agency.contactInfo.address}</span>
-            </>
-          )}
-          {!agency.contactInfo.address && agency.region && (
-            <>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={`h-4 w-4 text-onruntime-${accent}`}>
-                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
-                <circle cx="12" cy="10" r="3" />
-              </svg>
-              <span className="font-medium">{agency.name}, {agency.region}</span>
-            </>
-          )}
-        </div>
-        <div className="h-4 w-px bg-border hidden md:block"></div>
-        <div className="text-sm text-center md:text-left">
-          <span className={`font-medium text-onruntime-${accent}`}>Écosystème:</span> {agency.primaryStat?.value}
-        </div>
       </div>
 
       <div className="grid md:grid-cols-4 gap-6">
@@ -76,8 +49,22 @@ const LocalExpertise: React.FC<LocalExpertiseProps> = ({ agency }) => {
       </div>
 
       <div className="p-6 border rounded-lg bg-card">
-        <h3 className="text-xl font-medium text-foreground mb-4">Pourquoi nous choisir à {agency.name}</h3>
+        <h3 className="text-xl font-medium text-foreground mb-4">Notre approche pour les projets à {agency.name}</h3>
         <p className="text-muted-foreground">{agency.whyChooseUs}</p>
+        
+        {/* Ajout d'une liste de bénéfices clairs */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+          {agency.benefits.map((benefit, index) => (
+            <div key={index} className="flex items-start gap-3">
+              <div className={`p-1 rounded-md bg-${accent}/10 text-onruntime-${accent} mt-0.5`}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M20 6 9 17l-5-5"/>
+                </svg>
+              </div>
+              <p className="text-sm text-muted-foreground">{benefit}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -112,7 +112,6 @@ const parisAgency: Agency = {
   
   // Contact information
   contactInfo: {
-    address: "16 Rue du Faubourg Saint-Denis, 75010 Paris",
     phone: "+33 7 56 90 93 75",
     email: "paris@onruntime.com",
     meetingPoints: ["Station F", "WeWork La Fayette", "Café de la Gare"]

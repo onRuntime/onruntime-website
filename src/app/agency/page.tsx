@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Button } from "@/components/ui/button";
 import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
-import { ArrowRight, MapPin } from "lucide-react";
+import { ArrowRight, Globe, Laptop, Users } from "lucide-react";
 import Routes from "@/constants/routes";
 import { constructMetadata } from '@/lib/utils/metadata';
 import FranceMap from '@/components/marketing/agency/france-map';
@@ -11,8 +11,8 @@ import { getMajorAgencies } from '@/constants/agencies';
 import { OrganizationSchema } from '@/components/json-ld/organization-schema';
 
 export const metadata = constructMetadata({
-  title: "Agence web en France | Développement sur mesure dans toutes les grandes villes",
-  description: "Présence nationale avec des agences web locales à Paris, Lyon, Marseille et dans toutes les grandes villes de France. Solutions digitales adaptées à chaque région.",
+  title: "Expertise web locale | Développement digital dans les grandes villes françaises",
+  description: "Nous accompagnons les entreprises locales partout en France avec notre expertise des marchés numériques régionaux. Solutions digitales adaptées à chaque région.",
 });
 
 export default function AgencyLandingPage() {
@@ -31,11 +31,11 @@ export default function AgencyLandingPage() {
         <div className="relative flex flex-col lg:flex-row gap-12 items-center">
           <div className="flex-1 flex flex-col items-start gap-6">
             <h1 className="font-medium text-4xl md:text-5xl text-foreground">
-              Votre agence web partout en France
+              Votre partenaire digital partout en France
             </h1>
             
             <p className="text-muted-foreground text-lg">
-              Nous développons des solutions digitales innovantes adaptées aux spécificités de chaque région française. Découvrez notre expertise locale dans les plus grandes villes de France.
+              Nous développons des solutions digitales innovantes adaptées aux spécificités de chaque marché régional français. Notre équipe maîtrise les enjeux numériques locaux pour vous accompagner efficacement, où que vous soyez en France.
             </p>
 
             <div className="flex flex-wrap gap-3">
@@ -46,9 +46,9 @@ export default function AgencyLandingPage() {
                 </Button>
               </Link>
               
-              <Link href="#agences">
+              <Link href="#expertise-locale">
                 <Button variant="outline" size="lg">
-                  Découvrir nos agences
+                  Découvrir notre expertise locale
                 </Button>
               </Link>
             </div>
@@ -70,66 +70,58 @@ export default function AgencyLandingPage() {
           </div>
         </div>
 
-        {/* National Presence Section */}
-        <div className="space-y-8">
+        {/* Expertise Nationale et Locale */}
+        <div id="expertise-locale" className="space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
-              Un réseau national, une expertise locale
+              Une expertise adaptée à chaque territoire
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              onRuntime Studio combine la force d&apos;une présence nationale avec une connaissance approfondie des écosystèmes numériques locaux. Notre approche vous garantit des solutions parfaitement adaptées aux spécificités de votre région.
+              Notre équipe analyse et comprend les écosystèmes numériques locaux pour vous proposer des solutions parfaitement adaptées aux spécificités économiques et culturelles de votre région.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="flex flex-col items-center text-center p-6 border rounded-lg bg-card hover:border-onruntime-blue transition-colors">
               <div className="p-3 rounded-full bg-onruntime-blue/10 text-onruntime-blue mb-4">
-                <MapPin className="w-6 h-6" />
+                <Globe className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-medium text-foreground mb-2">Connaissance locale</h3>
+              <h3 className="text-xl font-medium text-foreground mb-2">Compréhension des marchés locaux</h3>
               <p className="text-muted-foreground">
-                Notre équipe comprend les spécificités et les besoins particuliers de chaque écosystème numérique régional.
+                Nous étudions et maîtrisons les spécificités et les tendances des écosystèmes numériques régionaux.
               </p>
             </div>
 
             <div className="flex flex-col items-center text-center p-6 border rounded-lg bg-card hover:border-onruntime-blue transition-colors">
               <div className="p-3 rounded-full bg-onruntime-blue/10 text-onruntime-blue mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
-                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
-                  <circle cx="9" cy="7" r="4"></circle>
-                  <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                </svg>
+                <Laptop className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-medium text-foreground mb-2">Réseau de talents</h3>
+              <h3 className="text-xl font-medium text-foreground mb-2">Travail à distance efficace</h3>
               <p className="text-muted-foreground">
-                Des équipes locales qui connaissent parfaitement les enjeux économiques et culturels de votre région.
+                Notre équipe collabore à distance avec votre entreprise, où que vous soyez en France, avec la même efficacité qu&apos;en présentiel.
               </p>
             </div>
 
             <div className="flex flex-col items-center text-center p-6 border rounded-lg bg-card hover:border-onruntime-blue transition-colors">
               <div className="p-3 rounded-full bg-onruntime-blue/10 text-onruntime-blue mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
-                  <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"></path>
-                  <path d="m9 12 2 2 4-4"></path>
-                </svg>
+                <Users className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-medium text-foreground mb-2">Méthodes éprouvées</h3>
+              <h3 className="text-xl font-medium text-foreground mb-2">Solutions personnalisées</h3>
               <p className="text-muted-foreground">
-                Une approche standardisée et des processus rigoureux garantissant qualité et cohérence partout en France.
+                Des stratégies digitales sur mesure qui s&apos;adaptent à votre contexte local et aux particularités de votre marché régional.
               </p>
             </div>
           </div>
         </div>
 
         {/* Cities Grid Section */}
-        <div id="agences" className="space-y-8">
+        <div className="space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
-              Nos agences en France
+              Notre expertise dans les grandes villes françaises
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              Découvrez nos agences locales et les spécificités de chaque écosystème numérique régional.
+              Découvrez notre connaissance approfondie des marchés locaux et comment elle peut bénéficier à votre entreprise.
             </p>
           </div>
 
@@ -144,7 +136,7 @@ export default function AgencyLandingPage() {
                   {agency.name}
                 </h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Population: {agency.population.toLocaleString()}
+                  Région: {agency.region}
                 </p>
                 <div className="flex flex-wrap gap-2 mt-auto">
                   {agency.strengths.slice(0, 3).map((strength, index) => (
@@ -157,7 +149,7 @@ export default function AgencyLandingPage() {
                   ))}
                 </div>
                 <div className="mt-4 text-xs text-muted-foreground flex items-center group-hover:text-onruntime-blue transition-colors">
-                  <span>Découvrir</span>
+                  <span>Découvrir notre expertise</span>
                   <ArrowRight className="ml-1 h-3 w-3" />
                 </div>
               </Link>
@@ -165,43 +157,43 @@ export default function AgencyLandingPage() {
           </div>
         </div>
 
-        {/* Why Choose Us */}
+        {/* Avantages de notre approche */}
         <div className="space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
-              Pourquoi choisir une agence locale ?
+              Pourquoi travailler avec nous pour votre projet local ?
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              Travailler avec notre agence dans votre ville présente de nombreux avantages pour votre entreprise.
+              Notre connaissance des marchés régionaux présente de nombreux avantages pour votre entreprise.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="flex flex-col gap-4 p-6 rounded-lg border bg-card">
-              <h3 className="text-xl font-medium text-foreground">Proximité et réactivité</h3>
+              <h3 className="text-xl font-medium text-foreground">Expertise des écosystèmes locaux</h3>
               <p className="text-muted-foreground">
-                Une équipe locale qui comprend votre marché, vos enjeux et qui peut intervenir rapidement pour des réunions en personne lorsque nécessaire.
+                Une équipe qui comprend les dynamiques de marché propres à votre région, permettant une stratégie digitale parfaitement adaptée.
               </p>
             </div>
             
             <div className="flex flex-col gap-4 p-6 rounded-lg border bg-card">
-              <h3 className="text-xl font-medium text-foreground">Connaissance de l&apos;écosystème</h3>
+              <h3 className="text-xl font-medium text-foreground">Agilité à distance</h3>
               <p className="text-muted-foreground">
-                Une compréhension approfondie des acteurs locaux, des tendances régionales et des opportunités spécifiques à votre marché.
+                Collaboration efficace par visioconférence, messagerie et outils collaboratifs pour une expérience de travail fluide et productive.
               </p>
             </div>
             
             <div className="flex flex-col gap-4 p-6 rounded-lg border bg-card">
-              <h3 className="text-xl font-medium text-foreground">Réseau local</h3>
+              <h3 className="text-xl font-medium text-foreground">Stratégies localisées</h3>
               <p className="text-muted-foreground">
-                Accès à un réseau de talents, partenaires et clients potentiels dans votre région, facilitant les collaborations et opportunités d&apos;affaires.
+                Des solutions digitales qui tiennent compte des spécificités culturelles et économiques de votre territoire.
               </p>
             </div>
             
             <div className="flex flex-col gap-4 p-6 rounded-lg border bg-card">
-              <h3 className="text-xl font-medium text-foreground">Solutions adaptées</h3>
+              <h3 className="text-xl font-medium text-foreground">Analyse de marché régional</h3>
               <p className="text-muted-foreground">
-                Des services et solutions spécifiquement conçus pour répondre aux défis et opportunités propres à votre région.
+                Étude des tendances, de la concurrence et des opportunités propres à votre secteur géographique pour une stratégie digitale optimale.
               </p>
             </div>
           </div>
@@ -211,10 +203,10 @@ export default function AgencyLandingPage() {
         <div className="space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
-              Nos services partout en France
+              Nos services pour toutes les régions de France
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              Des solutions digitales complètes disponibles dans toutes nos agences locales.
+              Des solutions digitales complètes adaptées aux spécificités de chaque marché local.
             </p>
           </div>
 
@@ -223,7 +215,7 @@ export default function AgencyLandingPage() {
               <div className="flex flex-col items-center p-6 rounded-lg border bg-card hover:border-onruntime-blue transition-colors text-center">
                 <h3 className="text-lg font-medium text-foreground mb-1">Design UI/UX</h3>
                 <p className="text-xs text-muted-foreground">
-                  Interfaces modernes et ergonomiques
+                  Interfaces adaptées aux usages locaux
                 </p>
               </div>
             </Link>
@@ -232,7 +224,7 @@ export default function AgencyLandingPage() {
               <div className="flex flex-col items-center p-6 rounded-lg border bg-card hover:border-onruntime-blue transition-colors text-center">
                 <h3 className="text-lg font-medium text-foreground mb-1">Intégration</h3>
                 <p className="text-xs text-muted-foreground">
-                  Solutions CMS et e-commerce
+                  Solutions CMS et e-commerce régionales
                 </p>
               </div>
             </Link>
@@ -241,7 +233,7 @@ export default function AgencyLandingPage() {
               <div className="flex flex-col items-center p-6 rounded-lg border bg-card hover:border-onruntime-blue transition-colors text-center">
                 <h3 className="text-lg font-medium text-foreground mb-1">Front-end</h3>
                 <p className="text-xs text-muted-foreground">
-                  Applications web & mobile
+                  Applications adaptées à vos utilisateurs
                 </p>
               </div>
             </Link>
@@ -250,7 +242,7 @@ export default function AgencyLandingPage() {
               <div className="flex flex-col items-center p-6 rounded-lg border bg-card hover:border-onruntime-blue transition-colors text-center">
                 <h3 className="text-lg font-medium text-foreground mb-1">Back-end</h3>
                 <p className="text-xs text-muted-foreground">
-                  APIs et infrastructure cloud
+                  Infrastructures robustes et évolutives
                 </p>
               </div>
             </Link>
@@ -271,10 +263,10 @@ export default function AgencyLandingPage() {
           <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-onruntime-blue/10 to-transparent" />
           <div className="max-w-2xl">
             <h2 className="text-3xl font-medium text-foreground mb-4">
-              Prêt à collaborer avec notre agence locale ?
+              Un projet digital adapté à votre marché local ?
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Contactez-nous dès aujourd&apos;hui pour discuter de votre projet avec notre équipe la plus proche de chez vous.
+              Contactez-nous pour discuter de votre projet. Notre expertise des marchés locaux nous permet de vous accompagner efficacement, où que vous soyez en France.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href={Routes.contact}>
@@ -283,9 +275,9 @@ export default function AgencyLandingPage() {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
-              <Link href="#agences">
+              <Link href="#expertise-locale">
                 <Button variant="outline" size="lg">
-                  Trouver une agence
+                  En savoir plus sur notre approche
                 </Button>
               </Link>
             </div>

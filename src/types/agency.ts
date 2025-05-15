@@ -1,7 +1,7 @@
-// src/types/agency.ts
+// Type Agency révisé - suppression des localProjects fictifs
 import { LucideIcon } from "lucide-react";
 
-// For testimonials
+// Pour les témoignages clients
 export interface AgencyTestimonial {
   name: string;
   role: string;
@@ -10,22 +10,14 @@ export interface AgencyTestimonial {
   imageUrl?: string;
 }
 
-// For local projects
-export interface AgencyProject {
-  name: string;
-  description: string;
-  imageUrl: string;
-  tags: string[];
-}
-
-// For agency benefits/strengths
+// Pour les atouts/spécificités du service
 export interface AgencyStrength {
   title: string;
   description: string;
   icon?: LucideIcon;
 }
 
-// For agency specialized services
+// Pour les services spécialisés adaptés au marché local
 export interface AgencyService {
   name: string;
   description: string;
@@ -33,63 +25,65 @@ export interface AgencyService {
   icon?: LucideIcon;
 }
 
-// For agency metrics/stats
+// Pour les témoignages du marché local
 export interface AgencyStat {
   label: string;
   value: string;
   description: string;
 }
 
-// Main agency type
+// Type principal pour l'expertise par ville
 export interface Agency {
-  // Basic Information
-  id: string;            // Unique identifier for the agency
-  name: string;          // Name of the city
-  region: string;        // Region of France
-  population: number;    // Approximate population
+  // Informations de base
+  id: string;            // Identifiant unique pour la ville
+  name: string;          // Nom de la ville
+  region: string;        // Région de France
   
-  // SEO Content
-  title: string;         // SEO title for the agency page
-  description: string;   // SEO description
+  // Contenu SEO
+  title: string;         // Titre SEO pour la page
+  description: string;   // Description SEO
   
-  // Page Content Sections
-  heroTitle?: string;    // Optional title override for the hero section
-  heroDescription?: string; // Optional description override for hero
-  introText: string;     // Introduction text
-  expertiseText: string; // Text about the agency's expertise
-  whyChooseUs: string;   // Why choose this agency
+  // Sections de contenu
+  heroTitle?: string;    // Titre alternatif pour la section hero
+  heroDescription?: string; // Description alternative pour hero
+  introText: string;     // Texte d'introduction ciblé sur les besoins des entreprises locales
+  expertiseText: string; // Texte sur l'expertise adaptée aux entreprises locales
+  whyChooseUs: string;   // Pourquoi choisir notre expertise pour cette ville
   
-  // Features and Showcase
-  strengths: AgencyStrength[];  // Agency strengths (4-5 key points)
-  focusedServices: AgencyService[]; // Featured services for this location
-  localProjects: AgencyProject[]; // Projects completed in this city
-  testimonials: AgencyTestimonial[]; // Client testimonials
+  // Informations clés sur le marché local
+  keyBusinessSectors: string[]; // Secteurs d'activité principaux dans la région
+  localChallenges: string[];    // Défis numériques spécifiques à cette région
+  benefits: string[];           // Bénéfices concrets pour les entreprises locales
   
-  // Contact Information
+  // Caractéristiques et mise en avant
+  strengths: AgencyStrength[];  // Nos forces pour ce marché local (4-5 points clés)
+  focusedServices: AgencyService[]; // Services adaptés pour les entreprises de cette région
+  testimonials: AgencyTestimonial[]; // Témoignages clients (non spécifiques à la ville, mais pertinents)
+  
+  // Informations de contact
   contactInfo: {
-    address?: string;    // Optional physical address
-    phone: string;
-    email: string;
-    meetingPoints?: string[]; // Optional meeting locations
+    email: string;       // Email de contact
+    phone: string;       // Téléphone de contact
+    meetingOptions?: string[]; // Options de réunion (visio, déplacement)
   };
   
-  // Statistics and Metrics
+  // Statistiques et métriques du marché local
   stats: AgencyStat[];
   
-  // Geographical Information for SEO
+  // Informations géographiques pour SEO
   geo: {
     latitude: string;
     longitude: string;
   };
   
-  // Visual and Design Elements
-  accentColor?: string;  // Optional brand color accent ("blue" or "magenta")
-  primaryStat?: {        // Main statistic or feature to highlight
+  // Éléments visuels et design
+  accentColor?: string;  // Couleur d'accent optionnelle ("blue" ou "magenta")
+  primaryStat?: {        // Caractéristique principale à mettre en avant
     icon: LucideIcon;
     value: string;
     label: string;
   };
   
-  // Related Cities
+  // Villes voisines pour référencement croisé
   nearbyLocations: string[];
 }

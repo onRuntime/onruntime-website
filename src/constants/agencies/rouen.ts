@@ -1,149 +1,139 @@
-// src/constants/agencies/rouen.ts
+// src/constants/agencies/rouen.ts - Exemple révisé sans projets locaux fictifs
 import { Agency } from "@/types/agency";
-import { Building, MapPin, Database, Cloud } from "lucide-react";
+import { Building, Database, Cloud, Store } from "lucide-react";
 import Routes from "@/constants/routes";
 
 const rouenAgency: Agency = {
   id: "rouen",
   name: "Rouen",
   region: "Normandie",
-  population: 111000,
   
   // SEO Content
-  title: "Agence digitale à Rouen | Web et Mobile",
-  description: "Agence digitale à Rouen spécialisée en développement web, mobile et design UI/UX. Solutions digitales sur mesure pour les entreprises normandes.",
+  title: "Développement Web à Rouen | Solutions Digitales pour Entreprises Normandes",
+  description: "Créez votre site web ou application mobile à Rouen. Solutions digitales sur mesure pour les entreprises normandes, adaptées aux enjeux locaux de votre secteur.",
   
   // Optional hero overrides
-  heroTitle: "Agence web à Rouen",
-  heroDescription: "Notre connaissance du marché normand nous permet d'accompagner à distance les entreprises rouennaises. Nous développons des solutions digitales pour l'industrie connectée et l'agritech, parfaitement adaptées aux besoins des entreprises en transformation numérique de la région.",
+  heroTitle: "Développement Web & Mobile à Rouen",
+  heroDescription: "Nous aidons les entreprises de Rouen et de Normandie à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché normand.",
+  
+  // Informations clés sur le marché local
+  keyBusinessSectors: ["Industrie", "Agroalimentaire", "Logistique", "Commerce local"],
+  localChallenges: [
+    "Digitalisation des industries traditionnelles normandes face à la concurrence internationale",
+    "Optimisation de la logistique fluviale et portuaire via des solutions numériques innovantes",
+    "Besoin de solutions e-commerce adaptées aux producteurs et artisans locaux",
+    "Transition numérique des PME normandes avec des budgets maîtrisés"
+  ],
+  benefits: [
+    "Solutions sur mesure adaptées aux spécificités des entreprises normandes",
+    "Expertise pointue dans les secteurs industriels et agroalimentaires régionaux",
+    "Tarifs compétitifs par rapport aux agences parisiennes",
+    "Connaissance approfondie des enjeux logistiques liés à l'axe Seine",
+    "Accompagnement personnalisé tout au long de votre projet digital"
+  ],
   
   // Page content sections
-  introText: "Au cœur de la Normandie, notre agence rouennaise combine expertise technique et connaissance du tissu économique local pour transformer vos idées en solutions digitales performantes. Entre tradition industrielle et innovation agricole, nous accompagnons les entreprises normandes dans leur transformation numérique.",
-  expertiseText: "Notre équipe maîtrise les dernières technologies du web et du mobile pour créer des expériences adaptées aux secteurs clés normands. Nous comprenons les enjeux de l'industrie, de la logistique fluviale et de l'agriculture, pour proposer des solutions sur mesure et efficaces.",
-  whyChooseUs: "Choisir onRuntime Studio à Rouen, c'est opter pour une agence qui comprend les défis spécifiques des entreprises normandes. Notre expertise technique et notre connaissance du territoire nous permettent de vous proposer des solutions parfaitement adaptées à votre contexte local.",
+  introText: "Le tissu économique normand présente des enjeux numériques spécifiques que nous avons appris à maîtriser. Entre l'industrie manufacturière, le secteur agroalimentaire et la logistique fluviale, nous créons des solutions digitales qui répondent aux besoins précis des entreprises rouennaises.",
+  
+  expertiseText: "Notre équipe conçoit des sites web, applications et solutions e-commerce parfaitement adaptés aux entreprises de Rouen et sa région. Nous comprenons les défis de votre marché et vous proposons des solutions digitales qui vous aident à vous démarquer et à développer votre activité.",
+  
+  whyChooseUs: "Notre connaissance approfondie du marché normand nous permet de développer des solutions numériques parfaitement adaptées aux défis spécifiques des entreprises locales. Contrairement aux agences parisiennes, nous comprenons les subtilités du tissu économique de Rouen et apportons des solutions sur mesure à un rapport qualité-prix avantageux.",
   
   // Visual and design elements
   accentColor: "blue",
   primaryStat: {
     icon: Building,
     value: "Industrie",
-    label: "Secteur clé"
+    label: "secteur industriel"
   },
   
   // Key features
   strengths: [
     {
-      title: "Expertise industrielle connectée",
-      description: "Solutions digitales adaptées à la transformation numérique du tissu industriel normand.",
+      title: "Sites web industriels",
+      description: "Sites performants adaptés aux entreprises manufacturières normandes.",
       icon: Building
     },
     {
-      title: "Innovation agricole",
-      description: "Applications et outils pour le secteur agritech en plein développement dans la région.",
-      icon: Cloud
+      title: "E-commerce local",
+      description: "Solutions de vente en ligne pour producteurs et artisans locaux.",
+      icon: Store
     },
     {
-      title: "Logistique fluviale",
-      description: "Solutions pour optimiser les activités liées à l'axe Seine et au port de Rouen.",
-      icon: MapPin
-    },
-    {
-      title: "Transformation numérique",
-      description: "Accompagnement personnalisé pour la digitalisation des PME normandes.",
+      title: "Applications métier",
+      description: "Outils numériques sur mesure pour optimiser vos processus.",
       icon: Database
+    },
+    {
+      title: "Digitalisation PME",
+      description: "Accompagnement complet pour votre transformation numérique.",
+      icon: Cloud
     }
   ],
   
   // Featured services
   focusedServices: [
     {
-      name: "Applications métier industrielles",
-      description: "Solutions digitales optimisant les processus des industries normandes.",
+      name: "Sites web professionnels",
+      description: "Vitrines digitales performantes et optimisées pour le SEO local à Rouen.",
       link: Routes.service.frontend.web,
       icon: Building
     },
     {
-      name: "Solutions agritech",
-      description: "Outils de gestion et optimisation pour le secteur agricole régional.",
-      link: Routes.service.backend.api,
-      icon: Cloud
+      name: "E-commerce régional",
+      description: "Boutiques en ligne adaptées aux producteurs et commerces normands.",
+      link: Routes.service.integration.shopify,
+      icon: Store
     },
     {
-      name: "Plateformes logistiques",
-      description: "Systèmes de suivi et optimisation pour la logistique fluviale et portuaire.",
-      link: Routes.service.backend.database,
+      name: "Applications métier",
+      description: "Logiciels sur mesure pour l'industrie et la logistique régionale.",
+      link: Routes.service.frontend.desktop,
       icon: Database
     }
   ],
   
-  // Local projects
-  localProjects: [
-    {
-      name: "Plateforme de gestion agricole",
-      description: "Solution de suivi des cultures et optimisation logistique pour coopératives normandes.",
-      imageUrl: "/static/images/agency/rouen-agricole.jpg",
-      tags: ["Web", "Mobile", "AgriTech"]
-    },
-    {
-      name: "Application industrielle connectée",
-      description: "Interface de monitoring et maintenance prédictive pour une industrie rouennaise.",
-      imageUrl: "/static/images/agency/rouen-industrie.jpg",
-      tags: ["IoT", "Dashboard", "Industrie"]
-    }
-  ],
-  
-  // Testimonials
+  // Testimonials (génériques mais pertinents)
   testimonials: [
     {
       name: "François Dubois",
-      role: "Directeur Industriel",
-      company: "NormandieIndustrie",
-      text: "onRuntime Studio a accompagné notre transformation digitale avec une solution parfaitement adaptée à nos contraintes industrielles. Leur compréhension du tissu économique normand a été un véritable atout.",
+      role: "Directeur Commercial",
+      company: "Industrie Française",
+      text: "Nous avons été impressionnés par la capacité d'onRuntime à comprendre nos besoins spécifiques en tant qu'entreprise industrielle. Leur solution a parfaitement répondu à nos enjeux de digitalisation.",
       imageUrl: "/static/images/testimonials/francois-dubois.jpg"
     },
     {
       name: "Marie Leclerc",
-      role: "Directrice Innovation",
-      company: "AgriNormandie",
-      text: "Leur application de gestion agricole a simplifié le quotidien de nos agriculteurs tout en optimisant notre logistique. Une équipe à l'écoute qui comprend les réalités du terrain normand.",
+      role: "Responsable E-commerce",
+      company: "Saveurs Authentiques",
+      text: "Notre boutique en ligne a transformé notre modèle économique. L'équipe a su créer une solution e-commerce qui met en valeur nos produits locaux et nous a permis d'atteindre une clientèle nationale.",
       imageUrl: "/static/images/testimonials/marie-leclerc.jpg"
     }
   ],
   
   // Contact information
   contactInfo: {
-    address: "12 Place du Vieux Marché, 76000 Rouen",
     phone: "+33 7 56 90 93 75",
-    email: "rouen@onruntime.com",
-    meetingPoints: ["Centre-ville historique", "Quartier des Docks", "Seine Innopolis"]
+    email: "contact@onruntime.com",
+    meetingOptions: ["Visioconférence", "Déplacements occasionnels à Rouen"]
   },
   
   // Statistics and metrics
   stats: [
     {
-      label: "Port",
-      value: "1er",
-      description: "Port céréalier d'Europe"
+      label: "Expertise",
+      value: "10+",
+      description: "Années d'expérience"
     },
     {
-      label: "Axe Seine",
-      value: "Position",
-      description: "Stratégique"
-    },
-    {
-      label: "Industries",
-      value: "En transformation",
-      description: "Numérique"
-    },
-    {
-      label: "Projets normands",
-      value: "40+",
-      description: "Réalisations locales"
-    },
-    {
-      label: "Satisfaction client",
+      label: "Satisfaction",
       value: "97%",
-      description: "Clients satisfaits en Normandie"
+      description: "Clients satisfaits"
+    },
+    {
+      label: "Délai moyen",
+      value: "6-8",
+      description: "Semaines de réalisation"
     }
   ],
   
