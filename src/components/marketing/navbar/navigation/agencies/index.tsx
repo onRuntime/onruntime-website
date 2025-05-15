@@ -1,5 +1,3 @@
-// src/components/marketing/navbar/navigation/agencies/index.tsx
-
 import {
   NavigationMenuContent,
   NavigationMenuItem,
@@ -7,26 +5,25 @@ import {
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 import Routes from "@/constants/routes";
-import { cities } from "@/constants/cities";
+import { getMajorAgencies } from "@/constants/agencies";
 import { MapPin } from "lucide-react";
 import React from "react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
-// Groupe les villes par région pour l'affichage
-const citiesByRegion = cities.reduce((acc, city) => {
-  if (!acc[city.region]) {
-    acc[city.region] = [];
-  }
-  acc[city.region].push(city);
-  return acc;
-}, {} as Record<string, typeof cities>);
-
-// Sélectionne quelques villes majeures pour la navigation
-const featuredCities = ['paris', 'lyon', 'marseille', 'bordeaux', 'lille'];
-const majorCities = cities.filter(city => featuredCities.includes(city.id));
-
 const NavigationAgencies: React.FC = () => {
+  // Get major agencies to feature in navigation
+  const majorAgencies = getMajorAgencies();
+  
+  // Group agencies by region for better organization
+  const agenciesByRegion = majorAgencies.reduce((acc, agency) => {
+    if (!acc[agency.region]) {
+      acc[agency.region] = [];
+    }
+    acc[agency.region].push(agency);
+    return acc;
+  }, {} as Record<string, typeof majorAgencies>);
+
   return (
     <NavigationMenuItem>
       <NavigationMenuTrigger>Nos agences</NavigationMenuTrigger>
@@ -48,10 +45,10 @@ const NavigationAgencies: React.FC = () => {
                 </div>
                 
                 <div className="space-y-3">
-                  {majorCities.slice(0, 3).map(city => (
-                    <div key={city.id} className="flex items-center gap-2 text-xs">
+                  {majorAgencies.slice(0, 3).map(agency => (
+                    <div key={agency.id} className="flex items-center gap-2 text-xs">
                       <MapPin className="h-3.5 w-3.5 text-onruntime-blue" />
-                      <span>Agence {city.name}</span>
+                      <span>Agence {agency.name}</span>
                     </div>
                   ))}
                 </div>
@@ -61,21 +58,21 @@ const NavigationAgencies: React.FC = () => {
           
           {/* Regional listing */}
           <div className="grid gap-6">
-            {/* Highlight Major Cities */}
+            {/* Highlight Major Agencies */}
             <div className="space-y-3">
               <h4 className="text-sm font-medium">Principales agences</h4>
               <div className="grid grid-cols-2 gap-2">
-                {majorCities.map(city => (
+                {majorAgencies.map(agency => (
                   <Link
-                    key={city.id}
-                    href={Routes.agency.city(city.id)}
+                    key={agency.id}
+                    href={Routes.agency.city(agency.id)}
                     className={cn(
                       "flex items-center gap-2 rounded-md p-2 text-sm transition-colors",
                       "hover:bg-accent hover:text-accent-foreground"
                     )}
                   >
                     <MapPin className="h-4 w-4 text-onruntime-blue" />
-                    <div className="text-sm">{city.name}</div>
+                    <div className="text-sm">{agency.name}</div>
                   </Link>
                 ))}
               </div>
@@ -85,16 +82,16 @@ const NavigationAgencies: React.FC = () => {
             <div className="hidden lg:block">
               <h4 className="text-sm font-medium mb-2">Toutes nos agences par région</h4>
               <div className="grid grid-cols-2 gap-3">
-                {Object.entries(citiesByRegion).slice(0, 4).map(([region, regionCities]) => (
+                {Object.entries(agenciesByRegion).slice(0, 4).map(([region, regionAgencies]) => (
                   <div key={region} className="space-y-2">
                     <h5 className="text-xs font-medium text-muted-foreground">{region}</h5>
-                    {regionCities.slice(0, 3).map(city => (
+                    {regionAgencies.slice(0, 3).map(agency => (
                       <Link
-                        key={city.id}
-                        href={Routes.agency.city(city.id)}
+                        key={agency.id}
+                        href={Routes.agency.city(agency.id)}
                         className="block text-xs hover:text-foreground transition-colors py-1"
                       >
-                        {city.name}
+                        {agency.name}
                       </Link>
                     ))}
                   </div>

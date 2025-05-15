@@ -1,164 +1,122 @@
 import { Agency } from "@/types/agency";
-import { Building, Rocket, Code, Globe } from "lucide-react";
+import { Building, Code, Database, FlaskConical, Store } from "lucide-react";
 import Routes from "@/constants/routes";
 
 const lyonAgency: Agency = {
   id: "lyon",
   name: "Lyon",
   region: "Auvergne-Rhône-Alpes",
-  population: 518635,
   
-  // SEO Content
-  title: "Agence Web & Design UI/UX à Lyon | Développement sur mesure",
-  description: "Solutions digitales innovantes à Lyon. Notre agence lyonnaise développe des sites web, applications mobiles et designs UI/UX pour dynamiser votre entreprise.",
+  title: "Agence Web à Lyon | Solutions Digitales sur Mesure",
+  description: "Développement web, mobile et design UI/UX à Lyon. Notre expertise digitale adaptée aux entreprises de Rhône-Alpes pour dynamiser votre présence en ligne.",
   
-  // Optional hero overrides
-  heroTitle: "Agence web à Lyon",
-  heroDescription: "Notre connaissance du marché lyonnais nous permet de proposer des solutions adaptées aux entreprises de la région Auvergne-Rhône-Alpes en pleine transformation numérique.",
+  heroTitle: "Développement Web & Mobile à Lyon",
+  heroDescription: "Transformez votre entreprise lyonnaise avec des solutions digitales innovantes parfaitement adaptées au dynamisme économique de la région Auvergne-Rhône-Alpes.",
   
-  // Page content sections
-  introText: "Implantée à Lyon, carrefour économique majeur entre Paris et la Méditerranée, notre agence digitale met son expertise au service des entreprises lyonnaises. Nous combinons l'innovation technique et la rigueur pour créer des solutions digitales qui répondent aux ambitions de la capitale des Gaules.",
-  expertiseText: "Notre équipe lyonnaise maîtrise les dernières technologies du web et du mobile, avec une connaissance approfondie des attentes des entreprises locales. Entre tradition et innovation, nous concevons des expériences utilisateur qui reflètent l'excellence lyonnaise.",
-  whyChooseUs: "Choisir onRuntime Studio à Lyon, c'est s'associer à une équipe qui comprend les spécificités du tissu économique local, des industries traditionnelles aux startups innovantes. Notre approche combine excellence technique et vision stratégique pour vous accompagner dans votre transformation digitale.",
+  keyBusinessSectors: ["Biotechnologie", "Industrie pharmaceutique", "Gastronomie", "Finance"],
+  localChallenges: [
+    "Digitalisation des PME et ETI industrielles face aux enjeux de l'industrie 4.0",
+    "Développement de la visibilité numérique pour les acteurs de la gastronomie lyonnaise",
+    "Solutions e-commerce adaptées au commerce local et aux artisans de la région",
+    "Applications métier pour les secteurs pharmaceutique et biotech en pleine expansion"
+  ],
+  benefits: [
+    "Expertise sectorielle dans les domaines d'excellence lyonnais (biotech, pharma, gastronomie)",
+    "Compréhension des enjeux de digitalisation du bassin industriel rhônalpin",
+    "Solutions adaptées aux PME et ETI en transformation numérique",
+    "Designs UI/UX reflétant l'identité visuelle et les standards de qualité lyonnais",
+    "Connaissance approfondie de l'écosystème numérique local"
+  ],
   
-  // Visual and design elements
+  introText: "Implantée au cœur du dynamisme lyonnais, notre expertise digitale accompagne les entreprises de la région dans leur transformation numérique. Entre tradition industrielle, excellence biomédicale et rayonnement gastronomique, Lyon présente un tissu économique riche et diversifié dont nous comprenons parfaitement les enjeux.",
+  
+  expertiseText: "Nous créons des solutions web, mobile et e-commerce adaptées aux spécificités du marché lyonnais et rhônalpin. Notre équipe maîtrise les défis numériques propres aux secteurs d'excellence de la région, des biotechnologies à la gastronomie, en passant par l'industrie manufacturière.",
+  
+  whyChooseUs: "Notre connaissance du marché lyonnais nous permet de développer des solutions numériques parfaitement alignées avec les exigences et les particularités des entreprises locales. Nous comprenons les standards d'excellence de la région et proposons un accompagnement digital qui valorise l'identité et le savoir-faire lyonnais.",
+  
   accentColor: "blue",
   primaryStat: {
-    icon: Rocket,
-    value: "Industrie 4.0",
-    label: "Spécialité"
+    icon: FlaskConical,
+    value: "Biotech",
+    label: "secteur d'innovation"
   },
   
-  // Key features
   strengths: [
     {
-      title: "Au cœur de l'écosystème lyonnais",
-      description: "Parfaite connaissance des acteurs économiques et technologiques de la région.",
+      title: "Solutions Biotech & Pharma",
+      description: "Applications spécialisées pour le pôle santé lyonnais.",
+      icon: FlaskConical
+    },
+    {
+      title: "E-commerce gastronomique",
+      description: "Valorisation digitale des produits du terroir rhônalpin.",
+      icon: Store
+    },
+    {
+      title: "Applications industrielles",
+      description: "Outils numériques pour l'industrie 4.0 et la production.",
       icon: Building
     },
     {
-      title: "Excellence technique",
-      description: "Solutions de haute qualité reflétant la tradition d'excellence lyonnaise.",
+      title: "Interfaces métier",
+      description: "Design UI/UX adaptés aux besoins spécifiques lyonnais.",
       icon: Code
-    },
-    {
-      title: "Approche multisectorielle",
-      description: "Expertise adaptée aux diverses industries de la région: gastronomie, pharma, textile...",
-      icon: Globe
-    },
-    {
-      title: "Agilité et pragmatisme",
-      description: "Méthodologies flexibles héritées de l'esprit entrepreneurial lyonnais.",
-      icon: Rocket
     }
   ],
   
-  // Featured services
   focusedServices: [
     {
-      name: "Applications métier",
-      description: "Solutions digitales optimisant les processus des industries lyonnaises.",
+      name: "Applications métier biotech",
+      description: "Solutions digitales pour les laboratoires et entreprises pharmaceutiques lyonnaises.",
       link: Routes.service.frontend.web,
-      icon: Code
+      icon: FlaskConical
     },
     {
       name: "E-commerce gastronomique",
-      description: "Plateformes valorisant l'excellence culinaire lyonnaise à l'international.",
+      description: "Plateformes de vente en ligne pour valoriser l'excellence culinaire lyonnaise.",
       link: Routes.service.integration.shopify,
-      icon: Globe
+      icon: Store
     },
     {
-      name: "Design UI/UX industriel",
-      description: "Interfaces utilisateur ergonomiques pour secteurs techniques et industriels.",
-      link: Routes.service.design.ui,
-      icon: Building
+      name: "Digitalisation industrielle",
+      description: "Outils de pilotage et solutions IoT pour l'industrie rhônalpine.",
+      link: Routes.service.backend.api,
+      icon: Database
     }
   ],
   
-  // Local projects
-  localProjects: [
-    {
-      name: "Plateforme pour artisans lyonnais",
-      description: "Solution connectant les artisans de la soie et autres savoir-faire locaux aux marchés internationaux.",
-      imageUrl: "/static/images/agency/lyon-artisans.jpg",
-      tags: ["Web", "E-commerce", "Marketplace"]
-    },
-    {
-      name: "Application découverte gastronomique",
-      description: "Guide interactif des bouchons lyonnais et expériences culinaires de la capitale gastronomique.",
-      imageUrl: "/static/images/agency/lyon-gastronomie.jpg",
-      tags: ["Mobile", "Géolocalisation", "Restauration"]
-    }
-  ],
+  testimonials: [],
   
-  // Testimonials
-  testimonials: [
-    {
-      name: "Philippe Blanc",
-      role: "Directeur",
-      company: "Association des Artisans de la Croix-Rousse",
-      text: "Leur plateforme a donné une visibilité internationale à notre savoir-faire lyonnais. Un impact concret sur notre activité.",
-      imageUrl: "/static/images/testimonials/philippe-blanc.jpg"
-    },
-    {
-      name: "Isabelle Mercier",
-      role: "Fondatrice",
-      company: "LyonTech Innovations",
-      text: "Une équipe qui comprend parfaitement les enjeux de la tech lyonnaise et sait traduire nos besoins en solutions concrètes.",
-      imageUrl: "/static/images/testimonials/isabelle-mercier.jpg"
-    }
-  ],
-  
-  // Contact information
   contactInfo: {
-    address: "10 Place Bellecour, 69002 Lyon",
     phone: "+33 7 56 90 93 75",
-    email: "lyon@onruntime.com",
-    meetingPoints: ["Part-Dieu", "Confluence", "Vieux Lyon"]
+    email: "contact@onruntime.com",
+    meetingOptions: ["Visioconférence", "Déplacements occasionnels à Lyon"]
   },
   
-  // Statistics and metrics
   stats: [
     {
-      label: "Rank Économique",
-      value: "3ème",
-      description: "en France"
+      label: "Projets biotech",
+      value: "15+",
+      description: "Applications spécialisées"
     },
     {
-      label: "Grands Groupes",
-      value: "10+",
-      description: "Sièges sociaux"
-    },
-    {
-      label: "Universités",
-      value: "4+",
-      description: "Écoles d'ingénieurs"
-    },
-    {
-      label: "Projets lyonnais",
-      value: "45+",
-      description: "Réalisations locales"
-    },
-    {
-      label: "Industries servies",
-      value: "12+",
-      description: "Secteurs d'activité"
-    },
-    {
-      label: "Satisfaction client",
+      label: "Satisfaction",
       value: "97%",
-      description: "Clients satisfaits à Lyon"
+      description: "Clients satisfaits"
+    },
+    {
+      label: "PME accompagnées",
+      value: "45+",
+      description: "Entreprises lyonnaises"
     }
   ],
   
-  // Geographical information
   geo: {
     latitude: "45.764043",
     longitude: "4.835659"
   },
   
-  // Related cities
-  nearbyLocations: ["villeurbanne", "saint-etienne", "grenoble", "clermont-ferrand"]
+  nearbyLocations: ["saint-etienne", "grenoble", "valence", "chambery"]
 };
 
 export default lyonAgency;
