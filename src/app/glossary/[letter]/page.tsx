@@ -5,15 +5,15 @@ import { constructMetadata } from "@/lib/utils/metadata";
 import GlossaryLetterPage from '@/components/glossary/letter-page';
 
 interface LetterPageProps {
-  params: {
+  params: Promise<{
     letter: string;
-  }
+  }>;
 }
 
 export async function generateMetadata({ 
   params 
 }: LetterPageProps) {
-  const { letter } = params;
+  const { letter } = await params;
   const sanitizedLetter = letter.toLowerCase();
   
   if (!sanitizedLetter.match(/^[a-z]$/)) {
@@ -32,7 +32,7 @@ export async function generateMetadata({
 export default async function LetterPage({ 
   params 
 }: LetterPageProps) {
-  const { letter } = params;
+  const { letter } = await params;
   const sanitizedLetter = letter.toLowerCase();
   
   if (!sanitizedLetter.match(/^[a-z]$/)) {

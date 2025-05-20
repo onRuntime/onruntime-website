@@ -5,16 +5,16 @@ import { constructMetadata } from "@/lib/utils/metadata";
 import GlossaryEntryPage from '@/components/glossary/entry-page';
 
 interface TermPageProps {
-  params: {
+  params: Promise<{
     letter: string;
     term: string;
-  }
+  }>;
 }
 
 export async function generateMetadata({ 
   params 
 }: TermPageProps) {
-  const { letter, term } = params;
+  const { letter, term } = await params;
   const entry = await getGlossaryEntry(letter, term);
   
   if (!entry) {
@@ -33,7 +33,7 @@ export async function generateMetadata({
 export default async function TermPage({ 
   params 
 }: TermPageProps) {
-  const { letter, term } = params;
+  const { letter, term } = await params;
   const entry = await getGlossaryEntry(letter, term);
   
   if (!entry) {

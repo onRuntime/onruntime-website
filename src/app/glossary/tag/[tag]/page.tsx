@@ -5,15 +5,15 @@ import { constructMetadata } from "@/lib/utils/metadata";
 import GlossaryTagPage from '@/components/glossary/tag-page';
 
 interface TagPageProps {
-  params: {
+  params: Promise<{
     tag: string;
-  }
+  }>;
 }
 
 export async function generateMetadata({ 
   params 
 }: TagPageProps) {
-  const { tag } = params;
+  const { tag } = await params;
   const decodedTag = decodeURIComponent(tag);
   
   return constructMetadata({
@@ -25,7 +25,7 @@ export async function generateMetadata({
 export default async function TagPage({ 
   params 
 }: TagPageProps) {
-  const { tag } = params;
+  const { tag } = await params;
   const decodedTag = decodeURIComponent(tag);
   const entries = await getEntriesByTag(decodedTag);
   
