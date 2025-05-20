@@ -210,28 +210,30 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
           </div>
         </div>
 
-        <div className="space-y-8">
-          <h2 className="text-3xl font-semibold text-foreground text-center">
-            Galerie
-          </h2>
-          <div className="grid grid-cols-2 gap-8">
-            {project.screenshots.map((screenshot, index) => (
-              <div key={index} className="space-y-2">
-                <div className="relative aspect-video rounded-lg overflow-hidden">
-                  <Image
-                    src={screenshot.url}
-                    alt={screenshot.caption}
-                    fill
-                    className="object-cover"
-                  />
+        {project.screenshots && project.screenshots.length > 0 && (
+          <div className="space-y-8">
+            <h2 className="text-3xl font-semibold text-foreground text-center">
+              Galerie
+            </h2>
+            <div className="grid grid-cols-2 gap-8">
+              {project.screenshots.map((screenshot, index) => (
+                <div key={index} className="space-y-2">
+                  <div className="relative aspect-video rounded-lg overflow-hidden">
+                    <Image
+                      src={screenshot.url}
+                      alt={screenshot.caption}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <p className="text-sm text-muted-foreground text-center">
+                    {screenshot.caption}
+                  </p>
                 </div>
-                <p className="text-sm text-muted-foreground text-center">
-                  {screenshot.caption}
-                </p>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         <div className="space-y-8">
           <h2 className="text-3xl font-semibold text-foreground text-center">

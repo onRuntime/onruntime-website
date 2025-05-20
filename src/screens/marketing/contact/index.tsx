@@ -67,7 +67,7 @@ const ContactPage = () => {
       <LocalBusinessSchema />
       <main className="min-h-screen pt-32 pb-16">
         <div className="px-4 md:px-0 max-w-5xl mx-auto">
-          {/* Hero Section */}
+          
           <div className="relative max-w-2xl mx-auto flex flex-col items-center gap-6 text-center mb-16">
             <h1 className="font-semibold text-4xl md:text-5xl text-foreground">
               Discutons de votre projet
@@ -89,9 +89,8 @@ const ContactPage = () => {
             />
           </div>
 
-          {/* Contact Grid */}
           <div className="grid md:grid-cols-2 gap-12 items-start">
-            {/* Contact Form */}
+            
             <div className="bg-card rounded-lg p-6 border">
               <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
                 <div className="space-y-4">
@@ -164,7 +163,6 @@ const ContactPage = () => {
               </form>
             </div>
 
-            {/* Contact Info */}
             <div className="space-y-8">
               <div>
                 <h2 className="text-xl font-semibold text-foreground mb-4">

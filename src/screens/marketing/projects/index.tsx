@@ -83,10 +83,8 @@ const ProjectsPage = () => {
           </div>
         </div>
 
-        {/* Featured Projects Section */}
         <FeaturedProjects />
 
-        {/* Our Process Section - Great for SEO */}
         <div className="space-y-12">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
@@ -141,10 +139,8 @@ const ProjectsPage = () => {
           </div>
         </div>
 
-        {/* Studio Projects Section */}
         <StudioProjects />
 
-        {/* Client Testimonials - Good for Trust and SEO */}
         <div className="bg-card border rounded-lg p-12 space-y-8">
           <div className="text-center">
             <h2 className="text-2xl font-medium text-foreground mb-4">Ce que nos clients disent de nous</h2>
@@ -175,10 +171,8 @@ const ProjectsPage = () => {
           </div>
         </div>
 
-        {/* Client Projects Section */}
         <CustomerProjects />
 
-        {/* Industries We Serve - Great for SEO Targeting */}
         <div className="space-y-8">
           <div className="text-center">
             <h2 className="text-2xl font-medium text-foreground mb-4">
@@ -218,7 +212,6 @@ const ProjectsPage = () => {
           </div>
         </div>
 
-        {/* Why Choose Us - Important for Conversions and SEO */}
         <div className="space-y-8">
           <div className="text-center">
             <h2 className="text-2xl font-medium text-foreground mb-4">
@@ -260,7 +253,6 @@ const ProjectsPage = () => {
           </div>
         </div>
 
-        {/* CTA Section */}
         <div className="relative overflow-hidden rounded-lg border bg-card p-12">
           <Star className="absolute right-8 top-8 text-onruntime-blue/20 w-24 h-24 rotate-12" />
           <div className="max-w-2xl">

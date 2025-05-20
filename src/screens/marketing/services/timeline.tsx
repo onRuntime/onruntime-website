@@ -133,7 +133,7 @@ const ProjectTimeline = () => {
               key={index} 
               className={cn(
                 "flex gap-8",
-                // Sur mobile, on alterne les points à gauche et à droite
+                
                 index % 2 === 0 ? "flex-row" : "flex-row-reverse",
                 "group"
               )}
@@ -144,7 +144,7 @@ const ProjectTimeline = () => {
                 }}
                 className={cn(
                   "relative flex-none w-8 h-8 mt-2",
-                  // Ajout d'un décalage sur mobile aussi
+                  
                   index % 2 === 0 ? "ml-0" : "-ml-4",
                   "md:ml-0"
                 )}

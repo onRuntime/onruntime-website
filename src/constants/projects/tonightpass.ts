@@ -136,14 +136,14 @@ La plateforme met en relation les organisateurs d'événements et les participan
   ],
 
   screenshots: [
-    {
-      url: "/static/images/projects/tonightpass/screenshots/home.jpg",
-      caption: "Page d'accueil de l'application",
-    },
-    {
-      url: "/static/images/projects/tonightpass/screenshots/booking.jpg",
-      caption: "Processus de réservation",
-    },
+    // {
+    //   url: "/static/images/projects/tonightpass/screenshots/home.jpg",
+    //   caption: "Page d'accueil de l'application",
+    // },
+    // {
+    //   url: "/static/images/projects/tonightpass/screenshots/booking.jpg",
+    //   caption: "Processus de réservation",
+    // },
   ],
 
   challenges: [

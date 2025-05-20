@@ -4,15 +4,14 @@ import { Button } from "@/components/ui/button";
 import Routes from "@/constants/routes";
 import Services from "@/constants/services";
 import Projects from "@/constants/projects";
+import { getMajorAgencies } from "@/constants/agencies";
 import { OnRuntimeWordMark } from "@/logos/components";
 import Link from "next/link";
 import React, { useState, useRef, useEffect } from "react";
 import Navigation from "./navigation";
-import { ChevronDown, Menu } from "lucide-react";
+import { ChevronDown, Menu } from "lucide-react";   
 import { cn } from "@/lib/utils";
-// Remove the useResizeObserver import since we're implementing our own
 
-// Define types for navigation items
 interface SubNavItem {
   title: string;
   path: string;
@@ -30,49 +29,60 @@ interface NavItem {
   dropdown?: DropdownItem[];
 }
 
-// Navigation structure
-const navItems: NavItem[] = [
-  {
-    title: "Nos services",
-    path: Routes.services,
-    dropdown: Services.map((service) => ({
-      title: service.name,
-      path: Routes.service[service.id].root,
-      items: service.subServices.map((subService) => ({
-        title: subService.name,
-        path: subService.route,
-      })),
-    })),
-  },
-  {
-    title: "Nos projets",
-    path: Routes.unknown,
-    dropdown: Projects.slice(0, 5).map((project) => ({
-      title: project.name,
-      path: Routes.project(project.id),
-    })),
-  },
-  {
-    title: "L'association",
-    path: Routes.npo,
-  },
-];
-
 const Navbar: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [expandedSection, setExpandedSection] = useState<string | null>(null);
-  // Create a ref that's definitely not null to satisfy TypeScript
-  // Create ref for the navbar
+  
   const navRef = useRef<HTMLDivElement>(null);
 
-  // Create a state to track the width manually since useResizeObserver has type issues with React 19
   const [navWidth, setNavWidth] = useState<number | undefined>(undefined);
 
-  // Set up our own resize observer
+  const majorAgencies = getMajorAgencies(5);
+
+  const navItems: NavItem[] = [
+    {
+      title: "Nos services",
+      path: Routes.services,
+      dropdown: Services.map((service) => ({
+        title: service.name,
+        path: Routes.service[service.id].root,
+        items: service.subServices.map((subService) => ({
+          title: subService.name,
+          path: subService.route,
+        })),
+      })),
+    },
+    {
+      title: "Nos projets",
+      path: Routes.unknown,
+      dropdown: Projects.slice(0, 5).map((project) => ({
+        title: project.name,
+        path: Routes.project(project.id),
+      })),
+    },
+    {
+      title: "Nos agences",
+      path: Routes.agency.root,
+      dropdown: [
+        {
+          title: "Toutes nos agences",
+          path: Routes.agency.root,
+        },
+        ...majorAgencies.map(agency => ({
+          title: `Agence ${agency.name}`,
+          path: Routes.agency.city(agency.id),
+        })),
+      ],
+    },
+    {
+      title: "L'association",
+      path: Routes.npo,
+    },
+  ];
+
   useEffect(() => {
     if (!navRef.current) return;
 
-    // Create ResizeObserver instance
     const resizeObserver = new ResizeObserver((entries) => {
       for (const entry of entries) {
         const { width } = entry.contentRect;
@@ -80,16 +90,13 @@ const Navbar: React.FC = () => {
       }
     });
 
-    // Start observing
     resizeObserver.observe(navRef.current);
 
-    // Clean up
     return () => {
       resizeObserver.disconnect();
     };
   }, []);
 
-  // Close the mobile menu when screen size changes to desktop
   useEffect(() => {
     if (navWidth && navWidth >= 768 && mobileMenuOpen) {
       setMobileMenuOpen(false);
@@ -121,7 +128,7 @@ const Navbar: React.FC = () => {
           "flex flex-col bg-background/50 rounded-lg shadow-xs backdrop-blur-2xl transition-all duration-300"
         }
       >
-        {/* Main navigation bar */}
+        
         <div className="flex justify-between items-center p-2.5">
           <Link href={Routes.landing.visitor} onClick={closeMenu}>
             <OnRuntimeWordMark className="h-6" height={24} />
@@ -149,7 +156,6 @@ const Navbar: React.FC = () => {
           </div>
         </div>
 
-        {/* Mobile navigation menu */}
         {mobileMenuOpen && (
           <div className="px-3 flex flex-col space-y-4 md:hidden max-h-[calc(100vh-100px)] overflow-y-auto pb-4">
             {navItems.map((item) => (

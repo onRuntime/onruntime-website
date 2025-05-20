@@ -47,38 +47,32 @@ export interface Project {
   tags: Tag[];
   shortDescription: string;
   description: string;
-  longDescription: string; // Description détaillée du projet
+  longDescription: string; 
   iconUrl: string;
   showcaseUrl: string;
   thumbnailUrl: string;
-  
-  // Informations détaillées
-  website?: string; // URL du projet
-  repository?: string; // URL du repo GitHub
-  startDate: string; // Date de début du projet
+
+  website?: string; 
+  repository?: string; 
+  startDate: string; 
   status: "active" | "completed" | "archived";
-  
-  // Sections riches
+
   features: Feature[];
   technologies: Technology[];
   metrics: Metric[];
-  
-  // Équipe et témoignages
+
   team: ProjectTeamMember[];
   testimonials?: Testimonial[];
-  
-  // Galerie
+
   screenshots: Array<{
     url: string;
     caption: string;
   }>;
-  
-  // Processus et documentation
-  challenges: string[]; // Défis rencontrés et solutions
-  learnings: string[]; // Apprentissages clés
-  futurePlans?: string[]; // Plans futurs pour le projet
-  
-  // Articles et ressources liés
+
+  challenges: string[]; 
+  learnings: string[]; 
+  futurePlans?: string[]; 
+
   resources?: Array<{
     type: "article" | "video" | "documentation";
     title: string;
