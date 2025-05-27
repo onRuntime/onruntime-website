@@ -8,7 +8,7 @@ const contentPath = "legal/terms"
 export async function generateMetadata(): Promise<Metadata> {
   const { frontmatter } = await getPageContent(contentPath)
   return constructMetadata({
-    title: `${frontmatter.title} | onRuntime Studio`,
+    title: `${frontmatter.title}`,
     description: frontmatter.description,
   })
 }

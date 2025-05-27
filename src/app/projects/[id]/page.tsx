@@ -17,7 +17,7 @@ export async function generateMetadata({
 
   if (!project) {
     return constructMetadata({
-      title: "Projet non trouvé | onRuntime Studio",
+      title: "Projet non trouvé",
       description: "Ce projet n'existe pas.",
     });
   }
