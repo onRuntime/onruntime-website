@@ -100,7 +100,7 @@ const NPOPage: React.FC = () => {
         <div className="px-4 md:px-0 max-w-5xl mx-auto space-y-32 w-full">
           
           <div className="relative max-w-2xl mx-auto flex flex-col items-center gap-6 text-center mb-24">
-            <h1 className="font-semibold text-4xl md:text-5xl text-foreground">
+            <h1 className="font-medium text-4xl md:text-5xl text-foreground">
               L&apos;Association onRuntime Studio
             </h1>
 
