@@ -25,7 +25,9 @@ const NavigationAgencies: React.FC = () => {
 
   return (
     <NavigationMenuItem>
-      <NavigationMenuTrigger>Nos agences</NavigationMenuTrigger>
+      <Link href={Routes.agency.root}>
+        <NavigationMenuTrigger>Nos agences</NavigationMenuTrigger>
+      </Link>
 
       <NavigationMenuContent>
         <div className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-[200px_1fr] lg:w-[800px] lg:grid-cols-[250px_1fr]">
