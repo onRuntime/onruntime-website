@@ -41,7 +41,10 @@ const NavigationServices: React.FC = () => {
 
   return (
     <NavigationMenuItem>
-      <NavigationMenuTrigger>Nos services</NavigationMenuTrigger>
+      <Link href={Routes.services}>
+        <NavigationMenuTrigger>Nos services</NavigationMenuTrigger>
+      </Link>
+      
 
       <NavigationMenuContent>
         <div className="grid w-full md:w-[600px] lg:w-[800px] grid-cols-1 md:grid-cols-[200px_1fr] lg:grid-cols-[200px_1fr] gap-3 p-4">

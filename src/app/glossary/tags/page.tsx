@@ -6,7 +6,7 @@ import { getAllTags } from "@/lib/glossary";
 import { constructMetadata } from "@/lib/utils/metadata";
 
 export const metadata = constructMetadata({
-  title: "Tags du glossaire | onRuntime Studio",
+  title: "Tags du glossaire",
   description: "Explorez les différentes catégories de termes disponibles dans notre glossaire technique.",
 });
 

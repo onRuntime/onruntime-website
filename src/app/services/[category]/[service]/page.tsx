@@ -28,14 +28,14 @@ export async function generateMetadata({ params }: Props) {
   
   if (!categoryData || !subService) {
     return constructMetadata({
-      title: "Service non trouvé | onRuntime Studio",
+      title: "Service non trouvé",
       description: "Ce service n'existe pas.",
       noIndex: true,
     });
   }
   
   return constructMetadata({
-    title: `${subService.name} | ${categoryData.name} | onRuntime Studio`,
+    title: `${subService.name} | ${categoryData.name}`,
     description: subService.description,
   });
 }
