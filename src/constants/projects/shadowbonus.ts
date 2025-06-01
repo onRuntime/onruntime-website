@@ -15,7 +15,7 @@ Notre approche s'est concentrée sur une expérience utilisateur fluide permetta
   
   iconUrl: "/static/images/projects/shadowbonus/icon.jpg",
   showcaseUrl: "/static/images/projects/shadowbonus/showcase.webp",
-  thumbnailUrl: "/static/images/projects/shadowbonus/thumbnail.jpg",
+  thumbnailUrl: "/static/images/projects/shadowbonus/thumbnail.webp",
   website: "https://shadowbonus.com",
   repository: undefined,
   startDate: "2021-05",
