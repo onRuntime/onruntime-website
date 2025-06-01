@@ -1,5 +1,5 @@
 import { Project, Tag } from "@/types/project";
-import { Building2, Globe, MapPin, Plane, Shield, Users, CreditCard, Smartphone, Phone, Map } from "lucide-react";
+import { Building2, Globe, Plane, Shield, Users, CreditCard, Smartphone } from "lucide-react";
 
 export const expatFacilitiesProject: Project = {
   id: "expatfacilities",
