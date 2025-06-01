@@ -172,35 +172,7 @@ const backendCategory: ServiceCategoryData = {
           answer: "Oui, nous proposons plusieurs formules de maintenance incluant : monitoring 24/7, support technique, optimisation continue des performances, mises à jour de sécurité et évolutions fonctionnelles."
         }
       ],
-      testimonials: [
-        {
-          content: "Une API robuste qui nous permet de gérer des millions de requêtes quotidiennes en toute sérénité.",
-          author: {
-            name: "Alexandre Martin",
-            role: "CTO",
-            company: "DataFlow",
-            image: "/static/images/testimonials/alexandre-martin.jpg"
-          }
-        },
-        {
-          content: "La qualité de la documentation et le support technique sont exceptionnels.",
-          author: {
-            name: "Sarah Dubois",
-            role: "Lead Developer",
-            company: "TechPro",
-            image: "/static/images/testimonials/sarah-dubois.jpg"
-          }
-        },
-        {
-          content: "Une architecture API qui nous a permis de multiplier notre croissance par 10.",
-          author: {
-            name: "Marc Lambert",
-            role: "Product Director",
-            company: "ScaleUp",
-            image: "/static/images/testimonials/marc-lambert.jpg"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Analytics avancés",
@@ -293,35 +265,7 @@ const backendCategory: ServiceCategoryData = {
           answer: "Nous mettons en place des architectures hautement disponibles avec réplication, clustering, et plans de reprise d'activité. Nous effectuons des sauvegardes régulières et testons les procédures de restauration."
         }
       ],
-      testimonials: [
-        {
-          content: "L'optimisation de notre base de données a réduit nos temps de réponse de 80%.",
-          author: {
-            name: "Thomas Weber",
-            role: "Lead DBA",
-            company: "DataScale",
-            image: "/static/images/testimonials/thomas-weber.jpg"
-          }
-        },
-        {
-          content: "Une architecture qui nous permet de gérer des millions d'enregistrements sans effort.",
-          author: {
-            name: "Julie Martin",
-            role: "CTO",
-            company: "BigData Solutions",
-            image: "/static/images/testimonials/julie-martin.jpg"
-          }
-        },
-        {
-          content: "La migration de notre base de données s'est déroulée sans aucune interruption de service.",
-          author: {
-            name: "Pierre Dubois",
-            role: "Directeur Technique",
-            company: "TechFlow",
-            image: "/static/images/testimonials/pierre-dubois.jpg"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Migration de données",
@@ -414,35 +358,7 @@ const backendCategory: ServiceCategoryData = {
           answer: "Oui, nous proposons plusieurs formules de maintenance incluant : surveillance 24/7, mises à jour régulières, support technique, et évolutions fonctionnelles selon vos besoins."
         }
       ],
-      testimonials: [
-        {
-          content: "Notre bot Discord a transformé la gestion de notre communauté gaming.",
-          author: {
-            name: "Lucas Bernard",
-            role: "Community Manager",
-            company: "GamersWorld",
-            image: "/static/images/testimonials/lucas-bernard.jpg"
-          }
-        },
-        {
-          content: "L'automatisation Slack a boosté la productivité de notre équipe.",
-          author: {
-            name: "Marie Dubois",
-            role: "Product Owner",
-            company: "TechFlow",
-            image: "/static/images/testimonials/marie-dubois.jpg"
-          }
-        },
-        {
-          content: "Un bot fiable qui gère parfaitement notre support client 24/7.",
-          author: {
-            name: "Antoine Martin",
-            role: "Support Lead",
-            company: "CustomerFirst",
-            image: "/static/images/testimonials/antoine-martin.jpg"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Analytics",
@@ -535,35 +451,7 @@ const backendCategory: ServiceCategoryData = {
           answer: "Oui, nous proposons des formations complètes pour vos équipes : principes des microservices, bonnes pratiques de développement, monitoring et troubleshooting, et utilisation des outils DevOps."
         }
       ],
-      testimonials: [
-        {
-          content: "La transition vers les microservices nous a permis de multiplier notre capacité de traitement par 10.",
-          author: {
-            name: "Philippe Laurent",
-            role: "CTO",
-            company: "ScaleOps",
-            image: "/static/images/testimonials/philippe-laurent.jpg"
-          }
-        },
-        {
-          content: "Une architecture qui nous permet d'évoluer sereinement avec notre croissance.",
-          author: {
-            name: "Sophie Martin",
-            role: "Lead Architect",
-            company: "CloudScale",
-            image: "/static/images/testimonials/sophie-martin.jpg"
-          }
-        },
-        {
-          content: "La modularité des microservices a transformé notre façon de développer.",
-          author: {
-            name: "Thomas Durand",
-            role: "VP Engineering",
-            company: "TechFlow",
-            image: "/static/images/testimonials/thomas-durand.jpg"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "DevOps & CI/CD",
@@ -656,35 +544,7 @@ const backendCategory: ServiceCategoryData = {
           answer: "Oui, nous proposons plusieurs niveaux de support incluant : monitoring 24/7, alerting automatique, intervention rapide en cas d'incident, maintenance préventive, et support technique dédié."
         }
       ],
-      testimonials: [
-        {
-          content: "La migration vers le cloud nous a permis de réduire nos coûts d'infrastructure de 40%.",
-          author: {
-            name: "David Martin",
-            role: "CTO",
-            company: "CloudScale",
-            image: "/static/images/testimonials/david-martin.jpg"
-          }
-        },
-        {
-          content: "Une expertise qui nous a permis de migrer sans interruption de service.",
-          author: {
-            name: "Claire Dubois",
-            role: "DevOps Lead",
-            company: "TechFlow",
-            image: "/static/images/testimonials/claire-dubois.jpg"
-          }
-        },
-        {
-          content: "Notre infrastructure cloud nous offre enfin la flexibilité dont nous avions besoin.",
-          author: {
-            name: "Marc Lambert",
-            role: "IT Director",
-            company: "DataFirst",
-            image: "/static/images/testimonials/marc-lambert.jpg"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Migration cloud",

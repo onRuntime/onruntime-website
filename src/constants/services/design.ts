@@ -166,35 +166,7 @@ const designCategory: ServiceCategoryData = {
           answer: "La création d'un moodboard professionnel prend généralement 1 à 2 semaines, incluant la phase de recherche, la création initiale et les itérations basées sur vos retours. Ce temps nous permet d'explorer en profondeur et d'affiner la direction artistique."
         }
       ],
-      testimonials: [
-        {
-          content: "Le moodboard a parfaitement capturé l'essence de notre marque et guidé toute notre identité visuelle.",
-          author: {
-            name: "Marie Laurent",
-            role: "Directrice Artistique",
-            company: "Studio Créatif",
-            image: "/static/images/testimonials/marie-laurent.webp"
-          }
-        },
-        {
-          content: "Une exploration visuelle qui nous a permis de définir clairement notre direction artistique.",
-          author: {
-            name: "Thomas Moreau",
-            role: "Fondateur",
-            company: "Brand New",
-            image: "/static/images/testimonials/thomas-moreau.webp"
-          }
-        },
-        {
-          content: "Un outil précieux qui a unifié la vision de toute notre équipe créative.",
-          author: {
-            name: "Sophie Martin",
-            role: "Creative Lead",
-            company: "Design Factory",
-            image: "/static/images/testimonials/sophie-martin.webp"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Charte graphique",
@@ -287,35 +259,7 @@ const designCategory: ServiceCategoryData = {
           answer: "La durée dépend de la complexité du projet, mais généralement 2 à 4 semaines pour un projet moyen, incluant les phases d'analyse, création, itérations et finalisation. Nous établissons un planning détaillé au début du projet."
         }
       ],
-      testimonials: [
-        {
-          content: "Les wireframes nous ont permis d'optimiser notre parcours utilisateur avant même de commencer le design.",
-          author: {
-            name: "Julie Dubois",
-            role: "Product Owner",
-            company: "UX Vision",
-            image: "/static/images/testimonials/julie-dubois.jpg"
-          }
-        },
-        {
-          content: "Une étape cruciale qui a considérablement réduit nos coûts de développement.",
-          author: {
-            name: "Pierre Martin",
-            role: "CTO",
-            company: "AppFlow",
-            image: "/static/images/testimonials/pierre-martin.jpg"
-          }
-        },
-        {
-          content: "La qualité des wireframes a facilité la communication avec toute l'équipe.",
-          author: {
-            name: "Sarah Lambert",
-            role: "UX Designer",
-            company: "DigitalFirst",
-            image: "/static/images/testimonials/sarah-lambert.jpg"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Audit UX",
@@ -408,35 +352,7 @@ const designCategory: ServiceCategoryData = {
           answer: "Nous fournissons des spécifications détaillées pour chaque composant, incluant les mesures, les styles, les états et les interactions. Nous utilisons également des outils comme Zeplin ou les exports Figma pour faciliter l'intégration."
         }
       ],
-      testimonials: [
-        {
-          content: "Le nouveau design de notre application a considérablement amélioré l'engagement de nos utilisateurs.",
-          author: {
-            name: "Mathilde Laurent",
-            role: "Product Manager",
-            company: "AppLife",
-            image: "/static/images/testimonials/mathilde-laurent.webp"
-          }
-        },
-        {
-          content: "Un design moderne qui a transformé l'image de notre marque.",
-          author: {
-            name: "Antoine Dubois",
-            role: "Directeur Marketing",
-            company: "BrandNew",
-            image: "/static/images/testimonials/antoine-dubois.webp"
-          }
-        },
-        {
-          content: "La qualité des maquettes a facilité le travail de nos développeurs.",
-          author: {
-            name: "Claire Martin",
-            role: "Lead Developer",
-            company: "TechFlow",
-            image: "/static/images/testimonials/claire-martin.webp"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Design system",
@@ -529,35 +445,7 @@ const designCategory: ServiceCategoryData = {
           answer: "Nous fournissons un plan de déploiement progressif qui guide la transition vers la nouvelle identité. Cela inclut des recommandations pour la communication interne et externe, et un calendrier de mise en œuvre."
         }
       ],
-      testimonials: [
-        {
-          content: "Notre nouvelle identité visuelle a transformé la perception de notre marque sur le marché.",
-          author: {
-            name: "Émilie Robert",
-            role: "Directrice Marketing",
-            company: "BrandNew",
-            image: "/static/images/testimonials/emilie-robert.webp"
-          }
-        },
-        {
-          content: "Une identité qui reflète parfaitement nos valeurs et résonne avec notre audience.",
-          author: {
-            name: "Lucas Dupont",
-            role: "Fondateur",
-            company: "StartupVision",
-            image: "/static/images/testimonials/lucas-dupont.webp"
-          }
-        },
-        {
-          content: "La cohérence de notre marque a considérablement renforcé notre crédibilité.",
-          author: {
-            name: "Marie Lambert",
-            role: "Directrice Communication",
-            company: "InnoGroup",
-            image: "/static/images/testimonials/marie-lambert.webp"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Marketing Kit",
@@ -650,35 +538,7 @@ const designCategory: ServiceCategoryData = {
           answer: "Oui, nous proposons un accompagnement pour la mise en œuvre des recommandations, incluant : priorisation des actions, support dans l'implémentation, et mesure des résultats. Nous pouvons également réaliser des audits de suivi."
         }
       ],
-      testimonials: [
-        {
-          content: "L'audit a révélé des problèmes critiques que nous n'avions pas identifiés et nous a permis d'augmenter nos conversions de 45%.",
-          author: {
-            name: "Thomas Leroux",
-            role: "Product Owner",
-            company: "E-Commerce Plus",
-            image: "/static/images/testimonials/thomas-leroux.webp"
-          }
-        },
-        {
-          content: "Les recommandations concrètes nous ont permis d'améliorer significativement l'expérience de nos utilisateurs.",
-          author: {
-            name: "Sophie Martin",
-            role: "UX Designer",
-            company: "AppSolution",
-            image: "/static/images/testimonials/sophie-martin.webp"
-          }
-        },
-        {
-          content: "Un audit complet qui nous a fourni une feuille de route claire pour nos améliorations.",
-          author: {
-            name: "Laurent Dubois",
-            role: "Directeur Digital",
-            company: "WebAgency",
-            image: "/static/images/testimonials/laurent-dubois.webp"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Tests utilisateurs",

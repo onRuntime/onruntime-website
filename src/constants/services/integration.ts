@@ -162,35 +162,7 @@ const integrationCategory: ServiceCategoryData = {
           answer: "Nous mettons en place les meilleures pratiques de sécurité : SSL, conformité PCI DSS, sauvegardes régulières, et protection contre les fraudes. Shopify assure également une sécurité de niveau bancaire pour toutes les transactions."
         }
       ],
-      testimonials: [
-        {
-          content: "L'équipe d'onRuntime a transformé notre vision en une boutique en ligne performante qui dépasse nos attentes.",
-          author: {
-            name: "Sophie Martin",
-            role: "Fondatrice",
-            company: "Maison Élégance",
-            image: "/static/images/testimonials/sophie-martin.jpg"
-          }
-        },
-        {
-          content: "Un véritable partenariat qui nous a permis de multiplier nos ventes en ligne par 3 en seulement 6 mois.",
-          author: {
-            name: "Thomas Dubois",
-            role: "Directeur E-commerce",
-            company: "SportStyle",
-            image: "/static/images/testimonials/thomas-dubois.jpg"
-          }
-        },
-        {
-          content: "Leur expertise Shopify nous a permis de créer une expérience client unique et mémorable.",
-          author: {
-            name: "Marie Lambert",
-            role: "CEO",
-            company: "Bio & Co",
-            image: "/static/images/testimonials/marie-lambert.jpg"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Référencement SEO",
@@ -283,35 +255,7 @@ const integrationCategory: ServiceCategoryData = {
           answer: "Nous mettons en place une stratégie de sécurité complète : authentification forte, pare-feu applicatif, monitoring des tentatives d'intrusion, sauvegardes automatisées et mises à jour de sécurité régulières."
         }
       ],
-      testimonials: [
-        {
-          content: "L'équipe d'onRuntime a créé un site qui dépasse toutes nos attentes, avec une administration vraiment intuitive.",
-          author: {
-            name: "Pierre Durand",
-            role: "Directeur",
-            company: "Agence Créative",
-            image: "/static/images/testimonials/pierre-durand.jpg"
-          }
-        },
-        {
-          content: "Notre nouveau site WordPress nous a permis d'augmenter significativement notre visibilité en ligne.",
-          author: {
-            name: "Marie Robert",
-            role: "Responsable Marketing",
-            company: "Design Studio",
-            image: "/static/images/testimonials/marie-robert.jpg"
-          }
-        },
-        {
-          content: "Un accompagnement professionnel et des résultats qui parlent d'eux-mêmes.",
-          author: {
-            name: "Lucas Martin",
-            role: "Fondateur",
-            company: "Digital Solutions",
-            image: "/static/images/testimonials/lucas-martin.jpg"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Développement sur mesure",
@@ -404,35 +348,7 @@ const integrationCategory: ServiceCategoryData = {
           answer: "Webflow génère un code propre et optimisé pour le SEO. Nous mettons en place les meilleures pratiques de référencement pour maximiser votre visibilité sur les moteurs de recherche."
         }
       ],
-      testimonials: [
-        {
-          content: "Notre site Webflow nous a permis de nous démarquer avec un design unique et des animations impressionnantes.",
-          author: {
-            name: "Sarah Dubois",
-            role: "Directrice Artistique",
-            company: "Studio Créatif",
-            image: "/static/images/testimonials/sarah-dubois.jpg"
-          }
-        },
-        {
-          content: "La flexibilité de Webflow nous permet de mettre à jour notre site facilement tout en gardant un design professionnel.",
-          author: {
-            name: "Marc Laurent",
-            role: "CEO",
-            company: "Tech Innovate",
-            image: "/static/images/testimonials/marc-laurent.jpg"
-          }
-        },
-        {
-          content: "L'équipe d'onRuntime a créé une expérience web unique qui représente parfaitement notre marque.",
-          author: {
-            name: "Julie Martin",
-            role: "Responsable Marketing",
-            company: "Design Lab",
-            image: "/static/images/testimonials/julie-martin.jpg"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Intégrations personnalisées",
@@ -525,35 +441,7 @@ const integrationCategory: ServiceCategoryData = {
           answer: "Oui, nous proposons différentes formules de maintenance incluant les mises à jour, le support technique et l'optimisation continue de votre site Squarespace."
         }
       ],
-      testimonials: [
-        {
-          content: "Notre site Squarespace présente parfaitement notre portfolio avec un design épuré et professionnel.",
-          author: {
-            name: "Claire Dubois",
-            role: "Photographe",
-            company: "Studio Lumière",
-            image: "/static/images/testimonials/claire-dubois.jpg"
-          }
-        },
-        {
-          content: "La simplicité de gestion nous permet de nous concentrer sur notre activité tout en ayant un site magnifique.",
-          author: {
-            name: "Antoine Martin",
-            role: "Fondateur",
-            company: "Concept Store",
-            image: "/static/images/testimonials/antoine-martin.jpg"
-          }
-        },
-        {
-          content: "L'équipe d'onRuntime a su personnaliser Squarespace pour créer un site unique qui nous ressemble.",
-          author: {
-            name: "Sophie Lambert",
-            role: "Directrice Artistique",
-            company: "Design & Co",
-            image: "/static/images/testimonials/sophie-lambert.jpg"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Personnalisation avancée",
@@ -646,35 +534,7 @@ const integrationCategory: ServiceCategoryData = {
           answer: "Nous proposons différentes formules de maintenance incluant les mises à jour de sécurité, les sauvegardes, l'optimisation des performances et le support technique."
         }
       ],
-      testimonials: [
-        {
-          content: "Notre boutique PrestaShop nous permet de gérer efficacement des milliers de produits et de commandes chaque mois.",
-          author: {
-            name: "Philippe Martin",
-            role: "Directeur E-commerce",
-            company: "Mode Express",
-            image: "/static/images/testimonials/philippe-martin.jpg"
-          }
-        },
-        {
-          content: "La migration vers PrestaShop a boosté nos ventes en ligne grâce à une meilleure expérience client.",
-          author: {
-            name: "Marie Durand",
-            role: "Gérante",
-            company: "Boutique Tendance",
-            image: "/static/images/testimonials/marie-durand.jpg"
-          }
-        },
-        {
-          content: "L'équipe d'onRuntime a créé une boutique sur mesure qui répond parfaitement à nos besoins spécifiques.",
-          author: {
-            name: "Laurent Bernard",
-            role: "Fondateur",
-            company: "Tech Store",
-            image: "/static/images/testimonials/laurent-bernard.jpg"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Modules sur mesure",
@@ -767,35 +627,7 @@ const integrationCategory: ServiceCategoryData = {
           answer: "Oui, nous développons des plugins Strapi sur mesure pour étendre les fonctionnalités selon vos besoins : intégrations spécifiques, workflows personnalisés, interfaces d'administration dédiées, etc."
         }
       ],
-      testimonials: [
-        {
-          content: "Strapi nous permet de gérer efficacement le contenu de notre application mobile et de notre site web depuis une seule interface.",
-          author: {
-            name: "Alexandre Dupont",
-            role: "CTO",
-            company: "Digital Solutions",
-            image: "/static/images/testimonials/alexandre-dupont.jpg"
-          }
-        },
-        {
-          content: "La flexibilité de Strapi nous a permis de créer une architecture de contenu parfaitement adaptée à nos besoins.",
-          author: {
-            name: "Sophie Bernard",
-            role: "Chef de Projet Digital",
-            company: "Media Group",
-            image: "/static/images/testimonials/sophie-bernard.jpg"
-          }
-        },
-        {
-          content: "L'équipe d'onRuntime a développé des plugins Strapi sur mesure qui ont grandement amélioré notre productivité.",
-          author: {
-            name: "Thomas Martin",
-            role: "Responsable Technique",
-            company: "Tech Innovation",
-            image: "/static/images/testimonials/thomas-martin.jpg"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Développement frontend",

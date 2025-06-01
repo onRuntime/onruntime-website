@@ -167,35 +167,7 @@ const frontendCategory: ServiceCategoryData = {
           answer: "Oui, nous proposons différentes formules de maintenance incluant les mises à jour de sécurité, l'optimisation continue des performances, et l'évolution des fonctionnalités."
         }
       ],
-      testimonials: [
-        {
-          content: "L'équipe d'onRuntime a développé une interface moderne et performante qui a transformé l'expérience de nos utilisateurs.",
-          author: {
-            name: "Marion Dubois",
-            role: "Product Owner",
-            company: "Tech Solutions",
-            image: "/static/images/testimonials/marion-dubois.jpg"
-          }
-        },
-        {
-          content: "La refonte de notre application web a considérablement amélioré nos conversions et la satisfaction client.",
-          author: {
-            name: "Lucas Martin",
-            role: "Directeur Marketing",
-            company: "E-Commerce Plus",
-            image: "/static/images/testimonials/lucas-martin.jpg"
-          }
-        },
-        {
-          content: "Un développement frontend de qualité qui allie performance et esthétique.",
-          author: {
-            name: "Julie Lambert",
-            role: "CEO",
-            company: "Digital Agency",
-            image: "/static/images/testimonials/julie-lambert.jpg"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Design UI/UX",
@@ -288,35 +260,7 @@ const frontendCategory: ServiceCategoryData = {
           answer: "Oui, nous proposons différentes formules de maintenance incluant : monitoring des performances, corrections de bugs, mises à jour de sécurité et évolutions fonctionnelles."
         }
       ],
-      testimonials: [
-        {
-          content: "Notre application React Native offre une expérience utilisateur exceptionnelle sur iOS et Android.",
-          author: {
-            name: "Thomas Leroux",
-            role: "CPO",
-            company: "MobileFirst",
-            image: "/static/images/testimonials/thomas-leroux.jpg"
-          }
-        },
-        {
-          content: "La qualité du développement nous a permis d'obtenir d'excellentes notes sur les stores.",
-          author: {
-            name: "Emma Martin",
-            role: "Directrice Produit",
-            company: "AppInnovation",
-            image: "/static/images/testimonials/emma-martin.jpg"
-          }
-        },
-        {
-          content: "Une seule équipe pour iOS et Android, avec des performances natives impressionnantes.",
-          author: {
-            name: "Nicolas Durand",
-            role: "CTO",
-            company: "TechMobile",
-            image: "/static/images/testimonials/nicolas-durand.jpg"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Publication Store",
@@ -409,35 +353,7 @@ const frontendCategory: ServiceCategoryData = {
           answer: "Oui, nous proposons plusieurs formules de maintenance incluant : support technique, correction de bugs, mises à jour de sécurité, optimisations de performance et évolutions fonctionnelles."
         }
       ],
-      testimonials: [
-        {
-          content: "Notre application desktop nous permet d'offrir une expérience professionnelle à nos utilisateurs sur tous les systèmes.",
-          author: {
-            name: "Laurent Dupont",
-            role: "Directeur Technique",
-            company: "DesktopPro",
-            image: "/static/images/testimonials/laurent-dupont.jpg"
-          }
-        },
-        {
-          content: "La performance et la fiabilité de notre application ont dépassé nos attentes.",
-          author: {
-            name: "Caroline Martin",
-            role: "Product Owner",
-            company: "SoftSolutions",
-            image: "/static/images/testimonials/caroline-martin.jpg"
-          }
-        },
-        {
-          content: "Une solution desktop moderne qui combine puissance et facilité d'utilisation.",
-          author: {
-            name: "Michel Bernard",
-            role: "CEO",
-            company: "AppStudio",
-            image: "/static/images/testimonials/michel-bernard.jpg"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Télémétrie",
@@ -530,35 +446,7 @@ const frontendCategory: ServiceCategoryData = {
           answer: "Oui, nous proposons plusieurs formules de maintenance incluant : mises à jour de sécurité, optimisations de performance, ajout de fonctionnalités et support technique."
         }
       ],
-      testimonials: [
-        {
-          content: "Notre PWA nous a permis d'augmenter significativement l'engagement de nos utilisateurs mobiles.",
-          author: {
-            name: "Sophie Martinez",
-            role: "Directrice Digital",
-            company: "WebInnovation",
-            image: "/static/images/testimonials/sophie-martinez.jpg"
-          }
-        },
-        {
-          content: "Une solution idéale qui combine les avantages du web et du mobile natif.",
-          author: {
-            name: "Pierre Dubois",
-            role: "CTO",
-            company: "AppFuture",
-            image: "/static/images/testimonials/pierre-dubois.jpg"
-          }
-        },
-        {
-          content: "Le mode hors ligne a transformé l'expérience de nos utilisateurs en déplacement.",
-          author: {
-            name: "Marie Leroy",
-            role: "Product Manager",
-            company: "MobileFirst",
-            image: "/static/images/testimonials/marie-leroy.jpg"
-          }
-        }
-      ],
+      testimonials: [],
       complementaryServices: [
         {
           title: "Analytics avancés",
