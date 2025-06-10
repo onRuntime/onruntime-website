@@ -9,7 +9,8 @@ import ContactCTA from '@/components/marketing/agency/contact-cta';
 import { getAgencyById } from '@/constants/agencies';
 import { LocalBusinessSchema } from '@/components/json-ld/localbusiness-schema';
 import { BreadcrumbSchema } from '@/components/json-ld/breadcrumb-schema';
-import { FAQPageSchema } from '@/components/json-ld/faqpage-schema'; 
+import { FAQPageSchema } from '@/components/json-ld/faqpage-schema';
+import FAQSection from '@/components/marketing/services/faq-section';
 import Routes from '@/constants/routes';
 
 type AgencyPageProps = {
@@ -171,25 +172,14 @@ export default async function CityPage({ params }: AgencyPageProps) {
         
         <LocalPortfolio agency={agency} />
 
-        <div className="space-y-8">
-          <div className="text-center">
-            <h2 className="text-3xl font-medium text-foreground mb-4">
-              Questions fréquentes sur les projets web à {agency.name}
-            </h2>
-            <p className="text-muted-foreground max-w-3xl mx-auto">
-              Découvrez les réponses aux questions les plus courantes des entreprises de {agency.name} concernant leurs projets digitaux.
-            </p>
-          </div>
-
-          <div className="space-y-4">
-            {faqItems.map((faq, index) => (
-              <div key={index} className="p-6 border rounded-lg bg-card">
-                <h3 className="text-lg font-medium text-foreground mb-2">{faq.questionName}</h3>
-                <p className="text-muted-foreground">{faq.acceptedAnswerText}</p>
-              </div>
-            ))}
-          </div>
-        </div>
+        <FAQSection
+          title={`Questions fréquentes sur les projets web à ${agency.name}`}
+          description={`Découvrez les réponses aux questions les plus courantes des entreprises de ${agency.name} concernant leurs projets digitaux.`}
+          items={faqItems.map(faq => ({
+            question: faq.questionName,
+            answer: faq.acceptedAnswerText
+          }))}
+        />
 
         {agency.testimonials && agency.testimonials.length > 0 && (
           <div className="space-y-8">
