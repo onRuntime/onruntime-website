@@ -100,18 +100,26 @@ export const CustomerProjects = () => {
       </div>
       
       {hasCustomerProjects ? (
-        <div className="flex flex-wrap gap-5 justify-center sm:justify-start">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {customerProjects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
       ) : (
         <div className="flex justify-center py-12">
-          <p className="text-center text-muted-foreground max-w-lg">
-            Nos projets clients sont en cours de préparation. 
-            Contactez-nous pour en savoir plus sur nos réalisations 
-            ou pour discuter de votre projet.
-          </p>
+          <div className="text-center max-w-lg">
+            <p className="text-muted-foreground mb-6">
+              Nos projets clients sont en cours de préparation. 
+              Contactez-nous pour en savoir plus sur nos réalisations 
+              ou pour discuter de votre projet.
+            </p>
+            <Link href={Routes.contact}>
+              <Button variant="outline">
+                Discuter de votre projet
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
+          </div>
         </div>
       )}
     </div>
