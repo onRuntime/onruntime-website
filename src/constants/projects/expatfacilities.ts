@@ -15,13 +15,12 @@ La plateforme intégrait de multiples APIs partenaires pour offrir une expérien
 
 Le défi technique principal était l'orchestration de dizaines d'APIs tierces pour créer une expérience utilisateur fluide et cohérente, tout en gérant les complexités des paiements internationaux et du matching entre étudiants et ambassadeurs locaux.`,
   iconUrl: "/static/images/projects/expatfacilities/icon.webp",
-  showcaseUrl: "/static/images/projects/expatfacilities/showcase.jpg",
-  thumbnailUrl: "/static/images/projects/expatfacilities/thumbnail.jpg",
+  showcaseUrl: "/static/images/projects/expatfacilities/showcase.webp",
+  thumbnailUrl: "/static/images/projects/expatfacilities/thumbnail.webp",
   website: "https://www.linkedin.com/company/expatfacilities",
   repository: undefined,
   startDate: "2020-07",
   status: "completed",
-
   features: [
     {
       title: "Plateforme de logement intégrée",
@@ -155,12 +154,48 @@ Le défi technique principal était l'orchestration de dizaines d'APIs tierces p
 
   screenshots: [
     {
-      url: "/static/images/projects/expatfacilities/screenshots/platform.jpg",
-      caption: "Interface principale de la plateforme",
+      url: "/static/images/projects/expatfacilities/screenshots/redesign.png",
+      caption: "Redesign de la plateforme",
     },
     {
-      url: "/static/images/projects/expatfacilities/screenshots/services.jpg",
-      caption: "Sélection et configuration des services",
+      url: "/static/images/projects/expatfacilities/screenshots/testimonials.png",
+      caption: "Témoignages et partenaires",
+    },
+    {
+      url: "/static/images/projects/expatfacilities/screenshots/flyer-banque.jpg",
+      caption: "Flyer pour les banques partenaires",
+    },
+    {
+      url: "/static/images/projects/expatfacilities/screenshots/about-team-and-cta.jpg",
+      caption: "À propos de l'équipe et call to Action",
+    },
+    {
+      url: "/static/images/projects/expatfacilities/screenshots/housing-hero.jpg",
+      caption: "Section logement avec recherche intégrée",
+    },
+    {
+      url: "/static/images/projects/expatfacilities/screenshots/housing-cta.jpg",
+      caption: "Call to Action pour la section logement",
+    },
+    {
+      url: "/static/images/projects/expatfacilities/screenshots/services-hero.jpg",
+      caption: "Section services avec présentation des offres",
+    },
+    {
+      url: "/static/images/projects/expatfacilities/screenshots/assurance-hero.jpg",
+      caption: "Section assurance avec explication des offres",
+    },
+    {
+      url: "/static/images/projects/expatfacilities/screenshots/assurance-formules.jpg",
+      caption: "Formules d'assurance détaillées",
+    },
+    {
+      url: "/static/images/projects/expatfacilities/screenshots/assurance-avantages.jpg",
+      caption: "Avantages des assurances proposées",
+    },
+    {
+      url: "/static/images/projects/expatfacilities/screenshots/formulaire-contact-success.jpg",
+      caption: "Formulaire de contact avec succès",
     },
   ],
 
