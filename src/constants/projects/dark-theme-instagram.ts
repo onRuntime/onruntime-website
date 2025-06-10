@@ -14,7 +14,7 @@ export const darkThemeForInstagram: Project = {
 L'extension offre une solution simple et élégante pour réduire la fatigue oculaire et améliorer l'expérience de navigation sur Instagram, tout en respectant les préférences du système d'exploitation.`,
 	iconUrl: "/static/images/projects/dark-theme-instagram/icon.png",
 	showcaseUrl: "/static/images/projects/dark-theme-instagram/showcase.jpg",
-	thumbnailUrl: "/static/images/projects/dark-theme-instagram/thumbnail.jpg",
+	thumbnailUrl: "/static/images/projects/dark-theme-instagram/thumbnail.webp",
 	website:
 		"https://chromewebstore.google.com/detail/hhpaefgagkcciebgfdmoljlebdmpfcfb",
 	repository: "https://github.com/onRuntime/instagram-dark-extension",

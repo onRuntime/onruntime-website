@@ -16,7 +16,7 @@ L'extension utilise des algorithmes avancés basés sur l'Écoindex pour calcule
 Avec une approche ludique et éducative, Kartrak rend la conscience environnementale accessible et engageante.`,
   iconUrl: "/static/images/projects/kartrak/icon.svg",
   showcaseUrl: "/static/images/projects/kartrak/showcase.jpg",
-  thumbnailUrl: "/static/images/projects/kartrak/thumbnail.jpg",
+  thumbnailUrl: "/static/images/projects/kartrak/thumbnail.webp",
   website:
     "https://chromewebstore.google.com/detail/kartrak/bheoaeahkgfmogmgkfldoecmnlbhlibf",
   repository: "https://github.com/onruntime/kartrak",
