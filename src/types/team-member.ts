@@ -3,6 +3,7 @@ export enum TeamRole {
   LEAD_DEVELOPER = "lead-developer",
   LEAD_DESIGNER = "lead-designer",
   DEVELOPER = "developer",
+  TRAINEE_DEVELOPER = "trainee-developer",
   DESIGNER = "designer",
   MARKETING = "marketing",
   COMMUNITY_MANAGER = "community-manager",
@@ -13,6 +14,7 @@ export enum TeamRole {
 export const roleToDisplay: Record<TeamRole, string> = {
   [TeamRole.CO_FOUNDER]: "Co-Fondateur",
   [TeamRole.DEVELOPER]: "Développeur",
+  [TeamRole.TRAINEE_DEVELOPER]: "Développeur Stagiaire",
   [TeamRole.LEAD_DEVELOPER]: "Lead Développeur",
   [TeamRole.LEAD_DESIGNER]: "Lead Designer",
   [TeamRole.DESIGNER]: "Designer",
