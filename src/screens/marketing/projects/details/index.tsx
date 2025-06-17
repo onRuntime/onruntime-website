@@ -20,9 +20,13 @@ import {
 import TeamMembers from "@/constants/team-members";
 import { env } from "process";
 
+import { MemberWebsiteButton } from "@/components/layout/member/MemberWebsiteButton";
+
 interface ProjectPageProps {
   project: Project;
 }
+
+
 
 const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
   return (
@@ -295,15 +299,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
                     )}
                     {
                       member.website && (
-                        <Link
-                          href={member.website}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Button variant="outline" size="icon">
-                            <Globe className="w-4 h-4"/>
-                          </Button>
-                        </Link>
+                        <MemberWebsiteButton url={member.website} name={member.name} />
                       )
                     }
                   </div>
