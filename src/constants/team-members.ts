@@ -102,7 +102,7 @@ const TeamMembers: Record<string, TeamMember> = {
   "asma-derragui":{
     name: "Asma Derragui",
     roles: [TeamRole.DEVELOPER],
-    linkedin: "https://www.linkedin.com/in/asma-derragui-3368b0190/",
+    linkedin: "https://www.linkedin.com/in/asma-derragui",
     github: "https://github.com/Asma-95"
   }
 };
