@@ -7,230 +7,255 @@ import Projects from "@/constants/projects";
 import { getMajorAgencies } from "@/constants/agencies";
 import { OnRuntimeWordMark } from "@/logos/components";
 import Link from "next/link";
-import type React from "react";
 import { useState, useRef, useEffect } from "react";
 import Navigation from "./navigation";
 import { ChevronDown, Menu } from "lucide-react";
 import { cn } from "@/lib/utils";
 
+// Types pour les éléments de navigation
 interface SubNavItem {
-	title: string;
-	path: string;
+  title: string;
+  path: string;
 }
 
 interface DropdownItem {
-	title: string;
-	path: string;
-	items?: SubNavItem[];
+  title: string;
+  path: string;
+  items?: SubNavItem[];
 }
 
 interface NavItem {
-	title: string;
-	path: string;
-	dropdown?: DropdownItem[];
+  title: string;
+  path: string;
+  dropdown?: DropdownItem[];
 }
 
-const Navbar: React.FC = () => {
-	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-	const [expandedSection, setExpandedSection] = useState<string | null>(null);
+/**
+ * Composant pour un item du menu mobile avec sous-menus
+ */
+const MobileMenuItem = ({
+  item,
+  isExpanded,
+  onToggle,
+  onClose
+}: {
+  item: NavItem;
+  isExpanded: boolean;
+  onToggle: () => void;
+  onClose: () => void;
+}) => {
+  // Item simple sans dropdown
+  if (!item.dropdown) {
+    return (
+      <Link href={item.path} className="block text-base font-medium" onClick={onClose}>
+        {item.title}
+      </Link>
+    );
+  }
 
-	const navRef = useRef<HTMLDivElement>(null);
+  // Item avec dropdown
+  return (
+    <div className="space-y-3">
+      <button
+        onClick={onToggle}
+        className="flex w-full justify-between items-center text-base font-medium"
+        aria-expanded={isExpanded}
+      >
+        {item.title}
+        <ChevronDown className={cn("h-4 w-4 transition-transform", isExpanded ? "rotate-180" : "")} />
+      </button>
 
-	const [navWidth, setNavWidth] = useState<number | undefined>(undefined);
+      {isExpanded && (
+        <div className="pl-4 space-y-4 pt-2 overflow-y-auto">
+          {item.dropdown.map((dropdown) => (
+            <div key={dropdown.title} className="space-y-2 pb-3">
+              <Link href={dropdown.path} className="block text-sm font-medium" onClick={onClose}>
+                {dropdown.title}
+              </Link>
 
-	const majorAgencies = getMajorAgencies(5);
+              {dropdown.items?.map((subItem) => (
+                <Link
+                  key={subItem.title}
+                  href={subItem.path}
+                  className="block text-xs text-muted-foreground hover:text-foreground pl-3 pt-2"
+                  onClick={onClose}
+                >
+                  {subItem.title}
+                </Link>
+              ))}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
 
-	const navItems: NavItem[] = [
-		{
-			title: "Nos services",
-			path: Routes.services,
-			dropdown: Services.map((service) => ({
-				title: service.name,
-				path: Routes.service[service.id].root,
-				items: service.subServices.map((subService) => ({
-					title: subService.name,
-					path: subService.route,
-				})),
-			})),
-		},
-		{
-			title: "Nos projets",
-			path: Routes.unknown,
-			dropdown: Projects.slice(0, 5).map((project) => ({
-				title: project.name,
-				path: Routes.project(project.id),
-			})),
-		},
-		{
-			title: "Nos agences",
-			path: Routes.agency.root,
-			dropdown: [
-				{
-					title: "Toutes nos agences",
-					path: Routes.agency.root,
-				},
-				...majorAgencies.map((agency) => ({
-					title: `Agence ${agency.name}`,
-					path: Routes.agency.city(agency.id),
-				})),
-			],
-		},
-		{
-			title: "L'association",
-			path: Routes.npo,
-		},
-	];
+/**
+ * Menu mobile complet
+ */
+const MobileMenu = ({
+  items,
+  expandedItem,
+  onItemToggle,
+  onClose
+}: {
+  items: NavItem[];
+  expandedItem: string | null;
+  onItemToggle: (title: string) => void;
+  onClose: () => void;
+}) => (
+  <div className="px-3 flex flex-col space-y-4 md:hidden max-h-[calc(100vh-100px)] overflow-y-auto pb-4">
+    {items.map((item) => (
+      <div key={item.title} className="border-t border-border pt-3">
+        <MobileMenuItem
+          item={item}
+          isExpanded={expandedItem === item.title}
+          onToggle={() => onItemToggle(item.title)}
+          onClose={onClose}
+        />
+      </div>
+    ))}
 
-	useEffect(() => {
-		if (!navRef.current) return;
+    <Link href={Routes.contact} className="block pt-4 pb-2" onClick={onClose}>
+      <Button className="w-full">Nous contacter</Button>
+    </Link>
+  </div>
+);
 
-		const resizeObserver = new ResizeObserver((entries) => {
-			for (const entry of entries) {
-				const { width } = entry.contentRect;
-				setNavWidth(width);
-			}
-		});
+/**
+ * Barre de navigation principale
+ */
+const Navbar = () => {
+  // État pour le menu mobile et les sections développées
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [expandedItem, setExpandedItem] = useState<string | null>(null);
+  const navRef = useRef<HTMLDivElement>(null);
+  const [navWidth, setNavWidth] = useState<number>();
 
-		resizeObserver.observe(navRef.current);
+  // Configuration des items de navigation
+  const navItems: NavItem[] = [
+    {
+      title: "Nos services",
+      path: Routes.services,
+      dropdown: Services.map((service) => ({
+        title: service.name,
+        path: Routes.service[service.id].root,
+        items: service.subServices.map((subService) => ({
+          title: subService.name,
+          path: subService.route,
+        })),
+      })),
+    },
+    {
+      title: "Nos projets",
+      path: Routes.unknown,
+      dropdown: Projects.slice(0, 5).map((project) => ({
+        title: project.name,
+        path: Routes.project(project.id),
+      })),
+    },
+    {
+      title: "Nos agences",
+      path: Routes.agency.root,
+      dropdown: [
+        {
+          title: "Toutes nos agences",
+          path: Routes.agency.root,
+        },
+        ...getMajorAgencies(5).map((agency) => ({
+          title: `Agence ${agency.name}`,
+          path: Routes.agency.city(agency.id),
+        })),
+      ],
+    },
+    {
+      title: "L'association",
+      path: Routes.npo,
+    },
+  ];
 
-		return () => {
-			resizeObserver.disconnect();
-		};
-	}, []);
+  // Observateur de redimensionnement pour le responsive
+  useEffect(() => {
+    if (!navRef.current) return;
+    
+    const observer = new ResizeObserver(([entry]) => {
+      setNavWidth(entry.contentRect.width);
+    });
+    
+    observer.observe(navRef.current);
+    return () => observer.disconnect();
+  }, []);
 
-	useEffect(() => {
-		if (navWidth && navWidth >= 768 && mobileMenuOpen) {
-			setMobileMenuOpen(false);
-			setExpandedSection(null);
-		}
-	}, [navWidth, mobileMenuOpen]);
+  // Fermeture du menu mobile en desktop
+  useEffect(() => {
+    if (navWidth && navWidth >= 768 && mobileMenuOpen) {
+      setMobileMenuOpen(false);
+      setExpandedItem(null);
+    }
+  }, [navWidth, mobileMenuOpen]);
 
-	const toggleMobileMenu = () => {
-		setMobileMenuOpen(!mobileMenuOpen);
-		setExpandedSection(null);
-	};
+  // Gestionnaires d'événements
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+    setExpandedItem(null);
+  };
 
-	const toggleSection = (section: string) => {
-		setExpandedSection(expandedSection === section ? null : section);
-	};
+  const toggleItem = (title: string) => {
+    setExpandedItem(expandedItem === title ? null : title);
+  };
 
-	const closeMenu = () => {
-		setMobileMenuOpen(false);
-		setExpandedSection(null);
-	};
+  const closeMenu = () => {
+    setMobileMenuOpen(false);
+    setExpandedItem(null);
+  };
 
-	return (
-		<nav
-			className="px-4 z-50 fixed w-full max-w-5xl left-1/2 -translate-x-1/2 mt-4"
-			ref={navRef}
-		>
-			<div
-				className={
-					"flex flex-col bg-background/50 rounded-lg shadow-xs backdrop-blur-2xl transition-all duration-300"
-				}
-			>
-				<div className="flex justify-between items-center p-2.5">
-					<Link href={Routes.landing.visitor} onClick={closeMenu}>
-						<OnRuntimeWordMark className="h-6" height={24} />
-					</Link>
+  return (
+    <nav
+      ref={navRef}
+      className="px-4 z-50 fixed w-full max-w-5xl left-1/2 -translate-x-1/2 mt-4"
+    >
+      <div className="flex flex-col bg-background/50 rounded-lg shadow-xs backdrop-blur-2xl transition-all duration-300">
+        {/* Barre de navigation principale */}
+        <div className="flex justify-between items-center p-2.5">
+          <Link href={Routes.landing.visitor} onClick={closeMenu}>
+            <OnRuntimeWordMark className="h-6" height={24} />
+          </Link>
 
-					<Navigation />
+          <Navigation />
 
-					<div className="flex gap-2">
-						<Link href={Routes.contact}>
-							<Button className="hidden md:inline-flex" variant="outline">
-								Nous contacter
-							</Button>
-						</Link>
+          <div className="flex gap-2">
+            <Link href={Routes.contact}>
+              <Button className="hidden md:inline-flex" variant="outline">
+                Nous contacter
+              </Button>
+            </Link>
 
-						<Button
-							onClick={toggleMobileMenu}
-							className="inline-flex md:hidden"
-							variant="outline"
-							aria-expanded={mobileMenuOpen}
-							aria-label="Toggle menu"
-						>
-							<Menu className="h-5 w-5" />
-							<span className="sr-only">Menu</span>
-						</Button>
-					</div>
-				</div>
+            <Button
+              onClick={toggleMobileMenu}
+              className="inline-flex md:hidden"
+              variant="outline"
+              aria-expanded={mobileMenuOpen}
+              aria-label="Toggle menu"
+            >
+              <Menu className="h-5 w-5" />
+              <span className="sr-only">Menu</span>
+            </Button>
+          </div>
+        </div>
 
-				{mobileMenuOpen && (
-					<div className="px-3 flex flex-col space-y-4 md:hidden max-h-[calc(100vh-100px)] overflow-y-auto pb-4">
-						{navItems.map((item) => (
-							<div key={item.title} className="border-t border-border pt-3">
-								{item.dropdown ? (
-									<div className="space-y-3">
-										<button
-											onClick={() => toggleSection(item.title)}
-											className="flex w-full justify-between items-center text-base font-medium"
-											aria-expanded={expandedSection === item.title}
-										>
-											{item.title}
-											<ChevronDown
-												className={cn(
-													"h-4 w-4 transition-transform",
-													expandedSection === item.title ? "rotate-180" : "",
-												)}
-											/>
-										</button>
-
-										{expandedSection === item.title && (
-											<div className="pl-4 space-y-4 pt-2 overflow-y-auto">
-												{item.dropdown.map((dropdown) => (
-													<div key={dropdown.title} className="space-y-2 pb-3">
-														<Link
-															href={dropdown.path}
-															className="block text-sm font-medium"
-															onClick={closeMenu}
-														>
-															{dropdown.title}
-														</Link>
-
-														{dropdown.items && (
-															<div className="pl-3 space-y-2">
-																{dropdown.items.map((subItem) => (
-																	<Link
-																		key={subItem.title}
-																		href={subItem.path}
-																		className="block text-xs text-muted-foreground hover:text-foreground"
-																		onClick={closeMenu}
-																	>
-																		{subItem.title}
-																	</Link>
-																))}
-															</div>
-														)}
-													</div>
-												))}
-											</div>
-										)}
-									</div>
-								) : (
-									<Link
-										href={item.path}
-										className="block text-base font-medium"
-										onClick={closeMenu}
-									>
-										{item.title}
-									</Link>
-								)}
-							</div>
-						))}
-
-						<Link
-							href={Routes.contact}
-							className="block pt-4 pb-2"
-							onClick={closeMenu}
-						>
-							<Button className="w-full">Nous contacter</Button>
-						</Link>
-					</div>
-				)}
-			</div>
-		</nav>
-	);
+        {/* Menu mobile */}
+        {mobileMenuOpen && (
+          <MobileMenu
+            items={navItems}
+            expandedItem={expandedItem}
+            onItemToggle={toggleItem}
+            onClose={closeMenu}
+          />
+        )}
+      </div>
+    </nav>
+  );
 };
 
 export default Navbar;
