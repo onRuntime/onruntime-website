@@ -265,13 +265,13 @@ const ProjectsPage = () => {
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href={Routes.contact}>
-                <Button size="lg">
+                <Button size="lg" className="min-h-[48px] min-w-[48px] px-6 py-4">
                   Démarrer un projet
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
               <Link href={Routes.services}>
-                <Button variant="outline" size="lg">
+                <Button variant="outline" size="lg" className="min-h-[48px] min-w-[48px] px-6 py-4">
                   Découvrir nos services
                 </Button>
               </Link>
