@@ -226,7 +226,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
                       className="object-cover"
                     />
                   </div>
-                  <p className="text-sm text-muted-foreground text-center">
+                  <p className="text-sm text-foreground text-center">
                     {screenshot.caption}
                   </p>
                 </div>
