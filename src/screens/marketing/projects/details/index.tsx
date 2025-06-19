@@ -20,6 +20,8 @@ import {
 import TeamMembers from "@/constants/team-members";
 import { env } from "process";
 
+import { MemberWebsiteButton } from "@/components/marketing/projects/details/member-website-button";
+
 interface ProjectPageProps {
   project: Project;
 }
@@ -293,6 +295,11 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
                         </Button>
                       </Link>
                     )}
+                    {
+                      member.website && (
+                        <MemberWebsiteButton member={member} />
+                      )
+                    }
                   </div>
                 </div>
               );
