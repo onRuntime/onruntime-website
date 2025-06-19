@@ -41,7 +41,7 @@ const ProjectsPage = () => {
             <h2 className="text-3xl font-medium text-foreground mb-4">
               Notre expertise en développement de projets
             </h2>
-            <p className="text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-foreground max-w-3xl mx-auto">
               Chez onRuntime Studio, nous combinons créativité, expertise technique et méthodologie éprouvée 
               pour transformer vos idées en solutions digitales performantes et innovantes.
             </p>
@@ -90,7 +90,7 @@ const ProjectsPage = () => {
             <h2 className="text-3xl font-medium text-foreground mb-4">
               Notre processus de Réalisation
             </h2>
-            <p className="text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-foreground max-w-3xl mx-auto">
               Une méthodologie éprouvée qui garantit la qualité et le succès de chaque projet,
               de la conception initiale au déploiement final.
             </p>
@@ -102,7 +102,7 @@ const ProjectsPage = () => {
                 1
               </div>
               <h3 className="font-medium text-foreground mb-2">Découverte</h3>
-              <p className="text-sm text-muted-foreground">
+              <p className="text-sm text-foreground">
                 Analyse approfondie de vos besoins, objectifs et des spécificités de votre secteur.
               </p>
             </div>
@@ -112,7 +112,7 @@ const ProjectsPage = () => {
                 2
               </div>
               <h3 className="font-medium text-foreground mb-2">Conception</h3>
-              <p className="text-sm text-muted-foreground">
+              <p className="text-sm text-foreground">
                 Création de maquettes et prototypes pour visualiser et valider l&apos;expérience utilisateur.
               </p>
             </div>
@@ -122,7 +122,7 @@ const ProjectsPage = () => {
                 3
               </div>
               <h3 className="font-medium text-foreground mb-2">Développement</h3>
-              <p className="text-sm text-muted-foreground">
+              <p className="text-sm text-foreground">
                 Codage soigné avec des technologies modernes et des tests rigoureux pour garantir la qualité.
               </p>
             </div>
@@ -132,7 +132,7 @@ const ProjectsPage = () => {
                 4
               </div>
               <h3 className="font-medium text-foreground mb-2">Déploiement</h3>
-              <p className="text-sm text-muted-foreground">
+              <p className="text-sm text-foreground">
                 Mise en production avec suivi et support continu pour assurer la réussite de votre projet.
               </p>
             </div>
@@ -178,7 +178,7 @@ const ProjectsPage = () => {
             <h2 className="text-2xl font-medium text-foreground mb-4">
               Industries que nous servons
             </h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-foreground max-w-2xl mx-auto">
               Notre expertise s&apos;étend à de nombreux secteurs, avec des solutions adaptées 
               aux spécificités de chaque industrie.
             </p>
@@ -217,7 +217,7 @@ const ProjectsPage = () => {
             <h2 className="text-2xl font-medium text-foreground mb-4">
               Pourquoi choisir onRuntime Studio ?
             </h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-foreground max-w-2xl mx-auto">
               Nous nous distinguons par notre approche centrée sur le client et notre engagement envers l&apos;excellence.
             </p>
           </div>
@@ -227,7 +227,7 @@ const ProjectsPage = () => {
               <CheckCircle className="w-5 h-5 text-onruntime-blue flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-medium text-foreground mb-1">Expertise technique</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground">
                   Une équipe de développeurs et designers expérimentés maîtrisant les dernières technologies.
                 </p>
               </div>
@@ -236,7 +236,7 @@ const ProjectsPage = () => {
               <CheckCircle className="w-5 h-5 text-onruntime-blue flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-medium text-foreground mb-1">Solutions sur mesure</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground">
                   Des développements personnalisés qui répondent précisément à vos besoins spécifiques.
                 </p>
               </div>
@@ -245,7 +245,7 @@ const ProjectsPage = () => {
               <CheckCircle className="w-5 h-5 text-onruntime-blue flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-medium text-foreground mb-1">Support continu</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground">
                   Un accompagnement de qualité tout au long du projet et après le lancement.
                 </p>
               </div>

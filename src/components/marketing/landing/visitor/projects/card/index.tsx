@@ -44,7 +44,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       </div>
       <div className="flex flex-col flex-grow">
         <h3 className="text-foreground font-medium">{project.name}</h3>
-        <p className="text-sm text-muted-foreground leading-tight line-clamp-2 mt-1">
+        <p className="text-sm text-foreground leading-tight line-clamp-2 mt-1">
           {project.shortDescription}
         </p>
       </div>

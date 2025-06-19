@@ -47,7 +47,7 @@ export const FeaturedProjects = () => {
               </div>
             </Link>
             <h3 className="text-xl font-medium">{project.name}</h3>
-            <p className="mt-2 mb-4 text-muted-foreground line-clamp-3">{project.description}</p>
+            <p className="mt-2 mb-4 text-foreground line-clamp-3">{project.description}</p>
             <div className="mt-auto">
               <Link href={Routes.project(project.id)}>
                 <Button variant="outline" className="w-full group-hover:border-onruntime-blue transition-colors">
