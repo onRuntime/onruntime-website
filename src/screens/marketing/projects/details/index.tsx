@@ -277,7 +277,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <Button variant="outline" size="icon">
+                        <Button variant="outline" size="icon" aria-label="View GitHub profile">
                           <Github className="w-4 h-4" />
                         </Button>
                       </Link>
@@ -288,7 +288,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <Button variant="outline" size="icon">
+                        <Button variant="outline" size="icon" aria-label="View Linkedin profile">
                           <Linkedin className="w-4 h-4" />
                         </Button>
                       </Link>
