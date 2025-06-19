@@ -130,7 +130,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
           <h2 className="text-3xl font-semibold text-foreground mb-6">
             À propos du projet
           </h2>
-          <div className="text-muted-foreground whitespace-pre-line">
+          <div className="text-foreground whitespace-pre-line">
             {project.longDescription}
           </div>
         </div>
@@ -146,11 +146,11 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
                   <p className="text-4xl font-semibold text-foreground">
                     {metric.value}
                   </p>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-sm text-foreground">
                     {metric.label}
                   </p>
                   {metric.description && (
-                    <p className="text-xs text-muted-foreground">
+                    <p className="text-xs text-foreground">
                       {metric.description}
                     </p>
                   )}
@@ -311,7 +311,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
                   <div className="p-2 rounded-md bg-onruntime-blue/10 text-onruntime-blue mt-0.5">
                     <ArrowRight className="w-4 h-4" />
                   </div>
-                  <p className="text-muted-foreground">{challenge}</p>
+                  <p className="text-foreground">{challenge}</p>
                 </li>
               ))}
             </ul>
@@ -327,7 +327,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
                   <div className="p-2 rounded-md bg-onruntime-blue/10 text-onruntime-blue mt-0.5">
                     <ArrowRight className="w-4 h-4" />
                   </div>
-                  <p className="text-muted-foreground">{learning}</p>
+                  <p className="text-foreground">{learning}</p>
                 </li>
               ))}
             </ul>

@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col items-start gap-5">
             <OnRuntimeWordMark height={24} className="h-6" />
 
-            <p>
+            <p className="text-foreground">
               Un studio de créatif, à travers le monde.
               <br />
               Mais on peut se voir sur{" "}
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-wrap gap-8">
             {Object.entries(navigation).map(([key, links]) => (
               <div key={key} className="flex flex-col gap-4">
-                <h4 className="text-muted-foreground">{key}</h4>
+                <h4 className="text-foreground">{key}</h4>
 
                 <ul className="flex flex-col gap-3">
                   {links.map((link) => (
@@ -72,9 +72,9 @@ const Footer: React.FC = () => {
         <div className="h-px bg-border w-full my-8" />
 
         <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-2">
-          <p>{`© onRuntime Studio, ${currentYear}`}</p>
+          <p className="text-foreground">{`© onRuntime Studio, ${currentYear}`}</p>
 
-          <p className="inline-flex gap-2">
+          <p className="inline-flex gap-2 text-foreground">
             <svg
               width="14"
               height="15"
