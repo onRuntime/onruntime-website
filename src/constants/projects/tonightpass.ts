@@ -137,6 +137,14 @@ La plateforme met en relation les organisateurs d'événements et les participan
       ref: "jeremy-cailly",
       role: "Developer",
     },
+    {
+      ref: "asma-derragui",
+      role: "Developer"
+    },
+    {
+      ref: "louis-lazare",
+      role: "Developer",
+    },
   ],
 
   screenshots: [

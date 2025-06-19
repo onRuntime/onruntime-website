@@ -103,6 +103,19 @@ const TeamMembers: Record<string, TeamMember> = {
     name: "Jérémy Cailly",
     roles: [TeamRole.DEVELOPER],
     linkedin: "https://www.linkedin.com/in/jcailly",
+  },
+  "asma-derragui":{
+    name: "Asma Derragui",
+    roles: [TeamRole.DEVELOPER],
+    linkedin: "https://www.linkedin.com/in/asma-derragui",
+    github: "https://github.com/Asma-95"
+  },
+  "louis-lazare": {
+    name: "Louis Lazare",
+    roles: [TeamRole.DEVELOPER],
+    website: "https://soullikeplayer.github.io/e-portfolio/",
+    github: "https://github.com/SoulLikePlayer",
+    linkedin: "https://www.linkedin.com/in/louis-lazare-51057b266/",
   }
 };
 
