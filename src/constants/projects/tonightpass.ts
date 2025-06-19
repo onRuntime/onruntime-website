@@ -133,6 +133,10 @@ La plateforme met en relation les organisateurs d'événements et les participan
       ref: "ines-ferreira",
       role: "Developer",
     },
+    {
+      ref: "asma-derragui",
+      role: "Developer"
+    }
   ],
 
   screenshots: [
