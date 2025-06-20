@@ -20,7 +20,7 @@ export default function AgencyLandingPage() {
   const majorAgencies = getMajorAgencies(10);
   
   return (
-    <main className="min-h-screen pt-32 pb-16">
+    <main className="min-h-screen pt-32 pb-16 w-full">
       <OrganizationSchema 
         type="DigitalAgency"
         id="https://onruntime.com/agency#organization"
@@ -39,12 +39,12 @@ export default function AgencyLandingPage() {
             </p>
 
             <div className="flex flex-wrap gap-3">
-              <Link href={Routes.contact}>
-                <Button size="lg">
+              <Button asChild size="lg">
+                <Link href={Routes.contact}>
                   Discuter de votre projet
                   <ArrowRight className="ml-2 w-5 h-5" />
-                </Button>
-              </Link>
+                </Link>
+              </Button>
               
               <Link href="#expertise-locale">
                 <Button variant="outline" size="lg">
@@ -264,17 +264,17 @@ export default function AgencyLandingPage() {
               Contactez-nous pour discuter de votre projet. Notre expertise des marchés locaux nous permet de vous accompagner efficacement, où que vous soyez en France.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link href={Routes.contact}>
-                <Button size="lg">
+              <Button asChild size="lg">
+                <Link href={Routes.contact}>
                   Nous contacter
                   <ArrowRight className="ml-2 w-5 h-5" />
-                </Button>
-              </Link>
-              <Link href="#expertise-locale">
-                <Button variant="outline" size="lg">
-                  En savoir plus sur notre approche
-                </Button>
-              </Link>
+                </Link>
+              </Button>
+              <Button asChild variant="outline" size="lg" className="whitespace-normal sm:whitespace-nowrap">
+                <Link href="#expertise-locale">
+                    En savoir plus sur notre approche
+                </Link>
+              </Button>
             </div>
           </div>
         </div>
