@@ -270,11 +270,11 @@ export default function AgencyLandingPage() {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="whitespace-normal sm:whitespace-nowrap">
-                <Link href="#expertise-locale">
-                    En savoir plus sur notre approche
-                </Link>
-              </Button>
+              <Link href="#expertise-locale">
+                <Button variant="outline" size="lg">
+                  En savoir plus sur notre approche
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
