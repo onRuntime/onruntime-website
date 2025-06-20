@@ -22,7 +22,7 @@ const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
     <div className="relative overflow-hidden rounded-xl border border-border bg-card mb-24">
       <div className="grid md:grid-cols-2 gap-6">
         
-        <div className="min-w-0 p-8 md:p-12 flex flex-col items-start gap-6 relative z-10">
+        <div className="p-8 md:p-12 flex flex-col items-start gap-6 relative z-10">
           <h1 className="font-medium text-4xl md:text-5xl text-foreground">
             {heroTitle}
           </h1>
@@ -39,12 +39,12 @@ const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
             ))}
           </div>
 
-          <Button asChild size="lg" className="whitespace-normal sm:whitespace-nowrap">
-            <Link href={Routes.contact}>
+          <Link href={Routes.contact}>
+            <Button size="lg">
               Démarrer votre projet à {agency.name}
               <ArrowRight className="ml-2 w-5 h-5" />
-            </Link>
-          </Button>
+            </Button>
+          </Link>
         </div>
 
         <div className="relative hidden md:flex items-center justify-center p-8 overflow-hidden">

@@ -72,7 +72,7 @@ export default async function CityPage({ params }: AgencyPageProps) {
   ];
   
   return (
-    <main className="min-h-screen pt-32 pb-16 w-full">
+    <main className="min-h-screen pt-32 pb-16">
       
       <LocalBusinessSchema 
         type="ProfessionalService"
