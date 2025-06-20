@@ -137,7 +137,7 @@ const Navbar: React.FC = () => {
 					<Navigation />
 
 					<div className="flex gap-2">
-						<Link href={Routes.contact}>
+						<Link href={Routes.contact} aria-label="Nous contacter" passHref>
 							<Button className="hidden md:inline-flex" variant="outline">
 								Nous contacter
 							</Button>
