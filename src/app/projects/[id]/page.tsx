@@ -40,6 +40,7 @@ export default async function Page({ params }: { params: Params }) {
 
   return (
     <>
+    
       <ProjectSchema
         id={`https://onruntime.com/projects/${project.id}`}
         name={project.name}
