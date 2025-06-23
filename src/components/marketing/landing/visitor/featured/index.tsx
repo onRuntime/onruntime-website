@@ -52,13 +52,34 @@ const Featured: React.FC = () => {
           />
         </div>
 
-        <div className="relative mt-12 rounded-sm overflow-hidden">
+        <div className="relative mt-12 rounded-sm">
+
+        <div className="absolute -top-20 left-20 z-[-1]">
+          <Image
+            src="/favicon-32x32.png"
+            alt="Logo décoratif gauche"
+            width={150}
+            height={150}
+            className="rotate-[-15deg] opacity-80"
+          />
+      </div>
+
+      <div className="absolute -top-20 right-20 z-[-1]">
+          <Image
+            src="/favicon-32x32.png"
+            alt="Logo décoratif droit"
+            width={150}
+            height={150}
+            className="rotate-[-15deg] opacity-80"
+          />
+      </div>
+
           <Image
             src={"/static/images/onruntime-team.jpg"}
             alt={"Équipe onRuntime Studio"}
             width={1024}
             height={510}
-            className="z-[-1] max-h-[510px] object-cover"
+            className="relative z-0 max-h-[510px] object-cover"
             priority
             sizes="100vw"
           />
