@@ -11,8 +11,9 @@ import { Badge } from "@/components/ui/badge";
 import { Tag as TagIcon } from "lucide-react";
 
 export const metadata = constructMetadata({
-  title: "Glossaire du Développement et Design Web",
+  title: "Glossaire du développement web & design",
   description: "Consultez notre glossaire complet des termes techniques en développement web, design UI/UX et gestion de projet digital.",
+  canonical: "https://onruntime.com/glossary",
 });
 
 export default async function GlossaryPage() {
