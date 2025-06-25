@@ -1,0 +1,37 @@
+{
+    // - Git
+    "git.autofetch": true,
+  
+    // - TypeScript
+    "typescript.updateImportsOnFileMove.enabled": "always",
+  
+    // - Actions on save
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always"
+    },
+  
+    // - Lint and format
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "eslint.validate": [
+      "javascript"
+    ],
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    },
+  
+    // - Common
+    "editor.tabSize": 2,
+  }
