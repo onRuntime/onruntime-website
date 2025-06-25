@@ -1,5 +1,6 @@
 import {
   NavigationMenu,
+  NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   navigationMenuTriggerStyle,
@@ -21,11 +22,13 @@ const Navigation: React.FC = () => {
         
         <NavigationAgencies />
 
+        <NavigationMenuItem>
         <Link href={Routes.npo} legacyBehavior passHref>
           <NavigationMenuLink className={navigationMenuTriggerStyle()}>
             {"L'association"}
           </NavigationMenuLink>
         </Link>
+        </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
   );
