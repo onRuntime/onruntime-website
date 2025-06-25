@@ -5,6 +5,7 @@ import Tonightpass from "@/components/marketing/landing/visitor/tonightpass";
 import Services from "@/components/marketing/landing/visitor/services";
 import type { NextPage } from "next";
 import React from "react";
+import Reviews from "@/components/marketing/landing/visitor/reviews";
 
 const VisitorLanding: NextPage = () => {
   return (
@@ -13,6 +14,7 @@ const VisitorLanding: NextPage = () => {
       <Tonightpass />
       <Services />
       <Team />
+      <Reviews />
       <Projects />
     </>
   );
