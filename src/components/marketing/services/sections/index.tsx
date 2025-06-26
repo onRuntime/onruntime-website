@@ -207,9 +207,9 @@ export const ExpertiseSection = () => (
     </div>
 
     <div className="space-y-8">
-      <h3 className="text-lg font-medium text-foreground">
+      <h2 className="text-lg font-medium text-foreground">
         Nos technologies partenaires
-      </h3>
+      </h2>
       
       <div className="grid grid-cols-1 gap-6">
         {techPartners.map((partner) => (
@@ -227,7 +227,7 @@ export const ExpertiseSection = () => (
               />
             </div>
             <div>
-              <h4 className="font-medium text-foreground">{partner.name} Partner</h4>
+              <h3 className="font-medium text-foreground">{partner.name} Partner</h3>
               <p className="text-sm text-muted-foreground">{partner.description}</p>
             </div>
           </div>
