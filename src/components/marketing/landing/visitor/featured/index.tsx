@@ -67,7 +67,7 @@ const Featured: React.FC = () => {
             <Image
               className="hidden md:block self-start"
               src={"/static/images/quotes.png"}
-              alt={""}
+              alt={"stylized quote"}
               width={46}
               height={43}
             />
