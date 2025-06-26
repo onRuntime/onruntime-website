@@ -56,16 +56,18 @@ const Featured: React.FC = () => {
           <Image
             src={"/static/images/onruntime-team.jpg"}
             alt={"Équipe onRuntime Studio"}
-            width={6000}
-            height={4000}
+            width={1024}
+            height={510}
             className="z-[-1] max-h-[510px] object-cover"
+            priority
+            sizes="100vw"
           />
 
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end items-center p-5 md:p-10 gap-5">
             <Image
               className="hidden md:block self-start"
               src={"/static/images/quotes.png"}
-              alt={""}
+              alt={"stylized quote"}
               width={46}
               height={43}
             />
