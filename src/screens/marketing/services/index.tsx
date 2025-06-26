@@ -29,13 +29,13 @@ const ServiceCard = ({
 }) => (
   <div className="flex flex-col gap-6 w-full">
     <div className="group relative overflow-hidden rounded-lg border bg-background p-6 hover:border-onruntime-blue transition-colors">
-      <Link href={route} className="absolute inset-0" />
+      <Link href={route} className="absolute inset-0" aria-label={name}/>
       <div className="flex flex-col gap-4">
         <div className="flex items-center gap-4">
           <div className="p-2 rounded-md bg-onruntime-blue/10 text-onruntime-blue">
             <Icon className="w-6 h-6" />
           </div>
-          <h3 className="text-xl font-medium text-foreground">{name}</h3>
+          <h2 className="text-xl font-medium text-foreground">{name}</h2>
         </div>
         <p className="text-muted-foreground">{description}</p>
       </div>
@@ -54,7 +54,7 @@ const ServiceCard = ({
             </div>
           )}
           <div className="flex-1">
-            <h4 className="text-sm font-medium text-foreground">{subService.name}</h4>
+            <h3 className="text-sm font-medium text-foreground">{subService.name}</h3>
             <p className="text-xs text-muted-foreground mt-1">{subService.description}</p>
           </div>
         </Link>
