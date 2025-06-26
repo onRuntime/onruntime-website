@@ -20,7 +20,7 @@ export default function AgencyLandingPage() {
   const majorAgencies = getMajorAgencies(10);
   
   return (
-    <main className="min-h-screen pt-32 pb-16 w-full">
+    <main className="min-h-screen pt-32 pb-16 sm:w-auto w-full">
       <OrganizationSchema 
         type="DigitalAgency"
         id="https://onruntime.com/agency#organization"
@@ -270,7 +270,7 @@ export default function AgencyLandingPage() {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="whitespace-normal sm:whitespace-nowrap">
+              <Button asChild variant="outline" size="lg" className="min-w-[223px] text-md xs:text-xl whitespace-normal xs:whitespace-nowrap ">
                 <Link href="#expertise-locale">
                     En savoir plus sur notre approche
                 </Link>
