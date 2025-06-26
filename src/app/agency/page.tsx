@@ -11,8 +11,9 @@ import { getMajorAgencies } from '@/constants/agencies';
 import { OrganizationSchema } from '@/components/json-ld/organization-schema';
 
 export const metadata = constructMetadata({
-  title: "Expertise web locale | Développement digital dans les grandes villes françaises",
-  description: "Nous accompagnons les entreprises locales partout en France avec notre expertise des marchés numériques régionaux. Solutions digitales adaptées à chaque région.",
+  title: "Expertise digitale locale dans les grandes villes françaises",
+  description: "Nous aidons les entreprises locales en France via notre expertise des marchés numériques régionaux ; des solutions sur-mesure pour chaque territoire.",
+  canonical: "https://onruntime.com/agency",
 });
 
 export default function AgencyLandingPage() {
