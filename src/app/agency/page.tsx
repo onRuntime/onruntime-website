@@ -20,7 +20,7 @@ export default function AgencyLandingPage() {
   const majorAgencies = getMajorAgencies(10);
   
   return (
-    <main className="min-h-screen pt-32 pb-16 w-full">
+    <main className="min-h-screen pt-32 pb-16 sm:w-auto w-full">
       <OrganizationSchema 
         type="DigitalAgency"
         id="https://onruntime.com/agency#organization"
