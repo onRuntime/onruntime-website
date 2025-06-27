@@ -9,7 +9,7 @@ import { Provider } from "react-wrap-balancer";
 import Footer from "@/components/layout/footer/footer";
 import Script from "next/script";
 import { Toaster } from "@/components/ui/toaster";
-import { Figtree } from "next/font/google"
+import { Figtree } from "next/font/google";
 import { OrganizationSchema } from "@/components/json-ld/organization-schema";
 
 export const figtree = Figtree({
