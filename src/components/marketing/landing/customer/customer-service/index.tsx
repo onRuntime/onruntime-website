@@ -16,9 +16,9 @@ const CustomerService: React.FC = () => {
         </h2>
       </div>
       <p className="text-gray-300  text-center w-[400px] mx-auto mb-16">
-        Chaque projet est unique. C'est pourquoi notre approche est
-        personnalisée pour chacun d'eux, afin de comprendre les besoins pour
-        concevoir les solutions adaptées.
+        Chaque projet est unique. C&apos;est pourquoi notre approche est
+        personnalisée pour chacun d&apos;eux, afin de comprendre les besoins
+        pour concevoir les solutions adaptées.
       </p>
 
       {/* Section des trois cartes */}
@@ -64,14 +64,14 @@ const CustomerService: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="bg-gradient-to-br from-black to-gray-800 rounded-xl p-8 min-h-[300px] border border-gray-700 h-full flex flex-col justify-between">
               <h3 className="text-white font-semibold text-2xl mb-6 text-center md:text-left">
-                Un suivi continu pour garantir l'évolution de vos projets
+                Un suivi continu pour garantir l&apos;évolution de vos projets
               </h3>
               <p className="text-gray-300 leading-relaxed mb-8 text-center text-sm md:text-left">
-                Votre projet ne s'arrête pas à sa mise en ligne. Nous restons
-                disponibles pour vous proposer un suivi régulier et un plan
-                d'évolution personnalisé. Que ce soit pour des mises à jour, des
-                optimisations ou des ajouts fonctionnels, afin que votre projet
-                continue de performer dans le temps.
+                Votre projet ne s&apos;arrête pas à sa mise en ligne. Nous
+                restons disponibles pour vous proposer un suivi régulier et un
+                plan d&apos;évolution personnalisé. Que ce soit pour des mises à
+                jour, des optimisations ou des ajouts fonctionnels, afin que
+                votre projet continue de performer dans le temps.
               </p>
               <div className="flex justify-center md:justify-start">
                 <button className="bg-white text-black px-4 py-1.5 rounded text-sm hover:bg-gray-100 transition-colors">
@@ -108,10 +108,10 @@ const CustomerService: React.FC = () => {
               </h3>
             </div>
             <p className="text-gray-300 leading-relaxed text-sm">
-              Pour nous, chaque projet est unique. C'est pourquoi nous vous
+              Pour nous, chaque projet est unique. C&apos;est pourquoi nous vous
               proposons des solutions personnalisées et adaptées à vos objectifs
-              spécifiques, qu'il s'agisse de design, de développement ou de
-              stratégie digitale.
+              spécifiques, qu&apos;il s&apos;agisse de design, de développement
+              ou de stratégie digitale.
             </p>
           </div>
 
@@ -166,9 +166,9 @@ const CustomerService: React.FC = () => {
             </div>
             <p className="text-gray-300 leading-relaxed text-sm">
               Nous nous occupons de tout : brainstorming, conception,
-              développement, intégration et même la maintenance. Vous n'avez
-              qu'à nous faire part de votre vision, et nous nous chargeons de la
-              transformer en réalité.
+              développement, intégration et même la maintenance. Vous
+              n&apos;avez qu&apos;à nous faire part de votre vision, et nous
+              nous chargeons de la transformer en réalité.
             </p>
           </div>
 
@@ -223,8 +223,8 @@ const CustomerService: React.FC = () => {
               </h3>
             </div>
             <p className="text-gray-300 leading-relaxed text-sm">
-              Notre engagement ne s'arrête pas à la livraison du projet. Nous
-              restons disponibles pour vous assurer un support continu, des
+              Notre engagement ne s&apos;arrête pas à la livraison du projet.
+              Nous restons disponibles pour vous assurer un support continu, des
               mises à jour régulières et des améliorations selon vos besoins.
             </p>
           </div>
@@ -253,7 +253,7 @@ const CustomerService: React.FC = () => {
             <p className="text-gray-300 leading-relaxed text-sm">
               Nous nous engageons à délivrer des produits de haute qualité,
               testés et optimisés pour offrir les meilleures performances, que
-              ce soit pour l'expérience utilisateur ou pour les solutions
+              ce soit pour l&apos;expérience utilisateur ou pour les solutions
               techniques.
             </p>
           </div>
