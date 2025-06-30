@@ -9,26 +9,30 @@ import Balancer from "react-wrap-balancer";
 const Featured: React.FC = () => {
   return (
     <header className="bg-gradient-to-t from-onruntime-magenta/10 to-transparent overflow-hidden">
-      <div className="px-4 md:px-0 pt-16 flex flex-col justify-center items-center max-w-5xl mx-auto">
-        <div className="relative max-w-xl flex flex-col items-center gap-6">
-          <h1 className="font-semibold text-5xl md:text-6xl text-foreground text-center">
+      <div className="px-4 md:px-0 pt-8 md:pt-16 flex flex-col justify-center items-center max-w-5xl mx-auto">
+        <div className="relative max-w-xl flex flex-col items-center gap-4 md:gap-6">
+          <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-foreground text-center">
             <Balancer>
               {"Vous méritez "}
               <span className="text-onruntime-magenta inline">le meilleur</span>
               {" pour votre projet."}
             </Balancer>
           </h1>
-          <h2 className="text-center text-muted-foreground">
+          <h2 className="text-center text-muted-foreground text-sm sm:text-base px-4 md:px-0">
             Parce que le meilleur c&apos;est nous,{" "}
             <strong>onRuntime Studio</strong>, votre allié pour réaliser cet
             objectif grâce à nos équipes de passionnés.
           </h2>
-          <div className="flex gap-3 mb-4">
-            <Link href={Routes.contact}>
-              <Button>Réserver une prestation</Button>
+          <div className="flex flex-col sm:flex-row gap-3 mb-4 w-full sm:w-auto items-center">
+            <Link href={Routes.contact} className="w-48 sm:w-auto">
+              <Button className="w-full sm:w-auto">
+                Réserver une prestation
+              </Button>
             </Link>
-            <Link href={Routes.projects}>
-              <Button variant={"outline"}>Voir notre travail</Button>
+            <Link href={Routes.projects} className="w-48 sm:w-auto">
+              <Button variant={"outline"} className="w-full sm:w-auto">
+                Voir notre travail
+              </Button>
             </Link>
           </div>
           <DotPattern
@@ -36,18 +40,18 @@ const Featured: React.FC = () => {
             height={30}
             className={cn(
               "z-[-1]",
-              "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]"
+              "[mask-image:radial-gradient(200px_circle_at_center,white,transparent)] md:[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]"
             )}
           />
         </div>
       </div>
 
-      <div className="relative mt-12 rounded-sm">
-        {/* Logo gauche - au-dessus de l'écran */}
-        <div className="absolute -top-16 left-1/2 -translate-x-72 z-[1]">
+      <div className="relative mt-4 md:mt-4 rounded-sm">
+        {/* Logo gauche - masqué sur mobile, visible sur tablet+ */}
+        <div className="hidden md:block absolute -top-14 left-1/2 -translate-x-72 z-[1]">
           <svg
-            width="120"
-            height="120"
+            width="150"
+            height="150"
             viewBox="0 0 171 171"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -106,15 +110,15 @@ const Featured: React.FC = () => {
           </svg>
         </div>
 
-        {/* Logo droit - au-dessus de l'écran */}
-        <div className="absolute -top-16 right-1/2 translate-x-72 z-[1]">
+        {/* Logo droit */}
+        <div className="hidden md:block absolute -top-14 right-1/2 translate-x-72 z-[1]">
           <svg
-            width="120"
-            height="120"
+            width="150"
+            height="150"
             viewBox="0 0 174 174"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="rotate-[15deg]"
+            className="rotate-[8deg]"
           >
             <g filter="url(#filter0_d_2071_267)">
               <path
@@ -169,18 +173,12 @@ const Featured: React.FC = () => {
           </svg>
         </div>
 
-        {/* Écran principal */}
-        <div className="relative z-[3]">
+        {/* Écran principal - responsive */}
+        <div className="relative z-[3] px-4 md:px-0 overflow-hidden h-[200px] sm:h-[500px] md:h-[500px]">
           <svg
-            className="rounded-t-md"
+            className="rounded-t-md w-full max-w-[860px] h-auto"
             style={{
-              width: "860px",
-              height: "439px",
-              flex: "none",
-              order: 3,
-              flexGrow: 0,
-              zIndex: 3,
-              marginTop: "2em",
+              marginTop: "-2em",
               marginLeft: "auto",
               marginRight: "auto",
               display: "block",
@@ -230,7 +228,7 @@ const Featured: React.FC = () => {
                 ry="6"
                 fill="#3d3d3d"
                 stroke="#111111"
-                stroke-width="3"
+                strokeWidth="3"
               />
               <rect
                 x="25"
