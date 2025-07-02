@@ -8,7 +8,7 @@ import Routes from "@/constants/routes";
 
 const Projects: React.FC = () => {
   return (
-    <section className="px-4 md:px-0 py-24 flex flex-col gap-9 max-w-5xl mx-auto">
+    <section className="px-4 md:px-4 py-24 flex flex-col gap-9 max-w-5xl mx-auto">
       <div className="flex justify-between items-center">
         <h2 className="text-muted-foreground">Nos derniers projets</h2>
         <Link href={Routes.projects}>

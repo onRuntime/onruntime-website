@@ -4,10 +4,10 @@ import Image from "next/image";
 
 const Tonightpass: React.FC = () => {
   return (
-    <div className="flex flex-col items-center h-auto min-h-full bg-black pt-16">
+    <div className="flex flex-col items-center h-auto min-h-full bg-black pt-16 pb-8 md:px-8">
       <div className="sticky top-20 z-50">
         <Link href="/projects/tonightpass">
-          <button className="bg-white text-black px-6 py-2 rounded-md shadow hover:bg-gray-100">
+          <button className="bg-white text-black px-3 py-1 rounded-md shadow hover:bg-gray-100">
             Notre success story 🏆
           </button>
         </Link>
@@ -23,12 +23,11 @@ const Tonightpass: React.FC = () => {
         En quelques clics depuis votre canapé 🛋️
       </strong>
       <Link href="/projects/tonightpass">
-        <button className="mt-8 bg-white text-black px-6 py-2 rounded-md shadow hover:bg-gray-100">
+        <button className="mt-8 bg-white text-black px-3 py-1 rounded-md shadow hover:bg-gray-100">
           En savoir plus
         </button>
       </Link>
       <div className="w-full max-w-screen-lg mt-8 mb-4 px-4 md:px-0">
-        {" "}
         {/* mb-4 au lieu de mb-8, padding mobile */}
         <Image
           src="/static/images/projects/tonightpass/showcase.jpg"

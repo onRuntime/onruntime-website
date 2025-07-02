@@ -19,7 +19,7 @@ const navigation = {
   ["Autres"]: [
     { name: "Contact", href: Routes.contact },
     { name: "Conditions générales", href: Routes.legals.terms },
-    { name: "Politique de confidentialité", href: Routes.legals.privacy }, 
+    { name: "Politique de confidentialité", href: Routes.legals.privacy },
     { name: "Détails de l'entreprise", href: Routes.legals.company },
   ],
   ["Réseaux sociaux"]: [
@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
 
   return (
     <footer className={"pb-24 pt-10 md:pt-20 border-t w-full border-border"}>
-      <div className={"px-4 md:px-0 max-w-5xl text-xs md:text-sm mx-auto"}>
+      <div className={"px-4 md:px-4 max-w-5xl text-xs md:text-sm mx-auto"}>
         <div className="flex flex-col md:flex-row justify-between md:items-start gap-8">
           <div className="flex flex-col items-start gap-5">
             <OnRuntimeWordMark height={24} className="h-6" />
@@ -58,7 +58,16 @@ const Footer: React.FC = () => {
                 <ul className="flex flex-col gap-3">
                   {links.map((link) => (
                     <li key={link.name}>
-                      <Link href={link.href} className="text-foreground" target={link.href.startsWith("http") ? "_blank" : ""} rel={link.href.startsWith("http") ? "noopener noreferrer" : ""}>
+                      <Link
+                        href={link.href}
+                        className="text-foreground"
+                        target={link.href.startsWith("http") ? "_blank" : ""}
+                        rel={
+                          link.href.startsWith("http")
+                            ? "noopener noreferrer"
+                            : ""
+                        }
+                      >
                         {link.name}
                       </Link>
                     </li>
