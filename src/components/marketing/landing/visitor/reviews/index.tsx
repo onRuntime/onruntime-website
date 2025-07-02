@@ -1,5 +1,4 @@
 import React from "react";
-import Testimonial from "../../testimonial";
 
 // Données extraites pour éviter la répétition
 const reviewsData = [

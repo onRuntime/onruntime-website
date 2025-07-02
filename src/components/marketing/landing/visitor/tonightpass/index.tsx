@@ -28,7 +28,6 @@ const Tonightpass: React.FC = () => {
         </button>
       </Link>
       <div className="w-full max-w-screen-lg mt-8 mb-4 px-4 md:px-0">
-        {/* mb-4 au lieu de mb-8, padding mobile */}
         <Image
           src="/static/images/projects/tonightpass/showcase.jpg"
           alt="Showcase Tonight Pass"
