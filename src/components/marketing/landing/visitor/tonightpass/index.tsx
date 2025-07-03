@@ -5,9 +5,9 @@ import Image from "next/image";
 const Tonightpass: React.FC = () => {
   return (
     <div className="flex flex-col items-center h-auto min-h-full bg-black pt-16 pb-8 md:px-8">
-      <div className="sticky top-20 z-50">
+      <div className="sticky top-20 z-40">
         <Link href="/projects/tonightpass">
-          <button className="bg-white text-black px-3 py-1 rounded-md shadow hover:bg-gray-100">
+          <button className="bg-white text-black px-4 py-2 text-sm rounded-md shadow hover:bg-gray-100">
             Notre success story 🏆
           </button>
         </Link>

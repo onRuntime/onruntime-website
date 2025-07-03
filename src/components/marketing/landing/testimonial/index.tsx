@@ -26,9 +26,9 @@ const Testimonial: React.FC<TestimonialProps> = ({
           <Image
             src={imageSrc}
             alt={imageAlt}
-            width={120}
-            height={120}
-            className="w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-[150px] lg:h-[150px] rounded-lg rotate-[-10deg] md:rotate-[-15deg] shadow-lg bg-white px-2 pt-2 pb-4 md:pb-6 transition-all duration-300 ease-in-out hover:rotate-0 hover:scale-105 mx-auto md:mx-0"
+            width={200}
+            height={200}
+            className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-[200px] lg:h-[200px] rounded-lg rotate-[-10deg] md:rotate-[-15deg] shadow-lg bg-white px-2 pt-2 pb-4 md:pb-6 transition-all duration-300 ease-in-out hover:rotate-0 hover:scale-105 mx-auto md:mx-0 object-cover"
           />
         </div>
 

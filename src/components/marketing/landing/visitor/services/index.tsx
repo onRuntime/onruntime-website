@@ -2,7 +2,6 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 const colorSets = [
   {
@@ -32,7 +31,7 @@ const services = [
   {
     title: "Développement Front & Back End",
     description:
-      "Nous réalisons chacun de nos projets from-scratch avec un développement front (web, app, logiciel) ainsi qu’en profondeur avec le back (api, bots).",
+      "Nous réalisons chacun de nos projets from-scratch avec un développement front (web, app, logiciel) ainsi qu'en profondeur avec le back (api, bots).",
   },
   {
     title: "Intégrations Web",
@@ -40,6 +39,64 @@ const services = [
       "Selon les besoins de nos projets, nous pouvons les créer ou les modifier via des intégrations comme Wordpress, Shopify, Webflow, etc.",
   },
 ];
+
+const PaletteIcon: React.FC<{ className?: string }> = ({ className }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="128"
+    height="128"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={className}
+  >
+    <path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"></path>
+    <circle cx="13.5" cy="6.5" r=".5" fill="currentColor"></circle>
+    <circle cx="17.5" cy="10.5" r=".5" fill="currentColor"></circle>
+    <circle cx="6.5" cy="12.5" r=".5" fill="currentColor"></circle>
+    <circle cx="8.5" cy="7.5" r=".5" fill="currentColor"></circle>
+  </svg>
+);
+
+const CodeIcon: React.FC<{ className?: string }> = ({ className }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="128"
+    height="128"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={className}
+  >
+    <path d="m16 18 6-6-6-6"></path>
+    <path d="m8 6-6 6 6 6"></path>
+  </svg>
+);
+
+const LayersIcon: React.FC<{ className?: string }> = ({ className }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="128"
+    height="128"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={className}
+  >
+    <path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"></path>
+    <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path>
+    <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path>
+  </svg>
+);
 
 const Services: React.FC = () => {
   const [colorIndex, setColorIndex] = useState(0);
@@ -55,22 +112,25 @@ const Services: React.FC = () => {
     const handleScroll = () => {
       if (!containerRef.current || isMobile) return;
 
-      const containerTop =
-        containerRef.current.getBoundingClientRect().top + window.scrollY;
+      const windowHeight = window.innerHeight;
+      const anticipationDistance = 50;
 
-      const scrollY = window.scrollY;
-      const earlyOffset = 200;
-      const relativeY = scrollY - containerTop + earlyOffset;
+      let newColorIndex = 0;
 
-      const sectionHeight = 220;
-      let index = Math.floor(relativeY / sectionHeight);
+      serviceRefs.current.forEach((serviceRef, index) => {
+        if (serviceRef) {
+          const rect = serviceRef.getBoundingClientRect();
+          const serviceTop = rect.top;
+          const triggerPoint = windowHeight / 2 + anticipationDistance;
 
-      if (scrollY < containerTop - 100) {
-        index = 0;
-      }
+          if (serviceTop <= triggerPoint && serviceTop > -rect.height) {
+            newColorIndex = index + 1;
+          }
+        }
+      });
 
-      index = Math.max(0, Math.min(index, colorSets.length - 1));
-      setColorIndex(index);
+      newColorIndex = Math.min(newColorIndex, colorSets.length - 1);
+      setColorIndex(newColorIndex);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -94,13 +154,13 @@ const Services: React.FC = () => {
         className={`
           flex flex-col gap-4
           md:sticky md:top-24 md:self-start
-          transition-all duration-500 md:w-1/3
+          transition-all duration-3000ms] md:w-1/3
           text-center md:text-left
           ${colors.text}
         `}
         style={{ position: isMobile ? "static" : undefined }}
       >
-        <h2 className="font-semibold text-3xl transition-colors duration-1000 ease-out">
+        <h2 className="font-semibold text-3xl transition-colors duration-[3000ms] ease-out">
           Un studio qui combine <br />
           les savoirs-faire créatifs
         </h2>
@@ -110,7 +170,7 @@ const Services: React.FC = () => {
         </p>
         <Link href="/">
           <button
-            className={`mt-8 px-6 py-2 rounded-md shadow hover:opacity-80 transition-all duration-500 ${colors.button} mx-auto md:mx-0`}
+            className={`mt-8 px-4 py-2 text-sm rounded-md shadow hover:opacity-80 transition-all duration-[3000ms] ${colors.button} mx-auto md:mx-0`}
           >
             En savoir plus
           </button>
@@ -120,7 +180,7 @@ const Services: React.FC = () => {
       {/* Bloc droite */}
       <div className="mt-24 md:mt-44 w-full max-w-md md:w-[400px]">
         <p className="mb-8">
-          Nos projets allient nos compétences afin qu’ils soient resplendissants
+          Nos projets allient nos compétences afin qu'ils soient resplendissants
           sur le web.
         </p>
 
@@ -140,14 +200,14 @@ const Services: React.FC = () => {
                   "radial-gradient(circle at center, rgba(250,250,255,0.8), rgba(211, 234, 255, 0.4))",
               }}
             >
-              <Image
-                src="/services-img.png"
-                alt="palette"
-                width={150}
-                height={150}
-                className="w-28 h-28 md:w-32 md:h-32 object-contain"
-                priority={index === 0}
-              />
+              {/* Différent SVG pour chaque service */}
+              {index === 0 ? (
+                <PaletteIcon className="w-20 h-20 md:w-24 md:h-24 text-[#b1d9ff] opacity-50" />
+              ) : index === 1 ? (
+                <CodeIcon className="w-20 h-20 md:w-24 md:h-24 text-[#b1d9ff] opacity-50" />
+              ) : (
+                <LayersIcon className="w-20 h-20 md:w-24 md:h-24 text-[#b1d9ff] opacity-50" />
+              )}
             </div>
             <h3 className="font-semibold text-2xl">{service.title}</h3>
             <p className="mb-8">{service.description}</p>
