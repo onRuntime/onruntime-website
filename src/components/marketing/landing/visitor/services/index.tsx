@@ -180,8 +180,8 @@ const Services: React.FC = () => {
       {/* Bloc droite */}
       <div className="mt-24 md:mt-44 w-full max-w-md md:w-[400px]">
         <p className="mb-8">
-          Nos projets allient nos compétences afin qu'ils soient resplendissants
-          sur le web.
+          Nos projets allient nos compétences afin qu&apos;ils soient
+          resplendissants sur le web.
         </p>
 
         {services.map((service, index) => (
