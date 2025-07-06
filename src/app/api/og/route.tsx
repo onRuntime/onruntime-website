@@ -1,4 +1,4 @@
-// src/app/api/og/route.tsx
+
 import { ImageResponse } from "@vercel/og";
 import { NextRequest } from "next/server";
 import { siteConfig } from "@/lib/utils/metadata";
@@ -6,7 +6,6 @@ import { OnRuntimeWordMark } from "@/logos/components";
 
 export const runtime = "edge";
 
-// Charger les polices Figtree
 const figtreeRegular = fetch(
   "https://cdn.jsdelivr.net/fontsource/fonts/figtree@latest/latin-400-normal.ttf"
 ).then((res) => res.arrayBuffer());
@@ -16,26 +15,23 @@ const figtreeBold = fetch(
 ).then((res) => res.arrayBuffer());
 
 export async function GET(req: NextRequest) {
-  // Récupérer les paramètres depuis l'URL
-  const { searchParams } = new URL(req.url);
   
-  // Paramètres avec valeurs par défaut
+  const { searchParams } = new URL(req.url);
+
   const title = searchParams.get("title") || siteConfig.name;
   const description = searchParams.get("description") || siteConfig.description;
-  
-  // Charger les polices
+
   const [regularFont, boldFont] = await Promise.all([
     figtreeRegular,
     figtreeBold,
   ]);
 
-  // Définir les couleurs onRuntime
   const colors = {
-    background: "#1A1A1A", // Fond sombre
-    text: "#FFFFFF",       // Texte clair
-    textMuted: "#A1A1AA",  // Texte secondaire
-    blue: "#3B82F6",       // Blue de onRuntime
-    magenta: "#DA22FF"     // Magenta de onRuntime
+    background: "#1A1A1A", 
+    text: "#FFFFFF",       
+    textMuted: "#A1A1AA",  
+    blue: "#3B82F6",       
+    magenta: "#DA22FF"     
   };
 
   return new ImageResponse(
@@ -55,7 +51,7 @@ export async function GET(req: NextRequest) {
           fontFamily: "Figtree",
         }}
       >
-        {/* Contenu principal */}
+        
         <div style={{ display: "flex", flexDirection: "column", gap: 16, maxWidth: "80%" }}>
           {title && (
             <span
@@ -77,8 +73,7 @@ export async function GET(req: NextRequest) {
             </span>
           )}
         </div>
-        
-        {/* Logo et signature */}
+
         <div
         style={{
           marginTop: 64,
@@ -93,8 +88,7 @@ export async function GET(req: NextRequest) {
           fill={colors.text}
         />
       </div>
-        
-        {/* Élément décoratif (gradient ligne du bas) */}
+
         <div
           style={{
             position: "absolute",

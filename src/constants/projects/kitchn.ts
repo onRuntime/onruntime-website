@@ -16,7 +16,7 @@ Inspirée par Geist UI et Vercel Design, elle se distingue par son approche mini
 Chaque composant est conçu pour être modulaire, performant et hautement personnalisable, permettant aux équipes de développement de créer rapidement des interfaces utilisateur cohérentes tout en maintenant une excellente expérience développeur.`,
   iconUrl: "/static/images/projects/kitchn/icon.svg",
   showcaseUrl: "/static/images/projects/kitchn/showcase.jpg",
-  thumbnailUrl: "/static/images/projects/kitchn/thumbnail.jpg",
+  thumbnailUrl: "/static/images/projects/kitchn/thumbnail.webp",
   website: "https://kitchn.tonightpass.com",
   repository: "https://github.com/tonightpass/kitchn",
   startDate: "2022-10",

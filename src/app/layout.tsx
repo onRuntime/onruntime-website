@@ -9,7 +9,6 @@ import { Provider } from "react-wrap-balancer";
 import Footer from "@/components/layout/footer/footer";
 import Script from "next/script";
 import { Toaster } from "@/components/ui/toaster";
-import { MaintenanceToast } from "@/components/maintenance-toast";
 import { Figtree } from "next/font/google"
 import { OrganizationSchema } from "@/components/json-ld/organization-schema";
 
@@ -36,7 +35,6 @@ const RootLayout = async ({ children }: React.PropsWithChildren) => (
       </Provider>
 
       <Toaster />
-      <MaintenanceToast />
     </body>
 
     {process.env.NODE_ENV !== "development" && (

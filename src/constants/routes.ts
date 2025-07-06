@@ -1,3 +1,5 @@
+
+
 const Routes = {
   unknown: "#",
 
@@ -11,6 +13,12 @@ const Routes = {
   services: "/services",
   projects: "/projects",
   careers: "/careers",
+  glossary: "/glossary",
+
+  agency: {
+    root: "/agency",
+    city: (id: string) => `/agency/${id}`,
+  },
 
   service: {
     design: {

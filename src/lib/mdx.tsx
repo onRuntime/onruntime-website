@@ -1,6 +1,6 @@
 import fs from "fs"
 import path from "path"
-import { compileMDX } from "next-mdx-remote/rsc"
+import { evaluate } from "next-mdx-remote-client/rsc"
 import { CustomMDX, MDXProps } from "@/components/custom-mdx"
 import React from "react"
 
@@ -25,7 +25,7 @@ export async function getPageContent(filename: string): Promise<PageContent> {
     }
 
     const fileContents = fs.readFileSync(filePath, "utf8")
-    const { frontmatter, content } = await compileMDX<PageContent["frontmatter"]>({
+    const { frontmatter, content } = await evaluate<PageContent["frontmatter"]>({
       source: fileContents,
       options: { parseFrontmatter: true },
     })

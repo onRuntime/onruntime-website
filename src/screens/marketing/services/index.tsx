@@ -9,7 +9,6 @@ import Services from "@/constants/services";
 import ProjectTimeline from './timeline';
 import { ConsultingSection, ExpertiseSection, TechnologiesSection, ValuePropositionSection } from '@/components/marketing/services/sections';
 
-// Service card component with expandable sub-services
 const ServiceCard = ({ 
   name, 
   description, 
@@ -30,13 +29,13 @@ const ServiceCard = ({
 }) => (
   <div className="flex flex-col gap-6 w-full">
     <div className="group relative overflow-hidden rounded-lg border bg-background p-6 hover:border-onruntime-blue transition-colors">
-      <Link href={route} className="absolute inset-0" />
+      <Link href={route} className="absolute inset-0" aria-label={name}/>
       <div className="flex flex-col gap-4">
         <div className="flex items-center gap-4">
           <div className="p-2 rounded-md bg-onruntime-blue/10 text-onruntime-blue">
             <Icon className="w-6 h-6" />
           </div>
-          <h3 className="text-xl font-medium text-foreground">{name}</h3>
+          <h2 className="text-xl font-medium text-foreground">{name}</h2>
         </div>
         <p className="text-muted-foreground">{description}</p>
       </div>
@@ -55,7 +54,7 @@ const ServiceCard = ({
             </div>
           )}
           <div className="flex-1">
-            <h4 className="text-sm font-medium text-foreground">{subService.name}</h4>
+            <h3 className="text-sm font-medium text-foreground">{subService.name}</h3>
             <p className="text-xs text-muted-foreground mt-1">{subService.description}</p>
           </div>
         </Link>
@@ -68,7 +67,7 @@ const ServicesPage = () => {
   return (
     <main className="min-h-screen pt-32 pb-16 w-full">
       <div className="px-4 md:px-0 max-w-5xl mx-auto space-y-32 w-full">
-        {/* Hero Section */}
+        
         <div className="relative max-w-2xl mx-auto flex flex-col items-center gap-6 text-center">
           <h1 className="font-medium text-4xl md:text-5xl text-foreground">
             Des solutions sur mesure pour vos projets digitaux
@@ -95,10 +94,8 @@ const ServicesPage = () => {
           />
         </div>
 
-        {/* Proposition de valeur */}
         <ValuePropositionSection />
 
-        {/* Services Grid */}
         <div className="flex flex-col gap-16 w-full">
           {Services.map((service) => (
             <ServiceCard 
@@ -112,10 +109,8 @@ const ServicesPage = () => {
           ))}
         </div>
 
-        {/* Expertise et chiffres clés */}
         <ExpertiseSection />
 
-        {/* Technologies */}
         <div className="w-full">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-medium text-foreground mb-4">
@@ -128,7 +123,6 @@ const ServicesPage = () => {
           <TechnologiesSection />
         </div>
 
-        {/* Notre processus */}
         <div className="bg-card rounded-lg p-8 border w-full">
           <div className="max-w-xl mx-auto text-center mb-12">
             <h2 className="text-3xl font-medium text-foreground mb-4">
@@ -142,7 +136,6 @@ const ServicesPage = () => {
           <ProjectTimeline />
         </div>
 
-        {/* Consulting */}
         <ConsultingSection />
       </div>
     </main>

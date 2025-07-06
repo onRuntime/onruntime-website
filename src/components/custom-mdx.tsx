@@ -18,12 +18,12 @@ const components = {
     <Link href={href || "#"} className="text-primary hover:underline" {...props} />
   ),
   ul: (props: React.HTMLProps<HTMLUListElement>) => (
-    <ul className="list-disc pl-6 mb-4 text-muted-foreground" {...props} />
+    <ul className="list-disc pl-6 mb-4 text-muted-foreground text-base" {...props} />
   ),
   ol: (props: React.OlHTMLAttributes<HTMLOListElement>) => (
-    <ol className="list-decimal pl-6 mb-4 text-muted-foreground" {...props} />
+    <ol className="list-decimal pl-6 mb-4 text-muted-foreground text-base" {...props} />
   ),
-  li: (props: React.HTMLProps<HTMLLIElement>) => <li className="mb-1" {...props} />,
+  li: (props: React.HTMLProps<HTMLLIElement>) => <li className="mb-1 text-base" {...props} />,
   strong: (props: React.HTMLProps<HTMLElement>) => <strong className="font-semibold text-foreground" {...props} />,
   em: (props: React.HTMLProps<HTMLElement>) => <em className="italic" {...props} />,
   blockquote: (props: React.HTMLProps<HTMLQuoteElement>) => (

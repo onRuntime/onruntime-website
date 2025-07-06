@@ -12,7 +12,7 @@ export const tonightpassProject: Project = {
 La plateforme met en relation les organisateurs d'événements et les participants, offrant une solution complète de gestion des réservations, de recommandations intelligentes et d'analyse de données. L'application a été conçue pour optimiser l'expérience de découverte d'événements tout en simplifiant leur gestion pour les organisateurs.`,
   iconUrl: "/static/images/projects/tonightpass/icon.svg",
   showcaseUrl: "/static/images/projects/tonightpass/showcase.jpg",
-  thumbnailUrl: "/static/images/projects/tonightpass/thumbnail.jpg",
+  thumbnailUrl: "/static/images/projects/tonightpass/thumbnail.webp",
   website: "https://tonightpass.com",
   repository: undefined,
   startDate: "2021-04",
@@ -133,17 +133,29 @@ La plateforme met en relation les organisateurs d'événements et les participan
       ref: "ines-ferreira",
       role: "Developer",
     },
+    {
+      ref: "jeremy-cailly",
+      role: "Developer",
+    },
+    {
+      ref: "asma-derragui",
+      role: "Developer"
+    },
+    {
+      ref: "louis-lazare",
+      role: "Developer",
+    },
   ],
 
   screenshots: [
-    {
-      url: "/static/images/projects/tonightpass/screenshots/home.jpg",
-      caption: "Page d'accueil de l'application",
-    },
-    {
-      url: "/static/images/projects/tonightpass/screenshots/booking.jpg",
-      caption: "Processus de réservation",
-    },
+    // {
+    //   url: "/static/images/projects/tonightpass/screenshots/home.jpg",
+    //   caption: "Page d'accueil de l'application",
+    // },
+    // {
+    //   url: "/static/images/projects/tonightpass/screenshots/booking.jpg",
+    //   caption: "Processus de réservation",
+    // },
   ],
 
   challenges: [
