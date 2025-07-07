@@ -236,7 +236,7 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
         <div className="border rounded-lg p-8 bg-card">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-2xl font-medium mb-4">
-              Notre culture d'entreprise
+              Notre culture d&apos;entreprise
             </h2>
             <p className="text-muted-foreground mb-6">
               Chez onRuntime Studio, nous cultivons un environnement de travail
