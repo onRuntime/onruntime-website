@@ -154,13 +154,13 @@ const Services: React.FC = () => {
         className={`
           flex flex-col gap-4
           md:sticky md:top-24 md:self-start
-          transition-all duration-3000ms] md:w-1/3
+          transition-all duration-3000ms] md:w-[500px]
           text-center md:text-left
           ${colors.text}
         `}
         style={{ position: isMobile ? "static" : undefined }}
       >
-        <h2 className="font-semibold text-3xl transition-colors duration-[3000ms] ease-out">
+        <h2 className="font-semibold text-2xl md:text-2xl transition-colors duration-[3000ms] ease-out">
           Un studio qui combine <br />
           les savoirs-faire créatifs
         </h2>
@@ -170,7 +170,7 @@ const Services: React.FC = () => {
         </p>
         <Link href="/">
           <button
-            className={`mt-8 px-4 py-2 text-sm rounded-md shadow hover:opacity-80 transition-all duration-[3000ms] ${colors.button} mx-auto md:mx-0`}
+            className={`mt-8 mb-8 px-4 py-2 text-sm rounded-md shadow hover:opacity-80 transition-all duration-[3000ms] ${colors.button} mx-auto md:mx-0`}
           >
             En savoir plus
           </button>
@@ -178,7 +178,7 @@ const Services: React.FC = () => {
       </div>
 
       {/* Bloc droite */}
-      <div className="mt-24 md:mt-44 w-full max-w-md md:w-[400px]">
+      <div className="w-full max-w-md md:w-[500px]">
         <p className="mb-8">
           Nos projets allient nos compétences afin qu&apos;ils soient
           resplendissants sur le web.
