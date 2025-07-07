@@ -6,7 +6,7 @@ export const kitchnProject: Project = {
   name: "Kitchn",
   tags: [Tag.OPEN_SOURCE],
   shortDescription:
-    "Une bibliothèque de composants React et React Native moderne, performante et hautement personnalisable, inspirée par Geist UI et Vercel Design.",
+    "Bibliothèque moderne, performante et hautement personnalisable de composants React et React Native. Inspirée par Geist UI et Vercel Design.",
   description:
     "Une suite complète de composants styled-components conçue pour créer des interfaces utilisateur cohérentes et élégantes, maintenue par Tonight Pass.",
   longDescription: `Kitchn est une bibliothèque de composants UI complète qui accélère le développement d'applications web et mobiles modernes. 

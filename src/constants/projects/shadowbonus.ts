@@ -5,7 +5,7 @@ export const shadowbonusProject: Project = {
   id: "shadowbonus",
   name: "ShadowBonus",
   tags: [Tag.CUSTOMER],
-  shortDescription: "Plateforme d'affiliation pour streameur spécialisée dans les bonus de casinos en ligne et box opening.",
+  shortDescription: "Plateforme d'affiliation pour streameur, spécialisée dans les bonus de casinos en ligne et box opening.",
   description: "Site web d'affiliation développé pour le streameur vitapvp, présentant les meilleurs bonus et avantages des casinos partenaires avec redirection vers les liens d'affiliation.",
   longDescription: `ShadowBonus est une plateforme d'affiliation développée pour le streameur vitapvp, conçue pour présenter de manière claire et attractive les meilleurs bonus et avantages des casinos en ligne partenaires.
 
