@@ -233,9 +233,9 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
             </h2>
             <p className="text-muted-foreground mb-6">
               Chez onRuntime Studio, nous cultivons un environnement de travail
-              collaboratif et stimulant où chaque membre de l'équipe peut
+              collaboratif et stimulant où chaque membre de l&apos;équipe peut
               exprimer sa créativité et développer ses compétences. Nous
-              privilégions l'innovation, la qualité et le bien-être de nos
+              privilégions l&apos;innovation, la qualité et le bien-être de nos
               collaborateurs.
             </p>
 
