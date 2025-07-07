@@ -52,7 +52,7 @@ const CareersPage: React.FC = () => {
       } catch (err) {
         console.error("Error fetching jobs:", err);
         setError(
-          "Une erreur est survenue lors du chargement des offres d'emploi. Veuillez réessayer ultérieurement.",
+          "Une erreur est survenue lors du chargement des offres d&apos;emploi. Veuillez réessayer ultérieurement.",
         );
         setJobs([]);
       } finally {

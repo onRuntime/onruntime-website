@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { unstable_cache } from "next/cache";
+import { formatEmploymentType } from "@/lib/utils/careers";
 
 // Validation schemas for join.com API responses
 const joinJobSchema = z.object({
@@ -104,18 +105,4 @@ export async function GET() {
   }
 }
 
-function formatEmploymentType(type: string | null | undefined): string {
-  if (!type) return "Temps plein";
-
-  const typeMap: Record<string, string> = {
-    FULL_TIME: "Temps plein",
-    PART_TIME: "Temps partiel",
-    CONTRACT: "Contrat",
-    TEMPORARY: "Temporaire",
-    INTERNSHIP: "Stage",
-    APPRENTICESHIP: "Apprentissage",
-  };
-
-  return typeMap[type] || type;
-}
 

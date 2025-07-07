@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { unstable_cache } from "next/cache";
+import { formatEmploymentType, formatSalary, extractTags } from "@/lib/utils/careers";
 
 // Validation schema for individual job response
 const joinJobSchema = z.object({
@@ -134,54 +135,4 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
   }
 }
 
-function formatEmploymentType(type: string | null | undefined): string {
-  if (!type) return "Temps plein";
-
-  const typeMap: Record<string, string> = {
-    FULL_TIME: "Temps plein",
-    PART_TIME: "Temps partiel",
-    CONTRACT: "Contrat",
-    TEMPORARY: "Temporaire",
-    INTERNSHIP: "Stage",
-    APPRENTICESHIP: "Apprentissage",
-  };
-
-  return typeMap[type] || type;
-}
-
-function formatSalary(
-  min?: number,
-  max?: number,
-  currency?: string,
-): string | null {
-  if (!min && !max) return null;
-
-  const currencySymbol = currency === "EUR" ? "€" : currency || "";
-
-  if (min && max) {
-    return `${min.toLocaleString("fr-FR")} - ${max.toLocaleString(
-      "fr-FR",
-    )} ${currencySymbol}`;
-  } else if (min) {
-    return `À partir de ${min.toLocaleString("fr-FR")} ${currencySymbol}`;
-  } else if (max) {
-    return `Jusqu'à ${max.toLocaleString("fr-FR")} ${currencySymbol}`;
-  }
-
-  return null;
-}
-
-function extractTags(jobData: { skills?: { name: string }[] }): string[] {
-  const tags: string[] = [];
-
-  if (jobData.skills && Array.isArray(jobData.skills)) {
-    jobData.skills.forEach((skill) => {
-      if (skill.name) {
-        tags.push(skill.name);
-      }
-    });
-  }
-
-  return tags;
-}
 
