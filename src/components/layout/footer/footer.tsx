@@ -8,7 +8,7 @@ const navigation = {
     { name: "Nos services", href: Routes.services },
     { name: "Nos projets", href: Routes.projects },
     { name: "L'association", href: Routes.npo },
-    { name: "Carrières", href: Routes.unknown },
+    { name: "Carrières", href: Routes.careers },
     { name: "Blog", href: Routes.unknown },
   ],
   ["Ressources"]: [
@@ -19,7 +19,7 @@ const navigation = {
   ["Autres"]: [
     { name: "Contact", href: Routes.contact },
     { name: "Conditions générales", href: Routes.legals.terms },
-    { name: "Politique de confidentialité", href: Routes.legals.privacy }, 
+    { name: "Politique de confidentialité", href: Routes.legals.privacy },
     { name: "Détails de l'entreprise", href: Routes.legals.company },
   ],
   ["Réseaux sociaux"]: [
@@ -58,7 +58,16 @@ const Footer: React.FC = () => {
                 <ul className="flex flex-col gap-3">
                   {links.map((link) => (
                     <li key={link.name}>
-                      <Link href={link.href} className="text-foreground" target={link.href.startsWith("http") ? "_blank" : ""} rel={link.href.startsWith("http") ? "noopener noreferrer" : ""}>
+                      <Link
+                        href={link.href}
+                        className="text-foreground"
+                        target={link.href.startsWith("http") ? "_blank" : ""}
+                        rel={
+                          link.href.startsWith("http")
+                            ? "noopener noreferrer"
+                            : ""
+                        }
+                      >
                         {link.name}
                       </Link>
                     </li>

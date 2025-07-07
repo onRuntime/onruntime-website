@@ -12,6 +12,7 @@ const Routes = {
   contact: "/contact",
   services: "/services",
   projects: "/projects",
+  careers: "/careers",
   glossary: "/glossary",
 
   agency: {
@@ -28,7 +29,7 @@ const Routes = {
       branding: "/services/design/branding",
       audit: "/services/design/audit",
     },
-    
+
     integration: {
       root: "/services/integration",
       shopify: "/services/integration/shopify",
@@ -38,7 +39,7 @@ const Routes = {
       prestashop: "/services/integration/prestashop",
       strapi: "/services/integration/strapi",
     },
-    
+
     frontend: {
       root: "/services/frontend",
       web: "/services/frontend/web",
@@ -46,7 +47,7 @@ const Routes = {
       desktop: "/services/frontend/desktop",
       pwa: "/services/frontend/pwa",
     },
-    
+
     backend: {
       root: "/services/backend",
       api: "/services/backend/api",
@@ -62,6 +63,7 @@ const Routes = {
     terms: "/terms",
     privacy: "/privacy",
   },
+  career: (id: string) => `/careers/${id}`,
 
   project: (id: string) => `/projects/${id}`,
 
@@ -71,7 +73,7 @@ const Routes = {
     linkedin: "https://www.linkedin.com/company/onruntime",
     github: "https://github.com/onruntime",
     x: "https://x.com/onruntime",
-  }
+  },
 };
 
 export default Routes;
