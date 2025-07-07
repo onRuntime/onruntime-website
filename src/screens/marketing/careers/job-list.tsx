@@ -53,7 +53,7 @@ const JobList: React.FC<JobListProps> = ({ jobs, isLoading, error }) => {
     return (
       <div id="job-listings" className="py-12 text-center">
         <p className="text-muted-foreground">
-          Aucune offre d'emploi ne correspond à votre recherche.
+          Aucune offre d&apos;emploi ne correspond à votre recherche.
         </p>
       </div>
     );
@@ -124,7 +124,7 @@ const JobList: React.FC<JobListProps> = ({ jobs, isLoading, error }) => {
 
               <div className="flex-shrink-0">
                 <Link href={`/careers/${job.id}`} passHref>
-                  <Button>Voir l'offre</Button>
+                  <Button>Voir l&apos;offre</Button>
                 </Link>
               </div>
             </div>
