@@ -1,14 +1,6 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
-
-// Simple in-memory cache
-interface CacheEntry {
-  data: unknown;
-  timestamp: number;
-}
-
-const cache = new Map<string, CacheEntry>();
-const CACHE_TTL = 5 * 60 * 1000; // 5 minutes in milliseconds
+import { unstable_cache } from "next/cache";
 
 // Validation schemas for join.com API responses
 const joinJobSchema = z.object({
@@ -42,46 +34,12 @@ const joinJobSchema = z.object({
 
 const joinJobsResponseSchema = z.array(joinJobSchema);
 
-function getCachedData(key: string): unknown | null {
-  const entry = cache.get(key);
-  if (!entry) return null;
-  
-  if (Date.now() - entry.timestamp > CACHE_TTL) {
-    cache.delete(key);
-    return null;
-  }
-  
-  return entry.data;
-}
-
-function setCachedData(key: string, data: unknown): void {
-  cache.set(key, {
-    data,
-    timestamp: Date.now(),
-  });
-}
-
-export async function GET() {
-  try {
-    const cacheKey = 'join-jobs-list';
-    
-    // Try to get cached data first
-    const cachedJobs = getCachedData(cacheKey);
-    if (cachedJobs) {
-      return NextResponse.json({ 
-        jobs: cachedJobs,
-        isCached: true 
-      });
-    }
-
+// Cached function to fetch jobs from join.com API
+const getCachedJobs = unstable_cache(
+  async () => {
     const apiKey = process.env.JOIN_API_KEY;
-
     if (!apiKey) {
-      console.error("JOIN_API_KEY is not defined in environment variables");
-      return NextResponse.json(
-        { error: "API configuration missing" },
-        { status: 500 }
-      );
+      throw new Error("JOIN_API_KEY is not configured");
     }
 
     const response = await fetch("https://api.join.com/v2/jobs", {
@@ -106,7 +64,7 @@ export async function GET() {
       throw new Error("Invalid response format from join.com API");
     }
 
-    const jobs = validationResult.data.map((job) => ({
+    return validationResult.data.map((job) => ({
       id: job.id,
       title: job.title,
       department: job.department?.name || "Non spécifié",
@@ -119,10 +77,17 @@ export async function GET() {
       remote: job.remote || false,
       shortDescription: job.shortDescription || "",
     }));
+  },
+  ['join-jobs'],
+  {
+    revalidate: 300, // 5 minutes cache
+    tags: ['careers'],
+  }
+);
 
-    // Cache the processed jobs
-    setCachedData(cacheKey, jobs);
-
+export async function GET() {
+  try {
+    const jobs = await getCachedJobs();
     return NextResponse.json({ jobs });
   } catch (error) {
     console.error("Error fetching jobs from Join API:", error);

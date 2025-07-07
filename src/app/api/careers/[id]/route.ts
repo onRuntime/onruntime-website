@@ -1,14 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
-
-// Simple in-memory cache
-interface CacheEntry {
-  data: unknown;
-  timestamp: number;
-}
-
-const cache = new Map<string, CacheEntry>();
-const CACHE_TTL = 5 * 60 * 1000; // 5 minutes in milliseconds
+import { unstable_cache } from "next/cache";
 
 // Validation schema for individual job response
 const joinJobSchema = z.object({
@@ -40,58 +32,15 @@ const joinJobSchema = z.object({
   })).optional(),
 });
 
-function getCachedData(key: string): unknown | null {
-  const entry = cache.get(key);
-  if (!entry) return null;
-  
-  if (Date.now() - entry.timestamp > CACHE_TTL) {
-    cache.delete(key);
-    return null;
-  }
-  
-  return entry.data;
-}
-
-function setCachedData(key: string, data: unknown): void {
-  cache.set(key, {
-    data,
-    timestamp: Date.now(),
-  });
-}
-
-export async function GET(request: NextRequest, { params }: { params: { id: string } }) {
-  try {
-    const id = params.id;
-
-    if (!id) {
-      return NextResponse.json(
-        { error: "Job ID is required" },
-        { status: 400 },
-      );
-    }
-
-    const cacheKey = `join-job-${id}`;
-    
-    // Try to get cached data first
-    const cachedJob = getCachedData(cacheKey);
-    if (cachedJob) {
-      return NextResponse.json({ 
-        job: cachedJob,
-        isCached: true 
-      });
-    }
-
+// Cached function to fetch individual job from join.com API
+const getCachedJob = unstable_cache(
+  async (jobId: string) => {
     const apiKey = process.env.JOIN_API_KEY;
-
     if (!apiKey) {
-      console.error("JOIN_API_KEY is not defined in environment variables");
-      return NextResponse.json(
-        { error: "API configuration missing" },
-        { status: 500 }
-      );
+      throw new Error("JOIN_API_KEY is not configured");
     }
 
-    const response = await fetch(`https://api.join.com/v2/jobs/${id}`, {
+    const response = await fetch(`https://api.join.com/v2/jobs/${jobId}`, {
       headers: {
         Authorization: apiKey,
         Accept: "application/json",
@@ -99,7 +48,7 @@ export async function GET(request: NextRequest, { params }: { params: { id: stri
     });
 
     if (response.status === 404) {
-      return NextResponse.json({ error: "Job not found" }, { status: 404 });
+      return null; // Job not found
     }
 
     if (!response.ok) {
@@ -118,7 +67,7 @@ export async function GET(request: NextRequest, { params }: { params: { id: stri
     }
 
     const validatedJob = validationResult.data;
-    const job = {
+    return {
       id: validatedJob.id,
       title: validatedJob.title,
       department: validatedJob.department?.name || "Non spécifié",
@@ -144,9 +93,30 @@ export async function GET(request: NextRequest, { params }: { params: { id: stri
       validThrough: validatedJob.validThrough || null,
       tags: extractTags(validatedJob),
     };
+  },
+  ['join-job'],
+  {
+    revalidate: 300, // 5 minutes cache
+    tags: ['careers'],
+  }
+);
 
-    // Cache the processed job
-    setCachedData(cacheKey, job);
+export async function GET(request: NextRequest, { params }: { params: { id: string } }) {
+  try {
+    const id = params.id;
+
+    if (!id) {
+      return NextResponse.json(
+        { error: "Job ID is required" },
+        { status: 400 },
+      );
+    }
+
+    const job = await getCachedJob(id);
+    
+    if (!job) {
+      return NextResponse.json({ error: "Job not found" }, { status: 404 });
+    }
 
     return NextResponse.json({ job });
   } catch (error) {
