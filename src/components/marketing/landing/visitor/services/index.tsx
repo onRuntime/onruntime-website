@@ -146,7 +146,7 @@ const Services: React.FC = () => {
 
   return (
     <div
-      className="mt-32 flex flex-col md:flex-row justify-center gap-0 md:gap-24 px-4"
+      className="mt-32 flex flex-col md:flex-row justify-center gap-0 md:gap-24 px-16"
       ref={containerRef}
     >
       {/* Bloc gauche */}

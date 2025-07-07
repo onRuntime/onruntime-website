@@ -23,7 +23,7 @@ const Tonightpass: React.FC = () => {
         En quelques clics depuis votre canapé 🛋️
       </strong>
       <Link href="/projects/tonightpass">
-        <button className="mt-8 bg-white text-black px-3 py-1 rounded-md shadow hover:bg-gray-100">
+        <button className="mt-8 bg-white text-black px-3 py-1 text-sm rounded-md shadow hover:bg-gray-100">
           En savoir plus
         </button>
       </Link>

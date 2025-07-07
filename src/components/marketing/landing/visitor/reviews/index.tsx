@@ -24,7 +24,7 @@ const reviewsData = [
 
 const Reviews: React.FC = () => {
   return (
-    <section className="pt-[4em] md:pt-[15em] py-8 md:py-16 px-4 relative min-h-screen">
+    <section className="pt-[4em] md:pt-[5em] py-8 md:py-16 px-4 relative min-h-screen">
       <div className="max-w-7xl mx-auto relative">
         {/* Titre sticky */}
         <div className="sticky top-16 md:top-20 text-center z-0 mb-8 md:mb-16">
