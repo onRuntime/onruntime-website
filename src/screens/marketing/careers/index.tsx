@@ -162,7 +162,7 @@ const CareersPage: React.FC = () => {
               Nos opportunités actuelles
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              Découvrez nos offres demploi et trouvez le poste qui correspond à
+              Découvrez nos offres d&apos;emploi et trouvez le poste qui correspond à
               vos compétences et aspirations.
             </p>
           </div>

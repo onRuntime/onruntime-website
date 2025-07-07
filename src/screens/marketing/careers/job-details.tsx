@@ -19,20 +19,13 @@ import Link from "next/link";
 import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
 import JobContent from "@/components/ui/job-content";
+import { formatDate } from "@/lib/utils/date";
 
 interface JobDetailPageProps {
   job: JobPosting;
 }
 
 const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
-  const formatDate = (dateString: string): string => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString("fr-FR", {
-      day: "numeric",
-      month: "long",
-      year: "numeric",
-    });
-  };
 
   const handleShareClick = () => {
     if (navigator.share) {

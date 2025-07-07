@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { CalendarDays, Clock, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { formatDate } from "@/lib/utils/date";
 
 interface JobListProps {
   jobs: JobPosting[];
@@ -59,19 +60,11 @@ const JobList: React.FC<JobListProps> = ({ jobs, isLoading, error }) => {
     );
   }
 
-  const formatDate = (dateString: string): string => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString("fr-FR", {
-      day: "numeric",
-      month: "long",
-      year: "numeric",
-    });
-  };
 
   return (
     <div id="job-listings" className="space-y-6">
       <p className="text-sm text-muted-foreground">
-        {jobs.length} offre(s) demploi disponible(s)
+        {jobs.length} offre(s) d&apos;emploi disponible(s)
       </p>
 
       <div className="space-y-4">
