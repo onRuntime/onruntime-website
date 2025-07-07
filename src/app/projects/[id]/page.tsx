@@ -27,7 +27,6 @@ export async function generateMetadata({
     description: `Notre agence a conçu et développé ${
       project.name
     }. ${project.shortDescription.slice(0, 100)}`,
-    canonical: `https://onruntime.com/projects/${project.id}`
   });
 }
 
