@@ -108,42 +108,11 @@ const JobList: React.FC<JobListProps> = ({ jobs, isLoading, error }) => {
                     <Badge variant="outline">{job.seniority}</Badge>
                   )}
                   {job.remote && <Badge variant="outline">Remote</Badge>}
-                  {job.tags?.map(
-                    (
-                      tag:
-                        | string
-                        | number
-                        | bigint
-                        | boolean
-                        | React.ReactElement<
-                            unknown,
-                            string | React.JSXElementConstructor<unknown>
-                          >
-                        | Iterable<React.ReactNode>
-                        | React.ReactPortal
-                        | Promise<
-                            | string
-                            | number
-                            | bigint
-                            | boolean
-                            | React.ReactPortal
-                            | React.ReactElement<
-                                unknown,
-                                string | React.JSXElementConstructor<unknown>
-                              >
-                            | Iterable<React.ReactNode>
-                            | null
-                            | undefined
-                          >
-                        | null
-                        | undefined,
-                      index: React.Key | null | undefined,
-                    ) => (
-                      <Badge key={index} variant="outline">
-                        {tag}
-                      </Badge>
-                    ),
-                  )}
+                  {job.tags?.map((tag, index) => (
+                    <Badge key={index} variant="outline">
+                      {tag}
+                    </Badge>
+                  ))}
                 </div>
 
                 {job.shortDescription && (

@@ -18,6 +18,7 @@ import {
 import Link from "next/link";
 import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
+import JobContent from "@/components/ui/job-content";
 
 interface JobDetailPageProps {
   job: JobPosting;
@@ -37,7 +38,7 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
     if (navigator.share) {
       navigator
         .share({
-          title: `${job.title} | onRuntime Studio`,
+          title: job.title,
           text: `Découvrez cette opportunité: ${job.title} chez onRuntime Studio`,
           url: window.location.href,
         })
@@ -124,10 +125,7 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
                 Description du poste
               </h2>
               {job.description ? (
-                <div
-                  className="prose prose-sm max-w-none text-muted-foreground"
-                  dangerouslySetInnerHTML={{ __html: job.description }}
-                />
+                <JobContent content={job.description} />
               ) : (
                 <p className="text-muted-foreground">
                   {job.shortDescription ||
@@ -139,20 +137,14 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
             {job.requirements && (
               <div>
                 <h2 className="text-2xl font-medium mb-4">Prérequis</h2>
-                <div
-                  className="prose prose-sm max-w-none text-muted-foreground"
-                  dangerouslySetInnerHTML={{ __html: job.requirements }}
-                />
+                <JobContent content={job.requirements} />
               </div>
             )}
 
             {job.benefits && (
               <div>
                 <h2 className="text-2xl font-medium mb-4">Avantages</h2>
-                <div
-                  className="prose prose-sm max-w-none text-muted-foreground"
-                  dangerouslySetInnerHTML={{ __html: job.benefits }}
-                />
+                <JobContent content={job.benefits} />
               </div>
             )}
           </div>
@@ -242,7 +234,7 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
         </div>
 
         <div className="border rounded-lg p-8 bg-card">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-2xl font-medium mb-4">
               Notre culture dentreprise
             </h2>

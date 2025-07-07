@@ -273,7 +273,7 @@ const CareersPage: React.FC = () => {
                   <Briefcase className="w-5 h-5" />
                 </div>
                 <h3 className="text-xl font-medium text-foreground">
-                  Projet et Produit
+                  Projet & Produit
                 </h3>
               </div>
               <p className="text-muted-foreground mb-4">
@@ -301,50 +301,6 @@ const CareersPage: React.FC = () => {
           </div>
         </div>
 
-        <div className="space-y-8">
-          <div className="text-center">
-            <h2 className="text-3xl font-medium text-foreground mb-4">
-              La vie chez onRuntime
-            </h2>
-            <p className="text-muted-foreground max-w-3xl mx-auto">
-              Découvrez notre culture dentreprise et notre environnement de
-              travail.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="space-y-2">
-              <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
-                <span className="text-muted-foreground">
-                  Image: Collaboration
-                </span>
-              </div>
-              <p className="text-sm text-muted-foreground text-center">
-                Collaboration et travail déquipe
-              </p>
-            </div>
-
-            <div className="space-y-2">
-              <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
-                <span className="text-muted-foreground">
-                  Image: Espace de travail
-                </span>
-              </div>
-              <p className="text-sm text-muted-foreground text-center">
-                Nos espaces de travail modernes
-              </p>
-            </div>
-
-            <div className="space-y-2">
-              <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
-                <span className="text-muted-foreground">Image: Événements</span>
-              </div>
-              <p className="text-sm text-muted-foreground text-center">
-                Événements d&apos;équipe et célébrations
-              </p>
-            </div>
-          </div>
-        </div>
 
         <div className="text-center">
           <h2 className="text-3xl font-medium text-foreground mb-4">

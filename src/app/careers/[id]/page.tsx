@@ -1,14 +1,16 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { notFound } from "next/navigation";
 import { constructMetadata } from "@/lib/utils/metadata";
 import JobDetailPage from "@/screens/marketing/careers/job-details";
 import { JobPosting } from "@/types/job";
 import { Metadata } from "next";
+import { env } from "env.mjs";
 
 async function getJobById(id: string): Promise<JobPosting | null> {
   try {
+    const baseUrl =env.NEXT_PUBLIC_APP_URL;
+    
     const res = await fetch(
-      `${process.env.NEXT_PUBLIC_APP_URL}/api/careers/${id}`,
+      `${baseUrl}/api/careers/${id}`,
       {
         cache: "no-cache",
       },
@@ -26,8 +28,9 @@ async function getJobById(id: string): Promise<JobPosting | null> {
   }
 }
 
-export async function generateMetadata(props: any): Promise<Metadata> {
-  const id = props.params.id;
+export async function generateMetadata(props: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const params = await props.params;
+  const id = params.id;
   const job = await getJobById(id);
 
   if (!job) {
@@ -46,8 +49,9 @@ export async function generateMetadata(props: any): Promise<Metadata> {
   });
 }
 
-export default async function Page(props: any) {
-  const id = props.params.id;
+export default async function Page(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
+  const id = params.id;
   const job = await getJobById(id);
 
   if (!job) {
