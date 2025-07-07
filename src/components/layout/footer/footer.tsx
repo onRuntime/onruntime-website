@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-wrap gap-8">
             {Object.entries(navigation).map(([key, links]) => (
               <div key={key} className="flex flex-col gap-4">
-                <h4 className="text-muted-foreground">{key}</h4>
+                <h3 className="text-muted-foreground">{key}</h3>
 
                 <ul className="flex flex-col gap-3">
                   {links.map((link) => (
