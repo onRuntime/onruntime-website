@@ -23,8 +23,8 @@ export async function generateMetadata({
   }
 
   return constructMetadata({
-    title: `Étude de cas : ${project.name} - Projet digital par notre agence`,
-    description: `Découvrez comment notre agence a conçu et développé ${
+    title: `Étude de cas : ${project.name}`,
+    description: `Notre agence a conçu et développé ${
       project.name
     }. ${project.shortDescription.slice(0, 100)}`,
   });
