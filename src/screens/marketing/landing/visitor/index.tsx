@@ -16,6 +16,7 @@ const VisitorLanding: NextPage = () => {
       <Services />
       <Team />
       {/* <Reviews /> */}
+      {/* TODO: uncomment when real reviews are available */}
       <LucasTestimonial />
       <Projects />
     </>
