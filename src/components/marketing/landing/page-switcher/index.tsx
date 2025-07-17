@@ -46,8 +46,8 @@ const PageSwitcher: React.FC = () => {
           Corresponding content panels for each tab.
           They are empty since actual content is rendered elsewhere.
         */}
-        <TabsContent value="customer" id="tab-content-customer" />
-        <TabsContent value="" id="tab-content-visitor" />
+        <TabsContent value="customer" id="tab-content-customer" aria-labelledby="tab-trigger-customer"/>
+        <TabsContent value="" id="tab-content-visitor" aria-labelledby="tab-trigger-visitor"/>
       </Tabs>
     </div>
   );
