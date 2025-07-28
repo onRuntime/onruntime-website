@@ -30,7 +30,7 @@
     "clsx": "^2.1.1",
     "gray-matter": "^4.0.3",
     "next-mdx-remote": "^5.0.0",
-    "lucide-react": "^0.515.0",
+    "lucide-react": "^0.532.0",
     "motion": "^12.0.0",
     "next": "15.3.3",
     "next-mdx-remote-client": "^2.1.1",
