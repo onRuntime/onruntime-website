@@ -29,8 +29,67 @@ interface ProjectPageProps {
 const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
   return (
     <main className="min-h-screen pt-32 pb-16">
+      {project.id === "tonightpass" ? (
+        <div className="relative min-h-screen flex flex-col items-center justify-center px-4 -mt-32 pt-32">
+          <div className="max-w-4xl mx-auto text-center space-y-8">
+            <h1 className="font-semibold text-4xl md:text-6xl text-foreground">
+              La billetterie qui simplifie vos événements
+            </h1>
+            
+            <h2 className="text-xl md:text-2xl text-muted-foreground font-medium">
+              De la création à l&apos;entrée, gérez tout en 5 minutes
+            </h2>
+            
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+              Solution complète de billetterie pour organisateurs d&apos;événements. 
+              Créez vos événements, vendez vos billets et gérez l&apos;accès avec des outils professionnels et un support dédié.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
+              <Link href="https://tonightpass.com/fr/auth?continue=%2Fnew">
+                <Button size="lg" className="w-full sm:w-auto">
+                  Créer mon événement
+                  <ArrowRight className="ml-2 w-4 h-4" />
+                </Button>
+              </Link>
+              <Link href="https://tonightpass.com/fr/ticketing">
+                <Button variant="outline" size="lg" className="w-full sm:w-auto">
+                  Découvrir la solution
+                  <Globe className="ml-2 w-4 h-4" />
+                </Button>
+              </Link>
+            </div>
+            
+            <div className="grid grid-cols-3 gap-8 pt-12 max-w-md mx-auto text-center">
+              <div>
+                <div className="text-2xl font-bold text-foreground">5min</div>
+                <div className="text-sm text-muted-foreground">Configuration</div>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-foreground">0€</div>
+                <div className="text-sm text-muted-foreground">Installation</div>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-foreground">24/7</div>
+                <div className="text-sm text-muted-foreground">Support</div>
+              </div>
+            </div>
+          </div>
+          
+          <DotPattern
+            width={30}
+            height={30}
+            className={cn(
+              "absolute z-[-1] inset-0",
+              "[mask-image:radial-gradient(400px_circle_at_center,white,transparent)]"
+            )}
+          />
+        </div>
+      ) : null}
+      
       <div className="px-4 md:px-0 max-w-5xl mx-auto space-y-24">
-        <div className="relative w-full flex flex-col items-center gap-8">
+        {project.id !== "tonightpass" && (
+          <div className="relative w-full flex flex-col items-center gap-8">
           <div className="max-w-2xl text-center space-y-6">
             <Image
               src={project.iconUrl}
@@ -85,7 +144,8 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
               "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]"
             )}
           />
-        </div>
+          </div>
+        )}
 
         <div className="w-full">
           <Safari width={1200} height={750} imageSrc={project.showcaseUrl} url={new URL(project.website ||  env.NEXT_PUBLIC_APP_URL || "").hostname} />
@@ -127,6 +187,34 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
             </div>
           </div>
         </div>
+
+        {project.id === "tonightpass" && (
+          <div className="relative overflow-hidden rounded-lg border bg-card p-8">
+            <div className="max-w-3xl mx-auto text-center space-y-6 relative z-10">
+              <h2 className="text-2xl md:text-3xl font-semibold text-foreground">
+                Prêt à simplifier votre billetterie ?
+              </h2>
+              <p className="text-lg text-muted-foreground">
+                Simplifiez la gestion de vos événements avec une solution complète et intuitive
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link href="https://tonightpass.com/fr/auth?continue=%2Fnew">
+                  <Button size="lg" className="w-full sm:w-auto">
+                    Commencer maintenant
+                    <ArrowRight className="ml-2 w-4 h-4" />
+                  </Button>
+                </Link>
+                <Link href="https://tonightpass.com/fr/ticketing">
+                  <Button variant="outline" size="lg" className="w-full sm:w-auto">
+                    Voir toutes les fonctionnalités
+                  </Button>
+                </Link>
+              </div>
+            </div>
+            
+            <div className="absolute right-0 top-0 bottom-0 w-1/3 bg-gradient-to-l from-onruntime-blue/10 to-transparent" />
+          </div>
+        )}
 
         <div className="prose prose-neutral dark:prose-invert max-w-none">
           <h2 className="text-3xl font-semibold text-foreground mb-6">
