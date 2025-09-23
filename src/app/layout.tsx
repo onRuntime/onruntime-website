@@ -63,6 +63,23 @@ const RootLayout = async ({ children }: React.PropsWithChildren) => (
             `,
           }}
         />
+
+        {/* Google Ads Conversion Tracking */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16498437714"
+        />
+        <Script
+          id="google-ads"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-16498437714');
+            `,
+          }}
+        />
       </>
     )}
   </html>
