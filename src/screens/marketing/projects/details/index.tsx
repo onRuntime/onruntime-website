@@ -21,6 +21,7 @@ import TeamMembers from "@/constants/team-members";
 import { env } from "process";
 
 import { MemberWebsiteButton } from "@/components/marketing/projects/details/member-website-button";
+import { GoogleAdsConversionLink } from "@/components/marketing/projects/details/google-ads-conversion";
 
 interface ProjectPageProps {
   project: Project;
@@ -46,18 +47,24 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
-              <Link href="https://tonightpass.com/fr/auth?continue=%2Fnew">
+              <GoogleAdsConversionLink
+                href="https://tonightpass.com/fr/auth?continue=%2Fnew"
+                sendTo="AW-16498437714/CRTrCMzs0akbENLciLs9"
+              >
                 <Button size="lg" className="w-full sm:w-auto">
                   Créer mon événement
                   <ArrowRight className="ml-2 w-4 h-4" />
                 </Button>
-              </Link>
-              <Link href="https://tonightpass.com/fr/ticketing">
+              </GoogleAdsConversionLink>
+              <GoogleAdsConversionLink
+                href="https://tonightpass.com/fr/ticketing"
+                sendTo="AW-16498437714/CRTrCMzs0akbENLciLs9"
+              >
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   Découvrir la solution
                   <Globe className="ml-2 w-4 h-4" />
                 </Button>
-              </Link>
+              </GoogleAdsConversionLink>
             </div>
             
             <div className="grid grid-cols-3 gap-8 pt-12 max-w-md mx-auto text-center">
@@ -198,17 +205,23 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
                 Simplifiez la gestion de vos événements avec une solution complète et intuitive
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="https://tonightpass.com/fr/auth?continue=%2Fnew">
+                <GoogleAdsConversionLink
+                  href="https://tonightpass.com/fr/auth?continue=%2Fnew"
+                  sendTo="AW-16498437714/CRTrCMzs0akbENLciLs9"
+                >
                   <Button size="lg" className="w-full sm:w-auto">
                     Commencer maintenant
                     <ArrowRight className="ml-2 w-4 h-4" />
                   </Button>
-                </Link>
-                <Link href="https://tonightpass.com/fr/ticketing">
+                </GoogleAdsConversionLink>
+                <GoogleAdsConversionLink
+                  href="https://tonightpass.com/fr/ticketing"
+                  sendTo="AW-16498437714/CRTrCMzs0akbENLciLs9"
+                >
                   <Button variant="outline" size="lg" className="w-full sm:w-auto">
                     Voir toutes les fonctionnalités
                   </Button>
-                </Link>
+                </GoogleAdsConversionLink>
               </div>
             </div>
             
