@@ -5,8 +5,7 @@ export const darkThemeForInstagram: Project = {
 	id: "dark-theme-instagram",
 	name: "Dark Theme for Instagram",
 	tags: [Tag.OPEN_SOURCE],
-	shortDescription:
-		"Une extension de navigateur qui transforme Instagram en mode sombre, similaire à l'application iOS.",
+	shortDescription: "Une extension qui passe Instagram en mode sombre, comme sur iOS.",
 	description:
 		"Changez le thème de Instagram.com en mode sombre lorsque le système est en mode sombre.",
 	longDescription: `Dark Theme for Instagram™ est une extension de navigateur qui transforme l'expérience visuelle de Instagram.com en adoptant un thème sombre, similaire à l'apparence de l'application iOS.

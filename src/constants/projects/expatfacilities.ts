@@ -6,7 +6,7 @@ export const expatFacilitiesProject: Project = {
   name: "Expat Facilities",
   tags: [Tag.CUSTOMER],
   shortDescription:
-    "Plateforme complète d'accompagnement pour l'expatriation étudiante, intégrant logement, visa, transport et support local.",
+    "Plateforme d’accompagnement à l’expatriation étudiante : logement, visa, transports, support local.",
   description:
     "Développement d'une plateforme full-stack permettant aux étudiants français de gérer leur expatriation de A à Z avec des services intégrés et un réseau d'ambassadeurs locaux.",
   longDescription: `Expat Facilities était une startup française révolutionnaire qui simplifiait l'expatriation pour les étudiants. Notre équipe a développé une plateforme complète from scratch, évoluant d'une simple landing page vers une solution sophistiquée combinant les fonctionnalités d'Airbnb avec un écosystème de services d'expatriation.
