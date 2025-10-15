@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
 
   return (
     <footer className={"pb-24 pt-10 md:pt-20 border-t w-full border-border"}>
-      <div className={"px-4 md:px-0 max-w-5xl text-xs md:text-sm mx-auto"}>
+      <div className={"px-4 md:px-4 max-w-5xl text-xs md:text-sm mx-auto"}>
         <div className="flex flex-col md:flex-row justify-between md:items-start gap-8">
           <div className="flex flex-col items-start gap-5">
             <OnRuntimeWordMark height={24} className="h-6" />

@@ -81,3 +81,5 @@ export default {
 	},
 	plugins: [tailwindcssAnimatePlugin],
 } satisfies Config;
+
+

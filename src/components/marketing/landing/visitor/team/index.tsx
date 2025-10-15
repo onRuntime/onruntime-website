@@ -21,7 +21,7 @@ const Team: React.FC = () => {
   ];
 
   return (
-    <section className="px-4 md:px-0 max-w-5xl py-16 mx-auto">
+    <section className="px-4 md:px-4 max-w-5xl py-16 mx-auto">
       <div className="flex flex-col lg:flex-row justify-between items-stretch gap-8">
         <div className="w-full lg:w-1/2">
           <TeamGrid />
@@ -35,8 +35,8 @@ const Team: React.FC = () => {
           <p className="leading-6">
             Composée de talents variés, allant de développeurs à des designers
             passionnés. Chacun apporte sa touche unique à nos projets. Ensemble,
-            nous formons un collectif où l&apos;innovation est au cœur de tout ce que
-            nous entreprenons.
+            nous formons un collectif où l&apos;innovation est au cœur de tout
+            ce que nous entreprenons.
           </p>
 
           <div className="flex flex-row flex-wrap gap-x-16 gap-y-6">
