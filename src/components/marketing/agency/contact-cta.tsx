@@ -46,17 +46,17 @@ const ContactCTA: React.FC<ContactCTAProps> = ({ agency }) => {
         </div>
         
         <div className="flex flex-wrap gap-4">
-          <Link href={Routes.contact}>
-            <Button size="lg">
+          <Button asChild size="lg" className="text-md xs:text-lg">
+            <Link href={Routes.contact}>
               Discuter de votre projet
               <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
-          </Link>
-          <Link href={Routes.services}>
-            <Button variant="outline" size="lg">
-              Découvrir nos services
-            </Button>
-          </Link>
+            </Link>
+          </Button>
+          <Button asChild variant="outline" size="lg">
+            <Link href={Routes.services}>
+              Découvrir nos services  
+            </Link>
+          </Button>
         </div>
       </div>
     </div>
