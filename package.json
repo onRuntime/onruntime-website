@@ -14,7 +14,7 @@
     "@hookform/resolvers": "^5.0.0",
     "@mdx-js/loader": "^3.1.0",
     "@mdx-js/react": "^3.1.0",
-    "@next/mdx": "^15.1.7",
+    "@next/mdx": "^16.0.0",
     "@radix-ui/react-accordion": "^1.2.3",
     "@radix-ui/react-dialog": "^1.1.6",
     "@radix-ui/react-navigation-menu": "^1.2.3",
@@ -54,7 +54,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-antoine": "^3.0.0",
-    "eslint-config-next": "15.3.3",
+    "eslint-config-next": "16.1.1",
     "postcss": "^8.5.1",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
