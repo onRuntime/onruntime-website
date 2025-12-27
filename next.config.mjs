@@ -6,10 +6,6 @@ const nextConfig = {
     pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
     reactStrictMode: process.env.NODE_ENV === "development",
     transpilePackages: ["next-seo"],
-    i18n: {
-        locales: ["fr"],
-        defaultLocale: "fr",
-    },
     env: {
         NEXT_PUBLIC_NODE_ENV: process.env.NODE_ENV,
     },
@@ -19,16 +15,6 @@ const nextConfig = {
             use: ["@svgr/webpack"],
         });
         return config;
-    },
-    experimental: {
-        turbo: {
-            rules: {
-                "*.svg": {
-                    loaders: ["@svgr/webpack"],
-                    as: "*.js",
-                },
-            },
-        },
     },
     async redirects() {
         return [
