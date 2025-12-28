@@ -4,23 +4,23 @@
   "commitMessagePrefix": "⬆️",
   "commitMessageAction": "upgrade",
   "commitMessageTopic": "`{{depName}}`",
-  "commitMessageExtra": "to `{{#if isPinDigest}}{{{newDigestShort}}}{{else}}{{#if isMajor}}{{prettyNewMajor}}{{else}}{{#if isSingleVersion}}{{prettyNewVersion}}{{else}}{{#if newValue}}{{{newValue}}}{{else}}{{{newDigestShort}}}{{/if}}{{/if}}{{/if}}{{/if}}`",
+  "commitMessageExtra": "to `{{prettyNewVersion}}`",
   "dependencyDashboard": true,
   "addLabels": ["dependencies"],
-  "prConcurrentLimit": 0,
-  "prHourlyLimit": 0,
+  "schedule": ["every weekend"],
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
+      "automerge": true,
+      "automergeType": "branch",
+      "groupName": "minor and patch updates",
+      "groupSlug": "minor-patch"
     },
     {
-      "matchDepTypes": ["devDependencies"],
-      "automerge": true
+      "matchUpdateTypes": ["major"],
+      "automerge": false,
+      "addLabels": ["breaking"]
     }
   ],
-  "platformAutomerge": true,
-  "schedule": [
-    "every weekend"
-  ]
+  "platformAutomerge": true
 }
