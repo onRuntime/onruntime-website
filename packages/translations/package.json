@@ -1,0 +1,66 @@
+{
+  "name": "@onruntime/translations",
+  "version": "0.1.0",
+  "description": "Lightweight i18n library for React, Next.js, and React Native",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./react": {
+      "types": "./dist/react/index.d.ts",
+      "import": "./dist/react/index.js",
+      "require": "./dist/react/index.cjs"
+    },
+    "./next": {
+      "types": "./dist/next/index.d.ts",
+      "import": "./dist/next/index.js",
+      "require": "./dist/next/index.cjs"
+    },
+    "./vite": {
+      "types": "./dist/vite/index.d.ts",
+      "import": "./dist/vite/index.js",
+      "require": "./dist/vite/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "next": {
+      "optional": true
+    },
+    "react-native": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "@types/react": "^19",
+    "next": "^16.1.1",
+    "react": "^19.2.3",
+    "tsup": "^8",
+    "typescript": "^5"
+  },
+  "keywords": [
+    "i18n",
+    "translations",
+    "react",
+    "nextjs",
+    "react-native",
+    "internationalization"
+  ],
+  "license": "MIT"
+}

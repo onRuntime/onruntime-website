@@ -1,0 +1,10 @@
+{
+  "greeting": "Hello {name}!",
+  "messages": {
+    "one": "You have {count} message",
+    "other": "You have {count} messages"
+  },
+  "actions": {
+    "switch": "Switch to French"
+  }
+}
