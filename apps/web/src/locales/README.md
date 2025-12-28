@@ -4,6 +4,8 @@ Translation files for the onRuntime website.
 
 ## Structure
 
+The translation files mirror the `app/` and `components/` structure:
+
 ```
 locales/
 ├── en/
@@ -11,38 +13,21 @@ locales/
 │   ├── layout/
 │   │   ├── footer.json
 │   │   └── navbar.json
-│   └── marketing/
-│       ├── landing/
-│       │   ├── common.json
-│       │   ├── customer.json
-│       │   └── visitor.json
-│       ├── services/
-│       │   ├── common.json
-│       │   ├── backend/
-│       │   │   ├── common.json
-│       │   │   └── [service].json
-│       │   ├── design/
-│       │   │   └── ...
-│       │   ├── frontend/
-│       │   │   └── ...
-│       │   └── integration/
-│       │       └── ...
-│       ├── projects/
-│       │   ├── common.json
-│       │   └── [project].json
-│       ├── agency/
-│       │   ├── common.json
-│       │   └── [city].json
-│       ├── careers/
-│       │   └── common.json
-│       ├── contact.json
-│       ├── glossary/
-│       │   └── common.json
-│       ├── legal/
-│       │   ├── company.json
-│       │   ├── privacy.json
-│       │   └── terms.json
-│       └── npo.json
+│   ├── app/
+│   │   └── landing/
+│   │       ├── page.json              # → app/[locale]/(landing)/page.ts
+│   │       └── customer/
+│   │           └── page.json          # → app/[locale]/(landing)/customer/page.ts
+│   └── components/
+│       └── marketing/
+│           └── landing/
+│               ├── page-switcher.json
+│               ├── visitor/
+│               │   ├── featured.json
+│               │   ├── team.json
+│               │   └── projects.json
+│               └── customer/
+│                   └── featured.json
 └── fr/
     └── ...
 ```

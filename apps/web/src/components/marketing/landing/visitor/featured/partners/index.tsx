@@ -1,10 +1,13 @@
 import Image from "next/image";
 import React from "react";
+import { getTranslation } from "@/lib/translations.server";
 
-const Partners: React.FC = () => {
+const Partners: React.FC = async () => {
+  const { t } = await getTranslation("components/marketing/landing/visitor/featured");
+
   return (
     <div className="mt-12">
-      <p className="text-center">Ils nous accompagnent</p>
+      <p className="text-center">{t("partners")}</p>
 
       <div className="mt-8 overflow-hidden">
         <div className="flex items-center justify-center space-x-16">

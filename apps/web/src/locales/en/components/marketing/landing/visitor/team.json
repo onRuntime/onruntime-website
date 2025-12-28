@@ -1,0 +1,13 @@
+{
+  "title": "A team of passionate creatives to shine.",
+  "description": "Composed of varied talents, from developers to passionate designers. Each brings their unique touch to our projects. Together, we form a collective where innovation is at the heart of everything we do.",
+  "stats": {
+    "experience": "Years of experience",
+    "projects": "Projects completed",
+    "clients": "Satisfied clients"
+  },
+  "cta": "Learn more",
+  "card": {
+    "details": "Details"
+  }
+}

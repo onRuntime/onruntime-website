@@ -1,10 +1,12 @@
 import { constructMetadata } from "@/lib/utils/metadata";
+import { getTranslation } from "@/lib/translations.server";
 import VisitorLanding from "@/screens/marketing/landing/visitor";
 
 export async function generateMetadata() {
+  const { t } = await getTranslation("app/landing/page");
   return constructMetadata({
-    title: "Agence web de développement et design UI/UX à Paris et Rouen",
-    description: "Agence digitale spécialisée en développement web, mobile et design UI/UX. Notre équipe d'experts transforme vos idées en solutions digitales performantes.",
+    title: t("metadata.title"),
+    description: t("metadata.description"),
   });
 }
 

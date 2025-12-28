@@ -4,9 +4,11 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Routes from "@/constants/routes";
 import { Link, usePathname } from "@onruntime/translations/next";
 import React from "react";
+import { useTranslation } from "@onruntime/translations/react";
 
 const PageSwitcher: React.FC = () => {
   const pathname = usePathname();
+  const { t } = useTranslation("components/marketing/landing/page-switcher");
 
   return (
     <div className="w-full fixed bottom-6 select-none pointer-events-none">
@@ -18,13 +20,13 @@ const PageSwitcher: React.FC = () => {
         <TabsList className="grid w-full grid-cols-2 bg-background/50 shadow-xs backdrop-blur-2xl pointer-events-auto">
           <TabsTrigger value={Routes.landing.customer} className="w-full" asChild>
             <Link href={Routes.landing.customer} scroll={false}>
-              Je suis un potentiel client
+              {t("customer")}
             </Link>
           </TabsTrigger>
 
           <TabsTrigger value={Routes.landing.visitor} className="w-full" asChild>
             <Link href={Routes.landing.visitor} scroll={false}>
-              Je suis un simple visiteur
+              {t("visitor")}
             </Link>
           </TabsTrigger>
         </TabsList>

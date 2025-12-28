@@ -3,19 +3,22 @@ import Routes from "@/constants/routes";
 import { Link } from "@onruntime/translations/next";
 import React from "react";
 import TeamGrid from "./grid";
+import { getTranslation } from "@/lib/translations.server";
 
-const Team: React.FC = () => {
+const Team: React.FC = async () => {
+  const { t } = await getTranslation("components/marketing/landing/visitor/team");
+
   const points = [
     {
-      label: "Années d'expérience",
+      label: t("stats.experience"),
       value: "10+",
     },
     {
-      label: "Projets réalisés",
+      label: t("stats.projects"),
       value: "7+",
     },
     {
-      label: "Clients satisfaits",
+      label: t("stats.clients"),
       value: "100%",
     },
   ];
@@ -29,14 +32,11 @@ const Team: React.FC = () => {
 
         <div className="flex flex-col gap-6 lg:w-1/2">
           <h2 className="text-4xl font-semibold">
-            Une équipe de créatifs passionnés pour briller.
+            {t("title")}
           </h2>
 
           <p className="leading-6">
-            Composée de talents variés, allant de développeurs à des designers
-            passionnés. Chacun apporte sa touche unique à nos projets. Ensemble,
-            nous formons un collectif où l&apos;innovation est au cœur de tout ce que
-            nous entreprenons.
+            {t("description")}
           </p>
 
           <div className="flex flex-row flex-wrap gap-x-16 gap-y-6">
@@ -54,7 +54,7 @@ const Team: React.FC = () => {
           </div>
 
           <Link href={Routes.npo}>
-            <Button>En savoir plus</Button>
+            <Button>{t("cta")}</Button>
           </Link>
         </div>
       </div>

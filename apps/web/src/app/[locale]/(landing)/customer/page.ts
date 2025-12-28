@@ -1,10 +1,12 @@
 import { constructMetadata } from "@/lib/utils/metadata";
+import { getTranslation } from "@/lib/translations.server";
 import CustomerLanding from "@/screens/marketing/landing/customer";
 
 export async function generateMetadata() {
+  const { t } = await getTranslation("app/landing/customer/page");
   return constructMetadata({
-    title: "Solutions digitales professionnelles pour votre entreprise",
-    description: "Votre partenaire digital pour le développement web, mobile et design UI/UX. Notre agence crée des solutions sur mesure qui répondent à vos objectifs commerciaux.",
+    title: t("metadata.title"),
+    description: t("metadata.description"),
   });
 }
 
