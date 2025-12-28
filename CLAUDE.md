@@ -67,8 +67,8 @@ export const joinClient = {
 **Translations**: Uses `@onruntime/translations` package. See `apps/web/src/locales/README.md` for full conventions.
 ```typescript
 // Server Components
-import { getTranslation } from "@/lib/translations";
-const { t } = await getTranslation(params, "layout/footer");
+import { getTranslation } from "@/lib/translations.server";
+const { t } = await getTranslation("layout/footer");
 
 // Client Components
 import { useTranslation } from "@onruntime/translations/react";
