@@ -1,38 +1,43 @@
+"use client";
+
+import Link from "next/link";
+
+import { useTranslation } from "@onruntime/translations/react";
+
 import Routes from "@/constants/routes";
 import { OnRuntimeWordMark } from "@/logos/components";
-import Link from "next/link";
-import React from "react";
 
-const navigation = {
-  Navigation: [
-    { name: "Nos services", href: Routes.services },
-    { name: "Nos projets", href: Routes.projects },
-    { name: "L'association", href: Routes.npo },
-    { name: "Carrières", href: Routes.careers },
-    { name: "Blog", href: Routes.unknown },
-  ],
-  ["Ressources"]: [
-    { name: "Glossaire", href: Routes.glossary },
-    { name: "Communauté", href: Routes.unknown },
-    { name: "Status", href: Routes.unknown },
-  ],
-  ["Autres"]: [
-    { name: "Contact", href: Routes.contact },
-    { name: "Conditions générales", href: Routes.legals.terms },
-    { name: "Politique de confidentialité", href: Routes.legals.privacy },
-    { name: "Détails de l'entreprise", href: Routes.legals.company },
-  ],
-  ["Réseaux sociaux"]: [
-    { name: "LinkedIn", href: Routes.socials.linkedin },
-    { name: "Github", href: Routes.socials.github },
-    { name: "Discord", href: Routes.socials.discord },
-    { name: "X (Twitter)", href: Routes.socials.x },
-    { name: "Instagram", href: Routes.socials.instagram },
-  ],
-};
-
-const Footer: React.FC = () => {
+const Footer = () => {
+  const { t } = useTranslation("footer");
   const currentYear = new Date().getFullYear();
+
+  const navigation = {
+    [t("nav.navigation")]: [
+      { name: t("links.services"), href: Routes.services },
+      { name: t("links.projects"), href: Routes.projects },
+      { name: t("links.npo"), href: Routes.npo },
+      { name: t("links.careers"), href: Routes.careers },
+      { name: t("links.blog"), href: Routes.unknown },
+    ],
+    [t("nav.resources")]: [
+      { name: t("links.glossary"), href: Routes.glossary },
+      { name: t("links.community"), href: Routes.unknown },
+      { name: t("links.status"), href: Routes.unknown },
+    ],
+    [t("nav.other")]: [
+      { name: t("links.contact"), href: Routes.contact },
+      { name: t("links.terms"), href: Routes.legals.terms },
+      { name: t("links.privacy"), href: Routes.legals.privacy },
+      { name: t("links.company"), href: Routes.legals.company },
+    ],
+    [t("nav.social")]: [
+      { name: "LinkedIn", href: Routes.socials.linkedin },
+      { name: "Github", href: Routes.socials.github },
+      { name: "Discord", href: Routes.socials.discord },
+      { name: "X (Twitter)", href: Routes.socials.x },
+      { name: "Instagram", href: Routes.socials.instagram },
+    ],
+  };
 
   return (
     <footer className={"pb-24 pt-10 md:pt-20 border-t w-full border-border"}>
@@ -42,11 +47,12 @@ const Footer: React.FC = () => {
             <OnRuntimeWordMark height={24} className="h-6" />
 
             <p>
-              Un studio de créatif, à travers le monde.
+              {t("tagline")}
               <br />
-              Mais on peut se voir sur{" "}
-              <strong className="text-foreground">Rouen</strong> et{" "}
-              <strong className="text-foreground">Paris</strong>.
+              <span
+                dangerouslySetInnerHTML={{ __html: t("location") }}
+                className="[&>strong]:text-foreground"
+              />
             </p>
           </div>
 
@@ -102,7 +108,7 @@ const Footer: React.FC = () => {
                 strokeWidth="4"
               />
             </svg>
-            Tous les services sont opérationnels
+            {t("status")}
           </p>
         </div>
       </div>
