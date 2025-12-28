@@ -1,9 +1,12 @@
+"use client";
+
 import React from "react";
 import { JobPosting } from "@/types/job";
 import { Badge } from "@/components/ui/badge";
 import { CalendarDays, Clock, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "@onruntime/translations/next";
+import { useTranslation } from "@onruntime/translations/react";
 import { formatDate } from "@/lib/utils/date";
 
 interface JobListProps {
@@ -13,6 +16,22 @@ interface JobListProps {
 }
 
 const JobList: React.FC<JobListProps> = ({ jobs, isLoading, error }) => {
+  const { t } = useTranslation("components/marketing/careers/job-list");
+
+  const getEmploymentType = (type: string | null | undefined) => {
+    if (!type) return null;
+    const key = type.toLowerCase().replace(/_/g, "-");
+    const translated = t(`employment-type.${key}`);
+    return translated !== `employment-type.${key}` ? translated : type;
+  };
+
+  const getWorkplaceType = (type: string | null | undefined) => {
+    if (!type) return null;
+    const key = type.toLowerCase().replace(/_/g, "-");
+    const translated = t(`workplace-type.${key}`);
+    return translated !== `workplace-type.${key}` ? translated : type;
+  };
+
   if (isLoading) {
     return (
       <div id="job-listings" className="py-12">
@@ -43,7 +62,7 @@ const JobList: React.FC<JobListProps> = ({ jobs, isLoading, error }) => {
             className="mt-4"
             onClick={() => window.location.reload()}
           >
-            Réessayer
+            {t("retry")}
           </Button>
         </div>
       </div>
@@ -53,18 +72,15 @@ const JobList: React.FC<JobListProps> = ({ jobs, isLoading, error }) => {
   if (jobs.length === 0) {
     return (
       <div id="job-listings" className="py-12 text-center">
-        <p className="text-muted-foreground">
-          Aucune offre d&apos;emploi ne correspond à votre recherche.
-        </p>
+        <p className="text-muted-foreground">{t("no-results")}</p>
       </div>
     );
   }
 
-
   return (
     <div id="job-listings" className="space-y-6">
       <p className="text-sm text-muted-foreground">
-        {jobs.length} offre(s) d&apos;emploi disponible(s)
+        {jobs.length} {t("count")}
       </p>
 
       <div className="space-y-4">
@@ -84,23 +100,29 @@ const JobList: React.FC<JobListProps> = ({ jobs, isLoading, error }) => {
                       <MapPin className="w-4 h-4 mr-1" />
                       {job.location}
                     </div>
-                    <div className="flex items-center text-muted-foreground text-sm">
-                      <Clock className="w-4 h-4 mr-1" />
-                      {job.employmentType}
-                    </div>
+                    {job.employmentType && (
+                      <div className="flex items-center text-muted-foreground text-sm">
+                        <Clock className="w-4 h-4 mr-1" />
+                        {getEmploymentType(job.employmentType)}
+                      </div>
+                    )}
                     <div className="flex items-center text-muted-foreground text-sm">
                       <CalendarDays className="w-4 h-4 mr-1" />
-                      Publié le {formatDate(job.datePosted)}
+                      {t("published")} {formatDate(job.datePosted)}
                     </div>
                   </div>
                 </div>
 
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="secondary">{job.department}</Badge>
+                  {job.department && (
+                    <Badge variant="secondary">{job.department}</Badge>
+                  )}
                   {job.seniority && (
                     <Badge variant="outline">{job.seniority}</Badge>
                   )}
-                  {job.remote && <Badge variant="outline">Remote</Badge>}
+                  {job.workplaceType && (
+                    <Badge variant="outline">{getWorkplaceType(job.workplaceType)}</Badge>
+                  )}
                   {job.tags?.map((tag, index) => (
                     <Badge key={index} variant="outline">
                       {tag}
@@ -109,15 +131,13 @@ const JobList: React.FC<JobListProps> = ({ jobs, isLoading, error }) => {
                 </div>
 
                 {job.shortDescription && (
-                  <p className="text-muted-foreground">
-                    {job.shortDescription}
-                  </p>
+                  <p className="text-muted-foreground">{job.shortDescription}</p>
                 )}
               </div>
 
               <div className="flex-shrink-0">
                 <Link href={`/careers/${job.id}`} passHref>
-                  <Button>Voir l&apos;offre</Button>
+                  <Button>{t("view-offer")}</Button>
                 </Link>
               </div>
             </div>

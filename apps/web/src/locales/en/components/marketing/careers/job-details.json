@@ -1,0 +1,72 @@
+{
+  "back": "Back to job offers",
+  "share": {
+    "button": "Share",
+    "text": {
+      "prefix": "Discover this opportunity: ",
+      "suffix": " at onRuntime Studio"
+    },
+    "copied": "Link copied to clipboard!"
+  },
+  "apply": "Apply now",
+  "published": "Published on",
+  "employment-type": {
+    "full-time": "Full-time",
+    "part-time": "Part-time",
+    "contract": "Contract",
+    "temporary": "Temporary",
+    "internship": "Internship",
+    "apprenticeship": "Apprenticeship"
+  },
+  "workplace-type": {
+    "hybrid": "Hybrid",
+    "remote": "Remote",
+    "on-site": "On-site"
+  },
+  "salary-format": {
+    "from": "From",
+    "up-to": "Up to",
+    "range": "-"
+  },
+  "sections": {
+    "description": "Job description",
+    "no-description": "No detailed description is available for this position.",
+    "requirements": "Requirements",
+    "benefits": "Benefits"
+  },
+  "details": {
+    "title": "Job details",
+    "department": "Department",
+    "location": "Location",
+    "contract": "Contract type",
+    "salary": "Salary",
+    "remote": "Remote work",
+    "remote-possible": "Possible",
+    "workplace": "Work mode"
+  },
+  "interested": {
+    "title": "Interested in this position?",
+    "description": "Apply now and join our passionate team."
+  },
+  "culture": {
+    "title": "Our company culture",
+    "description": "At onRuntime Studio, we cultivate a collaborative and stimulating work environment where each team member can express their creativity and develop their skills. We prioritize innovation, quality and the well-being of our employees.",
+    "training": {
+      "title": "Continuous training",
+      "description": "We invest in the professional development of our teams"
+    },
+    "flexible": {
+      "title": "Flexible environment",
+      "description": "Work-life balance and hybrid work"
+    },
+    "projects": {
+      "title": "Varied projects",
+      "description": "Work on diverse and stimulating projects"
+    },
+    "learn-more": "Learn more about our team"
+  },
+  "cta": {
+    "title": "Ready for the challenge?",
+    "description": "Join our team and participate in stimulating projects that will allow you to develop your skills and express your creativity."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Join our team",
+    "description": "Discover career opportunities at onRuntime Studio and join a dynamic team passionate about development and design."
+  },
+  "why-join": {
+    "title": "Why join us?",
+    "description": "At onRuntime Studio, we believe in creativity, innovation and collaboration. Join us to shape the future of digital and develop your skills in a stimulating environment.",
+    "cards": {
+      "creativity": {
+        "title": "Creativity and Innovation",
+        "description": "Express your ideas and contribute to innovative projects that push the boundaries of what's possible."
+      },
+      "team": {
+        "title": "Passionate Team",
+        "description": "Collaborate with talented and passionate professionals in a friendly and stimulating environment."
+      },
+      "impact": {
+        "title": "Global Impact",
+        "description": "Contribute to projects that have a real impact and reach users around the world."
+      }
+    }
+  },
+  "opportunities": {
+    "title": "Current opportunities",
+    "description": "Discover our job offers and find the position that matches your skills and aspirations.",
+    "search-placeholder": "Search for a position, location...",
+    "all": "All"
+  },
+  "spontaneous": {
+    "title": "Haven't found the right position?",
+    "description": "Send us a spontaneous application! We're always looking for exceptional talent to join our team.",
+    "cta": "Send a spontaneous application"
+  },
+  "teams": {
+    "title": "Our teams",
+    "description": "Discover the different teams that make up onRuntime Studio and find the one that best matches your skills and aspirations.",
+    "development": {
+      "title": "Development",
+      "description": "Our developers create high-performance and innovative web and mobile applications, using the latest technologies to deliver exceptional user experiences."
+    },
+    "design": {
+      "title": "Design",
+      "description": "Our design team creates elegant and intuitive user interfaces, ensuring every pixel is perfectly aligned with the project's visual identity."
+    },
+    "project": {
+      "title": "Project & Product",
+      "description": "Our project managers and product managers ensure the smooth running of projects and that the solutions developed perfectly meet user needs."
+    },
+    "marketing": {
+      "title": "Marketing & Communication",
+      "description": "Our marketing team works to promote our projects and communicate effectively on our achievements, both internally and to the general public."
+    }
+  },
+  "cta": {
+    "title": "Ready to join us?",
+    "description": "Browse our job offers and find the position that matches your skills and aspirations. We look forward to welcoming you to our team!",
+    "button": "View job offers"
+  },
+  "error": "An error occurred while loading job offers. Please try again later."
+}

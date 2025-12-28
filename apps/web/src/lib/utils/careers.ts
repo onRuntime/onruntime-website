@@ -1,52 +1,26 @@
 /**
- * Utilitaires pour la gestion des carrières et des jobs
+ * Utilities for careers and jobs management
  */
 
 /**
- * Formate le type d'emploi en français
- */
-export function formatEmploymentType(type: string | null | undefined): string {
-  if (!type) return "Temps plein";
-
-  const typeMap: Record<string, string> = {
-    FULL_TIME: "Temps plein",
-    PART_TIME: "Temps partiel",
-    CONTRACT: "Contrat",
-    TEMPORARY: "Temporaire",
-    INTERNSHIP: "Stage",
-    APPRENTICESHIP: "Apprentissage",
-  };
-
-  return typeMap[type] || type;
-}
-
-/**
- * Formate le salaire en euros français
+ * Formats salary with locale-aware number formatting
  */
 export function formatSalary(
   min?: number,
   max?: number,
   currency?: string,
-): string | null {
+): { min?: number; max?: number; currency: string } | null {
   if (!min && !max) return null;
 
-  const currencySymbol = currency === "EUR" ? "€" : currency || "";
-
-  if (min && max) {
-    return `${min.toLocaleString("fr-FR")} - ${max.toLocaleString(
-      "fr-FR",
-    )} ${currencySymbol}`;
-  } else if (min) {
-    return `À partir de ${min.toLocaleString("fr-FR")} ${currencySymbol}`;
-  } else if (max) {
-    return `Jusqu'à ${max.toLocaleString("fr-FR")} ${currencySymbol}`;
-  }
-
-  return null;
+  return {
+    min,
+    max,
+    currency: currency || "EUR",
+  };
 }
 
 /**
- * Extrait les tags/compétences d'un job
+ * Extracts tags/skills from a job
  */
 export function extractTags(jobData: { skills?: { name: string }[] }): string[] {
   const tags: string[] = [];

@@ -16,11 +16,14 @@ import {
   Users,
 } from "lucide-react";
 import { Link } from "@onruntime/translations/next";
+import { useTranslation, useLocale } from "@onruntime/translations/react";
 import Routes from "@/constants/routes";
 import JobList from "./job-list";
 import { JobPosting } from "@/types/job";
 
 const CareersPage: React.FC = () => {
+  const { t } = useTranslation("screens/marketing/careers");
+  const { locale } = useLocale();
   const [jobs, setJobs] = useState<JobPosting[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -34,7 +37,7 @@ const CareersPage: React.FC = () => {
     const fetchJobs = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch("/api/careers");
+        const response = await fetch(`/api/careers?locale=${locale}`);
 
         if (!response.ok) {
           throw new Error("Failed to fetch job postings");
@@ -51,9 +54,7 @@ const CareersPage: React.FC = () => {
         setError(null);
       } catch (err) {
         console.error("Error fetching jobs:", err);
-        setError(
-          "Une erreur est survenue lors du chargement des offres d&apos;emploi. Veuillez réessayer ultérieurement.",
-        );
+        setError(t("error"));
         setJobs([]);
       } finally {
         setIsLoading(false);
@@ -61,7 +62,7 @@ const CareersPage: React.FC = () => {
     };
 
     fetchJobs();
-  }, []);
+  }, [locale, t]);
 
   const filteredJobs = jobs.filter((job) => {
     const matchesSearch =
@@ -82,14 +83,10 @@ const CareersPage: React.FC = () => {
       <div className="px-4 md:px-0 max-w-5xl mx-auto space-y-24">
         <div className="relative max-w-2xl mx-auto flex flex-col items-center gap-6 text-center">
           <h1 className="font-medium text-4xl md:text-5xl text-foreground">
-            Rejoignez notre équipe
+            {t("hero.title")}
           </h1>
 
-          <p className="text-muted-foreground">
-            Découvrez les opportunités de carrière chez onRuntime Studio et
-            rejoignez une équipe dynamique de passionnés du développement et du
-            design.
-          </p>
+          <p className="text-muted-foreground">{t("hero.description")}</p>
 
           <DotPattern
             width={30}
@@ -104,13 +101,10 @@ const CareersPage: React.FC = () => {
         <div className="space-y-12">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
-              Pourquoi nous rejoindre ?
+              {t("why-join.title")}
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              Chez onRuntime Studio, nous croyons en la créativité,
-              l&apos;innovation et la collaboration. Rejoignez-nous pour
-              façonner l&apos;avenir du digital et développer vos compétences
-              dans un environnement stimulant.
+              {t("why-join.description")}
             </p>
           </div>
 
@@ -120,11 +114,10 @@ const CareersPage: React.FC = () => {
                 <Lightbulb className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-medium text-foreground mb-2">
-                Créativité et Innovation
+                {t("why-join.cards.creativity.title")}
               </h3>
               <p className="text-muted-foreground">
-                Exprimez vos idées et contribuez à des projets innovants qui
-                repoussent les limites du possible.
+                {t("why-join.cards.creativity.description")}
               </p>
             </div>
 
@@ -133,11 +126,10 @@ const CareersPage: React.FC = () => {
                 <Users className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-medium text-foreground mb-2">
-                Équipe Passionnée
+                {t("why-join.cards.team.title")}
               </h3>
               <p className="text-muted-foreground">
-                Collaborez avec des professionnels talentueux et passionnés dans
-                un environnement convivial et stimulant.
+                {t("why-join.cards.team.description")}
               </p>
             </div>
 
@@ -146,11 +138,10 @@ const CareersPage: React.FC = () => {
                 <Globe className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-medium text-foreground mb-2">
-                Impact Global
+                {t("why-join.cards.impact.title")}
               </h3>
               <p className="text-muted-foreground">
-                Contribuez à des projets qui ont un impact réel et touchent des
-                utilisateurs à travers le monde.
+                {t("why-join.cards.impact.description")}
               </p>
             </div>
           </div>
@@ -159,11 +150,10 @@ const CareersPage: React.FC = () => {
         <div className="space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
-              Nos opportunités actuelles
+              {t("opportunities.title")}
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              Découvrez nos offres d&apos;emploi et trouvez le poste qui correspond à
-              vos compétences et aspirations.
+              {t("opportunities.description")}
             </p>
           </div>
 
@@ -172,7 +162,7 @@ const CareersPage: React.FC = () => {
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-4 h-4" />
               <input
                 type="text"
-                placeholder="Rechercher un poste, un lieu..."
+                placeholder={t("opportunities.search-placeholder")}
                 className="w-full pl-10 py-2 border rounded-md"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
@@ -185,7 +175,7 @@ const CareersPage: React.FC = () => {
                 onClick={() => setSelectedDepartment(null)}
                 className="whitespace-nowrap"
               >
-                Tous
+                {t("opportunities.all")}
               </Button>
               {departments.map((dept) => (
                 <Button
@@ -206,15 +196,14 @@ const CareersPage: React.FC = () => {
         <div className="relative overflow-hidden rounded-lg border bg-card p-8">
           <div className="max-w-2xl">
             <h2 className="text-2xl font-medium text-foreground mb-4">
-              Vous n&apos;avez pas trouvé le poste qui vous correspond ?
+              {t("spontaneous.title")}
             </h2>
             <p className="text-muted-foreground mb-6">
-              Envoyez-nous une candidature spontanée ! Nous sommes toujours à la
-              recherche de talents exceptionnels pour rejoindre notre équipe.
+              {t("spontaneous.description")}
             </p>
             <Link href={Routes.contact}>
               <Button>
-                Envoyer une candidature spontanée
+                {t("spontaneous.cta")}
                 <FileText className="ml-2 w-4 h-4" />
               </Button>
             </Link>
@@ -226,12 +215,10 @@ const CareersPage: React.FC = () => {
         <div className="space-y-12">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
-              Nos équipes
+              {t("teams.title")}
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              Découvrez les différentes équipes qui composent onRuntime Studio
-              et trouvez celle qui correspond le mieux à vos compétences et
-              aspirations.
+              {t("teams.description")}
             </p>
           </div>
 
@@ -242,14 +229,11 @@ const CareersPage: React.FC = () => {
                   <Code className="w-5 h-5" />
                 </div>
                 <h3 className="text-xl font-medium text-foreground">
-                  Développement
+                  {t("teams.development.title")}
                 </h3>
               </div>
               <p className="text-muted-foreground mb-4">
-                Nos développeurs créent des applications web et mobiles
-                performantes et innovantes, en utilisant les technologies les
-                plus récentes pour offrir des expériences utilisateur
-                exceptionnelles.
+                {t("teams.development.description")}
               </p>
             </div>
 
@@ -258,12 +242,12 @@ const CareersPage: React.FC = () => {
                 <div className="p-3 rounded-md bg-onruntime-blue/10 text-onruntime-blue">
                   <Palette className="w-5 h-5" />
                 </div>
-                <h3 className="text-xl font-medium text-foreground">Design</h3>
+                <h3 className="text-xl font-medium text-foreground">
+                  {t("teams.design.title")}
+                </h3>
               </div>
               <p className="text-muted-foreground mb-4">
-                Notre équipe de designers crée des interfaces utilisateur
-                élégantes et intuitives, en veillant à ce que chaque pixel soit
-                parfaitement aligné avec l&apos;identité visuelle du projet.
+                {t("teams.design.description")}
               </p>
             </div>
 
@@ -273,13 +257,11 @@ const CareersPage: React.FC = () => {
                   <Briefcase className="w-5 h-5" />
                 </div>
                 <h3 className="text-xl font-medium text-foreground">
-                  Projet & Produit
+                  {t("teams.project.title")}
                 </h3>
               </div>
               <p className="text-muted-foreground mb-4">
-                Nos chefs de projet et product managers assurent le bon
-                déroulement des projets et veillent à ce que les solutions
-                développées répondent parfaitement aux besoins des utilisateurs.
+                {t("teams.project.description")}
               </p>
             </div>
 
@@ -289,27 +271,22 @@ const CareersPage: React.FC = () => {
                   <MapPin className="w-5 h-5" />
                 </div>
                 <h3 className="text-xl font-medium text-foreground">
-                  Marketing & Communication
+                  {t("teams.marketing.title")}
                 </h3>
               </div>
               <p className="text-muted-foreground mb-4">
-                Notre équipe marketing travaille à faire connaître nos projets
-                et à communiquer efficacement sur nos réalisations, tant en
-                interne qu&apos;auprès du grand public.
+                {t("teams.marketing.description")}
               </p>
             </div>
           </div>
         </div>
 
-
         <div className="text-center">
           <h2 className="text-3xl font-medium text-foreground mb-4">
-            Prêt à nous rejoindre ?
+            {t("cta.title")}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
-            Parcourez nos offres d&apos;emploi et trouvez le poste qui
-            correspond à vos compétences et aspirations. Nous avons hâte de vous
-            accueillir dans notre équipe !
+            {t("cta.description")}
           </p>
           <Button
             size="lg"
@@ -320,7 +297,7 @@ const CareersPage: React.FC = () => {
               }
             }}
           >
-            Voir les offres d&apos;emploi
+            {t("cta.button")}
             <Briefcase className="ml-2 w-5 h-5" />
           </Button>
         </div>
