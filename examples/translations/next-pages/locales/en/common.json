@@ -1,0 +1,18 @@
+{
+  "greeting": "Hello {name}!",
+  "messages": {
+    "one": "You have {count} message",
+    "other": "You have {count} messages"
+  },
+  "actions": {
+    "switch": "Switch to French"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "This is a demo of @onruntime/translations with Next.js Pages Router."
+  }
+}

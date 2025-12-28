@@ -1,0 +1,10 @@
+{
+  "greeting": "Bonjour {name} !",
+  "messages": {
+    "one": "Tu as {count} message",
+    "other": "Tu as {count} messages"
+  },
+  "actions": {
+    "switch": "Passer en anglais"
+  }
+}
