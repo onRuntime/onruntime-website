@@ -1,7 +1,5 @@
-import { Resend } from 'resend';
 import { contactFormSchema } from '@/lib/schema/contact';
 import { NextResponse } from 'next/server';
-import { env } from 'env.mjs';
 import { resend } from '@/services/email';
 
 export async function POST(req: Request) {
