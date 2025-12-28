@@ -1,3 +1,5 @@
+"use client";
+
 import {
   NavigationMenuContent,
   NavigationMenuItem,
@@ -10,6 +12,8 @@ import { cn } from "@/lib/utils";
 import { ArrowRight, LucideIcon } from "lucide-react";
 import React from "react";
 import Link from "next/link";
+
+import { useTranslation } from "@onruntime/translations/react";
 
 interface NavigationService {
   title: string;
@@ -25,13 +29,14 @@ interface NavigationService {
 }
 
 const NavigationServices: React.FC = () => {
-  
-  const navServices: NavigationService[] = Services.map(service => ({
+  const { t } = useTranslation("layout/navbar");
+
+  const navServices: NavigationService[] = Services.map((service) => ({
     title: service.name,
     description: service.description,
     icon: service.icon,
     route: `/services/${service.id}`,
-    subServices: service.subServices.map(subService => ({
+    subServices: service.subServices.map((subService) => ({
       title: subService.name,
       description: subService.description,
       route: `/services/${service.id}/${subService.id}`,
@@ -42,27 +47,26 @@ const NavigationServices: React.FC = () => {
   return (
     <NavigationMenuItem>
       <Link href={Routes.services}>
-        <NavigationMenuTrigger>Nos services</NavigationMenuTrigger>
+        <NavigationMenuTrigger>{t("links.services")}</NavigationMenuTrigger>
       </Link>
-      
 
       <NavigationMenuContent>
         <div className="grid w-full md:w-[600px] lg:w-[800px] grid-cols-1 md:grid-cols-[200px_1fr] lg:grid-cols-[200px_1fr] gap-3 p-4">
           <NavigationMenuLink asChild className="block">
-            <Link 
+            <Link
               href={Routes.services}
               className="group h-full select-none rounded-md bg-muted p-4 no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
             >
               <div className="flex h-full flex-col justify-between">
                 <div>
                   <h3 className="text-sm font-medium mb-2">
-                    Nos services
+                    {t("services.title")}
                   </h3>
                   <p className="text-xs text-muted-foreground mb-4">
-                    Découvrez notre gamme complète de services de développement et de design pour donner vie à vos projets digitaux.
+                    {t("services.description")}
                   </p>
                 </div>
-                
+
                 <div className="space-y-3">
                   {navServices.slice(0, 3).map((service, index) => (
                     <div key={index} className="flex items-center gap-2 text-xs">
@@ -70,9 +74,9 @@ const NavigationServices: React.FC = () => {
                       <span>{service.title}</span>
                     </div>
                   ))}
-                  
+
                   <div className="flex items-center gap-2 text-xs text-muted-foreground group-hover:text-accent-foreground/80 mt-4">
-                    En savoir plus
+                    {t("services.cta")}
                     <ArrowRight className="h-3 w-3" />
                   </div>
                 </div>
@@ -91,19 +95,17 @@ const NavigationServices: React.FC = () => {
                 <p className="mb-2 text-xs text-muted-foreground">
                   {service.description}
                 </p>
-                
+
                 <div className="grid gap-1">
-                  {
-                  service.subServices?.map((subService) => (
-                    <Link 
-                      key={subService.title} 
+                  {service.subServices?.map((subService) => (
+                    <Link
+                      key={subService.title}
                       href={subService.route}
                       className="text-xs text-muted-foreground hover:text-foreground transition-colors"
                     >
                       {subService.title}
                     </Link>
                   ))}
-                  
                 </div>
               </ListItem>
             ))}
@@ -122,15 +124,21 @@ interface ListItemProps {
   children?: React.ReactNode;
 }
 
-const ListItem = ({ className, title, children, icon: Icon, href }: ListItemProps) => {
+const ListItem = ({
+  className,
+  title,
+  children,
+  icon: Icon,
+  href,
+}: ListItemProps) => {
   return (
     <li>
       <NavigationMenuLink asChild>
-        <Link 
-          href={href} 
+        <Link
+          href={href}
           className={cn(
             "flex flex-col gap-2 h-full select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-            className
+            className,
           )}
         >
           <div className="flex items-center gap-2">
@@ -139,7 +147,7 @@ const ListItem = ({ className, title, children, icon: Icon, href }: ListItemProp
             </div>
             <span className="text-sm font-medium">{title}</span>
           </div>
-          
+
           {children}
         </Link>
       </NavigationMenuLink>

@@ -20,12 +20,11 @@ pnpm add @onruntime/translations
 
 #### 1. Create your translations config
 
+Create two files to separate shared config from server-only code:
+
 ```typescript
-// lib/translations.ts
-import {
-  getTranslation as getTranslationCore,
-  type TranslationLoader,
-} from "@onruntime/translations";
+// lib/translations.ts (shared config - can be imported by client components)
+import type { TranslationLoader } from "@onruntime/translations";
 
 export const locales = ["en", "fr"];
 export const defaultLocale = locales[0];
@@ -37,26 +36,57 @@ export const load: TranslationLoader = (locale, namespace) => {
     return undefined;
   }
 };
+```
 
-export const getTranslation = async (
-  params: Promise<{ lang: string }>,
-  namespace = "common",
-) => {
-  const { lang } = await params;
-  return getTranslationCore(load, lang, namespace);
+```typescript
+// lib/translations.server.ts (server-only - for server components)
+import "server-only";
+
+import { headers } from "next/headers";
+import { getTranslation as getTranslationCore } from "@onruntime/translations";
+
+import { load, defaultLocale } from "./translations";
+
+export const getTranslation = async (namespace = "common") => {
+  const headersList = await headers();
+  const locale = headersList.get("x-locale") || defaultLocale;
+  return getTranslationCore(load, locale, namespace);
 };
 ```
 
-#### 2. Setup middleware
+> **Note:** Install the `server-only` package to prevent accidental imports in client components: `pnpm add server-only`
+
+#### 2. Setup proxy
+
+The proxy detects the user's language from `Accept-Language` header and sets an `x-locale` header for server components.
 
 ```typescript
-// middleware.ts
+// proxy.ts
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
 import { locales, defaultLocale } from "@/lib/translations";
 
-export function middleware(request: NextRequest) {
+function getPreferredLocale(request: NextRequest): string {
+  const acceptLanguage = request.headers.get("accept-language");
+  if (!acceptLanguage) return defaultLocale;
+
+  const preferred = acceptLanguage
+    .split(",")
+    .map((lang) => {
+      const [code, priority = "q=1"] = lang.trim().split(";");
+      return {
+        code: code.split("-")[0].toLowerCase(),
+        priority: parseFloat(priority.replace("q=", "")),
+      };
+    })
+    .sort((a, b) => b.priority - a.priority)
+    .find((lang) => locales.includes(lang.code));
+
+  return preferred?.code || defaultLocale;
+}
+
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   const pathnameLocale = locales.find(
@@ -68,10 +98,28 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL(newPathname, request.url));
   }
 
-  if (pathnameLocale) return;
+  if (pathnameLocale) {
+    const requestHeaders = new Headers(request.headers);
+    requestHeaders.set("x-locale", pathnameLocale);
+    return NextResponse.next({
+      request: { headers: requestHeaders },
+    });
+  }
 
+  const preferredLocale = getPreferredLocale(request);
+
+  if (preferredLocale !== defaultLocale) {
+    return NextResponse.redirect(
+      new URL(`/${preferredLocale}${pathname}`, request.url),
+    );
+  }
+
+  const requestHeaders = new Headers(request.headers);
+  requestHeaders.set("x-locale", defaultLocale);
   request.nextUrl.pathname = `/${defaultLocale}${pathname}`;
-  return NextResponse.rewrite(request.nextUrl);
+  return NextResponse.rewrite(request.nextUrl, {
+    request: { headers: requestHeaders },
+  });
 }
 
 export const config = {
@@ -119,14 +167,10 @@ export default async function RootLayout({
 // app/[lang]/page.tsx
 import { Link } from "@onruntime/translations/next";
 
-import { getTranslation } from "@/lib/translations";
+import { getTranslation } from "@/lib/translations.server";
 
-export default async function Home({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
-  const { t, locale } = await getTranslation(params);
+export default async function Home() {
+  const { t, locale } = await getTranslation();
 
   return (
     <div>

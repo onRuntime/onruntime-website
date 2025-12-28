@@ -1,17 +1,21 @@
 "use client";
 
+import Link from "next/link";
+import type React from "react";
+import { useState, useRef, useEffect } from "react";
+import { ChevronDown, Menu } from "lucide-react";
+
+import { useTranslation } from "@onruntime/translations/react";
+
 import { Button } from "@/components/ui/button";
 import Routes from "@/constants/routes";
 import Services from "@/constants/services";
 import Projects from "@/constants/projects";
 import { getMajorAgencies } from "@/constants/agencies";
 import { OnRuntimeWordMark } from "@/logos/components";
-import Link from "next/link";
-import type React from "react";
-import { useState, useRef, useEffect } from "react";
-import Navigation from "./navigation";
-import { ChevronDown, Menu } from "lucide-react";
 import { cn } from "@/lib/utils";
+
+import Navigation from "./navigation";
 
 interface SubNavItem {
 	title: string;
@@ -31,6 +35,7 @@ interface NavItem {
 }
 
 const Navbar: React.FC = () => {
+	const { t } = useTranslation("layout/navbar");
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 	const [expandedSection, setExpandedSection] = useState<string | null>(null);
 
@@ -42,7 +47,7 @@ const Navbar: React.FC = () => {
 
 	const navItems: NavItem[] = [
 		{
-			title: "Nos services",
+			title: t("links.services"),
 			path: Routes.services,
 			dropdown: Services.map((service) => ({
 				title: service.name,
@@ -54,7 +59,7 @@ const Navbar: React.FC = () => {
 			})),
 		},
 		{
-			title: "Nos projets",
+			title: t("links.projects"),
 			path: Routes.unknown,
 			dropdown: Projects.slice(0, 5).map((project) => ({
 				title: project.name,
@@ -62,21 +67,21 @@ const Navbar: React.FC = () => {
 			})),
 		},
 		{
-			title: "Nos agences",
+			title: t("links.agencies"),
 			path: Routes.agency.root,
 			dropdown: [
 				{
-					title: "Toutes nos agences",
+					title: t("agencies.all"),
 					path: Routes.agency.root,
 				},
 				...majorAgencies.map((agency) => ({
-					title: `Agence ${agency.name}`,
+					title: t("agencies.agency", { name: agency.name }),
 					path: Routes.agency.city(agency.id),
 				})),
 			],
 		},
 		{
-			title: "L'association",
+			title: t("links.npo"),
 			path: Routes.npo,
 		},
 	];
@@ -137,9 +142,9 @@ const Navbar: React.FC = () => {
 					<Navigation />
 
 					<div className="flex gap-2">
-						<Link href={Routes.contact} aria-label="Nous contacter" passHref>
+						<Link href={Routes.contact} aria-label={t("links.contact")} passHref>
 							<Button className="hidden md:inline-flex" variant="outline">
-								Nous contacter
+								{t("links.contact")}
 							</Button>
 						</Link>
 
@@ -224,7 +229,7 @@ const Navbar: React.FC = () => {
 							className="block pt-4 pb-2"
 							onClick={closeMenu}
 						>
-							<Button className="w-full">Nous contacter</Button>
+							<Button className="w-full">{t("links.contact")}</Button>
 						</Link>
 					</div>
 				)}

@@ -52,10 +52,10 @@ locales/
 ### Server Components
 
 ```tsx
-import { getTranslation } from "@/lib/translations";
+import { getTranslation } from "@/lib/translations.server";
 
-export default async function Page({ params }) {
-  const { t } = await getTranslation(params, "layout/footer");
+export default async function Page() {
+  const { t } = await getTranslation("layout/footer");
   return <p>{t("tagline")}</p>;
 }
 ```
@@ -76,11 +76,11 @@ export const Component = () => {
 ### Dynamic Pages
 
 ```tsx
-import { getTranslation } from "@/lib/translations";
+import { getTranslation } from "@/lib/translations.server";
 
-export default async function ProjectPage({ params }) {
+export default async function ProjectPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const { t } = await getTranslation(params, `marketing/projects/${id}`);
+  const { t } = await getTranslation(`marketing/projects/${id}`);
   return <h1>{t("title")}</h1>;
 }
 ```
@@ -88,7 +88,7 @@ export default async function ProjectPage({ params }) {
 ## Adding a new namespace
 
 1. Create `en/<path>/<namespace>.json` and `fr/<path>/<namespace>.json`
-2. Use `getTranslation(params, "<path>/<namespace>")` or `useTranslation("<path>/<namespace>")`
+2. Use `getTranslation("<path>/<namespace>")` or `useTranslation("<path>/<namespace>")`
 
 ## Conventions
 

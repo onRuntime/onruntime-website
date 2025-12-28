@@ -1,3 +1,5 @@
+"use client";
+
 import {
   NavigationMenuContent,
   NavigationMenuItem,
@@ -12,65 +14,71 @@ import Link from "next/link";
 import Image from "next/image";
 import { Tag } from "@/types/project";
 
+import { useTranslation } from "@onruntime/translations/react";
+
 const NavigationProjects: React.FC = () => {
-  
-  const featuredProjects = Projects.filter(project => 
-    project.tags.includes(Tag.FEATURED)
+  const { t } = useTranslation("layout/navbar");
+
+  const featuredProjects = Projects.filter((project) =>
+    project.tags.includes(Tag.FEATURED),
   ).slice(0, 2);
 
-  const remainingProjects = Projects.filter(project => 
-    !project.tags.includes(Tag.FEATURED)
+  const remainingProjects = Projects.filter(
+    (project) => !project.tags.includes(Tag.FEATURED),
   ).slice(0, 4 - featuredProjects.length);
 
-  const displayProjects = [...featuredProjects, ...remainingProjects].slice(0, 4);
+  const displayProjects = [...featuredProjects, ...remainingProjects].slice(
+    0,
+    4,
+  );
 
   return (
     <NavigationMenuItem>
       <Link href={Routes.projects}>
-        <NavigationMenuTrigger>Nos projets</NavigationMenuTrigger>
+        <NavigationMenuTrigger>{t("links.projects")}</NavigationMenuTrigger>
       </Link>
 
       <NavigationMenuContent>
         <div className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-[200px_1fr] lg:w-[600px]">
-          
           <NavigationMenuLink asChild className="block">
-            <Link 
+            <Link
               href={Routes.projects}
               className="group h-full select-none rounded-md bg-muted p-4 no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
             >
               <div className="flex h-full flex-col justify-between">
                 <div>
-                  <h3 className="text-sm font-medium mb-2">Notre portfolio</h3>
+                  <h3 className="text-sm font-medium mb-2">
+                    {t("projects.title")}
+                  </h3>
                   <p className="text-xs text-muted-foreground mb-4">
-                    Découvrez tous nos projets et réalisations pour divers secteurs
+                    {t("projects.description")}
                   </p>
                 </div>
-                
+
                 <div className="space-y-3">
                   <div className="flex items-center gap-2 text-xs">
                     <Rocket className="h-3.5 w-3.5 text-onruntime-blue" />
-                    <span>Applications Web & Mobile</span>
+                    <span>{t("projects.categories.web-mobile")}</span>
                   </div>
                   <div className="flex items-center gap-2 text-xs">
                     <Code className="h-3.5 w-3.5 text-onruntime-blue" />
-                    <span>Projets Open Source</span>
+                    <span>{t("projects.categories.open-source")}</span>
                   </div>
                   <div className="flex items-center gap-2 text-xs">
                     <Eye className="h-3.5 w-3.5 text-onruntime-blue" />
-                    <span>Design UI/UX</span>
+                    <span>{t("projects.categories.design")}</span>
                   </div>
-                  
+
                   <div className="flex items-center gap-2 text-xs text-muted-foreground group-hover:text-accent-foreground/80 mt-4">
-                    Voir tous les projets
+                    {t("projects.cta")}
                     <ArrowRight className="h-3 w-3" />
                   </div>
                 </div>
               </div>
             </Link>
           </NavigationMenuLink>
-          
+
           <div className="grid gap-3">
-            
             {displayProjects.length > 0 && (
               <NavigationMenuLink asChild className="block">
                 <Link
@@ -86,7 +94,9 @@ const NavigationProjects: React.FC = () => {
                     />
                   </div>
                   <div className="flex-1">
-                    <div className="text-sm font-semibold leading-none mb-1">{displayProjects[0].name}</div>
+                    <div className="text-sm font-semibold leading-none mb-1">
+                      {displayProjects[0].name}
+                    </div>
                     <p className="line-clamp-2 text-xs leading-snug text-muted-foreground">
                       {displayProjects[0].shortDescription}
                     </p>
@@ -103,7 +113,9 @@ const NavigationProjects: React.FC = () => {
                     className="block select-none space-y-1 rounded-md p-3 no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                   >
                     <div className="flex items-center justify-between">
-                      <div className="text-sm font-medium leading-none">{project.name}</div>
+                      <div className="text-sm font-medium leading-none">
+                        {project.name}
+                      </div>
                       {project.tags.includes(Tag.OPEN_SOURCE) && (
                         <Github className="h-3.5 w-3.5 text-muted-foreground" />
                       )}
