@@ -2,11 +2,8 @@
   "back": "Retour aux offres",
   "share": {
     "button": "Partager",
-    "text": {
-      "prefix": "Découvrez cette opportunité: ",
-      "suffix": " chez onRuntime Studio"
-    },
-    "copied": "Lien copié dans le presse-papier!"
+    "text": "Decouvrez cette opportunite: {jobTitle} chez onRuntime Studio",
+    "copied": "Lien copie dans le presse-papier!"
   },
   "apply": "Postuler maintenant",
   "published": "Publié le",

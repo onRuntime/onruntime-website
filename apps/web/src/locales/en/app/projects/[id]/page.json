@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Project not found",
+      "description": "This project does not exist."
+    },
+    "title": "Case study: {name} - Digital project",
+    "description": "Discover how our agency designed and developed {name}. {shortDescription}"
+  }
+}

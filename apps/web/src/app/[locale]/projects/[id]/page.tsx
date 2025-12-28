@@ -3,6 +3,7 @@ import Projects from "@/constants/projects";
 import ProjectPage from "@/screens/marketing/projects/details";
 import type { Metadata } from "next";
 import { constructMetadata } from "@/lib/utils/metadata";
+import { getTranslation } from "@/lib/translations.server";
 import { ProjectSchema } from "@/components/json-ld/project-schema";
 
 type Params = Promise<{ id: string }>;
@@ -14,19 +15,23 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { id } = await params;
   const project = Projects.find((p) => p.id === id);
+  const { t } = await getTranslation("app/projects/[id]/page");
 
   if (!project) {
     return constructMetadata({
-      title: "Projet non trouvé",
-      description: "Ce projet n'existe pas.",
+      title: t("metadata.not-found.title"),
+      description: t("metadata.not-found.description"),
     });
   }
 
+  const { t: tProject } = await getTranslation(`constants/projects/${project.id}`);
+
   return constructMetadata({
-    title: `Étude de cas : ${project.name} - Projet digital par notre agence`,
-    description: `Découvrez comment notre agence a conçu et développé ${
-      project.name
-    }. ${project.shortDescription.slice(0, 100)}`,
+    title: t("metadata.title", { name: project.name }),
+    description: t("metadata.description", {
+      name: project.name,
+      shortDescription: tProject("short-description").slice(0, 100),
+    }),
   });
 }
 
@@ -38,12 +43,14 @@ export default async function Page({ params }: { params: Params }) {
     notFound();
   }
 
+  const { t: tProject } = await getTranslation(`constants/projects/${project.id}`);
+
   return (
     <>
       <ProjectSchema
         id={`https://onruntime.com/projects/${project.id}`}
         name={project.name}
-        description={project.description}
+        description={tProject("description")}
       />
       <ProjectPage project={project} />
     </>

@@ -4,12 +4,7 @@
       "title": "Job posting not found",
       "description": "This job posting does not exist or is no longer available."
     },
-    "title": {
-      "suffix": " | Careers"
-    },
-    "description": {
-      "prefix": "Join onRuntime Studio as ",
-      "suffix": ". Discover this career opportunity and apply now."
-    }
+    "title": "{jobTitle} | Careers",
+    "description": "Join onRuntime Studio as {jobTitle}. Discover this career opportunity and apply now."
   }
 }

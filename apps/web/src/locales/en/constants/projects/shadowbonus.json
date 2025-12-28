@@ -1,0 +1,53 @@
+{
+  "short-description": "Affiliate platform for streamers specialized in online casino bonuses and box opening.",
+  "description": "Affiliate website developed for streamer vitapvp, showcasing the best bonuses and benefits from partner casinos with redirection to affiliate links.",
+  "long-description": "ShadowBonus is an affiliate platform developed for streamer vitapvp, designed to clearly and attractively present the best bonuses and benefits from partner online casinos.\n\nThe project focuses on the essentials: a clean interface that highlights partner offers and facilitates conversion to affiliate links. Developed with React and styled-components, the site prioritizes ease of use and conversion efficiency.\n\nOur approach focused on a smooth user experience allowing vitapvp's viewers to quickly discover the best available offers and easily access partner platforms.",
+  "features": {
+    "partner-showcase": {
+      "title": "Partner showcase",
+      "description": "Clear and attractive presentation of the streamer's partner casinos and platforms"
+    },
+    "bonus-comparison": {
+      "title": "Bonus comparison",
+      "description": "Highlighting the best bonuses and benefits available for viewers"
+    },
+    "affiliate-redirect": {
+      "title": "Affiliate redirection",
+      "description": "Optimized redirection system to partner affiliate links"
+    },
+    "responsive-interface": {
+      "title": "Responsive interface",
+      "description": "Adaptive design for optimal experience on all devices"
+    }
+  },
+  "technologies": {
+    "react": { "description": "JavaScript library for user interface" },
+    "styled-components": { "description": "CSS-in-JS styling for a modern approach" },
+    "cloudflare": { "description": "Hosting and continuous deployment" }
+  },
+  "metrics": {
+    "weekly-visits": { "label": "Weekly visits", "description": "At launch in July 2021" },
+    "dev-time": { "label": "Development time", "description": "Fast and efficient delivery" },
+    "team-size": { "label": "Team", "description": "Small and agile team" }
+  },
+  "screenshots": {
+    "homepage": { "caption": "Homepage showcasing partner offers" },
+    "partners": { "caption": "Partner casinos and platforms section" }
+  },
+  "challenges": {
+    "attractive-interface": "Creating an attractive interface to highlight partner offers",
+    "conversion-optimization": "Optimizing conversion rates to affiliate links",
+    "simple-react-solution": "Developing a simple but effective React solution",
+    "cross-device-experience": "Ensuring a smooth user experience on all devices"
+  },
+  "learnings": {
+    "affiliate-simplicity": "Importance of simplicity in affiliate projects",
+    "streamer-conversion": "Optimizing conversion journeys for streamers",
+    "react-styled-components": "Fast and efficient development with React and styled-components",
+    "gaming-streaming-needs": "Adapting to the specific needs of the gaming streaming world"
+  },
+  "future-plans": {
+    "client-transfer": "The project was transferred to the client for maintenance",
+    "streamer-evolutions": "Possible evolutions based on the streamer's needs"
+  }
+}

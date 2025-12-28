@@ -12,9 +12,64 @@ import { ArrowRight, Code, Eye, Github, Rocket } from "lucide-react";
 import React from "react";
 import { Link } from "@onruntime/translations/next";
 import Image from "next/image";
-import { Tag } from "@/types/project";
+import { Project, Tag } from "@/types/project";
 
 import { useTranslation } from "@onruntime/translations/react";
+
+const FeaturedProjectCard: React.FC<{ project: Project }> = ({ project }) => {
+  const { t: tProject } = useTranslation(`constants/projects/${project.id}`);
+
+  return (
+    <NavigationMenuLink asChild className="block">
+      <Link
+        href={Routes.project(project.id)}
+        className="group flex p-3 gap-4 select-none rounded-md no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+      >
+        <div className="relative h-12 w-12 overflow-hidden rounded-md">
+          <Image
+            src={project.iconUrl}
+            alt={project.name}
+            fill
+            className="object-cover"
+          />
+        </div>
+        <div className="flex-1">
+          <div className="text-sm font-semibold leading-none mb-1">
+            {project.name}
+          </div>
+          <p className="line-clamp-2 text-xs leading-snug text-muted-foreground">
+            {tProject("short-description")}
+          </p>
+        </div>
+      </Link>
+    </NavigationMenuLink>
+  );
+};
+
+const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
+  const { t: tProject } = useTranslation(`constants/projects/${project.id}`);
+
+  return (
+    <NavigationMenuLink asChild>
+      <Link
+        href={Routes.project(project.id)}
+        className="block select-none space-y-1 rounded-md p-3 no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+      >
+        <div className="flex items-center justify-between">
+          <div className="text-sm font-medium leading-none">
+            {project.name}
+          </div>
+          {project.tags.includes(Tag.OPEN_SOURCE) && (
+            <Github className="h-3.5 w-3.5 text-muted-foreground" />
+          )}
+        </div>
+        <p className="line-clamp-2 text-xs leading-snug text-muted-foreground">
+          {tProject("short-description")}
+        </p>
+      </Link>
+    </NavigationMenuLink>
+  );
+};
 
 const NavigationProjects: React.FC = () => {
   const { t } = useTranslation("layout/navbar");
@@ -80,51 +135,12 @@ const NavigationProjects: React.FC = () => {
 
           <div className="grid gap-3">
             {displayProjects.length > 0 && (
-              <NavigationMenuLink asChild className="block">
-                <Link
-                  href={Routes.project(displayProjects[0].id)}
-                  className="group flex p-3 gap-4 select-none rounded-md no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                >
-                  <div className="relative h-12 w-12 overflow-hidden rounded-md">
-                    <Image
-                      src={displayProjects[0].iconUrl}
-                      alt={displayProjects[0].name}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="flex-1">
-                    <div className="text-sm font-semibold leading-none mb-1">
-                      {displayProjects[0].name}
-                    </div>
-                    <p className="line-clamp-2 text-xs leading-snug text-muted-foreground">
-                      {displayProjects[0].shortDescription}
-                    </p>
-                  </div>
-                </Link>
-              </NavigationMenuLink>
+              <FeaturedProjectCard project={displayProjects[0]} />
             )}
 
             <div className="grid gap-2">
               {displayProjects.slice(1).map((project) => (
-                <NavigationMenuLink asChild key={project.id}>
-                  <Link
-                    href={Routes.project(project.id)}
-                    className="block select-none space-y-1 rounded-md p-3 no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                  >
-                    <div className="flex items-center justify-between">
-                      <div className="text-sm font-medium leading-none">
-                        {project.name}
-                      </div>
-                      {project.tags.includes(Tag.OPEN_SOURCE) && (
-                        <Github className="h-3.5 w-3.5 text-muted-foreground" />
-                      )}
-                    </div>
-                    <p className="line-clamp-2 text-xs leading-snug text-muted-foreground">
-                      {project.shortDescription}
-                    </p>
-                  </Link>
-                </NavigationMenuLink>
+                <ProjectCard key={project.id} project={project} />
               ))}
             </div>
           </div>

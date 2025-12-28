@@ -4,12 +4,7 @@
       "title": "Offre d'emploi non trouvée",
       "description": "Cette offre d'emploi n'existe pas ou n'est plus disponible."
     },
-    "title": {
-      "suffix": " | Carrières"
-    },
-    "description": {
-      "prefix": "Rejoignez onRuntime Studio en tant que ",
-      "suffix": ". Découvrez cette opportunité de carrière et postulez dès maintenant."
-    }
+    "title": "{jobTitle} | Carrieres",
+    "description": "Rejoignez onRuntime Studio en tant que {jobTitle}. Decouvrez cette opportunite de carriere et postulez des maintenant."
   }
 }

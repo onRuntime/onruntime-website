@@ -4,39 +4,42 @@ import Routes from "@/constants/routes";
 import { Project, Tag } from "@/types/project";
 import Image from "next/image";
 import { Link } from "@onruntime/translations/next";
+import { useTranslation } from "@onruntime/translations/react";
 import React from "react";
 
 export type ProjectCardProps = {
   project: Project;
 };
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ 
-  project 
+const ProjectCard: React.FC<ProjectCardProps> = ({
+  project
 }: ProjectCardProps) => {
   const ref = React.useRef<HTMLAnchorElement>(null);
+  const { t } = useTranslation("components/marketing/projects/card");
+  const { t: tProject } = useTranslation(`constants/projects/${project.id}`);
 
   return (
-    <Link 
-      className="flex flex-col gap-3 h-full group" 
-      href={Routes.project(project.id)} 
+    <Link
+      className="flex flex-col gap-3 h-full group"
+      href={Routes.project(project.id)}
       ref={ref}
     >
       <div className="relative aspect-video w-full overflow-hidden rounded-lg">
-        <Image 
-          className="object-cover transition-transform duration-300 group-hover:scale-105" 
-          src={project.thumbnailUrl} 
-          alt={project.name} 
+        <Image
+          className="object-cover transition-transform duration-300 group-hover:scale-105"
+          src={project.thumbnailUrl}
+          alt={project.name}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
         />
         <div className="absolute bottom-2 right-2 flex flex-wrap gap-2">
           {project.tags && project.tags.flatMap((tag) => {
             switch (tag) {
-              case Tag.FEATURED: 
-                return <Badge key={tag}>Featured</Badge>;
-              case Tag.OPEN_SOURCE: 
-                return <Badge key={tag}>Open Source</Badge>;
-              default: 
+              case Tag.FEATURED:
+                return <Badge key={tag}>{t("tags.featured")}</Badge>;
+              case Tag.OPEN_SOURCE:
+                return <Badge key={tag}>{t("tags.open-source")}</Badge>;
+              default:
                 return null;
             }
           })}
@@ -45,7 +48,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       <div className="flex flex-col flex-grow">
         <h3 className="text-foreground font-medium">{project.name}</h3>
         <p className="text-sm text-muted-foreground leading-tight line-clamp-2 mt-1">
-          {project.shortDescription}
+          {tProject("short-description")}
         </p>
       </div>
     </Link>

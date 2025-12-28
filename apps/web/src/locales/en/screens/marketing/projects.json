@@ -1,0 +1,97 @@
+{
+  "hero": {
+    "title": "Our projects and achievements",
+    "description": "Discover our portfolio of web, mobile and UI/UX design development projects. Innovative solutions and modern interfaces created by our team of experts.",
+    "subdescription": "From conception to completion, each project reflects our expertise and commitment to creating exceptional digital experiences."
+  },
+  "expertise": {
+    "title": "Our project development expertise",
+    "description": "At onRuntime Studio, we combine creativity, technical expertise and proven methodology to transform your ideas into high-performance, innovative digital solutions.",
+    "cards": {
+      "development": {
+        "title": "Custom development",
+        "description": "Carefully coded solutions using the most suitable technologies for your project and specific objectives."
+      },
+      "design": {
+        "title": "Exceptional UI/UX design",
+        "description": "Elegant and intuitive interfaces that engage your users and effectively convey your brand identity."
+      },
+      "performance": {
+        "title": "Optimal performance",
+        "description": "Fast, responsive and optimized applications to deliver a smooth and enjoyable user experience."
+      }
+    }
+  },
+  "process": {
+    "title": "Our delivery process",
+    "description": "A proven methodology that guarantees quality and success for every project, from initial design to final deployment.",
+    "steps": {
+      "discovery": {
+        "title": "Discovery",
+        "description": "In-depth analysis of your needs, objectives and the specifics of your sector."
+      },
+      "conception": {
+        "title": "Design",
+        "description": "Creating mockups and prototypes to visualize and validate the user experience."
+      },
+      "development": {
+        "title": "Development",
+        "description": "Careful coding with modern technologies and rigorous testing to ensure quality."
+      },
+      "deployment": {
+        "title": "Deployment",
+        "description": "Production launch with ongoing monitoring and support to ensure your project's success."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What our clients say about us",
+    "description": "Client satisfaction is our top priority. Here are some testimonials from partners we've had the pleasure of working with.",
+    "items": [
+      {
+        "quote": "The onRuntime Studio team transformed our vision into an exceptional digital solution that exceeded all our expectations. Their technical expertise and creativity made all the difference.",
+        "author": "Thomas M. - Marketing director"
+      },
+      {
+        "quote": "A reliable and innovative partner who truly understands our needs. Their methodical approach and transparent communication made the development process enjoyable and stress-free.",
+        "author": "Sophie D. - Startup founder"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industries we serve",
+    "description": "Our expertise extends to many sectors, with solutions adapted to the specificities of each industry.",
+    "items": {
+      "ecommerce": "E-commerce",
+      "startups": "Startups",
+      "luxury": "Luxury",
+      "institutions": "Institutions"
+    }
+  },
+  "why-us": {
+    "title": "Why choose onRuntime Studio?",
+    "description": "We stand out through our client-centric approach and commitment to excellence.",
+    "items": {
+      "expertise": {
+        "title": "Technical expertise",
+        "description": "A team of experienced developers and designers mastering the latest technologies."
+      },
+      "custom": {
+        "title": "Custom solutions",
+        "description": "Personalized developments that precisely meet your specific needs."
+      },
+      "support": {
+        "title": "Ongoing support",
+        "description": "Quality support throughout the project and after launch."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to bring your project to life?",
+    "description": "Contact us today to discuss your idea and discover how our expertise can help you turn it into reality.",
+    "buttons": {
+      "start": "Start a project",
+      "services": "Discover our services"
+    }
+  }
+}

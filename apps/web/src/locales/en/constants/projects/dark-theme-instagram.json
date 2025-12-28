@@ -1,0 +1,46 @@
+{
+  "short-description": "A browser extension that transforms Instagram into dark mode, similar to the iOS app.",
+  "description": "Change the theme of Instagram.com to dark mode when the system is in dark mode.",
+  "long-description": "Dark Theme for Instagram™ is a browser extension that transforms the visual experience of Instagram.com by adopting a dark theme, similar to the iOS app appearance.\n\nThe extension offers a simple and elegant solution to reduce eye strain and improve the Instagram browsing experience, while respecting operating system preferences.",
+  "features": {
+    "auto-dark-mode": {
+      "title": "Automatic Dark Mode",
+      "description": "Automatically enable dark theme based on system settings"
+    },
+    "multi-browser": {
+      "title": "Multi-Browser Compatible",
+      "description": "Available for Firefox, Edge, and Chrome"
+    },
+    "open-source": {
+      "title": "Open Source",
+      "description": "Freely accessible and verifiable source code"
+    }
+  },
+  "technologies": {
+    "javascript": { "description": "Extension development" },
+    "chrome-api": { "description": "Browser integration" },
+    "css": { "description": "Theme customization" }
+  },
+  "metrics": {
+    "users": { "label": "Users", "description": "Active users" },
+    "installs": { "label": "Installs", "description": "Total installations" },
+    "open-source": { "label": "Open Source", "description": "Public source code" }
+  },
+  "screenshots": {
+    "dark-interface": { "caption": "Instagram interface in dark mode" }
+  },
+  "challenges": {
+    "instagram-updates-compatibility": "Maintaining compatibility with Instagram's frequent updates",
+    "cross-browser-consistency": "Ensuring a consistent dark theme across different browsers",
+    "browser-performance": "Minimizing impact on browser performance"
+  },
+  "learnings": {
+    "dynamic-interface-modification": "Complexity of dynamically modifying web interfaces",
+    "cross-browser-compatibility": "Importance of cross-browser compatibility",
+    "platform-updates-management": "Managing frequent web platform updates"
+  },
+  "future-plans": {
+    "more-customization": "Adding more customization options",
+    "instagram-versions-compatibility": "Improving compatibility with different Instagram versions"
+  }
+}

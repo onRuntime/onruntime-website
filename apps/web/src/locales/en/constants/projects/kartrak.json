@@ -1,0 +1,57 @@
+{
+  "short-description": "Eco-friendly activity tracking. Monitor your online footprint in a fun way.",
+  "description": "A browser extension that helps you understand and reduce your environmental impact online.",
+  "long-description": "Kartrak is an innovative browser extension that raises user awareness about their digital carbon footprint. By monitoring your online activity, Kartrak provides detailed insights into your internet consumption and its environmental impact.\n\nThe extension uses advanced algorithms based on Ecoindex to calculate your browsing carbon footprint, while offering personalized suggestions to reduce your impact. Ecoindex is a recognized methodology that evaluates the environmental impact of websites by analyzing their technical complexity, weight, and energy efficiency.\n\nWith a fun and educational approach, Kartrak makes environmental awareness accessible and engaging.",
+  "features": {
+    "real-time-tracking": {
+      "title": "Real-time tracking",
+      "description": "Visualize your digital carbon footprint in real-time"
+    },
+    "personalized-suggestions": {
+      "title": "Personalized suggestions",
+      "description": "Receive tailored advice to reduce your impact"
+    },
+    "detailed-stats": {
+      "title": "Detailed statistics",
+      "description": "Analyze your browsing habits and their impact"
+    },
+    "ecological-goals": {
+      "title": "Ecological goals",
+      "description": "Set goals and track your progress"
+    }
+  },
+  "technologies": {
+    "typescript": { "description": "Browser extension" },
+    "react": { "description": "User interface" },
+    "nodejs": { "description": "Backend and API" },
+    "chrome-api": { "description": "Browser integration" }
+  },
+  "metrics": {
+    "sites-analyzed": { "label": "Sites analyzed", "description": "Compatible with all websites" },
+    "open-source": { "label": "Open Source", "description": "Public source code" },
+    "confidential": { "label": "Confidential", "description": "No user data collected" }
+  },
+  "screenshots": {
+    "dashboard": { "caption": "Main dashboard" },
+    "stats": { "caption": "Detailed statistics" }
+  },
+  "challenges": {
+    "carbon-calculation": "Accurate carbon footprint calculation",
+    "privacy-protection": "Protecting user privacy",
+    "background-performance": "Extension performance in the background",
+    "environmental-data-accuracy": "Accuracy of environmental data"
+  },
+  "learnings": {
+    "environmental-impact-complexity": "Complexity of environmental impact calculation",
+    "user-engagement": "Importance of user engagement",
+    "accuracy-performance-balance": "Balance between accuracy and performance",
+    "navigation-ux": "UX adapted to browsing habits"
+  },
+  "future-plans": {
+    "more-browsers": "Support for more browsers",
+    "eco-tools-integration": "Integration with other eco-friendly tools",
+    "community-features": "Community features",
+    "personalized-reports": "Personalized detailed reports",
+    "auto-close-tabs": "Automatic closing of unused tabs"
+  }
+}

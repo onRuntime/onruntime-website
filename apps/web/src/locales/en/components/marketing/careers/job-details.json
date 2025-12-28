@@ -2,10 +2,7 @@
   "back": "Back to job offers",
   "share": {
     "button": "Share",
-    "text": {
-      "prefix": "Discover this opportunity: ",
-      "suffix": " at onRuntime Studio"
-    },
+    "text": "Discover this opportunity: {jobTitle} at onRuntime Studio",
     "copied": "Link copied to clipboard!"
   },
   "apply": "Apply now",

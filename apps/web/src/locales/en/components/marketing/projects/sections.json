@@ -1,0 +1,22 @@
+{
+  "featured": {
+    "title": "Featured projects",
+    "view-project": "View project"
+  },
+  "studio": {
+    "title": "Studio projects"
+  },
+  "customer": {
+    "title": "Customer projects",
+    "coming-soon": "Coming soon",
+    "empty": {
+      "description": "Our customer projects are being prepared. Contact us to learn more about our work or to discuss your project.",
+      "button": "Discuss your project"
+    }
+  },
+  "tags": {
+    "featured": "Featured",
+    "open-source": "Open Source",
+    "customer": "Customer"
+  }
+}

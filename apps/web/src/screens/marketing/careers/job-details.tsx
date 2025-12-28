@@ -63,7 +63,7 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
       navigator
         .share({
           title: job.title,
-          text: t("share.text.prefix") + job.title + t("share.text.suffix"),
+          text: t("share.text", { jobTitle: job.title }),
           url: window.location.href,
         })
         .catch((error) => console.log("Error sharing", error));

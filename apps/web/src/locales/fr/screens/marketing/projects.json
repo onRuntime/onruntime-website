@@ -1,0 +1,97 @@
+{
+  "hero": {
+    "title": "Nos projets et réalisations",
+    "description": "Découvrez notre portfolio de projets en développement web, mobile et design UI/UX. Des solutions innovantes et des interfaces modernes réalisées par notre équipe d'experts.",
+    "subdescription": "De la conception à la réalisation, chaque projet témoigne de notre expertise et de notre engagement à créer des expériences numériques exceptionnelles."
+  },
+  "expertise": {
+    "title": "Notre expertise en développement de projets",
+    "description": "Chez onRuntime Studio, nous combinons créativité, expertise technique et méthodologie éprouvée pour transformer vos idées en solutions digitales performantes et innovantes.",
+    "cards": {
+      "development": {
+        "title": "Développement sur mesure",
+        "description": "Des solutions codées avec soin, utilisant les technologies les plus adaptées à votre projet et à vos objectifs spécifiques."
+      },
+      "design": {
+        "title": "Design UI/UX exceptionnel",
+        "description": "Des interfaces élégantes et intuitives qui engagent vos utilisateurs et véhiculent efficacement l'identité de votre marque."
+      },
+      "performance": {
+        "title": "Performance optimale",
+        "description": "Des applications rapides, réactives et optimisées pour offrir une expérience utilisateur fluide et agréable."
+      }
+    }
+  },
+  "process": {
+    "title": "Notre processus de réalisation",
+    "description": "Une méthodologie éprouvée qui garantit la qualité et le succès de chaque projet, de la conception initiale au déploiement final.",
+    "steps": {
+      "discovery": {
+        "title": "Découverte",
+        "description": "Analyse approfondie de vos besoins, objectifs et des spécificités de votre secteur."
+      },
+      "conception": {
+        "title": "Conception",
+        "description": "Création de maquettes et prototypes pour visualiser et valider l'expérience utilisateur."
+      },
+      "development": {
+        "title": "Développement",
+        "description": "Codage soigné avec des technologies modernes et des tests rigoureux pour garantir la qualité."
+      },
+      "deployment": {
+        "title": "Déploiement",
+        "description": "Mise en production avec suivi et support continu pour assurer la réussite de votre projet."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Ce que nos clients disent de nous",
+    "description": "La satisfaction de nos clients est notre priorité absolue. Voici quelques témoignages de partenaires avec qui nous avons eu le plaisir de collaborer.",
+    "items": [
+      {
+        "quote": "L'équipe d'onRuntime Studio a transformé notre vision en une solution digitale exceptionnelle qui a dépassé toutes nos attentes. Leur expertise technique et leur créativité ont fait toute la différence.",
+        "author": "Thomas M. - Directeur marketing"
+      },
+      {
+        "quote": "Un partenaire fiable et innovant qui comprend réellement nos besoins. Leur approche méthodique et leur communication transparente ont rendu le processus de développement agréable et sans stress.",
+        "author": "Sophie D. - Fondatrice startup"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industries que nous servons",
+    "description": "Notre expertise s'étend à de nombreux secteurs, avec des solutions adaptées aux spécificités de chaque industrie.",
+    "items": {
+      "ecommerce": "E-commerce",
+      "startups": "Startups",
+      "luxury": "Luxe",
+      "institutions": "Institutions"
+    }
+  },
+  "why-us": {
+    "title": "Pourquoi choisir onRuntime Studio ?",
+    "description": "Nous nous distinguons par notre approche centrée sur le client et notre engagement envers l'excellence.",
+    "items": {
+      "expertise": {
+        "title": "Expertise technique",
+        "description": "Une équipe de développeurs et designers expérimentés maîtrisant les dernières technologies."
+      },
+      "custom": {
+        "title": "Solutions sur mesure",
+        "description": "Des développements personnalisés qui répondent précisément à vos besoins spécifiques."
+      },
+      "support": {
+        "title": "Support continu",
+        "description": "Un accompagnement de qualité tout au long du projet et après le lancement."
+      }
+    }
+  },
+  "cta": {
+    "title": "Prêt à donner vie à votre projet ?",
+    "description": "Contactez-nous dès aujourd'hui pour discuter de votre idée et découvrir comment notre expertise peut vous aider à la transformer en réalité.",
+    "buttons": {
+      "start": "Démarrer un projet",
+      "services": "Découvrir nos services"
+    }
+  }
+}

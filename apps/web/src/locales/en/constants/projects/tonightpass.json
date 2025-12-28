@@ -1,0 +1,50 @@
+{
+  "short-description": "Discover and book the best events tailored to your tastes.",
+  "description": "Tonight Pass is an innovative platform that simplifies event discovery and booking through a personalized recommendation system based on your preferences.",
+  "long-description": "Tonight Pass revolutionizes the way people discover and attend events. Our platform combines technology and user experience to offer personalized recommendations and simplified ticketing.\n\nThe platform connects event organizers and attendees, providing a complete solution for booking management, smart recommendations, and data analytics. The application was designed to optimize the event discovery experience while simplifying management for organizers.",
+  "features": {
+    "ticketing": {
+      "title": "Simplified ticketing",
+      "description": "Book your tickets in just a few clicks for all types of events"
+    },
+    "recommendations": {
+      "title": "Personalized recommendations",
+      "description": "Discover events tailored to your tastes"
+    },
+    "e-tickets": {
+      "title": "Secure e-tickets",
+      "description": "Access events with secure digital tickets"
+    }
+  },
+  "technologies": {
+    "react": { "description": "Web and mobile applications" },
+    "nestjs": { "description": "Backend API" },
+    "mongodb": { "description": "Main database" }
+  },
+  "metrics": {
+    "time-saved": { "label": "Time saved", "description": "On average per event search" },
+    "coverage": { "label": "Coverage", "description": "Available throughout France" },
+    "ease": { "label": "Ease", "description": "To book any event" }
+  },
+  "screenshots": {},
+  "challenges": {
+    "ticketing-experience": "Developing a smooth and intuitive ticketing experience",
+    "recommendation-system": "Creating a personalized recommendation system",
+    "scalable-infrastructure": "Setting up a scalable infrastructure",
+    "traffic-peaks": "Managing traffic peaks during ticket releases"
+  },
+  "learnings": {
+    "booking-simplicity": "Importance of simplicity in the booking journey",
+    "event-type-interface": "Need for an interface adapted to different event types",
+    "database-management": "Efficient management of an event database",
+    "speed-reliability-balance": "Balance between speed and service reliability"
+  },
+  "future-plans": {
+    "venue-kiosks": "Deploying kiosks in venues",
+    "recruitment-platform": "Launching an event recruitment platform",
+    "venue-rental": "Setting up a venue rental service",
+    "supplier-network": "Creating a network of event suppliers",
+    "organizer-tools": "Developing advanced tools for organizers",
+    "recommendation-improvement": "Improving the recommendation system"
+  }
+}

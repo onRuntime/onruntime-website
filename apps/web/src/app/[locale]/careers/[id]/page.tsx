@@ -42,10 +42,10 @@ export async function generateMetadata(props: {
   }
 
   return constructMetadata({
-    title: job.title + t("metadata.title.suffix"),
+    title: t("metadata.title", { jobTitle: job.title }),
     description:
       job.shortDescription ||
-      t("metadata.description.prefix") + job.title + t("metadata.description.suffix"),
+      t("metadata.description", { jobTitle: job.title }),
   });
 }
 

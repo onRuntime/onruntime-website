@@ -1,0 +1,46 @@
+{
+  "short-description": "Une extension de navigateur qui transforme Instagram en mode sombre, similaire à l'application iOS.",
+  "description": "Changez le thème de Instagram.com en mode sombre lorsque le système est en mode sombre.",
+  "long-description": "Dark Theme for Instagram™ est une extension de navigateur qui transforme l'expérience visuelle de Instagram.com en adoptant un thème sombre, similaire à l'apparence de l'application iOS.\n\nL'extension offre une solution simple et élégante pour réduire la fatigue oculaire et améliorer l'expérience de navigation sur Instagram, tout en respectant les préférences du système d'exploitation.",
+  "features": {
+    "auto-dark-mode": {
+      "title": "Mode Sombre Automatique",
+      "description": "Activez automatiquement le thème sombre basé sur les paramètres système"
+    },
+    "multi-browser": {
+      "title": "Compatible Multi-Navigateurs",
+      "description": "Disponible pour Firefox, Edge et Chrome"
+    },
+    "open-source": {
+      "title": "Open Source",
+      "description": "Code source librement accessible et vérifiable"
+    }
+  },
+  "technologies": {
+    "javascript": { "description": "Développement de l'extension" },
+    "chrome-api": { "description": "Intégration navigateur" },
+    "css": { "description": "Personnalisation du thème" }
+  },
+  "metrics": {
+    "users": { "label": "Utilisateurs", "description": "Utilisateurs actifs" },
+    "installs": { "label": "Installations", "description": "Total d'installations" },
+    "open-source": { "label": "Open Source", "description": "Code source public" }
+  },
+  "screenshots": {
+    "dark-interface": { "caption": "Interface Instagram en mode sombre" }
+  },
+  "challenges": {
+    "instagram-updates-compatibility": "Maintenir la compatibilité avec les mises à jour fréquentes d'Instagram",
+    "cross-browser-consistency": "Assurer un thème sombre cohérent sur différents navigateurs",
+    "browser-performance": "Minimiser l'impact sur les performances du navigateur"
+  },
+  "learnings": {
+    "dynamic-interface-modification": "Complexité de la modification dynamique des interfaces web",
+    "cross-browser-compatibility": "Importance de la compatibilité cross-navigateurs",
+    "platform-updates-management": "Gestion des mises à jour fréquentes des plateformes web"
+  },
+  "future-plans": {
+    "more-customization": "Ajout de plus d'options de personnalisation",
+    "instagram-versions-compatibility": "Amélioration de la compatibilité avec différentes versions d'Instagram"
+  }
+}
