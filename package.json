@@ -1,5 +1,5 @@
 {
-  "name": "onruntime-website",
+  "name": "@onruntime/root",
   "private": true,
   "scripts": {
     "dev": "turbo run dev",
