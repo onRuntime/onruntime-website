@@ -8,7 +8,7 @@ import Routes from "@/constants/routes";
 import { OnRuntimeWordMark } from "@/logos/components";
 
 const Footer = () => {
-  const { t } = useTranslation("footer");
+  const { t } = useTranslation("layout/footer");
   const currentYear = new Date().getFullYear();
 
   const navigation = {
