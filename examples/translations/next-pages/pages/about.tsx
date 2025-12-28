@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-import { useTranslation } from "@onruntime/translations";
+import { useTranslation } from "@onruntime/translations/react";
 
 export default function About() {
   const { t, locale } = useTranslation();

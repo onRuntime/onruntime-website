@@ -1,4 +1,4 @@
-import { useTranslation } from "@onruntime/translations";
+import { useTranslation } from "@onruntime/translations/react";
 
 export const Demo = () => {
   const { t, locale } = useTranslation();

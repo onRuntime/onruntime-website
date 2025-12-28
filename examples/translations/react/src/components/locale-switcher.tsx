@@ -1,4 +1,4 @@
-import { useLocale } from "@onruntime/translations";
+import { useLocale } from "@onruntime/translations/react";
 
 export const LocaleSwitcher = () => {
   const { locale, setLocale } = useLocale();
