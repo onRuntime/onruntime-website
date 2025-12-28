@@ -3,7 +3,7 @@ import { constructMetadata } from "@/lib/utils/metadata";
 import JobDetailPage from "@/screens/marketing/careers/job-details";
 import { JobPosting } from "@/types/job";
 import { Metadata } from "next";
-import { env } from "env.mjs";
+import { env } from "env";
 
 async function getJobById(id: string): Promise<JobPosting | null> {
   try {

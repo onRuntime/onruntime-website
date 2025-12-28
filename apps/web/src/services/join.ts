@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { env } from "env.mjs";
+import { env } from "env";
 
 const JOIN_API_BASE_URL = "https://api.join.com/v2";
 
