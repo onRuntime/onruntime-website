@@ -35,9 +35,9 @@ npm-debug.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# public
-public/robots.txt
-public/sitemap*.xml
+# generated files
+**/public/robots.txt
+**/public/sitemap*.xml
 
 # turbo
 .turbo

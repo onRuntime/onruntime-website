@@ -1,10 +1,11 @@
 import { Resend } from 'resend';
 import { contactFormSchema } from '@/lib/schema/contact';
 import { NextResponse } from 'next/server';
-
-const resend = new Resend(process.env.RESEND_API_KEY);
+import { env } from 'env.mjs';
+import { resend } from '@/services/email';
 
 export async function POST(req: Request) {
+  
   try {
     const body = await req.json();
     const result = contactFormSchema.safeParse(body);
@@ -18,6 +19,7 @@ export async function POST(req: Request) {
 
     const { name, email, message } = result.data;
 
+    
     const { error } = await resend.emails.send({
       from: 'business@onruntime.com',
       to: 'contact@onruntime.com',

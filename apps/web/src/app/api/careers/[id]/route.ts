@@ -1,120 +1,64 @@
 import { NextRequest, NextResponse } from "next/server";
-import { z } from "zod";
 import { unstable_cache } from "next/cache";
-import { formatEmploymentType, formatSalary, extractTags } from "@/lib/utils/careers";
+import { joinClient } from "@/services/join";
+import {
+  formatEmploymentType,
+  formatSalary,
+  extractTags,
+} from "@/lib/utils/careers";
 
-// Validation schema for individual job response
-const joinJobSchema = z.object({
-  id: z.union([z.string(), z.number()]).transform(val => String(val)),
-  title: z.string(),
-  department: z.object({
-    name: z.string(),
-  }).optional(),
-  location: z.object({
-    name: z.string(),
-  }).optional(),
-  employmentType: z.string().optional(),
-  publishedAt: z.string().optional(),
-  applyUrl: z.string().optional(),
-  seniority: z.object({
-    name: z.string(),
-  }).optional(),
-  remote: z.boolean().optional(),
-  shortDescription: z.string().optional(),
-  description: z.string().optional(),
-  requirements: z.string().optional(),
-  benefits: z.string().optional(),
-  salaryMin: z.number().optional(),
-  salaryMax: z.number().optional(),
-  salaryCurrency: z.string().optional(),
-  validThrough: z.string().optional(),
-  skills: z.array(z.object({
-    name: z.string(),
-  })).optional(),
-});
-
-// Cached function to fetch individual job from join.com API
 const getCachedJob = unstable_cache(
   async (jobId: string) => {
-    const apiKey = process.env.JOIN_API_KEY;
-    if (!apiKey) {
-      throw new Error("JOIN_API_KEY is not configured");
+    const job = await joinClient.job(jobId);
+
+    if (!job) {
+      return null;
     }
 
-    const response = await fetch(`https://api.join.com/v2/jobs/${jobId}`, {
-      headers: {
-        Authorization: apiKey,
-        Accept: "application/json",
-      },
-    });
-
-    if (response.status === 404) {
-      return null; // Job not found
-    }
-
-    if (!response.ok) {
-      const errorText = await response.text();
-      console.error(`Join API error - Status: ${response.status}, Response: ${errorText}`);
-      throw new Error(`Join API responded with status: ${response.status}`);
-    }
-
-    const jobData = await response.json();
-    
-    // Validate the response data
-    const validationResult = joinJobSchema.safeParse(jobData);
-    if (!validationResult.success) {
-      console.error("Invalid job response from join.com API:", validationResult.error);
-      throw new Error("Invalid job data format from join.com API");
-    }
-
-    const validatedJob = validationResult.data;
     return {
-      id: validatedJob.id,
-      title: validatedJob.title,
-      department: validatedJob.department?.name || "Non spécifié",
-      location: validatedJob.location?.name || "Remote",
-      employmentType:
-        formatEmploymentType(validatedJob.employmentType) || "Temps plein",
-      datePosted: validatedJob.publishedAt || new Date().toISOString(),
+      id: job.id,
+      title: job.title,
+      department: job.department?.name || "Non spécifié",
+      location: job.location?.name || "Remote",
+      employmentType: formatEmploymentType(job.employmentType) || "Temps plein",
+      datePosted: job.publishedAt || new Date().toISOString(),
       applyUrl:
-        validatedJob.applyUrl ||
-        `https://join.com/companies/onruntime/jobs/${validatedJob.id}`,
-      seniority: validatedJob.seniority?.name || null,
-      remote: validatedJob.remote || false,
-      shortDescription: validatedJob.shortDescription || "",
-      description: validatedJob.description || "",
-      requirements: validatedJob.requirements || "",
-      benefits: validatedJob.benefits || "",
+        job.applyUrl || `https://join.com/companies/onruntime/jobs/${job.id}`,
+      seniority: job.seniority?.name || null,
+      remote: job.remote || false,
+      shortDescription: job.shortDescription || "",
+      description: job.description || "",
+      requirements: job.requirements || "",
+      benefits: job.benefits || "",
       salary:
-        formatSalary(
-          validatedJob.salaryMin,
-          validatedJob.salaryMax,
-          validatedJob.salaryCurrency,
-        ) || null,
-      validThrough: validatedJob.validThrough || null,
-      tags: extractTags(validatedJob),
+        formatSalary(job.salaryMin, job.salaryMax, job.salaryCurrency) || null,
+      validThrough: job.validThrough || null,
+      tags: extractTags(job),
     };
   },
-  ['join-job'],
+  ["join-job"],
   {
-    revalidate: 300, // 5 minutes cache
-    tags: ['careers'],
+    revalidate: 300,
+    tags: ["careers"],
   }
 );
 
-export async function GET(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+export async function GET(
+  request: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
   try {
     const { id } = await params;
 
     if (!id) {
       return NextResponse.json(
         { error: "Job ID is required" },
-        { status: 400 },
+        { status: 400 }
       );
     }
 
     const job = await getCachedJob(id);
-    
+
     if (!job) {
       return NextResponse.json({ error: "Job not found" }, { status: 404 });
     }
@@ -122,17 +66,14 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
     return NextResponse.json({ job });
   } catch (error) {
     console.error("Error fetching job from Join API:", error);
-    
-    // Check if this is a network error or API error
+
     if (error instanceof Error) {
       console.error("Error details:", error.message);
     }
 
     return NextResponse.json(
       { error: "Failed to fetch job details" },
-      { status: 500 },
+      { status: 500 }
     );
   }
 }
-
-
