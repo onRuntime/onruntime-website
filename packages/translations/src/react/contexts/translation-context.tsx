@@ -32,6 +32,10 @@ export const TranslationProvider = ({
   load,
   keySplit = true,
 }: TranslationProviderProps) => {
+  if (locales.length === 0) {
+    throw new Error("TranslationProvider: locales array must not be empty");
+  }
+
   const resolvedDefaultLocale = defaultLocale ?? locales[0];
   const [locale, setLocale] = useState(resolvedDefaultLocale);
 

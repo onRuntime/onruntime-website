@@ -27,6 +27,10 @@ export const AppTranslationProvider = ({
   load,
   keySplit = true,
 }: AppTranslationProviderProps) => {
+  if (locales.length === 0) {
+    throw new Error("AppTranslationProvider: locales array must not be empty");
+  }
+
   const router = useRouter();
   const pathname = usePathname();
 
