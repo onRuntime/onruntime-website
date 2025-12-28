@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "Let's discuss your project",
+    "description": "We are always happy to discuss new projects. Contact us to share your ideas and see how we can help you."
+  },
+  "form": {
+    "name": {
+      "label": "Full name",
+      "placeholder": "John Doe"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "you@example.com"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Describe your project..."
+    },
+    "submit": "Send message",
+    "submitting": "Sending..."
+  },
+  "toast": {
+    "success": {
+      "title": "Message sent",
+      "description": "We will get back to you as soon as possible."
+    },
+    "error": {
+      "title": "Error",
+      "description": "An error occurred while sending the message",
+      "fallback": "An error occurred"
+    }
+  },
+  "info": {
+    "title": "Contact information",
+    "email": {
+      "label": "Email"
+    },
+    "offices": {
+      "label": "Our offices",
+      "value": "Rouen & Paris, France"
+    },
+    "phone": {
+      "label": "Phone"
+    }
+  },
+  "hours": {
+    "title": "Opening hours",
+    "timezone": "(Paris time)",
+    "weekdays": "Monday - Friday:",
+    "weekdays-time": "9:00 - 18:00",
+    "weekend": "Weekend:",
+    "weekend-time": "Closed"
+  },
+  "tagline": "A creative studio dedicated to transforming your ideas into digital reality."
+}

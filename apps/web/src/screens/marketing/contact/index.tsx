@@ -12,10 +12,12 @@ import { contactFormSchema } from "@/lib/schema/contact";
 import { z } from "zod";
 import { useToast } from "@/hooks/use-toast";
 import { LocalBusinessSchema } from "@/components/json-ld/localbusiness-schema";
+import { useTranslation } from "@onruntime/translations/react";
 
 type FormData = z.infer<typeof contactFormSchema>;
 
 const ContactPage = () => {
+  const { t } = useTranslation("screens/marketing/contact");
   const { toast } = useToast();
   const {
     register,
@@ -40,23 +42,23 @@ const ContactPage = () => {
 
       if (!response.ok) {
         toast({
-          title: "Erreur",
-          description: result.error || "Une erreur est survenue",
+          title: t("toast.error.title"),
+          description: result.error || t("toast.error.fallback"),
           variant: "destructive",
         });
         return;
       }
 
       toast({
-        title: "Message envoyé",
-        description: "Nous vous répondrons dans les plus brefs délais.",
+        title: t("toast.success.title"),
+        description: t("toast.success.description"),
       });
 
       reset();
     } catch {
       toast({
-        title: "Erreur",
-        description: "Une erreur est survenue lors de l'envoi du message",
+        title: t("toast.error.title"),
+        description: t("toast.error.description"),
         variant: "destructive",
       });
     }
@@ -67,17 +69,12 @@ const ContactPage = () => {
       <LocalBusinessSchema />
       <main className="min-h-screen pt-32 pb-16">
         <div className="px-4 md:px-0 max-w-5xl mx-auto">
-          
           <div className="relative max-w-2xl mx-auto flex flex-col items-center gap-6 text-center mb-16">
             <h1 className="font-semibold text-4xl md:text-5xl text-foreground">
-              Discutons de votre projet
+              {t("hero.title")}
             </h1>
 
-            <p className="text-muted-foreground">
-              Nous sommes toujours ravis d&apos;échanger sur de nouveaux
-              projets. Contactez-nous pour discuter de vos idées et voir comment
-              nous pouvons vous aider.
-            </p>
+            <p className="text-muted-foreground">{t("hero.description")}</p>
 
             <DotPattern
               width={30}
@@ -90,13 +87,12 @@ const ContactPage = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-start">
-            
             <div className="bg-card rounded-lg p-6 border">
               <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
                 <div className="space-y-4">
                   <label className="block">
                     <span className="text-sm font-semibold text-foreground">
-                      Nom complet
+                      {t("form.name.label")}
                     </span>
                     <input
                       {...register("name")}
@@ -105,7 +101,7 @@ const ContactPage = () => {
                         "mt-1 block w-full rounded-md border border-input bg-background px-3 py-2 text-sm",
                         errors.name && "border-red-500"
                       )}
-                      placeholder="John Doe"
+                      placeholder={t("form.name.placeholder")}
                     />
                     {errors.name && (
                       <p className="mt-1 text-xs text-red-500">
@@ -116,7 +112,7 @@ const ContactPage = () => {
 
                   <label className="block">
                     <span className="text-sm font-semibold text-foreground">
-                      Email
+                      {t("form.email.label")}
                     </span>
                     <input
                       {...register("email")}
@@ -125,7 +121,7 @@ const ContactPage = () => {
                         "mt-1 block w-full rounded-md border border-input bg-background px-3 py-2 text-sm",
                         errors.email && "border-red-500"
                       )}
-                      placeholder="you@example.com"
+                      placeholder={t("form.email.placeholder")}
                     />
                     {errors.email && (
                       <p className="mt-1 text-xs text-red-500">
@@ -136,7 +132,7 @@ const ContactPage = () => {
 
                   <label className="block">
                     <span className="text-sm font-semibold text-foreground">
-                      Message
+                      {t("form.message.label")}
                     </span>
                     <textarea
                       {...register("message")}
@@ -144,7 +140,7 @@ const ContactPage = () => {
                         "mt-1 block w-full rounded-md border border-input bg-background px-3 py-2 text-sm min-h-32",
                         errors.message && "border-red-500"
                       )}
-                      placeholder="Décrivez votre projet..."
+                      placeholder={t("form.message.placeholder")}
                     />
                     {errors.message && (
                       <p className="mt-1 text-xs text-red-500">
@@ -158,7 +154,7 @@ const ContactPage = () => {
                   {isSubmitting && (
                     <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                   )}
-                  {isSubmitting ? "Envoi en cours..." : "Envoyer le message"}
+                  {isSubmitting ? t("form.submitting") : t("form.submit")}
                 </Button>
               </form>
             </div>
@@ -166,7 +162,7 @@ const ContactPage = () => {
             <div className="space-y-8">
               <div>
                 <h2 className="text-xl font-semibold text-foreground mb-4">
-                  Informations de contact
+                  {t("info.title")}
                 </h2>
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
@@ -174,7 +170,9 @@ const ContactPage = () => {
                       <Mail className="w-5 h-5" />
                     </div>
                     <div>
-                      <p className="text-sm text-foreground">Email</p>
+                      <p className="text-sm text-foreground">
+                        {t("info.email.label")}
+                      </p>
                       <p className="text-sm text-muted-foreground">
                         contact@onruntime.com
                       </p>
@@ -186,9 +184,11 @@ const ContactPage = () => {
                       <MapPin className="w-5 h-5" />
                     </div>
                     <div>
-                      <p className="text-sm text-foreground">Nos bureaux</p>
+                      <p className="text-sm text-foreground">
+                        {t("info.offices.label")}
+                      </p>
                       <p className="text-sm text-muted-foreground">
-                        Rouen & Paris, France
+                        {t("info.offices.value")}
                       </p>
                     </div>
                   </div>
@@ -198,7 +198,9 @@ const ContactPage = () => {
                       <Phone className="w-5 h-5" />
                     </div>
                     <div>
-                      <p className="text-sm text-foreground">Téléphone</p>
+                      <p className="text-sm text-foreground">
+                        {t("info.phone.label")}
+                      </p>
                       <p className="text-sm text-muted-foreground">
                         +33 7 56 90 93 75
                       </p>
@@ -209,32 +211,34 @@ const ContactPage = () => {
 
               <div>
                 <h2 className="text-xl font-semibold text-foreground mb-4">
-                  Horaires d&apos;ouverture
+                  {t("hours.title")}{" "}
+                  <span className="text-sm font-normal text-muted-foreground">
+                    {t("hours.timezone")}
+                  </span>
                 </h2>
                 <div className="space-y-2">
                   <p className="text-sm">
                     <span className="text-foreground font-semibold">
-                      Lundi - Vendredi:
+                      {t("hours.weekdays")}
                     </span>
                     <span className="text-muted-foreground ml-2">
-                      9:00 - 18:00
+                      {t("hours.weekdays-time")}
                     </span>
                   </p>
                   <p className="text-sm">
                     <span className="text-foreground font-semibold">
-                      Weekend:
+                      {t("hours.weekend")}
                     </span>
-                    <span className="text-muted-foreground ml-2">Fermé</span>
+                    <span className="text-muted-foreground ml-2">
+                      {t("hours.weekend-time")}
+                    </span>
                   </p>
                 </div>
               </div>
 
               <div className="pt-6 border-t">
                 <OnRuntimeWordMark height={24} className="mb-4 h-4" />
-                <p className="text-sm text-muted-foreground">
-                  Un studio créatif dédié à transformer vos idées en réalité
-                  numérique.
-                </p>
+                <p className="text-sm text-muted-foreground">{t("tagline")}</p>
               </div>
             </div>
           </div>
