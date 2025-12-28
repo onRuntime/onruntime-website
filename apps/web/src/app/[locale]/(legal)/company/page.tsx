@@ -5,16 +5,22 @@ import type { Metadata } from "next"
 
 const contentPath = "legal/company"
 
-export async function generateMetadata(): Promise<Metadata> {
-  const { frontmatter } = await getPageContent(contentPath)
+type PageProps = {
+  params: Promise<{ locale: string }>
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params
+  const { frontmatter } = await getPageContent(contentPath, locale)
   return constructMetadata({
     title: `${frontmatter.title}`,
     description: frontmatter.description,
   })
 }
 
-const CompanyPage = async () => {
-  const { frontmatter, content } = await getPageContent(contentPath)
+const CompanyPage = async ({ params }: PageProps) => {
+  const { locale } = await params
+  const { frontmatter, content } = await getPageContent(contentPath, locale)
 
   return <LegalPage title={frontmatter.title} description={frontmatter.description} content={content} lastUpdated={frontmatter.lastUpdated} />
 }

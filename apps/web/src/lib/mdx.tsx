@@ -16,8 +16,11 @@ interface PageContent {
   content: React.ReactElement
 }
 
-export async function getPageContent(filename: string): Promise<PageContent> {
-  const filePath = path.join(contentDirectory, `${filename}.mdx`)
+export async function getPageContent(filename: string, locale?: string): Promise<PageContent> {
+  // Prepend locale to path: "legal/privacy" -> "fr/legal/privacy"
+  const filePath = locale
+    ? path.join(contentDirectory, locale, `${filename}.mdx`)
+    : path.join(contentDirectory, `${filename}.mdx`)
 
   try {
     if (!fs.existsSync(filePath)) {
