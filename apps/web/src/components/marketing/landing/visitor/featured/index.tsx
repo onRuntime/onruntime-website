@@ -24,13 +24,13 @@ const Featured: React.FC = () => {
             </Balancer>
           </h1>
 
-          <h2 className="text-center text-muted-foreground">
+          <p className="text-center">
             <Balancer>
               Une communauté dynamique de créateurs : développeurs, designers et
               artistes de divers horizons, unis par l&apos;innovation et la
               créativité.
             </Balancer>
-          </h2>
+          </p>
 
           <div className="flex gap-3">
             <Link href={Routes.contact}>

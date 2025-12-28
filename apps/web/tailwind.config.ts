@@ -15,6 +15,7 @@ export default {
 			},
 			fontFamily: {
 				sans: ["var(--font-figtree)"],
+				heading: ["Cal Sans", "var(--font-figtree)"],
 			},
 			colors: {
 				onruntime: {
