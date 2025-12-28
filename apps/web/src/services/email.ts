@@ -1,4 +1,4 @@
-import { env } from "env.mjs";
+import { env } from "env";
 import { Resend } from "resend";
 
 let instance: Resend | null = null;

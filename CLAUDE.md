@@ -59,7 +59,7 @@ export const joinClient = {
 };
 ```
 
-**Environment Variables**: Managed via `@t3-oss/env-nextjs` in `env.mjs`. Validation is skipped in CI (`skipValidation: !!process.env.CI`).
+**Environment Variables**: Managed via `@t3-oss/env-nextjs` in `env.ts`. Validation is skipped in CI (`skipValidation: !!process.env.CI`).
 
 **API Routes**: Use `unstable_cache` from Next.js for caching external API responses.
 
