@@ -5,7 +5,7 @@
     "navigation": "Navigation",
     "resources": "Resources",
     "other": "Other",
-    "social": "Social Media"
+    "social": "Social media"
   },
   "links": {
     "services": "Our services",
@@ -21,5 +21,10 @@
     "privacy": "Privacy policy",
     "company": "Company details"
   },
-  "status": "All services are operational"
+  "status": "All services are operational",
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "fr": "Français"
+  }
 }

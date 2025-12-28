@@ -1,14 +1,23 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 
-import { useTranslation } from "@onruntime/translations/react";
+import { useTranslation, useLocale } from "@onruntime/translations/react";
 
 import Routes from "@/constants/routes";
 import { OnRuntimeWordMark } from "@/logos/components";
+import { ChevronDown, Check } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   const { t } = useTranslation("layout/footer");
+  const { locale, locales, setLocale } = useLocale();
   const currentYear = new Date().getFullYear();
 
   const navigation = {
@@ -86,30 +95,57 @@ const Footer = () => {
 
         <div className="h-px bg-border w-full my-8" />
 
-        <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-2">
+        <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-4">
           <p>{`© onRuntime Studio, ${currentYear}`}</p>
 
-          <p className="inline-flex gap-2">
-            <svg
-              width="14"
-              height="15"
-              viewBox="0 0 14 15"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10.9746C8.65685 10.9746 10 9.63146 10 7.97461C10 6.31776 8.65685 4.97461 7 4.97461C5.34315 4.97461 4 6.31776 4 7.97461C4 9.63146 5.34315 10.9746 7 10.9746Z"
-                fill="#2294FF"
-              />
-              <path
-                d="M7 11.9746C9.20914 11.9746 11 10.1837 11 7.97461C11 5.76547 9.20914 3.97461 7 3.97461C4.79086 3.97461 3 5.76547 3 7.97461C3 10.1837 4.79086 11.9746 7 11.9746Z"
-                stroke="#2294FF"
-                strokeOpacity="0.15"
-                strokeWidth="4"
-              />
-            </svg>
-            {t("status")}
-          </p>
+          <div className="flex items-center gap-4">
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="outline" size="sm" className="h-8 text-xs gap-2">
+                  {t(`language.${locale}`)}
+                  <ChevronDown className="h-3 w-3 opacity-50" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end">
+                {locales.map((loc) => (
+                  <DropdownMenuItem
+                    key={loc}
+                    onClick={() => setLocale(loc)}
+                    className="text-xs gap-2 cursor-pointer"
+                  >
+                    {locale === loc ? (
+                      <Check className="h-3 w-3" />
+                    ) : (
+                      <span className="h-3 w-3" />
+                    )}
+                    {t(`language.${loc}`)}
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
+
+            <p className="inline-flex gap-2">
+              <svg
+                width="14"
+                height="15"
+                viewBox="0 0 14 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10.9746C8.65685 10.9746 10 9.63146 10 7.97461C10 6.31776 8.65685 4.97461 7 4.97461C5.34315 4.97461 4 6.31776 4 7.97461C4 9.63146 5.34315 10.9746 7 10.9746Z"
+                  fill="#2294FF"
+                />
+                <path
+                  d="M7 11.9746C9.20914 11.9746 11 10.1837 11 7.97461C11 5.76547 9.20914 3.97461 7 3.97461C4.79086 3.97461 3 5.76547 3 7.97461C3 10.1837 4.79086 11.9746 7 11.9746Z"
+                  stroke="#2294FF"
+                  strokeOpacity="0.15"
+                  strokeWidth="4"
+                />
+              </svg>
+              {t("status")}
+            </p>
+          </div>
         </div>
       </div>
     </footer>

@@ -18,14 +18,14 @@ type Props = {
 function findService(category: string, service: string): { categoryData: ServiceCategoryData | undefined, subService: SubService | undefined } {
   const categoryData = Services.find(s => s.id === category);
   const subService = categoryData?.subServices.find(sub => sub.id === service);
-  
+
   return { categoryData, subService };
 }
 
 export async function generateMetadata({ params }: Props) {
   const { category, service } = await params;
   const { categoryData, subService } = findService(category, service);
-  
+
   if (!categoryData || !subService) {
     return constructMetadata({
       title: "Service non trouvé",
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Props) {
       noIndex: true,
     });
   }
-  
+
   return constructMetadata({
     title: `${subService.name} | ${categoryData.name}`,
     description: subService.description,

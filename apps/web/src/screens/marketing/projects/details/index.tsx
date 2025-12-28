@@ -4,7 +4,7 @@ import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
 import Safari from "@/components/ui/safari";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import {

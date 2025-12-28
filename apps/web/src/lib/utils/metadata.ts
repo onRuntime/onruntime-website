@@ -1,9 +1,13 @@
 import { Metadata } from "next";
+import { headers } from "next/headers";
+
+import { env } from "@/../env";
+import { locales } from "@/lib/translations";
 
 export const siteConfig = {
   name: "onRuntime Studio",
   description: "Agence digitale spécialisée en développement web, mobile et design UI/UX. Notre équipe d'experts transforme vos idées en solutions digitales performantes.",
-  url: process.env.NEXT_PUBLIC_APP_URL || "https://onruntime.com",
+  url: env.NEXT_PUBLIC_APP_URL || "https://onruntime.com",
   ogImage: "/og.jpg", 
   links: {
     discord: "https://discord.gg/ucX9c5yXmX",
@@ -34,14 +38,13 @@ export function getOGImageUrl({
   return `${siteConfig.url}/api/og?${params.toString()}`;
 }
 
-export function constructMetadata({
+export async function constructMetadata({
   title = siteConfig.name,
   description = siteConfig.description,
   ogType = "website",
   ogImage,
   ogImageType = "default",
   noIndex = false,
-  canonical,
 }: {
   title?: string;
   description?: string;
@@ -49,11 +52,12 @@ export function constructMetadata({
   ogImage?: string;
   ogImageType?: OGImageType;
   noIndex?: boolean;
-  canonical?: string;
-} = {}): Metadata {
+} = {}): Promise<Metadata> {
+  const canonical = await generateCanonical();
+
   // Titre avec format cohérent
-  const formattedTitle = title === siteConfig.name 
-    ? title 
+  const formattedTitle = title === siteConfig.name
+    ? title
     : `${title} | ${siteConfig.name}`;
 
   const finalOgImage = ogImage || getOGImageUrl({
@@ -61,27 +65,25 @@ export function constructMetadata({
     description,
     type: ogImageType,
   });
-  
+
   return {
     title: formattedTitle,
     description,
-    
+
     metadataBase: new URL(siteConfig.url),
-    
-    ...(canonical && { 
-      alternates: { 
-        canonical 
-      }
-    }),
-    
+
+    alternates: {
+      canonical,
+    },
+
     authors: [{ name: "onRuntime Studio", url: siteConfig.url }],
     creator: "onRuntime Studio",
     publisher: "onRuntime Studio",
-    
+
     openGraph: {
       type: ogType,
       locale: "fr_FR",
-      url: canonical || siteConfig.url,
+      url: canonical,
       title: formattedTitle,
       description,
       siteName: siteConfig.name,
@@ -94,7 +96,7 @@ export function constructMetadata({
         },
       ],
     },
-    
+
     twitter: {
       card: "summary_large_image",
       title: formattedTitle,
@@ -103,7 +105,7 @@ export function constructMetadata({
       creator: "@onruntime",
       site: "@onruntime",
     },
-    
+
     icons: {
       icon: [
         { url: "/favicon.ico" },
@@ -113,9 +115,9 @@ export function constructMetadata({
         { url: "/apple-touch-icon.png" },
       ],
     },
-    
+
     manifest: "/site.webmanifest",
-    
+
     ...(noIndex && {
       robots: {
         index: false,
@@ -123,4 +125,38 @@ export function constructMetadata({
       },
     }),
   };
+}
+
+/**
+ * Generate a canonical URL automatically from the current request
+ * @returns The full canonical URL for the current page (without locale prefix)
+ */
+export async function generateCanonical(): Promise<string> {
+  const headersList = await headers();
+  const serverUrl = siteConfig.url;
+
+  // Try to get the pathname from various headers
+  const pathname =
+    headersList.get("x-pathname") ||
+    headersList.get("x-invoke-path") ||
+    headersList.get("referer")?.replace(serverUrl, "") ||
+    "/";
+
+  // Clean up the pathname
+  const cleanPath = pathname.split("?")[0] || "/"; // Remove query params
+  const normalizedPath = cleanPath.startsWith("/") ? cleanPath : `/${cleanPath}`;
+
+  // Remove locale prefix from path
+  const segments = normalizedPath.split("/").filter(Boolean);
+  const hasLocalePrefix = locales.includes(segments[0]);
+  const pathWithoutLocale = hasLocalePrefix
+    ? `/${segments.slice(1).join("/")}`
+    : normalizedPath;
+
+  // Combine and clean up double slashes
+  const canonical = `${serverUrl}${pathWithoutLocale}`
+    .replace(/([^:]\/)\/+/g, "$1") // Remove double slashes except after protocol
+    .replace(/\/$/, ""); // Remove trailing slash
+
+  return canonical || serverUrl;
 }

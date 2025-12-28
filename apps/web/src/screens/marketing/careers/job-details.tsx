@@ -15,7 +15,7 @@ import {
   MapPin,
   Share2,
 } from "lucide-react";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
 import JobContent from "@/components/ui/job-content";

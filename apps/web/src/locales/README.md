@@ -100,3 +100,4 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
 - Keep keys in English: `greeting`, not `salutation`
 - Use interpolation for dynamic values: `"Hello, {name}!"`
 - HTML is supported with `dangerouslySetInnerHTML`: `"Visit <strong>Paris</strong>"`
+- Avoid title case in translations: `"Our services"` (not `"Our Services"`)

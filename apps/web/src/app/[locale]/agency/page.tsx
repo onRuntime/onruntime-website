@@ -10,10 +10,12 @@ import FranceMap from '@/components/marketing/agency/france-map';
 import { getMajorAgencies } from '@/constants/agencies';
 import { OrganizationSchema } from '@/components/json-ld/organization-schema';
 
-export const metadata = constructMetadata({
-  title: "Expertise web locale | Développement digital dans les grandes villes françaises",
-  description: "Nous accompagnons les entreprises locales partout en France avec notre expertise des marchés numériques régionaux. Solutions digitales adaptées à chaque région.",
-});
+export async function generateMetadata() {
+  return constructMetadata({
+    title: "Expertise web locale | Développement digital dans les grandes villes françaises",
+    description: "Nous accompagnons les entreprises locales partout en France avec notre expertise des marchés numériques régionaux. Solutions digitales adaptées à chaque région.",
+  });
+}
 
 export default function AgencyLandingPage() {
   

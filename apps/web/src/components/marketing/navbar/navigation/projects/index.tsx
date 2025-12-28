@@ -10,7 +10,7 @@ import Projects from "@/constants/projects";
 import Routes from "@/constants/routes";
 import { ArrowRight, Code, Eye, Github, Rocket } from "lucide-react";
 import React from "react";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import Image from "next/image";
 import { Tag } from "@/types/project";
 

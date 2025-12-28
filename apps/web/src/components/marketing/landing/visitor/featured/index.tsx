@@ -7,7 +7,7 @@ import Partners from "./partners";
 import { OnRuntimeWordMark } from "@/logos/components";
 import Balancer from "react-wrap-balancer";
 import Routes from "@/constants/routes";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 
 const Featured: React.FC = () => {
   return (

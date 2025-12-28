@@ -3,7 +3,7 @@ import { JobPosting } from "@/types/job";
 import { Badge } from "@/components/ui/badge";
 import { CalendarDays, Clock, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import { formatDate } from "@/lib/utils/date";
 
 interface JobListProps {

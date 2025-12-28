@@ -23,17 +23,16 @@ export async function generateMetadata({
 }: {
   params: Promise<{ city: string }>;
 }): Promise<Metadata> {
-  
   const { city } = await params;
   const cityLower = city.toLowerCase();
 
   const agency = getAgencyById(cityLower);
-  
+
   if (!agency) {
     return constructMetadata({
       title: "Expertise locale non disponible",
       description: "Nous n'avons pas encore d'expertise spécifique pour cette ville.",
-      noIndex: true
+      noIndex: true,
     });
   }
 

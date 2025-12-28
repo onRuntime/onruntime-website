@@ -11,12 +11,12 @@ interface TermPageProps {
   }>;
 }
 
-export async function generateMetadata({ 
-  params 
+export async function generateMetadata({
+  params
 }: TermPageProps) {
   const { letter, term } = await params;
   const entry = await getGlossaryEntry(letter, term);
-  
+
   if (!entry) {
     return constructMetadata({
       title: "Terme non trouvé | Glossaire",

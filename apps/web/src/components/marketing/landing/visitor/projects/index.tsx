@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { default as ProjectsConst } from "@/constants/projects";
 import React from "react";
 import ProjectCard from "./card";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import Routes from "@/constants/routes";
 
 const Projects: React.FC = () => {

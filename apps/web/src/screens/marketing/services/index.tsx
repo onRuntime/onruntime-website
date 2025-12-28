@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
 import { ArrowRight, LucideIcon } from "lucide-react";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import Routes from "@/constants/routes";
 import Services from "@/constants/services";
 import ProjectTimeline from './timeline';

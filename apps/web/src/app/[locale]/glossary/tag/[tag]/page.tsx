@@ -10,12 +10,12 @@ interface TagPageProps {
   }>;
 }
 
-export async function generateMetadata({ 
-  params 
+export async function generateMetadata({
+  params
 }: TagPageProps) {
   const { tag } = await params;
   const decodedTag = decodeURIComponent(tag);
-  
+
   return constructMetadata({
     title: `Termes liés à ${decodedTag} | Glossaire`,
     description: `Découvrez tous les termes du glossaire liés à la catégorie ${decodedTag}.`,

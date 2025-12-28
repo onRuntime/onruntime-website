@@ -8,7 +8,7 @@ import { env } from "env";
 async function getJobById(id: string): Promise<JobPosting | null> {
   try {
     const baseUrl =env.NEXT_PUBLIC_APP_URL;
-    
+
     const res = await fetch(
       `${baseUrl}/api/careers/${id}`,
       {

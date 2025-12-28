@@ -10,10 +10,12 @@ import { GlossarySearch } from "@/components/glossary/search";
 import { Badge } from "@/components/ui/badge";
 import { Tag as TagIcon } from "lucide-react";
 
-export const metadata = constructMetadata({
-  title: "Glossaire du Développement et Design Web",
-  description: "Consultez notre glossaire complet des termes techniques en développement web, design UI/UX et gestion de projet digital.",
-});
+export async function generateMetadata() {
+  return constructMetadata({
+    title: "Glossaire du Développement et Design Web",
+    description: "Consultez notre glossaire complet des termes techniques en développement web, design UI/UX et gestion de projet digital.",
+  });
+}
 
 export default async function GlossaryPage() {
   const entries = await getAllGlossaryEntries();

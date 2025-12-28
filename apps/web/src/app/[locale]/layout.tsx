@@ -35,7 +35,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
   const { locale } = await params;
 
   return (
-    <html lang={locale} className={cn(figtree.variable)}>
+    <html lang={locale} className={cn(figtree.variable)} data-scroll-behavior="smooth">
       <body
         className={
           "flex flex-col min-h-screen items-center bg-muted text-sm md:text-lg"

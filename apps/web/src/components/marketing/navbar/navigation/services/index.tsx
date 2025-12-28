@@ -11,7 +11,7 @@ import Routes from "@/constants/routes";
 import { cn } from "@/lib/utils";
 import { ArrowRight, LucideIcon } from "lucide-react";
 import React from "react";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 
 import { useTranslation } from "@onruntime/translations/react";
 

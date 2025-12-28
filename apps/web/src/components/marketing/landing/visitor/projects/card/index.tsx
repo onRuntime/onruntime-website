@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import Routes from "@/constants/routes";
 import { Project, Tag } from "@/types/project";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import React from "react";
 
 export type ProjectCardProps = {

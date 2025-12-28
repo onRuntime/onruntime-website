@@ -58,7 +58,7 @@ export const getTranslation = async (namespace = "common") => {
 
 #### 2. Setup proxy
 
-The proxy detects the user's language from `Accept-Language` header and sets an `x-locale` header for server components.
+The proxy detects the user's language from a `NEXT_LOCALE` cookie (set when user changes language) or falls back to `Accept-Language` header.
 
 ```typescript
 // proxy.ts
@@ -67,7 +67,16 @@ import type { NextRequest } from "next/server";
 
 import { locales, defaultLocale } from "@/lib/translations";
 
+const LOCALE_COOKIE = "NEXT_LOCALE";
+
 function getPreferredLocale(request: NextRequest): string {
+  // Check cookie first (user's explicit choice)
+  const cookieLocale = request.cookies.get(LOCALE_COOKIE)?.value;
+  if (cookieLocale && locales.includes(cookieLocale)) {
+    return cookieLocale;
+  }
+
+  // Fall back to Accept-Language header
   const acceptLanguage = request.headers.get("accept-language");
   if (!acceptLanguage) return defaultLocale;
 

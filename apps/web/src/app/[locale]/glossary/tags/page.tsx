@@ -5,10 +5,12 @@ import { ChevronLeft, Tag as TagIcon } from "lucide-react";
 import { getAllTags } from "@/lib/glossary";
 import { constructMetadata } from "@/lib/utils/metadata";
 
-export const metadata = constructMetadata({
-  title: "Tags du glossaire",
-  description: "Explorez les différentes catégories de termes disponibles dans notre glossaire technique.",
-});
+export async function generateMetadata() {
+  return constructMetadata({
+    title: "Tags du glossaire",
+    description: "Explorez les différentes catégories de termes disponibles dans notre glossaire technique.",
+  });
+}
 
 export default async function TagsPage() {
   const tags = await getAllTags();

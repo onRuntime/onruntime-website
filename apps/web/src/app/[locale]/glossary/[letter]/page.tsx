@@ -10,19 +10,19 @@ interface LetterPageProps {
   }>;
 }
 
-export async function generateMetadata({ 
-  params 
+export async function generateMetadata({
+  params
 }: LetterPageProps) {
   const { letter } = await params;
   const sanitizedLetter = letter.toLowerCase();
-  
+
   if (!sanitizedLetter.match(/^[a-z]$/)) {
     return constructMetadata({
       title: "Lettre non valide | Glossaire",
       description: "Cette lettre n'est pas valide.",
     });
   }
-  
+
   return constructMetadata({
     title: `Termes commençant par ${sanitizedLetter.toUpperCase()} | Glossaire`,
     description: `Découvrez tous les termes du glossaire commençant par la lettre ${sanitizedLetter.toUpperCase()}.`,

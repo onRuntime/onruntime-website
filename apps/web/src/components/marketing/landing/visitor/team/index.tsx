@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Routes from "@/constants/routes";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import React from "react";
 import TeamGrid from "./grid";
 

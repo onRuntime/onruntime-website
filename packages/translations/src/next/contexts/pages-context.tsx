@@ -1,10 +1,10 @@
 "use client";
 
-import { type ReactNode, useMemo } from "react";
+import { type ReactNode, useMemo, useCallback } from "react";
 import { useRouter } from "next/router";
 
-import type { TranslationLoader } from "../core/types";
-import { TranslationContext } from "../react/contexts/translation-context";
+import type { TranslationLoader } from "../../core/types";
+import { TranslationContext } from "../../react/contexts/translation-context";
 
 export type NextTranslationProviderProps = {
   children: ReactNode;
@@ -13,7 +13,7 @@ export type NextTranslationProviderProps = {
 };
 
 /**
- * Translation provider for Next.js applications
+ * Translation provider for Next.js Pages Router
  * Automatically uses locale info from Next.js router
  */
 export const NextTranslationProvider = ({
@@ -26,18 +26,28 @@ export const NextTranslationProvider = ({
   const locales = router.locales ?? ["en"];
   const defaultLocale = router.defaultLocale ?? "en";
 
+  const setLocale = useCallback(
+    (newLocale: string) => {
+      // Set cookie to remember user's choice
+      document.cookie = `NEXT_LOCALE=${newLocale};path=/;max-age=31536000`;
+      router.push(router.pathname, router.asPath, {
+        locale: newLocale,
+        scroll: false,
+      });
+    },
+    [router],
+  );
+
   const value = useMemo(
     () => ({
       locale,
       locales,
       defaultLocale,
-      setLocale: (newLocale: string) => {
-        router.push(router.pathname, router.asPath, { locale: newLocale });
-      },
+      setLocale,
       load,
       keySplit,
     }),
-    [locale, locales, defaultLocale, router, load, keySplit],
+    [locale, locales, defaultLocale, setLocale, load, keySplit],
   );
 
   return (

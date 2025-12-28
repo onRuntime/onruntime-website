@@ -3,7 +3,16 @@ import type { NextRequest } from "next/server";
 
 import { locales, defaultLocale } from "@/lib/translations";
 
+const LOCALE_COOKIE = "NEXT_LOCALE";
+
 function getPreferredLocale(request: NextRequest): string {
+  // Check cookie first (user's explicit choice)
+  const cookieLocale = request.cookies.get(LOCALE_COOKIE)?.value;
+  if (cookieLocale && locales.includes(cookieLocale)) {
+    return cookieLocale;
+  }
+
+  // Fall back to Accept-Language header
   const acceptLanguage = request.headers.get("accept-language");
   if (!acceptLanguage) return defaultLocale;
 

@@ -15,9 +15,9 @@
     "title": "Our portfolio",
     "description": "Discover all our projects and achievements across various sectors",
     "categories": {
-      "web-mobile": "Web & Mobile Apps",
-      "open-source": "Open Source Projects",
-      "design": "UI/UX Design"
+      "web-mobile": "Web & mobile apps",
+      "open-source": "Open source projects",
+      "design": "UI/UX design"
     },
     "cta": "View all projects"
   },

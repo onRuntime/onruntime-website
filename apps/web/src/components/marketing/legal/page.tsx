@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import DotPattern from "@/components/ui/dot-pattern"
 import { cn } from "@/lib/utils"
 import { Mail } from 'lucide-react'
-import Link from "next/link"
+import { Link } from "@onruntime/translations/next"
 import Routes from '@/constants/routes'
 
 interface LegalPageProps {

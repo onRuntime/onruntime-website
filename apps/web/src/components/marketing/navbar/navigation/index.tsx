@@ -8,7 +8,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import Routes from "@/constants/routes";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import React from "react";
 
 import { useTranslation } from "@onruntime/translations/react";

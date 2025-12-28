@@ -1,5 +1,5 @@
 import React from "react"
-import Link from "next/link"
+import { Link } from "@onruntime/translations/next"
 
 const components = {
   h1: (props: React.HTMLProps<HTMLHeadingElement>) => (

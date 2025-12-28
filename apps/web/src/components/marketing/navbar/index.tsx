@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import type React from "react";
 import { useState, useRef, useEffect } from "react";
 import { ChevronDown, Menu } from "lucide-react";

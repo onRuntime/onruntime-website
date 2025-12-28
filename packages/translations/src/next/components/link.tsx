@@ -3,7 +3,7 @@
 import NextLink from "next/link";
 import type { ComponentProps } from "react";
 
-import { useTranslationContext } from "../react/hooks/use-translation-context";
+import { useTranslationContext } from "../../react/hooks/use-translation-context";
 
 export type LinkProps = ComponentProps<typeof NextLink>;
 

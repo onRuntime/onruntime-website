@@ -17,7 +17,7 @@ import {
   Users,
 } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import Routes from "@/constants/routes";
 import { OrganizationSchema } from "@/components/json-ld/organization-schema";
 import { roleToDisplay, TeamRole } from "@/types/team-member";

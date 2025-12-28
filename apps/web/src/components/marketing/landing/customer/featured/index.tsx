@@ -3,7 +3,7 @@ import DotPattern from "@/components/ui/dot-pattern";
 import Safari from "@/components/ui/safari";
 import Routes from "@/constants/routes";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import React from "react";
 import Balancer from "react-wrap-balancer";
 

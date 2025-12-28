@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { VelocityScroll } from "@/components/ui/scroll-based-velocity";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import { ArrowRight, GitPullRequestArrow, Timer, Users } from "lucide-react";
 import Image from "next/image";
 

@@ -15,7 +15,7 @@ import {
   Search,
   Users,
 } from "lucide-react";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import Routes from "@/constants/routes";
 import JobList from "./job-list";
 import { JobPosting } from "@/types/job";

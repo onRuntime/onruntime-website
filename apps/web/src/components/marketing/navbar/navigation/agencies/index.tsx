@@ -10,7 +10,7 @@ import Routes from "@/constants/routes";
 import { getMajorAgencies } from "@/constants/agencies";
 import { ArrowRight, MapPin } from "lucide-react";
 import React from "react";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import { cn } from "@/lib/utils";
 
 import { useTranslation } from "@onruntime/translations/react";

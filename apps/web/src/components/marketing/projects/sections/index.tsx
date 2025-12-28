@@ -6,7 +6,7 @@ import Projects from "@/constants/projects";
 import { Tag } from "@/types/project";
 import ProjectCard from "@/components/marketing/landing/visitor/projects/card";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Routes from "@/constants/routes";

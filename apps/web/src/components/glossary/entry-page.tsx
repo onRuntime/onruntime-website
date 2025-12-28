@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ChevronLeft, Tag as TagIcon } from "lucide-react"
-import Link from "next/link"
+import { Link } from "@onruntime/translations/next"
 import { GlossaryEntry } from '@/types/glossary'
 
 interface GlossaryEntryPageProps {
