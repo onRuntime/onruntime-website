@@ -91,3 +91,11 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
   ```
 - HTML is supported with `dangerouslySetInnerHTML`: `"Visit <strong>Paris</strong>"`
 - Avoid title case in translations: `"Our services"` (not `"Our Services"`)
+- Never use fallbacks in code: all translations must exist in all locale files
+  ```tsx
+  // ✅ Good - translation exists in all locales
+  {t("metrics.dev-time.value")}
+
+  // ❌ Bad - fallback masks missing translations
+  {t("metrics.dev-time.value") || metric.value}
+  ```
