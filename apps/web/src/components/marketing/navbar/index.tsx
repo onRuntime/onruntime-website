@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
 		},
 		{
 			title: t("links.projects"),
-			path: Routes.unknown,
+			path: Routes.projects,
 			dropdown: Projects.slice(0, 5).map((project) => ({
 				title: project.name,
 				path: Routes.project(project.id),
