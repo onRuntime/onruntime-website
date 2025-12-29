@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import { headers } from "next/headers";
 
 import { env } from "@/../env";
-import { locales } from "@/lib/translations";
 
 export const siteConfig = {
   name: "onRuntime Studio",
@@ -129,7 +128,7 @@ export async function constructMetadata({
 
 /**
  * Generate a canonical URL automatically from the current request
- * @returns The full canonical URL for the current page (without locale prefix)
+ * @returns The full canonical URL for the current page (with locale prefix)
  */
 export async function generateCanonical(): Promise<string> {
   const headersList = await headers();
@@ -146,15 +145,8 @@ export async function generateCanonical(): Promise<string> {
   const cleanPath = pathname.split("?")[0] || "/"; // Remove query params
   const normalizedPath = cleanPath.startsWith("/") ? cleanPath : `/${cleanPath}`;
 
-  // Remove locale prefix from path
-  const segments = normalizedPath.split("/").filter(Boolean);
-  const hasLocalePrefix = locales.includes(segments[0]);
-  const pathWithoutLocale = hasLocalePrefix
-    ? `/${segments.slice(1).join("/")}`
-    : normalizedPath;
-
   // Combine and clean up double slashes
-  const canonical = `${serverUrl}${pathWithoutLocale}`
+  const canonical = `${serverUrl}${normalizedPath}`
     .replace(/([^:]\/)\/+/g, "$1") // Remove double slashes except after protocol
     .replace(/\/$/, ""); // Remove trailing slash
 

@@ -38,16 +38,22 @@ export function proxy(request: NextRequest) {
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
   );
 
-  // If URL has the default locale prefix, redirect to remove it
+  // If URL has the default locale prefix, redirect to remove it and set cookie
   if (pathnameLocale === defaultLocale) {
     const newPathname = pathname.replace(`/${defaultLocale}`, "") || "/";
-    return NextResponse.redirect(new URL(newPathname, request.url));
+    const response = NextResponse.redirect(new URL(newPathname, request.url));
+    response.cookies.set(LOCALE_COOKIE, defaultLocale, {
+      path: "/",
+      maxAge: 60 * 60 * 24 * 365, // 1 year
+    });
+    return response;
   }
 
   // If URL has a non-default locale prefix, use it
   if (pathnameLocale) {
     const requestHeaders = new Headers(request.headers);
     requestHeaders.set("x-locale", pathnameLocale);
+    requestHeaders.set("x-pathname", pathname);
     return NextResponse.next({
       request: { headers: requestHeaders },
     });
@@ -66,6 +72,7 @@ export function proxy(request: NextRequest) {
   // Use default locale (rewrite internally)
   const requestHeaders = new Headers(request.headers);
   requestHeaders.set("x-locale", defaultLocale);
+  requestHeaders.set("x-pathname", pathname);
   request.nextUrl.pathname = `/${defaultLocale}${pathname}`;
   return NextResponse.rewrite(request.nextUrl, {
     request: { headers: requestHeaders },
