@@ -30,7 +30,7 @@
   "metrics": {
     "components": { "label": "Components", "description": "Reusable UI components" },
     "downloads": { "label": "Downloads", "description": "Monthly downloads" },
-    "github-stars": { "label": "Github Stars", "description": "Stars on GitHub" }
+    "github-stars": { "label": "GitHub Stars", "description": "Stars on GitHub" }
   },
   "screenshots": {
     "responsive": { "caption": "Responsive components" },

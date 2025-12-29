@@ -41,7 +41,7 @@ const Footer = () => {
     ],
     [t("nav.social")]: [
       { name: "LinkedIn", href: Routes.socials.linkedin },
-      { name: "Github", href: Routes.socials.github },
+      { name: "GitHub", href: Routes.socials.github },
       { name: "Discord", href: Routes.socials.discord },
       { name: "X (Twitter)", href: Routes.socials.x },
       { name: "Instagram", href: Routes.socials.instagram },
