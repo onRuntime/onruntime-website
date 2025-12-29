@@ -282,7 +282,7 @@ const ProjectPage: React.FC<ProjectPageProps> = async ({ project }) => {
               {project.metrics.map((metric) => (
                 <div key={metric.key} className="text-center space-y-2">
                   <p className="text-4xl font-semibold text-foreground">
-                    {metric.value}
+                    {tProject(`metrics.${metric.key}.value`)}
                   </p>
                   <p className="text-sm text-muted-foreground">
                     {tProject(`metrics.${metric.key}.label`)}

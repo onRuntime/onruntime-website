@@ -26,9 +26,9 @@
     "cloudflare": { "description": "Hosting and continuous deployment" }
   },
   "metrics": {
-    "weekly-visits": { "label": "Weekly visits", "description": "At launch in July 2021" },
-    "dev-time": { "label": "Development time", "description": "Fast and efficient delivery" },
-    "team-size": { "label": "Team", "description": "Small and agile team" }
+    "weekly-visits": { "value": "1500+", "label": "Weekly visits", "description": "At launch in July 2021" },
+    "dev-time": { "value": "2 months", "label": "Development time", "description": "Fast and efficient delivery" },
+    "team-size": { "value": "3 people", "label": "Team", "description": "Small and agile team" }
   },
   "screenshots": {
     "homepage": { "caption": "Homepage showcasing partner offers" },

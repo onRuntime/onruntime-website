@@ -27,9 +27,9 @@
     "chrome-api": { "description": "Intégration avec le navigateur" }
   },
   "metrics": {
-    "sites-analyzed": { "label": "Sites analysés", "description": "Compatible avec tous les sites web" },
-    "open-source": { "label": "Open Source", "description": "Code source public" },
-    "confidential": { "label": "Confidentiel", "description": "Aucune donnée utilisateur collectée" }
+    "sites-analyzed": { "value": "∞", "label": "Sites analysés", "description": "Compatible avec tous les sites web" },
+    "open-source": { "value": "100%", "label": "Open Source", "description": "Code source public" },
+    "confidential": { "value": "100%", "label": "Confidentiel", "description": "Aucune donnée utilisateur collectée" }
   },
   "screenshots": {
     "dashboard": { "caption": "Dashboard principal" },

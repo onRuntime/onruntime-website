@@ -28,9 +28,9 @@
     "storybook": { "description": "Interactive documentation" }
   },
   "metrics": {
-    "components": { "label": "Components", "description": "Reusable UI components" },
-    "downloads": { "label": "Downloads", "description": "Monthly downloads" },
-    "github-stars": { "label": "GitHub Stars", "description": "Stars on GitHub" }
+    "components": { "value": "35+", "label": "Components", "description": "Reusable UI components" },
+    "downloads": { "value": "20k+", "label": "Downloads", "description": "Monthly downloads" },
+    "github-stars": { "value": "50+", "label": "GitHub Stars", "description": "Stars on GitHub" }
   },
   "screenshots": {
     "responsive": { "caption": "Responsive components" },

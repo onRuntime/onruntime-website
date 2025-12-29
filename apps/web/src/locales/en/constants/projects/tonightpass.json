@@ -22,9 +22,9 @@
     "mongodb": { "description": "Main database" }
   },
   "metrics": {
-    "time-saved": { "label": "Time saved", "description": "On average per event search" },
-    "coverage": { "label": "Coverage", "description": "Available throughout France" },
-    "ease": { "label": "Ease", "description": "To book any event" }
+    "time-saved": { "value": "45min", "label": "Time saved", "description": "On average per event search" },
+    "coverage": { "value": "100%", "label": "Coverage", "description": "Available throughout France" },
+    "ease": { "value": "1 click", "label": "Ease", "description": "To book any event" }
   },
   "screenshots": {},
   "challenges": {

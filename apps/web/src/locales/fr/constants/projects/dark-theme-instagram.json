@@ -22,9 +22,9 @@
     "css": { "description": "Personnalisation du thème" }
   },
   "metrics": {
-    "users": { "label": "Utilisateurs", "description": "Utilisateurs actifs" },
-    "installs": { "label": "Installations", "description": "Total d'installations" },
-    "open-source": { "label": "Open Source", "description": "Code source public" }
+    "users": { "value": "52k+", "label": "Utilisateurs", "description": "Utilisateurs actifs" },
+    "installs": { "value": "82k+", "label": "Installations", "description": "Total d'installations" },
+    "open-source": { "value": "100%", "label": "Open Source", "description": "Code source public" }
   },
   "screenshots": {
     "dark-interface": { "caption": "Interface Instagram en mode sombre" }

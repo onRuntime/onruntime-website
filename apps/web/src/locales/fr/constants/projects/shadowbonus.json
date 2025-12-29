@@ -26,9 +26,9 @@
     "cloudflare": { "description": "Hébergement et déploiement continu" }
   },
   "metrics": {
-    "weekly-visits": { "label": "Visites hebdomadaires", "description": "Au lancement en juillet 2021" },
-    "dev-time": { "label": "Temps de développement", "description": "Livraison rapide et efficace" },
-    "team-size": { "label": "Équipe", "description": "Équipe réduite et agile" }
+    "weekly-visits": { "value": "1500+", "label": "Visites hebdomadaires", "description": "Au lancement en juillet 2021" },
+    "dev-time": { "value": "2 mois", "label": "Temps de développement", "description": "Livraison rapide et efficace" },
+    "team-size": { "value": "3 pers.", "label": "Équipe", "description": "Équipe réduite et agile" }
   },
   "screenshots": {
     "homepage": { "caption": "Page d'accueil présentant les offres partenaires" },

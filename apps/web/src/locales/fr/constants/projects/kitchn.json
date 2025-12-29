@@ -28,9 +28,9 @@
     "storybook": { "description": "Documentation interactive" }
   },
   "metrics": {
-    "components": { "label": "Composants", "description": "Composants UI réutilisables" },
-    "downloads": { "label": "Téléchargements", "description": "Téléchargements mensuels" },
-    "github-stars": { "label": "GitHub Stars", "description": "Stars sur GitHub" }
+    "components": { "value": "35+", "label": "Composants", "description": "Composants UI réutilisables" },
+    "downloads": { "value": "20k+", "label": "Téléchargements", "description": "Téléchargements mensuels" },
+    "github-stars": { "value": "50+", "label": "GitHub Stars", "description": "Stars sur GitHub" }
   },
   "screenshots": {
     "responsive": { "caption": "Composants responsive" },

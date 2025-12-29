@@ -39,9 +39,9 @@
     "styled-components": { "description": "Styling and theming" }
   },
   "metrics": {
-    "countries": { "label": "Countries covered", "description": "Available expatriation destinations" },
-    "ambassadors": { "label": "Ambassadors", "description": "Student ambassadors worldwide" },
-    "users": { "label": "Users", "description": "Student platform users" }
+    "countries": { "value": "70+", "label": "Countries covered", "description": "Available expatriation destinations" },
+    "ambassadors": { "value": "300+", "label": "Ambassadors", "description": "Student ambassadors worldwide" },
+    "users": { "value": "2000+", "label": "Users", "description": "Student platform users" }
   },
   "screenshots": {
     "redesign": { "caption": "Platform redesign" },

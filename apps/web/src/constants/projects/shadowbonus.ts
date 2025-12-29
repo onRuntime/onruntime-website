@@ -28,8 +28,8 @@ export const shadowbonusProject: Project = {
 
   metrics: [
     { key: "weekly-visits", value: "1500+" },
-    { key: "dev-time", value: "2 mois" },
-    { key: "team-size", value: "3 pers." },
+    { key: "dev-time", value: "2" },
+    { key: "team-size", value: "3" },
   ],
 
   team: [

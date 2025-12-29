@@ -22,9 +22,9 @@
     "mongodb": { "description": "Base de données principale" }
   },
   "metrics": {
-    "time-saved": { "label": "Temps gagné", "description": "En moyenne par recherche d'événement" },
-    "coverage": { "label": "Couverture", "description": "Disponible partout en France" },
-    "ease": { "label": "Facilité", "description": "Pour réserver n'importe quel événement" }
+    "time-saved": { "value": "45min", "label": "Temps gagné", "description": "En moyenne par recherche d'événement" },
+    "coverage": { "value": "100%", "label": "Couverture", "description": "Disponible partout en France" },
+    "ease": { "value": "1 clic", "label": "Facilité", "description": "Pour réserver n'importe quel événement" }
   },
   "screenshots": {},
   "challenges": {
