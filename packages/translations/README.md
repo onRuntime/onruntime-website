@@ -111,6 +111,9 @@ export function proxy(request: NextRequest) {
     response.cookies.set(LOCALE_COOKIE, defaultLocale, {
       path: "/",
       maxAge: 60 * 60 * 24 * 365, // 1 year
+      httpOnly: true,
+      secure: true,
+      sameSite: "lax",
     });
     return response;
   }
@@ -126,6 +129,9 @@ export function proxy(request: NextRequest) {
     response.cookies.set(LOCALE_COOKIE, pathnameLocale, {
       path: "/",
       maxAge: 60 * 60 * 24 * 365, // 1 year
+      httpOnly: true,
+      secure: true,
+      sameSite: "lax",
     });
     return response;
   }
