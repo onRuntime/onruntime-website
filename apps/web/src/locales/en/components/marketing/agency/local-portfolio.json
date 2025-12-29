@@ -1,0 +1,23 @@
+{
+  "project": {
+    "market-application": "Application to the {region} market",
+    "expertise-featured": "Our experience with this project has allowed us to develop expertise particularly applicable to the new technologies sector in the {region} region.",
+    "expertise-digital": "Our experience with this project has allowed us to develop expertise particularly applicable to the digital commerce sector in the {region} region.",
+    "skills-featured": "The skills and technologies used in this project are directly transferable to the needs of businesses in {name}, particularly in open innovation.",
+    "skills-digital": "The skills and technologies used in this project are directly transferable to the needs of businesses in {name}, particularly in digital transformation.",
+    "view-project": "View project"
+  },
+  "tags": {
+    "featured": "Featured project",
+    "open-source": "Open Source"
+  },
+  "section": {
+    "title": "Our expertise applicable to projects in {name}",
+    "description": "Discover some of our achievements that illustrate our know-how, applicable to the digital challenges of businesses in {region}."
+  },
+  "cta": {
+    "title": "A digital project for your business in {name}?",
+    "description": "Our expertise is applicable to all sectors, with particular attention to the specificities of the {region} market.",
+    "button": "Let's discuss your project"
+  }
+}

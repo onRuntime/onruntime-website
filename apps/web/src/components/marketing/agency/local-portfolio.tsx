@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
@@ -19,12 +18,30 @@ interface LocalPortfolioProjectProps {
   index: number;
 }
 
-const LocalPortfolioProject: React.FC<LocalPortfolioProjectProps> = async ({
+const LocalPortfolioProject = async ({
   project,
   agency,
   index,
-}) => {
+}: LocalPortfolioProjectProps) => {
   const { t: tProject } = await getTranslation(`constants/projects/${project.id}`);
+  const { t } = await getTranslation('components/marketing/agency/local-portfolio');
+
+  const getExpertiseText = () => {
+    if (index === 0) {
+      return project.tags.includes(Tag.FEATURED)
+        ? t('project.expertise-featured', { region: agency.region })
+        : t('project.expertise-digital', { region: agency.region });
+    }
+    return project.tags.includes(Tag.FEATURED)
+      ? t('project.skills-featured', { name: agency.name })
+      : t('project.skills-digital', { name: agency.name });
+  };
+
+  const getTagLabel = (tag: Tag) => {
+    if (tag === Tag.FEATURED) return t('tags.featured');
+    if (tag === Tag.OPEN_SOURCE) return t('tags.open-source');
+    return tag;
+  };
 
   return (
     <div className="flex flex-col h-full border rounded-lg overflow-hidden hover:border-onruntime-blue transition-colors">
@@ -41,19 +58,16 @@ const LocalPortfolioProject: React.FC<LocalPortfolioProjectProps> = async ({
         <p className="text-sm text-muted-foreground mb-4">{tProject("description")}</p>
 
         <div className="mb-4 p-3 bg-muted/50 rounded-md">
-          <p className="text-xs font-medium mb-1">Application au marché {agency.region}</p>
+          <p className="text-xs font-medium mb-1">{t('project.market-application', { region: agency.region })}</p>
           <p className="text-sm text-muted-foreground">
-            {index === 0
-              ? `Notre expérience avec ce projet nous a permis de développer une expertise particulièrement applicable au secteur ${project.tags.includes(Tag.FEATURED) ? 'des nouvelles technologies' : 'du commerce digital'} dans la région ${agency.region}.`
-              : `Les compétences et technologies utilisées dans ce projet sont directement transférables aux besoins des entreprises de ${agency.name}, notamment dans ${project.tags.includes(Tag.FEATURED) ? 'l\'innovation ouverte' : 'la transformation numérique'}.`}
+            {getExpertiseText()}
           </p>
         </div>
 
         <div className="flex flex-wrap gap-2 mb-4">
           {project.tags.map((tag, tagIndex) => (
             <span key={tagIndex} className="px-2 py-1 bg-muted text-xs rounded-full">
-              {tag === Tag.FEATURED ? "Projet phare" :
-                tag === Tag.OPEN_SOURCE ? "Open Source" : tag}
+              {getTagLabel(tag)}
             </span>
           ))}
         </div>
@@ -61,7 +75,7 @@ const LocalPortfolioProject: React.FC<LocalPortfolioProjectProps> = async ({
         <div className="mt-auto">
           <Link href={Routes.project(project.id)}>
             <Button variant="outline" className="w-full">
-              Voir le projet
+              {t('project.view-project')}
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </Link>
@@ -71,7 +85,9 @@ const LocalPortfolioProject: React.FC<LocalPortfolioProjectProps> = async ({
   );
 };
 
-const LocalPortfolio: React.FC<LocalPortfolioProps> = ({ agency }) => {
+const LocalPortfolio = async ({ agency }: LocalPortfolioProps) => {
+  const { t } = await getTranslation('components/marketing/agency/local-portfolio');
+
   const featuredProjects = Projects.filter(project =>
     project.tags.includes(Tag.FEATURED)
   ).slice(0, 1);
@@ -86,11 +102,10 @@ const LocalPortfolio: React.FC<LocalPortfolioProps> = ({ agency }) => {
     <div className="space-y-8">
       <div className="text-center">
         <h2 className="text-3xl font-medium text-foreground mb-4">
-          Notre expertise applicable aux projets à {agency.name}
+          {t('section.title', { name: agency.name })}
         </h2>
         <p className="text-muted-foreground max-w-3xl mx-auto">
-          Découvrez quelques-unes de nos réalisations qui illustrent notre savoir-faire,
-          applicable aux défis numériques des entreprises de {agency.region}.
+          {t('section.description', { region: agency.region })}
         </p>
       </div>
 
@@ -107,14 +122,14 @@ const LocalPortfolio: React.FC<LocalPortfolioProps> = ({ agency }) => {
 
       <div className="p-6 border rounded-lg bg-card text-center">
         <p className="text-lg font-medium text-foreground mb-2">
-          Un projet digital pour votre entreprise à {agency.name} ?
+          {t('cta.title', { name: agency.name })}
         </p>
         <p className="text-muted-foreground mb-4">
-          Notre expertise est applicable à tous les secteurs, avec une attention particulière aux spécificités du marché {agency.region}.
+          {t('cta.description', { region: agency.region })}
         </p>
         <Link href={Routes.contact}>
           <Button>
-            Discutons de votre projet
+            {t('cta.button')}
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
         </Link>
