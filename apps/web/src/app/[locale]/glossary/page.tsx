@@ -19,12 +19,13 @@ export async function generateMetadata() {
 }
 
 export default async function GlossaryPage() {
+  const { t } = await getTranslation('app/glossary/page');
   const entries = await getAllGlossaryEntries();
-  
-  // Extraction des tags uniques pour le filtrage
+
+  // Extract unique tags for filtering
   const uniqueTags = [...new Set(entries.flatMap(entry => entry.tags || []))].sort();
-  
-  // Regroupement par lettre pour l'affichage
+
+  // Group entries by letter for display
   const entriesByLetter = entries.reduce((acc, entry) => {
     const letter = entry.letter.toLowerCase();
     if (!acc[letter]) {
@@ -34,7 +35,7 @@ export default async function GlossaryPage() {
     return acc;
   }, {} as Record<string, typeof entries>);
 
-  // Récupérer les lettres pour lesquelles nous avons des entrées
+  // Get letters for which we have entries
   const availableLetters = Object.keys(entriesByLetter).sort();
   
   return (
@@ -43,12 +44,11 @@ export default async function GlossaryPage() {
         {/* Hero Section */}
         <div className="relative max-w-2xl mx-auto flex flex-col items-center gap-6 text-center">
           <h1 className="font-semibold text-4xl md:text-5xl text-foreground">
-            Glossaire
+            {t('hero.title')}
           </h1>
-          
+
           <p className="text-muted-foreground">
-            Explorez notre glossaire complet des termes techniques en développement web, 
-            design UI/UX et gestion de projet digital.
+            {t('hero.description')}
           </p>
 
           <DotPattern
@@ -96,7 +96,7 @@ export default async function GlossaryPage() {
                 <div className="h-px flex-grow bg-border"></div>
                 <Link href={`/glossary/${letter}`}>
                   <Button variant="outline" size="sm">
-                    Voir tous
+                    {t('view-all')}
                   </Button>
                 </Link>
               </div>
@@ -136,10 +136,10 @@ export default async function GlossaryPage() {
         {availableLetters.length === 0 && (
           <div className="flex flex-col items-center justify-center py-12 text-center">
             <p className="text-muted-foreground mb-4">
-              Aucun terme n&apos;a encore été ajouté au glossaire.
+              {t('empty.title')}
             </p>
             <p className="text-sm text-muted-foreground">
-              Revenez bientôt pour découvrir notre glossaire complet.
+              {t('empty.subtitle')}
             </p>
           </div>
         )}

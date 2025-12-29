@@ -1,7 +1,7 @@
-import React from 'react';
 import { notFound } from 'next/navigation';
 import { getGlossaryEntry, getRelatedEntries } from "@/lib/glossary";
 import { constructMetadata } from "@/lib/utils/metadata.server";
+import { getTranslation } from "@/lib/translations.server";
 import GlossaryEntryPage from '@/components/glossary/entry-page';
 
 interface TermPageProps {
@@ -14,18 +14,19 @@ interface TermPageProps {
 export async function generateMetadata({
   params
 }: TermPageProps) {
+  const { t } = await getTranslation('app/glossary/page');
   const { letter, term } = await params;
   const entry = await getGlossaryEntry(letter, term);
 
   if (!entry) {
     return constructMetadata({
-      title: "Terme non trouvé | Glossaire",
-      description: "Ce terme n'existe pas dans notre glossaire.",
+      title: t('term.metadata.not-found.title'),
+      description: t('term.metadata.not-found.description'),
     });
   }
 
   return constructMetadata({
-    title: `${entry.term} | Glossaire`,
+    title: `${entry.term} | ${t('metadata.title')}`,
     description: entry.shortDescription,
   });
 }

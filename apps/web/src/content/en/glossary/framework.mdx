@@ -1,0 +1,48 @@
+---
+term: "Framework"
+shortDescription: "Software structure that facilitates development by providing standardized and reusable features"
+relatedTerms: ["Library", "API", "React", "Angular", "Vue.js", "Next.js"]
+tags: ["development", "architecture"]
+---
+
+## Definition
+
+A framework is like our prefabricated toolbox at onRuntime. Rather than building everything from scratch for each project (imagine building a house starting by making your own nails!), we use these structures that give us a good starting point and solid conventions.
+
+## The big question: framework or library?
+
+We get this question a lot from clients, so here's the deal:
+
+- A **library** is like borrowing a specific tool for a specific task. You keep control and decide when to use it.
+- A **framework** is like entering a fully-equipped workshop with its own rules. It tells you how to work.
+
+There's a saying that sums it up well: "You call a library, but a framework calls you."
+
+## Frameworks we love to use
+
+### Frontend side
+- **React**: Technically a library, but the ecosystem around it (React Router, Redux, etc.) makes it almost a framework. It's our #1 choice for user interfaces.
+- **Next.js**: Our favorite for complex websites! We used it to rebuild our own onRuntime.com site.
+- **React Native**: For our clients' mobile apps, it's our go-to. We used it for Tonight Pass with great results.
+
+### Backend side
+- **NestJS**: We're completely fans! It's structured, modular, and saves us tons of time on large applications.
+- **Express**: Lighter than NestJS, we use it for simple APIs or MVPs.
+- **Prisma**: Not really a complete backend framework, but our favorite ORM for managing databases.
+
+### Full-stack
+- **Next.js** (again!): We use it more and more as a full-stack solution thanks to API routes.
+- **Redwood.js**: We've tested it on a few projects and it's promising! A bit like Ruby on Rails but for the JS ecosystem.
+
+## Why we don't code everything from scratch
+
+- **We go muuuch faster**: No more problems already solved a thousand times by others
+- **Cleaner code**: Framework conventions force us to be disciplined
+- **Security**: Popular frameworks are scrutinized by thousands of developers tracking vulnerabilities
+- **Easier onboarding**: When we integrate a new dev into the team, if they already know the framework, they're operational in no time
+
+## When we choose to use (or not) a framework
+
+At onRuntime, we love frameworks, but we don't use them blindly. For an ultra-specific microservice, we sometimes prefer a lighter approach with just a few libraries. For our Kartrak application, for example, we opted for a more minimalist approach because performance was critical.
+
+But honestly, for most client projects where time-to-market matters, a good framework saves so much time that the choice is obvious!

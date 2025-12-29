@@ -1,0 +1,8 @@
+{
+  "back-to-glossary": "Retour au glossaire",
+  "related-terms": "Termes associés",
+  "search": {
+    "placeholder": "Rechercher un terme...",
+    "no-results": "Aucun résultat trouvé pour \"{term}\""
+  }
+}

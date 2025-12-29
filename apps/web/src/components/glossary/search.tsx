@@ -1,8 +1,9 @@
 "use client"
 
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Search } from 'lucide-react';
 import { useRouter } from 'next/navigation';
+import { useTranslation } from '@onruntime/translations/react';
 import { GlossaryEntry } from '@/types/glossary';
 import { Button } from '@/components/ui/button';
 
@@ -11,6 +12,7 @@ interface GlossarySearchProps {
 }
 
 export function GlossarySearch({ entries }: GlossarySearchProps) {
+  const { t } = useTranslation('components/glossary');
   const [searchTerm, setSearchTerm] = useState('');
   const [results, setResults] = useState<GlossaryEntry[]>([]);
   const [isOpen, setIsOpen] = useState(false);
@@ -68,7 +70,7 @@ export function GlossarySearch({ entries }: GlossarySearchProps) {
             }
           }}
           onFocus={() => searchTerm.length > 0 && setIsOpen(true)}
-          placeholder="Rechercher un terme..."
+          placeholder={t('search.placeholder')}
           className="w-full rounded-md border border-input pl-10 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
         />
         {searchTerm && (
@@ -108,7 +110,7 @@ export function GlossarySearch({ entries }: GlossarySearchProps) {
 
       {isOpen && searchTerm.length >= 2 && results.length === 0 && (
         <div className="absolute z-50 w-full mt-1 rounded-md border border-border bg-background shadow-lg p-4 text-center text-muted-foreground">
-          Aucun résultat trouvé pour &quot;{searchTerm}&quot;
+          {t('search.no-results', { term: searchTerm })}
         </div>
       )}
     </div>

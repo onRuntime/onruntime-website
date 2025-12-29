@@ -1,19 +1,22 @@
-import React from 'react'
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ChevronLeft, Tag as TagIcon } from "lucide-react"
 import { GlossaryEntry } from '@/types/glossary'
+import { getTranslation } from "@/lib/translations.server"
 
 interface GlossaryTagPageProps {
   tag: string;
   entries: GlossaryEntry[];
 }
 
-const GlossaryTagPage: React.FC<GlossaryTagPageProps> = ({
+const GlossaryTagPage = async ({
   tag,
   entries
-}) => {
+}: GlossaryTagPageProps) => {
+  const { t } = await getTranslation('app/glossary/page');
+  const { t: tComponents } = await getTranslation('components/glossary');
+
   return (
     <main className="min-h-screen pt-32 pb-16">
       <div className="px-4 md:px-0 max-w-5xl mx-auto">
@@ -22,20 +25,20 @@ const GlossaryTagPage: React.FC<GlossaryTagPageProps> = ({
           <Link href="/glossary">
             <Button variant="ghost" className="pl-0 hover:pl-0">
               <ChevronLeft className="mr-2 h-4 w-4" />
-              Retour au glossaire
+              {tComponents('back-to-glossary')}
             </Button>
           </Link>
         </div>
-        
+
         {/* Tag header */}
         <div className="mb-12">
           <div className="flex items-center gap-3 mb-3">
             <TagIcon className="h-6 w-6 text-primary" />
             <h1 className="text-4xl font-semibold text-foreground">{tag}</h1>
           </div>
-          
+
           <p className="text-muted-foreground text-lg">
-            {entries.length} terme{entries.length > 1 ? 's' : ''} lié{entries.length > 1 ? 's' : ''} à cette catégorie
+            {t('tag.count', { count: entries.length })}
           </p>
         </div>
         

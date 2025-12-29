@@ -2,6 +2,7 @@ import React from 'react';
 import { notFound } from 'next/navigation';
 import { getEntriesByLetter } from "@/lib/glossary";
 import { constructMetadata } from "@/lib/utils/metadata.server";
+import { getTranslation } from "@/lib/translations.server";
 import GlossaryLetterPage from '@/components/glossary/letter-page';
 
 interface LetterPageProps {
@@ -13,19 +14,20 @@ interface LetterPageProps {
 export async function generateMetadata({
   params
 }: LetterPageProps) {
+  const { t } = await getTranslation('app/glossary/page');
   const { letter } = await params;
   const sanitizedLetter = letter.toLowerCase();
 
   if (!sanitizedLetter.match(/^[a-z]$/)) {
     return constructMetadata({
-      title: "Lettre non valide | Glossaire",
-      description: "Cette lettre n'est pas valide.",
+      title: t('letter.metadata.invalid.title'),
+      description: t('letter.metadata.invalid.description'),
     });
   }
 
   return constructMetadata({
-    title: `Termes commençant par ${sanitizedLetter.toUpperCase()} | Glossaire`,
-    description: `Découvrez tous les termes du glossaire commençant par la lettre ${sanitizedLetter.toUpperCase()}.`,
+    title: t('letter.metadata.title', { letter: sanitizedLetter.toUpperCase() }),
+    description: t('letter.metadata.description', { letter: sanitizedLetter.toUpperCase() }),
   });
 }
 

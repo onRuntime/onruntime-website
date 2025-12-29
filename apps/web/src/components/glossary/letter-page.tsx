@@ -1,19 +1,22 @@
-import React from 'react'
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ChevronLeft } from "lucide-react"
 import { GlossaryEntry } from '@/types/glossary'
+import { getTranslation } from "@/lib/translations.server"
 
 interface GlossaryLetterPageProps {
   letter: string;
   entries: GlossaryEntry[];
 }
 
-const GlossaryLetterPage: React.FC<GlossaryLetterPageProps> = ({
+const GlossaryLetterPage = async ({
   letter,
   entries
-}) => {
+}: GlossaryLetterPageProps) => {
+  const { t } = await getTranslation('app/glossary/page');
+  const { t: tComponents } = await getTranslation('components/glossary');
+
   return (
     <main className="min-h-screen pt-32 pb-16">
       <div className="px-4 md:px-0 max-w-5xl mx-auto">
@@ -22,16 +25,16 @@ const GlossaryLetterPage: React.FC<GlossaryLetterPageProps> = ({
           <Link href="/glossary">
             <Button variant="ghost" className="pl-0 hover:pl-0">
               <ChevronLeft className="mr-2 h-4 w-4" />
-              Retour au glossaire
+              {tComponents('back-to-glossary')}
             </Button>
           </Link>
         </div>
-        
+
         {/* Letter header */}
         <div className="mb-12">
           <h1 className="text-5xl font-bold text-foreground uppercase mb-2">{letter}</h1>
           <p className="text-muted-foreground text-lg">
-            {entries.length} terme{entries.length > 1 ? 's' : ''} commençant par la lettre {letter.toUpperCase()}
+            {t('letter.count', { count: entries.length, letter: letter.toUpperCase() })}
           </p>
         </div>
         

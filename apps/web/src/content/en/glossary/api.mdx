@@ -1,0 +1,38 @@
+---
+term: "API"
+shortDescription: "Application programming interface that allows different applications to communicate with each other"
+relatedTerms: ["REST", "GraphQL", "Backend"]
+tags: ["development", "technical"]
+---
+
+## Definition
+
+An API (Application Programming Interface) is essentially the language our applications speak to communicate with each other. At onRuntime, we use them constantly to connect different parts of our projects. Think of an API like a waiter in a restaurant. You place an order (the request), they bring you what you asked for (the response), and you don't need to know what's happening in the kitchen.
+
+## Why we love APIs
+
+- **They make everything work together**: Different systems can exchange data without any hassle
+- **They make us modular**: We can develop independent components and connect them easily
+- **They protect our data**: We control exactly who accesses what
+- **They save us time**: We can update one part without rebuilding everything
+
+## APIs we use daily
+
+### RESTful APIs
+Our daily bread! We use them for most of our web projects. They're simple, stateless (no memory from one request to another), and use classic HTTP methods. Perfect for decoupled interfaces like on Tonight Pass.
+
+### GraphQL APIs
+We're fans of these for certain complex projects! Rather than creating 15 different endpoints, we let the client request exactly the data it needs. On Kitchn, this saved us a lot of bandwidth.
+
+### SOAP APIs
+We won't lie, we don't use these much anymore... They're a bit old-school with their XML and ultra-strict specifications. But we still encounter them sometimes on enterprise projects.
+
+## How we use them daily
+
+At onRuntime, APIs are at the heart of our tech stack. They allow us to:
+
+- Build decoupled applications (separate frontend/backend)
+- Easily integrate third-party services (payment, mapping, etc.)
+- Develop our microservices architecture on certain projects
+
+When we design an API, we always start by documenting it with Swagger or Postman. Helps us think things through and becomes a solid reference for the team. Trust me, it saves a lot of pointless meetings!
