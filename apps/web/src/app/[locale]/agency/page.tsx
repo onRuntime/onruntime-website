@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 import { Button } from "@/components/ui/button";
 import DotPattern from "@/components/ui/dot-pattern";
@@ -10,11 +9,13 @@ import FranceMap from '@/components/marketing/agency/france-map';
 import { getMajorAgencies } from '@/constants/agencies';
 import { OrganizationSchema } from '@/components/json-ld/organization-schema';
 import { ORGANIZATION_DATA } from '@/components/json-ld/constants';
+import { getTranslation } from '@/lib/translations.server';
 
 export async function generateMetadata() {
+  const { t } = await getTranslation('app/agency/page');
   return constructMetadata({
-    title: "Expertise web locale | Développement digital dans les grandes villes françaises",
-    description: "Nous accompagnons les entreprises locales partout en France avec notre expertise des marchés numériques régionaux. Solutions digitales adaptées à chaque région.",
+    title: t('metadata.title'),
+    description: t('metadata.description'),
   });
 }
 
