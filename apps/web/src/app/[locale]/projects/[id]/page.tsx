@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { constructMetadata } from "@/lib/utils/metadata";
 import { getTranslation } from "@/lib/translations.server";
 import { ProjectSchema, ProjectTeamSchema } from "@/components/json-ld/project-schema";
+import { ORGANIZATION_DATA } from "@/components/json-ld/constants";
 import TeamMembers from "@/constants/team-members";
 
 type Params = Promise<{ id: string }>;
@@ -61,7 +62,7 @@ export default async function Page({ params }: { params: Params }) {
   return (
     <>
       <ProjectSchema
-        id={`https://onruntime.com/projects/${project.id}`}
+        id={`${ORGANIZATION_DATA.url}/projects/${project.id}`}
         name={project.name}
         description={tProject("description")}
       />
