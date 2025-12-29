@@ -1,7 +1,7 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
 import { getEntriesByTag } from "@/lib/glossary";
-import { constructMetadata } from "@/lib/utils/metadata";
+import { constructMetadata } from "@/lib/utils/metadata.server";
 import GlossaryTagPage from '@/components/glossary/tag-page';
 
 interface TagPageProps {

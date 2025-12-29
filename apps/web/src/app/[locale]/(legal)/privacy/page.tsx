@@ -1,6 +1,6 @@
 import LegalPage from "@/components/marketing/legal/page"
 import { getPageContent } from "@/lib/mdx"
-import { constructMetadata } from "@/lib/utils/metadata"
+import { constructMetadata } from "@/lib/utils/metadata.server"
 import type { Metadata } from "next"
 
 const contentPath = "legal/privacy"

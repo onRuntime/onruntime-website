@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, Tag as TagIcon } from "lucide-react";
 import { getAllTags } from "@/lib/glossary";
-import { constructMetadata } from "@/lib/utils/metadata";
+import { constructMetadata } from "@/lib/utils/metadata.server";
 
 export async function generateMetadata() {
   return constructMetadata({

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
 import { getAllGlossaryEntries } from "@/lib/glossary";
-import { constructMetadata } from "@/lib/utils/metadata";
+import { constructMetadata } from "@/lib/utils/metadata.server";
 import { GlossaryAlphabetNav } from "@/components/glossary/alphabet-nav";
 import { GlossarySearch } from "@/components/glossary/search";
 import { Badge } from "@/components/ui/badge";

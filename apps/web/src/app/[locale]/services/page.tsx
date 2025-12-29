@@ -1,4 +1,4 @@
-import { constructMetadata } from "@/lib/utils/metadata";
+import { constructMetadata } from "@/lib/utils/metadata.server";
 import ServicesPage from "@/screens/marketing/services";
 
 export async function generateMetadata() {

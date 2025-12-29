@@ -6,7 +6,7 @@ import FeatureSection from '@/components/marketing/services/feature-section';
 import TestimonialsSection from '@/components/marketing/services/testimonials-section';
 import FAQSection from '@/components/marketing/services/faq-section';
 import { ServiceCategoryData, SubService } from '@/types/service';
-import { constructMetadata } from '@/lib/utils/metadata';
+import { constructMetadata } from '@/lib/utils/metadata.server';
 
 type Props = {
   params: Promise<{

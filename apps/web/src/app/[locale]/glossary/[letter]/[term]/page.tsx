@@ -1,7 +1,7 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
 import { getGlossaryEntry, getRelatedEntries } from "@/lib/glossary";
-import { constructMetadata } from "@/lib/utils/metadata";
+import { constructMetadata } from "@/lib/utils/metadata.server";
 import GlossaryEntryPage from '@/components/glossary/entry-page';
 
 interface TermPageProps {

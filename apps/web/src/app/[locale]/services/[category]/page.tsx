@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Services from '@/constants/services';
 import ServiceOverviewPage from '@/components/marketing/services/service-overview';
 import { ServiceCategoryData } from '@/types/service';
-import { constructMetadata } from '@/lib/utils/metadata';
+import { constructMetadata } from '@/lib/utils/metadata.server';
 import { getTranslation } from '@/lib/translations.server';
 
 type Props = {

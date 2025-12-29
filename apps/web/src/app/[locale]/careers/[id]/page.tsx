@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { constructMetadata } from "@/lib/utils/metadata";
+import { constructMetadata } from "@/lib/utils/metadata.server";
 import { getTranslation } from "@/lib/translations.server";
 import JobDetailPage from "@/screens/marketing/careers/job-details";
 import { JobPosting } from "@/types/job";

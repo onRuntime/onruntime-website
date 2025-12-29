@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
-import { constructMetadata } from '@/lib/utils/metadata';
+import { constructMetadata } from '@/lib/utils/metadata.server';
 import CityHeroSection from '@/components/marketing/agency/city-hero-section';
 import LocalExpertise from '@/components/marketing/agency/local-expertise';
 import LocalPortfolio from '@/components/marketing/agency/local-portfolio';

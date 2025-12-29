@@ -4,7 +4,7 @@ import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
 import { ArrowRight, Globe, Laptop, Users } from "lucide-react";
 import Routes from "@/constants/routes";
-import { constructMetadata } from '@/lib/utils/metadata';
+import { constructMetadata } from '@/lib/utils/metadata.server';
 import FranceMap from '@/components/marketing/agency/france-map';
 import { getMajorAgencies } from '@/constants/agencies';
 import { OrganizationSchema } from '@/components/json-ld/organization-schema';

@@ -1,4 +1,4 @@
-import { constructMetadata } from "@/lib/utils/metadata";
+import { constructMetadata } from "@/lib/utils/metadata.server";
 import { getTranslation } from "@/lib/translations.server";
 import ContactPage from "@/screens/marketing/contact";
 

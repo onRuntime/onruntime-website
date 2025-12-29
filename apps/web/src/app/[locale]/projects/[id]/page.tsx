@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Projects from "@/constants/projects";
 import ProjectPage from "@/screens/marketing/projects/details";
 import type { Metadata } from "next";
-import { constructMetadata } from "@/lib/utils/metadata";
+import { constructMetadata } from "@/lib/utils/metadata.server";
 import { getTranslation } from "@/lib/translations.server";
 import { ProjectSchema, ProjectTeamSchema } from "@/components/json-ld/project-schema";
 import { ORGANIZATION_DATA } from "@/components/json-ld/constants";

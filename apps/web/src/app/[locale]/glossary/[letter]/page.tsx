@@ -1,7 +1,7 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
 import { getEntriesByLetter } from "@/lib/glossary";
-import { constructMetadata } from "@/lib/utils/metadata";
+import { constructMetadata } from "@/lib/utils/metadata.server";
 import GlossaryLetterPage from '@/components/glossary/letter-page';
 
 interface LetterPageProps {
