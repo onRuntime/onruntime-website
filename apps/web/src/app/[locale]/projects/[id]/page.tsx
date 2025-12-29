@@ -4,7 +4,8 @@ import ProjectPage from "@/screens/marketing/projects/details";
 import type { Metadata } from "next";
 import { constructMetadata } from "@/lib/utils/metadata";
 import { getTranslation } from "@/lib/translations.server";
-import { ProjectSchema } from "@/components/json-ld/project-schema";
+import { ProjectSchema, ProjectTeamSchema } from "@/components/json-ld/project-schema";
+import TeamMembers from "@/constants/team-members";
 
 type Params = Promise<{ id: string }>;
 
@@ -45,6 +46,18 @@ export default async function Page({ params }: { params: Params }) {
 
   const { t: tProject } = await getTranslation(`constants/projects/${project.id}`);
 
+  const teamData = project.team?.map((member) => {
+    const memberData = TeamMembers[member.ref];
+    return {
+      name: memberData?.name || member.ref,
+      role: member.role,
+      website: memberData?.website,
+      avatar: memberData?.avatar,
+      github: memberData?.github,
+      linkedin: memberData?.linkedin,
+    };
+  }) || [];
+
   return (
     <>
       <ProjectSchema
@@ -52,6 +65,7 @@ export default async function Page({ params }: { params: Params }) {
         name={project.name}
         description={tProject("description")}
       />
+      {teamData.length > 0 && <ProjectTeamSchema team={teamData} />}
       <ProjectPage project={project} />
     </>
   );
