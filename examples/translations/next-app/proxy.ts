@@ -49,14 +49,19 @@ export function proxy(request: NextRequest) {
     return response;
   }
 
-  // If URL has a non-default locale prefix, use it
+  // If URL has a non-default locale prefix, use it and persist preference
   if (pathnameLocale) {
     const requestHeaders = new Headers(request.headers);
     requestHeaders.set("x-locale", pathnameLocale);
     requestHeaders.set("x-pathname", pathname);
-    return NextResponse.next({
+    const response = NextResponse.next({
       request: { headers: requestHeaders },
     });
+    response.cookies.set(LOCALE_COOKIE, pathnameLocale, {
+      path: "/",
+      maxAge: 60 * 60 * 24 * 365, // 1 year
+    });
+    return response;
   }
 
   // No locale in URL - detect from Accept-Language
