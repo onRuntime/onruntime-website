@@ -1,7 +1,8 @@
 {
   "tags": {
     "featured": "Projet phare",
-    "open-source": "Open Source"
+    "open-source": "Open Source",
+    "customer": "Projet client"
   },
   "buttons": {
     "view-project": "Voir le projet",

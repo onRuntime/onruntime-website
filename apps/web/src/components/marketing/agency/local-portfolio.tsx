@@ -40,6 +40,7 @@ const LocalPortfolioProject = async ({
   const getTagLabel = (tag: Tag) => {
     if (tag === Tag.FEATURED) return t('tags.featured');
     if (tag === Tag.OPEN_SOURCE) return t('tags.open-source');
+    if (tag === Tag.CUSTOMER) return t('tags.customer');
     return tag;
   };
 

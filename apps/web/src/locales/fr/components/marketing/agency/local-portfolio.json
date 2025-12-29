@@ -9,7 +9,8 @@
   },
   "tags": {
     "featured": "Projet phare",
-    "open-source": "Open Source"
+    "open-source": "Open Source",
+    "customer": "Projet client"
   },
   "section": {
     "title": "Notre expertise applicable aux projets à {name}",

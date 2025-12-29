@@ -9,7 +9,8 @@
   },
   "tags": {
     "featured": "Featured project",
-    "open-source": "Open Source"
+    "open-source": "Open Source",
+    "customer": "Client project"
   },
   "section": {
     "title": "Our expertise applicable to projects in {name}",
