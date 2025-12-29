@@ -6,7 +6,7 @@ Translation files for the onRuntime website.
 
 The translation files mirror the `src/` structure:
 
-```
+```tree
 locales/
 ├── en/
 │   ├── common.json                    # Shared (buttons, errors, forms)
