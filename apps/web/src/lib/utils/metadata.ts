@@ -157,12 +157,31 @@ async function getPathname(): Promise<string> {
   const headersList = await headers();
   const serverUrl = siteConfig.url;
 
-  const pathname =
-    headersList.get("x-pathname") ||
-    headersList.get("x-invoke-path") ||
-    headersList.get("referer")?.replace(serverUrl, "") ||
-    "/";
+  // Try x-pathname or x-invoke-path first
+  let pathname = headersList.get("x-pathname") || headersList.get("x-invoke-path");
 
+  // Fall back to referer, but only if it matches our origin
+  if (!pathname) {
+    const referer = headersList.get("referer");
+    if (referer) {
+      try {
+        const refererUrl = new URL(referer);
+        const serverOrigin = new URL(serverUrl).origin;
+        if (refererUrl.origin === serverOrigin) {
+          pathname = refererUrl.pathname;
+        }
+      } catch {
+        // Invalid URL, ignore referer
+      }
+    }
+  }
+
+  // Default to root
+  if (!pathname) {
+    pathname = "/";
+  }
+
+  // Remove query string and ensure leading slash
   const cleanPath = pathname.split("?")[0] || "/";
   return cleanPath.startsWith("/") ? cleanPath : `/${cleanPath}`;
 }
