@@ -6,16 +6,18 @@ import DotPattern from '@/components/ui/dot-pattern';
 import { cn } from '@/lib/utils';
 import Routes from '@/constants/routes';
 import { Agency } from '@/types/agency';
+import { getTranslation } from '@/lib/translations.server';
 
 interface CityHeroSectionProps {
   agency: Agency;
 }
 
-const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
-  
+const CityHeroSection = async ({ agency }: CityHeroSectionProps) => {
+  const { t } = await getTranslation('components/marketing/agency/city-hero-section');
+
   const accent = agency.accentColor || "blue";
 
-  const heroTitle = agency.heroTitle || `Développement web à ${agency.name}`;
+  const heroTitle = agency.heroTitle || t('default-title', { name: agency.name });
   const heroDescription = agency.heroDescription || agency.description;
 
   return (
@@ -41,7 +43,7 @@ const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
 
           <Button asChild size="lg" className="whitespace-normal sm:whitespace-nowrap">
             <Link href={Routes.contact}>
-              Démarrer votre projet à {agency.name}
+              {t('cta', { name: agency.name })}
               <ArrowRight className="ml-2 w-5 h-5" />
             </Link>
           </Button>
@@ -66,7 +68,7 @@ const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
               <p className="text-center font-medium text-lg capitalize">{agency.name}</p>
               {agency.primaryStat && (
                 <p className="text-xs text-center text-muted-foreground mt-1">
-                  Spécialiste {agency.primaryStat.label}
+                  {t('specialist', { stat: agency.primaryStat.label })}
                 </p>
               )}
             </div>
