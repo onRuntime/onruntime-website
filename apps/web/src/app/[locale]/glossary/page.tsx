@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 import { Button } from "@/components/ui/button";
 import DotPattern from "@/components/ui/dot-pattern";
@@ -9,11 +8,13 @@ import { GlossaryAlphabetNav } from "@/components/glossary/alphabet-nav";
 import { GlossarySearch } from "@/components/glossary/search";
 import { Badge } from "@/components/ui/badge";
 import { Tag as TagIcon } from "lucide-react";
+import { getTranslation } from "@/lib/translations.server";
 
 export async function generateMetadata() {
+  const { t } = await getTranslation('app/glossary/page');
   return constructMetadata({
-    title: "Glossaire du Développement et Design Web",
-    description: "Consultez notre glossaire complet des termes techniques en développement web, design UI/UX et gestion de projet digital.",
+    title: t('metadata.title'),
+    description: t('metadata.description'),
   });
 }
 
