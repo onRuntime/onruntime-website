@@ -83,10 +83,12 @@ function getPreferredLocale(request: NextRequest): string {
   const preferred = acceptLanguage
     .split(",")
     .map((lang) => {
-      const [code, priority = "q=1"] = lang.trim().split(";");
+      const [code, priorityToken] = lang.trim().split(";");
+      const priorityMatch = priorityToken?.match(/q=([0-9.]+)/);
+      const priority = priorityMatch ? parseFloat(priorityMatch[1]) : 1.0;
       return {
         code: code.split("-")[0].toLowerCase(),
-        priority: parseFloat(priority.replace("q=", "")),
+        priority: Number.isNaN(priority) ? 1.0 : priority,
       };
     })
     .sort((a, b) => b.priority - a.priority)
