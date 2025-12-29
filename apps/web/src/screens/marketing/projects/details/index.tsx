@@ -39,6 +39,14 @@ const ProjectPage: React.FC<ProjectPageProps> = async ({ project }) => {
     return tag;
   };
 
+  const getHostname = (url: string | undefined): string => {
+    try {
+      return new URL(url || siteConfig.url).hostname;
+    } catch {
+      return "";
+    }
+  };
+
   return (
     <main className="min-h-screen pt-32 pb-16">
       {project.id === "tonightpass" ? (
@@ -181,9 +189,7 @@ const ProjectPage: React.FC<ProjectPageProps> = async ({ project }) => {
             width={1200}
             height={750}
             imageSrc={project.showcaseUrl}
-            url={
-              new URL(project.website || siteConfig.url).hostname
-            }
+            url={getHostname(project.website)}
           />
         </div>
 
