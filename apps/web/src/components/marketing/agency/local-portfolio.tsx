@@ -38,11 +38,19 @@ const LocalPortfolioProject = async ({
       : t('project.skills-digital', { name: agency.name });
   };
 
-  const getTagLabel = (tag: Tag) => {
-    if (tag === Tag.FEATURED) return t('tags.featured');
-    if (tag === Tag.OPEN_SOURCE) return t('tags.open-source');
-    if (tag === Tag.CUSTOMER) return t('tags.customer');
-    return tag;
+  const getTagLabel = (tag: Tag): string => {
+    switch (tag) {
+      case Tag.FEATURED:
+        return t('tags.featured');
+      case Tag.OPEN_SOURCE:
+        return t('tags.open-source');
+      case Tag.CUSTOMER:
+        return t('tags.customer');
+      default: {
+        const _exhaustiveCheck: never = tag;
+        return _exhaustiveCheck;
+      }
+    }
   };
 
   return (
