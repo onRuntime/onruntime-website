@@ -2,6 +2,19 @@ import { Metadata } from "next";
 import { headers } from "next/headers";
 
 import { env } from "@/../env";
+import { locales, defaultLocale } from "@/lib/translations";
+
+/**
+ * Convert locale code to OpenGraph locale format
+ * e.g., "fr" → "fr_FR", "en" → "en_US"
+ */
+function toOgLocale(locale: string): string {
+  const countryOverrides: Record<string, string> = {
+    en: "US", // English defaults to US
+  };
+  const country = countryOverrides[locale] || locale.toUpperCase();
+  return `${locale}_${country}`;
+}
 
 export const siteConfig = {
   name: "onRuntime Studio",
@@ -53,6 +66,8 @@ export async function constructMetadata({
   noIndex?: boolean;
 } = {}): Promise<Metadata> {
   const canonical = await generateCanonical();
+  const languages = await generateAlternates();
+  const currentLocale = await getCurrentLocale();
 
   // Titre avec format cohérent
   const formattedTitle = title === siteConfig.name
@@ -73,6 +88,7 @@ export async function constructMetadata({
 
     alternates: {
       canonical,
+      languages,
     },
 
     authors: [{ name: "onRuntime Studio", url: siteConfig.url }],
@@ -81,7 +97,7 @@ export async function constructMetadata({
 
     openGraph: {
       type: ogType,
-      locale: "fr_FR",
+      locale: toOgLocale(currentLocale),
       url: canonical,
       title: formattedTitle,
       description,
@@ -127,28 +143,78 @@ export async function constructMetadata({
 }
 
 /**
- * Generate a canonical URL automatically from the current request
- * @returns The full canonical URL for the current page (with locale prefix)
+ * Get the current locale from headers
  */
-export async function generateCanonical(): Promise<string> {
+async function getCurrentLocale(): Promise<string> {
+  const headersList = await headers();
+  return headersList.get("x-locale") || defaultLocale;
+}
+
+/**
+ * Get the current pathname from headers
+ */
+async function getPathname(): Promise<string> {
   const headersList = await headers();
   const serverUrl = siteConfig.url;
 
-  // Try to get the pathname from various headers
   const pathname =
     headersList.get("x-pathname") ||
     headersList.get("x-invoke-path") ||
     headersList.get("referer")?.replace(serverUrl, "") ||
     "/";
 
-  // Clean up the pathname
-  const cleanPath = pathname.split("?")[0] || "/"; // Remove query params
-  const normalizedPath = cleanPath.startsWith("/") ? cleanPath : `/${cleanPath}`;
+  const cleanPath = pathname.split("?")[0] || "/";
+  return cleanPath.startsWith("/") ? cleanPath : `/${cleanPath}`;
+}
 
-  // Combine and clean up double slashes
-  const canonical = `${serverUrl}${normalizedPath}`
-    .replace(/([^:]\/)\/+/g, "$1") // Remove double slashes except after protocol
-    .replace(/\/$/, ""); // Remove trailing slash
+/**
+ * Get the path without locale prefix
+ */
+function getPathWithoutLocale(pathname: string): string {
+  const segments = pathname.split("/").filter(Boolean);
+  const hasLocalePrefix = locales.includes(segments[0]);
+  return hasLocalePrefix ? `/${segments.slice(1).join("/")}` : pathname;
+}
+
+/**
+ * Generate a canonical URL automatically from the current request
+ * @returns The full canonical URL for the current page (with locale prefix)
+ */
+export async function generateCanonical(): Promise<string> {
+  const pathname = await getPathname();
+  const serverUrl = siteConfig.url;
+
+  const canonical = `${serverUrl}${pathname}`
+    .replace(/([^:]\/)\/+/g, "$1")
+    .replace(/\/$/, "");
 
   return canonical || serverUrl;
+}
+
+/**
+ * Generate hreflang alternate URLs for all locales
+ * @returns Object with locale codes as keys and URLs as values
+ */
+export async function generateAlternates(): Promise<Record<string, string>> {
+  const pathname = await getPathname();
+  const pathWithoutLocale = getPathWithoutLocale(pathname);
+  const serverUrl = siteConfig.url;
+
+  const alternates: Record<string, string> = {};
+
+  for (const locale of locales) {
+    if (locale === defaultLocale) {
+      // Default locale has no prefix
+      alternates[locale] = `${serverUrl}${pathWithoutLocale}`.replace(/\/$/, "") || serverUrl;
+    } else {
+      // Other locales have prefix
+      const localePath = pathWithoutLocale === "/" ? `/${locale}` : `/${locale}${pathWithoutLocale}`;
+      alternates[locale] = `${serverUrl}${localePath}`;
+    }
+  }
+
+  // x-default points to the default locale version
+  alternates["x-default"] = alternates[defaultLocale];
+
+  return alternates;
 }
