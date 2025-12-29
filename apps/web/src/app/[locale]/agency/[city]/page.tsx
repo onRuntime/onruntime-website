@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import { constructMetadata } from '@/lib/utils/metadata.server';
+import { getTranslation } from '@/lib/translations.server';
 import CityHeroSection from '@/components/marketing/agency/city-hero-section';
 import LocalExpertise from '@/components/marketing/agency/local-expertise';
 import LocalPortfolio from '@/components/marketing/agency/local-portfolio';
@@ -26,13 +27,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { city } = await params;
   const cityLower = city.toLowerCase();
-
   const agency = getAgencyById(cityLower);
+  const { t } = await getTranslation('app/agency/[city]/page');
 
   if (!agency) {
     return constructMetadata({
-      title: "Expertise locale non disponible",
-      description: "Nous n'avons pas encore d'expertise spécifique pour cette ville.",
+      title: t('metadata.not-found.title'),
+      description: t('metadata.not-found.description'),
       noIndex: true,
     });
   }
