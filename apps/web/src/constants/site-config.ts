@@ -2,7 +2,6 @@ import { env } from "env";
 
 export const siteConfig = {
   name: "onRuntime Studio",
-  description: "Agence digitale spécialisée en développement web, mobile et design UI/UX. Notre équipe d'experts transforme vos idées en solutions digitales performantes.",
   url: env.NEXT_PUBLIC_APP_URL,
   ogImage: "/og.jpg",
   links: {

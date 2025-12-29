@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import { headers } from "next/headers";
 
 import { locales, defaultLocale } from "@/lib/translations";
-import { siteConfig } from "@/lib/utils/site-config";
+import { getTranslation } from "@/lib/translations.server";
+import { siteConfig } from "@/constants/site-config";
 
 /**
  * Convert locale code to OpenGraph locale format
@@ -28,7 +29,7 @@ export function getOGImageUrl({
   type?: OGImageType;
 }): string {
   const params = new URLSearchParams();
-  
+
   params.append('title', title);
   params.append('description', description);
   params.append('type', type);
@@ -38,7 +39,7 @@ export function getOGImageUrl({
 
 export async function constructMetadata({
   title = siteConfig.name,
-  description = siteConfig.description,
+  description,
   ogType = "website",
   ogImage,
   ogImageType = "default",
@@ -55,20 +56,24 @@ export async function constructMetadata({
   const languages = await generateAlternates();
   const currentLocale = await getCurrentLocale();
 
-  // Titre avec format cohérent
+  // Get translated default description if not provided
+  const { t } = await getTranslation("constants/site-config");
+  const finalDescription = description ?? t("description");
+
+  // Format title consistently
   const formattedTitle = title === siteConfig.name
     ? title
     : `${title} | ${siteConfig.name}`;
 
   const finalOgImage = ogImage || getOGImageUrl({
     title,
-    description,
+    description: finalDescription,
     type: ogImageType,
   });
 
   return {
     title: formattedTitle,
-    description,
+    description: finalDescription,
 
     metadataBase: new URL(siteConfig.url),
 
@@ -86,7 +91,7 @@ export async function constructMetadata({
       locale: toOgLocale(currentLocale),
       url: canonical,
       title: formattedTitle,
-      description,
+      description: finalDescription,
       siteName: siteConfig.name,
       images: [
         {
@@ -101,7 +106,7 @@ export async function constructMetadata({
     twitter: {
       card: "summary_large_image",
       title: formattedTitle,
-      description,
+      description: finalDescription,
       images: [finalOgImage],
       creator: "@onruntime",
       site: "@onruntime",

@@ -1,4 +1,4 @@
-import { siteConfig } from "@/lib/utils/site-config";
+import { siteConfig } from "@/constants/site-config";
 
 export const ORGANIZATION_DATA = {
   name: "onRuntime Studio",
