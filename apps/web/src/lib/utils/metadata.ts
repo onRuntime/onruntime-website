@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 import { headers } from "next/headers";
 
-import { env } from "@/../env";
 import { locales, defaultLocale } from "@/lib/translations";
+import { siteConfig } from "@/lib/utils/site-config";
 
 /**
  * Convert locale code to OpenGraph locale format
@@ -15,20 +15,6 @@ function toOgLocale(locale: string): string {
   const country = countryOverrides[locale] || locale.toUpperCase();
   return `${locale}_${country}`;
 }
-
-export const siteConfig = {
-  name: "onRuntime Studio",
-  description: "Agence digitale spécialisée en développement web, mobile et design UI/UX. Notre équipe d'experts transforme vos idées en solutions digitales performantes.",
-  url: env.NEXT_PUBLIC_APP_URL,
-  ogImage: "/og.jpg", 
-  links: {
-    discord: "https://discord.gg/ucX9c5yXmX",
-    instagram: "https://www.instagram.com/onruntime/",
-    linkedin: "https://www.linkedin.com/company/onruntime",
-    github: "https://github.com/onruntime",
-    twitter: "https://twitter.com/onruntime",
-  },
-};
 
 export type OGImageType = 'default' | 'project' | 'service' | 'blog' | 'team' | 'legal';
 

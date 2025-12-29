@@ -18,7 +18,7 @@ import {
   User,
 } from "lucide-react";
 import TeamMembers from "@/constants/team-members";
-import { siteConfig } from "@/lib/utils/metadata";
+import { siteConfig } from "@/lib/utils/site-config";
 import { getTranslation } from "@/lib/translations.server";
 
 import { MemberWebsiteButton } from "@/components/marketing/projects/details/member-website-button";

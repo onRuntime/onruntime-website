@@ -1,7 +1,7 @@
 
 import { ImageResponse } from "@vercel/og";
 import { NextRequest } from "next/server";
-import { siteConfig } from "@/lib/utils/metadata";
+import { siteConfig } from "@/lib/utils/site-config";
 import { OnRuntimeWordMark } from "@/logos/components";
 
 export const runtime = "edge";
