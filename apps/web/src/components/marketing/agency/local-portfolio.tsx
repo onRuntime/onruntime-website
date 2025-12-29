@@ -15,24 +15,25 @@ interface LocalPortfolioProps {
 interface LocalPortfolioProjectProps {
   project: Project;
   agency: Agency;
-  index: number;
+  isPrimary: boolean;
 }
 
 const LocalPortfolioProject = async ({
   project,
   agency,
-  index,
+  isPrimary,
 }: LocalPortfolioProjectProps) => {
   const { t: tProject } = await getTranslation(`constants/projects/${project.id}`);
   const { t } = await getTranslation('components/marketing/agency/local-portfolio');
 
   const getExpertiseText = () => {
-    if (index === 0) {
-      return project.tags.includes(Tag.FEATURED)
+    const isFeatured = project.tags.includes(Tag.FEATURED);
+    if (isPrimary) {
+      return isFeatured
         ? t('project.expertise-featured', { region: agency.region })
         : t('project.expertise-digital', { region: agency.region });
     }
-    return project.tags.includes(Tag.FEATURED)
+    return isFeatured
       ? t('project.skills-featured', { name: agency.name })
       : t('project.skills-digital', { name: agency.name });
   };
@@ -116,7 +117,7 @@ const LocalPortfolio = async ({ agency }: LocalPortfolioProps) => {
             key={project.id}
             project={project}
             agency={agency}
-            index={index}
+            isPrimary={index === 0}
           />
         ))}
       </div>
