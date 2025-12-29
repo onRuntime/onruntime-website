@@ -25,7 +25,7 @@ const Featured: React.FC = async () => {
             </Balancer>
           </h1>
 
-          <h2
+          <p
             className="text-center text-muted-foreground"
             dangerouslySetInnerHTML={{ __html: t("description") }}
           />
