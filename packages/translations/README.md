@@ -105,7 +105,7 @@ export function proxy(request: NextRequest) {
   );
 
   if (pathnameLocale === defaultLocale) {
-    const newPathname = pathname.replace(`/${defaultLocale}`, "") || "/";
+    const newPathname = pathname.slice(`/${defaultLocale}`.length) || "/";
     const response = NextResponse.redirect(new URL(newPathname, request.url));
     response.cookies.set(LOCALE_COOKIE, defaultLocale, {
       path: "/",
