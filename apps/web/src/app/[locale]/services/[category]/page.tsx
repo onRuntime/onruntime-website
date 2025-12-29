@@ -1,9 +1,9 @@
-import React from 'react';
 import { notFound } from 'next/navigation';
 import Services from '@/constants/services';
 import ServiceOverviewPage from '@/components/marketing/services/service-overview';
 import { ServiceCategoryData } from '@/types/service';
 import { constructMetadata } from '@/lib/utils/metadata';
+import { getTranslation } from '@/lib/translations.server';
 
 type Props = {
   params: Promise<{
@@ -16,9 +16,10 @@ export async function generateMetadata({ params }: Props) {
   const categoryData = Services.find(service => service.id === category);
 
   if (!categoryData) {
+    const { t } = await getTranslation('app/services/[category]/page');
     return constructMetadata({
-      title: "Service non trouvé",
-      description: "Cette catégorie de service n'existe pas.",
+      title: t('metadata.not-found.title'),
+      description: t('metadata.not-found.description'),
       noIndex: true,
     });
   }
