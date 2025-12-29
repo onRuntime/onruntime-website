@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import { Link } from '@onruntime/translations/next';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import DotPattern from '@/components/ui/dot-pattern';

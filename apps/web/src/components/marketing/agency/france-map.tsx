@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import Link from 'next/link';
+import { Link } from '@onruntime/translations/next';
 import { getAgencyById } from '@/constants/agencies';
 
 interface FranceMapProps {

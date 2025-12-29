@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import { Link } from '@onruntime/translations/next'
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ChevronLeft } from "lucide-react"

@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { Link } from '@onruntime/translations/next';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
