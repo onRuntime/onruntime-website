@@ -18,7 +18,7 @@ import {
   User,
 } from "lucide-react";
 import TeamMembers from "@/constants/team-members";
-import { env } from "process";
+import { siteConfig } from "@/lib/utils/metadata";
 import { getTranslation } from "@/lib/translations.server";
 
 import { MemberWebsiteButton } from "@/components/marketing/projects/details/member-website-button";
@@ -181,7 +181,7 @@ const ProjectPage: React.FC<ProjectPageProps> = async ({ project }) => {
             height={750}
             imageSrc={project.showcaseUrl}
             url={
-              new URL(project.website || env.NEXT_PUBLIC_APP_URL || "").hostname
+              new URL(project.website || siteConfig.url).hostname
             }
           />
         </div>

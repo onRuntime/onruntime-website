@@ -9,6 +9,7 @@ import { constructMetadata } from '@/lib/utils/metadata';
 import FranceMap from '@/components/marketing/agency/france-map';
 import { getMajorAgencies } from '@/constants/agencies';
 import { OrganizationSchema } from '@/components/json-ld/organization-schema';
+import { ORGANIZATION_DATA } from '@/components/json-ld/constants';
 
 export async function generateMetadata() {
   return constructMetadata({
@@ -23,9 +24,9 @@ export default function AgencyLandingPage() {
   
   return (
     <main className="min-h-screen pt-32 pb-16 sm:w-auto w-full">
-      <OrganizationSchema 
+      <OrganizationSchema
         type="DigitalAgency"
-        id="https://onruntime.com/agency#organization"
+        id={`${ORGANIZATION_DATA.url}${Routes.agency.root}#organization`}
       />
       
       <div className="px-4 md:px-0 max-w-5xl mx-auto space-y-24">

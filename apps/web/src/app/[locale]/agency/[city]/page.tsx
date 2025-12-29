@@ -11,6 +11,7 @@ import { getAgencyById } from '@/constants/agencies';
 import { LocalBusinessSchema } from '@/components/json-ld/localbusiness-schema';
 import { BreadcrumbSchema } from '@/components/json-ld/breadcrumb-schema';
 import { FAQPageSchema } from '@/components/json-ld/faqpage-schema';
+import { ORGANIZATION_DATA } from '@/components/json-ld/constants';
 import FAQSection from '@/components/marketing/services/faq-section';
 import Routes from '@/constants/routes';
 
@@ -74,29 +75,29 @@ export default async function CityPage({ params }: AgencyPageProps) {
   return (
     <main className="min-h-screen pt-32 pb-16 w-full">
       
-      <LocalBusinessSchema 
+      <LocalBusinessSchema
         type="ProfessionalService"
-        id={`https://onruntime.com/agency/${agency.id}#service`}
+        id={`${ORGANIZATION_DATA.url}${Routes.agency.city(agency.id)}#service`}
         description={agency.description}
         geo={agency.geo}
       />
-      
-      <BreadcrumbSchema 
+
+      <BreadcrumbSchema
         itemListElements={[
           {
             position: 1,
             name: "Accueil",
-            item: "https://onruntime.com/"
+            item: `${ORGANIZATION_DATA.url}/`
           },
           {
             position: 2,
             name: "Expertise locale",
-            item: "https://onruntime.com/agency"
+            item: `${ORGANIZATION_DATA.url}${Routes.agency.root}`
           },
           {
             position: 3,
             name: `${agency.name}`,
-            item: `https://onruntime.com/agency/${agency.id}`
+            item: `${ORGANIZATION_DATA.url}${Routes.agency.city(agency.id)}`
           }
         ]}
       />

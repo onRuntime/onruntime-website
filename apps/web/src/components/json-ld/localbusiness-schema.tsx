@@ -25,13 +25,13 @@ type LocalBusinessSchemaProps = {
 export const LocalBusinessSchema: React.FC<LocalBusinessSchemaProps> = ({
   useAppDir = true,
   type = "DigitalAgency",
-  id = "https://onruntime.com/#localbusiness",
+  id = `${ORGANIZATION_DATA.url}/#localbusiness`,
   description = "Agence digitale spécialisée en développement web, mobile et design UI/UX. Notre équipe d'experts transforme vos idées en solutions digitales performantes.",
   geo = {
     latitude: "44.7506",
     longitude: "6.5772",
   },
-  images = ["https://onruntime.com/static/images/onruntime-team.jpg"],
+  images = [`${ORGANIZATION_DATA.url}/static/images/onruntime-team.jpg`],
   priceRange = "€€",
   openingHours = [
     {

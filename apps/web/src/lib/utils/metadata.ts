@@ -19,7 +19,7 @@ function toOgLocale(locale: string): string {
 export const siteConfig = {
   name: "onRuntime Studio",
   description: "Agence digitale spécialisée en développement web, mobile et design UI/UX. Notre équipe d'experts transforme vos idées en solutions digitales performantes.",
-  url: env.NEXT_PUBLIC_APP_URL || "https://onruntime.com",
+  url: env.NEXT_PUBLIC_APP_URL,
   ogImage: "/og.jpg", 
   links: {
     discord: "https://discord.gg/ucX9c5yXmX",
