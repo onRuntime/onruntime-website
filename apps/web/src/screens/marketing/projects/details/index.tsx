@@ -220,7 +220,7 @@ const ProjectPage: React.FC<ProjectPageProps> = async ({ project }) => {
             </div>
             <div>
               <p className="text-sm text-muted-foreground">{t("info.status")}</p>
-              <p className="font-semibold capitalize">{project.status}</p>
+              <p className="font-semibold">{t(`info.statuses.${project.status}`)}</p>
             </div>
           </div>
 

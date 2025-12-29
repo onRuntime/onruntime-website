@@ -11,6 +11,11 @@
   "info": {
     "start-date": "Date de début",
     "status": "Statut",
+    "statuses": {
+      "active": "En cours",
+      "completed": "Terminé",
+      "archived": "Archivé"
+    },
     "team": "Équipe",
     "members": "membres"
   },

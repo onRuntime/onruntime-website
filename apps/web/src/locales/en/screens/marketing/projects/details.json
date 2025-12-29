@@ -11,6 +11,11 @@
   "info": {
     "start-date": "Start date",
     "status": "Status",
+    "statuses": {
+      "active": "Active",
+      "completed": "Completed",
+      "archived": "Archived"
+    },
     "team": "Team",
     "members": "members"
   },
