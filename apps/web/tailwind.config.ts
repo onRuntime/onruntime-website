@@ -8,6 +8,19 @@ export default {
 		"./src/screens/**/*.{js,ts,jsx,tsx,mdx}",
 		"./src/app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
+	safelist: [
+		{
+			pattern: /bg-onruntime-(blue|magenta)\/(5|10|15|20)/,
+		},
+		{
+			pattern: /border-onruntime-(blue|magenta)\/(10|20|30|40)/,
+		},
+		{
+			pattern: /text-onruntime-(blue|magenta)/,
+		},
+		"bg-onruntime-blue",
+		"bg-onruntime-magenta",
+	],
 	theme: {
 		extend: {
 			screens: {

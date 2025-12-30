@@ -81,7 +81,7 @@ const CityHeroSection = async ({ agency }: CityHeroSectionProps) => {
         </div>
       </div>
 
-      <div className={`absolute inset-0 z-0 opacity-10 overflow-hidden`}>
+      <div className="absolute inset-0 z-0 opacity-10 overflow-hidden">
         <div className={`absolute -right-20 -top-20 w-[400px] h-[400px] rounded-full bg-onruntime-${accent} blur-3xl`}></div>
         <div className={`absolute -left-20 -bottom-20 w-[300px] h-[300px] rounded-full bg-onruntime-${accent} blur-3xl`}></div>
       </div>
