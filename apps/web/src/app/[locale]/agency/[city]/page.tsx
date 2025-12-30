@@ -13,7 +13,7 @@ import { LocalBusinessSchema } from '@/components/json-ld/localbusiness-schema';
 import { BreadcrumbSchema } from '@/components/json-ld/breadcrumb-schema';
 import { FAQPageSchema } from '@/components/json-ld/faqpage-schema';
 import { ORGANIZATION_DATA } from '@/components/json-ld/constants';
-import FAQSection from '@/components/marketing/services/faq-section';
+import AgencyFAQSection from '@/components/marketing/agency/agency-faq-section';
 import Routes from '@/constants/routes';
 
 type AgencyPageProps = {
@@ -179,14 +179,7 @@ export default async function CityPage({ params }: AgencyPageProps) {
 
         <LocalPortfolio agency={agency} />
 
-        <FAQSection
-          title={t('faq.title', { city: agency.name })}
-          description={t('faq.description', { city: agency.name })}
-          items={faqItems.map(faq => ({
-            question: faq.questionName,
-            answer: faq.acceptedAnswerText
-          }))}
-        />
+        <AgencyFAQSection agencyId={agency.id} />
 
         {agency.testimonials && agency.testimonials.length > 0 && (
           <div className="space-y-8">
