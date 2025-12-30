@@ -4,5 +4,42 @@
       "title": "Local expertise unavailable",
       "description": "We don't have specific expertise for this city yet."
     }
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "local-expertise": "Local expertise"
+  },
+  "challenges": {
+    "title": "Digital challenges for businesses in {city}",
+    "description": "Businesses in {city} face specific challenges in digital transformation. Our expertise allows us to address them effectively.",
+    "market-issues": "{region} market challenges",
+    "our-solutions": "Our tailored solutions",
+    "discover-all-services": "Discover all our services"
+  },
+  "faq": {
+    "title": "Frequently asked questions about web projects in {city}",
+    "description": "Find answers to the most common questions from businesses in {city} about their digital projects.",
+    "questions": {
+      "choose-agency": {
+        "question": "How to choose the right web agency in {city}?",
+        "answer": "To choose the right web agency in {city}, evaluate their knowledge of the local market, their portfolio in your industry, and their ability to understand your specific goals. Expertise in digital challenges specific to the {region} region is also a key factor."
+      },
+      "project-costs": {
+        "question": "What are the costs of a web project in {city}?",
+        "answer": "The costs of a web project in {city} vary depending on complexity, features, and objectives. For a professional showcase website, expect between €3,000 and €8,000. For a custom web application or e-commerce, prices generally start at €10,000. Request a personalized quote for an accurate estimate."
+      },
+      "development-time": {
+        "question": "How long does it take to develop a website or application for my business in {city}?",
+        "answer": "Development timelines for a business in {city} depend on project complexity. A showcase website can be completed in 4-8 weeks, while a custom application or e-commerce typically requires 2-4 months. Our agile methodology allows for progressive deliveries to see progress quickly."
+      },
+      "remote-work": {
+        "question": "Can you work effectively with my business in {city} remotely?",
+        "answer": "Absolutely. We collaborate effectively with businesses in {city} through our proven remote work methodology. Regular video conferences, powerful collaborative tools, and our in-depth knowledge of the local {region} market allow us to provide follow-up as effective as with an on-site team."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What our clients in {city} say",
+    "description": "Discover feedback from local businesses we have collaborated with."
   }
 }

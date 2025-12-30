@@ -1,0 +1,84 @@
+{
+  "title": "Web Agency in Paris | Web Development, Mobile & UI/UX Design",
+  "description": "Your digital partner in the heart of Paris. Web development, mobile and UI/UX design solutions to accelerate the growth of your Parisian business.",
+  "hero-title": "Digital Development in the Capital",
+  "hero-description": "Transform your digital presence with innovative solutions tailored to the competitive Parisian market and its dynamic ecosystem of startups, large corporations and innovative companies.",
+  "intro-text": "At the heart of the French capital, our digital expertise meets the demands of the Parisian market with innovative web and mobile solutions. Between large corporations, luxury companies and fast-growing startups, Paris concentrates a dynamic digital ecosystem whose challenges and opportunities we fully understand.",
+  "expertise-text": "We design premium digital experiences that meet the high standards of Parisian businesses. Our team masters the specific challenges of the capital, whether it's creating refined user interfaces for the luxury sector, high-performance applications for fintechs, or scalable solutions for fast-growing startups.",
+  "why-choose-us": "Our in-depth knowledge of the Parisian market allows us to develop digital solutions perfectly aligned with the requirements of capital businesses. We combine technical innovation, creative excellence and business understanding to effectively support you in a highly competitive environment.",
+  "key-business-sectors": {
+    "startups-tech": "Tech Startups",
+    "finance": "Finance",
+    "luxury": "Luxury",
+    "media-communication": "Media & Communications"
+  },
+  "local-challenges": {
+    "digital-competition": "Strong digital competition in the Parisian market requiring differentiating solutions",
+    "agile-tools-startups": "Need for agile and high-performance tools for fast-growing startups",
+    "financial-digitalization": "Digitalization of traditional financial services facing fintechs",
+    "luxury-digital-experiences": "Development of premium digital experiences for the Parisian luxury sector",
+    "corporate-transformation": "Innovative solutions for large corporations undergoing digital transformation"
+  },
+  "benefits": {
+    "startup-expertise": "Sharp expertise in the latest technologies adapted to the Parisian startup ecosystem",
+    "premium-solutions": "Premium solutions meeting the high standards of the capital's market",
+    "luxury-finance-understanding": "Understanding of luxury and finance codes for tailor-made digital experiences",
+    "agility-responsiveness": "Agility and responsiveness to match the intensive pace of Parisian businesses",
+    "tech-trends-knowledge": "In-depth knowledge of French tech trends and innovations"
+  },
+  "primary-stat": {
+    "label": "startup & tech"
+  },
+  "strengths": {
+    "startup-solutions": {
+      "title": "Startup Solutions",
+      "description": "Scalable applications for fast-growing companies."
+    },
+    "luxury-experiences": {
+      "title": "Luxury Experiences",
+      "description": "Premium interfaces for high-end brands and services."
+    },
+    "finance-fintech": {
+      "title": "Finance & Fintech",
+      "description": "Secure solutions for the Parisian financial sector."
+    },
+    "international": {
+      "title": "International",
+      "description": "Multilingual development adapted to global companies."
+    }
+  },
+  "focused-services": {
+    "saas-applications": {
+      "name": "SaaS Applications",
+      "description": "Development of innovative cloud solutions for startups and scale-ups."
+    },
+    "premium-ecommerce": {
+      "name": "Premium E-commerce",
+      "description": "High-end sales platforms for Parisian luxury brands."
+    },
+    "innovative-design": {
+      "name": "Innovative UI/UX Design",
+      "description": "Modern and differentiating user interfaces to stand out in Paris."
+    }
+  },
+  "contact-info": {
+    "meeting-options": {
+      "video-conference": "Video conference",
+      "in-person": "Meetings in Paris"
+    }
+  },
+  "stats": {
+    "startups": {
+      "label": "Startups",
+      "description": "Projects for startups"
+    },
+    "luxury-clients": {
+      "label": "Luxury clients",
+      "description": "Premium brands"
+    },
+    "average-roi": {
+      "label": "Average ROI",
+      "description": "Return on investment"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "title": "Web Development in Montpellier | Digital Solutions for Languedoc Businesses",
+  "description": "Create your website or mobile application in Montpellier. Custom digital solutions for Montpellier businesses, tailored to the local challenges of your sector.",
+  "hero-title": "Web & Mobile Development in Montpellier",
+  "hero-description": "We help businesses in Montpellier and the Languedoc region digitalize with custom web solutions, perfectly adapted to the specific challenges of the regional market.",
+  "intro-text": "A dynamic city at the crossroads of Mediterranean and Languedoc influences, Montpellier stands out for its health innovation ecosystem, prestigious universities and art of living. Our digital expertise enables Montpellier businesses to leverage this richness and stand out in a competitive environment.",
+  "expertise-text": "Our team designs websites, applications and digital solutions perfectly adapted to businesses in Montpellier and its region. We understand the specific challenges of your local market, whether in the health sector, education or Languedoc terroir, and offer digital solutions that showcase your expertise and regional roots.",
+  "why-choose-us": "Our in-depth knowledge of the Montpellier market allows us to develop digital solutions perfectly adapted to the specific challenges of local businesses. We understand the balance between innovation and tradition that characterizes Montpellier, and integrate this understanding into each project to create authentic and high-performing digital experiences.",
+  "key-business-sectors": {
+    "health-biotech": "Health & Biotechnologies",
+    "higher-education": "Higher Education",
+    "viticulture": "Viticulture",
+    "tourism": "Tourism"
+  },
+  "local-challenges": {
+    "biotech-health-digitalization": "Digitalization of the expanding biotechnology and health sector",
+    "innovative-educational-platforms": "Need for innovative educational platforms for numerous universities and schools",
+    "wine-heritage-digital-showcase": "Digital showcase of wine heritage and local products",
+    "tourism-adaptation": "Adaptation of tourism players facing Mediterranean competition"
+  },
+  "benefits": {
+    "health-sector-solutions": "Custom solutions adapted to innovative health sector companies",
+    "educational-platforms-expertise": "Sharp expertise in educational platforms and e-learning tools",
+    "languedoc-market-knowledge": "In-depth knowledge of the Languedoc market and its specificities",
+    "regional-products-ui": "User interfaces optimized to showcase regional products",
+    "personalized-support": "Personalized support throughout your digital project"
+  },
+  "primary-stat": {
+    "label": "biotechnologies"
+  },
+  "strengths": {
+    "connected-health": {
+      "title": "Connected Health",
+      "description": "Digital solutions for life sciences startups and companies."
+    },
+    "elearning": {
+      "title": "E-learning",
+      "description": "Educational platforms for universities and training institutions."
+    },
+    "digital-terroir": {
+      "title": "Digital Terroir",
+      "description": "Sites and e-commerce for wine estates and local producers."
+    },
+    "regional-tourism": {
+      "title": "Regional Tourism",
+      "description": "Digital experiences to showcase Languedoc heritage."
+    }
+  },
+  "focused-services": {
+    "health-applications": {
+      "name": "Health Applications",
+      "description": "Custom solutions for life sciences startups and companies."
+    },
+    "educational-platforms": {
+      "name": "Educational Platforms",
+      "description": "Digital learning tools for educational institutions."
+    },
+    "terroir-ecommerce": {
+      "name": "Terroir E-commerce",
+      "description": "Online stores for local producers and wine estates."
+    }
+  },
+  "contact-info": {
+    "meeting-options": {
+      "video-conference": "Video conference",
+      "in-person": "Occasional meetings in Montpellier"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Years of experience"
+    },
+    "satisfaction": {
+      "label": "Satisfaction",
+      "description": "Satisfied clients"
+    },
+    "average-time": {
+      "label": "Average Time",
+      "description": "Weeks of completion"
+    }
+  }
+}

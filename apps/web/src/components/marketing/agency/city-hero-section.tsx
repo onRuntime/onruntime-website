@@ -14,21 +14,22 @@ interface CityHeroSectionProps {
 
 const CityHeroSection = async ({ agency }: CityHeroSectionProps) => {
   const { t } = await getTranslation('components/marketing/agency/city-hero-section');
+  const { t: tAgency } = await getTranslation(`constants/agencies/${agency.id}`);
 
   const accent = agency.accentColor || "blue";
 
-  const heroTitle = agency.heroTitle || t('default-title', { name: agency.name });
-  const heroDescription = agency.heroDescription || agency.description;
+  const heroTitle = tAgency('hero-title');
+  const heroDescription = tAgency('hero-description');
 
   return (
     <div className="relative overflow-hidden rounded-xl border border-border bg-card mb-24">
       <div className="grid md:grid-cols-2 gap-6">
-        
+
         <div className="min-w-0 p-8 md:p-12 flex flex-col items-start gap-6 relative z-10">
           <h1 className="font-medium text-4xl md:text-5xl text-foreground">
             {heroTitle}
           </h1>
-          
+
           <p className="text-muted-foreground text-lg">
             {heroDescription}
           </p>
@@ -36,7 +37,7 @@ const CityHeroSection = async ({ agency }: CityHeroSectionProps) => {
           <div className="flex flex-wrap gap-4 mt-2">
             {agency.keyBusinessSectors.slice(0, 3).map((sector, index) => (
               <div key={index} className="px-3 py-1 bg-background rounded-full border text-sm">
-                {sector}
+                {tAgency(`key-business-sectors.${sector}`)}
               </div>
             ))}
           </div>
@@ -51,7 +52,7 @@ const CityHeroSection = async ({ agency }: CityHeroSectionProps) => {
 
         <div className="relative hidden md:flex items-center justify-center p-8 overflow-hidden">
           <div className="relative z-10 w-full max-w-xs aspect-square">
-            
+
             {agency.primaryStat && agency.primaryStat.icon && (
               <div className={`absolute inset-0 rounded-full bg-onruntime-${accent}/5 backdrop-blur-sm border border-onruntime-${accent}/10 flex items-center justify-center`}>
                 {React.createElement(
@@ -61,14 +62,14 @@ const CityHeroSection = async ({ agency }: CityHeroSectionProps) => {
               </div>
             )}
 
-            <div 
+            <div
               className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-background/80 backdrop-blur-sm p-4 rounded-lg border border-border shadow-sm"
               style={{ maxWidth: '160px' }}
             >
               <p className="text-center font-medium text-lg capitalize">{agency.name}</p>
               {agency.primaryStat && (
                 <p className="text-xs text-center text-muted-foreground mt-1">
-                  {t('specialist', { stat: agency.primaryStat.label })}
+                  {t('specialist', { stat: tAgency('primary-stat.label') })}
                 </p>
               )}
             </div>

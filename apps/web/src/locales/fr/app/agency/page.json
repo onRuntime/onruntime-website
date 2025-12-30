@@ -2,5 +2,80 @@
   "metadata": {
     "title": "Expertise web locale | Développement digital dans les grandes villes françaises",
     "description": "Nous accompagnons les entreprises locales partout en France avec notre expertise des marchés numériques régionaux. Solutions digitales adaptées à chaque région."
+  },
+  "hero": {
+    "title": "Votre partenaire digital partout en France",
+    "description": "Nous développons des solutions digitales innovantes adaptées aux spécificités de chaque marché régional français. Notre équipe maîtrise les enjeux numériques locaux pour vous accompagner efficacement, où que vous soyez en France.",
+    "cta": "Discuter de votre projet",
+    "secondary-cta": "Découvrir notre expertise locale"
+  },
+  "expertise": {
+    "title": "Une expertise adaptée à chaque territoire",
+    "description": "Notre équipe analyse et comprend les écosystèmes numériques locaux pour vous proposer des solutions parfaitement adaptées aux spécificités économiques et culturelles de votre région.",
+    "local-markets": {
+      "title": "Compréhension des marchés locaux",
+      "description": "Nous étudions et maîtrisons les spécificités et les tendances des écosystèmes numériques régionaux."
+    },
+    "remote-work": {
+      "title": "Travail à distance efficace",
+      "description": "Notre équipe collabore à distance avec votre entreprise, où que vous soyez en France, avec la même efficacité qu'en présentiel."
+    },
+    "custom-solutions": {
+      "title": "Solutions personnalisées",
+      "description": "Des stratégies digitales sur mesure qui s'adaptent à votre contexte local et aux particularités de votre marché régional."
+    }
+  },
+  "cities": {
+    "title": "Notre expertise dans les grandes villes françaises",
+    "description": "Découvrez notre connaissance approfondie des marchés locaux et comment elle peut bénéficier à votre entreprise.",
+    "region-label": "Région",
+    "discover-cta": "Découvrir notre expertise"
+  },
+  "why-us": {
+    "title": "Pourquoi travailler avec nous pour votre projet local ?",
+    "description": "Notre connaissance des marchés régionaux présente de nombreux avantages pour votre entreprise.",
+    "local-ecosystems": {
+      "title": "Expertise des écosystèmes locaux",
+      "description": "Une équipe qui comprend les dynamiques de marché propres à votre région, permettant une stratégie digitale parfaitement adaptée."
+    },
+    "remote-agility": {
+      "title": "Agilité à distance",
+      "description": "Collaboration efficace par visioconférence, messagerie et outils collaboratifs pour une expérience de travail fluide et productive."
+    },
+    "localized-strategies": {
+      "title": "Stratégies localisées",
+      "description": "Des solutions digitales qui tiennent compte des spécificités culturelles et économiques de votre territoire."
+    },
+    "regional-analysis": {
+      "title": "Analyse de marché régional",
+      "description": "Étude des tendances, de la concurrence et des opportunités propres à votre secteur géographique pour une stratégie digitale optimale."
+    }
+  },
+  "services": {
+    "title": "Nos services pour toutes les régions de France",
+    "description": "Des solutions digitales complètes adaptées aux spécificités de chaque marché local.",
+    "design": {
+      "title": "Design UI/UX",
+      "description": "Interfaces adaptées aux usages locaux"
+    },
+    "integration": {
+      "title": "Intégration",
+      "description": "Solutions CMS et e-commerce régionales"
+    },
+    "frontend": {
+      "title": "Front-end",
+      "description": "Applications adaptées à vos utilisateurs"
+    },
+    "backend": {
+      "title": "Back-end",
+      "description": "Infrastructures robustes et évolutives"
+    },
+    "discover-all": "Découvrir tous nos services"
+  },
+  "cta": {
+    "title": "Un projet digital adapté à votre marché local ?",
+    "description": "Contactez-nous pour discuter de votre projet. Notre expertise des marchés locaux nous permet de vous accompagner efficacement, où que vous soyez en France.",
+    "contact": "Nous contacter",
+    "learn-more": "En savoir plus sur notre approche"
   }
 }

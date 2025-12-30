@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Link } from '@onruntime/translations/next';
+import { useTranslation } from '@onruntime/translations/react';
 import { getAgencyById } from '@/constants/agencies';
 
 interface FranceMapProps {
@@ -9,7 +10,8 @@ interface FranceMapProps {
 }
 
 const FranceMap: React.FC<FranceMapProps> = ({ cities }) => {
-  
+  const { t } = useTranslation('components/marketing/agency/france-map');
+
   const cityCoordinates = {
     paris: { x: 235, y: 170, label: "Paris" },
     marseille: { x: 250, y: 320, label: "Marseille" },
@@ -89,7 +91,7 @@ const FranceMap: React.FC<FranceMapProps> = ({ cities }) => {
           y="30"
           className="text-xs fill-current text-muted-foreground"
         >
-          Découvrez nos services adaptés à votre ville
+          {t('description')}
         </text>
       </svg>
     </div>

@@ -1,0 +1,83 @@
+{
+  "title": "Développement Web à Strasbourg | Solutions Digitales pour Entreprises Alsaciennes",
+  "description": "Créez votre site web ou application mobile à Strasbourg. Solutions digitales sur mesure pour les entreprises alsaciennes, adaptées aux enjeux locaux et transfrontaliers.",
+  "hero-title": "Développement Web & Mobile à Strasbourg",
+  "hero-description": "Nous aidons les entreprises de Strasbourg et du Grand Est à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché alsacien et européen.",
+  "intro-text": "Capitale européenne et ville frontalière au riche patrimoine, Strasbourg conjugue traditions alsaciennes et ouverture internationale. Son statut de siège d'institutions européennes, son industrie dynamique et sa position stratégique entre France et Allemagne en font un territoire unique où le digital joue un rôle essentiel de passerelle.",
+  "expertise-text": "Notre équipe conçoit des sites web, applications et solutions digitales parfaitement adaptés aux entreprises strasbourgeoises, qu'elles soient des organisations internationales, des entreprises industrielles ou des acteurs du patrimoine local. Nous comprenons les défis spécifiques de votre marché régional et transfrontalier, et vous proposons des solutions numériques multilingues et culturellement adaptées.",
+  "why-choose-us": "Notre connaissance approfondie du marché strasbourgeois nous permet de développer des solutions numériques parfaitement adaptées aux défis spécifiques des entreprises locales. Nous comprenons les exigences du contexte européen et les particularités culturelles alsaciennes, et intégrons cette double dimension dans chaque projet pour créer des expériences digitales pertinentes et performantes.",
+  "key-business-sectors": {
+    "european-institutions": "Institutions européennes",
+    "cross-border-commerce": "Commerce transfrontalier",
+    "industry": "Industrie",
+    "culture-heritage": "Culture & Patrimoine"
+  },
+  "local-challenges": {
+    "european-institutions-needs": "Besoins spécifiques des institutions européennes et organisations internationales",
+    "cross-border-development": "Développement du commerce transfrontalier avec l'Allemagne et la Suisse",
+    "traditional-industries-transformation": "Transformation digitale des industries traditionnelles alsaciennes",
+    "heritage-digital-showcase": "Valorisation numérique du riche patrimoine culturel et historique de la région"
+  },
+  "benefits": {
+    "multilingual-solutions": "Solutions multilingues adaptées au contexte international strasbourgeois",
+    "european-standards-expertise": "Expertise pointue dans les interfaces utilisateur conformes aux normes européennes",
+    "cross-border-knowledge": "Connaissance approfondie des marchés transfrontaliers et de leurs spécificités",
+    "innovative-traditional-approach": "Approche à la fois innovante et respectueuse des traditions alsaciennes",
+    "personalized-support": "Accompagnement personnalisé tout au long de votre projet digital"
+  },
+  "primary-stat": {
+    "label": "contexte international"
+  },
+  "strengths": {
+    "european-solutions": {
+      "title": "Solutions européennes",
+      "description": "Plateformes multilingues pour institutions et organisations internationales."
+    },
+    "cross-border-commerce": {
+      "title": "Commerce transfrontalier",
+      "description": "Solutions e-commerce adaptées aux marchés français, allemand et suisse."
+    },
+    "industry-40": {
+      "title": "Industrie 4.0",
+      "description": "Digitalisation des processus pour l'industrie alsacienne traditionnelle."
+    },
+    "digital-heritage": {
+      "title": "Patrimoine numérique",
+      "description": "Expériences digitales pour valoriser le patrimoine culturel et historique."
+    }
+  },
+  "focused-services": {
+    "institutional-websites": {
+      "name": "Sites institutionnels",
+      "description": "Plateformes multilingues conformes aux normes européennes d'accessibilité."
+    },
+    "cross-border-ecommerce": {
+      "name": "E-commerce transfrontalier",
+      "description": "Solutions commerciales adaptées aux spécificités des marchés allemand et français."
+    },
+    "industrial-applications": {
+      "name": "Applications industrielles",
+      "description": "Outils numériques sur mesure pour moderniser les process industriels."
+    }
+  },
+  "contact-info": {
+    "meeting-options": {
+      "video-conference": "Visioconférence",
+      "in-person": "Déplacements occasionnels à Strasbourg"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Années d'expérience"
+    },
+    "satisfaction": {
+      "label": "Satisfaction",
+      "description": "Clients satisfaits"
+    },
+    "average-time": {
+      "label": "Délai moyen",
+      "description": "Semaines de réalisation"
+    }
+  }
+}

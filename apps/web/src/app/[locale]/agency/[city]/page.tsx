@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
@@ -38,9 +37,11 @@ export async function generateMetadata({
     });
   }
 
+  const { t: tAgency } = await getTranslation(`constants/agencies/${agency.id}`);
+
   return constructMetadata({
-    title: agency.title,
-    description: agency.description,
+    title: tAgency('title'),
+    description: tAgency('description'),
   });
 }
 
@@ -54,32 +55,35 @@ export default async function CityPage({ params }: AgencyPageProps) {
     notFound();
   }
 
+  const { t } = await getTranslation('app/agency/[city]/page');
+  const { t: tAgency } = await getTranslation(`constants/agencies/${agency.id}`);
+
   const faqItems = [
     {
-      questionName: `Comment choisir la bonne agence web à ${agency.name} ?`,
-      acceptedAnswerText: `Pour choisir la bonne agence web à ${agency.name}, évaluez leur connaissance du marché local, leur portfolio dans votre secteur d'activité, et leur capacité à comprendre vos objectifs spécifiques. L'expertise dans les défis numériques propres à la région ${agency.region} est également un facteur clé.`
+      questionName: t('faq.questions.choose-agency.question', { city: agency.name }),
+      acceptedAnswerText: t('faq.questions.choose-agency.answer', { city: agency.name, region: agency.region })
     },
     {
-      questionName: `Quels sont les coûts d'un projet web à ${agency.name} ?`,
-      acceptedAnswerText: `Les coûts d'un projet web à ${agency.name} varient selon la complexité, les fonctionnalités et les objectifs. Pour un site vitrine professionnel, comptez entre 3 000€ et 8 000€. Pour une application web ou e-commerce, les tarifs débutent généralement à 10 000€. Demandez un devis personnalisé pour une estimation précise.`
+      questionName: t('faq.questions.project-costs.question', { city: agency.name }),
+      acceptedAnswerText: t('faq.questions.project-costs.answer', { city: agency.name })
     },
     {
-      questionName: `Combien de temps faut-il pour développer un site web ou une application pour mon entreprise à ${agency.name} ?`,
-      acceptedAnswerText: `Les délais de développement pour une entreprise à ${agency.name} dépendent de la complexité du projet. Un site vitrine peut être réalisé en 4-8 semaines, tandis qu'une application sur mesure ou un e-commerce nécessite généralement 2-4 mois. Notre méthodologie agile permet des livraisons progressives pour voir rapidement les avancées.`
+      questionName: t('faq.questions.development-time.question', { city: agency.name }),
+      acceptedAnswerText: t('faq.questions.development-time.answer', { city: agency.name })
     },
     {
-      questionName: `Pouvez-vous travailler efficacement avec mon entreprise à ${agency.name} à distance ?`,
-      acceptedAnswerText: `Absolument. Nous collaborons efficacement avec les entreprises de ${agency.name} grâce à notre méthodologie éprouvée de travail à distance. Visioconférences régulières, outils collaboratifs performants et notre connaissance approfondie du marché local de ${agency.region} nous permettent d'assurer un suivi aussi efficace qu'avec une équipe sur place.`
+      questionName: t('faq.questions.remote-work.question', { city: agency.name }),
+      acceptedAnswerText: t('faq.questions.remote-work.answer', { city: agency.name, region: agency.region })
     }
   ];
-  
+
   return (
     <main className="min-h-screen pt-32 pb-16 w-full">
-      
+
       <LocalBusinessSchema
         type="ProfessionalService"
         id={`${ORGANIZATION_DATA.url}${Routes.agency.city(agency.id)}#service`}
-        description={agency.description}
+        description={tAgency('description')}
         geo={agency.geo}
       />
 
@@ -87,12 +91,12 @@ export default async function CityPage({ params }: AgencyPageProps) {
         itemListElements={[
           {
             position: 1,
-            name: "Accueil",
+            name: t('breadcrumb.home'),
             item: `${ORGANIZATION_DATA.url}/`
           },
           {
             position: 2,
-            name: "Expertise locale",
+            name: t('breadcrumb.local-expertise'),
             item: `${ORGANIZATION_DATA.url}${Routes.agency.root}`
           },
           {
@@ -102,9 +106,9 @@ export default async function CityPage({ params }: AgencyPageProps) {
           }
         ]}
       />
-      
+
       <FAQPageSchema mainEntity={faqItems} />
-      
+
       <div className="px-4 md:px-0 max-w-5xl mx-auto space-y-24">
         <CityHeroSection agency={agency} />
         <LocalExpertise agency={agency} />
@@ -112,16 +116,16 @@ export default async function CityPage({ params }: AgencyPageProps) {
         <div className="space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
-              Défis numériques des entreprises à {agency.name}
+              {t('challenges.title', { city: agency.name })}
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              Les entreprises de {agency.name} font face à des défis spécifiques en matière de transformation digitale. Notre expertise nous permet d&apos;y répondre efficacement.
+              {t('challenges.description', { city: agency.name })}
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="p-6 border rounded-lg bg-card">
-              <h3 className="text-xl font-medium text-foreground mb-4">Enjeux du marché {agency.region}</h3>
+              <h3 className="text-xl font-medium text-foreground mb-4">{t('challenges.market-issues', { region: agency.region })}</h3>
               <ul className="space-y-4">
                 {agency.localChallenges.map((challenge, index) => (
                   <li key={index} className="flex items-start gap-3">
@@ -135,14 +139,14 @@ export default async function CityPage({ params }: AgencyPageProps) {
                         <circle cx="12" cy="12" r="4"/>
                       </svg>
                     </div>
-                    <p className="text-muted-foreground">{challenge}</p>
+                    <p className="text-muted-foreground">{tAgency(`local-challenges.${challenge}`)}</p>
                   </li>
                 ))}
               </ul>
             </div>
-            
+
             <div className="p-6 border rounded-lg bg-card">
-              <h3 className="text-xl font-medium text-foreground mb-4">Nos solutions adaptées</h3>
+              <h3 className="text-xl font-medium text-foreground mb-4">{t('challenges.our-solutions')}</h3>
               {agency.focusedServices.slice(0, 3).map((service, index) => {
                 const Icon = service.icon;
                 return (
@@ -153,17 +157,17 @@ export default async function CityPage({ params }: AgencyPageProps) {
                       </div>
                     )}
                     <div>
-                      <h4 className="text-sm font-medium text-foreground">{service.name}</h4>
-                      <p className="text-xs text-muted-foreground">{service.description}</p>
+                      <h4 className="text-sm font-medium text-foreground">{tAgency(`focused-services.${service.key}.name`)}</h4>
+                      <p className="text-xs text-muted-foreground">{tAgency(`focused-services.${service.key}.description`)}</p>
                     </div>
                   </div>
                 );
               })}
-              <a 
-                href={Routes.services} 
+              <a
+                href={Routes.services}
                 className="text-xs flex items-center text-onruntime-blue hover:underline mt-2"
               >
-                Découvrir tous nos services
+                {t('challenges.discover-all-services')}
                 <svg className="w-3 h-3 ml-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
@@ -171,12 +175,12 @@ export default async function CityPage({ params }: AgencyPageProps) {
             </div>
           </div>
         </div>
-        
+
         <LocalPortfolio agency={agency} />
 
         <FAQSection
-          title={`Questions fréquentes sur les projets web à ${agency.name}`}
-          description={`Découvrez les réponses aux questions les plus courantes des entreprises de ${agency.name} concernant leurs projets digitaux.`}
+          title={t('faq.title', { city: agency.name })}
+          description={t('faq.description', { city: agency.name })}
           items={faqItems.map(faq => ({
             question: faq.questionName,
             answer: faq.acceptedAnswerText
@@ -187,21 +191,21 @@ export default async function CityPage({ params }: AgencyPageProps) {
           <div className="space-y-8">
             <div className="text-center">
               <h2 className="text-3xl font-medium text-foreground mb-4">
-                Ce que disent nos clients à {agency.name}
+                {t('testimonials.title', { city: agency.name })}
               </h2>
               <p className="text-muted-foreground max-w-3xl mx-auto">
-                Découvrez les retours d&apos;entreprises locales avec lesquelles nous avons collaboré.
+                {t('testimonials.description')}
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               {agency.testimonials.map((testimonial, index) => (
                 <div key={index} className="p-6 border rounded-lg bg-card">
-                  <p className="text-muted-foreground italic mb-4">&quot;{testimonial.text}&quot;</p>
+                  <p className="text-muted-foreground italic mb-4">&quot;{tAgency(`testimonials.${testimonial.key}.text`)}&quot;</p>
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center">
-                      {testimonial.imageUrl ? (
-                        <Image src={testimonial.imageUrl} alt={testimonial.name} width={40} height={40} className="w-full h-full rounded-full object-cover" />
+                      {testimonial.author.imageUrl ? (
+                        <Image src={testimonial.author.imageUrl} alt={testimonial.author.name} width={40} height={40} className="w-full h-full rounded-full object-cover" />
                       ) : (
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
@@ -210,8 +214,8 @@ export default async function CityPage({ params }: AgencyPageProps) {
                       )}
                     </div>
                     <div>
-                      <p className="text-sm font-medium">{testimonial.name}</p>
-                      <p className="text-xs text-muted-foreground">{testimonial.role} - {testimonial.company}</p>
+                      <p className="text-sm font-medium">{testimonial.author.name}</p>
+                      <p className="text-xs text-muted-foreground">{testimonial.author.role} - {testimonial.author.company}</p>
                     </div>
                   </div>
                 </div>
@@ -219,7 +223,7 @@ export default async function CityPage({ params }: AgencyPageProps) {
             </div>
           </div>
         )}
-        
+
         <ContactCTA agency={agency} />
       </div>
     </main>
@@ -227,9 +231,9 @@ export default async function CityPage({ params }: AgencyPageProps) {
 }
 
 export async function generateStaticParams() {
-  
+
   const { default: agencies } = await import('@/constants/agencies');
-  
+
   return agencies.map((agency) => ({
     city: agency.id,
   }));

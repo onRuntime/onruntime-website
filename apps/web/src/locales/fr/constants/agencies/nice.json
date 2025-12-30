@@ -1,0 +1,83 @@
+{
+  "title": "Développement Web à Nice | Solutions Digitales pour Entreprises Azuréennes",
+  "description": "Créez votre site web ou application mobile à Nice. Solutions digitales sur mesure pour les entreprises de la Côte d'Azur, adaptées aux enjeux locaux de votre secteur.",
+  "hero-title": "Développement Web & Mobile à Nice",
+  "hero-description": "Nous aidons les entreprises de Nice et de la Côte d'Azur à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché azuréen.",
+  "intro-text": "Entre mer Méditerranée et Alpes, Nice bénéficie d'un rayonnement international et d'une économie diversifiée où le tourisme côtoie l'innovation. Notre expertise digitale permet aux entreprises niçoises de se démarquer dans un environnement compétitif où l'image et l'excellence sont primordiales.",
+  "expertise-text": "Notre équipe conçoit des sites web, applications et solutions e-commerce parfaitement adaptés aux entreprises de Nice et de la Côte d'Azur. Nous comprenons les exigences élevées de votre marché local et vous proposons des solutions digitales qui valorisent le positionnement premium propre à la région.",
+  "why-choose-us": "Notre connaissance approfondie du marché azuréen nous permet de développer des solutions numériques parfaitement adaptées aux défis spécifiques des entreprises locales. Nous comprenons la dimension internationale de Nice et sa réputation d'excellence, et intégrons ces aspects dans chaque projet pour créer des expériences digitales raffinées et performantes.",
+  "key-business-sectors": {
+    "luxury-tourism": "Tourisme de luxe",
+    "real-estate": "Immobilier",
+    "events": "Événementiel",
+    "health-wellness": "Santé & Bien-être"
+  },
+  "local-challenges": {
+    "luxury-tourism-digitalization": "Digitalisation du secteur du tourisme haut de gamme sur la Côte d'Azur",
+    "innovative-real-estate-solutions": "Besoin de solutions immobilières innovantes pour un marché international exigeant",
+    "events-digital-showcase": "Mise en valeur digitale de l'événementiel (festivals, congrès, expositions)",
+    "health-wellness-transformation": "Transformation numérique du secteur santé et bien-être dans une région reconnue pour sa qualité de vie"
+  },
+  "benefits": {
+    "international-clientele-solutions": "Solutions sur mesure adaptées à une clientèle internationale exigeante",
+    "premium-interfaces-expertise": "Expertise pointue dans les interfaces haut de gamme et l'expérience utilisateur premium",
+    "azurean-market-knowledge": "Connaissance approfondie du marché azuréen et de ses spécificités",
+    "multilingual-applications": "Applications multilingues adaptées à la clientèle internationale de la Côte d'Azur",
+    "personalized-support": "Accompagnement personnalisé tout au long de votre projet digital"
+  },
+  "primary-stat": {
+    "label": "tourisme de luxe"
+  },
+  "strengths": {
+    "premium-experience": {
+      "title": "Expérience premium",
+      "description": "Sites et applications haut de gamme pour le tourisme de luxe et l'hôtellerie."
+    },
+    "digital-real-estate": {
+      "title": "Immobilier digital",
+      "description": "Solutions innovantes pour les agences immobilières et promoteurs."
+    },
+    "event-platforms": {
+      "title": "Plateformes événementielles",
+      "description": "Sites et applications pour festivals, congrès et événements prestigieux."
+    },
+    "connected-wellness": {
+      "title": "Bien-être connecté",
+      "description": "Solutions digitales pour cliniques, spas et centres de bien-être."
+    }
+  },
+  "focused-services": {
+    "premium-websites": {
+      "name": "Sites web premium",
+      "description": "Vitrines digitales haut de gamme pour hôtels, restaurants et boutiques de luxe."
+    },
+    "real-estate-applications": {
+      "name": "Applications immobilières",
+      "description": "Solutions sur mesure pour la présentation et la gestion de biens d'exception."
+    },
+    "visual-identity": {
+      "name": "Identité visuelle",
+      "description": "Design UI/UX élégant et soigné pour marques et établissements prestigieux."
+    }
+  },
+  "contact-info": {
+    "meeting-options": {
+      "video-conference": "Visioconférence",
+      "in-person": "Déplacements occasionnels à Nice"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Années d'expérience"
+    },
+    "satisfaction": {
+      "label": "Satisfaction",
+      "description": "Clients satisfaits"
+    },
+    "average-time": {
+      "label": "Délai moyen",
+      "description": "Semaines de réalisation"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "title": "Web Development in Nantes | Digital Solutions for Loire Valley Businesses",
+  "description": "Create your website or mobile application in Nantes. Custom digital solutions for Nantes businesses, tailored to the local challenges of your sector.",
+  "hero-title": "Web & Mobile Development in Nantes",
+  "hero-description": "We help businesses in Nantes and the Pays de la Loire digitalize with custom web solutions, perfectly adapted to the specific challenges of the Loire Valley market.",
+  "intro-text": "Historic capital of Brittany and innovative metropolis, Nantes is renowned for its economic dynamism and quality of life. Its flourishing digital ecosystem, creative industries and commitment to ecological transition make it a unique territory where digital innovation plays a central role.",
+  "expertise-text": "Our team designs websites, applications and digital solutions perfectly adapted to Nantes businesses, whether they are innovative startups, responsible economy players or traditional companies in transformation. We understand the specificities of the local market and offer digital solutions aligned with the values of innovation and sustainability specific to Nantes.",
+  "why-choose-us": "Our in-depth knowledge of the Nantes market allows us to develop digital solutions perfectly adapted to the specific challenges of local businesses. We understand the spirit of innovation and commitment to a more responsible economy that characterize Nantes, and integrate these values into each digital project we deliver.",
+  "key-business-sectors": {
+    "tech-digital": "Tech & Digital",
+    "ecological-transition": "Ecological Transition",
+    "creative-industries": "Creative Industries",
+    "agrifood": "Agri-food"
+  },
+  "local-challenges": {
+    "digital-ecosystem-competition": "Strong competition in the expanding Nantes digital ecosystem",
+    "startup-scaleup-needs": "Specific needs of local French Tech startups and scale-ups",
+    "ecological-transition-digitalization": "Digitalization of ecological and energy transition players",
+    "traditional-industries-transformation": "Digital transformation of regional traditional and agri-food industries"
+  },
+  "benefits": {
+    "nantes-ecosystem-solutions": "Custom solutions adapted to the Nantes digital ecosystem",
+    "innovative-eco-technologies": "Sharp expertise in innovative and eco-responsible web technologies",
+    "agile-approach": "Agile approach perfectly suited to startups and innovative companies",
+    "digital-transition-knowledge": "In-depth knowledge of Loire Valley digital transition challenges",
+    "personalized-support": "Personalized support throughout your digital project"
+  },
+  "primary-stat": {
+    "label": "Nantes digital"
+  },
+  "strengths": {
+    "innovative-tech": {
+      "title": "Innovative Tech",
+      "description": "Modern digital solutions for Nantes startups and scale-ups."
+    },
+    "eco-design": {
+      "title": "Eco-design",
+      "description": "Sites and applications with controlled environmental footprint."
+    },
+    "maritime-industry": {
+      "title": "Maritime Industry",
+      "description": "Digitalization adapted to port and river activities."
+    },
+    "renewable-energy": {
+      "title": "Renewable Energy",
+      "description": "Digital solutions for energy transition players."
+    }
+  },
+  "focused-services": {
+    "web-applications": {
+      "name": "Web Applications",
+      "description": "High-performance and scalable web applications for startups and innovative companies."
+    },
+    "eco-designed-websites": {
+      "name": "Eco-designed Websites",
+      "description": "Optimized and sustainable websites for responsible economy players."
+    },
+    "business-platforms": {
+      "name": "Business Platforms",
+      "description": "Custom solutions for traditional industries in transformation."
+    }
+  },
+  "contact-info": {
+    "meeting-options": {
+      "video-conference": "Video conference",
+      "in-person": "Occasional meetings in Nantes"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Years of experience"
+    },
+    "satisfaction": {
+      "label": "Satisfaction",
+      "description": "Satisfied clients"
+    },
+    "average-time": {
+      "label": "Average Time",
+      "description": "Weeks of completion"
+    }
+  }
+}

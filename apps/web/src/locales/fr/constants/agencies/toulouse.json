@@ -1,0 +1,83 @@
+{
+  "title": "Développement Web à Toulouse | Solutions Digitales pour Entreprises Occitanes",
+  "description": "Créez votre site web ou application mobile à Toulouse. Solutions digitales sur mesure pour les entreprises toulousaines, adaptées aux enjeux locaux de votre secteur.",
+  "hero-title": "Développement Web & Mobile à Toulouse",
+  "hero-description": "Nous aidons les entreprises de Toulouse et de l'Occitanie à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché toulousain.",
+  "intro-text": "Capitale européenne de l'aéronautique et ville étudiante dynamique, Toulouse présente un écosystème économique unique où innovation et tradition se côtoient. Notre expertise digitale permet aux entreprises toulousaines de se démarquer dans un environnement compétitif en constante évolution technologique.",
+  "expertise-text": "Notre équipe conçoit des sites web, applications et solutions digitales parfaitement adaptés aux entreprises toulousaines, qu'elles soient des géants de l'aéronautique, des startups innovantes ou des commerces traditionnels. Nous comprenons les défis spécifiques de votre marché local et vous proposons des solutions technologiques de pointe.",
+  "why-choose-us": "Notre connaissance approfondie du marché toulousain nous permet de développer des solutions numériques parfaitement adaptées aux défis spécifiques des entreprises locales. Nous comprenons les enjeux technologiques de la Ville Rose et intégrons cette expertise dans chaque projet pour créer des expériences digitales performantes et tournées vers le futur.",
+  "key-business-sectors": {
+    "aeronautics": "Aéronautique",
+    "space": "Spatial",
+    "tech": "Tech",
+    "education": "Éducation"
+  },
+  "local-challenges": {
+    "aerospace-transformation": "Transformation digitale des entreprises de l'écosystème aéronautique et spatial",
+    "startup-platforms": "Besoin de plateformes innovantes pour les startups de la French Tech toulousaine",
+    "elearning-development": "Développement de solutions e-learning pour les nombreux établissements d'enseignement",
+    "local-commerce-adaptation": "Adaptation des commerces locaux face à la concurrence des grandes enseignes nationales"
+  },
+  "benefits": {
+    "high-tech-solutions": "Solutions sur mesure adaptées aux industries de haute technologie",
+    "complex-interfaces-expertise": "Expertise pointue dans le développement d'interfaces complexes",
+    "startup-ecosystem-knowledge": "Connaissance approfondie de l'écosystème startup toulousain",
+    "agile-approach": "Approche agile parfaitement adaptée aux projets innovants",
+    "personalized-support": "Accompagnement personnalisé tout au long de votre projet digital"
+  },
+  "primary-stat": {
+    "label": "secteur technologique"
+  },
+  "strengths": {
+    "aeronautics-solutions": {
+      "title": "Solutions aéronautiques",
+      "description": "Applications et interfaces adaptées aux besoins spécifiques du secteur aérospatial."
+    },
+    "startup-platforms": {
+      "title": "Plateformes startups",
+      "description": "Solutions digitales agiles et évolutives pour les startups innovantes."
+    },
+    "elearning": {
+      "title": "E-learning",
+      "description": "Plateformes pédagogiques pour les établissements d'enseignement supérieur."
+    },
+    "local-commerce": {
+      "title": "Commerce local",
+      "description": "Digitalisation sur mesure pour les commerces et artisans toulousains."
+    }
+  },
+  "focused-services": {
+    "business-applications": {
+      "name": "Applications métier",
+      "description": "Solutions sur mesure pour l'industrie aéronautique et les entreprises technologiques."
+    },
+    "innovative-websites": {
+      "name": "Sites web innovants",
+      "description": "Vitrines digitales modernes pour startups et entreprises innovantes."
+    },
+    "ecommerce-platforms": {
+      "name": "Plateformes e-commerce",
+      "description": "Solutions complètes pour les commerces locaux souhaitant se digitaliser."
+    }
+  },
+  "contact-info": {
+    "meeting-options": {
+      "video-conference": "Visioconférence",
+      "in-person": "Déplacements occasionnels à Toulouse"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Années d'expérience"
+    },
+    "satisfaction": {
+      "label": "Satisfaction",
+      "description": "Clients satisfaits"
+    },
+    "average-time": {
+      "label": "Délai moyen",
+      "description": "Semaines de réalisation"
+    }
+  }
+}

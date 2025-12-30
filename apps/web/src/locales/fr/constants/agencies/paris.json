@@ -1,0 +1,84 @@
+{
+  "title": "Agence Web à Paris | Développement Web, Mobile & Design UI/UX",
+  "description": "Votre partenaire digital au cœur de Paris. Solutions de développement web, mobile et design UI/UX pour accélérer la croissance de votre entreprise parisienne.",
+  "hero-title": "Développement Digital dans la Capitale",
+  "hero-description": "Transformez votre présence numérique avec des solutions innovantes adaptées au marché parisien compétitif et son écosystème dynamique de startups, grands groupes et entreprises innovantes.",
+  "intro-text": "Au cœur de la capitale française, notre expertise digitale répond aux exigences du marché parisien avec des solutions web et mobile innovantes. Entre grands groupes, entreprises du luxe et startups en pleine croissance, Paris concentre un écosystème numérique dynamique dont nous comprenons parfaitement les enjeux et les opportunités.",
+  "expertise-text": "Nous concevons des expériences digitales premium qui répondent aux standards élevés des entreprises parisiennes. Notre équipe maîtrise les défis spécifiques de la capitale, qu'il s'agisse de créer des interfaces utilisateur raffinées pour le secteur du luxe, des applications performantes pour les fintechs, ou des solutions évolutives pour les startups en hypercroissance.",
+  "why-choose-us": "Notre connaissance approfondie du marché parisien nous permet de développer des solutions digitales parfaitement alignées avec les exigences des entreprises de la capitale. Nous combinons innovation technique, excellence créative et compréhension business pour vous accompagner efficacement dans un environnement hautement compétitif.",
+  "key-business-sectors": {
+    "startups-tech": "Startups Tech",
+    "finance": "Finance",
+    "luxury": "Luxe",
+    "media-communication": "Médias & Communication"
+  },
+  "local-challenges": {
+    "digital-competition": "Forte concurrence digitale sur le marché parisien nécessitant des solutions différenciantes",
+    "agile-tools-startups": "Besoins d'outils agiles et performants pour les startups en hypercroissance",
+    "financial-digitalization": "Digitalisation des services financiers traditionnels face aux fintechs",
+    "luxury-digital-experiences": "Développement d'expériences digitales premium pour le secteur du luxe parisien",
+    "corporate-transformation": "Solutions innovantes pour les grands groupes en transformation numérique"
+  },
+  "benefits": {
+    "startup-expertise": "Expertise pointue des dernières technologies adaptées à l'écosystème startup parisien",
+    "premium-solutions": "Solutions premium répondant aux exigences élevées du marché de la capitale",
+    "luxury-finance-understanding": "Compréhension des codes du luxe et de la finance pour des expériences numériques sur mesure",
+    "agility-responsiveness": "Agilité et réactivité pour accompagner le rythme intensif des entreprises parisiennes",
+    "tech-trends-knowledge": "Connaissance approfondie des tendances et innovations de la tech française"
+  },
+  "primary-stat": {
+    "label": "startup & tech"
+  },
+  "strengths": {
+    "startup-solutions": {
+      "title": "Solutions Startup",
+      "description": "Applications évolutives pour entreprises en forte croissance."
+    },
+    "luxury-experiences": {
+      "title": "Expériences Luxe",
+      "description": "Interfaces premium pour marques et services haut de gamme."
+    },
+    "finance-fintech": {
+      "title": "Finance & Fintech",
+      "description": "Solutions sécurisées pour le secteur financier parisien."
+    },
+    "international": {
+      "title": "International",
+      "description": "Développement multilingue adapté aux entreprises globales."
+    }
+  },
+  "focused-services": {
+    "saas-applications": {
+      "name": "Applications SaaS",
+      "description": "Développement de solutions cloud innovantes pour startups et scale-ups."
+    },
+    "premium-ecommerce": {
+      "name": "E-commerce premium",
+      "description": "Plateformes de vente haut de gamme pour les marques de luxe parisiennes."
+    },
+    "innovative-design": {
+      "name": "Design UI/UX innovant",
+      "description": "Interfaces utilisateur modernes et différenciantes pour se démarquer à Paris."
+    }
+  },
+  "contact-info": {
+    "meeting-options": {
+      "video-conference": "Visioconférence",
+      "in-person": "Rencontres à Paris"
+    }
+  },
+  "stats": {
+    "startups": {
+      "label": "Startups",
+      "description": "Projets pour startups"
+    },
+    "luxury-clients": {
+      "label": "Clients luxe",
+      "description": "Marques premium"
+    },
+    "average-roi": {
+      "label": "ROI moyen",
+      "description": "Retour sur investissement"
+    }
+  }
+}

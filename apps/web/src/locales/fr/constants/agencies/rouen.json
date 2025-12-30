@@ -1,0 +1,83 @@
+{
+  "title": "Développement Web à Rouen | Solutions Digitales pour Entreprises Normandes",
+  "description": "Créez votre site web ou application mobile à Rouen. Solutions digitales sur mesure pour les entreprises normandes, adaptées aux enjeux locaux de votre secteur.",
+  "hero-title": "Développement Web & Mobile à Rouen",
+  "hero-description": "Nous aidons les entreprises de Rouen et de Normandie à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché normand.",
+  "intro-text": "Le tissu économique normand présente des enjeux numériques spécifiques que nous avons appris à maîtriser. Entre l'industrie manufacturière, le secteur agroalimentaire et la logistique fluviale, nous créons des solutions digitales qui répondent aux besoins précis des entreprises rouennaises.",
+  "expertise-text": "Notre équipe conçoit des sites web, applications et solutions e-commerce parfaitement adaptés aux entreprises de Rouen et sa région. Nous comprenons les défis de votre marché et vous proposons des solutions digitales qui vous aident à vous démarquer et à développer votre activité.",
+  "why-choose-us": "Notre connaissance approfondie du marché normand nous permet de développer des solutions numériques parfaitement adaptées aux défis spécifiques des entreprises locales. Contrairement aux agences parisiennes, nous comprenons les subtilités du tissu économique de Rouen et apportons des solutions sur mesure à un rapport qualité-prix avantageux.",
+  "key-business-sectors": {
+    "industry": "Industrie",
+    "agrifood": "Agroalimentaire",
+    "logistics": "Logistique",
+    "local-commerce": "Commerce local"
+  },
+  "local-challenges": {
+    "traditional-industries-digitalization": "Digitalisation des industries traditionnelles normandes face à la concurrence internationale",
+    "logistics-optimization": "Optimisation de la logistique fluviale et portuaire via des solutions numériques innovantes",
+    "local-ecommerce-needs": "Besoin de solutions e-commerce adaptées aux producteurs et artisans locaux",
+    "sme-digital-transition": "Transition numérique des PME normandes avec des budgets maîtrisés"
+  },
+  "benefits": {
+    "normandy-specific-solutions": "Solutions sur mesure adaptées aux spécificités des entreprises normandes",
+    "industrial-agrifood-expertise": "Expertise pointue dans les secteurs industriels et agroalimentaires régionaux",
+    "competitive-pricing": "Tarifs compétitifs par rapport aux agences parisiennes",
+    "seine-logistics-knowledge": "Connaissance approfondie des enjeux logistiques liés à l'axe Seine",
+    "personalized-support": "Accompagnement personnalisé tout au long de votre projet digital"
+  },
+  "primary-stat": {
+    "label": "secteur industriel"
+  },
+  "strengths": {
+    "industrial-websites": {
+      "title": "Sites web industriels",
+      "description": "Sites performants adaptés aux entreprises manufacturières normandes."
+    },
+    "local-ecommerce": {
+      "title": "E-commerce local",
+      "description": "Solutions de vente en ligne pour producteurs et artisans locaux."
+    },
+    "business-applications": {
+      "title": "Applications métier",
+      "description": "Outils numériques sur mesure pour optimiser vos processus."
+    },
+    "sme-digitalization": {
+      "title": "Digitalisation PME",
+      "description": "Accompagnement complet pour votre transformation numérique."
+    }
+  },
+  "focused-services": {
+    "professional-websites": {
+      "name": "Sites web professionnels",
+      "description": "Vitrines digitales performantes et optimisées pour le SEO local à Rouen."
+    },
+    "regional-ecommerce": {
+      "name": "E-commerce régional",
+      "description": "Boutiques en ligne adaptées aux producteurs et commerces normands."
+    },
+    "business-applications": {
+      "name": "Applications métier",
+      "description": "Logiciels sur mesure pour l'industrie et la logistique régionale."
+    }
+  },
+  "contact-info": {
+    "meeting-options": {
+      "video-conference": "Visioconférence",
+      "in-person": "Déplacements occasionnels à Rouen"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Années d'expérience"
+    },
+    "satisfaction": {
+      "label": "Satisfaction",
+      "description": "Clients satisfaits"
+    },
+    "average-time": {
+      "label": "Délai moyen",
+      "description": "Semaines de réalisation"
+    }
+  }
+}

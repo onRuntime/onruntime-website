@@ -1,0 +1,83 @@
+{
+  "title": "Web Development in Strasbourg | Digital Solutions for Alsatian Businesses",
+  "description": "Create your website or mobile application in Strasbourg. Custom digital solutions for Alsatian businesses, tailored to local and cross-border challenges.",
+  "hero-title": "Web & Mobile Development in Strasbourg",
+  "hero-description": "We help businesses in Strasbourg and the Grand Est region digitalize with custom web solutions, perfectly adapted to the specific challenges of the Alsatian and European market.",
+  "intro-text": "European capital and border city with rich heritage, Strasbourg combines Alsatian traditions and international openness. Its status as seat of European institutions, its dynamic industry and strategic position between France and Germany make it a unique territory where digital plays an essential bridging role.",
+  "expertise-text": "Our team designs websites, applications and digital solutions perfectly adapted to Strasbourg businesses, whether they are international organizations, industrial companies or local heritage players. We understand the specific challenges of your regional and cross-border market, and offer multilingual and culturally adapted digital solutions.",
+  "why-choose-us": "Our in-depth knowledge of the Strasbourg market allows us to develop digital solutions perfectly adapted to the specific challenges of local businesses. We understand the requirements of the European context and Alsatian cultural particularities, and integrate this dual dimension into each project to create relevant and high-performing digital experiences.",
+  "key-business-sectors": {
+    "european-institutions": "European Institutions",
+    "cross-border-commerce": "Cross-border Commerce",
+    "industry": "Industry",
+    "culture-heritage": "Culture & Heritage"
+  },
+  "local-challenges": {
+    "european-institutions-needs": "Specific needs of European institutions and international organizations",
+    "cross-border-development": "Development of cross-border commerce with Germany and Switzerland",
+    "traditional-industries-transformation": "Digital transformation of traditional Alsatian industries",
+    "heritage-digital-showcase": "Digital showcase of the region's rich cultural and historical heritage"
+  },
+  "benefits": {
+    "multilingual-solutions": "Multilingual solutions adapted to the Strasbourg international context",
+    "european-standards-expertise": "Sharp expertise in user interfaces compliant with European standards",
+    "cross-border-knowledge": "In-depth knowledge of cross-border markets and their specificities",
+    "innovative-traditional-approach": "Approach that is both innovative and respectful of Alsatian traditions",
+    "personalized-support": "Personalized support throughout your digital project"
+  },
+  "primary-stat": {
+    "label": "international context"
+  },
+  "strengths": {
+    "european-solutions": {
+      "title": "European Solutions",
+      "description": "Multilingual platforms for institutions and international organizations."
+    },
+    "cross-border-commerce": {
+      "title": "Cross-border Commerce",
+      "description": "E-commerce solutions adapted to French, German and Swiss markets."
+    },
+    "industry-40": {
+      "title": "Industry 4.0",
+      "description": "Process digitalization for traditional Alsatian industry."
+    },
+    "digital-heritage": {
+      "title": "Digital Heritage",
+      "description": "Digital experiences to showcase cultural and historical heritage."
+    }
+  },
+  "focused-services": {
+    "institutional-websites": {
+      "name": "Institutional Websites",
+      "description": "Multilingual platforms compliant with European accessibility standards."
+    },
+    "cross-border-ecommerce": {
+      "name": "Cross-border E-commerce",
+      "description": "Commercial solutions adapted to German and French market specificities."
+    },
+    "industrial-applications": {
+      "name": "Industrial Applications",
+      "description": "Custom digital tools to modernize industrial processes."
+    }
+  },
+  "contact-info": {
+    "meeting-options": {
+      "video-conference": "Video conference",
+      "in-person": "Occasional meetings in Strasbourg"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Years of experience"
+    },
+    "satisfaction": {
+      "label": "Satisfaction",
+      "description": "Satisfied clients"
+    },
+    "average-time": {
+      "label": "Average Time",
+      "description": "Weeks of completion"
+    }
+  }
+}

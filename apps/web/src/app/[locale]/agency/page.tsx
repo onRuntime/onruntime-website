@@ -6,6 +6,7 @@ import { ArrowRight, Globe, Laptop, Users } from "lucide-react";
 import Routes from "@/constants/routes";
 import { constructMetadata } from '@/lib/utils/metadata.server';
 import FranceMap from '@/components/marketing/agency/france-map';
+import AgencyCard from '@/components/marketing/agency/agency-card';
 import { getMajorAgencies } from '@/constants/agencies';
 import { OrganizationSchema } from '@/components/json-ld/organization-schema';
 import { ORGANIZATION_DATA } from '@/components/json-ld/constants';
@@ -19,40 +20,41 @@ export async function generateMetadata() {
   });
 }
 
-export default function AgencyLandingPage() {
-  
+export default async function AgencyLandingPage() {
+  const { t } = await getTranslation('app/agency/page');
+
   const majorAgencies = getMajorAgencies(10);
-  
+
   return (
     <main className="min-h-screen pt-32 pb-16 sm:w-auto w-full">
       <OrganizationSchema
         type="DigitalAgency"
         id={`${ORGANIZATION_DATA.url}${Routes.agency.root}#organization`}
       />
-      
+
       <div className="px-4 md:px-0 max-w-5xl mx-auto space-y-24">
-        
+
         <div className="relative flex flex-col lg:flex-row gap-12 items-center">
           <div className="flex-1 flex flex-col items-start gap-6">
             <h1 className="font-medium text-4xl md:text-5xl text-foreground">
-              Votre partenaire digital partout en France
+              {t('hero.title')}
             </h1>
-            
+
             <p className="text-muted-foreground text-lg">
-              Nous développons des solutions digitales innovantes adaptées aux spécificités de chaque marché régional français. Notre équipe maîtrise les enjeux numériques locaux pour vous accompagner efficacement, où que vous soyez en France.
+              {t('hero.description')}
             </p>
 
             <div className="flex flex-wrap gap-3">
               <Button asChild size="lg">
                 <Link href={Routes.contact}>
-                  Discuter de votre projet
+                  {t('hero.cta')}
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
               </Button>
-              
+
               <Link href="#expertise-locale">
                 <Button variant="outline" size="lg">
-                  Découvrir notre expertise locale
+                  {t('hero.secondary-cta')}
                 </Button>
               </Link>
             </div>
@@ -77,10 +79,10 @@ export default function AgencyLandingPage() {
         <div id="expertise-locale" className="space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
-              Une expertise adaptée à chaque territoire
+              {t('expertise.title')}
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              Notre équipe analyse et comprend les écosystèmes numériques locaux pour vous proposer des solutions parfaitement adaptées aux spécificités économiques et culturelles de votre région.
+              {t('expertise.description')}
             </p>
           </div>
 
@@ -89,9 +91,9 @@ export default function AgencyLandingPage() {
               <div className="p-3 rounded-full bg-onruntime-blue/10 text-onruntime-blue mb-4">
                 <Globe className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-medium text-foreground mb-2">Compréhension des marchés locaux</h3>
+              <h3 className="text-xl font-medium text-foreground mb-2">{t('expertise.local-markets.title')}</h3>
               <p className="text-muted-foreground">
-                Nous étudions et maîtrisons les spécificités et les tendances des écosystèmes numériques régionaux.
+                {t('expertise.local-markets.description')}
               </p>
             </div>
 
@@ -99,9 +101,9 @@ export default function AgencyLandingPage() {
               <div className="p-3 rounded-full bg-onruntime-blue/10 text-onruntime-blue mb-4">
                 <Laptop className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-medium text-foreground mb-2">Travail à distance efficace</h3>
+              <h3 className="text-xl font-medium text-foreground mb-2">{t('expertise.remote-work.title')}</h3>
               <p className="text-muted-foreground">
-                Notre équipe collabore à distance avec votre entreprise, où que vous soyez en France, avec la même efficacité qu&apos;en présentiel.
+                {t('expertise.remote-work.description')}
               </p>
             </div>
 
@@ -109,9 +111,9 @@ export default function AgencyLandingPage() {
               <div className="p-3 rounded-full bg-onruntime-blue/10 text-onruntime-blue mb-4">
                 <Users className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-medium text-foreground mb-2">Solutions personnalisées</h3>
+              <h3 className="text-xl font-medium text-foreground mb-2">{t('expertise.custom-solutions.title')}</h3>
               <p className="text-muted-foreground">
-                Des stratégies digitales sur mesure qui s&apos;adaptent à votre contexte local et aux particularités de votre marché régional.
+                {t('expertise.custom-solutions.description')}
               </p>
             </div>
           </div>
@@ -120,41 +122,16 @@ export default function AgencyLandingPage() {
         <div className="space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
-              Notre expertise dans les grandes villes françaises
+              {t('cities.title')}
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              Découvrez notre connaissance approfondie des marchés locaux et comment elle peut bénéficier à votre entreprise.
+              {t('cities.description')}
             </p>
           </div>
 
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {majorAgencies.map((agency) => (
-              <Link 
-                key={agency.id} 
-                href={Routes.agency.city(agency.id)}
-                className="flex flex-col p-6 rounded-lg border bg-card hover:border-onruntime-blue transition-colors group"
-              >
-                <h3 className="text-xl font-medium text-foreground mb-2 group-hover:text-onruntime-blue transition-colors">
-                  {agency.name}
-                </h3>
-                <p className="text-sm text-muted-foreground mb-4">
-                  Région: {agency.region}
-                </p>
-                <div className="flex flex-wrap gap-2 mt-auto">
-                  {agency.strengths.slice(0, 3).map((strength, index) => (
-                    <span 
-                      key={index} 
-                      className="inline-block text-xs px-2 py-1 rounded-full bg-muted"
-                    >
-                      {strength.title}
-                    </span>
-                  ))}
-                </div>
-                <div className="mt-4 text-xs text-muted-foreground flex items-center group-hover:text-onruntime-blue transition-colors">
-                  <span>Découvrir notre expertise</span>
-                  <ArrowRight className="ml-1 h-3 w-3" />
-                </div>
-              </Link>
+              <AgencyCard key={agency.id} agency={agency} />
             ))}
           </div>
         </div>
@@ -162,39 +139,39 @@ export default function AgencyLandingPage() {
         <div className="space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
-              Pourquoi travailler avec nous pour votre projet local ?
+              {t('why-us.title')}
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              Notre connaissance des marchés régionaux présente de nombreux avantages pour votre entreprise.
+              {t('why-us.description')}
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="flex flex-col gap-4 p-6 rounded-lg border bg-card">
-              <h3 className="text-xl font-medium text-foreground">Expertise des écosystèmes locaux</h3>
+              <h3 className="text-xl font-medium text-foreground">{t('why-us.local-ecosystems.title')}</h3>
               <p className="text-muted-foreground">
-                Une équipe qui comprend les dynamiques de marché propres à votre région, permettant une stratégie digitale parfaitement adaptée.
+                {t('why-us.local-ecosystems.description')}
               </p>
             </div>
-            
+
             <div className="flex flex-col gap-4 p-6 rounded-lg border bg-card">
-              <h3 className="text-xl font-medium text-foreground">Agilité à distance</h3>
+              <h3 className="text-xl font-medium text-foreground">{t('why-us.remote-agility.title')}</h3>
               <p className="text-muted-foreground">
-                Collaboration efficace par visioconférence, messagerie et outils collaboratifs pour une expérience de travail fluide et productive.
+                {t('why-us.remote-agility.description')}
               </p>
             </div>
-            
+
             <div className="flex flex-col gap-4 p-6 rounded-lg border bg-card">
-              <h3 className="text-xl font-medium text-foreground">Stratégies localisées</h3>
+              <h3 className="text-xl font-medium text-foreground">{t('why-us.localized-strategies.title')}</h3>
               <p className="text-muted-foreground">
-                Des solutions digitales qui tiennent compte des spécificités culturelles et économiques de votre territoire.
+                {t('why-us.localized-strategies.description')}
               </p>
             </div>
-            
+
             <div className="flex flex-col gap-4 p-6 rounded-lg border bg-card">
-              <h3 className="text-xl font-medium text-foreground">Analyse de marché régional</h3>
+              <h3 className="text-xl font-medium text-foreground">{t('why-us.regional-analysis.title')}</h3>
               <p className="text-muted-foreground">
-                Étude des tendances, de la concurrence et des opportunités propres à votre secteur géographique pour une stratégie digitale optimale.
+                {t('why-us.regional-analysis.description')}
               </p>
             </div>
           </div>
@@ -203,46 +180,46 @@ export default function AgencyLandingPage() {
         <div className="space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium text-foreground mb-4">
-              Nos services pour toutes les régions de France
+              {t('services.title')}
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              Des solutions digitales complètes adaptées aux spécificités de chaque marché local.
+              {t('services.description')}
             </p>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <Link href={Routes.service.design.root}>
               <div className="flex flex-col items-center p-6 rounded-lg border bg-card hover:border-onruntime-blue transition-colors text-center">
-                <h3 className="text-lg font-medium text-foreground mb-1">Design UI/UX</h3>
+                <h3 className="text-lg font-medium text-foreground mb-1">{t('services.design.title')}</h3>
                 <p className="text-xs text-muted-foreground">
-                  Interfaces adaptées aux usages locaux
+                  {t('services.design.description')}
                 </p>
               </div>
             </Link>
-            
+
             <Link href={Routes.service.integration.root}>
               <div className="flex flex-col items-center p-6 rounded-lg border bg-card hover:border-onruntime-blue transition-colors text-center">
-                <h3 className="text-lg font-medium text-foreground mb-1">Intégration</h3>
+                <h3 className="text-lg font-medium text-foreground mb-1">{t('services.integration.title')}</h3>
                 <p className="text-xs text-muted-foreground">
-                  Solutions CMS et e-commerce régionales
+                  {t('services.integration.description')}
                 </p>
               </div>
             </Link>
-            
+
             <Link href={Routes.service.frontend.root}>
               <div className="flex flex-col items-center p-6 rounded-lg border bg-card hover:border-onruntime-blue transition-colors text-center">
-                <h3 className="text-lg font-medium text-foreground mb-1">Front-end</h3>
+                <h3 className="text-lg font-medium text-foreground mb-1">{t('services.frontend.title')}</h3>
                 <p className="text-xs text-muted-foreground">
-                  Applications adaptées à vos utilisateurs
+                  {t('services.frontend.description')}
                 </p>
               </div>
             </Link>
-            
+
             <Link href={Routes.service.backend.root}>
               <div className="flex flex-col items-center p-6 rounded-lg border bg-card hover:border-onruntime-blue transition-colors text-center">
-                <h3 className="text-lg font-medium text-foreground mb-1">Back-end</h3>
+                <h3 className="text-lg font-medium text-foreground mb-1">{t('services.backend.title')}</h3>
                 <p className="text-xs text-muted-foreground">
-                  Infrastructures robustes et évolutives
+                  {t('services.backend.description')}
                 </p>
               </div>
             </Link>
@@ -251,7 +228,7 @@ export default function AgencyLandingPage() {
           <div className="text-center">
             <Link href={Routes.services}>
               <Button>
-                Découvrir tous nos services
+                {t('services.discover-all')}
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </Link>
@@ -262,21 +239,21 @@ export default function AgencyLandingPage() {
           <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-onruntime-blue/10 to-transparent" />
           <div className="max-w-2xl">
             <h2 className="text-3xl font-medium text-foreground mb-4">
-              Un projet digital adapté à votre marché local ?
+              {t('cta.title')}
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Contactez-nous pour discuter de votre projet. Notre expertise des marchés locaux nous permet de vous accompagner efficacement, où que vous soyez en France.
+              {t('cta.description')}
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild size="lg">
                 <Link href={Routes.contact}>
-                  Nous contacter
+                  {t('cta.contact')}
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="min-w-[223px] text-md xs:text-xl whitespace-normal xs:whitespace-nowrap ">
                 <Link href="#expertise-locale">
-                    En savoir plus sur notre approche
+                  {t('cta.learn-more')}
                 </Link>
               </Button>
             </div>

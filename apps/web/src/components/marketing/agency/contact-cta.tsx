@@ -1,15 +1,16 @@
-import React from 'react';
 import { Link } from '@onruntime/translations/next';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Video, Calendar } from 'lucide-react';
 import Routes from '@/constants/routes';
 import { Agency } from '@/types/agency';
+import { getTranslation } from '@/lib/translations.server';
 
 interface ContactCTAProps {
   agency: Agency;
 }
 
-const ContactCTA: React.FC<ContactCTAProps> = ({ agency }) => {
+const ContactCTA = async ({ agency }: ContactCTAProps) => {
+  const { t } = await getTranslation('components/marketing/agency/contact-cta');
   const accent = agency.accentColor || "blue";
 
   return (
@@ -22,39 +23,39 @@ const ContactCTA: React.FC<ContactCTAProps> = ({ agency }) => {
       </div>
       <div className="max-w-2xl">
         <h2 className="text-3xl font-medium text-foreground mb-4">
-          Un projet adapté au marché de {agency.name} ?
+          {t('title', { city: agency.name })}
         </h2>
         <p className="text-lg text-muted-foreground mb-6">
-          Notre expertise du marché local de {agency.region} nous permet de vous proposer des solutions parfaitement adaptées à votre contexte régional. Discutons de votre projet !
+          {t('description', { region: agency.region })}
         </p>
-        
+
         <div className="flex flex-col gap-4 mb-8">
           <div className="flex items-center gap-3">
             <Video className={`h-5 w-5 text-onruntime-${accent}`} />
-            <span>Consultation en ligne via visioconférence</span>
+            <span>{t('features.video')}</span>
           </div>
           <div className="flex items-center gap-3">
             <Calendar className={`h-5 w-5 text-onruntime-${accent}`} />
-            <span>Horaires flexibles adaptés à votre agenda</span>
+            <span>{t('features.calendar')}</span>
           </div>
           <div className="flex items-start gap-3">
             <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-5 text-onruntime-${accent} flex-shrink-0 mt-0.5`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
             </svg>
-            <span>Expertise approfondie du marché de {agency.name} et de {agency.region}</span>
+            <span>{t('features.expertise', { city: agency.name, region: agency.region })}</span>
           </div>
         </div>
-        
+
         <div className="flex flex-wrap gap-4">
           <Link href={Routes.contact}>
             <Button size="lg">
-              Discuter de votre projet
+              {t('buttons.discuss')}
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
           </Link>
           <Link href={Routes.services}>
             <Button variant="outline" size="lg">
-              Découvrir nos services
+              {t('buttons.discover')}
             </Button>
           </Link>
         </div>

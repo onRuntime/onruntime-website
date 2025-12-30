@@ -1,0 +1,83 @@
+{
+  "title": "Web Development in Toulouse | Digital Solutions for Occitan Businesses",
+  "description": "Create your website or mobile application in Toulouse. Custom digital solutions for Toulouse businesses, tailored to the local challenges of your sector.",
+  "hero-title": "Web & Mobile Development in Toulouse",
+  "hero-description": "We help businesses in Toulouse and Occitania digitalize with custom web solutions, perfectly adapted to the specific challenges of the Toulouse market.",
+  "intro-text": "European aerospace capital and dynamic student city, Toulouse presents a unique economic ecosystem where innovation and tradition coexist. Our digital expertise enables Toulouse businesses to stand out in a competitive and constantly evolving technological environment.",
+  "expertise-text": "Our team designs websites, applications and digital solutions perfectly adapted to Toulouse businesses, whether they are aerospace giants, innovative startups or traditional shops. We understand the specific challenges of your local market and offer cutting-edge technological solutions.",
+  "why-choose-us": "Our in-depth knowledge of the Toulouse market allows us to develop digital solutions perfectly adapted to the specific challenges of local businesses. We understand the technological challenges of the Pink City and integrate this expertise into each project to create high-performing and future-oriented digital experiences.",
+  "key-business-sectors": {
+    "aeronautics": "Aeronautics",
+    "space": "Space",
+    "tech": "Tech",
+    "education": "Education"
+  },
+  "local-challenges": {
+    "aerospace-transformation": "Digital transformation of companies in the aerospace ecosystem",
+    "startup-platforms": "Need for innovative platforms for Toulouse French Tech startups",
+    "elearning-development": "Development of e-learning solutions for numerous educational institutions",
+    "local-commerce-adaptation": "Adaptation of local shops facing competition from national chains"
+  },
+  "benefits": {
+    "high-tech-solutions": "Custom solutions adapted to high-tech industries",
+    "complex-interfaces-expertise": "Sharp expertise in developing complex interfaces",
+    "startup-ecosystem-knowledge": "In-depth knowledge of the Toulouse startup ecosystem",
+    "agile-approach": "Agile approach perfectly suited to innovative projects",
+    "personalized-support": "Personalized support throughout your digital project"
+  },
+  "primary-stat": {
+    "label": "technology sector"
+  },
+  "strengths": {
+    "aeronautics-solutions": {
+      "title": "Aeronautics Solutions",
+      "description": "Applications and interfaces adapted to specific aerospace sector needs."
+    },
+    "startup-platforms": {
+      "title": "Startup Platforms",
+      "description": "Agile and scalable digital solutions for innovative startups."
+    },
+    "elearning": {
+      "title": "E-learning",
+      "description": "Educational platforms for higher education institutions."
+    },
+    "local-commerce": {
+      "title": "Local Commerce",
+      "description": "Custom digitalization for Toulouse shops and artisans."
+    }
+  },
+  "focused-services": {
+    "business-applications": {
+      "name": "Business Applications",
+      "description": "Custom solutions for aeronautics industry and technology companies."
+    },
+    "innovative-websites": {
+      "name": "Innovative Websites",
+      "description": "Modern digital showcases for startups and innovative companies."
+    },
+    "ecommerce-platforms": {
+      "name": "E-commerce Platforms",
+      "description": "Complete solutions for local shops looking to digitalize."
+    }
+  },
+  "contact-info": {
+    "meeting-options": {
+      "video-conference": "Video conference",
+      "in-person": "Occasional meetings in Toulouse"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Years of experience"
+    },
+    "satisfaction": {
+      "label": "Satisfaction",
+      "description": "Satisfied clients"
+    },
+    "average-time": {
+      "label": "Average Time",
+      "description": "Weeks of completion"
+    }
+  }
+}
