@@ -1,14 +1,14 @@
 {
   "name": "Logiciels de bureau",
-  "description": "Développement d'applications desktop multiplateforme",
+  "description": "Développement d'applications de bureau multiplateforme",
   "hero": {
-    "title": "Applications desktop multiplateformes",
-    "description": "Développez des applications de bureau modernes et performantes pour Windows, macOS et Linux. Notre expertise vous garantit des applications professionnelles qui tirent parti de toute la puissance du desktop."
+    "title": "Applications de bureau multiplateformes",
+    "description": "Développez des applications de bureau modernes et performantes pour Windows, macOS et Linux. Notre expertise vous garantit des applications professionnelles qui tirent parti de toute la puissance du bureau."
   },
   "features": {
     "electron-react": {
       "title": "Electron & React",
-      "description": "Technologies modernes pour des applications desktop performantes et évolutives."
+      "description": "Technologies modernes pour des applications de bureau performantes et évolutives."
     },
     "multiplatform": {
       "title": "Multiplateforme",
@@ -26,7 +26,7 @@
   "benefits": {
     "windows-macos": {
       "title": "Windows & macOS",
-      "description": "Support natif des principales plateformes desktop."
+      "description": "Support natif des principales plateformes de bureau."
     },
     "system-access": {
       "title": "Accès système",
@@ -43,11 +43,11 @@
   },
   "faq": {
     "why-electron": {
-      "question": "Pourquoi choisir Electron pour le développement desktop ?",
-      "answer": "Electron permet de créer des applications desktop multiplateformes avec des technologies web modernes (React, TypeScript). Cela offre un développement rapide, une maintenance simplifiée et une excellente expérience utilisateur, tout en garantissant la compatibilité avec Windows, macOS et Linux."
+      "question": "Pourquoi choisir Electron pour le développement de bureau ?",
+      "answer": "Electron permet de créer des applications de bureau multiplateformes avec des technologies web modernes (React, TypeScript). Cela offre un développement rapide, une maintenance simplifiée et une excellente expérience utilisateur, tout en garantissant la compatibilité avec Windows, macOS et Linux."
     },
     "security": {
-      "question": "Comment gérez-vous la sécurité des applications desktop ?",
+      "question": "Comment gérez-vous la sécurité des applications de bureau ?",
       "answer": "Nous implémentons plusieurs niveaux de sécurité : chiffrement des données sensibles, protection contre les injections de code, mises à jour de sécurité automatiques, et bonnes pratiques de développement sécurisé. Nous suivons également les recommandations de sécurité spécifiques à chaque système d'exploitation."
     },
     "auto-update": {
