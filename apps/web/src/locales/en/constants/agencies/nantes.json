@@ -5,7 +5,7 @@
     "title": "Web & Mobile Development in Nantes",
     "description": "We help businesses in Nantes and the Pays de la Loire digitalize with custom web solutions, perfectly adapted to the specific challenges of the Loire Valley market."
   },
-  "intro": "Historic capital of Brittany and innovative metropolis, Nantes is renowned for its economic dynamism and quality of life. Its flourishing digital ecosystem, creative industries and commitment to ecological transition make it a unique territory where digital innovation plays a central role.",
+  "intro": "A historic capital of Brittany and an innovative metropolis, Nantes is renowned for its economic dynamism and quality of life. Its flourishing digital ecosystem, creative industries and commitment to ecological transition make it a unique territory where digital innovation plays a central role.",
   "expertise": "Our team designs websites, applications and digital solutions perfectly adapted to Nantes businesses, whether they are innovative startups, responsible economy players or traditional companies in transformation. We understand the specificities of the local market and offer digital solutions aligned with the values of innovation and sustainability specific to Nantes.",
   "why-choose-us": "Our in-depth knowledge of the Nantes market allows us to develop digital solutions perfectly adapted to the specific challenges of local businesses. We understand the spirit of innovation and commitment to a more responsible economy that characterize Nantes, and integrate these values into each digital project we deliver.",
   "key-business-sectors": {
@@ -60,12 +60,6 @@
     "business-platforms": {
       "name": "Business Platforms",
       "description": "Custom solutions for traditional industries in transformation."
-    }
-  },
-  "contact-info": {
-    "meeting-options": {
-      "video-conference": "Video conference",
-      "in-person": "Occasional meetings in Nantes"
     }
   },
   "stats": {

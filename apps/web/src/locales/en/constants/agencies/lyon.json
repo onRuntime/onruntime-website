@@ -62,12 +62,6 @@
       "description": "Control tools and IoT solutions for Rhône-Alpes industry."
     }
   },
-  "contact-info": {
-    "meeting-options": {
-      "video-conference": "Video conference",
-      "in-person": "Occasional meetings in Lyon"
-    }
-  },
   "stats": {
     "biotech-projects": {
       "label": "Biotech Projects",
