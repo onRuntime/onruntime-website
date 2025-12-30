@@ -24,9 +24,8 @@ const montpellierAgency: Agency = {
 
   accentColor: "magenta",
   primaryStat: {
-    key: "health",
-    icon: Microscope,
-    value: "Santé"
+    key: "primary-stat",
+    icon: Microscope
   },
 
   strengths: [

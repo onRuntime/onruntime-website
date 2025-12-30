@@ -55,7 +55,6 @@ export interface Agency {
   primaryStat?: {
     key: string;
     icon: LucideIcon;
-    value: string;
   };
 
   nearbyLocations: string[];

@@ -24,9 +24,8 @@ const lyonAgency: Agency = {
 
   accentColor: "blue",
   primaryStat: {
-    key: "biotech",
-    icon: FlaskConical,
-    value: "Biotech"
+    key: "primary-stat",
+    icon: FlaskConical
   },
 
   strengths: [

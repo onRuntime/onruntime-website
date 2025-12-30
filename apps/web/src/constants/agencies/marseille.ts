@@ -24,9 +24,8 @@ const marseilleAgency: Agency = {
 
   accentColor: "magenta",
   primaryStat: {
-    key: "tourism",
-    icon: Sun,
-    value: "Tourisme"
+    key: "primary-stat",
+    icon: Sun
   },
 
   strengths: [

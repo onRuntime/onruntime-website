@@ -24,9 +24,8 @@ const toulouseAgency: Agency = {
 
   accentColor: "blue",
   primaryStat: {
-    key: "innovation",
-    icon: Rocket,
-    value: "Innovation"
+    key: "primary-stat",
+    icon: Rocket
   },
 
   strengths: [

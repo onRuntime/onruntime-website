@@ -24,9 +24,8 @@ const rouenAgency: Agency = {
 
   accentColor: "blue",
   primaryStat: {
-    key: "industry",
-    icon: Building,
-    value: "Industrie"
+    key: "primary-stat",
+    icon: Building
   },
 
   strengths: [

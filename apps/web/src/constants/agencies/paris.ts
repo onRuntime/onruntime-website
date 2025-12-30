@@ -25,9 +25,8 @@ const parisAgency: Agency = {
 
   accentColor: "magenta",
   primaryStat: {
-    key: "innovation",
-    icon: Rocket,
-    value: "Innovation"
+    key: "primary-stat",
+    icon: Rocket
   },
 
   strengths: [

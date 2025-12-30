@@ -24,9 +24,8 @@ const strasbourgAgency: Agency = {
 
   accentColor: "blue",
   primaryStat: {
-    key: "europe",
-    icon: Globe,
-    value: "Europe"
+    key: "primary-stat",
+    icon: Globe
   },
 
   strengths: [

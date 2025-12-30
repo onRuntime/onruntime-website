@@ -24,9 +24,8 @@ const nantesAgency: Agency = {
 
   accentColor: "blue",
   primaryStat: {
-    key: "tech",
-    icon: Laptop,
-    value: "Tech"
+    key: "primary-stat",
+    icon: Laptop
   },
 
   strengths: [

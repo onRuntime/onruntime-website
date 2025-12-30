@@ -24,9 +24,8 @@ const niceAgency: Agency = {
 
   accentColor: "blue",
   primaryStat: {
-    key: "tourism",
-    icon: Palmtree,
-    value: "Tourisme"
+    key: "primary-stat",
+    icon: Palmtree
   },
 
   strengths: [
