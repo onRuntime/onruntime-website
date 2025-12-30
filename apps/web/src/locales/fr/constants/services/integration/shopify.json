@@ -1,0 +1,80 @@
+{
+  "name": "Shopify",
+  "description": "Création et personnalisation de boutiques en ligne Shopify",
+  "hero": {
+    "title": "Créez votre boutique en ligne avec Shopify",
+    "description": "Transformez votre vision e-commerce en réalité avec notre expertise Shopify. Nous créons des boutiques en ligne performantes, esthétiques et optimisées pour la conversion."
+  },
+  "features": {
+    "custom-design": {
+      "title": "Design personnalisé",
+      "description": "Création d'un thème unique qui reflète votre marque et optimise l'expérience utilisateur."
+    },
+    "conversion-optimization": {
+      "title": "Optimisation des conversions",
+      "description": "Mise en place des meilleures pratiques pour maximiser vos ventes et fidéliser vos clients."
+    },
+    "enhanced-security": {
+      "title": "Sécurité renforcée",
+      "description": "Protection de vos données et de celles de vos clients avec les dernières normes de sécurité."
+    },
+    "advanced-integrations": {
+      "title": "Intégrations avancées",
+      "description": "Connection avec vos outils préférés pour la gestion des stocks, la comptabilité et le marketing."
+    }
+  },
+  "benefits": {
+    "secure-payments": {
+      "title": "Paiements sécurisés",
+      "description": "Intégration des principaux moyens de paiement et gestion sécurisée des transactions."
+    },
+    "international-by-default": {
+      "title": "International par défaut",
+      "description": "Vente dans le monde entier avec gestion multi-devises et traductions automatiques."
+    },
+    "powerful-analytics": {
+      "title": "Analytics puissant",
+      "description": "Suivi détaillé de vos performances et insights pour optimiser vos ventes."
+    },
+    "simplified-logistics": {
+      "title": "Logistique simplifiée",
+      "description": "Gestion efficace des commandes et intégration avec les principaux transporteurs."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Combien de temps faut-il pour créer une boutique Shopify ?",
+      "answer": "Le délai moyen pour créer une boutique Shopify varie de 4 à 8 semaines, selon la complexité du projet. Ce délai comprend la phase de design, le développement, l'intégration des produits et les tests."
+    },
+    "migration": {
+      "question": "Pouvez-vous migrer ma boutique existante vers Shopify ?",
+      "answer": "Oui, nous proposons un service complet de migration de votre boutique existante vers Shopify, incluant le transfert des produits, des clients et des commandes, tout en assurant une transition en douceur."
+    },
+    "customization-types": {
+      "question": "Quels types de personnalisation proposez-vous ?",
+      "answer": "Nous offrons une personnalisation complète de votre boutique Shopify : design sur mesure, fonctionnalités personnalisées, intégrations spécifiques, et optimisation pour mobile."
+    },
+    "post-launch-support": {
+      "question": "Proposez-vous un support après le lancement ?",
+      "answer": "Oui, nous proposons plusieurs formules de support et maintenance pour assurer le bon fonctionnement de votre boutique après son lancement, incluant les mises à jour, les optimisations et le support technique."
+    },
+    "security": {
+      "question": "Comment assurez-vous la sécurité de ma boutique ?",
+      "answer": "Nous mettons en place les meilleures pratiques de sécurité : SSL, conformité PCI DSS, sauvegardes régulières, et protection contre les fraudes. Shopify assure également une sécurité de niveau bancaire pour toutes les transactions."
+    }
+  },
+  "complementary": {
+    "seo": {
+      "title": "Référencement SEO",
+      "description": "Optimisation pour les moteurs de recherche pour augmenter votre visibilité."
+    },
+    "digital-marketing": {
+      "title": "Marketing digital",
+      "description": "Stratégies marketing adaptées pour attirer et convertir plus de clients."
+    },
+    "training": {
+      "title": "Formation",
+      "description": "Formation complète pour gérer votre boutique en toute autonomie."
+    }
+  }
+}

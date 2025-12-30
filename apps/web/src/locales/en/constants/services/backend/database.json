@@ -1,0 +1,80 @@
+{
+  "name": "Databases",
+  "description": "Database architecture and optimization",
+  "hero": {
+    "title": "Database Architecture",
+    "description": "Design and optimize your databases for optimal performance and maximum scalability. Our expertise guarantees a robust architecture that meets your current and future needs."
+  },
+  "features": {
+    "optimized-architecture": {
+      "title": "Optimized architecture",
+      "description": "Intelligent design of schemas and relationships for optimal performance."
+    },
+    "enhanced-security": {
+      "title": "Enhanced security",
+      "description": "Robust protection of sensitive data and compliance with standards."
+    },
+    "high-performance": {
+      "title": "High performance",
+      "description": "Query and index optimization for minimal response times."
+    },
+    "backup-recovery": {
+      "title": "Backup & Recovery",
+      "description": "Reliable backup and restoration strategies."
+    }
+  },
+  "benefits": {
+    "horizontal-scalability": {
+      "title": "Horizontal scalability",
+      "description": "Architecture designed for growth and scaling."
+    },
+    "replication": {
+      "title": "Replication",
+      "description": "High availability and geographic distribution of data."
+    },
+    "advanced-monitoring": {
+      "title": "Advanced monitoring",
+      "description": "Real-time tracking of performance and health."
+    },
+    "optimized-search": {
+      "title": "Optimized search",
+      "description": "Intelligent indexing for fast searches."
+    }
+  },
+  "faq": {
+    "sql-vs-nosql": {
+      "question": "How to choose between SQL and NoSQL?",
+      "answer": "The choice depends on your specific needs. SQL databases are ideal for structured data with complex relationships, while NoSQL excels at handling unstructured data and horizontal scalability. We guide you to the best solution based on your use cases."
+    },
+    "data-security": {
+      "question": "How do you handle data security?",
+      "answer": "We implement multiple security layers: encryption of sensitive data, granular access control, access auditing, regular backups, and compliance with security standards (GDPR, etc.). We also perform regular security tests."
+    },
+    "performance-optimization": {
+      "question": "How do you optimize performance?",
+      "answer": "We use several techniques: schema and query optimization, intelligent indexing, caching, data partitioning, and continuous monitoring. We regularly analyze performance to identify optimization opportunities."
+    },
+    "migration-services": {
+      "question": "Do you offer migration services?",
+      "answer": "Yes, we handle database migrations end-to-end: analysis of existing systems, planning, testing, data migration with minimal interruption, and post-migration validation. We ensure data consistency and integrity."
+    },
+    "data-availability": {
+      "question": "How do you ensure data availability?",
+      "answer": "We set up highly available architectures with replication, clustering, and disaster recovery plans. We perform regular backups and test restoration procedures."
+    }
+  },
+  "complementary": {
+    "data-migration": {
+      "title": "Data migration",
+      "description": "Secure transfer from your existing systems."
+    },
+    "audit-optimization": {
+      "title": "Audit & Optimization",
+      "description": "Performance analysis and recommendations."
+    },
+    "monitoring-24-7": {
+      "title": "24/7 Monitoring",
+      "description": "Continuous surveillance and real-time alerts."
+    }
+  }
+}

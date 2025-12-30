@@ -1,0 +1,80 @@
+{
+  "name": "WordPress",
+  "description": "Custom WordPress website development",
+  "hero": {
+    "title": "Custom WordPress Development",
+    "description": "Create a professional website that reflects you with WordPress. Our expertise guarantees a high-performance, secure site perfectly adapted to your needs."
+  },
+  "features": {
+    "custom-themes": {
+      "title": "Custom themes",
+      "description": "Creation of custom themes that reflect your identity and precisely meet your needs."
+    },
+    "optimized-performance": {
+      "title": "Optimized performance",
+      "description": "Advanced optimization to guarantee fast loading times and smooth user experience."
+    },
+    "enhanced-security": {
+      "title": "Enhanced security",
+      "description": "Implementation of security best practices to protect your site and your data."
+    },
+    "simplified-administration": {
+      "title": "Simplified administration",
+      "description": "Custom and intuitive admin interface for easy content management."
+    }
+  },
+  "benefits": {
+    "intuitive-administration": {
+      "title": "Intuitive administration",
+      "description": "Simple and intuitive management interface to manage your content independently."
+    },
+    "seo-optimized": {
+      "title": "SEO optimized",
+      "description": "Structure optimized for natural search and integrated SEO tools."
+    },
+    "powerful-extensions": {
+      "title": "Powerful extensions",
+      "description": "Access to thousands of plugins to extend your site's functionality."
+    },
+    "maximum-performance": {
+      "title": "Maximum performance",
+      "description": "Advanced performance optimization for optimal user experience."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "How long does it take to create a WordPress site?",
+      "answer": "The average time to create a WordPress site varies from 4 to 12 weeks, depending on project complexity. This includes the design phase, custom theme development, content integration and testing."
+    },
+    "migration": {
+      "question": "Can you migrate my existing site to WordPress?",
+      "answer": "Yes, we offer a complete migration service to WordPress, including transfer of content, images and features, while preserving your SEO."
+    },
+    "maintenance-updates": {
+      "question": "How do you handle maintenance and updates?",
+      "answer": "We offer different maintenance plans including security updates, regular backups, WordPress and plugin updates, as well as performance monitoring."
+    },
+    "mobile-optimization": {
+      "question": "Will my site be optimized for mobile?",
+      "answer": "Absolutely. All our WordPress developments are responsive by default, guaranteeing an optimal experience on all devices: computers, tablets and smartphones."
+    },
+    "security-approach": {
+      "question": "What is your approach to security?",
+      "answer": "We implement a comprehensive security strategy: strong authentication, web application firewall, intrusion attempt monitoring, automated backups and regular security updates."
+    }
+  },
+  "complementary": {
+    "custom-development": {
+      "title": "Custom development",
+      "description": "Creation of specific features to meet your particular needs."
+    },
+    "digital-marketing": {
+      "title": "Digital marketing",
+      "description": "Marketing strategies adapted to increase your online visibility."
+    },
+    "wordpress-training": {
+      "title": "WordPress training",
+      "description": "Custom training to master your site management."
+    }
+  }
+}

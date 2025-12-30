@@ -1,0 +1,80 @@
+{
+  "name": "Moodboard",
+  "description": "Définition de l'identité visuelle et de l'ambiance de votre projet",
+  "hero": {
+    "title": "Moodboards & Direction Artistique",
+    "description": "Donnez vie à votre vision grâce à des moodboards soigneusement élaborés. Notre expertise en design vous aide à définir une direction artistique claire et inspirante pour votre projet."
+  },
+  "features": {
+    "creative-direction": {
+      "title": "Direction créative",
+      "description": "Définition claire de l'ambiance et du style visuel."
+    },
+    "color-palette": {
+      "title": "Palette de couleurs",
+      "description": "Sélection harmonieuse des couleurs de votre identité."
+    },
+    "visual-style": {
+      "title": "Style visuel",
+      "description": "Exploration et définition de votre univers graphique."
+    },
+    "targeted-inspiration": {
+      "title": "Inspiration ciblée",
+      "description": "Recherche approfondie adaptée à votre secteur."
+    }
+  },
+  "benefits": {
+    "clear-direction": {
+      "title": "Direction claire",
+      "description": "Vision commune et alignement des équipes créatives."
+    },
+    "visual-communication": {
+      "title": "Communication visuelle",
+      "description": "Support efficace pour partager votre vision."
+    },
+    "consistency": {
+      "title": "Cohérence",
+      "description": "Garantie d'une identité visuelle harmonieuse."
+    },
+    "creative-expertise": {
+      "title": "Expertise créative",
+      "description": "Conseils professionnels et direction artistique."
+    }
+  },
+  "faq": {
+    "what-is-moodboard": {
+      "question": "Qu'est-ce qu'un moodboard et à quoi sert-il ?",
+      "answer": "Un moodboard est un assemblage visuel qui définit la direction artistique de votre projet. Il combine couleurs, typographies, images et textures pour créer une référence visuelle cohérente. C'est un outil essentiel pour communiquer votre vision et assurer la cohérence de votre identité visuelle."
+    },
+    "creation-process": {
+      "question": "Comment se déroule le processus de création ?",
+      "answer": "Le processus commence par une phase de découverte où nous explorons vos objectifs et votre univers. Nous effectuons ensuite une recherche approfondie pour sélectionner les éléments visuels appropriés. Après plusieurs itérations et vos retours, nous finalisons le moodboard qui servira de guide pour votre projet."
+    },
+    "moodboard-elements": {
+      "question": "Quels éléments comprend un moodboard ?",
+      "answer": "Un moodboard professionnel inclut généralement : une palette de couleurs, des typographies, des images d'inspiration, des textures, des patterns, et des références stylistiques. Nous ajoutons également des notes explicatives pour clarifier les choix créatifs."
+    },
+    "moodboard-usage": {
+      "question": "Comment utilisez-vous le moodboard dans la suite du projet ?",
+      "answer": "Le moodboard sert de référence tout au long du projet. Il guide les décisions de design, assure la cohérence visuelle et facilite la communication entre toutes les parties prenantes. C'est un document vivant qui peut évoluer avec vos retours."
+    },
+    "creation-timeline": {
+      "question": "Combien de temps prend la création d'un moodboard ?",
+      "answer": "La création d'un moodboard professionnel prend généralement 1 à 2 semaines, incluant la phase de recherche, la création initiale et les itérations basées sur vos retours. Ce temps nous permet d'explorer en profondeur et d'affiner la direction artistique."
+    }
+  },
+  "complementary": {
+    "brand-guidelines": {
+      "title": "Charte graphique",
+      "description": "Création d'une charte graphique complète."
+    },
+    "style-guide": {
+      "title": "Style Guide",
+      "description": "Guide détaillé d'utilisation de votre identité."
+    },
+    "artistic-direction": {
+      "title": "Direction artistique",
+      "description": "Accompagnement créatif continu."
+    }
+  }
+}

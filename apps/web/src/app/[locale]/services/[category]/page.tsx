@@ -1,7 +1,6 @@
 import { notFound } from 'next/navigation';
 import Services from '@/constants/services';
 import ServiceOverviewPage from '@/components/marketing/services/service-overview';
-import { ServiceCategoryData } from '@/types/service';
 import { constructMetadata } from '@/lib/utils/metadata.server';
 import { getTranslation } from '@/lib/translations.server';
 
@@ -24,26 +23,30 @@ export async function generateMetadata({ params }: Props) {
     });
   }
 
+  const { t } = await getTranslation(`constants/services/${category}`);
+
   return constructMetadata({
-    title: `${categoryData.name}`,
-    description: categoryData.description,
+    title: t('name'),
+    description: t('description'),
   });
 }
 
 export default async function CategoryPage({ params }: Props) {
   const { category } = await params;
 
-  const categoryData = Services.find(service => service.id === category) as ServiceCategoryData;
+  const categoryData = Services.find(service => service.id === category);
 
   if (!categoryData) {
     notFound();
   }
-  
+
+  const { t } = await getTranslation(`constants/services/${category}`);
+
   return (
     <ServiceOverviewPage
-      service={categoryData}
-      benefits={categoryData.benefits || []}
-      processList={categoryData.processList || []}
+      categoryId={categoryData.id}
+      name={t('name')}
+      description={t('description')}
     />
   );
 }

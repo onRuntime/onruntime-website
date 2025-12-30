@@ -39,7 +39,8 @@ export const AppTranslationProvider = ({
   const setLocale = useCallback(
     (newLocale: string) => {
       // Set cookie to remember user's choice
-      document.cookie = `NEXT_LOCALE=${newLocale};path=/;max-age=31536000`;
+      const isSecure = window.location.protocol === "https:";
+      document.cookie = `NEXT_LOCALE=${newLocale};path=/;max-age=31536000;SameSite=Lax${isSecure ? ";Secure" : ""}`;
 
       const segments = pathname.split("/");
       const hasLocalePrefix = locales.includes(segments[1]);

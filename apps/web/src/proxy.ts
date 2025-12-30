@@ -10,6 +10,8 @@ export function proxy(request: NextRequest) {
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
   );
 
+  const isSecure = request.url.startsWith("https://");
+
   // If URL has the default locale prefix, redirect to remove it and set cookie
   if (pathnameLocale === defaultLocale) {
     const newPathname = pathname.slice(`/${defaultLocale}`.length) || "/";
@@ -17,8 +19,7 @@ export function proxy(request: NextRequest) {
     response.cookies.set(LOCALE_COOKIE, defaultLocale, {
       path: "/",
       maxAge: 60 * 60 * 24 * 365, // 1 year
-      httpOnly: true,
-      secure: true,
+      secure: isSecure,
       sameSite: "lax",
     });
     return response;
@@ -35,8 +36,7 @@ export function proxy(request: NextRequest) {
     response.cookies.set(LOCALE_COOKIE, pathnameLocale, {
       path: "/",
       maxAge: 60 * 60 * 24 * 365, // 1 year
-      httpOnly: true,
-      secure: true,
+      secure: isSecure,
       sameSite: "lax",
     });
     return response;

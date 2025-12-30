@@ -1,0 +1,80 @@
+{
+  "name": "PrestaShop",
+  "description": "PrestaShop store development",
+  "hero": {
+    "title": "E-commerce development with PrestaShop",
+    "description": "Launch a professional online store with PrestaShop. Our expertise guarantees a powerful, scalable e-commerce solution perfectly adapted to your needs."
+  },
+  "features": {
+    "custom-design": {
+      "title": "Custom design",
+      "description": "Creation of custom themes that reflect your brand and optimize conversion."
+    },
+    "advanced-management": {
+      "title": "Advanced management",
+      "description": "Powerful admin interface to manage your products, orders and customers."
+    },
+    "optimized-performance": {
+      "title": "Optimized performance",
+      "description": "Advanced optimization for fast loading times and smooth experience."
+    },
+    "enhanced-security": {
+      "title": "Enhanced security",
+      "description": "Advanced protection of your store and your customers' data."
+    }
+  },
+  "benefits": {
+    "complete-management": {
+      "title": "Complete management",
+      "description": "Full control over your products, inventory, orders and customer relationships."
+    },
+    "multi-store": {
+      "title": "Multi-store",
+      "description": "Management of multiple stores from a single admin interface."
+    },
+    "integrated-logistics": {
+      "title": "Integrated logistics",
+      "description": "Advanced carrier and shipping cost management."
+    },
+    "detailed-analytics": {
+      "title": "Detailed analytics",
+      "description": "Complete statistics to track and optimize your performance."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "How long does it take to create a PrestaShop store?",
+      "answer": "The average time to create a PrestaShop store varies from 6 to 12 weeks, depending on project complexity. This includes theme customization, custom feature development, product integration and testing."
+    },
+    "migration": {
+      "question": "Can you migrate my existing store to PrestaShop?",
+      "answer": "Yes, we offer a complete migration service to PrestaShop, including transfer of products, customers, orders and history, while preserving your SEO."
+    },
+    "large-catalogs": {
+      "question": "Is PrestaShop suitable for large product catalogs?",
+      "answer": "Absolutely! PrestaShop is designed to efficiently manage catalogs of several thousand products with variations, while maintaining excellent performance."
+    },
+    "custom-development": {
+      "question": "Do you offer custom development?",
+      "answer": "Yes, we develop custom modules and features to adapt PrestaShop to your specific needs: ERP integrations, custom business processes, etc."
+    },
+    "maintenance-updates": {
+      "question": "How do you handle maintenance and updates?",
+      "answer": "We offer different maintenance plans including security updates, backups, performance optimization and technical support."
+    }
+  },
+  "complementary": {
+    "custom-modules": {
+      "title": "Custom modules",
+      "description": "Development of specific features for your business."
+    },
+    "digital-marketing": {
+      "title": "Digital marketing",
+      "description": "Marketing strategies to increase your visibility and sales."
+    },
+    "prestashop-training": {
+      "title": "PrestaShop training",
+      "description": "Custom training to master your store management."
+    }
+  }
+}

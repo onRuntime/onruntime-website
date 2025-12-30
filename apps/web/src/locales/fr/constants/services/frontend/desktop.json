@@ -1,0 +1,80 @@
+{
+  "name": "Logiciels de bureau",
+  "description": "Développement d'applications desktop multiplateforme",
+  "hero": {
+    "title": "Applications desktop multiplateformes",
+    "description": "Développez des applications de bureau modernes et performantes pour Windows, macOS et Linux. Notre expertise vous garantit des applications professionnelles qui tirent parti de toute la puissance du desktop."
+  },
+  "features": {
+    "electron-react": {
+      "title": "Electron & React",
+      "description": "Technologies modernes pour des applications desktop performantes et évolutives."
+    },
+    "multiplatform": {
+      "title": "Multiplateforme",
+      "description": "Applications compatibles Windows, macOS et Linux à partir d'une base de code unique."
+    },
+    "native-performance": {
+      "title": "Performance native",
+      "description": "Optimisation pour tirer parti des ressources système de manière efficace."
+    },
+    "system-integration": {
+      "title": "Intégration système",
+      "description": "Accès aux fonctionnalités natives du système d'exploitation."
+    }
+  },
+  "benefits": {
+    "windows-macos": {
+      "title": "Windows & macOS",
+      "description": "Support natif des principales plateformes desktop."
+    },
+    "system-access": {
+      "title": "Accès système",
+      "description": "Interaction directe avec le système d'exploitation."
+    },
+    "offline-mode": {
+      "title": "Mode hors ligne",
+      "description": "Fonctionnement autonome sans connexion internet requise."
+    },
+    "local-data": {
+      "title": "Données locales",
+      "description": "Stockage et traitement des données en local pour plus de sécurité."
+    }
+  },
+  "faq": {
+    "why-electron": {
+      "question": "Pourquoi choisir Electron pour le développement desktop ?",
+      "answer": "Electron permet de créer des applications desktop multiplateformes avec des technologies web modernes (React, TypeScript). Cela offre un développement rapide, une maintenance simplifiée et une excellente expérience utilisateur, tout en garantissant la compatibilité avec Windows, macOS et Linux."
+    },
+    "security": {
+      "question": "Comment gérez-vous la sécurité des applications desktop ?",
+      "answer": "Nous implémentons plusieurs niveaux de sécurité : chiffrement des données sensibles, protection contre les injections de code, mises à jour de sécurité automatiques, et bonnes pratiques de développement sécurisé. Nous suivons également les recommandations de sécurité spécifiques à chaque système d'exploitation."
+    },
+    "auto-update": {
+      "question": "Proposez-vous un système de mise à jour automatique ?",
+      "answer": "Oui, nous intégrons un système de mise à jour automatique qui permet de déployer facilement les nouvelles versions de l'application. Les utilisateurs sont notifiés des mises à jour disponibles et peuvent les installer en un clic."
+    },
+    "distribution": {
+      "question": "Comment gérez-vous la distribution des applications ?",
+      "answer": "Nous gérons tout le processus de distribution : création des installateurs pour chaque plateforme, signature des applications, publication sur les stores si nécessaire (Microsoft Store, Mac App Store), et mise en place d'un système de mise à jour automatique."
+    },
+    "post-launch-support": {
+      "question": "Proposez-vous un support après le lancement ?",
+      "answer": "Oui, nous proposons plusieurs formules de maintenance incluant : support technique, correction de bugs, mises à jour de sécurité, optimisations de performance et évolutions fonctionnelles."
+    }
+  },
+  "complementary": {
+    "telemetry": {
+      "title": "Télémétrie",
+      "description": "Suivi des performances et du comportement utilisateur."
+    },
+    "distribution": {
+      "title": "Distribution",
+      "description": "Publication sur les stores et gestion des mises à jour."
+    },
+    "cloud-sync": {
+      "title": "Cloud sync",
+      "description": "Synchronisation des données avec le cloud."
+    }
+  }
+}

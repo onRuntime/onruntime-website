@@ -1,0 +1,80 @@
+{
+  "name": "Maquettage UI",
+  "description": "Design détaillé des interfaces utilisateur",
+  "hero": {
+    "title": "Design d'Interface Utilisateur",
+    "description": "Créez des interfaces modernes, élégantes et intuitives pour vos applications. Notre expertise en design UI vous garantit des maquettes professionnelles qui captiveront vos utilisateurs."
+  },
+  "features": {
+    "modern-design": {
+      "title": "Design moderne",
+      "description": "Interfaces élégantes suivant les dernières tendances."
+    },
+    "design-system": {
+      "title": "Système de design",
+      "description": "Composants cohérents et réutilisables."
+    },
+    "responsive-design": {
+      "title": "Responsive design",
+      "description": "Adaptation parfaite à tous les écrans."
+    },
+    "animations-micro-interactions": {
+      "title": "Animations & micro-interactions",
+      "description": "Interactions fluides et engageantes."
+    }
+  },
+  "benefits": {
+    "visual-identity": {
+      "title": "Identité visuelle",
+      "description": "Design cohérent avec votre marque."
+    },
+    "user-experience": {
+      "title": "Expérience utilisateur",
+      "description": "Interfaces intuitives et agréables à utiliser."
+    },
+    "design-system": {
+      "title": "Design system",
+      "description": "Bibliothèque de composants réutilisables."
+    },
+    "accessibility": {
+      "title": "Accessibilité",
+      "description": "Interfaces accessibles à tous les utilisateurs."
+    }
+  },
+  "faq": {
+    "ui-design-process": {
+      "question": "Comment se déroule le processus de design UI ?",
+      "answer": "Le processus commence par l'analyse de vos besoins et de votre identité de marque. Nous créons ensuite des premières versions des écrans clés, établissons le système de design, puis itérons sur les maquettes détaillées. Chaque étape inclut vos retours pour assurer un résultat parfaitement aligné avec vos attentes."
+    },
+    "tools-deliverables": {
+      "question": "Quels outils et livrables sont fournis ?",
+      "answer": "Nous utilisons principalement Figma pour le design UI. Vous recevez les maquettes détaillées de tous les écrans, un système de design complet avec ses composants, les spécifications pour les développeurs, et les assets nécessaires à l'intégration."
+    },
+    "responsive-handling": {
+      "question": "Comment gérez-vous le responsive design ?",
+      "answer": "Nous suivons une approche mobile-first et créons des maquettes pour chaque breakpoint important (mobile, tablette, desktop). Chaque interface est optimisée pour offrir la meilleure expérience possible sur son support."
+    },
+    "design-consistency": {
+      "question": "Comment garantissez-vous la cohérence du design ?",
+      "answer": "Nous créons un système de design complet incluant une bibliothèque de composants, des règles typographiques, une palette de couleurs et des principes de design. Ce système assure la cohérence à travers toute l'interface."
+    },
+    "developer-handoff": {
+      "question": "Comment facilitez-vous le travail des développeurs ?",
+      "answer": "Nous fournissons des spécifications détaillées pour chaque composant, incluant les mesures, les styles, les états et les interactions. Nous utilisons également des outils comme Zeplin ou les exports Figma pour faciliter l'intégration."
+    }
+  },
+  "complementary": {
+    "design-system": {
+      "title": "Design system",
+      "description": "Création d'une bibliothèque de composants."
+    },
+    "prototyping": {
+      "title": "Prototypage",
+      "description": "Création de prototypes interactifs."
+    },
+    "development": {
+      "title": "Développement",
+      "description": "Intégration de vos maquettes en code."
+    }
+  }
+}

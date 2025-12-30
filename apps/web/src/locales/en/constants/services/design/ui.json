@@ -1,0 +1,80 @@
+{
+  "name": "UI mockups",
+  "description": "Detailed design of user interfaces",
+  "hero": {
+    "title": "User Interface Design",
+    "description": "Create modern, elegant and intuitive interfaces for your applications. Our UI design expertise guarantees professional mockups that will captivate your users."
+  },
+  "features": {
+    "modern-design": {
+      "title": "Modern design",
+      "description": "Elegant interfaces following the latest trends."
+    },
+    "design-system": {
+      "title": "Design system",
+      "description": "Consistent and reusable components."
+    },
+    "responsive-design": {
+      "title": "Responsive design",
+      "description": "Perfect adaptation to all screens."
+    },
+    "animations-micro-interactions": {
+      "title": "Animations & micro-interactions",
+      "description": "Fluid and engaging interactions."
+    }
+  },
+  "benefits": {
+    "visual-identity": {
+      "title": "Visual identity",
+      "description": "Design consistent with your brand."
+    },
+    "user-experience": {
+      "title": "User experience",
+      "description": "Intuitive and pleasant interfaces to use."
+    },
+    "design-system": {
+      "title": "Design system",
+      "description": "Library of reusable components."
+    },
+    "accessibility": {
+      "title": "Accessibility",
+      "description": "Interfaces accessible to all users."
+    }
+  },
+  "faq": {
+    "ui-design-process": {
+      "question": "How does the UI design process work?",
+      "answer": "The process begins with analyzing your needs and brand identity. We then create initial versions of key screens, establish the design system, then iterate on detailed mockups. Each step includes your feedback to ensure a result perfectly aligned with your expectations."
+    },
+    "tools-deliverables": {
+      "question": "What tools and deliverables are provided?",
+      "answer": "We primarily use Figma for UI design. You receive detailed mockups of all screens, a complete design system with its components, specifications for developers, and assets necessary for integration."
+    },
+    "responsive-handling": {
+      "question": "How do you handle responsive design?",
+      "answer": "We follow a mobile-first approach and create mockups for each important breakpoint (mobile, tablet, desktop). Each interface is optimized to offer the best possible experience on its medium."
+    },
+    "design-consistency": {
+      "question": "How do you ensure design consistency?",
+      "answer": "We create a complete design system including a component library, typographic rules, color palette and design principles. This system ensures consistency throughout the interface."
+    },
+    "developer-handoff": {
+      "question": "How do you facilitate developer work?",
+      "answer": "We provide detailed specifications for each component, including measurements, styles, states and interactions. We also use tools like Zeplin or Figma exports to facilitate integration."
+    }
+  },
+  "complementary": {
+    "design-system": {
+      "title": "Design system",
+      "description": "Creation of a component library."
+    },
+    "prototyping": {
+      "title": "Prototyping",
+      "description": "Creation of interactive prototypes."
+    },
+    "development": {
+      "title": "Development",
+      "description": "Integration of your mockups into code."
+    }
+  }
+}

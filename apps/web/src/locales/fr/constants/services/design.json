@@ -1,0 +1,56 @@
+{
+  "name": "Design UI/UX",
+  "description": "Création d'interfaces modernes et d'expériences utilisateur optimales",
+  "benefits": {
+    "user-centered-design": {
+      "title": "Design UI/UX centré utilisateur",
+      "description": "Une approche qui place les besoins utilisateurs au cœur de nos designs, validée par des prototypes interactifs."
+    },
+    "creative-innovation": {
+      "title": "Innovation créative",
+      "description": "Des solutions UI/UX créatives et des prototypes innovants qui distinguent votre marque tout en respectant les standards."
+    },
+    "iterative-prototyping": {
+      "title": "Prototypage itératif",
+      "description": "Une méthodologie basée sur des prototypes rapides et des itérations fréquentes pour affiner l'expérience utilisateur."
+    },
+    "business-objectives": {
+      "title": "Objectifs business",
+      "description": "Un design UI/UX aligné sur vos objectifs commerciaux, validé par des tests utilisateurs sur prototypes."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Analyse des besoins",
+      "description": "Première étape cruciale où nous analysons vos besoins, votre marque et vos objectifs business pour définir la direction UI/UX."
+    },
+    "research-moodboard": {
+      "title": "Recherche et moodboard",
+      "description": "Création de moodboards et exploration des directions créatives possibles. Définition de la direction artistique globale."
+    },
+    "wireframes": {
+      "title": "Wireframes",
+      "description": "Conception des wireframes pour valider la structure, la hiérarchie et l'architecture de l'information."
+    },
+    "interface-design": {
+      "title": "Design d'interface",
+      "description": "Création des maquettes finales en respectant votre charte graphique. Attention particulière aux composants et à leur réutilisabilité."
+    },
+    "prototyping": {
+      "title": "Prototypage",
+      "description": "Création de prototypes pour tester les interactions et valider les parcours utilisateurs."
+    },
+    "development": {
+      "title": "Développement",
+      "description": "Transformation des maquettes en interfaces fonctionnelles, avec une attention particulière aux animations définies."
+    }
+  },
+  "process-services": {
+    "needs-analysis": ["Design UI/UX"],
+    "research-moodboard": ["Design UI/UX", "Moodboard"],
+    "wireframes": ["Design UI/UX", "Wireframes"],
+    "interface-design": ["Design UI/UX"],
+    "prototyping": ["Design UI/UX"],
+    "development": ["Développement Frontend", "Intégration"]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "APIs RESTful",
+  "description": "Conception et développement d'APIs performantes",
+  "hero": {
+    "title": "APIs RESTful & GraphQL",
+    "description": "Développez des APIs modernes, sécurisées et performantes pour vos applications. Notre expertise vous garantit des interfaces robustes et évolutives qui répondent à vos besoins spécifiques."
+  },
+  "features": {
+    "rest-graphql": {
+      "title": "REST & GraphQL",
+      "description": "Développement d'APIs modernes avec les standards de l'industrie."
+    },
+    "advanced-security": {
+      "title": "Sécurité avancée",
+      "description": "Protection robuste contre les vulnérabilités et les attaques."
+    },
+    "optimal-performance": {
+      "title": "Performance optimale",
+      "description": "Architecture optimisée pour des temps de réponse minimaux."
+    },
+    "complete-documentation": {
+      "title": "Documentation complète",
+      "description": "Documentation claire et interactive pour une intégration facile."
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "Haute disponibilité",
+      "description": "Infrastructure redondante pour une disponibilité maximale."
+    },
+    "scalability": {
+      "title": "Scalabilité",
+      "description": "Architecture conçue pour supporter la croissance."
+    },
+    "advanced-monitoring": {
+      "title": "Monitoring avancé",
+      "description": "Suivi en temps réel des performances et de la santé."
+    },
+    "intelligent-cache": {
+      "title": "Cache intelligent",
+      "description": "Optimisation des performances avec mise en cache avancée."
+    }
+  },
+  "faq": {
+    "rest-vs-graphql": {
+      "question": "Quelle est la différence entre REST et GraphQL ?",
+      "answer": "REST est une architecture traditionnelle où chaque endpoint correspond à une ressource spécifique, tandis que GraphQL permet aux clients de demander exactement les données dont ils ont besoin. Nous vous conseillons la meilleure approche selon vos besoins spécifiques et vos cas d'usage."
+    },
+    "api-security": {
+      "question": "Comment assurez-vous la sécurité des APIs ?",
+      "answer": "Nous implémentons plusieurs niveaux de sécurité : authentification JWT, chiffrement SSL/TLS, rate limiting, validation des données, protection contre les injections et les attaques CSRF. Nous suivons également les recommandations OWASP pour la sécurité des APIs."
+    },
+    "scaling": {
+      "question": "Comment gérez-vous la montée en charge ?",
+      "answer": "Nous concevons des APIs scalables horizontalement, avec load balancing, mise en cache distribuée, et optimisation des requêtes. L'architecture est pensée pour supporter une croissance importante du trafic."
+    },
+    "documentation": {
+      "question": "Quelle documentation fournissez-vous ?",
+      "answer": "Nous fournissons une documentation complète : documentation technique OpenAPI/Swagger, guides d'intégration, exemples de code, et environnement de test. La documentation est maintenue à jour avec chaque évolution de l'API."
+    },
+    "post-deployment-support": {
+      "question": "Proposez-vous un support après le déploiement ?",
+      "answer": "Oui, nous proposons plusieurs formules de maintenance incluant : monitoring 24/7, support technique, optimisation continue des performances, mises à jour de sécurité et évolutions fonctionnelles."
+    }
+  },
+  "complementary": {
+    "advanced-analytics": {
+      "title": "Analytics avancés",
+      "description": "Analyse détaillée de l'utilisation et des performances."
+    },
+    "data-migration": {
+      "title": "Migration de données",
+      "description": "Migration depuis vos systèmes existants."
+    },
+    "integration": {
+      "title": "Intégration",
+      "description": "Support pour l'intégration avec vos applications."
+    }
+  }
+}

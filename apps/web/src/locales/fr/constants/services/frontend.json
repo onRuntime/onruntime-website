@@ -1,0 +1,56 @@
+{
+  "name": "Développement front-end",
+  "description": "Création d'applications web et mobiles performantes",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Architecture évolutive",
+      "description": "Applications construites sur des architectures modernes et scalables, prêtes pour l'évolution de votre projet."
+    },
+    "optimal-performance": {
+      "title": "Performance optimale",
+      "description": "Focus sur les performances avec des techniques avancées d'optimisation et de mise en cache."
+    },
+    "maintainable-code": {
+      "title": "Code maintenable",
+      "description": "Architecture propre et modulaire permettant une maintenance facile et des évolutions rapides."
+    },
+    "enhanced-security": {
+      "title": "Sécurité renforcée",
+      "description": "Implémentation des meilleures pratiques de sécurité frontend pour protéger vos utilisateurs."
+    }
+  },
+  "process": {
+    "technical-architecture": {
+      "title": "Architecture technique",
+      "description": "Définition de l'architecture frontend, choix des technologies et mise en place de l'environnement de développement."
+    },
+    "project-setup": {
+      "title": "Mise en place du projet",
+      "description": "Configuration du projet avec les bonnes pratiques de développement, tests et déploiement continu."
+    },
+    "feature-development": {
+      "title": "Développement des features",
+      "description": "Implémentation des fonctionnalités avec un focus sur la qualité du code et les performances."
+    },
+    "state-management": {
+      "title": "Gestion de l'état",
+      "description": "Mise en place d'une gestion d'état robuste et performante pour les données de l'application."
+    },
+    "testing-quality": {
+      "title": "Tests et qualité",
+      "description": "Mise en place des tests automatisés et des processus d'assurance qualité."
+    },
+    "optimization-monitoring": {
+      "title": "Optimisation et monitoring",
+      "description": "Optimisation des performances et mise en place d'outils de monitoring."
+    }
+  },
+  "process-services": {
+    "technical-architecture": ["Architecture", "Conseil technique"],
+    "project-setup": ["Setup technique", "CI/CD"],
+    "feature-development": ["Développement Frontend", "React", "Next.js"],
+    "state-management": ["State Management", "API Integration"],
+    "testing-quality": ["Tests unitaires", "Tests E2E"],
+    "optimization-monitoring": ["Performance", "Analytics"]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Applications mobiles",
+  "description": "Création d'applications mobiles natives avec React Native",
+  "hero": {
+    "title": "Développement mobile React Native",
+    "description": "Créez des applications mobiles natives performantes pour iOS et Android avec React Native. Notre expertise vous garantit des applications robustes et une expérience utilisateur exceptionnelle."
+  },
+  "features": {
+    "react-native-expo": {
+      "title": "React Native & Expo",
+      "description": "Développement cross-platform efficace pour iOS et Android avec une base de code unique."
+    },
+    "native-design": {
+      "title": "Design natif",
+      "description": "Interfaces respectant les guidelines de design iOS et Android pour une expérience familière."
+    },
+    "native-performance": {
+      "title": "Performance native",
+      "description": "Optimisation poussée pour des performances proches du natif sur chaque plateforme."
+    },
+    "mobile-ui-ux": {
+      "title": "UI/UX mobile",
+      "description": "Interfaces mobiles intuitives suivant les meilleures pratiques de chaque plateforme."
+    }
+  },
+  "benefits": {
+    "multi-platform": {
+      "title": "Multi-plateformes",
+      "description": "Applications fonctionnant sur iOS et Android à partir d'une base de code unique."
+    },
+    "tablet-support": {
+      "title": "Support tablettes",
+      "description": "Interfaces adaptées aux différentes tailles d'écrans et orientations."
+    },
+    "optimal-performance": {
+      "title": "Performance optimale",
+      "description": "Optimisation native pour des performances et une fluidité maximales."
+    },
+    "native-experience": {
+      "title": "Expérience native",
+      "description": "Utilisation des fonctionnalités natives des appareils (caméra, GPS, notifications...)."
+    }
+  },
+  "faq": {
+    "why-react-native": {
+      "question": "Pourquoi choisir React Native pour le développement mobile ?",
+      "answer": "React Native permet de développer des applications performantes pour iOS et Android à partir d'une base de code unique, réduisant les coûts et le temps de développement tout en maintenant une qualité native. Il bénéficie également d'un large écosystème et du support de Meta (Facebook)."
+    },
+    "performance": {
+      "question": "Comment assurez-vous la performance des applications ?",
+      "answer": "Nous optimisons chaque aspect de l'application : temps de démarrage, consommation mémoire, animations fluides, chargement des données... Nous utilisons également des outils de profilage pour identifier et résoudre les problèmes de performance."
+    },
+    "store-publishing": {
+      "question": "Gérez-vous la publication sur les stores ?",
+      "answer": "Oui, nous prenons en charge tout le processus de publication : préparation des assets, configuration des comptes développeur, soumission aux stores (App Store et Play Store) et suivi des mises à jour."
+    },
+    "updates": {
+      "question": "Comment gérez-vous les mises à jour des applications ?",
+      "answer": "Nous mettons en place des systèmes de mise à jour OTA (Over The Air) quand c'est possible, et nous gérons les mises à jour via les stores avec un processus optimisé pour minimiser les temps de validation."
+    },
+    "post-launch-support": {
+      "question": "Proposez-vous un support après le lancement ?",
+      "answer": "Oui, nous proposons différentes formules de maintenance incluant : monitoring des performances, corrections de bugs, mises à jour de sécurité et évolutions fonctionnelles."
+    }
+  },
+  "complementary": {
+    "store-publishing": {
+      "title": "Publication store",
+      "description": "Gestion complète de la publication sur l'App Store et le Play Store."
+    },
+    "backend-integration": {
+      "title": "Intégration backend",
+      "description": "Connection avec vos systèmes et APIs existants."
+    },
+    "react-native-training": {
+      "title": "Formation React Native",
+      "description": "Formation de vos équipes au développement React Native."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Progressive web apps",
+  "description": "Creating high-performance progressive web applications",
+  "hero": {
+    "title": "Progressive web apps (PWA)",
+    "description": "Transform your website into a true installable application with Progressive Web Apps. Offer an exceptional user experience, online and offline."
+  },
+  "features": {
+    "native-installation": {
+      "title": "Native installation",
+      "description": "Installable applications directly from the browser, without going through stores."
+    },
+    "offline-mode": {
+      "title": "Offline mode",
+      "description": "Works even without internet connection thanks to smart caching."
+    },
+    "optimal-performance": {
+      "title": "Optimal performance",
+      "description": "Fast loading and smooth experience on all devices."
+    },
+    "push-notifications": {
+      "title": "Push notifications",
+      "description": "Improved user engagement through push notifications."
+    }
+  },
+  "benefits": {
+    "multi-platform": {
+      "title": "Multi-platform",
+      "description": "One application for all devices and operating systems."
+    },
+    "always-updated": {
+      "title": "Always updated",
+      "description": "Automatic updates without user action required."
+    },
+    "lightweight": {
+      "title": "Lightweight",
+      "description": "No heavy installation, instantly accessible."
+    },
+    "native-performance": {
+      "title": "Native performance",
+      "description": "User experience close to native applications."
+    }
+  },
+  "faq": {
+    "what-is-pwa": {
+      "question": "What is a Progressive Web App?",
+      "answer": "A PWA is a web application that offers an experience similar to a native application: it is installable, works offline, and can send push notifications. It combines the advantages of the web (accessibility, automatic update) and native (performance, advanced features)."
+    },
+    "vs-native": {
+      "question": "What are the advantages compared to a native application?",
+      "answer": "PWAs offer several advantages: no need to go through stores, automatic updates, faster and less expensive development, better referencing, and a single codebase for all platforms."
+    },
+    "offline": {
+      "question": "How does offline mode work?",
+      "answer": "We use Service Workers to cache essential resources and data. The application can thus work even without internet connection, with automatic synchronization once connection is restored."
+    },
+    "browser-compatibility": {
+      "question": "Are PWAs compatible with all browsers?",
+      "answer": "PWAs work on most modern browsers. For older browsers, we set up fallback solutions to guarantee an optimal user experience."
+    },
+    "post-launch-support": {
+      "question": "Do you offer support after launch?",
+      "answer": "Yes, we offer several maintenance plans including: security updates, performance optimizations, feature additions and technical support."
+    }
+  },
+  "complementary": {
+    "advanced-analytics": {
+      "title": "Advanced analytics",
+      "description": "Detailed tracking of user behavior and performance."
+    },
+    "seo-optimized": {
+      "title": "Optimized SEO",
+      "description": "Optimization for search engines and social sharing."
+    },
+    "enhanced-security": {
+      "title": "Enhanced security",
+      "description": "Data protection and secure communications."
+    }
+  }
+}
