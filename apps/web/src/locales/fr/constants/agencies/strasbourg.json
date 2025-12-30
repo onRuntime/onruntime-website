@@ -1,10 +1,12 @@
 {
   "title": "Développement Web à Strasbourg | Solutions Digitales pour Entreprises Alsaciennes",
   "description": "Créez votre site web ou application mobile à Strasbourg. Solutions digitales sur mesure pour les entreprises alsaciennes, adaptées aux enjeux locaux et transfrontaliers.",
-  "hero-title": "Développement Web & Mobile à Strasbourg",
-  "hero-description": "Nous aidons les entreprises de Strasbourg et du Grand Est à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché alsacien et européen.",
-  "intro-text": "Capitale européenne et ville frontalière au riche patrimoine, Strasbourg conjugue traditions alsaciennes et ouverture internationale. Son statut de siège d'institutions européennes, son industrie dynamique et sa position stratégique entre France et Allemagne en font un territoire unique où le digital joue un rôle essentiel de passerelle.",
-  "expertise-text": "Notre équipe conçoit des sites web, applications et solutions digitales parfaitement adaptés aux entreprises strasbourgeoises, qu'elles soient des organisations internationales, des entreprises industrielles ou des acteurs du patrimoine local. Nous comprenons les défis spécifiques de votre marché régional et transfrontalier, et vous proposons des solutions numériques multilingues et culturellement adaptées.",
+  "hero": {
+    "title": "Développement Web & Mobile à Strasbourg",
+    "description": "Nous aidons les entreprises de Strasbourg et du Grand Est à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché alsacien et européen."
+  },
+  "intro": "Capitale européenne et ville frontalière au riche patrimoine, Strasbourg conjugue traditions alsaciennes et ouverture internationale. Son statut de siège d'institutions européennes, son industrie dynamique et sa position stratégique entre France et Allemagne en font un territoire unique où le digital joue un rôle essentiel de passerelle.",
+  "expertise": "Notre équipe conçoit des sites web, applications et solutions digitales parfaitement adaptés aux entreprises strasbourgeoises, qu'elles soient des organisations internationales, des entreprises industrielles ou des acteurs du patrimoine local. Nous comprenons les défis spécifiques de votre marché régional et transfrontalier, et vous proposons des solutions numériques multilingues et culturellement adaptées.",
   "why-choose-us": "Notre connaissance approfondie du marché strasbourgeois nous permet de développer des solutions numériques parfaitement adaptées aux défis spécifiques des entreprises locales. Nous comprenons les exigences du contexte européen et les particularités culturelles alsaciennes, et intégrons cette double dimension dans chaque projet pour créer des expériences digitales pertinentes et performantes.",
   "key-business-sectors": {
     "european-institutions": "Institutions européennes",

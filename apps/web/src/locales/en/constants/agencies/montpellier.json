@@ -1,10 +1,12 @@
 {
   "title": "Web Development in Montpellier | Digital Solutions for Languedoc Businesses",
   "description": "Create your website or mobile application in Montpellier. Custom digital solutions for Montpellier businesses, tailored to the local challenges of your sector.",
-  "hero-title": "Web & Mobile Development in Montpellier",
-  "hero-description": "We help businesses in Montpellier and the Languedoc region digitalize with custom web solutions, perfectly adapted to the specific challenges of the regional market.",
-  "intro-text": "A dynamic city at the crossroads of Mediterranean and Languedoc influences, Montpellier stands out for its health innovation ecosystem, prestigious universities and art of living. Our digital expertise enables Montpellier businesses to leverage this richness and stand out in a competitive environment.",
-  "expertise-text": "Our team designs websites, applications and digital solutions perfectly adapted to businesses in Montpellier and its region. We understand the specific challenges of your local market, whether in the health sector, education or Languedoc terroir, and offer digital solutions that showcase your expertise and regional roots.",
+  "hero": {
+    "title": "Web & Mobile Development in Montpellier",
+    "description": "We help businesses in Montpellier and the Languedoc region digitalize with custom web solutions, perfectly adapted to the specific challenges of the regional market."
+  },
+  "intro": "A dynamic city at the crossroads of Mediterranean and Languedoc influences, Montpellier stands out for its health innovation ecosystem, prestigious universities and art of living. Our digital expertise enables Montpellier businesses to leverage this richness and stand out in a competitive environment.",
+  "expertise": "Our team designs websites, applications and digital solutions perfectly adapted to businesses in Montpellier and its region. We understand the specific challenges of your local market, whether in the health sector, education or Languedoc terroir, and offer digital solutions that showcase your expertise and regional roots.",
   "why-choose-us": "Our in-depth knowledge of the Montpellier market allows us to develop digital solutions perfectly adapted to the specific challenges of local businesses. We understand the balance between innovation and tradition that characterizes Montpellier, and integrate this understanding into each project to create authentic and high-performing digital experiences.",
   "key-business-sectors": {
     "health-biotech": "Health & Biotechnologies",

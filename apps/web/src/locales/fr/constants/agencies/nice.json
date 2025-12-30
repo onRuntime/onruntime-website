@@ -1,10 +1,12 @@
 {
   "title": "Développement Web à Nice | Solutions Digitales pour Entreprises Azuréennes",
   "description": "Créez votre site web ou application mobile à Nice. Solutions digitales sur mesure pour les entreprises de la Côte d'Azur, adaptées aux enjeux locaux de votre secteur.",
-  "hero-title": "Développement Web & Mobile à Nice",
-  "hero-description": "Nous aidons les entreprises de Nice et de la Côte d'Azur à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché azuréen.",
-  "intro-text": "Entre mer Méditerranée et Alpes, Nice bénéficie d'un rayonnement international et d'une économie diversifiée où le tourisme côtoie l'innovation. Notre expertise digitale permet aux entreprises niçoises de se démarquer dans un environnement compétitif où l'image et l'excellence sont primordiales.",
-  "expertise-text": "Notre équipe conçoit des sites web, applications et solutions e-commerce parfaitement adaptés aux entreprises de Nice et de la Côte d'Azur. Nous comprenons les exigences élevées de votre marché local et vous proposons des solutions digitales qui valorisent le positionnement premium propre à la région.",
+  "hero": {
+    "title": "Développement Web & Mobile à Nice",
+    "description": "Nous aidons les entreprises de Nice et de la Côte d'Azur à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché azuréen."
+  },
+  "intro": "Entre mer Méditerranée et Alpes, Nice bénéficie d'un rayonnement international et d'une économie diversifiée où le tourisme côtoie l'innovation. Notre expertise digitale permet aux entreprises niçoises de se démarquer dans un environnement compétitif où l'image et l'excellence sont primordiales.",
+  "expertise": "Notre équipe conçoit des sites web, applications et solutions e-commerce parfaitement adaptés aux entreprises de Nice et de la Côte d'Azur. Nous comprenons les exigences élevées de votre marché local et vous proposons des solutions digitales qui valorisent le positionnement premium propre à la région.",
   "why-choose-us": "Notre connaissance approfondie du marché azuréen nous permet de développer des solutions numériques parfaitement adaptées aux défis spécifiques des entreprises locales. Nous comprenons la dimension internationale de Nice et sa réputation d'excellence, et intégrons ces aspects dans chaque projet pour créer des expériences digitales raffinées et performantes.",
   "key-business-sectors": {
     "luxury-tourism": "Tourisme de luxe",

@@ -1,10 +1,12 @@
 {
   "title": "Développement Web à Montpellier | Solutions Digitales pour Entreprises Languedociennes",
   "description": "Créez votre site web ou application mobile à Montpellier. Solutions digitales sur mesure pour les entreprises montpelliéraines, adaptées aux enjeux locaux de votre secteur.",
-  "hero-title": "Développement Web & Mobile à Montpellier",
-  "hero-description": "Nous aidons les entreprises de Montpellier et du Languedoc à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché régional.",
-  "intro-text": "Ville dynamique à la croisée des influences méditerranéennes et languedociennes, Montpellier se distingue par son écosystème d'innovation en santé, ses universités prestigieuses et son art de vivre. Notre expertise digitale permet aux entreprises montpelliéraines de tirer parti de cette richesse et de se démarquer dans un environnement compétitif.",
-  "expertise-text": "Notre équipe conçoit des sites web, applications et solutions digitales parfaitement adaptés aux entreprises de Montpellier et sa région. Nous comprenons les défis spécifiques de votre marché local, qu'il s'agisse du secteur de la santé, de l'éducation ou du terroir languedocien, et vous proposons des solutions numériques qui valorisent votre expertise et votre ancrage régional.",
+  "hero": {
+    "title": "Développement Web & Mobile à Montpellier",
+    "description": "Nous aidons les entreprises de Montpellier et du Languedoc à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché régional."
+  },
+  "intro": "Ville dynamique à la croisée des influences méditerranéennes et languedociennes, Montpellier se distingue par son écosystème d'innovation en santé, ses universités prestigieuses et son art de vivre. Notre expertise digitale permet aux entreprises montpelliéraines de tirer parti de cette richesse et de se démarquer dans un environnement compétitif.",
+  "expertise": "Notre équipe conçoit des sites web, applications et solutions digitales parfaitement adaptés aux entreprises de Montpellier et sa région. Nous comprenons les défis spécifiques de votre marché local, qu'il s'agisse du secteur de la santé, de l'éducation ou du terroir languedocien, et vous proposons des solutions numériques qui valorisent votre expertise et votre ancrage régional.",
   "why-choose-us": "Notre connaissance approfondie du marché montpelliérain nous permet de développer des solutions numériques parfaitement adaptées aux défis spécifiques des entreprises locales. Nous comprenons l'équilibre entre innovation et tradition qui caractérise Montpellier, et intégrons cette compréhension dans chaque projet pour créer des expériences digitales authentiques et performantes.",
   "key-business-sectors": {
     "health-biotech": "Santé & Biotechnologies",

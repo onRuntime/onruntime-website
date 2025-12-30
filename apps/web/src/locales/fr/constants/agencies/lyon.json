@@ -1,10 +1,12 @@
 {
   "title": "Agence Web à Lyon | Solutions Digitales sur Mesure",
   "description": "Développement web, mobile et design UI/UX à Lyon. Notre expertise digitale adaptée aux entreprises de Rhône-Alpes pour dynamiser votre présence en ligne.",
-  "hero-title": "Développement Web & Mobile à Lyon",
-  "hero-description": "Transformez votre entreprise lyonnaise avec des solutions digitales innovantes parfaitement adaptées au dynamisme économique de la région Auvergne-Rhône-Alpes.",
-  "intro-text": "Implantée au cœur du dynamisme lyonnais, notre expertise digitale accompagne les entreprises de la région dans leur transformation numérique. Entre tradition industrielle, excellence biomédicale et rayonnement gastronomique, Lyon présente un tissu économique riche et diversifié dont nous comprenons parfaitement les enjeux.",
-  "expertise-text": "Nous créons des solutions web, mobile et e-commerce adaptées aux spécificités du marché lyonnais et rhônalpin. Notre équipe maîtrise les défis numériques propres aux secteurs d'excellence de la région, des biotechnologies à la gastronomie, en passant par l'industrie manufacturière.",
+  "hero": {
+    "title": "Développement Web & Mobile à Lyon",
+    "description": "Transformez votre entreprise lyonnaise avec des solutions digitales innovantes parfaitement adaptées au dynamisme économique de la région Auvergne-Rhône-Alpes."
+  },
+  "intro": "Implantée au cœur du dynamisme lyonnais, notre expertise digitale accompagne les entreprises de la région dans leur transformation numérique. Entre tradition industrielle, excellence biomédicale et rayonnement gastronomique, Lyon présente un tissu économique riche et diversifié dont nous comprenons parfaitement les enjeux.",
+  "expertise": "Nous créons des solutions web, mobile et e-commerce adaptées aux spécificités du marché lyonnais et rhônalpin. Notre équipe maîtrise les défis numériques propres aux secteurs d'excellence de la région, des biotechnologies à la gastronomie, en passant par l'industrie manufacturière.",
   "why-choose-us": "Notre connaissance du marché lyonnais nous permet de développer des solutions numériques parfaitement alignées avec les exigences et les particularités des entreprises locales. Nous comprenons les standards d'excellence de la région et proposons un accompagnement digital qui valorise l'identité et le savoir-faire lyonnais.",
   "key-business-sectors": {
     "biotech": "Biotechnologie",

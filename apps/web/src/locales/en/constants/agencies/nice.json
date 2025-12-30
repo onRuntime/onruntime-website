@@ -1,10 +1,12 @@
 {
   "title": "Web Development in Nice | Digital Solutions for Côte d'Azur Businesses",
   "description": "Create your website or mobile application in Nice. Custom digital solutions for Côte d'Azur businesses, tailored to the local challenges of your sector.",
-  "hero-title": "Web & Mobile Development in Nice",
-  "hero-description": "We help businesses in Nice and the French Riviera digitalize with custom web solutions, perfectly adapted to the specific challenges of the Azurean market.",
-  "intro-text": "Between the Mediterranean Sea and the Alps, Nice benefits from international influence and a diversified economy where tourism meets innovation. Our digital expertise enables Nice businesses to stand out in a competitive environment where image and excellence are paramount.",
-  "expertise-text": "Our team designs websites, applications and e-commerce solutions perfectly adapted to businesses in Nice and the French Riviera. We understand the high standards of your local market and offer digital solutions that enhance the premium positioning specific to the region.",
+  "hero": {
+    "title": "Web & Mobile Development in Nice",
+    "description": "We help businesses in Nice and the French Riviera digitalize with custom web solutions, perfectly adapted to the specific challenges of the Azurean market."
+  },
+  "intro": "Between the Mediterranean Sea and the Alps, Nice benefits from international influence and a diversified economy where tourism meets innovation. Our digital expertise enables Nice businesses to stand out in a competitive environment where image and excellence are paramount.",
+  "expertise": "Our team designs websites, applications and e-commerce solutions perfectly adapted to businesses in Nice and the French Riviera. We understand the high standards of your local market and offer digital solutions that enhance the premium positioning specific to the region.",
   "why-choose-us": "Our in-depth knowledge of the Azurean market allows us to develop digital solutions perfectly adapted to the specific challenges of local businesses. We understand the international dimension of Nice and its reputation for excellence, and integrate these aspects into each project to create refined and high-performing digital experiences.",
   "key-business-sectors": {
     "luxury-tourism": "Luxury Tourism",

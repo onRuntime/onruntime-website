@@ -1,10 +1,12 @@
 {
   "title": "Développement Web à Marseille | Solutions Digitales pour Entreprises Provençales",
   "description": "Créez votre site web ou application mobile à Marseille. Solutions digitales sur mesure pour les entreprises provençales, adaptées aux enjeux locaux de votre secteur.",
-  "hero-title": "Développement Web & Mobile à Marseille",
-  "hero-description": "Nous aidons les entreprises de Marseille et de la région PACA à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché méditerranéen.",
-  "intro-text": "Entre mer et collines, Marseille est un carrefour économique dynamique où tradition et innovation se rencontrent. Notre expertise digitale permet aux entreprises marseillaises de se démarquer dans un marché méditerranéen compétitif et en constante évolution.",
-  "expertise-text": "Notre équipe conçoit des sites web, applications et solutions e-commerce parfaitement adaptés aux entreprises marseillaises. Nous comprenons les défis de votre marché local et vous proposons des solutions digitales qui valorisent votre identité provençale tout en touchant une clientèle internationale.",
+  "hero": {
+    "title": "Développement Web & Mobile à Marseille",
+    "description": "Nous aidons les entreprises de Marseille et de la région PACA à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché méditerranéen."
+  },
+  "intro": "Entre mer et collines, Marseille est un carrefour économique dynamique où tradition et innovation se rencontrent. Notre expertise digitale permet aux entreprises marseillaises de se démarquer dans un marché méditerranéen compétitif et en constante évolution.",
+  "expertise": "Notre équipe conçoit des sites web, applications et solutions e-commerce parfaitement adaptés aux entreprises marseillaises. Nous comprenons les défis de votre marché local et vous proposons des solutions digitales qui valorisent votre identité provençale tout en touchant une clientèle internationale.",
   "why-choose-us": "Notre connaissance approfondie du marché provençal nous permet de développer des solutions numériques parfaitement adaptées aux défis spécifiques des entreprises locales. Nous comprenons la richesse culturelle et économique de Marseille et l'intégrons dans chaque projet pour créer des expériences digitales authentiques et performantes.",
   "key-business-sectors": {
     "tourism": "Tourisme",

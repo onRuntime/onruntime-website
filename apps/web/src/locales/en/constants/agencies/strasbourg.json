@@ -1,10 +1,12 @@
 {
   "title": "Web Development in Strasbourg | Digital Solutions for Alsatian Businesses",
   "description": "Create your website or mobile application in Strasbourg. Custom digital solutions for Alsatian businesses, tailored to local and cross-border challenges.",
-  "hero-title": "Web & Mobile Development in Strasbourg",
-  "hero-description": "We help businesses in Strasbourg and the Grand Est region digitalize with custom web solutions, perfectly adapted to the specific challenges of the Alsatian and European market.",
-  "intro-text": "European capital and border city with rich heritage, Strasbourg combines Alsatian traditions and international openness. Its status as seat of European institutions, its dynamic industry and strategic position between France and Germany make it a unique territory where digital plays an essential bridging role.",
-  "expertise-text": "Our team designs websites, applications and digital solutions perfectly adapted to Strasbourg businesses, whether they are international organizations, industrial companies or local heritage players. We understand the specific challenges of your regional and cross-border market, and offer multilingual and culturally adapted digital solutions.",
+  "hero": {
+    "title": "Web & Mobile Development in Strasbourg",
+    "description": "We help businesses in Strasbourg and the Grand Est region digitalize with custom web solutions, perfectly adapted to the specific challenges of the Alsatian and European market."
+  },
+  "intro": "European capital and a border city with rich heritage, Strasbourg combines Alsatian traditions and international openness. Its status as seat of European institutions, its dynamic industry and strategic position between France and Germany make it a unique territory where digital plays an essential bridging role.",
+  "expertise": "Our team designs websites, applications and digital solutions perfectly adapted to Strasbourg businesses, whether they are international organizations, industrial companies or local heritage players. We understand the specific challenges of your regional and cross-border market, and offer multilingual and culturally adapted digital solutions.",
   "why-choose-us": "Our in-depth knowledge of the Strasbourg market allows us to develop digital solutions perfectly adapted to the specific challenges of local businesses. We understand the requirements of the European context and Alsatian cultural particularities, and integrate this dual dimension into each project to create relevant and high-performing digital experiences.",
   "key-business-sectors": {
     "european-institutions": "European Institutions",

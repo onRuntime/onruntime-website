@@ -1,10 +1,12 @@
 {
   "title": "Web Agency in Lyon | Custom Digital Solutions",
   "description": "Web development, mobile and UI/UX design in Lyon. Our digital expertise tailored to Rhône-Alpes businesses to boost your online presence.",
-  "hero-title": "Web & Mobile Development in Lyon",
-  "hero-description": "Transform your Lyon-based business with innovative digital solutions perfectly adapted to the economic dynamism of the Auvergne-Rhône-Alpes region.",
-  "intro-text": "At the heart of Lyon's dynamism, our digital expertise supports businesses in the region through their digital transformation. Between industrial tradition, biomedical excellence and gastronomic influence, Lyon presents a rich and diversified economic fabric whose challenges we fully understand.",
-  "expertise-text": "We create web, mobile and e-commerce solutions adapted to the specificities of the Lyon and Rhône-Alpes market. Our team masters the digital challenges specific to the region's sectors of excellence, from biotechnology to gastronomy, including manufacturing.",
+  "hero": {
+    "title": "Web & Mobile Development in Lyon",
+    "description": "Transform your Lyon-based business with innovative digital solutions perfectly adapted to the economic dynamism of the Auvergne-Rhône-Alpes region."
+  },
+  "intro": "At the heart of Lyon's dynamism, our digital expertise supports businesses in the region through their digital transformation. Between industrial tradition, biomedical excellence and gastronomic influence, Lyon presents a rich and diversified economic fabric whose challenges we fully understand.",
+  "expertise": "We create web, mobile and e-commerce solutions adapted to the specificities of the Lyon and Rhône-Alpes market. Our team masters the digital challenges specific to the region's sectors of excellence, from biotechnology to gastronomy, including manufacturing.",
   "why-choose-us": "Our knowledge of the Lyon market enables us to develop digital solutions perfectly aligned with the requirements and particularities of local businesses. We understand the region's standards of excellence and offer digital support that enhances Lyon's identity and know-how.",
   "key-business-sectors": {
     "biotech": "Biotechnology",

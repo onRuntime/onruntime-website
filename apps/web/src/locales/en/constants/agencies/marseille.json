@@ -1,10 +1,12 @@
 {
   "title": "Web Development in Marseille | Digital Solutions for Provençal Businesses",
   "description": "Create your website or mobile application in Marseille. Custom digital solutions for Provençal businesses, tailored to the local challenges of your sector.",
-  "hero-title": "Web & Mobile Development in Marseille",
-  "hero-description": "We help businesses in Marseille and the PACA region digitalize with custom web solutions, perfectly adapted to the specific challenges of the Mediterranean market.",
-  "intro-text": "Between sea and hills, Marseille is a dynamic economic crossroads where tradition and innovation meet. Our digital expertise enables Marseille businesses to stand out in a competitive and constantly evolving Mediterranean market.",
-  "expertise-text": "Our team designs websites, applications and e-commerce solutions perfectly adapted to Marseille businesses. We understand the challenges of your local market and offer digital solutions that enhance your Provençal identity while reaching an international clientele.",
+  "hero": {
+    "title": "Web & Mobile Development in Marseille",
+    "description": "We help businesses in Marseille and the PACA region digitalize with custom web solutions, perfectly adapted to the specific challenges of the Mediterranean market."
+  },
+  "intro": "Between sea and hills, Marseille is a dynamic economic crossroads where tradition and innovation meet. Our digital expertise enables Marseille businesses to stand out in a competitive and constantly evolving Mediterranean market.",
+  "expertise": "Our team designs websites, applications and e-commerce solutions perfectly adapted to Marseille businesses. We understand the challenges of your local market and offer digital solutions that enhance your Provençal identity while reaching an international clientele.",
   "why-choose-us": "Our in-depth knowledge of the Provençal market allows us to develop digital solutions perfectly adapted to the specific challenges of local businesses. We understand the cultural and economic richness of Marseille and integrate it into each project to create authentic and high-performing digital experiences.",
   "key-business-sectors": {
     "tourism": "Tourism",

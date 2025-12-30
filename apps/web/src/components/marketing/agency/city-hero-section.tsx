@@ -18,8 +18,8 @@ const CityHeroSection = async ({ agency }: CityHeroSectionProps) => {
 
   const accent = agency.accentColor || "blue";
 
-  const heroTitle = tAgency('hero-title');
-  const heroDescription = tAgency('hero-description');
+  const heroTitle = tAgency('hero.title');
+  const heroDescription = tAgency('hero.description');
 
   return (
     <div className="relative overflow-hidden rounded-xl border border-border bg-card mb-24">

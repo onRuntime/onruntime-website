@@ -1,10 +1,12 @@
 {
   "title": "Développement Web à Rouen | Solutions Digitales pour Entreprises Normandes",
   "description": "Créez votre site web ou application mobile à Rouen. Solutions digitales sur mesure pour les entreprises normandes, adaptées aux enjeux locaux de votre secteur.",
-  "hero-title": "Développement Web & Mobile à Rouen",
-  "hero-description": "Nous aidons les entreprises de Rouen et de Normandie à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché normand.",
-  "intro-text": "Le tissu économique normand présente des enjeux numériques spécifiques que nous avons appris à maîtriser. Entre l'industrie manufacturière, le secteur agroalimentaire et la logistique fluviale, nous créons des solutions digitales qui répondent aux besoins précis des entreprises rouennaises.",
-  "expertise-text": "Notre équipe conçoit des sites web, applications et solutions e-commerce parfaitement adaptés aux entreprises de Rouen et sa région. Nous comprenons les défis de votre marché et vous proposons des solutions digitales qui vous aident à vous démarquer et à développer votre activité.",
+  "hero": {
+    "title": "Développement Web & Mobile à Rouen",
+    "description": "Nous aidons les entreprises de Rouen et de Normandie à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché normand."
+  },
+  "intro": "Le tissu économique normand présente des enjeux numériques spécifiques que nous avons appris à maîtriser. Entre l'industrie manufacturière, le secteur agroalimentaire et la logistique fluviale, nous créons des solutions digitales qui répondent aux besoins précis des entreprises rouennaises.",
+  "expertise": "Notre équipe conçoit des sites web, applications et solutions e-commerce parfaitement adaptés aux entreprises de Rouen et sa région. Nous comprenons les défis de votre marché et vous proposons des solutions digitales qui vous aident à vous démarquer et à développer votre activité.",
   "why-choose-us": "Notre connaissance approfondie du marché normand nous permet de développer des solutions numériques parfaitement adaptées aux défis spécifiques des entreprises locales. Contrairement aux agences parisiennes, nous comprenons les subtilités du tissu économique de Rouen et apportons des solutions sur mesure à un rapport qualité-prix avantageux.",
   "key-business-sectors": {
     "industry": "Industrie",

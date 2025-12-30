@@ -1,10 +1,12 @@
 {
   "title": "Web Development in Toulouse | Digital Solutions for Occitan Businesses",
   "description": "Create your website or mobile application in Toulouse. Custom digital solutions for Toulouse businesses, tailored to the local challenges of your sector.",
-  "hero-title": "Web & Mobile Development in Toulouse",
-  "hero-description": "We help businesses in Toulouse and Occitania digitalize with custom web solutions, perfectly adapted to the specific challenges of the Toulouse market.",
-  "intro-text": "European aerospace capital and dynamic student city, Toulouse presents a unique economic ecosystem where innovation and tradition coexist. Our digital expertise enables Toulouse businesses to stand out in a competitive and constantly evolving technological environment.",
-  "expertise-text": "Our team designs websites, applications and digital solutions perfectly adapted to Toulouse businesses, whether they are aerospace giants, innovative startups or traditional shops. We understand the specific challenges of your local market and offer cutting-edge technological solutions.",
+  "hero": {
+    "title": "Web & Mobile Development in Toulouse",
+    "description": "We help businesses in Toulouse and Occitania digitalize with custom web solutions, perfectly adapted to the specific challenges of the Toulouse market."
+  },
+  "intro": "European aerospace capital and dynamic student city, Toulouse presents a unique economic ecosystem where innovation and tradition coexist. Our digital expertise enables Toulouse businesses to stand out in a competitive and constantly evolving technological environment.",
+  "expertise": "Our team designs websites, applications and digital solutions perfectly adapted to Toulouse businesses, whether they are aerospace giants, innovative startups or traditional shops. We understand the specific challenges of your local market and offer cutting-edge technological solutions.",
   "why-choose-us": "Our in-depth knowledge of the Toulouse market allows us to develop digital solutions perfectly adapted to the specific challenges of local businesses. We understand the technological challenges of the Pink City and integrate this expertise into each project to create high-performing and future-oriented digital experiences.",
   "key-business-sectors": {
     "aeronautics": "Aeronautics",

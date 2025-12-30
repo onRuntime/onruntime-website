@@ -1,10 +1,12 @@
 {
   "title": "Web Development in Rouen | Digital Solutions for Normandy Businesses",
   "description": "Create your website or mobile application in Rouen. Custom digital solutions for Normandy businesses, tailored to the local challenges of your sector.",
-  "hero-title": "Web & Mobile Development in Rouen",
-  "hero-description": "We help businesses in Rouen and Normandy digitalize with custom web solutions, perfectly adapted to the specific challenges of the Normandy market.",
-  "intro-text": "The Normandy economic fabric presents specific digital challenges that we have learned to master. Between manufacturing industry, agri-food sector and river logistics, we create digital solutions that meet the precise needs of Rouen businesses.",
-  "expertise-text": "Our team designs websites, applications and e-commerce solutions perfectly adapted to businesses in Rouen and its region. We understand the challenges of your market and offer digital solutions that help you stand out and grow your business.",
+  "hero": {
+    "title": "Web & Mobile Development in Rouen",
+    "description": "We help businesses in Rouen and Normandy digitalize with custom web solutions, perfectly adapted to the specific challenges of the Normandy market."
+  },
+  "intro": "The Normandy economic fabric presents specific digital challenges that we have learned to master. Between manufacturing industry, agri-food sector and river logistics, we create digital solutions that meet the precise needs of Rouen businesses.",
+  "expertise": "Our team designs websites, applications and e-commerce solutions perfectly adapted to businesses in Rouen and its region. We understand the challenges of your market and offer digital solutions that help you stand out and grow your business.",
   "why-choose-us": "Our in-depth knowledge of the Normandy market allows us to develop digital solutions perfectly adapted to the specific challenges of local businesses. Unlike Parisian agencies, we understand the subtleties of Rouen's economic fabric and provide custom solutions at an advantageous value for money.",
   "key-business-sectors": {
     "industry": "Industry",

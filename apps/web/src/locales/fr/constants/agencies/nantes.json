@@ -1,10 +1,12 @@
 {
   "title": "Développement Web à Nantes | Solutions Digitales pour Entreprises Ligériennes",
   "description": "Créez votre site web ou application mobile à Nantes. Solutions digitales sur mesure pour les entreprises nantaises, adaptées aux enjeux locaux de votre secteur.",
-  "hero-title": "Développement Web & Mobile à Nantes",
-  "hero-description": "Nous aidons les entreprises de Nantes et des Pays de la Loire à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché ligérien.",
-  "intro-text": "Capitale historique de la Bretagne et métropole innovante, Nantes est reconnue pour son dynamisme économique et sa qualité de vie. Son écosystème numérique florissant, ses industries créatives et son engagement dans la transition écologique en font un territoire unique où l'innovation digitale joue un rôle central.",
-  "expertise-text": "Notre équipe conçoit des sites web, applications et solutions digitales parfaitement adaptés aux entreprises nantaises, qu'elles soient des startups innovantes, des acteurs de l'économie responsable ou des entreprises traditionnelles en transformation. Nous comprenons les spécificités du marché local et vous proposons des solutions numériques alignées avec les valeurs d'innovation et de durabilité propres à Nantes.",
+  "hero": {
+    "title": "Développement Web & Mobile à Nantes",
+    "description": "Nous aidons les entreprises de Nantes et des Pays de la Loire à se digitaliser avec des solutions web sur mesure, parfaitement adaptées aux enjeux spécifiques du marché ligérien."
+  },
+  "intro": "Capitale historique de la Bretagne et métropole innovante, Nantes est reconnue pour son dynamisme économique et sa qualité de vie. Son écosystème numérique florissant, ses industries créatives et son engagement dans la transition écologique en font un territoire unique où l'innovation digitale joue un rôle central.",
+  "expertise": "Notre équipe conçoit des sites web, applications et solutions digitales parfaitement adaptés aux entreprises nantaises, qu'elles soient des startups innovantes, des acteurs de l'économie responsable ou des entreprises traditionnelles en transformation. Nous comprenons les spécificités du marché local et vous proposons des solutions numériques alignées avec les valeurs d'innovation et de durabilité propres à Nantes.",
   "why-choose-us": "Notre connaissance approfondie du marché nantais nous permet de développer des solutions numériques parfaitement adaptées aux défis spécifiques des entreprises locales. Nous comprenons l'esprit d'innovation et l'engagement pour une économie plus responsable qui caractérisent Nantes, et intégrons ces valeurs dans chaque projet digital que nous réalisons.",
   "key-business-sectors": {
     "tech-digital": "Tech & Numérique",

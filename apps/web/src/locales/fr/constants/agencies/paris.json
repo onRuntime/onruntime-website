@@ -1,10 +1,12 @@
 {
   "title": "Agence Web à Paris | Développement Web, Mobile & Design UI/UX",
   "description": "Votre partenaire digital au cœur de Paris. Solutions de développement web, mobile et design UI/UX pour accélérer la croissance de votre entreprise parisienne.",
-  "hero-title": "Développement Digital dans la Capitale",
-  "hero-description": "Transformez votre présence numérique avec des solutions innovantes adaptées au marché parisien compétitif et son écosystème dynamique de startups, grands groupes et entreprises innovantes.",
-  "intro-text": "Au cœur de la capitale française, notre expertise digitale répond aux exigences du marché parisien avec des solutions web et mobile innovantes. Entre grands groupes, entreprises du luxe et startups en pleine croissance, Paris concentre un écosystème numérique dynamique dont nous comprenons parfaitement les enjeux et les opportunités.",
-  "expertise-text": "Nous concevons des expériences digitales premium qui répondent aux standards élevés des entreprises parisiennes. Notre équipe maîtrise les défis spécifiques de la capitale, qu'il s'agisse de créer des interfaces utilisateur raffinées pour le secteur du luxe, des applications performantes pour les fintechs, ou des solutions évolutives pour les startups en hypercroissance.",
+  "hero": {
+    "title": "Développement Digital dans la Capitale",
+    "description": "Transformez votre présence numérique avec des solutions innovantes adaptées au marché parisien compétitif et son écosystème dynamique de startups, grands groupes et entreprises innovantes."
+  },
+  "intro": "Au cœur de la capitale française, notre expertise digitale répond aux exigences du marché parisien avec des solutions web et mobile innovantes. Entre grands groupes, entreprises du luxe et startups en pleine croissance, Paris concentre un écosystème numérique dynamique dont nous comprenons parfaitement les enjeux et les opportunités.",
+  "expertise": "Nous concevons des expériences digitales premium qui répondent aux standards élevés des entreprises parisiennes. Notre équipe maîtrise les défis spécifiques de la capitale, qu'il s'agisse de créer des interfaces utilisateur raffinées pour le secteur du luxe, des applications performantes pour les fintechs, ou des solutions évolutives pour les startups en hypercroissance.",
   "why-choose-us": "Notre connaissance approfondie du marché parisien nous permet de développer des solutions digitales parfaitement alignées avec les exigences des entreprises de la capitale. Nous combinons innovation technique, excellence créative et compréhension business pour vous accompagner efficacement dans un environnement hautement compétitif.",
   "key-business-sectors": {
     "startups-tech": "Startups Tech",

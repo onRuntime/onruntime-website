@@ -18,7 +18,7 @@ const LocalExpertise = async ({ agency }: LocalExpertiseProps) => {
           {tComponent('title', { city: agency.name })}
         </h2>
         <p className="text-muted-foreground max-w-3xl mx-auto">
-          {t('expertise-text')}
+          {t('expertise')}
         </p>
       </div>
 
