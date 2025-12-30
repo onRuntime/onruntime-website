@@ -1,7 +1,6 @@
 import { constructMetadata } from "@/lib/utils/metadata.server";
 import { getTranslation } from "@/lib/translations.server";
 import ServicesPage from "@/screens/marketing/services";
-import Services from "@/constants/services";
 
 export async function generateMetadata() {
   const { t } = await getTranslation("app/services/page");
@@ -13,5 +12,5 @@ export async function generateMetadata() {
 }
 
 export default async function Page() {
-  return <ServicesPage services={Services} />;
+  return <ServicesPage />;
 }

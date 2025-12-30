@@ -11,6 +11,7 @@ import Routes from "@/constants/routes";
 import ProjectTimeline from './timeline';
 import { ConsultingSection, ExpertiseSection, TechnologiesSection, ValuePropositionSection } from '@/components/marketing/services/sections';
 import { ServiceCategoryData, SubService } from '@/types/service';
+import Services from '@/constants/services';
 
 const SubServiceCard: React.FC<{ categoryId: string; subService: SubService }> = ({
   categoryId,
@@ -71,11 +72,7 @@ const ServiceCategoryCard: React.FC<{ service: ServiceCategoryData }> = ({ servi
   );
 };
 
-interface ServicesPageProps {
-  services: ServiceCategoryData[];
-}
-
-const ServicesPage: React.FC<ServicesPageProps> = ({ services }) => {
+const ServicesPage: React.FC = () => {
   const { t } = useTranslation("app/services/page");
 
   return (
@@ -111,7 +108,7 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ services }) => {
         <ValuePropositionSection />
 
         <div className="flex flex-col gap-16 w-full">
-          {services.map((service) => (
+          {Services.map((service) => (
             <ServiceCategoryCard key={service.id} service={service} />
           ))}
         </div>
