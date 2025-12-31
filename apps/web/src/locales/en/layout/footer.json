@@ -23,8 +23,6 @@
   },
   "status": "All services are operational",
   "language": {
-    "label": "Language",
-    "en": "English",
-    "fr": "Français"
+    "label": "Language"
   }
 }

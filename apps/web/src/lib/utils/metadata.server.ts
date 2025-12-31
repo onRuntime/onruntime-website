@@ -3,7 +3,7 @@ import "server-only";
 import { Metadata } from "next";
 import { headers } from "next/headers";
 
-import { locales, defaultLocale } from "@/lib/translations";
+import { localeCodes, defaultLocale } from "@/lib/translations";
 import { getTranslation } from "@/lib/translations.server";
 import { siteConfig } from "@/constants/site-config";
 
@@ -183,7 +183,7 @@ export async function generateAlternates(): Promise<Record<string, string>> {
 
   const alternates: Record<string, string> = {};
 
-  for (const locale of locales) {
+  for (const locale of localeCodes) {
     if (locale === defaultLocale) {
       // Default locale has no prefix
       alternates[locale] = `${serverUrl}${pathWithoutLocale}`.replace(/\/$/, "") || serverUrl;

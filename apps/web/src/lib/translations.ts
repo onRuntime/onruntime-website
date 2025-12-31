@@ -1,8 +1,16 @@
 import type { TranslationLoader } from "@onruntime/translations";
 import type { NextRequest } from "next/server";
 
-export const locales = ["en", "fr"];
-export const defaultLocale = locales[0];
+export const locales = [
+  { code: "en", label: "English" },
+  { code: "fr", label: "Français" },
+  { code: "es", label: "Español" },
+] as const;
+
+export type Locale = (typeof locales)[number]["code"];
+
+export const localeCodes = locales.map((l) => l.code);
+export const defaultLocale = locales[0].code;
 
 export const LOCALE_COOKIE = "NEXT_LOCALE";
 
@@ -14,11 +22,11 @@ export const load: TranslationLoader = (locale, namespace) => {
   }
 };
 
-export function getPreferredLocale(request: NextRequest): string {
+export function getPreferredLocale(request: NextRequest): Locale {
   // Check cookie first (user's explicit choice)
   const cookieLocale = request.cookies.get(LOCALE_COOKIE)?.value;
-  if (cookieLocale && locales.includes(cookieLocale)) {
-    return cookieLocale;
+  if (cookieLocale && localeCodes.includes(cookieLocale as Locale)) {
+    return cookieLocale as Locale;
   }
 
   // Fall back to Accept-Language header
@@ -37,7 +45,7 @@ export function getPreferredLocale(request: NextRequest): string {
       };
     })
     .sort((a, b) => b.priority - a.priority)
-    .find((lang) => locales.includes(lang.code));
+    .find((lang) => localeCodes.includes(lang.code as Locale));
 
-  return preferred?.code || defaultLocale;
+  return (preferred?.code as Locale) || defaultLocale;
 }

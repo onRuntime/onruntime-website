@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "translate": "npx tsx scripts/generate-translations.ts",
+    "translate:init": "npx tsx scripts/generate-translations.ts --init"
   },
   "dependencies": {
     "@fontsource/cal-sans": "^5.2.3",
@@ -30,7 +32,6 @@
     "autoprefixer": "^10.4.20",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "gray-matter": "^4.0.3",
     "lucide-react": "^0.562.0",
     "motion": "^12.0.0",
     "next": "16.1.1",
@@ -50,11 +51,16 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
+    "@ai-sdk/openai": "^3.0.2",
     "@types/node": "^22.0.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "ai": "^6.0.3",
+    "dotenv-flow": "^4.1.0",
+    "gray-matter": "^4.0.3",
     "postcss": "^8.5.1",
     "tailwindcss": "^3.4.17",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }

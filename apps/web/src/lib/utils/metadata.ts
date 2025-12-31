@@ -1,4 +1,4 @@
-import { locales } from "@/lib/translations";
+import { localeCodes } from "@/lib/translations";
 import { siteConfig } from "@/constants/site-config";
 
 /**
@@ -38,6 +38,6 @@ export function getOGImageUrl({
  */
 export function getPathWithoutLocale(pathname: string): string {
   const segments = pathname.split("/").filter(Boolean);
-  const hasLocalePrefix = locales.includes(segments[0]);
+  const hasLocalePrefix = localeCodes.includes(segments[0] as typeof localeCodes[number]);
   return hasLocalePrefix ? `/${segments.slice(1).join("/")}` : pathname;
 }

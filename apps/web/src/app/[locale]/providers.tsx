@@ -3,7 +3,7 @@
 import type { ReactNode } from "react";
 import { AppTranslationProvider } from "@onruntime/translations/next";
 
-import { load, locales } from "@/lib/translations";
+import { load, localeCodes } from "@/lib/translations";
 
 type ProvidersProps = {
   children: ReactNode;
@@ -12,7 +12,7 @@ type ProvidersProps = {
 
 export const Providers = ({ children, locale }: ProvidersProps) => {
   return (
-    <AppTranslationProvider locale={locale} locales={locales} load={load}>
+    <AppTranslationProvider locale={locale} locales={localeCodes} load={load}>
       {children}
     </AppTranslationProvider>
   );

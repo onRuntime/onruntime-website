@@ -2,6 +2,8 @@
 
 Translation files for the onRuntime website.
 
+> **Important**: Only add/modify translations in the `en/` folder. Other locales (`fr/`, `es/`, etc.) are **auto-generated** by CI when you push changes to the English files.
+
 ## Structure
 
 The translation files mirror the `src/` structure:
@@ -73,8 +75,14 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
 
 ## Adding a new namespace
 
-1. Create `en/<path>/<namespace>.json` and `fr/<path>/<namespace>.json`
-2. Use `getTranslation("<path>/<namespace>")` or `useTranslation("<path>/<namespace>")`
+1. Create `en/<path>/<namespace>.json` (only English!)
+2. Push to `master` - CI will auto-generate translations for other locales
+3. Use `getTranslation("<path>/<namespace>")` or `useTranslation("<path>/<namespace>")`
+
+To generate all missing translations locally:
+```bash
+pnpm --filter @onruntime/web translate:init
+```
 
 ## Conventions
 
