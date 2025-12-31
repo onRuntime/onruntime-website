@@ -1,0 +1,17 @@
+{
+  "name": "onruntime",
+  "description": "Official plugins by onRuntime Studio",
+  "plugins": [
+    {
+      "name": "gitmoji",
+      "source": "../gitmoji",
+      "description": "Generate git commits following the gitmoji conventional commits convention",
+      "version": "1.0.0",
+      "author": {
+        "name": "onRuntime Studio",
+        "url": "https://onruntime.com"
+      },
+      "keywords": ["gitmoji", "git", "commit", "conventional-commits"]
+    }
+  ]
+}
