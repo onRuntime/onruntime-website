@@ -1,0 +1,6 @@
+/* Docs-specific styles */
+
+/* Override body background for docs */
+body:has([data-docs-page]) {
+  background: var(--background);
+}
