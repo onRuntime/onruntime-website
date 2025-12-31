@@ -47,7 +47,7 @@ const ProjectsPage = () => {
             height={30}
             className={cn(
               "z-[-1]",
-              "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]"
+              "mask-[radial-gradient(300px_circle_at_center,white,transparent)]"
             )}
           />
         </div>
@@ -220,7 +220,7 @@ const ProjectsPage = () => {
 
           <div className="grid md:grid-cols-3 gap-6">
             <div className="flex items-start gap-3 p-4">
-              <CheckCircle className="w-5 h-5 text-onruntime-blue flex-shrink-0 mt-1" />
+              <CheckCircle className="w-5 h-5 text-onruntime-blue shrink-0 mt-1" />
               <div>
                 <h3 className="font-medium text-foreground mb-1">
                   {t("why-us.items.expertise.title")}
@@ -231,7 +231,7 @@ const ProjectsPage = () => {
               </div>
             </div>
             <div className="flex items-start gap-3 p-4">
-              <CheckCircle className="w-5 h-5 text-onruntime-blue flex-shrink-0 mt-1" />
+              <CheckCircle className="w-5 h-5 text-onruntime-blue shrink-0 mt-1" />
               <div>
                 <h3 className="font-medium text-foreground mb-1">
                   {t("why-us.items.custom.title")}
@@ -242,7 +242,7 @@ const ProjectsPage = () => {
               </div>
             </div>
             <div className="flex items-start gap-3 p-4">
-              <CheckCircle className="w-5 h-5 text-onruntime-blue flex-shrink-0 mt-1" />
+              <CheckCircle className="w-5 h-5 text-onruntime-blue shrink-0 mt-1" />
               <div>
                 <h3 className="font-medium text-foreground mb-1">
                   {t("why-us.items.support.title")}

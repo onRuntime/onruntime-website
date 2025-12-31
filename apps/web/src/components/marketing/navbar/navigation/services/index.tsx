@@ -51,7 +51,7 @@ const ServiceCategoryCard: React.FC<{ service: ServiceCategoryData }> = ({ servi
         <Link
           href={Routes.service[service.id].root}
           className={cn(
-            "flex flex-col gap-2 h-full select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            "flex flex-col gap-2 h-full select-none rounded-md p-3 leading-none no-underline outline-hidden transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
           )}
         >
           <div className="flex items-center gap-2">
@@ -94,7 +94,7 @@ const NavigationServices: React.FC = () => {
           <NavigationMenuLink asChild className="block">
             <Link
               href={Routes.services}
-              className="group h-full select-none rounded-md bg-muted p-4 no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+              className="group h-full select-none rounded-md bg-muted p-4 no-underline outline-hidden transition-colors hover:bg-accent hover:text-accent-foreground"
             >
               <div className="flex h-full flex-col justify-between">
                 <div>

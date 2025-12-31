@@ -17,7 +17,7 @@ const PageSwitcher: React.FC = () => {
         value={pathname}
         className="w-fit mx-auto"
       >
-        <TabsList className="grid w-full grid-cols-2 bg-background/50 shadow-xs backdrop-blur-2xl pointer-events-auto">
+        <TabsList className="grid w-full grid-cols-2 bg-background/50 shadow-2xs backdrop-blur-2xl pointer-events-auto">
           <TabsTrigger value={Routes.landing.customer} className="w-full" asChild>
             <Link href={Routes.landing.customer} scroll={false}>
               {t("customer")}

@@ -54,7 +54,7 @@ const CityHeroSection = async ({ agency }: CityHeroSectionProps) => {
           <div className="relative z-10 w-full max-w-xs aspect-square">
 
             {agency.primaryStat && agency.primaryStat.icon && (
-              <div className={`absolute inset-0 rounded-full bg-onruntime-${accent}/5 backdrop-blur-sm border border-onruntime-${accent}/10 flex items-center justify-center`}>
+              <div className={`absolute inset-0 rounded-full bg-onruntime-${accent}/5 backdrop-blur-xs border border-onruntime-${accent}/10 flex items-center justify-center`}>
                 {React.createElement(
                   agency.primaryStat.icon,
                   { className: `w-24 h-24 text-onruntime-${accent} opacity-30` }
@@ -63,7 +63,7 @@ const CityHeroSection = async ({ agency }: CityHeroSectionProps) => {
             )}
 
             <div
-              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-background/80 backdrop-blur-sm p-4 rounded-lg border border-border shadow-sm"
+              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-background/80 backdrop-blur-xs p-4 rounded-lg border border-border shadow-xs"
               style={{ maxWidth: '160px' }}
             >
               <p className="text-center font-medium text-lg capitalize">{agency.name}</p>
@@ -74,9 +74,9 @@ const CityHeroSection = async ({ agency }: CityHeroSectionProps) => {
               )}
             </div>
 
-            <div className={`absolute right-0 top-0 w-20 h-20 rounded-full bg-onruntime-${accent}/10 backdrop-blur-sm border border-onruntime-${accent}/20`}></div>
-            <div className={`absolute left-12 bottom-12 w-16 h-16 rounded-full bg-onruntime-${accent}/15 backdrop-blur-sm border border-onruntime-${accent}/30`}></div>
-            <div className={`absolute left-0 top-1/4 w-12 h-12 rounded-full bg-onruntime-${accent}/20 backdrop-blur-sm border border-onruntime-${accent}/40`}></div>
+            <div className={`absolute right-0 top-0 w-20 h-20 rounded-full bg-onruntime-${accent}/10 backdrop-blur-xs border border-onruntime-${accent}/20`}></div>
+            <div className={`absolute left-12 bottom-12 w-16 h-16 rounded-full bg-onruntime-${accent}/15 backdrop-blur-xs border border-onruntime-${accent}/30`}></div>
+            <div className={`absolute left-0 top-1/4 w-12 h-12 rounded-full bg-onruntime-${accent}/20 backdrop-blur-xs border border-onruntime-${accent}/40`}></div>
           </div>
         </div>
       </div>
@@ -91,7 +91,7 @@ const CityHeroSection = async ({ agency }: CityHeroSectionProps) => {
         height={30}
         className={cn(
           "absolute inset-0 z-0",
-          "[mask-image:radial-gradient(ellipse_at_center,transparent_20%,black_100%)]"
+          "mask-[radial-gradient(ellipse_at_center,transparent_20%,black_100%)]"
         )}
       />
     </div>

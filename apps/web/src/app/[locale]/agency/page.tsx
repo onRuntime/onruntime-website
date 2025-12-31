@@ -64,7 +64,7 @@ export default async function AgencyLandingPage() {
               height={30}
               className={cn(
                 "absolute z-[-1] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2",
-                "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]"
+                "mask-[radial-gradient(300px_circle_at_center,white,transparent)]"
               )}
             />
           </div>
@@ -236,7 +236,7 @@ export default async function AgencyLandingPage() {
         </div>
 
         <div className="relative overflow-hidden rounded-lg border bg-card p-12">
-          <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-onruntime-blue/10 to-transparent" />
+          <div className="absolute top-0 right-0 w-1/3 h-full bg-linear-to-l from-onruntime-blue/10 to-transparent" />
           <div className="max-w-2xl">
             <h2 className="text-3xl font-medium text-foreground mb-4">
               {t('cta.title')}

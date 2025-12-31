@@ -75,7 +75,7 @@ const NPOPage: React.FC = async () => {
               height={30}
               className={cn(
                 "z-[-1]",
-                "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]"
+                "mask-[radial-gradient(300px_circle_at_center,white,transparent)]"
               )}
             />
           </div>
@@ -278,37 +278,37 @@ const NPOPage: React.FC = async () => {
 
                 <div className="space-y-3 mb-8">
                   <div className="flex items-start gap-3">
-                    <Clock className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
+                    <Clock className="w-5 h-5 text-muted-foreground shrink-0 mt-0.5" />
                     <p className="text-muted-foreground">
                       {t("membership.annual.benefits.hours")}
                     </p>
                   </div>
                   <div className="flex items-start gap-3">
-                    <Users className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
+                    <Users className="w-5 h-5 text-muted-foreground shrink-0 mt-0.5" />
                     <p className="text-muted-foreground">
                       {t("membership.annual.benefits.projects")}
                     </p>
                   </div>
                   <div className="flex items-start gap-3">
-                    <MessageSquare className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
+                    <MessageSquare className="w-5 h-5 text-muted-foreground shrink-0 mt-0.5" />
                     <p className="text-muted-foreground">
                       {t("membership.annual.benefits.discord")}
                     </p>
                   </div>
                   <div className="flex items-start gap-3">
-                    <GraduationCap className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
+                    <GraduationCap className="w-5 h-5 text-muted-foreground shrink-0 mt-0.5" />
                     <p className="text-muted-foreground">
                       {t("membership.annual.benefits.mentoring")}
                     </p>
                   </div>
                   <div className="flex items-start gap-3">
-                    <FileText className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
+                    <FileText className="w-5 h-5 text-muted-foreground shrink-0 mt-0.5" />
                     <p className="text-muted-foreground">
                       {t("membership.annual.benefits.resources")}
                     </p>
                   </div>
                   <div className="flex items-start gap-3">
-                    <Rocket className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
+                    <Rocket className="w-5 h-5 text-muted-foreground shrink-0 mt-0.5" />
                     <p className="text-muted-foreground">
                       {t("membership.annual.benefits.autonomy")}
                     </p>
@@ -432,7 +432,7 @@ const NPOPage: React.FC = async () => {
                 </div>
               </div>
 
-              <div className="absolute right-0 top-0 bottom-0 w-1/3 bg-gradient-to-l from-onruntime-blue/10 to-transparent" />
+              <div className="absolute right-0 top-0 bottom-0 w-1/3 bg-linear-to-l from-onruntime-blue/10 to-transparent" />
             </div>
           </section>
         </div>

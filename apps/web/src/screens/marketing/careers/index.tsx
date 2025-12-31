@@ -93,7 +93,7 @@ const CareersPage: React.FC = () => {
             height={30}
             className={cn(
               "z-[-1]",
-              "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]",
+              "mask-[radial-gradient(300px_circle_at_center,white,transparent)]",
             )}
           />
         </div>
@@ -209,7 +209,7 @@ const CareersPage: React.FC = () => {
             </Link>
           </div>
 
-          <div className="absolute right-0 top-0 bottom-0 w-1/3 bg-gradient-to-l from-onruntime-blue/10 to-transparent" />
+          <div className="absolute right-0 top-0 bottom-0 w-1/3 bg-linear-to-l from-onruntime-blue/10 to-transparent" />
         </div>
 
         <div className="space-y-12">

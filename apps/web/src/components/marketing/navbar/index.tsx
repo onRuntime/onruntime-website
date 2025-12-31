@@ -201,7 +201,7 @@ const Navbar: React.FC = () => {
 		>
 			<div
 				className={
-					"flex flex-col bg-background/50 rounded-lg shadow-xs backdrop-blur-2xl transition-all duration-300"
+					"flex flex-col bg-background/50 rounded-lg shadow-2xs backdrop-blur-2xl transition-all duration-300"
 				}
 			>
 				<div className="flex justify-between items-center p-2.5">

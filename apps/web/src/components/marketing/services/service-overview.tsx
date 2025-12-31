@@ -99,7 +99,7 @@ const SubServiceBubble: React.FC<SubServiceBubbleProps> = ({ categoryId, subServ
 
   return (
     <div
-      className="absolute bg-background/80 backdrop-blur-sm p-3 rounded-lg border border-border shadow-sm transform hover:scale-105 transition-transform"
+      className="absolute bg-background/80 backdrop-blur-xs p-3 rounded-lg border border-border shadow-xs transform hover:scale-105 transition-transform"
       style={style}
     >
       {subService.icon && React.createElement(
@@ -165,7 +165,7 @@ const ServiceOverviewPage: React.FC<ServiceOverviewPageProps> = ({
 
             <div className="relative hidden md:flex items-center justify-center p-8 overflow-hidden">
               <div className="relative z-10 w-full max-w-xs aspect-square">
-                <div className={`absolute inset-0 rounded-full bg-${accentColor}/5 backdrop-blur-sm border border-${accentColor}/10 flex items-center justify-center`}>
+                <div className={`absolute inset-0 rounded-full bg-${accentColor}/5 backdrop-blur-xs border border-${accentColor}/10 flex items-center justify-center`}>
                   {ServiceIcon && <ServiceIcon className={`w-24 h-24 text-${accentColor} opacity-30`} />}
                 </div>
 
@@ -203,7 +203,7 @@ const ServiceOverviewPage: React.FC<ServiceOverviewPageProps> = ({
             height={30}
             className={cn(
               "absolute inset-0 z-0",
-              "[mask-image:radial-gradient(ellipse_at_center,transparent_20%,black_100%)]"
+              "mask-[radial-gradient(ellipse_at_center,transparent_20%,black_100%)]"
             )}
           />
         </div>
@@ -267,7 +267,7 @@ const ServiceOverviewPage: React.FC<ServiceOverviewPageProps> = ({
             height={30}
             className={cn(
               "absolute inset-0 -z-10",
-              "[mask-image:radial-gradient(white,transparent)]"
+              "mask-[radial-gradient(white,transparent)]"
             )}
           />
         </div>
@@ -344,7 +344,7 @@ const ServiceOverviewPage: React.FC<ServiceOverviewPageProps> = ({
           </div>
 
           <div className={`absolute inset-0 z-0 opacity-10 overflow-hidden`}>
-            <div className={`absolute right-0 top-0 w-full h-full bg-gradient-to-bl from-${accentColor} to-transparent`}></div>
+            <div className={`absolute right-0 top-0 w-full h-full bg-linear-to-bl from-${accentColor} to-transparent`}></div>
           </div>
 
           <DotPattern
@@ -352,7 +352,7 @@ const ServiceOverviewPage: React.FC<ServiceOverviewPageProps> = ({
             height={30}
             className={cn(
               "absolute inset-0 z-0",
-              "[mask-image:radial-gradient(ellipse_at_bottom_right,black_30%,transparent_70%)]"
+              "mask-[radial-gradient(ellipse_at_bottom_right,black_30%,transparent_70%)]"
             )}
           />
         </div>

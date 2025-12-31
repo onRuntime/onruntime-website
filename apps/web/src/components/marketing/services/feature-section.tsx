@@ -27,7 +27,7 @@ const FeatureItem: React.FC<FeatureItemProps> = ({
   return (
     <div className="flex gap-4">
       {FeatureIcon && (
-        <div className={`p-2 rounded-md bg-${accentColor}/10 text-${accentColor} h-fit flex-shrink-0`}>
+        <div className={`p-2 rounded-md bg-${accentColor}/10 text-${accentColor} h-fit shrink-0`}>
           <FeatureIcon className="w-5 h-5" />
         </div>
       )}
@@ -91,7 +91,7 @@ const FeatureMinimal: React.FC<FeatureMinimalProps> = ({
   return (
     <div className="flex gap-4">
       {FeatureIcon && (
-        <div className={`p-2 rounded-md bg-${accentColor}/10 text-${accentColor} h-fit flex-shrink-0`}>
+        <div className={`p-2 rounded-md bg-${accentColor}/10 text-${accentColor} h-fit shrink-0`}>
           <FeatureIcon className="w-5 h-5" />
         </div>
       )}

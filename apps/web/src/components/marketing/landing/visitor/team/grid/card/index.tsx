@@ -24,7 +24,7 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
   const { t } = useTranslation("components/marketing/landing/visitor/team");
 
   return (
-    <div className="flex-[1] min-w-0 transition-all duration-300 ease-in-out hover:flex-[1.5] group">
+    <div className="flex-1 min-w-0 transition-all duration-300 ease-in-out hover:flex-[1.5] group">
       <div className="flex flex-col gap-2 w-full">
         <div className="relative w-full h-[280px] rounded-lg overflow-hidden">
           <Image

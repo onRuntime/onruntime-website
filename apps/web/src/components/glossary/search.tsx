@@ -71,7 +71,7 @@ export function GlossarySearch({ entries }: GlossarySearchProps) {
           }}
           onFocus={() => searchTerm.length > 0 && setIsOpen(true)}
           placeholder={t('search.placeholder')}
-          className="w-full rounded-md border border-input pl-10 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+          className="w-full rounded-md border border-input pl-10 pr-4 py-2 text-sm focus:outline-hidden focus:ring-2 focus:ring-primary"
         />
         {searchTerm && (
           <Button

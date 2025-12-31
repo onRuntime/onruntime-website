@@ -57,7 +57,7 @@ export function GlossaryAlphabetNav({ availableLetters }: GlossaryAlphabetNavPro
   return (
     <div className="sticky top-24 z-30">
       <div className="max-w-5xl mx-auto px-4 md:px-0">
-        <div className="rounded-lg shadow-xs bg-background/50 backdrop-blur-2xl p-2.5 border">
+        <div className="rounded-lg shadow-2xs bg-background/50 backdrop-blur-2xl p-2.5 border">
           <div className="flex flex-wrap justify-center gap-1 md:gap-0.5">
             {alphabet.map((letter, index) => {
               const isAvailable = availableLetters.includes(letter);

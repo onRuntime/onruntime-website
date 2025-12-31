@@ -12,7 +12,7 @@ const Featured: React.FC = async () => {
   const { t } = await getTranslation("components/marketing/landing/customer/featured");
 
   return (
-    <header className="bg-gradient-to-t from-onruntime-magenta/10 to-transparent overflow-hidden">
+    <header className="bg-linear-to-t from-onruntime-magenta/10 to-transparent overflow-hidden">
       <div className="px-4 md:px-0 pt-16 flex flex-col justify-center items-center max-w-5xl mx-auto">
         <div className="relative max-w-xl flex flex-col items-center gap-6">
           <h1 className="font-semibold text-5xl md:text-6xl text-foreground text-center">
@@ -45,7 +45,7 @@ const Featured: React.FC = async () => {
             height={30}
             className={cn(
               "z-[-1]",
-              "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]"
+              "mask-[radial-gradient(300px_circle_at_center,white,transparent)]"
             )}
           />
         </div>

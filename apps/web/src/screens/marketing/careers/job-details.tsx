@@ -141,7 +141,7 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
             height={30}
             className={cn(
               "absolute z-[-1] top-0 right-0 w-1/3 h-full",
-              "[mask-image:linear-gradient(to_left,white,transparent)]",
+              "mask-[linear-gradient(to_left,white,transparent)]",
             )}
           />
         </div>
@@ -189,7 +189,7 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
               <div className="space-y-4">
                 {job.department && (
                   <div className="flex items-start gap-3">
-                    <Building className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
+                    <Building className="w-5 h-5 text-muted-foreground shrink-0 mt-0.5" />
                     <div>
                       <p className="text-sm text-foreground font-medium">
                         {t("details.department")}
@@ -202,7 +202,7 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
                 )}
 
                 <div className="flex items-start gap-3">
-                  <MapPin className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
+                  <MapPin className="w-5 h-5 text-muted-foreground shrink-0 mt-0.5" />
                   <div>
                     <p className="text-sm text-foreground font-medium">
                       {t("details.location")}
@@ -215,7 +215,7 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
 
                 {job.employmentType && (
                   <div className="flex items-start gap-3">
-                    <Clock className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
+                    <Clock className="w-5 h-5 text-muted-foreground shrink-0 mt-0.5" />
                     <div>
                       <p className="text-sm text-foreground font-medium">
                         {t("details.contract")}
@@ -229,7 +229,7 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
 
                 {job.workplaceType && (
                   <div className="flex items-start gap-3">
-                    <Globe className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
+                    <Globe className="w-5 h-5 text-muted-foreground shrink-0 mt-0.5" />
                     <div>
                       <p className="text-sm text-foreground font-medium">
                         {t("details.workplace")}
@@ -243,7 +243,7 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
 
                 {job.salary && formatSalary(job.salary) && (
                   <div className="flex items-start gap-3">
-                    <FileText className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
+                    <FileText className="w-5 h-5 text-muted-foreground shrink-0 mt-0.5" />
                     <div>
                       <p className="text-sm text-foreground font-medium">
                         {t("details.salary")}
