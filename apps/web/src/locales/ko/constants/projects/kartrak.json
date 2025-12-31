@@ -1,0 +1,81 @@
+{
+  "short-description": "친환경 활동 추적. 재미있게 여러분의 온라인 발자국을 모니터링하세요.",
+  "description": "온라인에서 여러분의 환경적 영향을 이해하고 줄이는 데 도움을 주는 브라우저 확장입니다.",
+  "long-description": "Kartrak은 사용자에게 디지털 탄소 발자국에 대한 인식을 높여주는 혁신적인 브라우저 확장입니다. 여러분의 온라인 활동을 모니터링함으로써 Kartrak은 인터넷 소비와 그 환경적 영향에 대한 자세한 통찰을 제공합니다.\n\n이 확장은 Ecoindex에 기반한 고급 알고리즘을 사용하여 여러분의 브라우징 탄소 발자국을 계산하고, 영향을 줄이기 위한 개인화된 제안을 제공합니다. Ecoindex는 웹사이트의 기술적 복잡성, 무게, 에너지 효율성을 분석하여 환경적 영향을 평가하는 인정받는 방법론입니다.\n\n재미있고 교육적인 접근 방식으로 Kartrak은 환경 인식을 쉽게 접근 가능하고 흥미롭게 만들어 줍니다.",
+  "features": {
+    "real-time-tracking": {
+      "title": "실시간 추적",
+      "description": "실시간으로 디지털 탄소 발자국을 시각화하세요"
+    },
+    "personalized-suggestions": {
+      "title": "개인화된 제안",
+      "description": "영향을 줄이기 위한 맞춤형 조언을 받으세요"
+    },
+    "detailed-stats": {
+      "title": "상세 통계",
+      "description": "여러분의 브라우징 습관과 그 영향을 분석하세요"
+    },
+    "ecological-goals": {
+      "title": "환경 목표",
+      "description": "목표를 설정하고 진행 상황을 추적하세요"
+    }
+  },
+  "technologies": {
+    "typescript": {
+      "description": "브라우저 확장"
+    },
+    "react": {
+      "description": "사용자 인터페이스"
+    },
+    "nodejs": {
+      "description": "백엔드 및 API"
+    },
+    "chrome-api": {
+      "description": "브라우저 통합"
+    }
+  },
+  "metrics": {
+    "sites-analyzed": {
+      "value": "∞",
+      "label": "분석된 사이트",
+      "description": "모든 웹사이트와 호환됨"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "오픈 소스",
+      "description": "공개된 소스 코드"
+    },
+    "confidential": {
+      "value": "100%",
+      "label": "비공식적",
+      "description": "사용자 데이터 수집 안 함"
+    }
+  },
+  "screenshots": {
+    "dashboard": {
+      "caption": "메인 대시보드"
+    },
+    "stats": {
+      "caption": "상세 통계"
+    }
+  },
+  "challenges": {
+    "carbon-calculation": "정확한 탄소 발자국 계산",
+    "privacy-protection": "사용자 프라이버시 보호",
+    "background-performance": "백그라운드에서의 확장 성능",
+    "environmental-data-accuracy": "환경 데이터의 정확성"
+  },
+  "learnings": {
+    "environmental-impact-complexity": "환경 영향을 계산하는 복잡성",
+    "user-engagement": "사용자 참여의 중요성",
+    "accuracy-performance-balance": "정확성과 성능의 균형",
+    "navigation-ux": "브라우징 습관에 맞춘 UX"
+  },
+  "future-plans": {
+    "more-browsers": "더 많은 브라우저 지원",
+    "eco-tools-integration": "다른 친환경 도구와의 통합",
+    "community-features": "커뮤니티 기능",
+    "personalized-reports": "개인화된 상세 보고서",
+    "auto-close-tabs": "사용하지 않는 탭 자동 닫기"
+  }
+}

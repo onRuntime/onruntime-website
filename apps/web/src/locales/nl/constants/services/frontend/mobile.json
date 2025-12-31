@@ -1,0 +1,80 @@
+{
+  "name": "Mobiele applicaties",
+  "description": "Het creëren van native mobiele applicaties met React Native",
+  "hero": {
+    "title": "React Native mobiele ontwikkeling",
+    "description": "Maak hoogwaardige native mobiele applicaties voor iOS en Android met React Native. Onze expertise garandeert robuuste applicaties en een uitzonderlijke gebruikerservaring."
+  },
+  "features": {
+    "react-native-expo": {
+      "title": "React Native & Expo",
+      "description": "Efficiënte cross-platform ontwikkeling voor iOS en Android met één codebase."
+    },
+    "native-design": {
+      "title": "Native ontwerp",
+      "description": "Interfaces die de ontwerp richtlijnen van iOS en Android respecteren voor een vertrouwde ervaring."
+    },
+    "native-performance": {
+      "title": "Native prestaties",
+      "description": "Geavanceerde optimalisatie voor bijna-native prestaties op elk platform."
+    },
+    "mobile-ui-ux": {
+      "title": "Mobiele UI/UX",
+      "description": "Intuïtieve mobiele interfaces die de beste praktijken van elk platform volgen."
+    }
+  },
+  "benefits": {
+    "multi-platform": {
+      "title": "Multi-platform",
+      "description": "Applicaties die werken op iOS en Android vanuit één codebase."
+    },
+    "tablet-support": {
+      "title": "Tablet ondersteuning",
+      "description": "Interfaces die zijn aangepast aan verschillende schermformaten en -oriëntaties."
+    },
+    "optimal-performance": {
+      "title": "Optimale prestaties",
+      "description": "Native optimalisatie voor maximale prestaties en soepelheid."
+    },
+    "native-experience": {
+      "title": "Native ervaring",
+      "description": "Gebruik van native apparaatspecifieke functies (camera, GPS, meldingen...)."
+    }
+  },
+  "faq": {
+    "why-react-native": {
+      "question": "Waarom kiezen voor React Native voor mobiele ontwikkeling?",
+      "answer": "React Native maakt het mogelijk om hoogperformante applicaties voor iOS en Android te ontwikkelen vanuit één codebase, wat kosten en ontwikkelingstijd vermindert terwijl de native kwaliteit behouden blijft. Het profiteert ook van een groot ecosysteem en ondersteuning van Meta (Facebook)."
+    },
+    "performance": {
+      "question": "Hoe waarborgen jullie de prestaties van de applicatie?",
+      "answer": "We optimaliseren elk aspect van de applicatie: opstarttijd, geheugengebruik, vloeiende animaties, dataloading... We gebruiken ook profileringstools om prestatiesproblemen te identificeren en op te lossen."
+    },
+    "store-publishing": {
+      "question": "Behandelen jullie de publicatie in de winkels?",
+      "answer": "Ja, we nemen het hele publicatieproces voor onze rekening: assetvoorbereiding, configuratie van het ontwikkelaarsaccount, indiening bij de winkels (App Store en Play Store) en updatebewaking."
+    },
+    "updates": {
+      "question": "Hoe beheren jullie applicatie-updates?",
+      "answer": "We stellen OTA (Over The Air) updatesystemen in waar mogelijk, en beheren updates via winkels met een geoptimaliseerd proces om validatietijden te minimaliseren."
+    },
+    "post-launch-support": {
+      "question": "Bieden jullie ondersteuning na de lancering?",
+      "answer": "Ja, we bieden verschillende onderhoudsplannen aan, waaronder: prestatiemonitoring, bugfixes, beveiligingsupdates en functionaliteitsontwikkeling."
+    }
+  },
+  "complementary": {
+    "store-publishing": {
+      "title": "Publicatie in de winkels",
+      "description": "Volledige verwerking van publicatie in de App Store en Play Store."
+    },
+    "backend-integration": {
+      "title": "Backend integratie",
+      "description": "Verbinding met je bestaande systemen en API's."
+    },
+    "react-native-training": {
+      "title": "React Native training",
+      "description": "Train je teams in React Native ontwikkeling."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "short-description": "एक ब्राउज़र एक्सटेंशन जो इंस्टाग्राम को डार्क मोड में बदल देता है, जो आईओएस ऐप के समान है।",
+  "description": "जब सिस्टम डार्क मोड में हो, तो Instagram.com का थीम डार्क मोड में बदलें।",
+  "long-description": "Instagram™ के लिए डार्क थीम एक ब्राउज़र एक्सटेंशन है जो Instagram.com के दृश्य अनुभव को डार्क थीम अपनाकर बदल देता है, जो आईओएस ऐप के रूप से मिलता-जुलता है।\n\nयह एक्सटेंशन आंखों की थकान को कम करने और इंस्टाग्राम ब्राउज़िंग अनुभव में सुधार लाने का एक सरल और सुंदर समाधान प्रदान करता है, जबकि ऑपरेटिंग सिस्टम की प्राथमिकताओं का सम्मान करता है।",
+  "features": {
+    "auto-dark-mode": {
+      "title": "स्वचालित डार्क मोड",
+      "description": "सिस्टम सेटिंग्स के आधार पर डार्क थीम को स्वचालित रूप से सक्षम करें"
+    },
+    "multi-browser": {
+      "title": "मल्टी-ब्राउज़र संगत",
+      "description": "फायरफॉक्स, एज, और क्रोम के लिए उपलब्ध"
+    },
+    "open-source": {
+      "title": "ओपन सोर्स",
+      "description": "मुक्त रूप से उपलब्ध और सत्यापन योग्य स्रोत कोड"
+    }
+  },
+  "technologies": {
+    "javascript": {
+      "description": "एक्सटेंशन विकास"
+    },
+    "chrome-api": {
+      "description": "ब्राउज़र एकीकरण"
+    },
+    "css": {
+      "description": "थीम अनुकूलन"
+    }
+  },
+  "metrics": {
+    "users": {
+      "value": "52k+",
+      "label": "उपयोगकर्ता",
+      "description": "सक्रिय उपयोगकर्ता"
+    },
+    "installs": {
+      "value": "82k+",
+      "label": "स्थापना",
+      "description": "कुल स्थापना"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "ओपन सोर्स",
+      "description": "सार्वजनिक स्रोत कोड"
+    }
+  },
+  "screenshots": {
+    "dark-interface": {
+      "caption": "डार्क मोड में इंस्टाग्राम इंटरफेस"
+    }
+  },
+  "challenges": {
+    "instagram-updates-compatibility": "इंस्टाग्राम के लगातार अपडेट के साथ संगतता बनाए रखना",
+    "cross-browser-consistency": "विभिन्न ब्राउज़रों में एकसमान डार्क थीम सुनिश्चित करना",
+    "browser-performance": "ब्राउज़र प्रदर्शन पर प्रभाव को न्यूनतम करना"
+  },
+  "learnings": {
+    "dynamic-interface-modification": "वेब इंटरफेस को गतिशील रूप से संशोधित करने की जटिलता",
+    "cross-browser-compatibility": "परस्पर ब्राउज़र संगतता का महत्व",
+    "platform-updates-management": "नियमित वेब प्लेटफ़ॉर्म अपडेट का प्रबंधन"
+  },
+  "future-plans": {
+    "more-customization": "और अधिक अनुकूलन विकल्प जोड़ना",
+    "instagram-versions-compatibility": "भिन्न इंस्टाग्राम संस्करणों के साथ संगतता में सुधार करना"
+  }
+}

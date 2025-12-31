@@ -1,0 +1,113 @@
+{
+  "hero": {
+    "title": "onRuntime Stüdyo Derneği",
+    "description": "Web geliştirme, mobil geliştirme ve tasarımı yenilik ve yaratıcılığa adamış bir Fransız kâr amacı gütmeyen kuruluş."
+  },
+  "cta": {
+    "become-member": "Üye ol",
+    "our-projects": "Projelerimiz"
+  },
+  "history": {
+    "title": "Hikayemiz",
+    "description": "2020 yılında kurulan onRuntime Stüdyo, 2015 yılından beri iş birliği yapan geliştiriciler ve tasarımcıların paylaştığı tutkudan doğmuştur. Organizasyonumuz, yenilik yapmak ve bilgimizi paylaşmak için iş birliği alanı yaratmayı, kısa sürede tam anlamıyla bir şirket olmayı hedefliyor.",
+    "timeline": {
+      "2015": {
+        "title": "İlk iş birlikleri",
+        "description": "Jérémy, Antoine ve Lucas arasında video oyun platformlarında gerçekleşen iş birliklerinin başlangıcı."
+      },
+      "2020": {
+        "title": "Kuruluşun oluşturulması",
+        "description": "Bryan Recher'ın tavsiyesiyle Fransız bir kâr amacı gütmeyen kuruluş olarak onRuntime Stüdyo'nun resmi kuruluşu."
+      },
+      "2021": {
+        "title": "Rouen'de buluşma",
+        "description": "Kurucular, projeleri hızlandırmak için Rouen'de bir araya geliyor, özellikle de bayrak projemiz: Tonight Pass."
+      },
+      "2022": {
+        "title": "İlk işe alımlar",
+        "description": "Organizasyon, projelerinin gelişimini desteklemek için ilk çalışanlarını işe alıyor."
+      },
+      "2023-2025": {
+        "title": "Devam eden genişleme",
+        "description": "Tonight Pass'ı geliştirmeye odaklanıyor ve gelecekte bir şirkete dönüşüm için hazırlık yapıyor."
+      }
+    }
+  },
+  "founders": {
+    "title": "Kurucular",
+    "description": "Organizasyonumuz, yenilikçi projeleri hayata geçirmek için bir arada çalışan üç tutkulu kişi tarafından kuruldu.",
+    "website": "Web sitesi",
+    "linkedin": "LinkedIn"
+  },
+  "values": {
+    "title": "Değerlerimiz",
+    "description": "Bu temel ilkeler, yaklaşımımızı ve vizyonumuzu yönlendirir, her bir eylemimiz ve kararımız üzerinde etkili olur.",
+    "items": {
+      "innovation": {
+        "title": "Yenilikçilik",
+        "description": "Yenilikçi çözümler sunmak için yaratıcılık ve teknoloji sınırlarını sürekli olarak zorluyoruz."
+      },
+      "community": {
+        "title": "Topluluk",
+        "description": "Kolektifin gücüne inanıyor ve herkesin gelişebileceği iş birliği ortamını teşvik ediyoruz."
+      },
+      "passion": {
+        "title": "Tutku",
+        "description": "Her projeye tutku ve özveriyle yaklaşırız, çünkü yaptığımız işi derinden seviyoruz."
+      },
+      "learning": {
+        "title": "Öğrenme",
+        "description": "Birlikte ilerlemek için sürekli öğrenmeyi ve bilgi paylaşımını değerlendiriyoruz."
+      }
+    }
+  },
+  "expertise": {
+    "title": "Teknik uzmanlıklarımız",
+    "description": "Derneğimiz projelerinde ustalaştığımız ve kullandığımız teknolojiler."
+  },
+  "membership": {
+    "title": "Üye ol",
+    "description": "Heyecanlıların topluluğuna katıl ve yenilikçi projelerin gelişimine katıl.",
+    "annual": {
+      "title": "Yıllık üyelik",
+      "price": "30€",
+      "period": "/yıl",
+      "description": "Kâr amacı gütmeyen kuruluşun gönüllü üyesi olmak için yıllık ücret.",
+      "benefits": {
+        "hours": "Haftada 3 ila 6 saat taahhüt",
+        "projects": "Dernek projelerine katılım",
+        "discord": "Özel Discord rolü ve özel kanallara erişim",
+        "mentoring": "Deneyimli üyelerimiz tarafından kişiselleştirilmiş mentorluk",
+        "resources": "Tüm kaynaklarımıza ve eğitimlerimize erişim",
+        "autonomy": "Organizasyonun projelerinde özerklik"
+      },
+      "cta": "Üyeliğimi talep et"
+    }
+  },
+  "initiatives": {
+    "title": "Programlarımız ve girişimlerimiz",
+    "description": "Halen geliştirdiğimiz girişimleri ve gelecek projeleri keşfet.",
+    "mentoring": {
+      "title": "Teknik mentorluk programı",
+      "description": "Mentorluk programımız, yeni başlayan üyelerin organizasyondaki deneyimli geliştiriciler ve tasarımcılar tarafından beceri gelişiminde desteklenmesini sağlıyor.",
+      "status": "Şu an aktif"
+    },
+    "workshops": {
+      "title": "İş birliği teknik atölyeleri",
+      "description": "Belirli teknolojiler üzerine grup çalışmaları ve öğrenme oturumları, online ve mümkün olduğunda yüz yüze organize edilir.",
+      "status": "Geliştirme aşamasında"
+    },
+    "hackathons": {
+      "title": "Topluluk hackathonları",
+      "description": "Takımların belirli konular üzerinde yenilikçi çözümler geliştirdiği 48 saatlik etkinliklerin organizasyonu.",
+      "status": "Gelecek proje"
+    },
+    "contribute": "Bu girişimlerin gelişimine katkıda bulunmak ister misin?",
+    "contact": "Bize ulaş"
+  },
+  "discord": {
+    "title": "Discord topluluğumuza katıl",
+    "description": "Diğer üyelerle bağlantı kur, teknik tartışmalara katıl ve organizasyondan gelen son haberlerden haberdar ol.",
+    "cta": "Discord'a katıl"
+  }
+}

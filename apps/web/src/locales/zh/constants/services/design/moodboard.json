@@ -1,0 +1,80 @@
+{
+  "name": "情绪板",
+  "description": "定义你项目的视觉身份和氛围",
+  "hero": {
+    "title": "情绪板与艺术指导",
+    "description": "通过精心制作的情绪板让你的愿景成真。我们的设计专业知识帮助你为项目定义清晰且鼓舞人心的艺术方向。"
+  },
+  "features": {
+    "creative-direction": {
+      "title": "创意指导",
+      "description": "清晰定义氛围和视觉风格."
+    },
+    "color-palette": {
+      "title": "调色板",
+      "description": "和谐选择你的身份颜色."
+    },
+    "visual-style": {
+      "title": "视觉风格",
+      "description": "探索和定义你的图形宇宙."
+    },
+    "targeted-inspiration": {
+      "title": "有针对性的灵感",
+      "description": "针对你的行业进行深入研究."
+    }
+  },
+  "benefits": {
+    "clear-direction": {
+      "title": "明确方向",
+      "description": "创意团队的共同愿景和一致性."
+    },
+    "visual-communication": {
+      "title": "视觉沟通",
+      "description": "有效支持分享你的愿景."
+    },
+    "consistency": {
+      "title": "一致性",
+      "description": "确保和谐的视觉身份."
+    },
+    "creative-expertise": {
+      "title": "创意专业知识",
+      "description": "专业建议和艺术指导."
+    }
+  },
+  "faq": {
+    "what-is-moodboard": {
+      "question": "什么是情绪板，它有什么用?",
+      "answer": "情绪板是一个视觉组合，定义你项目的艺术方向。它结合了颜色、排版、图片和纹理，创建一个连贯的视觉参考。这是一个重要的工具，用于传达你的愿景和确保视觉身份的一致性."
+    },
+    "creation-process": {
+      "question": "创建过程是怎样的?",
+      "answer": "该过程始于一个发现阶段，我们探索你的目标和宇宙。然后进行深入研究，以选择合适的视觉元素。在经过几轮修改和你的反馈后，我们最终确定情绪板，这将作为你项目的指导."
+    },
+    "moodboard-elements": {
+      "question": "情绪板包括哪些元素?",
+      "answer": "一个专业的情绪板通常包括：调色板、排版、灵感图片、纹理、图案和风格参考。我们也会添加解释性注释以澄清创意选择."
+    },
+    "moodboard-usage": {
+      "question": "在整个项目中如何使用情绪板?",
+      "answer": "情绪板在整个项目中作为参考。它指导设计决策，确保视觉一致性，并促进所有利益相关者之间的沟通。这是一个可以随着你的反馈而发展的动态文档."
+    },
+    "creation-timeline": {
+      "question": "创建情绪板需要多长时间?",
+      "answer": "创建一个专业的情绪板通常需要1到2周，包括研究阶段、初步创作和根据你反馈进行的迭代。这个时间使我们能够深入探索并完善艺术方向."
+    }
+  },
+  "complementary": {
+    "brand-guidelines": {
+      "title": "品牌指南",
+      "description": "创建完整的品牌指南文档."
+    },
+    "style-guide": {
+      "title": "风格指南",
+      "description": "详细指导你的身份使用."
+    },
+    "artistic-direction": {
+      "title": "艺术指导",
+      "description": "持续的创意指导."
+    }
+  }
+}

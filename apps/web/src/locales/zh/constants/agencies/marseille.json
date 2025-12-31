@@ -1,0 +1,79 @@
+{
+  "title": "马赛的网页开发 | 普罗旺斯企业的数字解决方案",
+  "description": "在马赛创建您的网站或移动应用程序。为普罗旺斯企业量身定制的数字解决方案，以应对您行业的本地挑战。",
+  "hero": {
+    "title": "马赛的网页与移动开发",
+    "description": "我们帮助马赛和普罗旺斯-阿尔卑斯-蓝色海岸地区的企业通过定制的网页解决方案实现数字化，完美适应地中海市场的具体挑战。"
+  },
+  "intro": "马赛是一个充满活力的经济交叉点，海与山之间，传统与创新相遇。我们的数字专业知识使马赛企业能够在竞争激烈、不断发展的地中海市场中脱颖而出。",
+  "expertise": "我们的团队设计适合马赛企业的网站、应用程序和电子商务解决方案。我们理解您本地市场的挑战，提供增强普罗旺斯身份的数字解决方案，同时吸引国际客户。",
+  "why-choose-us": "我们对普罗旺斯市场的深入了解使我们能够开发完美适应本地企业具体挑战的数字解决方案。我们理解马赛的文化和经济丰富性，并将其融入每个项目中，以创造真实且高效的数字体验。",
+  "key-business-sectors": {
+    "tourism": "旅游业",
+    "maritime": "海事",
+    "local-commerce": "本地商业",
+    "restaurant": "餐饮业"
+  },
+  "local-challenges": {
+    "tourism-competition": "地中海旅游业竞争激烈，需要独特的数字存在",
+    "maritime-solutions": "对适应海事和港口贸易的数字解决方案的需求",
+    "local-commerce-digitalization": "面临大型连锁店的本地商店数字化转型",
+    "local-ecommerce": "需要适合展示工艺和本地产品的电子商务解决方案"
+  },
+  "benefits": {
+    "custom-solutions": "适应普罗旺斯企业特性的定制解决方案",
+    "tourism-maritime-expertise": "旅游和海事领域的深厚专业知识",
+    "international-ui": "针对国际客户优化的用户界面",
+    "mediterranean-knowledge": "对地中海经济挑战的深入了解",
+    "personalized-support": "在整个数字项目中提供个性化支持"
+  },
+  "primary-stat": {
+    "label": "旅游业"
+  },
+  "strengths": {
+    "tourism-experience": {
+      "title": "旅游经验",
+      "description": "为地中海旅游业优化的网站和应用程序。"
+    },
+    "local-ecommerce": {
+      "title": "本地电子商务",
+      "description": "为普罗旺斯工匠和商家提供的在线销售解决方案。"
+    },
+    "maritime-sector": {
+      "title": "海事部门",
+      "description": "适应港口和水上活动的数字化解决方案。"
+    },
+    "mediterranean-design": {
+      "title": "地中海设计",
+      "description": "反映地中海视觉身份的现代界面。"
+    }
+  },
+  "focused-services": {
+    "tourism-websites": {
+      "name": "旅游网站",
+      "description": "为酒店、餐馆和旅游活动提供多语言数字展示。"
+    },
+    "provencal-ecommerce": {
+      "name": "普罗旺斯电子商务",
+      "description": "适合本地生产商和工匠的在线商店。"
+    },
+    "mobile-applications": {
+      "name": "移动应用程序",
+      "description": "丰富旅游和商业体验的移动解决方案。"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "专业知识",
+      "description": "多年的经验"
+    },
+    "satisfaction": {
+      "label": "满意度",
+      "description": "满意的客户"
+    },
+    "average-time": {
+      "label": "平均时间",
+      "description": "完成周数"
+    }
+  }
+}

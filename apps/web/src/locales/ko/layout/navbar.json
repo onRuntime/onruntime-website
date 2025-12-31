@@ -1,0 +1,33 @@
+{
+  "links": {
+    "services": "우리 서비스",
+    "projects": "우리 프로젝트",
+    "agencies": "우리 기관",
+    "npo": "협회",
+    "contact": "문의하기"
+  },
+  "services": {
+    "title": "우리 서비스",
+    "description": "디지털 프로젝트를 실현하기 위한 다양한 개발 및 디자인 서비스를 확인해 보세요.",
+    "cta": "더 알아보기"
+  },
+  "projects": {
+    "title": "우리 포트폴리오",
+    "description": "다양한 분야에서의 모든 프로젝트와 성과를 확인해 보세요.",
+    "categories": {
+      "web-mobile": "웹 및 모바일 앱",
+      "open-source": "오픈 소스 프로젝트",
+      "design": "UI/UX 디자인"
+    },
+    "cta": "모든 프로젝트 보기"
+  },
+  "agencies": {
+    "title": "프랑스의 우리 기관",
+    "description": "프랑스 전역의 기관 네트워크와 현지 전문성을 확인해 보세요.",
+    "agency": "기관 {name}",
+    "main": "주요 기관",
+    "all": "모든 우리 기관",
+    "by-region": "지역별 모든 우리 기관",
+    "cta": "모든 기관 보기"
+  }
+}

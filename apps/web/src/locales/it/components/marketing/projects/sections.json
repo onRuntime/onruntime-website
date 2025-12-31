@@ -1,0 +1,22 @@
+{
+  "featured": {
+    "title": "Progetti in evidenza",
+    "view-project": "Vedi progetto"
+  },
+  "studio": {
+    "title": "Progetti dello studio"
+  },
+  "customer": {
+    "title": "Progetti dei clienti",
+    "coming-soon": "In arrivo",
+    "empty": {
+      "description": "I nostri progetti per i clienti sono in fase di preparazione. Contattaci per saperne di più sul nostro lavoro o per discutere del tuo progetto.",
+      "button": "Discuti il tuo progetto"
+    }
+  },
+  "tags": {
+    "featured": "In evidenza",
+    "open-source": "Open Source",
+    "customer": "Cliente"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Shopify",
+  "description": "Creazione e personalizzazione di negozi online Shopify",
+  "hero": {
+    "title": "Crea il tuo negozio online con Shopify",
+    "description": "Trasforma la tua visione e-commerce in realtà con la nostra esperienza su Shopify. Creiamo negozi online ad alte prestazioni, estetici e ottimizzati per le conversioni."
+  },
+  "features": {
+    "custom-design": {
+      "title": "Design personalizzato",
+      "description": "Creazione di un tema unico che riflette il tuo brand e ottimizza l'esperienza utente."
+    },
+    "conversion-optimization": {
+      "title": "Ottimizzazione delle conversioni",
+      "description": "Implementazione delle migliori pratiche per massimizzare le tue vendite e fidelizzare i tuoi clienti."
+    },
+    "enhanced-security": {
+      "title": "Sicurezza avanzata",
+      "description": "Protezione dei tuoi dati e dei dati dei tuoi clienti con gli ultimi standard di sicurezza."
+    },
+    "advanced-integrations": {
+      "title": "Integrazioni avanzate",
+      "description": "Connessione con i tuoi strumenti preferiti per la gestione dell'inventario, contabilità e marketing."
+    }
+  },
+  "benefits": {
+    "secure-payments": {
+      "title": "Pagamenti sicuri",
+      "description": "Integrazione dei principali metodi di pagamento e gestione delle transazioni sicure."
+    },
+    "international-by-default": {
+      "title": "Internazionale per default",
+      "description": "Vendi in tutto il mondo con gestione multi-valuta e traduzioni automatiche."
+    },
+    "powerful-analytics": {
+      "title": "Analytics potenti",
+      "description": "Tracciamento dettagliato delle tue performance e approfondimenti per ottimizzare le tue vendite."
+    },
+    "simplified-logistics": {
+      "title": "Logistica semplificata",
+      "description": "Gestione degli ordini efficiente e integrazione con i principali corrieri."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Quanto tempo ci vuole per creare un negozio Shopify?",
+      "answer": "Il tempo medio per creare un negozio Shopify varia da 4 a 8 settimane, a seconda della complessità del progetto. Questo include la fase di design, sviluppo, integrazione dei prodotti e test."
+    },
+    "migration": {
+      "question": "Puoi migrare il mio negozio esistente su Shopify?",
+      "answer": "Sì, offriamo un servizio completo di migrazione dal tuo negozio esistente su Shopify, inclusi il trasferimento di prodotti, clienti e ordini, garantendo una transizione senza problemi."
+    },
+    "customization-types": {
+      "question": "Che tipi di personalizzazione offrite?",
+      "answer": "Offriamo una personalizzazione completa del tuo negozio Shopify: design personalizzato, funzionalità personalizzate, integrazioni specifiche e ottimizzazione per dispositivi mobili."
+    },
+    "post-launch-support": {
+      "question": "Offrite supporto post-lancio?",
+      "answer": "Sì, offriamo diversi piani di supporto e manutenzione per garantire il corretto funzionamento del tuo negozio dopo il lancio, inclusi aggiornamenti, ottimizzazioni e supporto tecnico."
+    },
+    "security": {
+      "question": "Come garantite la sicurezza del mio negozio?",
+      "answer": "Implementiamo le migliori pratiche di sicurezza: SSL, conformità PCI DSS, backup regolari e protezione dalle frodi. Shopify fornisce anche sicurezza a livello bancario per tutte le transazioni."
+    }
+  },
+  "complementary": {
+    "seo": {
+      "title": "SEO",
+      "description": "Ottimizzazione per i motori di ricerca per aumentare la tua visibilità."
+    },
+    "digital-marketing": {
+      "title": "Marketing digitale",
+      "description": "Strategie di marketing adattate per attrarre e convertire più clienti."
+    },
+    "training": {
+      "title": "Formazione",
+      "description": "Formazione completa per gestire il tuo negozio in modo indipendente."
+    }
+  }
+}

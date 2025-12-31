@@ -1,0 +1,48 @@
+{
+  "name": "Integração",
+  "description": "Integração em grandes plataformas de e-commerce e CMS",
+  "benefits": {
+    "clean-maintainable-code": {
+      "title": "Código limpo e manutenível",
+      "description": "Integração com altos padrões de código e arquitetura projetada para manutenção a longo prazo."
+    },
+    "optimized-performance": {
+      "title": "Desempenho otimizado",
+      "description": "Sites rápidos e suaves através de técnicas avançadas de otimização e melhores práticas."
+    },
+    "responsive-design": {
+      "title": "Design responsivo",
+      "description": "Adaptação perfeita a todas as telas e dispositivos para uma experiência de usuário consistente."
+    },
+    "smooth-animations": {
+      "title": "Animações suaves",
+      "description": "Integração de animações polidas para enriquecer a experiência do usuário enquanto mantém o desempenho."
+    }
+  },
+  "process": {
+    "mockup-analysis": {
+      "title": "Análise de mockups",
+      "description": "Estudo profundo dos mockups para identificar componentes, interações e pontos técnicos de atenção."
+    },
+    "technical-architecture": {
+      "title": "Arquitetura técnica",
+      "description": "Definição da arquitetura frontend e seleção de tecnologias adequadas para o projeto."
+    },
+    "component-development": {
+      "title": "Desenvolvimento de componentes",
+      "description": "Criação de componentes reutilizáveis seguindo princípios de sistema de design."
+    },
+    "responsive-integration": {
+      "title": "Integração responsiva",
+      "description": "Adaptação de design para todos os formatos de tela com atenção especial à experiência móvel."
+    },
+    "optimization": {
+      "title": "Otimização",
+      "description": "Otimização de desempenho, acessibilidade e SEO técnico."
+    },
+    "testing-validation": {
+      "title": "Testes e validação",
+      "description": "Testes rigorosos em diferentes navegadores e dispositivos para garantir a melhor experiência do usuário."
+    }
+  }
+}

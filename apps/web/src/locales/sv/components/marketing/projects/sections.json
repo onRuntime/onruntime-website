@@ -1,0 +1,22 @@
+{
+  "featured": {
+    "title": "Utvalda projekt",
+    "view-project": "Visa projekt"
+  },
+  "studio": {
+    "title": "Studio projekt"
+  },
+  "customer": {
+    "title": "Kundprojekt",
+    "coming-soon": "Kommer snart",
+    "empty": {
+      "description": "Våra kundprojekt är under förberedelse. Kontakta oss för att veta mer om vårt arbete eller för att diskutera ditt projekt.",
+      "button": "Diskutera ditt projekt"
+    }
+  },
+  "tags": {
+    "featured": "Utvald",
+    "open-source": "Öppen källkod",
+    "customer": "Kund"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "last-updated": "Senast uppdaterad:",
+  "question": {
+    "title": "Har du en fråga om våra villkor?",
+    "description": "Vårt team är tillgängligt för att svara på alla dina frågor.",
+    "cta": "Kontakta oss"
+  },
+  "nav": {
+    "company": "Företagsinformation",
+    "privacy": "Integritetspolicy",
+    "terms": "Villkor"
+  }
+}

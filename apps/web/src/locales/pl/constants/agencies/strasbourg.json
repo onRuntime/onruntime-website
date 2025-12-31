@@ -1,0 +1,79 @@
+{
+  "title": "Rozwój stron internetowych w Strasburgu | Rozwiązania cyfrowe dla przedsiębiorstw alzackich",
+  "description": "Stwórz swoją stronę internetową lub aplikację mobilną w Strasburgu. Spersonalizowane rozwiązania cyfrowe dla przedsiębiorstw alzackich, dostosowane do lokalnych i transgranicznych wyzwań.",
+  "hero": {
+    "title": "Rozwój stron i aplikacji mobilnych w Strasburgu",
+    "description": "Pomagamy firmom w Strasburgu i regionie Grand Est digitalizować się za pomocą spersonalizowanych rozwiązań internetowych, doskonale dopasowanych do specyficznych wyzwań rynku alzackiego i europejskiego."
+  },
+  "intro": "Europejska stolica i miasto graniczne z bogatym dziedzictwem, Strasburg łączy alzackie tradycje z międzynarodową otwartością. Jego status siedziby instytucji europejskich, dynamiczny przemysł oraz strategiczna pozycja między Francją a Niemcami czynią go unikalnym terytorium, w którym cyfrowe rozwiązania odgrywają niezbędną rolę łączącą.",
+  "expertise": "Nasz zespół projektuje strony internetowe, aplikacje i rozwiązania cyfrowe doskonale dopasowane do osób pracujących w Strasburgu, niezależnie od tego, czy są to organizacje międzynarodowe, firmy przemysłowe czy lokalne podmioty zajmujące się dziedzictwem. Rozumiemy specyficzne wyzwania na twoim rynku regionalnym i transgranicznym, oferując wielojęzyczne i kulturowo dostosowane rozwiązania cyfrowe.",
+  "why-choose-us": "Nasza dogłębna znajomość rynku strasburskiego pozwala nam opracowywać rozwiązania cyfrowe idealnie dostosowane do specyficznych wyzwań lokalnych firm. Rozumiemy wymagania europejskiego kontekstu i alzackich szczególności kulturowych, i integrujemy ten podwójny wymiar w każdym projekcie, aby stworzyć istotne i wydajne doświadczenia cyfrowe.",
+  "key-business-sectors": {
+    "european-institutions": "Instytucje europejskie",
+    "cross-border-commerce": "Handel transgraniczny",
+    "industry": "Przemysł",
+    "culture-heritage": "Kultura i dziedzictwo"
+  },
+  "local-challenges": {
+    "european-institutions-needs": "Specyficzne potrzeby instytucji europejskich i organizacji międzynarodowych",
+    "cross-border-development": "Rozwój handlu transgranicznego z Niemcami i Szwajcarią",
+    "traditional-industries-transformation": "Cyfrowa transformacja tradycyjnych alzackich przemysłów",
+    "heritage-digital-showcase": "Cyfrowa witryna bogatego dziedzictwa kulturowego i historycznego regionu"
+  },
+  "benefits": {
+    "multilingual-solutions": "Wielojęzyczne rozwiązania dostosowane do międzynarodowego kontekstu Strasburga",
+    "european-standards-expertise": "Wysoka wiedza w zakresie interfejsów użytkownika zgodnych ze standardami europejskimi",
+    "cross-border-knowledge": "Dogłębna wiedza o rynkach transgranicznych i ich specyfikach",
+    "innovative-traditional-approach": "Podejście, które jest zarówno innowacyjne, jak i szanujące alzackie tradycje",
+    "personalized-support": "Spersonalizowane wsparcie przez cały czas trwania twojego projektu cyfrowego"
+  },
+  "primary-stat": {
+    "label": "międzynarodowy kontekst"
+  },
+  "strengths": {
+    "european-solutions": {
+      "title": "Rozwiązania europejskie",
+      "description": "Wielojęzyczne platformy dla instytucji i organizacji międzynarodowych."
+    },
+    "cross-border-commerce": {
+      "title": "Handel transgraniczny",
+      "description": "Rozwiązania e-commerce dostosowane do rynków francuskiego, niemieckiego i szwajcarskiego."
+    },
+    "industry-40": {
+      "title": "Przemysł 4.0",
+      "description": "Cyfryzacja procesów dla tradycyjnego przemysłu alzackiego."
+    },
+    "digital-heritage": {
+      "title": "Cyfrowe dziedzictwo",
+      "description": "Cyfrowe doświadczenia prezentujące dziedzictwo kulturowe i historyczne."
+    }
+  },
+  "focused-services": {
+    "institutional-websites": {
+      "name": "Strony instytucjonalne",
+      "description": "Wielojęzyczne platformy zgodne z europejskimi standardami dostępności."
+    },
+    "cross-border-ecommerce": {
+      "name": "E-commerce transgraniczny",
+      "description": "Rozwiązania handlowe dostosowane do specyfiki rynków niemieckiego i francuskiego."
+    },
+    "industrial-applications": {
+      "name": "Aplikacje przemysłowe",
+      "description": "Spersonalizowane narzędzia cyfrowe do modernizacji procesów przemysłowych."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Ekspertyza",
+      "description": "Lata doświadczenia"
+    },
+    "satisfaction": {
+      "label": "Satysfakcja",
+      "description": "Zadowoleni klienci"
+    },
+    "average-time": {
+      "label": "Średni czas",
+      "description": "Tygodnie realizacji"
+    }
+  }
+}

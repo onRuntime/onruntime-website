@@ -1,0 +1,20 @@
+{
+  "retry": "Tentar novamente",
+  "no-results": "Nenhuma oferta de emprego corresponde à sua pesquisa.",
+  "count": "oferta(s) de emprego disponível(is)",
+  "published": "Publicado em",
+  "view-offer": "Ver oferta",
+  "employment-type": {
+    "full-time": "Tempo integral",
+    "part-time": "Meio período",
+    "contract": "Contrato",
+    "temporary": "Temporário",
+    "internship": "Estágio",
+    "apprenticeship": "Aprendizagem"
+  },
+  "workplace-type": {
+    "hybrid": "Híbrido",
+    "remote": "Remoto",
+    "on-site": "Presencial"
+  }
+}

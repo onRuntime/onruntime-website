@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "项目未找到",
+      "description": "该项目不存在。"
+    },
+    "title": "案例研究：{name} - 数字项目",
+    "description": "了解我们的机构是如何设计和开发{name}的。{shortDescription}"
+  }
+}

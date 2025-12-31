@@ -1,0 +1,80 @@
+{
+  "name": "Moodboard",
+  "description": "Het definiëren van de visuele identiteit en sfeer van je project",
+  "hero": {
+    "title": "Moodboards & Artistieke Richting",
+    "description": "Breng je visie tot leven met zorgvuldig samengestelde moodboards. Onze ontwerpexpertise helpt je een duidelijke en inspirerende artistieke richting voor je project te definiëren."
+  },
+  "features": {
+    "creative-direction": {
+      "title": "Creatieve richting",
+      "description": "Duidelijke definitie van de sfeer en visuele stijl."
+    },
+    "color-palette": {
+      "title": "Kleurpalet",
+      "description": "Harmonieuze selectie van je identiteit kleuren."
+    },
+    "visual-style": {
+      "title": "Visuele stijl",
+      "description": "Verkenning en definitie van je grafische universum."
+    },
+    "targeted-inspiration": {
+      "title": "Gerichte inspiratie",
+      "description": "Diepgaand onderzoek afgestemd op jouw branche."
+    }
+  },
+  "benefits": {
+    "clear-direction": {
+      "title": "Duidelijke richting",
+      "description": "Gedeelde visie en afstemming van creatieve teams."
+    },
+    "visual-communication": {
+      "title": "Visuele communicatie",
+      "description": "Effectieve ondersteuning bij het delen van je visie."
+    },
+    "consistency": {
+      "title": "Consistentie",
+      "description": "Verzekerde harmonieuze visuele identiteit."
+    },
+    "creative-expertise": {
+      "title": "Creatieve expertise",
+      "description": "Professioneel advies en artistieke richting."
+    }
+  },
+  "faq": {
+    "what-is-moodboard": {
+      "question": "Wat is een moodboard en waarvoor wordt het gebruikt?",
+      "answer": "Een moodboard is een visuele samenstelling die de artistieke richting van je project definieert. Het combineert kleuren, typografie, afbeeldingen en texturen om een samenhangende visuele referentie te creëren. Het is een essentieel hulpmiddel voor het communiceren van je visie en het waarborgen van de consistentie van je visuele identiteit."
+    },
+    "creation-process": {
+      "question": "Hoe werkt het creatieproces?",
+      "answer": "Het proces begint met een ontdekkingsfase waarin we je doelen en universum verkennen. We doen vervolgens diepgaand onderzoek om geschikte visuele elementen te selecteren. Na verschillende iteraties en jouw feedback, finaliseren we het moodboard dat als leidraad voor je project zal dienen."
+    },
+    "moodboard-elements": {
+      "question": "Welke elementen bevat een moodboard?",
+      "answer": "Een professioneel moodboard omvat typisch: een kleurpalet, typografie, inspirerende afbeeldingen, texturen, patronen en stijlreferenties. We voegen ook verklarende notities toe om creatieve keuzes te verduidelijken."
+    },
+    "moodboard-usage": {
+      "question": "Hoe gebruik je het moodboard gedurende het project?",
+      "answer": "Het moodboard dient als referentie gedurende het project. Het begeleidt ontwerpbeslissingen, zorgt voor visuele consistentie en vergemakkelijkt de communicatie tussen alle betrokkenen. Het is een levend document dat kan evolueren met jouw feedback."
+    },
+    "creation-timeline": {
+      "question": "Hoe lang duurt het om een moodboard te maken?",
+      "answer": "Het maken van een professioneel moodboard duurt meestal 1 tot 2 weken, inclusief de onderzoeksfase, de eerste creatie en iteraties op basis van jouw feedback. Deze tijd geeft ons de mogelijkheid om diepgaand te verkennen en de artistieke richting te verfijnen."
+    }
+  },
+  "complementary": {
+    "brand-guidelines": {
+      "title": "Merk richtlijnen",
+      "description": "Creëren van een compleet document voor merk richtlijnen."
+    },
+    "style-guide": {
+      "title": "Stijlgids",
+      "description": "Gedetailleerde gids voor het gebruik van je identiteit."
+    },
+    "artistic-direction": {
+      "title": "Artistieke richting",
+      "description": "Voortdurende creatieve begeleiding."
+    }
+  }
+}

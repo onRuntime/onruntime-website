@@ -1,0 +1,80 @@
+{
+  "name": "PrestaShop",
+  "description": "Entwicklung von PrestaShop-Shops",
+  "hero": {
+    "title": "E-Commerce-Entwicklung mit PrestaShop",
+    "description": "Starte einen professionellen Onlineshop mit PrestaShop. Unser Fachwissen garantiert dir eine leistungsstarke, skalierbare E-Commerce-Lösung, die perfekt auf deine Bedürfnisse abgestimmt ist."
+  },
+  "features": {
+    "custom-design": {
+      "title": "Individuelles Design",
+      "description": "Erstellung von benutzerdefinierten Themen, die deine Marke widerspiegeln und die Conversion optimieren."
+    },
+    "advanced-management": {
+      "title": "Erweiterte Verwaltung",
+      "description": "Leistungsstarke Admin-Oberfläche zur Verwaltung deiner Produkte, Bestellungen und Kunden."
+    },
+    "optimized-performance": {
+      "title": "Optimierte Leistung",
+      "description": "Erweiterte Optimierung für schnelle Ladezeiten und ein flüssiges Erlebnis."
+    },
+    "enhanced-security": {
+      "title": "Verbesserte Sicherheit",
+      "description": "Erweiterter Schutz deines Shops und der Daten deiner Kunden."
+    }
+  },
+  "benefits": {
+    "complete-management": {
+      "title": "Vollständige Verwaltung",
+      "description": "Vollständige Kontrolle über deine Produkte, Bestände, Bestellungen und Kundenbeziehungen."
+    },
+    "multi-store": {
+      "title": "Multishop",
+      "description": "Verwaltung mehrerer Shops über eine einzige Admin-Oberfläche."
+    },
+    "integrated-logistics": {
+      "title": "Integrierte Logistik",
+      "description": "Erweiterte Verwaltung von Versanddienstleistern und Versandkosten."
+    },
+    "detailed-analytics": {
+      "title": "Detaillierte Analysen",
+      "description": "Umfassende Statistiken zur Verfolgung und Optimierung deiner Leistung."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Wie lange dauert es, einen PrestaShop-Shop zu erstellen?",
+      "answer": "Die durchschnittliche Zeit zur Erstellung eines PrestaShop-Shops variiert von 6 bis 12 Wochen, abhängig von der Komplexität des Projekts. Dazu gehören die Anpassung des Designs, die Entwicklung benutzerdefinierter Funktionen, die Integration von Produkten und Tests."
+    },
+    "migration": {
+      "question": "Kannst du meinen bestehenden Shop nach PrestaShop migrieren?",
+      "answer": "Ja, wir bieten einen kompletten Migrationsservice zu PrestaShop an, einschließlich der Übertragung von Produkten, Kunden, Bestellungen und Historie, während wir dein SEO erhalten."
+    },
+    "large-catalogs": {
+      "question": "Ist PrestaShop für große Produktkataloge geeignet?",
+      "answer": "Absolut! PrestaShop ist dafür ausgelegt, Kataloge mit mehreren tausend Produkten und Variationen effizient zu verwalten, während es eine ausgezeichnete Leistung aufrechterhält."
+    },
+    "custom-development": {
+      "question": "Bietest du eine benutzerdefinierte Entwicklung an?",
+      "answer": "Ja, wir entwickeln benutzerdefinierte Module und Funktionen, um PrestaShop an deine spezifischen Bedürfnisse anzupassen: ERP-Integrationen, maßgeschneiderte Geschäftsprozesse usw."
+    },
+    "maintenance-updates": {
+      "question": "Wie gehst du mit Wartung und Updates um?",
+      "answer": "Wir bieten verschiedene Wartungspläne an, einschließlich Sicherheitsupdates, Backups, Leistungsoptimierung und technischem Support."
+    }
+  },
+  "complementary": {
+    "custom-modules": {
+      "title": "Benutzerdefinierte Module",
+      "description": "Entwicklung spezifischer Funktionen für dein Unternehmen."
+    },
+    "digital-marketing": {
+      "title": "Digitales Marketing",
+      "description": "Marketingstrategien zur Steigerung deiner Sichtbarkeit und Verkäufe."
+    },
+    "prestashop-training": {
+      "title": "PrestaShop-Schulung",
+      "description": "Individuelle Schulungen, um die Verwaltung deines Shops zu meistern."
+    }
+  }
+}

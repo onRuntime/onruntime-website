@@ -1,0 +1,79 @@
+{
+  "title": "Tworzenie stron internetowych w Nicei | Rozwiązania cyfrowe dla firm na Lazurowym Wybrzeżu",
+  "description": "Stwórz swoją stronę internetową lub aplikację mobilną w Nicei. Niestandardowe rozwiązania cyfrowe dla firm na Lazurowym Wybrzeżu, dostosowane do lokalnych wyzwań w Twojej branży.",
+  "hero": {
+    "title": "Tworzenie stron i aplikacji mobilnych w Nicei",
+    "description": "Pomagamy firmom w Nicei i na Lazurowym Wybrzeżu zrealizować transformację cyfrową za pomocą niestandardowych rozwiązań internetowych, idealnie dopasowanych do specyficznych wyzwań rynku azury."
+  },
+  "intro": "Między Morzem Śródziemnym a Alpami, Nicea korzysta z międzynarodowego wpływu i zróżnicowanej gospodarki, gdzie turystyka spotyka innowacje. Nasza wiedza cyfrowa umożliwia firmom z Nicei wyróżnienie się w konkurencyjnym środowisku, w którym wizerunek i doskonałość są najważniejsze.",
+  "expertise": "Nasz zespół projektuje strony internetowe, aplikacje i rozwiązania e-commerce idealnie dopasowane do firm w Nicei i na Lazurowym Wybrzeżu. Rozumiemy wysokie standardy Twojego lokalnego rynku i oferujemy rozwiązania cyfrowe, które podkreślają premium pozycjonowanie specyficzne dla tego regionu.",
+  "why-choose-us": "Nasza dogłębna wiedza o rynku azury pozwala nam rozwijać rozwiązania cyfrowe idealnie dostosowane do konkretnych wyzwań lokalnych firm. Rozumiemy międzynarodowy wymiar Nicei i jej reputację za doskonałość, i wprowadzamy te aspekty w każdym projekcie, aby tworzyć wysublimowane i wydajne doświadczenia cyfrowe.",
+  "key-business-sectors": {
+    "luxury-tourism": "Turystyka luksusowa",
+    "real-estate": "Nieruchomości",
+    "events": "Wydarzenia",
+    "health-wellness": "Zdrowie i wellness"
+  },
+  "local-challenges": {
+    "luxury-tourism-digitalization": "Cyfryzacja sektora turystyki luksusowej na Lazurowym Wybrzeżu",
+    "innovative-real-estate-solutions": "Potrzeba innowacyjnych rozwiązań w branży nieruchomości dla wymagającego rynku międzynarodowego",
+    "events-digital-showcase": "Cyfrowa prezentacja wydarzeń (festiwali, konferencji, wystaw)",
+    "health-wellness-transformation": "Cyfrowa transformacja sektora zdrowia i wellness w regionie znanym z jakości życia"
+  },
+  "benefits": {
+    "international-clientele-solutions": "Niestandardowe rozwiązania dostosowane do wymagającej międzynarodowej klienteli",
+    "premium-interfaces-expertise": "Ostrze specjalistyczne w zakresie interfejsów premium i doświadczeń użytkowników",
+    "azurean-market-knowledge": "Dogłębna wiedza o rynku azury i jego specyfice",
+    "multilingual-applications": "Aplikacje wielojęzyczne dostosowane do międzynarodowej klienteli Lazurowego Wybrzeża",
+    "personalized-support": "Spersonalizowane wsparcie przez cały projekt cyfrowy"
+  },
+  "primary-stat": {
+    "label": "turystyka luksusowa"
+  },
+  "strengths": {
+    "premium-experience": {
+      "title": "Premium doświadczenie",
+      "description": "Wysokiej klasy strony i aplikacje dla turystyki luksusowej i hotelarstwa."
+    },
+    "digital-real-estate": {
+      "title": "Cyfrowe nieruchomości",
+      "description": "Innowacyjne rozwiązania dla agencji nieruchomości i deweloperów."
+    },
+    "event-platforms": {
+      "title": "Platformy wydarzeń",
+      "description": "Strony i aplikacje dla festiwali, konferencji i prestiżowych wydarzeń."
+    },
+    "connected-wellness": {
+      "title": "Połączone wellness",
+      "description": "Rozwiązania cyfrowe dla klinik, spa i ośrodków wellness."
+    }
+  },
+  "focused-services": {
+    "premium-websites": {
+      "name": "Premium strony internetowe",
+      "description": "Wysokiej klasy prezentacje cyfrowe dla hoteli, restauracji i luksusowych butików."
+    },
+    "real-estate-applications": {
+      "name": "Aplikacje nieruchomościowe",
+      "description": "Niestandardowe rozwiązania do prezentacji i zarządzania wyjątkowymi nieruchomościami."
+    },
+    "visual-identity": {
+      "name": "Tożsamość wizualna",
+      "description": "Elegancki i wyrafinowany design UI/UX dla prestiżowych marek i instytucji."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Ekspertyza",
+      "description": "Lata doświadczenia"
+    },
+    "satisfaction": {
+      "label": "Satysfakcja",
+      "description": "Zadowoleni klienci"
+    },
+    "average-time": {
+      "label": "Średni czas",
+      "description": "Tygodnie realizacji"
+    }
+  }
+}

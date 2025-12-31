@@ -1,0 +1,79 @@
+{
+  "title": "マルセイユのウェブ開発 | プロヴァンスのビジネス向けデジタルソリューション",
+  "description": "マルセイユであなたのウェブサイトやモバイルアプリを作成します。プロヴァンスのビジネスに特化したカスタムデジタルソリューションで、あなたの業界の地域特有の課題に対応します。",
+  "hero": {
+    "title": "マルセイユのウェブ＆モバイル開発",
+    "description": "マルセイユとPACA地域のビジネスをカスタムウェブソリューションでデジタル化するお手伝いをします。地中海市場の特有の課題に完璧に対応しています。"
+  },
+  "intro": "海と丘の間にあるマルセイユは、伝統と革新が出会うダイナミックな経済の交差点です。私たちのデジタル専門知識を活用することで、マルセイユのビジネスは競争の激しい地中海市場で際立つことができます。",
+  "expertise": "私たちのチームは、マルセイユのビジネスに最適なウェブサイト、アプリケーション、eコマースソリューションを設計します。私たちは地域市場の課題を理解し、あなたのプロヴァンスのアイデンティティを引き立てつつ、国際的な顧客にアプローチするデジタルソリューションを提供します。",
+  "why-choose-us": "私たちのプロヴァンス市場に関する深い知識は、地域のビジネスの特有の課題に完璧に適応したデジタルソリューションを開発することを可能にします。マルセイユの文化的および経済的な豊かさを理解し、それを各プロジェクトに統合して真の高パフォーマンスなデジタル体験を創造します。",
+  "key-business-sectors": {
+    "tourism": "観光",
+    "maritime": "海事",
+    "local-commerce": "地域商業",
+    "restaurant": "レストラン"
+  },
+  "local-challenges": {
+    "tourism-competition": "地中海の観光業界での強い競争で差別化されたデジタルプレゼンスが必要",
+    "maritime-solutions": "海事および港の商業に適応したデジタルソリューションの必要",
+    "local-commerce-digitalization": "大手チェーンに対抗する地元の店舗のデジタル化",
+    "local-ecommerce": "クラフトや地元の製品を表現できるeコマースソリューションの必要"
+  },
+  "benefits": {
+    "custom-solutions": "プロヴァンスのビジネスの特性に合わせたカスタムソリューション",
+    "tourism-maritime-expertise": "観光および海事業界における専門知識",
+    "international-ui": "国際的な顧客向けに最適化されたユーザーインターフェース",
+    "mediterranean-knowledge": "地中海の経済的課題に関する深い知識",
+    "personalized-support": "あなたのデジタルプロジェクトを通じた個別サポート"
+  },
+  "primary-stat": {
+    "label": "観光セクター"
+  },
+  "strengths": {
+    "tourism-experience": {
+      "title": "観光体験",
+      "description": "地中海の観光業に最適化されたサイトとアプリケーション。"
+    },
+    "local-ecommerce": {
+      "title": "地域eコマース",
+      "description": "地元の職人や商人向けのオンライン販売ソリューション。"
+    },
+    "maritime-sector": {
+      "title": "海事セクター",
+      "description": "港や海洋活動に適応したデジタル化。"
+    },
+    "mediterranean-design": {
+      "title": "地中海デザイン",
+      "description": "地中海のビジュアルアイデンティティを反映したモダンなインターフェース。"
+    }
+  },
+  "focused-services": {
+    "tourism-websites": {
+      "name": "観光ウェブサイト",
+      "description": "ホテル、レストラン、観光アクティビティ向けの多言語デジタルショーケース。"
+    },
+    "provencal-ecommerce": {
+      "name": "プロヴァンスのeコマース",
+      "description": "地元の生産者や職人に合わせたオンラインショップ。"
+    },
+    "mobile-applications": {
+      "name": "モバイルアプリケーション",
+      "description": "観光と商業体験を豊かにするモバイルソリューション。"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "専門知識",
+      "description": "経験年数"
+    },
+    "satisfaction": {
+      "label": "満足度",
+      "description": "満足しているクライアント"
+    },
+    "average-time": {
+      "label": "平均時間",
+      "description": "完了までの週数"
+    }
+  }
+}

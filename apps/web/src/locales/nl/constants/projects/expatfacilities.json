@@ -1,0 +1,131 @@
+{
+  "short-description": "Volledige platform voor ondersteuning van studenten bij expatriatie, met integratie van huisvesting, visa, vervoer en lokale ondersteuning.",
+  "description": "Ontwikkeling van een full-stack platform waarmee Franse studenten hun expatriatie van A tot Z kunnen beheren met geïntegreerde diensten en een netwerk van lokale ambassadeurs.",
+  "long-description": "Expat Facilities was een revolutionaire Franse startup die expatriatie voor studenten vereenvoudigde. Ons team ontwikkelde een complete platform vanaf nul, dat evolueerde van een eenvoudige landingspagina naar een geavanceerde oplossing die Airbnb-achtige functies combineert met een ecosysteem van expatriatiediensten.\n\nHet platform integreerde meerdere partner-API's om een uniforme ervaring te bieden: woningzoektocht via partners zoals Spotahome, vluchten boeken bij Lufthansa, gespecialiseerde verzekering, en een uniek systeem van lokale ambassadeurs die in meer dan 70 landen aanwezig zijn.\n\nDe belangrijkste technische uitdaging was het orkestreren van tientallen third-party API's om een soepele en samenhangende gebruikerservaring te creëren, terwijl we de complexiteit van internationale betalingen en de matching tussen studenten en lokale ambassadeurs beheerden.",
+  "features": {
+    "housing-platform": {
+      "title": "Geïntegreerd woningplatform",
+      "description": "Zoek en boek studentenhuisvesting via partner API-integraties zoals Spotahome"
+    },
+    "ambassador-network": {
+      "title": "Netwerk van lokale ambassadeurs",
+      "description": "Meer dan 300 studentambassadeurs in 70 landen om nieuwkomers ter plaatse te ondersteunen"
+    },
+    "visa-services": {
+      "title": "Visa en administratieve diensten",
+      "description": "Volledige beheer van het visumproces en persoonlijke administratieve ondersteuning"
+    },
+    "transport-logistics": {
+      "title": "Vervoer en logistiek",
+      "description": "Vluchtboekingen (partnerschap met Lufthansa), treinen en lokaal vervoer met voorkeursprijzen"
+    },
+    "expat-insurance": {
+      "title": "Expatriatieverzekering",
+      "description": "Gespecialiseerde verzekering voor tijdelijke expatriatie in samenwerking met Mondial Assistance en Allianz"
+    },
+    "advanced-tracking": {
+      "title": "Geavanceerde tracking",
+      "description": "Real-time tracking van alle processen met meldingen en dashboardinterface"
+    }
+  },
+  "technologies": {
+    "nextjs": {
+      "description": "React-framework voor de frontend"
+    },
+    "nestjs": {
+      "description": "Robuste en modulaire API-backend"
+    },
+    "mongodb": {
+      "description": "Hoofddatabase"
+    },
+    "graphql": {
+      "description": "Eén API voor data"
+    },
+    "google-cloud": {
+      "description": "Cloudinfrastructuur en -diensten"
+    },
+    "stripe": {
+      "description": "Internationale betalingen"
+    },
+    "typescript": {
+      "description": "Type-veilige ontwikkeling"
+    },
+    "styled-components": {
+      "description": "Styling en thematisering"
+    }
+  },
+  "metrics": {
+    "countries": {
+      "value": "70+",
+      "label": "Landen gedekt",
+      "description": "Beschikbare expatriatiebestemmingen"
+    },
+    "ambassadors": {
+      "value": "300+",
+      "label": "Ambassadeurs",
+      "description": "Studentambassadeurs wereldwijd"
+    },
+    "users": {
+      "value": "2000+",
+      "label": "Gebruikers",
+      "description": "Gebruikers van het studentenplatform"
+    }
+  },
+  "screenshots": {
+    "redesign": {
+      "caption": "Herontwerp van het platform"
+    },
+    "testimonials": {
+      "caption": "Getuigenissen en partners"
+    },
+    "flyer-bank": {
+      "caption": "Flyer voor partnerbanken"
+    },
+    "about-team": {
+      "caption": "Over het team en Oproep tot Actie"
+    },
+    "housing-hero": {
+      "caption": "Huisvestingssectie met geïntegreerde zoekfunctie"
+    },
+    "housing-cta": {
+      "caption": "Oproep tot Actie voor huisvestingssectie"
+    },
+    "services-hero": {
+      "caption": "Diensten sectie met aanbiedingspresentatie"
+    },
+    "insurance-hero": {
+      "caption": "Verzekeringssectie met uitleg over aanbiedingen"
+    },
+    "insurance-plans": {
+      "caption": "Gedetailleerde verzekeringsplannen"
+    },
+    "insurance-benefits": {
+      "caption": "Verzekeringsvoordelen aangeboden"
+    },
+    "contact-success": {
+      "caption": "Contactformulier met succes"
+    }
+  },
+  "challenges": {
+    "third-party-api-integration": "Integreren van tientallen third-party API's (Spotahome, Lufthansa, verzekering) in een uniforme ervaring",
+    "international-payments": "Beheer van internationale betalingen met Stripe in meerdere valuta's en regelingen",
+    "student-ambassador-matching": "Ontwikkeling van een matching systeem tussen studenten en ambassadeurs op basis van geolocatie",
+    "scalable-architecture": "Schaalbare architectuur om snelle groei te ondersteunen (70 landen, meer dan 300 ambassadeurs)",
+    "real-time-availability": "Real-time synchronisatie van woningbeschikbaarheid tussen partnerplatforms",
+    "multilingual-interface": "Meertalige interface en aanpassing aan lokale specificiteiten van elk land"
+  },
+  "learnings": {
+    "api-orchestration-complexity": "Complexiteit van het orkestreren van third-party API's met verschillende formaten en beperkingen",
+    "multi-partner-error-handling": "Cruciale belangrijkheid van foutafhandeling in een ecosysteem van meerdere partners",
+    "internationalization-challenges": "Internationale uitdagingen verder dan vertaling (valuta's, regelgeving, culturen)",
+    "microservices-architecture": "Essentiële microservices-architectuur om partnerintegraties te isoleren",
+    "complex-ux-simplification": "Kritieke UX/UI om een complex proces om te zetten in een soepele ervaring",
+    "partner-relations": "Beheer van partnerrelaties en technische onderhandelingen voor integraties"
+  },
+  "future-plans": {
+    "other-expat-types": "Uitbreiding naar andere types van expatriatie (professionals, gepensioneerden)",
+    "ai-matching": "AI om student/ambassadeur matching te optimaliseren",
+    "ambassador-mobile-app": "Native mobiele app voor ambassadeurs",
+    "ambassador-training": "Opleidingsplatform voor ambassadeurs"
+  }
+}

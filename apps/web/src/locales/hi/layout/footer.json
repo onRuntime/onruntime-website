@@ -1,0 +1,25 @@
+{
+  "tagline": "एक क्रिएटिव स्टूडियो, पूरे विश्व में।",
+  "location": "लेकिन आप हमें <strong>Rouen</strong> और <strong>Paris</strong> में मिल सकते हैं।",
+  "nav": {
+    "navigation": "नेविगेशन",
+    "resources": "संसाधन",
+    "other": "अन्य",
+    "social": "सोशल मीडिया"
+  },
+  "links": {
+    "services": "हमारी सेवाएं",
+    "projects": "हमारे प्रोजेक्ट्स",
+    "npo": "संस्थान",
+    "careers": "करियर",
+    "blog": "ब्लॉग",
+    "glossary": "शब्दावली",
+    "community": "समुदाय",
+    "status": "स्थिति",
+    "contact": "संपर्क करें",
+    "terms": "सेवा के नियम",
+    "privacy": "गोपनीयता नीति",
+    "company": "कंपनी की जानकारी"
+  },
+  "status": "सभी सेवाएं चल रही हैं"
+}

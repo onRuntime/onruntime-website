@@ -1,0 +1,79 @@
+{
+  "title": "Rozwój stron internetowych w Rouen | Rozwiązania cyfrowe dla biznesów z Normandii",
+  "description": "Stwórz swoją stronę internetową lub aplikację mobilną w Rouen. Niestandardowe rozwiązania cyfrowe dla firm z Normandii, dostosowane do lokalnych wyzwań w Twoim sektorze.",
+  "hero": {
+    "title": "Rozwój stron i aplikacji mobilnych w Rouen",
+    "description": "Pomagamy firmom w Rouen i Normandii w cyfryzacji dzięki niestandardowym rozwiązaniom internetowym, idealnie dopasowanym do specyficznych wyzwań rynku normandzkiego."
+  },
+  "intro": "Gospodarka Normandii stawia przed nami specyficzne wyzwania cyfrowe, które nauczyliśmy się pokonywać. Między przemysłem wytwórczym, sektorem żywnościowym a logistyką rzeczną, tworzymy rozwiązania cyfrowe, które odpowiadają dokładnym potrzebom firm z Rouen.",
+  "expertise": "Nasz zespół projektuje strony internetowe, aplikacje oraz rozwiązania e-commerce idealnie dopasowane do firm z Rouen i okolic. Rozumiemy wyzwania Twojego rynku i oferujemy rozwiązania cyfrowe, które pomogą Ci się wyróżnić i rozwijać swoją działalność.",
+  "why-choose-us": "Nasza dogłębna wiedza o rynku normandzkim pozwala nam opracowywać rozwiązania cyfrowe idealnie dopasowane do specyficznych wyzwań lokalnych firm. W przeciwieństwie do agencji paryskich, rozumiemy subtelności gospodarki Rouen i oferujemy niestandardowe rozwiązania w atrakcyjnej relacji ceny do jakości.",
+  "key-business-sectors": {
+    "industry": "Przemysł",
+    "agrifood": "Żywność",
+    "logistics": "Logistyka",
+    "local-commerce": "Handel lokalny"
+  },
+  "local-challenges": {
+    "traditional-industries-digitalization": "Cyfryzacja tradycyjnych przemysłów normandzkich w obliczu międzynarodowej konkurencji",
+    "logistics-optimization": "Optymalizacja logistyki rzeczej i portowej dzięki innowacyjnym rozwiązaniom cyfrowym",
+    "local-ecommerce-needs": "Potrzeba rozwiązań e-commerce dostosowanych do lokalnych producentów i rzemieślników",
+    "sme-digital-transition": "Cyfrowa transformacja normandzkich MŚP z kontrolowanymi budżetami"
+  },
+  "benefits": {
+    "normandy-specific-solutions": "Niestandardowe rozwiązania dostosowane do specyfiki normandzkich firm",
+    "industrial-agrifood-expertise": "Silna ekspertyza w regionalnych sektorach przemysłowym i agri-food",
+    "competitive-pricing": "Konkurencyjne ceny w porównaniu z agencjami paryskimi",
+    "seine-logistics-knowledge": "Dogłębna wiedza o wyzwaniach logistycznych związanych z rzeką Sekwaną",
+    "personalized-support": "Spersonalizowane wsparcie na każdym etapie Twojego projektu cyfrowego"
+  },
+  "primary-stat": {
+    "label": "sektor przemysłowy"
+  },
+  "strengths": {
+    "industrial-websites": {
+      "title": "Strony przemysłowe",
+      "description": "Wydajne witryny dostosowane do normandzkich firm produkcyjnych."
+    },
+    "local-ecommerce": {
+      "title": "Lokalny e-commerce",
+      "description": "Rozwiązania sprzedaży online dla lokalnych producentów i rzemieślników."
+    },
+    "business-applications": {
+      "title": "Aplikacje biznesowe",
+      "description": "Niestandardowe narzędzia cyfrowe do optymalizacji Twoich procesów."
+    },
+    "sme-digitalization": {
+      "title": "Cyfryzacja MŚP",
+      "description": "Kompleksowe wsparcie dla Twojej transformacji cyfrowej."
+    }
+  },
+  "focused-services": {
+    "professional-websites": {
+      "name": "Witryny profesjonalne",
+      "description": "Wydajne witryny cyfrowe zoptymalizowane pod kątem lokalnego SEO w Rouen."
+    },
+    "regional-ecommerce": {
+      "name": "Regionalny e-commerce",
+      "description": "Sklepy internetowe dostosowane do producentów i kupców z Normandii."
+    },
+    "business-applications": {
+      "name": "Aplikacje biznesowe",
+      "description": "Niestandardowe oprogramowanie dla przemysłu i logistyki w regionie."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Ekspertyza",
+      "description": "Lata doświadczenia"
+    },
+    "satisfaction": {
+      "label": "Satysfakcja",
+      "description": "Zadowoleni klienci"
+    },
+    "average-time": {
+      "label": "Średni czas",
+      "description": "Tygodnie realizacji"
+    }
+  }
+}

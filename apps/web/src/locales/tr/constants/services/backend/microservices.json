@@ -1,0 +1,80 @@
+{
+  "name": "Mikroservisler",
+  "description": "Mikroservis mimarisi ve geliştirme",
+  "hero": {
+    "title": "Mikroservis Mimarisi",
+    "description": "Monolitik uygulamalarınızı modern ve ölçeklenebilir mikroservis mimarilerine dönüştürün. Uzmanlığımız, esnek, dayanıklı ve yüksek performanslı bir altyapı garanti ediyor."
+  },
+  "features": {
+    "scalable-architecture": {
+      "title": "Ölçeklenebilir mimari",
+      "description": "Optimal ölçeklenebilirlik için modüler tasarım."
+    },
+    "continuous-deployment": {
+      "title": "Sürekli dağıtım",
+      "description": "Sorunsuz güncellemeler için CI/CD hattı."
+    },
+    "optimal-performance": {
+      "title": "Optimal performans",
+      "description": "Daha iyi yanıt verme için bağımsız hizmetler."
+    },
+    "high-availability": {
+      "title": "Yüksek kullanılabilirlik",
+      "description": "Yedeklilikle dayanıklı mimari."
+    }
+  },
+  "benefits": {
+    "granular-scalability": {
+      "title": "Ayrıntılı ölçeklenebilirlik",
+      "description": "Her hizmetin bağımsız olarak ölçeklenebilmesi."
+    },
+    "flexible-deployment": {
+      "title": "Esnek dağıtım",
+      "description": "Hizmet kesintisi olmadan güncellemeler."
+    },
+    "fault-isolation": {
+      "title": "Hata izolasyonu",
+      "description": "Hizmet izolasyonu ile artan dayanıklılık."
+    },
+    "advanced-monitoring": {
+      "title": "Gelişmiş izleme",
+      "description": "Her bir bileşenin ayrıntılı gözetimi."
+    }
+  },
+  "faq": {
+    "when-microservices": {
+      "question": "Mikroservis mimarisine ne zaman geçmeliyim?",
+      "answer": "Mikroservis mimarisi, yüksek ölçeklenebilirlik, bağımsız bileşen ölçeklendirme ve hızlı evrim gerektiren karmaşık uygulamalar için özellikle uygundur. Bu mimarinin ihtiyaçlarınıza uygun olup olmadığını sizinle birlikte değerlendiriyoruz."
+    },
+    "service-communication": {
+      "question": "Hizmetler arasında iletişimi nasıl sağlıyorsunuz?",
+      "answer": "Güçlü iletişim desenleri uyguluyoruz: API Gateway, mesaj aracıları (Kafka, RabbitMQ), senkron (REST, gRPC) ve asenkron iletişim. Her yöntem, belirli performans ve güvenilirlik ihtiyaçlarına göre seçiliyor."
+    },
+    "data-consistency": {
+      "question": "Veri tutarlılığını nasıl sağlıyorsunuz?",
+      "answer": "Birçok strateji kullanıyoruz: Dağıtılmış işlemler için Saga deseni, izlenebilirlik için Olay Kaynağı ve okuma/yazma işlemlerinin ayrılması için CQRS. Nihai tutarlılık uygun şekilde yönetiliyor."
+    },
+    "infrastructure-monitoring": {
+      "question": "Altyapıyı nasıl izliyorsunuz?",
+      "answer": "Kapsamlı bir izleme kuruyoruz: performans metrikleri, dağıtılmış izleme, merkezi günlükler ve akıllı uyarılar. Özel panolar, her hizmetin sağlığını görselleştirmeye olanak tanır."
+    },
+    "team-training": {
+      "question": "Takım eğitimi veriyor musunuz?",
+      "answer": "Evet, ekipleriniz için kapsamlı eğitimler sunuyoruz: mikroservis prensipleri, geliştirme en iyi uygulamaları, izleme ve hata ayıklama, DevOps araçlarının kullanımı."
+    }
+  },
+  "complementary": {
+    "devops-cicd": {
+      "title": "DevOps & CI/CD",
+      "description": "Tam dağıtım otomasyonu."
+    },
+    "monitoring-24-7": {
+      "title": "24/7 İzleme",
+      "description": "Sürekli gözetim ve real-time uyarılar."
+    },
+    "optimization": {
+      "title": "Optimizasyon",
+      "description": "Sürekli performans iyileştirmesi."
+    }
+  }
+}

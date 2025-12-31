@@ -1,0 +1,79 @@
+{
+  "title": "Webentwicklung in Nantes | Digitale Lösungen für Unternehmen im Loiretal",
+  "description": "Erstelle deine Website oder mobile Anwendung in Nantes. Individuelle digitale Lösungen für Unternehmen in Nantes, maßgeschneidert auf die lokalen Herausforderungen deiner Branche.",
+  "hero": {
+    "title": "Web- & Mobile-Entwicklung in Nantes",
+    "description": "Wir helfen Unternehmen in Nantes und im Pays de la Loire, mit maßgeschneiderten Weblösungen zu digitalisieren, die perfekt zu den spezifischen Herausforderungen des Loiretalmarktes passen."
+  },
+  "intro": "Eine historische Hauptstadt der Bretagne und eine innovative Metropole, ist Nantes bekannt für ihre wirtschaftliche Dynamik und Lebensqualität. Ihr florierendes digitales Ökosystem, kreative Industrien und das Engagement für den ökologischen Wandel machen sie zu einem einzigartigen Gebiet, in dem digitale Innovation eine zentrale Rolle spielt.",
+  "expertise": "Unser Team entwirft Websites, Anwendungen und digitale Lösungen, die perfekt auf Unternehmen in Nantes abgestimmt sind, egal ob es sich um innovative Startups, Akteure der verantwortungsvollen Wirtschaft oder traditionelle Unternehmen in Transformation handelt. Wir verstehen die Besonderheiten des lokalen Marktes und bieten digitale Lösungen, die die Werte von Innovation und Nachhaltigkeit in Nantes widerspiegeln.",
+  "why-choose-us": "Unser fundiertes Wissen über den Markt in Nantes ermöglicht es uns, digitale Lösungen zu entwickeln, die perfekt auf die spezifischen Herausforderungen lokaler Unternehmen zugeschnitten sind. Wir verstehen den Innovationsgeist und das Engagement für eine verantwortungsvollere Wirtschaft, die Nantes prägen, und integrieren diese Werte in jedes digitale Projekt, das wir liefern.",
+  "key-business-sectors": {
+    "tech-digital": "Technologie & Digital",
+    "ecological-transition": "Ökologischer Wandel",
+    "creative-industries": "Kreativwirtschaft",
+    "agrifood": "Agrarwirtschaft"
+  },
+  "local-challenges": {
+    "digital-ecosystem-competition": "Starker Wettbewerb im wachsenden digitalen Ökosystem von Nantes",
+    "startup-scaleup-needs": "Spezifische Bedürfnisse lokaler French Tech Startups und Scale-ups",
+    "ecological-transition-digitalization": "Digitalisierung von Akteuren der ökologischen und energetischen Transition",
+    "traditional-industries-transformation": "Digitale Transformation traditioneller und agrarischer Unternehmen in der Region"
+  },
+  "benefits": {
+    "nantes-ecosystem-solutions": "Individuelle Lösungen, die auf das digitale Ökosystem von Nantes abgestimmt sind",
+    "innovative-eco-technologies": "Scharfe Expertise in innovativen und umweltverantwortlichen Webtechnologien",
+    "agile-approach": "Agiler Ansatz, der perfekt auf Startups und innovative Unternehmen abgestimmt ist",
+    "digital-transition-knowledge": "Fundiertes Wissen über die Herausforderungen der digitalen Transformation im Loiretal",
+    "personalized-support": "Personalisierte Unterstützung während deines gesamten digitalen Projekts"
+  },
+  "primary-stat": {
+    "label": "Digitales Nantes"
+  },
+  "strengths": {
+    "innovative-tech": {
+      "title": "Innovative Technologie",
+      "description": "Moderne digitale Lösungen für Startups und Scale-ups in Nantes."
+    },
+    "eco-design": {
+      "title": "Ökodesign",
+      "description": "Websites und Anwendungen mit kontrolliertem ökologischen Fußabdruck."
+    },
+    "maritime-industry": {
+      "title": "Maritime Industrie",
+      "description": "Digitalisierung, die an Hafen- und Flussaktivitäten angepasst ist."
+    },
+    "renewable-energy": {
+      "title": "Erneuerbare Energien",
+      "description": "Digitale Lösungen für Akteure der Energiewende."
+    }
+  },
+  "focused-services": {
+    "web-applications": {
+      "name": "Webanwendungen",
+      "description": "Hochleistungsfähige und skalierbare Webanwendungen für Startups und innovative Unternehmen."
+    },
+    "eco-designed-websites": {
+      "name": "Öko-designt Websites",
+      "description": "Optimierte und nachhaltige Websites für Akteure der verantwortungsvollen Wirtschaft."
+    },
+    "business-platforms": {
+      "name": "Geschäftsplattformen",
+      "description": "Individuelle Lösungen für traditionelle Unternehmen in Transformation."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Jahre Erfahrung"
+    },
+    "satisfaction": {
+      "label": "Zufriedenheit",
+      "description": "Zufriedene Kunden"
+    },
+    "average-time": {
+      "label": "Durchschnittliche Zeit",
+      "description": "Wochen bis zur Fertigstellung"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Offerta di lavoro non trovata",
+      "description": "Questa offerta di lavoro non esiste o non è più disponibile."
+    },
+    "title": "{jobTitle} | Carriere",
+    "description": "Unisciti a onRuntime Studio come {jobTitle}. Scopri questa opportunità di carriera e fai domanda ora."
+  }
+}

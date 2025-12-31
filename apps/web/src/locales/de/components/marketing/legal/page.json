@@ -1,0 +1,13 @@
+{
+  "last-updated": "Zuletzt aktualisiert:",
+  "question": {
+    "title": "Hast du eine Frage zu unseren Bedingungen?",
+    "description": "Unser Team steht bereit, um alle deine Fragen zu beantworten.",
+    "cta": "Kontaktiere uns"
+  },
+  "nav": {
+    "company": "Unternehmensdetails",
+    "privacy": "Datenschutzrichtlinien",
+    "terms": "Allgemeine Geschäftsbedingungen"
+  }
+}

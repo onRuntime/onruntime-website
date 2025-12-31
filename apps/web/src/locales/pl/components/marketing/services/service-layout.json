@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "cta": "Omów swój projekt"
+  },
+  "cards": {
+    "custom": {
+      "title": "Rozwiązania na zamówienie",
+      "description": "Dopasowane do Twoich potrzeb"
+    },
+    "support": {
+      "title": "Wsparcie ekspertów",
+      "description": "Od naszych specjalistów"
+    },
+    "technologies": {
+      "title": "Nowoczesne technologie",
+      "description": "Zawsze na czasie"
+    },
+    "scalability": {
+      "title": "Gwarantowana skalowalność",
+      "description": "Na Twoją przyszły rozwój"
+    }
+  },
+  "cta": {
+    "title": "Gotowy, aby zrealizować swój projekt?",
+    "description": "Skontaktuj się z nami, aby omówić swoje potrzeby i otrzymać spersonalizowaną wycenę.",
+    "button": "Rozpocznij teraz"
+  }
+}

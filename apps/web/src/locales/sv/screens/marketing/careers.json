@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Gå med i vårt team",
+    "description": "Upptäck karriermöjligheter på onRuntime Studio och bli en del av ett dynamiskt team som brinner för utveckling och design."
+  },
+  "why-join": {
+    "title": "Varför gå med oss?",
+    "description": "På onRuntime Studio tror vi på kreativitet, innovation och samarbete. Gå med oss för att forma framtiden för digitalt och utveckla dina färdigheter i en stimulerande miljö.",
+    "cards": {
+      "creativity": {
+        "title": "Kreativitet och Innovation",
+        "description": "Uttryck dina idéer och bidra till innovativa projekt som tänjer på gränserna för vad som är möjligt."
+      },
+      "team": {
+        "title": "Passionerat Team",
+        "description": "Samarbeta med begåvade och passionerade yrkesverksamma i en vänlig och stimulerande miljö."
+      },
+      "impact": {
+        "title": "Global Påverkan",
+        "description": "Bidra till projekt som har en verklig påverkan och når användare runt om i världen."
+      }
+    }
+  },
+  "opportunities": {
+    "title": "Nuvarande möjligheter",
+    "description": "Upptäck våra jobbannonser och hitta positionen som passar dina färdigheter och ambitioner.",
+    "search-placeholder": "Sök efter en position, plats...",
+    "all": "Alla"
+  },
+  "spontaneous": {
+    "title": "Hittade du inte rätt position?",
+    "description": "Skicka oss en spontan ansökan! Vi letar alltid efter exceptionella talanger som vill gå med i vårt team.",
+    "cta": "Skicka en spontan ansökan"
+  },
+  "teams": {
+    "title": "Våra team",
+    "description": "Upptäck de olika team som utgör onRuntime Studio och hitta det som bäst matchar dina färdigheter och ambitioner.",
+    "development": {
+      "title": "Utveckling",
+      "description": "Våra utvecklare skapar högpresterande och innovativa web- och mobilapplikationer, med hjälp av den senaste teknologin för att ge exceptionella användarupplevelser."
+    },
+    "design": {
+      "title": "Design",
+      "description": "Vårt designteam skapar eleganta och intuitiva användargränssnitt, och ser till att varje pixel är perfekt inriktad med projektets visuella identitet."
+    },
+    "project": {
+      "title": "Projekt & Produkt",
+      "description": "Våra projektledare och produktledare säkerställer att projekten löper smidigt och att de utvecklade lösningarna perfekt möter användarnas behov."
+    },
+    "marketing": {
+      "title": "Marknadsföring & Kommunikation",
+      "description": "Vårt marknadsföringsteam arbetar för att främja våra projekt och kommunicera effektivt om våra prestationer, både internt och till allmänheten."
+    }
+  },
+  "cta": {
+    "title": "Redo att gå med oss?",
+    "description": "Bläddra igenom våra jobbannonser och hitta den position som passar dina färdigheter och ambitioner. Vi ser fram emot att välkomna dig till vårt team!",
+    "button": "Visa jobbannonser"
+  },
+  "error": "Ett fel uppstod vid inläsning av jobbannonser. Vänligen försök igen senare."
+}

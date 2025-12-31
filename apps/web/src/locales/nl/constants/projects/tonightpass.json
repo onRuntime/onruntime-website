@@ -1,0 +1,68 @@
+{
+  "short-description": "Ontdek en boek de beste evenementen op maat van jouw smaken.",
+  "description": "Tonight Pass is een innovatieve platform dat het ontdekken en boeken van evenementen vereenvoudigt door een gepersonaliseerd aanbevelingssysteem op basis van jouw voorkeuren.",
+  "long-description": "Tonight Pass revolutioneert de manier waarop mensen evenementen ontdekken en bijwonen. Ons platform combineert technologie en gebruikerservaring om gepersonaliseerde aanbevelingen en vereenvoudigde ticketverkoop aan te bieden.\n\nHet platform verbindt evenementenorganisatoren en bezoekers, en biedt een complete oplossing voor boekingsbeheer, slimme aanbevelingen en data-analyse. De applicatie is ontworpen om de ervaring van evenementen ontdekken te optimaliseren en het beheer voor organisatoren te vereenvoudigen.",
+  "features": {
+    "ticketing": {
+      "title": "Vereenvoudigde ticketverkoop",
+      "description": "Boek je tickets in een paar klikken voor alle soorten evenementen"
+    },
+    "recommendations": {
+      "title": "Gepersonaliseerde aanbevelingen",
+      "description": "Ontdek evenementen die zijn afgestemd op jouw smaken"
+    },
+    "e-tickets": {
+      "title": "Veilige e-tickets",
+      "description": "Toegang tot evenementen met veilige digitale tickets"
+    }
+  },
+  "technologies": {
+    "react": {
+      "description": "Web- en mobiele applicaties"
+    },
+    "nestjs": {
+      "description": "Backend API"
+    },
+    "mongodb": {
+      "description": "Hoofddatabase"
+    }
+  },
+  "metrics": {
+    "time-saved": {
+      "value": "45min",
+      "label": "Tijd bespaard",
+      "description": "Gemiddeld per evenementzoektocht"
+    },
+    "coverage": {
+      "value": "100%",
+      "label": "Bereikbaarheid",
+      "description": "Beschikbaar in heel Frankrijk"
+    },
+    "ease": {
+      "value": "1 klik",
+      "label": "Gemak",
+      "description": "Om elk evenement te boeken"
+    }
+  },
+  "screenshots": {},
+  "challenges": {
+    "ticketing-experience": "Het ontwikkelen van een soepele en intuïtieve ticketverkoopervaring",
+    "recommendation-system": "Het creëren van een gepersonaliseerd aanbevelingssysteem",
+    "scalable-infrastructure": "Het opzetten van een schaalbare infrastructuur",
+    "traffic-peaks": "Het beheren van verkeerspieken tijdens ticketuitgangen"
+  },
+  "learnings": {
+    "booking-simplicity": "Belang van eenvoud in het boekingsproces",
+    "event-type-interface": "Noodzaak van een interface die is aangepast aan verschillende evenementtypes",
+    "database-management": "Efficiënt beheer van een evenementendatabase",
+    "speed-reliability-balance": "Balans tussen snelheid en betrouwbaarheid van de service"
+  },
+  "future-plans": {
+    "venue-kiosks": "Kiosken in locaties implementeren",
+    "recruitment-platform": "Een wervingsplatform voor evenementen lanceren",
+    "venue-rental": "Een verhuurdienst voor locaties opzetten",
+    "supplier-network": "Een netwerk van evenementleveranciers creëren",
+    "organizer-tools": "Geavanceerde tools voor organisatoren ontwikkelen",
+    "recommendation-improvement": "Het aanbevelingssysteem verbeteren"
+  }
+}

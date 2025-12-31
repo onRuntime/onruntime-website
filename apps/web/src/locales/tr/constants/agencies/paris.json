@@ -1,0 +1,80 @@
+{
+  "title": "Paris'te Web Ajansı | Web Geliştirme, Mobil & UI/UX Tasarımı",
+  "description": "Paris'in merkezinde dijital ortağınız. Paris'teki işinizin büyümesini hızlandırmak için web geliştirme, mobil ve UI/UX tasarım çözümleri.",
+  "hero": {
+    "title": "Başkentte Dijital Gelişim",
+    "description": "Dinamik girişimler, büyük şirketler ve yenilikçi firmalarla dolu rekabetçi Paris pazarına özel yenilikçi çözümlerle dijital varlığınızı dönüştürün."
+  },
+  "intro": "Fransa'nın başkentinde, dijital uzmanlığımız Paris pazarının talepleriyle buluşuyor ve yenilikçi web ve mobil çözümler sunuyor. Büyük şirketler, lüks markalar ve hızla büyüyen girişimlerle Paris, dinamik bir dijital ekosistem barındırıyor ve bu ekosistemin zorluklarını ve fırsatlarını tamamen anlıyoruz.",
+  "expertise": "Parisli işletmelerin yüksek standartlarına cevap veren premium dijital deneyimler tasarlıyoruz. Ekibimiz, lüks sektörü için şık kullanıcı arayüzleri, fintech'ler için yüksek performanslı uygulamalar veya hızla büyüyen girişimler için ölçeklenebilir çözümler oluşturma gibi başkentteki özel zorlukların üstesinden gelmeyi başarıyor.",
+  "why-choose-us": "Paris pazarındaki derinlemesine bilgi birikimimiz, dijital çözümleri başkentteki işletmelerin ihtiyaçlarına mükemmel şekilde uyumlu hale getirmemizi sağlıyor. Teknik yenilik, yaratıcı mükemmeliyet ve iş anlayışını birleştirerek sizi son derece rekabetçi bir ortamda etkili bir şekilde destekliyoruz.",
+  "key-business-sectors": {
+    "startups-tech": "Teknoloji Girişimleri",
+    "finance": "Finans",
+    "luxury": "Lüks",
+    "media-communication": "Medya & İletişim"
+  },
+  "local-challenges": {
+    "digital-competition": "Paris pazarında ayırt edici çözümler gerektiren güçlü dijital rekabet",
+    "agile-tools-startups": "Hızla büyüyen girişimler için çevik ve yüksek performanslı araçlara ihtiyaç",
+    "financial-digitalization": "Fintechlerle karşılaşan geleneksel finans hizmetlerinin dijitalleşmesi",
+    "luxury-digital-experiences": "Paris'teki lüks sektör için premium dijital deneyimlerin geliştirilmesi",
+    "corporate-transformation": "Dijital dönüşüm geçiren büyük şirketler için yenilikçi çözümler"
+  },
+  "benefits": {
+    "startup-expertise": "Paris girişim ekosistemine uyumlu en son teknolojilerde keskin uzmanlık",
+    "premium-solutions": "Başkent pazarının yüksek standartlarına uygun premium çözümler",
+    "luxury-finance-understanding": "Özel dijital deneyimler için lüks ve finans kodlarını anlama",
+    "agility-responsiveness": "Parisli işletmelerin yoğun temposuna uyum sağlamak için çeviklik ve cevap verme yeteneği",
+    "tech-trends-knowledge": "Fransız teknoloji trendleri ve yenilikleri hakkında derinlemesine bilgi"
+  },
+  "primary-stat": {
+    "label": "girişim ve teknoloji"
+  },
+  "strengths": {
+    "startup-solutions": {
+      "title": "Girişim Çözümleri",
+      "description": "Hızla büyüyen şirketler için ölçeklenebilir uygulamalar."
+    },
+    "luxury-experiences": {
+      "title": "Lüks Deneyimler",
+      "description": "Yüksek kaliteli markalar ve hizmetler için premium arayüzler."
+    },
+    "finance-fintech": {
+      "title": "Finans & Fintech",
+      "description": "Parisli finans sektörü için güvenli çözümler."
+    },
+    "international": {
+      "title": "Uluslararası",
+      "description": "Küresel şirketlere uyum sağlayan çok dilli geliştirme."
+    }
+  },
+  "focused-services": {
+    "saas-applications": {
+      "name": "SaaS Uygulamaları",
+      "description": "Girişimler ve ölçeklenebilir şirketler için yenilikçi bulut çözümleri geliştirmek."
+    },
+    "premium-ecommerce": {
+      "name": "Premium E-ticaret",
+      "description": "Parisli lüks markalar için yüksek kaliteli satış platformları."
+    },
+    "innovative-design": {
+      "name": "Yenilikçi UI/UX Tasarımı",
+      "description": "Paris'te öne çıkmak için modern ve ayırt edici kullanıcı arayüzleri."
+    }
+  },
+  "stats": {
+    "startups": {
+      "label": "Girişimler",
+      "description": "Girişimler için projeler"
+    },
+    "luxury-clients": {
+      "label": "Lüks müşteriler",
+      "description": "Premium markalar"
+    },
+    "average-roi": {
+      "label": "Ortalama ROI",
+      "description": "Yatırım getirisi"
+    }
+  }
+}

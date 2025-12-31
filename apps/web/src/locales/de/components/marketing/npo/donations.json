@@ -1,0 +1,19 @@
+{
+  "title": "Mach eine Spende",
+  "description": "Unterstütze unsere Organisation und Projekte mit einer einmaligen Spende. Dein Beitrag hilft uns, unsere Aktivitäten, Veranstaltungen und Entwicklungstools zu finanzieren.",
+  "other": "Andere",
+  "custom-amount": {
+    "label": "Betrag anpassen",
+    "placeholder": "Betrag eingeben"
+  },
+  "button": {
+    "donate": "Spenden",
+    "processing": "Wird bearbeitet..."
+  },
+  "secure-payment": "Sichere Zahlung über Stripe",
+  "toast": {
+    "title": "Zahlung simuliert",
+    "description-prefix": "Deine Spende von",
+    "description-suffix": "wurde erfolgreich bearbeitet. In einer echten Implementierung würdest du zu Stripe weitergeleitet."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Mikroservices",
+  "description": "Mikroservices-Architektur und -Entwicklung",
+  "hero": {
+    "title": "Mikroservices Architektur",
+    "description": "Verwandle deine monolithischen Anwendungen in moderne und skalierbare Mikroservices-Architekturen. Unser Fachwissen garantiert eine flexible, resiliente und leistungsstarke Infrastruktur."
+  },
+  "features": {
+    "scalable-architecture": {
+      "title": "Skalierbare Architektur",
+      "description": "Modulares Design für optimale Skalierbarkeit."
+    },
+    "continuous-deployment": {
+      "title": "Kontinuierliche Bereitstellung",
+      "description": "CI/CD-Pipeline für reibungslose Updates."
+    },
+    "optimal-performance": {
+      "title": "Optimale Leistung",
+      "description": "Unabhängige Dienste für bessere Reaktionsfähigkeit."
+    },
+    "high-availability": {
+      "title": "Hohe Verfügbarkeit",
+      "description": "Resiliente Architektur mit Redundanz."
+    }
+  },
+  "benefits": {
+    "granular-scalability": {
+      "title": "Granulare Skalierbarkeit",
+      "description": "Unabhängige Skalierung jedes Dienstes."
+    },
+    "flexible-deployment": {
+      "title": "Flexible Bereitstellung",
+      "description": "Updates ohne Unterbrechung des Dienstes."
+    },
+    "fault-isolation": {
+      "title": "Fehlerisolierung",
+      "description": "Erhöhte Resilienz durch Dienstisolierung."
+    },
+    "advanced-monitoring": {
+      "title": "Fortschrittliche Überwachung",
+      "description": "Detaillierte Überwachung jeder Komponente."
+    }
+  },
+  "faq": {
+    "when-microservices": {
+      "question": "Wann sollte man eine Mikroservices-Architektur übernehmen?",
+      "answer": "Mikroservices-Architektur eignet sich besonders für komplexe Anwendungen, die hohe Skalierbarkeit, unabhängige Komponentenskalierung und schnelle Weiterentwicklung erfordern. Wir prüfen gemeinsam, ob diese Architektur deinen spezifischen Bedürfnissen entspricht."
+    },
+    "service-communication": {
+      "question": "Wie handle ich die Kommunikation zwischen den Services?",
+      "answer": "Wir implementieren robuste Kommunikationsmuster: API-Gateway, Nachrichtenbroker (Kafka, RabbitMQ), synchrone (REST, gRPC) und asynchrone Kommunikation. Jede Methode wird entsprechend den spezifischen Leistungs- und Zuverlässigkeitsbedürfnissen gewählt."
+    },
+    "data-consistency": {
+      "question": "Wie stellst du die Datenkonsistenz sicher?",
+      "answer": "Wir nutzen mehrere Strategien: Saga-Muster für verteilte Transaktionen, Event Sourcing für Nachverfolgbarkeit und CQRS für die Trennung von Lese- und Schreiboperationen. Eventual Consistency wird angemessen verwaltet."
+    },
+    "infrastructure-monitoring": {
+      "question": "Wie überwachst du die Infrastruktur?",
+      "answer": "Wir richten umfassende Überwachung ein: Leistungsmetriken, verteiltes Tracing, zentrale Protokolle und intelligente Warnungen. Individuelle Dashboards erlauben die Visualisierung der Gesundheit jedes Dienstes."
+    },
+    "team-training": {
+      "question": "Bietest du Team-Training an?",
+      "answer": "Ja, wir bieten umfassendes Training für deine Teams an: Prinzipien der Mikroservices, Entwicklungsbest Practices, Überwachung und Problemlösung sowie den Einsatz von DevOps-Tools."
+    }
+  },
+  "complementary": {
+    "devops-cicd": {
+      "title": "DevOps & CI/CD",
+      "description": "Vollständige Automatisierung der Bereitstellung."
+    },
+    "monitoring-24-7": {
+      "title": "24/7 Überwachung",
+      "description": "Kontinuierliche Überwachung und Echtzeitwarnungen."
+    },
+    "optimization": {
+      "title": "Optimierung",
+      "description": "Kontinuierliche Leistungsverbesserung."
+    }
+  }
+}

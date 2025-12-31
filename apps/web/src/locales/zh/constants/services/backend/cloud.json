@@ -1,0 +1,80 @@
+{
+  "name": "云解决方案",
+  "description": "云基础设施的部署和管理",
+  "hero": {
+    "title": "云解决方案",
+    "description": "用现代化和可扩展的云解决方案优化你的基础设施。我们的专业知识保证在主要云平台上的安全和高性能部署。"
+  },
+  "features": {
+    "multi-cloud": {
+      "title": "多云",
+      "description": "支持主要平台（AWS、GCP、Azure）。"
+    },
+    "advanced-security": {
+      "title": "高级安全",
+      "description": "对你的数据和应用程序进行强有力的保护。"
+    },
+    "optimal-performance": {
+      "title": "最佳性能",
+      "description": "架构经过优化，以实现最大性能。"
+    },
+    "automatic-scalability": {
+      "title": "自动扩展性",
+      "description": "根据负载需求动态调整。"
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "高可用性",
+      "description": "冗余和弹性基础设施。"
+    },
+    "elastic-storage": {
+      "title": "弹性存储",
+      "description": "灵活和安全的数据管理。"
+    },
+    "advanced-monitoring": {
+      "title": "高级监控",
+      "description": "对你的基础设施进行实时监控。"
+    },
+    "enhanced-security": {
+      "title": "增强安全",
+      "description": "对你的资源进行多层保护。"
+    }
+  },
+  "faq": {
+    "platform-choice": {
+      "question": "选择哪个云平台？",
+      "answer": "选择取决于你的具体需求：AWS在服务多样性方面表现优异，Google Cloud在机器学习方面突出，Azure在微软集成方面更强。我们会根据你的目标、技术约束和预算引导你找到最佳解决方案。"
+    },
+    "cloud-security": {
+      "question": "你们如何处理云安全？",
+      "answer": "我们实施多层安全措施：静态和传输中的数据加密、身份和访问管理（IAM）、虚拟专用网络（VPC）、网络应用防火墙（WAF）和持续的威胁监控。我们遵循每个平台的最佳实践。"
+    },
+    "cost-optimization": {
+      "question": "你们如何优化成本？",
+      "answer": "我们有几种策略：预留实例、自动缩放、资源优化、清除未使用资源和成本监控。我们定期进行审核，以识别节省机会。"
+    },
+    "high-availability": {
+      "question": "你们如何确保高可用性？",
+      "answer": "我们将你的基础设施部署在多个可用区，进行数据复制、负载均衡和自动故障转移。我们还制定了强有力的灾难恢复计划（DRP）。"
+    },
+    "support-24-7": {
+      "question": "你们提供24/7支持吗？",
+      "answer": "是的，我们提供几种支持级别，包括：24/7监控、自动警报、快速事件干预、预防性维护和专属技术支持。"
+    }
+  },
+  "complementary": {
+    "cloud-migration": {
+      "title": "云迁移",
+      "description": "平稳过渡到云端。"
+    },
+    "multi-region": {
+      "title": "多区域",
+      "description": "在全球范围内部署你的应用程序。"
+    },
+    "devops": {
+      "title": "DevOps",
+      "description": "云中的自动化和CI/CD。"
+    }
+  }
+}

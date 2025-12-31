@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Projektet hittades inte",
+      "description": "Detta projekt existerar inte."
+    },
+    "title": "Fallstudie: {name} - Digitalt projekt",
+    "description": "Upptäck hur vår byrå designade och utvecklade {name}. {shortDescription}"
+  }
+}

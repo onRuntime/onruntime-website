@@ -44,13 +44,5 @@
       "title": "Développement",
       "description": "Transformation des maquettes en interfaces fonctionnelles, avec une attention particulière aux animations définies."
     }
-  },
-  "process-services": {
-    "needs-analysis": ["Design UI/UX"],
-    "research-moodboard": ["Design UI/UX", "Moodboard"],
-    "wireframes": ["Design UI/UX", "Wireframes"],
-    "interface-design": ["Design UI/UX"],
-    "prototyping": ["Design UI/UX"],
-    "development": ["Développement Frontend", "Intégration"]
   }
 }

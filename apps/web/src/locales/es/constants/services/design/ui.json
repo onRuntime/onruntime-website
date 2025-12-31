@@ -1,0 +1,80 @@
+{
+  "name": "Maquetas de UI",
+  "description": "Diseño detallado de interfaces de usuario",
+  "hero": {
+    "title": "Diseño de Interfaces de Usuario",
+    "description": "Crea interfaces modernas, elegantes e intuitivas para tus aplicaciones. Nuestra experiencia en diseño de UI garantiza maquetas profesionales que cautivarán a tus usuarios."
+  },
+  "features": {
+    "modern-design": {
+      "title": "Diseño moderno",
+      "description": "Interfaces elegantes que siguen las últimas tendencias."
+    },
+    "design-system": {
+      "title": "Sistema de diseño",
+      "description": "Componentes consistentes y reutilizables."
+    },
+    "responsive-design": {
+      "title": "Diseño responsivo",
+      "description": "Adaptación perfecta a todas las pantallas."
+    },
+    "animations-micro-interactions": {
+      "title": "Animaciones y micro-interacciones",
+      "description": "Interacciones fluidas y atractivas."
+    }
+  },
+  "benefits": {
+    "visual-identity": {
+      "title": "Identidad visual",
+      "description": "Diseño coherente con tu marca."
+    },
+    "user-experience": {
+      "title": "Experiencia de usuario",
+      "description": "Interfaces intuitivas y agradables de usar."
+    },
+    "design-system": {
+      "title": "Sistema de diseño",
+      "description": "Biblioteca de componentes reutilizables."
+    },
+    "accessibility": {
+      "title": "Accesibilidad",
+      "description": "Interfaces accesibles para todos los usuarios."
+    }
+  },
+  "faq": {
+    "ui-design-process": {
+      "question": "¿Cómo funciona el proceso de diseño de UI?",
+      "answer": "El proceso comienza analizando tus necesidades e identidad de marca. Luego creamos versiones iniciales de las pantallas clave, establecemos el sistema de diseño y luego iteramos en maquetas detalladas. Cada paso incluye tus comentarios para asegurar un resultado perfectamente alineado con tus expectativas."
+    },
+    "tools-deliverables": {
+      "question": "¿Qué herramientas y entregables se proporcionan?",
+      "answer": "Principalmente usamos Figma para el diseño de UI. Recibirás maquetas detalladas de todas las pantallas, un sistema de diseño completo con sus componentes, especificaciones para desarrolladores y los activos necesarios para la integración."
+    },
+    "responsive-handling": {
+      "question": "¿Cómo manejan el diseño responsivo?",
+      "answer": "Seguimos un enfoque móvil primero y creamos maquetas para cada punto de quiebre importante (móvil, tableta, escritorio). Cada interfaz está optimizada para ofrecer la mejor experiencia posible en su medio."
+    },
+    "design-consistency": {
+      "question": "¿Cómo aseguran la consistencia en el diseño?",
+      "answer": "Creamos un sistema de diseño completo que incluye una biblioteca de componentes, reglas tipográficas, paleta de colores y principios de diseño. Este sistema garantiza coherencia en toda la interfaz."
+    },
+    "developer-handoff": {
+      "question": "¿Cómo facilitan el trabajo de los desarrolladores?",
+      "answer": "Proporcionamos especificaciones detalladas para cada componente, incluyendo medidas, estilos, estados e interacciones. También usamos herramientas como Zeplin o exportaciones de Figma para facilitar la integración."
+    }
+  },
+  "complementary": {
+    "design-system": {
+      "title": "Sistema de diseño",
+      "description": "Creación de una biblioteca de componentes."
+    },
+    "prototyping": {
+      "title": "Prototipado",
+      "description": "Creación de prototipos interactivos."
+    },
+    "development": {
+      "title": "Desarrollo",
+      "description": "Integración de tus maquetas en código."
+    }
+  }
+}

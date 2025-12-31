@@ -1,0 +1,80 @@
+{
+  "name": "UX/UI 감사",
+  "description": "기존 인터페이스의 분석 및 최적화",
+  "hero": {
+    "title": "UX/UI 감사 및 최적화",
+    "description": "전문 감사로 인터페이스의 사용자 경험을 향상시켜보세요. 우리의 전문성은 심층 분석과 구체적인 최적화 권장 사항을 보장해요."
+  },
+  "features": {
+    "heuristic-analysis": {
+      "title": "휴리스틱 분석",
+      "description": "UX 원칙에 기반한 전문가 평가."
+    },
+    "user-testing": {
+      "title": "사용자 테스트",
+      "description": "실제 행동 관찰 및 분석."
+    },
+    "analytics": {
+      "title": "분석",
+      "description": "사용 데이터 분석."
+    },
+    "accessibility": {
+      "title": "접근성",
+      "description": "접근성 기준 검증."
+    }
+  },
+  "benefits": {
+    "conversion": {
+      "title": "전환",
+      "description": "전환 장벽 식별."
+    },
+    "performance": {
+      "title": "성능",
+      "description": "성능 지표 분석."
+    },
+    "satisfaction": {
+      "title": "만족도",
+      "description": "사용자 만족도 측정."
+    },
+    "journeys": {
+      "title": "여정",
+      "description": "사용자 여정 최적화."
+    }
+  },
+  "faq": {
+    "complete-audit": {
+      "question": "완전한 UX/UI 감사에는 무엇이 포함되나요?",
+      "answer": "완전한 감사에는 UX 원칙에 기반한 휴리스틱 분석, 사용자 테스트, 분석 데이터 분석, 접근성 평가, 경쟁 벤치마크 및 상세한 권장 사항이 포함돼요. 우리는 구체적인 솔루션이 담긴 종합 보고서를 제공해요."
+    },
+    "audit-process": {
+      "question": "감사 프로세스는 어떻게 진행되나요?",
+      "answer": "프로세스는 귀하의 목표와 KPI를 이해하기 위한 발견 단계로 시작해요. 그 후 여러 가지 분석(휴리스틱, 데이터, 테스트)을 수행하고, 결과를 종합하여 우선순위가 정해진 권장 사항이 담긴 상세 보고서를 준비해요."
+    },
+    "deliverables": {
+      "question": "제공되는 산출물은 무엇인가요?",
+      "answer": "귀하에게 제공되는 완전한 감사 보고서에는: 요약, 상세 분석, 데이터 시각화, 심각도 수준을 갖춘 식별된 문제, 우선순위를 정해진 권장 사항, 그리고 제안된 실행 계획 등이 포함돼요."
+    },
+    "measuring-impact": {
+      "question": "추천 사항의 영향을 어떻게 측정하나요?",
+      "answer": "각 추천 사항에 대해 구체적인 KPI를 정의하고, 개선의 영향을 측정하기 위해 주요 지표(전환율, 사용자 만족도, 과제 완료 시간 등)의 추적을 설정해요."
+    },
+    "post-audit-support": {
+      "question": "감사 후 지원을 제공하나요?",
+      "answer": "네, 권장 사항 구현을 위한 지원을 제공해요. 여기에는: 실행 우선순위 지정, 구현 지원, 결과 측정 등이 포함돼요. 후속 감사도 진행할 수 있어요."
+    }
+  },
+  "complementary": {
+    "user-testing": {
+      "title": "사용자 테스트",
+      "description": "귀하의 사용자와 함께하는 심층 테스트 세션."
+    },
+    "advanced-analytics": {
+      "title": "고급 분석",
+      "description": "추적 설정 및 심층 분석."
+    },
+    "ux-training": {
+      "title": "UX 교육",
+      "description": "귀하의 팀에 모범 사례 교육."
+    }
+  }
+}

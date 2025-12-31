@@ -6,7 +6,7 @@ import { OnRuntimeWordMark } from "@/logos/components";
 import { getTranslation } from "@/lib/translations.server";
 import { getPreferredLocale } from "@/lib/translations";
 
-export const runtime = "edge";
+export const runtime = "nodejs";
 
 const figtreeRegular = fetch(
   "https://cdn.jsdelivr.net/fontsource/fonts/figtree@latest/latin-400-normal.ttf"

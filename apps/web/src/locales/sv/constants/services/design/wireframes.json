@@ -1,0 +1,80 @@
+{
+  "name": "Wireframes",
+  "description": "Designa struktur och användarresa",
+  "hero": {
+    "title": "Wireframes & UX-arkitektur",
+    "description": "Strukturera dina användargränssnitt med professionella wireframes. Vår expertis inom UX-design garanterar intuitiv arkitektur och optimal användarupplevelse från de tidigaste stadierna av ditt projekt."
+  },
+  "features": {
+    "ux-architecture": {
+      "title": "UX-arkitektur",
+      "description": "Tydlig och logisk struktur av dina gränssnitt."
+    },
+    "user-journey": {
+      "title": "Användarresa",
+      "description": "Optimering av navigationsflöden."
+    },
+    "visual-hierarchy": {
+      "title": "Visuell hierarki",
+      "description": "Effektiv organisering av innehåll och funktioner."
+    },
+    "interactions": {
+      "title": "Interaktioner",
+      "description": "Definition av beteenden och övergångar."
+    }
+  },
+  "benefits": {
+    "responsive-design": {
+      "title": "Responsiv design",
+      "description": "Anpassning till alla skärmformat."
+    },
+    "rapid-prototyping": {
+      "title": "Snabb prototypframtagning",
+      "description": "Effektiv testning och iterationer."
+    },
+    "collaboration": {
+      "title": "Samarbete",
+      "description": "Tydlig kommunikation med alla intressenter."
+    },
+    "early-validation": {
+      "title": "Tidig validering",
+      "description": "Snabb upptäckte och rättning av UX-problem."
+    }
+  },
+  "faq": {
+    "what-is-wireframe": {
+      "question": "Vad är en wireframe och varför är den viktig?",
+      "answer": "En wireframe är en schematisk representation av ditt gränssnitt som fokuserar på struktur, hierarki och funktionalitet, utan de slutliga designelementen. Det är ett avgörande steg som validerar informationsarkitektur och användarupplevelse innan man investerar i detaljerad design."
+    },
+    "creation-process": {
+      "question": "Hur fungerar skapelseprocessen?",
+      "answer": "Processen börjar med att analysera dina behov och mål. Vi skapar sedan low-fidelity wireframes för att validera den övergripande strukturen och ytterligare mer detaljerade versioner med interaktioner. Efter flera iterationer och din feedback, slutgiltar vi wireframes som kommer att fungera som grund för UI-design."
+    },
+    "deliverables": {
+      "question": "Vilka leveranser tillhandahålls?",
+      "answer": "Du får ett komplett set av wireframes för varje nyckelskärm, användarflödesdiagram, interaktionsdokumentation och interaktiva prototyper för att testa användarresor. Alla källfiler ingår också."
+    },
+    "responsive-handling": {
+      "question": "Hur hanterar ni responsiv design?",
+      "answer": "Vi skapar wireframes anpassade till varje viktigt skärmformat (desktop, tablet, mobil) enligt ett mobile-first tillvägagångssätt. Varje version är optimerad för att erbjuda den bästa möjliga användarupplevelsen på sitt medium."
+    },
+    "creation-timeline": {
+      "question": "Hur lång tid tar det att skapa wireframes?",
+      "answer": "Tiden beror på projektets komplexitet, men generellt 2 till 4 veckor för ett medelstort projekt, inklusive analys, skapande, iterationer och slutlig fas. Vi fastställer ett detaljerat schema i början av projektet."
+    }
+  },
+  "complementary": {
+    "ux-audit": {
+      "title": "UX-granskning",
+      "description": "Djupgående analys av dina befintliga gränssnitt."
+    },
+    "prototyping": {
+      "title": "Prototyping",
+      "description": "Skapande av interaktiva prototyper."
+    },
+    "ux-documentation": {
+      "title": "UX-dokumentation",
+      "description": "Detaljerad dokumentation av användarresor."
+    }
+  }
+}

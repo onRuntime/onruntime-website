@@ -1,0 +1,80 @@
+{
+  "name": "Mobile-Anwendungen",
+  "description": "Native mobile Anwendungen mit React Native erstellen",
+  "hero": {
+    "title": "React Native mobile Entwicklung",
+    "description": "Erstelle leistungsstarke native mobile Anwendungen für iOS und Android mit React Native. Unser Fachwissen garantiert robuste Anwendungen und ein außergewöhnliches Benutzererlebnis."
+  },
+  "features": {
+    "react-native-expo": {
+      "title": "React Native & Expo",
+      "description": "Effiziente plattformübergreifende Entwicklung für iOS und Android mit einem einzigen Code."
+    },
+    "native-design": {
+      "title": "Native Gestaltung",
+      "description": "Oberflächen, die die Designrichtlinien von iOS und Android respektieren, für ein vertrautes Erlebnis."
+    },
+    "native-performance": {
+      "title": "Native Leistung",
+      "description": "Erweiterte Optimierung für nahezu native Leistung auf jeder Plattform."
+    },
+    "mobile-ui-ux": {
+      "title": "Mobile UI/UX",
+      "description": "Intuitive mobile Schnittstellen, die den Best Practices jeder Plattform folgen."
+    }
+  },
+  "benefits": {
+    "multi-platform": {
+      "title": "Multi-Plattform",
+      "description": "Anwendungen, die auf iOS und Android aus einem einzigen Code basieren."
+    },
+    "tablet-support": {
+      "title": "Tablet-Unterstützung",
+      "description": "Oberflächen, die an verschiedene Bildschirmgrößen und -orientierungen angepasst sind."
+    },
+    "optimal-performance": {
+      "title": "Optimale Leistung",
+      "description": "Native Optimierung für maximale Leistung und Flüssigkeit."
+    },
+    "native-experience": {
+      "title": "Native Erfahrung",
+      "description": "Nutzung der nativen Gerätefunktionen (Kamera, GPS, Benachrichtigungen...)."
+    }
+  },
+  "faq": {
+    "why-react-native": {
+      "question": "Warum React Native für die mobile Entwicklung wählen?",
+      "answer": "React Native ermöglicht die Entwicklung von leistungsstarken Anwendungen für iOS und Android aus einem einzigen Code, was Kosten und Entwicklungszeit reduziert und gleichzeitig native Qualität beibehält. Es profitiert auch von einem großen Ökosystem und Unterstützung durch Meta (Facebook)."
+    },
+    "performance": {
+      "question": "Wie stellen Sie die Leistung der Anwendung sicher?",
+      "answer": "Wir optimieren jeden Aspekt der Anwendung: Startzeit, Speicherverbrauch, flüssige Animationen, Datenladen... Wir nutzen auch Profiling-Tools, um Performance-Probleme zu identifizieren und zu lösen."
+    },
+    "store-publishing": {
+      "question": "Übernehmen Sie die Veröffentlichung im Store?",
+      "answer": "Ja, wir übernehmen den gesamten Veröffentlichungsprozess: Vorbereitung von Assets, Konfiguration des Entwicklerkontos, Einreichung in die Stores (App Store und Play Store) und Aktualisierungsverfolgung."
+    },
+    "updates": {
+      "question": "Wie verwalten Sie Anwendungsaktualisierungen?",
+      "answer": "Wir richten OTA (Over The Air) Aktualisierungssysteme ein, wenn möglich, und verwalten Aktualisierungen über die Stores mit einem optimierten Prozess, um die Validierungszeiten zu minimieren."
+    },
+    "post-launch-support": {
+      "question": "Bieten Sie Unterstützung nach der Veröffentlichung?",
+      "answer": "Ja, wir bieten verschiedene Wartungspläne an, darunter: Leistungsüberwachung, Bugfixes, Sicherheitsupdates und Weiterentwicklung von Funktionen."
+    }
+  },
+  "complementary": {
+    "store-publishing": {
+      "title": "Store-Veröffentlichung",
+      "description": "Vollständige Verwaltung der Veröffentlichung im App Store und Play Store."
+    },
+    "backend-integration": {
+      "title": "Backend-Integration",
+      "description": "Verbindung mit Ihren bestehenden Systemen und APIs."
+    },
+    "react-native-training": {
+      "title": "React Native Schulung",
+      "description": "Schulung Ihrer Teams in der React Native Entwicklung."
+    }
+  }
+}

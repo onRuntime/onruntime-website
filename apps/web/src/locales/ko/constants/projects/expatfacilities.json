@@ -1,0 +1,131 @@
+{
+  "short-description": "학생 이민 지원을 위한 완벽한 플랫폼으로, 주거, 비자, 교통, 현지 지원을 통합합니다.",
+  "description": "프랑스 학생들이 통합 서비스와 현지 앰배서더 네트워크를 이용해 이민을 A에서 Z까지 관리할 수 있는 풀스택 플랫폼 개발.",
+  "long-description": "Expat Facilities는 학생들의 이민을 간소화한 혁신적인 프랑스 스타트업이었어요. 우리 팀은 간단한 랜딩 페이지에서 시작해 Airbnb와 같은 기능과 이민 서비스 생태계를 결합한 정교한 솔루션으로 발전한 완벽한 플랫폼을 제로에서 개발했답니다.\n\n이 플랫폼은 Spotahome와 같은 파트너를 통한 주거 검색, Lufthansa 항공편 예약, 전문 보험, 70개국 이상에서 활동하는 현지 앰배서더 시스템 등 다양한 파트너 API를 통합해 통일된 경험을 제공합니다.\n\n주요 기술적 도전 과제는 수십 개의 서드파티 API를 조율해 매끄럽고 일관된 사용자 경험을 만드는 것이었고, 이 과정에서 국제 결제와 학생과 현지 앰배서더 간의 매칭 복잡성을 관리해야 했어요.",
+  "features": {
+    "housing-platform": {
+      "title": "통합 주거 플랫폼",
+      "description": "Spotahome와 같은 파트너 API 통합을 통해 학생 주거를 검색하고 예약합니다."
+    },
+    "ambassador-network": {
+      "title": "현지 앰배서더 네트워크",
+      "description": "70개국에서 신입생을 현장에서 지원하는 300명 이상의 학생 앰배서더."
+    },
+    "visa-services": {
+      "title": "비자 및 행정 서비스",
+      "description": "완벽한 비자 프로세스 관리와 개인화된 행정 지원."
+    },
+    "transport-logistics": {
+      "title": "교통 및 물류",
+      "description": "항공편 예약(Lufthansa 파트너십), 기차, 그리고 할인된 가격의 현지 교통."
+    },
+    "expat-insurance": {
+      "title": "이민 보험",
+      "description": "Mondial Assistance와 Allianz와의 제휴를 통해 제공되는 임시 이민을 위한 전문 보험."
+    },
+    "advanced-tracking": {
+      "title": "고급 추적",
+      "description": "모든 프로세스를 실시간으로 추적할 수 있는 알림 및 대시보드 인터페이스."
+    }
+  },
+  "technologies": {
+    "nextjs": {
+      "description": "프론트엔드를 위한 React 프레임워크."
+    },
+    "nestjs": {
+      "description": "강력하고 모듈화된 API 백엔드."
+    },
+    "mongodb": {
+      "description": "주 데이터베이스."
+    },
+    "graphql": {
+      "description": "데이터를 위한 통합 API."
+    },
+    "google-cloud": {
+      "description": "클라우드 인프라 및 서비스."
+    },
+    "stripe": {
+      "description": "국제 결제."
+    },
+    "typescript": {
+      "description": "타입 안전 개발."
+    },
+    "styled-components": {
+      "description": "스타일링 및 테마 설정."
+    }
+  },
+  "metrics": {
+    "countries": {
+      "value": "70+",
+      "label": "지원되는 국가",
+      "description": "사용 가능한 이민 목적지."
+    },
+    "ambassadors": {
+      "value": "300+",
+      "label": "앰배서더",
+      "description": "전 세계 학생 앰배서더."
+    },
+    "users": {
+      "value": "2000+",
+      "label": "사용자",
+      "description": "학생 플랫폼 사용자."
+    }
+  },
+  "screenshots": {
+    "redesign": {
+      "caption": "플랫폼 리디자인."
+    },
+    "testimonials": {
+      "caption": "추천사 및 파트너."
+    },
+    "flyer-bank": {
+      "caption": "파트너 은행을 위한 전단."
+    },
+    "about-team": {
+      "caption": "팀 소개 및 행동 촉구."
+    },
+    "housing-hero": {
+      "caption": "통합 검색이 포함된 주거 섹션."
+    },
+    "housing-cta": {
+      "caption": "주거 섹션의 행동 촉구."
+    },
+    "services-hero": {
+      "caption": "제안 프레젠테이션이 포함된 서비스 섹션."
+    },
+    "insurance-hero": {
+      "caption": "제안 설명이 포함된 보험 섹션."
+    },
+    "insurance-plans": {
+      "caption": "자세한 보험 플랜."
+    },
+    "insurance-benefits": {
+      "caption": "제공되는 보험 혜택."
+    },
+    "contact-success": {
+      "caption": "성공적인 연락 양식."
+    }
+  },
+  "challenges": {
+    "third-party-api-integration": "서드파티 API(Spotahome, Lufthansa, 보험)를 통합해 통일된 경험 만들기.",
+    "international-payments": "다양한 통화 및 규정으로 Stripe를 통해 국제 결제 관리.",
+    "student-ambassador-matching": "지리적 위치에 기반한 학생/앰배서더 매칭 시스템 개발.",
+    "scalable-architecture": "빠른 성장을 지원하기 위한 확장 가능한 아키텍처(70개국, 300명 이상의 앰배서더).",
+    "real-time-availability": "파트너 플랫폼 간 주거 가능성의 실시간 동기화.",
+    "multilingual-interface": "다국어 인터페이스 및 각 국가의 고유한 특정성에 대한 조정."
+  },
+  "learnings": {
+    "api-orchestration-complexity": "다양한 형식과 한계가 있는 서드파티 API 조율의 복잡성.",
+    "multi-partner-error-handling": "다중 파트너 생태계에서의 오류 처리의 중요성.",
+    "internationalization-challenges": "번역을 넘어서서 국제화의 여러 도전(통화, 규정, 문화).",
+    "microservices-architecture": "파트너 통합을 격리하기 위한 필수 마이크로서비스 아키텍처.",
+    "complex-ux-simplification": "복잡한 프로세스를 매끄러운 경험으로 변형하기 위한 중요한 UX/UI.",
+    "partner-relations": "통합을 위한 파트너 관계 및 기술 협상 관리."
+  },
+  "future-plans": {
+    "other-expat-types": "전문가, 은퇴자 등 기타 유형의 이민으로 확장.",
+    "ai-matching": "AI로 학생/앰배서더 매칭 최적화.",
+    "ambassador-mobile-app": "앰배서더를 위한 네이티브 모바일 앱.",
+    "ambassador-training": "앰배서더 교육 플랫폼."
+  }
+}

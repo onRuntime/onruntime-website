@@ -1,0 +1,113 @@
+{
+  "hero": {
+    "title": "De onRuntime Studio Vereniging",
+    "description": "Een Franse non-profitorganisatie die zich inzet voor innovatie en creativiteit in webontwikkeling, mobiele ontwikkeling en design."
+  },
+  "cta": {
+    "become-member": "Word lid",
+    "our-projects": "Onze projecten"
+  },
+  "history": {
+    "title": "Ons verhaal",
+    "description": "Opgericht in 2020, onRuntime Studio is ontstaan uit de gedeelde passie van ontwikkelaars en ontwerpers die sinds 2015 samenwerken. Onze organisatie heeft als doel een samenwerkingsruimte te creëren om te innoveren en onze kennis te delen, met de ambitie om binnenkort een volwaardige onderneming te worden.",
+    "timeline": {
+      "2015": {
+        "title": "Eerste samenwerkingen",
+        "description": "Begin van samenwerkingen tussen Jérémy, Antoine en Lucas, voornamelijk op videogameplatforms."
+      },
+      "2020": {
+        "title": "Oprichting van de organisatie",
+        "description": "Officiële oprichting van onRuntime Studio als een Franse non-profitorganisatie, op advies van Bryan Recher."
+      },
+      "2021": {
+        "title": "Ontmoeting in Rouen",
+        "description": "De oprichters ontmoeten elkaar in Rouen om projecten te versnellen, met name hun vlaggenschipproject: Tonight Pass."
+      },
+      "2022": {
+        "title": "Eerste aanwervingen",
+        "description": "De organisatie werft haar eerste medewerkers aan om de ontwikkeling van haar projecten te ondersteunen."
+      },
+      "2023-2025": {
+        "title": "Voortdurende uitbreiding",
+        "description": "Focus op de ontwikkeling van Tonight Pass en voorbereiding op een toekomstige transformatie naar een bedrijf."
+      }
+    }
+  },
+  "founders": {
+    "title": "De oprichters",
+    "description": "Onze organisatie is opgericht door drie enthousiastelingen die al jarenlang samenwerken om innovatieve projecten tot leven te brengen.",
+    "website": "Website",
+    "linkedin": "LinkedIn"
+  },
+  "values": {
+    "title": "Onze waarden",
+    "description": "Deze fundamentele principes leiden onze aanpak en visie, en beïnvloeden elke actie en beslissing van ons.",
+    "items": {
+      "innovation": {
+        "title": "Innovatie",
+        "description": "We duwen de grenzen van creativiteit en technologie verder om innovatieve oplossingen te bieden."
+      },
+      "community": {
+        "title": "Gemeenschap",
+        "description": "We geloven in de kracht van het collectief en bevorderen een samenwerkingsomgeving waar iedereen kan gedijen."
+      },
+      "passion": {
+        "title": "Passie",
+        "description": "Elk project wordt met passie en toewijding benaderd, omdat we diep van ons werk houden."
+      },
+      "learning": {
+        "title": "Leren",
+        "description": "We hechten waarde aan continu leren en kennis delen om samen vooruitgang te boeken."
+      }
+    }
+  },
+  "expertise": {
+    "title": "Onze technische expertise",
+    "description": "De technologieën die we beheersen en gebruiken in onze verenigingsprojecten."
+  },
+  "membership": {
+    "title": "Word lid",
+    "description": "Sluit je aan bij onze gemeenschap van enthousiastelingen en doe mee aan de ontwikkeling van innovatieve projecten.",
+    "annual": {
+      "title": "Jaarlidmaatschap",
+      "price": "30€",
+      "period": "/jaar",
+      "description": "Jaarlijkse bijdrage om een vrijwilligerslid van de organisatie te worden.",
+      "benefits": {
+        "hours": "Verbintenis van 3 tot 6 uur per week",
+        "projects": "Deelname aan verenigingsprojecten",
+        "discord": "Toegewijde Discord-rol en toegang tot privé kanalen",
+        "mentoring": "Persoonlijke mentoring door onze ervaren leden",
+        "resources": "Toegang tot al onze middelen en trainingen",
+        "autonomy": "Autonomie op de projecten van de organisatie"
+      },
+      "cta": "Vraag mijn lidmaatschap aan"
+    }
+  },
+  "initiatives": {
+    "title": "Onze programma's en initiatieven",
+    "description": "Ontdek de initiatieven die we momenteel ontwikkelen en onze aankomende projecten.",
+    "mentoring": {
+      "title": "Technisch mentorprogramma",
+      "description": "Ons mentorprogramma stelt beginnende leden in staat om begeleid te worden in hun ontwikkeling door ervaren ontwikkelaars en ontwerpers van de organisatie.",
+      "status": "Momenteel actief"
+    },
+    "workshops": {
+      "title": "Samenwerkende technische workshops",
+      "description": "Groepswerk en leersessies over specifieke technologieën, georganiseerd online en persoonlijk wanneer mogelijk.",
+      "status": "In ontwikkelingsfase"
+    },
+    "hackathons": {
+      "title": "Gemeenschaps-hackathons",
+      "description": "Organisatie van evenementen van 48 uur waar teams samen innovatieve oplossingen ontwikkelen rond specifieke vraagstukken.",
+      "status": "Toekomstig project"
+    },
+    "contribute": "Wil je bijdragen aan de ontwikkeling van deze initiatieven?",
+    "contact": "Neem contact met ons op"
+  },
+  "discord": {
+    "title": "Word lid van onze Discord-gemeenschap",
+    "description": "Verbind met andere leden, neem deel aan technische discussies en blijf op de hoogte van het laatste nieuws van de organisatie.",
+    "cta": "Word lid van Discord"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Discord/Slack-botar",
+  "description": "Utveckling av bots och automations",
+  "hero": {
+    "title": "Bots och Automations",
+    "description": "Utveckla intelligenta bots och automations för att förbättra engagemang och produktivitet i din community. Vår expertis garanterar pålitliga och högpresterande bots för Discord, Slack och andra plattformar."
+  },
+  "features": {
+    "discord-slack": {
+      "title": "Discord och Slack",
+      "description": "Anpassade bots för stora kommunikationsplattformar."
+    },
+    "advanced-commands": {
+      "title": "Avancerade kommandon",
+      "description": "Intuitivt gränssnitt med anpassningsbara kommandon."
+    },
+    "optimal-performance": {
+      "title": "Optimal prestanda",
+      "description": "Arkitektur optimerad för maximal respons."
+    },
+    "integrations": {
+      "title": "Integreringar",
+      "description": "Anslutning till dina befintliga verktyg och tjänster."
+    }
+  },
+  "benefits": {
+    "intelligent-moderation": {
+      "title": "Intelligent moderering",
+      "description": "Automatiserad hantering av din community och moderering."
+    },
+    "notifications": {
+      "title": "Notiser",
+      "description": "Anpassade varningar och automatiska uppdateringar."
+    },
+    "engagement": {
+      "title": "Engagemang",
+      "description": "Interaktiva funktioner för att aktivera din community."
+    },
+    "statistics": {
+      "title": "Statistik",
+      "description": "Detaljerad spårning av aktivitet och interaktioner."
+    }
+  },
+  "faq": {
+    "bot-types": {
+      "question": "Vilka typer av bots kan ni utveckla?",
+      "answer": "Vi utvecklar bots för olika plattformar (Discord, Slack, Telegram) med olika funktioner: moderering, kundsupport, automatisering av uppgifter, statistik, spel och aktiviteter i communityn. Varje bot anpassas efter dina specifika behov."
+    },
+    "bot-reliability": {
+      "question": "Hur säkerställer ni botarnas pålitlighet?",
+      "answer": "Vi implementerar flera mekanismer: 24/7 övervakning, automatisk omstart vid problem, detaljerade loggar och realtidsvarningar. Vi gör också noggranna tester före varje distribution."
+    },
+    "customization": {
+      "question": "Kan kommandon och funktioner anpassas?",
+      "answer": "Ja, alla våra bots är helt anpassningsbara: kommandon, svar, behörigheter, integreringar. Vi anpassar varje funktion efter dina behov och modereringsriktlinjer."
+    },
+    "security": {
+      "question": "Hur hanterar ni säkerhet?",
+      "answer": "Säkerhet är en prioritet: säker autentisering, detaljerade behörigheter, validering av indata, skydd mot skräppost och missbruk. Vi följer varje plattforms bästa praxis."
+    },
+    "post-deployment-support": {
+      "question": "Erbjuder ni stöd efter distribution?",
+      "answer": "Ja, vi erbjuder flera underhållsplaner inklusive: 24/7 övervakning, regelbundna uppdateringar, teknisk support och funktionella evolutioner efter dina behov."
+    }
+  },
+  "complementary": {
+    "analytics": {
+      "title": "Analys",
+      "description": "Detaljerad spårning av användning och interaktioner."
+    },
+    "support-24-7": {
+      "title": "24/7 Support",
+      "description": "Kontinuerlig övervakning och snabb intervention."
+    },
+    "evolutions": {
+      "title": "Evolutions",
+      "description": "Regelbunden tillägg av nya funktioner."
+    }
+  }
+}

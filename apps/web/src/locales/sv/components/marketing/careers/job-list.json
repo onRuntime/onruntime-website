@@ -1,0 +1,20 @@
+{
+  "retry": "Försök igen",
+  "no-results": "Inga jobberbjudanden matchar din sökning.",
+  "count": "jobberbjudande(n) tillgängliga",
+  "published": "Publicerad den",
+  "view-offer": "Visa erbjudande",
+  "employment-type": {
+    "full-time": "Heltid",
+    "part-time": "Deltid",
+    "contract": "Anställning på kontrakt",
+    "temporary": "Tillfällig",
+    "internship": "Praktik",
+    "apprenticeship": "Lärlingskap"
+  },
+  "workplace-type": {
+    "hybrid": "Hybrid",
+    "remote": "Fjärrarbete",
+    "on-site": "På plats"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Sluit je aan bij ons team",
+    "description": "Ontdek carrièremogelijkheden bij onRuntime Studio en sluit je aan bij een dynamisch team dat gepassioneerd is over ontwikkeling en design."
+  },
+  "why-join": {
+    "title": "Waarom bij ons aansluiten?",
+    "description": "Bij onRuntime Studio geloven we in creativiteit, innovatie en samenwerking. Sluit je bij ons aan om de toekomst van digitaal vorm te geven en je vaardigheden te ontwikkelen in een stimulerende omgeving.",
+    "cards": {
+      "creativity": {
+        "title": "Creativiteit en Innovatie",
+        "description": "Laat je ideeën zien en draag bij aan innovatieve projecten die de grenzen van het mogelijke verleggen."
+      },
+      "team": {
+        "title": "Passioneel Team",
+        "description": "Werk samen met getalenteerde en gepassioneerde professionals in een vriendelijke en stimulerende omgeving."
+      },
+      "impact": {
+        "title": "Wereldwijde Impact",
+        "description": "Draag bij aan projecten die een echte impact hebben en gebruikers over de hele wereld bereiken."
+      }
+    }
+  },
+  "opportunities": {
+    "title": "Huidige mogelijkheden",
+    "description": "Ontdek onze vacatures en vind de functie die past bij jouw vaardigheden en ambities.",
+    "search-placeholder": "Zoek naar een functie, locatie...",
+    "all": "Allemaal"
+  },
+  "spontaneous": {
+    "title": "Heb je de juiste functie niet gevonden?",
+    "description": "Stuur ons een spontane sollicitatie! We zijn altijd op zoek naar uitzonderlijk talent om ons team te versterken.",
+    "cta": "Stuur een spontane sollicitatie"
+  },
+  "teams": {
+    "title": "Onze teams",
+    "description": "Ontdek de verschillende teams die onRuntime Studio vormen en vind degene die het beste bij jouw vaardigheden en ambities past.",
+    "development": {
+      "title": "Ontwikkeling",
+      "description": "Onze ontwikkelaars creëren krachtige en innovatieve web- en mobiele applicaties, met de nieuwste technologieën om uitzonderlijke gebruikerservaringen te bieden."
+    },
+    "design": {
+      "title": "Design",
+      "description": "Ons ontwerpteam creëert elegante en intuïtieve gebruikersinterfaces, waarbij we ervoor zorgen dat elke pixel perfect aansluit bij de visuele identiteit van het project."
+    },
+    "project": {
+      "title": "Project & Product",
+      "description": "Onze projectmanagers en productmanagers zorgen voor een vlotte uitvoering van projecten en dat de ontwikkelde oplossingen perfect voldoen aan de behoeften van gebruikers."
+    },
+    "marketing": {
+      "title": "Marketing & Communicatie",
+      "description": "Ons marketingteam werkt aan het promoten van onze projecten en het effectief communiceren over onze prestaties, zowel intern als aan het brede publiek."
+    }
+  },
+  "cta": {
+    "title": "Klaar om je bij ons aan te sluiten?",
+    "description": "Bekijk onze vacatures en vind de functie die bij jouw vaardigheden en ambities past. We kijken ernaar uit je in ons team te verwelkomen!",
+    "button": "Bekijk vacatures"
+  },
+  "error": "Er is een fout opgetreden tijdens het laden van vacatures. Probeer het later opnieuw."
+}

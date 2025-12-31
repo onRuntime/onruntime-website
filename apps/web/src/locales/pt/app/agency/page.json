@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Experiência local em web | Desenvolvimento digital nas principais cidades francesas",
+    "description": "Apoiamos empresas locais em toda a França com nossa experiência nos mercados digitais regionais. Soluções digitais adaptadas a cada região."
+  },
+  "hero": {
+    "title": "Seu parceiro digital em toda a França",
+    "description": "Desenvolvemos soluções digitais inovadoras adaptadas às especificidades de cada mercado regional francês. Nossa equipe domina os desafios digitais locais para te apoiar de forma eficaz, onde quer que você esteja na França.",
+    "cta": "Converse sobre seu projeto",
+    "secondary-cta": "Descubra nossa experiência local"
+  },
+  "expertise": {
+    "title": "Experiência adaptada a cada território",
+    "description": "Nossa equipe analisa e entende os ecossistemas digitais locais para te oferecer soluções perfeitamente adaptadas às especificidades econômicas e culturais da sua região.",
+    "local-markets": {
+      "title": "Entendendo os mercados locais",
+      "description": "Estudamos e dominamos as especificidades e tendências dos ecossistemas digitais regionais."
+    },
+    "remote-work": {
+      "title": "Trabalho remoto eficaz",
+      "description": "Nossa equipe colabora remotamente com sua empresa, onde quer que você esteja na França, com a mesma eficiência que presencialmente."
+    },
+    "custom-solutions": {
+      "title": "Soluções personalizadas",
+      "description": "Estratégias digitais sob medida que se adaptam ao seu contexto local e às particularidades do seu mercado regional."
+    }
+  },
+  "cities": {
+    "title": "Nossa experiência nas principais cidades francesas",
+    "description": "Descubra nosso conhecimento profundo dos mercados locais e como isso pode beneficiar seu negócio.",
+    "region-label": "Região",
+    "discover-cta": "Descubra nossa experiência"
+  },
+  "why-us": {
+    "title": "Por que trabalhar conosco no seu projeto local?",
+    "description": "Nosso conhecimento dos mercados regionais oferece muitas vantagens para o seu negócio.",
+    "local-ecosystems": {
+      "title": "Experiência em ecossistemas locais",
+      "description": "Uma equipe que entende as dinâmicas de mercado específicas da sua região, possibilitando uma estratégia digital perfeitamente adaptada."
+    },
+    "remote-agility": {
+      "title": "Agilidade remota",
+      "description": "Colaboração eficaz por meio de videoconferências, mensagens e ferramentas colaborativas para uma experiência de trabalho fluida e produtiva."
+    },
+    "localized-strategies": {
+      "title": "Estratégias localizadas",
+      "description": "Soluções digitais que levam em conta as especificidades culturais e econômicas do seu território."
+    },
+    "regional-analysis": {
+      "title": "Análise de mercado regional",
+      "description": "Estudo de tendências, concorrência e oportunidades específicas do seu setor geográfico para uma estratégia digital otimizada."
+    }
+  },
+  "services": {
+    "title": "Nossos serviços para todas as regiões da França",
+    "description": "Soluções digitais completas adaptadas às especificidades de cada mercado local.",
+    "design": {
+      "title": "Design UI/UX",
+      "description": "Interfaces adaptadas aos usos locais"
+    },
+    "integration": {
+      "title": "Integração",
+      "description": "Soluções regionais de CMS e e-commerce"
+    },
+    "frontend": {
+      "title": "Front-end",
+      "description": "Aplicações adaptadas aos seus usuários"
+    },
+    "backend": {
+      "title": "Back-end",
+      "description": "Infraestruturas robustas e escaláveis"
+    },
+    "discover-all": "Descubra todos os nossos serviços"
+  },
+  "cta": {
+    "title": "Um projeto digital adaptado ao seu mercado local?",
+    "description": "Entre em contato para discutir seu projeto. Nossa experiência em mercados locais nos permite te apoiar de forma eficaz, onde quer que você esteja na França.",
+    "contact": "Entre em contato",
+    "learn-more": "Saiba mais sobre nossa abordagem"
+  }
+}

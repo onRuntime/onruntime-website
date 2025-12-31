@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "Låt oss diskutera ditt projekt",
+    "description": "Vi är alltid glada att prata om nya projekt. Kontakta oss för att dela dina idéer och se hur vi kan hjälpa dig."
+  },
+  "form": {
+    "name": {
+      "label": "Fullständigt namn",
+      "placeholder": "John Doe"
+    },
+    "email": {
+      "label": "E-post",
+      "placeholder": "du@example.com"
+    },
+    "message": {
+      "label": "Meddelande",
+      "placeholder": "Beskriv ditt projekt..."
+    },
+    "submit": "Skicka meddelande",
+    "submitting": "Skickar..."
+  },
+  "toast": {
+    "success": {
+      "title": "Meddelandet skickat",
+      "description": "Vi återkommer så snart som möjligt."
+    },
+    "error": {
+      "title": "Fel",
+      "description": "Ett fel inträffade när meddelandet skickades",
+      "fallback": "Ett fel inträffade"
+    }
+  },
+  "info": {
+    "title": "Kontaktinformation",
+    "email": {
+      "label": "E-post"
+    },
+    "offices": {
+      "label": "Våra kontor",
+      "value": "Rouen & Paris, Frankrike"
+    },
+    "phone": {
+      "label": "Telefon"
+    }
+  },
+  "hours": {
+    "title": "Öppettider",
+    "timezone": "(Paris tid)",
+    "weekdays": "Måndag - Fredag:",
+    "weekdays-time": "9:00 - 18:00",
+    "weekend": "Helg:",
+    "weekend-time": "Stängt"
+  },
+  "tagline": "Ett kreativt studio som är dedikerat till att förvandla dina idéer till digital verklighet."
+}

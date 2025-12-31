@@ -1,0 +1,131 @@
+{
+  "short-description": "Komplett plattform för stöd vid studentexpatriering som integrerar bostad, visum, transport och lokal support.",
+  "description": "Utveckling av en fullstack-plattform som gör det möjligt för franska studenter att hantera sin expatriering från A till Ö med integrerade tjänster och ett nätverk av lokala ambassadörer.",
+  "long-description": "Expat Facilities var en banbrytande fransk startup som förenklade expatriering för studenter. Vårt team utvecklade en komplett plattform från grunden, som utvecklades från en enkel landningssida till en sofistikerad lösning som kombinerade funktioner liknande Airbnb med ett ekosystem av expatriationstjänster.\n\nPlattformen integrerade flera partner-API:er för att erbjuda en enhetlig upplevelse: bostadssökning via partners som Spotahome, flygbokningar med Lufthansa, specialiserad försäkring och ett unikt system av lokala ambassadörer närvarande i över 70 länder.\n\nDen största tekniska utmaningen var att orkestrera dussintals tredjeparts-API:er för att skapa en smidig och sammanhängande användarupplevelse, samtidigt som man hanterade komplexiteten i internationella betalningar och matchning mellan studenter och lokala ambassadörer.",
+  "features": {
+    "housing-platform": {
+      "title": "Integrerad bostadsplattform",
+      "description": "Sök och boka studentbostäder via partner-API-integrationer som Spotahome"
+    },
+    "ambassador-network": {
+      "title": "Nätverk av lokala ambassadörer",
+      "description": "Över 300 studentambassadörer i 70 länder för att stödja nykomlingar på plats"
+    },
+    "visa-services": {
+      "title": "Visum- och administrativtjänster",
+      "description": "Fullständig hantering av visumprocessen och personlig administrativ support"
+    },
+    "transport-logistics": {
+      "title": "Transport och logistik",
+      "description": "Flygbokningar (partnerskap med Lufthansa), tåg och lokal transport med förmånliga priser"
+    },
+    "expat-insurance": {
+      "title": "Expatriationförsäkring",
+      "description": "Specialiserad försäkring för tillfällig expatriation i partnerskap med Mondial Assistance och Allianz"
+    },
+    "advanced-tracking": {
+      "title": "Avancerad spårning",
+      "description": "Real-tidsuppföljning av alla processer med notifieringar och instrumentpanelgränssnitt"
+    }
+  },
+  "technologies": {
+    "nextjs": {
+      "description": "React-ramverk för frontend"
+    },
+    "nestjs": {
+      "description": "Robust och modulär API-backend"
+    },
+    "mongodb": {
+      "description": "Huvuddatabas"
+    },
+    "graphql": {
+      "description": "Enad API för data"
+    },
+    "google-cloud": {
+      "description": "Molninfrastruktur och tjänster"
+    },
+    "stripe": {
+      "description": "Internationella betalningar"
+    },
+    "typescript": {
+      "description": "Typ-säker utveckling"
+    },
+    "styled-components": {
+      "description": "Styling och teman"
+    }
+  },
+  "metrics": {
+    "countries": {
+      "value": "70+",
+      "label": "Länder täckta",
+      "description": "Tillgängliga expatriationsdestinationer"
+    },
+    "ambassadors": {
+      "value": "300+",
+      "label": "Ambassadörer",
+      "description": "Studentambassadörer världen över"
+    },
+    "users": {
+      "value": "2000+",
+      "label": "Användare",
+      "description": "Användare av studentplattformen"
+    }
+  },
+  "screenshots": {
+    "redesign": {
+      "caption": "Plattformsdesign"
+    },
+    "testimonials": {
+      "caption": "Uttalanden och partners"
+    },
+    "flyer-bank": {
+      "caption": "Flyer för partnerbanker"
+    },
+    "about-team": {
+      "caption": "Om teamet och call to action"
+    },
+    "housing-hero": {
+      "caption": "Bostadssektion med integrerad sökning"
+    },
+    "housing-cta": {
+      "caption": "Call to action för bostadssektionen"
+    },
+    "services-hero": {
+      "caption": "Tjänstesektion med erbjudandepresentation"
+    },
+    "insurance-hero": {
+      "caption": "Försäkringssektion med erbjudandeförklaring"
+    },
+    "insurance-plans": {
+      "caption": "Detaljerade försäkringsplaner"
+    },
+    "insurance-benefits": {
+      "caption": "Erbjudna försäkringsförmåner"
+    },
+    "contact-success": {
+      "caption": "Kontaktformulär med framgång"
+    }
+  },
+  "challenges": {
+    "third-party-api-integration": "Integrera dussintals tredjeparts-API:er (Spotahome, Lufthansa, försäkring) till en enad upplevelse",
+    "international-payments": "Hantera internationella betalningar med Stripe i flera valutor och regleringar",
+    "student-ambassador-matching": "Utveckla ett system för matchning av studenter/ambassadörer baserat på geolokalisering",
+    "scalable-architecture": "Skalbar arkitektur för att stödja snabb tillväxt (70 länder, 300+ ambassadörer)",
+    "real-time-availability": "Realtidssynkronisering av bostadstillgänglighet mellan partnerplattformar",
+    "multilingual-interface": "Flerspråkigt gränssnitt och anpassning till lokala specifika krav i varje land"
+  },
+  "learnings": {
+    "api-orchestration-complexity": "Komplexitet i att orkestrera tredjeparts-API:er med olika format och begränsningar",
+    "multi-partner-error-handling": "Kritisk betydelse av felhantering i ett multi-partner-ekosystem",
+    "internationalization-challenges": "Utmaningar med internationalisering bortom översättning (valutor, regleringar, kulturer)",
+    "microservices-architecture": "Väsentlig mikrotjänstarkitektur för att isolera partnerintegrationer",
+    "complex-ux-simplification": "Kritisk UX/UI för att transformera en komplex process till en smidig upplevelse",
+    "partner-relations": "Hantera partnerrelationer och tekniska förhandlingar för integrationer"
+  },
+  "future-plans": {
+    "other-expat-types": "Expansion till andra typer av expatriation (yrkesverksamma, pensionärer)",
+    "ai-matching": "AI för att optimera matchning av studenter/ambassadörer",
+    "ambassador-mobile-app": "Nativ mobilapp för ambassadörer",
+    "ambassador-training": "Utbildningsplattform för ambassadörer"
+  }
+}

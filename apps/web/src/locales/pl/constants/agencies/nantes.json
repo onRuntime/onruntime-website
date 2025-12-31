@@ -1,0 +1,79 @@
+{
+  "title": "Tworzenie stron internetowych w Nantes | Rozwiązania cyfrowe dla firm z Doliny Loary",
+  "description": "Stwórz swoją stronę internetową lub aplikację mobilną w Nantes. Niestandardowe rozwiązania cyfrowe dla firm z Nantes, dostosowane do lokalnych wyzwań Twojego sektora.",
+  "hero": {
+    "title": "Tworzenie stron i aplikacji mobilnych w Nantes",
+    "description": "Pomagamy firmom w Nantes i w Pays de la Loire w cyfryzacji dzięki niestandardowym rozwiązaniom internetowym, idealnie dopasowanym do specyficznych wyzwań rynku Doliny Loary."
+  },
+  "intro": "Nantes, historyczne serce Bretanii i innowacyjne metropolia, jest znane ze swojej dynamiki gospodarczej i jakości życia. Jego rozwijający się ekosystem cyfrowy, przemysły kreatywne oraz zaangażowanie w ekologiczną transformację czynią go wyjątkowym terytorium, gdzie innowacje cyfrowe odgrywają kluczową rolę.",
+  "expertise": "Nasz zespół projektuje strony internetowe, aplikacje i rozwiązania cyfrowe idealnie dostosowane do firm z Nantes, niezależnie od tego, czy są to innowacyjne startupy, gracze odpowiedzialnej gospodarki czy tradycyjne firmy w transformacji. Rozumiemy specyfikę lokalnego rynku i oferujemy rozwiązania cyfrowe zgodne z wartościami innowacji i zrównoważonego rozwoju charakterystycznymi dla Nantes.",
+  "why-choose-us": "Nasza głęboka wiedza na temat rynku w Nantes pozwala nam rozwijać rozwiązania cyfrowe idealnie dostosowane do specyficznych wyzwań lokalnych firm. Rozumiemy ducha innowacji oraz zaangażowanie w bardziej odpowiedzialną gospodarkę, które charakteryzują Nantes, i integrujemy te wartości w każdym projekcie cyfrowym, który realizujemy.",
+  "key-business-sectors": {
+    "tech-digital": "Technologie i cyfrowe",
+    "ecological-transition": "Ekologiczna transformacja",
+    "creative-industries": "Przemysły kreatywne",
+    "agrifood": "Rolnictwo i żywność"
+  },
+  "local-challenges": {
+    "digital-ecosystem-competition": "Silna konkurencja w rozwijającym się ekosystemie cyfrowym Nantes",
+    "startup-scaleup-needs": "Specjalne potrzeby lokalnych startupów i firm w fazie rozwoju z French Tech",
+    "ecological-transition-digitalization": "Cyfryzacja graczy ekologicznej i energetycznej transformacji",
+    "traditional-industries-transformation": "Cyfrowa transformacja tradycyjnych branż regionalnych i przemysłu rolno-spożywczego"
+  },
+  "benefits": {
+    "nantes-ecosystem-solutions": "Niestandardowe rozwiązania dostosowane do ekosystemu cyfrowego Nantes",
+    "innovative-eco-technologies": "Wysoka wiedza w zakresie innowacyjnych i ekologicznych technologii internetowych",
+    "agile-approach": "Zwinne podejście idealnie pasujące do startupów i innowacyjnych firm",
+    "digital-transition-knowledge": "Dogłębna wiedza o wyzwaniach cyfrowej transformacji w Dolinie Loary",
+    "personalized-support": "Spersonalizowane wsparcie w trakcie całego projektu cyfrowego"
+  },
+  "primary-stat": {
+    "label": "Cyfrowe Nantes"
+  },
+  "strengths": {
+    "innovative-tech": {
+      "title": "Innowacyjne technologie",
+      "description": "Nowoczesne rozwiązania cyfrowe dla startupów i firm w fazie rozwoju w Nantes."
+    },
+    "eco-design": {
+      "title": "Ekologiczne projektowanie",
+      "description": "Strony i aplikacje z kontrolowanym śladem środowiskowym."
+    },
+    "maritime-industry": {
+      "title": "Przemysł morski",
+      "description": "Cyfryzacja dostosowana do działalności portowej i rzecznej."
+    },
+    "renewable-energy": {
+      "title": "Energia odnawialna",
+      "description": "Rozwiązania cyfrowe dla graczy w energetycznej transformacji."
+    }
+  },
+  "focused-services": {
+    "web-applications": {
+      "name": "Aplikacje internetowe",
+      "description": "Wydajne i skalowalne aplikacje internetowe dla startupów i innowacyjnych firm."
+    },
+    "eco-designed-websites": {
+      "name": "Ekologiczne strony internetowe",
+      "description": "Optymalizowane i zrównoważone strony internetowe dla graczy w odpowiedzialnej gospodarce."
+    },
+    "business-platforms": {
+      "name": "Platformy biznesowe",
+      "description": "Niestandardowe rozwiązania dla tradycyjnych branż w transformacji."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Ekspertyza",
+      "description": "Lata doświadczenia"
+    },
+    "satisfaction": {
+      "label": "Satysfakcja",
+      "description": "Zadowoleni klienci"
+    },
+    "average-time": {
+      "label": "Średni czas",
+      "description": "Tygodnie realizacji"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "title": "툴루즈의 웹 개발 | 옥시타니 비즈니스를 위한 디지털 솔루션",
+  "description": "툴루즈에서 웹사이트나 모바일 애플리케이션을 만들어 보세요. 당신의 업종의 지역적 도전에 맞춘 맞춤형 디지털 솔루션을 제공합니다.",
+  "hero": {
+    "title": "툴루즈에서의 웹 & 모바일 개발",
+    "description": "툴루즈와 옥시타니의 비즈니스들이 맞춤형 웹 솔루션으로 디지털화하는 데 도움을 줍니다. 툴루즈 시장의 구체적인 도전에 완벽하게 적응된 솔루션이죠."
+  },
+  "intro": "유럽의 항공우주 중심지이자 활기찬 학생 도시인 툴루즈는 혁신과 전통이 공존하는 독특한 경제 생태계를 제공합니다. 우리의 디지털 전문성 덕분에 툴루즈 비즈니스는 경쟁이 치열하고 끊임없이 변화하는 기술 환경 속에서 두각을 나타낼 수 있습니다.",
+  "expertise": "우리 팀은 툴루즈의 항공우주 대기업, 혁신적인 스타트업 혹은 전통적인 상점에 이르기까지 툴루즈 비즈니스에 완벽하게 적응된 웹사이트, 애플리케이션, 디지털 솔루션을 설계합니다. 우리는 당신의 지역 시장의 특정 도전을 이해하고 최첨단 기술 솔루션을 제공합니다.",
+  "why-choose-us": "툴루즈 시장에 대한 우리의 깊은 이해는 지역 비즈니스의 특정 도전에 완벽하게 적합한 디지털 솔루션을 개발하는 데 기여합니다. 핑크 시티의 기술적 도전을 이해하고 이를 각 프로젝트에 통합하여 고성능적이고 미래 지향적인 디지털 경험을 창출합니다.",
+  "key-business-sectors": {
+    "aeronautics": "항공우주",
+    "space": "우주",
+    "tech": "기술",
+    "education": "교육"
+  },
+  "local-challenges": {
+    "aerospace-transformation": "항공우주 생태계의 기업 디지털 전환",
+    "startup-platforms": "툴루즈 프렌치 테크 스타트업을 위한 혁신적인 플랫폼 필요성",
+    "elearning-development": "많은 교육 기관을 위한 e-learning 솔루션의 개발",
+    "local-commerce-adaptation": "국가 체인점의 경쟁에 직면한 지역 상점의 적응"
+  },
+  "benefits": {
+    "high-tech-solutions": "하이테크 산업에 맞춘 맞춤형 솔루션",
+    "complex-interfaces-expertise": "복잡한 인터페이스 개발에 대한 전문성",
+    "startup-ecosystem-knowledge": "툴루즈 스타트업 생태계에 대한 깊은 지식",
+    "agile-approach": "혁신적인 프로젝트에 적합한 애자일 접근 방식",
+    "personalized-support": "디지털 프로젝트 전반에 걸친 맞춤형 지원"
+  },
+  "primary-stat": {
+    "label": "기술 분야"
+  },
+  "strengths": {
+    "aeronautics-solutions": {
+      "title": "항공우주 솔루션",
+      "description": "특정 항공우주 산업의 요구에 맞춘 애플리케이션과 인터페이스입니다."
+    },
+    "startup-platforms": {
+      "title": "스타트업 플랫폼",
+      "description": "혁신적인 스타트업을 위한 애자일하고 확장 가능한 디지털 솔루션입니다."
+    },
+    "elearning": {
+      "title": "E-learning",
+      "description": "고등 교육 기관을 위한 교육 플랫폼입니다."
+    },
+    "local-commerce": {
+      "title": "지역 상업",
+      "description": "툴루즈 상점과 장인을 위한 맞춤형 디지털화입니다."
+    }
+  },
+  "focused-services": {
+    "business-applications": {
+      "name": "비즈니스 애플리케이션",
+      "description": "항공우주 산업과 기술 회사에 대한 맞춤형 솔루션입니다."
+    },
+    "innovative-websites": {
+      "name": "혁신적인 웹사이트",
+      "description": "스타트업과 혁신 기업을 위한 현대적인 디지털 전시 공간입니다."
+    },
+    "ecommerce-platforms": {
+      "name": "E-commerce 플랫폼",
+      "description": "디지털화를 원하는 지역 상점을 위한 완벽한 솔루션입니다."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "전문성",
+      "description": "여러 해의 경험"
+    },
+    "satisfaction": {
+      "label": "만족도",
+      "description": "만족한 고객들"
+    },
+    "average-time": {
+      "label": "평균 소요 시간",
+      "description": "완료까지 몇 주"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Yerel uzmanlık mevcut değil",
+      "description": "Bu şehir için özel bir uzmanlığımız henüz yok."
+    }
+  },
+  "breadcrumb": {
+    "home": "Anasayfa",
+    "local-expertise": "Yerel uzmanlık"
+  },
+  "challenges": {
+    "title": "{city}deki işletmeler için dijital zorluklar",
+    "description": "{city}deki işletmeler dijital dönüşümde belirli zorluklarla karşılaşıyor. Uzmanlığımız bu zorlukları etkili bir şekilde ele almamızı sağlıyor.",
+    "market-issues": "{region} pazar zorlukları",
+    "our-solutions": "Özel çözümlerimiz",
+    "discover-all-services": "Tüm hizmetlerimizi keşfedin"
+  },
+  "faq": {
+    "title": "{city}deki web projeleri hakkında sıkça sorulan sorular",
+    "description": "{city}deki işletmelerin dijital projeleriyle ilgili en yaygın soruların cevaplarını bulun.",
+    "questions": {
+      "choose-agency": {
+        "question": "{city}de doğru web ajansını nasıl seçebilirim?",
+        "answer": "{city}de doğru web ajansını seçerken yerel pazar bilgilerini, sektörünüzdeki portföylerini ve özel hedeflerinizi anlama yeteneklerini değerlendirmeniz gerekiyor. {region} bölgesine özgü dijital zorluklar konusundaki uzmanlık da önemli bir faktör."
+      },
+      "project-costs": {
+        "question": "{city}de bir web projesinin maliyetleri nedir?",
+        "answer": "{city}de bir web projesinin maliyetleri karmaşıklığa, özelliklere ve hedeflere bağlı olarak değişiyor. Profesyonel bir vitrin websitesi için yaklaşık €3,000 ile €8,000 arasında bir maliyet bekleyebilirsiniz. Özel bir web uygulaması veya e-ticaret için fiyatlar genellikle €10,000'dan başlıyor. Doğru bir tahmin için kişiselleştirilmiş bir teklif isteyin."
+      },
+      "development-time": {
+        "question": "{city}deki işletmem için bir web sitesi veya uygulama geliştirmek ne kadar sürer?",
+        "answer": "{city}de bir işletme için geliştirme süreleri proje karmaşıklığına bağlı. Bir vitrin web sitesi 4-8 hafta içinde tamamlanabilir, özel bir uygulama veya e-ticaret ise genellikle 2-4 ay sürer. Hızlı teslimatlar yapmamızı sağlayan çevik metodolojimiz sayesinde ilerlemeyi hızlı bir şekilde görebilirsiniz."
+      },
+      "remote-work": {
+        "question": "{city}deki işletmemle uzaktan etkili bir şekilde çalışabilir misiniz?",
+        "answer": "Kesinlikle. {city}deki işletmelerle kanıtlanmış uzaktan çalışma metodolojimizle etkili bir şekilde iş birliği yapıyoruz. Düzenli video konferanslar, güçlü iş birliği araçları ve yerel {region} pazarındaki derin bilgimizle, yerinde bir ekip kadar etkili bir takip sağlıyoruz."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "{city}deki müşterilerimiz ne diyor",
+    "description": "Beraber çalıştığımız yerel işletmelerin geri bildirimlerini keşfedin."
+  }
+}

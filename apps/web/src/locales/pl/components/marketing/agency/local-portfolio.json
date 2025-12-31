@@ -1,0 +1,24 @@
+{
+  "project": {
+    "market-application": "Aplikacja na rynek {region}",
+    "expertise-featured": "Nasze doświadczenie w tym projekcie pozwoliło nam rozwinąć ekspertyzę szczególnie przydatną w sektorze nowych technologii w regionie {region}.",
+    "expertise-digital": "Nasze doświadczenie w tym projekcie pozwoliło nam rozwinąć ekspertyzę szczególnie przydatną w sektorze handlu cyfrowego w regionie {region}.",
+    "skills-featured": "Umiejętności i technologie użyte w tym projekcie są bezpośrednio transferowalne do potrzeb firm w {name}, szczególnie w zakresie otwartej innowacji.",
+    "skills-digital": "Umiejętności i technologie użyte w tym projekcie są bezpośrednio transferowalne do potrzeb firm w {name}, szczególnie w zakresie transformacji cyfrowej.",
+    "view-project": "Zobacz projekt"
+  },
+  "tags": {
+    "featured": "Projekt wyróżniony",
+    "open-source": "Open Source",
+    "customer": "Projekt dla klienta"
+  },
+  "section": {
+    "title": "Nasza ekspertyza zastosowana w projektach w {name}",
+    "description": "Poznaj niektóre z naszych osiągnięć, które ilustrują nasze umiejętności, przydatne w cyfrowych wyzwaniach firm w regionie {region}."
+  },
+  "cta": {
+    "title": "Cyfrowy projekt dla twojej firmy w {name}?",
+    "description": "Nasza ekspertyza jest przydatna we wszystkich sektorach, z szczególnym uwzględnieniem specyfiki rynku {region}.",
+    "button": "Porozmawiajmy o twoim projekcie"
+  }
+}

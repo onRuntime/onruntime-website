@@ -1,0 +1,80 @@
+{
+  "name": "WordPress",
+  "description": "Desenvolvimento de sites WordPress personalizados",
+  "hero": {
+    "title": "Desenvolvimento WordPress Personalizado",
+    "description": "Crie um site profissional que te represente com WordPress. Nossa experiência garante um site de alto desempenho e seguro, perfeitamente adaptado às suas necessidades."
+  },
+  "features": {
+    "custom-themes": {
+      "title": "Temas personalizados",
+      "description": "Criação de temas personalizados que refletem sua identidade e atendem exatamente às suas necessidades."
+    },
+    "optimized-performance": {
+      "title": "Desempenho otimizado",
+      "description": "Otimização avançada para garantir tempos de carregamento rápidos e uma experiência de usuário suave."
+    },
+    "enhanced-security": {
+      "title": "Segurança aprimorada",
+      "description": "Implementação das melhores práticas de segurança para proteger seu site e seus dados."
+    },
+    "simplified-administration": {
+      "title": "Administração simplificada",
+      "description": "Interface administrativa personalizada e intuitiva para fácil gerenciamento de conteúdo."
+    }
+  },
+  "benefits": {
+    "intuitive-administration": {
+      "title": "Administração intuitiva",
+      "description": "Interface de gerenciamento simples e intuitiva para administrar seu conteúdo de forma independente."
+    },
+    "seo-optimized": {
+      "title": "Otimizado para SEO",
+      "description": "Estrutura otimizada para busca natural e ferramentas de SEO integradas."
+    },
+    "powerful-extensions": {
+      "title": "Extensões poderosas",
+      "description": "Acesso a milhares de plugins para ampliar a funcionalidade do seu site."
+    },
+    "maximum-performance": {
+      "title": "Desempenho máximo",
+      "description": "Otimização de desempenho avançada para uma experiência do usuário ideal."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Quanto tempo leva para criar um site WordPress?",
+      "answer": "O tempo médio para criar um site WordPress varia de 4 a 12 semanas, dependendo da complexidade do projeto. Isso inclui a fase de design, desenvolvimento de tema personalizado, integração de conteúdo e testes."
+    },
+    "migration": {
+      "question": "Você pode migrar meu site existente para WordPress?",
+      "answer": "Sim, oferecemos um serviço completo de migração para WordPress, incluindo transferência de conteúdo, imagens e recursos, preservando seu SEO."
+    },
+    "maintenance-updates": {
+      "question": "Como você lida com manutenção e atualizações?",
+      "answer": "Oferecemos diferentes planos de manutenção, incluindo atualizações de segurança, backups regulares, atualizações do WordPress e plugins, além de monitoramento de desempenho."
+    },
+    "mobile-optimization": {
+      "question": "Meu site será otimizado para dispositivos móveis?",
+      "answer": "Com certeza. Todos os nossos desenvolvimentos WordPress são responsivos por padrão, garantindo uma experiência ideal em todos os dispositivos: computadores, tablets e smartphones."
+    },
+    "security-approach": {
+      "question": "Qual é a sua abordagem em relação à segurança?",
+      "answer": "Implementamos uma estratégia de segurança abrangente: autenticação forte, firewall de aplicação web, monitoramento de tentativas de intrusão, backups automatizados e atualizações regulares de segurança."
+    }
+  },
+  "complementary": {
+    "custom-development": {
+      "title": "Desenvolvimento personalizado",
+      "description": "Criação de recursos específicos para atender às suas necessidades particulares."
+    },
+    "digital-marketing": {
+      "title": "Marketing digital",
+      "description": "Estratégias de marketing adaptadas para aumentar sua visibilidade online."
+    },
+    "wordpress-training": {
+      "title": "Treinamento em WordPress",
+      "description": "Treinamento personalizado para dominar a gestão do seu site."
+    }
+  }
+}

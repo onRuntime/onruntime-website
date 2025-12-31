@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Servizio non trovato",
+      "description": "Questo servizio non esiste."
+    }
+  },
+  "features": {
+    "title": "Eccellenza in {service}",
+    "description": "La nostra esperienza in {service} ti garantisce soluzioni professionali e ad alte prestazioni."
+  },
+  "benefits": {
+    "title": "Servizio {service} professionale",
+    "description": "Scopri i vantaggi di un servizio {service} professionale."
+  },
+  "testimonials": {
+    "title": "Loro si fidano di noi",
+    "description": "Scopri il feedback dei nostri clienti sui loro progetti {service}."
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "description": "Tutto quello che devi sapere sul nostro servizio {service}."
+  },
+  "complementary": {
+    "title": "Servizi complementari",
+    "description": "Ottimizza il tuo progetto {service} con i nostri servizi aggiuntivi."
+  }
+}

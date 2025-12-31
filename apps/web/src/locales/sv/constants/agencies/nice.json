@@ -1,0 +1,79 @@
+{
+  "title": "Webbutveckling i Nice | Digitala lösningar för företag på Côte d'Azur",
+  "description": "Skapa din webbplats eller mobilapplikation i Nice. Skräddarsydda digitala lösningar för företag på Côte d'Azur, anpassade till de lokala utmaningarna i din sektor.",
+  "hero": {
+    "title": "Web & Mobilutveckling i Nice",
+    "description": "Vi hjälper företag i Nice och den franska rivieran att digitalisera med skräddarsydda webblösningar, perfekt anpassade till de specifika utmaningarna på den azurblå marknaden."
+  },
+  "intro": "Mellan Medelhavet och Alperna drar Nice nytta av internationellt inflytande och en diversifierad ekonomi där turism möter innovation. Vår digitala kompetens gör att företag i Nice kan sticka ut i en konkurrensutsatt miljö där image och kvalitet är avgörande.",
+  "expertise": "Vårt team designar webbplatser, applikationer och e-handelslösningar perfekt anpassade till företag i Nice och den franska rivieran. Vi förstår de höga krav som ställs på din lokala marknad och erbjuder digitala lösningar som förstärker det premium-läge som är typiskt för regionen.",
+  "why-choose-us": "Vår djupa kunskap om den azurblå marknaden gör att vi kan utveckla digitala lösningar perfekt anpassade till de specifika utmaningarna för lokala företag. Vi förstår den internationella dimensionen av Nice och dess rykte för kvalitet, och vi integrerar dessa aspekter i varje projekt för att skapa förfinade och högpresterande digitala upplevelser.",
+  "key-business-sectors": {
+    "luxury-tourism": "Lyxig turism",
+    "real-estate": "Fastigheter",
+    "events": "Evenemang",
+    "health-wellness": "Hälsa & Välbefinnande"
+  },
+  "local-challenges": {
+    "luxury-tourism-digitalization": "Digitalisering av den högklassiga turistsektorn på den franska rivieran",
+    "innovative-real-estate-solutions": "Behov av innovativa fastighetslösningar för en krävande internationell marknad",
+    "events-digital-showcase": "Digital vitrin för evenemang (festivaler, konferenser, utställningar)",
+    "health-wellness-transformation": "Digital transformation av hälsa- och välbefinnandesektorn i en region känd för livskvalitet"
+  },
+  "benefits": {
+    "international-clientele-solutions": "Skräddarsydda lösningar anpassade till en krävande internationell kundkrets",
+    "premium-interfaces-expertise": "Skarp kompetens inom premiumgränssnitt och användarupplevelse",
+    "azurean-market-knowledge": "Djup kunskap om den azurblå marknaden och dess specifikationer",
+    "multilingual-applications": "Flerspråkiga applikationer anpassade till den internationella kundkretsen på den franska rivieran",
+    "personalized-support": "Personligt stöd genom hela ditt digitala projekt"
+  },
+  "primary-stat": {
+    "label": "Lyxig turism"
+  },
+  "strengths": {
+    "premium-experience": {
+      "title": "Premiumupplevelse",
+      "description": "Högklassiga webbplatser och applikationer för lyxturism och gästfrihet."
+    },
+    "digital-real-estate": {
+      "title": "Digitala fastigheter",
+      "description": "Innovativa lösningar för fastighetsbyråer och utvecklare."
+    },
+    "event-platforms": {
+      "title": "Evenemangsplattformar",
+      "description": "Webbplatser och applikationer för festivaler, konferenser och prestigefyllda evenemang."
+    },
+    "connected-wellness": {
+      "title": "Ansluten hälsa",
+      "description": "Digitala lösningar för kliniker, spa och wellnesscenter."
+    }
+  },
+  "focused-services": {
+    "premium-websites": {
+      "name": "Premiumwebbplatser",
+      "description": "Högklassiga digitala skyltfönster för hotell, restauranger och lyxboutiquer."
+    },
+    "real-estate-applications": {
+      "name": "Fastighetsapplikationer",
+      "description": "Skräddarsydda lösningar för att presentera och förvalta exceptionella fastigheter."
+    },
+    "visual-identity": {
+      "name": "Visuell identitet",
+      "description": "Elegant och raffinerad UI/UX-design för prestigefyllda varumärken och anläggningar."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertis",
+      "description": "År av erfarenhet"
+    },
+    "satisfaction": {
+      "label": "Tillfredsställelse",
+      "description": "Nöjda kunder"
+    },
+    "average-time": {
+      "label": "Genomsnittlig tid",
+      "description": "Veckor till färdigställande"
+    }
+  }
+}

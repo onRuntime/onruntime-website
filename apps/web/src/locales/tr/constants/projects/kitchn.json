@@ -1,0 +1,82 @@
+{
+  "short-description": "Modern, performanslı ve son derece özelleştirilebilir bir React ve React Native bileşen kütüphanesi, Geist UI ve Vercel Tasarımından ilham almıştır.",
+  "description": "Tutarlı ve şık kullanıcı arayüzleri yaratmak için tasarlanmış tamamlanmış tasarlanmış bileşenler seti, Tonight Pass tarafından korunmaktadır.",
+  "long-description": "Kitchn, modern web ve mobil uygulamaların geliştirilmesini hızlandıran kapsamlı bir UI bileşen kütüphanesidir.\n\nGeist UI ve Vercel Tasarımından ilham alarak, minimalist yaklaşımı ve kullanım kolaylığı ile dikkat çekiyor. Stilize edilmiş bileşenler ve TypeScript ile oluşturulmuş optimize edilmiş bir bileşen koleksiyonu sunuyor.\n\nHer bir bileşen modüler, performanslı ve yüksek derecede özelleştirilebilir olacak şekilde tasarlandı. Böylece geliştirme ekipleri, mükemmel bir geliştirici deneyimi sağlarken tutarlı kullanıcı arayüzleri hızlı bir şekilde oluşturmaya imkan tanıyor.",
+  "features": {
+    "modular-architecture": {
+      "title": "Modüler Mimari",
+      "description": "Birlikte uyum içinde çalışmak için tasarlanmış bağımsız ve yeniden kullanılabilir bileşenler"
+    },
+    "flexible-themes": {
+      "title": "Esnek Temalar",
+      "description": "Genişletilebilir tema sistemi ile hafif ve karanlık modlar için tam destek"
+    },
+    "cross-platform": {
+      "title": "Çapraz Platform",
+      "description": "Tüm platformlar arasında tutarlı bir deneyim için React ve React Native için yerel destek"
+    },
+    "interactive-docs": {
+      "title": "Etkileşimli Belgeler",
+      "description": "Hızlı bir şekilde alışmak için örnekler ve oyun alanı ile kapsamlı belgeler"
+    }
+  },
+  "technologies": {
+    "styled-components": {
+      "description": "CSS-in-JS stilleri"
+    },
+    "react": {
+      "description": "Web UI kütüphanesi"
+    },
+    "react-native": {
+      "description": "Yerel mobil bileşenler"
+    },
+    "typescript": {
+      "description": "Tip güvenliği ve otomatik tamamlama"
+    },
+    "storybook": {
+      "description": "Etkileşimli belgeler"
+    }
+  },
+  "metrics": {
+    "components": {
+      "value": "35+",
+      "label": "Bileşenler",
+      "description": "Yeniden kullanılabilir UI bileşenleri"
+    },
+    "downloads": {
+      "value": "20k+",
+      "label": "İndirmeler",
+      "description": "Aylık indirmeler"
+    },
+    "github-stars": {
+      "value": "50+",
+      "label": "GitHub Yıldızları",
+      "description": "GitHub'daki yıldızlar"
+    }
+  },
+  "screenshots": {
+    "responsive": {
+      "caption": "Hareketli bileşenler"
+    },
+    "themable": {
+      "caption": "Özelleştirilebilir temalar"
+    }
+  },
+  "challenges": {
+    "visual-consistency": "Web ve mobil platformlar arasında mükemmel görsel tutarlılığı sağlamak",
+    "bundle-optimization": "Özellik zenginliğini korurken paket boyutunu optimize etmek",
+    "react-compatibility": "Farklı React sürümleriyle uyumluluğu sağlamak",
+    "backward-compatibility": "Güncellemelerde geriye dönük uyumluluğu garanti etmek"
+  },
+  "learnings": {
+    "clear-documentation": "Açık ve detaylı belgelemenin kritik önemi",
+    "modular-architecture": "Bakım için modüler mimariye ihtiyaç",
+    "automated-testing": "Güvenilirlik için otomatik testlerin önemi",
+    "developer-experience": "Geliştirici deneyiminin benimseme üzerindeki etkisi"
+  },
+  "future-plans": {
+    "component-library-expansion": "Bileşen kütüphanesini zenginleştirmek",
+    "performance-optimization": "Sürekli performans optimizasyonları",
+    "framework-compatibility": "Modern çerçevelerle uyumluluğu genişletmek"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Rozwój front-endu",
+  "description": "Tworzenie wydajnych aplikacji webowych i mobilnych",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Skalowalna architektura",
+      "description": "Aplikacje budowane na nowoczesnych i skalowalnych architekturach, gotowe na rozwój twojego projektu."
+    },
+    "optimal-performance": {
+      "title": "Optymalna wydajność",
+      "description": "Skup się na wydajności dzięki zaawansowanej optymalizacji i technikom cachowania."
+    },
+    "maintainable-code": {
+      "title": "Łatwy w utrzymaniu kod",
+      "description": "Czysta i modularna architektura, która umożliwia łatwe utrzymanie i szybkie iteracje."
+    },
+    "enhanced-security": {
+      "title": "Zwiększone bezpieczeństwo",
+      "description": "Wdrożenie najlepszych praktyk bezpieczeństwa front-end, aby chronić twoich użytkowników."
+    }
+  },
+  "process": {
+    "technical-architecture": {
+      "title": "Architektura techniczna",
+      "description": "Definicja architektury front-end, wybór technologii i konfiguracja środowiska rozwoju."
+    },
+    "project-setup": {
+      "title": "Konfiguracja projektu",
+      "description": "Konfiguracja projektu z najlepszymi praktykami rozwoju, testowaniem i ciągłym wdrażaniem."
+    },
+    "feature-development": {
+      "title": "Rozwój funkcjonalności",
+      "description": "Implementacja funkcji z naciskiem na jakość kodu i wydajność."
+    },
+    "state-management": {
+      "title": "Zarządzanie stanem",
+      "description": "Ustawienie solidnego i wydajnego zarządzania stanem dla danych aplikacji."
+    },
+    "testing-quality": {
+      "title": "Testowanie i jakość",
+      "description": "Wdrożenie automatycznych testów i procesów zapewniania jakości."
+    },
+    "optimization-monitoring": {
+      "title": "Optymalizacja i monitorowanie",
+      "description": "Ustawienie narzędzi do optymalizacji wydajności i monitorowania."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Shopify",
+  "description": "Shopify 온라인 스토어의 생성 및 커스터마이징",
+  "hero": {
+    "title": "Shopify로 당신의 온라인 스토어를 만들어보세요",
+    "description": "우리의 Shopify 전문 지식으로 당신의 전자상거래 비전을 현실로 바꿔보세요. 우리는 성능이 높고, 미적인 매력을 갖춘 전환 최적화 온라인 스토어를 만듭니다."
+  },
+  "features": {
+    "custom-design": {
+      "title": "맞춤형 디자인",
+      "description": "브랜드를 반영하고 사용자 경험을 최적화하는 독특한 테마를 만듭니다."
+    },
+    "conversion-optimization": {
+      "title": "전환 최적화",
+      "description": "최고의 관행을 적용해 판매를 극대화하고 고객을 유지합니다."
+    },
+    "enhanced-security": {
+      "title": "강화된 보안",
+      "description": "최신 보안 기준으로 당신의 데이터와 고객의 데이터를 보호합니다."
+    },
+    "advanced-integrations": {
+      "title": "고급 통합",
+      "description": "재고 관리, 회계 및 마케팅을 위한 좋아하는 도구와 연결합니다."
+    }
+  },
+  "benefits": {
+    "secure-payments": {
+      "title": "안전한 결제",
+      "description": "주요 결제 방식 통합과 안전한 거래 관리를 제공합니다."
+    },
+    "international-by-default": {
+      "title": "기본적으로 국제적",
+      "description": "다중 통화 관리와 자동 번역으로 전 세계에서 판매하세요."
+    },
+    "powerful-analytics": {
+      "title": "강력한 분석",
+      "description": "당신의 성과를 상세하게 추적하고 판매 최적화를 위한 통찰력을 제공합니다."
+    },
+    "simplified-logistics": {
+      "title": "간소화된 물류",
+      "description": "효율적인 주문 관리와 주요 운송업체와의 통합."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Shopify 스토어를 만드는 데 얼마나 걸리나요?",
+      "answer": "Shopify 스토어를 만드는 데 평균 4주에서 8주가 걸리며, 프로젝트의 복잡성에 따라 다릅니다. 여기에는 디자인 단계, 개발, 제품 통합 및 테스트가 포함됩니다."
+    },
+    "migration": {
+      "question": "기존 스토어를 Shopify로 이전할 수 있나요?",
+      "answer": "네, 기존 스토어에서 Shopify로 제품, 고객 및 주문의 이전을 포함한 완전한 마이그레이션 서비스를 제공합니다. 원활한 전환을 보장합니다."
+    },
+    "customization-types": {
+      "question": "어떤 종류의 커스터마이징을 제공하나요?",
+      "answer": "Shopify 스토어의 전체 커스터마이징을 제공합니다: 맞춤형 디자인, 맞춤형 기능, 특정 통합 및 모바일 최적화."
+    },
+    "post-launch-support": {
+      "question": "출시 후 지원을 제공하나요?",
+      "answer": "네, 출시에 따른 원활한 운영을 보장하기 위해 업데이트, 최적화 및 기술 지원을 포함한 몇 가지 지원 및 유지 보수 계획을 제공합니다."
+    },
+    "security": {
+      "question": "제 스토어의 보안을 어떻게 보장하나요?",
+      "answer": "우리는 SSL, PCI DSS 준수, 정기적인 백업 및 사기 방지 등 보안 최선의 관행을 구현합니다. Shopify는 모든 거래에 대해 은행 수준의 보안을 제공합니다."
+    }
+  },
+  "complementary": {
+    "seo": {
+      "title": "SEO",
+      "description": "가시성을 높이기 위한 검색 엔진 최적화."
+    },
+    "digital-marketing": {
+      "title": "디지털 마케팅",
+      "description": "더 많은 고객을 유치하고 전환하기 위해 맞춤형 마케팅 전략을 제공합니다."
+    },
+    "training": {
+      "title": "교육",
+      "description": "스토어를 독립적으로 관리할 수 있도록 완전한 교육을 제공합니다."
+    }
+  }
+}

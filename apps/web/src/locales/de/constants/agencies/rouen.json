@@ -1,0 +1,79 @@
+{
+  "title": "Webentwicklung in Rouen | Digitale Lösungen für Unternehmen in der Normandie",
+  "description": "Erstelle deine Website oder mobile Anwendung in Rouen. Maßgeschneiderte digitale Lösungen für Unternehmen in der Normandie, angepasst an die lokalen Herausforderungen deiner Branche.",
+  "hero": {
+    "title": "Web- & Mobile-Entwicklung in Rouen",
+    "description": "Wir helfen Unternehmen in Rouen und der Normandie, sich mit maßgeschneiderten Weblösungen zu digitalisieren, die perfekt auf die spezifischen Herausforderungen des Marktes in der Normandie abgestimmt sind."
+  },
+  "intro": "Das wirtschaftliche Gefüge der Normandie bringt spezifische digitale Herausforderungen mit sich, die wir gelernt haben zu meistern. Zwischen der verarbeitenden Industrie, dem Agrarsektor und der Flusslogistik schaffen wir digitale Lösungen, die den genauen Bedürfnissen der Unternehmen in Rouen entsprechen.",
+  "expertise": "Unser Team entwickelt Websites, Anwendungen und E-Commerce-Lösungen, die perfekt auf die Unternehmen in Rouen und der Region abgestimmt sind. Wir verstehen die Herausforderungen deines Marktes und bieten digitale Lösungen, die dir helfen, herauszustechen und dein Geschäft auszubauen.",
+  "why-choose-us": "Unser tiefes Wissen über den Markt in der Normandie erlaubt es uns, digitale Lösungen zu entwickeln, die perfekt auf die spezifischen Herausforderungen lokaler Unternehmen abgestimmt sind. Im Gegensatz zu Pariser Agenturen verstehen wir die Feinheiten des wirtschaftlichen Gefüges von Rouen und bieten maßgeschneiderte Lösungen zu einem vorteilhaften Preis-Leistungs-Verhältnis.",
+  "key-business-sectors": {
+    "industry": "Industrie",
+    "agrifood": "Agrarwirtschaft",
+    "logistics": "Logistik",
+    "local-commerce": "Lokaler Handel"
+  },
+  "local-challenges": {
+    "traditional-industries-digitalization": "Digitalisierung traditioneller Unternehmen in der Normandie, die mit internationaler Konkurrenz konfrontiert sind",
+    "logistics-optimization": "Optimierung der Fluss- und Hafenlogistik durch innovative digitale Lösungen",
+    "local-ecommerce-needs": "Bedarf an E-Commerce-Lösungen, die auf lokale Produzenten und Handwerker abgestimmt sind",
+    "sme-digital-transition": "Digitale Transformation von KMUs in der Normandie mit kontrollierten Budgets"
+  },
+  "benefits": {
+    "normandy-specific-solutions": "Maßgeschneiderte Lösungen, die auf die Besonderheiten der Unternehmen in der Normandie abgestimmt sind",
+    "industrial-agrifood-expertise": "Spitzenexpertise in regionalen Industrie- und Agrarbereichen",
+    "competitive-pricing": "Wettbewerbsfähige Preise im Vergleich zu Pariser Agenturen",
+    "seine-logistics-knowledge": "Umfassendes Wissen über logistische Herausforderungen im Zusammenhang mit der Seine-Achse",
+    "personalized-support": "Personalisierte Unterstützung während deines gesamten digitalen Projekts"
+  },
+  "primary-stat": {
+    "label": "Industriesektor"
+  },
+  "strengths": {
+    "industrial-websites": {
+      "title": "Industrie-Websites",
+      "description": "Hochleistungsfähige Seiten, die für Unternehmen der Normandie angepasst sind."
+    },
+    "local-ecommerce": {
+      "title": "Lokaler E-Commerce",
+      "description": "Online-Verkaufslösungen für lokale Produzenten und Handwerker."
+    },
+    "business-applications": {
+      "title": "Geschäftsanwendungen",
+      "description": "Maßgeschneiderte digitale Tools zur Optimierung deiner Prozesse."
+    },
+    "sme-digitalization": {
+      "title": "Digitalisierung von KMUs",
+      "description": "Umfassende Unterstützung bei deiner digitalen Transformation."
+    }
+  },
+  "focused-services": {
+    "professional-websites": {
+      "name": "Professionelle Websites",
+      "description": "Hochleistungsfähige digitale Schaufenster, optimiert für lokales SEO in Rouen."
+    },
+    "regional-ecommerce": {
+      "name": "Regionaler E-Commerce",
+      "description": "Online-Shops, die auf Produzenten und Händler in der Normandie zugeschnitten sind."
+    },
+    "business-applications": {
+      "name": "Geschäftsanwendungen",
+      "description": "Maßgeschneiderte Software für regionale Industrie und Logistik."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Jahre an Erfahrung"
+    },
+    "satisfaction": {
+      "label": "Zufriedenheit",
+      "description": "Zufriedene Kunden"
+    },
+    "average-time": {
+      "label": "Durchschnittliche Dauer",
+      "description": "Wochen bis zur Fertigstellung"
+    }
+  }
+}

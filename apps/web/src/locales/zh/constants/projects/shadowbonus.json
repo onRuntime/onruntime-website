@@ -1,0 +1,75 @@
+{
+  "short-description": "专为在线赌场奖金和开箱而设的流媒体播主联盟平台。",
+  "description": "这是一个为流媒体播主vitapvp开发的联盟网站，展示了合作伙伴赌场的最佳奖金和福利，并链接至联盟链接。",
+  "long-description": "ShadowBonus是一个为流媒体播主vitapvp开发的联盟平台，旨在清晰而有吸引力地呈现来自合作伙伴在线赌场的最佳奖金和福利。\n\n该项目专注于基本要素：清晰的界面突显合作伙伴的优惠，并促进转化为联盟链接。使用React和styled-components开发，该网站优先考虑易用性和转化效率。\n\n我们的办法是专注于流畅的用户体验，让vitapvp的观众能快速发现最佳的可用优惠，并方便地访问合作伙伴平台。",
+  "features": {
+    "partner-showcase": {
+      "title": "合作伙伴展示",
+      "description": "清晰而有吸引力的流媒体播主合作赌场和平台的展示"
+    },
+    "bonus-comparison": {
+      "title": "奖金比较",
+      "description": "突显观众可享受的最佳奖金和福利"
+    },
+    "affiliate-redirect": {
+      "title": "联盟重定向",
+      "description": "优化的联盟链接重定向系统"
+    },
+    "responsive-interface": {
+      "title": "响应式界面",
+      "description": "适配设计以提供最佳的设备体验"
+    }
+  },
+  "technologies": {
+    "react": {
+      "description": "用户界面的JavaScript库"
+    },
+    "styled-components": {
+      "description": "现代化的CSS-in-JS样式方法"
+    },
+    "cloudflare": {
+      "description": "托管和持续部署"
+    }
+  },
+  "metrics": {
+    "weekly-visits": {
+      "value": "1500+",
+      "label": "每周访问量",
+      "description": "2021年7月启动时"
+    },
+    "dev-time": {
+      "value": "2个月",
+      "label": "开发时间",
+      "description": "快速而高效的交付"
+    },
+    "team-size": {
+      "value": "3人",
+      "label": "团队",
+      "description": "小而灵活的团队"
+    }
+  },
+  "screenshots": {
+    "homepage": {
+      "caption": "展示合作伙伴优惠的主页"
+    },
+    "partners": {
+      "caption": "合作伙伴赌场和平台部分"
+    }
+  },
+  "challenges": {
+    "attractive-interface": "创建吸引人的界面以突出合作伙伴优惠",
+    "conversion-optimization": "优化向联盟链接的转化率",
+    "simple-react-solution": "开发简单但有效的React解决方案",
+    "cross-device-experience": "确保所有设备上的流畅用户体验"
+  },
+  "learnings": {
+    "affiliate-simplicity": "联盟项目中简单性的重要性",
+    "streamer-conversion": "为流媒体播主优化转化流程",
+    "react-styled-components": "使用React和styled-components快速高效的开发",
+    "gaming-streaming-needs": "适应游戏直播领域的特定需求"
+  },
+  "future-plans": {
+    "client-transfer": "项目已转移给客户进行维护",
+    "streamer-evolutions": "根据流媒体播主的需求可能会有演变"
+  }
+}

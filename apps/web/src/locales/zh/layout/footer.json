@@ -1,0 +1,25 @@
+{
+  "tagline": "一个跨越全球的创意工作室.",
+  "location": "但你可以在<strong>鲁昂</strong>和<strong>巴黎</strong>找到我们.",
+  "nav": {
+    "navigation": "导航",
+    "resources": "资源",
+    "other": "其它",
+    "social": "社交媒体"
+  },
+  "links": {
+    "services": "我们的服务",
+    "projects": "我们的项目",
+    "npo": "协会",
+    "careers": "职业机会",
+    "blog": "博客",
+    "glossary": "术语表",
+    "community": "社区",
+    "status": "状态",
+    "contact": "联系",
+    "terms": "服务条款",
+    "privacy": "隐私政策",
+    "company": "公司详情"
+  },
+  "status": "所有服务均正常运行"
+}

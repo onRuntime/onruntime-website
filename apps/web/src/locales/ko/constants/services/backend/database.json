@@ -1,0 +1,80 @@
+{
+  "name": "데이터베이스",
+  "description": "데이터베이스 아키텍처 및 최적화",
+  "hero": {
+    "title": "데이터베이스 아키텍처",
+    "description": "성능을 극대화하고 확장성을 극대화하기 위해 데이터베이스를 설계하고 최적화해요. 우리의 전문성은 현재와 미래의 요구를 충족하는 강력한 아키텍처를 보장해요."
+  },
+  "features": {
+    "optimized-architecture": {
+      "title": "최적화된 아키텍처",
+      "description": "최적의 성능을 위한 스키마와 관계의 지능형 설계에요."
+    },
+    "enhanced-security": {
+      "title": "강화된 보안",
+      "description": "민감한 데이터의 강력한 보호와 기준 준수에요."
+    },
+    "high-performance": {
+      "title": "높은 성능",
+      "description": "최소 응답 시간을 위한 쿼리 및 인덱스 최적화에요."
+    },
+    "backup-recovery": {
+      "title": "백업 & 복구",
+      "description": "신뢰할 수 있는 백업 및 복원 전략이에요."
+    }
+  },
+  "benefits": {
+    "horizontal-scalability": {
+      "title": "수평 확장성",
+      "description": "성장과 확장을 위해 설계된 아키텍처에요."
+    },
+    "replication": {
+      "title": "복제",
+      "description": "데이터의 고가용성과 지리적 분산이에요."
+    },
+    "advanced-monitoring": {
+      "title": "고급 모니터링",
+      "description": "성능과 상태를 실시간으로 추적해요."
+    },
+    "optimized-search": {
+      "title": "최적화된 검색",
+      "description": "빠른 검색을 위한 지능형 인덱싱이에요."
+    }
+  },
+  "faq": {
+    "sql-vs-nosql": {
+      "question": "SQL과 NoSQL 중 어떻게 선택하나요?",
+      "answer": "선택은 특정 요구 사항에 따라 달라요. SQL 데이터베이스는 복잡한 관계를 가진 구조화된 데이터에 적합하고, NoSQL은 비구조화된 데이터와 수평 확장 처리에 뛰어나요. 우리는 사용 사례에 따라 최적의 솔루션으로 안내해요."
+    },
+    "data-security": {
+      "question": "데이터 보안은 어떻게 처리하나요?",
+      "answer": "우리는 여러 보안 계층을 구현해요: 민감한 데이터 암호화, 세분화된 접근 제어, 접근 감사, 정기적인 백업, 그리고 보안 기준(GDPR 등)에 대한 준수에요. 정기적인 보안 테스트도 수행해요."
+    },
+    "performance-optimization": {
+      "question": "성능을 어떻게 최적화하나요?",
+      "answer": "우리는 여러 기술을 사용해요: 스키마 및 쿼리 최적화, 지능형 인덱싱, 캐싱, 데이터 파티셔닝, 그리고 지속적인 모니터링이에요. 최적화 기회를 식별하기 위해 성능을 정기적으로 분석해요."
+    },
+    "migration-services": {
+      "question": "마이그레이션 서비스를 제공하나요?",
+      "answer": "네, 우리는 데이터베이스 마이그레이션을 전반적으로 처리해요: 기존 시스템 분석, 계획, 테스트, 최소한의 중단으로 데이터 마이그레이션, 그리고 마이그레이션 후 검증이에요. 데이터의 일관성 및 무결성을 보장해요."
+    },
+    "data-availability": {
+      "question": "데이터 가용성을 어떻게 보장하나요?",
+      "answer": "우리는 복제, 클러스터링, 그리고 재해 복구 계획을 갖춘 고가용성 아키텍처를 구축해요. 우리는 정기적으로 백업을 수행하고 복원 절차를 테스트해요."
+    }
+  },
+  "complementary": {
+    "data-migration": {
+      "title": "데이터 마이그레이션",
+      "description": "기존 시스템에서 안전하게 전송해요."
+    },
+    "audit-optimization": {
+      "title": "감사 & 최적화",
+      "description": "성능 분석 및 권장 사항이에요."
+    },
+    "monitoring-24-7": {
+      "title": "24/7 모니터링",
+      "description": "지속적인 감시와 실시간 알림이에요."
+    }
+  }
+}

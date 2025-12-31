@@ -1,0 +1,13 @@
+{
+  "title": "Un equipo de creativos apasionados para brillar.",
+  "description": "Compuesto por talentos variados, desde desarrolladores hasta diseñadores apasionados. Cada uno aporta su toque único a nuestros proyectos. Juntos, formamos un colectivo donde la innovación está en el corazón de todo lo que hacemos.",
+  "stats": {
+    "experience": "Años de experiencia",
+    "projects": "Proyectos completos",
+    "clients": "Clientes satisfechos"
+  },
+  "cta": "Saber más",
+  "card": {
+    "details": "Detalles"
+  }
+}

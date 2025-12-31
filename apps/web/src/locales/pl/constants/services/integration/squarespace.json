@@ -1,0 +1,80 @@
+{
+  "name": "SquareSpace",
+  "description": "Integracja i dostosowywanie w SquareSpace",
+  "hero": {
+    "title": "Eleganckie strony internetowe z Squarespace",
+    "description": "Stwórz wyrafinowaną obecność w Internecie z Squarespace. Nasza wiedza gwarantuje estetyczną i funkcjonalną stronę, idealnie dopasowaną do wizerunku Twojej marki."
+  },
+  "features": {
+    "minimalist-design": {
+      "title": "Minimalistyczny design",
+      "description": "Tworzenie eleganckich i czystych stron, które eksponują Twoje treści i markę."
+    },
+    "smooth-experience": {
+      "title": "Płynne doświadczenie",
+      "description": "Intuicyjna nawigacja i optymalna wydajność, żeby zapewnić doskonałe wrażenia dla użytkowników."
+    },
+    "content-management": {
+      "title": "Zarządzanie treścią",
+      "description": "Prosty i intuicyjny interfejs administracyjny, dzięki któremu łatwo zarządzisz swoją treścią."
+    },
+    "media-integration": {
+      "title": "Integracja mediów",
+      "description": "Optymalne prezentowanie Twoich zdjęć i mediów z dynamicznymi galeriami."
+    }
+  },
+  "benefits": {
+    "professional-templates": {
+      "title": "Profesjonalne szablony",
+      "description": "Szeroki wybór nowoczesnych i dostosowywalnych szablonów dla wszystkich branż."
+    },
+    "integrated-ecommerce": {
+      "title": "Zintegrowany e-commerce",
+      "description": "Kompletne i dostosowywalne rozwiązania do sprzedaży online."
+    },
+    "optimal-performance": {
+      "title": "Optymalna wydajność",
+      "description": "Szybkie i bezpieczne strony hostowane na solidnej infrastrukturze."
+    },
+    "integrated-marketing": {
+      "title": "Zintegrowany marketing",
+      "description": "Narzędzia marketingowe i analiza statystyczna, żeby rozwijać Twoją działalność."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Jak długo trwa stworzenie strony Squarespace?",
+      "answer": "Średni czas na stworzenie strony Squarespace wynosi od 2 do 6 tygodni, w zależności od skomplikowania projektu. To obejmuje wybór i dostosowanie szablonu, integrację treści oraz testowanie."
+    },
+    "product-sales": {
+      "question": "Czy mogę sprzedawać produkty na mojej stronie Squarespace?",
+      "answer": "Tak, Squarespace oferuje pełne rozwiązanie e-commerce, które możemy skonfigurować, abyś mógł sprzedawać swoje produkty online, z zarządzaniem zapasami, bezpiecznymi płatnościami i opcjami wysyłki."
+    },
+    "content-updates": {
+      "question": "Czy łatwo jest aktualizować treści?",
+      "answer": "Absolutnie! Interfejs Squarespace jest bardzo intuicyjny. Szkolimy Cię jak z niego korzystać, żebyś mógł samodzielnie zarządzać swoją treścią."
+    },
+    "seo-optimization": {
+      "question": "Czy moja strona będzie zoptymalizowana pod kątem SEO?",
+      "answer": "Tak, wdrażamy najlepsze praktyki SEO Squarespace i konfigurujemy wszystkie niezbędne elementy, aby zoptymalizować Twoją widoczność w wyszukiwarkach."
+    },
+    "maintenance-service": {
+      "question": "Czy oferujecie usługę konserwacji?",
+      "answer": "Tak, oferujemy różne plany konserwacji, w tym aktualizacje, wsparcie techniczne i ciągłą optymalizację Twojej strony Squarespace."
+    }
+  },
+  "complementary": {
+    "advanced-customization": {
+      "title": "Zaawansowane dostosowywanie",
+      "description": "Modyfikacje CSS i Javascript, żeby dostosować Twoją stronę ponad standardowe opcje."
+    },
+    "content-strategy": {
+      "title": "Strategia treści",
+      "description": "Wsparcie w tworzeniu i optymalizacji Twoich treści."
+    },
+    "user-training": {
+      "title": "Szkolenie dla użytkowników",
+      "description": "Kompletne szkolenie, żeby opanować zarządzanie swoją stroną Squarespace."
+    }
+  }
+}

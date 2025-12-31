@@ -1,0 +1,79 @@
+{
+  "title": "니스의 웹 발전 | 코트다쥐르 비즈니스를 위한 디지털 솔루션",
+  "description": "니스에서 웹사이트나 모바일 애플리케이션을 만들어 보세요. 코트다쥐르 비즈니스를 위한 맞춤형 디지털 솔루션으로, 당신의 분야에 맞는 지역적인 도전에 적합하게 제작됩니다.",
+  "hero": {
+    "title": "니스의 웹 & 모바일 개발",
+    "description": "우리는 니스와 프렌치 리비에라의 비즈니스가 맞춤형 웹 솔루션으로 디지털화할 수 있도록 도와줍니다. 이를 통해 아쥬레안 시장의 특정한 도전에 완벽하게 적응할 수 있습니다."
+  },
+  "intro": "지중해와 알프스 사이에 있는 니스는 국제적인 영향력과 관광과 혁신이 만나는 다양한 경제 구조를 지니고 있습니다. 우리의 디지털 전문성은 니스 비즈니스가 이미지와 우수성이 매우 중요한 경쟁 환경에서 두드러질 수 있도록 돕습니다.",
+  "expertise": "우리 팀은 니스와 프렌치 리비에라의 비즈니스에 완벽하게 적응하는 웹사이트, 애플리케이션 및 전자상거래 솔루션을 설계합니다. 우리는 지역 시장의 높은 기준을 이해하고, 이 지역에 특화된 프리미엄 포지셔닝을 강화하는 디지털 솔루션을 제공합니다.",
+  "why-choose-us": "우리는 아쥬레안 시장에 대한 깊은 지식을 바탕으로 지역 비즈니스의 특정한 도전에 완벽하게 적합한 디지털 솔루션을 개발할 수 있습니다. 우리는 니스의 국제적인 차원과 그 뛰어난 명성을 이해하며, 이러한 요소들을 각 프로젝트에 통합해 세련되고 성능 좋은 디지털 경험을 만들어냅니다.",
+  "key-business-sectors": {
+    "luxury-tourism": "럭셔리 관광",
+    "real-estate": "부동산",
+    "events": "이벤트",
+    "health-wellness": "건강 & 웰빙"
+  },
+  "local-challenges": {
+    "luxury-tourism-digitalization": "프렌치 리비에라의 고급 관광 산업 디지털화",
+    "innovative-real-estate-solutions": "요구가 많은 국제 시장을 위한 혁신적인 부동산 솔루션 필요",
+    "events-digital-showcase": "이벤트(축제, 회의, 전시)의 디지털 전시",
+    "health-wellness-transformation": "삶의 질로 잘 알려진 지역에서 건강 및 웰빙 분야의 디지털 변화"
+  },
+  "benefits": {
+    "international-clientele-solutions": "요구가 많은 국제 고객에 적합한 맞춤형 솔루션",
+    "premium-interfaces-expertise": "프리미엄 인터페이스 및 사용자 경험에 대한 높은 전문성",
+    "azurean-market-knowledge": "아쥬레안 시장과 그 특성에 대한 깊은 지식",
+    "multilingual-applications": "프렌치 리비에라의 국제 고객에 맞춘 다국어 애플리케이션",
+    "personalized-support": "디지털 프로젝트 전반에 걸쳐 맞춤형 지원"
+  },
+  "primary-stat": {
+    "label": "럭셔리 관광"
+  },
+  "strengths": {
+    "premium-experience": {
+      "title": "프리미엄 경험",
+      "description": "럭셔리 관광과 환대를 위한 고급 사이트 및 애플리케이션."
+    },
+    "digital-real-estate": {
+      "title": "디지털 부동산",
+      "description": "부동산 에이전시 및 개발자를 위한 혁신적인 솔루션."
+    },
+    "event-platforms": {
+      "title": "이벤트 플랫폼",
+      "description": "축제, 회의 및 권위 있는 이벤트를 위한 사이트 및 애플리케이션."
+    },
+    "connected-wellness": {
+      "title": "연결된 웰빙",
+      "description": "클리닉, 스파 및 웰빙 센터를 위한 디지털 솔루션."
+    }
+  },
+  "focused-services": {
+    "premium-websites": {
+      "name": "프리미엄 웹사이트",
+      "description": "호텔, 레스토랑 및 럭셔리 부티크를 위한 고급 디지털 전시."
+    },
+    "real-estate-applications": {
+      "name": "부동산 애플리케이션",
+      "description": "뛰어난 부동산을 소개하고 관리하기 위한 맞춤형 솔루션."
+    },
+    "visual-identity": {
+      "name": "비주얼 아이덴티티",
+      "description": "권위 있는 브랜드 및 시설을 위한 우아하고 세련된 UI/UX 디자인."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "전문성",
+      "description": "다년간의 경험"
+    },
+    "satisfaction": {
+      "label": "만족도",
+      "description": "만족한 고객"
+    },
+    "average-time": {
+      "label": "평균 시간",
+      "description": "완료까지 주 수"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "title": "리옹의 웹 에이전시 | 맞춤형 디지털 솔루션",
+  "description": "리옹의 웹 개발, 모바일 및 UI/UX 디자인. Rhône-Alpes 기업에 맞춘 디지털 전문성으로 온라인 존재감을 높여줄게.",
+  "hero": {
+    "title": "리옹의 웹 & 모바일 개발",
+    "description": "오버뉴-론-알프 지역의 경제적 활력에 완벽하게 적응한 혁신적인 디지털 솔루션으로 리옹에 있는 비즈니스를 변화시켜봐."
+  },
+  "intro": "리옹의 역동성 중심에서 우리 디지털 전문성이 이 지역의 비즈니스를 디지털 전환으로 지원해. 산업 전통, 생물 의학의 우수성, 그리고 미식의 영향을 가진 리옹은 도전 과제를 우리가 완전히 이해하는 풍부하고 다양한 경제 구조를 보여줘.",
+  "expertise": "우리는 리옹과 로나 알프 시장의 특수성에 적합한 웹, 모바일 및 전자상거래 솔루션을 만들어. 우리 팀은 생명공학에서 미식, 제조업까지 다양한 분야에서 지역의 디지털 도전을 잘 알고 있어.",
+  "why-choose-us": "리옹 시장에 대한 우리의 이해 덕분에 지역 비즈니스의 요구와 특성에 완벽하게 맞는 디지털 솔루션을 개발할 수 있어. 우리는 지역의 우수성 기준을 이해하고 리옹의 정체성과 노하우를 높이는 디지털 지원을 제공해.",
+  "key-business-sectors": {
+    "biotech": "생명공학",
+    "pharma": "제약 산업",
+    "gastronomy": "미식",
+    "finance": "금융"
+  },
+  "local-challenges": {
+    "industry-digitalization": "산업 4.0 도전에 직면한 산업 중소기업과 중견기업의 디지털화",
+    "gastronomy-visibility": "리옹 미식 플레이어들을 위한 디지털 가시성 개발",
+    "local-ecommerce": "지역 상업과 지역 장인에 적합한 전자상거래 솔루션",
+    "biotech-applications": "확장되고 있는 제약 및 생명공학 분야를 위한 비즈니스 애플리케이션"
+  },
+  "benefits": {
+    "sector-expertise": "리옹의 우수성 분야에 대한 전문성 (생명공학, 제약, 미식)",
+    "industrial-understanding": "론-알프 산업 유역의 디지털화 도전에 대한 이해",
+    "sme-solutions": "디지털 전환에 적합한 중소기업 및 중견기업 솔루션",
+    "lyon-ui-design": "리옹의 시각적 정체성과 품질 기준을 반영한 UI/UX 디자인",
+    "local-ecosystem-knowledge": "지역 디지털 생태계에 대한 깊은 이해"
+  },
+  "primary-stat": {
+    "label": "혁신 분야"
+  },
+  "strengths": {
+    "biotech-pharma": {
+      "title": "생명공학 & 제약 솔루션",
+      "description": "리옹의 건강 클러스터를 위한 전문 애플리케이션."
+    },
+    "gastronomy-ecommerce": {
+      "title": "미식 전자상거래",
+      "description": "론-알프 지역의 로컬 제품을 디지털로 강화해."
+    },
+    "industrial-applications": {
+      "title": "산업용 애플리케이션",
+      "description": "산업 4.0과 생산을 위한 디지털 도구."
+    },
+    "business-interfaces": {
+      "title": "비즈니스 인터페이스",
+      "description": "리옹의 특정 요구에 맞춘 UI/UX 디자인."
+    }
+  },
+  "focused-services": {
+    "biotech-applications": {
+      "name": "생명공학 비즈니스 애플리케이션",
+      "description": "리옹의 실험실과 제약회사를 위한 디지털 솔루션."
+    },
+    "gastronomy-ecommerce": {
+      "name": "미식 전자상거래",
+      "description": "리옹의 요리 우수성을 보여줄 온라인 판매 플랫폼."
+    },
+    "industrial-digitalization": {
+      "name": "산업 디지털화",
+      "description": "론-알프 산업을 위한 제어 도구와 IoT 솔루션."
+    }
+  },
+  "stats": {
+    "biotech-projects": {
+      "label": "생명공학 프로젝트",
+      "description": "전문 애플리케이션"
+    },
+    "satisfaction": {
+      "label": "만족도",
+      "description": "만족한 고객들"
+    },
+    "sme-supported": {
+      "label": "지원된 중소기업",
+      "description": "리옹의 비즈니스"
+    }
+  }
+}

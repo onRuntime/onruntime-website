@@ -1,0 +1,71 @@
+{
+  "tags": {
+    "featured": "精选",
+    "open-source": "开源",
+    "customer": "客户项目"
+  },
+  "buttons": {
+    "view-project": "查看项目",
+    "source-code": "源代码"
+  },
+  "info": {
+    "start-date": "开始日期",
+    "status": "状态",
+    "statuses": {
+      "active": "活跃",
+      "completed": "已完成",
+      "archived": "已归档"
+    },
+    "team": "团队",
+    "members": "成员"
+  },
+  "sections": {
+    "about": "关于项目",
+    "metrics": "影响和指标",
+    "features": "主要特性",
+    "technologies": "使用的技术",
+    "gallery": "图库",
+    "team": "团队成员",
+    "challenges": "遇到的挑战",
+    "learnings": "主要经验",
+    "future": "未来展望"
+  },
+  "cta": {
+    "title": "对这个项目感兴趣吗？",
+    "description": "了解我们如何帮助你创建类似的项目.",
+    "button": "讨论你的项目"
+  },
+  "tonightpass": {
+    "hero": {
+      "title": "简化你活动的票务系统",
+      "subtitle": "从创建到入场，五分钟内管理一切",
+      "description": "为活动组织者提供完整的票务解决方案。创建活动、销售门票并用专业工具和专门支持管理访问.",
+      "buttons": {
+        "create": "创建我的活动",
+        "discover": "发现解决方案"
+      },
+      "stats": {
+        "setup": {
+          "value": "5分钟",
+          "label": "设置"
+        },
+        "cost": {
+          "value": "$0",
+          "label": "安装"
+        },
+        "support": {
+          "value": "24/7",
+          "label": "支持"
+        }
+      }
+    },
+    "cta": {
+      "title": "准备好简化你的票务了吗？",
+      "description": "用完整直观的解决方案简化你的活动管理",
+      "buttons": {
+        "start": "立即开始",
+        "features": "查看所有功能"
+      }
+    }
+  }
+}

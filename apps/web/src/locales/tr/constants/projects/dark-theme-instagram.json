@@ -1,0 +1,66 @@
+{
+  "short-description": "Instagram'ı iOS uygulamasına benzer bir karanlık moda dönüştüren bir tarayıcı uzantısı.",
+  "description": "Sistem karanlık moda geçtiğinde Instagram.com'un temasını karanlık moda değiştir.",
+  "long-description": "Instagram için Karanlık Tema™ bir tarayıcı uzantısıdır ve Instagram.com'un görsel deneyimini karanlık bir tema benimseyerek dönüştürür, bu da iOS uygulamasına benzer.\n\nUzantı, göz yorgunluğunu azaltmak ve Instagram tarayıcı deneyimini geliştirmek için basit ve şık bir çözüm sunarken, işletim sistemi tercihlerini de gözetir.",
+  "features": {
+    "auto-dark-mode": {
+      "title": "Otomatik Karanlık Mod",
+      "description": "Sistem ayarlarına göre karanlık temayı otomatik olarak etkinleştirir"
+    },
+    "multi-browser": {
+      "title": "Çok Tarayıcı Uyumluluğu",
+      "description": "Firefox, Edge ve Chrome için mevcuttur"
+    },
+    "open-source": {
+      "title": "Açık Kaynak",
+      "description": "Herkesin erişebileceği ve doğrulanabilir kaynak kodu"
+    }
+  },
+  "technologies": {
+    "javascript": {
+      "description": "Uzantı geliştirme"
+    },
+    "chrome-api": {
+      "description": "Tarayıcı entegrasyonu"
+    },
+    "css": {
+      "description": "Tema özelleştirme"
+    }
+  },
+  "metrics": {
+    "users": {
+      "value": "52k+",
+      "label": "Kullanıcılar",
+      "description": "Aktif kullanıcılar"
+    },
+    "installs": {
+      "value": "82k+",
+      "label": "Kurulumlar",
+      "description": "Toplam kurulumlar"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "Açık Kaynak",
+      "description": "Herkese açık kaynak kodu"
+    }
+  },
+  "screenshots": {
+    "dark-interface": {
+      "caption": "Instagram arayüzü karanlık modda"
+    }
+  },
+  "challenges": {
+    "instagram-updates-compatibility": "Instagram'ın sık güncellemeleriyle uyumluluğu sürdürmek",
+    "cross-browser-consistency": "Farklı tarayıcılarda tutarlı bir karanlık tema sağlamak",
+    "browser-performance": "Tarayıcı performansını en aza indirmek"
+  },
+  "learnings": {
+    "dynamic-interface-modification": "Dinamik web arayüzlerini değiştirmenin zorluğu",
+    "cross-browser-compatibility": "Tarayıcılar arası uyumluluğun önemi",
+    "platform-updates-management": "Sık web platformu güncellemelerini yönetmek"
+  },
+  "future-plans": {
+    "more-customization": "Daha fazla özelleştirme seçeneği eklemek",
+    "instagram-versions-compatibility": "Farklı Instagram sürümleriyle uyumluluğu geliştirmek"
+  }
+}

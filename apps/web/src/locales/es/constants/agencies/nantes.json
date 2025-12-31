@@ -1,0 +1,79 @@
+{
+  "title": "Desarrollo web en Nantes | Soluciones digitales para empresas del Valle del Loira",
+  "description": "Crea tu sitio web o aplicación móvil en Nantes. Soluciones digitales personalizadas para empresas de Nantes, adaptadas a los desafíos locales de tu sector.",
+  "hero": {
+    "title": "Desarrollo Web y Móvil en Nantes",
+    "description": "Ayudamos a las empresas de Nantes y de Pays de la Loire a digitalizarse con soluciones web personalizadas, perfectamente adaptadas a los desafíos específicos del mercado del Valle del Loira."
+  },
+  "intro": "Una capital histórica de Bretaña y una metrópoli innovadora, Nantes es conocida por su dinamismo económico y calidad de vida. Su floreciente ecosistema digital, industrias creativas y compromiso con la transición ecológica la convierten en un territorio único donde la innovación digital juega un papel central.",
+  "expertise": "Nuestro equipo diseña sitios web, aplicaciones y soluciones digitales perfectamente adaptadas a las empresas de Nantes, ya sean startups innovadoras, actores de la economía responsable o empresas tradicionales en transformación. Entendemos las especificidades del mercado local y ofrecemos soluciones digitales alineadas con los valores de innovación y sostenibilidad específicos de Nantes.",
+  "why-choose-us": "Nuestro profundo conocimiento del mercado de Nantes nos permite desarrollar soluciones digitales perfectamente adaptadas a los desafíos específicos de las empresas locales. Entendemos el espíritu de innovación y compromiso con una economía más responsable que caracteriza a Nantes, e integramos estos valores en cada proyecto digital que entregamos.",
+  "key-business-sectors": {
+    "tech-digital": "Tecnología y Digital",
+    "ecological-transition": "Transición Ecológica",
+    "creative-industries": "Industrias Creativas",
+    "agrifood": "Agroalimentario"
+  },
+  "local-challenges": {
+    "digital-ecosystem-competition": "Fuerte competencia en el creciente ecosistema digital de Nantes",
+    "startup-scaleup-needs": "Necesidades específicas de las startups y scale-ups de French Tech locales",
+    "ecological-transition-digitalization": "Digitalización de los actores de la transición ecológica y energética",
+    "traditional-industries-transformation": "Transformación digital de las industrias tradicionales y agroalimentarias regionales"
+  },
+  "benefits": {
+    "nantes-ecosystem-solutions": "Soluciones personalizadas adaptadas al ecosistema digital de Nantes",
+    "innovative-eco-technologies": "Amplia experiencia en tecnologías web innovadoras y eco-responsables",
+    "agile-approach": "Enfoque ágil perfectamente adaptado a startups y empresas innovadoras",
+    "digital-transition-knowledge": "Conocimiento profundo sobre los desafíos de la transición digital en el Valle del Loira",
+    "personalized-support": "Soporte personalizado a lo largo de tu proyecto digital"
+  },
+  "primary-stat": {
+    "label": "Digital en Nantes"
+  },
+  "strengths": {
+    "innovative-tech": {
+      "title": "Tecnología Innovadora",
+      "description": "Soluciones digitales modernas para startups y scale-ups de Nantes."
+    },
+    "eco-design": {
+      "title": "Eco-diseño",
+      "description": "Sitios y aplicaciones con huella ambiental controlada."
+    },
+    "maritime-industry": {
+      "title": "Industria Marítima",
+      "description": "Digitalización adaptada a actividades portuarias y fluviales."
+    },
+    "renewable-energy": {
+      "title": "Energía Renovable",
+      "description": "Soluciones digitales para los actores de la transición energética."
+    }
+  },
+  "focused-services": {
+    "web-applications": {
+      "name": "Aplicaciones Web",
+      "description": "Aplicaciones web de alto rendimiento y escalables para startups y empresas innovadoras."
+    },
+    "eco-designed-websites": {
+      "name": "Sitios Web Eco-diseñados",
+      "description": "Sitios web optimizados y sostenibles para actores de la economía responsable."
+    },
+    "business-platforms": {
+      "name": "Plataformas Empresariales",
+      "description": "Soluciones personalizadas para industrias tradicionales en transformación."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Experiencia",
+      "description": "Años de experiencia"
+    },
+    "satisfaction": {
+      "label": "Satisfacción",
+      "description": "Clientes satisfechos"
+    },
+    "average-time": {
+      "label": "Tiempo Promedio",
+      "description": "Semanas de finalización"
+    }
+  }
+}

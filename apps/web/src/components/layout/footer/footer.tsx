@@ -5,6 +5,7 @@ import { Link } from "@onruntime/translations/next";
 import { useTranslation, useLocale } from "@onruntime/translations/react";
 
 import Routes from "@/constants/routes";
+import { locales } from "@/lib/translations";
 import { OnRuntimeWordMark } from "@/logos/components";
 import { ChevronDown, Check } from "lucide-react";
 import {
@@ -17,7 +18,7 @@ import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   const { t } = useTranslation("layout/footer");
-  const { locale, locales, setLocale } = useLocale();
+  const { locale, setLocale } = useLocale();
   const currentYear = new Date().getFullYear();
 
   const navigation = {
@@ -102,23 +103,23 @@ const Footer = () => {
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="outline" size="sm" className="h-8 text-xs gap-2">
-                  {t(`language.${locale}`)}
+                  {locales.find((l) => l.code === locale)?.label}
                   <ChevronDown className="h-3 w-3 opacity-50" />
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
                 {locales.map((loc) => (
                   <DropdownMenuItem
-                    key={loc}
-                    onClick={() => setLocale(loc)}
+                    key={loc.code}
+                    onClick={() => setLocale(loc.code)}
                     className="text-xs gap-2 cursor-pointer"
                   >
-                    {locale === loc ? (
+                    {locale === loc.code ? (
                       <Check className="h-3 w-3" />
                     ) : (
                       <span className="h-3 w-3" />
                     )}
-                    {t(`language.${loc}`)}
+                    {loc.label}
                   </DropdownMenuItem>
                 ))}
               </DropdownMenuContent>

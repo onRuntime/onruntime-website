@@ -1,0 +1,13 @@
+{
+  "last-updated": "Última atualização:",
+  "question": {
+    "title": "Tem uma pergunta sobre nossos termos?",
+    "description": "Nossa equipe está disponível para responder todas as suas perguntas.",
+    "cta": "Entre em contato"
+  },
+  "nav": {
+    "company": "Detalhes da empresa",
+    "privacy": "Política de privacidade",
+    "terms": "Termos e condições"
+  }
+}

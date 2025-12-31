@@ -1,0 +1,80 @@
+{
+  "name": "RESTful API'ler",
+  "description": "Yüksek performanslı API'lerin tasarımı ve geliştirilmesi",
+  "hero": {
+    "title": "RESTful & GraphQL API'ler",
+    "description": "Uygulamalarınız için modern, güvenli ve yüksek performanslı API'ler geliştirin. Uzmanlığımız, özel ihtiyaçlarınıza göre sağlam ve ölçeklenebilir arayüzler garantiler."
+  },
+  "features": {
+    "rest-graphql": {
+      "title": "REST & GraphQL",
+      "description": "Sektör standartlarına uygun modern API'lerin geliştirilmesi."
+    },
+    "advanced-security": {
+      "title": "Gelişmiş güvenlik",
+      "description": "Zafiyetlere ve saldırılara karşı sağlam koruma."
+    },
+    "optimal-performance": {
+      "title": "Optimal performans",
+      "description": "Minimum yanıt süreleri için optimize edilmiş mimari."
+    },
+    "complete-documentation": {
+      "title": "Tam dokümantasyon",
+      "description": "Kolay entegrasyon için net ve etkileşimli dokümantasyon."
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "Yüksek erişilebilirlik",
+      "description": "Maksimum erişilebilirlik için yedekli altyapı."
+    },
+    "scalability": {
+      "title": "Ölçeklenebilirlik",
+      "description": "Büyümeyi desteklemek için tasarlanmış mimari."
+    },
+    "advanced-monitoring": {
+      "title": "Gelişmiş izleme",
+      "description": "Performans ve sağlık durumunun gerçek zamanlı takibi."
+    },
+    "intelligent-cache": {
+      "title": "Akıllı önbellek",
+      "description": "Gelişmiş önbellekle performans optimizasyonu."
+    }
+  },
+  "faq": {
+    "rest-vs-graphql": {
+      "question": "REST ve GraphQL arasındaki fark nedir?",
+      "answer": "REST, her bir uç noktanın belirli bir kaynağa karşılık geldiği geleneksel bir mimaridir. GraphQL, istemcilerin ihtiyaç duydukları verileri tam olarak talep etmelerine olanak tanır. Size özel ihtiyaçlarınıza ve kullanım durumlarınıza göre en iyi yaklaşım konusunda danışmanlık yapıyoruz."
+    },
+    "api-security": {
+      "question": "API güvenliğini nasıl sağlıyorsunuz?",
+      "answer": "Birden fazla güvenlik katmanı uyguluyoruz: JWT kimlik doğrulama, SSL/TLS şifreleme, oran sınırlama, veri doğrulama, enjekte saldırılarına ve CSRF saldırılarına karşı koruma. Ayrıca API güvenliği için OWASP önerilerini de takip ediyoruz."
+    },
+    "scaling": {
+      "question": "Ölçeklendirmeyi nasıl yapıyorsunuz?",
+      "answer": "Yük dengeleme, dağıtık önbellekleme ve sorgu optimizasyonu ile yatay olarak ölçeklenebilir API'ler tasarlıyoruz. Mimari, önemli trafik artışını desteklemek için tasarlanmıştır."
+    },
+    "documentation": {
+      "question": "Hangi dokümantasyonu sağlıyorsunuz?",
+      "answer": "Kapsamlı dokümantasyon sağlıyoruz: OpenAPI/Swagger teknik dokümantasyonu, entegrasyon kılavuzları, kod örnekleri ve test ortamı. Dokümantasyon, her API evrimi ile güncel tutuluyor."
+    },
+    "post-deployment-support": {
+      "question": "Dağıtımdan sonra destek sunuyor musunuz?",
+      "answer": "Evet, 7/24 izleme, teknik destek, sürekli performans optimizasyonu, güvenlik güncellemeleri ve fonksiyonel evrimler dahil olmak üzere birkaç bakım planı sunuyoruz."
+    }
+  },
+  "complementary": {
+    "advanced-analytics": {
+      "title": "Gelişmiş analiz",
+      "description": "Kullanım ve performansın detaylı analizi."
+    },
+    "data-migration": {
+      "title": "Veri göçü",
+      "description": "Mevcut sistemlerinizden göç."
+    },
+    "integration": {
+      "title": "Entegrasyon",
+      "description": "Uygulamalarınızla entegrasyona destek."
+    }
+  }
+}

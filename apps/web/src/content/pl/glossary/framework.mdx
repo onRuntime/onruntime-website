@@ -1,0 +1,57 @@
+---
+term: Framework
+shortDescription: >-
+  Struktura oprogramowania, która ułatwia rozwój, oferując standaryzowane i
+  wielokrotnego użytku funkcje.
+relatedTerms:
+  - Library
+  - API
+  - React
+  - Angular
+  - Vue.js
+  - Next.js
+tags:
+  - development
+  - architecture
+---
+## Definicja
+
+Framework to jak nasza prefabrykowana skrzynka narzędziowa w onRuntime. Zamiast budować wszystko od podstaw dla każdego projektu (wyobraź sobie budowanie domu, zaczynając od robienia własnych gwoździ!), używamy tych struktur, które dają nam dobry punkt wyjścia i solidne konwencje.
+
+## Wielkie pytanie: framework czy biblioteka?
+
+Często dostajemy to pytanie od klientów, więc oto o co chodzi:
+
+- **Biblioteka** to jak pożyczanie konkretnego narzędzia do konkretnego zadania. Masz kontrolę i decydujesz, kiedy je użyć.
+- **Framework** to jak wejście do w pełni wyposażonego warsztatu z własnymi zasadami. Mówi ci, jak pracować.
+
+Jest takie powiedzenie, które to dobrze podsumowuje: "Ty dzwonisz po bibliotekę, ale framework dzwoni do ciebie."
+
+## Frameworki, które uwielbiamy używać
+
+### Strona frontendowa
+- **React**: Technicznie to biblioteka, ale ekosystem wokół niej (React Router, Redux, itd.) sprawia, że jest prawie frameworkiem. To nasz numer 1 w wyborze interfejsów użytkownika.
+- **Next.js**: Nasz ulubiony do skomplikowanych stron internetowych! Użyliśmy go do przebudowy naszej własnej strony onRuntime.com.
+- **React Native**: Dla aplikacji mobilnych naszych klientów, to nasz wybór. Użyliśmy go dla Tonight Pass z świetnymi wynikami.
+
+### Strona backendowa
+- **NestJS**: Jesteśmy całkowicie jego fanami! Jest strukturalny, modularny i oszczędza nam mnóstwo czasu przy dużych aplikacjach.
+- **Express**: Lżejszy od NestJS, używamy go do prostych API lub MVP.
+- **Prisma**: Nie jest to do końca kompletny framework backendowy, ale nasze ulubione ORM do zarządzania bazami danych.
+
+### Full-stack
+- **Next.js** (jeszcze raz!): Używamy go coraz częściej jako rozwiązania full-stack dzięki trasom API.
+- **Redwood.js**: Przetestowaliśmy go w kilku projektach i jest obiecujący! Trochę jak Ruby on Rails, ale dla ekosystemu JS.
+
+## Dlaczego nie kodujemy wszystkiego od podstaw
+
+- **Idziemy muuuch szybciej**: Koniec z problemami, które zostały już tysiące razy rozwiązane przez innych
+- **Czystszy kod**: Konwencje frameworka zmuszają nas do dyscypliny
+- **Bezpieczeństwo**: Popularne frameworki są analizowane przez tysiące deweloperów śledzących luki
+- **Łatwiejsze wprowadzenie**: Kiedy integrujemy nowego deva do zespołu, jeśli już zna framework, jest operacyjny w mgnieniu oka
+
+## Kiedy decydujemy się użyć (lub nie) frameworka
+
+W onRuntime kochamy frameworki, ale nie używamy ich ślepo. W przypadku ultrakonkretnych mikroserwisów czasami wolimy lżejsze podejście z kilkoma bibliotekami. Na przykład w naszej aplikacji Kartrak zdecydowaliśmy się na bardziej minimalistyczne podejście, ponieważ wydajność była kluczowa.
+
+Ale szczerze mówiąc, w przypadku większości projektów klientów, gdzie czas wprowadzenia na rynek ma znaczenie, dobry framework oszczędza tak wiele czasu, że wybór jest oczywisty!

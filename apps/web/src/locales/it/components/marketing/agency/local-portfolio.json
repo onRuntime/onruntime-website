@@ -1,0 +1,24 @@
+{
+  "project": {
+    "market-application": "Applicazione al mercato {region}",
+    "expertise-featured": "La nostra esperienza con questo progetto ci ha permesso di sviluppare competenze particolarmente applicabili al settore delle nuove tecnologie nella regione {region}.",
+    "expertise-digital": "La nostra esperienza con questo progetto ci ha permesso di sviluppare competenze particolarmente applicabili al settore del commercio digitale nella regione {region}.",
+    "skills-featured": "Le competenze e le tecnologie utilizzate in questo progetto sono direttamente trasferibili alle esigenze delle aziende in {name}, in particolare nell'innovazione aperta.",
+    "skills-digital": "Le competenze e le tecnologie utilizzate in questo progetto sono direttamente trasferibili alle esigenze delle aziende in {name}, in particolare nella trasformazione digitale.",
+    "view-project": "Vedi progetto"
+  },
+  "tags": {
+    "featured": "Progetto in evidenza",
+    "open-source": "Open Source",
+    "customer": "Progetto cliente"
+  },
+  "section": {
+    "title": "La nostra competenza applicabile a progetti in {name}",
+    "description": "Scopri alcuni dei nostri successi che illustrano il nostro know-how, applicabile alle sfide digitali delle aziende in {region}."
+  },
+  "cta": {
+    "title": "Un progetto digitale per la tua azienda in {name}?",
+    "description": "La nostra competenza è applicabile a tutti i settori, con particolare attenzione alle specificità del mercato {region}.",
+    "button": "Parliamo del tuo progetto"
+  }
+}

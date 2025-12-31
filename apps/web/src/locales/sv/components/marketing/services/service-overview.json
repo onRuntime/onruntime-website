@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "cta": "Diskutera ditt projekt"
+  },
+  "expertise": {
+    "title": "Djup kunskap inom {service}",
+    "description": "Vi kombinerar kreativitet och teknisk kompetens för att leverera {service} lösningar som perfekt möter dina mål. Vår metodiska tillvägagångssätt och erfarenhet gör att vi kan skapa hållbara och skalbara lösningar."
+  },
+  "services": {
+    "badge": "Våra tjänster",
+    "title": "Skräddarsydda {service} lösningar",
+    "description": "Upptäck vårt kompletta utbud av {service} tjänster, designade för att möta alla dina behov och stödja dig i att nå dina projekt.",
+    "learn-more": "Lär dig mer"
+  },
+  "benefits": {
+    "badge": "Fördelar",
+    "title": "Varför välja våra {service} tjänster?"
+  },
+  "process": {
+    "badge": "Vår process",
+    "title": "Så här arbetar vi",
+    "description": "En integrerad strategi som kombinerar våra olika kunskapsområden för optimala resultat."
+  },
+  "cta": {
+    "title": "Redo att förverkliga ditt projekt?",
+    "description": "Kontakta oss för att diskutera dina behov och få en personlig offert.",
+    "button": "Börja nu"
+  }
+}

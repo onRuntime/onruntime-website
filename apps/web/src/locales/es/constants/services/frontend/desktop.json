@@ -1,0 +1,80 @@
+{
+  "name": "Software de escritorio",
+  "description": "Desarrollo de aplicaciones de escritorio multiplataforma",
+  "hero": {
+    "title": "Aplicaciones de escritorio multiplataforma",
+    "description": "Desarrolla aplicaciones de escritorio modernas y de alto rendimiento para Windows, macOS y Linux. Nuestra experiencia garantiza aplicaciones profesionales que aprovechan todo el potencial del escritorio."
+  },
+  "features": {
+    "electron-react": {
+      "title": "Electron & React",
+      "description": "Tecnologías modernas para aplicaciones de escritorio eficientes y escalables."
+    },
+    "multiplatform": {
+      "title": "Multiplataforma",
+      "description": "Aplicaciones compatibles con Windows, macOS y Linux desde una única base de código."
+    },
+    "native-performance": {
+      "title": "Rendimiento nativo",
+      "description": "Optimización para aprovechar eficientemente los recursos del sistema."
+    },
+    "system-integration": {
+      "title": "Integración del sistema",
+      "description": "Acceso a las características nativas del sistema operativo."
+    }
+  },
+  "benefits": {
+    "windows-macos": {
+      "title": "Windows & macOS",
+      "description": "Soporte nativo para las principales plataformas de escritorio."
+    },
+    "system-access": {
+      "title": "Acceso al sistema",
+      "description": "Interacción directa con el sistema operativo."
+    },
+    "offline-mode": {
+      "title": "Modo offline",
+      "description": "Operación autónoma sin necesidad de conexión a internet."
+    },
+    "local-data": {
+      "title": "Datos locales",
+      "description": "Almacenamiento local y procesamiento de datos para mayor seguridad."
+    }
+  },
+  "faq": {
+    "why-electron": {
+      "question": "¿Por qué elegir Electron para el desarrollo de escritorio?",
+      "answer": "Electron permite crear aplicaciones de escritorio multiplataforma con tecnologías web modernas (React, TypeScript). Esto ofrece desarrollo rápido, mantenimiento simplificado y una excelente experiencia de usuario, asegurando la compatibilidad con Windows, macOS y Linux."
+    },
+    "security": {
+      "question": "¿Cómo manejan la seguridad de las aplicaciones de escritorio?",
+      "answer": "Implementamos varios niveles de seguridad: cifrado de datos sensibles, protección contra inyección de código, actualizaciones de seguridad automáticas y mejores prácticas de desarrollo seguro. También seguimos las recomendaciones de seguridad específicas para cada sistema operativo."
+    },
+    "auto-update": {
+      "question": "¿Ofrecen un sistema de actualizaciones automáticas?",
+      "answer": "Sí, integramos un sistema de actualizaciones automáticas que permite la fácil implementación de nuevas versiones de la aplicación. Los usuarios son notificados de las actualizaciones disponibles y pueden instalarlas con un clic."
+    },
+    "distribution": {
+      "question": "¿Cómo manejan la distribución de aplicaciones?",
+      "answer": "Gestionamos todo el proceso de distribución: creación de instaladores para cada plataforma, firma de aplicaciones, publicación en tiendas si es necesario (Microsoft Store, Mac App Store) y configuración de un sistema de actualizaciones automáticas."
+    },
+    "post-launch-support": {
+      "question": "¿Ofrecen soporte después del lanzamiento?",
+      "answer": "Sí, ofrecemos varios planes de mantenimiento que incluyen: soporte técnico, corrección de errores, actualizaciones de seguridad, optimizaciones de rendimiento y evolución de funciones."
+    }
+  },
+  "complementary": {
+    "telemetry": {
+      "title": "Telemetría",
+      "description": "Seguimiento del rendimiento y comportamiento del usuario."
+    },
+    "distribution": {
+      "title": "Distribución",
+      "description": "Publicación en tiendas y gestión de actualizaciones."
+    },
+    "cloud-sync": {
+      "title": "Sincronización en la nube",
+      "description": "Sincronización de datos con la nube."
+    }
+  }
+}

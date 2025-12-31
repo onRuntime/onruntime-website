@@ -1,0 +1,80 @@
+{
+  "name": "WordPress",
+  "description": "定制 WordPress 网站开发",
+  "hero": {
+    "title": "定制 WordPress 开发",
+    "description": "用 WordPress 创建一个反映你专业形象的网站。我们的专业知识确保你网站的高性能和安全性，完美适应你的需求."
+  },
+  "features": {
+    "custom-themes": {
+      "title": "定制主题",
+      "description": "创建反映你身份的定制主题，精准满足你的需求."
+    },
+    "optimized-performance": {
+      "title": "优化性能",
+      "description": "高级优化，确保快速的加载速度和平滑的用户体验."
+    },
+    "enhanced-security": {
+      "title": "增强安全性",
+      "description": "实施安全最佳实践，保护你的网站和数据."
+    },
+    "simplified-administration": {
+      "title": "简化管理",
+      "description": "定制和直观的管理界面，让内容管理轻松无比."
+    }
+  },
+  "benefits": {
+    "intuitive-administration": {
+      "title": "直观管理",
+      "description": "简单直观的管理界面，独立管理你的内容."
+    },
+    "seo-optimized": {
+      "title": "SEO 优化",
+      "description": "为自然搜索优化的结构，集成的 SEO 工具."
+    },
+    "powerful-extensions": {
+      "title": "强大的扩展",
+      "description": "访问成千上万的插件，扩展你的网站功能."
+    },
+    "maximum-performance": {
+      "title": "最佳性能",
+      "description": "先进的性能优化，提供最佳的用户体验."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "创建一个 WordPress 网站需要多长时间?",
+      "answer": "创建 WordPress 网站的平均时间为 4 到 12 周，具体取决于项目复杂度。这包括设计阶段、定制主题开发、内容整合和测试."
+    },
+    "migration": {
+      "question": "你能把我现有的网站迁移到 WordPress 吗?",
+      "answer": "可以，我们提供全面的 WordPress 迁移服务，包括内容、图片和功能的转移，同时保持你的 SEO."
+    },
+    "maintenance-updates": {
+      "question": "你们怎么处理维护和更新?",
+      "answer": "我们提供不同的维护计划，包括安全更新、定期备份、WordPress 和插件更新，以及性能监控."
+    },
+    "mobile-optimization": {
+      "question": "我的网站会针对移动设备进行优化吗?",
+      "answer": "当然。我们所有的 WordPress 开发都是响应式的，保证在所有设备上的最佳体验: 电脑、平板和智能手机."
+    },
+    "security-approach": {
+      "question": "你们的安全策略是什么?",
+      "answer": "我们实施全面的安全策略: 强身份验证、网络应用防火墙、入侵尝试监控、自动备份和定期安全更新."
+    }
+  },
+  "complementary": {
+    "custom-development": {
+      "title": "定制开发",
+      "description": "根据你的特定需求创建特定功能."
+    },
+    "digital-marketing": {
+      "title": "数字营销",
+      "description": "根据你的需求调整的营销策略，提高你的在线可见性."
+    },
+    "wordpress-training": {
+      "title": "WordPress 培训",
+      "description": "定制培训，帮助你掌握网站管理."
+    }
+  }
+}

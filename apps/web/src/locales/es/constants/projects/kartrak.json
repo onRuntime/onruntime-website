@@ -1,0 +1,81 @@
+{
+  "short-description": "Seguimiento de actividades ecológicas. Monitorea tu huella digital de forma divertida.",
+  "description": "Una extensión de navegador que te ayuda a entender y reducir tu impacto ambiental en línea.",
+  "long-description": "Kartrak es una innovadora extensión de navegador que aumenta la conciencia del usuario sobre su huella de carbono digital. Al monitorear tu actividad en línea, Kartrak proporciona información detallada sobre tu consumo de internet y su impacto ambiental.\n\nLa extensión utiliza algoritmos avanzados basados en Ecoindex para calcular tu huella de carbono en la navegación, mientras ofrece sugerencias personalizadas para reducir tu impacto. Ecoindex es una metodología reconocida que evalúa el impacto ambiental de los sitios web analizando su complejidad técnica, peso y eficiencia energética.\n\nCon un enfoque divertido y educativo, Kartrak hace que la conciencia ambiental sea accesible y atractiva.",
+  "features": {
+    "real-time-tracking": {
+      "title": "Seguimiento en tiempo real",
+      "description": "Visualiza tu huella de carbono digital en tiempo real"
+    },
+    "personalized-suggestions": {
+      "title": "Sugerencias personalizadas",
+      "description": "Recibe consejos personalizados para reducir tu impacto"
+    },
+    "detailed-stats": {
+      "title": "Estadísticas detalladas",
+      "description": "Analiza tus hábitos de navegación y su impacto"
+    },
+    "ecological-goals": {
+      "title": "Objetivos ecológicos",
+      "description": "Establece objetivos y rastrea tu progreso"
+    }
+  },
+  "technologies": {
+    "typescript": {
+      "description": "Extensión de navegador"
+    },
+    "react": {
+      "description": "Interfaz de usuario"
+    },
+    "nodejs": {
+      "description": "Backend y API"
+    },
+    "chrome-api": {
+      "description": "Integración con el navegador"
+    }
+  },
+  "metrics": {
+    "sites-analyzed": {
+      "value": "∞",
+      "label": "Sitios analizados",
+      "description": "Compatible con todos los sitios web"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "Código abierto",
+      "description": "Código fuente público"
+    },
+    "confidential": {
+      "value": "100%",
+      "label": "Confidencial",
+      "description": "No se recopilan datos de usuarios"
+    }
+  },
+  "screenshots": {
+    "dashboard": {
+      "caption": "Tablero principal"
+    },
+    "stats": {
+      "caption": "Estadísticas detalladas"
+    }
+  },
+  "challenges": {
+    "carbon-calculation": "Cálculo preciso de huella de carbono",
+    "privacy-protection": "Protección de la privacidad del usuario",
+    "background-performance": "Rendimiento de la extensión en segundo plano",
+    "environmental-data-accuracy": "Precisión de los datos ambientales"
+  },
+  "learnings": {
+    "environmental-impact-complexity": "Complejidad del cálculo del impacto ambiental",
+    "user-engagement": "Importancia de la participación del usuario",
+    "accuracy-performance-balance": "Equilibrio entre precisión y rendimiento",
+    "navigation-ux": "UX adaptada a los hábitos de navegación"
+  },
+  "future-plans": {
+    "more-browsers": "Soporte para más navegadores",
+    "eco-tools-integration": "Integración con otras herramientas ecológicas",
+    "community-features": "Funciones comunitarias",
+    "personalized-reports": "Informes detallados personalizados",
+    "auto-close-tabs": "Cierre automático de pestañas no utilizadas"
+  }
+}

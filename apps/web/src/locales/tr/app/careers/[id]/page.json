@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "İş ilanı bulunamadı",
+      "description": "Bu iş ilanı mevcut değil ya da artık geçerli değil."
+    },
+    "title": "{jobTitle} | Kariyerler",
+    "description": "onRuntime Studio’ya {jobTitle} olarak katıl. Bu kariyer fırsatını keşfet ve hemen başvur."
+  }
+}

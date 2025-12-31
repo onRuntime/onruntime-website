@@ -1,0 +1,66 @@
+{
+  "short-description": "一个浏览器扩展，将 Instagram 转换为暗模式，类似于 iOS 应用的外观。",
+  "description": "当系统处于暗模式时，将 Instagram.com 的主题更改为暗模式。",
+  "long-description": "Instagram™ 的暗主题是一个浏览器扩展，通过采用暗主题来改变 Instagram.com 的视觉体验，类似于 iOS 应用的外观。\n\n该扩展提供了一种简单雅致的解决方案，减少眼睛疲劳，改善 Instagram 浏览体验，同时尊重操作系统的偏好。",
+  "features": {
+    "auto-dark-mode": {
+      "title": "自动暗模式",
+      "description": "根据系统设置自动启用暗主题"
+    },
+    "multi-browser": {
+      "title": "多浏览器兼容",
+      "description": "适用于 Firefox、Edge 和 Chrome"
+    },
+    "open-source": {
+      "title": "开源",
+      "description": "自由访问和验证的源代码"
+    }
+  },
+  "technologies": {
+    "javascript": {
+      "description": "扩展开发"
+    },
+    "chrome-api": {
+      "description": "浏览器集成"
+    },
+    "css": {
+      "description": "主题自定义"
+    }
+  },
+  "metrics": {
+    "users": {
+      "value": "52k+",
+      "label": "用户",
+      "description": "活跃用户"
+    },
+    "installs": {
+      "value": "82k+",
+      "label": "安装次数",
+      "description": "总安装量"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "开源",
+      "description": "公共源代码"
+    }
+  },
+  "screenshots": {
+    "dark-interface": {
+      "caption": "暗模式下的 Instagram 界面"
+    }
+  },
+  "challenges": {
+    "instagram-updates-compatibility": "保持与 Instagram 频繁更新的兼容性",
+    "cross-browser-consistency": "确保不同浏览器间的暗主题一致性",
+    "browser-performance": "最小化对浏览器性能的影响"
+  },
+  "learnings": {
+    "dynamic-interface-modification": "动态修改网页界面的复杂性",
+    "cross-browser-compatibility": "跨浏览器兼容的重要性",
+    "platform-updates-management": "管理频繁的网页平台更新"
+  },
+  "future-plans": {
+    "more-customization": "增加更多自定义选项",
+    "instagram-versions-compatibility": "改善与不同 Instagram 版本的兼容性"
+  }
+}

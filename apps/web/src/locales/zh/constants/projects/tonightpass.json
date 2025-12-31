@@ -1,0 +1,68 @@
+{
+  "short-description": "发现并预订最适合您品味的活动。",
+  "description": "Tonight Pass 是一个创新平台，它通过基于您的偏好的个性化推荐系统简化活动的发现和预订。",
+  "long-description": "Tonight Pass 改变了人们发现和参加活动的方式。我们的平台结合了科技和用户体验，提供个性化的推荐和简化的票务管理。<br> <br>这个平台连接了活动组织者和参加者，提供完整的预订管理、智能推荐和数据分析解决方案。该应用旨在优化活动发现体验，同时简化组织者的管理。",
+  "features": {
+    "ticketing": {
+      "title": "简化票务",
+      "description": "只需几次点击即可预订所有类型活动的票。"
+    },
+    "recommendations": {
+      "title": "个性化推荐",
+      "description": "发现符合您品味的活动。"
+    },
+    "e-tickets": {
+      "title": "安全电子票",
+      "description": "使用安全的数字票进入活动。"
+    }
+  },
+  "technologies": {
+    "react": {
+      "description": "网页和移动应用程序。"
+    },
+    "nestjs": {
+      "description": "后端 API。"
+    },
+    "mongodb": {
+      "description": "主要数据库。"
+    }
+  },
+  "metrics": {
+    "time-saved": {
+      "value": "45分钟",
+      "label": "节省时间",
+      "description": "每次事件搜索平均节省的时间。"
+    },
+    "coverage": {
+      "value": "100%",
+      "label": "覆盖率",
+      "description": "在整个法国均可用。"
+    },
+    "ease": {
+      "value": "1 次点击",
+      "label": "简便性",
+      "description": "预订任何活动。"
+    }
+  },
+  "screenshots": {},
+  "challenges": {
+    "ticketing-experience": "开发顺畅直观的票务体验。",
+    "recommendation-system": "创建个性化推荐系统。",
+    "scalable-infrastructure": "建立可扩展的基础设施。",
+    "traffic-peaks": "管理票务发布期间的流量高峰。"
+  },
+  "learnings": {
+    "booking-simplicity": "预订过程中的简便性很重要。",
+    "event-type-interface": "需要适应不同活动类型的界面。",
+    "database-management": "高效管理活动数据库。",
+    "speed-reliability-balance": "在速度和服务可靠性之间保持平衡。"
+  },
+  "future-plans": {
+    "venue-kiosks": "在场馆部署自助服务终端。",
+    "recruitment-platform": "推出活动招聘平台。",
+    "venue-rental": "建立场地租赁服务。",
+    "supplier-network": "创建活动供应商网络。",
+    "organizer-tools": "为组织者开发先进工具。",
+    "recommendation-improvement": "改进推荐系统。"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Integración",
+  "description": "Integración en las principales plataformas de comercio electrónico y CMS",
+  "benefits": {
+    "clean-maintainable-code": {
+      "title": "Código limpio y mantenible",
+      "description": "Integración con altos estándares de código y arquitectura diseñada para el mantenimiento a largo plazo."
+    },
+    "optimized-performance": {
+      "title": "Rendimiento optimizado",
+      "description": "Sitios web rápidos y fluidos gracias a técnicas de optimización avanzadas y mejores prácticas."
+    },
+    "responsive-design": {
+      "title": "Diseño adaptable",
+      "description": "Adaptación perfecta a todas las pantallas y dispositivos para una experiencia de usuario consistente."
+    },
+    "smooth-animations": {
+      "title": "Animaciones fluidas",
+      "description": "Integración de animaciones pulidas para enriquecer la experiencia del usuario mientras se mantiene el rendimiento."
+    }
+  },
+  "process": {
+    "mockup-analysis": {
+      "title": "Análisis de maquetas",
+      "description": "Estudio profundo de maquetas para identificar componentes, interacciones y puntos técnicos de atención."
+    },
+    "technical-architecture": {
+      "title": "Arquitectura técnica",
+      "description": "Definición de la arquitectura frontend y selección de tecnologías adecuadas al proyecto."
+    },
+    "component-development": {
+      "title": "Desarrollo de componentes",
+      "description": "Creación de componentes reutilizables siguiendo principios de sistemas de diseño."
+    },
+    "responsive-integration": {
+      "title": "Integración adaptable",
+      "description": "Adaptación del diseño a todos los formatos de pantalla con especial atención a la experiencia móvil."
+    },
+    "optimization": {
+      "title": "Optimización",
+      "description": "Optimización del rendimiento, accesibilidad y SEO técnico."
+    },
+    "testing-validation": {
+      "title": "Pruebas y validación",
+      "description": "Pruebas exhaustivas en diferentes navegadores y dispositivos para garantizar la mejor experiencia de usuario."
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "title": "Projelerimiz ve başarılarımız",
+    "description": "Web, mobil ve UI/UX tasarım geliştirme projelerimizin portföyünü keşfedin. Uzman ekibimiz tarafından oluşturulan yenilikçi çözümler ve modern arayüzler.",
+    "subdescription": "Kavramdan tamamlanmaya, her proje uzmanlığımızı ve olağanüstü dijital deneyimler yaratma konusundaki bağlılığımızı yansıtır."
+  },
+  "expertise": {
+    "title": "Proje geliştirme uzmanlığımız",
+    "description": "onRuntime Studio’da yaratıcılığı, teknik uzmanlığı ve kanıtlanmış yöntemleri bir araya getirerek fikirlerinizi yüksek performanslı, yenilikçi dijital çözümlere dönüştürüyoruz.",
+    "cards": {
+      "development": {
+        "title": "Özel geliştirme",
+        "description": "Projeniz ve özel hedefleriniz için en uygun teknolojileri kullanarak dikkatlice kodlanmış çözümler."
+      },
+      "design": {
+        "title": "Olağanüstü UI/UX tasarımı",
+        "description": "Kullanıcılarınızı etkileyen ve marka kimliğinizi etkili bir şekilde ileten zarif ve sezgisel arayüzler."
+      },
+      "performance": {
+        "title": "Optimal performans",
+        "description": "Sorunsuz ve keyifli bir kullanıcı deneyimi sunmak için hızlı, yanıt veren ve optimize edilmiş uygulamalar."
+      }
+    }
+  },
+  "process": {
+    "title": "Teslimat sürecimiz",
+    "description": "Her proje için kalite ve başarı garantileyen kanıtlanmış bir metodoloji, başlangıç tasarımından son dağıtıma kadar.",
+    "steps": {
+      "discovery": {
+        "title": "Keşif",
+        "description": "İhtiyaçlarınızın, hedeflerinizin ve sektörünüzün spesifiklerinin derinlemesine analizi."
+      },
+      "conception": {
+        "title": "Tasarım",
+        "description": "Kullanıcı deneyimini görselleştirmek ve doğrulamak için mockup ve prototipler oluşturma."
+      },
+      "development": {
+        "title": "Geliştirme",
+        "description": "Kaliteyi sağlamak için modern teknolojilerle dikkatli kodlama ve titiz test süreçleri."
+      },
+      "deployment": {
+        "title": "Dağıtım",
+        "description": "Proje başarınızı sağlamak için sürekli izleme ve destek ile üretim lansmanı."
+      }
+    }
+  },
+  "industries": {
+    "title": "Hizmet verdiğimiz sektörler",
+    "description": "Uzmanlığımız birçok sektöre uzanmakta olup, her sektörün özgüllüklerine uygun çözümler sunuyoruz.",
+    "items": {
+      "ecommerce": "E-ticaret",
+      "startups": "Yeni girişimler",
+      "luxury": "Lüks",
+      "institutions": "Kurumlar"
+    }
+  },
+  "why-us": {
+    "title": "Neden onRuntime Studio’yu seçmelisiniz?",
+    "description": "Müşteri odaklı yaklaşımımız ve mükemmeliyete olan bağlılığımızla öne çıkıyoruz.",
+    "items": {
+      "expertise": {
+        "title": "Teknik uzmanlık",
+        "description": "Son teknolojileri ustaca kullanan deneyimli geliştirici ve tasarımcılar."
+      },
+      "custom": {
+        "title": "Özel çözümler",
+        "description": "Özel ihtiyaçlarınıza tam olarak uyum sağlayan kişiselleştirilmiş gelişmeler."
+      },
+      "support": {
+        "title": "Sürekli destek",
+        "description": "Proje boyunca ve lansman sonrası kaliteli destek."
+      }
+    }
+  },
+  "cta": {
+    "title": "Projenizi hayata geçirmeye hazır mısınız?",
+    "description": "Bugün bizimle iletişime geçin, fikrinizi tartışalım ve uzmanlığımızın onu gerçeğe dönüştürmenize nasıl yardımcı olabileceğini keşfedin.",
+    "buttons": {
+      "start": "Proje başlat",
+      "services": "Hizmetlerimizi keşfedin"
+    }
+  }
+}

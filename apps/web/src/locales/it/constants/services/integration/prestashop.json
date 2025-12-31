@@ -1,0 +1,80 @@
+{
+  "name": "PrestaShop",
+  "description": "Sviluppo di negozi PrestaShop",
+  "hero": {
+    "title": "Sviluppo e-commerce con PrestaShop",
+    "description": "Lancia un negozio online professionale con PrestaShop. La nostra esperienza garantisce una soluzione e-commerce potente e scalabile, perfettamente adattata alle tue esigenze."
+  },
+  "features": {
+    "custom-design": {
+      "title": "Design personalizzato",
+      "description": "Creazione di temi personalizzati che riflettono il tuo brand e ottimizzano la conversione."
+    },
+    "advanced-management": {
+      "title": "Gestione avanzata",
+      "description": "Interfaccia admin potente per gestire i tuoi prodotti, ordini e clienti."
+    },
+    "optimized-performance": {
+      "title": "Prestazioni ottimizzate",
+      "description": "Ottimizzazione avanzata per tempi di caricamento rapidi e un'esperienza fluida."
+    },
+    "enhanced-security": {
+      "title": "Sicurezza avanzata",
+      "description": "Protezione avanzata del tuo negozio e dei dati dei tuoi clienti."
+    }
+  },
+  "benefits": {
+    "complete-management": {
+      "title": "Gestione completa",
+      "description": "Controllo totale sui tuoi prodotti, inventario, ordini e relazioni con i clienti."
+    },
+    "multi-store": {
+      "title": "Multi-negozio",
+      "description": "Gestione di più negozi da un'unica interfaccia admin."
+    },
+    "integrated-logistics": {
+      "title": "Logistica integrata",
+      "description": "Gestione avanzata dei corrieri e dei costi di spedizione."
+    },
+    "detailed-analytics": {
+      "title": "Analisi dettagliate",
+      "description": "Statistiche complete per monitorare e ottimizzare le tue prestazioni."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Quanto tempo ci vuole per creare un negozio PrestaShop?",
+      "answer": "Il tempo medio per creare un negozio PrestaShop varia da 6 a 12 settimane, a seconda della complessità del progetto. Questo include la personalizzazione del tema, lo sviluppo di funzionalità personalizzate, l'integrazione dei prodotti e i test."
+    },
+    "migration": {
+      "question": "Puoi migrare il mio negozio esistente su PrestaShop?",
+      "answer": "Sì, offriamo un servizio completo di migrazione verso PrestaShop, inclusi il trasferimento di prodotti, clienti, ordini e cronologia, preservando il tuo SEO."
+    },
+    "large-catalogs": {
+      "question": "PrestaShop è adatto per cataloghi di grandi dimensioni?",
+      "answer": "Assolutamente! PrestaShop è progettato per gestire in modo efficiente cataloghi di diverse migliaia di prodotti con varianti, mantenendo alti livelli di prestazioni."
+    },
+    "custom-development": {
+      "question": "Offrite sviluppo personalizzato?",
+      "answer": "Sì, sviluppiamo moduli e funzionalità personalizzate per adattare PrestaShop alle tue esigenze specifiche: integrazioni ERP, processi aziendali personalizzati, ecc."
+    },
+    "maintenance-updates": {
+      "question": "Come gestite manutenzione e aggiornamenti?",
+      "answer": "Offriamo diversi piani di manutenzione, inclusi aggiornamenti di sicurezza, backup, ottimizzazione delle prestazioni e supporto tecnico."
+    }
+  },
+  "complementary": {
+    "custom-modules": {
+      "title": "Moduli personalizzati",
+      "description": "Sviluppo di funzionalità specifiche per la tua azienda."
+    },
+    "digital-marketing": {
+      "title": "Marketing digitale",
+      "description": "Strategie di marketing per aumentare la tua visibilità e vendite."
+    },
+    "prestashop-training": {
+      "title": "Formazione PrestaShop",
+      "description": "Formazione personalizzata per padroneggiare la gestione del tuo negozio."
+    }
+  }
+}

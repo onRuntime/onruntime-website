@@ -1,0 +1,79 @@
+{
+  "title": "Webbutveckling i Strasbourg | Digitala lösningar för alsatiska företag",
+  "description": "Skapa din webbplats eller mobilapplikation i Strasbourg. Skräddarsydda digitala lösningar för alsatiska företag, anpassade till lokala och gränsöverskridande utmaningar.",
+  "hero": {
+    "title": "Webb & Mobilutveckling i Strasbourg",
+    "description": "Vi hjälper företag i Strasbourg och regionen Grand Est att digitalisera med skräddarsydda webblösningar som är perfekt anpassade till de specifika utmaningarna på den alsatiska och europeiska marknaden."
+  },
+  "intro": "Europas huvudstad och en gränsstad med rik kulturarv. Strasbourg kombinerar alsatiska traditioner och internationell öppenhet. Dess status som säte för europeiska institutioner, dess dynamiska industri och strategiska läge mellan Frankrike och Tyskland gör det till ett unikt område där digitalt spelar en viktig brobyggande roll.",
+  "expertise": "Vårt team designar webbplatser, applikationer och digitala lösningar som är perfekt anpassade för företag i Strasbourg, oavsett om de är internationella organisationer, industriföretag eller lokala kulturaktörer. Vi förstår de specifika utmaningarna på din regionala och gränsöverskridande marknad och erbjuder flerspråkiga och kulturellt anpassade digitala lösningar.",
+  "why-choose-us": "Vår djupa kunskap om marknaden i Strasbourg gör att vi kan utveckla digitala lösningar som är perfekt anpassade till de specifika utmaningarna för lokala företag. Vi förstår kraven i det europeiska sammanhanget och alsatiska kulturella särdrag, och integrerar denna dubbla dimension i varje projekt för att skapa relevanta och högpresterande digitala upplevelser.",
+  "key-business-sectors": {
+    "european-institutions": "Europeiska institutioner",
+    "cross-border-commerce": "Gränsöverskridande handel",
+    "industry": "Industri",
+    "culture-heritage": "Kultur & Arv"
+  },
+  "local-challenges": {
+    "european-institutions-needs": "Specifika behov hos europeiska institutioner och internationella organisationer",
+    "cross-border-development": "Utveckling av gränsöverskridande handel med Tyskland och Schweiz",
+    "traditional-industries-transformation": "Digital transformation av traditionella alsatiska industrier",
+    "heritage-digital-showcase": "Digitalt skyltfönster för regionens rika kulturella och historiska arv"
+  },
+  "benefits": {
+    "multilingual-solutions": "Flerspråkiga lösningar anpassade till den internationella kontexten i Strasbourg",
+    "european-standards-expertise": "Skarp expertis inom användargränssnitt som följer europeiska standarder",
+    "cross-border-knowledge": "Djup kunskap om gränsöverskridande marknader och deras specifika egenskaper",
+    "innovative-traditional-approach": "Ett tillvägagångssätt som både är innovativt och respektfullt mot alsatiska traditioner",
+    "personalized-support": "Personligt stöd under hela ditt digitala projekt"
+  },
+  "primary-stat": {
+    "label": "internationell kontext"
+  },
+  "strengths": {
+    "european-solutions": {
+      "title": "Europeiska lösningar",
+      "description": "Flerspråkiga plattformar för institutioner och internationella organisationer."
+    },
+    "cross-border-commerce": {
+      "title": "Gränsöverskridande handel",
+      "description": "E-handelslösningar anpassade för franska, tyska och schweiziska marknader."
+    },
+    "industry-40": {
+      "title": "Industri 4.0",
+      "description": "Processdigitalisering för traditionell alsatisk industri."
+    },
+    "digital-heritage": {
+      "title": "Digitalt arv",
+      "description": "Digitala upplevelser för att visa upp kulturellt och historiskt arv."
+    }
+  },
+  "focused-services": {
+    "institutional-websites": {
+      "name": "Institutionella webbplatser",
+      "description": "Flerspråkiga plattformar som följer europeiska tillgänglighetsstandarder."
+    },
+    "cross-border-ecommerce": {
+      "name": "Gränsöverskridande e-handel",
+      "description": "Kommersiella lösningar anpassade till tyska och franska marknadsspecifika krav."
+    },
+    "industrial-applications": {
+      "name": "Industriella applikationer",
+      "description": "Skräddarsydda digitala verktyg för att modernisera industriella processer."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertis",
+      "description": "År av erfarenhet"
+    },
+    "satisfaction": {
+      "label": "Tillfredsställelse",
+      "description": "Nöjda kunder"
+    },
+    "average-time": {
+      "label": "Genomsnittlig tid",
+      "description": "Veckor till färdigställande"
+    }
+  }
+}

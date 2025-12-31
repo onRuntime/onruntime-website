@@ -1,0 +1,80 @@
+{
+  "name": "UI-Mockups",
+  "description": "Detailliertes Design von Benutzeroberflächen",
+  "hero": {
+    "title": "Benutzeroberflächendesign",
+    "description": "Erstelle moderne, elegante und intuitive Oberflächen für deine Anwendungen. Unsere Expertise im UI-Design garantiert professionelle Mockups, die deine Nutzer begeistern werden."
+  },
+  "features": {
+    "modern-design": {
+      "title": "Modernes Design",
+      "description": "Elegante Oberflächen, die den neuesten Trends folgen."
+    },
+    "design-system": {
+      "title": "Designsystem",
+      "description": "Konsistente und wiederverwendbare Komponenten."
+    },
+    "responsive-design": {
+      "title": "Responsive Design",
+      "description": "Perfekte Anpassung an alle Bildschirme."
+    },
+    "animations-micro-interactions": {
+      "title": "Animationen & Mikrointeraktionen",
+      "description": "Flüssige und ansprechende Interaktionen."
+    }
+  },
+  "benefits": {
+    "visual-identity": {
+      "title": "Visuelle Identität",
+      "description": "Design, das mit deiner Marke konsistent ist."
+    },
+    "user-experience": {
+      "title": "Benutzererfahrung",
+      "description": "Intuitive und angenehme Oberflächen, die leicht zu bedienen sind."
+    },
+    "design-system": {
+      "title": "Designsystem",
+      "description": "Bibliothek von wiederverwendbaren Komponenten."
+    },
+    "accessibility": {
+      "title": "Barrierefreiheit",
+      "description": "Oberflächen, die für alle Nutzer zugänglich sind."
+    }
+  },
+  "faq": {
+    "ui-design-process": {
+      "question": "Wie funktioniert der UI-Designprozess?",
+      "answer": "Der Prozess beginnt mit der Analyse deiner Bedürfnisse und der Markenidentität. Dann erstellen wir erste Versionen der Hauptbildschirme, etablieren das Designsystem und iterieren mit detaillierten Mockups. Jeder Schritt beinhaltet dein Feedback, um ein Ergebnis zu gewährleisten, das perfekt auf deine Erwartungen abgestimmt ist."
+    },
+    "tools-deliverables": {
+      "question": "Welche Werkzeuge und Liefergegenstände werden bereitgestellt?",
+      "answer": "Wir verwenden hauptsächlich Figma für das UI-Design. Du erhältst detaillierte Mockups aller Bildschirme, ein komplettes Designsystem mit seinen Komponenten, Spezifikationen für Entwickler und die notwendigen Assets für die Integration."
+    },
+    "responsive-handling": {
+      "question": "Wie gehst du mit responsive Design um?",
+      "answer": "Wir folgen einem Mobile-First-Ansatz und erstellen Mockups für jeden wichtigen Breakpoint (Mobil, Tablet, Desktop). Jede Oberfläche ist optimiert, um die bestmögliche Erfahrung auf ihrem Medium zu bieten."
+    },
+    "design-consistency": {
+      "question": "Wie stellst du Designkonsistenz sicher?",
+      "answer": "Wir erstellen ein komplettes Designsystem, einschließlich einer Komponentenbibliothek, typografischen Regeln, Farbpalette und Designelementen. Dieses System sorgt für Konsistenz in der gesamten Benutzeroberfläche."
+    },
+    "developer-handoff": {
+      "question": "Wie erleichterst du die Arbeit der Entwickler?",
+      "answer": "Wir liefern detaillierte Spezifikationen für jede Komponente, einschließlich Maße, Stile, Zustände und Interaktionen. Wir nutzen auch Tools wie Zeplin oder Figma-Exporte, um die Integration zu erleichtern."
+    }
+  },
+  "complementary": {
+    "design-system": {
+      "title": "Designsystem",
+      "description": "Erstellung einer Komponentenbibliothek."
+    },
+    "prototyping": {
+      "title": "Prototyping",
+      "description": "Erstellung interaktiver Prototypen."
+    },
+    "development": {
+      "title": "Entwicklung",
+      "description": "Integration deiner Mockups in Code."
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "hero": {
+    "title": "onRuntime Studio-föreningen",
+    "description": "En fransk ideell organisation som är dedikerad till innovation och kreativitet inom webb- och mobilutveckling samt design."
+  },
+  "cta": {
+    "become-member": "Bli medlem",
+    "our-projects": "Våra projekt"
+  },
+  "history": {
+    "title": "Vår historia",
+    "description": "Grundad 2020, föddes onRuntime Studio ur den gemensamma passionen hos utvecklare och designers som har samarbetat sedan 2015. Vår organisation syftar till att skapa ett samarbetsutrymme för att innovera och dela vår kunskap, med ambitionen att snart bli ett fullvärdigt företag.",
+    "timeline": {
+      "2015": {
+        "title": "Första samarbetena",
+        "description": "Början på samarbeten mellan Jérémy, Antoine och Lucas, främst på videospelplattformar."
+      },
+      "2020": {
+        "title": "Skapandet av organisationen",
+        "description": "Officiell grundande av onRuntime Studio som en fransk ideell organisation, på råd av Bryan Recher."
+      },
+      "2021": {
+        "title": "Möte i Rouen",
+        "description": "Grundarna möts i Rouen för att påskynda projekten, särskilt deras flaggskeppsprojekt: Tonight Pass."
+      },
+      "2022": {
+        "title": "Första rekryteringarna",
+        "description": "Organisationen rekryterar sina första anställda för att stödja utvecklingen av sina projekt."
+      },
+      "2023-2025": {
+        "title": "Fortsatt expansion",
+        "description": "Fokus på att utveckla Tonight Pass och förbereda för en framtida omvandling till företag."
+      }
+    }
+  },
+  "founders": {
+    "title": "Grundarna",
+    "description": "Vår organisation grundades av tre entusiaster som har arbetat tillsammans i flera år för att förverkliga innovativa projekt.",
+    "website": "Hemsida",
+    "linkedin": "LinkedIn"
+  },
+  "values": {
+    "title": "Våra värderingar",
+    "description": "Dessa grundläggande principer vägleder vår syn och vårt tillvägagångssätt, vilket påverkar varje handling och beslut vi tar.",
+    "items": {
+      "innovation": {
+        "title": "Innovation",
+        "description": "Vi pressar ständigt gränserna för kreativitet och teknik för att erbjuda innovativa lösningar."
+      },
+      "community": {
+        "title": "Gemenskap",
+        "description": "Vi tror på styrkan i det kollektiva och främjar en samarbetande miljö där alla kan växa."
+      },
+      "passion": {
+        "title": "Passion",
+        "description": "Jede projekt hanteras med passion och engagemang, för vi älskar verkligen det vi gör."
+      },
+      "learning": {
+        "title": "Lärande",
+        "description": "Vi värderar kontinuerligt lärande och kunskapsdelning för att utvecklas tillsammans."
+      }
+    }
+  },
+  "expertise": {
+    "title": "Vår tekniska expertis",
+    "description": "De teknologier vi behärskar och använder i våra föreningsprojekt."
+  },
+  "membership": {
+    "title": "Bli medlem",
+    "description": "Gå med i vår gemenskap av entusiaster och delta i utvecklingen av innovativa projekt.",
+    "annual": {
+      "title": "Årsmedlemskap",
+      "price": "30€",
+      "period": "/år",
+      "description": "Årsavgift för att bli volontärmedlem i organisationen.",
+      "benefits": {
+        "hours": "Engagemang på 3 till 6 timmar per vecka",
+        "projects": "Deltagande i föreningens projekt",
+        "discord": "Dedikerad Discord-roll och tillgång till privata kanaler",
+        "mentoring": "Personlig mentoring av våra erfarna medlemmar",
+        "resources": "Tillgång till alla våra resurser och utbildningar",
+        "autonomy": "Autonomi i föreningens projekt"
+      },
+      "cta": "Begär mitt medlemskap"
+    }
+  },
+  "initiatives": {
+    "title": "Våra program och initiativ",
+    "description": "Upptäck de initiativ vi för närvarande utvecklar och våra kommande projekt.",
+    "mentoring": {
+      "title": "Tekniskt mentorprogram",
+      "description": "Vårt mentorprogram gör det möjligt för nybörjarmedlemmar att få stöd i sin kompetensutveckling av erfarna utvecklare och designers från organisationen.",
+      "status": "För närvarande aktivt"
+    },
+    "workshops": {
+      "title": "Samarbetsinriktade tekniska workshops",
+      "description": "Grupparbete och lärandemöten om specifika teknologier, organiserade online och personligen när det är möjligt.",
+      "status": "I utvecklingsfas"
+    },
+    "hackathons": {
+      "title": "Gemenskaps-hackathons",
+      "description": "Organisation av 48-timmars-evenemang där team tillsammans utvecklar innovativa lösningar på specifika problem.",
+      "status": "Framtida projekt"
+    },
+    "contribute": "Vill du bidra till utvecklingen av dessa initiativ?",
+    "contact": "Kontakta oss"
+  },
+  "discord": {
+    "title": "Gå med i vår Discord-gemenskap",
+    "description": "Koppla ihop med andra medlemmar, delta i tekniska diskussioner och håll dig informerad om de senaste nyheterna från organisationen.",
+    "cta": "Gå med i Discord"
+  }
+}

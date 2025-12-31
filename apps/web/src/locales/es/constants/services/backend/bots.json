@@ -1,0 +1,80 @@
+{
+  "name": "Bots de Discord/Slack",
+  "description": "Desarrollo de bots y automatizaciones",
+  "hero": {
+    "title": "Bots y automatizaciones",
+    "description": "Desarrolla bots y automatizaciones inteligentes para mejorar la participación y productividad de tu comunidad. Nuestra experiencia garantiza bots confiables y de alto rendimiento para Discord, Slack y otras plataformas."
+  },
+  "features": {
+    "discord-slack": {
+      "title": "Discord y Slack",
+      "description": "Bots personalizados para las principales plataformas de comunicación."
+    },
+    "advanced-commands": {
+      "title": "Comandos avanzados",
+      "description": "Interfaz intuitiva con comandos personalizables."
+    },
+    "optimal-performance": {
+      "title": "Rendimiento óptimo",
+      "description": "Arquitectura optimizada para la máxima capacidad de respuesta."
+    },
+    "integrations": {
+      "title": "Integraciones",
+      "description": "Conexión con tus herramientas y servicios existentes."
+    }
+  },
+  "benefits": {
+    "intelligent-moderation": {
+      "title": "Moderación inteligente",
+      "description": "Gestión automatizada de tu comunidad y moderación."
+    },
+    "notifications": {
+      "title": "Notificaciones",
+      "description": "Alertas personalizadas y actualizaciones automáticas."
+    },
+    "engagement": {
+      "title": "Compromiso",
+      "description": "Funciones interactivas para animar tu comunidad."
+    },
+    "statistics": {
+      "title": "Estadísticas",
+      "description": "Seguimiento detallado de la actividad y las interacciones."
+    }
+  },
+  "faq": {
+    "bot-types": {
+      "question": "¿Qué tipos de bots pueden desarrollar?",
+      "answer": "Desarrollamos bots para varias plataformas (Discord, Slack, Telegram) con diferentes características: moderación, atención al cliente, automatización de tareas, estadísticas, juegos y actividades comunitarias. Cada bot es personalizado según tus necesidades específicas."
+    },
+    "bot-reliability": {
+      "question": "¿Cómo aseguran la fiabilidad del bot?",
+      "answer": "Implementamos varios mecanismos: monitoreo 24/7, reinicio automático en caso de problemas, registros detallados y alertas en tiempo real. También realizamos pruebas exhaustivas antes de cada implementación."
+    },
+    "customization": {
+      "question": "¿Se pueden personalizar los comandos y características?",
+      "answer": "Sí, todos nuestros bots son completamente personalizables: comandos, respuestas, permisos, integraciones. Adaptamos cada función a tus necesidades y pautas de moderación."
+    },
+    "security": {
+      "question": "¿Cómo manejan la seguridad?",
+      "answer": "La seguridad es una prioridad: autenticación segura, permisos granulares, validación de entradas, protección contra spam y abusos. Seguimos las mejores prácticas de cada plataforma."
+    },
+    "post-deployment-support": {
+      "question": "¿Ofrecen soporte post-implementación?",
+      "answer": "Sí, ofrecemos varios planes de mantenimiento que incluyen: monitoreo 24/7, actualizaciones regulares, soporte técnico y evoluciones funcionales según tus necesidades."
+    }
+  },
+  "complementary": {
+    "analytics": {
+      "title": "Analíticas",
+      "description": "Seguimiento detallado del uso y las interacciones."
+    },
+    "support-24-7": {
+      "title": "Soporte 24/7",
+      "description": "Monitoreo continuo e intervención rápida."
+    },
+    "evolutions": {
+      "title": "Evoluciones",
+      "description": "Adición regular de nuevas características."
+    }
+  }
+}

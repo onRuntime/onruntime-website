@@ -1,0 +1,48 @@
+{
+  "name": "UI/UX Design",
+  "description": "Moderne Schnittstellen und optimale Benutzererfahrungen schaffen",
+  "benefits": {
+    "user-centered-design": {
+      "title": "Benutzerzentriertes UI/UX-Design",
+      "description": "Ein Ansatz, der die Bedürfnisse der Benutzer in den Mittelpunkt unseres Designs stellt, validiert durch interaktive Prototypen."
+    },
+    "creative-innovation": {
+      "title": "Kreative Innovation",
+      "description": "Kreative UI/UX-Lösungen und innovative Prototypen, die deine Marke hervorheben und dabei Standards respektieren."
+    },
+    "iterative-prototyping": {
+      "title": "Iteratives Prototyping",
+      "description": "Eine Methodik, die auf schnellen Prototypen und häufigen Iterationen beruht, um die Benutzererfahrung zu verfeinern."
+    },
+    "business-objectives": {
+      "title": "Geschäftsziele",
+      "description": "UI/UX-Design, das auf deine Geschäftsziele abgestimmt ist und durch Nutzertests an Prototypen validiert wird."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Bedarfsanalyse",
+      "description": "Ein entscheidender erster Schritt, bei dem wir deine Bedürfnisse, Marke und Geschäftsziele analysieren, um die UI/UX-Richtung festzulegen."
+    },
+    "research-moodboard": {
+      "title": "Recherche und Moodboard",
+      "description": "Moodboards erstellen und mögliche kreative Richtungen erkunden. Die gesamte künstlerische Richtung definieren."
+    },
+    "wireframes": {
+      "title": "Wireframes",
+      "description": "Wireframes entwerfen, um Struktur, Hierarchie und Informationsarchitektur zu validieren."
+    },
+    "interface-design": {
+      "title": "Schnittstellendesign",
+      "description": "Finale Mockups erstellen, während wir deine Markenrichtlinien respektieren. Besonders Augenmerk auf Komponenten und deren Wiederverwendbarkeit."
+    },
+    "prototyping": {
+      "title": "Prototyping",
+      "description": "Prototypen erstellen, um Interaktionen zu testen und Benutzerreisen zu validieren."
+    },
+    "development": {
+      "title": "Entwicklung",
+      "description": "Mockups in funktionale Schnittstellen umwandeln, mit besonderem Augenmerk auf definierte Animationen."
+    }
+  }
+}

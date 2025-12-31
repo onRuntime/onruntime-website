@@ -1,0 +1,66 @@
+{
+  "short-description": "Een browserextensie die Instagram omtovert tot een donkere modus, vergelijkbaar met de iOS-app.",
+  "description": "Verander het thema van Instagram.com naar donkere modus wanneer het systeem in donkere modus staat.",
+  "long-description": "Dark Theme for Instagram™ is een browserextensie die de visuele ervaring van Instagram.com verandert door een donker thema aan te nemen, vergelijkbaar met het uiterlijk van de iOS-app.\n\nDe extensie biedt een eenvoudige en elegante oplossing om de vermoeidheid van de ogen te verminderen en de Instagram-ervaring te verbeteren, terwijl het rekening houdt met de voorkeuren van het besturingssysteem.",
+  "features": {
+    "auto-dark-mode": {
+      "title": "Automatische donkere modus",
+      "description": "Schakel automatisch het donkere thema in op basis van systeeminstellingen"
+    },
+    "multi-browser": {
+      "title": "Compatibel met meerdere browsers",
+      "description": "Beschikbaar voor Firefox, Edge en Chrome"
+    },
+    "open-source": {
+      "title": "Open source",
+      "description": "Vrij toegankelijk en controleerbare broncode"
+    }
+  },
+  "technologies": {
+    "javascript": {
+      "description": "Ontwikkeling van extensies"
+    },
+    "chrome-api": {
+      "description": "Browserintegratie"
+    },
+    "css": {
+      "description": "Thema-aanpassing"
+    }
+  },
+  "metrics": {
+    "users": {
+      "value": "52k+",
+      "label": "Gebruikers",
+      "description": "Actieve gebruikers"
+    },
+    "installs": {
+      "value": "82k+",
+      "label": "Installaties",
+      "description": "Totale installaties"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "Open source",
+      "description": "Openbare broncode"
+    }
+  },
+  "screenshots": {
+    "dark-interface": {
+      "caption": "Instagram-interface in donkere modus"
+    }
+  },
+  "challenges": {
+    "instagram-updates-compatibility": "Compatibiliteit behouden met de frequente updates van Instagram",
+    "cross-browser-consistency": "Zorg voor een consistent donker thema in verschillende browsers",
+    "browser-performance": "Minimale impact op de prestaties van de browser"
+  },
+  "learnings": {
+    "dynamic-interface-modification": "Complexiteit van dynamische wijziging van webinterfaces",
+    "cross-browser-compatibility": "Belang van cross-browser compatibiliteit",
+    "platform-updates-management": "Beheer van frequente updates van webplatforms"
+  },
+  "future-plans": {
+    "more-customization": "Meer aanpassingsmogelijkheden toevoegen",
+    "instagram-versions-compatibility": "Compatibiliteit verbeteren met verschillende versies van Instagram"
+  }
+}

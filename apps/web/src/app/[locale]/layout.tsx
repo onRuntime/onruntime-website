@@ -9,7 +9,7 @@ import { Figtree } from "next/font/google";
 import { Provider } from "react-wrap-balancer";
 
 import { cn } from "@/lib/utils/cn";
-import { locales } from "@/lib/translations";
+import { localeCodes } from "@/lib/translations";
 import Navbar from "@/components/marketing/navbar";
 import Footer from "@/components/layout/footer/footer";
 import { Toaster } from "@/components/ui/toaster";
@@ -23,7 +23,7 @@ export const figtree = Figtree({
 });
 
 export async function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
+  return localeCodes.map((locale) => ({ locale }));
 }
 
 type LayoutProps = {

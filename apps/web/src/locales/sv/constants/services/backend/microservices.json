@@ -1,0 +1,80 @@
+{
+  "name": "Mikrotjänster",
+  "description": "Mikrotjänstarkitektur och utveckling",
+  "hero": {
+    "title": "Mikrotjänstarkitektur",
+    "description": "Transformera dina monolitiska applikationer till moderna och skalbara mikrotjänstarkitekturer. Vår expertis garanterar en flexibel, resilient och högpresterande infrastruktur."
+  },
+  "features": {
+    "scalable-architecture": {
+      "title": "Skalbar arkitektur",
+      "description": "Modulär design för optimal skalbarhet."
+    },
+    "continuous-deployment": {
+      "title": "Kontinuerlig deployment",
+      "description": "CI/CD-pipeline för smidiga uppdateringar."
+    },
+    "optimal-performance": {
+      "title": "Optimal prestanda",
+      "description": "Oberoende tjänster för bättre respons."
+    },
+    "high-availability": {
+      "title": "Hög tillgänglighet",
+      "description": "Resilient arkitektur med redundans."
+    }
+  },
+  "benefits": {
+    "granular-scalability": {
+      "title": "Granulär skalbarhet",
+      "description": "Oberoende skalning av varje tjänst."
+    },
+    "flexible-deployment": {
+      "title": "Flexibel deployment",
+      "description": "Uppdateringar utan tjänstavbrott."
+    },
+    "fault-isolation": {
+      "title": "Felisolering",
+      "description": "Ökad resiliens genom tjänsteisolering."
+    },
+    "advanced-monitoring": {
+      "title": "Avancerad övervakning",
+      "description": "Detaljerad övervakning av varje komponent."
+    }
+  },
+  "faq": {
+    "when-microservices": {
+      "question": "När ska man anta en mikrotjänstarkitektur?",
+      "answer": "Mikrotjänstarkitektur passar särskilt bra för komplexa applikationer som kräver hög skalbarhet, oberoende komponenter och snabb utveckling. Vi utvärderar tillsammans med dig om denna arkitektur matchar dina specifika behov."
+    },
+    "service-communication": {
+      "question": "Hur hanterar ni kommunikationen mellan tjänster?",
+      "answer": "Vi implementerar robusta kommunikationsmönster: API Gateway, meddelandehanterare (Kafka, RabbitMQ), synkron (REST, gRPC) och asynkron kommunikation. Varje metod väljs utifrån specifika prestanda- och pålitlighetsbehov."
+    },
+    "data-consistency": {
+      "question": "Hur säkerställer ni datakonsistens?",
+      "answer": "Vi använder flera strategier: Saga-mönstret för distribuerade transaktioner, Event Sourcing för spårbarhet och CQRS för separation av läs- och skrivoperationer. Slutgiltig konsistens hanteras på ett lämpligt sätt."
+    },
+    "infrastructure-monitoring": {
+      "question": "Hur övervakar ni infrastrukturen?",
+      "answer": "Vi sätter upp en omfattande övervakning: prestandamått, distribuerad spårning, centrala loggar och intelligent larmhantering. Anpassade instrumentpaneler gör det möjligt att visualisera hälsan hos varje tjänst."
+    },
+    "team-training": {
+      "question": "Erbjuder ni teamträning?",
+      "answer": "Ja, vi erbjuder omfattande träning för dina team: principer för mikrotjänster, bästa utvecklingspraxis, övervakning och felsökning, samt användning av DevOps-verktyg."
+    }
+  },
+  "complementary": {
+    "devops-cicd": {
+      "title": "DevOps & CI/CD",
+      "description": "Komplett automatik för deployment."
+    },
+    "monitoring-24-7": {
+      "title": "24/7 Övervakning",
+      "description": "Kontinuerlig övervakning och realtidslarm."
+    },
+    "optimization": {
+      "title": "Optimering",
+      "description": "Kontinuerlig prestandaförbättring."
+    }
+  }
+}

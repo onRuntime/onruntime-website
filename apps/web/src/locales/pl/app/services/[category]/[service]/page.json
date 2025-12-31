@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Usługa nie znaleziona",
+      "description": "Ta usługa nie istnieje."
+    }
+  },
+  "features": {
+    "title": "Doskonałość w {service}",
+    "description": "Nasza wiedza w {service} gwarantuje Ci profesjonalne rozwiązania o wysokiej wydajności."
+  },
+  "benefits": {
+    "title": "Profesjonalne {service}",
+    "description": "Odkryj zalety profesjonalnej usługi {service}."
+  },
+  "testimonials": {
+    "title": "Ufają nam",
+    "description": "Poznaj opinie naszych klientów na temat ich projektów {service}."
+  },
+  "faq": {
+    "title": "Często zadawane pytania",
+    "description": "Wszystko co musisz wiedzieć o naszej usłudze {service}."
+  },
+  "complementary": {
+    "title": "Usługi uzupełniające",
+    "description": "Optymalizuj swój projekt {service} dzięki naszym dodatkowym usługom."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "WordPress",
+  "description": "Ontwikkeling van op maat gemaakte WordPress-websites",
+  "hero": {
+    "title": "Op maat gemaakte WordPress-ontwikkeling",
+    "description": "Maak een professionele website die jou weerspiegelt met WordPress. Onze expertise garandeert een hoogpresterende, veilige site die perfect is afgestemd op jouw behoeften."
+  },
+  "features": {
+    "custom-themes": {
+      "title": "Op maat gemaakte thema's",
+      "description": "Creëren van op maat gemaakte thema's die jouw identiteit weerspiegelen en precies voldoen aan jouw behoeften."
+    },
+    "optimized-performance": {
+      "title": "Geoptimaliseerde prestaties",
+      "description": "Gevorderde optimalisatie om snelle laadtijden en een soepele gebruikerservaring te garanderen."
+    },
+    "enhanced-security": {
+      "title": "Verbeterde beveiliging",
+      "description": "Implementatie van beveiligingsbest practices om je site en je gegevens te beschermen."
+    },
+    "simplified-administration": {
+      "title": "Vereenvoudigd beheer",
+      "description": "Aangepaste en intuïtieve beheerdersinterface voor eenvoudig contentbeheer."
+    }
+  },
+  "benefits": {
+    "intuitive-administration": {
+      "title": "Intuïtief beheer",
+      "description": "Eenvoudige en intuïtieve beheerdersinterface om je content zelfstandig te beheren."
+    },
+    "seo-optimized": {
+      "title": "SEO geoptimaliseerd",
+      "description": "Structuur geoptimaliseerd voor natuurlijke zoekresultaten en geïntegreerde SEO-tools."
+    },
+    "powerful-extensions": {
+      "title": "Krachtige extensies",
+      "description": "Toegang tot duizenden plugins om de functionaliteit van je site uit te breiden."
+    },
+    "maximum-performance": {
+      "title": "Maximale prestaties",
+      "description": "Gevorderde prestatieoptimalisatie voor een optimale gebruikerservaring."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Hoe lang duurt het om een WordPress-site te maken?",
+      "answer": "De gemiddelde tijd om een WordPress-site te maken varieert van 4 tot 12 weken, afhankelijk van de complexiteit van het project. Dit omvat de ontwerpfase, ontwikkeling van op maat gemaakte thema's, integratie van content en testen."
+    },
+    "migration": {
+      "question": "Kun je mijn bestaande site naar WordPress migreren?",
+      "answer": "Ja, we bieden een complete migratieservice naar WordPress, inclusief overdracht van content, afbeeldingen en functionaliteiten, terwijl je SEO behouden blijft."
+    },
+    "maintenance-updates": {
+      "question": "Hoe ga je om met onderhoud en updates?",
+      "answer": "We bieden verschillende onderhoudsplannen inclusief beveiligingsupdates, regelmatige back-ups, WordPress- en plugin-updates, evenals prestatiemonitoring."
+    },
+    "mobile-optimization": {
+      "question": "Zal mijn site geoptimaliseerd zijn voor mobiel?",
+      "answer": "Zeker. Al onze WordPress-ontwikkelingen zijn standaard responsief, wat een optimale ervaring op alle apparaten garandeert: computers, tablets en smartphones."
+    },
+    "security-approach": {
+      "question": "Wat is jullie aanpak voor beveiliging?",
+      "answer": "We implementeren een uitgebreide beveiligingsstrategie: sterke authenticatie, webapplicatie-firewall, monitoring van inbraakpogingen, geautomatiseerde back-ups en regelmatige beveiligingsupdates."
+    }
+  },
+  "complementary": {
+    "custom-development": {
+      "title": "Op maat gemaakte ontwikkeling",
+      "description": "Creëren van specifieke functionaliteiten om aan jouw particuliere behoeften te voldoen."
+    },
+    "digital-marketing": {
+      "title": "Digitale marketing",
+      "description": "Marketingstrategieën die zijn aangepast om je online zichtbaarheid te vergroten."
+    },
+    "wordpress-training": {
+      "title": "WordPress-training",
+      "description": "Op maat gemaakte training om je sitebeheer te beheersen."
+    }
+  }
+}

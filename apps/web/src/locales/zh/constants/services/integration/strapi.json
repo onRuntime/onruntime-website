@@ -1,0 +1,80 @@
+{
+  "name": "Strapi",
+  "description": "使用 Strapi 开发无头 CMS",
+  "hero": {
+    "title": "使用 Strapi 开发无头 CMS",
+    "description": "使用 Strapi 开发现代应用程序。我们的专业知识保证了一个灵活、可扩展的内容管理解决方案，完美适应你的需求。"
+  },
+  "features": {
+    "custom-api": {
+      "title": "自定义 API",
+      "description": "为你所有的需求创建自定义 RESTful 和 GraphQL API。"
+    },
+    "flexible-administration": {
+      "title": "灵活的管理",
+      "description": "根据你的业务流程自定义管理界面。"
+    },
+    "optimal-performance": {
+      "title": "最佳性能",
+      "description": "高性能架构，确保快速响应时间。"
+    },
+    "advanced-security": {
+      "title": "先进的安全性",
+      "description": "对你的数据和 API 进行强有力的保护。"
+    }
+  },
+  "benefits": {
+    "100-javascript": {
+      "title": "100% JavaScript",
+      "description": "使用 JavaScript/Node.js 进行统一开发，提升效率。"
+    },
+    "flexible-models": {
+      "title": "灵活的模型",
+      "description": "创建无约束的自定义内容模型。"
+    },
+    "role-management": {
+      "title": "角色管理",
+      "description": "精确控制访问和用户权限。"
+    },
+    "advanced-workflows": {
+      "title": "高级工作流",
+      "description": "自动化发布和验证流程。"
+    }
+  },
+  "faq": {
+    "setup-timeline": {
+      "question": "设置 Strapi 项目需要多长时间？",
+      "answer": "设置 Strapi 项目的平均时间为 4 到 12 周，具体取决于复杂性。这包括内容模型设计、API 开发、管理自定义和测试。"
+    },
+    "multilingual": {
+      "question": "Strapi 能处理多语言内容吗？",
+      "answer": "是的，Strapi 原生支持多语言内容。我们可以根据你的具体需求配置和定制翻译管理。"
+    },
+    "content-migration": {
+      "question": "可以将我们现有的内容迁移到 Strapi 吗？",
+      "answer": "可以，我们提供将内容迁移到 Strapi 的完整服务，包括对你现有数据的分析、创建适应的模型以及导入你的内容。"
+    },
+    "deployment-hosting": {
+      "question": "你们如何处理部署和主机？",
+      "answer": "我们可以在不同的云平台（如 AWS、Google Cloud、DigitalOcean 等）上部署 Strapi，并设置可扩展的基础设施，包括开发、预发布和生产环境。"
+    },
+    "custom-plugins": {
+      "question": "你们提供自定义插件开发吗？",
+      "answer": "是的，我们开发自定义的 Strapi 插件，以根据你的需求扩展功能：特定集成、自定义工作流、专用管理界面等。"
+    }
+  },
+  "complementary": {
+    "frontend-development": {
+      "title": "前端开发",
+      "description": "创建与 Strapi API 连接的前端应用程序。"
+    },
+    "integrations": {
+      "title": "集成",
+      "description": "与您现有的第三方工具和服务连接。"
+    },
+    "strapi-training": {
+      "title": "Strapi 培训",
+      "description": "定制培训，让你掌握 CMS 管理。"
+    }
+  }
+}

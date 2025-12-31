@@ -1,0 +1,80 @@
+{
+  "name": "PrestaShop",
+  "description": "Utveckling av PrestaShopbutiker",
+  "hero": {
+    "title": "E-handelsutveckling med PrestaShop",
+    "description": "Starta en professionell onlinebutik med PrestaShop. Vår expertis garanterar en kraftfull, skalbar e-handelslösning som är perfekt anpassad till dina behov."
+  },
+  "features": {
+    "custom-design": {
+      "title": "Anpassad design",
+      "description": "Skapande av anpassade teman som återspeglar ditt varumärke och optimerar konverteringen."
+    },
+    "advanced-management": {
+      "title": "Avancerad hantering",
+      "description": "Kraftfullt administrationsgränssnitt för att hantera dina produkter, beställningar och kunder."
+    },
+    "optimized-performance": {
+      "title": "Optimerad prestanda",
+      "description": "Avancerad optimering för snabba laddningstider och smidig upplevelse."
+    },
+    "enhanced-security": {
+      "title": "Förbättrad säkerhet",
+      "description": "Avancerat skydd av din butik och dina kunders data."
+    }
+  },
+  "benefits": {
+    "complete-management": {
+      "title": "Fullständig hantering",
+      "description": "Full kontroll över dina produkter, lager, beställningar och kundrelationer."
+    },
+    "multi-store": {
+      "title": "Flera butiker",
+      "description": "Hantering av flera butiker från ett enda administrationsgränssnitt."
+    },
+    "integrated-logistics": {
+      "title": "Integrerad logistik",
+      "description": "Avancerad hantering av frakt- och transportkostnader."
+    },
+    "detailed-analytics": {
+      "title": "Detaljerad analys",
+      "description": "Komplett statistik för att följa och optimera din prestanda."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Hur lång tid tar det att skapa en PrestaShop-butik?",
+      "answer": "Den genomsnittliga tiden för att skapa en PrestaShop-butik varierar från 6 till 12 veckor, beroende på projektets komplexitet. Detta inkluderar anpassning av teman, utveckling av anpassade funktioner, produktintegration och testning."
+    },
+    "migration": {
+      "question": "Kan ni migrera min befintliga butik till PrestaShop?",
+      "answer": "Ja, vi erbjuder en komplett migreringstjänst till PrestaShop, inklusive överföring av produkter, kunder, beställningar och historik, samtidigt som din SEO bevaras."
+    },
+    "large-catalogs": {
+      "question": "Är PrestaShop lämpligt för stora produktkataloger?",
+      "answer": "Självklart! PrestaShop är utformat för att effektivt hantera kataloger med flera tusen produkter med variationer, samtidigt som den behåller utmärkt prestanda."
+    },
+    "custom-development": {
+      "question": "Erbjuder ni anpassad utveckling?",
+      "answer": "Ja, vi utvecklar anpassade moduler och funktioner för att anpassa PrestaShop till dina specifika behov: ERP-integrationer, anpassade affärsprocesser, etc."
+    },
+    "maintenance-updates": {
+      "question": "Hur hanterar ni underhåll och uppdateringar?",
+      "answer": "Vi erbjuder olika underhållsplaner inklusive säkerhetsuppdateringar, säkerhetskopieringar, prestandaoptimering och teknisk support."
+    }
+  },
+  "complementary": {
+    "custom-modules": {
+      "title": "Anpassade moduler",
+      "description": "Utveckling av specifika funktioner för ditt företag."
+    },
+    "digital-marketing": {
+      "title": "Digital marknadsföring",
+      "description": "Marknadsstrategier för att öka din synlighet och försäljning."
+    },
+    "prestashop-training": {
+      "title": "PrestaShop-utbildning",
+      "description": "Anpassad utbildning för att bemästra hanteringen av din butik."
+    }
+  }
+}

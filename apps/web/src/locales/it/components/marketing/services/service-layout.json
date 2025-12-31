@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "cta": "Parla del tuo progetto"
+  },
+  "cards": {
+    "custom": {
+      "title": "Soluzioni personalizzate",
+      "description": "Su misura per le tue esigenze"
+    },
+    "support": {
+      "title": "Supporto esperto",
+      "description": "Da parte dei nostri specialisti"
+    },
+    "technologies": {
+      "title": "Tecnologie moderne",
+      "description": "Sempre aggiornate"
+    },
+    "scalability": {
+      "title": "Scalabilità garantita",
+      "description": "Per la tua crescita"
+    }
+  },
+  "cta": {
+    "title": "Pronto a dare vita al tuo progetto?",
+    "description": "Contattaci per discutere le tue esigenze e ottenere un preventivo personalizzato.",
+    "button": "Inizia ora"
+  }
+}

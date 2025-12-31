@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "Porozmawiajmy o Twoim projekcie",
+    "description": "Zawsze chętnie rozmawiamy o nowych projektach. Skontaktuj się z nami, aby podzielić się swoimi pomysłami i zobaczyć, jak możemy Ci pomóc."
+  },
+  "form": {
+    "name": {
+      "label": "Pełna nazwa",
+      "placeholder": "Jan Kowalski"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "ty@przyklad.com"
+    },
+    "message": {
+      "label": "Wiadomość",
+      "placeholder": "Opisz swój projekt..."
+    },
+    "submit": "Wyślij wiadomość",
+    "submitting": "Wysyłanie..."
+  },
+  "toast": {
+    "success": {
+      "title": "Wiadomość wysłana",
+      "description": "Skontaktujemy się z Tobą jak najszybciej."
+    },
+    "error": {
+      "title": "Błąd",
+      "description": "Wystąpił błąd podczas wysyłania wiadomości",
+      "fallback": "Wystąpił błąd"
+    }
+  },
+  "info": {
+    "title": "Informacje kontaktowe",
+    "email": {
+      "label": "Email"
+    },
+    "offices": {
+      "label": "Nasze biura",
+      "value": "Rouen i Paryż, Francja"
+    },
+    "phone": {
+      "label": "Telefon"
+    }
+  },
+  "hours": {
+    "title": "Godziny otwarcia",
+    "timezone": "(czas paryski)",
+    "weekdays": "Poniedziałek - Piątek:",
+    "weekdays-time": "9:00 - 18:00",
+    "weekend": "Weekend:",
+    "weekend-time": "Zamknięte"
+  },
+  "tagline": "Kreatywne studio dedykowane przekształcaniu Twoich pomysłów w cyfrową rzeczywistość."
+}

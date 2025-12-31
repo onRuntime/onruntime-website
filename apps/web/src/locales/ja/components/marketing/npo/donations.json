@@ -1,0 +1,19 @@
+{
+  "title": "寄付をする",
+  "description": "寄付をして、私たちの団体とプロジェクトをサポートしよう。一度の寄付で、私たちの活動やイベント、開発ツールの資金調達に役立ちます。",
+  "other": "その他",
+  "custom-amount": {
+    "label": "カスタム金額",
+    "placeholder": "金額を入力"
+  },
+  "button": {
+    "donate": "寄付する",
+    "processing": "処理中..."
+  },
+  "secure-payment": "Stripeによる安全な支払い",
+  "toast": {
+    "title": "支払いがシミュレートされました",
+    "description-prefix": "あなたの寄付の",
+    "description-suffix": "は、成功裏に処理されました。実際の実装では、Stripeにリダイレクトされます。"
+  }
+}

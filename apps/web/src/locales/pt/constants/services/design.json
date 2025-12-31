@@ -1,0 +1,48 @@
+{
+  "name": "Design de UI/UX",
+  "description": "Criando interfaces modernas e experiências de usuário ótimas",
+  "benefits": {
+    "user-centered-design": {
+      "title": "Design de UI/UX centrado no usuário",
+      "description": "Uma abordagem que coloca as necessidades dos usuários no coração dos nossos designs, validada por protótipos interativos."
+    },
+    "creative-innovation": {
+      "title": "Inovação criativa",
+      "description": "Soluções criativas de UI/UX e protótipos inovadores que destacam sua marca enquanto respeitam os padrões."
+    },
+    "iterative-prototyping": {
+      "title": "Prototipagem iterativa",
+      "description": "Uma metodologia baseada em protótipos rápidos e iterações frequentes para refinar a experiência do usuário."
+    },
+    "business-objectives": {
+      "title": "Objetivos de negócios",
+      "description": "Design de UI/UX alinhado aos seus objetivos de negócios, validado por testes de usuários em protótipos."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Análise de necessidades",
+      "description": "Primeiro passo crucial onde analisamos suas necessidades, marca e objetivos de negócios para definir a direção do UI/UX."
+    },
+    "research-moodboard": {
+      "title": "Pesquisa e moodboard",
+      "description": "Criando moodboards e explorando possíveis direções criativas. Definindo a direção artística geral."
+    },
+    "wireframes": {
+      "title": "Wireframes",
+      "description": "Desenhando wireframes para validar estrutura, hierarquia e arquitetura da informação."
+    },
+    "interface-design": {
+      "title": "Design de interface",
+      "description": "Criando mockups finais enquanto respeitamos suas diretrizes de marca. Atenção especial aos componentes e sua reutilização."
+    },
+    "prototyping": {
+      "title": "Prototipagem",
+      "description": "Criando protótipos para testar interações e validar jornadas do usuário."
+    },
+    "development": {
+      "title": "Desenvolvimento",
+      "description": "Transformando mockups em interfaces funcionais, com atenção especial às animações definidas."
+    }
+  }
+}

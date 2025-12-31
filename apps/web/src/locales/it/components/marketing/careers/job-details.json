@@ -1,0 +1,67 @@
+{
+  "back": "Torna alle offerte di lavoro",
+  "share": {
+    "button": "Condividi",
+    "text": "Scopri questa opportunità: {jobTitle} presso onRuntime Studio",
+    "copied": "Link copiato negli appunti!"
+  },
+  "apply": "Candidati ora",
+  "published": "Pubblicato il",
+  "employment-type": {
+    "full-time": "Full-time",
+    "part-time": "Part-time",
+    "contract": "Contratto",
+    "temporary": "Temporaneo",
+    "internship": "Tirocinio",
+    "apprenticeship": "Apprendistato"
+  },
+  "workplace-type": {
+    "hybrid": "Ibrido",
+    "remote": "Remoto",
+    "on-site": "In sede"
+  },
+  "salary-format": {
+    "from": "Da",
+    "up-to": "Fino a",
+    "range": "-"
+  },
+  "sections": {
+    "description": "Descrizione del lavoro",
+    "no-description": "Non è disponibile una descrizione dettagliata per questa posizione.",
+    "requirements": "Requisiti",
+    "benefits": "Vantaggi"
+  },
+  "details": {
+    "title": "Dettagli del lavoro",
+    "department": "Dipartimento",
+    "location": "Luogo",
+    "contract": "Tipo di contratto",
+    "salary": "Stipendio",
+    "workplace": "Modalità di lavoro"
+  },
+  "interested": {
+    "title": "Sei interessato a questa posizione?",
+    "description": "Candidati ora e unisciti al nostro team appassionato."
+  },
+  "culture": {
+    "title": "La nostra cultura aziendale",
+    "description": "Presso onRuntime Studio, coltiviamo un ambiente di lavoro collaborativo e stimolante dove ogni membro del team può esprimere la propria creatività e sviluppare le proprie competenze. Diamo priorità all'innovazione, alla qualità e al benessere dei nostri dipendenti.",
+    "training": {
+      "title": "Formazione continua",
+      "description": "Investiamo nello sviluppo professionale dei nostri team"
+    },
+    "flexible": {
+      "title": "Ambiente flessibile",
+      "description": "Equilibrio vita-lavoro e lavoro ibrido"
+    },
+    "projects": {
+      "title": "Progetti vari",
+      "description": "Lavora su progetti diversificati e stimolanti"
+    },
+    "learn-more": "Scopri di più sul nostro team"
+  },
+  "cta": {
+    "title": "Pronto per la sfida?",
+    "description": "Unisciti al nostro team e partecipa a progetti stimolanti che ti permetteranno di sviluppare le tue competenze e esprimere la tua creatività."
+  }
+}

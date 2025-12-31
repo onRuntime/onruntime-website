@@ -1,0 +1,80 @@
+{
+  "name": "Shopify",
+  "description": "Tworzenie i dostosowywanie sklepów internetowych na Shopify",
+  "hero": {
+    "title": "Stwórz swój sklep internetowy z Shopify",
+    "description": "Przekształć swoją wizję e-commerce w rzeczywistość dzięki naszej wiedzy o Shopify. Tworzymy wydajne, estetyczne i zoptymalizowane pod kątem konwersji sklepy internetowe."
+  },
+  "features": {
+    "custom-design": {
+      "title": "Zindywidualizowany projekt",
+      "description": "Stworzenie unikalnego motywu, który odzwierciedla Twoją markę i optymalizuje doświadczenia użytkowników."
+    },
+    "conversion-optimization": {
+      "title": "Optimizacja konwersji",
+      "description": "Wdrożenie najlepszych praktyk, aby maksymalizować Twoją sprzedaż i zatrzymywać klientów."
+    },
+    "enhanced-security": {
+      "title": "Zwiększone bezpieczeństwo",
+      "description": "Ochrona Twoich danych oraz danych klientów zgodnie z najnowszymi standardami bezpieczeństwa."
+    },
+    "advanced-integrations": {
+      "title": "Zaawansowane integracje",
+      "description": "Połączenie z ulubionymi narzędziami do zarządzania zapasami, księgowości i marketingu."
+    }
+  },
+  "benefits": {
+    "secure-payments": {
+      "title": "Bezpieczne płatności",
+      "description": "Integracja najważniejszych metod płatności i zarządzanie bezpiecznymi transakcjami."
+    },
+    "international-by-default": {
+      "title": "Międzynarodowy domyślnie",
+      "description": "Sprzedawaj na całym świecie z zarządzaniem wieloma walutami i automatycznymi tłumaczeniami."
+    },
+    "powerful-analytics": {
+      "title": "Potężna analityka",
+      "description": "Szczegółowe śledzenie Twojej wydajności i poznawanie danych, żeby optymalizować Twoją sprzedaż."
+    },
+    "simplified-logistics": {
+      "title": "Uproszczona logistyka",
+      "description": "Efektywne zarządzanie zamówieniami i integracja z głównymi przewoźnikami."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Jak długo trwa stworzenie sklepu Shopify?",
+      "answer": "Średni czas stworzenia sklepu Shopify wynosi od 4 do 8 tygodni, w zależności od złożoności projektu. Obejmuje to fazę projektowania, rozwój, integrację produktów i testowanie."
+    },
+    "migration": {
+      "question": "Czy możesz przenieść mój istniejący sklep na Shopify?",
+      "answer": "Tak, oferujemy pełną usługę migracji z Twojego istniejącego sklepu na Shopify, włączając transfer produktów, klientów i zamówień, zapewniając płynne przejście."
+    },
+    "customization-types": {
+      "question": "Jakie rodzaje dostosowania oferujecie?",
+      "answer": "Oferujemy pełne dostosowanie Twojego sklepu Shopify: indywidualny projekt, unikalne funkcje, specyficzne integracje i optymalizację mobilną."
+    },
+    "post-launch-support": {
+      "question": "Czy oferujecie wsparcie po uruchomieniu?",
+      "answer": "Tak, oferujemy kilka planów wsparcia i konserwacji, aby zapewnić płynne działanie Twojego sklepu po uruchomieniu, w tym aktualizacje, optymalizacje i wsparcie techniczne."
+    },
+    "security": {
+      "question": "Jak zapewniacie bezpieczeństwo mojego sklepu?",
+      "answer": "Stosujemy najlepsze praktyki dotyczące bezpieczeństwa: SSL, zgodność z PCI DSS, regularne kopie zapasowe i ochronę przed oszustwami. Shopify również zapewnia bezpieczeństwo na poziomie bankowym dla wszystkich transakcji."
+    }
+  },
+  "complementary": {
+    "seo": {
+      "title": "SEO",
+      "description": "Optymalizacja pod kątem wyszukiwarek, aby zwiększyć Twoją widoczność."
+    },
+    "digital-marketing": {
+      "title": "Marketing cyfrowy",
+      "description": "Strategie marketingowe dostosowane do przyciągania i konwertowania większej liczby klientów."
+    },
+    "training": {
+      "title": "Szkolenie",
+      "description": "Pełne szkolenie, abyś mógł samodzielnie zarządzać swoim sklepem."
+    }
+  }
+}

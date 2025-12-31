@@ -1,0 +1,79 @@
+{
+  "title": "图卢兹的网页开发 | 面向奥克西塔尼亚企业的数字解决方案",
+  "description": "在图卢兹创建您的网站或移动应用程序。为图卢兹企业量身定制的数字解决方案，针对您行业的本地挑战。",
+  "hero": {
+    "title": "图卢兹的网页与移动开发",
+    "description": "我们帮助图卢兹及奥克西塔尼亚的企业通过量身定制的网站解决方案实现数字化，完美适应图卢兹市场的具体挑战。"
+  },
+  "intro": "作为欧洲航空航天之都和充满活力的学生城市，图卢兹拥有独特的经济生态系统，创新与传统并存。我们的数字专长使图卢兹的企业能够在充满竞争和不断发展的技术环境中脱颖而出。",
+  "expertise": "我们的团队设计的网站、应用程序和数字解决方案完全适合图卢兹企业，无论它们是航空航天巨头、创新初创企业还是传统商店。我们理解您本地市场的具体挑战，并提供尖端的技术解决方案。",
+  "why-choose-us": "我们对图卢兹市场的深刻理解使我们能够开发完全适应本地企业具体挑战的数字解决方案。我们理解粉色城市的技术挑战，并将这种专业知识整合到每个项目中，以创造高性能和面向未来的数字体验。",
+  "key-business-sectors": {
+    "aeronautics": "航空航天",
+    "space": "航天",
+    "tech": "科技",
+    "education": "教育"
+  },
+  "local-challenges": {
+    "aerospace-transformation": "航空航天生态系统中公司的数字转型",
+    "startup-platforms": "图卢兹法兰西科技初创企业对创新平台的需求",
+    "elearning-development": "为众多教育机构开发电子学习解决方案",
+    "local-commerce-adaptation": "面对全国连锁竞争的本地商店适应能力"
+  },
+  "benefits": {
+    "high-tech-solutions": "适应高科技行业的定制解决方案",
+    "complex-interfaces-expertise": "开发复杂界面的专业能力",
+    "startup-ecosystem-knowledge": "对图卢兹初创企业生态系统的深刻理解",
+    "agile-approach": "完美适应创新项目的敏捷方法",
+    "personalized-support": "您整个数字项目过程中个性化的支持"
+  },
+  "primary-stat": {
+    "label": "技术行业"
+  },
+  "strengths": {
+    "aeronautics-solutions": {
+      "title": "航空航天解决方案",
+      "description": "满足航空航天行业特定需求的应用程序和接口。"
+    },
+    "startup-platforms": {
+      "title": "初创企业平台",
+      "description": "面向创新初创企业的敏捷和可扩展数字解决方案。"
+    },
+    "elearning": {
+      "title": "电子学习",
+      "description": "高等教育机构的教育平台。"
+    },
+    "local-commerce": {
+      "title": "本地商业",
+      "description": "为图卢兹的商店和工匠定制数字化服务。"
+    }
+  },
+  "focused-services": {
+    "business-applications": {
+      "name": "商业应用程序",
+      "description": "为航空航天行业和科技公司量身定制的解决方案。"
+    },
+    "innovative-websites": {
+      "name": "创新网站",
+      "description": "面向初创企业和创新公司的现代数字展示。"
+    },
+    "ecommerce-platforms": {
+      "name": "电子商务平台",
+      "description": "为希望实现数字化的本地商店提供完整解决方案。"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "专业知识",
+      "description": "多年的经验"
+    },
+    "satisfaction": {
+      "label": "满意度",
+      "description": "满意的客户"
+    },
+    "average-time": {
+      "label": "平均时间",
+      "description": "完成周数"
+    }
+  }
+}

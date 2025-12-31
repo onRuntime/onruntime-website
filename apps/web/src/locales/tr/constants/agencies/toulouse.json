@@ -1,0 +1,79 @@
+{
+  "title": "Toulouse'da Web Geliştirme | Okçitan İşletmeleri için Dijital Çözümler",
+  "description": "Toulouse'da web sitenizi veya mobil uygulamanızı oluşturun. Toulouse işletmeleri için, sektörünüzün yerel zorluklarına uyarlanmış özel dijital çözümler.",
+  "hero": {
+    "title": "Toulouse'da Web ve Mobil Geliştirme",
+    "description": "Toulouse ve Okçitan'daki işletmeleri dijital hale getirmeye yardımcı oluyoruz. Özel web çözümleri, Toulouse pazarının spesifik zorluklarına mükemmel biçimde uyarlanmış."
+  },
+  "intro": "Avrupa'nın hava taşımacılığı başkenti ve dinamik bir öğrenci şehri olan Toulouse, yenilik ve geleneğin bir arada bulunduğu eşsiz bir ekonomik ekosistem sunuyor. Dijital uzmanlığımız, Toulouse işletmelerinin rekabetçi ve sürekli değişen teknolojik ortamlarda öne çıkmasını sağlıyor.",
+  "expertise": "Ekibimiz, ister havacılık devleri, ister yenilikçi girişimler ya da geleneksel dükkanlar olsun, Toulouse işletmelerine mükemmel şekilde uyarlanmış web siteleri, uygulamalar ve dijital çözümler tasarlıyor. Yerel pazarın özel zorluklarını anlıyor ve en gelişmiş teknolojik çözümleri sunuyoruz.",
+  "why-choose-us": "Toulouse pazarını derinlemesine bilmemiz, yerel işletmelerin özel zorluklarına mükemmel şekilde uyarlanmış dijital çözümler geliştirmemizi sağlıyor. Pembe Şehir'in teknolojik zorluklarını anlıyoruz ve bu uzmanlığı her projeye entegre edip yüksek performanslı ve geleceğe dönük dijital deneyimler yaratıyoruz.",
+  "key-business-sectors": {
+    "aeronautics": "Havacılık",
+    "space": "Uzay",
+    "tech": "Teknoloji",
+    "education": "Eğitim"
+  },
+  "local-challenges": {
+    "aerospace-transformation": "Havacılık ekosistemindeki şirketlerin dijital dönüşümü",
+    "startup-platforms": "Toulouse French Tech girişimleri için yenilikçi platformlara ihtiyaç",
+    "elearning-development": "Birçok eğitim kurumu için e-öğrenme çözümleri geliştirilmesi",
+    "local-commerce-adaptation": "Ulusal zincirler ile rekabet eden yerel dükkanların uyum sağlaması"
+  },
+  "benefits": {
+    "high-tech-solutions": "Yüksek teknolojili endüstrilere uyarlanmış özel çözümler",
+    "complex-interfaces-expertise": "Karmaşık arayüzler geliştirme konusunda keskin bir uzmanlık",
+    "startup-ecosystem-knowledge": "Toulouse girişimci ekosisteminde derin bilgi",
+    "agile-approach": "Yenilikçi projelere mükemmel şekilde uyumlu çevik yaklaşım",
+    "personalized-support": "Dijital projeniz boyunca kişiselleştirilmiş destek"
+  },
+  "primary-stat": {
+    "label": "teknoloji sektörü"
+  },
+  "strengths": {
+    "aeronautics-solutions": {
+      "title": "Havacılık Çözümleri",
+      "description": "Özel havacılık sektörü ihtiyaçlarına uyum sağlamış uygulamalar ve arayüzler."
+    },
+    "startup-platforms": {
+      "title": "Girişimci Platformlar",
+      "description": "Yenilikçi girişimler için çevik ve ölçeklenebilir dijital çözümler."
+    },
+    "elearning": {
+      "title": "E-öğrenme",
+      "description": "Yükseköğretim kurumları için eğitim platformları."
+    },
+    "local-commerce": {
+      "title": "Yerel Ticaret",
+      "description": "Toulouse dükkanları ve zanaatkarları için özel dijitalleşme."
+    }
+  },
+  "focused-services": {
+    "business-applications": {
+      "name": "İş Uygulamaları",
+      "description": "Havacılık endüstrisi ve teknoloji şirketleri için özel çözümler."
+    },
+    "innovative-websites": {
+      "name": "Yenilikçi Web Siteleri",
+      "description": "Girişimler ve yenilikçi şirketler için çağdaş dijital vitrinler."
+    },
+    "ecommerce-platforms": {
+      "name": "E-ticaret Platformları",
+      "description": "Dijitalleşmek isteyen yerel dükkanlar için tam çözümler."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Uzmanlık",
+      "description": "Yılların deneyimi"
+    },
+    "satisfaction": {
+      "label": "Memnuniyet",
+      "description": "Memnun müşteriler"
+    },
+    "average-time": {
+      "label": "Ortalama Süre",
+      "description": "Tamamlanma haftaları"
+    }
+  }
+}

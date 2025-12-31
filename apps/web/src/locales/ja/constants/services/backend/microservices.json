@@ -1,0 +1,80 @@
+{
+  "name": "マイクロサービス",
+  "description": "マイクロサービスアーキテクチャと開発",
+  "hero": {
+    "title": "マイクロサービスアーキテクチャ",
+    "description": "モノリシックなアプリケーションを現代的でスケーラブルなマイクロサービスアーキテクチャに変革しましょう。私たちの専門知識により、柔軟でレジリエント、そして高パフォーマンスなインフラが保証されます。"
+  },
+  "features": {
+    "scalable-architecture": {
+      "title": "スケーラブルなアーキテクチャ",
+      "description": "最適なスケーラビリティのためのモジュール設計。"
+    },
+    "continuous-deployment": {
+      "title": "継続的デプロイメント",
+      "description": "スムーズなアップデートのためのCI/CDパイプライン。"
+    },
+    "optimal-performance": {
+      "title": "最適なパフォーマンス",
+      "description": "より良い応答性のための独立したサービス。"
+    },
+    "high-availability": {
+      "title": "高可用性",
+      "description": "冗長性を備えたレジリエントなアーキテクチャ。"
+    }
+  },
+  "benefits": {
+    "granular-scalability": {
+      "title": "細かいスケーラビリティ",
+      "description": "各サービスの独立したスケーリング。"
+    },
+    "flexible-deployment": {
+      "title": "柔軟なデプロイメント",
+      "description": "サービス中断なしでのアップデート。"
+    },
+    "fault-isolation": {
+      "title": "障害隔離",
+      "description": "サービスの隔離を通じてのレジリエンス向上。"
+    },
+    "advanced-monitoring": {
+      "title": "高度なモニタリング",
+      "description": "各コンポーネントの詳細な監視。"
+    }
+  },
+  "faq": {
+    "when-microservices": {
+      "question": "マイクロサービスアーキテクチャはいつ採用すべき？",
+      "answer": "マイクロサービスアーキテクチャは、高度なスケーラビリティ、独立したコンポーネントのスケーリング、および迅速な進化を必要とする複雑なアプリケーションに特に適しています。あなたの特定のニーズに合ったアーキテクチャかどうか、一緒に評価します。"
+    },
+    "service-communication": {
+      "question": "サービス間の通信はどうやって処理するの？",
+      "answer": "私たちは強力な通信パターンを実装しています：APIゲートウェイ、メッセージブローカー（Kafka、RabbitMQ）、同期（REST、gRPC）および非同期通信。各メソッドは特定のパフォーマンスと信頼性のニーズに応じて選ばれます。"
+    },
+    "data-consistency": {
+      "question": "データの整合性をどうやって確保するの？",
+      "answer": "いくつかの戦略を使用しています：分散トランザクションのためのSagaパターン、トレーサビリティのためのイベントソーシング、読み取りと書き込みの操作を分離するCQRS。最終的な整合性は適切に管理されています。"
+    },
+    "infrastructure-monitoring": {
+      "question": "インフラはどうやって監視するの？",
+      "answer": "パフォーマンスメトリクス、分散トレース、中央集約ログ、そして知的アラートのための全面的な監視体制を整えています。カスタムダッシュボードにより、各サービスの健康状態を可視化できます。"
+    },
+    "team-training": {
+      "question": "チームのトレーニングは提供しているの？",
+      "answer": "はい、私たちはあなたのチームのために包括的なトレーニングを提供します：マイクロサービスの原則、開発のベストプラクティス、監視とトラブルシューティング、そしてDevOpsツールの使用について。"
+    }
+  },
+  "complementary": {
+    "devops-cicd": {
+      "title": "DevOpsとCI/CD",
+      "description": "完全なデプロイメントの自動化。"
+    },
+    "monitoring-24-7": {
+      "title": "24時間365日のモニタリング",
+      "description": "継続的な監視とリアルタイムアラート。"
+    },
+    "optimization": {
+      "title": "最適化",
+      "description": "継続的なパフォーマンスの改善。"
+    }
+  }
+}

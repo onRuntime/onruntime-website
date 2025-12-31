@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "الخدمة غير موجودة",
+      "description": "هذه الخدمة غير موجودة."
+    }
+  },
+  "features": {
+    "title": "التفوق في {service}",
+    "description": "خبرتنا في {service} تضمن لك حلولاً احترافية وعالية الأداء."
+  },
+  "benefits": {
+    "title": "خدمة {service} احترافية",
+    "description": "اكتشف مزايا خدمة {service} الاحترافية."
+  },
+  "testimonials": {
+    "title": "هم يثقون بنا",
+    "description": "اكتشف آراء عملائنا حول مشاريع {service} الخاصة بهم"
+  },
+  "faq": {
+    "title": "الأسئلة المتكررة",
+    "description": "كل ما تحتاج لمعرفته حول خدمة {service} الخاصة بنا"
+  },
+  "complementary": {
+    "title": "خدمات إضافية",
+    "description": "قم بتحسين مشروع {service} الخاص بك مع خدماتنا الإضافية"
+  }
+}

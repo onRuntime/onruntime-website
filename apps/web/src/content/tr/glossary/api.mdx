@@ -1,0 +1,44 @@
+---
+term: API
+shortDescription: >-
+  Farklı uygulamaların birbiriyle iletişim kurmasını sağlayan uygulama
+  programlama arabirimi
+relatedTerms:
+  - REST
+  - GraphQL
+  - Backend
+tags:
+  - development
+  - technical
+---
+## Tanım
+
+API (Uygulama Programlama Arayüzü), uygulamalarımızın birbirleriyle iletişim kurmak için konuştuğu dil gibidir. onRuntime'da, projelerimizin farklı parçalarını bağlamak için sürekli kullanıyoruz. Bir API'yi bir restorandaki garson gibi düşünün. Sipariş verirsiniz (istek), istediklerinizi getirirler (yanıt), siz de mutfakta ne olduğunu bilmek zorunda kalmazsınız.
+
+## Neden API'leri seviyoruz
+
+- **Her şeyin uyum içinde çalışmasını sağlıyorlar**: Farklı sistemler veri alışverişi yapabiliyor, hiç zahmet yok
+- **Modüler olmamızı sağlıyorlar**: Bağımsız bileşenler geliştirip bunları kolayca bağlayabiliyoruz
+- **Verimizi koruyorlar**: Kimin neye erişebileceğini tam olarak kontrol ediyoruz
+- **Zaman kazandırıyorlar**: Her şeyi yeniden inşa etmeden bir kısmı güncelleyebiliyoruz
+
+## Günlük olarak kullandığımız API'ler
+
+### RESTful API'ler
+Günlük ekmeğimiz! Çoğu web projemiz için bunları kullanıyoruz. Basitler, durumsuzlar (bir istekle diğerine hafıza yok) ve klasik HTTP yöntemlerini kullanıyorlar. on Tonight Pass gibi ayrılmış arayüzler için mükemmel.
+
+### GraphQL API'ler
+Bu tür karmaşık projeler için hayranıyız! 15 farklı uç nokta oluşturmak yerine, istemcinin tam olarak ihtiyaç duyduğu veriyi talep etmesine izin veriyoruz. Kitchn'de bu, bize çok fazla bant genişliği kazandırdı.
+
+### SOAP API'ler
+Yalan söylemeyeceğiz, artık pek kullanmıyoruz... XML ve ultra katı spesifikasyonlarıyla biraz eski moda. Ama yine de zaman zaman kurumsal projelerde karşılaşıyoruz.
+
+## Günlük olarak nasıl kullanıyoruz
+
+onRuntime'da, API'ler teknolojik yığınımızın kalbinde yer alıyor. Bizim için şunları sağlıyorlar:
+
+- Ayrılmış uygulamalar inşa etmek (ayrı ön yüz/arka yüz)
+- Üçüncü taraf hizmetlerini kolayca entegre etmek (ödeme, haritalama vb.)
+- Belirli projelerde mikro hizmet mimarimizi geliştirmek
+
+Bir API tasarladığımızda, her zaman önce Swagger veya Postman ile belgeleriz. Bu, düşüncelerimizi netleştirmeye yardımcı olur ve ekip için sağlam bir başvuru kaynağı haline gelir. Beni dinleyin, çok gereksiz toplantıdan kurtarır!

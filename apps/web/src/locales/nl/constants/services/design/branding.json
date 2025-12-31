@@ -1,0 +1,80 @@
+{
+  "name": "Merk richtlijnen",
+  "description": "Creëren van je complete visuele identiteit",
+  "hero": {
+    "title": "Branding & Merkidentiteit",
+    "description": "Breng je merk tot leven met een opvallende en memorabele visuele identiteit. Onze expertise in branding helpt je een merkbeeld te creëren dat weerklank vindt bij je doelgroep en je waarden weerspiegelt."
+  },
+  "features": {
+    "visual-identity": {
+      "title": "Visuele identiteit",
+      "description": "Creëren van een unieke en memorabele identiteit."
+    },
+    "brand-values": {
+      "title": "Merkwaarden",
+      "description": "Visuele uitdrukking van je DNA en waarden."
+    },
+    "brand-guidelines": {
+      "title": "Merk richtlijnen",
+      "description": "Complete documentatie van je identiteit."
+    },
+    "design-system": {
+      "title": "Ontwerpsysteem",
+      "description": "Consistente en herbruikbare visuele elementen."
+    }
+  },
+  "benefits": {
+    "recognition": {
+      "title": "Erkenning",
+      "description": "Memorabel en onderscheidend merkbeeld."
+    },
+    "consistency": {
+      "title": "Consistentie",
+      "description": "Eénvormige visuele communicatie over alle media."
+    },
+    "trust": {
+      "title": "Vertrouwen",
+      "description": "Verhoogde geloofwaardigheid bij je publiek."
+    },
+    "reach": {
+      "title": "Bereik",
+      "description": "Sterke visuele impact via alle kanalen."
+    }
+  },
+  "faq": {
+    "complete-identity": {
+      "question": "Wat omvat een complete merkidentiteit?",
+      "answer": "Een complete merkidentiteit omvat het logo, de kleurenpalet, typografie, grafische elementen, tone of voice en gebruiksregels. We bieden een gedetailleerd document met merk richtlijnen dat al deze elementen documenteert en hun consistente gebruik begeleidt."
+    },
+    "creation-process": {
+      "question": "Hoe werkt het creatieproces?",
+      "answer": "Het proces begint met een ontdekkingsfase om je merk, waarden en doelgroep te begrijpen. We ontwikkelen vervolgens creatieve concepten, creëren visuele elementen en itereren op basis van je feedback. Het proces eindigt met de oplevering van een compleet document met merk richtlijnen."
+    },
+    "deliverables": {
+      "question": "Wat zijn de opleveringen?",
+      "answer": "Je ontvangt een compleet pakket inclusief: logo's (verschillende versies), kleurenpalet, typografie, grafische elementen, documenttemplates, gebruiksrichtlijnen en bronbestanden in alle benodigde formaten."
+    },
+    "uniqueness": {
+      "question": "Hoe zorg je voor uniciteit van de identiteit?",
+      "answer": "We doen grondig onderzoek naar je markt en concurrentie om een onderscheidende identiteit te creëren. We verifiëren ook de beschikbaarheid van visuele elementen om conflicten met bestaande merken te vermijden."
+    },
+    "transition": {
+      "question": "Hoe ga je om met de overgang naar de nieuwe identiteit?",
+      "answer": "We bieden een geleidelijk uitrolplan dat de overgang naar de nieuwe identiteit begeleidt. Dit omvat aanbevelingen voor interne en externe communicatie en een implementatietijdlijn."
+    }
+  },
+  "complementary": {
+    "marketing-kit": {
+      "title": "Marketing kit",
+      "description": "Creëren van consistente marketingmaterialen."
+    },
+    "social-media": {
+      "title": "Social media",
+      "description": "Aanpassing voor social media."
+    },
+    "print-materials": {
+      "title": "Printmaterialen",
+      "description": "Creëren van gedrukt materiaal."
+    }
+  }
+}

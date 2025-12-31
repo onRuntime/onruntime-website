@@ -1,0 +1,48 @@
+{
+  "name": "Arka uç geliştirme",
+  "description": "Sağlam çözümlerin mimarisi ve geliştirilmesi",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Ölçeklenebilir mimari",
+      "description": "Büyümenize uygun gelişimine devam edebilecek sistemler, modern ve dağıtık mimarilerle tasarlandı."
+    },
+    "optimized-database": {
+      "title": "Optimize edilmiş veritabanı",
+      "description": "Maksimum performans ve veri bütünlüğü için veritabanı tasarımı ve optimizasyonu."
+    },
+    "robust-infrastructure": {
+      "title": "Sağlam altyapı",
+      "description": "Yüksek kullanılabilirlik ve dayanıklılık sunan modern bulut altyapısında dağıtım."
+    },
+    "advanced-security": {
+      "title": "Gelişmiş güvenlik",
+      "description": "Güvenlik en iyi uygulamalarının uygulanması ve hassas verilerin korunması."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "İhtiyaç analizi",
+      "description": "Teknik gereksinimlerin kapsamlı incelenmesi, mimari tanımı ve teknoloji seçimleri."
+    },
+    "system-design": {
+      "title": "Sistem tasarımı",
+      "description": "Arka uç mimari tasarımı, veri modelleme ve API tanımı."
+    },
+    "api-development": {
+      "title": "API geliştirme",
+      "description": "Tam dokümantasyon ile RESTful veya GraphQL API'lerinin uygulanması."
+    },
+    "database": {
+      "title": "Veritabanı",
+      "description": "Performans ve ölçeklenebilirliğe odaklanarak veritabanı kurulumu ve optimizasyonu."
+    },
+    "testing-security": {
+      "title": "Test ve güvenlik",
+      "description": "Otomatik testlerin ve gelişmiş güvenlik önlemlerinin uygulanması."
+    },
+    "deployment-monitoring": {
+      "title": "Dağıtım ve izleme",
+      "description": "Bulut altyapısının kurulumu, izleme ve uyarılar."
+    }
+  }
+}

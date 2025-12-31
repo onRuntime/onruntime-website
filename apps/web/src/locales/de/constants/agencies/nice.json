@@ -1,0 +1,79 @@
+{
+  "title": "Webentwicklung in Nizza | Digitale Lösungen für Unternehmen an der Côte d'Azur",
+  "description": "Erstelle deine Website oder mobile Anwendung in Nizza. Individuelle digitale Lösungen für Unternehmen an der Côte d'Azur, die auf die lokalen Herausforderungen deiner Branche zugeschnitten sind.",
+  "hero": {
+    "title": "Web- & Mobile-Entwicklung in Nizza",
+    "description": "Wir helfen Unternehmen in Nizza und der französischen Riviera, sich mit maßgeschneiderten Weblösungen zu digitalisieren, die perfekt auf die spezifischen Herausforderungen des Azure-Marktes abgestimmt sind."
+  },
+  "intro": "Zwischen dem Mittelmeer und den Alpen profitiert Nizza von internationalem Einfluss und einer diversifizierten Wirtschaft, in der Tourismus auf Innovation trifft. Unser digitales Know-how ermöglicht es Nizza-Unternehmen, sich in einem wettbewerbsintensiven Umfeld abzuheben, in dem Image und Exzellenz oberste Priorität haben.",
+  "expertise": "Unser Team entwirft Websites, Anwendungen und E-Commerce-Lösungen, die perfekt auf Unternehmen in Nizza und der französischen Riviera abgestimmt sind. Wir verstehen die hohen Anforderungen deines lokalen Marktes und bieten digitale Lösungen, die die Premium-Positionierung der Region stärken.",
+  "why-choose-us": "Unser tiefes Wissen über den Azure-Markt ermöglicht es uns, digitale Lösungen zu entwickeln, die perfekt auf die spezifischen Herausforderungen lokaler Unternehmen abgestimmt sind. Wir verstehen die internationale Dimension von Nizza und seinen Ruf für Exzellenz und integrieren diese Aspekte in jedes Projekt, um raffinierte und leistungsstarke digitale Erlebnisse zu schaffen.",
+  "key-business-sectors": {
+    "luxury-tourism": "Luxus-Tourismus",
+    "real-estate": "Immobilien",
+    "events": "Veranstaltungen",
+    "health-wellness": "Gesundheit & Wellness"
+  },
+  "local-challenges": {
+    "luxury-tourism-digitalization": "Digitalisierung des Luxustourismus an der französischen Riviera",
+    "innovative-real-estate-solutions": "Bedarf an innovativen Immobilienlösungen für einen anspruchsvollen internationalen Markt",
+    "events-digital-showcase": "Digitale Präsentation von Veranstaltungen (Festivals, Konferenzen, Ausstellungen)",
+    "health-wellness-transformation": "Digitale Transformation des Gesundheits- und Wellnesssektors in einer Region, die für ihre Lebensqualität bekannt ist"
+  },
+  "benefits": {
+    "international-clientele-solutions": "Individuelle Lösungen für eine anspruchsvolle internationale Klientel",
+    "premium-interfaces-expertise": "Scharfes Know-how in Premium-Oberflächen und Benutzererfahrung",
+    "azurean-market-knowledge": "Fundiertes Wissen über den Azure-Markt und seine Besonderheiten",
+    "multilingual-applications": "Mehrsprachige Anwendungen, die auf die internationale Klientel der französischen Riviera abgestimmt sind",
+    "personalized-support": "Personalisierte Unterstützung während deines digitalen Projekts"
+  },
+  "primary-stat": {
+    "label": "Luxus-Tourismus"
+  },
+  "strengths": {
+    "premium-experience": {
+      "title": "Premium-Erfahrung",
+      "description": "Hochwertige Websites und Anwendungen für Luxus-Tourismus und Gastgewerbe."
+    },
+    "digital-real-estate": {
+      "title": "Digitale Immobilien",
+      "description": "Innovative Lösungen für Immobilienmakler und Entwickler."
+    },
+    "event-platforms": {
+      "title": "Veranstaltungsplattformen",
+      "description": "Websites und Anwendungen für Festivals, Konferenzen und prestigeträchtige Veranstaltungen."
+    },
+    "connected-wellness": {
+      "title": "Vernetztes Wellness",
+      "description": "Digitale Lösungen für Kliniken, Spas und Wellnesszentren."
+    }
+  },
+  "focused-services": {
+    "premium-websites": {
+      "name": "Premium-Websites",
+      "description": "Hochwertige digitale Präsentationen für Hotels, Restaurants und Luxus-Boutiquen."
+    },
+    "real-estate-applications": {
+      "name": "Immobilien-Anwendungen",
+      "description": "Individuelle Lösungen zur Präsentation und Verwaltung außergewöhnlicher Immobilien."
+    },
+    "visual-identity": {
+      "name": "Visuelle Identität",
+      "description": "Elegantes und raffiniertes UI/UX-Design für prestigeträchtige Marken und Einrichtungen."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Jahre Erfahrung"
+    },
+    "satisfaction": {
+      "label": "Zufriedenheit",
+      "description": "Zufriedene Kunden"
+    },
+    "average-time": {
+      "label": "Durchschnittliche Zeit",
+      "description": "Wochen bis zur Fertigstellung"
+    }
+  }
+}

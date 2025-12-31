@@ -1,0 +1,80 @@
+{
+  "name": "UI mockup'ları",
+  "description": "Kullanıcı arayüzlerinin detaylı tasarımı",
+  "hero": {
+    "title": "Kullanıcı Arayüzü Tasarımı",
+    "description": "Uygulamalarınız için modern, şık ve sezgisel arayüzler oluşturun. UI tasarımı konusundaki uzmanlığımız, kullanıcılarınızı etkileyecek profesyonel mockup'lar garanti eder."
+  },
+  "features": {
+    "modern-design": {
+      "title": "Modern tasarım",
+      "description": "Son trendleri takip eden şık arayüzler."
+    },
+    "design-system": {
+      "title": "Tasarım sistemi",
+      "description": "Tutarlı ve tekrar kullanılabilir bileşenler."
+    },
+    "responsive-design": {
+      "title": "Duyarlı tasarım",
+      "description": "Tüm ekranlara mükemmel uyum."
+    },
+    "animations-micro-interactions": {
+      "title": "Animasyonlar & mikro etkileşimler",
+      "description": "Akıcı ve ilgi çekici etkileşimler."
+    }
+  },
+  "benefits": {
+    "visual-identity": {
+      "title": "Görsel kimlik",
+      "description": "Marka ile tutarlı tasarım."
+    },
+    "user-experience": {
+      "title": "Kullanıcı deneyimi",
+      "description": "Kullanımı sezgisel ve keyifli arayüzler."
+    },
+    "design-system": {
+      "title": "Tasarım sistemi",
+      "description": "Tekrar kullanılabilir bileşenler kütüphanesi."
+    },
+    "accessibility": {
+      "title": "Erişilebilirlik",
+      "description": "Tüm kullanıcılar için erişilebilir arayüzler."
+    }
+  },
+  "faq": {
+    "ui-design-process": {
+      "question": "UI tasarım süreci nasıl işler?",
+      "answer": "Süreç ihtiyaçlarınızı ve marka kimliğinizi analiz ederek başlar. Daha sonra ana ekranların ilk versiyonlarını oluşturuyoruz, tasarım sistemini kuruyoruz ve detaylı mockup'lar üzerinde iterasyon yapıyoruz. Her adımda sizin geri bildirimlerinizi alıyoruz böylece sonuç beklentilerinize tam anlamıyla uyum sağlıyor."
+    },
+    "tools-deliverables": {
+      "question": "Hangi araçlar ve teslimatlar sağlanıyor?",
+      "answer": "UI tasarımı için öncelikli olarak Figma kullanıyoruz. Tüm ekranların detaylı mockup'larını, bileşenleri ile birlikte eksiksiz bir tasarım sistemi, geliştiriciler için spesifikasyonlar ve entegrasyon için gereken varlıkları alıyorsunuz."
+    },
+    "responsive-handling": {
+      "question": "Duyarlı tasarımı nasıl ele alıyorsunuz?",
+      "answer": "Mobil öncelikli bir yaklaşım izliyoruz ve her önemli kırılma noktasında (mobil, tablet, masaüstü) mockup'lar oluşturuyoruz. Her arayüz, en iyi deneyimi sunmak için optimize ediliyor."
+    },
+    "design-consistency": {
+      "question": "Tasarım tutarlılığını nasıl sağlıyorsunuz?",
+      "answer": "Bileşen kütüphanesi, tipografik kurallar, renk paleti ve tasarım ilkeleri içeren eksiksiz bir tasarım sistemi oluşturuyoruz. Bu sistem, arayüzde tutarlılığı sağlar."
+    },
+    "developer-handoff": {
+      "question": "Geliştirici işini nasıl kolaylaştırıyorsunuz?",
+      "answer": "Her bileşen için ölçümler, stiller, durumlar ve etkileşimler içeren detaylı spesifikasyonlar sağlıyoruz. Ayrıca, entegrasyonu kolaylaştırmak için Zeplin veya Figma çıktıları gibi araçlar kullanıyoruz."
+    }
+  },
+  "complementary": {
+    "design-system": {
+      "title": "Tasarım sistemi",
+      "description": "Bileşen kütüphanesinin oluşturulması."
+    },
+    "prototyping": {
+      "title": "Prototipleme",
+      "description": "Etkileşimli prototiplerin oluşturulması."
+    },
+    "development": {
+      "title": "Geliştirme",
+      "description": "Mockup'larınızın koda entegrasyonu."
+    }
+  }
+}

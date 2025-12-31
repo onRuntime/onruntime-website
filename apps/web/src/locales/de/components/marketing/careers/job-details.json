@@ -1,0 +1,67 @@
+{
+  "back": "Zurück zu den Stellenangeboten",
+  "share": {
+    "button": "Teilen",
+    "text": "Entdecke diese Gelegenheit: {jobTitle} bei onRuntime Studio",
+    "copied": "Link in die Zwischenablage kopiert!"
+  },
+  "apply": "Jetzt bewerben",
+  "published": "Veröffentlicht am",
+  "employment-type": {
+    "full-time": "Vollzeit",
+    "part-time": "Teilzeit",
+    "contract": "Vertrag",
+    "temporary": "Befristet",
+    "internship": "Praktikum",
+    "apprenticeship": "Ausbildung"
+  },
+  "workplace-type": {
+    "hybrid": "Hybrid",
+    "remote": "Remote",
+    "on-site": "Vor Ort"
+  },
+  "salary-format": {
+    "from": "Von",
+    "up-to": "Bis zu",
+    "range": "-"
+  },
+  "sections": {
+    "description": "Stellenbeschreibung",
+    "no-description": "Keine detaillierte Beschreibung für diese Position verfügbar.",
+    "requirements": "Anforderungen",
+    "benefits": "Vorteile"
+  },
+  "details": {
+    "title": "Stellendetails",
+    "department": "Abteilung",
+    "location": "Standort",
+    "contract": "Vertragsart",
+    "salary": "Gehalt",
+    "workplace": "Arbeitsmodus"
+  },
+  "interested": {
+    "title": "Interessiert an dieser Position?",
+    "description": "Jetzt bewerben und unserem leidenschaftlichen Team beitreten."
+  },
+  "culture": {
+    "title": "Unsere Unternehmenskultur",
+    "description": "Bei onRuntime Studio fördern wir eine kollaborative und anregende Arbeitsumgebung, in der jedes Teammitglied seine Kreativität ausdrücken und seine Fähigkeiten entwickeln kann. Wir legen Wert auf Innovation, Qualität und das Wohlbefinden unserer Mitarbeiter.",
+    "training": {
+      "title": "Weiterbildung",
+      "description": "Wir investieren in die berufliche Entwicklung unserer Teams."
+    },
+    "flexible": {
+      "title": "Flexibles Arbeitsumfeld",
+      "description": "Work-Life-Balance und hybrides Arbeiten"
+    },
+    "projects": {
+      "title": "Vielfältige Projekte",
+      "description": "An verschiedenen und anregenden Projekten arbeiten"
+    },
+    "learn-more": "Erfahre mehr über unser Team"
+  },
+  "cta": {
+    "title": "Bereit für die Herausforderung?",
+    "description": "Schließe dich unserem Team an und arbeite an spannenden Projekten, die dir ermöglichen, deine Fähigkeiten weiterzuentwickeln und deine Kreativität auszudrücken."
+  }
+}

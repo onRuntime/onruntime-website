@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Dołącz do naszego zespołu",
+    "description": "Odkryj możliwości kariery w onRuntime Studio i dołącz do dynamicznego zespołu pasjonującego się rozwojem i designem."
+  },
+  "why-join": {
+    "title": "Dlaczego warto do nas dołączyć?",
+    "description": "W onRuntime Studio wierzymy w kreatywność, innowacje i współpracę. Dołącz do nas, aby kształtować przyszłość cyfrowego świata i rozwijać swoje umiejętności w stymulującym środowisku.",
+    "cards": {
+      "creativity": {
+        "title": "Kreatywność i Innowacje",
+        "description": "Wyrażaj swoje pomysły i przyczyniaj się do innowacyjnych projektów, które przekraczają granice możliwości."
+      },
+      "team": {
+        "title": "Zespół z pasją",
+        "description": "Współpracuj z utalentowanymi i pasjonującymi się profesjonalistami w przyjaznym i stymulującym środowisku."
+      },
+      "impact": {
+        "title": "Globalny wpływ",
+        "description": "Przyczyniaj się do projektów, które mają realny wpływ i docierają do użytkowników na całym świecie."
+      }
+    }
+  },
+  "opportunities": {
+    "title": "Aktualne oferty pracy",
+    "description": "Odkryj nasze oferty pracy i znajdź stanowisko, które pasuje do twoich umiejętności i aspiracji.",
+    "search-placeholder": "Szukaj stanowiska, lokalizacji...",
+    "all": "Wszystkie"
+  },
+  "spontaneous": {
+    "title": "Nie znalazłeś odpowiedniego stanowiska?",
+    "description": "Wyślij nam swoją aplikację spontaniczną! Zawsze szukamy wyjątkowych talentów do naszego zespołu.",
+    "cta": "Wyślij aplikację spontaniczną"
+  },
+  "teams": {
+    "title": "Nasze zespoły",
+    "description": "Odkryj różne zespoły, które tworzą onRuntime Studio i znajdź ten, który najlepiej pasuje do twoich umiejętności i aspiracji.",
+    "development": {
+      "title": "Rozwój",
+      "description": "Nasi deweloperzy tworzą wydajne i innowacyjne aplikacje internetowe i mobilne, korzystając z najnowszych technologii, aby zapewnić wyjątkowe doświadczenia użytkowników."
+    },
+    "design": {
+      "title": "Design",
+      "description": "Nasz zespół projektowy tworzy eleganckie i intuicyjne interfejsy użytkownika, zapewniając, że każdy piksel jest idealnie dopasowany do wizualnej tożsamości projektu."
+    },
+    "project": {
+      "title": "Projekty i Produkty",
+      "description": "Nasi kierownicy projektów i menedżerowie produktów dbają o sprawny przebieg projektów i o to, aby rozwijane rozwiązania idealnie odpowiadały potrzebom użytkowników."
+    },
+    "marketing": {
+      "title": "Marketing i Komunikacja",
+      "description": "Nasz zespół marketingowy pracuje nad promocją naszych projektów i skuteczną komunikacją na temat naszych osiągnięć, zarówno wewnętrznie, jak i na zewnątrz."
+    }
+  },
+  "cta": {
+    "title": "Gotowy, aby do nas dołączyć?",
+    "description": "Przeglądaj nasze oferty pracy i znajdź stanowisko, które odpowiada twoim umiejętnościom i aspiracjom. Z niecierpliwością czekamy, aby powitać cię w naszym zespole!",
+    "button": "Zobacz oferty pracy"
+  },
+  "error": "Wystąpił błąd podczas ładowania ofert pracy. Spróbuj ponownie później."
+}

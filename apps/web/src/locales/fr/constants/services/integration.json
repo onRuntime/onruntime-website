@@ -44,13 +44,5 @@
       "title": "Tests et validation",
       "description": "Tests approfondis sur différents navigateurs et appareils pour garantir une expérience utilisateur optimale."
     }
-  },
-  "process-services": {
-    "mockup-analysis": ["Analyse technique", "Architecture"],
-    "technical-architecture": ["Architecture", "Conseil technique"],
-    "component-development": ["Développement Frontend", "Intégration"],
-    "responsive-integration": ["Intégration", "Responsive Design"],
-    "optimization": ["Performance", "SEO technique"],
-    "testing-validation": ["Tests", "Quality Assurance"]
   }
 }

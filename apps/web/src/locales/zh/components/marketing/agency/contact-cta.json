@@ -1,0 +1,13 @@
+{
+  "title": "一个适合{city}市场的项目？",
+  "description": "我们在当地{region}市场的专业知识可以为你提供完美适应地方环境的解决方案。来聊聊你的项目吧！",
+  "features": {
+    "video": "通过视频会议进行在线咨询",
+    "calendar": "灵活的工作时间，适应你的日程",
+    "expertise": "对{city}和{region}市场的深入了解"
+  },
+  "buttons": {
+    "discuss": "讨论你的项目",
+    "discover": "了解我们的服务"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "short-description": "Öğrenci expatriation desteği için tam platform, konut, vize, ulaşım ve yerel destek entegre edilmiştir.",
+  "description": "Fransız öğrencilerin expatriation süreçlerini A'dan Z'ye yönetebilmelerini sağlayan tam yığın bir platform geliştirdik, entegre hizmetler ve yerel büyükelçiler ağıyla.",
+  "long-description": "Expat Facilities, öğrenciler için expatriation işlemlerini kolaylaştıran devrim niteliğinde bir Fransız girişimiydi. Ekibimiz, basit bir açılış sayfasından, Airbnb benzeri özellikler ile bir expatriation hizmetleri ekosistemini birleştiren sofistike bir çözüm geliştirdi.\n\nPlatform, Spotahome gibi ortaklar aracılığıyla konut arama, Lufthansa ile uçuş rezervasyonları, özel sigorta ve 70'ten fazla ülkede bulunan yerel büyükelçilerle entegre birçok ortak API'yi bir araya getirerek tek bir deneyim sundu.\n\nAna teknik zorluk, sorunsuz ve uyumlu bir kullanıcı deneyimi yaratmak için onlarca üçüncü taraf API'yi koordine ederken, uluslararası ödemelerin karmaşıklıklarını ve öğrenciler ile yerel büyükelçiler arasındaki eşleşmeyi yönetmekti.",
+  "features": {
+    "housing-platform": {
+      "title": "Entegre konut platformu",
+      "description": "Spotahome gibi ortak API entegrasyonlarıyla öğrenci konutlarını arayın ve rezerve edin."
+    },
+    "ambassador-network": {
+      "title": "Yerel büyükelçi ağı",
+      "description": "70 ülkede 300'den fazla öğrenci elçisi yeni gelenlere sahada destek vermek için."
+    },
+    "visa-services": {
+      "title": "Vize ve idari hizmetler",
+      "description": "Tam vize süreci yönetimi ve kişiselleştirilmiş idari destek."
+    },
+    "transport-logistics": {
+      "title": "Ulaşım ve lojistik",
+      "description": "Uçuş rezervasyonları (Lufthansa ortaklığı), trenler ve yerel ulaşım için ayrıcalıklı fiyatlar."
+    },
+    "expat-insurance": {
+      "title": "Expatriation sigortası",
+      "description": "Mondial Assistance ve Allianz ile ortaklıkta geçici expatriation için özel sigorta."
+    },
+    "advanced-tracking": {
+      "title": "Gelişmiş izleme",
+      "description": "Tüm süreçlerin gerçek zamanlı takibi, bildirimler ve kontrol paneli arayüzü."
+    }
+  },
+  "technologies": {
+    "nextjs": {
+      "description": "Frontend için React çerçevesi."
+    },
+    "nestjs": {
+      "description": "Sağlam ve modüler API arka ucu."
+    },
+    "mongodb": {
+      "description": "Ana veritabanı."
+    },
+    "graphql": {
+      "description": "Veri için birleştirilmiş API."
+    },
+    "google-cloud": {
+      "description": "Bulut altyapısı ve hizmetleri."
+    },
+    "stripe": {
+      "description": "Uluslararası ödemeler."
+    },
+    "typescript": {
+      "description": "Tip güvenli geliştirme."
+    },
+    "styled-components": {
+      "description": "Stil ve tema."
+    }
+  },
+  "metrics": {
+    "countries": {
+      "value": "70+",
+      "label": "Kapsanan ülkeler",
+      "description": "Mevcut expatriation destinasyonları."
+    },
+    "ambassadors": {
+      "value": "300+",
+      "label": "Büyükelçiler",
+      "description": "Dünya genelinde öğrenci büyükelçileri."
+    },
+    "users": {
+      "value": "2000+",
+      "label": "Kullanıcılar",
+      "description": "Öğrenci platformu kullanıcıları."
+    }
+  },
+  "screenshots": {
+    "redesign": {
+      "caption": "Platform yeniden tasarımı."
+    },
+    "testimonials": {
+      "caption": "Referanslar ve ortaklar."
+    },
+    "flyer-bank": {
+      "caption": "Ortak bankalar için broşür."
+    },
+    "about-team": {
+      "caption": "Ekip hakkında ve aksiyon çağrısı."
+    },
+    "housing-hero": {
+      "caption": "Entegre arama ile konut bölümü."
+    },
+    "housing-cta": {
+      "caption": "Konut bölümü için aksiyon çağrısı."
+    },
+    "services-hero": {
+      "caption": "Hizmetler bölümü ile teklif sunumu."
+    },
+    "insurance-hero": {
+      "caption": "Teklif açıklaması ile sigorta bölümü."
+    },
+    "insurance-plans": {
+      "caption": "Ayrıntılı sigorta planları."
+    },
+    "insurance-benefits": {
+      "caption": "Sunulan sigorta faydaları."
+    },
+    "contact-success": {
+      "caption": "Başarı ile iletişim formu."
+    }
+  },
+  "challenges": {
+    "third-party-api-integration": "Birleştirilmiş bir deneyime sadece Spotahome, Lufthansa ve sigorta gibi düzinelerce üçüncü taraf API'yi entegre etmek.",
+    "international-payments": "Birden fazla para birimi ve düzenlemelerde uluslararası ödemeleri yönetmek.",
+    "student-ambassador-matching": "Coğrafi konuma dayalı öğrenci/büyükelçi eşleştirme sistemi geliştirmek.",
+    "scalable-architecture": "Hızlı büyümeyi desteklemek için ölçeklenebilir mimari (70 ülke, 300'den fazla büyükelçi).",
+    "real-time-availability": "Ortak platformlar arasındaki konut kullanılabilirliğinin gerçek zamanlı senkronizasyonu.",
+    "multilingual-interface": "Her ülkenin yerel özelliklerine uyum sağlamak için çok dilli arayüz."
+  },
+  "learnings": {
+    "api-orchestration-complexity": "Farklı format ve sınırlamalara sahip üçüncü taraf API'lerini yönetmenin karmaşıklığı.",
+    "multi-partner-error-handling": "Birden çok iş ortaklığı ekosisteminde hata yönetiminin kritik önemi.",
+    "internationalization-challenges": "Çeviri ötesindeki uluslararasılaştırma zorlukları (para birimleri, düzenlemeler, kültürler).",
+    "microservices-architecture": "Ortak entegrasyonları izole etmek için gerekli mikro hizmet mimarisi.",
+    "complex-ux-simplification": "Karmaşık bir süreci sorunsuz bir deneyime dönüştürmek için kritik UX/UI.",
+    "partner-relations": "Entegrasyonlar için iş ortaklığı ilişkilerini ve teknik müzakereleri yönetmek."
+  },
+  "future-plans": {
+    "other-expat-types": "Diğer expatriation türlerine genişleme (profesyoneller, emekliler).",
+    "ai-matching": "Öğrenci/büyükelçi eşleştirmesini optimize etmek için yapay zeka.",
+    "ambassador-mobile-app": "Büyükelçiler için yerel mobil uygulama.",
+    "ambassador-training": "Büyükelçiler için eğitim platformu."
+  }
+}

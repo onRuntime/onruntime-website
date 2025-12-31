@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "cta": "Bespreek je project"
+  },
+  "cards": {
+    "custom": {
+      "title": "Aangepaste oplossingen",
+      "description": "Afgestemd op jouw behoeften"
+    },
+    "support": {
+      "title": "Deskundige ondersteuning",
+      "description": "Door onze specialisten"
+    },
+    "technologies": {
+      "title": "Moderne technologieën",
+      "description": "Altijd up-to-date"
+    },
+    "scalability": {
+      "title": "Gegarandeerde schaalbaarheid",
+      "description": "Voor jouw groei"
+    }
+  },
+  "cta": {
+    "title": "Klaar om je project tot leven te brengen?",
+    "description": "Neem contact met ons op om je behoeften te bespreken en een gepersonaliseerde offerte te krijgen.",
+    "button": "Begin nu"
+  }
+}

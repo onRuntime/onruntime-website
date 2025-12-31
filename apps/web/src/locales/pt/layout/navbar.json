@@ -1,0 +1,33 @@
+{
+  "links": {
+    "services": "Nossos serviços",
+    "projects": "Nossos projetos",
+    "agencies": "Nossas agências",
+    "npo": "A associação",
+    "contact": "Entre em contato conosco"
+  },
+  "services": {
+    "title": "Nossos serviços",
+    "description": "Descubra nossa gama completa de serviços de desenvolvimento e design para dar vida aos seus projetos digitais.",
+    "cta": "Saiba mais"
+  },
+  "projects": {
+    "title": "Nosso portfólio",
+    "description": "Descubra todos os nossos projetos e conquistas em vários setores.",
+    "categories": {
+      "web-mobile": "Aplicativos web e móveis",
+      "open-source": "Projetos de código aberto",
+      "design": "Design UI/UX"
+    },
+    "cta": "Ver todos os projetos"
+  },
+  "agencies": {
+    "title": "Nossas agências na França",
+    "description": "Descubra nossa rede de agências e nossa expertise local em toda a França.",
+    "agency": "Agência {name}",
+    "main": "Agências principais",
+    "all": "Todas as nossas agências",
+    "by-region": "Todas as nossas agências por região",
+    "cta": "Ver todas as agências"
+  }
+}

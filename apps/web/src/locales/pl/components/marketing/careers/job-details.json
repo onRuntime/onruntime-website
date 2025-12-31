@@ -1,0 +1,67 @@
+{
+  "back": "Powrót do ofert pracy",
+  "share": {
+    "button": "Udostępnij",
+    "text": "Odkryj tę okazję: {jobTitle} w onRuntime Studio",
+    "copied": "Link skopiowany do schowka!"
+  },
+  "apply": "Aplikuj teraz",
+  "published": "Opublikowano",
+  "employment-type": {
+    "full-time": "Pełny etat",
+    "part-time": "Niepełny etat",
+    "contract": "Umowa",
+    "temporary": "Tymczasowa",
+    "internship": "Praktyki",
+    "apprenticeship": "Uczniostwo"
+  },
+  "workplace-type": {
+    "hybrid": "Hybrydowa",
+    "remote": "Zdalna",
+    "on-site": "Na miejscu"
+  },
+  "salary-format": {
+    "from": "Od",
+    "up-to": "Do",
+    "range": "-"
+  },
+  "sections": {
+    "description": "Opis stanowiska",
+    "no-description": "Brak szczegółowego opisu dla tego stanowiska.",
+    "requirements": "Wymagania",
+    "benefits": "Korzyści"
+  },
+  "details": {
+    "title": "Szczegóły oferty",
+    "department": "Dział",
+    "location": "Lokalizacja",
+    "contract": "Typ umowy",
+    "salary": "Wynagrodzenie",
+    "workplace": "Tryb pracy"
+  },
+  "interested": {
+    "title": "Zainteresowany tym stanowiskiem?",
+    "description": "Aplikuj teraz i dołącz do naszegopasjonującego zespołu."
+  },
+  "culture": {
+    "title": "Nasza kultura firmy",
+    "description": "W onRuntime Studio dbamy o współpracy i inspirującą atmosferę pracy, gdzie każdy członek zespołu może wyrazić swoją kreatywność i rozwijać swoje umiejętności. Stawiamy na innowacje, jakość i dobrostan naszych pracowników.",
+    "training": {
+      "title": "Ciągłe szkolenia",
+      "description": "Inwestujemy w rozwój zawodowy naszych zespołów"
+    },
+    "flexible": {
+      "title": "Elastyczne środowisko",
+      "description": "Równowaga między życiem zawodowym a prywatnym i hybrydowa praca"
+    },
+    "projects": {
+      "title": "Zróżnicowane projekty",
+      "description": "Pracuj nad różnorodnymi i inspirującymi projektami"
+    },
+    "learn-more": "Dowiedz się więcej o naszym zespole"
+  },
+  "cta": {
+    "title": "Gotowy na wyzwanie?",
+    "description": "Dołącz do naszego zespołu i weź udział w inspirujących projektach, które pozwolą ci rozwijać swoje umiejętności i wyrażać swoją kreatywność."
+  }
+}

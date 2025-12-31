@@ -1,0 +1,48 @@
+{
+  "name": "프론트엔드 개발",
+  "description": "고성능 웹 및 모바일 애플리케이션 생성",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "확장 가능한 아키텍처",
+      "description": "현대적이고 확장 가능한 아키텍처로 구축된 애플리케이션, 프로젝트의 진화에 준비되어 있어."
+    },
+    "optimal-performance": {
+      "title": "최적의 성능",
+      "description": "고급 최적화 및 캐싱 기법으로 성능에 집중해."
+    },
+    "maintainable-code": {
+      "title": "유지보수가 용이한 코드",
+      "description": "깨끗하고 모듈화된 아키텍처로 쉽고 빠른 유지보수를 가능하게 해."
+    },
+    "enhanced-security": {
+      "title": "강화된 보안",
+      "description": "사용자를 보호하기 위해 프론트엔드 보안 최선의 방법을 구현해."
+    }
+  },
+  "process": {
+    "technical-architecture": {
+      "title": "기술 아키텍처",
+      "description": "프론트엔드 아키텍처 정의, 기술 선택 및 개발 환경 설정."
+    },
+    "project-setup": {
+      "title": "프로젝트 설정",
+      "description": "개발 최선의 방법, 테스트 및 지속적 배포로 프로젝트 설정."
+    },
+    "feature-development": {
+      "title": "기능 개발",
+      "description": "코드 품질과 성능에 집중하여 기능 구현."
+    },
+    "state-management": {
+      "title": "상태 관리",
+      "description": "애플리케이션 데이터에 대한 견고하고 성능이 뛰어난 상태 관리 설정."
+    },
+    "testing-quality": {
+      "title": "테스트 및 품질",
+      "description": "자동화된 테스트 및 품질 보증 프로세스 구현."
+    },
+    "optimization-monitoring": {
+      "title": "최적화 및 모니터링",
+      "description": "성능 최적화 및 모니터링 도구 설정."
+    }
+  }
+}

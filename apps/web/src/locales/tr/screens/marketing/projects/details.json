@@ -1,0 +1,71 @@
+{
+  "tags": {
+    "featured": "Öne Çıkan",
+    "open-source": "Açık Kaynak",
+    "customer": "Müşteri projesi"
+  },
+  "buttons": {
+    "view-project": "Projeyi görüntüle",
+    "source-code": "Kaynak kodu"
+  },
+  "info": {
+    "start-date": "Başlangıç tarihi",
+    "status": "Durum",
+    "statuses": {
+      "active": "Aktif",
+      "completed": "Tamamlandı",
+      "archived": "Arşivlendi"
+    },
+    "team": "Ekip",
+    "members": "üyeler"
+  },
+  "sections": {
+    "about": "Proje hakkında",
+    "metrics": "Etkiler ve metrikler",
+    "features": "Ana özellikler",
+    "technologies": "Kullanılan teknolojiler",
+    "gallery": "Galeri",
+    "team": "Ekip",
+    "challenges": "Karşılaşılan zorluklar",
+    "learnings": "Önemli kazanımlar",
+    "future": "Gelecek perspektifleri"
+  },
+  "cta": {
+    "title": "Bu projeye ilgi duydunuz mu?",
+    "description": "Size benzer bir projeyi nasıl yaratabileceğimizi keşfedin.",
+    "button": "Projenizi tartışın"
+  },
+  "tonightpass": {
+    "hero": {
+      "title": "Etkinliklerinizi basitleştiren biletleme",
+      "subtitle": "Oluşumdan girişe, her şeyi 5 dakikada yönetin",
+      "description": "Etkinlik organizatörleri için tamamlayıcı biletleme çözümü. Etkinliklerinizi oluşturun, biletlerinizi satın ve profesyonel araçlar ve özel destek ile erişimi yönetin.",
+      "buttons": {
+        "create": "Etkinliğimi oluştur",
+        "discover": "Çözümü keşfedin"
+      },
+      "stats": {
+        "setup": {
+          "value": "5dk",
+          "label": "Kurulum"
+        },
+        "cost": {
+          "value": "$0",
+          "label": "Kurulum ücreti"
+        },
+        "support": {
+          "value": "7/24",
+          "label": "Destek"
+        }
+      }
+    },
+    "cta": {
+      "title": "Biletlemenizi basitleştirmeye hazır mısınız?",
+      "description": "Tam ve sezgisel bir çözümle etkinlik yönetiminizi basitleştirin",
+      "buttons": {
+        "start": "Şimdi başlayın",
+        "features": "Tüm özellikleri görün"
+      }
+    }
+  }
+}

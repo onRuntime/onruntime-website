@@ -1,0 +1,80 @@
+{
+  "name": "Aplicaciones web progresivas",
+  "description": "Creando aplicaciones web progresivas de alto rendimiento",
+  "hero": {
+    "title": "Aplicaciones web progresivas (PWA)",
+    "description": "Transforma tu sitio web en una verdadera aplicación instalable con Aplicaciones Web Progresivas. Ofrece una experiencia de usuario excepcional, tanto en línea como fuera de línea."
+  },
+  "features": {
+    "native-installation": {
+      "title": "Instalación nativa",
+      "description": "Aplicaciones instalables directamente desde el navegador, sin pasar por tiendas."
+    },
+    "offline-mode": {
+      "title": "Modo fuera de línea",
+      "description": "Funciona incluso sin conexión a internet gracias a un almacenamiento inteligente."
+    },
+    "optimal-performance": {
+      "title": "Rendimiento óptimo",
+      "description": "Carga rápida y experiencia fluida en todos los dispositivos."
+    },
+    "push-notifications": {
+      "title": "Notificaciones push",
+      "description": "Mejora el compromiso del usuario a través de notificaciones push."
+    }
+  },
+  "benefits": {
+    "multi-platform": {
+      "title": "Multiplataforma",
+      "description": "Una aplicación para todos los dispositivos y sistemas operativos."
+    },
+    "always-updated": {
+      "title": "Siempre actualizado",
+      "description": "Actualizaciones automáticas sin necesidad de acción del usuario."
+    },
+    "lightweight": {
+      "title": "Ligero",
+      "description": "Sin instalación pesada, accesible al instante."
+    },
+    "native-performance": {
+      "title": "Rendimiento nativo",
+      "description": "Experiencia de usuario cercana a las aplicaciones nativas."
+    }
+  },
+  "faq": {
+    "what-is-pwa": {
+      "question": "¿Qué es una Aplicación Web Progresiva?",
+      "answer": "Una PWA es una aplicación web que ofrece una experiencia similar a una aplicación nativa: es instalable, funciona sin conexión y puede enviar notificaciones push. Combina las ventajas de la web (accesibilidad, actualización automática) y las nativas (rendimiento, características avanzadas)."
+    },
+    "vs-native": {
+      "question": "¿Cuáles son las ventajas en comparación con una aplicación nativa?",
+      "answer": "Las PWAs ofrecen varias ventajas: no es necesario pasar por tiendas, actualizaciones automáticas, desarrollo más rápido y menos costoso, mejor referenciación, y una única base de código para todas las plataformas."
+    },
+    "offline": {
+      "question": "¿Cómo funciona el modo fuera de línea?",
+      "answer": "Usamos Service Workers para almacenar en caché recursos y datos esenciales. La aplicación puede funcionar incluso sin conexión a internet, con sincronización automática una vez que la conexión se restablece."
+    },
+    "browser-compatibility": {
+      "question": "¿Las PWAs son compatibles con todos los navegadores?",
+      "answer": "Las PWAs funcionan en la mayoría de los navegadores modernos. Para navegadores más antiguos, configuramos soluciones alternas para garantizar una experiencia de usuario óptima."
+    },
+    "post-launch-support": {
+      "question": "¿Ofrecen soporte después del lanzamiento?",
+      "answer": "Sí, ofrecemos varios planes de mantenimiento que incluyen: actualizaciones de seguridad, optimizaciones de rendimiento, adiciones de características y soporte técnico."
+    }
+  },
+  "complementary": {
+    "advanced-analytics": {
+      "title": "Analítica avanzada",
+      "description": "Seguimiento detallado del comportamiento y rendimiento del usuario."
+    },
+    "seo-optimized": {
+      "title": "SEO optimizado",
+      "description": "Optimización para motores de búsqueda y compartición en redes sociales."
+    },
+    "enhanced-security": {
+      "title": "Seguridad mejorada",
+      "description": "Protección de datos y comunicaciones seguras."
+    }
+  }
+}

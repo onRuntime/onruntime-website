@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "服务未找到",
+      "description": "此服务不存在."
+    }
+  },
+  "features": {
+    "title": "在{service}方面的卓越表现",
+    "description": "我们在{service}方面的专业知识确保为你提供专业且高效的解决方案."
+  },
+  "benefits": {
+    "title": "专业的{service}",
+    "description": "发现专业{service}服务的优势."
+  },
+  "testimonials": {
+    "title": "他们信任我们",
+    "description": "了解我们客户对他们{service}项目的反馈."
+  },
+  "faq": {
+    "title": "常见问题",
+    "description": "关于我们的{service}服务你需要知道的一切."
+  },
+  "complementary": {
+    "title": "补充服务",
+    "description": "用我们的额外服务优化你的{service}项目."
+  }
+}

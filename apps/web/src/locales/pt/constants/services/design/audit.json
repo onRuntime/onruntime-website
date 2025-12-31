@@ -1,0 +1,80 @@
+{
+  "name": "Auditoria UX/UI",
+  "description": "Análise e otimização de suas interfaces existentes",
+  "hero": {
+    "title": "Auditoria e Otimização UX/UI",
+    "description": "Melhore a experiência do usuário de suas interfaces com uma auditoria profissional. Nossa experiência garante uma análise detalhada e recomendações concretas para otimizar suas interfaces."
+  },
+  "features": {
+    "heuristic-analysis": {
+      "title": "Análise heurística",
+      "description": "Avaliação especializada baseada em princípios de UX."
+    },
+    "user-testing": {
+      "title": "Testes com usuários",
+      "description": "Observação e análise de comportamentos reais."
+    },
+    "analytics": {
+      "title": "Análises",
+      "description": "Análise de dados de uso."
+    },
+    "accessibility": {
+      "title": "Acessibilidade",
+      "description": "Verificação dos padrões de acessibilidade."
+    }
+  },
+  "benefits": {
+    "conversion": {
+      "title": "Conversão",
+      "description": "Identificação de barreiras de conversão."
+    },
+    "performance": {
+      "title": "Desempenho",
+      "description": "Análise de métricas de desempenho."
+    },
+    "satisfaction": {
+      "title": "Satisfação",
+      "description": "Medição da satisfação do usuário."
+    },
+    "journeys": {
+      "title": "Jornadas",
+      "description": "Otimização das jornadas do usuário."
+    }
+  },
+  "faq": {
+    "complete-audit": {
+      "question": "O que inclui uma auditoria UX/UI completa?",
+      "answer": "Uma auditoria completa inclui: análise heurística baseada em princípios de UX, testes com usuários, análise de dados analíticos, avaliação de acessibilidade, comparação competitiva e recomendações detalhadas. Fornecemos um relatório abrangente com soluções concretas."
+    },
+    "audit-process": {
+      "question": "Como funciona o processo de auditoria?",
+      "answer": "O processo começa com uma fase de descoberta para entender seus objetivos e KPIs. Em seguida, realizamos várias análises (heurística, dados, testes), sintetizamos os resultados e preparamos um relatório detalhado com recomendações priorizadas."
+    },
+    "deliverables": {
+      "question": "Quais entregáveis são fornecidos?",
+      "answer": "Você recebe um relatório completo de auditoria incluindo: resumo executivo, análises detalhadas, visualizações de dados, problemas identificados com níveis de gravidade, recomendações priorizadas e plano de ação sugerido."
+    },
+    "measuring-impact": {
+      "question": "Como você mede o impacto das recomendações?",
+      "answer": "Definimos KPIs específicos para cada recomendação e configuramos o acompanhamento de métricas-chave (taxa de conversão, satisfação do usuário, tempo de conclusão de tarefas, etc.) para medir o impacto das melhorias."
+    },
+    "post-audit-support": {
+      "question": "Vocês oferecem suporte pós-auditoria?",
+      "answer": "Sim, oferecemos suporte para implementar as recomendações, incluindo: priorização de ações, suporte na implementação e medição de resultados. Podemos também realizar auditorias de acompanhamento."
+    }
+  },
+  "complementary": {
+    "user-testing": {
+      "title": "Testes com usuários",
+      "description": "Sessões de testes aprofundados com seus usuários."
+    },
+    "advanced-analytics": {
+      "title": "Análises avançadas",
+      "description": "Configuração de rastreamento e análise aprofundada."
+    },
+    "ux-training": {
+      "title": "Treinamento em UX",
+      "description": "Treinando suas equipes em boas práticas."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Soluciones en la Nube",
+  "description": "Despliegue y gestión de infraestructura en la nube",
+  "hero": {
+    "title": "Soluciones en la Nube",
+    "description": "Optimiza tu infraestructura con soluciones en la nube modernas y escalables. Nuestra experiencia garantiza un despliegue seguro y de alto rendimiento en las principales plataformas en la nube."
+  },
+  "features": {
+    "multi-cloud": {
+      "title": "Multi-nube",
+      "description": "Soporte para las principales plataformas (AWS, GCP, Azure)."
+    },
+    "advanced-security": {
+      "title": "Seguridad avanzada",
+      "description": "Protección robusta de tus datos y aplicaciones."
+    },
+    "optimal-performance": {
+      "title": "Rendimiento óptimo",
+      "description": "Arquitectura optimizada para el máximo rendimiento."
+    },
+    "automatic-scalability": {
+      "title": "Escalabilidad automática",
+      "description": "Adaptación dinámica a los requisitos de carga."
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "Alta disponibilidad",
+      "description": "Infraestructura redundante y resiliente."
+    },
+    "elastic-storage": {
+      "title": "Almacenamiento elástico",
+      "description": "Gestión de datos flexible y segura."
+    },
+    "advanced-monitoring": {
+      "title": "Monitoreo avanzado",
+      "description": "Monitoreo en tiempo real de tu infraestructura."
+    },
+    "enhanced-security": {
+      "title": "Seguridad mejorada",
+      "description": "Protección en múltiples capas de tus recursos."
+    }
+  },
+  "faq": {
+    "platform-choice": {
+      "question": "¿Qué plataforma en la nube elegir?",
+      "answer": "La elección depende de tus necesidades específicas: AWS sobresale en variedad de servicios, Google Cloud en aprendizaje automático y Azure en integración con Microsoft. Te guiamos hacia la mejor solución basada en tus objetivos, restricciones técnicas y presupuesto."
+    },
+    "cloud-security": {
+      "question": "¿Cómo manejan la seguridad en la nube?",
+      "answer": "Implementamos seguridad en múltiples capas: cifrado de datos en reposo y en tránsito, control de acceso IAM, redes privadas virtuales (VPC), cortafuegos de aplicaciones web (WAF) y monitoreo continuo de amenazas. Seguimos las mejores prácticas de cada plataforma."
+    },
+    "cost-optimization": {
+      "question": "¿Cómo optimizan los costos?",
+      "answer": "Usamos varias estrategias: instancias reservadas, escalado automático, optimización de recursos, eliminación de recursos no utilizados y monitoreo de costos. Realizamos auditorías regulares para identificar oportunidades de ahorro."
+    },
+    "high-availability": {
+      "question": "¿Cómo aseguran la alta disponibilidad?",
+      "answer": "Desplegamos tu infraestructura en múltiples zonas de disponibilidad, con replicación de datos, balanceo de carga y conmutación automática por error. También establecemos planes de recuperación ante desastres (DRP) robustos."
+    },
+    "support-24-7": {
+      "question": "¿Ofrecen soporte 24/7?",
+      "answer": "Sí, ofrecemos varios niveles de soporte que incluyen: monitoreo 24/7, alertas automáticas, intervención rápida en incidentes, mantenimiento preventivo y soporte técnico dedicado."
+    }
+  },
+  "complementary": {
+    "cloud-migration": {
+      "title": "Migración a la Nube",
+      "description": "Transición suave a la nube."
+    },
+    "multi-region": {
+      "title": "Multi-región",
+      "description": "Despliegue global de tus aplicaciones."
+    },
+    "devops": {
+      "title": "DevOps",
+      "description": "Automatización y CI/CD en la nube."
+    }
+  }
+}

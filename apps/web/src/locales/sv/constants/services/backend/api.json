@@ -1,0 +1,80 @@
+{
+  "name": "RESTful API:er",
+  "description": "Design och utveckling av högpresterande API:er",
+  "hero": {
+    "title": "RESTful & GraphQL API:er",
+    "description": "Utveckla moderna, säkra och högpresterande API:er för dina applikationer. Vår expertis garanterar robusta och skalbara gränssnitt som uppfyller dina specifika behov."
+  },
+  "features": {
+    "rest-graphql": {
+      "title": "REST & GraphQL",
+      "description": "Utveckling av moderna API:er med branschstandarder."
+    },
+    "advanced-security": {
+      "title": "Avancerad säkerhet",
+      "description": "Robust skydd mot sårbarheter och attacker."
+    },
+    "optimal-performance": {
+      "title": "Optimal prestanda",
+      "description": "Arkitektur optimerad för minimala responstider."
+    },
+    "complete-documentation": {
+      "title": "Fullständig dokumentation",
+      "description": "Klar och interaktiv dokumentation för enkel integration."
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "Hög tillgänglighet",
+      "description": "Redundant infrastruktur för maximal tillgänglighet."
+    },
+    "scalability": {
+      "title": "Skalbarhet",
+      "description": "Arkitektur designad för att stödja tillväxt."
+    },
+    "advanced-monitoring": {
+      "title": "Avancerad övervakning",
+      "description": "Real-tids spårning av prestanda och hälsa."
+    },
+    "intelligent-cache": {
+      "title": "Intelligent cache",
+      "description": "Prestandaoptimering med avancerad cache."
+    }
+  },
+  "faq": {
+    "rest-vs-graphql": {
+      "question": "Vad är skillnaden mellan REST och GraphQL?",
+      "answer": "REST är en traditionell arkitektur där varje slutpunkt motsvarar en specifik resurs, medan GraphQL tillåter klienter att begära exakt den data de behöver. Vi ger dig råd om den bästa metoden baserat på dina specifika behov och användningsfall."
+    },
+    "api-security": {
+      "question": "Hur säkerställer ni API-säkerhet?",
+      "answer": "Vi implementerar flera säkerhetslager: JWT autentisering, SSL/TLS kryptering, hastighetsbegränsning, datavalidering, skydd mot injektioner och CSRF-attacker. Vi följer också OWASP-rekommendationer för API-säkerhet."
+    },
+    "scaling": {
+      "question": "Hur hanterar ni skalning?",
+      "answer": "Vi designar horisontellt skalbara API:er, med lastbalansering, distribuerad cache och frågeoptimering. Arkitekturen är designad för att stödja betydande trafikökningar."
+    },
+    "documentation": {
+      "question": "Vilken dokumentation tillhandahåller ni?",
+      "answer": "Vi tillhandahåller omfattande dokumentation: OpenAPI/Swagger teknisk dokumentation, integrationsguider, kodexempel och testmiljö. Dokumentationen hålls uppdaterad med varje API-evolution."
+    },
+    "post-deployment-support": {
+      "question": "Erbjuder ni stöd efter distribution?",
+      "answer": "Ja, vi erbjuder flera underhållsplaner som inkluderar: 24/7 övervakning, teknisk support, kontinuerlig prestandaoptimering, säkerhetsuppdateringar och funktionella evolutioner."
+    }
+  },
+  "complementary": {
+    "advanced-analytics": {
+      "title": "Avancerad analys",
+      "description": "Detaljerad analys av användning och prestanda."
+    },
+    "data-migration": {
+      "title": "Datamigration",
+      "description": "Migration från dina befintliga system."
+    },
+    "integration": {
+      "title": "Integration",
+      "description": "Stöd för integration med dina applikationer."
+    }
+  }
+}

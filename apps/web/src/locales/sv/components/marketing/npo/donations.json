@@ -1,0 +1,19 @@
+{
+  "title": "Gör en donation",
+  "description": "Stöd vår organisation och projekt genom att göra en engångsdonation. Ditt bidrag hjälper oss att finansiera våra aktiviteter, evenemang och utvecklingsverktyg.",
+  "other": "Annat",
+  "custom-amount": {
+    "label": "Egen summa",
+    "placeholder": "Ange ett belopp"
+  },
+  "button": {
+    "donate": "Donera",
+    "processing": "Behandlar..."
+  },
+  "secure-payment": "Säker betalning via Stripe",
+  "toast": {
+    "title": "Betalning simulerad",
+    "description-prefix": "Din donation på",
+    "description-suffix": "har behandlats framgångsrikt. I en riktig implementation skulle du bli omdirigerad till Stripe."
+  }
+}

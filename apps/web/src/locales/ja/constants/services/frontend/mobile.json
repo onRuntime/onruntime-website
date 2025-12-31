@@ -1,0 +1,80 @@
+{
+  "name": "モバイルアプリケーション",
+  "description": "React Nativeを使ったネイティブモバイルアプリケーションの作成",
+  "hero": {
+    "title": "React Nativeモバイル開発",
+    "description": "React NativeでiOSとAndroid向けの高性能なネイティブモバイルアプリケーションを作成します。私たちの専門知識は堅牢なアプリケーションと優れたユーザーエクスペリエンスを保証します。"
+  },
+  "features": {
+    "react-native-expo": {
+      "title": "React Native & Expo",
+      "description": "1つのコードベースでiOSとAndroid向けの効率的なクロスプラットフォーム開発。"
+    },
+    "native-design": {
+      "title": "ネイティブデザイン",
+      "description": "iOSとAndroidのデザインガイドラインに従ったインターフェースで、なじみのある体験を提供します。"
+    },
+    "native-performance": {
+      "title": "ネイティブパフォーマンス",
+      "description": "各プラットフォームでほぼネイティブのパフォーマンスを実現するための高度な最適化。"
+    },
+    "mobile-ui-ux": {
+      "title": "モバイルUI/UX",
+      "description": "各プラットフォームのベストプラクティスに基づいた直感的なモバイルインターフェース。"
+    }
+  },
+  "benefits": {
+    "multi-platform": {
+      "title": "マルチプラットフォーム",
+      "description": "1つのコードベースでiOSとAndroidで動作するアプリケーション。"
+    },
+    "tablet-support": {
+      "title": "タブレットサポート",
+      "description": "異なる画面サイズや向きに適応したインターフェース。"
+    },
+    "optimal-performance": {
+      "title": "最適なパフォーマンス",
+      "description": "最大限のパフォーマンスと滑らかさのためのネイティブ最適化。"
+    },
+    "native-experience": {
+      "title": "ネイティブエクスペリエンス",
+      "description": "ネイティブデバイス機能（カメラ、GPS、通知など）を利用したアプリ。"
+    }
+  },
+  "faq": {
+    "why-react-native": {
+      "question": "モバイル開発にReact Nativeを選ぶ理由は？",
+      "answer": "React Nativeは、1つのコードベースからiOSとAndroid向けの高性能アプリケーションを開発でき、コストと開発時間を削減しつつネイティブ品質を維持します。また、大規模なエコシステムとMeta（Facebook）のサポートもあります。"
+    },
+    "performance": {
+      "question": "アプリのパフォーマンスをどのように確保していますか？",
+      "answer": "アプリケーションの起動時間、メモリ消費、スムーズなアニメーション、データ読み込みなど、すべての側面を最適化しています。また、プロファイリングツールを使用してパフォーマンスの問題を特定し解決します。"
+    },
+    "store-publishing": {
+      "question": "ストアへの公開を担当していますか？",
+      "answer": "はい、私たちは資産準備、開発者アカウントの設定、ストアへの提出（App StoreとPlay Store）および更新追跡など、公開プロセス全体を担当します。"
+    },
+    "updates": {
+      "question": "アプリの更新はどのように管理していますか？",
+      "answer": "可能な限りOTA（Over The Air）アップデートシステムを設定し、ストアを通じて最適化されたプロセスで更新を管理して、検証時間を最小限に抑えます。"
+    },
+    "post-launch-support": {
+      "question": "ローンチ後のサポートは行っていますか？",
+      "answer": "はい、パフォーマンス監視、バグ修正、セキュリティ更新、機能の進化を含むさまざまなメンテナンスプランを提供しています。"
+    }
+  },
+  "complementary": {
+    "store-publishing": {
+      "title": "ストア公開",
+      "description": "App StoreとPlay Storeの公開を完全に管理します。"
+    },
+    "backend-integration": {
+      "title": "バックエンド統合",
+      "description": "既存のシステムやAPIとの接続。"
+    },
+    "react-native-training": {
+      "title": "React Nativeトレーニング",
+      "description": "あなたのチームをReact Native開発にトレーニングします。"
+    }
+  }
+}

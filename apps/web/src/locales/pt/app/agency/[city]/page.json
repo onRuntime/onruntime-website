@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Expertise local indisponível",
+      "description": "Ainda não temos uma expertise específica para esta cidade."
+    }
+  },
+  "breadcrumb": {
+    "home": "Início",
+    "local-expertise": "Expertise local"
+  },
+  "challenges": {
+    "title": "Desafios digitais para negócios em {city}",
+    "description": "Os negócios em {city} enfrentam desafios específicos na transformação digital. Nossa expertise nos permite abordá-los de forma eficaz.",
+    "market-issues": "Desafios do mercado de {region}",
+    "our-solutions": "Nossas soluções personalizadas",
+    "discover-all-services": "Descubra todos os nossos serviços"
+  },
+  "faq": {
+    "title": "Perguntas frequentes sobre projetos web em {city}",
+    "description": "Encontre respostas para as perguntas mais comuns de negócios em {city} sobre seus projetos digitais.",
+    "questions": {
+      "choose-agency": {
+        "question": "Como escolher a agência web certa em {city}?",
+        "answer": "Para escolher a agência web certa em {city}, avalie o conhecimento deles sobre o mercado local, o portfólio no seu setor e a capacidade de entender seus objetivos específicos. A expertise em desafios digitais específicos da região {region} também é um fator chave."
+      },
+      "project-costs": {
+        "question": "Quais são os custos de um projeto web em {city}?",
+        "answer": "Os custos de um projeto web em {city} variam dependendo da complexidade, recursos e objetivos. Para um site de apresentação profissional, espere entre €3.000 e €8.000. Para uma aplicação web personalizada ou e-commerce, os preços geralmente começam em €10.000. Solicite um orçamento personalizado para uma estimativa precisa."
+      },
+      "development-time": {
+        "question": "Quanto tempo leva para desenvolver um site ou aplicação para meu negócio em {city}?",
+        "answer": "Os prazos de desenvolvimento para um negócio em {city} dependem da complexidade do projeto. Um site de apresentação pode ser concluído em 4-8 semanas, enquanto uma aplicação personalizada ou e-commerce geralmente requer de 2 a 4 meses. Nossa metodologia ágil permite entregas progressivas para que você veja o progresso rapidamente."
+      },
+      "remote-work": {
+        "question": "Vocês conseguem trabalhar efetivamente com meu negócio em {city} remotamente?",
+        "answer": "Com certeza. Colaboramos efetivamente com negócios em {city} através da nossa metodologia de trabalho remoto comprovada. Conferências por vídeo regulares, ferramentas colaborativas poderosas e nosso conhecimento aprofundado do mercado local de {region} nos permitem fornecer acompanhamento tão eficaz quanto com uma equipe presencial."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "O que nossos clientes em {city} dizem",
+    "description": "Descubra o feedback de negócios locais com os quais colaboramos."
+  }
+}

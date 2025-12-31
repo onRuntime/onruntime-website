@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Lokalna wiedza o internecie | Rozwój cyfrowy w dużych francuskich miastach",
+    "description": "Wspieramy lokalne firmy w całej Francji dzięki naszej wiedzy o regionalnych rynkach cyfrowych. Rozwiązania cyfrowe dostosowane do każdego regionu."
+  },
+  "hero": {
+    "title": "Twój cyfrowy partner w całej Francji",
+    "description": "Opracowujemy innowacyjne rozwiązania cyfrowe dostosowane do specyfiki każdego francuskiego rynku regionalnego. Nasz zespół doskonale zna lokalne wyzwania cyfrowe, aby skutecznie Cię wspierać, gdziekolwiek jesteś we Francji.",
+    "cta": "Omów swój projekt",
+    "secondary-cta": "Odkryj naszą lokalną wiedzę"
+  },
+  "expertise": {
+    "title": "Wiedza dostosowana do każdego terytorium",
+    "description": "Nasz zespół analizuje i rozumie lokalne ekosystemy cyfrowe, aby zaoferować Ci rozwiązania idealnie dostosowane do specyfiki ekonomicznej i kulturowej Twojego regionu.",
+    "local-markets": {
+      "title": "Zrozumienie lokalnych rynków",
+      "description": "Analizujemy i opanowujemy specyfikę i trendy regionalnych ekosystemów cyfrowych."
+    },
+    "remote-work": {
+      "title": "Efektywna praca zdalna",
+      "description": "Nasz zespół współpracuje zdalnie z Twoją firmą, gdziekolwiek jesteś we Francji, z taką samą efektywnością jak osobiście."
+    },
+    "custom-solutions": {
+      "title": "Dostosowane rozwiązania",
+      "description": "Szyte na miarę strategie cyfrowe, które dostosowują się do Twojego lokalnego kontekstu i szczególnych cech rynku regionalnego."
+    }
+  },
+  "cities": {
+    "title": "Nasza wiedza w dużych miastach Francji",
+    "description": "Odkryj naszą dogłębną wiedzę o lokalnych rynkach i jak może to przynieść korzyści Twojemu biznesowi.",
+    "region-label": "Region",
+    "discover-cta": "Odkryj naszą wiedzę"
+  },
+  "why-us": {
+    "title": "Dlaczego warto z nami współpracować w Twoim lokalnym projekcie?",
+    "description": "Nasza wiedza o rynkach regionalnych oferuje wiele korzyści dla Twojego biznesu.",
+    "local-ecosystems": {
+      "title": "Ekspertyza w zakresie lokalnych ekosystemów",
+      "description": "Zespół, który rozumie dynamikę rynku specyficzną dla Twojego regionu, co umożliwia idealnie dostosowaną strategię cyfrową."
+    },
+    "remote-agility": {
+      "title": "Zwinność zdalna",
+      "description": "Efektywna współpraca dzięki wideokonferencjom, komunikatorom i narzędziom współpracy dla płynnego i produktywnego doświadczenia pracy."
+    },
+    "localized-strategies": {
+      "title": "Zlokalizowane strategie",
+      "description": "Rozwiązania cyfrowe uwzględniające kulturowe i ekonomiczne specyfiki Twojego terytorium."
+    },
+    "regional-analysis": {
+      "title": "Analiza rynku regionalnego",
+      "description": "Badanie trendów, konkurencji i możliwości specyficznych dla Twojego sektora geograficznego w celu opracowania optymalnej strategii cyfrowej."
+    }
+  },
+  "services": {
+    "title": "Nasze usługi dla wszystkich regionów Francji",
+    "description": "Kompletne rozwiązania cyfrowe dostosowane do specyfiki każdego lokalnego rynku.",
+    "design": {
+      "title": "Projektowanie UI/UX",
+      "description": "Interfejsy dostosowane do lokalnych zwyczajów"
+    },
+    "integration": {
+      "title": "Integracja",
+      "description": "Regionalne rozwiązania CMS i e-commerce"
+    },
+    "frontend": {
+      "title": "Front-end",
+      "description": "Aplikacje dostosowane do Twoich użytkowników"
+    },
+    "backend": {
+      "title": "Back-end",
+      "description": "Solidne i skalowalne infrastruktury"
+    },
+    "discover-all": "Odkryj wszystkie nasze usługi"
+  },
+  "cta": {
+    "title": "Projekty cyfrowe dostosowane do Twojego lokalnego rynku?",
+    "description": "Skontaktuj się z nami, aby omówić swój projekt. Nasza wiedza o rynkach lokalnych pozwala nam skutecznie Cię wspierać, gdziekolwiek jesteś we Francji.",
+    "contact": "Skontaktuj się z nami",
+    "learn-more": "Dowiedz się więcej o naszym podejściu"
+  }
+}

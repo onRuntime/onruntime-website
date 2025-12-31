@@ -1,0 +1,80 @@
+{
+  "name": "Masaüstü yazılım",
+  "description": "Çapraz platform masaüstü uygulama geliştirme",
+  "hero": {
+    "title": "Çapraz platform masaüstü uygulamaları",
+    "description": "Windows, macOS ve Linux için modern ve yüksek performanslı masaüstü uygulamaları geliştirin. Uzmanlığımız, masaüstünün tam gücünden yararlanan profesyonel uygulamalar garanti eder."
+  },
+  "features": {
+    "electron-react": {
+      "title": "Electron & React",
+      "description": "Performanslı ve ölçeklenebilir masaüstü uygulamaları için modern teknolojiler."
+    },
+    "multiplatform": {
+      "title": "Çoklu platform",
+      "description": "Tek bir kod tabanından Windows, macOS ve Linux uyumlu uygulamalar."
+    },
+    "native-performance": {
+      "title": "Yerel performans",
+      "description": "Sistem kaynaklarını verimli bir şekilde kullanmak için optimizasyon."
+    },
+    "system-integration": {
+      "title": "Sistem entegrasyonu",
+      "description": "Yerel işletim sistemi özelliklerine erişim."
+    }
+  },
+  "benefits": {
+    "windows-macos": {
+      "title": "Windows & macOS",
+      "description": "Ana masaüstü platformları için yerel destek."
+    },
+    "system-access": {
+      "title": "Sistem erişimi",
+      "description": "İşletim sistemiyle doğrudan etkileşim."
+    },
+    "offline-mode": {
+      "title": "Offline modu",
+      "description": "İnternet bağlantısı gerektirmeden bağımsız çalışma."
+    },
+    "local-data": {
+      "title": "Yerel veri",
+      "description": "Geliştirilmiş güvenlik için yerel depolama ve veri işleme."
+    }
+  },
+  "faq": {
+    "why-electron": {
+      "question": "Neden Electron'u masaüstü geliştirme için seçmeliyiz?",
+      "answer": "Electron, modern web teknolojileri (React, TypeScript) ile çapraz platform masaüstü uygulamaları oluşturmayı sağlar. Bu, hızlı geliştirme, basit bakım ve mükemmel kullanıcı deneyimi sunar ve Windows, macOS ve Linux ile uyumluluğu garanti eder."
+    },
+    "security": {
+      "question": "Masaüstü uygulama güvenliğini nasıl sağlıyorsunuz?",
+      "answer": "Hassas verilerin şifrelenmesi, kod enjeksiyonuna karşı koruma, otomatik güvenlik güncellemeleri ve güvenli geliştirme en iyi uygulamaları gibi çeşitli güvenlik seviyeleri uyguluyoruz. Ayrıca her işletim sistemi için özel güvenlik önerilerine de uyuyoruz."
+    },
+    "auto-update": {
+      "question": "Otomatik bir güncelleme sistemi sunuyor musunuz?",
+      "answer": "Evet, yeni uygulama sürümlerinin kolayca dağıtımını sağlayan otomatik bir güncelleme sistemi entegre ediyoruz. Kullanıcılara mevcut güncellemeler hakkında bilgi veriliyor ve bunları tek tıkla yükleyebiliyorlar."
+    },
+    "distribution": {
+      "question": "Uygulama dağıtımını nasıl yönetiyorsunuz?",
+      "answer": "Tüm dağıtım sürecini yönetiyoruz: her platform için yükleyici oluşturma, uygulamaları imzalama, gerektiğinde mağazalarda yayınlama (Microsoft Store, Mac App Store) ve otomatik güncelleme sistemi kurma."
+    },
+    "post-launch-support": {
+      "question": "Yayın sonrası destek sunuyor musunuz?",
+      "answer": "Evet, teknik destek, hata düzeltmeleri, güvenlik güncellemeleri, performans optimizasyonları ve özellik gelişimi dahil olmak üzere çeşitli bakım planları sunuyoruz."
+    }
+  },
+  "complementary": {
+    "telemetry": {
+      "title": "Telemetri",
+      "description": "Performans ve kullanıcı davranışını takip etme."
+    },
+    "distribution": {
+      "title": "Dağıtım",
+      "description": "Mağaza yayınlama ve güncelleme yönetimi."
+    },
+    "cloud-sync": {
+      "title": "Bulut senkronizasyonu",
+      "description": "Verilerin bulut ile senkronizasyonu."
+    }
+  }
+}

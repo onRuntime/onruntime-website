@@ -1,0 +1,79 @@
+{
+  "title": "Desenvolvimento Web em Nantes | Soluções Digitais para Empresas do Vale do Loire",
+  "description": "Crie seu site ou aplicativo móvel em Nantes. Soluções digitais personalizadas para empresas de Nantes, adaptadas aos desafios locais do seu setor.",
+  "hero": {
+    "title": "Desenvolvimento Web & Móvel em Nantes",
+    "description": "Ajudamos empresas em Nantes e no Pays de la Loire a se digitalizarem com soluções web personalizadas, perfeitamente adaptadas aos desafios específicos do mercado do Vale do Loire."
+  },
+  "intro": "Uma capital histórica da Bretanha e uma metrópole inovadora, Nantes é famosa pelo seu dinamismo econômico e qualidade de vida. Seu ecossistema digital florescente, indústrias criativas e compromisso com a transição ecológica fazem dele um território único onde a inovação digital desempenha um papel central.",
+  "expertise": "Nossa equipe projeta sites, aplicativos e soluções digitais perfeitamente adaptadas às empresas de Nantes, sejam startups inovadoras, atores da economia responsável ou empresas tradicionais em transformação. Entendemos as especificidades do mercado local e oferecemos soluções digitais alinhadas aos valores de inovação e sustentabilidade que caracterizam Nantes.",
+  "why-choose-us": "Nosso conhecimento profundo do mercado de Nantes nos permite desenvolver soluções digitais perfeitamente adaptadas aos desafios específicos das empresas locais. Compreendemos o espírito de inovação e o compromisso com uma economia mais responsável que caracterizam Nantes, e integramos esses valores em cada projeto digital que entregamos.",
+  "key-business-sectors": {
+    "tech-digital": "Tecnologia & Digital",
+    "ecological-transition": "Transição Ecológica",
+    "creative-industries": "Indústrias Criativas",
+    "agrifood": "Agroalimentar"
+  },
+  "local-challenges": {
+    "digital-ecosystem-competition": "Forte concorrência no crescente ecossistema digital de Nantes",
+    "startup-scaleup-needs": "Necessidades específicas de startups e scale-ups locais de tecnologia",
+    "ecological-transition-digitalization": "Digitalização de agentes da transição ecológica e energética",
+    "traditional-industries-transformation": "Transformação digital das indústrias tradicionais e agroalimentares da região"
+  },
+  "benefits": {
+    "nantes-ecosystem-solutions": "Soluções personalizadas adaptadas ao ecossistema digital de Nantes",
+    "innovative-eco-technologies": "Expertise aguçada em tecnologias web inovadoras e eco-responsáveis",
+    "agile-approach": "Abordagem ágil perfeitamente adequada a startups e empresas inovadoras",
+    "digital-transition-knowledge": "Conhecimento aprofundado dos desafios da transição digital no Vale do Loire",
+    "personalized-support": "Apoio personalizado durante todo o seu projeto digital"
+  },
+  "primary-stat": {
+    "label": "Digital Nantes"
+  },
+  "strengths": {
+    "innovative-tech": {
+      "title": "Tecnologia Inovadora",
+      "description": "Soluções digitais modernas para startups e scale-ups de Nantes."
+    },
+    "eco-design": {
+      "title": "Eco-design",
+      "description": "Sites e aplicativos com pegada ambiental controlada."
+    },
+    "maritime-industry": {
+      "title": "Indústria Marítima",
+      "description": "Digitalização adaptada a atividades portuárias e fluviais."
+    },
+    "renewable-energy": {
+      "title": "Energia Renovável",
+      "description": "Soluções digitais para agentes da transição energética."
+    }
+  },
+  "focused-services": {
+    "web-applications": {
+      "name": "Aplicativos Web",
+      "description": "Aplicativos web de alto desempenho e escaláveis para startups e empresas inovadoras."
+    },
+    "eco-designed-websites": {
+      "name": "Sites Eco- Projetados",
+      "description": "Sites otimizados e sustentáveis para agentes da economia responsável."
+    },
+    "business-platforms": {
+      "name": "Plataformas Empresariais",
+      "description": "Soluções personalizadas para indústrias tradicionais em transformação."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Anos de experiência"
+    },
+    "satisfaction": {
+      "label": "Satisfação",
+      "description": "Clientes satisfeitos"
+    },
+    "average-time": {
+      "label": "Tempo Médio",
+      "description": "Semanas de conclusão"
+    }
+  }
+}

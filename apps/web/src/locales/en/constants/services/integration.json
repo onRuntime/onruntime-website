@@ -44,13 +44,5 @@
       "title": "Testing and validation",
       "description": "Thorough testing on different browsers and devices to ensure optimal user experience."
     }
-  },
-  "process-services": {
-    "mockup-analysis": ["Technical analysis", "Architecture"],
-    "technical-architecture": ["Architecture", "Technical consulting"],
-    "component-development": ["Frontend Development", "Integration"],
-    "responsive-integration": ["Integration", "Responsive Design"],
-    "optimization": ["Performance", "Technical SEO"],
-    "testing-validation": ["Testing", "Quality Assurance"]
   }
 }

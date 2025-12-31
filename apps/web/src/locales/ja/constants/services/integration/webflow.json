@@ -1,0 +1,80 @@
+{
+  "name": "Webflow",
+  "description": "Webflowでのモダンなウェブサイトの作成",
+  "hero": {
+    "title": "プロフェッショナルなWebflow開発",
+    "description": "Webflowであなたのビジョンを実現します。私たちの専門知識があれば、ニーズに完璧に適応したモダンでインタラクティブなウェブサイトを高品質で提供します。"
+  },
+  "features": {
+    "advanced-visual-design": {
+      "title": "高度なビジュアルデザイン",
+      "description": "従来のコーディングの制約なしにユニークなインターフェースや洗練されたアニメーションを作成します。"
+    },
+    "optimal-performance": {
+      "title": "最適なパフォーマンス",
+      "description": "すべてのデバイスやブラウザに最適化された高速でレスポンシブなサイト。"
+    },
+    "rich-interactions": {
+      "title": "豊かなインタラクション",
+      "description": "モダンで魅力的なウェブ体験のための滑らかなユーザーアニメーションとインタラクション。"
+    },
+    "integrated-cms": {
+      "title": "統合CMS",
+      "description": "簡単な更新のための強力で柔軟なコンテンツ管理システム。"
+    }
+  },
+  "benefits": {
+    "visual-development": {
+      "title": "ビジュアル開発",
+      "description": "コードを書かずに複雑なサイトを作成でき、デザインを完全にコントロールできます。"
+    },
+    "native-seo": {
+      "title": "ネイティブSEO",
+      "description": "検索エンジン向けに最適化されたビルトインのSEOツールと構造。"
+    },
+    "responsive-by-default": {
+      "title": "デフォルトでレスポンシブ",
+      "description": "モバイルから大画面まで、すべての画面に完璧に適応したデザイン。"
+    },
+    "optimized-hosting": {
+      "title": "最適化されたホスティング",
+      "description": "最適なパフォーマンスのためのグローバルCDNを備えた堅牢なクラウドインフラ。"
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Webflowサイトを作成するのにどれくらいの時間がかかりますか？",
+      "answer": "Webflowサイトを作成するのにかかる平均的な時間は、プロジェクトの複雑さによって3週間から8週間です。デザイン、インタラクション開発、コンテンツ統合、テストが含まれます。"
+    },
+    "self-update": {
+      "question": "自分でサイトを簡単に更新できますか？",
+      "answer": "もちろんできます！Webflowには、あなたのニーズに合わせた直感的なCMSがあります。あなたが独立してコンテンツを管理できるように、その使い方をトレーニングします。"
+    },
+    "ecommerce": {
+      "question": "Webflowはeコマースサイトに適していますか？",
+      "answer": "はい、Webflowは強力なeコマースソリューションを提供していて、先進的な機能とカスタムデザインでオンラインストアを作成することができます。"
+    },
+    "animations-interactions": {
+      "question": "アニメーションとインタラクションはどのように扱いますか？",
+      "answer": "Webflowを使えば、コードなしで洗練されたアニメーションとインタラクションを作成できます。私たちは最適なパフォーマンスを維持しながら、滑らかでプロフェッショナルなインタラクティブな体験をデザインします。"
+    },
+    "seo-quality": {
+      "question": "WebflowのSEO品質はどうなっていますか？",
+      "answer": "WebflowはクリーンでSEO最適化されたコードを生成します。検索エンジンでの可視性を最大化するためのSEOのベストプラクティスを実施します。"
+    }
+  },
+  "complementary": {
+    "custom-integrations": {
+      "title": "カスタムインテグレーション",
+      "description": "お気に入りのサードパーティツールやサービスとの接続。"
+    },
+    "digital-strategy": {
+      "title": "デジタル戦略",
+      "description": "オンラインプレゼンス戦略のサポート。"
+    },
+    "webflow-training": {
+      "title": "Webflowトレーニング",
+      "description": "サイト管理を習得するためのカスタムトレーニング。"
+    }
+  }
+}

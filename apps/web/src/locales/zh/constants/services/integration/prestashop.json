@@ -1,0 +1,80 @@
+{
+  "name": "PrestaShop",
+  "description": "PrestaShop商店开发",
+  "hero": {
+    "title": "与PrestaShop进行电子商务开发",
+    "description": "使用PrestaShop启动一个专业在线商店。我们的专业知识保证提供一个强大、可扩展的电子商务解决方案，完美适应你的需求。"
+  },
+  "features": {
+    "custom-design": {
+      "title": "自定义设计",
+      "description": "制作反映你品牌的自定义主题，并优化转换率。"
+    },
+    "advanced-management": {
+      "title": "高级管理",
+      "description": "强大的后台界面用于管理你的产品、订单和客户。"
+    },
+    "optimized-performance": {
+      "title": "优化性能",
+      "description": "先进的优化以快速加载时间和流畅体验。"
+    },
+    "enhanced-security": {
+      "title": "增强安全性",
+      "description": "对你的商店和客户数据的高级保护。"
+    }
+  },
+  "benefits": {
+    "complete-management": {
+      "title": "完全管理",
+      "description": "全面掌握你的产品、库存、订单和客户关系。"
+    },
+    "multi-store": {
+      "title": "多店管理",
+      "description": "从单一后台界面管理多个商店。"
+    },
+    "integrated-logistics": {
+      "title": "集成物流",
+      "description": "高级承运人和运输费用管理。"
+    },
+    "detailed-analytics": {
+      "title": "详细分析",
+      "description": "完整的统计数据以追踪和优化你的表现。"
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "创建一个PrestaShop商店需要多长时间？",
+      "answer": "创建一个PrestaShop商店的平均时间从6到12周不等，具体取决于项目的复杂性。这包括主题定制、自定义功能开发、产品集成和测试。"
+    },
+    "migration": {
+      "question": "你能把我现有的商店迁移到PrestaShop吗？",
+      "answer": "可以，我们提供完整的迁移服务到PrestaShop，包括产品、客户、订单和历史记录的转移，同时保持你的SEO。"
+    },
+    "large-catalogs": {
+      "question": "PrestaShop适合大型产品目录吗？",
+      "answer": "绝对可以！PrestaShop旨在高效管理几千种带有变体的产品目录，同时保持卓越的性能。"
+    },
+    "custom-development": {
+      "question": "你们提供自定义开发吗？",
+      "answer": "是的，我们开发自定义模块和功能，以适应PrestaShop的具体需求：ERP集成、自定义业务流程等。"
+    },
+    "maintenance-updates": {
+      "question": "你们如何处理维护和更新？",
+      "answer": "我们提供不同的维护计划，包括安全更新、备份、性能优化和技术支持。"
+    }
+  },
+  "complementary": {
+    "custom-modules": {
+      "title": "自定义模块",
+      "description": "为你的业务开发特定功能。"
+    },
+    "digital-marketing": {
+      "title": "数字营销",
+      "description": "提升你可见性和销售的营销策略。"
+    },
+    "prestashop-training": {
+      "title": "PrestaShop培训",
+      "description": "定制培训以掌握你的商店管理。"
+    }
+  }
+}

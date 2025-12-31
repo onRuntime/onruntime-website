@@ -1,0 +1,80 @@
+{
+  "name": "WordPress",
+  "description": "Anpassad WordPress webbplatsutveckling",
+  "hero": {
+    "title": "Anpassad WordPress utveckling",
+    "description": "Skapa en professionell webbplats som speglar dig med WordPress. Vår expertis garanterar en högpresterande, säker webbplats som är perfekt anpassad efter dina behov."
+  },
+  "features": {
+    "custom-themes": {
+      "title": "Anpassade teman",
+      "description": "Skapande av anpassade teman som speglar din identitet och möter dina behov exakt."
+    },
+    "optimized-performance": {
+      "title": "Optimerad prestanda",
+      "description": "Avancerad optimering för att garantera snabba laddningstider och en smidig användarupplevelse."
+    },
+    "enhanced-security": {
+      "title": "Förbättrad säkerhet",
+      "description": "Genomförande av säkerhetsbästa praxis för att skydda din webbplats och dina data."
+    },
+    "simplified-administration": {
+      "title": "Förenklad administration",
+      "description": "Anpassat och intuitivt administrationsgränssnitt för enkel hantering av innehåll."
+    }
+  },
+  "benefits": {
+    "intuitive-administration": {
+      "title": "Intuitiv administration",
+      "description": "Enkel och intuitiv hanteringsgränssnitt för att hantera ditt innehåll på egen hand."
+    },
+    "seo-optimized": {
+      "title": "SEO-optimerad",
+      "description": "Struktur optimerad för naturlig sökning och inbyggda SEO-verktyg."
+    },
+    "powerful-extensions": {
+      "title": "Kraftfulla tillägg",
+      "description": "Tillgång till tusentals plugins för att utöka din webbplats funktionalitet."
+    },
+    "maximum-performance": {
+      "title": "Maximal prestanda",
+      "description": "Avancerad prestandaoptimering för optimal användarupplevelse."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Hur lång tid tar det att skapa en WordPress-webbplats?",
+      "answer": "Den genomsnittliga tiden för att skapa en WordPress-webbplats varierar från 4 till 12 veckor, beroende på projektets komplexitet. Detta inkluderar designfasen, utveckling av anpassat tema, innehållsintegration och testning."
+    },
+    "migration": {
+      "question": "Kan du migrera min befintliga webbplats till WordPress?",
+      "answer": "Ja, vi erbjuder en komplett migrationsservice till WordPress, inklusive överföring av innehåll, bilder och funktioner, samtidigt som vi bevarar din SEO."
+    },
+    "maintenance-updates": {
+      "question": "Hur hanterar ni underhåll och uppdateringar?",
+      "answer": "Vi erbjuder olika underhållsplaner inklusive säkerhetsuppdateringar, regelbundna säkerhetskopior, WordPress och plugin-uppdateringar, samt prestandaövervakning."
+    },
+    "mobile-optimization": {
+      "question": "Kommer min webbplats att vara optimerad för mobila enheter?",
+      "answer": "Absolut. Alla våra WordPress-utvecklingar är responsiva som standard, vilket garanterar en optimal upplevelse på alla enheter: datorer, surfplattor och smartphones."
+    },
+    "security-approach": {
+      "question": "Vad är er strategi för säkerhet?",
+      "answer": "Vi implementerar en omfattande säkerhetsstrategi: stark autentisering, webbapplikationsbrandvägg, övervakning av intrångsförsök, automatiska säkerhetskopior och regelbundna säkerhetsuppdateringar."
+    }
+  },
+  "complementary": {
+    "custom-development": {
+      "title": "Anpassad utveckling",
+      "description": "Skapande av specifika funktioner för att möta dina särskilda behov."
+    },
+    "digital-marketing": {
+      "title": "Digital marknadsföring",
+      "description": "Marknadsföringsstrategier anpassade för att öka din synlighet online."
+    },
+    "wordpress-training": {
+      "title": "WordPress utbildning",
+      "description": "Anpassad utbildning för att bemästra din webbplats hantering."
+    }
+  }
+}

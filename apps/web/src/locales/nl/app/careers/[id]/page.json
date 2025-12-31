@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Vacature niet gevonden",
+      "description": "Deze vacature bestaat niet of is niet meer beschikbaar."
+    },
+    "title": "{jobTitle} | Carrières",
+    "description": "Word onderdeel van onRuntime Studio als {jobTitle}. Ontdek deze carrièremogelijkheid en solliciteer nu."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "back": "채용 공고로 돌아가기",
+  "share": {
+    "button": "공유하기",
+    "text": "이 기회를 알아보세요: {jobTitle} at onRuntime Studio",
+    "copied": "링크가 클립보드에 복사되었습니다!"
+  },
+  "apply": "지금 지원하기",
+  "published": "게시일",
+  "employment-type": {
+    "full-time": "정규직",
+    "part-time": "시간제",
+    "contract": "계약직",
+    "temporary": "임시직",
+    "internship": "인턴쉽",
+    "apprenticeship": "견습생"
+  },
+  "workplace-type": {
+    "hybrid": "하이브리드",
+    "remote": "원격",
+    "on-site": "현장"
+  },
+  "salary-format": {
+    "from": "부터",
+    "up-to": "까지",
+    "range": "-"
+  },
+  "sections": {
+    "description": "직무 설명",
+    "no-description": "이 직무에 대한 상세 설명이 제공되지 않습니다.",
+    "requirements": "요구 사항",
+    "benefits": "혜택"
+  },
+  "details": {
+    "title": "직무 세부 정보",
+    "department": "부서",
+    "location": "위치",
+    "contract": "계약 유형",
+    "salary": "급여",
+    "workplace": "근무 형태"
+  },
+  "interested": {
+    "title": "이 직무에 관심 있나요?",
+    "description": "지금 지원하고 우리의 열정적인 팀에 합류하세요."
+  },
+  "culture": {
+    "title": "우리 회사 문화",
+    "description": "onRuntime Studio에서는 각 팀원이 자신의 창의력을 표현하고 기술을 발전시킬 수 있는 협업적이고 자극적인 근무 환경을 조성합니다. 우리는 혁신, 품질, 그리고 직원의 복지를 최우선으로 생각합니다.",
+    "training": {
+      "title": "지속적인 교육",
+      "description": "우리는 팀의 전문성을 발전시키는 데 투자합니다"
+    },
+    "flexible": {
+      "title": "유연한 환경",
+      "description": "워크 라이프 밸런스와 하이브리드 근무"
+    },
+    "projects": {
+      "title": "다양한 프로젝트",
+      "description": "다양하고 자극적인 프로젝트에서 일하세요"
+    },
+    "learn-more": "우리 팀에 대해 더 알아보기"
+  },
+  "cta": {
+    "title": "도전에 준비되셨나요?",
+    "description": "우리 팀에 합류하고 기술을 발전시키고 창의력을 표현할 수 있는 자극적인 프로젝트에 참여하세요."
+  }
+}

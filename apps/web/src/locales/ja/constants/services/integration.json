@@ -1,0 +1,48 @@
+{
+  "name": "インテグレーション",
+  "description": "主要なeコマースおよびCMSプラットフォームでのインテグレーション",
+  "benefits": {
+    "clean-maintainable-code": {
+      "title": "クリーンでメンテナンスしやすいコード",
+      "description": "長期的なメンテナンスを考えた高いコード基準とアーキテクチャでのインテグレーション."
+    },
+    "optimized-performance": {
+      "title": "最適化されたパフォーマンス",
+      "description": "先進的な最適化技術とベストプラクティスを使った素早くスムーズなウェブサイト."
+    },
+    "responsive-design": {
+      "title": "レスポンシブデザイン",
+      "description": "あらゆるスクリーンとデバイスに完璧に適応して一貫したユーザー体験を提供."
+    },
+    "smooth-animations": {
+      "title": "スムーズなアニメーション",
+      "description": "パフォーマンスを維持しながらユーザー体験を豊かにする洗練されたアニメーションの統合."
+    }
+  },
+  "process": {
+    "mockup-analysis": {
+      "title": "モックアップ分析",
+      "description": "コンポーネント、対話、そして技術的な注意点を特定するためのモックアップの詳細な研究."
+    },
+    "technical-architecture": {
+      "title": "技術的なアーキテクチャ",
+      "description": "フロントエンドアーキテクチャの定義とプロジェクトに適した技術の選択."
+    },
+    "component-development": {
+      "title": "コンポーネント開発",
+      "description": "デザインシステムの原則に従った再利用可能なコンポーネントの作成."
+    },
+    "responsive-integration": {
+      "title": "レスポンシブインテグレーション",
+      "description": "すべてのスクリーンフォーマットに対するデザインの適応、特にモバイル体験に注意を払う."
+    },
+    "optimization": {
+      "title": "最適化",
+      "description": "パフォーマンス、アクセシビリティ、技術的SEOの最適化."
+    },
+    "testing-validation": {
+      "title": "テストと検証",
+      "description": "異なるブラウザやデバイスでの徹底的なテストを行い、最適なユーザー体験を保証."
+    }
+  }
+}

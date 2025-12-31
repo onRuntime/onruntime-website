@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Jobbannonsen hittades inte",
+      "description": "Den här jobbannonsen finns inte eller är inte längre tillgänglig."
+    },
+    "title": "{jobTitle} | Karriärer",
+    "description": "Gå med i onRuntime Studio som {jobTitle}. Upptäck den här karriärmöjligheten och ansök nu."
+  }
+}

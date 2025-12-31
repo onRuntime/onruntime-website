@@ -1,0 +1,75 @@
+{
+  "short-description": "온라인 카지노 보너스 및 박스 오프닝에 특화된 스트리머용 제휴 플랫폼입니다.",
+  "description": "스트리머 vitapvp를 위해 개발된 제휴 웹사이트로, 제휴 링크로 리디렉션되는 파트너 카지노의 최고의 보너스와 혜택을 보여줍니다.",
+  "long-description": "ShadowBonus는 스트리머 vitapvp를 위해 개발된 제휴 플랫폼으로, 파트너 온라인 카지노의 최고의 보너스와 혜택을 명확하고 매력적으로 보여주도록 설계되었습니다.\n\n이 프로젝트는 필수 요소에 집중했습니다. 파트너 오퍼를 강조하며 제휴 링크로의 전환을 촉진하는 깔끔한 인터페이스입니다. React와 styled-components로 개발되어 사용의 용이성과 전환 효율성을 우선시합니다.\n\n우리의 접근 방식은 vitapvp의 시청자가 최상의 오퍼를 빠르게 발견하고 쉽게 파트너 플랫폼에 접근할 수 있도록 원활한 사용자 경험에 초점을 맞췄습니다.",
+  "features": {
+    "partner-showcase": {
+      "title": "파트너 쇼케이스",
+      "description": "스트리머의 파트너 카지노 및 플랫폼을 명확하고 매력적으로 소개합니다."
+    },
+    "bonus-comparison": {
+      "title": "보너스 비교",
+      "description": "시청자를 위한 최고의 보너스와 혜택을 강조합니다."
+    },
+    "affiliate-redirect": {
+      "title": "제휴 리디렉션",
+      "description": "파트너 제휴 링크로의 최적화된 리디렉션 시스템입니다."
+    },
+    "responsive-interface": {
+      "title": "반응형 인터페이스",
+      "description": "모든 기기에서 최적의 경험을 위한 적응형 디자인입니다."
+    }
+  },
+  "technologies": {
+    "react": {
+      "description": "사용자 인터페이스를 위한 JavaScript 라이브러리입니다."
+    },
+    "styled-components": {
+      "description": "현대적인 접근을 위한 CSS-in-JS 스타일링입니다."
+    },
+    "cloudflare": {
+      "description": "호스팅 및 지속적인 배포입니다."
+    }
+  },
+  "metrics": {
+    "weekly-visits": {
+      "value": "1500+",
+      "label": "주간 방문자 수",
+      "description": "2021년 7월 런칭 시."
+    },
+    "dev-time": {
+      "value": "2개월",
+      "label": "개발 기간",
+      "description": "빠르고 효율적인 납기입니다."
+    },
+    "team-size": {
+      "value": "3명",
+      "label": "팀",
+      "description": "작고 민첩한 팀입니다."
+    }
+  },
+  "screenshots": {
+    "homepage": {
+      "caption": "파트너 오퍼를 보여주는 홈페이지입니다."
+    },
+    "partners": {
+      "caption": "파트너 카지노 및 플랫폼 섹션입니다."
+    }
+  },
+  "challenges": {
+    "attractive-interface": "파트너 오퍼를 강조하기 위한 매력적인 인터페이스 만들기",
+    "conversion-optimization": "제휴 링크로의 전환율 최적화",
+    "simple-react-solution": "간단하지만 효과적인 React 솔루션 개발하기",
+    "cross-device-experience": "모든 기기에서 원활한 사용자 경험 보장하기"
+  },
+  "learnings": {
+    "affiliate-simplicity": "제휴 프로젝트에서 단순함의 중요성",
+    "streamer-conversion": "스트리머를 위한 전환 여정 최적화하기",
+    "react-styled-components": "React와 styled-components로 빠르고 효율적인 개발하기",
+    "gaming-streaming-needs": "게임 스트리밍 세계의 특정 요구에 적응하기"
+  },
+  "future-plans": {
+    "client-transfer": "프로젝트는 유지 관리를 위해 클라이언트에게 이전되었습니다.",
+    "streamer-evolutions": "스트리머의 필요에 따라 가능한 발전입니다."
+  }
+}

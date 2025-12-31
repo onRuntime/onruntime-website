@@ -1,0 +1,79 @@
+{
+  "title": "Sviluppo Web a Marsiglia | Soluzioni Digitali per Aziende Provenzali",
+  "description": "Crea il tuo sito web o applicazione mobile a Marsiglia. Soluzioni digitali personalizzate per aziende provenzali, adattate alle sfide locali del tuo settore.",
+  "hero": {
+    "title": "Sviluppo Web e Mobile a Marsiglia",
+    "description": "Aiutiamo le aziende di Marsiglia e della regione PACA a digitalizzarsi con soluzioni web personalizzate, perfettamente adattate alle sfide specifiche del mercato mediterraneo."
+  },
+  "intro": "Tra mare e colline, Marsiglia è un vivace crocevia economico dove tradizione e innovazione si incontrano. La nostra esperienza digitale permette alle aziende di Marsiglia di distinguersi in un mercato mediterraneo competitivo e in costante evoluzione.",
+  "expertise": "Il nostro team progetta siti web, applicazioni e soluzioni e-commerce perfettamente adattate alle aziende di Marsiglia. Comprendiamo le sfide del tuo mercato locale e offriamo soluzioni digitali che valorizzano la tua identità provenzale mantenendo un contatto con una clientela internazionale.",
+  "why-choose-us": "La nostra conoscenza approfondita del mercato provenzale ci consente di sviluppare soluzioni digitali perfettamente adattate alle specifiche sfide delle aziende locali. Comprendiamo la ricchezza culturale ed economica di Marsiglia e la integriamo in ogni progetto per creare esperienze digitali autentiche e performanti.",
+  "key-business-sectors": {
+    "tourism": "Turismo",
+    "maritime": "Marittimo",
+    "local-commerce": "Commercio Locale",
+    "restaurant": "Ristorante"
+  },
+  "local-challenges": {
+    "tourism-competition": "Forte competizione nel settore turistico mediterraneo che richiede una presenza digitale distintiva",
+    "maritime-solutions": "Necessità di soluzioni digitali adatte al commercio marittimo e portuale",
+    "local-commerce-digitalization": "Digitalizzazione dei negozi locali che affrontano grandi catene",
+    "local-ecommerce": "Necessità di soluzioni e-commerce adattate per valorizzare artigianato e prodotti locali"
+  },
+  "benefits": {
+    "custom-solutions": "Soluzioni personalizzate adattate alle specificità delle aziende provenzali",
+    "tourism-maritime-expertise": "Competenza approfondita nei settori turismo e marittimo",
+    "international-ui": "Interfaccia utente ottimizzata per clientela internazionale",
+    "mediterranean-knowledge": "Conoscenza approfondita delle sfide economiche del Mediterraneo",
+    "personalized-support": "Supporto personalizzato durante tutto il tuo progetto digitale"
+  },
+  "primary-stat": {
+    "label": "settore turistico"
+  },
+  "strengths": {
+    "tourism-experience": {
+      "title": "Esperienza nel Turismo",
+      "description": "Siti e applicazioni ottimizzate per il settore turistico mediterraneo."
+    },
+    "local-ecommerce": {
+      "title": "E-commerce Locale",
+      "description": "Soluzioni di vendita online per artigiani e commercianti provenzali."
+    },
+    "maritime-sector": {
+      "title": "Settore Marittimo",
+      "description": "Digitalizzazione adattata alle attività portuali e nautiche."
+    },
+    "mediterranean-design": {
+      "title": "Design Mediterraneo",
+      "description": "Interfacce moderne che riflettono l'identità visiva mediterranea."
+    }
+  },
+  "focused-services": {
+    "tourism-websites": {
+      "name": "Siti Web Turistici",
+      "description": "Vetrine digitali multilingue per hotel, ristoranti e attività turistiche."
+    },
+    "provencal-ecommerce": {
+      "name": "E-commerce Provenzale",
+      "description": "Negozi online adattati ai produttori e artigiani locali."
+    },
+    "mobile-applications": {
+      "name": "Applicazioni Mobili",
+      "description": "Soluzioni mobili per arricchire l'esperienza turistica e commerciale."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Esperienza",
+      "description": "Anni di esperienza"
+    },
+    "satisfaction": {
+      "label": "Soddisfazione",
+      "description": "Clienti soddisfatti"
+    },
+    "average-time": {
+      "label": "Tempo Medio",
+      "description": "Settimane per il completamento"
+    }
+  }
+}

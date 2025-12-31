@@ -1,0 +1,80 @@
+{
+  "name": "Skrivbordsprogram",
+  "description": "Utveckling av plattformsoberoende skrivbordsapplikationer",
+  "hero": {
+    "title": "Plattformsoberoende skrivbordsapplikationer",
+    "description": "Utveckla moderna och högpresterande skrivbordsapplikationer för Windows, macOS och Linux. Vår expertis garanterar professionella applikationer som utnyttjar hela kraften hos skrivbordet."
+  },
+  "features": {
+    "electron-react": {
+      "title": "Electron & React",
+      "description": "Moderna teknologier för prestanda och skalbara skrivbordsapplikationer."
+    },
+    "multiplatform": {
+      "title": "Multiplattform",
+      "description": "Applikationer kompatibla med Windows, macOS och Linux från en och samma kodbas."
+    },
+    "native-performance": {
+      "title": "Inbyggd prestanda",
+      "description": "Optimering för att effektivt utnyttja systemresurser."
+    },
+    "system-integration": {
+      "title": "Systemintegration",
+      "description": "Åtkomst till inbyggda funktioner i operativsystemet."
+    }
+  },
+  "benefits": {
+    "windows-macos": {
+      "title": "Windows & macOS",
+      "description": "Inbyggt stöd för stora skrivbordsplattformar."
+    },
+    "system-access": {
+      "title": "Systemåtkomst",
+      "description": "Direkt interaktion med operativsystemet."
+    },
+    "offline-mode": {
+      "title": "Offline-läge",
+      "description": "Självständig drift utan krav på internetanslutning."
+    },
+    "local-data": {
+      "title": "Lokal data",
+      "description": "Lokal lagring och databehandling för ökad säkerhet."
+    }
+  },
+  "faq": {
+    "why-electron": {
+      "question": "Varför välja Electron för skrivbordsutveckling?",
+      "answer": "Electron gör det möjligt att skapa plattformsoberoende skrivbordsapplikationer med moderna webbteknologier (React, TypeScript). Detta erbjuder snabb utveckling, förenklad underhåll och en utmärkt användarupplevelse, samtidigt som det säkerställer kompatibilitet med Windows, macOS och Linux."
+    },
+    "security": {
+      "question": "Hur hanterar ni säkerheten för skrivbordsapplikationer?",
+      "answer": "Vi implementerar flera säkerhetsnivåer: kryptering av känslig data, skydd mot kodinjektion, automatiska säkerhetsuppdateringar och säkra utvecklingsmetoder. Vi följer också säkerhetsrekommendationer som är specifika för varje operativsystem."
+    },
+    "auto-update": {
+      "question": "Erbjuder ni ett automatiskt uppdateringssystem?",
+      "answer": "Ja, vi integrerar ett automatiskt uppdateringssystem som möjliggör enkel distribution av nya versioner av applikationen. Användare får meddelanden om tillgängliga uppdateringar och kan installera dem med ett klick."
+    },
+    "distribution": {
+      "question": "Hur hanterar ni distribution av applikationen?",
+      "answer": "Vi hanterar hela distributionsprocessen: skapa installationsprogram för varje plattform, signera applikationer, publicera på butiker om det behövs (Microsoft Store, Mac App Store) och sätta upp ett automatiskt uppdateringssystem."
+    },
+    "post-launch-support": {
+      "question": "Erbjuder ni support efter lansering?",
+      "answer": "Ja, vi erbjuder flera underhållsplaner som inkluderar: teknisk support, buggfixar, säkerhetsuppdateringar, prestandaoptimeringar och funktionsutveckling."
+    }
+  },
+  "complementary": {
+    "telemetry": {
+      "title": "Telemetri",
+      "description": "Spåra prestanda och användarbeteende."
+    },
+    "distribution": {
+      "title": "Distribution",
+      "description": "Publicering i butiker och hantering av uppdateringar."
+    },
+    "cloud-sync": {
+      "title": "Molnsynk",
+      "description": "Datasynkronisering med molnet."
+    }
+  }
+}

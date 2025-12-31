@@ -1,0 +1,48 @@
+{
+  "name": "Integratie",
+  "description": "Integratie op belangrijke e-commerce en CMS-platforms",
+  "benefits": {
+    "clean-maintainable-code": {
+      "title": "Schone en onderhoudbare code",
+      "description": "Integratie met hoge code standaarden en architectuur ontworpen voor langdurig onderhoud."
+    },
+    "optimized-performance": {
+      "title": "Geoptimaliseerde prestaties",
+      "description": "Snelle en soepele websites door geavanceerde optimalisatietechnieken en best practices."
+    },
+    "responsive-design": {
+      "title": "Responsief ontwerp",
+      "description": "Perfecte aanpassing aan alle schermen en apparaten voor een consistente gebruikerservaring."
+    },
+    "smooth-animations": {
+      "title": "Vloeiende animaties",
+      "description": "Integratie van verzorgde animaties om de gebruikerservaring te verrijken zonder in te boeten op prestaties."
+    }
+  },
+  "process": {
+    "mockup-analysis": {
+      "title": "Mockup-analyse",
+      "description": "Diepgaande studie van mockups om componenten, interacties en technische aandachtspunten te identificeren."
+    },
+    "technical-architecture": {
+      "title": "Technische architectuur",
+      "description": "Definitie van frontend-architectuur en selectie van technologieën die passen bij het project."
+    },
+    "component-development": {
+      "title": "Componentontwikkeling",
+      "description": "Creatie van herbruikbare componenten volgens de principes van het ontwerpsysteem."
+    },
+    "responsive-integration": {
+      "title": "Responsieve integratie",
+      "description": "Aanpassing van het ontwerp voor alle schermformaten met bijzondere aandacht voor de mobiele ervaring."
+    },
+    "optimization": {
+      "title": "Optimalisatie",
+      "description": "Optimalisatie van prestaties, toegankelijkheid en technische SEO."
+    },
+    "testing-validation": {
+      "title": "Testen en validatie",
+      "description": "Grondig testen op verschillende browsers en apparaten om een optimale gebruikerservaring te garanderen."
+    }
+  }
+}

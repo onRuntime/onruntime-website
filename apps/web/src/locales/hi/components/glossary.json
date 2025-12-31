@@ -1,0 +1,8 @@
+{
+  "back-to-glossary": "ग्लोसलरी पर वापस",
+  "related-terms": "संबंधित शब्द",
+  "search": {
+    "placeholder": "एक शब्द खोजें...",
+    "no-results": "\"{term}\" के लिए कोई परिणाम नहीं मिला"
+  }
+}

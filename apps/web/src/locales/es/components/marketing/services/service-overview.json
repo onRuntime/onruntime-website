@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "cta": "Habla sobre tu proyecto"
+  },
+  "expertise": {
+    "title": "Amplia experiencia en {service}",
+    "description": "Combinamos creatividad y experiencia técnica para ofrecer soluciones de {service} que se ajustan perfectamente a tus objetivos. Nuestro enfoque metódico y experiencia nos permiten crear soluciones sostenibles y escalables."
+  },
+  "services": {
+    "badge": "Nuestros servicios",
+    "title": "Soluciones personalizadas de {service}",
+    "description": "Descubre nuestra gama completa de servicios de {service}, diseñados para satisfacer todas tus necesidades y apoyarte en la realización de tus proyectos.",
+    "learn-more": "Saber más"
+  },
+  "benefits": {
+    "badge": "Beneficios",
+    "title": "¿Por qué elegir nuestros servicios de {service}?"
+  },
+  "process": {
+    "badge": "Nuestro proceso",
+    "title": "Cómo trabajamos",
+    "description": "Un enfoque integrado que combina nuestras diferentes áreas de experiencia para obtener resultados óptimos."
+  },
+  "cta": {
+    "title": "¿Listo para dar vida a tu proyecto?",
+    "description": "Contáctanos para hablar sobre tus necesidades y obtener un presupuesto personalizado.",
+    "button": "Empieza ahora"
+  }
+}

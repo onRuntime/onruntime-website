@@ -1,0 +1,79 @@
+{
+  "title": "Marseille'de Web Geliştirme | Provence İşletmeleri için Dijital Çözümler",
+  "description": "Marseille'de web sitenizi veya mobil uygulamanızı oluşturun. Provence işletmeleri için yerel sektör zorluklarına özel dijital çözümler.",
+  "hero": {
+    "title": "Marseille'de Web & Mobil Geliştirme",
+    "description": "Marseille ve PACA bölgesindeki işletmelere, Akdeniz pazarının özel zorluklarına mükemmel şekilde uyum sağlamış özel web çözümleri ile dijitalleşmelerine yardımcı oluyoruz."
+  },
+  "intro": "Deniz ve tepelerin arasında, Marseille dinamik bir ekonomik kavşak olup gelenek ve yenilik burada buluşuyor. Dijital uzmanlığımız, Marseille işletmelerinin rekabetçi ve sürekli evrilen Akdeniz pazarında öne çıkmasını sağlıyor.",
+  "expertise": "Ekibimiz, Marseille işletmeleri için mükemmel şekilde uyum sağlamış web siteleri, uygulamalar ve e-ticaret çözümleri tasarlıyor. Yerel pazarın zorluklarını anlıyoruz ve Provençal kimliğinizi geliştiren, uluslararası bir müşteri kitlesine ulaşan dijital çözümler sunuyoruz.",
+  "why-choose-us": "Provence pazarına dair derinlemesine bilgimiz, yerel işletmelerin özel zorluklarına mükemmel uyum sağlayan dijital çözümler geliştirmemize olanak tanıyor. Marseille'in kültürel ve ekonomik zenginliğini anlıyor ve her projeye entegre ederek otantik ve yüksek performanslı dijital deneyimler yaratıyoruz.",
+  "key-business-sectors": {
+    "tourism": "Turizm",
+    "maritime": "Denizcilik",
+    "local-commerce": "Yerel Ticaret",
+    "restaurant": "Restoran"
+  },
+  "local-challenges": {
+    "tourism-competition": "Akdeniz turizm sektöründe belirgin bir dijital varlık gerektiren güçlü rekabet",
+    "maritime-solutions": "Deniz ve liman ticaretine uyum sağlayan dijital çözümler ihtiyacı",
+    "local-commerce-digitalization": "Büyük zincirlere karşı dijitalleşme zorunluluğu olan yerel dükkanlar",
+    "local-ecommerce": "El sanatlarını ve yerel ürünleri sergilemek için uyarlanmış e-ticaret çözümleri ihtiyacı"
+  },
+  "benefits": {
+    "custom-solutions": "Provence işletmelerinin özel gereksinimlerine uyarlanmış çözümler",
+    "tourism-maritime-expertise": "Turizm ve denizcilik sektörlerinde güçlü uzmanlık",
+    "international-ui": "Uluslararası müşteri kitlesi için optimize edilmiş kullanıcı arayüzü",
+    "mediterranean-knowledge": "Akdeniz ekonomik zorluklarına dair derinlemesine bilgi",
+    "personalized-support": "Dijital projeniz boyunca kişiselleştirilmiş destek"
+  },
+  "primary-stat": {
+    "label": "turizm sektörü"
+  },
+  "strengths": {
+    "tourism-experience": {
+      "title": "Turizm Tecrübesi",
+      "description": "Akdeniz turizm sektörüne optimize edilmiş siteler ve uygulamalar."
+    },
+    "local-ecommerce": {
+      "title": "Yerel E-ticaret",
+      "description": "Provence zanaatkarları ve tüccarları için çevrimiçi satış çözümleri."
+    },
+    "maritime-sector": {
+      "title": "Denizcilik Sektörü",
+      "description": "Liman ve deniz aktivitelerine uyum sağlamış dijitalleşme."
+    },
+    "mediterranean-design": {
+      "title": "Akdeniz Tasarımı",
+      "description": "Akdeniz görsel kimliğini yansıtan modern arayüzler."
+    }
+  },
+  "focused-services": {
+    "tourism-websites": {
+      "name": "Turizm Web Siteleri",
+      "description": "Oteller, restoranlar ve turistik aktiviteler için çok dilli dijital vitrinler."
+    },
+    "provencal-ecommerce": {
+      "name": "Provence E-ticareti",
+      "description": "Yerel üreticiler ve zanaatkarlar için uyarlanmış çevrimiçi mağazalar."
+    },
+    "mobile-applications": {
+      "name": "Mobil Uygulamalar",
+      "description": "Turizm ve ticaret deneyimini zenginleştirmek için mobil çözümler."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Uzmanlık",
+      "description": "Yıl tecrübe"
+    },
+    "satisfaction": {
+      "label": "Memnuniyet",
+      "description": "Memnun müşteriler"
+    },
+    "average-time": {
+      "label": "Ortalama Süre",
+      "description": "Tamamlanma haftaları"
+    }
+  }
+}

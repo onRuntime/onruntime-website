@@ -1,0 +1,80 @@
+{
+  "name": "Wireframes",
+  "description": "Het ontwerpen van de structuur en gebruikersreis",
+  "hero": {
+    "title": "Wireframes & UX Architectuur",
+    "description": "Structureer je gebruikersinterfaces met professionele wireframes. Onze UX-ontwerp expertise garandeert intuïtieve architectuur en optimale gebruikerservaring vanaf de vroegste stadia van je project."
+  },
+  "features": {
+    "ux-architecture": {
+      "title": "UX architectuur",
+      "description": "Duidelijke en logische structuur van je interfaces."
+    },
+    "user-journey": {
+      "title": "Gebruikersreis",
+      "description": "Optimalisatie van navigatiestromen."
+    },
+    "visual-hierarchy": {
+      "title": "Visuele hiërarchie",
+      "description": "Efficiënte organisatie van content en functies."
+    },
+    "interactions": {
+      "title": "Interacties",
+      "description": "Definitie van gedragingen en overgangen."
+    }
+  },
+  "benefits": {
+    "responsive-design": {
+      "title": "Responsive ontwerp",
+      "description": "Aanpassing aan alle schermformaten."
+    },
+    "rapid-prototyping": {
+      "title": "Snel prototypen",
+      "description": "Efficiënt testen en iteraties."
+    },
+    "collaboration": {
+      "title": "Samenwerking",
+      "description": "Duidelijke communicatie met alle belanghebbenden."
+    },
+    "early-validation": {
+      "title": "Vroege validatie",
+      "description": "Snelle detectie en correctie van UX-problemen."
+    }
+  },
+  "faq": {
+    "what-is-wireframe": {
+      "question": "Wat is een wireframe en waarom is het belangrijk?",
+      "answer": "Een wireframe is een schematische weergave van je interface die zich richt op structuur, hiërarchie en functionaliteit, zonder de uiteindelijke designelementen. Het is een cruciale stap die de informatiearchitectuur en gebruikerservaring valideert voordat je investeert in gedetailleerd ontwerp."
+    },
+    "creation-process": {
+      "question": "Hoe werkt het creatieproces?",
+      "answer": "Het proces begint met het analyseren van je behoeften en doelstellingen. We creëren dan low-fidelity wireframes om de algehele structuur te valideren, gevolgd door meer gedetailleerde versies met interacties. Na verschillende iteraties en jouw feedback finaliseren we de wireframes die als basis voor UI-ontwerp dienen."
+    },
+    "deliverables": {
+      "question": "Welke leveringsdocumenten worden verstrekt?",
+      "answer": "Je ontvangt een complete set wireframes voor elk belangrijk scherm, gebruikersstroomdiagrammen, interactiedocumentatie en interactieve prototypes om gebruikersreizen te testen. Alle bronbestanden worden ook verstrekt."
+    },
+    "responsive-handling": {
+      "question": "Hoe ga je om met responsive ontwerp?",
+      "answer": "We maken wireframes die zijn aangepast aan elk belangrijk schermformaat (desktop, tablet, mobiel) met een mobile-first aanpak. Elke versie is geoptimaliseerd om de best mogelijke gebruikerservaring op zijn medium te bieden."
+    },
+    "creation-timeline": {
+      "question": "Hoe lang duurt het om wireframes te maken?",
+      "answer": "De duur hangt af van de complexiteit van het project, maar doorgaans 2 tot 4 weken voor een gemiddeld project, inclusief analyse, creatie, iteraties en finalisatiefases. We stellen een gedetailleerde planning op aan het begin van het project."
+    }
+  },
+  "complementary": {
+    "ux-audit": {
+      "title": "UX audit",
+      "description": "Diepgaande analyse van je bestaande interfaces."
+    },
+    "prototyping": {
+      "title": "Prototypen",
+      "description": "Creatie van interactieve prototypes."
+    },
+    "ux-documentation": {
+      "title": "UX documentatie",
+      "description": "Gedetailleerde documentatie van gebruikersreizen."
+    }
+  }
+}

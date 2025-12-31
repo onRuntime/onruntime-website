@@ -1,0 +1,80 @@
+{
+  "name": "Moodboard",
+  "description": "Projenizin görsel kimliğini ve atmosferini tanımlama",
+  "hero": {
+    "title": "Moodboardlar ve Sanatsal Yönlendirme",
+    "description": "Hedeflerinizi hayata geçirin, özenle hazırlanmış moodboardlarla. Tasarım uzmanlığımız, projeniz için net ve ilham verici bir sanatsal yön belirlemenize yardımcı olur."
+  },
+  "features": {
+    "creative-direction": {
+      "title": "Yaratıcı yönlendirme",
+      "description": "Atmosfer ve görsel tarzın net tanımlanması."
+    },
+    "color-palette": {
+      "title": "Renk paleti",
+      "description": "Kimlik renklerinizin uyumlu seçimi."
+    },
+    "visual-style": {
+      "title": "Görsel stil",
+      "description": "Grafik evreninizin keşfi ve tanımlanması."
+    },
+    "targeted-inspiration": {
+      "title": "Hedefe yönelik ilham",
+      "description": "Sektörünüze özel derinlemesine araştırma."
+    }
+  },
+  "benefits": {
+    "clear-direction": {
+      "title": "Açık yön",
+      "description": "Paylaşılan vizyon ve yaratıcı ekiplerin uyumu."
+    },
+    "visual-communication": {
+      "title": "Görsel iletişim",
+      "description": "Vizyonunuzu paylaşmanız için etkili destek."
+    },
+    "consistency": {
+      "title": "Tutarlılık",
+      "description": "Garantili uyumlu görsel kimlik."
+    },
+    "creative-expertise": {
+      "title": "Yaratıcı uzmanlık",
+      "description": "Profesyonel tavsiye ve sanatsal yönlendirme."
+    }
+  },
+  "faq": {
+    "what-is-moodboard": {
+      "question": "Moodboard nedir ve ne için kullanılır?",
+      "answer": "Moodboard, projenizin sanatsal yönünü tanımlayan görsel bir derlemedir. Uyumlu bir görsel referans oluşturmak için renkleri, tipografiyi, görselleri ve dokuları bir araya getirir. Vizyonunuzu iletmek ve görsel kimliğinizin tutarlılığını sağlamak için önemli bir araçtır."
+    },
+    "creation-process": {
+      "question": "Oluşturma süreci nasıl işliyor?",
+      "answer": "Süreç, hedeflerinizi ve evreninizi keşfettiğimiz bir keşif aşamasıyla başlar. Ardından uygun görsel unsurları seçmek için derinlemesine araştırmalar yaparız. Birkaç yineleme ve geri bildiriminizden sonra, projeniz için bir rehber olacak moodboardu tamamlarız."
+    },
+    "moodboard-elements": {
+      "question": "Bir moodboard neler içerir?",
+      "answer": "Profesyonel bir moodboard genellikle şunları içerir: bir renk paleti, tipografi, ilham verici görseller, dokular, desenler ve stil referansları. Ayrıca yaratıcı seçimleri aydınlatmak için açıklayıcı notlar ekleriz."
+    },
+    "moodboard-usage": {
+      "question": "Moodboard'u proje boyunca nasıl kullanıyorsunuz?",
+      "answer": "Moodboard, proje boyunca bir referans görevi görür. Tasarım kararlarını yönlendirir, görsel tutarlılığı sağlar ve tüm paydaşlar arasında iletişimi kolaylaştırır. Geri bildiriminizle evrilebilen yaşayan bir belgede."
+    },
+    "creation-timeline": {
+      "question": "Bir moodboard oluşturmak ne kadar sürer?",
+      "answer": "Profesyonel bir moodboard oluşturmak genellikle araştırma aşaması, ilk oluşturma ve geri bildirimleriniz doğrultusunda yinelemeler dahil olmak üzere 1 ila 2 hafta sürer. Bu süre, sanatsal yönü derinlemesine keşfetmemizi ve rafine etmemizi sağlar."
+    }
+  },
+  "complementary": {
+    "brand-guidelines": {
+      "title": "Marka rehberliği",
+      "description": "Tam bir marka rehberi belgesinin oluşturulması."
+    },
+    "style-guide": {
+      "title": "Stil rehberi",
+      "description": "Kimliğinizi kullanma konusunda detaylı bir rehber."
+    },
+    "artistic-direction": {
+      "title": "Sanatsal yönlendirme",
+      "description": "Devam eden yaratıcı rehberlik."
+    }
+  }
+}

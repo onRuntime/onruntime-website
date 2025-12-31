@@ -1,0 +1,57 @@
+---
+term: Estrutura
+shortDescription: >-
+  Estrutura de software que facilita o desenvolvimento ao fornecer recursos
+  padronizados e reutilizáveis.
+relatedTerms:
+  - Library
+  - API
+  - React
+  - Angular
+  - Vue.js
+  - Next.js
+tags:
+  - development
+  - architecture
+---
+## Definição
+
+Um framework é como nossa caixa de ferramentas pré-fabricada na onRuntime. Em vez de construir tudo do zero para cada projeto (imagine construir uma casa começando fazendo seus próprios pregos!), utilizamos essas estruturas que nos dão um bom ponto de partida e convenções sólidas.
+
+## A grande questão: framework ou biblioteca?
+
+Recebemos essa pergunta com frequência dos clientes, então aqui vai:
+
+- Uma **biblioteca** é como pegar emprestado uma ferramenta específica para uma tarefa específica. Você mantém o controle e decide quando usá-la.
+- Um **framework** é como entrar em uma oficina totalmente equipada com suas próprias regras. Ele te diz como trabalhar.
+
+Tem um ditado que resume bem: "Você chama uma biblioteca, mas um framework te chama."
+
+## Frameworks que adoramos usar
+
+### Lado frontend
+- **React**: Tecnologicamente é uma biblioteca, mas o ecossistema ao seu redor (React Router, Redux, etc.) a torna quase um framework. É nossa escolha #1 para interfaces de usuário.
+- **Next.js**: Nosso favorito para sites complexos! Usamos para reconstruir nosso próprio site onRuntime.com.
+- **React Native**: Para os aplicativos móveis dos nossos clientes, é a nossa escolha. Usamos para o Tonight Pass com ótimos resultados.
+
+### Lado backend
+- **NestJS**: Somos totalmente fãs! É estruturado, modular e nos economiza muito tempo em aplicações grandes.
+- **Express**: Mais leve que o NestJS, usamos para APIs simples ou MVPs.
+- **Prisma**: Não é exatamente um framework backend completo, mas é nosso ORM favorito para gerenciar bancos de dados.
+
+### Full-stack
+- **Next.js** (de novo!): Usamos cada vez mais como uma solução full-stack graças às rotas da API.
+- **Redwood.js**: Testamos em alguns projetos e é promissor! Um pouco como Ruby on Rails, mas para o ecossistema JS.
+
+## Por que não codificamos tudo do zero
+
+- **Vamos muuuito mais rápido**: Sem mais problemas já resolvidos mil vezes por outros
+- **Código mais limpo**: As convenções do framework nos obrigam a ser disciplinados
+- **Segurança**: Frameworks populares são analisados por milhares de desenvolvedores em busca de vulnerabilidades
+- **Integração mais fácil**: Quando integramos um novo dev na equipe, se eles já conhecem o framework, já estão operacionais em pouco tempo
+
+## Quando escolhemos usar (ou não) um framework
+
+Na onRuntime, adoramos frameworks, mas não os usamos cegamente. Para um microserviço ultra-específico, às vezes preferimos uma abordagem mais leve com apenas algumas bibliotecas. Para nossa aplicação Kartrak, por exemplo, optamos por uma abordagem mais minimalista porque a performance era crítica.
+
+Mas, honestamente, para a maioria dos projetos dos clientes onde o tempo de lançamento é importante, um bom framework economiza tanto tempo que a escolha é óbvia!

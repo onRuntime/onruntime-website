@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "title": "我们的项目和成就",
+    "description": "发现我们的网络、移动和 UI/UX 设计开发项目组合。我们团队的专家创造了创新的解决方案和现代化的界面。",
+    "subdescription": "从构思到完成，每个项目都体现了我们的专业知识和致力于创造卓越数字体验的承诺。"
+  },
+  "expertise": {
+    "title": "我们的项目开发专业知识",
+    "description": "在 onRuntime Studio，我们结合创造力、技术专长和经过验证的方法，将您的想法转化为高性能、创新的数字解决方案。",
+    "cards": {
+      "development": {
+        "title": "定制开发",
+        "description": "使用最适合您项目和特定目标的技术，仔细编码解决方案。"
+      },
+      "design": {
+        "title": "卓越的 UI/UX 设计",
+        "description": "优雅直观的界面吸引您的用户，有效传达您的品牌形象。"
+      },
+      "performance": {
+        "title": "最佳性能",
+        "description": "快速、响应及时且经过优化的应用程序，提供顺畅愉快的用户体验。"
+      }
+    }
+  },
+  "process": {
+    "title": "我们的交付过程",
+    "description": "一种经过验证的方法，确保每个项目的质量和成功，从初步设计到最终部署。",
+    "steps": {
+      "discovery": {
+        "title": "发现阶段",
+        "description": "对您的需求、目标和行业特性的深入分析。"
+      },
+      "conception": {
+        "title": "设计阶段",
+        "description": "创建模型和原型以可视化和验证用户体验。"
+      },
+      "development": {
+        "title": "开发阶段",
+        "description": "使用现代技术进行认真编码和严格测试，以确保质量。"
+      },
+      "deployment": {
+        "title": "部署阶段",
+        "description": "生产上线，并提供持续监控和支持，以确保您的项目成功。"
+      }
+    }
+  },
+  "industries": {
+    "title": "我们服务的行业",
+    "description": "我们的专业知识涵盖多个行业，提供适应每个行业特性的解决方案。",
+    "items": {
+      "ecommerce": "电子商务",
+      "startups": "初创企业",
+      "luxury": "奢侈品",
+      "institutions": "机构"
+    }
+  },
+  "why-us": {
+    "title": "为什么选择 onRuntime Studio?",
+    "description": "我们以以客户为中心的方法和对卓越的承诺脱颖而出。",
+    "items": {
+      "expertise": {
+        "title": "技术专长",
+        "description": "一支拥有丰富经验的开发者和设计师团队，精通最新技术。"
+      },
+      "custom": {
+        "title": "定制解决方案",
+        "description": "个性化的开发，精确满足您的特定需求。"
+      },
+      "support": {
+        "title": "持续支持",
+        "description": "在整个项目和上线后提供高质量的支持。"
+      }
+    }
+  },
+  "cta": {
+    "title": "准备好让您的项目落地了吗？",
+    "description": "今天就联系我们，讨论您的想法，了解我们的专业知识如何帮助您将其变为现实。",
+    "buttons": {
+      "start": "启动项目",
+      "services": "发现我们的服务"
+    }
+  }
+}

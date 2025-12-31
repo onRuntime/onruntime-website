@@ -1,0 +1,48 @@
+{
+  "name": "Desenvolvimento Back-end",
+  "description": "Arquitetura e desenvolvimento de soluções robustas",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Arquitetura escalável",
+      "description": "Sistemas projetados para evoluir com seu crescimento, usando arquiteturas modernas e distribuídas."
+    },
+    "optimized-database": {
+      "title": "Banco de dados otimizado",
+      "description": "Design e otimização de banco de dados para máximo desempenho e integridade de dados."
+    },
+    "robust-infrastructure": {
+      "title": "Infraestrutura robusta",
+      "description": "Implantação em infraestrutura de nuvem moderna com alta disponibilidade e resiliência."
+    },
+    "advanced-security": {
+      "title": "Segurança avançada",
+      "description": "Implementação de melhores práticas de segurança e proteção de dados sensíveis."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Análise de necessidades",
+      "description": "Estudo detalhado dos requisitos técnicos, definição de arquitetura e escolhas de tecnologia."
+    },
+    "system-design": {
+      "title": "Design de sistema",
+      "description": "Design da arquitetura do backend, modelagem de dados e definição de API."
+    },
+    "api-development": {
+      "title": "Desenvolvimento de API",
+      "description": "Implementação de APIs RESTful ou GraphQL com documentação completa."
+    },
+    "database": {
+      "title": "Banco de dados",
+      "description": "Configuração e otimização de banco de dados com foco em desempenho e escalabilidade."
+    },
+    "testing-security": {
+      "title": "Teste e segurança",
+      "description": "Implementação de testes automatizados e medidas de segurança avançadas."
+    },
+    "deployment-monitoring": {
+      "title": "Implantação e monitoramento",
+      "description": "Configuração de infraestrutura em nuvem, monitoramento e alertas."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Shopify",
+  "description": "Shopifyオンラインストアの作成とカスタマイズ",
+  "hero": {
+    "title": "Shopifyでオンラインストアを作成しよう",
+    "description": "私たちのShopifyの専門知識で、あなたのeコマースビジョンを現実に変えよう。高性能で、美しい、コンバージョン最適化されたオンラインストアを作成します。"
+  },
+  "features": {
+    "custom-design": {
+      "title": "カスタムデザイン",
+      "description": "ブランドを反映し、ユーザーエクスペリエンスを最適化したユニークなテーマの作成。"
+    },
+    "conversion-optimization": {
+      "title": "コンバージョン最適化",
+      "description": "売上を最大化し、顧客を維持するためのベストプラクティスを実施。"
+    },
+    "enhanced-security": {
+      "title": "強化されたセキュリティ",
+      "description": "最新のセキュリティ基準に基づいて、あなたのデータと顧客のデータを保護。"
+    },
+    "advanced-integrations": {
+      "title": "高度な統合",
+      "description": "在庫管理、会計、マーケティングのためのお気に入りのツールと接続。"
+    }
+  },
+  "benefits": {
+    "secure-payments": {
+      "title": "安全な支払い",
+      "description": "主要な決済方法を統合し、安全な取引管理。"
+    },
+    "international-by-default": {
+      "title": "デフォルトで国際的",
+      "description": "多通貨管理と自動翻訳で、世界中で販売。"
+    },
+    "powerful-analytics": {
+      "title": "強力な分析",
+      "description": "パフォーマンスの詳細な追跡と、売上を最適化するためのインサイト。"
+    },
+    "simplified-logistics": {
+      "title": "簡素化された物流",
+      "description": "効率的な注文管理と主要キャリアとの統合。"
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Shopifyストアの作成にはどのくらい時間がかかりますか？",
+      "answer": "Shopifyストアの作成には、プロジェクトの複雑さに応じて4〜8週間かかります。この期間には、デザインフェーズ、開発、製品統合、テストが含まれます。"
+    },
+    "migration": {
+      "question": "すでにあるストアをShopifyに移行できますか？",
+      "answer": "はい、既存のストアからShopifyへの完全な移行サービスを提供しており、製品、顧客、注文の移行をスムーズに行います。"
+    },
+    "customization-types": {
+      "question": "どのようなカスタマイズを提供していますか？",
+      "answer": "Shopifyストアの完全なカスタマイズを提供しています。カスタムデザイン、カスタム機能、特定の統合、モバイル最適化など。"
+    },
+    "post-launch-support": {
+      "question": "ローンチ後のサポートはありますか？",
+      "answer": "はい、ローンチ後のストアがスムーズに運営できるように、更新や最適化、技術サポートなどのサポートプランをいくつか提供しています。"
+    },
+    "security": {
+      "question": "どのように私のストアのセキュリティを確保していますか？",
+      "answer": "セキュリティのベストプラクティスを実施しています。SSL、PCI DSS準拠、定期的なバックアップ、詐欺保護。Shopifyはすべての取引に銀行レベルのセキュリティを提供します。"
+    }
+  },
+  "complementary": {
+    "seo": {
+      "title": "SEO",
+      "description": "可視性を高めるための検索エンジン最適化。"
+    },
+    "digital-marketing": {
+      "title": "デジタルマーケティング",
+      "description": "顧客を引き付け、コンバージョンを高めるために適応したマーケティング戦略。"
+    },
+    "training": {
+      "title": "トレーニング",
+      "description": "自分でストアを管理できるようにするための完全なトレーニング。"
+    }
+  }
+}

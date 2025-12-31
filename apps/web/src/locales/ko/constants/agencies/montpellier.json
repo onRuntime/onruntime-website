@@ -1,0 +1,79 @@
+{
+  "title": "몽펠리에 웹 개발 | 랑그독 비즈니스를 위한 디지털 솔루션",
+  "description": "몽펠리에에서 웹사이트나 모바일 애플리케이션을 만들어보세요. 몽펠리에 비즈니스를 위한 맞춤형 디지털 솔루션으로, 지역 산업의 도전에 맞춰져 있어요.",
+  "hero": {
+    "title": "몽펠리에 웹 & 모바일 개발",
+    "description": "우리는 몽펠리에와 랑그독 지역의 비즈니스가 맞춤형 웹 솔루션으로 디지털화할 수 있도록 도와줘요. 지역 시장의 특정 도전에 완벽하게 적응한 솔루션을 제공합니다."
+  },
+  "intro": "지중해와 랑그독의 영향을 받는 역동적인 도시 몽펠리에는 건강 혁신 생태계, 유명 대학, 그리고 삶의 예술로 잘 알려져 있어요. 우리의 디지털 전문성 덕분에 몽펠리에 비즈니스는 이 풍요로움을 활용해 경쟁이 치열한 환경에서 두드러질 수 있어요.",
+  "expertise": "우리 팀은 몽펠리에 및 그 지역 비즈니스에 완벽하게 적응한 웹사이트, 애플리케이션, 디지털 솔루션을 설계해요. 우리는 당신의 로컬 시장에서의 특정 도전을 이해하고, 건강 분야, 교육, 또는 랑그독 테루와 같은 분야에서 전문가와 지역적 뿌리를 드러내는 디지털 솔루션을 제공해요.",
+  "why-choose-us": "몽펠리에 시장에 대한 우리의 깊은 이해는 지역 비즈니스의 특정 도전에 완벽하게 적응한 디지털 솔루션을 개발할 수 있게 해줘요. 우리는 몽펠리에를 특징짓는 혁신과 전통 사이의 균형을 이해하고, 이 이해를 각 프로젝트에 통합해 진정하고 성과가 높은 디지털 경험을 창출해요.",
+  "key-business-sectors": {
+    "health-biotech": "건강 & 생명공학",
+    "higher-education": "고등 교육",
+    "viticulture": "포도재배",
+    "tourism": "관광"
+  },
+  "local-challenges": {
+    "biotech-health-digitalization": "확장하는 생명공학 및 건강 분야의 디지털화",
+    "innovative-educational-platforms": "수많은 대학과 학교를 위한 혁신적인 교육 플랫폼의 필요성",
+    "wine-heritage-digital-showcase": "와인 전통 및 지역 제품의 디지털 전시",
+    "tourism-adaptation": "지중해 경쟁에 직면한 관광업체 적응 필요성"
+  },
+  "benefits": {
+    "health-sector-solutions": "혁신적인 건강 분야 기업에 맞춘 맞춤형 솔루션",
+    "educational-platforms-expertise": "교육 플랫폼 및 이러닝 도구에 대한 전문성",
+    "languedoc-market-knowledge": "랑그독 시장 및 그 특성에 대한 깊은 지식",
+    "regional-products-ui": "지역 제품을 보여주기 위해 최적화된 사용자 인터페이스",
+    "personalized-support": "디지털 프로젝트 전반에 걸친 맞춤형 지원"
+  },
+  "primary-stat": {
+    "label": "생명공학"
+  },
+  "strengths": {
+    "connected-health": {
+      "title": "연결된 건강",
+      "description": "생명과학 스타트업 및 기업을 위한 디지털 솔루션."
+    },
+    "elearning": {
+      "title": "이러닝",
+      "description": "대학 및 교육 기관을 위한 교육 플랫폼."
+    },
+    "digital-terroir": {
+      "title": "디지털 테루와르",
+      "description": "와인 농장 및 지역 생산자를 위한 사이트 및 전자상거래."
+    },
+    "regional-tourism": {
+      "title": "지역 관광",
+      "description": "랑그독 유산을 보여주는 디지털 경험."
+    }
+  },
+  "focused-services": {
+    "health-applications": {
+      "name": "건강 애플리케이션",
+      "description": "생명과학 스타트업과 기업을 위한 맞춤형 솔루션."
+    },
+    "educational-platforms": {
+      "name": "교육 플랫폼",
+      "description": "교육 기관을 위한 디지털 학습 도구."
+    },
+    "terroir-ecommerce": {
+      "name": "테루와르 전자상거래",
+      "description": "지역 생산자 및 와인 농장을 위한 온라인 상점."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "전문성",
+      "description": "경험 연수"
+    },
+    "satisfaction": {
+      "label": "만족도",
+      "description": "만족한 클라이언트"
+    },
+    "average-time": {
+      "label": "평균 시간",
+      "description": "완료까지 주간"
+    }
+  }
+}

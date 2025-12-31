@@ -1,0 +1,80 @@
+{
+  "name": "移动应用程序",
+  "description": "使用 React Native 创建本地移动应用程序",
+  "hero": {
+    "title": "React Native 移动开发",
+    "description": "使用 React Native 为 iOS 和 Android 创建高性能的本地移动应用程序。我们的专业知识保证了强大的应用程序和卓越的用户体验。"
+  },
+  "features": {
+    "react-native-expo": {
+      "title": "React Native 和 Expo",
+      "description": "使用单一代码库为 iOS 和 Android 提供高效的跨平台开发。"
+    },
+    "native-design": {
+      "title": "本地设计",
+      "description": "符合 iOS 和 Android 设计指南的界面，提供熟悉的体验。"
+    },
+    "native-performance": {
+      "title": "本地性能",
+      "description": "为每个平台提供接近本地的高级优化性能。"
+    },
+    "mobile-ui-ux": {
+      "title": "移动 UI/UX",
+      "description": "直观的移动界面，遵循每个平台的最佳实践。"
+    }
+  },
+  "benefits": {
+    "multi-platform": {
+      "title": "多平台",
+      "description": "从单一代码库创建可在 iOS 和 Android 上运行的应用程序。"
+    },
+    "tablet-support": {
+      "title": "平板支持",
+      "description": "针对不同屏幕尺寸和方向调整的界面。"
+    },
+    "optimal-performance": {
+      "title": "最佳性能",
+      "description": "本地优化以实现最大性能和流畅性。"
+    },
+    "native-experience": {
+      "title": "本地体验",
+      "description": "使用本地设备功能（摄像头、GPS、通知等）。"
+    }
+  },
+  "faq": {
+    "why-react-native": {
+      "question": "为什么选择 React Native 进行移动开发？",
+      "answer": "React Native 使得从单一代码库开发高性能的 iOS 和 Android 应用程序成为可能，降低成本和开发时间，同时保持本地质量。它还受益于大型生态系统和 Meta（Facebook）的支持。"
+    },
+    "performance": {
+      "question": "你们如何确保应用性能？",
+      "answer": "我们优化应用程序的每个方面：启动时间、内存消耗、流畅动画、数据加载等。我们还使用性能分析工具来识别和解决性能问题。"
+    },
+    "store-publishing": {
+      "question": "你们处理商店发布吗？",
+      "answer": "是的，我们处理整个发布过程：资源准备、开发者账户配置、提交到商店（App Store 和 Play Store）以及更新跟踪。"
+    },
+    "updates": {
+      "question": "你们如何管理应用更新？",
+      "answer": "我们在可能的情况下设置 OTA（空中更新）系统，并通过商店管理更新，优化流程以减少验证时间。"
+    },
+    "post-launch-support": {
+      "question": "你们在发布后提供支持吗？",
+      "answer": "是的，我们提供各种维护计划，包括：性能监控、错误修复、安全更新和功能演变。"
+    }
+  },
+  "complementary": {
+    "store-publishing": {
+      "title": "商店发布",
+      "description": "全面管理 App Store 和 Play Store 发布。"
+    },
+    "backend-integration": {
+      "title": "后端集成",
+      "description": "与您现有的系统和 API 连接。"
+    },
+    "react-native-training": {
+      "title": "React Native 培训",
+      "description": "对您的团队进行 React Native 开发培训。"
+    }
+  }
+}

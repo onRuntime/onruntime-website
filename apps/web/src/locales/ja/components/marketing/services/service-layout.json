@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "cta": "プロジェクトについて話そう"
+  },
+  "cards": {
+    "custom": {
+      "title": "カスタムソリューション",
+      "description": "あなたのニーズに合わせて"
+    },
+    "support": {
+      "title": "専門サポート",
+      "description": "私たちのスペシャリストによる"
+    },
+    "technologies": {
+      "title": "最新テクノロジー",
+      "description": "常に最新情報"
+    },
+    "scalability": {
+      "title": "スケーラビリティ保証",
+      "description": "あなたの成長のために"
+    }
+  },
+  "cta": {
+    "title": "プロジェクトを実現する準備はできてる？",
+    "description": "ニーズについて話をして、パーソナライズされた見積もりを受け取るためにお問い合わせください.",
+    "button": "今すぐ始めよう"
+  }
+}

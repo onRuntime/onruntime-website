@@ -1,0 +1,80 @@
+{
+  "name": "Wytyczne dla marek",
+  "description": "Tworzenie twojej kompletną tożsamości wizualnej",
+  "hero": {
+    "title": "Branding i tożsamość marki",
+    "description": "Ożyw swoją markę dzięki wyróżniającej się i zapadającej w pamięć tożsamości wizualnej. Nasza ekspertiza w branding pomaga stworzyć wizerunek marki, który przemawia do twojej publiczności i odzwierciedla twoje wartości."
+  },
+  "features": {
+    "visual-identity": {
+      "title": "Tożsamość wizualna",
+      "description": "Tworzenie unikalnej i zapadającej w pamięć tożsamości."
+    },
+    "brand-values": {
+      "title": "Wartości marki",
+      "description": "Wizualny wyraz twojego DNA i wartości."
+    },
+    "brand-guidelines": {
+      "title": "Wytyczne dla marki",
+      "description": "Kompletna dokumentacja twojej tożsamości."
+    },
+    "design-system": {
+      "title": "System projektowania",
+      "description": "Spójne i powtarzalne elementy wizualne."
+    }
+  },
+  "benefits": {
+    "recognition": {
+      "title": "Rozpoznawalność",
+      "description": "Zapadający w pamięć i wyróżniający się wizerunek marki."
+    },
+    "consistency": {
+      "title": "Spójność",
+      "description": "Zjednoczona komunikacja wizualna we wszystkich mediach."
+    },
+    "trust": {
+      "title": "Zaufanie",
+      "description": "Zwiększona wiarygodność w oczach twojej publiczności."
+    },
+    "reach": {
+      "title": "Zasięg",
+      "description": "Silny wizualny wpływ we wszystkich kanałach."
+    }
+  },
+  "faq": {
+    "complete-identity": {
+      "question": "Co obejmuje pełna tożsamość marki?",
+      "answer": "Pełna tożsamość marki obejmuje logo, paletę kolorów, typografię, elementy graficzne, ton głosu i zasady użycia. Oferujemy szczegółowy dokument z wytycznymi marki, który dokumentuje wszystkie te elementy i prowadzi ich spójne użycie."
+    },
+    "creation-process": {
+      "question": "Jak działa proces tworzenia?",
+      "answer": "Proces zaczyna się od etapu odkrywania, aby zrozumieć twoją markę, wartości i publiczność. Następnie opracowujemy kreatywne koncepcje, tworzymy elementy wizualne i dostosowujemy wszystko na podstawie twojej opinii. Proces kończy się dostarczeniem pełnego dokumentu z wytycznymi marki."
+    },
+    "deliverables": {
+      "question": "Jakie materiały są dostarczane?",
+      "answer": "Otrzymasz kompletny pakiet, który zawiera: logo (różne wersje), paletę kolorów, typografię, elementy graficzne, szablony dokumentów, przewodniki użytkowania i pliki źródłowe we wszystkich niezbędnych formatach."
+    },
+    "uniqueness": {
+      "question": "Jak zapewniasz unikalność tożsamości?",
+      "answer": "Przeprowadzamy dokładne badania twojego rynku i konkurencji, aby stworzyć wyróżniającą się tożsamość. Sprawdzamy również dostępność elementów wizualnych, aby uniknąć konfliktów z istniejącymi markami."
+    },
+    "transition": {
+      "question": "Jak przeprowadzacie przejście do nowej tożsamości?",
+      "answer": "Oferujemy stopniowy plan wdrożenia, który prowadzi przez proces przejścia do nowej tożsamości. Obejmuje rekomendacje dotyczące komunikacji wewnętrznej i zewnętrznej oraz harmonogram wdrożenia."
+    }
+  },
+  "complementary": {
+    "marketing-kit": {
+      "title": "Zestaw marketingowy",
+      "description": "Tworzenie spójnych materiałów marketingowych."
+    },
+    "social-media": {
+      "title": "Media społecznościowe",
+      "description": "Dostosowanie do mediów społecznościowych."
+    },
+    "print-materials": {
+      "title": "Materiały drukowane",
+      "description": "Tworzenie materiałów drukowanych."
+    }
+  }
+}

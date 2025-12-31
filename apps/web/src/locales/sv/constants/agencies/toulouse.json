@@ -1,0 +1,79 @@
+{
+  "title": "Webbutveckling i Toulouse | Digitala lösningar för företag i Occitanien",
+  "description": "Skapa din webbplats eller mobilapplikation i Toulouse. Skräddarsydda digitala lösningar för företag i Toulouse, anpassade efter de lokala utmaningarna i din bransch.",
+  "hero": {
+    "title": "Webb & Mobilutveckling i Toulouse",
+    "description": "Vi hjälper företag i Toulouse och Occitanien att digitalisera med skräddarsydda webbslösningar, perfekt anpassade till de specifika utmaningarna på den toulousiska marknaden."
+  },
+  "intro": "Den europeiska huvudstaden för flygindustri och en dynamisk studentstad, Toulouse har ett unikt ekonomiskt ekosystem där innovation och tradition samexisterar. Vår digitala expertis gör att företag i Toulouse kan sticka ut i en konkurrensutsatt och ständigt föränderlig teknologisk miljö.",
+  "expertise": "Vårt team designar webbplatser, applikationer och digitala lösningar som är perfekt anpassade till företag i Toulouse, oavsett om de är flygindustriens giganter, innovativa startups eller traditionella butiker. Vi förstår de specifika utmaningarna på din lokala marknad och erbjuder avancerade teknologiska lösningar.",
+  "why-choose-us": "Vår djupgående kunskap om marknaden i Toulouse gör att vi kan utveckla digitala lösningar som är perfekt anpassade till de specifika utmaningarna för lokala företag. Vi förstår de teknologiska utmaningarna i den Rosa Staden och integrerar denna expertis i varje projekt för att skapa högpresterande och framtidsinriktade digitala upplevelser.",
+  "key-business-sectors": {
+    "aeronautics": "Flygindustri",
+    "space": "Rymd",
+    "tech": "Teknik",
+    "education": "Utbildning"
+  },
+  "local-challenges": {
+    "aerospace-transformation": "Digital transformation av företag inom flygsektorn",
+    "startup-platforms": "Behov av innovativa plattformar för Toulouse French Tech startups",
+    "elearning-development": "Utveckling av e-lärande lösningar för många utbildningsinstitutioner",
+    "local-commerce-adaptation": "Anpassning av lokala butiker som möter konkurrens från nationella kedjor"
+  },
+  "benefits": {
+    "high-tech-solutions": "Skräddarsydda lösningar anpassade för högteknologiska industrier",
+    "complex-interfaces-expertise": "Skarp expertis i att utveckla komplexa gränssnitt",
+    "startup-ecosystem-knowledge": "Djupgående kunskap om ekosystemet för startups i Toulouse",
+    "agile-approach": "Agil metodik som är perfekt anpassad för innovativa projekt",
+    "personalized-support": "Personlig support genom hela ditt digitala projekt"
+  },
+  "primary-stat": {
+    "label": "teknologisektor"
+  },
+  "strengths": {
+    "aeronautics-solutions": {
+      "title": "Lösningar för flygindustrin",
+      "description": "Applikationer och gränssnitt anpassade efter specifika behov inom flygsektorn."
+    },
+    "startup-platforms": {
+      "title": "Plattformar för startups",
+      "description": "Agila och skalbara digitala lösningar för innovativa startups."
+    },
+    "elearning": {
+      "title": "E-lärande",
+      "description": "Utbildningsplattformar för högskolor och universitet."
+    },
+    "local-commerce": {
+      "title": "Lokal handel",
+      "description": "Skräddarsydd digitalisering för butiker och hantverkare i Toulouse."
+    }
+  },
+  "focused-services": {
+    "business-applications": {
+      "name": "Affärsapplikationer",
+      "description": "Skräddarsydda lösningar för flygindustri och teknikföretag."
+    },
+    "innovative-websites": {
+      "name": "Innovativa webbplatser",
+      "description": "Moderna digitala skyltfönster för startups och innovativa företag."
+    },
+    "ecommerce-platforms": {
+      "name": "E-handelsplattformar",
+      "description": "Kompletta lösningar för lokala butiker som vill digitalisera."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertis",
+      "description": "Års erfarenhet"
+    },
+    "satisfaction": {
+      "label": "Nöjdhet",
+      "description": "Nöjda kunder"
+    },
+    "average-time": {
+      "label": "Genomsnittlig tid",
+      "description": "Veckor för slutförande"
+    }
+  }
+}

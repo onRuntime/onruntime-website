@@ -1,0 +1,80 @@
+{
+  "title": "Agencia Web en París | Desarrollo Web, Móvil y Diseño UI/UX",
+  "description": "Tu socio digital en el corazón de París. Soluciones de desarrollo web, móvil y diseño UI/UX para acelerar el crecimiento de tu negocio parisino.",
+  "hero": {
+    "title": "Desarrollo Digital en la Capital",
+    "description": "Transforma tu presencia digital con soluciones innovadoras adaptadas al competitivo mercado parisino y su dinámico ecosistema de startups, grandes corporaciones y empresas innovadoras."
+  },
+  "intro": "En el corazón de la capital francesa, nuestra experiencia digital se adapta a las demandas del mercado parisino con soluciones web y móviles innovadoras. Entre grandes corporaciones, empresas de lujo y startups en rápido crecimiento, París concentra un ecosistema digital dinámico cuyas oportunidades y desafíos entendemos a la perfección.",
+  "expertise": "Diseñamos experiencias digitales premium que cumplen con los altos estándares de las empresas parisinas. Nuestro equipo domina los desafíos específicos de la capital, ya sea creando interfaces de usuario refinadas para el sector del lujo, aplicaciones de alto rendimiento para fintechs, o soluciones escalables para startups en rápido crecimiento.",
+  "why-choose-us": "Nuestro profundo conocimiento del mercado parisino nos permite desarrollar soluciones digitales perfectamente alineadas con los requisitos de las empresas de la capital. Combinamos innovación técnica, excelencia creativa y comprensión empresarial para apoyarte de manera efectiva en un entorno altamente competitivo.",
+  "key-business-sectors": {
+    "startups-tech": "Startups de Tecnología",
+    "finance": "Finanzas",
+    "luxury": "Lujo",
+    "media-communication": "Media y Comunicación"
+  },
+  "local-challenges": {
+    "digital-competition": "Fuerte competencia digital en el mercado parisino que requiere soluciones diferenciadoras",
+    "agile-tools-startups": "Necesidad de herramientas ágiles y de alto rendimiento para startups en rápido crecimiento",
+    "financial-digitalization": "Digitalización de servicios financieros tradicionales frente a fintechs",
+    "luxury-digital-experiences": "Desarrollo de experiencias digitales premium para el sector del lujo parisino",
+    "corporate-transformation": "Soluciones innovadoras para grandes corporaciones en transformación digital"
+  },
+  "benefits": {
+    "startup-expertise": "Experiencia aguda en las últimas tecnologías adaptadas al ecosistema de startups parisino",
+    "premium-solutions": "Soluciones premium que cumplen con los altos estándares del mercado de la capital",
+    "luxury-finance-understanding": "Comprensión de los códigos de lujo y finanzas para experiencias digitales a medida",
+    "agility-responsiveness": "Agilidad y capacidad de respuesta para igualar el ritmo intenso de las empresas parisinas",
+    "tech-trends-knowledge": "Conocimiento profundo de las tendencias tecnológicas y las innovaciones en Francia"
+  },
+  "primary-stat": {
+    "label": "startups y tecnología"
+  },
+  "strengths": {
+    "startup-solutions": {
+      "title": "Soluciones para Startups",
+      "description": "Aplicaciones escalables para empresas en rápido crecimiento."
+    },
+    "luxury-experiences": {
+      "title": "Experiencias de Lujo",
+      "description": "Interfaces premium para marcas y servicios de alta gama."
+    },
+    "finance-fintech": {
+      "title": "Finanzas y Fintech",
+      "description": "Soluciones seguras para el sector financiero parisino."
+    },
+    "international": {
+      "title": "Internacional",
+      "description": "Desarrollo multilingüe adaptado a empresas globales."
+    }
+  },
+  "focused-services": {
+    "saas-applications": {
+      "name": "Aplicaciones SaaS",
+      "description": "Desarrollo de soluciones en la nube innovadoras para startups y scale-ups."
+    },
+    "premium-ecommerce": {
+      "name": "E-commerce Premium",
+      "description": "Plataformas de ventas de alta gama para marcas de lujo parisinas."
+    },
+    "innovative-design": {
+      "name": "Diseño UI/UX Innovador",
+      "description": "Interfaces de usuario modernas y diferenciadoras para destacarse en París."
+    }
+  },
+  "stats": {
+    "startups": {
+      "label": "Startups",
+      "description": "Proyectos para startups"
+    },
+    "luxury-clients": {
+      "label": "Clientes de lujo",
+      "description": "Marcas premium"
+    },
+    "average-roi": {
+      "label": "ROI Promedio",
+      "description": "Retorno de inversión"
+    }
+  }
+}

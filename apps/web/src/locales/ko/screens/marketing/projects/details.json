@@ -1,0 +1,71 @@
+{
+  "tags": {
+    "featured": "추천",
+    "open-source": "오픈 소스",
+    "customer": "클라이언트 프로젝트"
+  },
+  "buttons": {
+    "view-project": "프로젝트 보기",
+    "source-code": "소스 코드"
+  },
+  "info": {
+    "start-date": "시작 날짜",
+    "status": "상태",
+    "statuses": {
+      "active": "활성",
+      "completed": "완료",
+      "archived": "아카이브됨"
+    },
+    "team": "팀",
+    "members": "회원"
+  },
+  "sections": {
+    "about": "프로젝트에 대해",
+    "metrics": "영향과 지표",
+    "features": "주요 기능",
+    "technologies": "사용된 기술",
+    "gallery": "갤러리",
+    "team": "팀 소개",
+    "challenges": "발생한 문제들",
+    "learnings": "주요 학습 사항",
+    "future": "미래 전망"
+  },
+  "cta": {
+    "title": "이 프로젝트에 관심 있으세요?",
+    "description": "비슷한 프로젝트를 만드는 데 어떻게 도와줄 수 있는지 알아보세요.",
+    "button": "프로젝트 논의하기"
+  },
+  "tonightpass": {
+    "hero": {
+      "title": "이벤트를 간편하게 하는 티켓팅",
+      "subtitle": "생성부터 입장까지 5분 안에 모든 것을 관리하세요",
+      "description": "이벤트 주최자를 위한 완벽한 티켓팅 솔루션. 이벤트를 만들고, 티켓을 판매하며, 전문 도구와 전담 지원으로 접근을 관리하세요.",
+      "buttons": {
+        "create": "내 이벤트 만들기",
+        "discover": "솔루션 알아보기"
+      },
+      "stats": {
+        "setup": {
+          "value": "5분",
+          "label": "설정"
+        },
+        "cost": {
+          "value": "$0",
+          "label": "설치"
+        },
+        "support": {
+          "value": "24/7",
+          "label": "지원"
+        }
+      }
+    },
+    "cta": {
+      "title": "티켓팅을 간편하게 할 준비 되셨나요?",
+      "description": "완전하고 직관적인 솔루션으로 이벤트 관리를 간소화하세요",
+      "buttons": {
+        "start": "지금 시작하기",
+        "features": "모든 기능 보기"
+      }
+    }
+  }
+}

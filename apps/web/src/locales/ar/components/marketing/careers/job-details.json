@@ -1,0 +1,67 @@
+{
+  "back": "العودة إلى عروض العمل",
+  "share": {
+    "button": "شارك",
+    "text": "اكتشف هذه الفرصة: {jobTitle} في onRuntime Studio",
+    "copied": "تم نسخ الرابط إلى الحافظة!"
+  },
+  "apply": "تقدم الآن",
+  "published": "تم النشر في",
+  "employment-type": {
+    "full-time": "دوام كامل",
+    "part-time": "دوام جزئي",
+    "contract": "عقد",
+    "temporary": "مؤقت",
+    "internship": "تدريب",
+    "apprenticeship": "تلمذة"
+  },
+  "workplace-type": {
+    "hybrid": "هجينة",
+    "remote": "عن بُعد",
+    "on-site": "في الموقع"
+  },
+  "salary-format": {
+    "from": "ابتداءً من",
+    "up-to": "حتى",
+    "range": "-"
+  },
+  "sections": {
+    "description": "وصف الوظيفة",
+    "no-description": "لا يوجد وصف مفصل متاح لهذه الوظيفة.",
+    "requirements": "المتطلبات",
+    "benefits": "المزايا"
+  },
+  "details": {
+    "title": "تفاصيل الوظيفة",
+    "department": "القسم",
+    "location": "الموقع",
+    "contract": "نوع العقد",
+    "salary": "الراتب",
+    "workplace": "وضع العمل"
+  },
+  "interested": {
+    "title": "مهتم بهذه الوظيفة؟",
+    "description": "تقدم الآن وانضم إلى فريقنا الشغوف."
+  },
+  "culture": {
+    "title": "ثقافة شركتنا",
+    "description": "في onRuntime Studio، نزرع بيئة عمل تعاونية ومشجعة حيث يمكن لكل عضو في الفريق التعبير عن إبداعه وتطوير مهاراته. نحن نضع الابتكار والجودة ورفاهية موظفينا في مقدمة أولوياتنا.",
+    "training": {
+      "title": "تدريب مستمر",
+      "description": "نستثمر في التطوير المهني لفرقنا."
+    },
+    "flexible": {
+      "title": "بيئة مرنة",
+      "description": "توازن بين العمل والحياة وعمل هجيني."
+    },
+    "projects": {
+      "title": "مشاريع متنوعة",
+      "description": "العمل على مشاريع متنوعة ومشجعة."
+    },
+    "learn-more": "تعرف على المزيد عن فريقنا."
+  },
+  "cta": {
+    "title": "مستعد للتحدي؟",
+    "description": "انضم إلى فريقنا وشارك في مشاريع مشوقة ستساعدك على تطوير مهاراتك والتعبير عن إبداعك."
+  }
+}

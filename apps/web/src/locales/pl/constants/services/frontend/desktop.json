@@ -1,0 +1,80 @@
+{
+  "name": "Oprogramowanie desktopowe",
+  "description": "Rozwój aplikacji desktopowych na wiele platform",
+  "hero": {
+    "title": "Aplikacje desktopowe na wiele platform",
+    "description": "Twórz nowoczesne i wydajne aplikacje desktopowe dla Windows, macOS i Linux. Nasza wiedza gwarantuje profesjonalne aplikacje, które wykorzystują pełnię mocy desktopu."
+  },
+  "features": {
+    "electron-react": {
+      "title": "Electron & React",
+      "description": "Nowoczesne technologie do wydajnych i skalowalnych aplikacji desktopowych."
+    },
+    "multiplatform": {
+      "title": "Wieloplatformowość",
+      "description": "Aplikacje kompatybilne z Windows, macOS i Linux z jednego kodu."
+    },
+    "native-performance": {
+      "title": "Nattywna wydajność",
+      "description": "Optymalizacja do efektywnego wykorzystania zasobów systemowych."
+    },
+    "system-integration": {
+      "title": "Integracja systemowa",
+      "description": "Dostęp do natywnych funkcji systemu operacyjnego."
+    }
+  },
+  "benefits": {
+    "windows-macos": {
+      "title": "Windows & macOS",
+      "description": "Natywne wsparcie dla głównych platform desktopowych."
+    },
+    "system-access": {
+      "title": "Dostęp do systemu",
+      "description": "Bezpośrednia interakcja z systemem operacyjnym."
+    },
+    "offline-mode": {
+      "title": "Tryb offline",
+      "description": "Samodzielne działanie bez konieczności połączenia z internetem."
+    },
+    "local-data": {
+      "title": "Dane lokalne",
+      "description": "Lokalne przechowywanie i przetwarzanie danych dla zwiększonego bezpieczeństwa."
+    }
+  },
+  "faq": {
+    "why-electron": {
+      "question": "Dlaczego warto wybrać Electron do rozwoju aplikacji desktopowych?",
+      "answer": "Electron umożliwia tworzenie aplikacji desktopowych na wiele platform z wykorzystaniem nowoczesnych technologii webowych (React, TypeScript). Dzięki temu oferuje szybki rozwój, uproszczoną konserwację i doskonałe doświadczenia użytkowników, zapewniając zgodność z Windows, macOS i Linux."
+    },
+    "security": {
+      "question": "Jak dbacie o bezpieczeństwo aplikacji desktopowych?",
+      "answer": "Wprowadzamy kilka poziomów zabezpieczeń: szyfrowanie danych wrażliwych, ochrona przed wstrzykiwaniem kodu, automatyczne aktualizacje bezpieczeństwa oraz najlepsze praktyki w zakresie bezpiecznego rozwoju. Śledzimy również zalecenia dotyczące bezpieczeństwa specyficzne dla każdego systemu operacyjnego."
+    },
+    "auto-update": {
+      "question": "Czy oferujecie system automatycznych aktualizacji?",
+      "answer": "Tak, integrujemy system automatycznych aktualizacji, który umożliwia łatwe wdrażanie nowych wersji aplikacji. Użytkownicy są powiadamiani o dostępnych aktualizacjach i mogą je zainstalować jednym kliknięciem."
+    },
+    "distribution": {
+      "question": "Jak radzicie sobie z dystrybucją aplikacji?",
+      "answer": "Zarządzamy całym procesem dystrybucji: tworzymy instalatory dla każdej platformy, podpisujemy aplikacje, publikujemy w sklepach, jeśli to konieczne (Microsoft Store, Mac App Store) oraz konfigurujemy system automatycznych aktualizacji."
+    },
+    "post-launch-support": {
+      "question": "Czy oferujecie wsparcie po uruchomieniu?",
+      "answer": "Tak, oferujemy kilka planów konserwacji, w tym: wsparcie techniczne, poprawki błędów, aktualizacje bezpieczeństwa, optymalizacje wydajności oraz rozwój funkcji."
+    }
+  },
+  "complementary": {
+    "telemetry": {
+      "title": "Telemetria",
+      "description": "Śledzenie wydajności i zachowań użytkowników."
+    },
+    "distribution": {
+      "title": "Dystrybucja",
+      "description": "Publikowanie w sklepach i zarządzanie aktualizacjami."
+    },
+    "cloud-sync": {
+      "title": "Synchronizacja w chmurze",
+      "description": "Synchronizacja danych z chmurą."
+    }
+  }
+}

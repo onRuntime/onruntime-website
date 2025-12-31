@@ -1,0 +1,71 @@
+{
+  "tags": {
+    "featured": "Featured",
+    "open-source": "Open Source",
+    "customer": "Kundenprojekt"
+  },
+  "buttons": {
+    "view-project": "Projekt ansehen",
+    "source-code": "Quellcode"
+  },
+  "info": {
+    "start-date": "Startdatum",
+    "status": "Status",
+    "statuses": {
+      "active": "Aktiv",
+      "completed": "Abgeschlossen",
+      "archived": "Archiviert"
+    },
+    "team": "Team",
+    "members": "Mitglieder"
+  },
+  "sections": {
+    "about": "Über das Projekt",
+    "metrics": "Einfluss und Kennzahlen",
+    "features": "Wichtige Funktionen",
+    "technologies": "Eingesetzte Technologien",
+    "gallery": "Galerie",
+    "team": "Das Team",
+    "challenges": "Herausforderungen",
+    "learnings": "Wichtige Erkenntnisse",
+    "future": "Zukünftige Perspektiven"
+  },
+  "cta": {
+    "title": "Interessiert an diesem Projekt?",
+    "description": "Erfahre, wie wir dir helfen können, ein ähnliches Projekt zu erstellen.",
+    "button": "Sprich über dein Projekt"
+  },
+  "tonightpass": {
+    "hero": {
+      "title": "Das Ticketing, das deine Events vereinfacht",
+      "subtitle": "Von der Erstellung bis zum Eintritt, alles in 5 Minuten verwalten",
+      "description": "Vollständige Ticketlösungen für Event-Organisatoren. Erstelle deine Events, verkaufe deine Tickets und verwalte den Zugang mit professionellen Tools und engagierter Unterstützung.",
+      "buttons": {
+        "create": "Mein Event erstellen",
+        "discover": "Die Lösung entdecken"
+      },
+      "stats": {
+        "setup": {
+          "value": "5min",
+          "label": "Einrichtung"
+        },
+        "cost": {
+          "value": "$0",
+          "label": "Installation"
+        },
+        "support": {
+          "value": "24/7",
+          "label": "Support"
+        }
+      }
+    },
+    "cta": {
+      "title": "Bereit, dein Ticketing zu vereinfachen?",
+      "description": "Vereinfache dein Eventmanagement mit einer kompletten und intuitiven Lösung",
+      "buttons": {
+        "start": "Jetzt starten",
+        "features": "Alle Funktionen ansehen"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tagline": "Een creatief bureau, over de hele wereld.",
+  "location": "Maar je kunt ons ontmoeten in <strong>Rouen</strong> en <strong>Parijs</strong>.",
+  "nav": {
+    "navigation": "Navigatie",
+    "resources": "Hulpmiddelen",
+    "other": "Overig",
+    "social": "Sociale media"
+  },
+  "links": {
+    "services": "Onze diensten",
+    "projects": "Onze projecten",
+    "npo": "De vereniging",
+    "careers": "Carrières",
+    "blog": "Blog",
+    "glossary": "Woordenlijst",
+    "community": "Gemeenschap",
+    "status": "Status",
+    "contact": "Contact",
+    "terms": "Voorwaarden",
+    "privacy": "Privacybeleid",
+    "company": "Bedrijfsdetails"
+  },
+  "status": "Alle diensten zijn operationeel"
+}

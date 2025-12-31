@@ -1,0 +1,19 @@
+{
+  "title": "기부하기",
+  "description": "우리 조직과 프로젝트를 지원하려면 일회성 기부를 해주세요. 당신의 기여는 우리의 활동, 이벤트, 개발 도구를 지원하는 데 도움이 돼.",
+  "other": "기타",
+  "custom-amount": {
+    "label": "금액 입력",
+    "placeholder": "금액을 입력하세요"
+  },
+  "button": {
+    "donate": "기부하기",
+    "processing": "처리 중..."
+  },
+  "secure-payment": "Stripe를 통한 안전한 결제",
+  "toast": {
+    "title": "결제가 시뮬레이션됨",
+    "description-prefix": "당신의 기부금 ",
+    "description-suffix": "이 성공적으로 처리되었습니다. 실제 구현에서는 Stripe로 리디렉션됩니다."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "featured": {
+    "title": "Uitgelichte projecten",
+    "view-project": "Bekijk project"
+  },
+  "studio": {
+    "title": "Studio projecten"
+  },
+  "customer": {
+    "title": "Klantenprojecten",
+    "coming-soon": "Binnenkort beschikbaar",
+    "empty": {
+      "description": "Onze klantenprojecten worden voorbereid. Neem contact met ons op om meer te leren over ons werk of om je project te bespreken.",
+      "button": "Bespreek je project"
+    }
+  },
+  "tags": {
+    "featured": "Uitgelicht",
+    "open-source": "Open Source",
+    "customer": "Klant"
+  }
+}

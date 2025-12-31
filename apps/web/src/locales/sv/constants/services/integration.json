@@ -1,0 +1,48 @@
+{
+  "name": "Integration",
+  "description": "Integration på stora e-handels- och CMS-plattformar",
+  "benefits": {
+    "clean-maintainable-code": {
+      "title": "Ren och underhållbar kod",
+      "description": "Integration med hög kodstandard och arkitektur som är designad för långsiktig underhållning."
+    },
+    "optimized-performance": {
+      "title": "Optimerad prestanda",
+      "description": "Snabba och smidiga webbplatser genom avancerade optimeringstekniker och bästa praxis."
+    },
+    "responsive-design": {
+      "title": "Responsiv design",
+      "description": "Perfekt anpassning till alla skärmar och enheter för en konsekvent användarupplevelse."
+    },
+    "smooth-animations": {
+      "title": "Samma animationer",
+      "description": "Integration av polerade animationer för att berika användarupplevelsen utan att påverka prestandan."
+    }
+  },
+  "process": {
+    "mockup-analysis": {
+      "title": "Mockup-analys",
+      "description": "Djupgående studie av mockups för att identifiera komponenter, interaktioner och tekniska fokusområden."
+    },
+    "technical-architecture": {
+      "title": "Teknisk arkitektur",
+      "description": "Definition av frontend-arkitektur och val av teknologier som passar projektet."
+    },
+    "component-development": {
+      "title": "Komponentutveckling",
+      "description": "Skapande av återanvändbara komponenter som följer principerna för designsystem."
+    },
+    "responsive-integration": {
+      "title": "Responsiv integration",
+      "description": "Designanpassning för alla skärmformat med särskild uppmärksamhet på mobilupplevelsen."
+    },
+    "optimization": {
+      "title": "Optimering",
+      "description": "Prestanda, tillgänglighet och teknisk SEO-optimering."
+    },
+    "testing-validation": {
+      "title": "Testning och validering",
+      "description": "Noggrann testning på olika webbläsare och enheter för att säkerställa en optimal användarupplevelse."
+    }
+  }
+}

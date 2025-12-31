@@ -1,0 +1,79 @@
+{
+  "title": "Web Agency in Lyon | Aangepaste Digitale Oplossingen",
+  "description": "Webontwikkeling, mobiele en UI/UX design in Lyon. Onze digitale expertise is afgestemd op bedrijven in de Rhône-Alpes om je online aanwezigheid te vergroten.",
+  "hero": {
+    "title": "Web & Mobiele Ontwikkeling in Lyon",
+    "description": "Transformeer je in Lyon gevestigde bedrijf met innovatieve digitale oplossingen die perfect zijn aangepast aan de economische dynamiek van de Auvergne-Rhône-Alpes regio."
+  },
+  "intro": "In het hart van de dynamiek van Lyon ondersteunt onze digitale expertise bedrijven in de regio bij hun digitale transformatie. Tussen industriële traditie, biomedische excellentie en gastronomische invloed presenteert Lyon een rijk en gediversifieerd economisch weefsel waarvan we de uitdagingen volledig begrijpen.",
+  "expertise": "We creëren web-, mobiele en e-commerce oplossingen die zijn afgestemd op de specificiteiten van de markt van Lyon en Rhône-Alpes. Ons team beheerst de digitale uitdagingen die specifiek zijn voor de sectoren van excellentie in de regio, van biotechnologie tot gastronomie, inclusief de maakindustrie.",
+  "why-choose-us": "Onze kennis van de Lyon-markt stelt ons in staat om digitale oplossingen te ontwikkelen die perfect zijn afgestemd op de eisen en bijzonderheden van lokale bedrijven. We begrijpen de standaarden van excellentie in de regio en bieden digitale ondersteuning die de identiteit en knowhow van Lyon versterkt.",
+  "key-business-sectors": {
+    "biotech": "Biotechnologie",
+    "pharma": "Pharmaceutical Industry",
+    "gastronomy": "Gastronomie",
+    "finance": "Financiën"
+  },
+  "local-challenges": {
+    "industry-digitalization": "Digitalisering van industriële MKB's en mid-caps die voor uitdagingen van Industrie 4.0 staan",
+    "gastronomy-visibility": "Ontwikkeling van digitale zichtbaarheid voor acteurs in Lyon's gastronomie",
+    "local-ecommerce": "E-commerce oplossingen afgestemd op lokale handel en regionale ambachtslieden",
+    "biotech-applications": "Businessapplicaties voor de uitbreidende farmaceutische en biotechnologiesectoren"
+  },
+  "benefits": {
+    "sector-expertise": "Sectorexpertise in Lyon's velden van excellentie (biotech, pharma, gastronomie)",
+    "industrial-understanding": "Begrip van digitaliseringsuitdagingen in het industriële bekken van Rhône-Alpes",
+    "sme-solutions": "Oplossingen aangepast aan MKB's en mid-caps in digitale transformatie",
+    "lyon-ui-design": "UI/UX ontwerpen die de visuele identiteit en kwaliteitsnormen van Lyon weerspiegelen",
+    "local-ecosystem-knowledge": "Diepgaande kennis van het lokale digitale ecosysteem"
+  },
+  "primary-stat": {
+    "label": "innovatie sector"
+  },
+  "strengths": {
+    "biotech-pharma": {
+      "title": "Biotech & Pharma Oplossingen",
+      "description": "Gespecialiseerde applicaties voor Lyon's gezondheidscluster."
+    },
+    "gastronomy-ecommerce": {
+      "title": "Gastronomie E-commerce",
+      "description": "Digitale verbetering van lokale producten uit Rhône-Alpes."
+    },
+    "industrial-applications": {
+      "title": "Industriële Toepassingen",
+      "description": "Digitale tools voor Industrie 4.0 en productie."
+    },
+    "business-interfaces": {
+      "title": "Business Interfaces",
+      "description": "UI/UX design afgestemd op de specifieke behoeften van Lyon."
+    }
+  },
+  "focused-services": {
+    "biotech-applications": {
+      "name": "Biotech Businessapplicaties",
+      "description": "Digitale oplossingen voor laboratoria en farmaceutische bedrijven in Lyon."
+    },
+    "gastronomy-ecommerce": {
+      "name": "Gastronomie E-commerce",
+      "description": "Online verkoopplatforms om Lyon's culinaire excellentie te tonen."
+    },
+    "industrial-digitalization": {
+      "name": "Industriële Digitalisering",
+      "description": "Controletools en IoT-oplossingen voor de industrie in Rhône-Alpes."
+    }
+  },
+  "stats": {
+    "biotech-projects": {
+      "label": "Biotech Projecten",
+      "description": "Gespecialiseerde applicaties"
+    },
+    "satisfaction": {
+      "label": "Tevredenheid",
+      "description": "Tevreden klanten"
+    },
+    "sme-supported": {
+      "label": "Ondersteunde MKB's",
+      "description": "Bedrijven in Lyon"
+    }
+  }
+}

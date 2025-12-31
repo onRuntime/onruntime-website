@@ -1,0 +1,22 @@
+{
+  "featured": {
+    "title": "추천 프로젝트",
+    "view-project": "프로젝트 보기"
+  },
+  "studio": {
+    "title": "스튜디오 프로젝트"
+  },
+  "customer": {
+    "title": "고객 프로젝트",
+    "coming-soon": "곧 공개됩니다",
+    "empty": {
+      "description": "우리의 고객 프로젝트가 준비 중이에요. 우리의 작업에 대해 더 알아보거나 당신의 프로젝트에 대해 이야기하려면 연락해 주세요.",
+      "button": "프로젝트 논의하기"
+    }
+  },
+  "tags": {
+    "featured": "추천",
+    "open-source": "오픈 소스",
+    "customer": "고객"
+  }
+}

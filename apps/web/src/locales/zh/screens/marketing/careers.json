@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "加入我们的团队",
+    "description": "在 onRuntime Studio 发现职业机会，加入一个热衷于开发和设计的活力团队。"
+  },
+  "why-join": {
+    "title": "为什么选择我们？",
+    "description": "在 onRuntime Studio，我们相信创造力、创新和合作。加入我们，一起塑造数字未来，并在一个激励的环境中提升你的技能。",
+    "cards": {
+      "creativity": {
+        "title": "创造力与创新",
+        "description": "表达你的想法，为推动可能性边界的创新项目贡献力量。"
+      },
+      "team": {
+        "title": "热情团队",
+        "description": "在一个友好和激励的环境中，与才华横溢的专业人士合作。"
+      },
+      "impact": {
+        "title": "全球影响",
+        "description": "参与对全球用户有实际影响的项目。"
+      }
+    }
+  },
+  "opportunities": {
+    "title": "当前机会",
+    "description": "发现我们的职位空缺，找到符合你的技能和抱负的职位。",
+    "search-placeholder": "搜索职位、地点...",
+    "all": "全部"
+  },
+  "spontaneous": {
+    "title": "没找到合适的职位？",
+    "description": "给我们发送一份主动申请吧！我们一直在寻找杰出的人才加入我们的团队。",
+    "cta": "发送主动申请"
+  },
+  "teams": {
+    "title": "我们的团队",
+    "description": "发现组成 onRuntime Studio 的不同团队，找出最符合你的技能和抱负的团队。",
+    "development": {
+      "title": "开发",
+      "description": "我们的开发者创建高性能和创新的web和移动应用程序，利用最新技术提供卓越的用户体验。"
+    },
+    "design": {
+      "title": "设计",
+      "description": "我们的设计团队创造优雅和直观的用户界面，确保每一个像素都与项目的视觉形象完美对齐。"
+    },
+    "project": {
+      "title": "项目与产品",
+      "description": "我们的项目经理和产品经理确保项目的顺利进行，确保开发的解决方案完美满足用户需求。"
+    },
+    "marketing": {
+      "title": "市场营销与传播",
+      "description": "我们的市场团队致力于推广我们的项目，并有效地向内部和公众传播我们的成就。"
+    }
+  },
+  "cta": {
+    "title": "准备加入我们了吗？",
+    "description": "浏览我们的职位空缺，找到符合你的技能和抱负的职位。我们期待欢迎你加入我们的团队！",
+    "button": "查看职位空缺"
+  },
+  "error": "加载职位空缺时发生错误。请稍后再试。"
+}

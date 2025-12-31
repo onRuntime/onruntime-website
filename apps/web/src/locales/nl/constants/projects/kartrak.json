@@ -1,0 +1,81 @@
+{
+  "short-description": "Milieu-vriendelijke activiteitstracering. Volg je online voetafdruk op een leuke manier.",
+  "description": "Een browserextensie die je helpt je milieueffect online te begrijpen en te verminderen.",
+  "long-description": "Kartrak is een innovatieve browserextensie die gebruikers bewust maakt van hun digitale koolstofvoetafdruk. Door je online activiteit te volgen, biedt Kartrak gedetailleerde inzichten in je internetverbruik en de milieueffecten ervan.\n\nDe extensie gebruikt geavanceerde algoritmen op basis van Ecoindex om je koolstofvoetafdruk tijdens het browsen te berekenen, terwijl je gepersonaliseerde suggesties krijgt om je impact te verminderen. Ecoindex is een erkende methodologie die de milieueffecten van websites evalueert door hun technische complexiteit, gewicht en energie-efficiëntie te analyseren.\n\nMet een leuke en educatieve benadering maakt Kartrak milieubewustzijn toegankelijk en boeiend.",
+  "features": {
+    "real-time-tracking": {
+      "title": "Real-time tracering",
+      "description": "Visualiseer je digitale koolstofvoetafdruk in real-time"
+    },
+    "personalized-suggestions": {
+      "title": "Gepersonaliseerde suggesties",
+      "description": "Ontvang op maat gemaakte adviezen om je impact te verminderen"
+    },
+    "detailed-stats": {
+      "title": "Gedetailleerde statistieken",
+      "description": "Analyseer je surfgewoontes en hun impact"
+    },
+    "ecological-goals": {
+      "title": "Ecologische doelen",
+      "description": "Stel doelen en volg je voortgang"
+    }
+  },
+  "technologies": {
+    "typescript": {
+      "description": "Browserextensie"
+    },
+    "react": {
+      "description": "Gebruikersinterface"
+    },
+    "nodejs": {
+      "description": "Achtergrond en API"
+    },
+    "chrome-api": {
+      "description": "Browserintegratie"
+    }
+  },
+  "metrics": {
+    "sites-analyzed": {
+      "value": "∞",
+      "label": "Geanalyseerde sites",
+      "description": "Compatibel met alle websites"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "Open Source",
+      "description": "Openbare broncode"
+    },
+    "confidential": {
+      "value": "100%",
+      "label": "Vertrouwelijk",
+      "description": "Geen gebruikersgegevens verzameld"
+    }
+  },
+  "screenshots": {
+    "dashboard": {
+      "caption": "Hoofddashboard"
+    },
+    "stats": {
+      "caption": "Gedetailleerde statistieken"
+    }
+  },
+  "challenges": {
+    "carbon-calculation": "Nauwkeurige koolstofvoetafdruk berekening",
+    "privacy-protection": "Bescherming van gebruikersprivacy",
+    "background-performance": "Prestatie van de extensie op de achtergrond",
+    "environmental-data-accuracy": "Nauwkeurigheid van milieugegevens"
+  },
+  "learnings": {
+    "environmental-impact-complexity": "Complexiteit van de berekening van milieueffecten",
+    "user-engagement": "Belang van gebruikersbetrokkenheid",
+    "accuracy-performance-balance": "Balans tussen nauwkeurigheid en prestatie",
+    "navigation-ux": "UX aangepast aan surfgewoonten"
+  },
+  "future-plans": {
+    "more-browsers": "Ondersteuning voor meer browsers",
+    "eco-tools-integration": "Integratie met andere milieuvriendelijke tools",
+    "community-features": "Gemeenschapsfuncties",
+    "personalized-reports": "Gepersonaliseerde gedetailleerde rapporten",
+    "auto-close-tabs": "Automatisch sluiten van ongebruikte tabbladen"
+  }
+}

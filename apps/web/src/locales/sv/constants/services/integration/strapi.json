@@ -1,0 +1,80 @@
+{
+  "name": "Strapi",
+  "description": "Utveckling av headless CMS med Strapi",
+  "hero": {
+    "title": "Utveckling av headless CMS med Strapi",
+    "description": "Utveckla moderna applikationer med Strapi. Vår expertis garanterar en flexibel, skalbar innehållshanteringslösning som är perfekt anpassad till dina behov."
+  },
+  "features": {
+    "custom-api": {
+      "title": "Anpassad API",
+      "description": "Skapande av anpassade RESTful- och GraphQL-API:er för alla dina behov."
+    },
+    "flexible-administration": {
+      "title": "Flexibel administration",
+      "description": "Anpassningsbart administrativt gränssnitt enligt dina affärsprocesser."
+    },
+    "optimal-performance": {
+      "title": "Optimal prestanda",
+      "description": "Högpresterande arkitektur för snabba svarstider."
+    },
+    "advanced-security": {
+      "title": "Avancerad säkerhet",
+      "description": "Robust skydd av dina data och API:er."
+    }
+  },
+  "benefits": {
+    "100-javascript": {
+      "title": "100% JavaScript",
+      "description": "Enhetlig utveckling i JavaScript/Node.js för mer effektivitet."
+    },
+    "flexible-models": {
+      "title": "Flexibla modeller",
+      "description": "Skapande av anpassade innehållsmodeller utan begränsningar."
+    },
+    "role-management": {
+      "title": "Rollhantering",
+      "description": "Precis kontroll över åtkomst och användarbehörigheter."
+    },
+    "advanced-workflows": {
+      "title": "Avancerade arbetsflöden",
+      "description": "Automatisering av publicerings- och valideringsprocesser."
+    }
+  },
+  "faq": {
+    "setup-timeline": {
+      "question": "Hur lång tid tar det att sätta upp ett Strapi-projekt?",
+      "answer": "Den genomsnittliga tiden för att sätta upp ett Strapi-projekt varierar från 4 till 12 veckor, beroende på komplexitet. Detta inkluderar design av innehållsmodeller, API-utveckling, anpassning av administratör och testning."
+    },
+    "multilingual": {
+      "question": "Kan Strapi hantera flerspråkigt innehåll?",
+      "answer": "Ja, Strapi hanterar flerspråkigt innehåll som standard. Vi kan konfigurera och anpassa översättningshantering enligt dina specifika behov."
+    },
+    "content-migration": {
+      "question": "Är det möjligt att migrera vårt befintliga innehåll till Strapi?",
+      "answer": "Ja, vi erbjuder en komplett migrationsservice för innehåll till Strapi, inklusive analys av dina befintliga data, skapande av anpassade modeller och import av ditt innehåll."
+    },
+    "deployment-hosting": {
+      "question": "Hur hanterar ni distribution och hosting?",
+      "answer": "Vi kan distribuera Strapi på olika molnplattformar (AWS, Google Cloud, DigitalOcean...) och sätta upp skalbar infrastruktur med utvecklings-, staging- och produktionsmiljöer."
+    },
+    "custom-plugins": {
+      "question": "Erbjuder ni utveckling av anpassade plugins?",
+      "answer": "Ja, vi utvecklar anpassade Strapi-plugins för att utöka funktionaliteten enligt dina behov: specifika integrationer, anpassade arbetsflöden, dedikerade administratörsgränssnitt och så vidare."
+    }
+  },
+  "complementary": {
+    "frontend-development": {
+      "title": "Frontendutveckling",
+      "description": "Skapande av frontendapplikationer kopplade till din Strapi API."
+    },
+    "integrations": {
+      "title": "Integrationer",
+      "description": "Anslutning med dina befintliga tredjepartsverktyg och tjänster."
+    },
+    "strapi-training": {
+      "title": "Strapi-utbildning",
+      "description": "Anpassad utbildning för att bemästra din CMS-hantering."
+    }
+  }
+}

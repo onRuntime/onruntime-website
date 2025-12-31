@@ -1,0 +1,8 @@
+{
+  "back-to-glossary": "Tillbaka till ordlistan",
+  "related-terms": "Relaterade termer",
+  "search": {
+    "placeholder": "Sök efter en term...",
+    "no-results": "Inga resultat hittades för \"{term}\""
+  }
+}

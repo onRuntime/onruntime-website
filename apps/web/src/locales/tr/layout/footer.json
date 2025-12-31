@@ -1,0 +1,25 @@
+{
+  "tagline": "Dünyanın dört bir yanından bir yaratıcı stüdyo.",
+  "location": "Ama bizi <strong>Rouen</strong> ve <strong>Paris</strong>'te bulabilirsiniz.",
+  "nav": {
+    "navigation": "Gezinti",
+    "resources": "Kaynaklar",
+    "other": "Diğer",
+    "social": "Sosyal medya"
+  },
+  "links": {
+    "services": "Hizmetlerimiz",
+    "projects": "Projelerimiz",
+    "npo": "Dernek",
+    "careers": "Kariyerler",
+    "blog": "Blog",
+    "glossary": "Sözlük",
+    "community": "Topluluk",
+    "status": "Durum",
+    "contact": "İletişim",
+    "terms": "Hizmet şartları",
+    "privacy": "Gizlilik politikası",
+    "company": "Şirket bilgileri"
+  },
+  "status": "Tüm hizmetler aktif"
+}

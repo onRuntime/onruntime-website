@@ -1,0 +1,44 @@
+---
+term: API
+shortDescription: >-
+  Interfejs programowania aplikacji, który pozwala różnym aplikacjom na
+  komunikację ze sobą
+relatedTerms:
+  - REST
+  - GraphQL
+  - Backend
+tags:
+  - development
+  - technical
+---
+## Definicja
+
+API (Interfejs programowania aplikacji) to w zasadzie język, którym porozumiewają się nasze aplikacje. W onRuntime używamy ich cały czas, żeby połączyć różne części naszych projektów. Pomyśl o API jak o kelnerze w restauracji. Składasz zamówienie (żądanie), on przynosi to, o co prosiłeś (odpowiedź), a ty nie musisz wiedzieć, co się dzieje w kuchni.
+
+## Dlaczego kochamy API
+
+- **Sprawiają, że wszystko działa razem**: Różne systemy mogą wymieniać dane bez problemów
+- **Sprawiają, że jesteśmy modularni**: Możemy rozwijać niezależne komponenty i łatwo je łączyć
+- **Chronią nasze dane**: Dokładnie kontrolujemy, kto ma do czego dostęp
+- **Oszczędzają nam czas**: Możemy aktualizować jedną część bez przebudowywania wszystkiego
+
+## API, których używamy na co dzień
+
+### RESTful API
+Nasze codzienne "chleb"! Używamy ich do większości naszych projektów webowych. Są proste, bezstanowe (bez pamięci między żądaniami) i korzystają z klasycznych metod HTTP. Idealne do odseparowanych interfejsów jak na Tonight Pass.
+
+### GraphQL API
+Jesteśmy fanami tych na niektóre skomplikowane projekty! Zamiast tworzyć 15 różnych punktów końcowych, pozwalamy klientowi zażądać dokładnie tych danych, których potrzebuje. Na Kitchn zaoszczędziło nam to dużo pasma.
+
+### SOAP API
+Nie będziemy kłamać, już ich za bardzo nie używamy... Są trochę staroświeckie ze swoim XML i ultra-sztywnymi specyfikacjami. Ale czasami się z nimi spotykamy na projektach enterprise.
+
+## Jak używamy ich na co dzień
+
+W onRuntime API są sercem naszego stosu technologicznego. Pozwalają nam:
+
+- Budować odseparowane aplikacje (oddzielny frontend/backend)
+- Łatwo integrować usługi innych firm (płatności, mapowanie itp.)
+- Rozwijać naszą architekturę mikroserwisów w niektórych projektach
+
+Kiedy projektujemy API, zawsze zaczynamy od dokumentacji za pomocą Swagger lub Postman. To pomaga nam przemyśleć wszystko i staje się solidnym odniesieniem dla zespołu. Uwierz mi, to oszczędza wiele bezsensownych spotkań!

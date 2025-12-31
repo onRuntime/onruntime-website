@@ -1,0 +1,81 @@
+{
+  "short-description": "تتبع النشاط الصديق للبيئة. تابع أثر بصمتك على الإنترنت بطريقة ممتعة.",
+  "description": "ملحق متصفح يساعدك على فهم وتقليل تأثيرك البيئي على الإنترنت.",
+  "long-description": "كارترّاك هو ملحق مبتكر للمتصفح يرفع وعي المستخدم حول بصمته الكربونية الرقمية. من خلال تتبع نشاطك على الإنترنت، يقدم كارترّاك رؤى مفصلة حول استهلاكك للإنترنت وتأثيره البيئي.\n\nيستخدم الملحق خوارزميات متقدمة تعتمد على Ecoindex لحساب بصمة الكربون في تصفحك، بينما يقدم اقتراحات شخصية لتقليل تأثيرك. Ecoindex هي منهجية معترف بها تقيم الأثر البيئي للمواقع من خلال تحليل تعقيدها الفني ووزنها وكفاءة الطاقة الخاصة بها.\n\nبنهج ممتع وتعليمي، يجعل كارترّاك الوعي البيئي متاحًا وجذابًا.",
+  "features": {
+    "real-time-tracking": {
+      "title": "تتبع في الوقت الحقيقي",
+      "description": "تصور بصمتك الرقمية في الوقت الحقيقي"
+    },
+    "personalized-suggestions": {
+      "title": "اقتراحات شخصية",
+      "description": "احصل على نصائح مخصصة لتقليل تأثيرك"
+    },
+    "detailed-stats": {
+      "title": "إحصائيات مفصلة",
+      "description": "حلل عادات تصفحك وتأثيرها"
+    },
+    "ecological-goals": {
+      "title": "أهداف بيئية",
+      "description": "حدد أهدافًا وتابع تقدمك"
+    }
+  },
+  "technologies": {
+    "typescript": {
+      "description": "ملحق متصفح"
+    },
+    "react": {
+      "description": "واجهة المستخدم"
+    },
+    "nodejs": {
+      "description": "الخلفية و API"
+    },
+    "chrome-api": {
+      "description": "تكامل المتصفح"
+    }
+  },
+  "metrics": {
+    "sites-analyzed": {
+      "value": "∞",
+      "label": "المواقع التي تم تحليلها",
+      "description": "متوافق مع جميع المواقع"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "مفتوح المصدر",
+      "description": "كود مصدر عام"
+    },
+    "confidential": {
+      "value": "100%",
+      "label": "سري",
+      "description": "لا يتم جمع بيانات المستخدمين"
+    }
+  },
+  "screenshots": {
+    "dashboard": {
+      "caption": "لوحة التحكم الرئيسية"
+    },
+    "stats": {
+      "caption": "إحصائيات مفصلة"
+    }
+  },
+  "challenges": {
+    "carbon-calculation": "حساب دقيق لبصمة الكربون",
+    "privacy-protection": "حماية خصوصية المستخدمين",
+    "background-performance": "أداء الملحق في الخلفية",
+    "environmental-data-accuracy": "دقة البيانات البيئية"
+  },
+  "learnings": {
+    "environmental-impact-complexity": "تعقيد حساب الأثر البيئي",
+    "user-engagement": "أهمية تفاعل المستخدم",
+    "accuracy-performance-balance": "التوازن بين الدقة والأداء",
+    "navigation-ux": "UX متكيف مع عادات التصفح"
+  },
+  "future-plans": {
+    "more-browsers": "دعم المزيد من المتصفحات",
+    "eco-tools-integration": "تكامل مع أدوات صديقة للبيئة أخرى",
+    "community-features": "ميزات مجتمعية",
+    "personalized-reports": "تقارير تفصيلية مخصصة",
+    "auto-close-tabs": "إغلاق تلقائي للعلامات غير المستخدمة"
+  }
+}

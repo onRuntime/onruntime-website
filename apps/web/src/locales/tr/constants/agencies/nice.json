@@ -1,0 +1,79 @@
+{
+  "title": "Nice'de Web Geliştirme | Côte d'Azur İşletmeleri için Dijital Çözümler",
+  "description": "Nice'de web sitenizi veya mobil uygulamanızı oluşturun. Côte d'Azur işletmeleri için, sektörünüzün yerel zorluklarına özel dijital çözümler.",
+  "hero": {
+    "title": "Nice'de Web & Mobil Geliştirme",
+    "description": "Nice ve Fransız Rivierası'ndaki işletmelere, Azure pazarının özel zorluklarına tam olarak uyumlu özel web çözümleriyle dijitalleşmelerinde yardımcı oluyoruz."
+  },
+  "intro": "Akdeniz ile Alpler arasında, Nice uluslararası bir etki ve turizmin yenilik ile buluştuğu çeşitlendirilmiş bir ekonomiye sahip. Dijital uzmanlığımız, Nice işletmelerinin imajın ve mükemmeliyetin ön planda olduğu rekabetçi bir ortamda öne çıkmalarını sağlıyor.",
+  "expertise": "Ekibimiz, Nice ve Fransız Rivierası'ndaki işletmelere mükemmel şekilde uyum sağlayan web siteleri, uygulamalar ve e-ticaret çözümleri tasarlıyor. Yerel pazarınızdaki yüksek standartları anlıyoruz ve bölgeye özgü premium konumlandırmayı artıran dijital çözümler sunuyoruz.",
+  "why-choose-us": "Azurean pazarına dair derin bilgimiz, yerel işletmelerin özel zorluklarına mükemmel şekilde uyum sağlayan dijital çözümler geliştirmemizi sağlıyor. Nice'ın uluslararası boyutunu ve mükemmeliyet konusundaki itibarını anlıyor ve bu yönleri her projeye entegre ederek şık ve yüksek performanslı dijital deneyimler yaratıyoruz.",
+  "key-business-sectors": {
+    "luxury-tourism": "Lüks Turizm",
+    "real-estate": "Gayrimenkul",
+    "events": "Etkinlikler",
+    "health-wellness": "Sağlık & Wellness"
+  },
+  "local-challenges": {
+    "luxury-tourism-digitalization": "Fransız Rivierası'ndaki lüks turizm sektörünün dijitalleşmesi",
+    "innovative-real-estate-solutions": "Talepkar uluslararası pazar için yenilikçi gayrimenkul çözümlerine ihtiyaç",
+    "events-digital-showcase": "Etkinliklerin dijital sergisi (festivaller, konferanslar, sergiler)",
+    "health-wellness-transformation": "Hayat kalitesiyle ünlü bir bölgede sağlık ve wellness sektörünün dijital dönüşümü"
+  },
+  "benefits": {
+    "international-clientele-solutions": "Talepkar uluslararası müşteri için özel çözümler",
+    "premium-interfaces-expertise": "Premium arayüzler ve kullanıcı deneyiminde keskin uzmanlık",
+    "azurean-market-knowledge": "Azurean pazarına ve kendine has özelliklerine dair derinlemesine bilgi",
+    "multilingual-applications": "Fransız Rivierası'nın uluslararası müşterilerine uyumlu çok dilli uygulamalar",
+    "personalized-support": "Dijital projeniz boyunca kişiselleştirilmiş destek"
+  },
+  "primary-stat": {
+    "label": "lüks turizm"
+  },
+  "strengths": {
+    "premium-experience": {
+      "title": "Premium Deneyim",
+      "description": "Lüks turizm ve konaklama için yüksek kaliteli siteler ve uygulamalar."
+    },
+    "digital-real-estate": {
+      "title": "Dijital Gayrimenkul",
+      "description": "Gayrimenkul ajansları ve geliştiriciler için yenilikçi çözümler."
+    },
+    "event-platforms": {
+      "title": "Etkinlik Platformları",
+      "description": "Festivaller, konferanslar ve prestijli etkinlikler için siteler ve uygulamalar."
+    },
+    "connected-wellness": {
+      "title": "Bağlantılı Wellness",
+      "description": "Klinikler, spa ve wellness merkezleri için dijital çözümler."
+    }
+  },
+  "focused-services": {
+    "premium-websites": {
+      "name": "Premium Web Siteleri",
+      "description": "Oteller, restoranlar ve lüks butikler için yüksek kaliteli dijital vitrinler."
+    },
+    "real-estate-applications": {
+      "name": "Gayrimenkul Uygulamaları",
+      "description": "Olağanüstü mülkleri sunmak ve yönetmek için özel çözümler."
+    },
+    "visual-identity": {
+      "name": "Görsel Kimlik",
+      "description": "Prestijli markalar ve kuruluşlar için şık ve zarif UI/UX tasarımı."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Uzmanlık",
+      "description": "Yılların tecrübesi"
+    },
+    "satisfaction": {
+      "label": "Memnuniyet",
+      "description": "Memnun müşteri"
+    },
+    "average-time": {
+      "label": "Ortalama Süre",
+      "description": "Tamamlama için haftalar"
+    }
+  }
+}

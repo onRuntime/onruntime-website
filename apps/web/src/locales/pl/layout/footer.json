@@ -1,0 +1,25 @@
+{
+  "tagline": "Kreatywne studio, na całym świecie.",
+  "location": "Ale możesz nas spotkać w <strong>Rouen</strong> i <strong>Paryżu</strong>.",
+  "nav": {
+    "navigation": "Nawigacja",
+    "resources": "Zasoby",
+    "other": "Inne",
+    "social": "Media społecznościowe"
+  },
+  "links": {
+    "services": "Nasze usługi",
+    "projects": "Nasze projekty",
+    "npo": "Stowarzyszenie",
+    "careers": "Kariera",
+    "blog": "Blog",
+    "glossary": "Słownik",
+    "community": "Społeczność",
+    "status": "Status",
+    "contact": "Kontakt",
+    "terms": "Regulamin",
+    "privacy": "Polityka prywatności",
+    "company": "Szczegóły firmy"
+  },
+  "status": "Wszystkie usługi są dostępne"
+}

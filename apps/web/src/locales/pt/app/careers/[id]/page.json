@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Vaga não encontrada",
+      "description": "Essa vaga não existe ou não está mais disponível."
+    },
+    "title": "{jobTitle} | Carreiras",
+    "description": "Entre para o onRuntime Studio como {jobTitle}. Descubra essa oportunidade de carreira e se inscreva agora."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Backend-Entwicklung",
+  "description": "Architektur und Entwicklung robuster Lösungen",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Skalierbare Architektur",
+      "description": "Systeme, die sich mit deinem Wachstum entwickeln, unter Verwendung moderner und verteilter Architekturen."
+    },
+    "optimized-database": {
+      "title": "Optimierte Datenbank",
+      "description": "Datenbankdesign und -optimierung für maximale Leistung und Datenintegrität."
+    },
+    "robust-infrastructure": {
+      "title": "Robuste Infrastruktur",
+      "description": "Bereitstellung auf moderner Cloud-Infrastruktur mit hoher Verfügbarkeit und Resilienz."
+    },
+    "advanced-security": {
+      "title": "Erweiterte Sicherheit",
+      "description": "Umsetzung von Sicherheitsbest Practices und Schutz sensibler Daten."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Bedarfsanalyse",
+      "description": "Detaillierte Untersuchung der technischen Anforderungen, Architekturdefinition und Technologieauswahl."
+    },
+    "system-design": {
+      "title": "Systemdesign",
+      "description": "Backend-Architekturdesign, Datenmodellierung und API-Definition."
+    },
+    "api-development": {
+      "title": "API-Entwicklung",
+      "description": "Umsetzung von RESTful oder GraphQL APIs mit vollständiger Dokumentation."
+    },
+    "database": {
+      "title": "Datenbank",
+      "description": "Datenbankeinrichtung und -optimierung mit Fokus auf Leistung und Skalierbarkeit."
+    },
+    "testing-security": {
+      "title": "Tests und Sicherheit",
+      "description": "Umsetzung automatisierter Tests und fortschrittlicher Sicherheitsmaßnahmen."
+    },
+    "deployment-monitoring": {
+      "title": "Bereitstellung und Überwachung",
+      "description": "Einrichtung der Cloud-Infrastruktur, Überwachung und Benachrichtigungen."
+    }
+  }
+}

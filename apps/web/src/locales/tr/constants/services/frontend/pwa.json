@@ -1,0 +1,80 @@
+{
+  "name": "Gelişmiş web uygulamaları",
+  "description": "Yüksek performanslı gelişmiş web uygulamaları oluşturma",
+  "hero": {
+    "title": "Gelişmiş web uygulamaları (PWA)",
+    "description": "Web sitenizi gelişmiş web uygulamalarıyla gerçek bir indirilebilir uygulamaya dönüştürün. Olağanüstü bir kullanıcı deneyimi sunun, çevrimiçi ve çevrimdışı."
+  },
+  "features": {
+    "native-installation": {
+      "title": "Yerel kurulum",
+      "description": "Tarayıcıdan doğrudan indirilebilir uygulamalar, mağazalardan geçmeden."
+    },
+    "offline-mode": {
+      "title": "Çevrimdışı mod",
+      "description": "Akıllı önbellekleme sayesinde internet bağlantısı olmadan bile çalışır."
+    },
+    "optimal-performance": {
+      "title": "Optimum performans",
+      "description": "Tüm cihazlarda hızlı yükleme ve sorunsuz deneyim."
+    },
+    "push-notifications": {
+      "title": "Push bildirimleri",
+      "description": "Push bildirimleriyle kullanıcı etkileşimini artırın."
+    }
+  },
+  "benefits": {
+    "multi-platform": {
+      "title": "Çoklu platform",
+      "description": "Tüm cihazlar ve işletim sistemleri için tek bir uygulama."
+    },
+    "always-updated": {
+      "title": "Her zaman güncel",
+      "description": "Kullanıcı eylemi gerektirmeden otomatik güncellemeler."
+    },
+    "lightweight": {
+      "title": "Hafif",
+      "description": "Ağır kurulum yok, anında erişilebilir."
+    },
+    "native-performance": {
+      "title": "Yerel performans",
+      "description": "Kullanıcı deneyimi yerel uygulamalara çok yakın."
+    }
+  },
+  "faq": {
+    "what-is-pwa": {
+      "question": "Gelişmiş web uygulaması nedir?",
+      "answer": "PWA, yerel bir uygulamaya benzer bir deneyim sunan bir web uygulamasıdır: indirilebilir, çevrimdışı çalışır ve push bildirimleri gönderebilir. Webin (erişilebilirlik, otomatik güncelleme) ve yerelin (performans, gelişmiş özellikler) avantajlarını birleştirir."
+    },
+    "vs-native": {
+      "question": "Yerel bir uygulamaya kıyasla avantajları nelerdir?",
+      "answer": "PWAlar birkaç avantaj sunar: mağazalardan geçme zorunluluğu yok, otomatik güncellemeler, daha hızlı ve daha ucuz geliştirme, daha iyi referans alma ve tüm platformlar için tek bir kod tabanı."
+    },
+    "offline": {
+      "question": "Çevrimdışı mod nasıl çalışır?",
+      "answer": "Temel kaynakları ve verileri önbelleğe almak için Service Workers kullanıyoruz. Bu sayede uygulama internet bağlantısı olmasa bile çalışabilir ve bağlantı geri geldiğinde otomatik senkronizasyon gerçekleştirir."
+    },
+    "browser-compatibility": {
+      "question": "PWA'lar tüm tarayıcılarla uyumlu mu?",
+      "answer": "PWA'lar çoğu modern tarayıcıda çalışır. Daha eski tarayıcılar için, optimal kullanıcı deneyimini sağlamak için yedek çözümler oluşturuyoruz."
+    },
+    "post-launch-support": {
+      "question": "Lansmandan sonra destek sunuyor musunuz?",
+      "answer": "Evet, güvenlik güncellemeleri, performans optimizasyonları, özellik eklemeleri ve teknik destek içeren birkaç bakım planı sunuyoruz."
+    }
+  },
+  "complementary": {
+    "advanced-analytics": {
+      "title": "Gelişmiş analiz",
+      "description": "Kullanıcı davranışları ve performansın detaylı takibi."
+    },
+    "seo-optimized": {
+      "title": "Optimize edilmiş SEO",
+      "description": "Arama motorları ve sosyal paylaşım için optimizasyon."
+    },
+    "enhanced-security": {
+      "title": "Geliştirilmiş güvenlik",
+      "description": "Veri koruma ve güvenli iletişim."
+    }
+  }
+}

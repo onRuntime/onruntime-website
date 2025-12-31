@@ -1,0 +1,79 @@
+{
+  "title": "Webontwikkeling in Rouen | Digitale oplossingen voor bedrijven in Normandië",
+  "description": "Maak je website of mobiele applicatie in Rouen. Aangepaste digitale oplossingen voor bedrijven in Normandië, afgestemd op de lokale uitdagingen van jouw sector.",
+  "hero": {
+    "title": "Web & Mobiele Ontwikkeling in Rouen",
+    "description": "We helpen bedrijven in Rouen en Normandië digitaliseren met aangepaste weboplossingen, perfect aangepast aan de specifieke uitdagingen van de Normandische markt."
+  },
+  "intro": "Het economische weefsel van Normandië presenteert specifieke digitale uitdagingen die we hebben leren beheersen. Tussen de industrie, de agri-food sector en de rivierlogistiek, creëren we digitale oplossingen die voldoen aan de precieze behoeften van bedrijven in Rouen.",
+  "expertise": "Ons team ontwerpt websites, applicaties en e-commerce oplossingen die perfect zijn afgestemd op bedrijven in Rouen en de regio. We begrijpen de uitdagingen van jouw markt en bieden digitale oplossingen die je helpen op te vallen en jouw bedrijf te laten groeien.",
+  "why-choose-us": "Onze diepgaande kennis van de Normandische markt stelt ons in staat om digitale oplossingen te ontwikkelen die perfect zijn afgestemd op de specifieke uitdagingen van lokale bedrijven. In tegenstelling tot Parijse bureaus, begrijpen we de subtiliteiten van het economische weefsel van Rouen en bieden we aangepaste oplossingen met een gunstige prijs-kwaliteitverhouding.",
+  "key-business-sectors": {
+    "industry": "Industrie",
+    "agrifood": "Agri-food",
+    "logistics": "Logistiek",
+    "local-commerce": "Lokale Handel"
+  },
+  "local-challenges": {
+    "traditional-industries-digitalization": "Digitalisering van traditionele Normandische industrieën die te maken hebben met internationale concurrentie",
+    "logistics-optimization": "Optimalisatie van rivier- en havenlogistiek met innovatieve digitale oplossingen",
+    "local-ecommerce-needs": "Behoefte aan e-commerce oplossingen die zijn afgestemd op lokale producenten en ambachtslieden",
+    "sme-digital-transition": "Digitale transitie van Normandische MKB's met gecontroleerde budgetten"
+  },
+  "benefits": {
+    "normandy-specific-solutions": "Aangepaste oplossingen die zijn afgestemd op de specificiteiten van Normandische bedrijven",
+    "industrial-agrifood-expertise": "Diepgaande expertise in de regionale industriële en agri-food sectoren",
+    "competitive-pricing": "Concurrentiële prijzen in vergelijking met Parijse bureaus",
+    "seine-logistics-knowledge": "Diepgaande kennis van logistieke uitdagingen gerelateerd aan de Seine-as",
+    "personalized-support": "Persoonlijke ondersteuning gedurende jouw digitale project"
+  },
+  "primary-stat": {
+    "label": "industriële sector"
+  },
+  "strengths": {
+    "industrial-websites": {
+      "title": "Industriële Websites",
+      "description": "Hoge prestatie sites aangepast aan Normandische productiebedrijven."
+    },
+    "local-ecommerce": {
+      "title": "Lokale E-commerce",
+      "description": "Online verkoopoplossingen voor lokale producenten en ambachtslieden."
+    },
+    "business-applications": {
+      "title": "Zakelijke Toepassingen",
+      "description": "Aangepaste digitale tools om jouw processen te optimaliseren."
+    },
+    "sme-digitalization": {
+      "title": "Digitalisering van MKB's",
+      "description": "Volledige ondersteuning voor jouw digitale transformatie."
+    }
+  },
+  "focused-services": {
+    "professional-websites": {
+      "name": "Professionele Websites",
+      "description": "Hoogwaardige digitale etalages geoptimaliseerd voor lokale SEO in Rouen."
+    },
+    "regional-ecommerce": {
+      "name": "Regionale E-commerce",
+      "description": "Webwinkels aangepast aan Normandische producenten en handelaren."
+    },
+    "business-applications": {
+      "name": "Zakelijke Toepassingen",
+      "description": "Aangepaste software voor de regionale industrie en logistiek."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Jarenlange ervaring"
+    },
+    "satisfaction": {
+      "label": "Tevredenheid",
+      "description": "Tevreden klanten"
+    },
+    "average-time": {
+      "label": "Gemiddelde Tijd",
+      "description": "Weken tot voltooiing"
+    }
+  }
+}

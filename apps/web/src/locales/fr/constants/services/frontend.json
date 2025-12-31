@@ -44,13 +44,5 @@
       "title": "Optimisation et monitoring",
       "description": "Optimisation des performances et mise en place d'outils de monitoring."
     }
-  },
-  "process-services": {
-    "technical-architecture": ["Architecture", "Conseil technique"],
-    "project-setup": ["Setup technique", "CI/CD"],
-    "feature-development": ["Développement Frontend", "React", "Next.js"],
-    "state-management": ["State Management", "API Integration"],
-    "testing-quality": ["Tests unitaires", "Tests E2E"],
-    "optimization-monitoring": ["Performance", "Analytics"]
   }
 }

@@ -1,0 +1,80 @@
+{
+  "name": "Shopify",
+  "description": "Criação e customização de lojas online no Shopify",
+  "hero": {
+    "title": "Crie sua loja online com Shopify",
+    "description": "Transforme sua visão de e-commerce em realidade com nossa experiência no Shopify. Criamos lojas online de alto desempenho, estéticas e otimizadas para conversão."
+  },
+  "features": {
+    "custom-design": {
+      "title": "Design personalizado",
+      "description": "Criação de um tema único que reflete sua marca e otimiza a experiência do usuário."
+    },
+    "conversion-optimization": {
+      "title": "Otimização de conversão",
+      "description": "Implementação das melhores práticas para maximizar suas vendas e reter seus clientes."
+    },
+    "enhanced-security": {
+      "title": "Segurança aprimorada",
+      "description": "Proteção dos seus dados e dos dados dos seus clientes com os mais recentes padrões de segurança."
+    },
+    "advanced-integrations": {
+      "title": "Integrações avançadas",
+      "description": "Conexão com suas ferramentas favoritas para gestão de inventário, contabilidade e marketing."
+    }
+  },
+  "benefits": {
+    "secure-payments": {
+      "title": "Pagamentos seguros",
+      "description": "Integração dos principais métodos de pagamento e gestão de transações seguras."
+    },
+    "international-by-default": {
+      "title": "Internacional por padrão",
+      "description": "Venda para o mundo todo com gestão de múltiplas moedas e traduções automáticas."
+    },
+    "powerful-analytics": {
+      "title": "Análises poderosas",
+      "description": "Acompanhamento detalhado do seu desempenho e insights para otimizar suas vendas."
+    },
+    "simplified-logistics": {
+      "title": "Logística simplificada",
+      "description": "Gestão de pedidos eficiente e integração com os principais transportadores."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Quanto tempo leva para criar uma loja Shopify?",
+      "answer": "O tempo médio para criar uma loja Shopify varia de 4 a 8 semanas, dependendo da complexidade do projeto. Isso inclui a fase de design, desenvolvimento, integração de produtos e testes."
+    },
+    "migration": {
+      "question": "Você pode migrar minha loja existente para o Shopify?",
+      "answer": "Sim, oferecemos um serviço completo de migração da sua loja existente para o Shopify, incluindo transferência de produtos, clientes e pedidos, garantindo uma transição suave."
+    },
+    "customization-types": {
+      "question": "Quais tipos de customização você oferece?",
+      "answer": "Oferecemos customização completa da sua loja Shopify: design personalizado, recursos personalizados, integrações específicas e otimização para mobile."
+    },
+    "post-launch-support": {
+      "question": "Você oferece suporte pós-lançamento?",
+      "answer": "Sim, oferecemos vários planos de suporte e manutenção para garantir o funcionamento contínuo da sua loja após o lançamento, incluindo atualizações, otimizações e suporte técnico."
+    },
+    "security": {
+      "question": "Como você garante a segurança da minha loja?",
+      "answer": "Implementamos as melhores práticas de segurança: SSL, conformidade com PCI DSS, backups regulares e proteção contra fraudes. Shopify também fornece segurança de nível bancário para todas as transações."
+    }
+  },
+  "complementary": {
+    "seo": {
+      "title": "SEO",
+      "description": "Otimização para motores de busca para aumentar sua visibilidade."
+    },
+    "digital-marketing": {
+      "title": "Marketing digital",
+      "description": "Estratégias de marketing adaptadas para atrair e converter mais clientes."
+    },
+    "training": {
+      "title": "Treinamento",
+      "description": "Treinamento completo para gerenciar sua loja de forma independente."
+    }
+  }
+}

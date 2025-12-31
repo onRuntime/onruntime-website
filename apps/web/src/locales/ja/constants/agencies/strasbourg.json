@@ -1,0 +1,79 @@
+{
+  "title": "ストラスブールのウェブ開発 | アルザスビジネスのデジタルソリューション",
+  "description": "ストラスブールであなたのウェブサイトやモバイルアプリを作成します。ローカルや国境を越えた課題に合わせた、アルザスビジネス向けのカスタムデジタルソリューションです。",
+  "hero": {
+    "title": "ストラスブールのウェブ＆モバイル開発",
+    "description": "ストラスブールとグラン・テスト地域のビジネスが、アルザスとヨーロッパ市場の特有の課題に完璧に適応したカスタムウェブソリューションでデジタル化するのをサポートします。"
+  },
+  "intro": "ヨーロッパの首都であり、豊かな遺産を持つ国境の街、ストラスブールはアルザスの伝統と国際的な開放性を融合させています。ヨーロッパの機関の本拠地としての地位、ダイナミックな産業、フランスとドイツの間に位置する戦略的な位置は、デジタルが重要な架け橋の役割を果たすユニークな地域です。",
+  "expertise": "私たちのチームは、ストラスブールのビジネスに完全に適応したウェブサイト、アプリケーション、デジタルソリューションを設計します。国際的な組織、工業企業、地域の文化的プレーヤーのいずれであっても、地域や国境を越えた市場の特有の課題を理解し、多言語かつ文化的に適応したデジタルソリューションを提供します。",
+  "why-choose-us": "ストラスブール市場に対する私たちの深い理解は、地域ビジネスの特有の課題に完璧に適応したデジタルソリューションを開発することを可能にします。私たちは、ヨーロッパの文脈とアルザスの文化的特異性の要件を理解し、この二重の次元を各プロジェクトに組み込むことで、関連性が高く高性能なデジタル体験を創造します。",
+  "key-business-sectors": {
+    "european-institutions": "ヨーロッパの機関",
+    "cross-border-commerce": "国境を越えた商取引",
+    "industry": "産業",
+    "culture-heritage": "文化と遺産"
+  },
+  "local-challenges": {
+    "european-institutions-needs": "ヨーロッパの機関や国際組織の特定のニーズ",
+    "cross-border-development": "ドイツとスイスとの国境を越えた商取引の発展",
+    "traditional-industries-transformation": "伝統的なアルザス産業のデジタル変革",
+    "heritage-digital-showcase": "地域の豊かな文化的・歴史的遺産のデジタルショーケース"
+  },
+  "benefits": {
+    "multilingual-solutions": "ストラスブールの国際的な文脈に適応した多言語ソリューション",
+    "european-standards-expertise": "ヨーロッパ基準に準拠したユーザーインターフェースに関する鋭い専門知識",
+    "cross-border-knowledge": "国境を越えた市場とその特性に関する深い知識",
+    "innovative-traditional-approach": "アルザスの伝統を尊重しながら革新的なアプローチ",
+    "personalized-support": "あなたのデジタルプロジェクト全体を通じての個別サポート"
+  },
+  "primary-stat": {
+    "label": "国際的な文脈"
+  },
+  "strengths": {
+    "european-solutions": {
+      "title": "ヨーロッパのソリューション",
+      "description": "機関や国際組織向けの多言語プラットフォームです。"
+    },
+    "cross-border-commerce": {
+      "title": "国境を越えた商取引",
+      "description": "フランス、ドイツ、スイス市場に適応したeコマースソリューションです。"
+    },
+    "industry-40": {
+      "title": "インダストリー4.0",
+      "description": "伝統的なアルザス産業のプロセスデジタル化です。"
+    },
+    "digital-heritage": {
+      "title": "デジタル遺産",
+      "description": "文化的・歴史的遺産を紹介するデジタル体験です。"
+    }
+  },
+  "focused-services": {
+    "institutional-websites": {
+      "name": "機関ウェブサイト",
+      "description": "ヨーロッパのアクセシビリティ基準に準拠した多言語プラットフォームです。"
+    },
+    "cross-border-ecommerce": {
+      "name": "国境を越えたEコマース",
+      "description": "ドイツとフランス市場の特性に適応した商業ソリューションです。"
+    },
+    "industrial-applications": {
+      "name": "産業アプリケーション",
+      "description": "産業プロセスを近代化するためのカスタムデジタルツールです。"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "専門知識",
+      "description": "経験年数"
+    },
+    "satisfaction": {
+      "label": "満足度",
+      "description": "満足しているクライアント"
+    },
+    "average-time": {
+      "label": "平均時間",
+      "description": "完了までの週間数"
+    }
+  }
+}

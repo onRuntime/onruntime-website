@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Lokalna wiedza niedostępna",
+      "description": "Nie mamy jeszcze specjalistycznej wiedzy dla tego miasta."
+    }
+  },
+  "breadcrumb": {
+    "home": "Strona główna",
+    "local-expertise": "Lokalna wiedza"
+  },
+  "challenges": {
+    "title": "Cyfrowe wyzwania dla firm w {city}",
+    "description": "Firmy w {city} borykają się z konkretnymi wyzwaniami związanymi z transformacją cyfrową. Nasza wiedza pozwala nam skutecznie je rozwiązać.",
+    "market-issues": "Wyzwania rynku w {region}",
+    "our-solutions": "Nasze dostosowane rozwiązania",
+    "discover-all-services": "Poznaj wszystkie nasze usługi"
+  },
+  "faq": {
+    "title": "Najczęściej zadawane pytania dotyczące projektów internetowych w {city}",
+    "description": "Znajdź odpowiedzi na najczęściej zadawane pytania od firm w {city} dotyczące ich projektów cyfrowych.",
+    "questions": {
+      "choose-agency": {
+        "question": "Jak wybrać odpowiednią agencję internetową w {city}?",
+        "answer": "Aby wybrać odpowiednią agencję internetową w {city}, oceń ich znajomość lokalnego rynku, ich portfolio w Twojej branży oraz zdolność do zrozumienia Twoich specyficznych celów. Wiedza o wyzwaniach cyfrowych specyficznych dla regionu {region} to także kluczowy czynnik."
+      },
+      "project-costs": {
+        "question": "Jakie są koszty projektu internetowego w {city}?",
+        "answer": "Koszty projektu internetowego w {city} różnią się w zależności od złożoności, funkcji i celów. Za profesjonalną stronę promocyjną spodziewaj się kwoty między 3 000 a 8 000 €. Dla niestandardowej aplikacji internetowej lub e-commerce, ceny zazwyczaj zaczynają się od 10 000 €. Zapytaj o spersonalizowaną wycenę, aby uzyskać dokładny szacunek."
+      },
+      "development-time": {
+        "question": "Ile czasu zajmuje stworzenie strony internetowej lub aplikacji dla mojej firmy w {city}?",
+        "answer": "Czas realizacji projektu dla firmy w {city} zależy od złożoności. Strona promocyjna może być gotowa w 4-8 tygodni, podczas gdy niestandardowa aplikacja lub e-commerce zazwyczaj wymagają 2-4 miesięcy. Nasza zwinna metodologia pozwala na postępujące dostawy, aby szybko zobaczyć postępy."
+      },
+      "remote-work": {
+        "question": "Czy możecie skutecznie pracować z moją firmą w {city} zdalnie?",
+        "answer": "Absolutnie. Skutecznie współpracujemy z firmami w {city} dzięki naszej sprawdzonej metodzie pracy zdalnej. Regularne wideokonferencje, potężne narzędzia współpracy i nasza dogłębna wiedza o lokalnym rynku {region} pozwalają nam zapewnić wsparcie tak skuteczne jak w przypadku zespołu na miejscu."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Co mówią nasi klienci w {city}",
+    "description": "Poznaj opinie lokalnych firm, z którymi współpracowaliśmy."
+  }
+}

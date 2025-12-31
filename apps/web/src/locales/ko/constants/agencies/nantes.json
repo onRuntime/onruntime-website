@@ -1,0 +1,79 @@
+{
+  "title": "낭트의 웹 개발 | 루와르 밸리 비즈니스를 위한 디지털 솔루션",
+  "description": "낭트에서 웹사이트나 모바일 애플리케이션을 만들어 보세요. 지역 산업의 도전에 맞춘 맞춤 디지털 솔루션을 제공합니다.",
+  "hero": {
+    "title": "낭트의 웹 및 모바일 개발",
+    "description": "우리는 낭트와 루와르 데 라 루아르 지역의 비즈니스가 지역 시장의 특정 도전에 맞춘 맞춤형 웹 솔루션으로 디지털화하도록 돕습니다."
+  },
+  "intro": "브리타니의 역사적인 수도이자 혁신적인 대도시인 낭트는 경제적 역동성과 삶의 질로 잘 알려져 있습니다. 디지털 생태계, 창의적 산업, 생태적 전환에 대한 헌신이 결합된 이곳은 디지털 혁신이 중심 역할을 하는 독특한 지역입니다.",
+  "expertise": "우리 팀은 혁신적인 스타트업, 책임 있는 경제 주체 또는 전통적인 변화를 가지고 있는 기업 등 낭트 비즈니스에 완벽하게 맞춤화된 웹사이트, 애플리케이션 및 디지털 솔루션을 설계합니다. 우리는 지역 시장의 특수성을 이해하고 낭트의 혁신과 지속 가능성의 가치를 반영하여 디지털 솔루션을 제공합니다.",
+  "why-choose-us": "낭트 시장에 대한 우리의 깊은 이해는 지역 비즈니스의 특정 도전에 완벽하게 맞춘 디지털 솔루션을 개발할 수 있게 해줍니다. 우리는 낭트를 특징짓는 혁신 정신과 보다 책임 있는 경제에 대한 헌신을 이해하며, 이를 각 디지털 프로젝트에 통합합니다.",
+  "key-business-sectors": {
+    "tech-digital": "기술 및 디지털",
+    "ecological-transition": "생태적 전환",
+    "creative-industries": "창의적 산업",
+    "agrifood": "농식품"
+  },
+  "local-challenges": {
+    "digital-ecosystem-competition": "빠르게 성장하는 낭트 디지털 생태계에서의 치열한 경쟁",
+    "startup-scaleup-needs": "지역 프랑스 테크 스타트업 및 스케일업의 특정 필요",
+    "ecological-transition-digitalization": "생태적 및 에너지 전환 주체의 디지털화",
+    "traditional-industries-transformation": "전통적인 지역 산업 및 농식품 산업의 디지털 전환"
+  },
+  "benefits": {
+    "nantes-ecosystem-solutions": "낭트 디지털 생태계에 맞춤화된 솔루션",
+    "innovative-eco-technologies": "혁신적이고 친환경적인 웹 기술에 대한 뛰어난 전문성",
+    "agile-approach": "스타트업과 혁신적인 기업에 완벽하게 적합한 애자일 접근 방식",
+    "digital-transition-knowledge": "루와르 밸리 디지털 전환 도전에 대한 깊은 지식",
+    "personalized-support": "디지털 프로젝트 전반에 걸친 개인화된 지원"
+  },
+  "primary-stat": {
+    "label": "낭트 디지털"
+  },
+  "strengths": {
+    "innovative-tech": {
+      "title": "혁신적인 기술",
+      "description": "낭트 스타트업과 스케일업을 위한 현대적인 디지털 솔루션."
+    },
+    "eco-design": {
+      "title": "에코 디자인",
+      "description": "환경 발자국이 관리된 사이트 및 애플리케이션."
+    },
+    "maritime-industry": {
+      "title": "해양 산업",
+      "description": "항구 및 강 활동에 적합한 디지털화."
+    },
+    "renewable-energy": {
+      "title": "재생 에너지",
+      "description": "에너지 전환 주체를 위한 디지털 솔루션."
+    }
+  },
+  "focused-services": {
+    "web-applications": {
+      "name": "웹 애플리케이션",
+      "description": "스타트업과 혁신적인 기업을 위한 고성능의 확장 가능한 웹 애플리케이션."
+    },
+    "eco-designed-websites": {
+      "name": "에코 디자인된 웹사이트",
+      "description": "책임 있는 경제 주체를 위한 최적화되고 지속 가능한 웹사이트."
+    },
+    "business-platforms": {
+      "name": "비즈니스 플랫폼",
+      "description": "전통 산업의 변화에 맞춘 맞춤형 솔루션."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "전문성",
+      "description": "다년간의 경험"
+    },
+    "satisfaction": {
+      "label": "만족도",
+      "description": "만족한 고객들"
+    },
+    "average-time": {
+      "label": "평균 시간",
+      "description": "완료까지의 주"
+    }
+  }
+}

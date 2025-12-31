@@ -1,0 +1,80 @@
+{
+  "name": "Discord/Slack 机器人",
+  "description": "机器人和自动化开发",
+  "hero": {
+    "title": "机器人与自动化",
+    "description": "开发智能机器人和自动化，提升你社区的参与度和生产力。我们的专业知识保证为 Discord、Slack 和其他平台提供可靠且高性能的机器人。"
+  },
+  "features": {
+    "discord-slack": {
+      "title": "Discord 和 Slack",
+      "description": "主要通信平台的定制机器人。"
+    },
+    "advanced-commands": {
+      "title": "高级命令",
+      "description": "直观界面，支持可自定义命令。"
+    },
+    "optimal-performance": {
+      "title": "最佳性能",
+      "description": "优化架构，确保最大响应速度。"
+    },
+    "integrations": {
+      "title": "集成",
+      "description": "与现有工具和服务的连接。"
+    }
+  },
+  "benefits": {
+    "intelligent-moderation": {
+      "title": "智能管理",
+      "description": "对你的社区和管理进行自动化管理。"
+    },
+    "notifications": {
+      "title": "通知",
+      "description": "自定义警报和自动更新。"
+    },
+    "engagement": {
+      "title": "参与度",
+      "description": "互动功能，活跃你的社区。"
+    },
+    "statistics": {
+      "title": "统计数据",
+      "description": "详细跟踪活动和互动。"
+    }
+  },
+  "faq": {
+    "bot-types": {
+      "question": "你能开发什么类型的机器人？",
+      "answer": "我们为各种平台（Discord、Slack、Telegram）开发不同功能的机器人：管理、客户支持、任务自动化、统计、游戏和社区活动。每个机器人都是根据你的具体需求定制的。"
+    },
+    "bot-reliability": {
+      "question": "你们如何确保机器人的可靠性？",
+      "answer": "我们实施了多种机制：24/7 监控、出现问题时自动重启、详细日志和实时警报。我们在每次部署前还会进行全面测试。"
+    },
+    "customization": {
+      "question": "命令和功能可以定制吗？",
+      "answer": "可以，所有我们的机器人都是完全可定制的：命令、响应、权限、集成。我们根据你的需求和管理指南调整每个功能。"
+    },
+    "security": {
+      "question": "你们如何处理安全问题？",
+      "answer": "安全是我们的优先考虑：安全身份验证、细化权限、输入验证、防止垃圾邮件和滥用。我们遵循每个平台的最佳实践。"
+    },
+    "post-deployment-support": {
+      "question": "你们提供部署后的支持吗？",
+      "answer": "是的，我们提供多个维护计划，包括：24/7 监控、定期更新、技术支持和根据你的需求进行的功能演进。"
+    }
+  },
+  "complementary": {
+    "analytics": {
+      "title": "分析",
+      "description": "详细跟踪使用情况和互动。"
+    },
+    "support-24-7": {
+      "title": "24/7 支持",
+      "description": "持续监控和快速干预。"
+    },
+    "evolutions": {
+      "title": "演进",
+      "description": "定期加入新功能。"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "back-to-glossary": "العودة إلى المعجم",
+  "related-terms": "مصطلحات ذات صلة",
+  "search": {
+    "placeholder": "ابحث عن مصطلح...",
+    "no-results": "لم يتم العثور على نتائج لـ \"{term}\""
+  }
+}

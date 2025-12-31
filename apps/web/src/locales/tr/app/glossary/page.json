@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Web geliştirme ve tasarım sözlüğü",
+    "description": "Web geliştirme, UI/UX tasarımı ve dijital proje yönetimindeki teknik terimlerin kapsamlı sözlüğünü keşfedin."
+  },
+  "hero": {
+    "title": "Sözlük",
+    "description": "Web geliştirme, UI/UX tasarımı ve dijital proje yönetimindeki teknik terimlerin kapsamlı sözlüğünü keşfedin."
+  },
+  "view-all": "Tümünü görüntüle",
+  "empty": {
+    "title": "Henüz sözlüğe eklenmiş terim yok.",
+    "subtitle": "Tam sözlüğümüzü keşfetmek için yakında tekrar kontrol edin."
+  },
+  "letter": {
+    "metadata": {
+      "title": "{letter} ile başlayan terimler | Sözlük",
+      "description": "{letter} harfi ile başlayan tüm sözlük terimlerini keşfedin.",
+      "invalid": {
+        "title": "Geçersiz harf | Sözlük",
+        "description": "Bu harf geçerli değil."
+      }
+    },
+    "count": "{letter} harfi ile başlayan {count} terim"
+  },
+  "term": {
+    "metadata": {
+      "not-found": {
+        "title": "Terim bulunamadı | Sözlük",
+        "description": "Bu terim sözlüğümüzde mevcut değil."
+      }
+    }
+  },
+  "tags": {
+    "metadata": {
+      "title": "Sözlük etiketleri",
+      "description": "Teknik sözlüğümüzdeki terimlerin farklı kategorilerini keşfedin."
+    },
+    "title": "Sözlük kategorileri",
+    "description": "Teknik sözlüğümüzdeki {count} terim kategorisini keşfedin.",
+    "empty": "Bu aşamada mevcut kategori yok."
+  },
+  "tag": {
+    "metadata": {
+      "title": "{tag} ile ilgili terimler | Sözlük",
+      "description": "{tag} kategorisi ile ilgili tüm sözlük terimlerini keşfedin."
+    },
+    "count": "Bu kategori ile ilgili {count} terim"
+  }
+}

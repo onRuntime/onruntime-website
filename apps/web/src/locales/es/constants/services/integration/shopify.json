@@ -1,0 +1,80 @@
+{
+  "name": "Shopify",
+  "description": "Creación y personalización de tiendas en línea Shopify",
+  "hero": {
+    "title": "Crea tu tienda en línea con Shopify",
+    "description": "Transforma tu visión de comercio electrónico en realidad con nuestra experiencia en Shopify. Creamos tiendas en línea de alto rendimiento, estéticas y optimizadas para la conversión."
+  },
+  "features": {
+    "custom-design": {
+      "title": "Diseño personalizado",
+      "description": "Creación de un tema único que refleje tu marca y optimice la experiencia del usuario."
+    },
+    "conversion-optimization": {
+      "title": "Optimización de la conversión",
+      "description": "Implementación de mejores prácticas para maximizar tus ventas y retener a tus clientes."
+    },
+    "enhanced-security": {
+      "title": "Seguridad mejorada",
+      "description": "Protección de tus datos y los datos de tus clientes con los estándares de seguridad más recientes."
+    },
+    "advanced-integrations": {
+      "title": "Integraciones avanzadas",
+      "description": "Conexión con tus herramientas favoritas para la gestión de inventario, contabilidad y marketing."
+    }
+  },
+  "benefits": {
+    "secure-payments": {
+      "title": "Pagos seguros",
+      "description": "Integración de los principales métodos de pago y gestión de transacciones seguras."
+    },
+    "international-by-default": {
+      "title": "Internacional por defecto",
+      "description": "Vende en todo el mundo con gestión de múltiples monedas y traducciones automáticas."
+    },
+    "powerful-analytics": {
+      "title": "Análisis poderosos",
+      "description": "Seguimiento detallado de tu rendimiento y análisis para optimizar tus ventas."
+    },
+    "simplified-logistics": {
+      "title": "Logística simplificada",
+      "description": "Gestión de pedidos eficiente e integración con los principales transportistas."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "¿Cuánto tiempo se necesita para crear una tienda Shopify?",
+      "answer": "El tiempo promedio para crear una tienda Shopify varía de 4 a 8 semanas, dependiendo de la complejidad del proyecto. Esto incluye la fase de diseño, desarrollo, integración de productos y pruebas."
+    },
+    "migration": {
+      "question": "¿Puedes migrar mi tienda existente a Shopify?",
+      "answer": "Sí, ofrecemos un servicio de migración completo desde tu tienda existente a Shopify, incluyendo la transferencia de productos, clientes y pedidos, asegurando una transición fluida."
+    },
+    "customization-types": {
+      "question": "¿Qué tipos de personalización ofreces?",
+      "answer": "Ofrecemos personalización completa de tu tienda Shopify: diseño personalizado, características personalizadas, integraciones específicas y optimización móvil."
+    },
+    "post-launch-support": {
+      "question": "¿Ofreces soporte después del lanzamiento?",
+      "answer": "Sí, ofrecemos varios planes de soporte y mantenimiento para asegurar el funcionamiento fluido de tu tienda después del lanzamiento, incluyendo actualizaciones, optimizaciones y soporte técnico."
+    },
+    "security": {
+      "question": "¿Cómo aseguras la seguridad de mi tienda?",
+      "answer": "Implementamos las mejores prácticas de seguridad: SSL, cumplimiento PCI DSS, copias de seguridad regulares y protección contra fraudes. Shopify también proporciona seguridad a nivel bancario para todas las transacciones."
+    }
+  },
+  "complementary": {
+    "seo": {
+      "title": "SEO",
+      "description": "Optimización para motores de búsqueda para aumentar tu visibilidad."
+    },
+    "digital-marketing": {
+      "title": "Marketing digital",
+      "description": "Estrategias de marketing adaptadas para atraer y convertir más clientes."
+    },
+    "training": {
+      "title": "Capacitación",
+      "description": "Capacitación completa para gestionar tu tienda de forma independiente."
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "short-description": "完整的学生留学支持平台，整合住房、签证、交通和本地支持。",
+  "description": "开发了一个全栈平台，使法国学生能够从A到Z管理留学，提供综合服务和本地大使网络。",
+  "long-description": "Expat Facilities是一家革命性的法国初创公司，简化了学生的留学过程。我们的团队从零开始开发了一个完整的平台，从一个简单的着陆页发展到一个结合类似Airbnb特色的复杂解决方案和留学服务生态系统。\n\n该平台整合了多个合作伙伴的API，提供统一的体验：通过Spotahome等合作伙伴搜索住房，通过汉莎航空预订航班，提供专业的保险，以及在70多个国家的本地大使。 \n\n主要的技术挑战是协调数十个第三方API，以创造流畅且一致的用户体验，同时管理国际支付的复杂性以及学生和本地大使之间的匹配。",
+  "features": {
+    "housing-platform": {
+      "title": "集成住房平台",
+      "description": "通过Spotahome等合作伙伴的API整合搜索和预订学生住房"
+    },
+    "ambassador-network": {
+      "title": "本地大使网络",
+      "description": "在70个国家拥有300多名学生大使，支持新来的学生在现场的需求"
+    },
+    "visa-services": {
+      "title": "签证和行政服务",
+      "description": "全面管理签证流程和个性化行政支持"
+    },
+    "transport-logistics": {
+      "title": "运输和物流",
+      "description": "航班预订（与汉莎的合作），火车和提供优惠价格的本地交通"
+    },
+    "expat-insurance": {
+      "title": "留学保险",
+      "description": "与Mondial Assistance和安联合作提供的针对临时留学的专业保险"
+    },
+    "advanced-tracking": {
+      "title": "高级追踪",
+      "description": "实时追踪所有流程，带有通知和仪表板界面"
+    }
+  },
+  "technologies": {
+    "nextjs": {
+      "description": "用于前端的React框架"
+    },
+    "nestjs": {
+      "description": "强大且模块化的API后端"
+    },
+    "mongodb": {
+      "description": "主要数据库"
+    },
+    "graphql": {
+      "description": "统一的数据API"
+    },
+    "google-cloud": {
+      "description": "云基础设施和服务"
+    },
+    "stripe": {
+      "description": "国际支付"
+    },
+    "typescript": {
+      "description": "类型安全的开发"
+    },
+    "styled-components": {
+      "description": "样式和主题设置"
+    }
+  },
+  "metrics": {
+    "countries": {
+      "value": "超过70个",
+      "label": "覆盖国家",
+      "description": "可用的留学目的地"
+    },
+    "ambassadors": {
+      "value": "超过300名",
+      "label": "大使",
+      "description": "全球学生大使"
+    },
+    "users": {
+      "value": "超过2000名",
+      "label": "用户",
+      "description": "学生平台用户"
+    }
+  },
+  "screenshots": {
+    "redesign": {
+      "caption": "平台重新设计"
+    },
+    "testimonials": {
+      "caption": "用户反馈和合作伙伴"
+    },
+    "flyer-bank": {
+      "caption": "合作银行的宣传册"
+    },
+    "about-team": {
+      "caption": "关于团队及行动号召"
+    },
+    "housing-hero": {
+      "caption": "集成搜索的住房部分"
+    },
+    "housing-cta": {
+      "caption": "住房部分的行动号召"
+    },
+    "services-hero": {
+      "caption": "服务部分及优惠展示"
+    },
+    "insurance-hero": {
+      "caption": "保险部分及优惠说明"
+    },
+    "insurance-plans": {
+      "caption": "详细的保险计划"
+    },
+    "insurance-benefits": {
+      "caption": "提供的保险福利"
+    },
+    "contact-success": {
+      "caption": "成功提交的联系表单"
+    }
+  },
+  "challenges": {
+    "third-party-api-integration": "将数十个第三方API（Spotahome、汉莎、保险）整合成统一体验的挑战",
+    "international-payments": "管理使用Stripe的国际支付，涉及多种货币和法规",
+    "student-ambassador-matching": "基于地理位置开发学生/大使匹配系统的挑战",
+    "scalable-architecture": "支持快速增长的可扩展架构（70个国家，300多名大使）",
+    "real-time-availability": "实时同步合作伙伴平台之间的住房可用性",
+    "multilingual-interface": "多语言界面及适应各国的本地特性挑战"
+  },
+  "learnings": {
+    "api-orchestration-complexity": "协调不同格式和限制的第三方API的复杂性",
+    "multi-partner-error-handling": "在多合作伙伴生态系统中错误处理的重要性",
+    "internationalization-challenges": "国际化挑战不仅限于翻译（货币、法规、文化）",
+    "microservices-architecture": "必要的微服务架构以隔离合作伙伴集成",
+    "complex-ux-simplification": "将复杂流程转化为顺畅体验的关键UX/UI",
+    "partner-relations": "管理合作伙伴关系及技术谈判以进行集成"
+  },
+  "future-plans": {
+    "other-expat-types": "扩展到其他类型的留学（专业人士、退休人员）",
+    "ai-matching": "使用AI优化学生/大使匹配",
+    "ambassador-mobile-app": "大使的本地移动应用",
+    "ambassador-training": "为大使提供培训平台"
+  }
+}

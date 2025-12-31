@@ -1,0 +1,80 @@
+{
+  "name": "PrestaShop",
+  "description": "PrestaShop winkelontwikkeling",
+  "hero": {
+    "title": "E-commerce ontwikkeling met PrestaShop",
+    "description": "Start een professionele online winkel met PrestaShop. Onze expertise garandeert een krachtige, schaalbare e-commerce oplossing die perfect is afgestemd op jouw behoeften."
+  },
+  "features": {
+    "custom-design": {
+      "title": "Op maat gemaakt ontwerp",
+      "description": "Creëren van op maat gemaakte thema's die jouw merk weerspiegelen en conversie optimaliseren."
+    },
+    "advanced-management": {
+      "title": "Geavanceerd beheer",
+      "description": "Krachtige beheerdersinterface om jouw producten, bestellingen en klanten te beheren."
+    },
+    "optimized-performance": {
+      "title": "Geoptimaliseerde prestaties",
+      "description": "Geavanceerde optimalisatie voor snelle laadtijden en een soepele ervaring."
+    },
+    "enhanced-security": {
+      "title": "Verbeterde beveiliging",
+      "description": "Geavanceerde bescherming van jouw winkel en de gegevens van jouw klanten."
+    }
+  },
+  "benefits": {
+    "complete-management": {
+      "title": "Compleet beheer",
+      "description": "Volledige controle over jouw producten, voorraad, bestellingen en klantrelaties."
+    },
+    "multi-store": {
+      "title": "Multi-winkel",
+      "description": "Beheer van meerdere winkels vanuit één beheerdersinterface."
+    },
+    "integrated-logistics": {
+      "title": "Geïntegreerde logistiek",
+      "description": "Geavanceerd beheer van vervoerders en verzendkosten."
+    },
+    "detailed-analytics": {
+      "title": "Gedetailleerde analyses",
+      "description": "Complete statistieken om jouw prestaties te volgen en optimaliseren."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Hoe lang duurt het om een PrestaShop winkel te creëren?",
+      "answer": "De gemiddelde tijd om een PrestaShop winkel te creëren varieert van 6 tot 12 weken, afhankelijk van de complexiteit van het project. Dit is inclusief thema-aanpassing, ontwikkeling van maatwerkfuncties, productintegratie en testen."
+    },
+    "migration": {
+      "question": "Kun je mijn bestaande winkel naar PrestaShop migreren?",
+      "answer": "Ja, we bieden een complete migratieservice naar PrestaShop, inclusief de overdracht van producten, klanten, bestellingen en geschiedenis, terwijl jouw SEO behouden blijft."
+    },
+    "large-catalogs": {
+      "question": "Is PrestaShop geschikt voor grote productcatalogussen?",
+      "answer": "Absoluut! PrestaShop is ontworpen om catalogussen van enkele duizenden producten met variaties efficiënt te beheren, terwijl het uitstekende prestaties behoudt."
+    },
+    "custom-development": {
+      "question": "Bieden jullie maatwerkontwikkeling aan?",
+      "answer": "Ja, we ontwikkelen aangepaste modules en functies om PrestaShop aan te passen aan jouw specifieke behoeften: ERP-integraties, maatwerk bedrijfsprocessen, enz."
+    },
+    "maintenance-updates": {
+      "question": "Hoe ga je om met onderhoud en updates?",
+      "answer": "We bieden verschillende onderhoudsplannen aan, inclusief beveiligingsupdates, back-ups, prestatieoptimalisatie en technische ondersteuning."
+    }
+  },
+  "complementary": {
+    "custom-modules": {
+      "title": "Aangepaste modules",
+      "description": "Ontwikkeling van specifieke functies voor jouw bedrijf."
+    },
+    "digital-marketing": {
+      "title": "Digitale marketing",
+      "description": "Marketingstrategieën om jouw zichtbaarheid en verkoop te vergroten."
+    },
+    "prestashop-training": {
+      "title": "PrestaShop training",
+      "description": "Aangepaste training om jouw winkelbeheer meester te maken."
+    }
+  }
+}

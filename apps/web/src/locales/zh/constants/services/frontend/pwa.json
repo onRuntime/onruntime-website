@@ -1,0 +1,80 @@
+{
+  "name": "渐进式网络应用",
+  "description": "创建高性能的渐进式网络应用",
+  "hero": {
+    "title": "渐进式网络应用 (PWA)",
+    "description": "将你的网页变成真正可安装的应用，使用渐进式网络应用。提供卓越的用户体验，无论在线还是离线。"
+  },
+  "features": {
+    "native-installation": {
+      "title": "本地安装",
+      "description": "可以直接从浏览器安装应用，无需通过商店。"
+    },
+    "offline-mode": {
+      "title": "离线模式",
+      "description": "得益于智能缓存，即使没有互联网连接也能正常工作。"
+    },
+    "optimal-performance": {
+      "title": "最佳性能",
+      "description": "在所有设备上加载快速、体验流畅。"
+    },
+    "push-notifications": {
+      "title": "推送通知",
+      "description": "通过推送通知提高用户参与度。"
+    }
+  },
+  "benefits": {
+    "multi-platform": {
+      "title": "多平台",
+      "description": "一个应用适用于所有设备和操作系统。"
+    },
+    "always-updated": {
+      "title": "始终保持更新",
+      "description": "自动更新，无需用户操作。"
+    },
+    "lightweight": {
+      "title": "轻量级",
+      "description": "没有繁重的安装，立即可以访问。"
+    },
+    "native-performance": {
+      "title": "本地性能",
+      "description": "用户体验接近本地应用。"
+    }
+  },
+  "faq": {
+    "what-is-pwa": {
+      "question": "什么是渐进式网络应用？",
+      "answer": "PWA是一种网络应用，提供类似本地应用的体验：可安装、可以离线工作，并能发送推送通知。它结合了网络的优势（可访问性、自动更新）和本地（性能、增强功能）。"
+    },
+    "vs-native": {
+      "question": "与本地应用相比有什么优势？",
+      "answer": "PWA有几个优势：不需要通过商店，自动更新，开发速度更快且成本更低，更好的搜索排名，以及一个代码库适用于所有平台。"
+    },
+    "offline": {
+      "question": "离线模式是如何工作的？",
+      "answer": "我们使用服务工作者来缓存重要的资源和数据。应用因此可以在没有互联网连接的情况下工作，并在连接恢复后自动同步。"
+    },
+    "browser-compatibility": {
+      "question": "PWA与所有浏览器兼容吗？",
+      "answer": "PWA在大多数现代浏览器上运行良好。对于旧版浏览器，我们设置了后备解决方案，以确保最佳用户体验。"
+    },
+    "post-launch-support": {
+      "question": "你们提供上线后的支持吗？",
+      "answer": "是的，我们提供多种维护计划，包括：安全更新、性能优化、功能添加和技术支持。"
+    }
+  },
+  "complementary": {
+    "advanced-analytics": {
+      "title": "高级分析",
+      "description": "详细跟踪用户行为和性能。"
+    },
+    "seo-optimized": {
+      "title": "优化的SEO",
+      "description": "为了搜索引擎和社交分享进行优化。"
+    },
+    "enhanced-security": {
+      "title": "增强安全性",
+      "description": "数据保护和安全通信。"
+    }
+  }
+}

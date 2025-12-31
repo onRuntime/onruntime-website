@@ -1,6 +1,6 @@
 import { createSitemapIndexHandler } from "@onruntime/next-sitemap/app";
 import { siteConfig } from "@/constants/site-config";
-import { locales, defaultLocale } from "@/lib/translations";
+import { localeCodes, defaultLocale } from "@/lib/translations";
 
 export const dynamic = "force-static";
 
@@ -9,7 +9,7 @@ const pagesContext = require.context("../[locale]", true, /\/page\.tsx$/);
 
 const { GET } = createSitemapIndexHandler({
   baseUrl: siteConfig.url,
-  locales,
+  locales: localeCodes,
   defaultLocale,
   pagesContext,
 });

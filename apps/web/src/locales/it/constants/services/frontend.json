@@ -1,0 +1,48 @@
+{
+  "name": "Sviluppo front-end",
+  "description": "Creazione di applicazioni web e mobili ad alte prestazioni",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Architettura scalabile",
+      "description": "Applicazioni costruite su architetture moderne e scalabili, pronte per l'evoluzione del tuo progetto."
+    },
+    "optimal-performance": {
+      "title": "Prestazioni ottimali",
+      "description": "Focalizzati sulle prestazioni con tecniche avanzate di ottimizzazione e caching."
+    },
+    "maintainable-code": {
+      "title": "Codice manutenibile",
+      "description": "Architettura pulita e modulare che consente facile manutenzione e rapide iterazioni."
+    },
+    "enhanced-security": {
+      "title": "Sicurezza avanzata",
+      "description": "Implementazione delle migliori pratiche di sicurezza frontend per proteggere i tuoi utenti."
+    }
+  },
+  "process": {
+    "technical-architecture": {
+      "title": "Architettura tecnica",
+      "description": "Definizione dell'architettura frontend, selezione delle tecnologie e configurazione dell'ambiente di sviluppo."
+    },
+    "project-setup": {
+      "title": "Configurazione del progetto",
+      "description": "Configurazione del progetto seguendo le migliori pratiche di sviluppo, test e distribuzione continua."
+    },
+    "feature-development": {
+      "title": "Sviluppo delle funzionalità",
+      "description": "Implementazione delle funzionalità con attenzione alla qualità del codice e alle prestazioni."
+    },
+    "state-management": {
+      "title": "Gestione dello stato",
+      "description": "Impostazione di una gestione dello stato robusta e performante per i dati dell'applicazione."
+    },
+    "testing-quality": {
+      "title": "Test e qualità",
+      "description": "Implementazione di test automatici e processi di controllo qualità."
+    },
+    "optimization-monitoring": {
+      "title": "Ottimizzazione e monitoraggio",
+      "description": "Impostazione degli strumenti per l'ottimizzazione delle prestazioni e il monitoraggio."
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "tags": {
+    "featured": "Wyróżnione",
+    "open-source": "Kod źródłowy",
+    "customer": "Projekt klienta"
+  },
+  "buttons": {
+    "view-project": "Zobacz projekt",
+    "source-code": "Kod źródłowy"
+  },
+  "info": {
+    "start-date": "Data rozpoczęcia",
+    "status": "Status",
+    "statuses": {
+      "active": "Aktywny",
+      "completed": "Zakończony",
+      "archived": "Zarchiwizowany"
+    },
+    "team": "Zespół",
+    "members": "członkowie"
+  },
+  "sections": {
+    "about": "O projekcie",
+    "metrics": "Wpływ i metryki",
+    "features": "Kluczowe cechy",
+    "technologies": "Wykorzystane technologie",
+    "gallery": "Galeria",
+    "team": "Zespół",
+    "challenges": "Napotkane wyzwania",
+    "learnings": "Kluczowe nauki",
+    "future": "Perspektywy na przyszłość"
+  },
+  "cta": {
+    "title": "Zainteresowany tym projektem?",
+    "description": "Dowiedz się, jak możemy pomóc Ci stworzyć podobny projekt.",
+    "button": "Omów swój projekt"
+  },
+  "tonightpass": {
+    "hero": {
+      "title": "System biletowy, który upraszcza Twoje wydarzenia",
+      "subtitle": "Od stworzenia do wejścia, zarządzaj wszystkim w 5 minut",
+      "description": "Kompletne rozwiązanie biletowe dla organizatorów wydarzeń. Twórz swoje wydarzenia, sprzedawaj bilety i zarządzaj dostępem przy użyciu profesjonalnych narzędzi i dedykowanej pomocy.",
+      "buttons": {
+        "create": "Stwórz moje wydarzenie",
+        "discover": "Odkryj rozwiązanie"
+      },
+      "stats": {
+        "setup": {
+          "value": "5min",
+          "label": "Ustawienie"
+        },
+        "cost": {
+          "value": "$0",
+          "label": "Instalacja"
+        },
+        "support": {
+          "value": "24/7",
+          "label": "Wsparcie"
+        }
+      }
+    },
+    "cta": {
+      "title": "Gotowy, aby uprościć swoje bilety?",
+      "description": "Uprość zarządzanie swoimi wydarzeniami z kompletnym i intuicyjnym rozwiązaniem",
+      "buttons": {
+        "start": "Zacznij teraz",
+        "features": "Zobacz wszystkie funkcje"
+      }
+    }
+  }
+}

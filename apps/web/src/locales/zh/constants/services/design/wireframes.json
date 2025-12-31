@@ -1,0 +1,80 @@
+{
+  "name": "线框图",
+  "description": "设计结构和用户旅程",
+  "hero": {
+    "title": "线框图和用户体验架构",
+    "description": "用专业的线框图来构建你的用户界面。我们的用户体验设计专业知识确保从项目初期就具备直观的架构和最佳的用户体验。"
+  },
+  "features": {
+    "ux-architecture": {
+      "title": "用户体验架构",
+      "description": "清晰且合逻辑的用户界面结构。"
+    },
+    "user-journey": {
+      "title": "用户旅程",
+      "description": "优化导航流程。"
+    },
+    "visual-hierarchy": {
+      "title": "视觉层次",
+      "description": "高效组织内容和功能。"
+    },
+    "interactions": {
+      "title": "交互",
+      "description": "定义行为和过渡。"
+    }
+  },
+  "benefits": {
+    "responsive-design": {
+      "title": "响应式设计",
+      "description": "适应所有屏幕格式。"
+    },
+    "rapid-prototyping": {
+      "title": "快速原型制作",
+      "description": "高效的测试和迭代过程。"
+    },
+    "collaboration": {
+      "title": "协作",
+      "description": "与所有利益相关者的清晰沟通。"
+    },
+    "early-validation": {
+      "title": "早期验证",
+      "description": "快速发现和纠正用户体验问题。"
+    }
+  },
+  "faq": {
+    "what-is-wireframe": {
+      "question": "什么是线框图，为什么重要？",
+      "answer": "线框图是你界面的示意图，专注于结构、层次和功能，而不包含最终设计元素。这是一个关键步骤，用于验证信息架构和用户体验，避免在细节设计上投入过多。"
+    },
+    "creation-process": {
+      "question": "创建过程是怎样的？",
+      "answer": "该过程从分析你的需求和目标开始。我们首先创建低保真线框图来验证整体结构，然后制作更详细的版本并添加交互。经过几轮迭代和你的反馈，我们最终确定线框图，这将作为UI设计的基础。"
+    },
+    "deliverables": {
+      "question": "提供哪些交付物？",
+      "answer": "你将收到每个关键屏幕的完整线框图集、用户流程图、交互文档以及供测试用户旅程的互动原型。所有源文件也将提供。"
+    },
+    "responsive-handling": {
+      "question": "你们如何处理响应式设计？",
+      "answer": "我们创建适应每个重要屏幕格式（桌面、平板、手机）的线框图，采用先移动端后桌面的设计理念。每个版本都经过优化，以提供最佳的用户体验。"
+    },
+    "creation-timeline": {
+      "question": "线框图创建需要多长时间？",
+      "answer": "持续时间取决于项目的复杂性，但一般而言，中等项目需要2到4周，包括分析、创建、迭代和最终确认阶段。我们在项目开始时会制定详细的时间表。"
+    }
+  },
+  "complementary": {
+    "ux-audit": {
+      "title": "用户体验审计",
+      "description": "对你现有界面的深入分析。"
+    },
+    "prototyping": {
+      "title": "原型制作",
+      "description": "创建互动原型。"
+    },
+    "ux-documentation": {
+      "title": "用户体验文档",
+      "description": "用户旅程的详细文档。"
+    }
+  }
+}

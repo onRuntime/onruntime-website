@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "本地网络专业知识 | 法国主要城市的数字发展",
+    "description": "我们利用在法国各地的区域数字市场专业知识来支持当地企业。为每个地区提供适应性的数字解决方案。"
+  },
+  "hero": {
+    "title": "您在法国的数字合作伙伴",
+    "description": "我们开发创新的数字解决方案，适应每个法国地区市场的特点。我们的团队掌握本地数字挑战，能够有效地支持您，无论您身在何处。",
+    "cta": "讨论您的项目",
+    "secondary-cta": "发现我们的本地专业知识"
+  },
+  "expertise": {
+    "title": "适应每个地区的专业知识",
+    "description": "我们的团队分析并理解当地数字生态系统，以提供完美适应您地区经济和文化特性的解决方案。",
+    "local-markets": {
+      "title": "理解当地市场",
+      "description": "我们研究并掌握区域数字生态系统的特性和趋势。"
+    },
+    "remote-work": {
+      "title": "高效的远程工作",
+      "description": "我们的团队与您的公司远程协作，无论您身在法国的何处，效率与人面对面时一样高。"
+    },
+    "custom-solutions": {
+      "title": "定制解决方案",
+      "description": "量身定制的数字战略，适应您的地方背景和区域市场的特殊性。"
+    }
+  },
+  "cities": {
+    "title": "我们在法国主要城市的专业知识",
+    "description": "发现我们对当地市场的深刻认识，以及如何为您的业务带来好处。",
+    "region-label": "地区",
+    "discover-cta": "发现我们的专业知识"
+  },
+  "why-us": {
+    "title": "为什么选择我们来进行您的本地项目？",
+    "description": "我们对区域市场的了解为您的业务提供了许多优势。",
+    "local-ecosystems": {
+      "title": "本地生态系统专业知识",
+      "description": "一个了解您地区市场动态的团队，使数字战略得到完美适应。"
+    },
+    "remote-agility": {
+      "title": "远程敏捷性",
+      "description": "通过视频会议、消息传递和协作工具实现有效协作，带来流畅和高效的工作体验。"
+    },
+    "localized-strategies": {
+      "title": "本地化策略",
+      "description": "考虑到您所在地区文化和经济特性的数字解决方案。"
+    },
+    "regional-analysis": {
+      "title": "区域市场分析",
+      "description": "研究您地理领域特有的趋势、竞争和机会，以便制定最佳数字战略。"
+    }
+  },
+  "services": {
+    "title": "我们为法国各地区提供的服务",
+    "description": "完整的数字解决方案，适应每个地方市场的特性。",
+    "design": {
+      "title": "UI/UX设计",
+      "description": "适应当地使用习惯的界面"
+    },
+    "integration": {
+      "title": "集成",
+      "description": "区域CMS和电子商务解决方案"
+    },
+    "frontend": {
+      "title": "前端",
+      "description": "适应用户的应用程序"
+    },
+    "backend": {
+      "title": "后端",
+      "description": "强大且可扩展的基础设施"
+    },
+    "discover-all": "发现我们所有的服务"
+  },
+  "cta": {
+    "title": "适合您当地市场的数字项目？",
+    "description": "联系我们讨论您的项目。我们在当地市场的专业知识能有效支持您，无论您身在法国的何处。",
+    "contact": "联系我们",
+    "learn-more": "了解更多关于我们的方法"
+  }
+}

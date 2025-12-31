@@ -1,0 +1,81 @@
+{
+  "short-description": "Ekolojik dostu aktivite izleme. Çevrimiçi ayak izinizi eğlenceli bir şekilde izleyin.",
+  "description": "Çevresel etkinizi anlamanıza ve azaltmanıza yardımcı olan bir tarayıcı uzantısı.",
+  "long-description": "Kartrak, kullanıcıların dijital karbon ayak izleri hakkında bilinçlenmelerini sağlayan yenilikçi bir tarayıcı uzantısıdır. Çevrimiçi aktivitenizi izleyerek, Kartrak internet tüketiminiz ve çevresel etkisi hakkında detaylı bilgiler sunar.\n\nUzantı, tarayıcı karbon ayak izinizi hesaplamak için Ecoindex'e dayalı gelişmiş algoritmalar kullanır ve etkinizi azaltmak için kişiselleştirilmiş öneriler sunar. Ecoindex, sitelerin teknik karmaşıklığını, ağırlığını ve enerji verimliliğini analiz ederek çevresel etkisini değerlendiren tanınmış bir metodolojidir.\n\nEğlenceli ve eğitici bir yaklaşım ile, Kartrak çevresel farkındalığı erişilebilir ve ilgi çekici hale getirir.",
+  "features": {
+    "real-time-tracking": {
+      "title": "Gerçek zamanlı izleme",
+      "description": "Dijital karbon ayak izinizi gerçek zamanlı olarak görselleştirin"
+    },
+    "personalized-suggestions": {
+      "title": "Kişiselleştirilmiş öneriler",
+      "description": "Etkinizi azaltmak için özel tavsiyeler alın"
+    },
+    "detailed-stats": {
+      "title": "Detaylı istatistikler",
+      "description": "Tarayıcı alışkanlıklarınızı ve etkilerini analiz edin"
+    },
+    "ecological-goals": {
+      "title": "Ekolojik hedefler",
+      "description": "Hedefler belirleyin ve ilerlemenizi takip edin"
+    }
+  },
+  "technologies": {
+    "typescript": {
+      "description": "Tarayıcı uzantısı"
+    },
+    "react": {
+      "description": "Kullanıcı arayüzü"
+    },
+    "nodejs": {
+      "description": "Backend ve API"
+    },
+    "chrome-api": {
+      "description": "Tarayıcı entegrasyonu"
+    }
+  },
+  "metrics": {
+    "sites-analyzed": {
+      "value": "∞",
+      "label": "Analiz edilen siteler",
+      "description": "Tüm web siteleriyle uyumlu"
+    },
+    "open-source": {
+      "value": "%100",
+      "label": "Açık Kaynak",
+      "description": "Halka açık kaynak kodu"
+    },
+    "confidential": {
+      "value": "%100",
+      "label": "Gizli",
+      "description": "Kullanıcı verisi toplanmaz"
+    }
+  },
+  "screenshots": {
+    "dashboard": {
+      "caption": "Ana kontrol paneli"
+    },
+    "stats": {
+      "caption": "Detaylı istatistikler"
+    }
+  },
+  "challenges": {
+    "carbon-calculation": "Doğru karbon ayak izi hesaplama",
+    "privacy-protection": "Kullanıcı gizliliğini koruma",
+    "background-performance": "Uzantının arka planda performansı",
+    "environmental-data-accuracy": "Çevresel verilerin doğruluğu"
+  },
+  "learnings": {
+    "environmental-impact-complexity": "Çevresel etki hesabının karmaşıklığı",
+    "user-engagement": "Kullanıcı katılımının önemi",
+    "accuracy-performance-balance": "Doğruluk ve performans dengesi",
+    "navigation-ux": "Tarayıcı alışkanlıklarına göre uyarlanan UX"
+  },
+  "future-plans": {
+    "more-browsers": "Daha fazla tarayıcı desteği",
+    "eco-tools-integration": "Diğer çevre dostu araçlarla entegrasyon",
+    "community-features": "Topluluk özellikleri",
+    "personalized-reports": "Kişiselleştirilmiş detaylı raporlar",
+    "auto-close-tabs": "Kullanılmayan sekmelerin otomatik kapanması"
+  }
+}

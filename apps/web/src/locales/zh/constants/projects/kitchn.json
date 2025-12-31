@@ -1,0 +1,82 @@
+{
+  "short-description": "一个现代、高效且高度可定制的 React 和 React Native 组件库，灵感来自 Geist UI 和 Vercel Design.",
+  "description": "一整套旨在创建一致和优雅用户界面的样式组件，由 Tonight Pass 维护.",
+  "long-description": "Kitchn 是一个综合性的 UI 组件库，加速现代网页和移动应用的开发.\n\n受到 Geist UI 和 Vercel Design 的启发，它以简约的设计和易用性脱颖而出，提供了一系列使用样式组件和 TypeScript 构建的优化组件.\n\n每个组件都旨在模块化、高效和高度可定制，允许开发团队快速创建一致的用户界面，同时保持出色的开发者体验.",
+  "features": {
+    "modular-architecture": {
+      "title": "模块化架构",
+      "description": "独立且可重用的组件，设计能够和谐协作"
+    },
+    "flexible-themes": {
+      "title": "灵活主题",
+      "description": "全面支持明暗模式，具有可扩展的主题系统"
+    },
+    "cross-platform": {
+      "title": "跨平台",
+      "description": "对 React 和 React Native 的原生支持，确保所有平台体验一致"
+    },
+    "interactive-docs": {
+      "title": "互动文档",
+      "description": "提供全面的文档，包括示例和快速入门的游乐场"
+    }
+  },
+  "technologies": {
+    "styled-components": {
+      "description": "CSS-in-JS 样式"
+    },
+    "react": {
+      "description": "网页 UI 库"
+    },
+    "react-native": {
+      "description": "原生移动组件"
+    },
+    "typescript": {
+      "description": "类型安全和自动完成"
+    },
+    "storybook": {
+      "description": "互动文档"
+    }
+  },
+  "metrics": {
+    "components": {
+      "value": "35+",
+      "label": "组件",
+      "description": "可重用的 UI 组件"
+    },
+    "downloads": {
+      "value": "20k+",
+      "label": "下载量",
+      "description": "每月下载量"
+    },
+    "github-stars": {
+      "value": "50+",
+      "label": "GitHub 星星",
+      "description": "GitHub 上的星星"
+    }
+  },
+  "screenshots": {
+    "responsive": {
+      "caption": "响应式组件"
+    },
+    "themable": {
+      "caption": "可定制主题"
+    }
+  },
+  "challenges": {
+    "visual-consistency": "保持网页和移动平台之间的完美视觉一致性",
+    "bundle-optimization": "在保持丰富功能的同时优化包的大小",
+    "react-compatibility": "确保与不同 React 版本的兼容性",
+    "backward-compatibility": "在更新期间保证向后兼容性"
+  },
+  "learnings": {
+    "clear-documentation": "清晰详细文档的重要性非常关键",
+    "modular-architecture": "维护性需要模块化架构",
+    "automated-testing": "自动化测试对可靠性的重要性",
+    "developer-experience": "开发者体验对采纳的影响"
+  },
+  "future-plans": {
+    "component-library-expansion": "丰富组件库",
+    "performance-optimization": "持续进行性能优化",
+    "framework-compatibility": "扩展与现代框架的兼容性"
+  }
+}

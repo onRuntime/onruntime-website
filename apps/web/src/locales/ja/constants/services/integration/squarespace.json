@@ -1,0 +1,80 @@
+{
+  "name": "SquareSpace",
+  "description": "SquareSpaceでの統合とカスタマイズ",
+  "hero": {
+    "title": "Squarespaceで洗練されたウェブサイト",
+    "description": "Squarespaceを使って洗練されたオンラインプレゼンスを作成しよう。私たちの専門知識が、あなたのブランドイメージに完璧に適応した美しく機能的なウェブサイトを保証します。"
+  },
+  "features": {
+    "minimalist-design": {
+      "title": "ミニマリストデザイン",
+      "description": "あなたのコンテンツとブランドを際立たせる、エレガントでクリーンなサイトを作成します。"
+    },
+    "smooth-experience": {
+      "title": "スムーズな体験",
+      "description": "直感的なナビゲーションと最適化されたパフォーマンスで、完璧なユーザー体験を提供します。"
+    },
+    "content-management": {
+      "title": "コンテンツ管理",
+      "description": "簡単で直感的な管理インターフェースで、自分のコンテンツを簡単に管理できます。"
+    },
+    "media-integration": {
+      "title": "メディア統合",
+      "description": "動的なギャラリーで、画像やメディアを最適に紹介します。"
+    }
+  },
+  "benefits": {
+    "professional-templates": {
+      "title": "プロフェッショナルなテンプレート",
+      "description": "全業種向けの現代的でカスタマイズ可能なテンプレートが豊富に揃っています。"
+    },
+    "integrated-ecommerce": {
+      "title": "統合されたeコマース",
+      "description": "完全でカスタマイズ可能なオンライン販売ソリューションです。"
+    },
+    "optimal-performance": {
+      "title": "最適なパフォーマンス",
+      "description": "堅牢なインフラストラクチャー上にホストされた、高速かつ安全なサイトです。"
+    },
+    "integrated-marketing": {
+      "title": "統合マーケティング",
+      "description": "ビジネスを成長させるためのマーケティングツールと統計分析です。"
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Squarespaceサイトの作成にはどのくらいの時間がかかりますか？",
+      "answer": "Squarespaceサイトの作成には平均で2〜6週間ほどかかります。プロジェクトの複雑さによりますが、テンプレートの選択、カスタマイズ、コンテンツの統合とテストが含まれます。"
+    },
+    "product-sales": {
+      "question": "Squarespaceサイトで商品を販売できますか？",
+      "answer": "はい、Squarespaceは完全なeコマースソリューションを提供しており、オンラインで商品を販売できるように設定します。在庫管理、安全な支払い、配送オプションも含まれています。"
+    },
+    "content-updates": {
+      "question": "コンテンツの更新は簡単ですか？",
+      "answer": "もちろん！Squarespaceのインターフェースは非常に直感的です。その使い方をトレーニングするので、自分でコンテンツを管理できるようになります。"
+    },
+    "seo-optimization": {
+      "question": "私のサイトはSEO最適化されていますか？",
+      "answer": "はい、私たちはSquarespaceのSEOベストプラクティスを実装し、検索エンジンでの可視性を最適化するための必要な要素を設定します。"
+    },
+    "maintenance-service": {
+      "question": "メンテナンスサービスは提供していますか？",
+      "answer": "はい、更新、技術サポート、Squarespaceサイトの継続的な最適化を含むさまざまなメンテナンスプランを提供しています。"
+    }
+  },
+  "complementary": {
+    "advanced-customization": {
+      "title": "高度なカスタマイズ",
+      "description": "標準のオプションを超えて、サイトをカスタマイズするためのCSSやJavascriptの変更です。"
+    },
+    "content-strategy": {
+      "title": "コンテンツ戦略",
+      "description": "あなたのコンテンツを作成し、最適化するサポートです。"
+    },
+    "user-training": {
+      "title": "ユーザートレーニング",
+      "description": "Squarespaceサイト管理をマスターするための完全なトレーニングです。"
+    }
+  }
+}

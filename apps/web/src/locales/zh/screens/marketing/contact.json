@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "让我们讨论你的项目",
+    "description": "我们总是乐于讨论新项目。联系我分享你的想法，看看我们能怎么帮助你。"
+  },
+  "form": {
+    "name": {
+      "label": "全名",
+      "placeholder": "约翰·多"
+    },
+    "email": {
+      "label": "邮箱",
+      "placeholder": "you@example.com"
+    },
+    "message": {
+      "label": "信息",
+      "placeholder": "描述你的项目..."
+    },
+    "submit": "发送信息",
+    "submitting": "发送中..."
+  },
+  "toast": {
+    "success": {
+      "title": "信息已发送",
+      "description": "我们会尽快回复你。"
+    },
+    "error": {
+      "title": "错误",
+      "description": "发送信息时发生错误",
+      "fallback": "发生了一个错误"
+    }
+  },
+  "info": {
+    "title": "联系信息",
+    "email": {
+      "label": "邮箱"
+    },
+    "offices": {
+      "label": "我们的办公室",
+      "value": "法国鲁昂和巴黎"
+    },
+    "phone": {
+      "label": "电话"
+    }
+  },
+  "hours": {
+    "title": "营业时间",
+    "timezone": "（巴黎时间）",
+    "weekdays": "星期一至星期五:",
+    "weekdays-time": "9:00 - 18:00",
+    "weekend": "周末:",
+    "weekend-time": "关闭"
+  },
+  "tagline": "一个专注于将你的想法转化为数字现实的创意工作室。"
+}

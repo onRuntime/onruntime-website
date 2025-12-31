@@ -1,0 +1,67 @@
+{
+  "back": "返回职位列表",
+  "share": {
+    "button": "分享",
+    "text": "发现这个机会：{jobTitle} 在 onRuntime Studio",
+    "copied": "链接已复制到剪贴板！"
+  },
+  "apply": "现在申请",
+  "published": "发布于",
+  "employment-type": {
+    "full-time": "全职",
+    "part-time": "兼职",
+    "contract": "合同工",
+    "temporary": "临时工",
+    "internship": "实习",
+    "apprenticeship": "学徒"
+  },
+  "workplace-type": {
+    "hybrid": "混合工作",
+    "remote": "远程工作",
+    "on-site": "现场工作"
+  },
+  "salary-format": {
+    "from": "从",
+    "up-to": "最高至",
+    "range": "-"
+  },
+  "sections": {
+    "description": "职位描述",
+    "no-description": "该职位没有详细描述。",
+    "requirements": "要求",
+    "benefits": "福利"
+  },
+  "details": {
+    "title": "职位详情",
+    "department": "部门",
+    "location": "地点",
+    "contract": "合同类型",
+    "salary": "薪资",
+    "workplace": "工作模式"
+  },
+  "interested": {
+    "title": "对这个职位感兴趣吗？",
+    "description": "现在申请，加入我们充满热情的团队。"
+  },
+  "culture": {
+    "title": "我们的公司文化",
+    "description": "在 onRuntime Studio，我们培养一种协作和激励的工作环境，让每个团队成员能够表达自己的创造力并发展技能。我们优先考虑创新、质量和员工的福祉。",
+    "training": {
+      "title": "持续培训",
+      "description": "我们投资于团队的职业发展"
+    },
+    "flexible": {
+      "title": "灵活的环境",
+      "description": "工作与生活的平衡和混合工作"
+    },
+    "projects": {
+      "title": "多样化的项目",
+      "description": "参与多样且富有挑战性的项目"
+    },
+    "learn-more": "了解更多关于我们的团队信息"
+  },
+  "cta": {
+    "title": "准备好迎接挑战吗？",
+    "description": "加入我们的团队，参与激励性的项目，让你能够发展技能并表达创造力。"
+  }
+}

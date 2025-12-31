@@ -37,8 +37,6 @@
     "location": "Location",
     "contract": "Contract type",
     "salary": "Salary",
-    "remote": "Remote work",
-    "remote-possible": "Possible",
     "workplace": "Work mode"
   },
   "interested": {

@@ -1,0 +1,80 @@
+{
+  "name": "Diretrizes de marca",
+  "description": "Criando sua identidade visual completa",
+  "hero": {
+    "title": "Branding & Identidade da Marca",
+    "description": "Traga sua marca à vida com uma identidade visual distinta e memorável. Nossa experiência em branding ajuda você a criar uma imagem de marca que ressoe com seu público e reflita seus valores."
+  },
+  "features": {
+    "visual-identity": {
+      "title": "Identidade visual",
+      "description": "Criando uma identidade única e memorável."
+    },
+    "brand-values": {
+      "title": "Valores da marca",
+      "description": "Expressão visual do seu DNA e valores."
+    },
+    "brand-guidelines": {
+      "title": "Diretrizes de marca",
+      "description": "Documentação completa da sua identidade."
+    },
+    "design-system": {
+      "title": "Sistema de design",
+      "description": "Elementos visuais consistentes e reutilizáveis."
+    }
+  },
+  "benefits": {
+    "recognition": {
+      "title": "Reconhecimento",
+      "description": "Imagem de marca memorável e distinta."
+    },
+    "consistency": {
+      "title": "Consistência",
+      "description": "Comunicação visual unificada em todos os meios."
+    },
+    "trust": {
+      "title": "Confiança",
+      "description": "Credibilidade aumentada com seu público."
+    },
+    "reach": {
+      "title": "Alcance",
+      "description": "Forte impacto visual em todos os canais."
+    }
+  },
+  "faq": {
+    "complete-identity": {
+      "question": "O que uma identidade de marca completa inclui?",
+      "answer": "Uma identidade de marca completa inclui o logotipo, paleta de cores, tipografia, elementos gráficos, tom de voz e regras de uso. Fornecemos um documento detalhado de diretrizes de marca que documenta todos esses elementos e orienta seu uso consistente."
+    },
+    "creation-process": {
+      "question": "Como o processo de criação funciona?",
+      "answer": "O processo começa com uma fase de descoberta para entender sua marca, valores e público. Em seguida, desenvolvemos conceitos criativos, criamos elementos visuais e iteramos com base em seu feedback. O processo termina com a entrega de um documento completo de diretrizes de marca."
+    },
+    "deliverables": {
+      "question": "Quais entregas são fornecidas?",
+      "answer": "Você recebe um pacote completo que inclui: logotipos (diferentes versões), paleta de cores, tipografia, elementos gráficos, templates de documentos, guias de uso e arquivos fonte em todos os formatos necessários."
+    },
+    "uniqueness": {
+      "question": "Como vocês garantem a unicidade da identidade?",
+      "answer": "Realizamos uma pesquisa detalhada do seu mercado e concorrência para criar uma identidade distinta. Também verificamos a disponibilidade de elementos visuais para evitar qualquer conflito com marcas existentes."
+    },
+    "transition": {
+      "question": "Como vocês lidam com a transição para a nova identidade?",
+      "answer": "Fornecemos um plano de implantação gradual que orienta a transição para a nova identidade. Isso inclui recomendações para comunicação interna e externa, além de um cronograma de implementação."
+    }
+  },
+  "complementary": {
+    "marketing-kit": {
+      "title": "Kit de marketing",
+      "description": "Criação de materiais de marketing consistentes."
+    },
+    "social-media": {
+      "title": "Mídias sociais",
+      "description": "Adaptação para mídias sociais."
+    },
+    "print-materials": {
+      "title": "Materiais impressos",
+      "description": "Criação de materiais impressos."
+    }
+  }
+}

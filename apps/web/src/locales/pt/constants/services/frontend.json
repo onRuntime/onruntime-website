@@ -1,0 +1,48 @@
+{
+  "name": "Desenvolvimento front-end",
+  "description": "Criando aplicativos web e móveis de alto desempenho",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Arquitetura escalável",
+      "description": "Aplicativos construídos em arquiteturas modernas e escaláveis, prontos para a evolução do seu projeto."
+    },
+    "optimal-performance": {
+      "title": "Desempenho ótimo",
+      "description": "Foco em desempenho com técnicas avançadas de otimização e caching."
+    },
+    "maintainable-code": {
+      "title": "Código manutenível",
+      "description": "Arquitetura limpa e modular que permite fácil manutenção e iterações rápidas."
+    },
+    "enhanced-security": {
+      "title": "Segurança aprimorada",
+      "description": "Implementação das melhores práticas de segurança frontend para proteger seus usuários."
+    }
+  },
+  "process": {
+    "technical-architecture": {
+      "title": "Arquitetura técnica",
+      "description": "Definição da arquitetura frontend, seleção de tecnologia e configuração do ambiente de desenvolvimento."
+    },
+    "project-setup": {
+      "title": "Configuração do projeto",
+      "description": "Configuração do projeto com melhores práticas de desenvolvimento, testes e implantação contínua."
+    },
+    "feature-development": {
+      "title": "Desenvolvimento de recursos",
+      "description": "Implementação de recursos com foco na qualidade do código e desempenho."
+    },
+    "state-management": {
+      "title": "Gerenciamento de estado",
+      "description": "Configuração de gerenciamento de estado robusto e performático para os dados da aplicação."
+    },
+    "testing-quality": {
+      "title": "Testes e qualidade",
+      "description": "Implementação de testes automatizados e processos de garantia de qualidade."
+    },
+    "optimization-monitoring": {
+      "title": "Otimização e monitoramento",
+      "description": "Configuração de ferramentas de otimização de desempenho e monitoramento."
+    }
+  }
+}

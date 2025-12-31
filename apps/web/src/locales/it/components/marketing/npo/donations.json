@@ -1,0 +1,19 @@
+{
+  "title": "Fai una donazione",
+  "description": "Sostieni la nostra organizzazione e i nostri progetti facendo una donazione una tantum. Il tuo contributo ci aiuta a finanziare le nostre attività, eventi e strumenti di sviluppo.",
+  "other": "Altro",
+  "custom-amount": {
+    "label": "Importo personalizzato",
+    "placeholder": "Inserisci un importo"
+  },
+  "button": {
+    "donate": "Dona",
+    "processing": "Elaborazione..."
+  },
+  "secure-payment": "Pagamento sicuro con Stripe",
+  "toast": {
+    "title": "Pagamento simulato",
+    "description-prefix": "La tua donazione di",
+    "description-suffix": "è stata elaborata con successo. In un'implementazione reale, verresti reindirizzato a Stripe."
+  }
+}

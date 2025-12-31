@@ -1,0 +1,68 @@
+{
+  "short-description": "당신의 취향에 맞는 최고의 이벤트를 발견하고 예약해 보세요.",
+  "description": "Tonight Pass는 당신의 선호에 기반한 개인화 추천 시스템을 통해 이벤트 발견과 예약을 간편하게 해주는 혁신적인 플랫폼입니다.",
+  "long-description": "Tonight Pass는 사람들이 이벤트를 발견하고 참여하는 방식을 혁신적으로 변화시킵니다. 우리의 플랫폼은 기술과 사용자 경험을 결합하여 개인화된 추천과 간편한 티켓팅을 제공합니다.\n\n이 플랫폼은 이벤트 주최자와 참석자를 연결하여 예약 관리, 스마트 추천, 데이터 분석을 위한 완벽한 솔루션을 제공합니다. 이 애플리케이션은 이벤트 발견 경험을 최적화하고 주최자를 위한 관리를 간소화하도록 설계되었습니다.",
+  "features": {
+    "ticketing": {
+      "title": "간편한 티켓팅",
+      "description": "모든 종류의 이벤트에 대해 몇 번의 클릭만으로 티켓을 예약해 보세요."
+    },
+    "recommendations": {
+      "title": "개인화된 추천",
+      "description": "당신의 취향에 맞는 이벤트를 발견해 보세요."
+    },
+    "e-tickets": {
+      "title": "안전한 전자 티켓",
+      "description": "안전한 디지털 티켓으로 이벤트에 접근하세요."
+    }
+  },
+  "technologies": {
+    "react": {
+      "description": "웹 및 모바일 애플리케이션"
+    },
+    "nestjs": {
+      "description": "백엔드 API"
+    },
+    "mongodb": {
+      "description": "주 데이터베이스"
+    }
+  },
+  "metrics": {
+    "time-saved": {
+      "value": "45분",
+      "label": "절약된 시간",
+      "description": "이벤트 검색당 평균"
+    },
+    "coverage": {
+      "value": "100%",
+      "label": "커버리지",
+      "description": "프랑스 전역에서 사용 가능"
+    },
+    "ease": {
+      "value": "1 클릭",
+      "label": "편의성",
+      "description": "어떤 이벤트든지 예약하기 위해"
+    }
+  },
+  "screenshots": {},
+  "challenges": {
+    "ticketing-experience": "부드럽고 직관적인 티켓팅 경험 개발",
+    "recommendation-system": "개인화된 추천 시스템 만들기",
+    "scalable-infrastructure": "확장 가능한 인프라 구축",
+    "traffic-peaks": "티켓 출시 시의 트래픽 피크 관리"
+  },
+  "learnings": {
+    "booking-simplicity": "예약 과정의 단순함 중요성",
+    "event-type-interface": "다양한 이벤트 유형에 맞춘 인터페이스 필요성",
+    "database-management": "이벤트 데이터베이스의 효율적 관리",
+    "speed-reliability-balance": "속도와 서비스 신뢰성 간의 균형"
+  },
+  "future-plans": {
+    "venue-kiosks": "장소에 키오스크 배포",
+    "recruitment-platform": "이벤트 채용 플랫폼 출시",
+    "venue-rental": "장소 대여 서비스 구축",
+    "supplier-network": "이벤트 공급업체 네트워크 구축",
+    "organizer-tools": "주최자를 위한 고급 도구 개발",
+    "recommendation-improvement": "추천 시스템 개선"
+  }
+}

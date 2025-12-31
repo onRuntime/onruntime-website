@@ -44,13 +44,5 @@
       "title": "Optimization and monitoring",
       "description": "Performance optimization and monitoring tools setup."
     }
-  },
-  "process-services": {
-    "technical-architecture": ["Architecture", "Technical consulting"],
-    "project-setup": ["Technical setup", "CI/CD"],
-    "feature-development": ["Frontend development", "React", "Next.js"],
-    "state-management": ["State Management", "API Integration"],
-    "testing-quality": ["Unit tests", "E2E tests"],
-    "optimization-monitoring": ["Performance", "Analytics"]
   }
 }

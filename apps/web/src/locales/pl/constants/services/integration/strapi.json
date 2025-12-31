@@ -1,0 +1,80 @@
+{
+  "name": "Strapi",
+  "description": "Rozwój Headless CMS przy użyciu Strapi",
+  "hero": {
+    "title": "Rozwój Headless CMS przy użyciu Strapi",
+    "description": "Twórz nowoczesne aplikacje ze Strapi. Nasza wiedza gwarantuje elastyczne, skalowalne rozwiązanie do zarządzania treścią idealnie dostosowane do twoich potrzeb."
+  },
+  "features": {
+    "custom-api": {
+      "title": "Niestandardowe API",
+      "description": "Tworzenie niestandardowych interfejsów API RESTful i GraphQL dla wszystkich twoich potrzeb."
+    },
+    "flexible-administration": {
+      "title": "Elastyczna administracja",
+      "description": "Dostosowywany interfejs administratora zgodnie z procesami twojego biznesu."
+    },
+    "optimal-performance": {
+      "title": "Optymalna wydajność",
+      "description": "Architektura o wysokiej wydajności zapewniająca szybkie czasy odpowiedzi."
+    },
+    "advanced-security": {
+      "title": "Zaawansowane bezpieczeństwo",
+      "description": "Robustna ochrona twoich danych i interfejsów API."
+    }
+  },
+  "benefits": {
+    "100-javascript": {
+      "title": "100% JavaScript",
+      "description": "Zjednoczony rozwój w JavaScript/Node.js dla większej wydajności."
+    },
+    "flexible-models": {
+      "title": "Elastyczne modele",
+      "description": "Tworzenie niestandardowych modeli treści bez ograniczeń."
+    },
+    "role-management": {
+      "title": "Zarządzanie rolami",
+      "description": "Precyzyjna kontrola dostępu i uprawnień użytkowników."
+    },
+    "advanced-workflows": {
+      "title": "Zaawansowane przepływy pracy",
+      "description": "Automatyzacja procesów publikacji i walidacji."
+    }
+  },
+  "faq": {
+    "setup-timeline": {
+      "question": "Ile czasu zajmuje konfiguracja projektu Strapi?",
+      "answer": "Średni czas konfiguracji projektu Strapi wynosi od 4 do 12 tygodni, w zależności od złożoności. To obejmuje projektowanie modeli treści, rozwój API, dostosowywanie panelu administracyjnego i testowanie."
+    },
+    "multilingual": {
+      "question": "Czy Strapi obsługuje treści wielojęzyczne?",
+      "answer": "Tak, Strapi natywnie obsługuje treści wielojęzyczne. Możemy skonfigurować i dostosować zarządzanie tłumaczeniami zgodnie z twoimi specyficznymi potrzebami."
+    },
+    "content-migration": {
+      "question": "Czy można migrować nasze istniejące treści do Strapi?",
+      "answer": "Tak, oferujemy kompleksową usługę migracji treści do Strapi, w tym analizę twoich istniejących danych, tworzenie dostosowanych modeli oraz import treści."
+    },
+    "deployment-hosting": {
+      "question": "Jak radzicie sobie z wdrożeniem i hostingiem?",
+      "answer": "Możemy wdrożyć Strapi na różnych platformach chmurowych (AWS, Google Cloud, DigitalOcean...) i skonfigurować skalowalną infrastrukturę z środowiskami deweloperskimi, testowymi i produkcyjnymi."
+    },
+    "custom-plugins": {
+      "question": "Czy oferujecie rozwój niestandardowych wtyczek?",
+      "answer": "Tak, rozwijamy niestandardowe wtyczki Strapi, aby rozszerzyć funkcjonalność zgodnie z twoimi potrzebami: konkretne integracje, niestandardowe przepływy pracy, dedykowane interfejsy administracyjne itd."
+    }
+  },
+  "complementary": {
+    "frontend-development": {
+      "title": "Rozwój frontend",
+      "description": "Tworzenie aplikacji frontendowych połączonych z twoim API Strapi."
+    },
+    "integrations": {
+      "title": "Integracje",
+      "description": "Połączenie z twoimi istniejącymi narzędziami i usługami zewnętrznymi."
+    },
+    "strapi-training": {
+      "title": "Szkolenie z Strapi",
+      "description": "Dostosowane szkolenie, aby opanować zarządzanie twoim CMS."
+    }
+  }
+}

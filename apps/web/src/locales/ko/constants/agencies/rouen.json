@@ -1,0 +1,79 @@
+{
+  "title": "루앙의 웹 개발 | 노르망디 기업을 위한 디지털 솔루션",
+  "description": "루앙에서 웹사이트나 모바일 애플리케이션을 만들어보세요. 지역 산업의 도전에 맞춘 맞춤형 디지털 솔루션을 제공합니다.",
+  "hero": {
+    "title": "루앙의 웹 & 모바일 개발",
+    "description": "우리는 루앙과 노르망디의 기업들이 시장의 구체적인 도전 과제를 잘 해결할 수 있도록 맞춤형 웹 솔루션으로 디지털화 하는 데 도움을 줍니다."
+  },
+  "intro": "노르망디의 경제 구조는 우리가 잘 알고 있는 특정한 디지털 도전 과제를 가지고 있어요. 제조업, 식품 가공업, 내륙 물류를 아우르는 관련 솔루션을 통해 루앙 기업의 정확한 요구를 충족할 수 있는 디지털 솔루션을 창출합니다.",
+  "expertise": "우리 팀은 루앙과 그 지역 기업들에 완벽하게 맞춘 웹사이트, 애플리케이션, 전자상거래 솔루션을 설계합니다. 당신의 시장 도전을 잘 이해하고, 당신의 비즈니스가 돋보이도록 돕는 디지털 솔루션을 제공합니다.",
+  "why-choose-us": "우리는 노르망디 시장에 대한 깊은 이해로 지역 기업의 구체적인 도전 과제에 완벽하게 맞춘 디지털 솔루션을 개발할 수 있어요. 파리의 에이전시들과는 달리 우리는 루앙 경제 구조의 미묘함을 잘 알고 있으며, 가성비가 뛰어난 맞춤형 솔루션을 제공합니다.",
+  "key-business-sectors": {
+    "industry": "산업",
+    "agrifood": "식품 가공",
+    "logistics": "물류",
+    "local-commerce": "지역 상업"
+  },
+  "local-challenges": {
+    "traditional-industries-digitalization": "국제 경쟁에 직면한 전통적인 노르망디 산업의 디지털화",
+    "logistics-optimization": "혁신적인 디지털 솔루션을 통한 내륙과 항만 물류 최적화",
+    "local-ecommerce-needs": "지역 생산자와 장인에 맞춘 전자상거래 솔루션 필요",
+    "sme-digital-transition": "예산을 관리하면서 노르망디 중소기업의 디지털 전환"
+  },
+  "benefits": {
+    "normandy-specific-solutions": "노르망디 기업의 특성에 맞춘 맞춤형 솔루션",
+    "industrial-agrifood-expertise": "지역 산업 및 식품 가공 분야에 대한 날카로운 전문성",
+    "competitive-pricing": "파리 에이전시와 비교해 경쟁력 있는 가격",
+    "seine-logistics-knowledge": "세느 강축과 관련된 물류 문제에 대한 깊은 지식",
+    "personalized-support": "디지털 프로젝트 전반에 걸친 맞춤형 지원"
+  },
+  "primary-stat": {
+    "label": "산업 부문"
+  },
+  "strengths": {
+    "industrial-websites": {
+      "title": "산업 웹사이트",
+      "description": "노르망디 제조 기업에 맞춘 고성능 사이트."
+    },
+    "local-ecommerce": {
+      "title": "지역 전자상거래",
+      "description": "지역 생산자와 장인을 위한 온라인 판매 솔루션."
+    },
+    "business-applications": {
+      "title": "비즈니스 애플리케이션",
+      "description": "귀하의 프로세스를 최적화하기 위한 맞춤형 디지털 도구."
+    },
+    "sme-digitalization": {
+      "title": "중소기업 디지털화",
+      "description": "디지털 전환을 위한 완벽한 지원."
+    }
+  },
+  "focused-services": {
+    "professional-websites": {
+      "name": "전문 웹사이트",
+      "description": "루앙의 로컬 SEO에 최적화된 고성능 디지털 쇼케이스."
+    },
+    "regional-ecommerce": {
+      "name": "지역 전자상거래",
+      "description": "노르망디 생산자와 상인을 위한 온라인 상점."
+    },
+    "business-applications": {
+      "name": "비즈니스 애플리케이션",
+      "description": "지역 산업 및 물류를 위한 맞춤형 소프트웨어."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "전문성",
+      "description": "수년간의 경험"
+    },
+    "satisfaction": {
+      "label": "만족도",
+      "description": "만족한 고객들"
+    },
+    "average-time": {
+      "label": "평균 소요 시간",
+      "description": "완료 소요 주수"
+    }
+  }
+}

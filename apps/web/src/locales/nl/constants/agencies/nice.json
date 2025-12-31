@@ -1,0 +1,79 @@
+{
+  "title": "Webontwikkeling in Nice | Digitale oplossingen voor Côte d'Azur bedrijven",
+  "description": "Creëer je website of mobiele applicatie in Nice. Op maat gemaakte digitale oplossingen voor Côte d'Azur bedrijven, afgestemd op de lokale uitdagingen van je sector.",
+  "hero": {
+    "title": "Web & Mobiele Ontwikkeling in Nice",
+    "description": "We helpen bedrijven in Nice en de Franse Rivièra om te digitaliseren met op maat gemaakte weboplossingen, perfect aangepast aan de specifieke uitdagingen van de Azureanse markt."
+  },
+  "intro": "Tussen de Middellandse Zee en de Alpen profiteert Nice van internationale invloed en een gediversifieerde economie waar toerisme innovatie ontmoet. Onze digitale expertise stelt bedrijven in Nice in staat zich te onderscheiden in een competitieve omgeving waar beeld en excellentie van groot belang zijn.",
+  "expertise": "Ons team ontwerpt websites, applicaties en e-commerce oplossingen die perfect zijn afgestemd op bedrijven in Nice en de Franse Rivièra. We begrijpen de hoge standaarden van je lokale markt en bieden digitale oplossingen die de premium positionering, die specifiek is voor de regio, versterken.",
+  "why-choose-us": "Onze diepgaande kennis van de Azureaanse markt stelt ons in staat digitale oplossingen te ontwikkelen die perfect zijn aangepast aan de specifieke uitdagingen van lokale bedrijven. We begrijpen de internationale dimensie van Nice en de reputatie voor excellentie en integreren deze aspecten in elk project om verfijnde en hoge-presterende digitale ervaringen te creëren.",
+  "key-business-sectors": {
+    "luxury-tourism": "Luxe Toerisme",
+    "real-estate": "Vastgoed",
+    "events": "Evenementen",
+    "health-wellness": "Gezondheid & Wellness"
+  },
+  "local-challenges": {
+    "luxury-tourism-digitalization": "Digitalisering van de high-end toerismesector aan de Franse Rivièra",
+    "innovative-real-estate-solutions": "Behoefte aan innovatieve vastgoedoplossingen voor een veeleisende internationale markt",
+    "events-digital-showcase": "Digitale showcase van evenementen (festivals, conferenties, tentoonstellingen)",
+    "health-wellness-transformation": "Digitale transformatie van de gezondheid en wellness sector in een regio die bekend staat om de kwaliteit van leven"
+  },
+  "benefits": {
+    "international-clientele-solutions": "Op maat gemaakte oplossingen aangepast aan een veeleisende internationale klantenkring",
+    "premium-interfaces-expertise": "Scherm expertise in premium interfaces en gebruikerservaring",
+    "azurean-market-knowledge": "Diepgaande kennis van de Azureaanse markt en haar specificiteiten",
+    "multilingual-applications": "Meertalig toepassingen aangepast aan de internationale klantenkring van de Franse Rivièra",
+    "personalized-support": "Persoonlijke ondersteuning gedurende je digitale project"
+  },
+  "primary-stat": {
+    "label": "luxe toerisme"
+  },
+  "strengths": {
+    "premium-experience": {
+      "title": "Premium Ervaring",
+      "description": "High-end sites en applicaties voor luxe toerisme en gastvrijheid."
+    },
+    "digital-real-estate": {
+      "title": "Digitale Vastgoed",
+      "description": "Innovatieve oplossingen voor vastgoedbedrijven en ontwikkelaars."
+    },
+    "event-platforms": {
+      "title": "Evenement Platforms",
+      "description": "Sites en applicaties voor festivals, conferenties en prestigieuze evenementen."
+    },
+    "connected-wellness": {
+      "title": "Verbonden Wellness",
+      "description": "Digitale oplossingen voor klinieken, spa's en wellnesscentra."
+    }
+  },
+  "focused-services": {
+    "premium-websites": {
+      "name": "Premium Websites",
+      "description": "High-end digitale etalages voor hotels, restaurants en luxe boetieks."
+    },
+    "real-estate-applications": {
+      "name": "Vastgoedapplicaties",
+      "description": "Op maat gemaakte oplossingen voor het presenteren en beheren van uitzonderlijke eigendommen."
+    },
+    "visual-identity": {
+      "name": "Visuele Identiteit",
+      "description": "Elegante en verfijnde UI/UX design voor prestigieuze merken en instellingen."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Jaren ervaring"
+    },
+    "satisfaction": {
+      "label": "Tevredenheid",
+      "description": "Tevreden klanten"
+    },
+    "average-time": {
+      "label": "Gemiddelde Tijd",
+      "description": "Weeken voor voltooiing"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "数据库",
+  "description": "数据库架构和优化",
+  "hero": {
+    "title": "数据库架构",
+    "description": "设计和优化你的数据库，以实现最佳性能和最大可扩展性。我们的专业知识保证了一个强大的架构，满足你当前和未来的需求。"
+  },
+  "features": {
+    "optimized-architecture": {
+      "title": "优化架构",
+      "description": "智能设计的模式和关系，以实现最佳性能。"
+    },
+    "enhanced-security": {
+      "title": "增强安全性",
+      "description": "对敏感数据的强大保护和符合标准的保证。"
+    },
+    "high-performance": {
+      "title": "高性能",
+      "description": "查询和索引优化，以实现最小的响应时间。"
+    },
+    "backup-recovery": {
+      "title": "备份与恢复",
+      "description": "可靠的备份和恢复策略。"
+    }
+  },
+  "benefits": {
+    "horizontal-scalability": {
+      "title": "水平可扩展性",
+      "description": "为增长和扩展设计的架构。"
+    },
+    "replication": {
+      "title": "复制",
+      "description": "高可用性和地理分布的数据。"
+    },
+    "advanced-monitoring": {
+      "title": "高级监控",
+      "description": "对性能和健康状态的实时跟踪。"
+    },
+    "optimized-search": {
+      "title": "优化搜索",
+      "description": "智能索引以实现快速搜索。"
+    }
+  },
+  "faq": {
+    "sql-vs-nosql": {
+      "question": "如何在 SQL 和 NoSQL 之间做出选择？",
+      "answer": "选择取决于你的具体需求。SQL 数据库非常适合具有复杂关系的结构化数据，而 NoSQL 在处理非结构化数据和水平可扩展性方面表现更好。我们会根据你的用例引导你选择最佳解决方案。"
+    },
+    "data-security": {
+      "question": "你们如何处理数据安全？",
+      "answer": "我们实施多层安全策略：对敏感数据加密，细粒度访问控制，访问审计，定期备份，以及遵守安全标准（GDPR等）。我们还会定期进行安全测试。"
+    },
+    "performance-optimization": {
+      "question": "你们如何优化性能？",
+      "answer": "我们使用多种技术：架构和查询优化，智能索引，缓存，数据分区以及持续监控。我们定期分析性能，以识别优化的机会。"
+    },
+    "migration-services": {
+      "question": "你们提供迁移服务吗？",
+      "answer": "是的，我们提供全方位的数据库迁移服务：现有系统的分析，规划，测试，最小中断的数据迁移，以及迁移后的验证。我们确保数据的持续性和完整性。"
+    },
+    "data-availability": {
+      "question": "你们如何确保数据可用性？",
+      "answer": "我们建立高可用架构，采用复制，集群和灾难恢复计划。我们定期备份并测试恢复程序。"
+    }
+  },
+  "complementary": {
+    "data-migration": {
+      "title": "数据迁移",
+      "description": "从你现有系统进行安全传输。"
+    },
+    "audit-optimization": {
+      "title": "审计与优化",
+      "description": "性能分析和建议。"
+    },
+    "monitoring-24-7": {
+      "title": "24/7 监控",
+      "description": "持续监控和实时警报。"
+    }
+  }
+}

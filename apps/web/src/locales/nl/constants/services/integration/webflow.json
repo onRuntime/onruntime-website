@@ -1,0 +1,80 @@
+{
+  "name": "Webflow",
+  "description": "Creëren van moderne websites met Webflow",
+  "hero": {
+    "title": "Professionele Webflow ontwikkeling",
+    "description": "Breng je visie tot leven met Webflow. Onze expertise garandeert een moderne, interactieve website die perfect is afgestemd op jouw behoeften, zonder concessies te doen aan kwaliteit."
+  },
+  "features": {
+    "advanced-visual-design": {
+      "title": "Geavanceerd visueel ontwerp",
+      "description": "Creëren van unieke interfaces en geavanceerde animaties zonder de beperkingen van traditionele codering."
+    },
+    "optimal-performance": {
+      "title": "Optimale prestaties",
+      "description": "Snelle en responsieve sites geoptimaliseerd voor alle apparaten en browsers."
+    },
+    "rich-interactions": {
+      "title": "Rijke interacties",
+      "description": "Vlotte gebruikersanimaties en interacties voor een moderne en boeiende webervaring."
+    },
+    "integrated-cms": {
+      "title": "Geïntegreerd CMS",
+      "description": "Krachtig en flexibel contentbeheersysteem voor eenvoudige updates."
+    }
+  },
+  "benefits": {
+    "visual-development": {
+      "title": "Visuele ontwikkeling",
+      "description": "Creëren van complexe sites zonder code te schrijven, terwijl je volledige controle over het ontwerp behoudt."
+    },
+    "native-seo": {
+      "title": "Native SEO",
+      "description": "Ingebouwde SEO-tools en structuur geoptimaliseerd voor zoekmachines."
+    },
+    "responsive-by-default": {
+      "title": "Responsief standaard",
+      "description": "Ontwerp perfect afgestemd op alle schermen, van mobiel tot groot."
+    },
+    "optimized-hosting": {
+      "title": "Geoptimaliseerde hosting",
+      "description": "Robuuste cloudinfrastructuur met een wereldwijde CDN voor optimale prestaties."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Hoe lang duurt het om een Webflow-site te maken?",
+      "answer": "De gemiddelde tijd om een Webflow-site te maken varieert van 3 tot 8 weken, afhankelijk van de complexiteit van het project. Dit omvat ontwerp, ontwikkeling van interacties, integratie van inhoud en testen."
+    },
+    "self-update": {
+      "question": "Kan ik zelf mijn site gemakkelijk bijwerken?",
+      "answer": "Zeker! Webflow heeft een intuïtief CMS dat we aanpassen aan jouw behoeften. We trainen je in het gebruik ervan, zodat je je inhoud onafhankelijk kunt beheren."
+    },
+    "ecommerce": {
+      "question": "Is Webflow geschikt voor e-commerce sites?",
+      "answer": "Ja, Webflow biedt een robuuste e-commerceoplossing die we kunnen aanpassen om je online winkel met geavanceerde functies en een uniek ontwerp te creëren."
+    },
+    "animations-interactions": {
+      "question": "Hoe ga je om met animaties en interacties?",
+      "answer": "Webflow maakt het mogelijk om geavanceerde animaties en interacties zonder code te creëren. We ontwerpen soepele en professionele interactieve ervaringen terwijl we optimale prestaties behouden."
+    },
+    "seo-quality": {
+      "question": "Wat is de SEO-kwaliteit met Webflow?",
+      "answer": "Webflow genereert schone, SEO-geoptimaliseerde code. We implementeren SEO-best practices om je zichtbaarheid op zoekmachines te maximaliseren."
+    }
+  },
+  "complementary": {
+    "custom-integrations": {
+      "title": "Aangepaste integraties",
+      "description": "Verbonden met je favoriete derde partijen tools en diensten."
+    },
+    "digital-strategy": {
+      "title": "Digitale strategie",
+      "description": "Ondersteuning bij je strategie voor online aanwezigheid."
+    },
+    "webflow-training": {
+      "title": "Webflow-training",
+      "description": "Aangepaste training om je sitebeheer te beheersen."
+    }
+  }
+}

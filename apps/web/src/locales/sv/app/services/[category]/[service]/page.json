@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Tjänsten hittades inte",
+      "description": "Denna tjänst finns inte."
+    }
+  },
+  "features": {
+    "title": "Excellens i {service}",
+    "description": "Vår expertis inom {service} garanterar professionella och högpresterande lösningar."
+  },
+  "benefits": {
+    "title": "Professionell {service}",
+    "description": "Upptäck fördelarna med en professionell {service} tjänst."
+  },
+  "testimonials": {
+    "title": "De litar på oss",
+    "description": "Upptäck vår feedback från kunder om deras {service} projekt"
+  },
+  "faq": {
+    "title": "Vanliga frågor",
+    "description": "Allt du behöver veta om vår {service} tjänst"
+  },
+  "complementary": {
+    "title": "Kompletterande tjänster",
+    "description": "Optimera ditt {service} projekt med våra ytterligare tjänster."
+  }
+}

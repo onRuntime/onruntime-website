@@ -1,0 +1,48 @@
+{
+  "name": "Integrazione",
+  "description": "Integrazione su principali piattaforme di e-commerce e CMS",
+  "benefits": {
+    "clean-maintainable-code": {
+      "title": "Codice pulito e manutenibile",
+      "description": "Integrazione con elevati standard di codice e architettura progettata per la manutenibilità a lungo termine."
+    },
+    "optimized-performance": {
+      "title": "Prestazioni ottimizzate",
+      "description": "Siti web veloci e fluidi grazie a tecniche di ottimizzazione avanzate e best practices."
+    },
+    "responsive-design": {
+      "title": "Design responsivo",
+      "description": "Perfetta adattabilità a tutti gli schermi e dispositivi per un'esperienza utente coerente."
+    },
+    "smooth-animations": {
+      "title": "Animazioni fluide",
+      "description": "Integrazione di animazioni curate per arricchire l'esperienza utente senza compromettere le prestazioni."
+    }
+  },
+  "process": {
+    "mockup-analysis": {
+      "title": "Analisi del mockup",
+      "description": "Studio approfondito dei mockup per identificare componenti, interazioni e punti tecnici da tenere d'occhio."
+    },
+    "technical-architecture": {
+      "title": "Architettura tecnica",
+      "description": "Definizione dell'architettura frontend e selezione delle tecnologie adatte al progetto."
+    },
+    "component-development": {
+      "title": "Sviluppo di componenti",
+      "description": "Creazione di componenti riutilizzabili seguendo i principi del design system."
+    },
+    "responsive-integration": {
+      "title": "Integrazione responsiva",
+      "description": "Adattamento del design per tutti i formati di schermo con particolare attenzione all'esperienza mobile."
+    },
+    "optimization": {
+      "title": "Ottimizzazione",
+      "description": "Ottimizzazione delle prestazioni, accessibilità e SEO tecnico."
+    },
+    "testing-validation": {
+      "title": "Testing e validazione",
+      "description": "Test approfonditi su diversi browser e dispositivi per garantire un'esperienza utente ottimale."
+    }
+  }
+}

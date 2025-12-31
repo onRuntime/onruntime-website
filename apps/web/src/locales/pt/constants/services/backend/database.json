@@ -1,0 +1,80 @@
+{
+  "name": "Bancos de Dados",
+  "description": "Arquitetura e otimização de banco de dados",
+  "hero": {
+    "title": "Arquitetura de Banco de Dados",
+    "description": "Desenhe e otimize seus bancos de dados para um desempenho ideal e máxima escalabilidade. Nossa experiência garante uma arquitetura robusta que atende suas necessidades atuais e futuras."
+  },
+  "features": {
+    "optimized-architecture": {
+      "title": "Arquitetura otimizada",
+      "description": "Design inteligente de esquemas e relacionamentos para desempenho ideal."
+    },
+    "enhanced-security": {
+      "title": "Segurança aprimorada",
+      "description": "Proteção robusta de dados sensíveis e conformidade com normas."
+    },
+    "high-performance": {
+      "title": "Alto desempenho",
+      "description": "Otimização de consultas e índices para tempos de resposta mínimos."
+    },
+    "backup-recovery": {
+      "title": "Backup e Recuperação",
+      "description": "Estratégias confiáveis de backup e restauração."
+    }
+  },
+  "benefits": {
+    "horizontal-scalability": {
+      "title": "Escalabilidade horizontal",
+      "description": "Arquitetura projetada para crescimento e escalabilidade."
+    },
+    "replication": {
+      "title": "Replicação",
+      "description": "Alta disponibilidade e distribuição geográfica de dados."
+    },
+    "advanced-monitoring": {
+      "title": "Monitoramento avançado",
+      "description": "Acompanhamento em tempo real de desempenho e saúde."
+    },
+    "optimized-search": {
+      "title": "Busca otimizada",
+      "description": "Indexação inteligente para buscas rápidas."
+    }
+  },
+  "faq": {
+    "sql-vs-nosql": {
+      "question": "Como escolher entre SQL e NoSQL?",
+      "answer": "A escolha depende das suas necessidades específicas. Bancos de dados SQL são ideais para dados estruturados com relacionamentos complexos, enquanto NoSQL se destaca no manuseio de dados não estruturados e escalabilidade horizontal. Nós te guiamos para a melhor solução com base nos seus casos de uso."
+    },
+    "data-security": {
+      "question": "Como vocês lidam com a segurança de dados?",
+      "answer": "Implementamos várias camadas de segurança: criptografia de dados sensíveis, controle de acesso granular, auditoria de acesso, backups regulares e conformidade com padrões de segurança (GDPR, etc.). Também realizamos testes de segurança regularmente."
+    },
+    "performance-optimization": {
+      "question": "Como vocês otimizam o desempenho?",
+      "answer": "Usamos várias técnicas: otimização de esquemas e consultas, indexação inteligente, cache, particionamento de dados e monitoramento contínuo. Analisamos regularmente o desempenho para identificar oportunidades de otimização."
+    },
+    "migration-services": {
+      "question": "Vocês oferecem serviços de migração?",
+      "answer": "Sim, cuidamos das migrações de banco de dados de forma completa: análise de sistemas existentes, planejamento, testes, migração de dados com interrupção mínima e validação pós-migração. Garantimos a consistência e integridade dos dados."
+    },
+    "data-availability": {
+      "question": "Como vocês garantem a disponibilidade de dados?",
+      "answer": "Configuramos arquiteturas de alta disponibilidade com replicação, clustering e planos de recuperação de desastres. Realizamos backups regulares e testamos os procedimentos de restauração."
+    }
+  },
+  "complementary": {
+    "data-migration": {
+      "title": "Migração de Dados",
+      "description": "Transferência segura de seus sistemas existentes."
+    },
+    "audit-optimization": {
+      "title": "Auditoria e Otimização",
+      "description": "Análise de desempenho e recomendações."
+    },
+    "monitoring-24-7": {
+      "title": "Monitoramento 24/7",
+      "description": "Vigilância contínua e alertas em tempo real."
+    }
+  }
+}

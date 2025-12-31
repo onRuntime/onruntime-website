@@ -1,0 +1,80 @@
+{
+  "name": "WordPress",
+  "description": "Entwicklung von maßgeschneiderten WordPress-Webseiten",
+  "hero": {
+    "title": "Maßgeschneiderte WordPress-Entwicklung",
+    "description": "Erstelle eine professionelle Webseite, die dich widerspiegelt, mit WordPress. Unser Fachwissen garantiert eine leistungsstarke, sichere Seite, die perfekt auf deine Bedürfnisse zugeschnitten ist."
+  },
+  "features": {
+    "custom-themes": {
+      "title": "Maßgeschneiderte Themes",
+      "description": "Erstellung von individuellen Themes, die deine Identität widerspiegeln und genau deinen Bedürfnissen entsprechen."
+    },
+    "optimized-performance": {
+      "title": "Optimierte Leistung",
+      "description": "Fortgeschrittene Optimierung, um schnelle Ladezeiten und ein reibungsloses Nutzererlebnis zu gewährleisten."
+    },
+    "enhanced-security": {
+      "title": "Erweiterte Sicherheit",
+      "description": "Implementierung von Sicherheitsbest Practices, um deine Seite und deine Daten zu schützen."
+    },
+    "simplified-administration": {
+      "title": "Vereinfachte Verwaltung",
+      "description": "Individuelle und intuitive Admin-Oberfläche für ein einfaches Content-Management."
+    }
+  },
+  "benefits": {
+    "intuitive-administration": {
+      "title": "Intuitive Verwaltung",
+      "description": "Einfache und intuitive Verwaltungsoberfläche, um deine Inhalte unabhängig zu verwalten."
+    },
+    "seo-optimized": {
+      "title": "SEO optimiert",
+      "description": "Strukturiert für natürliche Suche mit integrierten SEO-Tools."
+    },
+    "powerful-extensions": {
+      "title": "Leistungsstarke Erweiterungen",
+      "description": "Zugang zu tausenden von Plugins, um die Funktionalität deiner Seite zu erweitern."
+    },
+    "maximum-performance": {
+      "title": "Maximale Leistung",
+      "description": "Fortgeschrittene Leistungsoptimierung für ein optimales Nutzererlebnis."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Wie lange dauert die Erstellung einer WordPress-Seite?",
+      "answer": "Die durchschnittliche Zeit zur Erstellung einer WordPress-Seite variiert zwischen 4 und 12 Wochen, abhängig von der Komplexität des Projekts. Dies umfasst die Designphase, die Entwicklung des maßgeschneiderten Themes, die Integration von Inhalten und die Tests."
+    },
+    "migration": {
+      "question": "Kannst du meine bestehende Seite nach WordPress migrieren?",
+      "answer": "Ja, wir bieten einen vollständigen Migrationsservice nach WordPress an, einschließlich der Übertragung von Inhalten, Bildern und Funktionen, wobei dein SEO erhalten bleibt."
+    },
+    "maintenance-updates": {
+      "question": "Wie gehst du mit Wartung und Updates um?",
+      "answer": "Wir bieten verschiedene Wartungspläne an, die Sicherheitsupdates, regelmäßige Backups, Updates für WordPress und Plugins sowie Leistungsüberwachung beinhalten."
+    },
+    "mobile-optimization": {
+      "question": "Wird meine Seite für mobile Geräte optimiert?",
+      "answer": "Absolut. Alle unsere WordPress-Entwicklungen sind standardmäßig responsiv und garantieren ein optimales Erlebnis auf allen Geräten: Computern, Tablets und Smartphones."
+    },
+    "security-approach": {
+      "question": "Wie gehst du mit Sicherheit um?",
+      "answer": "Wir implementieren eine umfassende Sicherheitsstrategie: starke Authentifizierung, Webanwendungsfirewall, Überwachung von Einbruchsversuchen, automatisierte Backups und regelmäßige Sicherheitsupdates."
+    }
+  },
+  "complementary": {
+    "custom-development": {
+      "title": "Maßgeschneiderte Entwicklungen",
+      "description": "Erstellung spezifischer Funktionen, um deine besonderen Bedürfnisse zu erfüllen."
+    },
+    "digital-marketing": {
+      "title": "Digitales Marketing",
+      "description": "Marketingstrategien, die angepasst sind, um deine Online-Sichtbarkeit zu erhöhen."
+    },
+    "wordpress-training": {
+      "title": "WordPress-Schulung",
+      "description": "Individuelle Schulungen, um deine Seitenverwaltung zu meistern."
+    }
+  }
+}

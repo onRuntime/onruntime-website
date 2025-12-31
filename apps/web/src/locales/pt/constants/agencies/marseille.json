@@ -1,0 +1,79 @@
+{
+  "title": "Desenvolvimento Web em Marselha | Soluções Digitais para Empresas Provençais",
+  "description": "Crie seu site ou aplicativo móvel em Marselha. Soluções digitais personalizadas para empresas provençais, adaptadas aos desafios locais do seu setor.",
+  "hero": {
+    "title": "Desenvolvimento Web & Móvel em Marselha",
+    "description": "Ajudamos empresas em Marselha e na região da PACA a se digitalizarem com soluções web personalizadas, perfeitamente adaptadas aos desafios específicos do mercado mediterrâneo."
+  },
+  "intro": "Entre o mar e as colinas, Marselha é um cruzamento econômico dinâmico onde tradição e inovação se encontram. Nossa expertise digital permite que empresas de Marselha se destaquem em um mercado mediterrâneo competitivo e em constante evolução.",
+  "expertise": "Nossa equipe desenha sites, aplicativos e soluções de e-commerce perfeitamente adaptadas às empresas de Marselha. Entendemos os desafios do seu mercado local e oferecemos soluções digitais que valorizam sua identidade provençal ao mesmo tempo que alcançam uma clientela internacional.",
+  "why-choose-us": "Nosso conhecimento aprofundado do mercado provençal nos permite desenvolver soluções digitais perfeitamente adaptadas aos desafios específicos das empresas locais. Entendemos a riqueza cultural e econômica de Marselha e a integramos em cada projeto para criar experiências digitais autênticas e de alto desempenho.",
+  "key-business-sectors": {
+    "tourism": "Turismo",
+    "maritime": "Marítimo",
+    "local-commerce": "Comércio Local",
+    "restaurant": "Restaurante"
+  },
+  "local-challenges": {
+    "tourism-competition": "Forte concorrência no setor de turismo mediterrâneo exigindo uma presença digital distintiva",
+    "maritime-solutions": "Necessidade de soluções digitais adaptadas ao comércio marítimo e portuário",
+    "local-commerce-digitalization": "Digitalização de lojas locais enfrentando grandes cadeias",
+    "local-ecommerce": "Necessidade de soluções de e-commerce adaptadas para expor artesanatos e produtos locais"
+  },
+  "benefits": {
+    "custom-solutions": "Soluções personalizadas adaptadas às especificidades das empresas provençais",
+    "tourism-maritime-expertise": "Expertise sólida nos setores de turismo e marítimo",
+    "international-ui": "Interface de usuário otimizada para clientela internacional",
+    "mediterranean-knowledge": "Conhecimento aprofundado dos desafios econômicos mediterrâneos",
+    "personalized-support": "Suporte personalizado durante todo o seu projeto digital"
+  },
+  "primary-stat": {
+    "label": "setor de turismo"
+  },
+  "strengths": {
+    "tourism-experience": {
+      "title": "Experiência em Turismo",
+      "description": "Sites e aplicativos otimizados para o setor de turismo mediterrâneo."
+    },
+    "local-ecommerce": {
+      "title": "E-commerce Local",
+      "description": "Soluções de vendas online para artesãos e comerciantes provençais."
+    },
+    "maritime-sector": {
+      "title": "Setor Marítimo",
+      "description": "Digitalização adaptada a atividades portuárias e náuticas."
+    },
+    "mediterranean-design": {
+      "title": "Design Mediterrâneo",
+      "description": "Interfaces modernas refletindo a identidade visual mediterrânea."
+    }
+  },
+  "focused-services": {
+    "tourism-websites": {
+      "name": "Sites de Turismo",
+      "description": "Vitrines digitais multilíngues para hotéis, restaurantes e atividades turísticas."
+    },
+    "provencal-ecommerce": {
+      "name": "E-commerce Provençal",
+      "description": "Lojas online adaptadas a produtores e artesãos locais."
+    },
+    "mobile-applications": {
+      "name": "Aplicativos Móveis",
+      "description": "Soluções móveis para enriquecer a experiência turística e comercial."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Anos de experiência"
+    },
+    "satisfaction": {
+      "label": "Satisfação",
+      "description": "Clientes satisfeitos"
+    },
+    "average-time": {
+      "label": "Tempo Médio",
+      "description": "Semanas para conclusão"
+    }
+  }
+}

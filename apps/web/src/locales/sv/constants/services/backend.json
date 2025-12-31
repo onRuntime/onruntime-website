@@ -1,0 +1,48 @@
+{
+  "name": "Back-end utveckling",
+  "description": "Arkitektur och utveckling av robusta lösningar",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Skalbar arkitektur",
+      "description": "System som är designade för att utvecklas med din tillväxt, med hjälp av moderna och distribuerade arkitekturer."
+    },
+    "optimized-database": {
+      "title": "Optimerad databas",
+      "description": "Databaser design och optimering för maximal prestanda och dataintegritet."
+    },
+    "robust-infrastructure": {
+      "title": "Robust infrastruktur",
+      "description": "Distribution på modern molninfrastruktur med hög tillgänglighet och motståndskraft."
+    },
+    "advanced-security": {
+      "title": "Avancerad säkerhet",
+      "description": "Genomförande av säkerhetsbästa praxis och skydd av känsliga uppgifter."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Behovsanalys",
+      "description": "Djupgående studie av tekniska krav, arkitekturbeskrivning och val av teknik."
+    },
+    "system-design": {
+      "title": "Systemdesign",
+      "description": "Design av backendarkitektur, datamodellering och definition av API."
+    },
+    "api-development": {
+      "title": "API utveckling",
+      "description": "Genomförande av RESTful eller GraphQL API:er med fullständig dokumentation."
+    },
+    "database": {
+      "title": "Databas",
+      "description": "Inställning och optimering av databaser med fokus på prestanda och skalbarhet."
+    },
+    "testing-security": {
+      "title": "Testning och säkerhet",
+      "description": "Genomförande av automatiserade tester och avancerade säkerhetsåtgärder."
+    },
+    "deployment-monitoring": {
+      "title": "Distribution och övervakning",
+      "description": "Inställning av molninfrastruktur, övervakning och aviseringar."
+    }
+  }
+}

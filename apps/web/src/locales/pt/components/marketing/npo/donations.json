@@ -1,0 +1,19 @@
+{
+  "title": "Faça uma doação",
+  "description": "Apoie nossa organização e projetos fazendo uma doação única. Sua contribuição nos ajuda a financiar nossas atividades, eventos e ferramentas de desenvolvimento.",
+  "other": "Outro",
+  "custom-amount": {
+    "label": "Valor personalizado",
+    "placeholder": "Digite um valor"
+  },
+  "button": {
+    "donate": "Doar",
+    "processing": "Processando..."
+  },
+  "secure-payment": "Pagamento seguro pela Stripe",
+  "toast": {
+    "title": "Pagamento simulado",
+    "description-prefix": "Sua doação de",
+    "description-suffix": "foi processada com sucesso. Em uma implementação real, você seria redirecionado para a Stripe."
+  }
+}

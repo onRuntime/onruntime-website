@@ -1,0 +1,80 @@
+{
+  "name": "桌面软件",
+  "description": "跨平台桌面应用程序开发",
+  "hero": {
+    "title": "跨平台桌面应用程序",
+    "description": "为Windows、macOS和Linux开发现代高性能的桌面应用程序。我们的专业知识确保应用程序能够充分发挥桌面的强大功能。"
+  },
+  "features": {
+    "electron-react": {
+      "title": "Electron和React",
+      "description": "现代技术用于高性能和可扩展的桌面应用程序。"
+    },
+    "multiplatform": {
+      "title": "多平台",
+      "description": "从单一代码库生成兼容Windows、macOS和Linux的应用程序。"
+    },
+    "native-performance": {
+      "title": "原生性能",
+      "description": "优化以有效利用系统资源。"
+    },
+    "system-integration": {
+      "title": "系统集成",
+      "description": "访问原生操作系统功能。"
+    }
+  },
+  "benefits": {
+    "windows-macos": {
+      "title": "Windows和macOS",
+      "description": "对主要桌面平台的原生支持。"
+    },
+    "system-access": {
+      "title": "系统访问",
+      "description": "直接与操作系统交互。"
+    },
+    "offline-mode": {
+      "title": "离线模式",
+      "description": "无需互联网连接即可独立操作。"
+    },
+    "local-data": {
+      "title": "本地数据",
+      "description": "本地存储和数据处理以增强安全性。"
+    }
+  },
+  "faq": {
+    "why-electron": {
+      "question": "为什么选择Electron进行桌面开发？",
+      "answer": "Electron使得使用现代网页技术（React，TypeScript）创建跨平台桌面应用程序成为可能。这提供了快速开发、简化维护和卓越的用户体验，同时确保与Windows、macOS和Linux的兼容性。"
+    },
+    "security": {
+      "question": "你们如何处理桌面应用程序安全？",
+      "answer": "我们实施了多个安全级别：敏感数据加密、针对代码注入的保护、自动安全更新以及安全开发最佳实践。我们还遵循每个操作系统特定的安全建议。"
+    },
+    "auto-update": {
+      "question": "你们提供自动更新系统吗？",
+      "answer": "是的，我们集成了一个自动更新系统，使得新版本应用程序的部署变得简单。用户会被通知有可用的更新，并可以一键安装。"
+    },
+    "distribution": {
+      "question": "你们如何处理应用程序分发？",
+      "answer": "我们管理整个分发过程：为每个平台创建安装程序、签署应用程序、根据需要在应用商店发布（Microsoft Store，Mac App Store），并设置自动更新系统。"
+    },
+    "post-launch-support": {
+      "question": "你们提供发布后的支持吗？",
+      "answer": "是的，我们提供多种维护计划，包括：技术支持、错误修复、安全更新、性能优化和功能演进。"
+    }
+  },
+  "complementary": {
+    "telemetry": {
+      "title": "遥测",
+      "description": "跟踪性能和用户行为。"
+    },
+    "distribution": {
+      "title": "分发",
+      "description": "商店发布和更新管理。"
+    },
+    "cloud-sync": {
+      "title": "云同步",
+      "description": "与云的数据同步。"
+    }
+  }
+}

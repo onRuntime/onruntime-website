@@ -1,0 +1,80 @@
+{
+  "name": "스트라피",
+  "description": "스트라피를 이용한 헤드리스 CMS 개발",
+  "hero": {
+    "title": "스트라피를 이용한 헤드리스 CMS 개발",
+    "description": "스트라피로 현대적인 애플리케이션을 개발해보세요. 우리의 전문가들이 당신의 요구에 딱 맞는 유연하고 확장 가능한 콘텐츠 관리 솔루션을 보장합니다."
+  },
+  "features": {
+    "custom-api": {
+      "title": "맞춤 API",
+      "description": "모든 요구에 맞는 맞춤 RESTful 및 GraphQL API 생성."
+    },
+    "flexible-administration": {
+      "title": "유연한 관리",
+      "description": "비즈니스 프로세스에 따라 맞춤 설정 가능한 관리 인터페이스."
+    },
+    "optimal-performance": {
+      "title": "최적의 성능",
+      "description": "빠른 응답 속도를 위한 고성능 아키텍처."
+    },
+    "advanced-security": {
+      "title": "고급 보안",
+      "description": "당신의 데이터와 API에 대한 강력한 보호."
+    }
+  },
+  "benefits": {
+    "100-javascript": {
+      "title": "100% 자바스크립트",
+      "description": "더 효율적인 통합 개발을 위한 자바스크립트/Node.js."
+    },
+    "flexible-models": {
+      "title": "유연한 모델",
+      "description": "제약 없이 맞춤형 콘텐츠 모델 생성."
+    },
+    "role-management": {
+      "title": "역할 관리",
+      "description": "정확한 접근 및 사용자 권한 제어."
+    },
+    "advanced-workflows": {
+      "title": "고급 워크플로우",
+      "description": "게시 및 검증 프로세스 자동화."
+    }
+  },
+  "faq": {
+    "setup-timeline": {
+      "question": "스트라피 프로젝트를 설정하는 데 얼마나 걸리나요?",
+      "answer": "스트라피 프로젝트 세팅 평균 시간은 복잡성에 따라 4주에서 12주까지 다양해요. 여기에는 콘텐츠 모델 디자인, API 개발, 관리 인터페이스 사용자화 및 테스트가 포함돼요."
+    },
+    "multilingual": {
+      "question": "스트라피는 다국어 콘텐츠를 처리할 수 있나요?",
+      "answer": "네, 스트라피는 다국어 콘텐츠를 기본적으로 지원해요. 특정 요구에 맞는 번역 관리 설정과 사용자화가 가능해요."
+    },
+    "content-migration": {
+      "question": "기존 콘텐츠를 스트라피로 마이그레이션할 수 있나요?",
+      "answer": "네, 기존 데이터 분석, 맞춤형 모델 생성 및 콘텐츠 수입을 포함한 완벽한 콘텐츠 마이그레이션 서비스를 제공합니다."
+    },
+    "deployment-hosting": {
+      "question": "배포 및 호스팅은 어떻게 처리하나요?",
+      "answer": "스트라피를 다양한 클라우드 플랫폼(AWS, Google Cloud, DigitalOcean 등)에 배포할 수 있으며 개발, 스테이징 및 프로덕션 환경에 맞춰 확장 가능한 인프라를 설정할 수 있어요."
+    },
+    "custom-plugins": {
+      "question": "커스텀 플러그인 개발을 제공하나요?",
+      "answer": "네, 특정 통합, 맞춤형 워크플로우, 전용 관리 인터페이스 등 당신의 필요에 맞춰 기능을 확장하는 맞춤형 스트라피 플러그인을 개발해요."
+    }
+  },
+  "complementary": {
+    "frontend-development": {
+      "title": "프론트엔드 개발",
+      "description": "당신의 스트라피 API에 연결된 프론트엔드 애플리케이션 생성."
+    },
+    "integrations": {
+      "title": "통합",
+      "description": "기존의 서드파티 도구 및 서비스와의 연결."
+    },
+    "strapi-training": {
+      "title": "스트라피 교육",
+      "description": "CMS 관리 마스터를 위한 맞춤 교육."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "project": {
+    "market-application": "Ansökan till {region} marknaden",
+    "expertise-featured": "Vår erfarenhet från det här projektet har låtit oss utveckla kompetens som är särskilt tillämpbar inom den nya teknologisektorn i {region} regionen.",
+    "expertise-digital": "Vår erfarenhet från det här projektet har låtit oss utveckla kompetens som är särskilt tillämpbar inom den digitala handelssektorn i {region} regionen.",
+    "skills-featured": "De färdigheter och teknologier som används i det här projektet är direkt överförbara till behoven hos företag i {name}, särskilt inom öppen innovation.",
+    "skills-digital": "De färdigheter och teknologier som används i det här projektet är direkt överförbara till behoven hos företag i {name}, särskilt inom digital transformation.",
+    "view-project": "Visa projekt"
+  },
+  "tags": {
+    "featured": "Utvalt projekt",
+    "open-source": "Öppen källkod",
+    "customer": "Klientprojekt"
+  },
+  "section": {
+    "title": "Vår kompetens som är tillämpbar på projekt i {name}",
+    "description": "Upptäck några av våra prestationer som illustrerar vår kunskap, tillämplig på de digitala utmaningarna för företag i {region}."
+  },
+  "cta": {
+    "title": "Ett digitalt projekt för ditt företag i {name}?",
+    "description": "Vår kompetens är tillämplig på alla sektorer, med särskild uppmärksamhet på specifikationerna för {region} marknaden.",
+    "button": "Låt oss prata om ditt projekt"
+  }
+}

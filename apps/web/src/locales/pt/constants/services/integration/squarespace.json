@@ -1,0 +1,80 @@
+{
+  "name": "SquareSpace",
+  "description": "Integração e personalização no SquareSpace",
+  "hero": {
+    "title": "Sites elegantes com Squarespace",
+    "description": "Crie uma presença online refinada com Squarespace. Nossa experiência garante um site estético e funcional, perfeitamente adaptado à imagem da sua marca."
+  },
+  "features": {
+    "minimalist-design": {
+      "title": "Design minimalista",
+      "description": "Criação de sites elegantes e limpos que destacam seu conteúdo e marca."
+    },
+    "smooth-experience": {
+      "title": "Experiência suave",
+      "description": "Navegação intuitiva e desempenho otimizado para uma experiência do usuário impecável."
+    },
+    "content-management": {
+      "title": "Gestão de conteúdo",
+      "description": "Interface de administração simples e intuitiva para gerenciar seu conteúdo facilmente."
+    },
+    "media-integration": {
+      "title": "Integração de mídia",
+      "description": "Exibição ideal das suas imagens e mídias com galerias dinâmicas."
+    }
+  },
+  "benefits": {
+    "professional-templates": {
+      "title": "Modelos profissionais",
+      "description": "Ampla escolha de modelos modernos e personalizáveis para todos os setores."
+    },
+    "integrated-ecommerce": {
+      "title": "E-commerce integrado",
+      "description": "Soluções completas e personalizáveis de vendas online."
+    },
+    "optimal-performance": {
+      "title": "Desempenho ideal",
+      "description": "Sites rápidos e seguros hospedados em uma infraestrutura robusta."
+    },
+    "integrated-marketing": {
+      "title": "Marketing integrado",
+      "description": "Ferramentas de marketing e análise estatística para fazer seu negócio crescer."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Quanto tempo leva para criar um site Squarespace?",
+      "answer": "O tempo médio para criar um site Squarespace varia de 2 a 6 semanas, dependendo da complexidade do projeto. Isso inclui a seleção e personalização do template, integração de conteúdo e testes."
+    },
+    "product-sales": {
+      "question": "Posso vender produtos no meu site Squarespace?",
+      "answer": "Sim, o Squarespace oferece uma solução completa de e-commerce que podemos configurar para permitir que você venda seus produtos online, com gerenciamento de estoque, pagamentos seguros e opções de envio."
+    },
+    "content-updates": {
+      "question": "É fácil atualizar o conteúdo?",
+      "answer": "Com certeza! A interface do Squarespace é muito intuitiva. Nós te treinamos para que você consiga gerenciar seu conteúdo de forma independente."
+    },
+    "seo-optimization": {
+      "question": "Meu site será otimizado para SEO?",
+      "answer": "Sim, implementamos as melhores práticas de SEO do Squarespace e configuramos todos os elementos necessários para otimizar sua visibilidade nos motores de busca."
+    },
+    "maintenance-service": {
+      "question": "Você oferece serviço de manutenção?",
+      "answer": "Sim, oferecemos diferentes planos de manutenção que incluem atualizações, suporte técnico e otimização contínua do seu site Squarespace."
+    }
+  },
+  "complementary": {
+    "advanced-customization": {
+      "title": "Personalização avançada",
+      "description": "Modificações em CSS e Javascript para personalizar seu site além das opções padrão."
+    },
+    "content-strategy": {
+      "title": "Estratégia de conteúdo",
+      "description": "Apoio na criação e otimização do seu conteúdo."
+    },
+    "user-training": {
+      "title": "Treinamento de usuário",
+      "description": "Treinamento completo para dominar a gestão do seu site Squarespace."
+    }
+  }
+}

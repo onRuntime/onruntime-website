@@ -1,0 +1,80 @@
+{
+  "name": "Boty Discord/Slack",
+  "description": "Rozwój botów i automatyzacji",
+  "hero": {
+    "title": "Boty i automatyzacje",
+    "description": "Stwórz inteligentne boty i automatyzacje, aby poprawić zaangażowanie i wydajność swojej społeczności. Nasza wiedza gwarantuje niezawodne i wydajne boty dla Discorda, Slacka i innych platform."
+  },
+  "features": {
+    "discord-slack": {
+      "title": "Discord i Slack",
+      "description": "Dostosowane boty dla głównych platform komunikacyjnych."
+    },
+    "advanced-commands": {
+      "title": "Zaawansowane komendy",
+      "description": "Intuicyjny interfejs z konfigurowalnymi komendami."
+    },
+    "optimal-performance": {
+      "title": "Optymalna wydajność",
+      "description": "Architektura zoptymalizowana pod kątem maksymalnej responsywności."
+    },
+    "integrations": {
+      "title": "Integracje",
+      "description": "Połączenie z istniejącymi narzędziami i usługami."
+    }
+  },
+  "benefits": {
+    "intelligent-moderation": {
+      "title": "Inteligentna moderacja",
+      "description": "Zautomatyzowane zarządzanie społecznością i moderacją."
+    },
+    "notifications": {
+      "title": "Powiadomienia",
+      "description": "Dostosowane alerty i automatyczne aktualizacje."
+    },
+    "engagement": {
+      "title": "Zaangażowanie",
+      "description": "Interaktywne funkcje, aby ożywić swoją społeczność."
+    },
+    "statistics": {
+      "title": "Statystyki",
+      "description": "Szczegółowe śledzenie aktywności i interakcji."
+    }
+  },
+  "faq": {
+    "bot-types": {
+      "question": "Jakie typy botów możecie rozwinąć?",
+      "answer": "Tworzymy boty dla różnych platform (Discord, Slack, Telegram) z różnymi funkcjami: moderacja, wsparcie klienta, automatyzacja zadań, statystyki, gry i aktywności społecznościowe. Każdy bot jest dostosowywany do Twoich specyficznych potrzeb."
+    },
+    "bot-reliability": {
+      "question": "Jak zapewniacie niezawodność botów?",
+      "answer": "Wprowadzamy kilka mechanizmów: monitoring 24/7, automatyczny restart w przypadku problemów, szczegółowe logi oraz alerty w czasie rzeczywistym. Przeprowadzamy również dokładne testy przed każdym wdrożeniem."
+    },
+    "customization": {
+      "question": "Czy można dostosować komendy i funkcje?",
+      "answer": "Tak, wszystkie nasze boty są w pełni konfigurowalne: komendy, odpowiedzi, uprawnienia, integracje. Dostosowujemy każdą funkcję do Twoich potrzeb i wytycznych dotyczących moderacji."
+    },
+    "security": {
+      "question": "Jak podchodzicie do bezpieczeństwa?",
+      "answer": "Bezpieczeństwo jest priorytetem: bezpieczna autoryzacja, szczegółowe uprawnienia, walidacja danych wejściowych, ochrona przed spamem i nadużyciami. Przestrzegamy najlepszych praktyk każdej platformy."
+    },
+    "post-deployment-support": {
+      "question": "Czy oferujecie wsparcie po wdrożeniu?",
+      "answer": "Tak, oferujemy kilka planów konserwacyjnych, w tym: monitoring 24/7, regularne aktualizacje, wsparcie techniczne oraz functional evolutions zgodnie z Twoimi potrzebami."
+    }
+  },
+  "complementary": {
+    "analytics": {
+      "title": "Analiza",
+      "description": "Szczegółowe śledzenie użycia i interakcji."
+    },
+    "support-24-7": {
+      "title": "Wsparcie 24/7",
+      "description": "Ciągły monitoring i szybka interwencja."
+    },
+    "evolutions": {
+      "title": "Ewolucje",
+      "description": "Regularne dodawanie nowych funkcji."
+    }
+  }
+}

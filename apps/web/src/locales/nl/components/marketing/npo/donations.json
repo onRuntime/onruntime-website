@@ -1,0 +1,19 @@
+{
+  "title": "Doe een donatie",
+  "description": "Steun onze organisatie en projecten door een eenmalige donatie te doen. Jouw bijdrage helpt ons om onze activiteiten, evenementen en ontwikkelingshulpmiddelen te financieren.",
+  "other": "Anders",
+  "custom-amount": {
+    "label": "Aangepast bedrag",
+    "placeholder": "Voer een bedrag in"
+  },
+  "button": {
+    "donate": "Doneer",
+    "processing": "Bezig met verwerken..."
+  },
+  "secure-payment": "Veilige betaling via Stripe",
+  "toast": {
+    "title": "Betaling gesimuleerd",
+    "description-prefix": "Jouw donatie van",
+    "description-suffix": "is succesvol verwerkt. In een echte implementatie zou je worden doorgestuurd naar Stripe."
+  }
+}

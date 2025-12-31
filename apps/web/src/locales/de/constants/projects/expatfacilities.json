@@ -1,0 +1,131 @@
+{
+  "short-description": "Vollständige Plattform für die Unterstützung von Studenten im Ausland, die Wohnen, Visa, Transport und lokale Unterstützung integriert.",
+  "description": "Entwicklung einer Full-Stack-Plattform, die französischen Studenten die Verwaltung ihrer Expatriierung von A bis Z ermöglicht, mit integrierten Dienstleistungen und einem Netzwerk lokaler Botschafter.",
+  "long-description": "Expat Facilities war ein revolutionäres französisches Start-up, das die Expatriierung für Studenten vereinfachte. Unser Team entwickelte eine komplette Plattform von Grund auf, die sich von einer einfachen Landingpage zu einer anspruchsvollen Lösung entwickelte, die Airbnb-ähnliche Funktionen mit einem Ökosystem von Expatriierungsdiensten kombiniert.\n\nDie Plattform integrierte mehrere Partner-APIs, um ein einheitliches Erlebnis zu bieten: Wohnungsuche über Partner wie Spotahome, Flugbuchungen mit Lufthansa, spezialisierte Versicherungen und ein einzigartiges System von lokalen Botschaftern, die in über 70 Ländern präsent sind.\n\nDie größte technische Herausforderung bestand darin, Dutzende von Drittanbieter-APIs zu orchestrieren, um eine reibungslose und kohärente Benutzererfahrung zu schaffen, während die Komplexität internationaler Zahlungen und die Zuordnung von Studenten zu lokalen Botschaftern verwaltet werden musste.",
+  "features": {
+    "housing-platform": {
+      "title": "Integrierte Wohnplattform",
+      "description": "Suche und Buchung von Studentenwohnungen über Partner-API-Integrationen wie Spotahome"
+    },
+    "ambassador-network": {
+      "title": "Netzwerk lokaler Botschafter",
+      "description": "Über 300 Studentenbotschafter in 70 Ländern unterstützen Neuankömmlinge vor Ort"
+    },
+    "visa-services": {
+      "title": "Visa- und Verwaltungsdienste",
+      "description": "Komplette Verwaltung des Visa-Prozesses und persönliche Unterstützung bei Verwaltungsangelegenheiten"
+    },
+    "transport-logistics": {
+      "title": "Transport und Logistik",
+      "description": "Flugbuchungen (Partnerschaft mit Lufthansa), Züge und lokale Transportmittel zu Vorzugspreisen"
+    },
+    "expat-insurance": {
+      "title": "Expatriierungsversicherung",
+      "description": "Spezialisierte Versicherung für vorübergehende Expatriierung in Partnerschaft mit Mondial Assistance und Allianz"
+    },
+    "advanced-tracking": {
+      "title": "Erweiterte Verfolgung",
+      "description": "Echtzeitverfolgung aller Prozesse mit Benachrichtigungen und Dashboard-Oberfläche"
+    }
+  },
+  "technologies": {
+    "nextjs": {
+      "description": "React-Framework für das Frontend"
+    },
+    "nestjs": {
+      "description": "Robuster und modularer API-Backend"
+    },
+    "mongodb": {
+      "description": "Hauptdatenbank"
+    },
+    "graphql": {
+      "description": "Einheitliche API für Daten"
+    },
+    "google-cloud": {
+      "description": "Cloud-Infrastruktur und -Dienste"
+    },
+    "stripe": {
+      "description": "Internationale Zahlungen"
+    },
+    "typescript": {
+      "description": "Type-sichere Entwicklung"
+    },
+    "styled-components": {
+      "description": "Styling und Theming"
+    }
+  },
+  "metrics": {
+    "countries": {
+      "value": "70+",
+      "label": "Abgedeckte Länder",
+      "description": "Verfügbare Expatriierungsziele"
+    },
+    "ambassadors": {
+      "value": "300+",
+      "label": "Botschafter",
+      "description": "Studentenbotschafter weltweit"
+    },
+    "users": {
+      "value": "2000+",
+      "label": "Benutzer",
+      "description": "Benutzer der Studentenplattform"
+    }
+  },
+  "screenshots": {
+    "redesign": {
+      "caption": "Plattform-Redesign"
+    },
+    "testimonials": {
+      "caption": "Testimonials und Partner"
+    },
+    "flyer-bank": {
+      "caption": "Flyer für Partnerbanken"
+    },
+    "about-team": {
+      "caption": "Über das Team und Call to Action"
+    },
+    "housing-hero": {
+      "caption": "Wohnen-Bereich mit integrierter Suche"
+    },
+    "housing-cta": {
+      "caption": "Call to Action für den Wohnbereich"
+    },
+    "services-hero": {
+      "caption": "Dienstleistungsbereich mit Angebotspräsentation"
+    },
+    "insurance-hero": {
+      "caption": "Versicherungsbereich mit Angebotsbeschreibung"
+    },
+    "insurance-plans": {
+      "caption": "Detaillierte Versicherungspläne"
+    },
+    "insurance-benefits": {
+      "caption": "Angebotene Versicherungsleistungen"
+    },
+    "contact-success": {
+      "caption": "Kontaktformular mit Erfolgsmeldung"
+    }
+  },
+  "challenges": {
+    "third-party-api-integration": "Integration von Dutzenden von Drittanbieter-APIs (Spotahome, Lufthansa, Versicherung) in ein einheitliches Erlebnis",
+    "international-payments": "Verwaltung internationaler Zahlungen mit Stripe in mehreren Währungen und Vorschriften",
+    "student-ambassador-matching": "Entwicklung eines Zuordnungssystems für Studenten/Botschafter basierend auf Geolokation",
+    "scalable-architecture": "Skalierbare Architektur zur Unterstützung des schnellen Wachstums (70 Länder, über 300 Botschafter)",
+    "real-time-availability": "Echtzeit-Synchronisierung der Wohnungsverfügbarkeit zwischen Partnerplattformen",
+    "multilingual-interface": "Mehrsprachige Benutzeroberfläche und Anpassung an lokale Spezifitäten jedes Landes"
+  },
+  "learnings": {
+    "api-orchestration-complexity": "Komplexität der Orchestrierung von Drittanbieter-APIs mit verschiedenen Formaten und Einschränkungen",
+    "multi-partner-error-handling": "Kritische Bedeutung der Fehlermanagement in einem Multi-Partner-Ökosystem",
+    "internationalization-challenges": "Herausforderungen der Internationalisierung über Übersetzungen hinaus (Währungen, Vorschriften, Kulturen)",
+    "microservices-architecture": "Wesentliche Microservices-Architektur zur Isolierung der Partnerintegrationen",
+    "complex-ux-simplification": "Kritische UX/UI zur Umwandlung eines komplexen Prozesses in ein reibungsloses Erlebnis",
+    "partner-relations": "Management von Partnerbeziehungen und technischen Verhandlungen für Integrationen"
+  },
+  "future-plans": {
+    "other-expat-types": "Expansion auf andere Expat-Typen (Fachkräfte, Rentner)",
+    "ai-matching": "KI zur Optimierung der Zuordnung von Studenten/Botschaftern",
+    "ambassador-mobile-app": "Native mobile App für Botschafter",
+    "ambassador-training": "Schulungsplattform für Botschafter"
+  }
+}

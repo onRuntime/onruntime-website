@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Junte-se à nossa equipe",
+    "description": "Descubra oportunidades de carreira no onRuntime Studio e junte-se a uma equipe dinâmica apaixonada por desenvolvimento e design."
+  },
+  "why-join": {
+    "title": "Por que se juntar a nós?",
+    "description": "No onRuntime Studio, acreditamos em criatividade, inovação e colaboração. Junte-se a nós para moldar o futuro digital e desenvolver suas habilidades em um ambiente estimulante.",
+    "cards": {
+      "creativity": {
+        "title": "Criatividade e Inovação",
+        "description": "Expresse suas ideias e contribua para projetos inovadores que desafiam os limites do que é possível."
+      },
+      "team": {
+        "title": "Equipe Apaixonada",
+        "description": "Colabore com profissionais talentosos e apaixonados em um ambiente amigável e estimulante."
+      },
+      "impact": {
+        "title": "Impacto Global",
+        "description": "Contribua para projetos que têm um impacto real e atingem usuários em todo o mundo."
+      }
+    }
+  },
+  "opportunities": {
+    "title": "Oportunidades atuais",
+    "description": "Descubra nossas ofertas de emprego e encontre a posição que combina com suas habilidades e aspirações.",
+    "search-placeholder": "Pesquise por uma posição, localização...",
+    "all": "Todas"
+  },
+  "spontaneous": {
+    "title": "Não encontrou a posição certa?",
+    "description": "Envie-nos uma candidatura espontânea! Estamos sempre em busca de talentos excepcionais para se juntar à nossa equipe.",
+    "cta": "Envie uma candidatura espontânea"
+  },
+  "teams": {
+    "title": "Nossas equipes",
+    "description": "Descubra as diferentes equipes que compõem o onRuntime Studio e encontre a que melhor combina com suas habilidades e aspirações.",
+    "development": {
+      "title": "Desenvolvimento",
+      "description": "Nossos desenvolvedores criam aplicações web e mobile de alto desempenho e inovadoras, utilizando as tecnologias mais recentes para oferecer experiências excepcionais aos usuários."
+    },
+    "design": {
+      "title": "Design",
+      "description": "Nossa equipe de design cria interfaces de usuário elegantes e intuitivas, garantindo que cada pixel esteja perfeitamente alinhado com a identidade visual do projeto."
+    },
+    "project": {
+      "title": "Projeto & Produto",
+      "description": "Nossos gerentes de projeto e gerentes de produto garantem o bom andamento dos projetos e que as soluções desenvolvidas atendam perfeitamente às necessidades dos usuários."
+    },
+    "marketing": {
+      "title": "Marketing & Comunicação",
+      "description": "Nossa equipe de marketing trabalha para promover nossos projetos e comunicar efetivamente nossas conquistas, tanto internamente quanto para o público em geral."
+    }
+  },
+  "cta": {
+    "title": "Pronto para se juntar a nós?",
+    "description": "Navegue por nossas ofertas de emprego e encontre a posição que combina com suas habilidades e aspirações. Estamos animados para recebê-lo em nossa equipe!",
+    "button": "Ver ofertas de emprego"
+  },
+  "error": "Ocorreu um erro ao carregar as ofertas de emprego. Por favor, tente novamente mais tarde."
+}

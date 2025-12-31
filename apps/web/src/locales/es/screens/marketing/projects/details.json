@@ -1,0 +1,71 @@
+{
+  "tags": {
+    "featured": "Destacado",
+    "open-source": "Código Abierto",
+    "customer": "Proyecto del cliente"
+  },
+  "buttons": {
+    "view-project": "Ver proyecto",
+    "source-code": "Código fuente"
+  },
+  "info": {
+    "start-date": "Fecha de inicio",
+    "status": "Estado",
+    "statuses": {
+      "active": "Activo",
+      "completed": "Completado",
+      "archived": "Archivado"
+    },
+    "team": "Equipo",
+    "members": "miembros"
+  },
+  "sections": {
+    "about": "Acerca del proyecto",
+    "metrics": "Impacto y métricas",
+    "features": "Características clave",
+    "technologies": "Tecnologías utilizadas",
+    "gallery": "Galería",
+    "team": "El equipo",
+    "challenges": "Desafíos encontrados",
+    "learnings": "Aprendizajes clave",
+    "future": "Perspectivas futuras"
+  },
+  "cta": {
+    "title": "¿Interesado en este proyecto?",
+    "description": "Descubre cómo podemos ayudarte a crear un proyecto similar.",
+    "button": "Habla sobre tu proyecto"
+  },
+  "tonightpass": {
+    "hero": {
+      "title": "La venta de tickets que simplifica tus eventos",
+      "subtitle": "Desde la creación hasta la entrada, gestiona todo en 5 minutos",
+      "description": "Solución completa de venta de tickets para organizadores de eventos. Crea tus eventos, vende tus entradas y gestiona el acceso con herramientas profesionales y soporte dedicado.",
+      "buttons": {
+        "create": "Crea mi evento",
+        "discover": "Descubre la solución"
+      },
+      "stats": {
+        "setup": {
+          "value": "5min",
+          "label": "Configuración"
+        },
+        "cost": {
+          "value": "$0",
+          "label": "Instalación"
+        },
+        "support": {
+          "value": "24/7",
+          "label": "Soporte"
+        }
+      }
+    },
+    "cta": {
+      "title": "¿Listo para simplificar tu venta de tickets?",
+      "description": "Simplifica la gestión de tus eventos con una solución completa e intuitiva",
+      "buttons": {
+        "start": "Comienza ahora",
+        "features": "Ver todas las características"
+      }
+    }
+  }
+}

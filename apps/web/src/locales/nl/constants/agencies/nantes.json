@@ -1,0 +1,79 @@
+{
+  "title": "Webontwikkeling in Nantes | Digitale oplossingen voor bedrijven in de Loire-vallei",
+  "description": "Maak uw website of mobiele applicatie in Nantes. Op maat gemaakte digitale oplossingen voor bedrijven in Nantes, aangepast aan de lokale uitdagingen van uw sector.",
+  "hero": {
+    "title": "Web & Mobiele Ontwikkeling in Nantes",
+    "description": "We helpen bedrijven in Nantes en de Pays de la Loire bij digitalisering met op maat gemaakte weboplossingen, perfect afgestemd op de specifieke uitdagingen van de Loire-vallei markt."
+  },
+  "intro": "Nantes, een historische hoofdstad van Bretagne en een innovatieve metropool, staat bekend om zijn economische dynamiek en kwaliteit van leven. Het bloeiende digitale ecosysteem, de creatieve industrieën en de inzet voor ecologische transitie maken het een uniek gebied waar digitale innovatie een centrale rol speelt.",
+  "expertise": "Ons team ontwerpt websites, applicaties en digitale oplossingen die perfect zijn afgestemd op bedrijven in Nantes, of het nu innovatieve startups, spelers van de verantwoordelijke economie of traditionele bedrijven in transformatie zijn. We begrijpen de specifieke kenmerken van de lokale markt en bieden digitale oplossingen die in lijn zijn met de waarden van innovatie en duurzaamheid die specifiek zijn voor Nantes.",
+  "why-choose-us": "Onze diepgaande kennis van de Nantes-markt stelt ons in staat om digitale oplossingen te ontwikkelen die perfect zijn afgestemd op de specifieke uitdagingen van lokale bedrijven. We begrijpen de geest van innovatie en de inzet voor een meer verantwoordelijke economie die Nantes kenmerken, en integreren deze waarden in elk digitaal project dat we opleveren.",
+  "key-business-sectors": {
+    "tech-digital": "Technologie & Digitaal",
+    "ecological-transition": "Ecologische Transitie",
+    "creative-industries": "Creatieve Industrieën",
+    "agrifood": "Agri-food"
+  },
+  "local-challenges": {
+    "digital-ecosystem-competition": "Sterke concurrentie in het groeiende digitale ecosysteem van Nantes",
+    "startup-scaleup-needs": "Specifieke behoeften van lokale French Tech startups en scale-ups",
+    "ecological-transition-digitalization": "Digitalisering van spelers in de ecologische en energietransitie",
+    "traditional-industries-transformation": "Digitale transformatie van regionale traditionele en agri-food industrieën"
+  },
+  "benefits": {
+    "nantes-ecosystem-solutions": "Op maat gemaakte oplossingen aangepast aan het digitale ecosysteem van Nantes",
+    "innovative-eco-technologies": "Sterke expertise in innovatieve en eco-verantwoordelijke webtechnologieën",
+    "agile-approach": "Agile aanpak die perfect past bij startups en innovatieve bedrijven",
+    "digital-transition-knowledge": "Diepgaande kennis van de uitdagingen van digitale transitie in de Loire-vallei",
+    "personalized-support": "Personalisatie ondersteuning gedurende uw digitale project"
+  },
+  "primary-stat": {
+    "label": "Digitale Nantes"
+  },
+  "strengths": {
+    "innovative-tech": {
+      "title": "Innovatieve Technologie",
+      "description": "Moderne digitale oplossingen voor startups en scale-ups in Nantes."
+    },
+    "eco-design": {
+      "title": "Eco-ontwerp",
+      "description": "Sites en applicaties met een gecontroleerde ecologische voetafdruk."
+    },
+    "maritime-industry": {
+      "title": "Maritieme Industrie",
+      "description": "Digitalisering aangepast aan haven- en rivieractiviteiten."
+    },
+    "renewable-energy": {
+      "title": "Hernieuwbare Energie",
+      "description": "Digitale oplossingen voor spelers in de energietransitie."
+    }
+  },
+  "focused-services": {
+    "web-applications": {
+      "name": "Webapplicaties",
+      "description": "Hoge prestaties en schaalbare webapplicaties voor startups en innovatieve bedrijven."
+    },
+    "eco-designed-websites": {
+      "name": "Eco-ontworpen Websites",
+      "description": "Geoptimaliseerde en duurzame websites voor spelers van de verantwoordelijke economie."
+    },
+    "business-platforms": {
+      "name": "Bedrijfsplatforms",
+      "description": "Op maat gemaakte oplossingen voor traditionele industrieën in transformatie."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Jaren ervaring"
+    },
+    "satisfaction": {
+      "label": "Tevredenheid",
+      "description": "Tevreden klanten"
+    },
+    "average-time": {
+      "label": "Gemiddelde Tijd",
+      "description": "Weken voor voltooiing"
+    }
+  }
+}

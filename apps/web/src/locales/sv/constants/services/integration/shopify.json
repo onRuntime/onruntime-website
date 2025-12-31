@@ -1,0 +1,80 @@
+{
+  "name": "Shopify",
+  "description": "Skapande och anpassning av Shopify webbutiker",
+  "hero": {
+    "title": "Skapa din webbutik med Shopify",
+    "description": "Förvandla din e-handelsvision till verklighet med vår Shopify-expertis. Vi skapar högpresterande, estetiska och konverteringsoptimerade webbutiker."
+  },
+  "features": {
+    "custom-design": {
+      "title": "Anpassad design",
+      "description": "Skapande av ett unikt tema som reflekterar ditt varumärke och optimerar användarupplevelsen."
+    },
+    "conversion-optimization": {
+      "title": "Konverteringsoptimering",
+      "description": "Implementering av bästa praxis för att maximera dina försäljningar och behålla dina kunder."
+    },
+    "enhanced-security": {
+      "title": "Förbättrad säkerhet",
+      "description": "Skydd av dina data och dina kunders data med de senaste säkerhetsstandarderna."
+    },
+    "advanced-integrations": {
+      "title": "Avancerade integrationer",
+      "description": "Anslutning till dina favor verktyg för lagerhantering, bokföring och marknadsföring."
+    }
+  },
+  "benefits": {
+    "secure-payments": {
+      "title": "Säkra betalningar",
+      "description": "Integration av stora betalningsmetoder och säker hantering av transaktioner."
+    },
+    "international-by-default": {
+      "title": "Internationell som standard",
+      "description": "Sälj världen över med hantering av flera valutor och automatiska översättningar."
+    },
+    "powerful-analytics": {
+      "title": "Mäktig analys",
+      "description": "Detaljerad spårning av din prestation och insikter för att optimera dina försäljningar."
+    },
+    "simplified-logistics": {
+      "title": "Förenklad logistik",
+      "description": "Effektiv orderhantering och integration med stora transportörer."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Hur lång tid tar det att skapa en Shopify-butik?",
+      "answer": "Den genomsnittliga tiden för att skapa en Shopify-butik varierar mellan 4 till 8 veckor, beroende på projektets komplexitet. Detta inkluderar designfasen, utveckling, produktintegration och testning."
+    },
+    "migration": {
+      "question": "Kan ni migrera min befintliga butik till Shopify?",
+      "answer": "Ja, vi erbjuder en komplett migrationsservice från din befintliga butik till Shopify, inklusive överföring av produkter, kunder och beställningar, samtidigt som vi säkerställer en smidig övergång."
+    },
+    "customization-types": {
+      "question": "Vilka typer av anpassningar erbjuder ni?",
+      "answer": "Vi erbjuder fullständig anpassning av din Shopify-butik: anpassad design, anpassade funktioner, specifika integrationer och mobiloptimering."
+    },
+    "post-launch-support": {
+      "question": "Erbjuder ni support efter lansering?",
+      "answer": "Ja, vi erbjuder flera support- och underhållsplaner för att säkerställa att din butik fungerar smidigt efter lanseringen, inklusive uppdateringar, optimeringar och teknisk support."
+    },
+    "security": {
+      "question": "Hur säkerställer ni säkerheten för min butik?",
+      "answer": "Vi implementerar säkerhetsbästa praxis: SSL, PCI DSS-efterlevnad, regelbundna säkerhetskopior och bedrägeriskydd. Shopify erbjuder också banknivå säkerhet för alla transaktioner."
+    }
+  },
+  "complementary": {
+    "seo": {
+      "title": "SEO",
+      "description": "Sökmotoroptimering för att öka din synlighet."
+    },
+    "digital-marketing": {
+      "title": "Digital marknadsföring",
+      "description": "Marknadsföringsstrategier anpassade för att attrahera och konvertera fler kunder."
+    },
+    "training": {
+      "title": "Utbildning",
+      "description": "Komplett utbildning för att självklart kunna hantera din butik."
+    }
+  }
+}

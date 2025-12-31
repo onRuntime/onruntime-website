@@ -1,0 +1,80 @@
+{
+  "name": "UX/UI Denetimi",
+  "description": "Mevcut arayüzlerinizin analizi ve optimizasyonu",
+  "hero": {
+    "title": "UX/UI Denetimi & Optimizasyonu",
+    "description": "Profesyonel bir denetimle arayüzlerinizin kullanıcı deneyimini geliştirin. Uzmanlık alanımız derinlemesine bir analiz ve arayüzlerinizi optimize etmek için somut öneriler sunar."
+  },
+  "features": {
+    "heuristic-analysis": {
+      "title": "Heuristik analiz",
+      "description": "UX prensiplerine dayalı uzman değerlendirmesi."
+    },
+    "user-testing": {
+      "title": "Kullanıcı testi",
+      "description": "Gerçek davranışların gözlemi ve analizi."
+    },
+    "analytics": {
+      "title": "Analiz",
+      "description": "Kullanım verilerinin analizi."
+    },
+    "accessibility": {
+      "title": "Erişilebilirlik",
+      "description": "Erişilebilirlik standartlarının doğrulanması."
+    }
+  },
+  "benefits": {
+    "conversion": {
+      "title": "Dönüşüm",
+      "description": "Dönüşüm engellerinin belirlenmesi."
+    },
+    "performance": {
+      "title": "Performans",
+      "description": "Performans metriklerinin analizi."
+    },
+    "satisfaction": {
+      "title": "Memnuniyet",
+      "description": "Kullanıcı memnuniyetinin ölçülmesi."
+    },
+    "journeys": {
+      "title": "Kullanıcı yolları",
+      "description": "Kullanıcı yollarının optimizasyonu."
+    }
+  },
+  "faq": {
+    "complete-audit": {
+      "question": "Tam bir UX/UI denetimi neleri kapsar?",
+      "answer": "Tam bir denetim şunları içerir: UX prensiplerine dayalı heuristik analiz, kullanıcı testi, analiz verileri analizi, erişilebilirlik değerlendirmesi, rekabet benchmarkı ve detaylı öneriler. Somut çözümlerle kapsamlı bir rapor sunuyoruz."
+    },
+    "audit-process": {
+      "question": "Denetim süreci nasıl işler?",
+      "answer": "Süreç, hedeflerinizi ve KPI'larınızı anlamak için bir keşif aşamasıyla başlar. Ardından, çeşitli analizler (heuristik, veri, test) gerçekleştirir, sonuçları sentezler ve önceliklendirilmiş önerilerle detaylı bir rapor hazırlarız."
+    },
+    "deliverables": {
+      "question": "Hangi teslimatlar sağlanıyor?",
+      "answer": "Sizlere tam bir denetim raporu alacaksınız. Bu rapor, yöneticilere yönelik özet, detaylı analizler, veri görselleştirmeleri, tanımlanmış sorunlar ile ciddiyet seviyeleri, önceliklendirilmiş öneriler ve tavsiye edilen eylem planı içerir."
+    },
+    "measuring-impact": {
+      "question": "Önerilerin etkisini nasıl ölçüyorsunuz?",
+      "answer": "Her öneri için spesifik KPI'lar tanımlıyoruz ve geliştirmelerin etkisini ölçmek için ana metriklerin (dönüşüm oranı, kullanıcı memnuniyeti, görev tamamlama süresi, vb.) takibini sağlıyoruz."
+    },
+    "post-audit-support": {
+      "question": "Denetim sonrası destek sunuyor musunuz?",
+      "answer": "Evet, önerilerin uygulamaları için destek sunuyoruz. Bu destek eylem önceliklendirmeyi, uygulama desteğini ve sonuçların ölçülmesini içerir. Ayrıca, takip denetimleri de yapabiliriz."
+    }
+  },
+  "complementary": {
+    "user-testing": {
+      "title": "Kullanıcı testi",
+      "description": "Kullanıcılarınızla derinlemesine test oturumları."
+    },
+    "advanced-analytics": {
+      "title": "Gelişmiş analiz",
+      "description": "Takip sistemleri kurma ve derinlemesine analiz yapma."
+    },
+    "ux-training": {
+      "title": "UX eğitimi",
+      "description": "Takımlarınıza en iyi uygulamalarda eğitim verme."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "retry": "Erneut versuchen",
+  "no-results": "Es gibt keine Stellenangebote, die zu deiner Suche passen.",
+  "count": "Stellenangebot(e) verfügbar",
+  "published": "Veröffentlicht am",
+  "view-offer": "Angebot ansehen",
+  "employment-type": {
+    "full-time": "Vollzeit",
+    "part-time": "Teilzeit",
+    "contract": "Vertrag",
+    "temporary": "Zeitarbeit",
+    "internship": "Praktikum",
+    "apprenticeship": "Ausbildung"
+  },
+  "workplace-type": {
+    "hybrid": "Hybrid",
+    "remote": "Fernarbeit",
+    "on-site": "Vor Ort"
+  }
+}

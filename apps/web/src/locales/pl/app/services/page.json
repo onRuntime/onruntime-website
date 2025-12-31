@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "Agencja usług cyfrowych: projektowanie stron internetowych, aplikacji mobilnych i UI/UX",
+    "description": "Pełne usługi z zakresu tworzenia stron www, aplikacji mobilnych, projektowania UI/UX i integracji CMS. Nasza agencja tworzy rozwiązania dopasowane do Twoich celów."
+  },
+  "hero": {
+    "title": "Dedykowane rozwiązania dla Twoich projektów cyfrowych",
+    "description": "Od pomysłu do realizacji wspieramy Cię na każdym etapie projektu z wiedzą i pasją.",
+    "cta": "Rozpocznij projekt"
+  },
+  "technologies": {
+    "title": "Nasz zestaw technologii",
+    "description": "Opanowaliśmy szeroki zakres nowoczesnych technologii, aby sprostać wszystkim Twoim potrzebom."
+  },
+  "process": {
+    "title": "Nasz proces pracy",
+    "description": "Sprawdzona i elastyczna metodologia, aby doprowadzić Twój projekt do sukcesu."
+  }
+}

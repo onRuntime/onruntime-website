@@ -1,0 +1,48 @@
+{
+  "name": "Diseño UI/UX",
+  "description": "Creando interfaces modernas y experiencias de usuario óptimas",
+  "benefits": {
+    "user-centered-design": {
+      "title": "Diseño UI/UX centrado en el usuario",
+      "description": "Un enfoque que coloca las necesidades del usuario en el centro de nuestros diseños, validado por prototipos interactivos."
+    },
+    "creative-innovation": {
+      "title": "Innovación creativa",
+      "description": "Soluciones creativas de UI/UX y prototipos innovadores que diferencian tu marca mientras respetan los estándares."
+    },
+    "iterative-prototyping": {
+      "title": "Prototipado iterativo",
+      "description": "Una metodología basada en prototipos rápidos y iteraciones frecuentes para refinar la experiencia del usuario."
+    },
+    "business-objectives": {
+      "title": "Objetivos de negocio",
+      "description": "Diseño UI/UX alineado con tus objetivos comerciales, validado por pruebas de usuario en prototipos."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Análisis de necesidades",
+      "description": "Primer paso crucial donde analizamos tus necesidades, marca y objetivos comerciales para definir la dirección de UI/UX."
+    },
+    "research-moodboard": {
+      "title": "Investigación y moodboard",
+      "description": "Creando moodboards y explorando posibles direcciones creativas. Definiendo la dirección artística general."
+    },
+    "wireframes": {
+      "title": "Wireframes",
+      "description": "Diseñando wireframes para validar la estructura, jerarquía y arquitectura de la información."
+    },
+    "interface-design": {
+      "title": "Diseño de interfaz",
+      "description": "Creando maquetas finales mientras respetamos tus pautas de marca. Atención especial a los componentes y su reutilización."
+    },
+    "prototyping": {
+      "title": "Prototipado",
+      "description": "Creando prototipos para probar interacciones y validar los recorridos de los usuarios."
+    },
+    "development": {
+      "title": "Desarrollo",
+      "description": "Transformando maquetas en interfaces funcionales, con especial atención a las animaciones definidas."
+    }
+  }
+}

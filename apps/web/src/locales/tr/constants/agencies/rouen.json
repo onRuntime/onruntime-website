@@ -1,0 +1,79 @@
+{
+  "title": "Rouen'da Web Geliştirme | Normandiya İşletmeleri için Dijital Çözümler",
+  "description": "Rouen'da web sitenizi veya mobil uygulamanızı oluşturun. Normandiya işletmeleri için yerel sektörünüzün zorluklarına uyarlanmış özel dijital çözümler.",
+  "hero": {
+    "title": "Rouen'da Web ve Mobil Geliştirme",
+    "description": "Rouen ve Normandiya'daki işletmelere özel web çözümleriyle dijitalleşmelerine yardımcı oluyoruz. Normandiya pazarının belirli zorluklarına mükemmel bir şekilde uyarlanmış çözümler sunuyoruz."
+  },
+  "intro": "Normandiya ekonomik yapısı, ustalaşmamız gereken belirli dijital zorluklar sunuyor. İmalat sanayisi, gıda sektörü ve nehir lojistiği arasında, Rouen şirketlerinin kesin ihtiyaçlarını karşılayan dijital çözümler oluşturuyoruz.",
+  "expertise": "Ekibimiz, Rouen ve çevresindeki işletmelere mükemmel şekilde uyum sağlayan web siteleri, uygulamalar ve e-ticaret çözümleri tasarlıyor. Pazarınızın zorluklarını anlıyoruz ve işletmenizin öne çıkmasına ve büyümesine yardımcı olacak dijital çözümler sunuyoruz.",
+  "why-choose-us": "Normandiya pazarına dair derinlemesine bilgimiz, yerel işletmelerin belirli zorluklarına mükemmel şekilde uyum sağlayan dijital çözümler geliştirmemizi sağlıyor. Parisli ajansların aksine, Rouen'ın ekonomik yapısının inceliklerini anlıyoruz ve uygun fiyat/performans oranıyla özel çözümler sunuyoruz.",
+  "key-business-sectors": {
+    "industry": "Sanayi",
+    "agrifood": "Gıda Tarımı",
+    "logistics": "Lojistik",
+    "local-commerce": "Yerel Ticaret"
+  },
+  "local-challenges": {
+    "traditional-industries-digitalization": "Uluslararası rekabetle karşılaşan geleneksel Normandiya sanayilerinin dijitalleştirilmesi",
+    "logistics-optimization": "Yenilikçi dijital çözümlerle nehir ve liman lojistiğinin optimizasyonu",
+    "local-ecommerce-needs": "Yerel üreticiler ve zanaatkarlar için uyarlanmış e-ticaret çözümlerine ihtiyaç",
+    "sme-digital-transition": "Kontrollü bütçelerle Normandiya KOBİ’lerinin dijital dönüşümü"
+  },
+  "benefits": {
+    "normandy-specific-solutions": "Normandiya işletmelerinin özeliklerine uyarlanan özel çözümler",
+    "industrial-agrifood-expertise": "Bölgesel sanayi ve gıda sektörlerinde keskin uzmanlık",
+    "competitive-pricing": "Parisli ajanslara kıyasla rekabetçi fiyatlandırma",
+    "seine-logistics-knowledge": "Seine eksenine ilişkin lojistik zorlukları hakkında derinlemesine bilgi",
+    "personalized-support": "Dijital projeniz boyunca kişiselleştirilmiş destek"
+  },
+  "primary-stat": {
+    "label": "sanayi sektörü"
+  },
+  "strengths": {
+    "industrial-websites": {
+      "title": "Sanayi Web Siteleri",
+      "description": "Normandiya imalat şirketlerine uyum sağlayan yüksek performanslı siteler."
+    },
+    "local-ecommerce": {
+      "title": "Yerel E-Ticaret",
+      "description": "Yerel üreticiler ve zanaatkarlar için çevrimiçi satış çözümleri."
+    },
+    "business-applications": {
+      "title": "İş Uygulamaları",
+      "description": "Süreçlerinizi optimize etmek için özel dijital araçlar."
+    },
+    "sme-digitalization": {
+      "title": "KOBİ Dijitalleşmesi",
+      "description": "Dijital dönüşümünüz için tamamen destek."
+    }
+  },
+  "focused-services": {
+    "professional-websites": {
+      "name": "Profesyonel Web Siteleri",
+      "description": "Rouen'da yerel SEO'ya optimize edilmiş yüksek performanslı dijital vitrinler."
+    },
+    "regional-ecommerce": {
+      "name": "Bölgesel E-Ticaret",
+      "description": "Normandiya üreticileri ve tüccarları için uyarlanmış çevrimiçi mağazalar."
+    },
+    "business-applications": {
+      "name": "İş Uygulamaları",
+      "description": "Bölgesel sanayi ve lojistik için özel yazılımlar."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Uzmanlık",
+      "description": "Yılların deneyimi"
+    },
+    "satisfaction": {
+      "label": "Memnuniyet",
+      "description": "Memnun müşteriler"
+    },
+    "average-time": {
+      "label": "Ortalama Süre",
+      "description": "Tamamlama haftaları"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "品牌指南",
+  "description": "打造您的完整视觉身份",
+  "hero": {
+    "title": "品牌与品牌形象",
+    "description": "用独特而令人难忘的视觉身份让品牌焕发生机。我们的品牌专业知识帮助您创造与受众共鸣并反映您价值观的品牌形象。"
+  },
+  "features": {
+    "visual-identity": {
+      "title": "视觉身份",
+      "description": "创造独特而令人难忘的身份。"
+    },
+    "brand-values": {
+      "title": "品牌价值",
+      "description": "您DNA和价值的视觉表达。"
+    },
+    "brand-guidelines": {
+      "title": "品牌指南",
+      "description": "您的身份的完整文档。"
+    },
+    "design-system": {
+      "title": "设计系统",
+      "description": "统一且可重复使用的视觉元素。"
+    }
+  },
+  "benefits": {
+    "recognition": {
+      "title": "认知度",
+      "description": "令人难忘且独特的品牌形象。"
+    },
+    "consistency": {
+      "title": "一致性",
+      "description": "在所有媒体上统一的视觉传播。"
+    },
+    "trust": {
+      "title": "信任",
+      "description": "增强与受众的可信度。"
+    },
+    "reach": {
+      "title": "覆盖范围",
+      "description": "在所有渠道上强烈的视觉冲击。"
+    }
+  },
+  "faq": {
+    "complete-identity": {
+      "question": "完整的品牌身份包括什么？",
+      "answer": "完整的品牌身份包括徽标、色彩调色板、字体、图形元素、语气和使用规则。我们提供详细的品牌指南文件，记录所有这些元素并指导其一致使用。"
+    },
+    "creation-process": {
+      "question": "创建过程是怎样的？",
+      "answer": "该过程始于发现阶段，了解您的品牌、价值观和受众。然后我们开发创意概念，创建视觉元素，并根据您的反馈进行迭代。该过程以交付完整的品牌指南文件结束。"
+    },
+    "deliverables": {
+      "question": "提供哪些交付物？",
+      "answer": "您将获得一个完整的包裹，包括：徽标（不同版本）、色彩调色板、字体、图形元素、文档模板、使用指南和所有必要格式的源文件。"
+    },
+    "uniqueness": {
+      "question": "你们怎么确保身份的独特性？",
+      "answer": "我们对您的市场和竞争进行深入研究，以创建独特的身份。我们还会核实视觉元素的可用性，以避免与现有品牌的冲突。"
+    },
+    "transition": {
+      "question": "你们如何处理向新身份的过渡？",
+      "answer": "我们提供逐步部署计划，引导您向新身份的过渡。这包括内部和外部沟通的建议，以及实施时间表。"
+    }
+  },
+  "complementary": {
+    "marketing-kit": {
+      "title": "营销工具包",
+      "description": "创建一致的营销材料。"
+    },
+    "social-media": {
+      "title": "社交媒体",
+      "description": "为社交媒体做适配。"
+    },
+    "print-materials": {
+      "title": "印刷材料",
+      "description": "创建印刷材料。"
+    }
+  }
+}

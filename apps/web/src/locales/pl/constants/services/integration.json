@@ -1,0 +1,48 @@
+{
+  "name": "Integracja",
+  "description": "Integracja na głównych platformach e-commerce i CMS",
+  "benefits": {
+    "clean-maintainable-code": {
+      "title": "Czysty i łatwy w utrzymaniu kod",
+      "description": "Integracja z wysokimi standardami kodu i architekturą zaprojektowaną z myślą o długoterminowej łatwości utrzymania."
+    },
+    "optimized-performance": {
+      "title": "Optymalna wydajność",
+      "description": "Szybkie i płynne strony internetowe dzięki zaawansowanym technikom optymalizacji i najlepszym praktykom."
+    },
+    "responsive-design": {
+      "title": "Responsywny design",
+      "description": "Idealne dostosowanie do wszystkich ekranów i urządzeń zapewniające spójne doświadczenie użytkownika."
+    },
+    "smooth-animations": {
+      "title": "Płynne animacje",
+      "description": "Integracja dopracowanych animacji, które wzbogacają doświadczenie użytkownika, nie wpływając negatywnie na wydajność."
+    }
+  },
+  "process": {
+    "mockup-analysis": {
+      "title": "Analiza makiet",
+      "description": "Szczegółowe badanie makiet w celu zidentyfikowania komponentów, interakcji i punktów technicznych wymagających uwagi."
+    },
+    "technical-architecture": {
+      "title": "Architektura techniczna",
+      "description": "Definicja architektury frontendowej i wybór technologii odpowiednich do projektu."
+    },
+    "component-development": {
+      "title": "Rozwój komponentów",
+      "description": "Tworzenie komponentów wielokrotnego użytku zgodnie z zasadami systemu projektowania."
+    },
+    "responsive-integration": {
+      "title": "Responsywna integracja",
+      "description": "Dostosowanie projektu do wszystkich formatów ekranów z szczególnym uwzględnieniem doświadczenia na urządzeniach mobilnych."
+    },
+    "optimization": {
+      "title": "Optymalizacja",
+      "description": "Optymalizacja wydajności, dostępności i technicznego SEO."
+    },
+    "testing-validation": {
+      "title": "Testowanie i walidacja",
+      "description": "Dokładne testy na różnych przeglądarkach i urządzeniach, aby zapewnić optymalne doświadczenie użytkownika."
+    }
+  }
+}

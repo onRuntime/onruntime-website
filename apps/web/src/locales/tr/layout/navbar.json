@@ -1,0 +1,33 @@
+{
+  "links": {
+    "services": "Hizmetlerimiz",
+    "projects": "Projelerimiz",
+    "agencies": "Ajanslarımız",
+    "npo": "Dernek",
+    "contact": "Bize ulaşın"
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "description": "Dijital projelerinizi hayata geçirmek için kapsamlı geliştirme ve tasarım hizmetlerimizi keşfedin.",
+    "cta": "Daha fazla bilgi edinin"
+  },
+  "projects": {
+    "title": "Portföyümüz",
+    "description": "Çeşitli sektörlerdeki tüm projelerimizi ve başarılarımızı keşfedin.",
+    "categories": {
+      "web-mobile": "Web ve mobil uygulamalar",
+      "open-source": "Açık kaynak projeleri",
+      "design": "UI/UX tasarımı"
+    },
+    "cta": "Tüm projeleri görüntüleyin"
+  },
+  "agencies": {
+    "title": "Fransa'daki ajanslarımız",
+    "description": "Fransa'nın her yerindeki ajanslarımız ve yerel uzmanlığımızı keşfedin.",
+    "agency": "Ajans {name}",
+    "main": "Ana ajanslar",
+    "all": "Tüm ajanslarımız",
+    "by-region": "Bölgeye göre tüm ajanslarımız",
+    "cta": "Tüm ajansları görüntüleyin"
+  }
+}

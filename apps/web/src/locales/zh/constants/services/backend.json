@@ -1,0 +1,48 @@
+{
+  "name": "后端开发",
+  "description": "稳健解决方案的架构和开发",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "可扩展架构",
+      "description": "系统设计能够随着你的成长而进化，使用现代和分布式架构."
+    },
+    "optimized-database": {
+      "title": "优化数据库",
+      "description": "数据库设计和优化，以实现最大性能和数据完整性."
+    },
+    "robust-infrastructure": {
+      "title": "稳健基础设施",
+      "description": "在现代云基础设施上部署，具有高可用性和弹性."
+    },
+    "advanced-security": {
+      "title": "高级安全性",
+      "description": "实施安全最佳实践，保护敏感数据."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "需求分析",
+      "description": "对技术需求的深入研究，架构定义和技术选择."
+    },
+    "system-design": {
+      "title": "系统设计",
+      "description": "后端架构设计，数据建模和API定义."
+    },
+    "api-development": {
+      "title": "API开发",
+      "description": "实施带完整文档的RESTful或GraphQL API."
+    },
+    "database": {
+      "title": "数据库",
+      "description": "数据库设置和优化，重点关注性能和可扩展性."
+    },
+    "testing-security": {
+      "title": "测试和安全",
+      "description": "实施自动化测试和高级安全措施."
+    },
+    "deployment-monitoring": {
+      "title": "部署和监控",
+      "description": "设置云基础设施、监控和警报."
+    }
+  }
+}

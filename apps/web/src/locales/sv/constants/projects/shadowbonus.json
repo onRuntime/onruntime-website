@@ -1,0 +1,75 @@
+{
+  "short-description": "Affiliateplattform för streamers specialiserad på online casinobonusar och boxöppning.",
+  "description": "Affiliatewebbplats utvecklad för streamern vitapvp, som visar de bästa bonusarna och fördelarna från partnercasinon med omdirigering till affiliate-länkar.",
+  "long-description": "ShadowBonus är en affiliateplattform utvecklad för streamern vitapvp, designad för att tydligt och attraktivt presentera de bästa bonusarna och fördelarna från partner online casinon.\n\nProjektet fokuserar på det väsentliga: ett rent interface som framhäver partnererbjudanden och underlättar konvertering till affiliate-länkar. Utvecklad med React och styled-components, prioriterar webbplatsen användarvänlighet och konverteringseffektivitet.\n\nVår strategi fokuserade på en smidig användarupplevelse som låter vitapvps tittare snabbt upptäcka de bästa tillgängliga erbjudandena och enkelt få tillgång till partnerplattformar.",
+  "features": {
+    "partner-showcase": {
+      "title": "Partnerutställning",
+      "description": "Tydlig och attraktiv presentation av streamerns partnercasinon och plattformar"
+    },
+    "bonus-comparison": {
+      "title": "Bonusjämförelse",
+      "description": "Framhäva de bästa bonusarna och fördelarna som finns tillgängliga för tittarna"
+    },
+    "affiliate-redirect": {
+      "title": "Affiliateomdirigering",
+      "description": "Optimerat omdirigeringssystem till partnerföretagslänkar"
+    },
+    "responsive-interface": {
+      "title": "Responsiv design",
+      "description": "Adaptiv design för optimal upplevelse på alla enheter"
+    }
+  },
+  "technologies": {
+    "react": {
+      "description": "JavaScript-bibliotek för användargränssnitt"
+    },
+    "styled-components": {
+      "description": "CSS-in-JS-styling för en modern metod"
+    },
+    "cloudflare": {
+      "description": "Hosting och kontinuerlig deployment"
+    }
+  },
+  "metrics": {
+    "weekly-visits": {
+      "value": "1500+",
+      "label": "Veckovisa besök",
+      "description": "Vid lanseringen i juli 2021"
+    },
+    "dev-time": {
+      "value": "2 månader",
+      "label": "Utvecklingstid",
+      "description": "Snabb och effektiv leverans"
+    },
+    "team-size": {
+      "value": "3 personer",
+      "label": "Team",
+      "description": "Litet och agilt team"
+    }
+  },
+  "screenshots": {
+    "homepage": {
+      "caption": "Huvudsidan som visar partnererbjudanden"
+    },
+    "partners": {
+      "caption": "Avsnittet för partnercasinon och plattformar"
+    }
+  },
+  "challenges": {
+    "attractive-interface": "Skapa ett attraktivt gränssnitt för att framhäva partnererbjudanden",
+    "conversion-optimization": "Optimera konverteringsgraden till affiliate-länkar",
+    "simple-react-solution": "Utveckla en enkel men effektiv React-lösning",
+    "cross-device-experience": "Säkerställa en smidig användarupplevelse på alla enheter"
+  },
+  "learnings": {
+    "affiliate-simplicity": "Vikten av enkelhet i affiliateprojekt",
+    "streamer-conversion": "Optimera konverteringsresor för streamers",
+    "react-styled-components": "Snabb och effektiv utveckling med React och styled-components",
+    "gaming-streaming-needs": "Anpassa sig efter de specifika behoven inom gaming streaming"
+  },
+  "future-plans": {
+    "client-transfer": "Projektet överfördes till klienten för underhåll",
+    "streamer-evolutions": "Möjliga evolutioner baserade på streamerens behov"
+  }
+}

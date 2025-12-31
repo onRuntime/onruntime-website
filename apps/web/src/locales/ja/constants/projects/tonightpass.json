@@ -1,0 +1,68 @@
+{
+  "short-description": "あなたの好みに合わせた最高のイベントを発見して予約しよう。",
+  "description": "Tonight Passは、あなたの好みに基づいたパーソナライズされた推薦システムを通じて、イベントの発見と予約を簡単にする革新的なプラットフォームです。",
+  "long-description": "Tonight Passは、人々がイベントを発見して参加する方法を革新します。私たちのプラットフォームは、テクノロジーとユーザー体験を融合させ、パーソナライズされた推薦と簡素化されたチケット管理を提供します。\n\nこのプラットフォームは、イベントの主催者と参加者をつなぎ、予約管理、スマート推薦、データ分析のための完全なソリューションを提供します。アプリケーションは、イベントの発見体験を最適化しながら、主催者の管理を簡素化するように設計されています。",
+  "features": {
+    "ticketing": {
+      "title": "簡素化されたチケット管理",
+      "description": "あらゆる種類のイベントのチケットを数回のクリックで予約できます。"
+    },
+    "recommendations": {
+      "title": "パーソナライズされた推薦",
+      "description": "あなたの好みに合わせたイベントを発見しよう。"
+    },
+    "e-tickets": {
+      "title": "安全な電子チケット",
+      "description": "安全なデジタルチケットでイベントにアクセスしよう。"
+    }
+  },
+  "technologies": {
+    "react": {
+      "description": "Webとモバイルアプリケーション"
+    },
+    "nestjs": {
+      "description": "バックエンドAPI"
+    },
+    "mongodb": {
+      "description": "主なデータベース"
+    }
+  },
+  "metrics": {
+    "time-saved": {
+      "value": "45分",
+      "label": "節約した時間",
+      "description": "イベント検索ごとに平均で"
+    },
+    "coverage": {
+      "value": "100%",
+      "label": "カバレッジ",
+      "description": "フランス全土で利用可能"
+    },
+    "ease": {
+      "value": "1クリック",
+      "label": "簡単さ",
+      "description": "どんなイベントでも予約できる。"
+    }
+  },
+  "screenshots": {},
+  "challenges": {
+    "ticketing-experience": "スムーズで直感的なチケット体験の開発",
+    "recommendation-system": "パーソナライズされた推薦システムの構築",
+    "scalable-infrastructure": "スケーラブルなインフラの整備",
+    "traffic-peaks": "チケットリリース時のトラフィックピークの管理"
+  },
+  "learnings": {
+    "booking-simplicity": "予約過程におけるシンプルさの重要性",
+    "event-type-interface": "異なるイベントタイプに適したインターフェースの必要性",
+    "database-management": "イベントデータベースの効率的な管理",
+    "speed-reliability-balance": "スピードとサービスの信頼性のバランス"
+  },
+  "future-plans": {
+    "venue-kiosks": "会場にキオスクを展開すること",
+    "recruitment-platform": "イベントリクルートメントプラットフォームを立ち上げること",
+    "venue-rental": "会場レンタルサービスを設立すること",
+    "supplier-network": "イベントサプライヤーのネットワークを構築すること",
+    "organizer-tools": "主催者向けの高度なツールを開発すること",
+    "recommendation-improvement": "推薦システムの改善"
+  }
+}

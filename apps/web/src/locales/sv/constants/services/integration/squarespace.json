@@ -1,0 +1,80 @@
+{
+  "name": "SquareSpace",
+  "description": "Integration och anpassning på SquareSpace",
+  "hero": {
+    "title": "Eleganta webbplatser med Squarespace",
+    "description": "Skapa en raffinerad online-närvaro med Squarespace. Vår expertis garanterar en estetisk och funktionell webbplats som är perfekt anpassad efter din varumärkesbild."
+  },
+  "features": {
+    "minimalist-design": {
+      "title": "Minimalistisk design",
+      "description": "Skapande av eleganta och rena sidor som visar upp ditt innehåll och varumärke."
+    },
+    "smooth-experience": {
+      "title": "Smidig upplevelse",
+      "description": "Intuitiv navigering och optimerad prestanda för en problemfri användarupplevelse."
+    },
+    "content-management": {
+      "title": "Innehållshantering",
+      "description": "Enkel och intuitiv admingränssnitt för att enkelt hantera ditt innehåll."
+    },
+    "media-integration": {
+      "title": "Medieintegration",
+      "description": "Optimal presentation av dina bilder och media med dynamiska gallerier."
+    }
+  },
+  "benefits": {
+    "professional-templates": {
+      "title": "Professionella mallar",
+      "description": "Brett utbud av moderna och anpassningsbara mallar för alla branscher."
+    },
+    "integrated-ecommerce": {
+      "title": "Integrerad e-handel",
+      "description": "Kompletta och anpassningsbara lösningar för onlineförsäljning."
+    },
+    "optimal-performance": {
+      "title": "Optimal prestanda",
+      "description": "Snabba och säkra sidor som är värd på robust infrastruktur."
+    },
+    "integrated-marketing": {
+      "title": "Integrerad marknadsföring",
+      "description": "Marknadsföringsverktyg och statistikanalys för att växa ditt företag."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Hur lång tid tar det att skapa en Squarespace-sida?",
+      "answer": "Den genomsnittliga tiden för att skapa en Squarespace-sida varierar från 2 till 6 veckor, beroende på projektets komplexitet. Detta inkluderar val av mall och anpassningar, innehållsintegration och testning."
+    },
+    "product-sales": {
+      "question": "Kan jag sälja produkter på min Squarespace-sida?",
+      "answer": "Ja, Squarespace erbjuder en komplett e-handelslösning som vi kan konfigurera för att låta dig sälja dina produkter online, med lagerhantering, säkra betalningar och fraktalternativ."
+    },
+    "content-updates": {
+      "question": "Är det lätt att uppdatera innehållet?",
+      "answer": "Absolut! Squarespaces gränssnitt är mycket intuitivt. Vi utbildar dig i hur du använder det så att du kan hantera ditt innehåll självständigt."
+    },
+    "seo-optimization": {
+      "question": "Kommer min sida att vara optimerad för SEO?",
+      "answer": "Ja, vi implementerar Squarespace:s bästa metoder för SEO och konfigurerar alla nödvändiga element för att optimera din synlighet på sökmotorer."
+    },
+    "maintenance-service": {
+      "question": "Erbjuder ni underhållstjänster?",
+      "answer": "Ja, vi erbjuder olika underhållsplaner som inkluderar uppdateringar, teknisk support och kontinuerlig optimering av din Squarespace-sida."
+    }
+  },
+  "complementary": {
+    "advanced-customization": {
+      "title": "Avancerad anpassning",
+      "description": "CSS- och Javascriptmodifieringar för att anpassa din sida utöver standardalternativen."
+    },
+    "content-strategy": {
+      "title": "Innehållsstrategi",
+      "description": "Stöd för att skapa och optimera ditt innehåll."
+    },
+    "user-training": {
+      "title": "Användarutbildning",
+      "description": "Komplett utbildning för att behärska hanteringen av din Squarespace-sida."
+    }
+  }
+}

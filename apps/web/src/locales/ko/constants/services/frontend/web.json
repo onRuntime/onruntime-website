@@ -1,0 +1,80 @@
+{
+  "name": "웹 애플리케이션",
+  "description": "React와 Next.js를 활용한 현대적인 웹 애플리케이션 개발",
+  "hero": {
+    "title": "프론트엔드 웹 개발",
+    "description": "최신 프론트엔드 기술로 현대적이고 반응형이며 고성능의 웹 애플리케이션을 만들어봐. 우리의 전문성은 당신에게 예외적인 사용자 경험을 보장해."
+  },
+  "features": {
+    "react-nextjs": {
+      "title": "React & Next.js",
+      "description": "성능이 뛰어나고 확장 가능한 애플리케이션을 위한 현대적인 프레임워크로 개발할 수 있어."
+    },
+    "responsive-design": {
+      "title": "반응형 디자인",
+      "description": "모든 기기에서 최적인 경험을 위해 적응형 인터페이스를 제공해."
+    },
+    "web-performance": {
+      "title": "웹 성능",
+      "description": "빠른 로딩 시간과 부드러운 경험을 위한 고급 최적화를 제공해."
+    },
+    "modern-ui-ux": {
+      "title": "모던 UI/UX",
+      "description": "최신 트렌드를 따르는 우아하고 직관적인 사용자 인터페이스야."
+    }
+  },
+  "benefits": {
+    "reactive-apps": {
+      "title": "반응형 애플리케이션",
+      "description": "부드러운 사용자 경험을 위한 동적이고 반응적인 인터페이스를 제공해."
+    },
+    "mobile-first": {
+      "title": "모바일 우선",
+      "description": "모바일을 먼저 생각하고 그다음에 더 큰 화면에 맞게 조정해."
+    },
+    "optimal-performance": {
+      "title": "최적의 성능",
+      "description": "최소한의 로딩 시간을 위한 고급 최적화를 적용해."
+    },
+    "seo-optimized": {
+      "title": "SEO 최적화",
+      "description": "뛰어난 자연 검색을 위해 구조를 최적화해."
+    }
+  },
+  "faq": {
+    "technologies": {
+      "question": "프론트엔드 개발에 어떤 기술을 사용해?",
+      "answer": "우리는 주로 React와 Next.js를 사용하고, 더 견고한 코드를 위해 TypeScript도 사용해. 스타일링을 위한 Tailwind CSS와 애니메이션 및 상호작용을 위한 다양한 라이브러리도 통합해."
+    },
+    "performance": {
+      "question": "웹 애플리케이션 성능 관리는 어떻게 해?",
+      "answer": "우리는 코드 분할, 레이지 로딩, 이미지 최적화, 스마트 캐싱 같은 최적화 모범 사례를 적용해. 성능 측정 도구를 사용해서 최적의 로딩 시간을 보장해."
+    },
+    "seo": {
+      "question": "SEO 솔루션을 제공해?",
+      "answer": "응, 우리는 서버 사이드 렌더링(SSR), 정적 페이지 생성, 동적 메타데이터, 의미론적 구조 및 검색 엔진 최적화를 고려해서 애플리케이션을 개발해."
+    },
+    "browser-compatibility": {
+      "question": "다양한 브라우저 호환성은 어떻게 보장해?",
+      "answer": "우리는 주요 브라우저와 버전에서 테스트하고, 현대적인 변환 도구를 사용하고, 일관된 경험을 보장하기 위한 적절한 폴백을 설정해."
+    },
+    "maintenance": {
+      "question": "개발된 애플리케이션에 대한 유지 보수를 제공해?",
+      "answer": "응, 우리는 보안 업데이트, 지속적인 성능 최적화 및 기능 발전을 포함한 여러 유지 보수 계획을 제공해."
+    }
+  },
+  "complementary": {
+    "ui-ux-design": {
+      "title": "UI/UX 디자인",
+      "description": "현대적이고 인체공학적인 사용자 인터페이스 디자인."
+    },
+    "api-integration": {
+      "title": "API 통합",
+      "description": "기존 백엔드 시스템 및 서비스와 연결해."
+    },
+    "internationalization": {
+      "title": "국제화",
+      "description": "국제적인 고객을 위해 당신의 애플리케이션을 조정해."
+    }
+  }
+}

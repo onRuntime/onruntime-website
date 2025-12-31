@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "Lass uns über dein Projekt sprechen",
+    "description": "Wir freuen uns immer, neue Projekte zu besprechen. Kontaktiere uns, um deine Ideen zu teilen und zu sehen, wie wir dir helfen können."
+  },
+  "form": {
+    "name": {
+      "label": "Vollständiger Name",
+      "placeholder": "Max Mustermann"
+    },
+    "email": {
+      "label": "E-Mail",
+      "placeholder": "du@example.com"
+    },
+    "message": {
+      "label": "Nachricht",
+      "placeholder": "Beschreibe dein Projekt..."
+    },
+    "submit": "Nachricht senden",
+    "submitting": "Wird gesendet..."
+  },
+  "toast": {
+    "success": {
+      "title": "Nachricht gesendet",
+      "description": "Wir melden uns so schnell wie möglich bei dir."
+    },
+    "error": {
+      "title": "Fehler",
+      "description": "Beim Senden der Nachricht ist ein Fehler aufgetreten",
+      "fallback": "Ein Fehler ist aufgetreten"
+    }
+  },
+  "info": {
+    "title": "Kontaktdaten",
+    "email": {
+      "label": "E-Mail"
+    },
+    "offices": {
+      "label": "Unsere Büros",
+      "value": "Rouen & Paris, Frankreich"
+    },
+    "phone": {
+      "label": "Telefon"
+    }
+  },
+  "hours": {
+    "title": "Öffnungszeiten",
+    "timezone": "(Pariser Zeit)",
+    "weekdays": "Montag - Freitag:",
+    "weekdays-time": "9:00 - 18:00",
+    "weekend": "Wochenende:",
+    "weekend-time": "Geschlossen"
+  },
+  "tagline": "Ein kreatives Studio, das sich der Umsetzung deiner Ideen in digitale Realität widmet."
+}

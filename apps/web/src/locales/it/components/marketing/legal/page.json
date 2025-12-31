@@ -1,0 +1,13 @@
+{
+  "last-updated": "Ultimo aggiornamento:",
+  "question": {
+    "title": "Hai domande sui nostri termini?",
+    "description": "Il nostro team è disponibile a rispondere a tutte le tue domande.",
+    "cta": "Contattaci"
+  },
+  "nav": {
+    "company": "Dettagli dell'azienda",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini e condizioni"
+  }
+}

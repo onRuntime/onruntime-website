@@ -10,7 +10,7 @@
     "badge": "Nos services",
     "title": "Solutions {service} sur mesure",
     "description": "Découvrez notre gamme complète de services {service}, conçue pour répondre à tous vos besoins et vous accompagner dans la réalisation de vos projets.",
-    "learnMore": "En savoir plus"
+    "learn-more": "En savoir plus"
   },
   "benefits": {
     "badge": "Avantages",

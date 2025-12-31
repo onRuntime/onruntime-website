@@ -1,0 +1,81 @@
+{
+  "short-description": "环保活动追踪。以有趣的方式监控你的在线足迹。",
+  "description": "一个帮助你理解和减少在线环境影响的浏览器扩展。",
+  "long-description": "Kartrak 是一个创新的浏览器扩展，它提高用户对数字碳足迹的意识。通过监控你的在线活动，Kartrak 提供有关你互联网使用情况及其环境影响的详细见解。<br><br>该扩展使用基于 Ecoindex 的先进算法来计算你的浏览碳足迹，同时提供个性化建议以减少你的影响。Ecoindex 是一种公认的方法，通过分析网站的技术复杂性、重量和能源效率来评估网站的环境影响。<br><br>凭借有趣且富有教育意义的方法，Kartrak 让环境意识变得易于接触并充满吸引力。",
+  "features": {
+    "real-time-tracking": {
+      "title": "实时追踪",
+      "description": "实时可视化你的数字碳足迹"
+    },
+    "personalized-suggestions": {
+      "title": "个性化建议",
+      "description": "获得量身定制的建议以减少你的影响"
+    },
+    "detailed-stats": {
+      "title": "详细统计",
+      "description": "分析你的浏览习惯及其影响"
+    },
+    "ecological-goals": {
+      "title": "生态目标",
+      "description": "设定目标并跟踪你的进展"
+    }
+  },
+  "technologies": {
+    "typescript": {
+      "description": "浏览器扩展"
+    },
+    "react": {
+      "description": "用户界面"
+    },
+    "nodejs": {
+      "description": "后端和 API"
+    },
+    "chrome-api": {
+      "description": "浏览器集成"
+    }
+  },
+  "metrics": {
+    "sites-analyzed": {
+      "value": "∞",
+      "label": "分析的网站数量",
+      "description": "与所有网站兼容"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "开源",
+      "description": "公开的源代码"
+    },
+    "confidential": {
+      "value": "100%",
+      "label": "保密",
+      "description": "不收集用户数据"
+    }
+  },
+  "screenshots": {
+    "dashboard": {
+      "caption": "主仪表盘"
+    },
+    "stats": {
+      "caption": "详细统计"
+    }
+  },
+  "challenges": {
+    "carbon-calculation": "准确的碳足迹计算",
+    "privacy-protection": "保护用户隐私",
+    "background-performance": "扩展在后台的性能",
+    "environmental-data-accuracy": "环境数据的准确性"
+  },
+  "learnings": {
+    "environmental-impact-complexity": "环境影响计算的复杂性",
+    "user-engagement": "用户参与的重要性",
+    "accuracy-performance-balance": "准确性与性能之间的平衡",
+    "navigation-ux": "适应浏览习惯的用户体验"
+  },
+  "future-plans": {
+    "more-browsers": "支持更多浏览器",
+    "eco-tools-integration": "与其他环保工具的集成",
+    "community-features": "社区功能",
+    "personalized-reports": "个性化详细报告",
+    "auto-close-tabs": "自动关闭未使用的标签"
+  }
+}

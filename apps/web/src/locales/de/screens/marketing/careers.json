@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Werde Teil unseres Teams",
+    "description": "Entdecke Karrieremöglichkeiten bei onRuntime Studio und schließe dich einem dynamischen Team an, das mit Leidenschaft an Entwicklung und Design arbeitet."
+  },
+  "why-join": {
+    "title": "Warum zu uns kommen?",
+    "description": "Bei onRuntime Studio glauben wir an Kreativität, Innovation und Zusammenarbeit. Komm zu uns, um die Zukunft der Digitalisierung mitzugestalten und deine Fähigkeiten in einer inspirierenden Umgebung weiterzuentwickeln.",
+    "cards": {
+      "creativity": {
+        "title": "Kreativität und Innovation",
+        "description": "Bring deine Ideen ein und trage zu innovativen Projekten bei, die die Grenzen des Möglichen erweitern."
+      },
+      "team": {
+        "title": "Leidenschaftliches Team",
+        "description": "Arbeite mit talentierten und leidenschaftlichen Fachleuten in einer freundlichen und inspirierenden Umgebung zusammen."
+      },
+      "impact": {
+        "title": "Globaler Einfluss",
+        "description": "Trage zu Projekten bei, die einen echten Einfluss haben und Nutzer weltweit erreichen."
+      }
+    }
+  },
+  "opportunities": {
+    "title": "Aktuelle Stellenangebote",
+    "description": "Entdecke unsere Stellenangebote und finde die Position, die zu deinen Fähigkeiten und Zielen passt.",
+    "search-placeholder": "Position, Standort suchen...",
+    "all": "Alle"
+  },
+  "spontaneous": {
+    "title": "Hast du die passende Stelle nicht gefunden?",
+    "description": "Schick uns eine Initiativbewerbung! Wir sind immer auf der Suche nach außergewöhnlichen Talenten, die unser Team verstärken.",
+    "cta": "Initiativbewerbung senden"
+  },
+  "teams": {
+    "title": "Unsere Teams",
+    "description": "Entdecke die verschiedenen Teams, die onRuntime Studio ausmachen, und finde das, das am besten zu deinen Fähigkeiten und Zielen passt.",
+    "development": {
+      "title": "Entwicklung",
+      "description": "Unsere Entwickler erstellen leistungsstarke und innovative Web- und mobile Anwendungen, die die neuesten Technologien nutzen, um außergewöhnliche Benutzererlebnisse zu bieten."
+    },
+    "design": {
+      "title": "Design",
+      "description": "Unser Designteam erstellt elegante und intuitive Benutzeroberflächen und stellt sicher, dass jeder Pixel perfekt mit der visuellen Identität des Projekts abgestimmt ist."
+    },
+    "project": {
+      "title": "Projekt & Produkt",
+      "description": "Unsere Projekt- und Produktmanager sorgen für einen reibungslosen Ablauf der Projekte und dass die entwickelten Lösungen perfekt auf die Bedürfnisse der Benutzer abgestimmt sind."
+    },
+    "marketing": {
+      "title": "Marketing & Kommunikation",
+      "description": "Unser Marketingteam arbeitet daran, unsere Projekte zu bewerben und effektiv über unsere Erfolge zu kommunizieren, sowohl intern als auch an die Öffentlichkeit."
+    }
+  },
+  "cta": {
+    "title": "Bereit, zu uns zu kommen?",
+    "description": "Durchsuche unsere Stellenangebote und finde die Position, die deinen Fähigkeiten und Zielen entspricht. Wir freuen uns darauf, dich in unserem Team willkommen zu heißen!",
+    "button": "Stellenangebote ansehen"
+  },
+  "error": "Bei der Lade der Stellenangebote ist ein Fehler aufgetreten. Bitte versuche es später noch einmal."
+}

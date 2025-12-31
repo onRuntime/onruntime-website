@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "cta": "Besprechen Sie Ihr Projekt"
+  },
+  "expertise": {
+    "title": "Tiefe Expertise in {service}",
+    "description": "Wir kombinieren Kreativität und technische Expertise, um {service}-Lösungen zu liefern, die perfekt auf Ihre Ziele abgestimmt sind. Unser methodischer Ansatz und unsere Erfahrung ermöglichen es uns, nachhaltige und skalierbare Lösungen zu schaffen."
+  },
+  "services": {
+    "badge": "Unsere Dienstleistungen",
+    "title": "Maßgeschneiderte {service}-Lösungen",
+    "description": "Entdecken Sie unser komplettes Angebot an {service}-Dienstleistungen, das darauf ausgelegt ist, all Ihre Bedürfnisse zu erfüllen und Sie bei der Verwirklichung Ihrer Projekte zu unterstützen.",
+    "learn-more": "Erfahren Sie mehr"
+  },
+  "benefits": {
+    "badge": "Vorteile",
+    "title": "Warum unsere {service}-Dienstleistungen wählen?"
+  },
+  "process": {
+    "badge": "Unser Prozess",
+    "title": "Wie wir arbeiten",
+    "description": "Ein integrierter Ansatz, der unsere verschiedenen Fachbereiche kombiniert, um optimale Ergebnisse zu erzielen."
+  },
+  "cta": {
+    "title": "Bereit, Ihr Projekt zum Leben zu erwecken?",
+    "description": "Kontaktieren Sie uns, um Ihre Bedürfnisse zu besprechen und ein individuelles Angebot zu erhalten.",
+    "button": "Jetzt starten"
+  }
+}

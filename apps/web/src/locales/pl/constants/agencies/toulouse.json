@@ -1,0 +1,79 @@
+{
+  "title": "Rozwój stron internetowych w Tuluzie | Cyfrowe rozwiązania dla biznesów z Oksytanii",
+  "description": "Stwórz swoją stronę internetową lub aplikację mobilną w Tuluzie. Customowe rozwiązania cyfrowe dla firm w Tuluzie, dostosowane do lokalnych wyzwań w Twojej branży.",
+  "hero": {
+    "title": "Rozwój stron i aplikacji mobilnych w Tuluzie",
+    "description": "Pomagamy firmom w Tuluzie i Oksytanii w digitalizacji z pomocą customowych rozwiązań internetowych, idealnie dopasowanych do specyficznych wyzwań rynku w Tuluzie."
+  },
+  "intro": "Tuluz, europejska stolica lotnictwa i dynamiczne miasto studenckie, ma unikalny ekosystem gospodarczy, w którym innowacje i tradycja współistnieją. Nasza wiedza cyfrowa umożliwia firmom z Tuluzie wyróżnienie się w konkurencyjnym i ciągle ewoluującym środowisku technologicznym.",
+  "expertise": "Nasz zespół projektuje strony internetowe, aplikacje i rozwiązania cyfrowe idealnie dopasowane do firm z Tuluzie, niezależnie od tego, czy są to giganci lotniczy, innowacyjne startupy czy tradycyjne sklepy. Rozumiemy specyficzne wyzwania lokalnego rynku i oferujemy nowoczesne rozwiązania technologiczne.",
+  "why-choose-us": "Nasza dogłębna znajomość rynku w Tuluzie pozwala nam rozwijać cyfrowe rozwiązania idealnie dopasowane do specyficznych wyzwań lokalnych firm. Znamy technologiczne wyzwania Różowej Miasta i wprowadzamy tę ekspertyzę w każdy projekt, aby stworzyć wydajne i przyszłościowe cyfrowe doświadczenia.",
+  "key-business-sectors": {
+    "aeronautics": "Lotnictwo",
+    "space": "Kosmos",
+    "tech": "Technologia",
+    "education": "Edukacja"
+  },
+  "local-challenges": {
+    "aerospace-transformation": "Cyfrowa transformacja firm w ekosystemie lotniczym",
+    "startup-platforms": "Potrzeba innowacyjnych platform dla startupów Tuluzy w French Tech",
+    "elearning-development": "Rozwój rozwiązań e-learningowych dla licznych instytucji edukacyjnych",
+    "local-commerce-adaptation": "Adaptacja lokalnych sklepów wobec konkurencji z sieci krajowych"
+  },
+  "benefits": {
+    "high-tech-solutions": "Customowe rozwiązania dostosowane do branż high-tech",
+    "complex-interfaces-expertise": "Zaawansowana wiedza w zakresie rozwoju złożonych interfejsów",
+    "startup-ecosystem-knowledge": "Dogłębna znajomość ekosystemu startupów w Tuluzie",
+    "agile-approach": "Zwinne podejście idealnie dopasowane do innowacyjnych projektów",
+    "personalized-support": "Personalizowane wsparcie podczas całego Twojego projektu cyfrowego"
+  },
+  "primary-stat": {
+    "label": "sektor technologiczny"
+  },
+  "strengths": {
+    "aeronautics-solutions": {
+      "title": "Rozwiązania lotnicze",
+      "description": "Aplikacje i interfejsy dopasowane do specyficznych potrzeb sektora lotniczego."
+    },
+    "startup-platforms": {
+      "title": "Platformy Startupowe",
+      "description": "Zwinne i skalowalne rozwiązania cyfrowe dla innowacyjnych startupów."
+    },
+    "elearning": {
+      "title": "E-learning",
+      "description": "Platformy edukacyjne dla instytucji szkolnictwa wyższego."
+    },
+    "local-commerce": {
+      "title": "Lokalny Handel",
+      "description": "Customowa digitalizacja dla sklepów i rzemieślników z Tuluzie."
+    }
+  },
+  "focused-services": {
+    "business-applications": {
+      "name": "Aplikacje Biznesowe",
+      "description": "Customowe rozwiązania dla branży lotniczej i firm technologicznych."
+    },
+    "innovative-websites": {
+      "name": "Innowacyjne Strony Internetowe",
+      "description": "Nowoczesne cyfrowe witryny dla startupów i innowacyjnych firm."
+    },
+    "ecommerce-platforms": {
+      "name": "Platformy E-commerce",
+      "description": "Kompleksowe rozwiązania dla lokalnych sklepów, które chcą się cyfryzować."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Ekspertyza",
+      "description": "Lata doświadczenia"
+    },
+    "satisfaction": {
+      "label": "Satisfakcja",
+      "description": "Zadowoleni klienci"
+    },
+    "average-time": {
+      "label": "Średni czas",
+      "description": "Tygodnie realizacji"
+    }
+  }
+}

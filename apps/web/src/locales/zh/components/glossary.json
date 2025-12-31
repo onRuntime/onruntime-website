@@ -1,0 +1,8 @@
+{
+  "back-to-glossary": "返回词汇表",
+  "related-terms": "相关术语",
+  "search": {
+    "placeholder": "搜索术语...",
+    "no-results": "未找到与 \"{term}\" 相关的结果"
+  }
+}

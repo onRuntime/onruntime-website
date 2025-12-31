@@ -1,0 +1,79 @@
+{
+  "title": "Desarrollo web en Montpellier | Soluciones digitales para empresas del Languedoc",
+  "description": "Crea tu sitio web o aplicación móvil en Montpellier. Soluciones digitales personalizadas para empresas de Montpellier, adaptadas a los desafíos locales de tu sector.",
+  "hero": {
+    "title": "Desarrollo web y móvil en Montpellier",
+    "description": "Ayudamos a las empresas de Montpellier y la región del Languedoc a digitalizarse con soluciones web personalizadas, perfectamente adaptadas a los desafíos específicos del mercado regional."
+  },
+  "intro": "Una ciudad dinámica en la encrucijada de influencias mediterráneas y del Languedoc, Montpellier se destaca por su ecosistema de innovación en salud, universidades prestigiosas y su arte de vivir. Nuestra experiencia digital permite a las empresas de Montpellier aprovechar esta riqueza y destacar en un entorno competitivo.",
+  "expertise": "Nuestro equipo diseña sitios web, aplicaciones y soluciones digitales perfectamente adaptadas a las empresas de Montpellier y su región. Entendemos los desafíos específicos de tu mercado local, ya sea en el sector de la salud, la educación o el terroir del Languedoc, y ofrecemos soluciones digitales que destacan tu experiencia y raíces regionales.",
+  "why-choose-us": "Nuestro conocimiento profundo del mercado de Montpellier nos permite desarrollar soluciones digitales perfectamente adaptadas a los desafíos específicos de las empresas locales. Entendemos el equilibrio entre la innovación y la tradición que caracteriza a Montpellier, y lo integramos en cada proyecto para crear experiencias digitales auténticas y de alto rendimiento.",
+  "key-business-sectors": {
+    "health-biotech": "Salud y biotecnologías",
+    "higher-education": "Educación superior",
+    "viticulture": "Viticultura",
+    "tourism": "Turismo"
+  },
+  "local-challenges": {
+    "biotech-health-digitalization": "Digitalización del sector de biotecnología y salud en expansión",
+    "innovative-educational-platforms": "Necesidad de plataformas educativas innovadoras para numerosas universidades y escuelas",
+    "wine-heritage-digital-showcase": "Vitrina digital del patrimonio vinícola y productos locales",
+    "tourism-adaptation": "Adaptación de los actores del turismo ante la competencia mediterránea"
+  },
+  "benefits": {
+    "health-sector-solutions": "Soluciones personalizadas adaptadas a empresas innovadoras del sector de salud",
+    "educational-platforms-expertise": "Experiencia sólida en plataformas educativas y herramientas de e-learning",
+    "languedoc-market-knowledge": "Conocimiento profundo del mercado del Languedoc y sus especificidades",
+    "regional-products-ui": "Interfaces de usuario optimizadas para mostrar productos regionales",
+    "personalized-support": "Soporte personalizado durante todo tu proyecto digital"
+  },
+  "primary-stat": {
+    "label": "biotecnologías"
+  },
+  "strengths": {
+    "connected-health": {
+      "title": "Salud Conectada",
+      "description": "Soluciones digitales para startups y empresas de ciencias de la vida."
+    },
+    "elearning": {
+      "title": "E-learning",
+      "description": "Plataformas educativas para universidades e instituciones de formación."
+    },
+    "digital-terroir": {
+      "title": "Terroir Digital",
+      "description": "Sitios y comercio electrónico para bodegas y productores locales."
+    },
+    "regional-tourism": {
+      "title": "Turismo Regional",
+      "description": "Experiencias digitales para mostrar el patrimonio del Languedoc."
+    }
+  },
+  "focused-services": {
+    "health-applications": {
+      "name": "Aplicaciones de Salud",
+      "description": "Soluciones personalizadas para startups y empresas de ciencias de la vida."
+    },
+    "educational-platforms": {
+      "name": "Plataformas Educativas",
+      "description": "Herramientas de aprendizaje digital para instituciones educativas."
+    },
+    "terroir-ecommerce": {
+      "name": "E-commerce de Terroir",
+      "description": "Tiendas en línea para productores locales y bodegas."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Experiencia",
+      "description": "Años de experiencia"
+    },
+    "satisfaction": {
+      "label": "Satisfacción",
+      "description": "Clientes satisfechos"
+    },
+    "average-time": {
+      "label": "Tiempo Promedio",
+      "description": "Semanas de finalización"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Soluzioni Cloud",
+  "description": "Implementazione e gestione dell'infrastruttura cloud",
+  "hero": {
+    "title": "Soluzioni Cloud",
+    "description": "Ottimizza la tua infrastruttura con soluzioni cloud moderne e scalabili. La nostra esperienza garantisce implementazioni sicure e ad alte prestazioni sulle principali piattaforme cloud."
+  },
+  "features": {
+    "multi-cloud": {
+      "title": "Multi-cloud",
+      "description": "Supporto per le principali piattaforme (AWS, GCP, Azure)."
+    },
+    "advanced-security": {
+      "title": "Sicurezza avanzata",
+      "description": "Protezione robusta dei tuoi dati e delle tue applicazioni."
+    },
+    "optimal-performance": {
+      "title": "Prestazioni ottimali",
+      "description": "Architettura ottimizzata per massime prestazioni."
+    },
+    "automatic-scalability": {
+      "title": "Scalabilità automatica",
+      "description": "Adattamento dinamico alle esigenze di carico."
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "Alta disponibilità",
+      "description": "Infrastruttura ridondante e resiliente."
+    },
+    "elastic-storage": {
+      "title": "Storage elastico",
+      "description": "Gestione dei dati flessibile e sicura."
+    },
+    "advanced-monitoring": {
+      "title": "Monitoraggio avanzato",
+      "description": "Monitoraggio in tempo reale della tua infrastruttura."
+    },
+    "enhanced-security": {
+      "title": "Sicurezza migliorata",
+      "description": "Protezione multilivello delle tue risorse."
+    }
+  },
+  "faq": {
+    "platform-choice": {
+      "question": "Quale piattaforma cloud scegliere?",
+      "answer": "La scelta dipende dalle tue esigenze specifiche: AWS eccelle nella varietà di servizi, Google Cloud nel machine learning e Azure nell'integrazione con Microsoft. Ti guidiamo verso la soluzione migliore in base ai tuoi obiettivi, vincoli tecnici e budget."
+    },
+    "cloud-security": {
+      "question": "Come gestite la sicurezza nel cloud?",
+      "answer": "Implementiamo una sicurezza multilivello: crittografia dei dati a riposo e in transito, controllo degli accessi IAM, reti private virtuali (VPC), firewall per applicazioni web (WAF) e monitoraggio continuo delle minacce. Seguiamo le migliori pratiche di ciascuna piattaforma."
+    },
+    "cost-optimization": {
+      "question": "Come ottimizzate i costi?",
+      "answer": "Utilizziamo diverse strategie: istanze riservate, scalabilità automatica, ottimizzazione delle risorse, rimozione delle risorse inutilizzate e monitoraggio dei costi. Effettuiamo audit regolari per identificare opportunità di risparmio."
+    },
+    "high-availability": {
+      "question": "Come garantite alta disponibilità?",
+      "answer": "Implementiamo la tua infrastruttura su più zone di disponibilità, con replica dei dati, bilanciamento del carico e failover automatico. Impostiamo anche piani solidi di disaster recovery (DRP)."
+    },
+    "support-24-7": {
+      "question": "Offrite assistenza 24/7?",
+      "answer": "Sì, offriamo diversi livelli di supporto tra cui: monitoraggio 24/7, allerta automatica, intervento rapido in caso di incidenti, manutenzione preventiva e supporto tecnico dedicato."
+    }
+  },
+  "complementary": {
+    "cloud-migration": {
+      "title": "Migrazione al cloud",
+      "description": "Transizione fluida al cloud."
+    },
+    "multi-region": {
+      "title": "Multi-regione",
+      "description": "Distribuzione globale delle tue applicazioni."
+    },
+    "devops": {
+      "title": "DevOps",
+      "description": "Automazione e CI/CD nel cloud."
+    }
+  }
+}

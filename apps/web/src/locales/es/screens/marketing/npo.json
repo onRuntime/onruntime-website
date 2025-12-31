@@ -1,0 +1,113 @@
+{
+  "hero": {
+    "title": "La Asociación onRuntime Studio",
+    "description": "Una organización sin fines de lucro francesa dedicada a la innovación y creatividad en el desarrollo web, desarrollo móvil y diseño."
+  },
+  "cta": {
+    "become-member": "Conviértete en miembro",
+    "our-projects": "Nuestros proyectos"
+  },
+  "history": {
+    "title": "Nuestra historia",
+    "description": "Fundada en 2020, onRuntime Studio nació de la pasión compartida de desarrolladores y diseñadores que han estado colaborando desde 2015. Nuestra organización tiene como objetivo crear un espacio colaborativo para innovar y compartir nuestro conocimiento, con la ambición de convertirse pronto en una empresa consolidada.",
+    "timeline": {
+      "2015": {
+        "title": "Primeras colaboraciones",
+        "description": "Inicio de colaboraciones entre Jérémy, Antoine y Lucas, principalmente en plataformas de videojuegos."
+      },
+      "2020": {
+        "title": "Creación de la organización",
+        "description": "Fundación oficial de onRuntime Studio como una organización sin fines de lucro francesa, por consejo de Bryan Recher."
+      },
+      "2021": {
+        "title": "Encuentro en Rouen",
+        "description": "Los fundadores se reúnen en Rouen para acelerar proyectos, particularmente su proyecto emblemático: Tonight Pass."
+      },
+      "2022": {
+        "title": "Primeras contrataciones",
+        "description": "La organización contrata a sus primeros empleados para apoyar el desarrollo de sus proyectos."
+      },
+      "2023-2025": {
+        "title": "Expansión continua",
+        "description": "Enfoque en desarrollar Tonight Pass y prepararse para una futura transformación en empresa."
+      }
+    }
+  },
+  "founders": {
+    "title": "Los fundadores",
+    "description": "Nuestra organización fue fundada por tres entusiastas que han estado trabajando juntos durante varios años para hacer realidad proyectos innovadores.",
+    "website": "Sitio web",
+    "linkedin": "LinkedIn"
+  },
+  "values": {
+    "title": "Nuestros valores",
+    "description": "Estos principios fundamentales guían nuestro enfoque y visión, influyendo en cada una de nuestras acciones y decisiones.",
+    "items": {
+      "innovation": {
+        "title": "Innovación",
+        "description": "Constantemente empujamos los límites de la creatividad y la tecnología para ofrecer soluciones innovadoras."
+      },
+      "community": {
+        "title": "Comunidad",
+        "description": "Creemos en la fuerza del colectivo y fomentamos un ambiente colaborativo donde todos pueden prosperar."
+      },
+      "passion": {
+        "title": "Pasión",
+        "description": "Cada proyecto se aborda con pasión y dedicación, porque amamos profundamente lo que hacemos."
+      },
+      "learning": {
+        "title": "Aprendizaje",
+        "description": "Valoramos el aprendizaje continuo y el intercambio de conocimientos para progresar juntos."
+      }
+    }
+  },
+  "expertise": {
+    "title": "Nuestra experiencia técnica",
+    "description": "Las tecnologías que dominamos y usamos en nuestros proyectos de asociación."
+  },
+  "membership": {
+    "title": "Conviértete en miembro",
+    "description": "Únete a nuestra comunidad de entusiastas y participa en el desarrollo de proyectos innovadores.",
+    "annual": {
+      "title": "Membresía anual",
+      "price": "30€",
+      "period": "/año",
+      "description": "Cuota anual para convertirse en miembro voluntario de la organización.",
+      "benefits": {
+        "hours": "Compromiso de 3 a 6 horas por semana",
+        "projects": "Participación en proyectos de la asociación",
+        "discord": "Rol dedicado en Discord y acceso a canales privados",
+        "mentoring": "Mentoría personalizada por nuestros miembros experimentados",
+        "resources": "Acceso a todos nuestros recursos y capacitaciones",
+        "autonomy": "Autonomía en los proyectos de la organización"
+      },
+      "cta": "Solicitar mi membresía"
+    }
+  },
+  "initiatives": {
+    "title": "Nuestros programas e iniciativas",
+    "description": "Descubre las iniciativas que estamos desarrollando actualmente y nuestros próximos proyectos.",
+    "mentoring": {
+      "title": "Programa de mentoría técnica",
+      "description": "Nuestro programa de mentoría permite a los miembros principiantes ser acompañados en su desarrollo de habilidades por desarrolladores y diseñadores experimentados de la organización.",
+      "status": "Actualmente activo"
+    },
+    "workshops": {
+      "title": "Talleres técnicos colaborativos",
+      "description": "Sesiones de trabajo y aprendizaje en grupo sobre tecnologías específicas, organizadas en línea y en persona cuando es posible.",
+      "status": "En fase de desarrollo"
+    },
+    "hackathons": {
+      "title": "Hackatones comunitarios",
+      "description": "Organización de eventos de 48 horas donde los equipos desarrollarán soluciones innovadoras juntos sobre temas específicos.",
+      "status": "Proyecto futuro"
+    },
+    "contribute": "¿Te gustaría contribuir al desarrollo de estas iniciativas?",
+    "contact": "Contacta con nosotros"
+  },
+  "discord": {
+    "title": "Únete a nuestra comunidad de Discord",
+    "description": "Conéctate con otros miembros, participa en discusiones técnicas y mantente informado sobre las últimas noticias de la organización.",
+    "cta": "Únete a Discord"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Design UI/UX",
+  "description": "Creiamo interfacce moderne e esperienze utente ottimali",
+  "benefits": {
+    "user-centered-design": {
+      "title": "Design UI/UX centrato sull'utente",
+      "description": "Un approccio che mette i bisogni dell'utente al centro dei nostri progetti, convalidato da prototipi interattivi."
+    },
+    "creative-innovation": {
+      "title": "Innovazione creativa",
+      "description": "Soluzioni UI/UX creative e prototipi innovativi che rendono il tuo brand unico, rispettando gli standard."
+    },
+    "iterative-prototyping": {
+      "title": "Prototipazione iterativa",
+      "description": "Una metodologia basata su prototipi rapidi e iterazioni frequenti per affinare l'esperienza utente."
+    },
+    "business-objectives": {
+      "title": "Obiettivi di business",
+      "description": "Design UI/UX allineato ai tuoi obiettivi di business, convalidato da test utente sui prototipi."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Analisi delle esigenze",
+      "description": "Primo passo cruciale in cui analizziamo le tue esigenze, il brand e gli obiettivi di business per definire la direzione UI/UX."
+    },
+    "research-moodboard": {
+      "title": "Ricerca e moodboard",
+      "description": "Creiamo moodboard ed esploriamo possibili direzioni creative. Definiamo la direzione artistica complessiva."
+    },
+    "wireframes": {
+      "title": "Wireframe",
+      "description": "Progettiamo wireframe per convalidare la struttura, la gerarchia e l'architettura dell'informazione."
+    },
+    "interface-design": {
+      "title": "Design dell'interfaccia",
+      "description": "Creiamo mockup finali rispettando le linee guida del tuo brand. Attenzione particolare ai componenti e alla loro riusabilità."
+    },
+    "prototyping": {
+      "title": "Prototipazione",
+      "description": "Creiamo prototipi per testare le interazioni e convalidare i percorsi utente."
+    },
+    "development": {
+      "title": "Sviluppo",
+      "description": "Trasformiamo i mockup in interfacce funzionali, prestando particolare attenzione alle animazioni definite."
+    }
+  }
+}

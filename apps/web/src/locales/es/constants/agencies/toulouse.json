@@ -1,0 +1,79 @@
+{
+  "title": "Desarrollo web en Toulouse | Soluciones digitales para negocios occitanos",
+  "description": "Crea tu sitio web o aplicación móvil en Toulouse. Soluciones digitales personalizadas para negocios de Toulouse, adaptadas a los desafíos locales de tu sector.",
+  "hero": {
+    "title": "Desarrollo Web y Móvil en Toulouse",
+    "description": "Ayudamos a los negocios en Toulouse y Occitania a digitalizarse con soluciones web personalizadas, perfectamente adaptadas a los desafíos específicos del mercado de Toulouse."
+  },
+  "intro": "Capital europea de la industria aeroespacial y ciudad estudiantil dinámica, Toulouse presenta un ecosistema económico único donde la innovación y la tradición coexisten. Nuestra experiencia digital permite a los negocios de Toulouse destacarse en un entorno tecnológico competitivo y en constante evolución.",
+  "expertise": "Nuestro equipo diseña sitios web, aplicaciones y soluciones digitales perfectamente adaptadas a los negocios de Toulouse, ya sean gigantes aeroespaciales, startups innovadoras o tiendas tradicionales. Entendemos los desafíos específicos de tu mercado local y ofrecemos soluciones tecnológicas de vanguardia.",
+  "why-choose-us": "Nuestro profundo conocimiento del mercado de Toulouse nos permite desarrollar soluciones digitales perfectamente adaptadas a los desafíos específicos de los negocios locales. Comprendemos los retos tecnológicos de la Ciudad Rosa y integramos esta experiencia en cada proyecto para crear experiencias digitales de alto rendimiento y orientadas al futuro.",
+  "key-business-sectors": {
+    "aeronautics": "Aeroespacial",
+    "space": "Espacio",
+    "tech": "Tecnología",
+    "education": "Educación"
+  },
+  "local-challenges": {
+    "aerospace-transformation": "Transformación digital de empresas en el ecosistema aeroespacial",
+    "startup-platforms": "Necesidad de plataformas innovadoras para startups de French Tech en Toulouse",
+    "elearning-development": "Desarrollo de soluciones de e-learning para numerosas instituciones educativas",
+    "local-commerce-adaptation": "Adaptación de tiendas locales ante la competencia de cadenas nacionales"
+  },
+  "benefits": {
+    "high-tech-solutions": "Soluciones personalizadas adaptadas a las industrias de alta tecnología",
+    "complex-interfaces-expertise": "Experiencia sólida en el desarrollo de interfaces complejas",
+    "startup-ecosystem-knowledge": "Conocimiento profundo del ecosistema de startups de Toulouse",
+    "agile-approach": "Enfoque ágil perfectamente adecuado para proyectos innovadores",
+    "personalized-support": "Soporte personalizado a lo largo de tu proyecto digital"
+  },
+  "primary-stat": {
+    "label": "sector tecnológico"
+  },
+  "strengths": {
+    "aeronautics-solutions": {
+      "title": "Soluciones Aeroespaciales",
+      "description": "Aplicaciones e interfaces adaptadas a las necesidades específicas del sector aeroespacial."
+    },
+    "startup-platforms": {
+      "title": "Plataformas para Startups",
+      "description": "Soluciones digitales ágiles y escalables para startups innovadoras."
+    },
+    "elearning": {
+      "title": "E-learning",
+      "description": "Plataformas educativas para instituciones de educación superior."
+    },
+    "local-commerce": {
+      "title": "Comercio Local",
+      "description": "Digitalización personalizada para tiendas y artesanos de Toulouse."
+    }
+  },
+  "focused-services": {
+    "business-applications": {
+      "name": "Aplicaciones Empresariales",
+      "description": "Soluciones personalizadas para la industria aeroespacial y empresas tecnológicas."
+    },
+    "innovative-websites": {
+      "name": "Sitios Web Innovadores",
+      "description": "Vitrinas digitales modernas para startups y empresas innovadoras."
+    },
+    "ecommerce-platforms": {
+      "name": "Plataformas de E-commerce",
+      "description": "Soluciones completas para tiendas locales que buscan digitalizarse."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Experiencia",
+      "description": "Años de experiencia"
+    },
+    "satisfaction": {
+      "label": "Satisfacción",
+      "description": "Clientes satisfechos"
+    },
+    "average-time": {
+      "label": "Tiempo Promedio",
+      "description": "Semanas de finalización"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "featured": {
+    "title": "Öne çıkan projeler",
+    "view-project": "Projeyi gör"
+  },
+  "studio": {
+    "title": "Stüdyo projeleri"
+  },
+  "customer": {
+    "title": "Müşteri projeleri",
+    "coming-soon": "Yakında",
+    "empty": {
+      "description": "Müşteri projelerimiz hazırlanıyor. Çalışmalarımız hakkında daha fazla bilgi almak veya projenizi tartışmak için bizimle iletişime geçin.",
+      "button": "Projenizi tartışın"
+    }
+  },
+  "tags": {
+    "featured": "Öne çıkan",
+    "open-source": "Açık Kaynak",
+    "customer": "Müşteri"
+  }
+}

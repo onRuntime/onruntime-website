@@ -1,0 +1,67 @@
+{
+  "back": "求人紹介に戻る",
+  "share": {
+    "button": "共有",
+    "text": "この機会を見つけました: {jobTitle} at onRuntime Studio",
+    "copied": "リンクがクリップボードにコピーされました!"
+  },
+  "apply": "今すぐ応募",
+  "published": "公開日",
+  "employment-type": {
+    "full-time": "フルタイム",
+    "part-time": "パートタイム",
+    "contract": "契約",
+    "temporary": "臨時",
+    "internship": "インターンシップ",
+    "apprenticeship": "見習い"
+  },
+  "workplace-type": {
+    "hybrid": "ハイブリッド",
+    "remote": "リモート",
+    "on-site": "オンサイト"
+  },
+  "salary-format": {
+    "from": "から",
+    "up-to": "最大",
+    "range": "-"
+  },
+  "sections": {
+    "description": "職務内容",
+    "no-description": "このポジションの詳細な説明は利用できません。",
+    "requirements": "応募条件",
+    "benefits": "福利厚生"
+  },
+  "details": {
+    "title": "求人詳細",
+    "department": "部署",
+    "location": "勤務地",
+    "contract": "契約タイプ",
+    "salary": "給与",
+    "workplace": "勤務形態"
+  },
+  "interested": {
+    "title": "このポジションに興味がありますか?",
+    "description": "今すぐ応募して、情熱的なチームに参加しませんか。"
+  },
+  "culture": {
+    "title": "私たちの企業文化",
+    "description": "onRuntime Studioでは、各チームメンバーが創造性を表現し、スキルを発展させることができる共同作業で刺激的な職場環境を育んでいます。私たちは革新、品質、そして従業員の健康を優先します。",
+    "training": {
+      "title": "継続的なトレーニング",
+      "description": "私たちはチームのプロフェッショナルな成長に投資しています"
+    },
+    "flexible": {
+      "title": "柔軟な環境",
+      "description": "ワークライフバランスとハイブリッド勤務"
+    },
+    "projects": {
+      "title": "多様なプロジェクト",
+      "description": "多様で刺激的なプロジェクトに取り組む"
+    },
+    "learn-more": "私たちのチームについてもっと知る"
+  },
+  "cta": {
+    "title": "挑戦する準備はできていますか?",
+    "description": "私たちのチームに参加し、スキルを発展させる刺激的なプロジェクトに参加しましょう。"
+  }
+}

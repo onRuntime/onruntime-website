@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Glossar för webbdesign och utveckling",
+    "description": "Bläddra i vår omfattande glossar av tekniska termer inom webbdesign, UI/UX-design och digital projektledning."
+  },
+  "hero": {
+    "title": "Glossar",
+    "description": "Utforska vår omfattande glossar av tekniska termer inom webbdesign, UI/UX-design och digital projektledning."
+  },
+  "view-all": "Se alla",
+  "empty": {
+    "title": "Inga termer har lagts till i glossar än.",
+    "subtitle": "Kom tillbaka snart för att upptäcka vår kompletta glossar."
+  },
+  "letter": {
+    "metadata": {
+      "title": "Termer som börjar med {letter} | Glossar",
+      "description": "Upptäck alla glosstermer som börjar med bokstaven {letter}.",
+      "invalid": {
+        "title": "Ogiltig bokstav | Glossar",
+        "description": "Denna bokstav är inte giltig."
+      }
+    },
+    "count": "{count} term(er) som börjar med bokstaven {letter}"
+  },
+  "term": {
+    "metadata": {
+      "not-found": {
+        "title": "Term hittades inte | Glossar",
+        "description": "Denna term finns inte i vår glossar."
+      }
+    }
+  },
+  "tags": {
+    "metadata": {
+      "title": "Glossarkategorier",
+      "description": "Utforska de olika kategorierna av termer som finns i vår tekniska glossar."
+    },
+    "title": "Glossarkategorier",
+    "description": "Utforska {count} kategorier av termer som finns i vår tekniska glossar.",
+    "empty": "Inga kategorier finns tillgängliga just nu."
+  },
+  "tag": {
+    "metadata": {
+      "title": "Termer relaterade till {tag} | Glossar",
+      "description": "Upptäck alla glossartermer som hör till {tag}-kategorin."
+    },
+    "count": "{count} term(er) relaterade till denna kategori"
+  }
+}

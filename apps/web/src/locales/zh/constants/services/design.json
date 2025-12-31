@@ -1,0 +1,48 @@
+{
+  "name": "用户界面/用户体验设计",
+  "description": "创建现代化界面和最佳用户体验",
+  "benefits": {
+    "user-centered-design": {
+      "title": "以用户为中心的用户界面/用户体验设计",
+      "description": "一种将用户需求放在设计核心的方法，通过交互原型进行验证。"
+    },
+    "creative-innovation": {
+      "title": "创意创新",
+      "description": "创意用户界面/用户体验解决方案和创新原型，帮助你的品牌脱颖而出，同时遵循标准。"
+    },
+    "iterative-prototyping": {
+      "title": "迭代原型制作",
+      "description": "一种基于快速原型和频繁迭代的方法，旨在优化用户体验。"
+    },
+    "business-objectives": {
+      "title": "商业目标",
+      "description": "与商业目标一致的用户界面/用户体验设计，通过原型的用户测试进行验证。"
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "需求分析",
+      "description": "至关重要的第一步，我们会分析你的需求、品牌和商业目标，以确定用户界面/用户体验的方向。"
+    },
+    "research-moodboard": {
+      "title": "研究与情绪板",
+      "description": "创建情绪板并探索可能的创意方向，定义整体艺术方向。"
+    },
+    "wireframes": {
+      "title": "线框图",
+      "description": "设计线框图以验证结构、层级和信息架构。"
+    },
+    "interface-design": {
+      "title": "界面设计",
+      "description": "在遵循品牌指南的同时创建最终的模型，特别关注组件及其可重用性。"
+    },
+    "prototyping": {
+      "title": "原型制作",
+      "description": "创建原型以测试交互和验证用户旅程。"
+    },
+    "development": {
+      "title": "开发",
+      "description": "将模型转化为功能性的界面，特别关注定义的动画效果。"
+    }
+  }
+}

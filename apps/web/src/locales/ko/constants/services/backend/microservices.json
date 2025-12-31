@@ -1,0 +1,80 @@
+{
+  "name": "마이크로서비스",
+  "description": "마이크로서비스 아키텍처 및 개발",
+  "hero": {
+    "title": "마이크로서비스 아키텍처",
+    "description": "모놀리식 애플리케이션을 현대적이고 확장 가능한 마이크로서비스 아키텍처로 변환해 보세요. 우리의 전문 지식이 유연하고, 복원력 있으며, 고성능 인프라를 보장합니다."
+  },
+  "features": {
+    "scalable-architecture": {
+      "title": "확장 가능한 아키텍처",
+      "description": "최적의 확장을 위한 모듈형 디자인."
+    },
+    "continuous-deployment": {
+      "title": "지속적인 배포",
+      "description": "부드러운 업데이트를 위한 CI/CD 파이프라인."
+    },
+    "optimal-performance": {
+      "title": "최적의 성능",
+      "description": "더 나은 응답성을 위한 독립 서비스."
+    },
+    "high-availability": {
+      "title": "높은 가용성",
+      "description": "중복성을 갖춘 복원력 있는 아키텍처."
+    }
+  },
+  "benefits": {
+    "granular-scalability": {
+      "title": "세분화된 확장성",
+      "description": "각 서비스의 독립적인 확장."
+    },
+    "flexible-deployment": {
+      "title": "유연한 배포",
+      "description": "서비스 중단 없이 업데이트."
+    },
+    "fault-isolation": {
+      "title": "장애 격리",
+      "description": "서비스 격리를 통한 복원력 향상."
+    },
+    "advanced-monitoring": {
+      "title": "고급 모니터링",
+      "description": "각 구성 요소에 대한 자세한 감시."
+    }
+  },
+  "faq": {
+    "when-microservices": {
+      "question": "마이크로서비스 아키텍처는 언제 도입하나요?",
+      "answer": "마이크로서비스 아키텍처는 높은 확장성, 독립적인 구성 요소 확장, 빠른 진화를 요구하는 복잡한 애플리케이션에 특히 적합합니다. 이 아키텍처가 귀사의 특정 요구에 맞는지 함께 평가합니다."
+    },
+    "service-communication": {
+      "question": "서비스 간의 통신은 어떻게 처리하나요?",
+      "answer": "우리는 강력한 통신 패턴을 구현합니다: API 게이트웨이, 메시지 브로커(Kafka, RabbitMQ), 동기식(REST, gRPC) 및 비동기식 통신. 각 방법은 특정 성능 및 신뢰성 요구에 따라 선택됩니다."
+    },
+    "data-consistency": {
+      "question": "데이터 일관성을 어떻게 보장하나요?",
+      "answer": "여러 가지 전략을 사용합니다: 분산 트랜잭션을 위한 사가 패턴, 추적 가능성을 위한 이벤트 소싱, 읽기 및 쓰기 작업 분리를 위한 CQRS. 최종 일관성은 적절히 관리됩니다."
+    },
+    "infrastructure-monitoring": {
+      "question": "인프라는 어떻게 모니터링하나요?",
+      "answer": "포괄적인 모니터링을 설정합니다: 성능 메트릭, 분산 추적, 중앙 집중식 로그 및 지능형 경고. 맞춤형 대시보드를 통해 각 서비스의 상태를 시각화할 수 있습니다."
+    },
+    "team-training": {
+      "question": "팀 교육을 제공하나요?",
+      "answer": "네, 귀하의 팀을 위한 포괄적인 교육을 제공합니다: 마이크로서비스 원칙, 개발 모범 사례, 모니터링 및 문제 해결, DevOps 도구 사용."
+    }
+  },
+  "complementary": {
+    "devops-cicd": {
+      "title": "DevOps & CI/CD",
+      "description": "완전한 배포 자동화."
+    },
+    "monitoring-24-7": {
+      "title": "24/7 모니터링",
+      "description": "지속적인 감시와 실시간 알림."
+    },
+    "optimization": {
+      "title": "최적화",
+      "description": "지속적인 성능 개선."
+    }
+  }
+}

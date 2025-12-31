@@ -1,0 +1,13 @@
+{
+  "title": "{city} pazarına özel bir proje mi?",
+  "description": "Yerel {region} pazarındaki uzmanlığımız, size bölgesel bağlamınıza mükemmel şekilde uyumlu çözümler sunmamıza olanak tanıyor. Projenizi konuşalım!",
+  "features": {
+    "video": "Video konferans ile çevrimiçi danışmanlık",
+    "calendar": "Programınıza uyacak şekilde esnek saatler",
+    "expertise": "{city} ve {region} pazarında derinlemesine uzmanlık"
+  },
+  "buttons": {
+    "discuss": "Projenizi konuşun",
+    "discover": "Hizmetlerimizi keşfedin"
+  }
+}

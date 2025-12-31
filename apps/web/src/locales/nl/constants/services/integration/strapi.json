@@ -1,0 +1,80 @@
+{
+  "name": "Strapi",
+  "description": "Headless CMS ontwikkeling met Strapi",
+  "hero": {
+    "title": "Headless CMS ontwikkeling met Strapi",
+    "description": "Ontwikkel moderne applicaties met Strapi. Onze expertise garandeert een flexibele, schaalbare oplossing voor contentbeheer die perfect is afgestemd op jouw behoeften."
+  },
+  "features": {
+    "custom-api": {
+      "title": "Aangepaste API",
+      "description": "Creatie van aangepaste RESTful en GraphQL API's voor al jouw behoeften."
+    },
+    "flexible-administration": {
+      "title": "Flexibel beheer",
+      "description": "Aanpasbare beheersinterface volgens jouw bedrijfsprocessen."
+    },
+    "optimal-performance": {
+      "title": "Optimale prestaties",
+      "description": "Architectuur met hoge prestaties voor snelle responstijden."
+    },
+    "advanced-security": {
+      "title": "Geavanceerde beveiliging",
+      "description": "Robuste bescherming van jouw gegevens en API's."
+    }
+  },
+  "benefits": {
+    "100-javascript": {
+      "title": "100% JavaScript",
+      "description": "Eenduidige ontwikkeling in JavaScript/Node.js voor meer efficiëntie."
+    },
+    "flexible-models": {
+      "title": "Flexibele modellen",
+      "description": "Creatie van aangepaste contentmodellen zonder beperkingen."
+    },
+    "role-management": {
+      "title": "Rolbeheer",
+      "description": "Nauwkeurige controle over toegang en gebruikersrechten."
+    },
+    "advanced-workflows": {
+      "title": "Geavanceerde workflows",
+      "description": "Automatisering van publicatie- en validatieprocessen."
+    }
+  },
+  "faq": {
+    "setup-timeline": {
+      "question": "Hoe lang duurt het om een Strapi-project op te zetten?",
+      "answer": "De gemiddelde tijd om een Strapi-project op te zetten varieert van 4 tot 12 weken, afhankelijk van de complexiteit. Dit omvat het ontwerp van contentmodellen, API-ontwikkeling, aanpassing van de beheerdersinterface en testen."
+    },
+    "multilingual": {
+      "question": "Kan Strapi meertalige content verwerken?",
+      "answer": "Ja, Strapi verwerkt van nature meertalige content. We kunnen de vertaalbeheer aanpassen en configureren volgens jouw specifieke behoeften."
+    },
+    "content-migration": {
+      "question": "Is het mogelijk om onze bestaande content naar Strapi te migreren?",
+      "answer": "Ja, we bieden een complete migratieservice voor content naar Strapi, inclusief analyse van jouw bestaande gegevens, creatie van aangepaste modellen en import van jouw content."
+    },
+    "deployment-hosting": {
+      "question": "Hoe gaan jullie om met implementatie en hosting?",
+      "answer": "We kunnen Strapi implementeren op verschillende cloudplatforms (AWS, Google Cloud, DigitalOcean...) en een schaalbare infrastructuur opzetten met ontwikkel-, staging- en productieomgevingen."
+    },
+    "custom-plugins": {
+      "question": "Bieden jullie ontwikkeling van aangepaste plugins aan?",
+      "answer": "Ja, we ontwikkelen aangepaste Strapi-plugins om de functionaliteit uit te breiden volgens jouw behoeften: specifieke integraties, aangepaste workflows, speciale beheerdersinterfaces, enz."
+    }
+  },
+  "complementary": {
+    "frontend-development": {
+      "title": "Frontend ontwikkeling",
+      "description": "Creatie van frontend-applicaties die verbonden zijn met jouw Strapi API."
+    },
+    "integrations": {
+      "title": "Integraties",
+      "description": "Verbonden met jouw bestaande third-party tools en services."
+    },
+    "strapi-training": {
+      "title": "Strapi training",
+      "description": "Aangepaste training om jouw CMS-beheer meester te maken."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Project niet gevonden",
+      "description": "Dit project bestaat niet."
+    },
+    "title": "Case study: {name} - Digitaal project",
+    "description": "Ontdek hoe ons bureau {name} heeft ontworpen en ontwikkeld. {shortDescription}"
+  }
+}

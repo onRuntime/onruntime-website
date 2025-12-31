@@ -1,0 +1,48 @@
+{
+  "name": "Rozwój zaplecza",
+  "description": "Architektura i rozwój solidnych rozwiązań",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Skalowalna architektura",
+      "description": "Systemy zaprojektowane tak, aby rozwijały się wraz z Twoim wzrostem, wykorzystując nowoczesne i rozproszone architektury."
+    },
+    "optimized-database": {
+      "title": "Optymalna baza danych",
+      "description": "Projektowanie i optymalizacja bazy danych dla maksymalnej wydajności i integralności danych."
+    },
+    "robust-infrastructure": {
+      "title": "Solidna infrastruktura",
+      "description": "Wdrożenie na nowoczesnej infrastrukturze chmurowej z wysoką dostępnością i odpornością."
+    },
+    "advanced-security": {
+      "title": "Zaawansowane zabezpieczenia",
+      "description": "Wdrożenie najlepszych praktyk bezpieczeństwa i ochrona wrażliwych danych."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Analiza potrzeb",
+      "description": "Dogłębna analiza wymagań technicznych, definicja architektury i wybór technologii."
+    },
+    "system-design": {
+      "title": "Projektowanie systemu",
+      "description": "Projektowanie architektury backendu, modelowanie danych i definiowanie API."
+    },
+    "api-development": {
+      "title": "Rozwój API",
+      "description": "Wdrożenie RESTful lub GraphQL API z pełną dokumentacją."
+    },
+    "database": {
+      "title": "Baza danych",
+      "description": "Konfiguracja i optymalizacja bazy danych z naciskiem na wydajność i skalowalność."
+    },
+    "testing-security": {
+      "title": "Testowanie i bezpieczeństwo",
+      "description": "Wdrożenie automatycznych testów i zaawansowanych środków bezpieczeństwa."
+    },
+    "deployment-monitoring": {
+      "title": "Wdrożenie i monitoring",
+      "description": "Ustawienie infrastruktury chmurowej, monitorowanie i powiadomienia."
+    }
+  }
+}

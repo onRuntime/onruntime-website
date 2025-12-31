@@ -1,0 +1,48 @@
+{
+  "name": "Front-end ontwikkeling",
+  "description": "Het maken van high-performance web- en mobiele toepassingen",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Schaalbare architectuur",
+      "description": "Toepassingen gebouwd op moderne en schaalbare architecturen, klaar voor de evolutie van je project."
+    },
+    "optimal-performance": {
+      "title": "Optimale prestaties",
+      "description": "Focus op prestaties met geavanceerde optimalisatie- en cachingtechnieken."
+    },
+    "maintainable-code": {
+      "title": "Onderhoudbare code",
+      "description": "Schone en modulaire architectuur die eenvoudig onderhoud en snelle iteraties mogelijk maakt."
+    },
+    "enhanced-security": {
+      "title": "Verbeterde veiligheid",
+      "description": "Implementatie van beste praktijken voor frontend beveiliging om je gebruikers te beschermen."
+    }
+  },
+  "process": {
+    "technical-architecture": {
+      "title": "Technische architectuur",
+      "description": "Definitie van frontend architectuur, technologie selectie en opzet van de ontwikkelomgeving."
+    },
+    "project-setup": {
+      "title": "Projectopzet",
+      "description": "Projectconfiguratie met ontwikkelpraktijken, testen en continue deployment."
+    },
+    "feature-development": {
+      "title": "Functieontwikkeling",
+      "description": "Implementatie van functies met focus op codekwaliteit en prestaties."
+    },
+    "state-management": {
+      "title": "Statusbeheer",
+      "description": "Opzetten van robuust en performant statusbeheer voor applicatiegegevens."
+    },
+    "testing-quality": {
+      "title": "Testen en kwaliteit",
+      "description": "Implementatie van geautomatiseerde tests en kwaliteitsborgingsprocessen."
+    },
+    "optimization-monitoring": {
+      "title": "Optimalisatie en monitoring",
+      "description": "Instellen van prestatieoptimalisatie en monitoring tools."
+    }
+  }
+}

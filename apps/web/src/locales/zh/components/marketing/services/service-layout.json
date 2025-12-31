@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "cta": "讨论你的项目"
+  },
+  "cards": {
+    "custom": {
+      "title": "定制解决方案",
+      "description": "根据你的需求量身定制"
+    },
+    "support": {
+      "title": "专业支持",
+      "description": "由我们的专家提供"
+    },
+    "technologies": {
+      "title": "现代科技",
+      "description": "始终保持最新"
+    },
+    "scalability": {
+      "title": "保证可扩展性",
+      "description": "助力你的增长"
+    }
+  },
+  "cta": {
+    "title": "准备好让你的项目变为现实了吗？",
+    "description": "联系我们讨论你的需求并获得个性化报价。",
+    "button": "现在开始"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Desarrollo de back-end",
+  "description": "Arquitectura y desarrollo de soluciones robustas",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Arquitectura escalable",
+      "description": "Sistemas diseñados para evolucionar con tu crecimiento, usando arquitecturas modernas y distribuidas."
+    },
+    "optimized-database": {
+      "title": "Base de datos optimizada",
+      "description": "Diseño y optimización de la base de datos para el máximo rendimiento y la integridad de los datos."
+    },
+    "robust-infrastructure": {
+      "title": "Infraestructura robusta",
+      "description": "Despliegue en infraestructura cloud moderna con alta disponibilidad y resistencia."
+    },
+    "advanced-security": {
+      "title": "Seguridad avanzada",
+      "description": "Implementación de mejores prácticas de seguridad y protección de datos sensibles."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Análisis de necesidades",
+      "description": "Estudio profundo de requisitos técnicos, definición de arquitectura y elecciones tecnológicas."
+    },
+    "system-design": {
+      "title": "Diseño del sistema",
+      "description": "Diseño de arquitectura backend, modelado de datos y definición de API."
+    },
+    "api-development": {
+      "title": "Desarrollo de API",
+      "description": "Implementación de APIs RESTful o GraphQL con documentación completa."
+    },
+    "database": {
+      "title": "Base de datos",
+      "description": "Configuración y optimización de la base de datos con enfoque en rendimiento y escalabilidad."
+    },
+    "testing-security": {
+      "title": "Pruebas y seguridad",
+      "description": "Implementación de pruebas automatizadas y medidas de seguridad avanzadas."
+    },
+    "deployment-monitoring": {
+      "title": "Despliegue y monitoreo",
+      "description": "Configuración de infraestructura cloud, monitoreo y alertas."
+    }
+  }
+}

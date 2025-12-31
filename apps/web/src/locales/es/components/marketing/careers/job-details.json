@@ -1,0 +1,67 @@
+{
+  "back": "Volver a las ofertas de trabajo",
+  "share": {
+    "button": "Compartir",
+    "text": "Descubre esta oportunidad: {jobTitle} en onRuntime Studio",
+    "copied": "¡Enlace copiado al portapapeles!"
+  },
+  "apply": "Aplica ahora",
+  "published": "Publicado el",
+  "employment-type": {
+    "full-time": "Tiempo completo",
+    "part-time": "Medio tiempo",
+    "contract": "Contrato",
+    "temporary": "Temporal",
+    "internship": "Prácticas",
+    "apprenticeship": "Aprendizaje"
+  },
+  "workplace-type": {
+    "hybrid": "Híbrido",
+    "remote": "Remoto",
+    "on-site": "En el sitio"
+  },
+  "salary-format": {
+    "from": "Desde",
+    "up-to": "Hasta",
+    "range": "-"
+  },
+  "sections": {
+    "description": "Descripción del trabajo",
+    "no-description": "No hay una descripción detallada disponible para este puesto.",
+    "requirements": "Requisitos",
+    "benefits": "Beneficios"
+  },
+  "details": {
+    "title": "Detalles del trabajo",
+    "department": "Departamento",
+    "location": "Ubicación",
+    "contract": "Tipo de contrato",
+    "salary": "Salario",
+    "workplace": "Modo de trabajo"
+  },
+  "interested": {
+    "title": "¿Te interesa este puesto?",
+    "description": "Aplica ahora y únete a nuestro equipo apasionado."
+  },
+  "culture": {
+    "title": "Nuestra cultura empresarial",
+    "description": "En onRuntime Studio, cultivamos un ambiente de trabajo colaborativo y estimulante donde cada miembro del equipo puede expresar su creatividad y desarrollar sus habilidades. Priorizamos la innovación, la calidad y el bienestar de nuestros empleados.",
+    "training": {
+      "title": "Formación continua",
+      "description": "Invertimos en el desarrollo profesional de nuestros equipos"
+    },
+    "flexible": {
+      "title": "Entorno flexible",
+      "description": "Equilibrio entre vida laboral y personal y trabajo híbrido"
+    },
+    "projects": {
+      "title": "Proyectos variados",
+      "description": "Trabaja en proyectos diversos y estimulantes"
+    },
+    "learn-more": "Conoce más sobre nuestro equipo"
+  },
+  "cta": {
+    "title": "¿Listo para el desafío?",
+    "description": "Únete a nuestro equipo y participa en proyectos estimulantes que te permitirán desarrollar tus habilidades y expresar tu creatividad."
+  }
+}

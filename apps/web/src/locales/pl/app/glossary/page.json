@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Słownik dotyczący rozwoju i projektowania stron internetowych",
+    "description": "Zobacz nasz kompleksowy słownik pojęć technicznych dotyczących rozwoju stron internetowych, projektowania UI/UX i zarządzania projektami cyfrowymi."
+  },
+  "hero": {
+    "title": "Słownik",
+    "description": "Zanurz się w naszym kompleksowym słowniku pojęć technicznych dotyczących rozwoju stron internetowych, projektowania UI/UX i zarządzania projektami cyfrowymi."
+  },
+  "view-all": "Zobacz wszystko",
+  "empty": {
+    "title": "Nie dodano jeszcze żadnych terminów do słownika.",
+    "subtitle": "Zajrzyj ponownie wkrótce, aby odkryć nasz kompletny słownik."
+  },
+  "letter": {
+    "metadata": {
+      "title": "Terminy zaczynające się na {letter} | Słownik",
+      "description": "Odkryj wszystkie terminy ze słownika zaczynające się na literę {letter}.",
+      "invalid": {
+        "title": "Niepoprawna litera | Słownik",
+        "description": "Ta litera jest niepoprawna."
+      }
+    },
+    "count": "{count} termin(y) zaczynające się na literę {letter}"
+  },
+  "term": {
+    "metadata": {
+      "not-found": {
+        "title": "Termin nie znaleziony | Słownik",
+        "description": "Ten termin nie istnieje w naszym słowniku."
+      }
+    }
+  },
+  "tags": {
+    "metadata": {
+      "title": "Tagi słownika",
+      "description": "Odkryj różne kategorie terminów dostępnych w naszym słowniku technicznym."
+    },
+    "title": "Kategorie słownika",
+    "description": "Zobacz {count} kategorie terminów dostępnych w naszym słowniku technicznym.",
+    "empty": "Nie ma dostępnych kategorii."
+  },
+  "tag": {
+    "metadata": {
+      "title": "Terminy związane z {tag} | Słownik",
+      "description": "Odkryj wszystkie terminy ze słownika związane z kategorią {tag}."
+    },
+    "count": "{count} termin(y) związane z tą kategorią"
+  }
+}

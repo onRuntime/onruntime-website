@@ -1,0 +1,80 @@
+{
+  "name": "Cloudoplossingen",
+  "description": "Implementatie en beheer van cloudinfrastructuur",
+  "hero": {
+    "title": "Cloudoplossingen",
+    "description": "Optimaliseer je infrastructuur met moderne en schaalbare cloudoplossingen. Onze expertise garandeert een veilige en hoge kwaliteitsimplementatie op grote cloudplatforms."
+  },
+  "features": {
+    "multi-cloud": {
+      "title": "Multi-cloud",
+      "description": "Ondersteuning voor grote platforms (AWS, GCP, Azure)."
+    },
+    "advanced-security": {
+      "title": "Geavanceerde beveiliging",
+      "description": "Robuste bescherming van je gegevens en applicaties."
+    },
+    "optimal-performance": {
+      "title": "Optimale prestaties",
+      "description": "Architectuur geoptimaliseerd voor maximale prestaties."
+    },
+    "automatic-scalability": {
+      "title": "Automatische schaalbaarheid",
+      "description": "Dynamische aanpassing aan belastingseisen."
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "Hoge beschikbaarheid",
+      "description": "Redundante en veerkrachtige infrastructuur."
+    },
+    "elastic-storage": {
+      "title": "Elastic opslag",
+      "description": "Flexibele en veilige gegevensbeheer."
+    },
+    "advanced-monitoring": {
+      "title": "Geavanceerde monitoring",
+      "description": "Realtime monitoring van je infrastructuur."
+    },
+    "enhanced-security": {
+      "title": "Verbeterde beveiliging",
+      "description": "Meervoudige bescherming van je middelen."
+    }
+  },
+  "faq": {
+    "platform-choice": {
+      "question": "Welke cloudplatform moet ik kiezen?",
+      "answer": "De keuze hangt af van je specifieke behoeften: AWS excelleert in variëteit aan diensten, Google Cloud in machine learning en Azure in Microsoft-integratie. We begeleiden je naar de beste oplossing op basis van je doelen, technische beperkingen en budget."
+    },
+    "cloud-security": {
+      "question": "Hoe gaan jullie om met beveiliging in de cloud?",
+      "answer": "We implementeren beveiliging op meerdere niveaus: gegevensversleuteling in rust en tijdens overdracht, IAM-toegangscontrole, virtuele particuliere netwerken (VPC), webapplicatiefirewalls (WAF) en continue bedreigingsbewaking. We volgen de beste praktijken van elk platform."
+    },
+    "cost-optimization": {
+      "question": "Hoe optimaliseer je kosten?",
+      "answer": "We gebruiken verschillende strategieën: gereserveerde instanties, automatische schaalvergroting, optimalisatie van middelen, verwijdering van ongebruikte bronnen en kostenmonitoring. We voeren regelmatig audits uit om besparingskansen te identificeren."
+    },
+    "high-availability": {
+      "question": "Hoe waarborgen jullie hoge beschikbaarheid?",
+      "answer": "We implementeren je infrastructuur over meerdere beschikbaarheidszones, met gegevensreplicatie, load balancing en automatische failover. We stellen ook robuuste plannen voor noodherstel (DRP) op."
+    },
+    "support-24-7": {
+      "question": "Bieden jullie 24/7 ondersteuning?",
+      "answer": "Ja, we bieden verschillende ondersteuningsniveaus aan, waaronder: 24/7 monitoring, automatische melding, snelle interventie bij incidenten, preventief onderhoud en toegewezen technische ondersteuning."
+    }
+  },
+  "complementary": {
+    "cloud-migration": {
+      "title": "Cloudmigratie",
+      "description": "Vlotte overgang naar de cloud."
+    },
+    "multi-region": {
+      "title": "Multi-regio",
+      "description": "Wereldwijde implementatie van je applicaties."
+    },
+    "devops": {
+      "title": "DevOps",
+      "description": "Automatisering en CI/CD in de cloud."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Webontwikkelings- en ontwerpwoordenlijst",
+    "description": "Bekijk onze uitgebreide woordenlijst met technische termen in webontwikkeling, UI/UX-ontwerp en digitaal projectbeheer."
+  },
+  "hero": {
+    "title": "Woordenlijst",
+    "description": "Verken onze uitgebreide woordenlijst met technische termen in webontwikkeling, UI/UX-ontwerp en digitaal projectbeheer."
+  },
+  "view-all": "Bekijk alles",
+  "empty": {
+    "title": "Er zijn nog geen termen aan de woordenlijst toegevoegd.",
+    "subtitle": "Kom snel terug om onze complete woordenlijst te ontdekken."
+  },
+  "letter": {
+    "metadata": {
+      "title": "Termen die beginnen met {letter} | Woordenlijst",
+      "description": "Ontdek alle woordenlijsttermen die beginnen met de letter {letter}.",
+      "invalid": {
+        "title": "Ongeldige letter | Woordenlijst",
+        "description": "Deze letter is niet geldig."
+      }
+    },
+    "count": "{count} term(en) die beginnen met de letter {letter}"
+  },
+  "term": {
+    "metadata": {
+      "not-found": {
+        "title": "Term niet gevonden | Woordenlijst",
+        "description": "Deze term bestaat niet in onze woordenlijst."
+      }
+    }
+  },
+  "tags": {
+    "metadata": {
+      "title": "Woordenlijsttags",
+      "description": "Verken de verschillende categorieën termen die beschikbaar zijn in onze technische woordenlijst."
+    },
+    "title": "Woordenlijstcategorieën",
+    "description": "Verken de {count} categorieën van termen die beschikbaar zijn in onze technische woordenlijst.",
+    "empty": "Er zijn op dit moment geen categorieën beschikbaar."
+  },
+  "tag": {
+    "metadata": {
+      "title": "Termen gerelateerd aan {tag} | Woordenlijst",
+      "description": "Ontdek alle woordenlijsttermen gerelateerd aan de {tag} categorie."
+    },
+    "count": "{count} term(en) gerelateerd aan deze categorie"
+  }
+}

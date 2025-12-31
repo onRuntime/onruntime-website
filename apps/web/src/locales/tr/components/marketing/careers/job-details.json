@@ -1,0 +1,67 @@
+{
+  "back": "İş tekliflerine geri dön",
+  "share": {
+    "button": "Paylaş",
+    "text": "Bu fırsatı keşfet: {jobTitle} onRuntime Studio'da",
+    "copied": "Bağlantı panoya kopyalandı!"
+  },
+  "apply": "Hemen başvur",
+  "published": "Yayınlanma tarihi",
+  "employment-type": {
+    "full-time": "Tam zamanlı",
+    "part-time": "Yarı zamanlı",
+    "contract": "Kısa dönem sözleşmeli",
+    "temporary": "Geçici",
+    "internship": "Staj",
+    "apprenticeship": "Çıraklık"
+  },
+  "workplace-type": {
+    "hybrid": "Hibrit",
+    "remote": "Uzaktan",
+    "on-site": "Yerinde"
+  },
+  "salary-format": {
+    "from": "Başlangıç",
+    "up-to": "En fazla",
+    "range": "-"
+  },
+  "sections": {
+    "description": "İş tanımı",
+    "no-description": "Bu pozisyon için detaylı tanım mevcut değil.",
+    "requirements": "Talepler",
+    "benefits": "Faydalar"
+  },
+  "details": {
+    "title": "İş detayları",
+    "department": "Departman",
+    "location": "Konum",
+    "contract": "Sözleşme türü",
+    "salary": "Maaş",
+    "workplace": "Çalışma şekli"
+  },
+  "interested": {
+    "title": "Bu pozisyona ilgi duydun mu?",
+    "description": "Hemen başvur ve tutkulu ekibimize katıl."
+  },
+  "culture": {
+    "title": "Şirket kültürümüz",
+    "description": "onRuntime Studio’da, her ekip üyesinin yaratıcılığını ifade edebileceği ve becerilerini geliştirip rahat hissedebileceği iş birliği yapan ve teşvik edici bir çalışma ortamı geliştiriyoruz. Yeniliğe, kaliteye ve çalışanlarımızın iyi olmasına öncelik veriyoruz.",
+    "training": {
+      "title": "Sürekli eğitim",
+      "description": "Ekiplerimizin profesyonel gelişimine yatırım yapıyoruz"
+    },
+    "flexible": {
+      "title": "Esnek ortam",
+      "description": "İş-yaşam dengesi ve hibrit çalışma"
+    },
+    "projects": {
+      "title": "Çeşitli projeler",
+      "description": "Farklı ve ilham verici projelerde çalışın"
+    },
+    "learn-more": "Ekibimiz hakkında daha fazla bilgi edinin"
+  },
+  "cta": {
+    "title": "Maceraya hazır mısın?",
+    "description": "Ekibimize katıl ve becerilerini geliştirecek ve yaratıcılığını ifade etmeni sağlayacak ilham verici projelere katıl."
+  }
+}

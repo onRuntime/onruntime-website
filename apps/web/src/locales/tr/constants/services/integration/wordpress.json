@@ -1,0 +1,80 @@
+{
+  "name": "WordPress",
+  "description": "Özel WordPress web sitesi geliştirme",
+  "hero": {
+    "title": "Özel WordPress Geliştirme",
+    "description": "Sizi yansıtan profesyonel bir web sitesi yaratın. Uzmanlığımız, ihtiyaçlarınıza mükemmel uyum sağlayan yüksek performanslı ve güvenli bir site garanti eder."
+  },
+  "features": {
+    "custom-themes": {
+      "title": "Özel temalar",
+      "description": "Kimliğinizi yansıtan ve ihtiyaçlarınıza tam olarak hitap eden özel temalar oluşturma."
+    },
+    "optimized-performance": {
+      "title": "Optimize edilmiş performans",
+      "description": "Hızlı yükleme süreleri ve sorunsuz bir kullanıcı deneyimi sağlamak için gelişmiş optimizasyon."
+    },
+    "enhanced-security": {
+      "title": "Gelişmiş güvenlik",
+      "description": "Sitenizi ve verilerinizi korumak için en iyi güvenlik uygulamalarının uygulamaları."
+    },
+    "simplified-administration": {
+      "title": "Basit yönetim",
+      "description": "İçerik yönetimini kolaylaştıran özelleştirilmiş ve sezgisel admin arayüzü."
+    }
+  },
+  "benefits": {
+    "intuitive-administration": {
+      "title": "Sezgisel yönetim",
+      "description": "İçeriğinizi bağımsız bir şekilde yönetmek için basit ve sezgisel yönetim arayüzü."
+    },
+    "seo-optimized": {
+      "title": "SEO uyumlu",
+      "description": "Doğal arama için optimize edilmiş yapı ve entegre SEO araçları."
+    },
+    "powerful-extensions": {
+      "title": "Güçlü eklentiler",
+      "description": "Sitenizin işlevselliğini artırmak için binlerce eklentiye erişim."
+    },
+    "maximum-performance": {
+      "title": "Maksimum performans",
+      "description": "Optimal kullanıcı deneyimi için gelişmiş performans optimizasyonu."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Bir WordPress sitesi oluşturmak ne kadar sürer?",
+      "answer": "Bir WordPress sitesi oluşturma süresi genellikle proje karmaşıklığına bağlı olarak 4 ila 12 hafta arasında değişir. Bu süreç tasarım aşaması, özel tema geliştirme, içerik entegrasyonu ve testlerini içerir."
+    },
+    "migration": {
+      "question": "Mevcut sitemi WordPress'e taşıyabilir misiniz?",
+      "answer": "Evet, içeriğin, görsellerin ve özelliklerin transferini içeren tamamen WordPress'e geçiş hizmeti sunuyoruz ve SEO'nuzu koruyoruz."
+    },
+    "maintenance-updates": {
+      "question": "Bakım ve güncellemeleri nasıl yönetiyorsunuz?",
+      "answer": "Güvenlik güncellemeleri, düzenli yedeklemeler, WordPress ve eklenti güncellemeleri ile performans izlemeyi içeren farklı bakım planları sunuyoruz."
+    },
+    "mobile-optimization": {
+      "question": "Sitem mobil için optimize edilecek mi?",
+      "answer": "Kesinlikle. Tüm WordPress geliştirmelerimiz varsayılan olarak duyarlı, bu da tüm cihazlarda optimal bir deneyim garanti eder: bilgisayarlar, tabletler ve akıllı telefonlar."
+    },
+    "security-approach": {
+      "question": "Güvenlik yaklaşımınız nedir?",
+      "answer": "Kapsamlı bir güvenlik stratejisi uyguluyoruz: güçlü kimlik doğrulama, web uygulama güvenlik duvarı, ihlal girişimlerini izleme, otomatik yedekleme ve düzenli güvenlik güncellemeleri."
+    }
+  },
+  "complementary": {
+    "custom-development": {
+      "title": "Özel geliştirme",
+      "description": "Belirli ihtiyaçlarınıza uygun özel özelliklerin oluşturulması."
+    },
+    "digital-marketing": {
+      "title": "Dijital pazarlama",
+      "description": "Çevrimiçi görünürlüğünüzü artırmak için uyarlanmış pazarlama stratejileri."
+    },
+    "wordpress-training": {
+      "title": "WordPress eğitimi",
+      "description": "Site yönetiminizi ustalıkla yönetmeniz için özel eğitim."
+    }
+  }
+}

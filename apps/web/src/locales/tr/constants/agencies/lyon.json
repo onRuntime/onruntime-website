@@ -1,0 +1,79 @@
+{
+  "title": "Lyon'da Web Ajansı | Özel Dijital Çözümler",
+  "description": "Lyon'da web geliştirme, mobil ve UI/UX tasarımı. Dijital uzmanlığımız Rhône-Alpes işletmelerine uyum sağlıyor ve çevrimiçi varlığınızı artırıyor.",
+  "hero": {
+    "title": "Lyon'da Web & Mobil Geliştirme",
+    "description": "Lyon'da bulunan işinizi Auvergne-Rhône-Alpes bölgesinin ekonomik dinamizmine mükemmel şekilde uyum sağlayan yenilikçi dijital çözümlerle dönüştürün."
+  },
+  "intro": "Lyon'un dinamizminin kalbinde, dijital uzmanlığımız bölgedeki işletmelere dijital dönüşümlerinde destek veriyor. Endüstriyel gelenek, biyomedikal mükemmelik ve gastronomik etki arasında Lyon, zengin ve çeşitli bir ekonomik yapıya sahip. Bu zorlukları tamamen anlıyoruz.",
+  "expertise": "Lyon ve Rhône-Alpes pazarının özel ihtiyaçlarına uyum sağlayan web, mobil ve e-ticaret çözümleri oluşturuyoruz. Ekibimiz bölgede mükemmel sektörlere özgü dijital zorlukları yönetiyor, biyoteknolojiden gastronomiye, üretime kadar her alanda uzmanız.",
+  "why-choose-us": "Lyon pazarına dair bilgimiz, dijital çözümleri yerel işletmelerin gereksinimleri ve özellikleriyle mükemmel şekilde hizalamamıza olanak tanıyor. Bölgenin mükemmeliyet standartlarını anlıyoruz ve Lyon'un kimliğini ve uzmanlığını artıran dijital destek sunuyoruz.",
+  "key-business-sectors": {
+    "biotech": "Biyoteknoloji",
+    "pharma": "İlaç Endüstrisi",
+    "gastronomy": "Gastronomi",
+    "finance": "Finans"
+  },
+  "local-challenges": {
+    "industry-digitalization": "Endüstriyel KOBİ’lerin ve orta ölçekli firmaların Sanayi 4.0 zorluklarıyla yüzleşmesi için dijitalleşme",
+    "gastronomy-visibility": "Lyon gastronomisi oyuncuları için dijital görünürlük geliştirilmesi",
+    "local-ecommerce": "Yerel ticaret ve bölgesel zanaatkarlar için uyumlu e-ticaret çözümleri",
+    "biotech-applications": "Büyüyen ilaç ve biyoteknoloji sektörleri için iş uygulamaları"
+  },
+  "benefits": {
+    "sector-expertise": "Lyon'un mükemmeliyet alanlarına dair sektörel uzmanlık (biyotek, ilaç, gastronomi)",
+    "industrial-understanding": "Rhône-Alpes sanayi havzasındaki dijitalleşme zorluklarını anlama",
+    "sme-solutions": "Dijital dönüşüm için KOBİ’lere ve orta ölçekli firmalara yönelik çözümler",
+    "lyon-ui-design": "Lyon'un görsel kimliğini ve kalite standartlarını yansıtan UI/UX tasarımları",
+    "local-ecosystem-knowledge": "Yerel dijital ekosistem hakkında derin bilgi"
+  },
+  "primary-stat": {
+    "label": "inovasyon sektörü"
+  },
+  "strengths": {
+    "biotech-pharma": {
+      "title": "Biyotek & İlaç Çözümleri",
+      "description": "Lyon'un sağlık kümesine özel uygulamalar."
+    },
+    "gastronomy-ecommerce": {
+      "title": "Gastronomi E-ticareti",
+      "description": "Rhône-Alpes yerel ürünlerinin dijital olarak geliştirilmesi."
+    },
+    "industrial-applications": {
+      "title": "Endüstriyel Uygulamalar",
+      "description": "Sanayi 4.0 ve üretim için dijital araçlar."
+    },
+    "business-interfaces": {
+      "title": "İş Arayüzleri",
+      "description": "Lyon'un özgün ihtiyaçlarına uyum sağlayan UI/UX tasarımı."
+    }
+  },
+  "focused-services": {
+    "biotech-applications": {
+      "name": "Biyotek İş Uygulamaları",
+      "description": "Lyon'daki laboratuvarlar ve ilaç şirketleri için dijital çözümler."
+    },
+    "gastronomy-ecommerce": {
+      "name": "Gastronomi E-ticareti",
+      "description": "Lyon'un mutfak mükemmeliyetini sergileyen çevrimiçi satış platformları."
+    },
+    "industrial-digitalization": {
+      "name": "Endüstriyel Dijitalleşme",
+      "description": "Rhône-Alpes sanayisi için kontrol araçları ve IoT çözümleri."
+    }
+  },
+  "stats": {
+    "biotech-projects": {
+      "label": "Biyotek Projeleri",
+      "description": "Özelleşmiş uygulamalar"
+    },
+    "satisfaction": {
+      "label": "Memnuniyet",
+      "description": "Memnun müşteri"
+    },
+    "sme-supported": {
+      "label": "Desteklenen KOBİ’ler",
+      "description": "Lyon işletmeleri"
+    }
+  }
+}

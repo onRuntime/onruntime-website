@@ -1,0 +1,79 @@
+{
+  "title": "Montpellier'de Web Geliştirme | Languedoc İşletmeleri için Dijital Çözümler",
+  "description": "Montpellier'de web sitenizi veya mobil uygulamanızı oluşturun. Montpellier işletmeleri için yerel sektörünüzün zorluklarına uygun özel dijital çözümler.",
+  "hero": {
+    "title": "Montpellier'de Web ve Mobil Geliştirme",
+    "description": "Montpellier ve Languedoc bölgesindeki işletmelere, bölgesel pazarın belirli zorluklarına mükemmel bir şekilde uyum sağlayan özel web çözümleri ile dijitalleşmelerine yardımcı oluyoruz."
+  },
+  "intro": "Akdeniz ve Languedoc etkilerinin kesişim noktasında yer alan dinamik bir şehir olan Montpellier, sağlık yenilik ekosistemi, prestijli üniversiteleri ve yaşam sanatı ile öne çıkıyor. Dijital uzmanlığımız, Montpellier işletmelerinin bu zenginlikten faydalanmasını sağlıyor ve rekabetçi bir ortamda öne çıkmalarına yardımcı oluyor.",
+  "expertise": "Ekibimiz, Montpellier ve çevresindeki işletmelere mükemmel uyum sağlayan web siteleri, uygulamalar ve dijital çözümler tasarlıyor. Sağlık sektörü, eğitim veya Languedoc yerel ürünleri gibi yerel pazarınızdaki özel zorlukları anlıyor ve uzmanlığınızı ile yerel köklerinizi ön plana çıkaran dijital çözümler sunuyoruz.",
+  "why-choose-us": "Montpellier pazarındaki derin bilgimiz, yerel işletmelerin özel zorluklarına mükemmel bir şekilde uyum sağlayan dijital çözümler geliştirmemizi sağlıyor. Montpellier’i karakterize eden yenilik ve gelenek arasındaki dengeyi anlıyor ve bu anlayışı her projeye entegre ederek otantik ve yüksek performanslı dijital deneyimler yaratıyoruz.",
+  "key-business-sectors": {
+    "health-biotech": "Sağlık ve Biyoteknolojiler",
+    "higher-education": "Yükseköğretim",
+    "viticulture": "Şarapçılık",
+    "tourism": "Turizm"
+  },
+  "local-challenges": {
+    "biotech-health-digitalization": "Genişleyen biyoteknoloji ve sağlık sektörünün dijitalleşmesi",
+    "innovative-educational-platforms": "Çeşitli üniversiteler ve okullar için yenilikçi eğitim platformlarına ihtiyaç",
+    "wine-heritage-digital-showcase": "Şarap mirası ve yerel ürünlerin dijital vitrini",
+    "tourism-adaptation": "Akdeniz rekabeti ile yüzleşen turizm aktörlerinin adaptasyonu"
+  },
+  "benefits": {
+    "health-sector-solutions": "Yenilikçi sağlık sektörü şirketlerine uyum sağlayan özel çözümler",
+    "educational-platforms-expertise": "Eğitim platformları ve e-öğrenme araçlarında keskin uzmanlık",
+    "languedoc-market-knowledge": "Languedoc pazarındaki derin bilgi ve özellikleri",
+    "regional-products-ui": "Bölgesel ürünleri sergilemek için optimize edilmiş kullanıcı arayüzleri",
+    "personalized-support": "Dijital projeniz boyunca kişiselleştirilmiş destek"
+  },
+  "primary-stat": {
+    "label": "biyoteknolojiler"
+  },
+  "strengths": {
+    "connected-health": {
+      "title": "Bağlı Sağlık",
+      "description": "Yaşam bilimleri girişimleri ve şirketleri için dijital çözümler."
+    },
+    "elearning": {
+      "title": "E-öğrenme",
+      "description": "Üniversiteler ve eğitim kurumları için eğitim platformları."
+    },
+    "digital-terroir": {
+      "title": "Dijital Terroir",
+      "description": "Şarap işletmeleri ve yerel üreticiler için siteler ve e-ticaret."
+    },
+    "regional-tourism": {
+      "title": "Bölgesel Turizm",
+      "description": "Languedoc mirasını sergilemek için dijital deneyimler."
+    }
+  },
+  "focused-services": {
+    "health-applications": {
+      "name": "Sağlık Uygulamaları",
+      "description": "Yaşam bilimleri girişimleri ve şirketleri için özel çözümler."
+    },
+    "educational-platforms": {
+      "name": "Eğitim Platformları",
+      "description": "Eğitim kurumları için dijital öğrenme araçları."
+    },
+    "terroir-ecommerce": {
+      "name": "Terroir E-ticaret",
+      "description": "Yerel üreticiler ve şarap işletmeleri için çevrimiçi mağazalar."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Uzmanlık",
+      "description": "Yılların deneyimi"
+    },
+    "satisfaction": {
+      "label": "Memnuniyet",
+      "description": "Memnun müşteriler"
+    },
+    "average-time": {
+      "label": "Ortalama Süre",
+      "description": "Tamamlanma haftaları"
+    }
+  }
+}

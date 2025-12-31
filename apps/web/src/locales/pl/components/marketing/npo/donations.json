@@ -1,0 +1,19 @@
+{
+  "title": "Zrób darowiznę",
+  "description": "Wspieraj naszą organizację i projekty, robiąc jednorazową darowiznę. Twoja wpłata pomaga nam finansować nasze działania, wydarzenia i narzędzia rozwojowe.",
+  "other": "Inne",
+  "custom-amount": {
+    "label": "Kwota własna",
+    "placeholder": "Wprowadź kwotę"
+  },
+  "button": {
+    "donate": "Podaruj",
+    "processing": "Przetwarzanie..."
+  },
+  "secure-payment": "Bezpieczna płatność przez Stripe",
+  "toast": {
+    "title": "Płatność zasymulowana",
+    "description-prefix": "Twoja darowizna w wysokości",
+    "description-suffix": "została pomyślnie przetworzona. W rzeczywistej realizacji zostałbyś przekierowany do Stripe."
+  }
+}

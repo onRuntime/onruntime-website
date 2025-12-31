@@ -1,0 +1,68 @@
+{
+  "short-description": "Upptäck och boka de bästa evenemangen skräddarsydda för din smak.",
+  "description": "Tonight Pass är en innovativ plattform som förenklar evenemangsupptäckten och bokningen genom ett personligt rekommendationssystem baserat på dina preferenser.",
+  "long-description": "Tonight Pass revolutionerar sättet folk upptäcker och deltar i evenemang. Vår plattform kombinerar teknik och användarupplevelse för att erbjuda personliga rekommendationer och förenklad bokning.\n\nPlattformen kopplar samman evenemangsarrangörer och deltagare, och erbjuder en komplett lösning för bokningshantering, smarta rekommendationer och dataanalys. Applikationen har utformats för att optimera upplevelsen av evenemangsupptäckten samtidigt som den förenklar hanteringen för arrangörer.",
+  "features": {
+    "ticketing": {
+      "title": "Förenklad bokning",
+      "description": "Boka dina biljetter med bara några klick för alla typer av evenemang"
+    },
+    "recommendations": {
+      "title": "Personliga rekommendationer",
+      "description": "Upptäck evenemang som passar din smak"
+    },
+    "e-tickets": {
+      "title": "Säkra e-biljetter",
+      "description": "Gå på evenemang med säkra digitala biljetter"
+    }
+  },
+  "technologies": {
+    "react": {
+      "description": "Webb- och mobilapplikationer"
+    },
+    "nestjs": {
+      "description": "Backend API"
+    },
+    "mongodb": {
+      "description": "Huvuddatabas"
+    }
+  },
+  "metrics": {
+    "time-saved": {
+      "value": "45 min",
+      "label": "Tidsbesparing",
+      "description": "I genomsnitt per evenemangssökning"
+    },
+    "coverage": {
+      "value": "100%",
+      "label": "Täckning",
+      "description": "Tillgänglig i hela Frankrike"
+    },
+    "ease": {
+      "value": "1 klick",
+      "label": "Lätthet",
+      "description": "Att boka vilket evenemang som helst"
+    }
+  },
+  "screenshots": {},
+  "challenges": {
+    "ticketing-experience": "Utveckla en smidig och intuitiv bokningsupplevelse",
+    "recommendation-system": "Skapa ett personligt rekommendationssystem",
+    "scalable-infrastructure": "Sätta upp en skalbar infrastruktur",
+    "traffic-peaks": "Hantera trafiktoppar under biljettförsäljningar"
+  },
+  "learnings": {
+    "booking-simplicity": "Vikten av enkelhet i bokningsresan",
+    "event-type-interface": "Behov av ett gränssnitt anpassat för olika evenemangstyper",
+    "database-management": "Effektiv hantering av en evenemangsdatabas",
+    "speed-reliability-balance": "Balans mellan hastighet och tjänstets tillförlitlighet"
+  },
+  "future-plans": {
+    "venue-kiosks": "Installera kiosker på arenor",
+    "recruitment-platform": "Lansera en rekryteringsplattform för evenemang",
+    "venue-rental": "Sätta upp en uthyrningstjänst för lokaler",
+    "supplier-network": "Skapa ett nätverk av evenemangsleverantörer",
+    "organizer-tools": "Utveckla avancerade verktyg för arrangörer",
+    "recommendation-improvement": "Förbättra rekommendationssystemet"
+  }
+}

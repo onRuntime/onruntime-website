@@ -1,0 +1,48 @@
+{
+  "name": "フロントエンド開発",
+  "description": "高性能なウェブおよびモバイルアプリケーションを作成します",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "スケーラブルなアーキテクチャ",
+      "description": "モダンでスケーラブルなアーキテクチャに基づいて構築されたアプリケーションは、プロジェクトの進化に備えています."
+    },
+    "optimal-performance": {
+      "title": "最適なパフォーマンス",
+      "description": "高度な最適化とキャッシング技術に焦点を当てて、パフォーマンスを向上させます."
+    },
+    "maintainable-code": {
+      "title": "メンテナブルなコード",
+      "description": "簡潔でモジュール化されたアーキテクチャは、簡単なメンテナンスと迅速なイテレーションを可能にします."
+    },
+    "enhanced-security": {
+      "title": "向上したセキュリティ",
+      "description": "ユーザーを保護するためのフロントエンドセキュリティのベストプラクティスを実施します."
+    }
+  },
+  "process": {
+    "technical-architecture": {
+      "title": "技術アーキテクチャ",
+      "description": "フロントエンドアーキテクチャの定義、技術選定、および開発環境の設定."
+    },
+    "project-setup": {
+      "title": "プロジェクトセットアップ",
+      "description": "開発のベストプラクティス、テスト、継続的デプロイを用いてプロジェクトを構成します."
+    },
+    "feature-development": {
+      "title": "機能開発",
+      "description": "コード品質とパフォーマンスに焦点を当てて、機能を実装します."
+    },
+    "state-management": {
+      "title": "状態管理",
+      "description": "アプリケーションデータのために堅牢で高性能な状態管理を設定します."
+    },
+    "testing-quality": {
+      "title": "テストと品質",
+      "description": "自動テストと品質保証プロセスを実施します."
+    },
+    "optimization-monitoring": {
+      "title": "最適化とモニタリング",
+      "description": "パフォーマンスの最適化とモニタリングツールの設定."
+    }
+  }
+}

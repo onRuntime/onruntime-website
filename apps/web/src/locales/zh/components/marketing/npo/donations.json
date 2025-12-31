@@ -1,0 +1,19 @@
+{
+  "title": "捐款",
+  "description": "通过一次性捐款支持我们的组织和项目。你的贡献帮助我们资助活动、事件和开发工具。",
+  "other": "其他",
+  "custom-amount": {
+    "label": "自定义金额",
+    "placeholder": "输入金额"
+  },
+  "button": {
+    "donate": "捐款",
+    "processing": "处理中…"
+  },
+  "secure-payment": "通过Stripe进行安全支付",
+  "toast": {
+    "title": "支付模拟",
+    "description-prefix": "你捐赠的",
+    "description-suffix": "已成功处理。在实际实施中，你将被重定向到Stripe。"
+  }
+}

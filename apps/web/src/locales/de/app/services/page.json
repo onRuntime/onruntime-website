@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "Digitale Dienstleistungen Agentur: Web-, Mobil- und UI/UX-Design",
+    "description": "Komplette Webentwicklung, Mobile, UI/UX-Design und CMS-Integrationsdienste. Unsere Agentur erstellt maßgeschneiderte Lösungen, die auf Ihre Ziele abgestimmt sind."
+  },
+  "hero": {
+    "title": "Maßgeschneiderte Lösungen für Ihre digitalen Projekte",
+    "description": "Von der Konzeption bis zur Auslieferung unterstützen wir Sie in jeder Phase Ihres Projekts mit Expertise und Leidenschaft.",
+    "cta": "Ein Projekt starten"
+  },
+  "technologies": {
+    "title": "Unser Technologie-Stack",
+    "description": "Wir beherrschen eine Vielzahl moderner Technologien, um all Ihren Bedürfnissen gerecht zu werden."
+  },
+  "process": {
+    "title": "Unser Arbeitsprozess",
+    "description": "Eine bewährte und flexible Methodik, um Ihr Projekt zum Erfolg zu führen."
+  }
+}
