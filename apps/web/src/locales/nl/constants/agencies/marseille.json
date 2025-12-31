@@ -1,0 +1,79 @@
+{
+  "title": "Webontwikkeling in Marseille | Digitale oplossingen voor Provençaalse bedrijven",
+  "description": "Maak je website of mobiele applicatie in Marseille. Aangepaste digitale oplossingen voor Provençaalse bedrijven, afgestemd op de lokale uitdagingen van jouw sector.",
+  "hero": {
+    "title": "Web & Mobiele Ontwikkeling in Marseille",
+    "description": "We helpen bedrijven in Marseille en de PACA-regio te digitaliseren met op maat gemaakte weboplossingen, die perfect zijn aangepast aan de specifieke uitdagingen van de mediterrane markt."
+  },
+  "intro": "Tussen zee en heuvels is Marseille een dynamische economische kruising waar traditie en innovatie elkaar ontmoeten. Onze digitale expertise stelt Marseille bedrijven in staat om op te vallen in een competitieve en voortdurend evoluerende mediterrane markt.",
+  "expertise": "Ons team ontwerpt websites, applicaties en e-commerce oplossingen die perfect zijn afgestemd op Marseille bedrijven. We begrijpen de uitdagingen van jouw lokale markt en bieden digitale oplossingen die jouw Provençaalse identiteit versterken, terwijl we een internationale clientele bereiken.",
+  "why-choose-us": "Onze diepgaande kennis van de Provençaalse markt stelt ons in staat om digitale oplossingen te ontwikkelen die perfect zijn afgestemd op de specifieke uitdagingen van lokale bedrijven. We begrijpen de culturele en economische rijkdom van Marseille en integreren dit in elk project om authentieke en hoogpresterende digitale ervaringen te creëren.",
+  "key-business-sectors": {
+    "tourism": "Toerisme",
+    "maritime": "Maritiem",
+    "local-commerce": "Lokale Handel",
+    "restaurant": "Restaurant"
+  },
+  "local-challenges": {
+    "tourism-competition": "Sterke concurrentie in de mediterrane toerismesector die een onderscheidende digitale aanwezigheid vereist",
+    "maritime-solutions": "Noodzaak aan digitale oplossingen die zijn aangepast aan maritieme en havenactiviteiten",
+    "local-commerce-digitalization": "Digitalisering van lokale winkels die het opnemen tegen grote ketens",
+    "local-ecommerce": "Behoefte aan e-commerce oplossingen die zijn aangepast om ambachten en lokale producten te presenteren"
+  },
+  "benefits": {
+    "custom-solutions": "Maatwerkoplossingen die zijn afgestemd op de specificiteiten van Provençaalse bedrijven",
+    "tourism-maritime-expertise": "Sterke expertise in de toerisme- en maritieme sectoren",
+    "international-ui": "Gebruikersinterface geoptimaliseerd voor een internationale clientele",
+    "mediterranean-knowledge": "Diepgaande kennis van de economische uitdagingen in de Middellandse Zee",
+    "personalized-support": "Persoonlijke ondersteuning gedurende jouw digitale project"
+  },
+  "primary-stat": {
+    "label": "toerismesector"
+  },
+  "strengths": {
+    "tourism-experience": {
+      "title": "Toerisme-ervaring",
+      "description": "Sites en applicaties geoptimaliseerd voor de mediterrane toerismesector."
+    },
+    "local-ecommerce": {
+      "title": "Lokale E-commerce",
+      "description": "Online verkoopoplossingen voor Provençaalse ambachtslieden en handelaren."
+    },
+    "maritime-sector": {
+      "title": "Maritieme Sector",
+      "description": "Digitalisering aangepast aan haven- en nautische activiteiten."
+    },
+    "mediterranean-design": {
+      "title": "Mediterrane Vormgeving",
+      "description": "Moderne interfaces die de mediterrane visuele identiteit weerspiegelen."
+    }
+  },
+  "focused-services": {
+    "tourism-websites": {
+      "name": "Toerisme Websites",
+      "description": "Meertalige digitale etalages voor hotels, restaurants en toeristische activiteiten."
+    },
+    "provencal-ecommerce": {
+      "name": "Provençaalse E-commerce",
+      "description": "Webwinkels die zijn aangepast voor lokale producenten en ambachtslieden."
+    },
+    "mobile-applications": {
+      "name": "Mobiele Applicaties",
+      "description": "Mobiele oplossingen om de toeristische en commerciële ervaring te verrijken."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Jarenlange ervaring"
+    },
+    "satisfaction": {
+      "label": "Tevredenheid",
+      "description": "Tevreden klanten"
+    },
+    "average-time": {
+      "label": "Gemiddelde Tijd",
+      "description": "Weken van voltooiing"
+    }
+  }
+}

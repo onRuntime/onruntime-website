@@ -1,0 +1,80 @@
+{
+  "name": "网络应用",
+  "description": "使用 React 和 Next.js 进行现代网络应用开发",
+  "hero": {
+    "title": "前端网络开发",
+    "description": "利用最新的前端技术创建现代、响应式和高性能的网络应用。我们的专业知识保证你获得卓越的用户体验。"
+  },
+  "features": {
+    "react-nextjs": {
+      "title": "React & Next.js",
+      "description": "使用现代框架开发高效和可扩展的应用。"
+    },
+    "responsive-design": {
+      "title": "响应式设计",
+      "description": "适应所有设备的最佳体验界面。"
+    },
+    "web-performance": {
+      "title": "网络性能",
+      "description": "高级优化以实现快速加载时间和平滑体验。"
+    },
+    "modern-ui-ux": {
+      "title": "现代 UI/UX",
+      "description": "优雅且直观的用户界面，遵循最新趋势。"
+    }
+  },
+  "benefits": {
+    "reactive-apps": {
+      "title": "响应式应用",
+      "description": "动态和响应迅速的界面，提供顺畅的用户体验。"
+    },
+    "mobile-first": {
+      "title": "移动优先",
+      "description": "设计时首先考虑移动设备，然后适应更大的屏幕。"
+    },
+    "optimal-performance": {
+      "title": "最佳性能",
+      "description": "高级优化，确保最小的加载时间。"
+    },
+    "seo-optimized": {
+      "title": "SEO 优化",
+      "description": "结构优化以获得出色的自然排名。"
+    }
+  },
+  "faq": {
+    "technologies": {
+      "question": "你们使用什么技术进行前端开发？",
+      "answer": "我们主要使用 React 和 Next.js，以及 TypeScript 来编写更稳健的代码。同时还整合现代工具，比如 Tailwind CSS 用于样式，以及各种库来实现动画和交互。"
+    },
+    "performance": {
+      "question": "你们如何管理网络应用的性能？",
+      "answer": "我们采用最佳的优化实践：代码拆分、懒加载、图像优化、智能缓存，同时使用性能测量工具确保最佳加载时间。"
+    },
+    "seo": {
+      "question": "你们提供 SEO 解决方案吗？",
+      "answer": "是的，我们在开发应用时考虑 SEO：服务器端渲染（SSR）、静态页面生成、动态元数据、语义结构和搜索引擎优化。"
+    },
+    "browser-compatibility": {
+      "question": "你们如何确保不同浏览器的兼容性？",
+      "answer": "我们在主要浏览器和版本上进行测试，使用现代转译工具，并设置适当的回退措施，以保证一致的体验。"
+    },
+    "maintenance": {
+      "question": "你们提供已开发应用的维护吗？",
+      "answer": "是的，我们提供多种维护计划，包括安全更新、持续性能优化和功能演进。"
+    }
+  },
+  "complementary": {
+    "ui-ux-design": {
+      "title": "UI/UX 设计",
+      "description": "现代和人性化用户界面的设计。"
+    },
+    "api-integration": {
+      "title": "API 集成",
+      "description": "与您现有的后端系统和服务连接。"
+    },
+    "internationalization": {
+      "title": "国际化",
+      "description": "为国际受众调整您的应用。"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "short-description": "Ett modernt, effektivt och mycket anpassningsbart komponentbibliotek för React och React Native, inspirerat av Geist UI och Vercel Design.",
+  "description": "En komplett svit av styled-components designade för att skapa konsekventa och eleganta användargränssnitt, underhållna av Tonight Pass.",
+  "long-description": "Kitchn är ett omfattande UI-komponentbibliotek som påskyndar utvecklingen av moderna webb- och mobilapplikationer.\n\nInspirerat av Geist UI och Vercel Design, utmärker det sig med sin minimalistiska approach och användarvänlighet, och erbjuder en samling optimerade komponenter byggda med styled-components och TypeScript.\n\nVarje komponent är designad för att vara modulär, effektiv och mycket anpassningsbar, vilket gör att utvecklingsteam snabbt kan skapa konsekventa användargränssnitt samtidigt som de upprätthåller en utmärkt utvecklarupplevelse.",
+  "features": {
+    "modular-architecture": {
+      "title": "Modulär Arkitektur",
+      "description": "Självständiga och återanvändbara komponenter designade för att arbeta tillsammans på ett harmoniskt sätt"
+    },
+    "flexible-themes": {
+      "title": "Flexibla Teman",
+      "description": "Fullt stöd för ljusa och mörka lägen med ett utbyggbart temasystem"
+    },
+    "cross-platform": {
+      "title": "Plattformsoberoende",
+      "description": "Inbyggt stöd för React och React Native för en enhetlig upplevelse över alla plattformar"
+    },
+    "interactive-docs": {
+      "title": "Interaktiv Dokumentation",
+      "description": "Omfattande dokumentation med exempel och lekplats för snabb onboarding"
+    }
+  },
+  "technologies": {
+    "styled-components": {
+      "description": "CSS-in-JS-stilar"
+    },
+    "react": {
+      "description": "Webb UI-bibliotek"
+    },
+    "react-native": {
+      "description": "Inbyggda mobilkomponenter"
+    },
+    "typescript": {
+      "description": "Typ-säkerhet och autokomplettering"
+    },
+    "storybook": {
+      "description": "Interaktiv dokumentation"
+    }
+  },
+  "metrics": {
+    "components": {
+      "value": "35+",
+      "label": "Komponenter",
+      "description": "Återanvändbara UI-komponenter"
+    },
+    "downloads": {
+      "value": "20k+",
+      "label": "Nedladdningar",
+      "description": "Månadsvis nedladdningar"
+    },
+    "github-stars": {
+      "value": "50+",
+      "label": "GitHub-stjärnor",
+      "description": "Stjärnor på GitHub"
+    }
+  },
+  "screenshots": {
+    "responsive": {
+      "caption": "Responsiva komponenter"
+    },
+    "themable": {
+      "caption": "Anpassningsbara teman"
+    }
+  },
+  "challenges": {
+    "visual-consistency": "Att upprätthålla perfekt visuell konsekvens mellan webb- och mobilplattformar",
+    "bundle-optimization": "Optimera paketstorlek samtidigt som funktionsrikedomen bevaras",
+    "react-compatibility": "Säkerställa kompatibilitet med olika React-versioner",
+    "backward-compatibility": "Garanti för bakåtkompatibilitet vid uppdateringar"
+  },
+  "learnings": {
+    "clear-documentation": "Avgörande betydelse av tydlig och detaljerad dokumentation",
+    "modular-architecture": "Behov av modulär arkitektur för underhållbarhet",
+    "automated-testing": "Värdet av automatiserad testning för tillförlitlighet",
+    "developer-experience": "Påverkan av utvecklarupplevelse på adoption"
+  },
+  "future-plans": {
+    "component-library-expansion": "Berika komponentbiblioteket",
+    "performance-optimization": "Kontinuerlig prestandaoptimering",
+    "framework-compatibility": "Utöka kompatibiliteten med moderna ramverk"
+  }
+}

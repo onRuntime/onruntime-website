@@ -1,0 +1,33 @@
+{
+  "links": {
+    "services": "Onze diensten",
+    "projects": "Onze projecten",
+    "agencies": "Onze bureaus",
+    "npo": "De vereniging",
+    "contact": "Neem contact met ons op"
+  },
+  "services": {
+    "title": "Onze diensten",
+    "description": "Ontdek ons complete aanbod van ontwikkelings- en ontwerp diensten om je digitale projecten tot leven te brengen.",
+    "cta": "Meer leren"
+  },
+  "projects": {
+    "title": "Ons portfolio",
+    "description": "Ontdek al onze projecten en prestaties in verschillende sectoren",
+    "categories": {
+      "web-mobile": "Web- en mobiele apps",
+      "open-source": "Open source projecten",
+      "design": "UI/UX ontwerp"
+    },
+    "cta": "Bekijk alle projecten"
+  },
+  "agencies": {
+    "title": "Onze bureaus in Frankrijk",
+    "description": "Ontdek ons netwerk van bureaus en onze lokale expertise door heel Frankrijk",
+    "agency": "Bureau {name}",
+    "main": "Hoofdbureaus",
+    "all": "Al onze bureaus",
+    "by-region": "Al onze bureaus per regio",
+    "cta": "Bekijk alle bureaus"
+  }
+}

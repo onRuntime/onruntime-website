@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "cta": "Diskutera ditt projekt"
+  },
+  "cards": {
+    "custom": {
+      "title": "Anpassade lösningar",
+      "description": "Skräddarsytt för dina behov"
+    },
+    "support": {
+      "title": "Expertstöd",
+      "description": "Av våra specialister"
+    },
+    "technologies": {
+      "title": "Moderna teknologier",
+      "description": "Alltid uppdaterade"
+    },
+    "scalability": {
+      "title": "Garanti för skalbarhet",
+      "description": "För din tillväxt"
+    }
+  },
+  "cta": {
+    "title": "Redo att förverkliga ditt projekt?",
+    "description": "Kontakta oss för att diskutera dina behov och få en personlig offert.",
+    "button": "Börja nu"
+  }
+}

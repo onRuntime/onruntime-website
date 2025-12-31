@@ -1,0 +1,8 @@
+{
+  "back-to-glossary": "용어집으로 돌아가기",
+  "related-terms": "관련 용어",
+  "search": {
+    "placeholder": "용어를 검색하세요...",
+    "no-results": "\"{term}\"에 대한 결과를 찾을 수 없습니다."
+  }
+}

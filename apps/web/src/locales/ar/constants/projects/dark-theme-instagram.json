@@ -1,0 +1,66 @@
+{
+  "short-description": "إضافة للمتصفح تحول إنستغرام إلى الوضع الداكن، مشابه لتطبيق iOS.",
+  "description": "غير موضوع إنستغرام.كوم إلى الوضع الداكن عندما يكون النظام في الوضع الداكن.",
+  "long-description": "وضع الظلام لإنستغرام™ هو إضافة للمتصفح تحول تجربة إنستغرام.كوم البصرية من خلال اعتماد موضوع داكن، مشابه لمظهر تطبيق iOS.\n\nالإضافة تقدم حلاً بسيطاً وأنيقاً لتقليل إجهاد العين وتحسين تجربة تصفح إنستغرام، مع احترام تفضيلات نظام التشغيل.",
+  "features": {
+    "auto-dark-mode": {
+      "title": "الوضع الداكن التلقائي",
+      "description": "تفعيل الموضوع الداكن تلقائياً بناءً على إعدادات النظام"
+    },
+    "multi-browser": {
+      "title": "متوافقة مع عدة متصفحات",
+      "description": "متاحة لفايرفوكس وإيدج وكروم"
+    },
+    "open-source": {
+      "title": "مفتوحة المصدر",
+      "description": "شفرة مصدرية متاحة للتحقق مجاناً"
+    }
+  },
+  "technologies": {
+    "javascript": {
+      "description": "تطوير الإضافات"
+    },
+    "chrome-api": {
+      "description": "تكامل المتصفح"
+    },
+    "css": {
+      "description": "تخصيص الموضوع"
+    }
+  },
+  "metrics": {
+    "users": {
+      "value": "52k+",
+      "label": "المستخدمون",
+      "description": "المستخدمون النشطون"
+    },
+    "installs": {
+      "value": "82k+",
+      "label": "التثبيتات",
+      "description": "إجمالي التثبيتات"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "مفتوحة المصدر",
+      "description": "شفرة مصدرية عامة"
+    }
+  },
+  "screenshots": {
+    "dark-interface": {
+      "caption": "واجهة إنستغرام في الوضع الداكن"
+    }
+  },
+  "challenges": {
+    "instagram-updates-compatibility": "الحفاظ على التوافق مع تحديثات إنستغرام المتكررة",
+    "cross-browser-consistency": "ضمان توافق الموضوع الداكن عبر المتصفحات المختلفة",
+    "browser-performance": "تقليل التأثير على أداء المتصفح"
+  },
+  "learnings": {
+    "dynamic-interface-modification": "تعقيد تعديل واجهات الويب ديناميكياً",
+    "cross-browser-compatibility": "أهمية التوافق عبر المتصفحات",
+    "platform-updates-management": "إدارة تحديثات منصة الويب المتكررة"
+  },
+  "future-plans": {
+    "more-customization": "إضافة المزيد من خيارات التخصيص",
+    "instagram-versions-compatibility": "تحسين التوافق مع إصدارات إنستغرام المختلفة"
+  }
+}

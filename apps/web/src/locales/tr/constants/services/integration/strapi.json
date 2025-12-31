@@ -1,0 +1,80 @@
+{
+  "name": "Strapi",
+  "description": "Strapi ile başlıksız CMS geliştirme",
+  "hero": {
+    "title": "Strapi ile başlıksız CMS geliştirme",
+    "description": "Strapi ile modern uygulamalar geliştirin. Uzmanlığımız, ihtiyaçlarınıza mükemmel bir şekilde uyum sağlayan esnek ve ölçeklenebilir bir içerik yönetim çözümünü garanti eder."
+  },
+  "features": {
+    "custom-api": {
+      "title": "Özel API",
+      "description": "Tüm ihtiyaçlarınız için özel RESTful ve GraphQL API'lerinin oluşturulması."
+    },
+    "flexible-administration": {
+      "title": "Esnek yönetim",
+      "description": "İş süreçlerinize göre özelleştirilebilir yönetim arayüzü."
+    },
+    "optimal-performance": {
+      "title": "En iyi performans",
+      "description": "Hızlı yanıt süreleri için yüksek performanslı mimari."
+    },
+    "advanced-security": {
+      "title": "Gelişmiş güvenlik",
+      "description": "Verilerinizi ve API'lerinizi korumak için sağlam koruma."
+    }
+  },
+  "benefits": {
+    "100-javascript": {
+      "title": "%100 JavaScript",
+      "description": "Daha fazla verimlilik için JavaScript/Node.js ile birleşik geliştirme."
+    },
+    "flexible-models": {
+      "title": "Esnek modeller",
+      "description": "Hiçbir kısıtlama olmadan özel içerik modelleri oluşturma."
+    },
+    "role-management": {
+      "title": "Rol yönetimi",
+      "description": "Erişim ve kullanıcı izinlerinin hassas kontrolü."
+    },
+    "advanced-workflows": {
+      "title": "Gelişmiş iş akışları",
+      "description": "Yayın ve onay süreçlerinin otomasyonu."
+    }
+  },
+  "faq": {
+    "setup-timeline": {
+      "question": "Bir Strapi projesini kurmak ne kadar sürüyor?",
+      "answer": "Bir Strapi projesinin kurulumu için ortalama süre 4 ila 12 hafta arasında değişiyor, karmaşıklığa göre. Bu, içerik modeli tasarımı, API geliştirme, yönetim özelleştirmesi ve testleri içeriyor."
+    },
+    "multilingual": {
+      "question": "Strapi çok dilli içeriği yönetebiliyor mu?",
+      "answer": "Evet, Strapi yerel olarak çok dilli içeriği yönetiyor. Özel ihtiyaçlarınıza göre çeviri yönetimini yapılandırabilir ve özelleştirebiliriz."
+    },
+    "content-migration": {
+      "question": "Var olan içeriğimizi Strapi'ye taşımak mümkün mü?",
+      "answer": "Evet, mevcut verilerinizi analiz etme, uyarlanmış modeller oluşturma ve içeriğinizi içe aktarma dahil olmak üzere Strapi'ye tam bir içerik göç hizmeti sunuyoruz."
+    },
+    "deployment-hosting": {
+      "question": "Dağıtım ve barındırmayı nasıl yönetiyorsunuz?",
+      "answer": "Strapi'yi farklı bulut platformlarında (AWS, Google Cloud, DigitalOcean...) dağıtabiliriz ve geliştirme, aşama ve üretim ortamlarıyla ölçeklenebilir bir altyapı kurabiliriz."
+    },
+    "custom-plugins": {
+      "question": "Özel eklenti geliştirme hizmeti veriyor musunuz?",
+      "answer": "Evet, ihtiyaçlarınıza göre işlevselliği genişletmek için özel Strapi eklentileri geliştiriyoruz: özel entegrasyonlar, özelleştirilmiş iş akışları, özel yönetim arayüzleri vb."
+    }
+  },
+  "complementary": {
+    "frontend-development": {
+      "title": "Ön yüz geliştirme",
+      "description": "Strapi API'nize bağlı ön yüz uygulamaları oluşturma."
+    },
+    "integrations": {
+      "title": "Entegrasyonlar",
+      "description": "Mevcut üçüncü taraf araçlarınız ve hizmetlerinizle bağlantı."
+    },
+    "strapi-training": {
+      "title": "Strapi eğitimi",
+      "description": "CMS yönetiminizi öğrenmek için özel eğitim."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "サービスが見つかりません",
+      "description": "このサービスは存在しません。"
+    }
+  },
+  "features": {
+    "title": "{service}のエクセレンス",
+    "description": "{service}における私たちの専門知識が、プロフェッショナルで高性能なソリューションを保証します。"
+  },
+  "benefits": {
+    "title": "プロフェッショナル{service}",
+    "description": "プロフェッショナルな{service}サービスの利点を見つけてください。"
+  },
+  "testimonials": {
+    "title": "彼らは私たちを信頼しています",
+    "description": "クライアントが{service}プロジェクトについてのフィードバックを確認しましょう"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "description": "私たちの{service}サービスについて知っておくべきことすべて"
+  },
+  "complementary": {
+    "title": "補完サービス",
+    "description": "私たちの追加サービスで{service}プロジェクトを最適化しましょう"
+  }
+}

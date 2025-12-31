@@ -1,0 +1,79 @@
+{
+  "title": "마르세유의 웹 개발 | 프로방스 비즈니스를 위한 디지털 솔루션",
+  "description": "마르세유에서 당신의 웹사이트나 모바일 애플리케이션을 만들어 보세요. 여러분의 지역 산업 과제에 맞춘 맞춤형 디지털 솔루션입니다.",
+  "hero": {
+    "title": "마르세유의 웹 & 모바일 개발",
+    "description": "우리는 마르세유와 PACA 지역의 기업들이 지중해 시장의 특정 도전과제에 완벽하게 적합한 맞춤형 웹 솔루션으로 디지털화하는 것을 돕습니다."
+  },
+  "intro": "바다와 언덕 사이에 위치한 마르세유는 전통과 혁신이 만나는 역동적인 경제 교차로입니다. 우리의 디지털 전문 지식은 마르세유 기업들이 경쟁적이고 끊임없이 변화하는 지중해 시장에서 눈에 띄게 만들도록 돕습니다.",
+  "expertise": "우리 팀은 마르세유 기업에 완벽하게 적합한 웹사이트, 애플리케이션 및 전자상거래 솔루션을 설계합니다. 우리는 여러분의 지역 시장의 도전 과제를 이해하고, 프로방스의 정체성을 강화하면서 국제 고객에게 도달할 수 있는 디지털 솔루션을 제공합니다.",
+  "why-choose-us": "우리의 프로방스 시장에 대한 깊은 이해는 지역 기업의 특정 도전 과제에 완벽하게 적합한 디지털 솔루션을 개발할 수 있게 해줍니다. 우리는 마르세유의 문화적, 경제적 풍요로움을 이해하고, 이를 각 프로젝트에 통합하여 진정성 있고 성능이 뛰어난 디지털 경험을 창출합니다.",
+  "key-business-sectors": {
+    "tourism": "관광",
+    "maritime": "해양",
+    "local-commerce": "지역 상업",
+    "restaurant": "레스토랑"
+  },
+  "local-challenges": {
+    "tourism-competition": "지중해 관광 산업의 강한 경쟁으로 독특한 디지털 존재가 필요합니다.",
+    "maritime-solutions": "해양 및 항만 상업에 맞춘 디지털 솔루션이 필요합니다.",
+    "local-commerce-digitalization": "대형 체인과 경쟁하며 지역 상점의 디지털화가 필요합니다.",
+    "local-ecommerce": "수공예품과 지역 제품을 선보일 수 있는 전자상거래 솔루션이 필요합니다."
+  },
+  "benefits": {
+    "custom-solutions": "프로방스 기업의 특성에 맞춘 맞춤형 솔루션",
+    "tourism-maritime-expertise": "관광 및 해양 분야에 대한 예리한 전문성",
+    "international-ui": "국제 고객을 위한 최적화된 사용자 인터페이스",
+    "mediterranean-knowledge": "지중해 경제적 도전에 대한 깊은 지식",
+    "personalized-support": "디지털 프로젝트 전반에 걸친 맞춤형 지원"
+  },
+  "primary-stat": {
+    "label": "관광 부문"
+  },
+  "strengths": {
+    "tourism-experience": {
+      "title": "관광 경험",
+      "description": "지중해 관광 분야에 최적화된 사이트와 애플리케이션."
+    },
+    "local-ecommerce": {
+      "title": "지역 전자상거래",
+      "description": "프로방스 장인 및 상인을 위한 온라인 판매 솔루션."
+    },
+    "maritime-sector": {
+      "title": "해양 분야",
+      "description": "항구 및 수상 활동에 적합한 디지털화."
+    },
+    "mediterranean-design": {
+      "title": "지중해 디자인",
+      "description": "지중해의 시각적 정체성을 반영한 현대적 인터페이스."
+    }
+  },
+  "focused-services": {
+    "tourism-websites": {
+      "name": "관광 웹사이트",
+      "description": "호텔, 레스토랑 및 관광 활동을 위한 다국어 디지털 쇼케이스."
+    },
+    "provencal-ecommerce": {
+      "name": "프로방조 전자상거래",
+      "description": "지역 생산자와 장인에 맞춘 온라인 상점."
+    },
+    "mobile-applications": {
+      "name": "모바일 애플리케이션",
+      "description": "관광 및 상업 경험을 풍부하게 만드는 모바일 솔루션."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "전문성",
+      "description": "다년간의 경험"
+    },
+    "satisfaction": {
+      "label": "만족도",
+      "description": "만족한 고객들"
+    },
+    "average-time": {
+      "label": "평균 소요 시간",
+      "description": "완료까지의 주"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Back-end ontwikkeling",
+  "description": "Architectuur en ontwikkeling van robuuste oplossingen",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Schaalbare architectuur",
+      "description": "Systemen die zijn ontworpen om mee te groeien met jouw groei, met gebruik van moderne en gedistribueerde architecturen."
+    },
+    "optimized-database": {
+      "title": "Geoptimaliseerde database",
+      "description": "Databaseontwerp en optimalisatie voor maximale prestaties en dataintegriteit."
+    },
+    "robust-infrastructure": {
+      "title": "Robuste infrastructuur",
+      "description": "Implementatie op moderne cloudinfrastructuur met hoge beschikbaarheid en veerkracht."
+    },
+    "advanced-security": {
+      "title": "Geavanceerde beveiliging",
+      "description": "Implementatie van beste praktijken voor beveiliging en bescherming van gevoelige gegevens."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Behoefteanalyse",
+      "description": "In-depth studie van technische vereisten, architectuurdefinitie en technologiekeuze."
+    },
+    "system-design": {
+      "title": "Systeemontwerp",
+      "description": "Ontwerp van backend architectuur, datamodel en API-definitie."
+    },
+    "api-development": {
+      "title": "API-ontwikkeling",
+      "description": "Implementatie van RESTful of GraphQL API's met complete documentatie."
+    },
+    "database": {
+      "title": "Database",
+      "description": "Opzetten en optimaliseren van databases met focus op prestaties en schaalbaarheid."
+    },
+    "testing-security": {
+      "title": "Testen en beveiliging",
+      "description": "Implementatie van geautomatiseerde tests en geavanceerde beveiligingsmaatregelen."
+    },
+    "deployment-monitoring": {
+      "title": "Implementatie en monitoring",
+      "description": "Opzetten van cloudinfrastructuur, monitoring en waarschuwingen."
+    }
+  },
+  "process-services": {}
+}

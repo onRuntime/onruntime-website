@@ -1,0 +1,80 @@
+{
+  "name": "Bazy danych",
+  "description": "Architektura i optymalizacja baz danych",
+  "hero": {
+    "title": "Architektura baz danych",
+    "description": "Projektuj i optymalizuj swoje bazy danych dla maksymalnej wydajności i skalowalności. Nasza wiedza gwarantuje solidną architekturę, która spełnia Twoje obecne i przyszłe potrzeby."
+  },
+  "features": {
+    "optimized-architecture": {
+      "title": "Optymazowana architektura",
+      "description": "Inteligentny projekt schematów i relacji dla optymalnej wydajności."
+    },
+    "enhanced-security": {
+      "title": "Zwiększone bezpieczeństwo",
+      "description": "Solidna ochrona wrażliwych danych i zgodność z normami."
+    },
+    "high-performance": {
+      "title": "Wysoka wydajność",
+      "description": "Optimizacja zapytań i indeksów dla minimalnych czasów odpowiedzi."
+    },
+    "backup-recovery": {
+      "title": "Kopia Zapasowa i Przywracanie",
+      "description": "Niezawodne strategie tworzenia kopii zapasowych i przywracania."
+    }
+  },
+  "benefits": {
+    "horizontal-scalability": {
+      "title": "Pozioma skalowalność",
+      "description": "Architektura zaprojektowana z myślą o wzroście i skalowaniu."
+    },
+    "replication": {
+      "title": "Replikacja",
+      "description": "Wysoka dostępność i geograficzne rozproszenie danych."
+    },
+    "advanced-monitoring": {
+      "title": "Zaawansowane monitorowanie",
+      "description": "Śledzenie wydajności i stanu w czasie rzeczywistym."
+    },
+    "optimized-search": {
+      "title": "Optymalizowane wyszukiwanie",
+      "description": "Inteligentne indeksowanie dla szybkich wyszukiwań."
+    }
+  },
+  "faq": {
+    "sql-vs-nosql": {
+      "question": "Jak wybrać między SQL a NoSQL?",
+      "answer": "Wybór zależy od Twoich specyficznych potrzeb. Bazy danych SQL są idealne dla danych ustrukturalizowanych złożonych relacjach, podczas gdy NoSQL doskonale radzi sobie z danymi nieustrukturalizowanymi i poziomą skalowalnością. Pomagamy wybrać najlepsze rozwiązanie na podstawie Twoich przypadków użycia."
+    },
+    "data-security": {
+      "question": "Jak dbacie o bezpieczeństwo danych?",
+      "answer": "Wdrożymy wiele warstw bezpieczeństwa: szyfrowanie wrażliwych danych, kontrola dostępu na poziomie szczegółowym, audyty dostępu, regularne kopie zapasowe i zgodność z normami bezpieczeństwa (RODO itd.). Regularnie przeprowadzamy też testy zabezpieczeń."
+    },
+    "performance-optimization": {
+      "question": "Jak optymalizujecie wydajność?",
+      "answer": "Używamy kilku technik: optymalizacja schematu i zapytań, inteligentne indeksowanie, cache'owanie, partycjonowanie danych oraz ciągłe monitorowanie. Regularnie analizujemy wydajność w celu zidentyfikowania możliwości optymalizacji."
+    },
+    "migration-services": {
+      "question": "Czy oferujecie usługi migracji?",
+      "answer": "Tak, zajmujemy się migracjami baz danych kompleksowo: analiza istniejących systemów, planowanie, testowanie, migracja danych z minimalnymi przerwami, oraz walidacja po migracji. Zapewniamy spójność i integralność danych."
+    },
+    "data-availability": {
+      "question": "Jak zapewniacie dostępność danych?",
+      "answer": "Tworzymy architektury o wysokiej dostępności z replikacją, klastrowaniem i planami przywracania po awarii. Regularnie tworzymy kopie zapasowe i testujemy procedury przywracania."
+    }
+  },
+  "complementary": {
+    "data-migration": {
+      "title": "Migracja danych",
+      "description": "Bezpieczny transfer z Twoich istniejących systemów."
+    },
+    "audit-optimization": {
+      "title": "Audyt i optymalizacja",
+      "description": "Analiza wydajności i rekomendacje."
+    },
+    "monitoring-24-7": {
+      "title": "Monitoring 24/7",
+      "description": "Ciągła obserwacja i alerty w czasie rzeczywistym."
+    }
+  }
+}

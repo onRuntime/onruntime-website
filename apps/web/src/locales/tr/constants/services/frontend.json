@@ -1,0 +1,49 @@
+{
+  "name": "Ön uç geliştirme",
+  "description": "Yüksek performanslı web ve mobil uygulamalar oluşturma",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Ölçeklenebilir mimari",
+      "description": "Modern ve ölçeklenebilir mimariler üzerine inşa edilmiş uygulamalar, projenizin evrimine hazır."
+    },
+    "optimal-performance": {
+      "title": "Optimal performans",
+      "description": "Gelişmiş optimizasyon ve önbellekleme teknikleri ile performansa odaklanma."
+    },
+    "maintainable-code": {
+      "title": "Bakımı kolay kod",
+      "description": "Temiz ve modüler mimari sayesinde kolay bakım ve hızlı yinelemeler."
+    },
+    "enhanced-security": {
+      "title": "Gelişmiş güvenlik",
+      "description": "Kullanıcılarınızı korumak için ön uç güvenlik en iyi uygulamalarının uygulanması."
+    }
+  },
+  "process": {
+    "technical-architecture": {
+      "title": "Teknik mimari",
+      "description": "Ön uç mimarinin tanımlanması, teknoloji seçimi ve geliştirme ortamının kurulması."
+    },
+    "project-setup": {
+      "title": "Proje kurulumu",
+      "description": "Geliştirme en iyi uygulamaları, test ve sürekli dağıtım ile proje yapılandırması."
+    },
+    "feature-development": {
+      "title": "Özellik geliştirme",
+      "description": "Kod kalitesi ve performansa odaklanarak özelliklerin uygulanması."
+    },
+    "state-management": {
+      "title": "Durum yönetimi",
+      "description": "Uygulama verileri için sağlam ve performanslı bir durum yönetiminin kurulması."
+    },
+    "testing-quality": {
+      "title": "Test ve kalite",
+      "description": "Otomatik testler ve kalite güvencesi süreçlerinin uygulanması."
+    },
+    "optimization-monitoring": {
+      "title": "Optimizasyon ve izleme",
+      "description": "Performans optimizasyonu ve izleme araçlarının kurulumu."
+    }
+  },
+  "process-services": {}
+}

@@ -1,0 +1,20 @@
+{
+  "retry": "حاول مرة أخرى",
+  "no-results": "لا توجد عروض عمل تطابق بحثك.",
+  "count": "عرض(عروض) العمل المتاحة",
+  "published": "تم النشر في",
+  "view-offer": "عرض العرض",
+  "employment-type": {
+    "full-time": "دوام كامل",
+    "part-time": "دوام جزئي",
+    "contract": "عقد",
+    "temporary": "مؤقت",
+    "internship": "تدريب داخلي",
+    "apprenticeship": "تدريب مهني"
+  },
+  "workplace-type": {
+    "hybrid": "هجين",
+    "remote": "عن بعد",
+    "on-site": "في الموقع"
+  }
+}

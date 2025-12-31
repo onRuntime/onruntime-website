@@ -1,0 +1,80 @@
+{
+  "name": "Veritabanları",
+  "description": "Veritabanı mimarisi ve optimizasyonu",
+  "hero": {
+    "title": "Veritabanı Mimarisi",
+    "description": "Veritabanlarınızı en iyi performans ve maksimum ölçeklenebilirlik için tasarlayın ve optimize edin. Uzmanlığımız, mevcut ve gelecekteki ihtiyaçlarınızı karşılayan sağlam bir mimari garanti eder."
+  },
+  "features": {
+    "optimized-architecture": {
+      "title": "Optimize edilmiş mimari",
+      "description": "Maksimum performans için şemaların ve ilişkilerin akıllı tasarımı."
+    },
+    "enhanced-security": {
+      "title": "Gelişmiş güvenlik",
+      "description": "Hassas verilerin yüksek koruması ve standartlara uyum."
+    },
+    "high-performance": {
+      "title": "Yüksek performans",
+      "description": "Minimum yanıt süreleri için sorgu ve indeks optimizasyonu."
+    },
+    "backup-recovery": {
+      "title": "Yedekleme & Kurtarma",
+      "description": "Güvenilir yedekleme ve geri yükleme stratejileri."
+    }
+  },
+  "benefits": {
+    "horizontal-scalability": {
+      "title": "Yatay ölçeklenebilirlik",
+      "description": "Büyüme ve ölçeklenme için tasarlanmış mimari."
+    },
+    "replication": {
+      "title": "Yinelenme",
+      "description": "Verinin yüksek erişilebilirliği ve coğrafi dağılımı."
+    },
+    "advanced-monitoring": {
+      "title": "Gelişmiş izleme",
+      "description": "Performans ve sağlık durumunun gerçek zamanlı takibi."
+    },
+    "optimized-search": {
+      "title": "Optimize edilmiş arama",
+      "description": "Hızlı aramalar için akıllı indeksleme."
+    }
+  },
+  "faq": {
+    "sql-vs-nosql": {
+      "question": "SQL ve NoSQL arasında nasıl seçim yapılır?",
+      "answer": "Seçim, özel ihtiyaçlarınıza bağlı. SQL veritabanları, karmaşık ilişkilerle yapılandırılmış veriler için idealdir, oysa NoSQL, yapılandırılmamış verileri ve yatay ölçeklenebilirliği daha iyi işler. Kullandığınız senaryolara dayanarak en iyi çözümü bulmanıza yardımcı oluyoruz."
+    },
+    "data-security": {
+      "question": "Veri güvenliğini nasıl sağlıyorsunuz?",
+      "answer": "Birden fazla güvenlik katmanı uyguluyoruz: hassas verilerin şifrelenmesi, detaylı erişim kontrolü, erişim denetimi, düzenli yedeklemeler ve güvenlik standartlarına (GDPR vb.) uyum. Ayrıca, düzenli güvenlik testleri yapıyoruz."
+    },
+    "performance-optimization": {
+      "question": "Performansı nasıl optimize ediyorsunuz?",
+      "answer": "Birçok teknik kullanıyoruz: şema ve sorgu optimizasyonu, akıllı indeksleme, ön bellekleme, verilerin bölümlenmesi ve sürekli izleme. Optimizasyon fırsatlarını belirlemek için performansı düzenli olarak analiz ediyoruz."
+    },
+    "migration-services": {
+      "question": "Göç hizmetleri sunuyor musunuz?",
+      "answer": "Evet, veritabanı göçlerini baştan sona ele alıyoruz: mevcut sistemlerin analizi, planlama, test etme, veri göçü sırasında minimum kesinti sağlama ve ardından geçiş doğrulaması. Veri tutarlılığını ve bütünlüğünü sağlıyoruz."
+    },
+    "data-availability": {
+      "question": "Veri erişilebilirliğini nasıl sağlıyorsunuz?",
+      "answer": "Yinelenme, kümeleme ve felaket kurtarma planları ile yüksek erişilebilir mimariler kuruyoruz. Düzenli olarak yedekleme yapıyor ve geri yükleme prosedürlerini test ediyoruz."
+    }
+  },
+  "complementary": {
+    "data-migration": {
+      "title": "Veri göçü",
+      "description": "Mevcut sistemlerinizden güvenli transfer."
+    },
+    "audit-optimization": {
+      "title": "Denetim & Optimizasyon",
+      "description": "Performans analizi ve öneriler."
+    },
+    "monitoring-24-7": {
+      "title": "7/24 İzleme",
+      "description": "Sürekli gözetim ve gerçek zamanlı uyarılar."
+    }
+  }
+}

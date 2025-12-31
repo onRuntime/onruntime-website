@@ -1,0 +1,79 @@
+{
+  "title": "Sviluppo Web a Strasburgo | Soluzioni digitali per aziende alsaziane",
+  "description": "Crea il tuo sito web o applicazione mobile a Strasburgo. Soluzioni digitali personalizzate per aziende alsaziane, adattate alle sfide locali e transfrontaliere.",
+  "hero": {
+    "title": "Sviluppo Web & Mobile a Strasburgo",
+    "description": "Aiutiamo le aziende a Strasburgo e nella regione del Grand Est a digitalizzarsi con soluzioni web personalizzate, perfettamente adattate alle specifiche sfide del mercato alsaziano e europeo."
+  },
+  "intro": "Capitale europea e città frontaliere con un ricco patrimonio, Strasburgo unisce le tradizioni alsaziane e l'apertura internazionale. Il suo status di sede delle istituzioni europee, la sua industria dinamica e la posizione strategica tra Francia e Germania la rendono un territorio unico dove il digitale gioca un ruolo fondamentale nel fare da ponte.",
+  "expertise": "Il nostro team progetta siti web, applicazioni e soluzioni digitali perfettamente adattate alle aziende di Strasburgo, siano esse organizzazioni internazionali, aziende industriali o operatori del patrimonio locale. Comprendiamo le sfide specifiche del tuo mercato regionale e transfrontaliero, e offriamo soluzioni digitali multilingue e culturalmente adattate.",
+  "why-choose-us": "La nostra profonda conoscenza del mercato di Strasburgo ci consente di sviluppare soluzioni digitali perfettamente adattate alle sfide specifiche delle aziende locali. Comprendiamo le esigenze del contesto europeo e le particolarità culturali alsaziane, e integriamo questa doppia dimensione in ogni progetto per creare esperienze digitali rilevanti e ad alte prestazioni.",
+  "key-business-sectors": {
+    "european-institutions": "Istituzioni Europee",
+    "cross-border-commerce": "Commercio Transfrontaliero",
+    "industry": "Industria",
+    "culture-heritage": "Cultura & Patrimonio"
+  },
+  "local-challenges": {
+    "european-institutions-needs": "Esigenze specifiche delle istituzioni europee e delle organizzazioni internazionali",
+    "cross-border-development": "Sviluppo del commercio transfrontaliero con Germania e Svizzera",
+    "traditional-industries-transformation": "Trasformazione digitale delle tradizionali industrie alsaziane",
+    "heritage-digital-showcase": "Vetrina digitale del ricco patrimonio culturale e storico della regione"
+  },
+  "benefits": {
+    "multilingual-solutions": "Soluzioni multilingue adattate al contesto internazionale di Strasburgo",
+    "european-standards-expertise": "Competenza elevata nelle interfacce utente conformi agli standard europei",
+    "cross-border-knowledge": "Conoscenza approfondita dei mercati transfrontalieri e delle loro specificità",
+    "innovative-traditional-approach": "Approccio sia innovativo che rispettoso delle tradizioni alsaziane",
+    "personalized-support": "Supporto personalizzato durante tutto il tuo progetto digitale"
+  },
+  "primary-stat": {
+    "label": "contesto internazionale"
+  },
+  "strengths": {
+    "european-solutions": {
+      "title": "Soluzioni Europee",
+      "description": "Piattaforme multilingue per istituzioni e organizzazioni internazionali."
+    },
+    "cross-border-commerce": {
+      "title": "Commercio Transfrontaliero",
+      "description": "Soluzioni di e-commerce adattate ai mercati francese, tedesco e svizzero."
+    },
+    "industry-40": {
+      "title": "Industria 4.0",
+      "description": "Digitalizzazione dei processi per le tradizionali industrie alsaziane."
+    },
+    "digital-heritage": {
+      "title": "Patrimonio Digitale",
+      "description": "Esperienze digitali per valorizzare il patrimonio culturale e storico."
+    }
+  },
+  "focused-services": {
+    "institutional-websites": {
+      "name": "Siti Web Istituzionali",
+      "description": "Piattaforme multilingue conformi agli standard europei di accessibilità."
+    },
+    "cross-border-ecommerce": {
+      "name": "E-commerce Transfrontaliero",
+      "description": "Soluzioni commerciali adattate alle specificità del mercato tedesco e francese."
+    },
+    "industrial-applications": {
+      "name": "Applicazioni Industriali",
+      "description": "Strumenti digitali personalizzati per modernizzare i processi industriali."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Competenza",
+      "description": "Anni di esperienza"
+    },
+    "satisfaction": {
+      "label": "Soddisfazione",
+      "description": "Clienti soddisfatti"
+    },
+    "average-time": {
+      "label": "Tempo Medio",
+      "description": "Settimane di completamento"
+    }
+  }
+}

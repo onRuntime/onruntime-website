@@ -1,0 +1,8 @@
+{
+  "back-to-glossary": "Glosere geri dön",
+  "related-terms": "İlgili terimler",
+  "search": {
+    "placeholder": "Bir terim ara...",
+    "no-results": "\"{term}\" için sonuç bulunamadı"
+  }
+}

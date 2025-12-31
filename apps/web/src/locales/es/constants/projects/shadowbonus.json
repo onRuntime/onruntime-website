@@ -1,0 +1,75 @@
+{
+  "short-description": "Plataforma de afiliados para streamers especializada en bonos de casino online y apertura de cajas.",
+  "description": "Sitio web de afiliados desarrollado para el streamer vitapvp, mostrando los mejores bonos y beneficios de los casinos socios con redirección a enlaces de afiliados.",
+  "long-description": "ShadowBonus es una plataforma de afiliados desarrollada para el streamer vitapvp, diseñada para presentar de forma clara y atractiva los mejores bonos y beneficios de los casinos online socios.\n\nEl proyecto se centra en lo esencial: una interfaz limpia que resalta las ofertas de los socios y facilita la conversión a enlaces de afiliados. Desarrollado con React y styled-components, el sitio prioriza la facilidad de uso y la eficiencia de conversión.\n\nNuestro enfoque se centró en brindar una experiencia de usuario fluida que permitiera a los espectadores de vitapvp descubrir rápidamente las mejores ofertas disponibles y acceder fácilmente a las plataformas de los socios.",
+  "features": {
+    "partner-showcase": {
+      "title": "Vitrina de socios",
+      "description": "Presentación clara y atractiva de los casinos y plataformas socios del streamer"
+    },
+    "bonus-comparison": {
+      "title": "Comparación de bonos",
+      "description": "Destacando los mejores bonos y beneficios disponibles para los espectadores"
+    },
+    "affiliate-redirect": {
+      "title": "Redirección de afiliados",
+      "description": "Sistema de redirección optimizado a enlaces de afiliados socios"
+    },
+    "responsive-interface": {
+      "title": "Interfaz responsiva",
+      "description": "Diseño adaptativo para una experiencia óptima en todos los dispositivos"
+    }
+  },
+  "technologies": {
+    "react": {
+      "description": "Biblioteca de JavaScript para la interfaz de usuario"
+    },
+    "styled-components": {
+      "description": "Estilización CSS-in-JS para un enfoque moderno"
+    },
+    "cloudflare": {
+      "description": "Alojamiento y despliegue continuo"
+    }
+  },
+  "metrics": {
+    "weekly-visits": {
+      "value": "1500+",
+      "label": "Visitas semanales",
+      "description": "Al lanzamiento en julio de 2021"
+    },
+    "dev-time": {
+      "value": "2 meses",
+      "label": "Tiempo de desarrollo",
+      "description": "Entrega rápida y eficiente"
+    },
+    "team-size": {
+      "value": "3 personas",
+      "label": "Equipo",
+      "description": "Equipo pequeño y ágil"
+    }
+  },
+  "screenshots": {
+    "homepage": {
+      "caption": "Página de inicio mostrando ofertas de socios"
+    },
+    "partners": {
+      "caption": "Sección de casinos y plataformas socios"
+    }
+  },
+  "challenges": {
+    "attractive-interface": "Crear una interfaz atractiva para resaltar las ofertas de socios",
+    "conversion-optimization": "Optimizar las tasas de conversión hacia los enlaces de afiliados",
+    "simple-react-solution": "Desarrollar una solución de React simple pero efectiva",
+    "cross-device-experience": "Asegurar una experiencia de usuario fluida en todos los dispositivos"
+  },
+  "learnings": {
+    "affiliate-simplicity": "Importancia de la simplicidad en proyectos de afiliados",
+    "streamer-conversion": "Optimizar los recorridos de conversión para streamers",
+    "react-styled-components": "Desarrollo rápido y eficiente con React y styled-components",
+    "gaming-streaming-needs": "Adaptarse a las necesidades específicas del mundo del streaming de videojuegos"
+  },
+  "future-plans": {
+    "client-transfer": "El proyecto fue transferido al cliente para su mantenimiento",
+    "streamer-evolutions": "Posibles evoluciones basadas en las necesidades del streamer"
+  }
+}

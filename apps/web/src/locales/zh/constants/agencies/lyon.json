@@ -1,0 +1,79 @@
+{
+  "title": "里昂网络公司 | 定制数字解决方案",
+  "description": "在里昂进行网站开发、移动和UI/UX设计。我们为罗纳阿尔卑斯地区的企业量身定制的数字专长，助力您的在线存在感。",
+  "hero": {
+    "title": "里昂网络与移动开发",
+    "description": "通过创新的数字解决方案转变您位于里昂的企业，让您完美适应奥弗涅-罗纳-阿尔卑斯地区的经济活力。"
+  },
+  "intro": "我们的数字专长在里昂的活力中心为该地区的企业提供支持，助力它们的数字化转型。里昂在工业传统、生物医学卓越和美食影响之间，呈现出丰富多样的经济结构，我们对此深有了解。",
+  "expertise": "我们创造了适应里昂和罗纳阿尔卑斯市场特性的网页、移动和电子商务解决方案。我们的团队精通该地区优质行业的数字挑战，从生物技术到美食，包括制造业。",
+  "why-choose-us": "我们对里昂市场的了解使我们能够开发完美契合本地企业需求和特色的数字解决方案。我们理解该地区的卓越标准，并提供提升里昂身份和专业知识的数字支持。",
+  "key-business-sectors": {
+    "biotech": "生物技术",
+    "pharma": "制药行业",
+    "gastronomy": "美食",
+    "finance": "金融"
+  },
+  "local-challenges": {
+    "industry-digitalization": "面临工业4.0挑战的工业中小企业和中型公司的数字化",
+    "gastronomy-visibility": "为里昂美食参与者发展数字可见性",
+    "local-ecommerce": "为本地商业和地区工匠提供适应的电子商务解决方案",
+    "biotech-applications": "为持续扩展的制药和生物技术行业提供商业应用"
+  },
+  "benefits": {
+    "sector-expertise": "在里昂的优质领域（生物技术、制药、美食）具备专业知识",
+    "industrial-understanding": "理解罗纳阿尔卑斯工业区的数字化挑战",
+    "sme-solutions": "为数字化转型中的中小企业和中型公司提供适应解决方案",
+    "lyon-ui-design": "反映里昂视觉身份和质量标准的UI/UX设计",
+    "local-ecosystem-knowledge": "对本地数字生态系统有深入了解"
+  },
+  "primary-stat": {
+    "label": "创新领域"
+  },
+  "strengths": {
+    "biotech-pharma": {
+      "title": "生物技术与制药解决方案",
+      "description": "专为里昂健康集群设计的应用程序。"
+    },
+    "gastronomy-ecommerce": {
+      "title": "美食电子商务",
+      "description": "对罗纳阿尔卑斯当地产品的数字提升。"
+    },
+    "industrial-applications": {
+      "title": "工业应用",
+      "description": "为工业4.0和生产提供数字工具。"
+    },
+    "business-interfaces": {
+      "title": "商业接口",
+      "description": "适应里昂特定需求的UI/UX设计。"
+    }
+  },
+  "focused-services": {
+    "biotech-applications": {
+      "name": "生物技术商业应用",
+      "description": "为里昂的实验室和制药公司提供数字解决方案。"
+    },
+    "gastronomy-ecommerce": {
+      "name": "美食电子商务",
+      "description": "展示里昂美食卓越的在线销售平台。"
+    },
+    "industrial-digitalization": {
+      "name": "工业数字化",
+      "description": "为罗纳阿尔卑斯工业提供控制工具和物联网解决方案。"
+    }
+  },
+  "stats": {
+    "biotech-projects": {
+      "label": "生物技术项目",
+      "description": "专业化应用程序"
+    },
+    "satisfaction": {
+      "label": "满意度",
+      "description": "客户满意"
+    },
+    "sme-supported": {
+      "label": "支持中小企业",
+      "description": "里昂企业"
+    }
+  }
+}

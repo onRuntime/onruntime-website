@@ -1,0 +1,52 @@
+---
+term: Arka uç
+shortDescription: >-
+  Bir uygulamanın iş mantığını, veritabanını ve sunucu tarafı veri işleme
+  işlemlerini yöneten kısmı
+relatedTerms:
+  - API
+  - Frontend
+  - Database
+tags:
+  - development
+  - architecture
+---
+## Tanım
+
+Backend, vitrin arkasındaki fabrika gibidir! onRuntime'da uygulamalarımızı çalıştıran görünmeyen tüm kısımdır. Örneğin Tonight Pass'ı kullanırken güzel ve sezgisel bir arayüzle etkileşimde bulunuyorsunuz, ama tüm sıkı çalışmayı bizim backend'imiz yapıyor: kimlik bilgilerinizi doğrulamak, etkinlik verilerini depolamak, önerileri hesaplamak vb.
+
+## Günlük olarak yaptıklarımız
+
+### Sunucular
+Backend mühendislerimiz zamanlarını sunucularımızı optimize etmekle geçiriyor. Tonight Pass' üzerindeki trafik artışıyla birlikte her şeyi optimize etmek için çok zaman harcamak zorunda kaldık! Uygulamalarımızı barındırmak için öncelikle AWS ve Google Cloud kullanıyoruz.
+
+### API'ler
+Bu bizim uzmanlığımız! Ön uçlarımızın tam olarak ihtiyaç duyduğu verileri almasını sağlayan sağlam API'ler oluşturuyoruz. Aslında REST API'lerini tercih ediyoruz, ancak bazı projelerde GraphQL ile daha fazla eğleniyoruz.
+
+### Veritabanları
+Her şeyi depoladığımız yer! Projeye bağlı olarak MongoDB (Tonight Pass için), PostgreSQL (karmaşık ilişkiler gerektiren projeler için) ve bazen önbellekleme için Redis arasında gidip geliyoruz. Veritabanını seçmek kritik ve her zaman önceden düşünüyoruz.
+
+### İş mantığı
+Yaptığımız işin kalbi. Müşteri ihtiyaçlarını çalışan koda dönüştürmek. Örneğin Tonight Pass'ın öneri algoritmaları için, kuralları iyileştirmek ve sorguları optimize etmek için haftalar harcadık.
+
+## Favori backend yığınlarımız
+
+### Diller
+- **Node.js/TypeScript**: En sevdiğimiz kombinasyon! Neredeyse tüm son projelerimizde bunu kullanıyoruz
+- **Python**: Veri analizi veya makine öğrenimi yapmamız gerektiğinde mükemmel
+- **Go**: Performans gerektiren belirli mikro hizmetler için benimsedik
+
+### Çerçeveler
+- **NestJS**: Büyük uygulamalar için en sevdiğimiz Node.js çerçevesi
+- **Express**: Daha basit API'ler veya prototipler için
+- **Django**: Hızlı bir şekilde sağlam bir yönetim paneli gerektiğinde
+
+## Neden bu kadar önemli
+
+Backend, bir evin temelleri gibidir. Eğer kötü yapılırsa, her şey çöker. onRuntime'da özellikle gurur duyduğumuz şeyler:
+
+- Tonight Pass'taki trafik artışlarını karşılayan mimarimiz (yılbaşı partisinin etkisiyle!)
+- Kusursuz güvenliğimiz (ahşaba vur)
+- Süper hızlı yanıt sürelerimiz
+
+Genelde müşteriler için en az görünür kısım, ama işlerin tıkır tıkır yürüdüğünde bize en fazla baş ağrısı veren... ve en fazla memnuniyet sağlayan kısım!

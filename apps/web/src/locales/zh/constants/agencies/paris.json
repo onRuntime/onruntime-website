@@ -1,0 +1,80 @@
+{
+  "title": "巴黎的网站代理 | 网站开发、移动应用及UI/UX设计",
+  "description": "你在巴黎心脏地带的数字合作伙伴。网站开发、移动应用和UI/UX设计解决方案，助力巴黎企业的快速成长。",
+  "hero": {
+    "title": "数字发展在首都",
+    "description": "通过针对竞争激烈的巴黎市场及其充满活力的初创企业、大公司与创新公司的生态系统的创新解决方案，改变你的数字存在感。"
+  },
+  "intro": "在法国首都的中心，我们的数字专业知识满足巴黎市场的需求，提供创新的网站和移动解决方案。在大公司、奢侈品牌和快速成长的初创企业之间，巴黎汇聚了一个充满活力的数字生态系统，我们完全理解其面临的挑战和机遇。",
+  "expertise": "我们设计出符合巴黎企业高标准的优质数字体验。我们的团队掌握着首都特有的挑战，无论是为奢侈 sector 创建精致的用户界面，还是为金融科技公司开发高性能应用，或为快速发展的初创企业提供可扩展的解决方案。",
+  "why-choose-us": "我们深入了解巴黎市场，使我们能够开发与首都企业需求完美契合的数字解决方案。我们结合技术创新、创意卓越和商业理解，有效支持你应对竞争激烈的环境。",
+  "key-business-sectors": {
+    "startups-tech": "科技初创企业",
+    "finance": "金融",
+    "luxury": "奢侈品",
+    "media-communication": "媒体与传播"
+  },
+  "local-challenges": {
+    "digital-competition": "巴黎市场竞争激烈，需要独特的解决方案",
+    "agile-tools-startups": "快速发展的初创企业需要灵活且高性能的工具",
+    "financial-digitalization": "传统金融服务的数字化面临金融科技公司的挑战",
+    "luxury-digital-experiences": "为巴黎奢侈品行业开发高端数字体验",
+    "corporate-transformation": "为 undergoing 数字转型的大公司提供创新解决方案"
+  },
+  "benefits": {
+    "startup-expertise": "适应巴黎初创企业生态系统的尖端技术专长",
+    "premium-solutions": "满足首都市场高标准的优质解决方案",
+    "luxury-finance-understanding": "理解奢侈品与金融代码，以提供量身定制的数字体验",
+    "agility-responsiveness": "灵活性和响应能力，适应巴黎企业的高强度节奏",
+    "tech-trends-knowledge": "深入了解法国科技趋势和创新"
+  },
+  "primary-stat": {
+    "label": "初创企业与科技"
+  },
+  "strengths": {
+    "startup-solutions": {
+      "title": "初创企业解决方案",
+      "description": "为快速成长的公司提供可扩展的应用。"
+    },
+    "luxury-experiences": {
+      "title": "奢侈体验",
+      "description": "针对高端品牌与服务的优质界面。"
+    },
+    "finance-fintech": {
+      "title": "金融与金融科技",
+      "description": "为巴黎金融 sector 提供的安全解决方案。"
+    },
+    "international": {
+      "title": "国际化",
+      "description": "针对全球公司的多语言开发。"
+    }
+  },
+  "focused-services": {
+    "saas-applications": {
+      "name": "SaaS 应用",
+      "description": "为初创企业和成长型企业开发创新的云解决方案。"
+    },
+    "premium-ecommerce": {
+      "name": "高端电商",
+      "description": "为巴黎奢侈品牌提供高端销售平台。"
+    },
+    "innovative-design": {
+      "name": "创新的UI/UX设计",
+      "description": "现代且差异化的用户界面，在巴黎脱颖而出。"
+    }
+  },
+  "stats": {
+    "startups": {
+      "label": "初创企业",
+      "description": "为初创企业提供的项目"
+    },
+    "luxury-clients": {
+      "label": "奢侈客户",
+      "description": "优质品牌"
+    },
+    "average-roi": {
+      "label": "平均投资回报率",
+      "description": "投资回报"
+    }
+  }
+}

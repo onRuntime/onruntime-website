@@ -1,0 +1,80 @@
+{
+  "name": "用户界面原型",
+  "description": "用户界面的详细设计",
+  "hero": {
+    "title": "用户界面设计",
+    "description": "为你的应用创建现代、优雅和直观的界面。我们的UI设计专业知识保证提供专业的原型，可以吸引你的用户。"
+  },
+  "features": {
+    "modern-design": {
+      "title": "现代设计",
+      "description": "优雅的界面遵循最新的趋势."
+    },
+    "design-system": {
+      "title": "设计系统",
+      "description": "一致且可重用的组件."
+    },
+    "responsive-design": {
+      "title": "响应式设计",
+      "description": "完美适应所有屏幕."
+    },
+    "animations-micro-interactions": {
+      "title": "动画和微交互",
+      "description": "流畅且吸引人的交互."
+    }
+  },
+  "benefits": {
+    "visual-identity": {
+      "title": "视觉识别",
+      "description": "与品牌一致的设计."
+    },
+    "user-experience": {
+      "title": "用户体验",
+      "description": "直观且愉快的使用界面."
+    },
+    "design-system": {
+      "title": "设计系统",
+      "description": "可重用组件的库."
+    },
+    "accessibility": {
+      "title": "可访问性",
+      "description": "所有用户都可以访问的界面."
+    }
+  },
+  "faq": {
+    "ui-design-process": {
+      "question": "用户界面设计过程是如何工作的?",
+      "answer": "这个过程从分析你的需求和品牌身份开始。然后我们创建关键屏幕的初始版本，建立设计系统，再对详细的原型进行迭代。每一步都包含你的反馈，以确保最终结果完全符合你的期望."
+    },
+    "tools-deliverables": {
+      "question": "提供哪些工具和交付物?",
+      "answer": "我们主要使用Figma进行UI设计。你将收到所有屏幕的详细原型、完整的设计系统及其组件、供开发人员使用的规格以及集成所需的资产."
+    },
+    "responsive-handling": {
+      "question": "你们如何处理响应式设计?",
+      "answer": "我们遵循移动优先的方法，为每个重要的断点（移动设备、平板、桌面）创建原型。每个界面都经过优化，以提供在其介质上最佳的用户体验."
+    },
+    "design-consistency": {
+      "question": "你们如何确保设计的一致性?",
+      "answer": "我们创建一个完整的设计系统，包括组件库、排版规则、色彩调色板和设计原则。这个系统确保整个界面的一致性."
+    },
+    "developer-handoff": {
+      "question": "你们如何协助开发人员的工作?",
+      "answer": "我们提供每个组件的详细规格，包括尺寸、样式、状态和交互。我们还使用像Zeplin或Figma导出这样的工具来促进集成."
+    }
+  },
+  "complementary": {
+    "design-system": {
+      "title": "设计系统",
+      "description": "创建组件库."
+    },
+    "prototyping": {
+      "title": "原型制作",
+      "description": "创建交互式原型."
+    },
+    "development": {
+      "title": "开发",
+      "description": "将你的原型集成到代码中."
+    }
+  }
+}

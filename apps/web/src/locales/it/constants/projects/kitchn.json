@@ -1,0 +1,82 @@
+{
+  "short-description": "Una libreria di componenti moderna, performante e altamente personalizzabile per React e React Native, ispirata a Geist UI e Vercel Design.",
+  "description": "Una suite completa di styled-components progettata per creare interfacce utente consistenti ed eleganti, mantenuta da Tonight Pass.",
+  "long-description": "Kitchn è una libreria di componenti UI completa che accelera lo sviluppo di moderne applicazioni web e mobile.\n\nIspirata a Geist UI e Vercel Design, si distingue per il suo approccio minimalista e facilità d'uso, offrendo una collezione di componenti ottimizzati realizzati con styled-components e TypeScript.\n\nOgni componente è progettato per essere modulare, performante e altamente personalizzabile, consentendo ai team di sviluppo di creare rapidamente interfacce utente consistenti mantenendo un'ottima esperienza per gli sviluppatori.",
+  "features": {
+    "modular-architecture": {
+      "title": "Architettura modulare",
+      "description": "Componenti indipendenti e riutilizzabili progettati per lavorare insieme in modo armonioso"
+    },
+    "flexible-themes": {
+      "title": "Temi flessibili",
+      "description": "Supporto completo per modalità chiara e scura con un sistema di temi estensibile"
+    },
+    "cross-platform": {
+      "title": "Multi-piattaforma",
+      "description": "Supporto nativo per React e React Native per un'esperienza coerente su tutte le piattaforme"
+    },
+    "interactive-docs": {
+      "title": "Documentazione interattiva",
+      "description": "Documentazione completa con esempi e sandbox per un rapido onboarding"
+    }
+  },
+  "technologies": {
+    "styled-components": {
+      "description": "Stili CSS-in-JS"
+    },
+    "react": {
+      "description": "Libreria UI per il web"
+    },
+    "react-native": {
+      "description": "Componenti mobili nativi"
+    },
+    "typescript": {
+      "description": "Sicurezza dei tipi e completamento automatico"
+    },
+    "storybook": {
+      "description": "Documentazione interattiva"
+    }
+  },
+  "metrics": {
+    "components": {
+      "value": "35+",
+      "label": "Componenti",
+      "description": "Componenti UI riutilizzabili"
+    },
+    "downloads": {
+      "value": "20k+",
+      "label": "Download",
+      "description": "Download mensili"
+    },
+    "github-stars": {
+      "value": "50+",
+      "label": "Stelle GitHub",
+      "description": "Stelle su GitHub"
+    }
+  },
+  "screenshots": {
+    "responsive": {
+      "caption": "Componenti reattivi"
+    },
+    "themable": {
+      "caption": "Temi personalizzabili"
+    }
+  },
+  "challenges": {
+    "visual-consistency": "Mantenere una perfetta coerenza visiva tra piattaforme web e mobile",
+    "bundle-optimization": "Ottimizzare le dimensioni del bundle preservando la ricchezza delle funzionalità",
+    "react-compatibility": "Garantire la compatibilità con diverse versioni di React",
+    "backward-compatibility": "Garantire la compatibilità retroattiva durante gli aggiornamenti"
+  },
+  "learnings": {
+    "clear-documentation": "Importanza cruciale di una documentazione chiara e dettagliata",
+    "modular-architecture": "Necessità di un'architettura modulare per la manutenibilità",
+    "automated-testing": "Valore dei test automatici per l'affidabilità",
+    "developer-experience": "Impatto dell'esperienza degli sviluppatori sull'adozione"
+  },
+  "future-plans": {
+    "component-library-expansion": "Arricchire la libreria di componenti",
+    "performance-optimization": "Ottimizzazioni delle prestazioni continue",
+    "framework-compatibility": "Estendere la compatibilità con framework moderni"
+  }
+}

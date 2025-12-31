@@ -1,0 +1,49 @@
+{
+  "name": "前端开发",
+  "description": "创建高性能的网页和移动应用",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "可扩展架构",
+      "description": "基于现代可扩展架构构建的应用，随时为你项目的发展做好准备。"
+    },
+    "optimal-performance": {
+      "title": "最佳性能",
+      "description": "专注于性能，采用先进的优化和缓存技术。"
+    },
+    "maintainable-code": {
+      "title": "可维护代码",
+      "description": "干净和模块化的架构，方便维护和快速迭代。"
+    },
+    "enhanced-security": {
+      "title": "增强安全性",
+      "description": "实施前端安全最佳实践，保护你的用户。"
+    }
+  },
+  "process": {
+    "technical-architecture": {
+      "title": "技术架构",
+      "description": "前端架构定义、技术选择和开发环境设置。"
+    },
+    "project-setup": {
+      "title": "项目设置",
+      "description": "项目配置，采用开发最佳实践、测试和持续部署。"
+    },
+    "feature-development": {
+      "title": "功能开发",
+      "description": "功能实现，着重于代码质量和性能。"
+    },
+    "state-management": {
+      "title": "状态管理",
+      "description": "为应用数据设置稳健且高效的状态管理。"
+    },
+    "testing-quality": {
+      "title": "测试与质量",
+      "description": "实施自动化测试和质量保证流程。"
+    },
+    "optimization-monitoring": {
+      "title": "优化与监控",
+      "description": "性能优化和监控工具的设置。"
+    }
+  },
+  "process-services": {}
+}

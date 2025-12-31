@@ -1,0 +1,80 @@
+{
+  "name": "Audyt UX/UI",
+  "description": "Analiza i optymalizacja twoich istniejących interfejsów",
+  "hero": {
+    "title": "Audyt i optymalizacja UX/UI",
+    "description": "Popraw doświadczenia użytkowników w swoich interfejsach dzięki profesjonalnemu audytowi. Nasza wiedza gwarantuje dogłębną analizę oraz konkretne rekomendacje do optymalizacji twoich interfejsów."
+  },
+  "features": {
+    "heuristic-analysis": {
+      "title": "Analiza heurystyczna",
+      "description": "Ekspercka ocena oparta na zasadach UX."
+    },
+    "user-testing": {
+      "title": "Testy użyteczności",
+      "description": "Obserwacja i analiza rzeczywistych zachowań."
+    },
+    "analytics": {
+      "title": "Analiza danych",
+      "description": "Analiza danych o użytkowaniu."
+    },
+    "accessibility": {
+      "title": "Dostępność",
+      "description": "Weryfikacja standardów dostępności."
+    }
+  },
+  "benefits": {
+    "conversion": {
+      "title": "Konwersja",
+      "description": "Identyfikacja barier konwersji."
+    },
+    "performance": {
+      "title": "Wydajność",
+      "description": "Analiza wskaźników wydajności."
+    },
+    "satisfaction": {
+      "title": "Satysfakcja",
+      "description": "Pomiar satysfakcji użytkowników."
+    },
+    "journeys": {
+      "title": "Ścieżki użytkowników",
+      "description": "Optymalizacja ścieżek użytkowników."
+    }
+  },
+  "faq": {
+    "complete-audit": {
+      "question": "Co obejmuje pełny audyt UX/UI?",
+      "answer": "Pełny audyt obejmuje: analizę heurystyczną opartą na zasadach UX, testy użytkowników, analizę danych analitycznych, ocenę dostępności, benchmarki konkurencji oraz szczegółowe rekomendacje. Dostarczamy kompleksowy raport z konkretnymi rozwiązaniami."
+    },
+    "audit-process": {
+      "question": "Jak przebiega proces audytu?",
+      "answer": "Proces zaczyna się od fazy odkrywania, aby zrozumieć twoje cele i wskaźniki KPIs. Następnie przeprowadzamy różne analizy (heurystyczne, danych, testy), syntezujemy wyniki i przygotowujemy szczegółowy raport z priorytetowymi rekomendacjami."
+    },
+    "deliverables": {
+      "question": "Jakie materiały zostaną dostarczone?",
+      "answer": "Otrzymujesz kompletny raport audytowy, który obejmuje: streszczenie wykonawcze, szczegółowe analizy, wizualizacje danych, zidentyfikowane problemy z poziomami powagi, priorytetowe rekomendacje oraz sugerowany plan działania."
+    },
+    "measuring-impact": {
+      "question": "Jak mierzysz wpływ rekomendacji?",
+      "answer": "Definiujemy konkretne wskaźniki KPIs dla każdej rekomendacji i uruchamiamy monitoring kluczowych metryk (wskaźnik konwersji, satysfakcja użytkowników, czas realizacji zadań itp.), aby zmierzyć wpływ popraw."
+    },
+    "post-audit-support": {
+      "question": "Czy oferujecie wsparcie po audycie?",
+      "answer": "Tak, oferujemy wsparcie w wdrażaniu rekomendacji, w tym: priorytetyzację działań, wsparcie w implementacji oraz pomiar wyników. Możemy również przeprowadzić audyty kontrolne."
+    }
+  },
+  "complementary": {
+    "user-testing": {
+      "title": "Testy użytkowników",
+      "description": "Dogłębne sesje testowe z twoimi użytkownikami."
+    },
+    "advanced-analytics": {
+      "title": "Zaawansowana analiza danych",
+      "description": "Ustalanie monitoringu i dogłębna analiza."
+    },
+    "ux-training": {
+      "title": "Szkolenie UX",
+      "description": "Szkolenie twoich zespołów w najlepszych praktykach."
+    }
+  }
+}

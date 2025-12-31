@@ -1,0 +1,57 @@
+---
+term: Ramverk
+shortDescription: >-
+  Programvarustruktur som underlättar utveckling genom att erbjuda
+  standardiserade och återanvändbara funktioner
+relatedTerms:
+  - Library
+  - API
+  - React
+  - Angular
+  - Vue.js
+  - Next.js
+tags:
+  - development
+  - architecture
+---
+## Definition
+
+Ett ramverk är som vår prefabricerade verktygslåda på onRuntime. Istället för att bygga allt från grunden för varje projekt (föreställ dig att bygga ett hus genom att göra dina egna spikar!), så använder vi dessa strukturer som ger oss en bra utgångspunkt och solida konventioner.
+
+## Den stora frågan: ramverk eller bibliotek?
+
+Vi får den här frågan mycket från kunder, så här är läget:
+
+- Ett **bibliotek** är som att låna ett specifikt verktyg för en specifik uppgift. Du behåller kontrollen och bestämmer när du ska använda det.
+- Ett **ramverk** är som att gå in i en fullt utrustad verkstad med sina egna regler. Det berättar för dig hur du ska arbeta.
+
+Det finns ett uttryck som sammanfattar det bra: "Du kallar på ett bibliotek, men ett ramverk kallar på dig."
+
+## Ramverk vi älskar att använda
+
+### Frontend-sidan
+- **React**: Tekniskt sett ett bibliotek, men ekosystemet runt det (React Router, Redux, osv.) gör det nästan till ett ramverk. Det är vårt #1-val för användargränssnitt.
+- **Next.js**: Vår favorit för komplexa webbplatser! Vi använde det för att bygga om vår egen onRuntime.com-sida.
+- **React Native**: För våra kunders mobilappar, det är vår go-to. Vi använde det för Tonight Pass med fantastiska resultat.
+
+### Backend-sidan
+- **NestJS**: Vi är helt frälsta! Det är strukturerat, modulärt, och sparar oss massor av tid på stora applikationer.
+- **Express**: Lättare än NestJS, vi använder det för enkla API:er eller MVP:er.
+- **Prisma**: Inte riktigt ett komplett backend-ramverk, men vår favorit ORM för att hantera databaser.
+
+### Full-stack
+- **Next.js** (igen!): Vi använder det mer och mer som en full-stack-lösning tack vare API-rutter.
+- **Redwood.js**: Vi har testat det på några projekt och det ser lovande ut! Lite som Ruby on Rails men för JS-ekosystemet.
+
+## Varför vi inte kodar allt från grunden
+
+- **Vi går muuuch snabbare**: Inga fler problem som redan lösts tusentals gånger av andra
+- **Renare kod**: Ramverkskonventioner tvingar oss att vara disciplinerade
+- **Säkerhet**: Populära ramverk granskas av tusentals utvecklare som spårar sårbarheter
+- **Enklare onboarding**: När vi integrerar en ny utvecklare i teamet, om de redan känner till ramverket, så är de operationella på nolltid
+
+## När vi väljer att använda (eller inte) ett ramverk
+
+På onRuntime älskar vi ramverk, men vi använder dem inte blint. För en ultra-specifik mikrotjänst föredrar vi ibland en lättare ansats med bara några bibliotek. För vår Kartrak-applikation, till exempel, valde vi en mer minimalistisk metod eftersom prestanda var kritisk.
+
+Men ärligt talat, för de flesta kundprojekt där tid-till-marknad spelar roll, så sparar ett bra ramverk så mycket tid att valet är uppenbart!

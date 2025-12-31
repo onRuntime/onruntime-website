@@ -1,0 +1,80 @@
+{
+  "name": "Microservices",
+  "description": "Microservices architectuur en ontwikkeling",
+  "hero": {
+    "title": "Microservices Architectuur",
+    "description": "Transformeer je monolithische applicaties naar moderne en schaalbare microservices architecturen. Onze expertise garandeert flexibele, veerkrachtige en hoogpresterende infrastructuur."
+  },
+  "features": {
+    "scalable-architecture": {
+      "title": "Schaalbare architectuur",
+      "description": "Modulair ontwerp voor optimale schaalbaarheid."
+    },
+    "continuous-deployment": {
+      "title": "Continue implementatie",
+      "description": "CI/CD pipeline voor soepele updates."
+    },
+    "optimal-performance": {
+      "title": "Optimale prestaties",
+      "description": "Onafhankelijke diensten voor betere responstijd."
+    },
+    "high-availability": {
+      "title": "Hoge beschikbaarheid",
+      "description": "Veerkrachtige architectuur met redundantie."
+    }
+  },
+  "benefits": {
+    "granular-scalability": {
+      "title": "Gelaagde schaalbaarheid",
+      "description": "Onafhankelijke schaalverhoging van elke dienst."
+    },
+    "flexible-deployment": {
+      "title": "Flexibele implementatie",
+      "description": "Updates zonder onderbreking van de dienst."
+    },
+    "fault-isolation": {
+      "title": "Foutisolatie",
+      "description": "Verhoogde veerkracht door service-isolatie."
+    },
+    "advanced-monitoring": {
+      "title": "Geavanceerde monitoring",
+      "description": "Gedetailleerde bewaking van elk component."
+    }
+  },
+  "faq": {
+    "when-microservices": {
+      "question": "Wanneer moet je een microservices architectuur aannemen?",
+      "answer": "Microservices architectuur is bijzonder geschikt voor complexe applicaties die hoge schaalbaarheid, onafhankelijke schaalverhoging van componenten en een snelle evolutie vereisen. We evalueren samen met jou of deze architectuur aansluit bij jouw specifieke behoeften."
+    },
+    "service-communication": {
+      "question": "Hoe ga je om met communicatie tussen diensten?",
+      "answer": "We implemeren robuuste communicatiepatronen: API Gateway, message brokers (Kafka, RabbitMQ), synchrone (REST, gRPC) en asynchrone communicatie. Elke methode wordt gekozen op basis van specifieke prestatie- en betroubaarheidseisen."
+    },
+    "data-consistency": {
+      "question": "Hoe zorg je voor dataconsistentie?",
+      "answer": "We gebruiken verschillende strategieën: Saga-patroon voor gedistribueerde transacties, Event Sourcing voor traceerbaarheid, en CQRS voor scheiding van lees- en schrijfoperaties. Eventuele consistentie wordt adequaat beheerd."
+    },
+    "infrastructure-monitoring": {
+      "question": "Hoe monitor je de infrastructuur?",
+      "answer": "We zetten uitgebreide monitoring op: prestatiemetingen, gedistribueerde tracing, gecentraliseerde logs en intelligente meldingen. Aangepaste dashboards maken het mogelijk om de gezondheid van elke dienst te visualiseren."
+    },
+    "team-training": {
+      "question": "Bied je teamtrainingen aan?",
+      "answer": "Ja, we bieden uitgebreide training voor jouw teams: principes van microservices, ontwikkelingspraktijken, monitoring en foutopsporing, en gebruik van DevOps-tools."
+    }
+  },
+  "complementary": {
+    "devops-cicd": {
+      "title": "DevOps & CI/CD",
+      "description": "Volledige automatisering van implementaties."
+    },
+    "monitoring-24-7": {
+      "title": "24/7 Monitoring",
+      "description": "Continue bewaking en real-time meldingen."
+    },
+    "optimization": {
+      "title": "Optimalisatie",
+      "description": "Continue prestatieverbetering."
+    }
+  }
+}

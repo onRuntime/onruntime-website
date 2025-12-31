@@ -1,0 +1,113 @@
+{
+  "hero": {
+    "title": "onRuntime Studio协会",
+    "description": "一个致力于网页开发、移动开发和设计的法国非营利组织，专注于创新和创造力。"
+  },
+  "cta": {
+    "become-member": "成为会员",
+    "our-projects": "我们的项目"
+  },
+  "history": {
+    "title": "我们的故事",
+    "description": "onRuntime Studio成立于2020年，源于开发者和设计师之间自2015年起的共同热情。我们旨在创造一个协作的空间，推动创新并分享知识，志向是在不久的将来成为一家公司。",
+    "timeline": {
+      "2015": {
+        "title": "首次合作",
+        "description": "Jérémy、Antoine和Lucas之间的合作开始，主要集中在视频游戏平台上。"
+      },
+      "2020": {
+        "title": "组织成立",
+        "description": "在Bryan Recher的建议下，正式成立onRuntime Studio，成为一家法国非营利组织。"
+      },
+      "2021": {
+        "title": "在鲁昂会面",
+        "description": "创始人在鲁昂会面，以加速项目进展，尤其是他们的旗舰项目：Tonight Pass。"
+      },
+      "2022": {
+        "title": "首次招募",
+        "description": "组织招募了第一批员工，以支持项目的发展。"
+      },
+      "2023-2025": {
+        "title": "继续扩张",
+        "description": "专注于开发Tonight Pass，并为未来转型为公司做好准备。"
+      }
+    }
+  },
+  "founders": {
+    "title": "创始人",
+    "description": "我们的组织由三位热爱创新的爱好者创办，他们多年来一直共同努力，致力于实现创新项目。",
+    "website": "网站",
+    "linkedin": "LinkedIn"
+  },
+  "values": {
+    "title": "我们的价值观",
+    "description": "这些基本原则指导着我们的做法和愿景，影响着我们每一个行动和决策。",
+    "items": {
+      "innovation": {
+        "title": "创新",
+        "description": "我们不断推动创造力和技术的边界，提供创新的解决方案。"
+      },
+      "community": {
+        "title": "社区",
+        "description": "我们相信集体的力量，营造一个每个人都能茁壮成长的协作环境。"
+      },
+      "passion": {
+        "title": "热情",
+        "description": "每一个项目都怀着热情和奉献的心态来处理，因为我们深深热爱自己的工作。"
+      },
+      "learning": {
+        "title": "学习",
+        "description": "我们重视持续学习和知识共享，以便共同进步。"
+      }
+    }
+  },
+  "expertise": {
+    "title": "我们的技术专长",
+    "description": "我们在协会项目中掌握和使用的技术。"
+  },
+  "membership": {
+    "title": "成为会员",
+    "description": "加入我们的爱好者社区，参与创新项目的发展。",
+    "annual": {
+      "title": "年度会员",
+      "price": "30€",
+      "period": "/年",
+      "description": "成为组织志愿者会员的年度费用。",
+      "benefits": {
+        "hours": "每周承诺3至6小时",
+        "projects": "参与协会项目",
+        "discord": "专用Discord角色和私人频道的访问权限",
+        "mentoring": "由我们经验丰富的成员进行个性化辅导",
+        "resources": "访问我们所有的资源和培训",
+        "autonomy": "自主参与组织的项目"
+      },
+      "cta": "申请我的会员资格"
+    }
+  },
+  "initiatives": {
+    "title": "我们的项目和倡议",
+    "description": "了解我们正在开发的倡议和即将推出的项目。",
+    "mentoring": {
+      "title": "技术辅导计划",
+      "description": "我们的辅导计划允许初学者会员在经验丰富的开发者和设计师的指导下提升自己的技能。",
+      "status": "目前活跃"
+    },
+    "workshops": {
+      "title": "协作技术工作坊",
+      "description": "关于特定技术的团体工作和学习会议，在线和线下组织。",
+      "status": "开发阶段"
+    },
+    "hackathons": {
+      "title": "社区黑客松",
+      "description": "组织48小时的活动，让团队共同开发针对特定问题的创新解决方案。",
+      "status": "未来项目"
+    },
+    "contribute": "你想为这些倡议的发展做出贡献吗？",
+    "contact": "联系我们"
+  },
+  "discord": {
+    "title": "加入我们的Discord社区",
+    "description": "与其他成员连接，参与技术讨论，并随时了解组织的最新消息。",
+    "cta": "加入Discord"
+  }
+}

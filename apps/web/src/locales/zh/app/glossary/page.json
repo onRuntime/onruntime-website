@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "网页开发和设计术语表",
+    "description": "浏览我们全面的网页开发、UI/UX设计和数字项目管理的技术术语表."
+  },
+  "hero": {
+    "title": "术语表",
+    "description": "探索我们全面的网页开发、UI/UX设计和数字项目管理的技术术语表."
+  },
+  "view-all": "查看全部",
+  "empty": {
+    "title": "术语表还没有添加任何术语.",
+    "subtitle": "请稍后查看我们完整的术语表."
+  },
+  "letter": {
+    "metadata": {
+      "title": "以 {letter} 开头的术语 | 术语表",
+      "description": "发现所有以字母 {letter} 开头的术语.",
+      "invalid": {
+        "title": "无效字母 | 术语表",
+        "description": "这个字母无效."
+      }
+    },
+    "count": "以字母 {letter} 开头的 {count} 个术语."
+  },
+  "term": {
+    "metadata": {
+      "not-found": {
+        "title": "术语未找到 | 术语表",
+        "description": "在我们的术语表中不存在这个术语."
+      }
+    }
+  },
+  "tags": {
+    "metadata": {
+      "title": "术语表标签",
+      "description": "探索我们技术术语表中不同类别的术语."
+    },
+    "title": "术语表类别",
+    "description": "探索我们技术术语表中提供的 {count} 类别的术语.",
+    "empty": "目前没有可用的类别."
+  },
+  "tag": {
+    "metadata": {
+      "title": "与 {tag} 相关的术语 | 术语表",
+      "description": "发现所有与 {tag} 类别相关的术语."
+    },
+    "count": "与此类别相关的 {count} 个术语."
+  }
+}

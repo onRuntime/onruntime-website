@@ -1,0 +1,13 @@
+{
+  "last-updated": "Son güncelleme:",
+  "question": {
+    "title": "Şartlarımız hakkında bir sorunuz mu var?",
+    "description": "Ekibimiz tüm sorularınızı yanıtlamak için burada.",
+    "cta": "Bizimle iletişime geçin"
+  },
+  "nav": {
+    "company": "Şirket detayları",
+    "privacy": "Gizlilik politikası",
+    "terms": "Şartlar ve koşullar"
+  }
+}

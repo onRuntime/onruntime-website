@@ -1,0 +1,79 @@
+{
+  "title": "Webbyrå i Lyon | Anpassade digitala lösningar",
+  "description": "Webbutveckling, mobil- och UI/UX-design i Lyon. Vår digitala expertis skräddarsydd för företag i Rhône-Alpes för att öka din online-närvaro.",
+  "hero": {
+    "title": "Webb- och mobilutveckling i Lyon",
+    "description": "Transformera din verksamhet i Lyon med innovativa digitala lösningar perfekt anpassade till den ekonomiska dynamiken i Auvergne-Rhône-Alpes-regionen."
+  },
+  "intro": "I hjärtat av Lyons dynamik stöder vår digitala expertis företag i regionen genom deras digitala transformation. Mellan industriell tradition, biomedicinsk excellens och gastronomisk påverkan presenterar Lyon ett rikt och diversifierat ekonomiskt nätverk vars utmaningar vi förstår helt.",
+  "expertise": "Vi skapar webb-, mobil- och e-handelslösningar anpassade till specifikationerna för marknaden i Lyon och Rhône-Alpes. Vårt team behärskar de digitala utmaningarna specifika för regionens sektorer av excellens, från bioteknik till gastronomi, inklusive tillverkning.",
+  "why-choose-us": "Vår kunskap om Lyon-marknaden gör att vi kan utveckla digitala lösningar som är perfekt anpassade till kraven och särdragen hos lokala företag. Vi förstår regionens standarder för excellens och erbjuder digitalt stöd som stärker Lyons identitet och kompetens.",
+  "key-business-sectors": {
+    "biotech": "Bioteknik",
+    "pharma": "Läkemedelsindustrin",
+    "gastronomy": "Gastronomi",
+    "finance": "Finans"
+  },
+  "local-challenges": {
+    "industry-digitalization": "Digitalisering av industriella småföretag och medelstora företag som står inför utmaningar kopplade till industri 4.0",
+    "gastronomy-visibility": "Utveckling av digital synlighet för aktörer inom Lyon-gastronomi",
+    "local-ecommerce": "E-handelslösningar anpassade för lokal handel och regionala hantverkare",
+    "biotech-applications": "Affärsapplikationer för de växande läkemedels- och biotekniksektorerna"
+  },
+  "benefits": {
+    "sector-expertise": "Sektorexpertis inom Lyons excellensområden (bioteknik, läkemedel, gastronomi)",
+    "industrial-understanding": "Förståelse för digitaliseringsutmaningar i Rhône-Alpes industriella bas",
+    "sme-solutions": "Lösningar anpassade för små och medelstora företag i digital transformation",
+    "lyon-ui-design": "UI/UX-design som återspeglar Lyons visuella identitet och kvalitetsstandarder",
+    "local-ecosystem-knowledge": "Djupgående kunskap om det lokala digitala ekosystemet"
+  },
+  "primary-stat": {
+    "label": "innovationssektor"
+  },
+  "strengths": {
+    "biotech-pharma": {
+      "title": "Bioteknik & Läkemedel Lösningar",
+      "description": "Specialiserade applikationer för Lyons hälsokluster."
+    },
+    "gastronomy-ecommerce": {
+      "title": "Gastronomi E-handel",
+      "description": "Digital förbättring av lokala produkter i Rhône-Alpes."
+    },
+    "industrial-applications": {
+      "title": "Industriella Applikationer",
+      "description": "Digitala verktyg för industri 4.0 och produktion."
+    },
+    "business-interfaces": {
+      "title": "Affärsgränssnitt",
+      "description": "UI/UX-design anpassad till Lyons specifika behov."
+    }
+  },
+  "focused-services": {
+    "biotech-applications": {
+      "name": "Biotech Affärsapplikationer",
+      "description": "Digitala lösningar för laboratorier och läkemedelsföretag i Lyon."
+    },
+    "gastronomy-ecommerce": {
+      "name": "Gastronomi E-handel",
+      "description": "Online försäljningsplattformar för att visa Lyons kulinariska excellens."
+    },
+    "industrial-digitalization": {
+      "name": "Industriell Digitalisering",
+      "description": "Kontrollverktyg och IoT-lösningar för Rhône-Alpes industri."
+    }
+  },
+  "stats": {
+    "biotech-projects": {
+      "label": "Bioteknikprojekt",
+      "description": "Specialiserade applikationer"
+    },
+    "satisfaction": {
+      "label": "Nöjdhet",
+      "description": "Nöjda kunder"
+    },
+    "sme-supported": {
+      "label": "Stödda SME:s",
+      "description": "Företag i Lyon"
+    }
+  }
+}

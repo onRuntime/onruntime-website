@@ -1,0 +1,80 @@
+{
+  "name": "프레스타샵",
+  "description": "프레스타샵 스토어 개발",
+  "hero": {
+    "title": "프레스타샵을 활용한 이커머스 개발",
+    "description": "프레스타샵을 통해 전문적인 온라인 스토어를 시작해보세요. 우리의 전문성이 당신의 필요에 맞춘 강력하고 확장 가능한 이커머스 솔루션을 보장합니다."
+  },
+  "features": {
+    "custom-design": {
+      "title": "맞춤 디자인",
+      "description": "브랜드를 반영하고 전환율을 최적화하는 맞춤 테마를 제작합니다."
+    },
+    "advanced-management": {
+      "title": "고급 관리",
+      "description": "제품, 주문, 고객을 관리할 수 있는 강력한 관리자 인터페이스입니다."
+    },
+    "optimized-performance": {
+      "title": "최적화된 성능",
+      "description": "빠른 로딩 시간과 부드러운 사용자 경험을 위한 고급 최적화입니다."
+    },
+    "enhanced-security": {
+      "title": "강화된 보안",
+      "description": "스토어와 고객 데이터에 대한 고급 보호입니다."
+    }
+  },
+  "benefits": {
+    "complete-management": {
+      "title": "완전 관리",
+      "description": "제품, 재고, 주문 및 고객 관계에 대한 완벽한 제어입니다."
+    },
+    "multi-store": {
+      "title": "멀티 스토어",
+      "description": "단일 관리자 인터페이스에서 여러 스토어를 관리할 수 있습니다."
+    },
+    "integrated-logistics": {
+      "title": "통합 물류",
+      "description": "고급 운송 및 배송 비용 관리입니다."
+    },
+    "detailed-analytics": {
+      "title": "상세 분석",
+      "description": "성과를 추적하고 최적화하기 위한 완전한 통계입니다."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "프레스타샵 스토어를 만드는 데 얼마나 걸리나요?",
+      "answer": "프레스타샵 스토어를 만드는 데 걸리는 평균 시간은 프로젝트의 복잡성에 따라 6주에서 12주까지 다양합니다. 여기에는 테마 맞춤화, 맞춤 기능 개발, 제품 통합 및 테스트가 포함됩니다."
+    },
+    "migration": {
+      "question": "기존 스토어를 프레스타샵으로 이전할 수 있나요?",
+      "answer": "네, 우리는 제품, 고객, 주문 및 역사 이전을 포함한 프레스타샵으로의 완전한 마이그레이션 서비스를 제공합니다. SEO도 유지됩니다."
+    },
+    "large-catalogs": {
+      "question": "프레스타샵은 대규모 제품 카탈로그에 적합한가요?",
+      "answer": "절대적으로요! 프레스타샵은 수천 개의 변형이 있는 제품 카탈로그를 효율적으로 관리하도록 설계되어 있으며, 뛰어난 성능을 유지합니다."
+    },
+    "custom-development": {
+      "question": "맞춤 개발을 제공하나요?",
+      "answer": "네, 우리는 프레스타샵을 특정 필요에 맞게 조정하기 위해 맞춤 모듈 및 기능을 개발합니다: ERP 통합, 맞춤 비즈니스 프로세스 등."
+    },
+    "maintenance-updates": {
+      "question": "유지 관리 및 업데이트는 어떻게 처리하나요?",
+      "answer": "우리는 보안 업데이트, 백업, 성능 최적화 및 기술 지원을 포함한 다양한 유지 관리 계획을 제공합니다."
+    }
+  },
+  "complementary": {
+    "custom-modules": {
+      "title": "맞춤 모듈",
+      "description": "귀사의 비즈니스를 위한 특정 기능 개발입니다."
+    },
+    "digital-marketing": {
+      "title": "디지털 마케팅",
+      "description": "가시성과 판매를 증가시키기 위한 마케팅 전략입니다."
+    },
+    "prestashop-training": {
+      "title": "프레스타샵 교육",
+      "description": "스토어 운영을 마스터하기 위한 맞춤형 교육입니다."
+    }
+  }
+}

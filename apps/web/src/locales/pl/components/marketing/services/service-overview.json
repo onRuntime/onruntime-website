@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "cta": "Omów swój projekt"
+  },
+  "expertise": {
+    "title": "Głębokie doświadczenie w {service}",
+    "description": "Łączymy kreatywność z wiedzą techniczną, aby dostarczyć rozwiązania {service}, które idealnie odpowiadają Twoim oczekiwaniom. Nasze metodyczne podejście i doświadczenie pozwalają nam tworzyć zrównoważone i skalowalne rozwiązania."
+  },
+  "services": {
+    "badge": "Nasze usługi",
+    "title": "Dostosowane rozwiązania {service}",
+    "description": "Odkryj pełną gamę usług {service}, zaprojektowanych, aby spełnić wszystkie Twoje potrzeby i wspierać Cię w realizacji projektów.",
+    "learnMore": "Dowiedz się więcej"
+  },
+  "benefits": {
+    "badge": "Korzyści",
+    "title": "Dlaczego warto wybrać nasze usługi {service}?"
+  },
+  "process": {
+    "badge": "Nasz proces",
+    "title": "Jak pracujemy",
+    "description": "Zintegrowane podejście, które łączy nasze różne obszary wiedzy dla optymalnych rezultatów."
+  },
+  "cta": {
+    "title": "Gotowy, aby ożywić swój projekt?",
+    "description": "Skontaktuj się z nami, aby omówić swoje potrzeby i uzyskać spersonalizowaną ofertę.",
+    "button": "Zacznij teraz"
+  }
+}

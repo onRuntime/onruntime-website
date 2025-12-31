@@ -1,0 +1,20 @@
+{
+  "retry": "Tekrar dene",
+  "no-results": "Aramanıza uygun iş ilanı yok.",
+  "count": "iş ilanı mevcut",
+  "published": "Yayınlanma tarihi",
+  "view-offer": "Teklifin detaylarına bak",
+  "employment-type": {
+    "full-time": "Tam zamanlı",
+    "part-time": "Yarı zamanlı",
+    "contract": "Sözleşmeli",
+    "temporary": "Geçici",
+    "internship": "Staj",
+    "apprenticeship": "Çıraklık"
+  },
+  "workplace-type": {
+    "hybrid": "Hibrit",
+    "remote": "Uzaktan",
+    "on-site": "Yerinde"
+  }
+}

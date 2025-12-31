@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "Digitala tjänsterbyrå: webb, mobil och UI/UX-design",
+    "description": "Komplett webbberäkning, mobil, UI/UX-design och CMS-integreringstjänster. Vår byrå skapar skräddarsydda lösningar anpassade efter dina mål."
+  },
+  "hero": {
+    "title": "Skräddarsydda lösningar för dina digitala projekt",
+    "description": "Från conception till leverans, vi stöttar dig i varje steg av ditt projekt med expertis och passion.",
+    "cta": "Starta ett projekt"
+  },
+  "technologies": {
+    "title": "Vår teknikstack",
+    "description": "Vi behärskar ett brett utbud av moderna teknologier för att möta alla dina behov."
+  },
+  "process": {
+    "title": "Vår arbetsprocess",
+    "description": "En beprövad och flexibel metodik för att leda ditt projekt till framgång."
+  }
+}

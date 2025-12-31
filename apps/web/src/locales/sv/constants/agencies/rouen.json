@@ -1,0 +1,79 @@
+{
+  "title": "Webbutveckling i Rouen | Digitala lösningar för företag i Normandie",
+  "description": "Skapa din webbplats eller mobilapplikation i Rouen. Anpassade digitala lösningar för företag i Normandie, skräddarsydda för de lokala utmaningarna i din bransch.",
+  "hero": {
+    "title": "Webb- och mobilutveckling i Rouen",
+    "description": "Vi hjälper företag i Rouen och Normandie att digitalisera med skräddarsydda webb-lösningar, perfekt anpassade efter de specifika utmaningarna på den normandiska marknaden."
+  },
+  "intro": "Den ekonomiska väven i Normandie har specifika digitala utmaningar som vi har lärt oss att bemästra. Mellan tillverkningsindustri, livsmedelssektorn och flodlogistik skapar vi digitala lösningar som möter de exakta behoven hos företag i Rouen.",
+  "expertise": "Vårt team designar webbplatser, applikationer och e-handelslösningar perfekt anpassade för företag i Rouen och dess region. Vi förstår utmaningarna på din marknad och erbjuder digitala lösningar som hjälper dig att sticka ut och växa ditt företag.",
+  "why-choose-us": "Vår djupa kunskap om den normandiska marknaden gör att vi kan utveckla digitala lösningar perfekt anpassade till de specifika utmaningarna för lokala företag. Till skillnad från parisiska byråer förstår vi subtiliteterna i Rouens ekonomiska väv och erbjuder skräddarsydda lösningar till ett fördelaktigt pris.",
+  "key-business-sectors": {
+    "industry": "Industri",
+    "agrifood": "Livsmedel",
+    "logistics": "Logistik",
+    "local-commerce": "Lokal handel"
+  },
+  "local-challenges": {
+    "traditional-industries-digitalization": "Digitalisering av traditionella industrier i Normandie som står inför internationell konkurrens",
+    "logistics-optimization": "Optimering av flod- och hamnlogistik genom innovativa digitala lösningar",
+    "local-ecommerce-needs": "Behov av e-handelslösningar anpassade för lokala producenter och hantverkare",
+    "sme-digital-transition": "Digital övergång för normandiska små och medelstora företag med kontrollerade budgetar"
+  },
+  "benefits": {
+    "normandy-specific-solutions": "Skräddarsydda lösningar anpassade till specifika behov hos normandiska företag",
+    "industrial-agrifood-expertise": "Skarp expertis inom regionala industri- och livsmedelssektorer",
+    "competitive-pricing": "Konkurrenskraftiga priser jämfört med parisiska byråer",
+    "seine-logistics-knowledge": "Djup kunskap om logistikutmaningar relaterade till Seine-axeln",
+    "personalized-support": "Personligt stöd genom hela ditt digitala projekt"
+  },
+  "primary-stat": {
+    "label": "industriell sektor"
+  },
+  "strengths": {
+    "industrial-websites": {
+      "title": "Industriella webbplatser",
+      "description": "Högpresterande sidor anpassade för normandiska tillverkningsföretag."
+    },
+    "local-ecommerce": {
+      "title": "Lokal e-handel",
+      "description": "Onlineförsäljningslösningar för lokala producenter och hantverkare."
+    },
+    "business-applications": {
+      "title": "Affärsapplikationer",
+      "description": "Skräddarsydda digitala verktyg för att optimera dina processer."
+    },
+    "sme-digitalization": {
+      "title": "Digitalisering av små och medelstora företag",
+      "description": "Omfattande stöd för din digitala transformation."
+    }
+  },
+  "focused-services": {
+    "professional-websites": {
+      "name": "Professionella webbplatser",
+      "description": "Högpresterande digitala skyltfönster optimerade för lokal SEO i Rouen."
+    },
+    "regional-ecommerce": {
+      "name": "Regional e-handel",
+      "description": "Nätbutiker anpassade för normandiska producenter och handlare."
+    },
+    "business-applications": {
+      "name": "Affärsapplikationer",
+      "description": "Skräddarsydd mjukvara för regional industri och logistik."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertis",
+      "description": "År av erfarenhet"
+    },
+    "satisfaction": {
+      "label": "Nöjdhet",
+      "description": "Nöjda kunder"
+    },
+    "average-time": {
+      "label": "Genomsnittlig tid",
+      "description": "Veckor till slutförande"
+    }
+  }
+}

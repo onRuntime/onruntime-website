@@ -1,0 +1,49 @@
+{
+  "name": "UI/UX Design",
+  "description": "Skapa moderna gränssnitt och optimala användarupplevelser",
+  "benefits": {
+    "user-centered-design": {
+      "title": "Användarcentrerad UI/UX-design",
+      "description": "En metod som sätter användarens behov i centrum av våra designer, validerade av interaktiva prototyper."
+    },
+    "creative-innovation": {
+      "title": "Kreativ innovation",
+      "description": "Kreativa UI/UX-lösningar och innovativa prototyper som särskiljer ditt varumärke samtidigt som man respekterar standarder."
+    },
+    "iterative-prototyping": {
+      "title": "Iterativ prototypframställning",
+      "description": "En metodik baserad på snabba prototyper och frekventa iterationer för att förfina användarupplevelsen."
+    },
+    "business-objectives": {
+      "title": "Affärsmål",
+      "description": "UI/UX-design anpassad till dina affärsmål, validerad genom användartester på prototyper."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Behovsanaly",
+      "description": "Kritisk första steg där vi analyserar dina behov, ditt varumärke och affärsmål för att definiera UI/UX-riktningen."
+    },
+    "research-moodboard": {
+      "title": "Forskning och moodboard",
+      "description": "Skapa moodboards och utforska möjliga kreativa riktningar. Definiera den övergripande konstnärliga riktningen."
+    },
+    "wireframes": {
+      "title": "Wireframes",
+      "description": "Designa wireframes för att validera struktur, hierarki och informationsarkitektur."
+    },
+    "interface-design": {
+      "title": "Gränssnittsdesign",
+      "description": "Skapa slutgiltiga mockups samtidigt som man följer dina varumärkesriktlinjer. Särskild uppmärksamhet på komponenter och deras återanvändbarhet."
+    },
+    "prototyping": {
+      "title": "Prototyper",
+      "description": "Skapa prototyper för att testa interaktioner och validera användarresor."
+    },
+    "development": {
+      "title": "Utveckling",
+      "description": "Omvandla mockups till funktionella gränssnitt, med särskild uppmärksamhet på definierade animationer."
+    }
+  },
+  "process-services": {}
+}

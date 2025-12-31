@@ -1,0 +1,57 @@
+---
+term: Çerçeve
+shortDescription: >-
+  Geliştirmeyi kolaylaştıran, standart ve yeniden kullanılabilir özellikler
+  sunan yazılım yapısı
+relatedTerms:
+  - Library
+  - API
+  - React
+  - Angular
+  - Vue.js
+  - Next.js
+tags:
+  - development
+  - architecture
+---
+## Tanım
+
+Bir framework, onRuntime'daki prefabrik araç kutumuz gibidir. Her projede her şeyi sıfırdan inşa etmek yerine (hayali bir ev inşa ettiğinizi düşünün ve kendi çivilerinizi yaparak başlayın!), iyi bir başlangıç noktası ve sağlam kurallar veren bu yapıları kullanıyoruz.
+
+## Büyük soru: framework mü yoksa kütüphane mi?
+
+Bu soruyu müşterilerimizden sıkça alıyoruz, işte durum şu:
+
+- Bir **kütüphane**, belirli bir görev için belirli bir aracı ödünç almak gibidir. Kontrol sizdedir ve ne zaman kullanacağınıza siz karar verirsiniz.
+- Bir **framework**, kendi kuralları olan tamamen donanımlı bir atölyeye girmek gibidir. Size nasıl çalışacağınızı söyler.
+
+Bunu güzel özetleyen bir söz var: "Bir kütüphaneyi sen ararsın ama bir framework seni arar."
+
+## Kullanmayı sevdiğimiz frameworkler
+
+### Frontend tarafı
+- **React**: Teknik olarak bir kütüphane, ama etrafındaki ekosistem (React Router, Redux vb.) onu neredeyse bir framework yapıyor. Kullanıcı arayüzleri için birinci terciğimiz.
+- **Next.js**: Karmaşık web siteleri için favorimiz! Kendi onRuntime.com sitemizi yeniden inşa etmek için kullandık.
+- **React Native**: Müşterilerimizin mobil uygulamaları için başvuracağımız kaynak. Tonight Pass için harika sonuçlar aldık.
+
+### Backend tarafı
+- **NestJS**: Tamamen hayranıyız! Yapılandırılmış, modüler ve büyük uygulamalarda bize çokça zaman kazandırıyor.
+- **Express**: NestJS'den daha hafif, basit API'ler veya MVP'ler için kullanıyoruz.
+- **Prisma**: Tam anlamıyla bir backend framework değil ama veritabanı yönetimi için en sevdiğimiz ORM.
+
+### Full-stack
+- **Next.js** (bir kez daha!): API rotaları sayesinde onu giderek daha fazla full-stack çözümü olarak kullanıyoruz.
+- **Redwood.js**: Birkaç projede denedik ve umut verici! Ruby on Rails'a benziyor ama JS ekosistemi için.
+
+## Neden her şeyi sıfırdan kodlamıyoruz
+
+- **Çok daha hızlı gidiyoruz**: Artık başkaları tarafından binlerce kez çözülmüş sorunlarla uğraşmıyoruz
+- **Daha temiz kod**: Framework kuralları bizi disiplinli olmaya zorluyor
+- **Güvenlik**: Popüler frameworkler, güvenlik açıklarını takip eden binlerce geliştirici tarafından inceleniyor
+- **Daha kolay uyum sağlama**: Yeni bir geliştiriciyi ekibe entegre ettiğimizde, eğer frameworkü zaten biliyorsa, hemen işe yarar hale geliyor
+
+## Ne zaman bir framework kullanmayı (ya da kullanmamayı) tercih ediyoruz
+
+onRuntime'ta frameworkleri seviyoruz ama körü körüne kullanmıyoruz. Ultra özel bir mikro hizmet için bazen daha hafif bir yaklaşımı, sadece birkaç kütüphane ile tercih ediyoruz. Örneğin, Kartrak uygulamamız için performansın kritik olduğu bir minimalist yaklaşımı tercih ettik.
+
+Ama dürüst olmak gerekirse, zamanın önemli olduğu çoğu müşteri projesinde, iyi bir framework o kadar çok zaman kazandırıyor ki seçim açık!

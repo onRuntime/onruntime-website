@@ -1,0 +1,79 @@
+{
+  "title": "Webontwikkeling in Toulouse | Digitale oplossingen voor bedrijven in Occitanië",
+  "description": "Creëer je website of mobiele applicatie in Toulouse. Op maat gemaakte digitale oplossingen voor bedrijven in Toulouse, afgestemd op de lokale uitdagingen van jouw sector.",
+  "hero": {
+    "title": "Web & Mobiele Ontwikkeling in Toulouse",
+    "description": "Wij helpen bedrijven in Toulouse en Occitanie te digitaliseren met op maat gemaakte weboplossingen, perfect aangepast aan de specifieke uitdagingen van de Toulouse-markt."
+  },
+  "intro": "Als Europese hoofdstad van de luchtvaart en dynamische studentenstad, biedt Toulouse een uniek economisch ecosysteem waar innovatie en traditie samenkomen. Onze digitale expertise stelt bedrijven in Toulouse in staat om zich te onderscheiden in een competitieve en voortdurend veranderende technologische omgeving.",
+  "expertise": "Ons team ontwerpt websites, applicaties en digitale oplossingen die perfect zijn afgestemd op bedrijven in Toulouse, of het nu gaat om luchtvaartgiganten, innovatieve startups of traditionele winkels. We begrijpen de specifieke uitdagingen van jouw lokale markt en bieden geavanceerde technologische oplossingen.",
+  "why-choose-us": "Onze diepgaande kennis van de Toulouse-markt stelt ons in staat om digitale oplossingen te ontwikkelen die perfect zijn afgestemd op de specifieke uitdagingen van lokale bedrijven. We begrijpen de technologische uitdagingen van de Roze Stad en integreren deze expertise in elk project om hoogperformante en toekomstgerichte digitale ervaringen te creëren.",
+  "key-business-sectors": {
+    "aeronautics": "Luchtvaart",
+    "space": "Ruimte",
+    "tech": "Technologie",
+    "education": "Onderwijs"
+  },
+  "local-challenges": {
+    "aerospace-transformation": "Digitale transformatie van bedrijven in het luchtvaart ecosysteem",
+    "startup-platforms": "Behoefte aan innovatieve platformen voor Toulouse French Tech startups",
+    "elearning-development": "Ontwikkeling van e-learning oplossingen voor talrijke onderwijsinstellingen",
+    "local-commerce-adaptation": "Aanpassing van lokale winkels die worden geconfronteerd met concurrentie van nationale ketens"
+  },
+  "benefits": {
+    "high-tech-solutions": "Op maat gemaakte oplossingen voor hightech industrieën",
+    "complex-interfaces-expertise": "Sterke expertise in het ontwikkelen van complexe interfaces",
+    "startup-ecosystem-knowledge": "Diepgaande kennis van het startup-ecosysteem in Toulouse",
+    "agile-approach": "Agile aanpak die perfect is voor innovatieve projecten",
+    "personalized-support": "Persoonlijke ondersteuning gedurende jouw digitale project"
+  },
+  "primary-stat": {
+    "label": "technologiesector"
+  },
+  "strengths": {
+    "aeronautics-solutions": {
+      "title": "Oplossingen voor de Luchtvaart",
+      "description": "Toepassingen en interfaces aangepast aan de specifieke behoeften van de luchtvaartsector."
+    },
+    "startup-platforms": {
+      "title": "Startup Platforms",
+      "description": "Agile en schaalbare digitale oplossingen voor innovatieve startups."
+    },
+    "elearning": {
+      "title": "E-learning",
+      "description": "Onderwijsplatformen voor instellingen voor hoger onderwijs."
+    },
+    "local-commerce": {
+      "title": "Lokale Handel",
+      "description": "Op maat gemaakte digitalisering voor winkels en ambachtslieden in Toulouse."
+    }
+  },
+  "focused-services": {
+    "business-applications": {
+      "name": "Business Applicaties",
+      "description": "Op maat gemaakte oplossingen voor de luchtvaartindustrie en technologiebedrijven."
+    },
+    "innovative-websites": {
+      "name": "Innovatieve Websites",
+      "description": "Moderne digitale showcases voor startups en innovatieve bedrijven."
+    },
+    "ecommerce-platforms": {
+      "name": "E-commerce Platformen",
+      "description": "Volledige oplossingen voor lokale winkels die willen digitaliseren."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Jarenlange ervaring"
+    },
+    "satisfaction": {
+      "label": "Tevredenheid",
+      "description": "Tevreden klanten"
+    },
+    "average-time": {
+      "label": "Gemiddelde Tijd",
+      "description": "Weken tot voltooiing"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "title": "Agenzia Web a Parigi | Sviluppo Web, Mobile & Design UI/UX",
+  "description": "Il tuo partner digitale nel cuore di Parigi. Soluzioni di sviluppo web, mobile e design UI/UX per accelerare la crescita della tua azienda parigina.",
+  "hero": {
+    "title": "Sviluppo Digitale nella Capitale",
+    "description": "Trasforma la tua presenza digitale con soluzioni innovative pensate per il competitivo mercato parigino e il suo dinamico ecosistema di startup, grandi aziende e aziende innovative."
+  },
+  "intro": "Nel cuore della capitale francese, la nostra competenza digitale incontra le esigenze del mercato parigino con soluzioni web e mobile innovative. Tra grandi aziende, marche di lusso e startup in rapida crescita, Parigi concentra un ecosistema digitale dinamico le cui sfide e opportunità comprendiamo a pieno.",
+  "expertise": "Progettiamo esperienze digitali premium che soddisfano gli alti standard delle aziende parigine. Il nostro team padroneggia le sfide specifiche della capitale, sia che si tratti di creare interfacce utente raffinate per il settore del lusso, applicazioni ad alte prestazioni per le fintech, o soluzioni scalabili per startup in rapida crescita.",
+  "why-choose-us": "La nostra conoscenza approfondita del mercato parigino ci consente di sviluppare soluzioni digitali perfettamente allineate alle esigenze delle aziende della capitale. Combiniamo innovazione tecnica, eccellenza creativa e comprensione del business per supportarti efficacemente in un ambiente altamente competitivo.",
+  "key-business-sectors": {
+    "startups-tech": "Startup Tech",
+    "finance": "Finanza",
+    "luxury": "Lusso",
+    "media-communication": "Media & Comunicazioni"
+  },
+  "local-challenges": {
+    "digital-competition": "Forte concorrenza digitale nel mercato parigino che richiede soluzioni differenziate",
+    "agile-tools-startups": "Necessità di strumenti agili e ad alte prestazioni per startup in rapida crescita",
+    "financial-digitalization": "Digitalizzazione dei servizi finanziari tradizionali che fronteggiano le fintech",
+    "luxury-digital-experiences": "Sviluppo di esperienze digitali premium per il settore del lusso parigino",
+    "corporate-transformation": "Soluzioni innovative per grandi aziende in fase di trasformazione digitale"
+  },
+  "benefits": {
+    "startup-expertise": "Competenza approfondita nelle ultime tecnologie adattate all'ecosistema delle startup parigine",
+    "premium-solutions": "Soluzioni premium che rispettano gli alti standard del mercato della capitale",
+    "luxury-finance-understanding": "Comprensione dei codici del lusso e della finanza per esperienze digitali su misura",
+    "agility-responsiveness": "Agilità e reattività per adattarsi al ritmo intenso delle aziende parigine",
+    "tech-trends-knowledge": "Conoscenza approfondita delle tendenze e innovazioni tecnologiche francesi"
+  },
+  "primary-stat": {
+    "label": "startup & tech"
+  },
+  "strengths": {
+    "startup-solutions": {
+      "title": "Soluzioni per Startup",
+      "description": "Applicazioni scalabili per aziende in rapida crescita."
+    },
+    "luxury-experiences": {
+      "title": "Esperienze di Lusso",
+      "description": "Interfacce premium per marchi e servizi di alta gamma."
+    },
+    "finance-fintech": {
+      "title": "Finanza & Fintech",
+      "description": "Soluzioni sicure per il settore finanziario parigino."
+    },
+    "international": {
+      "title": "Internazionale",
+      "description": "Sviluppo multilingue adattato a aziende globali."
+    }
+  },
+  "focused-services": {
+    "saas-applications": {
+      "name": "Applicazioni SaaS",
+      "description": "Sviluppo di soluzioni cloud innovative per startup e scale-up."
+    },
+    "premium-ecommerce": {
+      "name": "E-commerce Premium",
+      "description": "Piattaforme di vendita di alta gamma per marchi di lusso parigini."
+    },
+    "innovative-design": {
+      "name": "Design UI/UX Innovativo",
+      "description": "Interfacce utente moderne e differenzianti per emergere a Parigi."
+    }
+  },
+  "stats": {
+    "startups": {
+      "label": "Startup",
+      "description": "Progetti per startup"
+    },
+    "luxury-clients": {
+      "label": "Clienti di Lusso",
+      "description": "Marchi premium"
+    },
+    "average-roi": {
+      "label": "ROI Medio",
+      "description": "Ritorno sugli investimenti"
+    }
+  }
+}

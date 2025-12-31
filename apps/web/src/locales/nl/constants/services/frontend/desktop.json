@@ -1,0 +1,80 @@
+{
+  "name": "Desktopsoftware",
+  "description": "Cross-platform desktop applicatieontwikkeling",
+  "hero": {
+    "title": "Cross-platform desktop applicaties",
+    "description": "Ontwikkel moderne en hoogpresterende desktopapplicaties voor Windows, macOS en Linux. Onze expertise garandeert professionele applicaties die de volledige kracht van desktop benutten."
+  },
+  "features": {
+    "electron-react": {
+      "title": "Electron & React",
+      "description": "Moderne technologieën voor presterende en schaalbare desktopapplicaties."
+    },
+    "multiplatform": {
+      "title": "Multiplatform",
+      "description": "Windows, macOS en Linux compatibele applicaties vanuit één codebase."
+    },
+    "native-performance": {
+      "title": "Native prestaties",
+      "description": "Optimalisatie om systeembronnen efficiënt te benutten."
+    },
+    "system-integration": {
+      "title": "Systeemintegratie",
+      "description": "Toegang tot native besturingssysteem functies."
+    }
+  },
+  "benefits": {
+    "windows-macos": {
+      "title": "Windows & macOS",
+      "description": "Native ondersteuning voor belangrijke desktopplatforms."
+    },
+    "system-access": {
+      "title": "Systeemtoegang",
+      "description": "Directe interactie met het besturingssysteem."
+    },
+    "offline-mode": {
+      "title": "Offline modus",
+      "description": "Op zichzelf staande werking zonder internetverbinding vereist."
+    },
+    "local-data": {
+      "title": "Lokale gegevens",
+      "description": "Lokale opslag en gegevensverwerking voor verbeterde beveiliging."
+    }
+  },
+  "faq": {
+    "why-electron": {
+      "question": "Waarom kiezen voor Electron voor desktopontwikkeling?",
+      "answer": "Electron maakt het mogelijk om cross-platform desktopapplicaties te maken met moderne webtechnologieën (React, TypeScript). Dit biedt snelle ontwikkeling, vereenvoudigd onderhoud en een uitstekende gebruikerservaring, terwijl compatibiliteit met Windows, macOS en Linux wordt gegarandeerd."
+    },
+    "security": {
+      "question": "Hoe gaan jullie om met de beveiliging van desktopapplicaties?",
+      "answer": "We implementeren verschillende beveiligingsniveaus: versleuteling van gevoelige gegevens, bescherming tegen code-injectie, automatische beveiligingsupdates en veilige ontwikkelingspraktijken. We volgen ook beveiligingsaanbevelingen die specifiek zijn voor elk besturingssysteem."
+    },
+    "auto-update": {
+      "question": "Bieden jullie een automatisch updatesysteem aan?",
+      "answer": "Ja, we integreren een automatisch updatesysteem dat een gemakkelijke uitrol van nieuwe applicatieversies mogelijk maakt. Gebruikers worden geïnformeerd over beschikbare updates en kunnen deze met één klik installeren."
+    },
+    "distribution": {
+      "question": "Hoe gaan jullie om met applicatiedistributie?",
+      "answer": "We beheren het volledige distributieproces: het maken van installateurs voor elk platform, het ondertekenen van applicaties, publiceren in winkels indien nodig (Microsoft Store, Mac App Store) en het opzetten van een automatisch updatesysteem."
+    },
+    "post-launch-support": {
+      "question": "Bieden jullie ondersteuning na de lancering?",
+      "answer": "Ja, we bieden verschillende onderhoudsplannen aan, waaronder: technische ondersteuning, bugfixes, beveiligingsupdates, prestatieoptimalisaties en functieontwikkeling."
+    }
+  },
+  "complementary": {
+    "telemetry": {
+      "title": "Telemetrie",
+      "description": "Tracking van prestaties en gebruikersgedrag."
+    },
+    "distribution": {
+      "title": "Distributie",
+      "description": "Winkelpublicatie en updatebeheer."
+    },
+    "cloud-sync": {
+      "title": "Cloud-sync",
+      "description": "Gegevenssynchronisatie met de cloud."
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Desenvolvimento Web em Montpellier | Soluções Digitais para Negócios do Languedoc",
+  "description": "Crie seu site ou aplicativo móvel em Montpellier. Soluções digitais personalizadas para negócios de Montpellier, adaptadas aos desafios locais do seu setor.",
+  "hero": {
+    "title": "Desenvolvimento Web & Móvel em Montpellier",
+    "description": "Ajudamos empresas em Montpellier e na região do Languedoc a se digitalizarem com soluções web personalizadas, perfeitamente adaptadas aos desafios específicos do mercado regional."
+  },
+  "intro": "Uma cidade dinâmica na interseção de influências mediterrânea e do Languedoc, Montpellier se destaca pelo seu ecossistema de inovação em saúde, universidades prestigiosas e arte de viver. Nossa expertise digital permite que os negócios de Montpellier aproveitem essa riqueza e se destaquem em um ambiente competitivo.",
+  "expertise": "Nossa equipe projeta sites, aplicativos e soluções digitais perfeitamente adaptadas às empresas de Montpellier e sua região. Entendemos os desafios específicos do seu mercado local, seja no setor da saúde, educação ou terroir do Languedoc, e oferecemos soluções digitais que destacam sua expertise e raízes regionais.",
+  "why-choose-us": "Nosso conhecimento profundo do mercado de Montpellier nos permite desenvolver soluções digitais perfeitamente adaptadas aos desafios específicos dos negócios locais. Entendemos o equilíbrio entre inovação e tradição que caracteriza Montpellier e integramos esse entendimento em cada projeto para criar experiências digitais autênticas e de alto desempenho.",
+  "key-business-sectors": {
+    "health-biotech": "Saúde & Biotecnologias",
+    "higher-education": "Educação Superior",
+    "viticulture": "Viticultura",
+    "tourism": "Turismo"
+  },
+  "local-challenges": {
+    "biotech-health-digitalization": "Digitalização do setor de biotecnologia e saúde em expansão",
+    "innovative-educational-platforms": "Necessidade de plataformas educacionais inovadoras para diversas universidades e escolas",
+    "wine-heritage-digital-showcase": "Vitrine digital do patrimônio vinícola e produtos locais",
+    "tourism-adaptation": "Adaptação dos players de turismo frente à concorrência mediterrânea"
+  },
+  "benefits": {
+    "health-sector-solutions": "Soluções personalizadas adaptadas a empresas inovadoras do setor de saúde",
+    "educational-platforms-expertise": "Expertise aguçada em plataformas educacionais e ferramentas de e-learning",
+    "languedoc-market-knowledge": "Conhecimento profundo do mercado do Languedoc e suas especificidades",
+    "regional-products-ui": "Interfaces otimizadas para mostrar produtos regionais",
+    "personalized-support": "Apoio personalizado durante todo o seu projeto digital"
+  },
+  "primary-stat": {
+    "label": "biotecnologias"
+  },
+  "strengths": {
+    "connected-health": {
+      "title": "Saúde Conectada",
+      "description": "Soluções digitais para startups e empresas de ciências da vida."
+    },
+    "elearning": {
+      "title": "E-learning",
+      "description": "Plataformas educacionais para universidades e instituições de ensino."
+    },
+    "digital-terroir": {
+      "title": "Terroir Digital",
+      "description": "Sites e e-commerce para vinícolas e produtores locais."
+    },
+    "regional-tourism": {
+      "title": "Turismo Regional",
+      "description": "Experiências digitais para mostrar o patrimônio do Languedoc."
+    }
+  },
+  "focused-services": {
+    "health-applications": {
+      "name": "Aplicativos de Saúde",
+      "description": "Soluções personalizadas para startups e empresas de ciências da vida."
+    },
+    "educational-platforms": {
+      "name": "Plataformas Educacionais",
+      "description": "Ferramentas de aprendizado digital para instituições educacionais."
+    },
+    "terroir-ecommerce": {
+      "name": "E-commerce do Terroir",
+      "description": "Lojas online para produtores locais e vinícolas."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Anos de experiência"
+    },
+    "satisfaction": {
+      "label": "Satisfação",
+      "description": "Clientes satisfeitos"
+    },
+    "average-time": {
+      "label": "Tempo Médio",
+      "description": "Semanas de conclusão"
+    }
+  }
+}

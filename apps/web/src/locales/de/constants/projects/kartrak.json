@@ -1,0 +1,81 @@
+{
+  "short-description": "Umweltfreundliche Aktivitätsverfolgung. Überwache deinen Online-Fußabdruck auf unterhaltsame Weise.",
+  "description": "Eine Browsererweiterung, die dir hilft, deinen ökologischen Fußabdruck online zu verstehen und zu reduzieren.",
+  "long-description": "Kartrak ist eine innovative Browsererweiterung, die das Bewusstsein der Nutzer für ihren digitalen CO2-Fußabdruck schärft. Durch die Überwachung deiner Online-Aktivitäten bietet Kartrak detaillierte Einblicke in deinen Internetverbrauch und dessen Umweltauswirkungen.\n\nDie Erweiterung verwendet fortschrittliche Algorithmen, die auf Ecoindex basieren, um deinen CO2-Fußabdruck beim Surfen zu berechnen und bietet personalisierte Vorschläge zur Reduzierung deines Einflusses. Ecoindex ist eine anerkannte Methodik zur Bewertung der Umweltauswirkungen von Webseiten, indem ihre technische Komplexität, Größe und Energieeffizienz analysiert werden.\n\nMit einem unterhaltsamen und lehrreichen Ansatz macht Kartrak Umweltbewusstsein zugänglich und ansprechend.",
+  "features": {
+    "real-time-tracking": {
+      "title": "Echtzeitverfolgung",
+      "description": "Visualisiere deinen digitalen CO2-Fußabdruck in Echtzeit"
+    },
+    "personalized-suggestions": {
+      "title": "Personalisierte Vorschläge",
+      "description": "Erhalte maßgeschneiderte Ratschläge zur Reduzierung deines Einflusses"
+    },
+    "detailed-stats": {
+      "title": "Detaillierte Statistiken",
+      "description": "Analysiere deine Surfgewohnheiten und deren Auswirkungen"
+    },
+    "ecological-goals": {
+      "title": "Ökologische Ziele",
+      "description": "Setze Ziele und verfolge deinen Fortschritt"
+    }
+  },
+  "technologies": {
+    "typescript": {
+      "description": "Browsererweiterung"
+    },
+    "react": {
+      "description": "Benutzeroberfläche"
+    },
+    "nodejs": {
+      "description": "Backend und API"
+    },
+    "chrome-api": {
+      "description": "Browserintegration"
+    }
+  },
+  "metrics": {
+    "sites-analyzed": {
+      "value": "∞",
+      "label": "Analysierte Seiten",
+      "description": "Kompatibel mit allen Webseiten"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "Open Source",
+      "description": "Öffentlicher Quellcode"
+    },
+    "confidential": {
+      "value": "100%",
+      "label": "Vertraulich",
+      "description": "Es werden keine Benutzerdaten gesammelt"
+    }
+  },
+  "screenshots": {
+    "dashboard": {
+      "caption": "Hauptdashboard"
+    },
+    "stats": {
+      "caption": "Detaillierte Statistiken"
+    }
+  },
+  "challenges": {
+    "carbon-calculation": "Genauigkeit der CO2-Fußabdruckberechnung",
+    "privacy-protection": "Schutz der Privatsphäre der Nutzer",
+    "background-performance": "Leistung der Erweiterung im Hintergrund",
+    "environmental-data-accuracy": "Genauigkeit der Umweltdaten"
+  },
+  "learnings": {
+    "environmental-impact-complexity": "Komplexität der Berechnung des Umweltimpact",
+    "user-engagement": "Bedeutung der Nutzerbeteiligung",
+    "accuracy-performance-balance": "Gleichgewicht zwischen Genauigkeit und Leistung",
+    "navigation-ux": "UX angepasst an die Surfgewohnheiten"
+  },
+  "future-plans": {
+    "more-browsers": "Unterstützung für mehr Browser",
+    "eco-tools-integration": "Integration mit anderen umweltfreundlichen Tools",
+    "community-features": "Community-Funktionen",
+    "personalized-reports": "Personalisierte detaillierte Berichte",
+    "auto-close-tabs": "Automatisches Schließen nicht genutzter Tabs"
+  }
+}

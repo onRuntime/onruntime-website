@@ -1,0 +1,49 @@
+{
+  "name": "Sviluppo Back-end",
+  "description": "Architettura e sviluppo di soluzioni robuste",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Architettura scalabile",
+      "description": "Sistemi progettati per evolversi con la tua crescita, utilizzando architetture moderne e distribuite."
+    },
+    "optimized-database": {
+      "title": "Database ottimizzato",
+      "description": "Progettazione e ottimizzazione del database per massime prestazioni e integrità dei dati."
+    },
+    "robust-infrastructure": {
+      "title": "Infrastruttura robusta",
+      "description": "Distribuzione su infrastruttura cloud moderna con alta disponibilità e resilienza."
+    },
+    "advanced-security": {
+      "title": "Sicurezza avanzata",
+      "description": "Implementazione delle migliori pratiche di sicurezza e protezione dei dati sensibili."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Analisi dei bisogni",
+      "description": "Studio approfondito dei requisiti tecnici, definizione dell'architettura e scelta della tecnologia."
+    },
+    "system-design": {
+      "title": "Design del sistema",
+      "description": "Progettazione dell'architettura di backend, modellazione dei dati e definizione dell'API."
+    },
+    "api-development": {
+      "title": "Sviluppo di API",
+      "description": "Implementazione di API RESTful o GraphQL con documentazione completa."
+    },
+    "database": {
+      "title": "Database",
+      "description": "Impostazione e ottimizzazione del database con focus su prestazioni e scalabilità."
+    },
+    "testing-security": {
+      "title": "Testing e sicurezza",
+      "description": "Implementazione di test automatizzati e misure di sicurezza avanzate."
+    },
+    "deployment-monitoring": {
+      "title": "Distribuzione e monitoraggio",
+      "description": "Impostazione dell'infrastruttura cloud, monitoraggio e avvisi."
+    }
+  },
+  "process-services": {}
+}

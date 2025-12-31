@@ -1,0 +1,80 @@
+{
+  "name": "Webflow",
+  "description": "Tworzenie nowoczesnych stron internetowych za pomocą Webflow",
+  "hero": {
+    "title": "Profesjonalny rozwój Webflow",
+    "description": "Zrealizuj swoją wizję z Webflow. Nasza wiedza gwarantuje nowoczesną, interaktywną stronę internetową, idealnie dostosowaną do twoich potrzeb, bez kompromisów w jakości."
+  },
+  "features": {
+    "advanced-visual-design": {
+      "title": "Zaawansowany design wizualny",
+      "description": "Tworzenie unikalnych interfejsów i zaawansowanych animacji bez ograniczeń tradycyjnego kodowania."
+    },
+    "optimal-performance": {
+      "title": "Optymalna wydajność",
+      "description": "Szybkie i responsywne strony zoptymalizowane do różnych urządzeń i przeglądarek."
+    },
+    "rich-interactions": {
+      "title": "Bogate interakcje",
+      "description": "Płynne animacje i interakcje użytkowników dla nowoczesnego i angażującego doświadczenia w sieci."
+    },
+    "integrated-cms": {
+      "title": "Zintegrowany CMS",
+      "description": "Mocny i elastyczny system zarządzania treścią do łatwych aktualizacji."
+    }
+  },
+  "benefits": {
+    "visual-development": {
+      "title": "Rozwój wizualny",
+      "description": "Tworzenie złożonych stron bez pisania kodu, przy pełnej kontroli nad designem."
+    },
+    "native-seo": {
+      "title": "Natywne SEO",
+      "description": "Wbudowane narzędzia SEO i struktura zoptymalizowana pod kątem wyszukiwarek."
+    },
+    "responsive-by-default": {
+      "title": "Responsywność z domyślnie",
+      "description": "Projekt idealnie dostosowany do wszystkich ekranów, od mobilnych po duże ekrany."
+    },
+    "optimized-hosting": {
+      "title": "Zoptymalizowane hostowanie",
+      "description": "Solidna infrastruktura chmurowa z globalnym CDN dla optymalnej wydajności."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Jak długo trwa stworzenie strony na Webflow?",
+      "answer": "Średni czas tworzenia strony na Webflow wynosi od 3 do 8 tygodni, w zależności od złożoności projektu. To obejmuje projektowanie, rozwój interakcji, integrację treści i testowanie."
+    },
+    "self-update": {
+      "question": "Czy mogę łatwo zaktualizować swoją stronę samodzielnie?",
+      "answer": "Absolutnie! Webflow ma intuicyjny CMS, który dostosowujemy do twoich potrzeb. Szkolimy cię w jego używaniu, żebyś mógł samodzielnie zarządzać swoją treścią."
+    },
+    "ecommerce": {
+      "question": "Czy Webflow nadaje się do stron e-commerce?",
+      "answer": "Tak, Webflow oferuje solidne rozwiązanie e-commerce, które możemy dostosować do stworzenia twojego sklepu internetowego z zaawansowanymi funkcjami i indywidualnym designem."
+    },
+    "animations-interactions": {
+      "question": "Jak radzicie sobie z animacjami i interakcjami?",
+      "answer": "Webflow pozwala na tworzenie zaawansowanych animacji i interakcji bez kodu. Projektujemy płynne i profesjonalne doświadczenia interaktywne, zachowując optymalną wydajność."
+    },
+    "seo-quality": {
+      "question": "Jaka jest jakość SEO z Webflow?",
+      "answer": "Webflow generuje czysty, zoptymalizowany pod kątem SEO kod. Wdrażamy najlepsze praktyki SEO, aby zmaksymalizować twoją widoczność w wyszukiwarkach."
+    }
+  },
+  "complementary": {
+    "custom-integrations": {
+      "title": "Niestandardowe integracje",
+      "description": "Połączenie z twoimi ulubionymi narzędziami i usługami zewnętrznymi."
+    },
+    "digital-strategy": {
+      "title": "Strategia cyfrowa",
+      "description": "Wsparcie w strategii twojej obecności online."
+    },
+    "webflow-training": {
+      "title": "Szkolenie z Webflow",
+      "description": "Niestandardowe szkolenie, by opanować zarządzanie swoją stroną."
+    }
+  }
+}

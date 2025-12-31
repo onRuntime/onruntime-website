@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Lokale webexpertise | Digitale ontwikkeling in grote Franse steden",
+    "description": "We ondersteunen lokale bedrijven in heel Frankrijk met onze expertise in regionale digitale markten. Digitale oplossingen aangepast aan elke regio."
+  },
+  "hero": {
+    "title": "Jouw digitale partner in heel Frankrijk",
+    "description": "We ontwikkelen innovatieve digitale oplossingen die zijn afgestemd op de specificiteit van elke Franse regionale markt. Ons team beheerst lokale digitale uitdagingen om je effectief te ondersteunen, waar je ook in Frankrijk bent.",
+    "cta": "Bespreek je project",
+    "secondary-cta": "Ontdek onze lokale expertise"
+  },
+  "expertise": {
+    "title": "Expertise aangepast aan elk gebied",
+    "description": "Ons team analyseert en begrijpt lokale digitale ecosystemen om je oplossingen te bieden die perfect zijn afgestemd op de economische en culturele specificiteiten van jouw regio.",
+    "local-markets": {
+      "title": "Inzicht in lokale markten",
+      "description": "We bestuderen en beheersen de specificiteiten en trends van regionale digitale ecosystemen."
+    },
+    "remote-work": {
+      "title": "Effectief op afstand werken",
+      "description": "Ons team werkt op afstand samen met jouw bedrijf, waar je ook in Frankrijk bent, met dezelfde efficiëntie als persoonlijk."
+    },
+    "custom-solutions": {
+      "title": "Maatwerkoplossingen",
+      "description": "Op maat gemaakte digitale strategieën die zich aanpassen aan jouw lokale context en de bijzonderheden van jouw regionale markt."
+    }
+  },
+  "cities": {
+    "title": "Onze expertise in grote Franse steden",
+    "description": "Ontdek onze grondige kennis van lokale markten en hoe het jouw bedrijf kan helpen.",
+    "region-label": "Regio",
+    "discover-cta": "Ontdek onze expertise"
+  },
+  "why-us": {
+    "title": "Waarom met ons samenwerken voor jouw lokale project?",
+    "description": "Onze kennis van regionale markten biedt veel voordelen voor jouw bedrijf.",
+    "local-ecosystems": {
+      "title": "Expertise in lokale ecosystemen",
+      "description": "Een team dat de marktdynamiek die specifiek is voor jouw regio begrijpt, waardoor een perfect aangepaste digitale strategie mogelijk is."
+    },
+    "remote-agility": {
+      "title": "Remote agility",
+      "description": "Effectieve samenwerking via videovergaderingen, messaging en collaboratieve tools voor een soepele en productieve werkomgeving."
+    },
+    "localized-strategies": {
+      "title": "Geolokalisatiestrategieën",
+      "description": "Digitale oplossingen die rekening houden met de culturele en economische specificiteiten van jouw gebied."
+    },
+    "regional-analysis": {
+      "title": "Regionale marktanalyse",
+      "description": "Bestudering van trends, concurrentie en kansen die specifiek zijn voor jouw geografische sector voor een optimale digitale strategie."
+    }
+  },
+  "services": {
+    "title": "Onze diensten voor alle regio's van Frankrijk",
+    "description": "Complete digitale oplossingen die zijn afgestemd op de specificiteiten van elke lokale markt.",
+    "design": {
+      "title": "UI/UX Ontwerp",
+      "description": "Interfaces aangepast aan lokale gebruiken"
+    },
+    "integration": {
+      "title": "Integratie",
+      "description": "Regionale CMS en e-commerceoplossingen"
+    },
+    "frontend": {
+      "title": "Front-end",
+      "description": "Toepassingen aangepast aan jouw gebruikers"
+    },
+    "backend": {
+      "title": "Back-end",
+      "description": "Robuuste en schaalbare infrastructuren"
+    },
+    "discover-all": "Ontdek al onze diensten"
+  },
+  "cta": {
+    "title": "Een digitaal project aangepast aan jouw lokale markt?",
+    "description": "Neem contact met ons op om je project te bespreken. Onze expertise in lokale markten stelt ons in staat je effectief te ondersteunen, waar je ook in Frankrijk bent.",
+    "contact": "Neem contact met ons op",
+    "learn-more": "Leer meer over onze aanpak"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "UI/UX Tasarımı",
+  "description": "Modern arayüzler ve optimal kullanıcı deneyimleri oluşturma",
+  "benefits": {
+    "user-centered-design": {
+      "title": "Kullanıcı odaklı UI/UX tasarımı",
+      "description": "Tasarımlarımızın merkezine kullanıcı ihtiyaçlarını koyan bir yaklaşım, etkileşimli prototiplerle doğrulanmış."
+    },
+    "creative-innovation": {
+      "title": "Yaratıcı yenilik",
+      "description": "Markanızı öne çıkaran yaratıcı UI/UX çözümleri ve yenilikçi prototipler."
+    },
+    "iterative-prototyping": {
+      "title": "Iteratif prototipleme",
+      "description": "Kullanıcı deneyimini geliştirmek için hızlı prototipler ve sık tekrarlarla temellendirilmiş bir metodoloji."
+    },
+    "business-objectives": {
+      "title": "İş hedefleri",
+      "description": "Kullanıcı testleriyle doğrulanan, iş hedeflerinizle uyumlu bir UI/UX tasarımı."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "İhtiyaç analizi",
+      "description": "UI/UX yönünü tanımlamak için ihtiyaçlarınızı, markanızı ve iş hedeflerinizi analiz ettiğimiz kritik ilk adım."
+    },
+    "research-moodboard": {
+      "title": "Araştırma ve moodboard",
+      "description": "Moodboard'lar oluşturma ve olası yaratıcı yönleri keşfetme. Genel sanatsal yönü tanımlama."
+    },
+    "wireframes": {
+      "title": "Wireframe'ler",
+      "description": "Yapıyı, hiyerarşiyi ve bilgi mimarisini doğrulamak için wireframe'ler tasarlama."
+    },
+    "interface-design": {
+      "title": "Arayüz tasarımı",
+      "description": "Marka kılavuzlarınıza saygı göstererek nihai maketler oluşturma. Bileşenlere ve bunların yeniden kullanılabilirliğine özel dikkat."
+    },
+    "prototyping": {
+      "title": "Prototipleme",
+      "description": "Etkileşimleri test etmek ve kullanıcı yolculuklarını doğrulamak için prototipler oluşturma."
+    },
+    "development": {
+      "title": "Geliştirme",
+      "description": "Maketleri işlevsel arayüzlere dönüştürme, tanımlanan animasyonlara özel dikkat."
+    }
+  },
+  "process-services": {}
+}

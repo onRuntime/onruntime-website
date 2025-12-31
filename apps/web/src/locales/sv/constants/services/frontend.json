@@ -1,0 +1,49 @@
+{
+  "name": "Front-end utveckling",
+  "description": "Skapa högpresterande webb- och mobilapplikationer",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Skalbar arkitektur",
+      "description": "Applikationer byggda på moderna och skalbara arkitekturer, redo för ditt projekts utveckling."
+    },
+    "optimal-performance": {
+      "title": "Optimal prestanda",
+      "description": "Fokus på prestanda med avancerad optimering och cache-tekniker."
+    },
+    "maintainable-code": {
+      "title": "Underhållbar kod",
+      "description": "Ren och modulär arkitektur som gör det enkelt att underhålla och snabbt iterera."
+    },
+    "enhanced-security": {
+      "title": "Förbättrad säkerhet",
+      "description": "Genomförande av bästa praxis för frontend-säkerhet för att skydda dina användare."
+    }
+  },
+  "process": {
+    "technical-architecture": {
+      "title": "Teknisk arkitektur",
+      "description": "Definition av frontend-arkitektur, teknikval och installation av utvecklingsmiljö."
+    },
+    "project-setup": {
+      "title": "Projektuppsättning",
+      "description": "Projektkonfiguration med bästa praxis för utveckling, testning och kontinuerlig distribution."
+    },
+    "feature-development": {
+      "title": "Funktion utveckling",
+      "description": "Implementering av funktioner med fokus på kodkvalitet och prestanda."
+    },
+    "state-management": {
+      "title": "Tillståndshantering",
+      "description": "Installation av robust och högpresterande tillståndshantering för applikationsdata."
+    },
+    "testing-quality": {
+      "title": "Testning och kvalitet",
+      "description": "Genomförande av automatiserade tester och processer för kvalitetskontroll."
+    },
+    "optimization-monitoring": {
+      "title": "Optimering och övervakning",
+      "description": "Inställning av prestandaoptimering och övervakningsverktyg."
+    }
+  },
+  "process-services": {}
+}

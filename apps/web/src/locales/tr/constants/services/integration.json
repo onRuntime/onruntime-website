@@ -1,0 +1,49 @@
+{
+  "name": "Entegrasyon",
+  "description": "Önemli e-ticaret ve CMS platformlarında entegrasyon",
+  "benefits": {
+    "clean-maintainable-code": {
+      "title": "Temiz ve sürdürülebilir kod",
+      "description": "Uzun vadeli sürdürülebilirlik için yüksek kod standartları ve mimarisi ile entegrasyon."
+    },
+    "optimized-performance": {
+      "title": "Optimize edilmiş performans",
+      "description": "Gelişmiş optimizasyon teknikleri ve en iyi uygulamalarla hızlı ve akıcı web siteleri."
+    },
+    "responsive-design": {
+      "title": "Duyarlı tasarım",
+      "description": "Tutarlı bir kullanıcı deneyimi için tüm ekranlara ve cihazlara mükemmel uyum."
+    },
+    "smooth-animations": {
+      "title": "Akıcı animasyonlar",
+      "description": "Performansı korurken kullanıcı deneyimini zenginleştirmek için ince animasyonların entegrasyonu."
+    }
+  },
+  "process": {
+    "mockup-analysis": {
+      "title": "Mockup analizi",
+      "description": "Bileşenleri, etkileşimleri ve teknik dikkat noktalarını belirlemek için mockupların derinlemesine analizi."
+    },
+    "technical-architecture": {
+      "title": "Teknik mimari",
+      "description": "Frontend mimarisinin tanımlanması ve projeye uygun teknolojilerin seçimi."
+    },
+    "component-development": {
+      "title": "Bileşen geliştirme",
+      "description": "Tasarım sistemi prensiplerine uygun olarak yeniden kullanılabilir bileşenlerin oluşturulması."
+    },
+    "responsive-integration": {
+      "title": "Duyarlı entegrasyon",
+      "description": "Tüm ekran formatları için tasarım uyarlaması, özellikle mobil deneyime dikkat."
+    },
+    "optimization": {
+      "title": "Optimizasyon",
+      "description": "Performans, erişilebilirlik ve teknik SEO optimizasyonu."
+    },
+    "testing-validation": {
+      "title": "Test ve doğrulama",
+      "description": "Optimal kullanıcı deneyimi sağlamak için farklı tarayıcılar ve cihazlar üzerinde kapsamlı test."
+    }
+  },
+  "process-services": {}
+}

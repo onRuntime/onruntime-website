@@ -1,0 +1,13 @@
+{
+  "title": "Een project afgestemd op de {city} markt?",
+  "description": "Onze expertise in de lokale {region} markt stelt ons in staat om je oplossingen te bieden die perfect zijn aangepast aan jouw regionale context. Laten we jouw project bespreken!",
+  "features": {
+    "video": "Online consultatie via video conference",
+    "calendar": "Flexibele uren afgestemd op jouw schema",
+    "expertise": "Diepgaande expertise van de {city} en {region} markt"
+  },
+  "buttons": {
+    "discuss": "Bespreek je project",
+    "discover": "Ontdek onze diensten"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "스퀘어스페이스",
+  "description": "스퀘어스페이스에서의 통합 및 커스터마이징",
+  "hero": {
+    "title": "스퀘어스페이스로 만드는 우아한 웹사이트",
+    "description": "스퀘어스페이스로 세련된 온라인 존재감을 만들어봐. 우리의 전문성은 당신의 브랜드 이미지에 완벽하게 맞춰진 미적이고 기능적인 웹사이트를 보장해."
+  },
+  "features": {
+    "minimalist-design": {
+      "title": "미니멀리스트 디자인",
+      "description": "당신의 콘텐츠와 브랜드를 잘 드러내는 우아하고 깔끔한 사이트를 제작해."
+    },
+    "smooth-experience": {
+      "title": "매끄러운 경험",
+      "description": "직관적인 탐색과 최적화된 성능으로 완벽한 사용자 경험을 제공해."
+    },
+    "content-management": {
+      "title": "콘텐츠 관리",
+      "description": "콘텐츠를 쉽게 관리할 수 있도록 간단하고 직관적인 관리 인터페이스를 제공해."
+    },
+    "media-integration": {
+      "title": "미디어 통합",
+      "description": "동적 갤러리로 이미지와 미디어를 최적의 방식으로 Showcase해."
+    }
+  },
+  "benefits": {
+    "professional-templates": {
+      "title": "전문 템플릿",
+      "description": "모든 산업에 맞춘 현대적이고 커스터마이징 가능한 다양한 템플릿을 선택할 수 있어."
+    },
+    "integrated-ecommerce": {
+      "title": "통합된 전자상거래",
+      "description": "완벽하고 커스터마이징이 가능한 온라인 판매 솔루션이야."
+    },
+    "optimal-performance": {
+      "title": "최적의 성능",
+      "description": "강력한 인프라에서 호스팅되는 빠르고 안전한 사이트를 제공해."
+    },
+    "integrated-marketing": {
+      "title": "통합 마케팅",
+      "description": "비즈니스를 성장시키기 위한 마케팅 도구와 통계 분석을 제공해."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "스퀘어스페이스 사이트 만들기는 얼마나 걸리나요?",
+      "answer": "스퀘어스페이스 사이트를 만드는 평균 시간은 프로젝트의 복잡성에 따라 2주에서 6주까지 걸려. 여기에는 템플릿 선택과 커스터마이징, 콘텐츠 통합 및 테스트가 포함돼."
+    },
+    "product-sales": {
+      "question": "내 스퀘어스페이스 사이트에서 제품을 판매할 수 있나요?",
+      "answer": "응, 스퀘어스페이스는 완전한 전자상거래 솔루션을 제공해서 제품을 온라인으로 판매할 수 있도록 설정할 수 있어. 재고 관리, 안전한 결제 및 배송 옵션이 포함돼."
+    },
+    "content-updates": {
+      "question": "콘텐츠 업데이트는 쉬운가요?",
+      "answer": "전혀 문제없어! 스퀘어스페이스의 인터페이스는 정말 직관적이야. 사용법을 알려줄 테니 당신이 독립적으로 콘텐츠를 관리할 수 있어."
+    },
+    "seo-optimization": {
+      "question": "내 사이트가 SEO 최적화되나요?",
+      "answer": "응, 우리는 스퀘어스페이스 SEO 베스트 프랙티스를 적용하고 검색엔진에서의 가시성을 최적화하기 위해 필요한 모든 요소를 설정해."
+    },
+    "maintenance-service": {
+      "question": "유지 보수 서비스를 제공하나요?",
+      "answer": "응, 업데이트, 기술 지원 및 스퀘어스페이스 사이트의 지속적인 최적화를 포함한 다양한 유지 보수 계획을 제공하고 있어."
+    }
+  },
+  "complementary": {
+    "advanced-customization": {
+      "title": "고급 커스터마이징",
+      "description": "표준 옵션을 넘어서 사이트를 커스터마이징하기 위한 CSS 및 Javascript 수정."
+    },
+    "content-strategy": {
+      "title": "콘텐츠 전략",
+      "description": "콘텐츠 생성 및 최적화에 대한 지원을 제공해."
+    },
+    "user-training": {
+      "title": "사용자 교육",
+      "description": "당신의 스퀘어스페이스 사이트 관리 기술을 마스터할 수 있도록 완벽한 교육을 제공해."
+    }
+  }
+}

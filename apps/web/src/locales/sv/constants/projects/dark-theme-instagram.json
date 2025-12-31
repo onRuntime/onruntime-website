@@ -1,0 +1,66 @@
+{
+  "short-description": "En webbläsartillägg som förvandlar Instagram till mörkt läge, liknande iOS-appen.",
+  "description": "Ändra temat på Instagram.com till mörkt läge när systemet är i mörkt läge.",
+  "long-description": "Dark Theme for Instagram™ är ett webbläsartillägg som förändrar den visuella upplevelsen av Instagram.com genom att använda ett mörkt tema, liknande utseendet på iOS-appen.\n\nTillägget erbjuder en enkel och elegant lösning för att minska ögonbelastning och förbättra Instagram-browsingupplevelsen, samtidigt som det respekterar operativsystemets inställningar.",
+  "features": {
+    "auto-dark-mode": {
+      "title": "Automatiskt mörkt läge",
+      "description": "Automatiskt aktivera mörkt tema baserat på systeminställningar"
+    },
+    "multi-browser": {
+      "title": "Multi-webbläsarkompatibel",
+      "description": "Tillgänglig för Firefox, Edge och Chrome"
+    },
+    "open-source": {
+      "title": "Öppen källkod",
+      "description": "Fritt tillgänglig och verifierbar källkod"
+    }
+  },
+  "technologies": {
+    "javascript": {
+      "description": "Utveckling av tillägg"
+    },
+    "chrome-api": {
+      "description": "Webbläsarintegrering"
+    },
+    "css": {
+      "description": "Temaanpassning"
+    }
+  },
+  "metrics": {
+    "users": {
+      "value": "52k+",
+      "label": "Användare",
+      "description": "Aktiva användare"
+    },
+    "installs": {
+      "value": "82k+",
+      "label": "Installationer",
+      "description": "Totala installationer"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "Öppen källkod",
+      "description": "Offentlig källkod"
+    }
+  },
+  "screenshots": {
+    "dark-interface": {
+      "caption": "Instagram-gränssnitt i mörkt läge"
+    }
+  },
+  "challenges": {
+    "instagram-updates-compatibility": "Att bibehålla kompatibilitet med Instagrams frekventa uppdateringar",
+    "cross-browser-consistency": "Att säkerställa ett konsekvent mörkt tema över olika webbläsare",
+    "browser-performance": "Minimera påverkan på webbläsarens prestanda"
+  },
+  "learnings": {
+    "dynamic-interface-modification": "Komplexiteten i att dynamiskt modifiera webbgränssnitt",
+    "cross-browser-compatibility": "Vikten av kompatibilitet mellan webbläsare",
+    "platform-updates-management": "Hantera frekventa uppdateringar av webbplattformar"
+  },
+  "future-plans": {
+    "more-customization": "Lägga till fler anpassningsalternativ",
+    "instagram-versions-compatibility": "Förbättra kompatibiliteten med olika versioner av Instagram"
+  }
+}

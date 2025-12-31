@@ -1,0 +1,79 @@
+{
+  "title": "Webentwicklung in Marseille | Digitale Lösungen für provenzalische Unternehmen",
+  "description": "Erstelle deine Website oder mobile Anwendung in Marseille. Individuelle digitale Lösungen für provenzalische Unternehmen, angepasst an die lokalen Herausforderungen deines Sektors.",
+  "hero": {
+    "title": "Web- & Mobile-Entwicklung in Marseille",
+    "description": "Wir helfen Unternehmen in Marseille und der PACA-Region, mit individuellen Weblösungen digital zu werden, die perfekt auf die spezifischen Herausforderungen des Mittelmeer-Marktes abgestimmt sind."
+  },
+  "intro": "Zwischen Meer und Hügeln ist Marseille ein dynamischer wirtschaftlicher Knotenpunkt, wo Tradition auf Innovation trifft. Unser digitales Fachwissen ermöglicht es den Unternehmen in Marseille, sich in einem wettbewerbsintensiven und ständig wandelnden Mittelmeer-Markt abzuheben.",
+  "expertise": "Unser Team gestaltet Websites, Anwendungen und E-Commerce-Lösungen, die perfekt zu den Unternehmen in Marseille passen. Wir verstehen die Herausforderungen deines lokalen Marktes und bieten digitale Lösungen, die deine provenzalische Identität stärken und gleichzeitig eine internationale Klientel ansprechen.",
+  "why-choose-us": "Unser tiefgehendes Wissen über den provenzalischen Markt erlaubt es uns, digitale Lösungen zu entwickeln, die perfekt auf die spezifischen Herausforderungen lokaler Unternehmen abgestimmt sind. Wir verstehen den kulturellen und wirtschaftlichen Reichtum von Marseille und integrieren ihn in jedes Projekt, um authentische und leistungsstarke digitale Erlebnisse zu schaffen.",
+  "key-business-sectors": {
+    "tourism": "Tourismus",
+    "maritime": "Maritim",
+    "local-commerce": "Lokaler Handel",
+    "restaurant": "Restaurant"
+  },
+  "local-challenges": {
+    "tourism-competition": "Starker Wettbewerb im Mittelmeertourismus, der eine markante digitale Präsenz erfordert",
+    "maritime-solutions": "Bedarf an digitalen Lösungen für maritime und Hafenwirtschaft",
+    "local-commerce-digitalization": "Digitalisierung lokaler Geschäfte im Wettbewerb mit großen Ketten",
+    "local-ecommerce": "Bedarf an E-Commerce-Lösungen, um Handwerk und lokale Produkte zu präsentieren"
+  },
+  "benefits": {
+    "custom-solutions": "Maßgeschneiderte Lösungen, die auf die Besonderheiten provenzalischer Unternehmen zugeschnitten sind",
+    "tourism-maritime-expertise": "Fachkenntnisse im Tourismus- und Maritimsektor",
+    "international-ui": "Benutzeroberfläche, die für internationale Kunden optimiert ist",
+    "mediterranean-knowledge": "Tiefgehendes Wissen über die wirtschaftlichen Herausforderungen im Mittelmeerraum",
+    "personalized-support": "Personalisierten Support während deines digitalen Projekts"
+  },
+  "primary-stat": {
+    "label": "Tourismus-Sektor"
+  },
+  "strengths": {
+    "tourism-experience": {
+      "title": "Tourismus-Erfahrung",
+      "description": "Websites und Anwendungen, die für den Mittelmeertourismus optimiert sind."
+    },
+    "local-ecommerce": {
+      "title": "Lokaler E-Commerce",
+      "description": "Online-Verkaufslösungen für provenzalische Handwerker und Händler."
+    },
+    "maritime-sector": {
+      "title": "Maritimer Sektor",
+      "description": "Digitalisierung, die auf Hafen- und nautische Aktivitäten abgestimmt ist."
+    },
+    "mediterranean-design": {
+      "title": "Mittelmeer-Design",
+      "description": "Moderne Oberflächen, die die visuelle Identität des Mittelmeers widerspiegeln."
+    }
+  },
+  "focused-services": {
+    "tourism-websites": {
+      "name": "Tourismus-Websites",
+      "description": "Multilinguale digitale Schaufenster für Hotels, Restaurants und touristische Aktivitäten."
+    },
+    "provencal-ecommerce": {
+      "name": "Provenzalischer E-Commerce",
+      "description": "Online-Shops, die auf lokale Produzenten und Handwerker zugeschnitten sind."
+    },
+    "mobile-applications": {
+      "name": "Mobile Anwendungen",
+      "description": "Mobile Lösungen, um das touristische und kommerzielle Erlebnis zu bereichern."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Jahre an Erfahrung"
+    },
+    "satisfaction": {
+      "label": "Zufriedenheit",
+      "description": "Zufriedene Kunden"
+    },
+    "average-time": {
+      "label": "Durchschnittliche Zeit",
+      "description": "Wochen bis zur Fertigstellung"
+    }
+  }
+}

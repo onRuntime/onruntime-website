@@ -1,0 +1,80 @@
+{
+  "name": "모바일 애플리케이션",
+  "description": "리액트 네이티브를 활용한 네이티브 모바일 애플리케이션 제작",
+  "hero": {
+    "title": "리액트 네이티브 모바일 개발",
+    "description": "리액트 네이티브로 iOS와 안드로이드용 고성능 네이티브 모바일 애플리케이션을 만들어 봐요. 우리의 전문성이 강력한 애플리케이션과 탁월한 사용자 경험을 보장해요."
+  },
+  "features": {
+    "react-native-expo": {
+      "title": "리액트 네이티브 & 엑스포",
+      "description": "단일 코드베이스로 iOS와 안드로이드 모두에 대해 효율적인 크로스 플랫폼 개발."
+    },
+    "native-design": {
+      "title": "네이티브 디자인",
+      "description": "친숙한 경험을 제공하기 위해 iOS와 안드로이드 디자인 가이드를 존중하는 인터페이스."
+    },
+    "native-performance": {
+      "title": "네이티브 성능",
+      "description": "각 플랫폼에서 근접한 네이티브 성능을 위한 고급 최적화."
+    },
+    "mobile-ui-ux": {
+      "title": "모바일 UI/UX",
+      "description": "각 플랫폼의 베스트 프랙티스를 따르는 직관적인 모바일 인터페이스."
+    }
+  },
+  "benefits": {
+    "multi-platform": {
+      "title": "멀티 플랫폼",
+      "description": "단일 코드베이스로 iOS와 안드로이드에서 작동하는 애플리케이션."
+    },
+    "tablet-support": {
+      "title": "태블릿 지원",
+      "description": "다양한 화면 크기와 방향에 맞게 조정된 인터페이스."
+    },
+    "optimal-performance": {
+      "title": "최적의 성능",
+      "description": "최고의 성능과 유동성을 위한 네이티브 최적화."
+    },
+    "native-experience": {
+      "title": "네이티브 경험",
+      "description": "네이티브 장치 기능(카메라, GPS, 알림 등)을 사용."
+    }
+  },
+  "faq": {
+    "why-react-native": {
+      "question": "모바일 개발에 리액트 네이티브를 선택하는 이유는 무엇인가요?",
+      "answer": "리액트 네이티브는 단일 코드베이스로 iOS와 안드로이드용 고성능 애플리케이션 개발을 가능하게 해요. 비용과 개발 시간을 줄이면서도 네이티브 품질을 유지하죠. 그리고 큰 생태계와 메타(페이스북) 지원 혜택도 있어요."
+    },
+    "performance": {
+      "question": "어떻게 애플리케이션 성능을 보장하나요?",
+      "answer": "애플리케이션의 모든 측면을 최적화해요: 시작 시간, 메모리 사용량, 부드러운 애니메이션, 데이터 로딩 등의 요소를요. 우리는 또한 성능 문제를 식별하고 해결하기 위해 프로파일링 도구를 사용해요."
+    },
+    "store-publishing": {
+      "question": "스토어 퍼블리싱을 처리하나요?",
+      "answer": "네, 우리는 애셋 준비, 개발자 계정 설정, 스토어 제출(App Store와 Play Store) 및 업데이트 추적 등 전체 퍼블리싱 프로세스를 돕고 있어요."
+    },
+    "updates": {
+      "question": "애플리케이션 업데이트를 어떻게 관리하나요?",
+      "answer": "가능할 때 OTA(Over The Air) 업데이트 시스템을 설정하고, 스토어를 통해 업데이트를 관리해요. 최대한 검증 시간을 줄이기 위해 최적화된 프로세스도 사용하고요."
+    },
+    "post-launch-support": {
+      "question": "런칭 후 지원도 하나요?",
+      "answer": "네, 성능 모니터링, 버그 수정, 보안 업데이트, 기능 진화를 포함한 다양한 유지보수 계획을 제공해요."
+    }
+  },
+  "complementary": {
+    "store-publishing": {
+      "title": "스토어 퍼블리싱",
+      "description": "앱 스토어와 플레이 스토어 퍼블리싱의 완전 관리."
+    },
+    "backend-integration": {
+      "title": "백엔드 통합",
+      "description": "기존 시스템 및 API와 연결."
+    },
+    "react-native-training": {
+      "title": "리액트 네이티브 교육",
+      "description": "팀원들에게 리액트 네이티브 개발 교육 제공."
+    }
+  }
+}

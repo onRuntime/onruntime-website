@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Lokale Expertise nicht verfügbar",
+      "description": "Wir haben bisher keine spezifische Expertise für diese Stadt."
+    }
+  },
+  "breadcrumb": {
+    "home": "Startseite",
+    "local-expertise": "Lokale Expertise"
+  },
+  "challenges": {
+    "title": "Digitale Herausforderungen für Unternehmen in {city}",
+    "description": "Unternehmen in {city} stehen bei der digitalen Transformation vor spezifischen Herausforderungen. Unsere Expertise ermöglicht es uns, diese effektiv anzugehen.",
+    "market-issues": "Markt Herausforderungen in {region}",
+    "our-solutions": "Unsere maßgeschneiderten Lösungen",
+    "discover-all-services": "Entdecke alle unsere Dienstleistungen"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen zu Webprojekten in {city}",
+    "description": "Finde Antworten auf die häufigsten Fragen von Unternehmen in {city} zu ihren digitalen Projekten.",
+    "questions": {
+      "choose-agency": {
+        "question": "Wie wählt man die richtige Webagentur in {city} aus?",
+        "answer": "Um die richtige Webagentur in {city} auszuwählen, solltest du deren Kenntnisse des lokalen Marktes, ihr Portfolio in deiner Branche und ihre Fähigkeit zur Erreichung deiner spezifischen Ziele bewerten. Expertise in den digitalen Herausforderungen, die spezifisch für die Region {region} sind, ist ebenfalls ein wichtiger Faktor."
+      },
+      "project-costs": {
+        "question": "Was kosten Webprojekte in {city}?",
+        "answer": "Die Kosten für ein Webprojekt in {city} variieren je nach Komplexität, Funktionen und Zielen. Für eine professionelle Präsentationswebsite solltest du mit Kosten zwischen 3.000 und 8.000 € rechnen. Bei einer maßgeschneiderten Webanwendung oder einem E-Commerce-Projekt liegen die Preise in der Regel bei mindestens 10.000 €. Fordere ein persönliches Angebot an, um eine genaue Schätzung zu erhalten."
+      },
+      "development-time": {
+        "question": "Wie lange dauert die Entwicklung einer Website oder Anwendung für mein Unternehmen in {city}?",
+        "answer": "Die Entwicklungszeiten für ein Unternehmen in {city} hängen von der Projektskomplexität ab. Eine Präsentationswebsite kann in 4-8 Wochen abgeschlossen werden, während eine maßgeschneiderte Anwendung oder ein E-Commerce-Projekt typischerweise 2-4 Monate in Anspruch nimmt. Unsere agile Methodik ermöglicht es, schrittweise Fortschritte schnell zu sehen."
+      },
+      "remote-work": {
+        "question": "Kannst du effektiv remote mit meinem Unternehmen in {city} arbeiten?",
+        "answer": "Auf jeden Fall. Wir arbeiten effektiv mit Unternehmen in {city} über unsere bewährte Methode für Remote-Arbeit zusammen. Regelmäßige Videokonferenzen, leistungsstarke Kollaborationstools und unser umfassendes Wissen über den lokalen Markt in {region} ermöglichen es uns, den Fortschritt so effektiv zu begleiten, als wären wir vor Ort."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Was unsere Kunden in {city} sagen",
+    "description": "Entdecke das Feedback von lokalen Unternehmen, mit denen wir zusammengearbeitet haben."
+  }
+}

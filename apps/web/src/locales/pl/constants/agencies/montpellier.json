@@ -1,0 +1,79 @@
+{
+  "title": "Rozwój stron internetowych w Montpellier | Rozwiązania cyfrowe dla firm z Languedoc",
+  "description": "Stwórz swoją stronę internetową lub aplikację mobilną w Montpellier. Spersonalizowane rozwiązania cyfrowe dla firm z Montpellier, dostosowane do lokalnych wyzwań w Twoim sektorze.",
+  "hero": {
+    "title": "Rozwój stron i aplikacji mobilnych w Montpellier",
+    "description": "Pomagamy firmom w Montpellier i regionie Languedoc w cyfryzacji dzięki spersonalizowanym rozwiązaniom internetowym, idealnie dopasowanym do specyficznych wyzwań regionalnego rynku."
+  },
+  "intro": "Dynamiczne miasto na skrzyżowaniu wpływów śródziemnomorskich i Languedocu, Montpellier wyróżnia się ekosystemem innowacji w zdrowiu, prestiżowymi uczelniami i sztuką życia. Nasza wiedza cyfrowa pozwala firmom z Montpellier wykorzystać tę bogactwo i wyróżnić się w konkurencyjnym otoczeniu.",
+  "expertise": "Nasz zespół projektuje strony internetowe, aplikacje i rozwiązania cyfrowe idealnie dopasowane do firm z Montpellier i okolic. Rozumiemy specyficzne wyzwania Twojego lokalnego rynku, czy to w sektorze zdrowia, edukacji czy gastronomii, i oferujemy rozwiązania cyfrowe, które podkreślają Twoją ekspertyzę i lokalne korzenie.",
+  "why-choose-us": "Nasza dogłębna znajomość rynku Montpellier pozwala nam opracowywać rozwiązania cyfrowe idealnie dopasowane do specyficznych wyzwań lokalnych firm. Rozumiemy równowagę między innowacją a tradycją, która charakteryzuje Montpellier, i integrujemy tę wiedzę w każdym projekcie, aby stworzyć autentyczne i wydajne doświadczenia cyfrowe.",
+  "key-business-sectors": {
+    "health-biotech": "Zdrowie i biotechnologie",
+    "higher-education": "Edukacja wyższa",
+    "viticulture": "Winiarstwo",
+    "tourism": "Turystyka"
+  },
+  "local-challenges": {
+    "biotech-health-digitalization": "Cyfryzacja rozwijającego się sektora biotechnologii i zdrowia",
+    "innovative-educational-platforms": "Potrzeba innowacyjnych platform edukacyjnych dla licznych uniwersytetów i szkół",
+    "wine-heritage-digital-showcase": "Cyfrowa ekspozycja dziedzictwa winiarskiego i lokalnych produktów",
+    "tourism-adaptation": "Dostosowanie graczy turystycznych do konkurencji śródziemnomorskiej"
+  },
+  "benefits": {
+    "health-sector-solutions": "Spersonalizowane rozwiązania dopasowane do innowacyjnych firm w sektorze zdrowia",
+    "educational-platforms-expertise": "Wyspecjalizowana wiedza w zakresie platform edukacyjnych i narzędzi e-learningowych",
+    "languedoc-market-knowledge": "Dogłębna znajomość rynku Languedoc i jego specyfiki",
+    "regional-products-ui": "Interfejsy użytkownika zoptymalizowane do prezentacji produktów regionalnych",
+    "personalized-support": "Spersonalizowane wsparcie przez cały czas trwania Twojego projektu cyfrowego"
+  },
+  "primary-stat": {
+    "label": "biotechnologie"
+  },
+  "strengths": {
+    "connected-health": {
+      "title": "Connected Health",
+      "description": "Rozwiązania cyfrowe dla startupów i firm z branży nauk przyrodniczych."
+    },
+    "elearning": {
+      "title": "E-learnig",
+      "description": "Platformy edukacyjne dla uniwersytetów i instytucji szkoleniowych."
+    },
+    "digital-terroir": {
+      "title": "Cyfrowy Terroir",
+      "description": "Strony internetowe i e-commerce dla winnic i lokalnych producentów."
+    },
+    "regional-tourism": {
+      "title": "Turystyka regionalna",
+      "description": "Cyfrowe doświadczenia, które podkreślają dziedzictwo Languedoc."
+    }
+  },
+  "focused-services": {
+    "health-applications": {
+      "name": "Aplikacje zdrowotne",
+      "description": "Spersonalizowane rozwiązania dla startupów i firm z branży nauk przyrodniczych."
+    },
+    "educational-platforms": {
+      "name": "Platformy edukacyjne",
+      "description": "Cyfrowe narzędzia edukacyjne dla instytucji edukacyjnych."
+    },
+    "terroir-ecommerce": {
+      "name": "E-commerce Terroir",
+      "description": "Sklepy internetowe dla lokalnych producentów i winnic."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Ekspertyza",
+      "description": "Lata doświadczenia"
+    },
+    "satisfaction": {
+      "label": "Satysfakcja",
+      "description": "Zadowoleni klienci"
+    },
+    "average-time": {
+      "label": "Średni czas",
+      "description": "Tygodnie realizacji"
+    }
+  }
+}

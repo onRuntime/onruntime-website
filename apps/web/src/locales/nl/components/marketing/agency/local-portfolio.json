@@ -1,0 +1,24 @@
+{
+  "project": {
+    "market-application": "Aanvraag voor de {region} markt",
+    "expertise-featured": "Onze ervaring met dit project heeft ons in staat gesteld om expertise te ontwikkelen die vooral van toepassing is op de nieuwe technologieën in de {region} regio.",
+    "expertise-digital": "Onze ervaring met dit project heeft ons in staat gesteld om expertise te ontwikkelen die vooral van toepassing is op de digitale handel in de {region} regio.",
+    "skills-featured": "De vaardigheden en technologieën die in dit project zijn gebruikt, zijn direct overdraagbaar naar de behoeften van bedrijven in {name}, vooral op het gebied van open innovatie.",
+    "skills-digital": "De vaardigheden en technologieën die in dit project zijn gebruikt, zijn direct overdraagbaar naar de behoeften van bedrijven in {name}, vooral op het gebied van digitale transformatie.",
+    "view-project": "Bekijk project"
+  },
+  "tags": {
+    "featured": "Uitgelicht project",
+    "open-source": "Open Source",
+    "customer": "Klantproject"
+  },
+  "section": {
+    "title": "Onze expertise toepasbaar op projecten in {name}",
+    "description": "Ontdek enkele van onze prestaties die onze knowhow illustreren, toepasbaar op de digitale uitdagingen van bedrijven in {region}."
+  },
+  "cta": {
+    "title": "Een digitaal project voor jouw bedrijf in {name}?",
+    "description": "Onze expertise is toepasbaar op alle sectoren, met bijzondere aandacht voor de specifieke kenmerken van de {region} markt.",
+    "button": "Laten we je project bespreken"
+  }
+}

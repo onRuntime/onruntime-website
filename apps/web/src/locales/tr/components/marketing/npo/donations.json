@@ -1,0 +1,19 @@
+{
+  "title": "Bağış yap",
+  "description": "Tek seferlik bağış yaparak organizasyonumuzu ve projelerimizi destekleyin. Katkınız, faaliyetlerimizi, etkinliklerimizi ve gelişim araçlarımızı finanse etmemize yardımcı oluyor.",
+  "other": "Diğer",
+  "custom-amount": {
+    "label": "Özel miktar",
+    "placeholder": "Bir miktar girin"
+  },
+  "button": {
+    "donate": "Bağış yap",
+    "processing": "İşleniyor..."
+  },
+  "secure-payment": "Stripe ile güvenli ödeme",
+  "toast": {
+    "title": "Ödeme simüle edildi",
+    "description-prefix": "Bağışınız olan",
+    "description-suffix": "başarıyla işlendi. Gerçek bir uygulamada, sizi Stripe'a yönlendirecektik."
+  }
+}

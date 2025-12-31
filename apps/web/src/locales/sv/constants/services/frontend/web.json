@@ -1,0 +1,80 @@
+{
+  "name": "Webapplikationer",
+  "description": "Modern webapplikationsutveckling med React och Next.js",
+  "hero": {
+    "title": "Frontend webbutveckling",
+    "description": "Skapa moderna, responsiva och högpresterande webapplikationer med de senaste frontendteknologierna. Vår expertis garanterar en exceptionell användarupplevelse."
+  },
+  "features": {
+    "react-nextjs": {
+      "title": "React & Next.js",
+      "description": "Utveckling med moderna ramverk för presterande och skalbara applikationer."
+    },
+    "responsive-design": {
+      "title": "Responsiv design",
+      "description": "Adaptiva gränssnitt för optimal upplevelse på alla enheter."
+    },
+    "web-performance": {
+      "title": "Webbprestanda",
+      "description": "Avancerad optimering för snabba laddningstider och smidig upplevelse."
+    },
+    "modern-ui-ux": {
+      "title": "Modern UI/UX",
+      "description": "Eleganta och intuitiva användargränssnitt som följer de senaste trenderna."
+    }
+  },
+  "benefits": {
+    "reactive-apps": {
+      "title": "Reaktiva applikationer",
+      "description": "Dynamiska och reaktiva gränssnitt för en smidig användarupplevelse."
+    },
+    "mobile-first": {
+      "title": "Mobil först",
+      "description": "Designad med fokus på mobila enheter och sedan anpassad för större skärmar."
+    },
+    "optimal-performance": {
+      "title": "Optimal prestanda",
+      "description": "Avancerad optimering för minimala laddningstider."
+    },
+    "seo-optimized": {
+      "title": "SEO-optimerad",
+      "description": "Struktur optimerad för utmärkt naturlig placering."
+    }
+  },
+  "faq": {
+    "technologies": {
+      "question": "Vilka teknologier använder ni för frontendutveckling?",
+      "answer": "Vi använder främst React med Next.js samt TypeScript för mer robust kod. Vi integrerar även moderna verktyg som Tailwind CSS för styling och olika bibliotek för animationer och interaktioner."
+    },
+    "performance": {
+      "question": "Hur hanterar ni prestanda för webapplikationer?",
+      "answer": "Vi tillämpar bästa metoder för optimering: kodsplittring, lazy loading, bildoptimering, smart caching och vi använder verktyg för prestandamätning för att säkerställa optimala laddningstider."
+    },
+    "seo": {
+      "question": "Erbjuder ni SEO-lösningar?",
+      "answer": "Ja, vi utvecklar applikationer med SEO i åtanke: server-side rendering (SSR), statisk sidgenerering, dynamisk metadata, semantisk struktur och sökmotoroptimering."
+    },
+    "browser-compatibility": {
+      "question": "Hur säkerställer ni kompatibilitet med olika webbläsare?",
+      "answer": "Vi testar på stora webbläsare och versioner, använder moderna transpileringsverktyg, och sätter upp lämpliga fallback-lösningar för att garantera en konsekvent upplevelse."
+    },
+    "maintenance": {
+      "question": "Erbjuder ni underhåll för utvecklade applikationer?",
+      "answer": "Ja, vi erbjuder olika underhållsplaner inklusive säkerhetsuppdateringar, kontinuerlig prestandaoptimering och funktionell utveckling."
+    }
+  },
+  "complementary": {
+    "ui-ux-design": {
+      "title": "UI/UX-design",
+      "description": "Design av moderna och ergonomiska användargränssnitt."
+    },
+    "api-integration": {
+      "title": "API-integration",
+      "description": "Anslutning med dina befintliga backend-system och tjänster."
+    },
+    "internationalization": {
+      "title": "Internationalisering",
+      "description": "Anpassa din applikation för en internationell publik."
+    }
+  }
+}

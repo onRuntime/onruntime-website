@@ -1,0 +1,80 @@
+{
+  "name": "Kablolar",
+  "description": "Yapıyı ve kullanıcı yolculuğunu tasarlama",
+  "hero": {
+    "title": "Kablolar ve UX Mimarisi",
+    "description": "Kullanıcı arayüzlerinizi profesyonel kablolar ile yapılandırın. UX tasarım uzmanlığımız, projenizin en erken aşamalarından itibaren sezgisel mimari ve optimal kullanıcı deneyimi garantisi verir."
+  },
+  "features": {
+    "ux-architecture": {
+      "title": "UX mimarisi",
+      "description": "Arayüzlerinizin net ve mantıklı yapısı."
+    },
+    "user-journey": {
+      "title": "Kullanıcı yolculuğu",
+      "description": "Navigasyon akışlarının optimizasyonu."
+    },
+    "visual-hierarchy": {
+      "title": "Görsel hiyerarşi",
+      "description": "İçerik ve özelliklerin verimli organizasyonu."
+    },
+    "interactions": {
+      "title": "Etkileşimler",
+      "description": "Davranışların ve geçişlerin tanımı."
+    }
+  },
+  "benefits": {
+    "responsive-design": {
+      "title": "Duyarlı tasarım",
+      "description": "Tüm ekran formatlarına adapte olma."
+    },
+    "rapid-prototyping": {
+      "title": "Hızlı prototipleme",
+      "description": "Verimli testler ve yinelemeler."
+    },
+    "collaboration": {
+      "title": "İş birliği",
+      "description": "Tüm paydaşlarla net iletişim."
+    },
+    "early-validation": {
+      "title": "Erken doğrulama",
+      "description": "UX sorunlarının hızlı tespiti ve düzeltilmesi."
+    }
+  },
+  "faq": {
+    "what-is-wireframe": {
+      "question": "Kablo nedir ve neden önemlidir?",
+      "answer": "Kablo, arayüzünüzün yapı, hiyerarşi ve işlevselliğe odaklanan şematik bir temsili olup, nihai tasarım unsurlarını içermez. Bilgi mimarisini ve kullanıcı deneyimini detaylı tasarım için yatırım yapmadan önce doğrulayan önemli bir adımdır."
+    },
+    "creation-process": {
+      "question": "Oluşturma süreci nasıl işliyor?",
+      "answer": "Süreç, ihtiyaç ve hedeflerinizi analiz etmekle başlar. Ardından genel yapıyı doğrulamak için düşük sadakatli kablolar oluşturuyoruz, sonra etkileşimlerle daha detaylı versiyonlar hazırlıyoruz. Birkaç yinelemeden ve sizin geri bildiriminizden sonra, UI tasarımı için temel olacak kabloları son haline getiriyoruz."
+    },
+    "deliverables": {
+      "question": "Ne tür teslimatlar sağlanıyor?",
+      "answer": "Her ana ekran için tamamlanmış kablo seti, kullanıcı akış diyagramları, etkileşim belgeleri ve kullanıcı yolculuklarını test etmek için etkileşimli prototipler alıyorsunuz. Tüm kaynak dosyaları da sağlanıyor."
+    },
+    "responsive-handling": {
+      "question": "Duyarlı tasarımı nasıl ele alıyorsunuz?",
+      "answer": "Mobil öncelikli bir yaklaşım izleyerek, her önemli ekran formatına (masaüstü, tablet, mobil) uygun kablolar oluşturuyoruz. Her versiyon, ortamında mümkün olan en iyi kullanıcı deneyimini sunmak için optimize edilmiştir."
+    },
+    "creation-timeline": {
+      "question": "Kablo oluşturma süresi ne kadar?",
+      "answer": "Süre, projenin karmaşıklığına bağlıdır, ancak genel olarak ortalama bir proje için 2 ila 4 hafta sürer, bu analiz, oluşturma, yineleme ve sonlandırma aşamalarını içerir. Projenin başında detaylı bir takvim oluşturuyoruz."
+    }
+  },
+  "complementary": {
+    "ux-audit": {
+      "title": "UX denetimi",
+      "description": "Mevcut arayüzlerin derinlemesine analizi."
+    },
+    "prototyping": {
+      "title": "Prototipleme",
+      "description": "Etkileşimli prototiplerin oluşturulması."
+    },
+    "ux-documentation": {
+      "title": "UX belgeleri",
+      "description": "Kullanıcı yolculuklarının detaylı belgeleri."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "short-description": "Rozszerzenie przeglądarki, które przekształca Instagram w tryb ciemny, podobnie jak aplikacja na iOS.",
+  "description": "Zmień temat Instagram.com na tryb ciemny, gdy system jest w trybie ciemnym.",
+  "long-description": "Dark Theme for Instagram™ to rozszerzenie przeglądarki, które zmienia wizualne doświadczenie Instagram.com, przyjmując ciemny motyw, podobny do wyglądu aplikacji na iOS.\n\nRozszerzenie oferuje proste i eleganckie rozwiązanie, które zmniejsza zmęczenie oczu i poprawia doświadczenie przeglądania Instagrama, szanując jednocześnie preferencje systemu operacyjnego.",
+  "features": {
+    "auto-dark-mode": {
+      "title": "Automatyczny tryb ciemny",
+      "description": "Automatycznie włączaj ciemny motyw w zależności od ustawień systemowych."
+    },
+    "multi-browser": {
+      "title": "Kompatybilność z wieloma przeglądarkami",
+      "description": "Dostępne dla Firefox, Edge i Chrome."
+    },
+    "open-source": {
+      "title": "Open Source",
+      "description": "Swobodnie dostępny i weryfikowalny kod źródłowy."
+    }
+  },
+  "technologies": {
+    "javascript": {
+      "description": "Rozwój rozszerzeń."
+    },
+    "chrome-api": {
+      "description": "Integracja przeglądarki."
+    },
+    "css": {
+      "description": "Dostosowywanie motywów."
+    }
+  },
+  "metrics": {
+    "users": {
+      "value": "52k+",
+      "label": "Użytkownicy",
+      "description": "Aktywni użytkownicy."
+    },
+    "installs": {
+      "value": "82k+",
+      "label": "Instalacje",
+      "description": "Łączna liczba instalacji."
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "Open Source",
+      "description": "Publiczny kod źródłowy."
+    }
+  },
+  "screenshots": {
+    "dark-interface": {
+      "caption": "Interfejs Instagrama w trybie ciemnym."
+    }
+  },
+  "challenges": {
+    "instagram-updates-compatibility": "Utrzymywanie zgodności z częstymi aktualizacjami Instagrama.",
+    "cross-browser-consistency": "Zapewnienie spójnego ciemnego motywu w różnych przeglądarkach.",
+    "browser-performance": "Minimalizacja wpływu na wydajność przeglądarki."
+  },
+  "learnings": {
+    "dynamic-interface-modification": "Złożoność dynamicznego modyfikowania interfejsów stron.",
+    "cross-browser-compatibility": "Znaczenie zgodności między przeglądarkami.",
+    "platform-updates-management": "Zarządzanie częstymi aktualizacjami platformy internetowej."
+  },
+  "future-plans": {
+    "more-customization": "Dodawanie więcej opcji dostosowywania.",
+    "instagram-versions-compatibility": "Poprawa zgodności z różnymi wersjami Instagrama."
+  }
+}

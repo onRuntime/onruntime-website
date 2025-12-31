@@ -1,0 +1,28 @@
+{
+  "tagline": "Ein kreatives Studio, weltweit.",
+  "location": "Aber du kannst uns in <strong>Rouen</strong> und <strong>Paris</strong> treffen.",
+  "nav": {
+    "navigation": "Navigation",
+    "resources": "Ressourcen",
+    "other": "Sonstiges",
+    "social": "Soziale Medien"
+  },
+  "links": {
+    "services": "Unsere Dienstleistungen",
+    "projects": "Unsere Projekte",
+    "npo": "Der Verein",
+    "careers": "Karriere",
+    "blog": "Blog",
+    "glossary": "Glossar",
+    "community": "Gemeinschaft",
+    "status": "Status",
+    "contact": "Kontakt",
+    "terms": "Nutzungsbedingungen",
+    "privacy": "Datenschutzrichtlinie",
+    "company": "Firmendetails"
+  },
+  "status": "Alle Dienstleistungen sind verfügbar",
+  "language": {
+    "label": "Sprache"
+  }
+}

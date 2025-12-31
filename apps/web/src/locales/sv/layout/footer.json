@@ -1,0 +1,28 @@
+{
+  "tagline": "Ett kreativt studio, runt om i världen.",
+  "location": "Men du kan träffa oss i <strong>Rouen</strong> och <strong>Paris</strong>.",
+  "nav": {
+    "navigation": "Navigation",
+    "resources": "Resurser",
+    "other": "Annat",
+    "social": "Sociala medier"
+  },
+  "links": {
+    "services": "Våra tjänster",
+    "projects": "Våra projekt",
+    "npo": "Föreningen",
+    "careers": "Karriärer",
+    "blog": "Blogg",
+    "glossary": "Glossarium",
+    "community": "Gemenskap",
+    "status": "Status",
+    "contact": "Kontakt",
+    "terms": "Användarvillkor",
+    "privacy": "Sekretesspolicy",
+    "company": "Företagsinformation"
+  },
+  "status": "Alla tjänster är operationella",
+  "language": {
+    "label": "Språk"
+  }
+}

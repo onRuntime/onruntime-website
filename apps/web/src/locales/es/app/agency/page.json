@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Experiencia web local | Desarrollo digital en las principales ciudades de Francia",
+    "description": "Apoyamos a las empresas locales en toda Francia con nuestra experiencia en mercados digitales regionales. Soluciones digitales adaptadas a cada región."
+  },
+  "hero": {
+    "title": "Tu socio digital en toda Francia",
+    "description": "Desarrollamos soluciones digitales innovadoras adaptadas a las especificidades de cada mercado regional francés. Nuestro equipo domina los desafíos digitales locales para apoyarte de manera efectiva, estés donde estés en Francia.",
+    "cta": "Habla de tu proyecto",
+    "secondary-cta": "Descubre nuestra experiencia local"
+  },
+  "expertise": {
+    "title": "Experiencia adaptada a cada territorio",
+    "description": "Nuestro equipo analiza y comprende los ecosistemas digitales locales para ofrecerte soluciones perfectamente adaptadas a las especificidades económicas y culturales de tu región.",
+    "local-markets": {
+      "title": "Comprendiendo los mercados locales",
+      "description": "Estudiamos y dominamos las especificidades y tendencias de los ecosistemas digitales regionales."
+    },
+    "remote-work": {
+      "title": "Trabajo remoto efectivo",
+      "description": "Nuestro equipo colabora de forma remota con tu empresa, estés donde estés en Francia, con la misma eficiencia que en persona."
+    },
+    "custom-solutions": {
+      "title": "Soluciones personalizadas",
+      "description": "Estrategias digitales a medida que se adaptan a tu contexto local y a las particularidades de tu mercado regional."
+    }
+  },
+  "cities": {
+    "title": "Nuestra experiencia en las principales ciudades de Francia",
+    "description": "Descubre nuestro conocimiento profundo de los mercados locales y cómo puede beneficiar a tu negocio.",
+    "region-label": "Región",
+    "discover-cta": "Descubre nuestra experiencia"
+  },
+  "why-us": {
+    "title": "¿Por qué trabajar con nosotros para tu proyecto local?",
+    "description": "Nuestro conocimiento de los mercados regionales ofrece muchas ventajas para tu negocio.",
+    "local-ecosystems": {
+      "title": "Experiencia en ecosistemas locales",
+      "description": "Un equipo que entiende la dinámica del mercado específica de tu región, lo que permite una estrategia digital perfectamente adaptada."
+    },
+    "remote-agility": {
+      "title": "Agilidad remota",
+      "description": "Colaboración efectiva a través de videoconferencias, mensajería y herramientas colaborativas para una experiencia de trabajo fluida y productiva."
+    },
+    "localized-strategies": {
+      "title": "Estrategias localizadas",
+      "description": "Soluciones digitales que tienen en cuenta las especificidades culturales y económicas de tu territorio."
+    },
+    "regional-analysis": {
+      "title": "Análisis del mercado regional",
+      "description": "Estudio de tendencias, competencia y oportunidades específicas de tu sector geográfico para una estrategia digital óptima."
+    }
+  },
+  "services": {
+    "title": "Nuestros servicios para todas las regiones de Francia",
+    "description": "Soluciones digitales completas adaptadas a las especificidades de cada mercado local.",
+    "design": {
+      "title": "Diseño UI/UX",
+      "description": "Interfaces adaptadas a los usos locales"
+    },
+    "integration": {
+      "title": "Integración",
+      "description": "Soluciones regionales de CMS y comercio electrónico"
+    },
+    "frontend": {
+      "title": "Front-end",
+      "description": "Aplicaciones adaptadas a tus usuarios"
+    },
+    "backend": {
+      "title": "Back-end",
+      "description": "Infraestructuras robustas y escalables"
+    },
+    "discover-all": "Descubre todos nuestros servicios"
+  },
+  "cta": {
+    "title": "¿Un proyecto digital adaptado a tu mercado local?",
+    "description": "Contáctanos para hablar de tu proyecto. Nuestra experiencia en mercados locales nos permite apoyarte de manera efectiva, estés donde estés en Francia.",
+    "contact": "Contáctanos",
+    "learn-more": "Conoce más sobre nuestro enfoque"
+  }
+}

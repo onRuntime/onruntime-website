@@ -1,0 +1,80 @@
+{
+  "name": "Shopify",
+  "description": "Creëren en aanpassen van Shopify-webwinkels",
+  "hero": {
+    "title": "Maak je online winkel met Shopify",
+    "description": "Zet je e-commerce visie om in werkelijkheid met onze Shopify expertise. We maken hoogpresterende, esthetische en conversie-geoptimaliseerde webwinkels."
+  },
+  "features": {
+    "custom-design": {
+      "title": "Aangepast ontwerp",
+      "description": "Creëren van een unieke thema die je merk weerspiegelt en de gebruikerservaring optimaliseert."
+    },
+    "conversion-optimization": {
+      "title": "Conversie-optimalisatie",
+      "description": "Implementatie van best practices om je verkopen te maximaliseren en je klanten te behouden."
+    },
+    "enhanced-security": {
+      "title": "Verbeterde beveiliging",
+      "description": "Bescherming van je gegevens en die van je klanten met de nieuwste beveiligingsnormen."
+    },
+    "advanced-integrations": {
+      "title": "Geavanceerde integraties",
+      "description": "Verbinding met je favoriete tools voor voorraadbeheer, boekhouding en marketing."
+    }
+  },
+  "benefits": {
+    "secure-payments": {
+      "title": "Veilige betalingen",
+      "description": "Integratie van belangrijke betaalmethoden en veilig transactiemanagement."
+    },
+    "international-by-default": {
+      "title": "Internationaal per standaard",
+      "description": "Verkoop wereldwijd met multi-valuta beheer en automatische vertalingen."
+    },
+    "powerful-analytics": {
+      "title": "Krachtige analytics",
+      "description": "Gedetailleerde tracking van je prestaties en inzicht om je verkopen te optimaliseren."
+    },
+    "simplified-logistics": {
+      "title": "Vereenvoudigde logistiek",
+      "description": "Efficiënt orderbeheer en integratie met grote vervoerders."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Hoe lang duurt het om een Shopify-winkel te maken?",
+      "answer": "De gemiddelde tijd om een Shopify-winkel te creëren varieert van 4 tot 8 weken, afhankelijk van de complexiteit van het project. Dit omvat de ontwerpfase, ontwikkeling, productintegratie en testing."
+    },
+    "migration": {
+      "question": "Kun je mijn bestaande winkel naar Shopify migreren?",
+      "answer": "Ja, we bieden een compleet migratieservice van je bestaande winkel naar Shopify, inclusief de overdracht van producten, klanten en bestellingen, terwijl we zorgen voor een soepele overgang."
+    },
+    "customization-types": {
+      "question": "Welke soorten aanpassingen bied je aan?",
+      "answer": "We bieden complete aanpassing van je Shopify-winkel: aangepast ontwerp, aangepaste functies, specifieke integraties, en mobiele optimalisatie."
+    },
+    "post-launch-support": {
+      "question": "Bied je ondersteuning na de lancering?",
+      "answer": "Ja, we bieden verschillende ondersteuning en onderhoudsplannen om de soepele werking van je winkel na de lancering te waarborgen, inclusief updates, optimalisaties en technische ondersteuning."
+    },
+    "security": {
+      "question": "Hoe zorg je voor de beveiliging van mijn winkel?",
+      "answer": "We implementeren beveiligings-beste-praktijken: SSL, PCI DSS-naleving, regelmatige back-ups, en fraude-bescherming. Shopify biedt ook bankniveau beveiliging voor alle transacties."
+    }
+  },
+  "complementary": {
+    "seo": {
+      "title": "SEO",
+      "description": "Zoekmachine-optimalisatie om je zichtbaarheid te vergroten."
+    },
+    "digital-marketing": {
+      "title": "Digitale marketing",
+      "description": "Marketingstrategieën aangepast om meer klanten aan te trekken en te converteren."
+    },
+    "training": {
+      "title": "Opleiding",
+      "description": "Complete training om je winkel zelfstandig te beheren."
+    }
+  }
+}

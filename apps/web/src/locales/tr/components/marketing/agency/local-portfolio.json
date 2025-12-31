@@ -1,0 +1,24 @@
+{
+  "project": {
+    "market-application": "{region} pazarına başvuru",
+    "expertise-featured": "Bu projedeki deneyimimiz, özellikle {region} bölgesindeki yeni teknolojiler sektörüne uygulanabilir uzmanlık geliştirmemizi sağladı.",
+    "expertise-digital": "Bu projedeki deneyimimiz, özellikle {region} bölgesindeki dijital ticaret sektörüne uygulanabilir uzmanlık geliştirmemizi sağladı.",
+    "skills-featured": "Bu projede kullanılan beceriler ve teknolojiler, açık inovasyon alanında özellikle {name} işletmelerinin ihtiyaçlarına doğrudan aktarılabilir.",
+    "skills-digital": "Bu projede kullanılan beceriler ve teknolojiler, dijital dönüşüm alanında özellikle {name} işletmelerinin ihtiyaçlarına doğrudan aktarılabilir.",
+    "view-project": "Projeyi görüntüle"
+  },
+  "tags": {
+    "featured": "Öne çıkan proje",
+    "open-source": "Açık Kaynak",
+    "customer": "Müşteri projesi"
+  },
+  "section": {
+    "title": "{name} projelerine yönelik uzmanlığımız",
+    "description": "{region} işletmelerinin dijital zorluklarına uygulanabilir bilgi birikimimizi gösteren bazı başarılarımızı keşfedin."
+  },
+  "cta": {
+    "title": "{name} işletmeniz için dijital bir proje mi?",
+    "description": "Uzmanlığımız, {region} pazarının özelliklerine özel bir dikkatle tüm sektörlere uygulanabilir.",
+    "button": "Projenizi konuşalım"
+  }
+}

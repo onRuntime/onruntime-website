@@ -1,0 +1,80 @@
+{
+  "name": "Mobilapplikationer",
+  "description": "Skapa inhemska mobilapplikationer med React Native",
+  "hero": {
+    "title": "React Native mobilutveckling",
+    "description": "Skapa högpresterande inhemska mobilapplikationer för iOS och Android med React Native. Vår expertis garanterar robusta applikationer och en exceptionell användarupplevelse."
+  },
+  "features": {
+    "react-native-expo": {
+      "title": "React Native & Expo",
+      "description": "Effektiv plattformsövergripande utveckling för iOS och Android med en enda kodbas."
+    },
+    "native-design": {
+      "title": "Inhemsk design",
+      "description": "Gränssnitt som följer designriktlinjer för iOS och Android för en bekant upplevelse."
+    },
+    "native-performance": {
+      "title": "Inhemsk prestanda",
+      "description": "Avancerad optimering för nästan inhemsk prestanda på varje plattform."
+    },
+    "mobile-ui-ux": {
+      "title": "Mobil UI/UX",
+      "description": "Intuitiva mobilgränssnitt som följer bästa praxis för varje plattform."
+    }
+  },
+  "benefits": {
+    "multi-platform": {
+      "title": "Multiplattform",
+      "description": "Applikationer som fungerar på både iOS och Android från en enda kodbas."
+    },
+    "tablet-support": {
+      "title": "Tabletstöd",
+      "description": "Gränssnitt anpassade till olika skärmstorlekar och orienteringar."
+    },
+    "optimal-performance": {
+      "title": "Optimal prestanda",
+      "description": "Inhemsk optimering för maximal prestanda och smidighet."
+    },
+    "native-experience": {
+      "title": "Inhemsk upplevelse",
+      "description": "Använder inhemska enhetsfunktioner (kamera, GPS, aviseringar...)."
+    }
+  },
+  "faq": {
+    "why-react-native": {
+      "question": "Varför välja React Native för mobilutveckling?",
+      "answer": "React Native gör det möjligt att utveckla högpresterande applikationer för iOS och Android från en enda kodbas vilket minskar kostnader och utvecklingstid samtidigt som den inhemska kvaliteten bibehålls. Det drar också nytta av ett stort ekosystem och Meta (Facebook) stöd."
+    },
+    "performance": {
+      "question": "Hur säkerställer ni applikationens prestanda?",
+      "answer": "Vi optimerar varje aspekt av applikationen: starttid, minnesanvändning, smidiga animationer, dataladdning... Vi använder även profileringsverktyg för att identifiera och lösa prestandaproblem."
+    },
+    "store-publishing": {
+      "question": "Hanterar ni publicering i butiker?",
+      "answer": "Ja, vi hanterar hela publiceringsprocessen: förberedelse av tillgångar, konfiguration av utvecklarkonton, inlämning till butiker (App Store och Play Store) och uppföljning av uppdateringar."
+    },
+    "updates": {
+      "question": "Hur hanterar ni applikationsuppdateringar?",
+      "answer": "Vi sätter upp OTA (Over The Air) uppdateringssystem när det är möjligt, och hanterar uppdateringar via butiker med en optimerad process för att minimera valideringstider."
+    },
+    "post-launch-support": {
+      "question": "Erbjuder ni support efter lansering?",
+      "answer": "Ja, vi erbjuder olika underhållsplaner som inkluderar: prestandaövervakning, buggfixar, säkerhetsuppdateringar och funktionsutveckling."
+    }
+  },
+  "complementary": {
+    "store-publishing": {
+      "title": "Publicering i butiker",
+      "description": "Fullständig hantering av publicering i App Store och Play Store."
+    },
+    "backend-integration": {
+      "title": "Backend-integration",
+      "description": "Anslutning till dina befintliga system och API:er."
+    },
+    "react-native-training": {
+      "title": "React Native utbildning",
+      "description": "Utbilda dina team i React Native-utveckling."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Shopify",
+  "description": "Shopify çevrimiçi mağazalarının oluşturulması ve özelleştirilmesi",
+  "hero": {
+    "title": "Shopify ile çevrimiçi mağazanızı oluşturun",
+    "description": "E-ticaret vizyonunuzu gerçeğe dönüştürün. Biz yüksek performanslı, estetik ve dönüşüm odaklı çevrimiçi mağazalar oluşturuyoruz."
+  },
+  "features": {
+    "custom-design": {
+      "title": "Özel tasarım",
+      "description": "Markanızı yansıtan ve kullanıcı deneyimini optimize eden benzersiz bir tema yaratma."
+    },
+    "conversion-optimization": {
+      "title": "Dönüşüm optimizasyonu",
+      "description": "Satışlarınızı maksimuma çıkarmak ve müşterilerinizi elde tutmak için en iyi uygulamaların uygulanması."
+    },
+    "enhanced-security": {
+      "title": "Gelişmiş güvenlik",
+      "description": "Verilerinizi ve müşterilerinizin verilerini en son güvenlik standartlarıyla koruma."
+    },
+    "advanced-integrations": {
+      "title": "Gelişmiş entegrasyonlar",
+      "description": "Envanter yönetimi, muhasebe ve pazarlama için favori araçlarınızla bağlantı."
+    }
+  },
+  "benefits": {
+    "secure-payments": {
+      "title": "Güvenli ödemeler",
+      "description": "Ana ödeme yöntemlerinin entegrasyonu ve güvenli işlem yönetimi."
+    },
+    "international-by-default": {
+      "title": "Varsayılan olarak uluslararası",
+      "description": "Çoklu para birimi yönetimi ve otomatik çevirilerle dünya genelinde satış yapın."
+    },
+    "powerful-analytics": {
+      "title": "Güçlü analizler",
+      "description": "Performansınızı ayrıntılı bir şekilde takip etme ve satışlarınızı optimize etme içgörüleri."
+    },
+    "simplified-logistics": {
+      "title": "Basitleştirilmiş lojistik",
+      "description": "Verimli sipariş yönetimi ve büyük taşıyıcılarla entegrasyon."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Shopify mağazasını oluşturmak ne kadar sürer?",
+      "answer": "Shopify mağazası oluşturma süresi proje karmaşıklığına bağlı olarak genellikle 4 ile 8 hafta arasındadır. Bu tasarım aşaması, geliştirme, ürün entegrasyonu ve testleri içerir."
+    },
+    "migration": {
+      "question": "Mevcut mağazamı Shopify'a aktarabilir misiniz?",
+      "answer": "Evet, mevcut mağazanızdan Shopify'a tam geçiş hizmeti sunuyoruz, ürünlerin, müşterilerin ve siparişlerin aktarımı dahil olup, sorunsuz bir geçiş sağlıyoruz."
+    },
+    "customization-types": {
+      "question": "Hangi tür özelleştirmeler sunuyorsunuz?",
+      "answer": "Shopify mağazanızın tamamen özelleştirilmesini sunuyoruz: özel tasarım, özel özellikler, spesifik entegrasyonlar ve mobil optimizasyon."
+    },
+    "post-launch-support": {
+      "question": "Lansmana sonrası destek sunuyor musunuz?",
+      "answer": "Evet, lansman sonrası mağazanızın sorunsuz işleyişini sağlamak için güncellemeler, optimizasyonlar ve teknik destek dahil olmak üzere çeşitli destek ve bakım planları sunuyoruz."
+    },
+    "security": {
+      "question": "Mağazamın güvenliğini nasıl sağlıyorsunuz?",
+      "answer": "Güvenlik için en iyi uygulamaları uyguluyoruz: SSL, PCI DSS uyumluluğu, düzenli yedeklemeler ve dolandırıcılık koruması. Shopify ayrıca tüm işlemler için banka seviyesinde güvenlik sağlar."
+    }
+  },
+  "complementary": {
+    "seo": {
+      "title": "SEO",
+      "description": "Görünürlüğünüzü artırmak için arama motoru optimizasyonu."
+    },
+    "digital-marketing": {
+      "title": "Dijital pazarlama",
+      "description": "Daha fazla müşteri çekmek ve dönüştürmek için uyarlanmış pazarlama stratejileri."
+    },
+    "training": {
+      "title": "Eğitim",
+      "description": "Mağazanızı bağımsız bir şekilde yönetmek için kapsamlı eğitim."
+    }
+  }
+}

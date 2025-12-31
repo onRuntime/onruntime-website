@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "title": "Våra projekt och framgångar",
+    "description": "Upptäck vår portfolio av webb-, mobil- och UI/UX-designutvecklingsprojekt. Innovativa lösningar och moderna gränssnitt skapade av vårt expertteam.",
+    "subdescription": "Från koncept till färdigställande, varje projekt speglar vår expertis och vårt engagemang för att skapa exceptionella digitala upplevelser."
+  },
+  "expertise": {
+    "title": "Vår projektutvecklingsexpertis",
+    "description": "På onRuntime Studio kombinerar vi kreativitet, teknisk expertis och beprövad metodik för att förvandla dina idéer till högpresterande, innovativa digitala lösningar.",
+    "cards": {
+      "development": {
+        "title": "Skräddarsydd utveckling",
+        "description": "Noggrant kodade lösningar som använder de mest lämpliga teknologierna för ditt projekt och specifika mål."
+      },
+      "design": {
+        "title": "Enastående UI/UX-design",
+        "description": "Eleganta och intuitiva gränssnitt som engagerar dina användare och effektivt förmedlar din varumärkesidentitet."
+      },
+      "performance": {
+        "title": "Optimal prestanda",
+        "description": "Snabba, responsiva och optimerade applikationer för att leverera en smidig och trevlig användarupplevelse."
+      }
+    }
+  },
+  "process": {
+    "title": "Vår leveransprocess",
+    "description": "En beprövad metodik som garanterar kvalitet och framgång för varje projekt, från initial design till slutlig distribution.",
+    "steps": {
+      "discovery": {
+        "title": "Upptäckte",
+        "description": "Djupgående analys av dina behov, mål och specifikationer inom din bransch."
+      },
+      "conception": {
+        "title": "Design",
+        "description": "Skapa mockups och prototyper för att visualisera och validera användarupplevelsen."
+      },
+      "development": {
+        "title": "Utveckling",
+        "description": "Noggrant kodande med moderna teknologier och rigorös testning för att säkerställa kvalitet."
+      },
+      "deployment": {
+        "title": "Distribution",
+        "description": "Produktionslansering med kontinuerlig övervakning och stöd för att säkerställa ditt projekts framgång."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Vad våra kunder säger om oss",
+    "description": "Kundnöjdhet är vår högsta prioritet. Här är några rekommendationer från partners vi haft nöjet att arbeta med."
+  },
+  "industries": {
+    "title": "Branscher vi betjänar",
+    "description": "Vår expertis sträcker sig över många sektorer, med lösningar anpassade till varje branschs specifika behov.",
+    "items": {
+      "ecommerce": "E-handel",
+      "startups": "Startups",
+      "luxury": "Lyx",
+      "institutions": "Institutioner"
+    }
+  },
+  "why-us": {
+    "title": "Varför välja onRuntime Studio?",
+    "description": "Vi utmärker oss genom vårt kundcentrerade tillvägagångssätt och vårt engagemang för kvalitet.",
+    "items": {
+      "expertise": {
+        "title": "Teknisk expertis",
+        "description": "Ett team av erfarna utvecklare och designers som behärskar de senaste teknologierna."
+      },
+      "custom": {
+        "title": "Skräddarsydda lösningar",
+        "description": "Personligt anpassade utvecklingar som exakt möter dina specifika behov."
+      },
+      "support": {
+        "title": "Kontinuerligt stöd",
+        "description": "Kvalitetsstöd genom hela projektet och efter lansering."
+      }
+    }
+  },
+  "cta": {
+    "title": "Redo att förverkliga ditt projekt?",
+    "description": "Kontakta oss idag för att diskutera din idé och upptäck hur vår expertis kan hjälpa dig att förvandla den till verklighet.",
+    "buttons": {
+      "start": "Starta ett projekt",
+      "services": "Upptäck våra tjänster"
+    }
+  }
+}

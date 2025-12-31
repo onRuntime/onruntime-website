@@ -1,0 +1,79 @@
+{
+  "title": "Sviluppo Web a Montpellier | Soluzioni Digitali per le Aziende del Languedoc",
+  "description": "Crea il tuo sito web o applicazione mobile a Montpellier. Soluzioni digitali personalizzate per le aziende di Montpellier, adattate alle sfide locali del tuo settore.",
+  "hero": {
+    "title": "Sviluppo Web & Mobile a Montpellier",
+    "description": "Aiutiamo le aziende di Montpellier e della regione Languedoc a digitalizzarsi con soluzioni web personalizzate, perfettamente adattate alle specifiche sfide del mercato regionale."
+  },
+  "intro": "Una città dinamica al crocevia delle influenze mediterranee e del Languedoc, Montpellier si distingue per il suo ecosistema di innovazione nella salute, università prestigiose e l'arte del vivere. La nostra expertise digitale consente alle aziende di Montpellier di sfruttare questa ricchezza e di emergere in un contesto competitivo.",
+  "expertise": "Il nostro team progetta siti web, applicazioni e soluzioni digitali perfettamente adattate alle aziende di Montpellier e della sua regione. Comprendiamo le sfide specifiche del tuo mercato locale, sia nel settore della salute, dell'istruzione o del terroir del Languedoc, e offriamo soluzioni digitali che mettono in risalto la tua expertise e le tue radici regionali.",
+  "why-choose-us": "La nostra profonda conoscenza del mercato di Montpellier ci consente di sviluppare soluzioni digitali perfettamente adattate alle sfide specifiche delle aziende locali. Comprendiamo il bilanciamento tra innovazione e tradizione che caratterizza Montpellier e integriamo questa comprensione in ogni progetto per creare esperienze digitali autentiche e ad alte prestazioni.",
+  "key-business-sectors": {
+    "health-biotech": "Salute & Biotecnologie",
+    "higher-education": "Istruzione Superiore",
+    "viticulture": "Viticoltura",
+    "tourism": "Turismo"
+  },
+  "local-challenges": {
+    "biotech-health-digitalization": "Digitalizzazione del settore biotecnologico e sanitario in espansione",
+    "innovative-educational-platforms": "Necessità di piattaforme educative innovative per numerose università e scuole",
+    "wine-heritage-digital-showcase": "Vetrina digitale del patrimonio vinicolo e dei prodotti locali",
+    "tourism-adaptation": "Adattamento degli operatori turistici di fronte alla concorrenza mediterranea"
+  },
+  "benefits": {
+    "health-sector-solutions": "Soluzioni personalizzate per aziende innovative del settore salute",
+    "educational-platforms-expertise": "Elevata expertise in piattaforme educative e strumenti di e-learning",
+    "languedoc-market-knowledge": "Conoscenza approfondita del mercato del Languedoc e delle sue specificità",
+    "regional-products-ui": "Interfacce utente ottimizzate per mettere in risalto i prodotti regionali",
+    "personalized-support": "Supporto personalizzato per tutto il tuo progetto digitale"
+  },
+  "primary-stat": {
+    "label": "biotecnologie"
+  },
+  "strengths": {
+    "connected-health": {
+      "title": "Salute Connessa",
+      "description": "Soluzioni digitali per startup e aziende nelle scienze della vita."
+    },
+    "elearning": {
+      "title": "E-learning",
+      "description": "Piattaforme educative per università e istituti di formazione."
+    },
+    "digital-terroir": {
+      "title": "Terroir Digitale",
+      "description": "Siti e e-commerce per aziende vinicole e produttori locali."
+    },
+    "regional-tourism": {
+      "title": "Turismo Regionale",
+      "description": "Esperienze digitali per mettere in risalto il patrimonio del Languedoc."
+    }
+  },
+  "focused-services": {
+    "health-applications": {
+      "name": "Applicazioni Sanitarie",
+      "description": "Soluzioni personalizzate per startup e aziende nelle scienze della vita."
+    },
+    "educational-platforms": {
+      "name": "Piattaforme Educative",
+      "description": "Strumenti di apprendimento digitale per istituzioni educative."
+    },
+    "terroir-ecommerce": {
+      "name": "E-commerce del Terroir",
+      "description": "Negozi online per produttori locali e aziende vinicole."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Anni di esperienza"
+    },
+    "satisfaction": {
+      "label": "Soddisfazione",
+      "description": "Clienti soddisfatti"
+    },
+    "average-time": {
+      "label": "Tempo Medio",
+      "description": "Settimane per il completamento"
+    }
+  }
+}

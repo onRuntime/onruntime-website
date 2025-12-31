@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "cta": "Projenizi tartışalım"
+  },
+  "expertise": {
+    "title": "Derin uzmanlık {service} alanında",
+    "description": "Yaratıcılığı ve teknik uzmanlığı birleştiriyoruz ve hedeflerinizi tam olarak karşılayan {service} çözümleri sunuyoruz. Metodik yaklaşımımız ve deneyimimiz, sürdürülebilir ve ölçeklenebilir çözümler üretmemizi sağlıyor."
+  },
+  "services": {
+    "badge": "Hizmetlerimiz",
+    "title": "Özel {service} çözümleri",
+    "description": "Tüm ihtiyaçlarınıza hitap edecek ve projelerinizi gerçekleştirmenize destek olacak {service} hizmetlerimizin tamamını keşfedin.",
+    "learnMore": "Daha fazla bilgi edinin"
+  },
+  "benefits": {
+    "badge": "Faydalar",
+    "title": "Neden {service} hizmetlerimizi tercih etmelisiniz?"
+  },
+  "process": {
+    "badge": "Bizim süreç",
+    "title": "Nasıl çalışıyoruz?",
+    "description": "Farklı uzmanlık alanlarımızı bir araya getiren entegre bir yaklaşım ile optimal sonuçlar elde ediyoruz."
+  },
+  "cta": {
+    "title": "Projenizi hayata geçirmeye hazır mısınız?",
+    "description": "İhtiyaçlarınızı tartışmak ve özelleştirilmiş bir teklif almak için bizimle iletişime geçin.",
+    "button": "Hemen başlayın"
+  }
+}

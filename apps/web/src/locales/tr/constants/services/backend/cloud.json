@@ -1,0 +1,80 @@
+{
+  "name": "Bulut Çözümleri",
+  "description": "Bulut altyapısının dağıtımı ve yönetimi",
+  "hero": {
+    "title": "Bulut Çözümleri",
+    "description": "Altyapınızı modern ve ölçeklenebilir bulut çözümleri ile optimize edin. Uzmanlığımız, büyük bulut platformlarında güvenli ve yüksek performanslı dağıtımı garanti eder."
+  },
+  "features": {
+    "multi-cloud": {
+      "title": "Çoklu bulut",
+      "description": "Ana platformlar için destek (AWS, GCP, Azure)."
+    },
+    "advanced-security": {
+      "title": "Gelişmiş güvenlik",
+      "description": "Veri ve uygulamalarınızın güçlü korunması."
+    },
+    "optimal-performance": {
+      "title": "Optimum performans",
+      "description": "Maksimum performans için optimize edilmiş mimari."
+    },
+    "automatic-scalability": {
+      "title": "Otomatik ölçeklenebilirlik",
+      "description": "Yük gereksinimlerine dinamik adaptasyon."
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "Yüksek erişilebilirlik",
+      "description": "Güçlü ve dayanıklı altyapı."
+    },
+    "elastic-storage": {
+      "title": "Esnek depolama",
+      "description": "Esnek ve güvenli veri yönetimi."
+    },
+    "advanced-monitoring": {
+      "title": "Gelişmiş izleme",
+      "description": "Altyapınızın gerçek zamanlı izlenmesi."
+    },
+    "enhanced-security": {
+      "title": "Geliştirilmiş güvenlik",
+      "description": "Kaynaklarınızın çok katmanlı korunması."
+    }
+  },
+  "faq": {
+    "platform-choice": {
+      "question": "Hangi bulut platformunu seçmeliyim?",
+      "answer": "Seçim, özel ihtiyaçlarınıza bağlıdır: AWS hizmet çeşitliliğinde, Google Cloud makine öğreniminde, Azure ise Microsoft entegrasyonunda öne çıkar. Hedeflerinize, teknik kısıtlarınıza ve bütçenize göre en iyi çözüm için sizi yönlendiriyoruz."
+    },
+    "cloud-security": {
+      "question": "Bulut güvenliğini nasıl sağlıyorsunuz?",
+      "answer": "Çok katmanlı güvenlik uyguluyoruz: verilerin hem dinlendirirken hem de taşınırken şifrelenmesi, IAM erişim kontrolü, sanal özel ağlar (VPC), web uygulaması güvenlik duvarları (WAF) ve sürekli tehdit izleme. Her platformun en iyi uygulamalarını takip ediyoruz."
+    },
+    "cost-optimization": {
+      "question": "Maliyetleri nasıl optimize ediyorsunuz?",
+      "answer": "Birçok strateji kullanıyoruz: tahsisli örnekler, otomatik ölçeklendirme, kaynak optimizasyonu, kullanılmayan kaynakların kaldırılması ve maliyet izleme. Tasarruf fırsatlarını belirlemek için düzenli denetimler yapıyoruz."
+    },
+    "high-availability": {
+      "question": "Yüksek erişilebilirliği nasıl sağlıyorsunuz?",
+      "answer": "Altyapınızı birden fazla erişilebilirlik bölgesine dağıtıyoruz. Veri çoğaltma, yük dengeleme ve otomatik geçiş ile birlikte çalışıyoruz. Ayrıca, güçlü felaket kurtarma planları (DRP) oluşturuyoruz."
+    },
+    "support-24-7": {
+      "question": "7/24 destek sunuyor musunuz?",
+      "answer": "Evet, 7/24 izleme, otomatik uyarı, hızlı olay müdahalesi, önleyici bakım ve özel teknik destek gibi birkaç destek seviyesi sunuyoruz."
+    }
+  },
+  "complementary": {
+    "cloud-migration": {
+      "title": "Bulut geçişi",
+      "description": "Buluta sorunsuz geçiş."
+    },
+    "multi-region": {
+      "title": "Çoklu bölge",
+      "description": "Uygulamalarınızın global dağıtımı."
+    },
+    "devops": {
+      "title": "DevOps",
+      "description": "Bulutta otomasyon ve CI/CD."
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "tags": {
+    "featured": "Utvald",
+    "open-source": "Öppen källkod",
+    "customer": "Klientprojekt"
+  },
+  "buttons": {
+    "view-project": "Visa projekt",
+    "source-code": "Källkod"
+  },
+  "info": {
+    "start-date": "Startdatum",
+    "status": "Status",
+    "statuses": {
+      "active": "Aktiv",
+      "completed": "Slutförd",
+      "archived": "Arkiverad"
+    },
+    "team": "Team",
+    "members": "medlemmar"
+  },
+  "sections": {
+    "about": "Om projektet",
+    "metrics": "Påverkan och mätvärden",
+    "features": "Nyckelfunktioner",
+    "technologies": "Använda teknologier",
+    "gallery": "Galleri",
+    "team": "Teamet",
+    "challenges": "Utmaningar",
+    "learnings": "Viktiga lärdomar",
+    "future": "Framtida perspektiv"
+  },
+  "cta": {
+    "title": "Intresserad av det här projektet?",
+    "description": "Upptäck hur vi kan hjälpa dig att skapa ett liknande projekt.",
+    "button": "Diskutera ditt projekt"
+  },
+  "tonightpass": {
+    "hero": {
+      "title": "Biljettsystemet som förenklar dina evenemang",
+      "subtitle": "Från skapande till inträde, hantera allt på 5 minuter",
+      "description": "Komplett biljettsystem för evenemangsorganisatörer. Skapa dina evenemang, sälj dina biljetter och hantera tillgång med professionella verktyg och dedikerad support.",
+      "buttons": {
+        "create": "Skapa mitt evenemang",
+        "discover": "Upptäck lösningen"
+      },
+      "stats": {
+        "setup": {
+          "value": "5min",
+          "label": "Inställning"
+        },
+        "cost": {
+          "value": "$0",
+          "label": "Installation"
+        },
+        "support": {
+          "value": "24/7",
+          "label": "Support"
+        }
+      }
+    },
+    "cta": {
+      "title": "Redo att förenkla din biljettförsäljning?",
+      "description": "Förenkla din evenemangshantering med en komplett och intuitiv lösning",
+      "buttons": {
+        "start": "Börja nu",
+        "features": "Se alla funktioner"
+      }
+    }
+  }
+}

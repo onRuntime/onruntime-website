@@ -1,0 +1,79 @@
+{
+  "title": "Nantes'ta web geliştirme | Loire Vadisi işletmeleri için dijital çözümler",
+  "description": "Nantes'ta web sitenizi veya mobil uygulamanızı oluşturun. Nantes işletmeleri için, sektörünüzün yerel zorluklarına göre özelleştirilmiş dijital çözümler.",
+  "hero": {
+    "title": "Nantes'ta Web & Mobil Geliştirme",
+    "description": "Nantes ve Pays de la Loire'daki işletmelere özel dijital çözümlerle yardımcı oluyoruz. Loire Vadisi pazarının belirli zorluklarına mükemmel bir şekilde uyum sağlıyoruz."
+  },
+  "intro": "Brittany'nin tarihi başkenti ve yenilikçi bir metropol olan Nantes, ekonomik dinamizmi ve yaşam kalitesi ile tanınır. Gelişen dijital ekosistemi, yaratıcı endüstrileri ve ekolojik geçişe olan bağlılığı, dijital inovasyonun merkezi bir rol oynadığı benzersiz bir bölge haline getiriyor.",
+  "expertise": "Ekibimiz, Nantes işletmeleri için mükemmel bir şekilde uyarlanmış web siteleri, uygulamalar ve dijital çözümler tasarlıyor. İster yenilikçi girişimler, ister sorumlu ekonomi oyuncuları ya da dönüşüm içindeki geleneksel şirketler olsun, yerel pazarın spesifik özelliklerini anlıyoruz. Nantes’a özgü yenilik ve sürdürülebilirlik değerleriyle uyumlu dijital çözümler sunuyoruz.",
+  "why-choose-us": "Nantes pazarındaki derin bilgimiz, yerel işletmelerin özel zorluklarına mükemmel şekilde adapte olan dijital çözümler geliştirmemizi sağlıyor. Nantes’ı karakterize eden yenilik ruhunu ve daha sorumlu bir ekonomiye olan bağlılığı anlıyoruz ve bu değerleri teslim ettiğimiz her dijital projeye entegre ediyoruz.",
+  "key-business-sectors": {
+    "tech-digital": "Teknoloji & Dijital",
+    "ecological-transition": "Ekolojik Geçiş",
+    "creative-industries": "Yaratıcı Endüstriler",
+    "agrifood": "Gıda Sektörü"
+  },
+  "local-challenges": {
+    "digital-ecosystem-competition": "Gelişen Nantes dijital ekosisteminde güçlü rekabet",
+    "startup-scaleup-needs": "Yerel Fransız Tech girişimleri ve ölçek büyütmeleri için spesifik ihtiyaçlar",
+    "ecological-transition-digitalization": "Ekolojik ve enerji geçiş oyuncularının dijitalleşmesi",
+    "traditional-industries-transformation": "Bölgesel geleneksel ve gıda endüstrilerinin dijital dönüşümü"
+  },
+  "benefits": {
+    "nantes-ecosystem-solutions": "Nantes dijital ekosistemine uyarlanan özel çözümler",
+    "innovative-eco-technologies": "Yenilikçi ve çevre dostu web teknolojilerinde sağlam uzmanlık",
+    "agile-approach": "Yenilikçi girişimler için mükemmel uyumlu çevik yaklaşım",
+    "digital-transition-knowledge": "Loire Vadisi dijital geçiş zorlukları hakkında derin bilgi",
+    "personalized-support": "Dijital projeniz boyunca kişiselleştirilmiş destek"
+  },
+  "primary-stat": {
+    "label": "Nantes dijital"
+  },
+  "strengths": {
+    "innovative-tech": {
+      "title": "Yenilikçi Teknoloji",
+      "description": "Nantes girişimleri ve ölçek büyütmeleri için modern dijital çözümler."
+    },
+    "eco-design": {
+      "title": "Ekolojik Tasarım",
+      "description": "Kontrollü çevresel ayak izi ile siteler ve uygulamalar."
+    },
+    "maritime-industry": {
+      "title": "Denizcilik Sektörü",
+      "description": "Liman ve nehir faaliyetlerine uyarlanmış dijitalleşme."
+    },
+    "renewable-energy": {
+      "title": "Yenilenebilir Enerji",
+      "description": "Enerji geçiş oyuncuları için dijital çözümler."
+    }
+  },
+  "focused-services": {
+    "web-applications": {
+      "name": "Web Uygulamaları",
+      "description": "Başarılı ve ölçeklenebilir web uygulamaları girişimler ve yenilikçi şirketler için."
+    },
+    "eco-designed-websites": {
+      "name": "Ekolojik Tasarımlı Web Siteleri",
+      "description": "Sorumlu ekonomi oyuncuları için optimize edilmiş ve sürdürülebilir web siteleri."
+    },
+    "business-platforms": {
+      "name": "İş Platformları",
+      "description": "Dönüşüm içindeki geleneksel endüstriler için özel çözümler."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Uzmanlık",
+      "description": "Yılların deneyimi"
+    },
+    "satisfaction": {
+      "label": "Memnuniyet",
+      "description": "Memnun müşteriler"
+    },
+    "average-time": {
+      "label": "Ortalama Süre",
+      "description": "Tamamlanma haftaları"
+    }
+  }
+}

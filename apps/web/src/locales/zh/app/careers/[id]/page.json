@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "找不到职位发布",
+      "description": "这个职位发布不存在或已不再可用."
+    },
+    "title": "{jobTitle} | 职业机会",
+    "description": "加入 onRuntime Studio 担任 {jobTitle}. 发现这个职业机会并立即申请."
+  }
+}

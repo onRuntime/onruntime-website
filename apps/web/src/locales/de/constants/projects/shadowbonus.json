@@ -1,0 +1,75 @@
+{
+  "short-description": "Affiliate-Plattform für Streamer, spezialisiert auf Online-Casino-Boni und Boxenöffnungen.",
+  "description": "Affiliate-Website entwickelt für den Streamer vitapvp, die die besten Boni und Vorteile von Partner-Casinos zeigt mit Weiterleitung zu Affiliate-Links.",
+  "long-description": "ShadowBonus ist eine Affiliate-Plattform, die für den Streamer vitapvp entwickelt wurde, um die besten Boni und Vorteile von Partner-Online-Casinos klar und ansprechend zu präsentieren.\n\nDas Projekt konzentriert sich auf das Wesentliche: eine saubere Benutzeroberfläche, die Partnerangebote hervorhebt und die Umwandlung zu Affiliate-Links erleichtert. Entwickelt mit React und styled-components, priorisiert die Seite Benutzerfreundlichkeit und Konversionseffizienz.\n\nUnser Ansatz konzentrierte sich auf eine reibungslose Benutzererfahrung, die es den Zuschauern von vitapvp ermöglicht, die besten verfügbaren Angebote schnell zu entdecken und einfach auf Partnerplattformen zuzugreifen.",
+  "features": {
+    "partner-showcase": {
+      "title": "Partner-Showcase",
+      "description": "Klare und ansprechende Präsentation der Partner-Casinos und -Plattformen des Streamers"
+    },
+    "bonus-comparison": {
+      "title": "Boni-Vergleich",
+      "description": "Die besten Boni und Vorteile für Zuschauer hervorheben"
+    },
+    "affiliate-redirect": {
+      "title": "Affiliate-Weiterleitung",
+      "description": "Optimiertes Weiterleitungssystem zu Partner-Affiliate-Links"
+    },
+    "responsive-interface": {
+      "title": "Responsive Benutzeroberfläche",
+      "description": "Adaptives Design für ein optimales Erlebnis auf allen Geräten"
+    }
+  },
+  "technologies": {
+    "react": {
+      "description": "JavaScript-Bibliothek für Benutzeroberflächen"
+    },
+    "styled-components": {
+      "description": "CSS-in-JS Styling für einen modernen Ansatz"
+    },
+    "cloudflare": {
+      "description": "Hosting und kontinuierliche Bereitstellung"
+    }
+  },
+  "metrics": {
+    "weekly-visits": {
+      "value": "1500+",
+      "label": "Wöchentliche Besuche",
+      "description": "Beim Start im Juli 2021"
+    },
+    "dev-time": {
+      "value": "2 Monate",
+      "label": "Entwicklungszeit",
+      "description": "Schnelle und effiziente Lieferung"
+    },
+    "team-size": {
+      "value": "3 Personen",
+      "label": "Team",
+      "description": "Kleines und agiles Team"
+    }
+  },
+  "screenshots": {
+    "homepage": {
+      "caption": "Startseite mit Partnerangeboten"
+    },
+    "partners": {
+      "caption": "Bereich mit Partner-Casinos und -Plattformen"
+    }
+  },
+  "challenges": {
+    "attractive-interface": "Eine ansprechende Benutzeroberfläche erstellen, um Partnerangebote hervorzuheben",
+    "conversion-optimization": "Optimierung der Konversionsraten zu Affiliate-Links",
+    "simple-react-solution": "Entwicklung einer einfachen, aber effektiven React-Lösung",
+    "cross-device-experience": "Gewährleistung einer reibungslosen Benutzererfahrung auf allen Geräten"
+  },
+  "learnings": {
+    "affiliate-simplicity": "Die Bedeutung von Einfachheit in Affiliate-Projekten",
+    "streamer-conversion": "Optimierung der Konversionsprozesse für Streamer",
+    "react-styled-components": "Schnelle und effiziente Entwicklung mit React und styled-components",
+    "gaming-streaming-needs": "Anpassung an die spezifischen Bedürfnisse der Gaming-Streaming-Welt"
+  },
+  "future-plans": {
+    "client-transfer": "Das Projekt wurde an den Kunden zur Wartung übergeben",
+    "streamer-evolutions": "Mögliche Entwicklungen basierend auf den Bedürfnissen des Streamers"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "UI/UX Ontwerp",
+  "description": "Moderne interfaces en optimale gebruikerservaringen creëren.",
+  "benefits": {
+    "user-centered-design": {
+      "title": "Gebruiksvriendelijke UI/UX ontwerpe.",
+      "description": "Een aanpak die de behoeften van de gebruiker centraal stelt in onze ontwerpen, gevalideerd door interactieve prototypes."
+    },
+    "creative-innovation": {
+      "title": "Creatieve innovatie.",
+      "description": "Creatieve UI/UX oplossingen en innovatieve prototypes die jouw merk onderscheiden terwijl we de normen respecteren."
+    },
+    "iterative-prototyping": {
+      "title": "Iteratief prototyping.",
+      "description": "Een methode gebaseerd op snelle prototypes en frequente iteraties om de gebruikerservaring te verfijnen."
+    },
+    "business-objectives": {
+      "title": "Bedrijfsdoelen.",
+      "description": "UI/UX ontwerp dat afgestemd is op jouw bedrijfsdoelstellingen, gevalideerd door gebruikerstests op prototypes."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Behoefte-analyse.",
+      "description": "Belangrijke eerste stap waarbij we jouw behoeften, merk en bedrijfsdoelstellingen analyseren om de UI/UX richting te bepalen."
+    },
+    "research-moodboard": {
+      "title": "Onderzoek en moodboard.",
+      "description": "Moodboards creëren en mogelijke creatieve richtingen verkennen. De algemene artistieke richting bepalen."
+    },
+    "wireframes": {
+      "title": "Wireframes.",
+      "description": "Wireframes ontwerpen om structuur, hiërarchie en informatie-architectuur te valideren."
+    },
+    "interface-design": {
+      "title": "Interface ontwerp.",
+      "description": "Eindmockups creëren met respect voor jouw merkrichtlijnen. Bijzondere aandacht voor componenten en hun herbruikbaarheid."
+    },
+    "prototyping": {
+      "title": "Prototyping.",
+      "description": "Prototypes creëren om interacties te testen en gebruikersreizen te valideren."
+    },
+    "development": {
+      "title": "Ontwikkeling.",
+      "description": "Mockups omzetten in functionele interfaces, met bijzondere aandacht voor gedefinieerde animaties."
+    }
+  },
+  "process-services": {}
+}

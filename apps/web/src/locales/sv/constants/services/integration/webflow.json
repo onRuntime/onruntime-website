@@ -1,0 +1,80 @@
+{
+  "name": "Webflow",
+  "description": "Skapande av moderna webbplatser med Webflow",
+  "hero": {
+    "title": "Professionell Webflow-utveckling",
+    "description": "Få din vision att bli verklighet med Webflow. Vår expertis garanterar en modern, interaktiv webbplats som är perfekt anpassad efter dina behov, utan att kompromissa med kvalitet."
+  },
+  "features": {
+    "advanced-visual-design": {
+      "title": "Avancerad visuell design",
+      "description": "Skapande av unika gränssnitt och sofistikerade animationer utan begränsningar från traditionell kodning."
+    },
+    "optimal-performance": {
+      "title": "Optimal prestanda",
+      "description": "Snabba och responsiva sidor optimerade för alla enheter och webbläsare."
+    },
+    "rich-interactions": {
+      "title": "Rika interaktioner",
+      "description": "Smidiga användaranimationer och interaktioner för en modern och engagerande webbupplevelse."
+    },
+    "integrated-cms": {
+      "title": "Integrerat CMS",
+      "description": "Kraftfullt och flexibelt innehållshanteringssystem för enkla uppdateringar."
+    }
+  },
+  "benefits": {
+    "visual-development": {
+      "title": "Visuell utveckling",
+      "description": "Skapande av komplexa sidor utan att skriva kod, medan man behåller full kontroll över designen."
+    },
+    "native-seo": {
+      "title": "Inbyggd SEO",
+      "description": "Inbyggda SEO-verktyg och struktur optimerad för sökmotorer."
+    },
+    "responsive-by-default": {
+      "title": "Responsiv som standard",
+      "description": "Design perfekt anpassad för alla skärmar, från mobiler till stora skärmar."
+    },
+    "optimized-hosting": {
+      "title": "Optimerad hosting",
+      "description": "Robust molninfrastruktur med global CDN för optimal prestanda."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Hur lång tid tar det att skapa en Webflow-webbplats?",
+      "answer": "Den genomsnittliga tiden för att skapa en Webflow-webbplats varierar mellan 3 och 8 veckor, beroende på projektets komplexitet. Detta inkluderar design, interaktionsutveckling, innehållsintegration och tester."
+    },
+    "self-update": {
+      "question": "Kan jag enkelt uppdatera min webbplats själv?",
+      "answer": "Självklart! Webflow har ett intuitivt CMS som vi anpassar efter dina behov. Vi tränar dig i hur du använder det så att du kan hantera ditt innehåll självständigt."
+    },
+    "ecommerce": {
+      "question": "Är Webflow lämpligt för e-handelswebbplatser?",
+      "answer": "Ja, Webflow erbjuder en robust e-handelslösning som vi kan anpassa för att skapa din onlinebutik med avancerade funktioner och skräddarsydd design."
+    },
+    "animations-interactions": {
+      "question": "Hur hanterar ni animationer och interaktioner?",
+      "answer": "Webflow gör det möjligt att skapa sofistikerade animationer och interaktioner utan kod. Vi designar smidiga och professionella interaktiva upplevelser medan vi behåller optimal prestanda."
+    },
+    "seo-quality": {
+      "question": "Vad är SEO-kvaliteten med Webflow?",
+      "answer": "Webflow genererar ren, SEO-optimerad kod. Vi implementerar bästa praxis för SEO för att maximera din synlighet på sökmotorer."
+    }
+  },
+  "complementary": {
+    "custom-integrations": {
+      "title": "Anpassade integrationer",
+      "description": "Anslutning till dina favoritverktyg och tjänster från tredje part."
+    },
+    "digital-strategy": {
+      "title": "Digital strategi",
+      "description": "Stöd i din strategi för att synas online."
+    },
+    "webflow-training": {
+      "title": "Webflow-utbildning",
+      "description": "Skräddarsydd utbildning för att bemästra din webbplatsförvaltning."
+    }
+  }
+}

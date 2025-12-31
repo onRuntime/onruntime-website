@@ -1,0 +1,79 @@
+{
+  "title": "Webentwicklung in Straßburg | Digitale Lösungen für elsaßische Unternehmen",
+  "description": "Erstelle deine Website oder mobile Anwendung in Straßburg. Maßgeschneiderte digitale Lösungen für elsaßische Unternehmen, die auf lokale und grenzüberschreitende Herausforderungen zugeschnitten sind.",
+  "hero": {
+    "title": "Web & Mobile Entwicklung in Straßburg",
+    "description": "Wir helfen Unternehmen in Straßburg und der Großregion, sich mit maßgeschneiderten Weblösungen zu digitalisieren, die perfekt an die spezifischen Herausforderungen des elsaßischen und europäischen Marktes angepasst sind."
+  },
+  "intro": "Als europäische Hauptstadt und Grenzstadt mit reichem Erbe kombiniert Straßburg elsaßische Traditionen und internationale Offenheit. Sein Status als Sitz europäischer Institutionen, seine dynamische Industrie und die strategische Lage zwischen Frankreich und Deutschland machen es zu einem einzigartigen Gebiet, wo Digitales eine wesentliche Brückenfunktion spielt.",
+  "expertise": "Unser Team gestaltet Websites, Anwendungen und digitale Lösungen, die perfekt auf Straßburger Unternehmen abgestimmt sind, egal ob es sich um internationale Organisationen, Industrieunternehmen oder lokale Akteure des Erbes handelt. Wir verstehen die spezifischen Herausforderungen deines regionalen und grenzüberschreitenden Marktes und bieten mehrsprachige sowie kulturell angepasste digitale Lösungen an.",
+  "why-choose-us": "Unser tiefgehendes Wissen über den Straßburger Markt ermöglicht es uns, digitale Lösungen zu entwickeln, die perfekt auf die spezifischen Herausforderungen lokaler Unternehmen abgestimmt sind. Wir verstehen die Anforderungen des europäischen Kontextes und der elsaßischen Kultur und integrieren diese doppelte Dimension in jedes Projekt, um relevante und leistungsstarke digitale Erlebnisse zu schaffen.",
+  "key-business-sectors": {
+    "european-institutions": "Europäische Institutionen",
+    "cross-border-commerce": "Grenzüberschreitender Handel",
+    "industry": "Industrie",
+    "culture-heritage": "Kultur & Erbe"
+  },
+  "local-challenges": {
+    "european-institutions-needs": "Spezifische Bedürfnisse europäischer Institutionen und internationaler Organisationen",
+    "cross-border-development": "Entwicklung des grenzüberschreitenden Handels mit Deutschland und der Schweiz",
+    "traditional-industries-transformation": "Digitale Transformation traditioneller elsaßischer Industrien",
+    "heritage-digital-showcase": "Digitale Präsentation des reichen kulturellen und historischen Erbes der Region"
+  },
+  "benefits": {
+    "multilingual-solutions": "Mehrsprachige Lösungen, die an den internationalen Kontext von Straßburg angepasst sind",
+    "european-standards-expertise": "Schneidige Expertise in Benutzeroberflächen, die den europäischen Standards entsprechen",
+    "cross-border-knowledge": "Umfassendes Wissen über grenzüberschreitende Märkte und deren Besonderheiten",
+    "innovative-traditional-approach": "Ein Ansatz, der sowohl innovativ als auch respektvoll mit den elsaßischen Traditionen umgeht",
+    "personalized-support": "Personalisierte Unterstützung während deines digitalen Projekts"
+  },
+  "primary-stat": {
+    "label": "internationaler Kontext"
+  },
+  "strengths": {
+    "european-solutions": {
+      "title": "Europäische Lösungen",
+      "description": "Mehrsprachige Plattformen für Institutionen und internationale Organisationen."
+    },
+    "cross-border-commerce": {
+      "title": "Grenzüberschreitender Handel",
+      "description": "E-Commerce-Lösungen, die an die französischen, deutschen und schweizerischen Märkte angepasst sind."
+    },
+    "industry-40": {
+      "title": "Industrie 4.0",
+      "description": "Prozessdigitalisierung für die traditionelle elsaßische Industrie."
+    },
+    "digital-heritage": {
+      "title": "Digitales Erbe",
+      "description": "Digitale Erlebnisse zur Präsentation des kulturellen und historischen Erbes."
+    }
+  },
+  "focused-services": {
+    "institutional-websites": {
+      "name": "Institutionelle Websites",
+      "description": "Mehrsprachige Plattformen, die den europäischen Zugänglichkeitsstandards entsprechen."
+    },
+    "cross-border-ecommerce": {
+      "name": "Grenzüberschreitender E-Commerce",
+      "description": "Kommerzielle Lösungen, die an die Besonderheiten der deutschen und französischen Märkte angepasst sind."
+    },
+    "industrial-applications": {
+      "name": "Industrielle Anwendungen",
+      "description": "Maßgeschneiderte digitale Werkzeuge zur Modernisierung industrieller Prozesse."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Jahre der Erfahrung"
+    },
+    "satisfaction": {
+      "label": "Zufriedenheit",
+      "description": "Zufriedene Kunden"
+    },
+    "average-time": {
+      "label": "Durchschnittliche Zeit",
+      "description": "Wochen bis zur Fertigstellung"
+    }
+  }
+}

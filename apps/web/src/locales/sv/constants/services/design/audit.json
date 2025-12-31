@@ -1,0 +1,80 @@
+{
+  "name": "UX/UI Granskning",
+  "description": "Analys och optimering av dina befintliga gränssnitt",
+  "hero": {
+    "title": "UX/UI Granskning & Optimering",
+    "description": "Förbättra användarupplevelsen av dina gränssnitt med en professionell granskning. Vår expertis garanterar en djupgående analys och konkreta rekommendationer för att optimera dina gränssnitt."
+  },
+  "features": {
+    "heuristic-analysis": {
+      "title": "Heuristisk analys",
+      "description": "Expertutvärdering baserad på UX-principer."
+    },
+    "user-testing": {
+      "title": "Användartestning",
+      "description": "Observation och analys av verkliga beteenden."
+    },
+    "analytics": {
+      "title": "Analys",
+      "description": "Analys av användardata."
+    },
+    "accessibility": {
+      "title": "Tillgänglighet",
+      "description": "Verifiering av tillgänglighetsstandarder."
+    }
+  },
+  "benefits": {
+    "conversion": {
+      "title": "Konvertering",
+      "description": "Identifiering av konverteringshinder."
+    },
+    "performance": {
+      "title": "Prestanda",
+      "description": "Analys av prestandamått."
+    },
+    "satisfaction": {
+      "title": "Tillfredsställelse",
+      "description": "Mätning av användartillfredsställelse."
+    },
+    "journeys": {
+      "title": "Resor",
+      "description": "Optimering av användarresor."
+    }
+  },
+  "faq": {
+    "complete-audit": {
+      "question": "Vad ingår i en komplett UX/UI granskning?",
+      "answer": "En komplett granskning inkluderar: heuristisk analys baserad på UX-principer, användartestning, analys av analytikdata, bedömning av tillgänglighet, konkurrensbenchmark och detaljerade rekommendationer. Vi levererar en omfattande rapport med konkreta lösningar."
+    },
+    "audit-process": {
+      "question": "Hur fungerar granskningsprocessen?",
+      "answer": "Processen börjar med en upptäcktsfas för att förstå dina mål och KPI:er. Vi genomför sedan olika analyser (heuristik, data, testning), syntetiserar resultat och förbereder en detaljerad rapport med prioriterade rekommendationer."
+    },
+    "deliverables": {
+      "question": "Vilka leveranser får man?",
+      "answer": "Du får en komplett granskningsrapport som inkluderar: sammanfattning, detaljerade analyser, datavisualiseringar, identifierade problem med svårighetsgrad, prioriterade rekommendationer och föreslagen handlingsplan."
+    },
+    "measuring-impact": {
+      "question": "Hur mäter ni effekten av rekommendationerna?",
+      "answer": "Vi definierar specifika KPI:er för varje rekommendation och sätter upp spårning av nyckelmått (konverteringsgrad, användartillfredsställelse, tidsåtgång för att slutföra uppgifter osv.) för att mäta effekten av förbättrningar."
+    },
+    "post-audit-support": {
+      "question": "Erbjuder ni stöd efter granskningen?",
+      "answer": "Ja, vi erbjuder stöd för att implementera rekommendationer, inklusive: prioritering av åtgärder, implementationsstöd och mätning av resultat. Vi kan också genomföra uppföljningsgranskningar."
+    }
+  },
+  "complementary": {
+    "user-testing": {
+      "title": "Användartestning",
+      "description": "Djupgående testsessioner med dina användare."
+    },
+    "advanced-analytics": {
+      "title": "Avancerad analys",
+      "description": "Uppställning av spårning och djupgående analys."
+    },
+    "ux-training": {
+      "title": "UX-träning",
+      "description": "Utbilda dina team i bästa praxis."
+    }
+  }
+}

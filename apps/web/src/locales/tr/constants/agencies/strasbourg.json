@@ -1,0 +1,79 @@
+{
+  "title": "Strasbourg'da Web Geliştirme | Alsaslı İşletmeler için Dijital Çözümler",
+  "description": "Strasbourg'da web sitenizi veya mobil uygulamanızı oluşturun. Alsaslı işletmelere özel, yerel ve sınır ötesi zorluklara uygun dijital çözümler.",
+  "hero": {
+    "title": "Strasbourg'da Web ve Mobil Geliştirme",
+    "description": "Strasbourg ve Grand Est bölgesindeki işletmelere özel web çözümleriyle dijitalleşmelerine yardımcı oluyoruz. Bu çözümler, Alsaslı ve Avrupa pazarının belirli zorluklarına mükemmel bir şekilde uyarlanmıştır."
+  },
+  "intro": "Avrupa'nın başkenti ve zengin bir mirasa sahip sınır kenti olan Strasbourg, Alsas geleneği ile uluslararası açıklığı birleştiriyor. Avrupa kurumlarının merkezi olarak sahip olduğu statü, dinamik sanayisi ve Fransa ile Almanya arasındaki stratejik konumu, dijitalin önemli bir köprü rolü oynadığı benzersiz bir bölge yaratıyor.",
+  "expertise": "Ekibimiz, Strasbourg işletmelerine tamamen uyumlu web siteleri, uygulamalar ve dijital çözümler tasarlıyor. Bunlar uluslararası organizasyonlar, sanayi şirketleri veya yerel miras aktörleri olabilir. Bölgesel ve sınır ötesi pazarınızdaki belirli zorlukları anlıyoruz ve çok dilli ile kültürel olarak uyumlu dijital çözümler sunuyoruz.",
+  "why-choose-us": "Strasbourg pazarındaki derin bilgimiz, yerel işletmelerin özel zorluklarına mükemmel uyum sağlayan dijital çözümler geliştirmemizi sağlıyor. Avrupa bağlamındaki gereksinimleri ve Alsas kültürel özeliklerini anlıyoruz ve bu iki boyutu her projeye entegre ederek anlamlı ve yüksek performanslı dijital deneyimler yaratıyoruz.",
+  "key-business-sectors": {
+    "european-institutions": "Avrupa Kurumları",
+    "cross-border-commerce": "Sınır Ötesi Ticaret",
+    "industry": "Sanayi",
+    "culture-heritage": "Kültür & Miras"
+  },
+  "local-challenges": {
+    "european-institutions-needs": "Avrupa kurumları ve uluslararası organizasyonların özel ihtiyaçları",
+    "cross-border-development": "Almanya ve İsviçre ile sınır ötesi ticaretin geliştirilmesi",
+    "traditional-industries-transformation": "Geleneksel Alsas sanayilerinin dijital dönüşümü",
+    "heritage-digital-showcase": "Bölgenin zengin kültürel ve tarihi mirasını dijital sergileme"
+  },
+  "benefits": {
+    "multilingual-solutions": "Strasbourg uluslararası bağlamına uygun çok dilli çözümler",
+    "european-standards-expertise": "Avrupa standartlarına uygun kullanıcı arayüzleri konusunda kapsamlı uzmanlık",
+    "cross-border-knowledge": "Sınır ötesi pazarlar ve özelikleri hakkında derin bilgi",
+    "innovative-traditional-approach": "Alsas geleneklerine saygılı, yenilikçi bir yaklaşım",
+    "personalized-support": "Dijital projeniz boyunca kişiselleştirilmiş destek"
+  },
+  "primary-stat": {
+    "label": "uluslararası bağlam"
+  },
+  "strengths": {
+    "european-solutions": {
+      "title": "Avrupa Çözümleri",
+      "description": "Kurumlar ve uluslararası organizasyonlar için çok dilli platformlar."
+    },
+    "cross-border-commerce": {
+      "title": "Sınır Ötesi Ticaret",
+      "description": "Fransız, Alman ve İsviçre pazarlarına uyumlu e-ticaret çözümleri."
+    },
+    "industry-40": {
+      "title": "Sanayi 4.0",
+      "description": "Geleneksel Alsas sanayisi için süreç dijitalleştirmesi."
+    },
+    "digital-heritage": {
+      "title": "Dijital Miras",
+      "description": "Kültürel ve tarihi mirası sergileyen dijital deneyimler."
+    }
+  },
+  "focused-services": {
+    "institutional-websites": {
+      "name": "Kurumsal Web Siteleri",
+      "description": "Avrupa erişilebilirlik standartlarına uygun çok dilli platformlar."
+    },
+    "cross-border-ecommerce": {
+      "name": "Sınır Ötesi E-Ticaret",
+      "description": "Alman ve Fransız pazarlarının özeliklerine uyum sağlayan ticari çözümler."
+    },
+    "industrial-applications": {
+      "name": "Endüstriyel Uygulamalar",
+      "description": "Endüstriyel süreçleri modernleştirmek için özel dijital araçlar."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Uzmanlık",
+      "description": "Yılların deneyimi"
+    },
+    "satisfaction": {
+      "label": "Memnuniyet",
+      "description": "Memnun müşteriler"
+    },
+    "average-time": {
+      "label": "Ortalama Süre",
+      "description": "Tamamlanma süresi haftalar"
+    }
+  }
+}

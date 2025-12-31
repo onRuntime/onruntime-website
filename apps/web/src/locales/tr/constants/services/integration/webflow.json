@@ -1,0 +1,80 @@
+{
+  "name": "Webflow",
+  "description": "Webflow ile modern web siteleri oluşturma",
+  "hero": {
+    "title": "Profesyonel Webflow Geliştirme",
+    "description": "Hayalinizi Webflow ile gerçeğe dönüştürün. Uzmanlığımız, ihtiyaçlarınıza mükemmel şekilde uyum sağlayan modern, etkileşimli bir web sitesi garanti ediyor, kaliteyi riske atmadan."
+  },
+  "features": {
+    "advanced-visual-design": {
+      "title": "Gelişmiş görsel tasarım",
+      "description": "Geleneksel kodlamanın sınırlamaları olmadan benzersiz arayüzler ve sofistike animasyonlar oluşturma."
+    },
+    "optimal-performance": {
+      "title": "Optimal performans",
+      "description": "Tüm cihazlar ve tarayıcılar için optimize edilmiş hızlı ve yanıt veren siteler."
+    },
+    "rich-interactions": {
+      "title": "Zengin etkileşimler",
+      "description": "Modern ve ilgi çekici bir web deneyimi için akıcı kullanıcı animasyonları ve etkileşimler."
+    },
+    "integrated-cms": {
+      "title": "Entegre CMS",
+      "description": "Kolay güncellemeler için güçlü ve esnek içerik yönetim sistemi."
+    }
+  },
+  "benefits": {
+    "visual-development": {
+      "title": "Görsel geliştirme",
+      "description": "Kod yazmadan karmaşık siteler oluşturma, tasarım üzerinde tam kontrol sağlarken."
+    },
+    "native-seo": {
+      "title": "Yerel SEO",
+      "description": "Arama motorları için optimize edilmiş yerleşik SEO araçları ve yapısı."
+    },
+    "responsive-by-default": {
+      "title": "Varsayılan olarak duyarlı",
+      "description": "Mobil cihazlardan büyük ekranlara kadar tüm ekranlara mükemmel uyum sağlayan tasarım."
+    },
+    "optimized-hosting": {
+      "title": "Optimize edilmiş barındırma",
+      "description": "Optimal performans için küresel CDN ile sağlam bulut altyapısı."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Webflow sitesi oluşturmak ne kadar sürüyor?",
+      "answer": "Webflow sitesi oluşturma süresi ortalama 3 ile 8 hafta arasında değişiyor, proje karmaşıklığına bağlı olarak. Bu süre tasarım, etkileşim geliştirme, içerik entegrasyonu ve testleri içerir."
+    },
+    "self-update": {
+      "question": "Siteyi kendim kolayca güncelleyebilir miyim?",
+      "answer": "Kesinlikle! Webflow, ihtiyaçlarınıza göre özelleştirdiğimiz sezgisel bir CMS sunuyor. İçeriğinizi bağımsız bir şekilde yönetebilmeniz için kullanımında sizi eğitiyoruz."
+    },
+    "ecommerce": {
+      "question": "Webflow e-ticaret siteleri için uygun mu?",
+      "answer": "Evet, Webflow, gelişmiş özellikler ve özel tasarım ile çevrimiçi mağazanızı oluşturmak için özelleştirebileceğimiz sağlam bir e-ticaret çözümü sunuyor."
+    },
+    "animations-interactions": {
+      "question": "Animasyonlar ve etkileşimlerle nasıl başa çıkıyorsunuz?",
+      "answer": "Webflow, kod yazmadan sofistike animasyonlar ve etkileşimler oluşturulmasına olanak tanıyor. Akıcı ve profesyonel etkileşimli deneyimler tasarlıyoruz ve optimal performansı koruyoruz."
+    },
+    "seo-quality": {
+      "question": "Webflow ile SEO kalitesi nedir?",
+      "answer": "Webflow temiz, SEO optimizasyonlu kod üretiyor. Arama motorlarında görünürlüğünüzü artırmak için SEO en iyi uygulamalarını uyguluyoruz."
+    }
+  },
+  "complementary": {
+    "custom-integrations": {
+      "title": "Özel entegrasyonlar",
+      "description": "Favori üçüncü taraf araçlarınız ve hizmetleriniz ile bağlantı."
+    },
+    "digital-strategy": {
+      "title": "Dijital strateji",
+      "description": "Çevrimiçi varlık stratejinize destek."
+    },
+    "webflow-training": {
+      "title": "Webflow eğitimi",
+      "description": "Site yönetiminizi ustalaşmanız için özelleştirilmiş eğitim."
+    }
+  }
+}

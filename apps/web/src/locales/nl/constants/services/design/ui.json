@@ -1,0 +1,80 @@
+{
+  "name": "UI-mockups",
+  "description": "Gedetailleerd ontwerp van gebruikersinterfaces",
+  "hero": {
+    "title": "Ontwerp van gebruikersinterfaces",
+    "description": "Maak moderne, elegante en intuïtieve interfaces voor je applicaties. Onze expertise in UI-ontwerp garandeert professionele mockups die je gebruikers zullen boeien."
+  },
+  "features": {
+    "modern-design": {
+      "title": "Modern ontwerp",
+      "description": "Elegante interfaces die de nieuwste trends volgen."
+    },
+    "design-system": {
+      "title": "Ontwerp systeem",
+      "description": "Consistente en herbruikbare componenten."
+    },
+    "responsive-design": {
+      "title": "Responsive ontwerp",
+      "description": "Perfecte aanpassing aan alle schermen."
+    },
+    "animations-micro-interactions": {
+      "title": "Animaties & micro-interacties",
+      "description": "Vloeibare en boeiende interacties."
+    }
+  },
+  "benefits": {
+    "visual-identity": {
+      "title": "Visuele identiteit",
+      "description": "Ontwerp dat consistent is met je merk."
+    },
+    "user-experience": {
+      "title": "Gebruikservaring",
+      "description": "Intuitieve en prettige interfaces om te gebruiken."
+    },
+    "design-system": {
+      "title": "Ontwerp systeem",
+      "description": "Bibliotheek van herbruikbare componenten."
+    },
+    "accessibility": {
+      "title": "Toegankelijkheid",
+      "description": "Interfaces die toegankelijk zijn voor alle gebruikers."
+    }
+  },
+  "faq": {
+    "ui-design-process": {
+      "question": "Hoe werkt het UI-ontwerp proces?",
+      "answer": "Het proces begint met het analyseren van jouw behoeften en merkidentiteit. We maken vervolgens eerste versies van belangrijke schermen, stellen het ontwerpsysteem vast en itereren op gedetailleerde mockups. Elke stap omvat jouw feedback om een resultaat te garanderen dat perfect aansluit bij jouw verwachtingen."
+    },
+    "tools-deliverables": {
+      "question": "Welke tools en opleveringen worden geleverd?",
+      "answer": "We gebruiken voornamelijk Figma voor UI-ontwerp. Je ontvangt gedetailleerde mockups van alle schermen, een compleet ontwerpsysteem met zijn componenten, specificaties voor ontwikkelaars en assets die nodig zijn voor integratie."
+    },
+    "responsive-handling": {
+      "question": "Hoe ga je om met responsive ontwerp?",
+      "answer": "We volgen een mobile-first benadering en maken mockups voor elk belangrijk breakpunt (mobiel, tablet, desktop). Elke interface is geoptimaliseerd om de best mogelijke ervaring te bieden op zijn medium."
+    },
+    "design-consistency": {
+      "question": "Hoe zorg je voor ontwerpconsistentie?",
+      "answer": "We creëren een compleet ontwerpsysteem inclusief een componentbibliotheek, typografische regels, kleurenpalet en ontwerprincipes. Dit systeem zorgt voor consistentie in de gehele interface."
+    },
+    "developer-handoff": {
+      "question": "Hoe faciliteer je het werk van ontwikkelaars?",
+      "answer": "We bieden gedetailleerde specificaties voor elk component, inclusief afmetingen, stijlen, toestanden en interacties. We gebruiken ook tools zoals Zeplin of Figma-exports om integratie te vergemakkelijken."
+    }
+  },
+  "complementary": {
+    "design-system": {
+      "title": "Ontwerp systeem",
+      "description": "Creatie van een componentbibliotheek."
+    },
+    "prototyping": {
+      "title": "Prototyping",
+      "description": "Creatie van interactieve prototypes."
+    },
+    "development": {
+      "title": "Ontwikkeling",
+      "description": "Integratie van je mockups in code."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "UI mockups",
+  "description": "Detaljerad design av användargränssnitt",
+  "hero": {
+    "title": "Användargränssnittdesign",
+    "description": "Skapa moderna, eleganta och intuitiva gränssnitt för dina applikationer. Vår expertis inom UI-design garanterar professionella mockups som kommer att fängsla dina användare."
+  },
+  "features": {
+    "modern-design": {
+      "title": "Modern design",
+      "description": "Eleganta gränssnitt som följer de senaste trenderna."
+    },
+    "design-system": {
+      "title": "Designsystem",
+      "description": "Konsistenta och återanvändbara komponenter."
+    },
+    "responsive-design": {
+      "title": "Responsiv design",
+      "description": "Perfekt anpassning till alla skärmar."
+    },
+    "animations-micro-interactions": {
+      "title": "Animationer & mikro-interaktioner",
+      "description": "Flytande och engagerande interaktioner."
+    }
+  },
+  "benefits": {
+    "visual-identity": {
+      "title": "Visuell identitet",
+      "description": "Design som är konsekvent med ditt varumärke."
+    },
+    "user-experience": {
+      "title": "Användarupplevelse",
+      "description": "Intuitiva och trevliga gränssnitt att använda."
+    },
+    "design-system": {
+      "title": "Designsystem",
+      "description": "Bibliotek av återanvändbara komponenter."
+    },
+    "accessibility": {
+      "title": "Tillgänglighet",
+      "description": "Gränssnitt som är tillgängliga för alla användare."
+    }
+  },
+  "faq": {
+    "ui-design-process": {
+      "question": "Hur fungerar UI-designprocessen?",
+      "answer": "Processen börjar med att analysera dina behov och varumärkesidentitet. Vi skapar sedan initiala versioner av nyckelskärmar, etablerar designsystemet och itererar sedan på detaljerade mockups. Varje steg inkluderar din feedback för att säkerställa ett resultat som perfekt överensstämmer med dina förväntningar."
+    },
+    "tools-deliverables": {
+      "question": "Vilka verktyg och leveranser tillhandahålls?",
+      "answer": "Vi använder huvudsakligen Figma för UI-design. Du får detaljerade mockups av alla skärmar, ett komplett designsystem med dess komponenter, specifikationer för utvecklare och tillgångar som behövs för integration."
+    },
+    "responsive-handling": {
+      "question": "Hur hanterar ni responsiv design?",
+      "answer": "Vi följer en mobil-först strategi och skapar mockups för varje viktig brytpunkt (mobil, surfplatta, skrivbord). Varje gränssnitt är optimerat för att erbjuda bästa möjliga upplevelse på sitt medium."
+    },
+    "design-consistency": {
+      "question": "Hur säkerställer ni designkonsekvens?",
+      "answer": "Vi skapar ett komplett designsystem som inkluderar ett komponentbibliotek, typografiska regler, färgpalett och designprinciper. Detta system säkerställer konsekvens genom hela gränssnittet."
+    },
+    "developer-handoff": {
+      "question": "Hur underlättar ni för utvecklarnas arbete?",
+      "answer": "Vi tillhandahåller detaljerade specifikationer för varje komponent, inklusive mått, stilar, tillstånd och interaktioner. Vi använder även verktyg som Zeplin eller Figma-exporter för att underlätta integration."
+    }
+  },
+  "complementary": {
+    "design-system": {
+      "title": "Designsystem",
+      "description": "Skapande av ett komponentbibliotek."
+    },
+    "prototyping": {
+      "title": "Prototyping",
+      "description": "Skapande av interaktiva prototyper."
+    },
+    "development": {
+      "title": "Utveckling",
+      "description": "Integration av dina mockups i kod."
+    }
+  }
+}

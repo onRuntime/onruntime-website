@@ -1,0 +1,81 @@
+{
+  "short-description": "Miljövänlig aktivitetsspårning. Övervaka ditt online-fotavtryck på ett roligt sätt.",
+  "description": "En webbläsartillägg som hjälper dig att förstå och minska din miljöpåverkan online.",
+  "long-description": "Kartrak är ett innovativt webbläsartillägg som ökar användarnas medvetenhet om deras digitala koldioxidavtryck. Genom att övervaka din online-aktivitet ger Kartrak detaljerade insikter om din internetanvändning och dess miljöpåverkan.\n\nTillägget använder avancerade algoritmer baserade på Ecoindex för att beräkna ditt webbläsarkoldioxidavtryck, samtidigt som det erbjuder personliga förslag för att minska din påverkan. Ecoindex är en erkänd metodik som utvärderar den miljömässiga påverkan av webbplatser genom att analysera deras tekniska komplexitet, vikt och energieffektivitet.\n\nMed en rolig och lärorik inställning gör Kartrak miljömedvetenhet tillgänglig och engagerande.",
+  "features": {
+    "real-time-tracking": {
+      "title": "Live spårning",
+      "description": "Visualisera ditt digitala koldioxidavtryck i realtid"
+    },
+    "personalized-suggestions": {
+      "title": "Personliga förslag",
+      "description": "Få skräddarsydda råd för att minska din påverkan"
+    },
+    "detailed-stats": {
+      "title": "Detaljerad statistik",
+      "description": "Analysera dina surfvanor och deras påverkan"
+    },
+    "ecological-goals": {
+      "title": "Ekologiska mål",
+      "description": "Sätt upp mål och följ din utveckling"
+    }
+  },
+  "technologies": {
+    "typescript": {
+      "description": "Webbläsartillägg"
+    },
+    "react": {
+      "description": "Användargränssnitt"
+    },
+    "nodejs": {
+      "description": "Backend och API"
+    },
+    "chrome-api": {
+      "description": "Webbläsarintegration"
+    }
+  },
+  "metrics": {
+    "sites-analyzed": {
+      "value": "∞",
+      "label": "Analyserade webbplatser",
+      "description": "Kompatibel med alla webbplatser"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "Öppen källkod",
+      "description": "Offentligt källkod"
+    },
+    "confidential": {
+      "value": "100%",
+      "label": "Konfidentiell",
+      "description": "Ingen användardata samlas in"
+    }
+  },
+  "screenshots": {
+    "dashboard": {
+      "caption": "Huvuddashboard"
+    },
+    "stats": {
+      "caption": "Detaljerad statistik"
+    }
+  },
+  "challenges": {
+    "carbon-calculation": "Noggrann koldioxidavtrycksberäkning",
+    "privacy-protection": "Skydd av användarnas integritet",
+    "background-performance": "Tilläggsprestation i bakgrunden",
+    "environmental-data-accuracy": "Noggrannhet av miljödata"
+  },
+  "learnings": {
+    "environmental-impact-complexity": "Komplexiteten i beräkningen av miljöpåverkan",
+    "user-engagement": "Vikten av användarengagemang",
+    "accuracy-performance-balance": "Balans mellan noggrannhet och prestanda",
+    "navigation-ux": "UX anpassad till surfvanor"
+  },
+  "future-plans": {
+    "more-browsers": "Stöd för fler webbläsare",
+    "eco-tools-integration": "Integration med andra miljövänliga verktyg",
+    "community-features": "Gemenskapsfunktioner",
+    "personalized-reports": "Personliga detaljerade rapporter",
+    "auto-close-tabs": "Automatisk stängning av oanvända flikar"
+  }
+}

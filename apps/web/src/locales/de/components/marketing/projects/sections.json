@@ -1,0 +1,22 @@
+{
+  "featured": {
+    "title": "Ausgewählte Projekte",
+    "view-project": "Projekt ansehen"
+  },
+  "studio": {
+    "title": "Studio Projekte"
+  },
+  "customer": {
+    "title": "Kundenprojekte",
+    "coming-soon": "Demnächst verfügbar",
+    "empty": {
+      "description": "Unsere Kundenprojekte werden vorbereitet. Kontaktiere uns, um mehr über unsere Arbeit zu erfahren oder um dein Projekt zu besprechen.",
+      "button": "Sprich über dein Projekt"
+    }
+  },
+  "tags": {
+    "featured": "Ausgewählt",
+    "open-source": "Open Source",
+    "customer": "Kunde"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Tworzenie stron internetowych w Marsylii | Cyfrowe rozwiązania dla biznesów prowansalskich",
+  "description": "Stwórz swoją stronę internetową lub aplikację mobilną w Marsylii. Indywidualne rozwiązania cyfrowe dla biznesów prowansalskich, dostosowane do lokalnych wyzwań twojego sektora.",
+  "hero": {
+    "title": "Tworzenie stron i aplikacji w Marsylii",
+    "description": "Pomagamy firmom w Marsylii i regionie PACA w cyfryzacji, oferując spersonalizowane rozwiązania webowe, idealnie dostosowane do specyficznych wyzwań na rynku śródziemnomorskim."
+  },
+  "intro": "Między morzem a wzgórzami, Marsylia to dynamiczny ekonomiczny węzeł, gdzie tradycja spotyka się z innowacją. Nasza wiedza cyfrowa pozwala firmom w Marsylii wyróżniać się na konkurencyjnym i ciągle ewoluującym rynku śródziemnomorskim.",
+  "expertise": "Nasz zespół projektuje strony internetowe, aplikacje i rozwiązania e-commerce, które są doskonale dopasowane do firm w Marsylii. Rozumiemy wyzwania lokalnego rynku i oferujemy cyfrowe rozwiązania, które podkreślają twoją prowansalską tożsamość, docierając do międzynarodowej klienteli.",
+  "why-choose-us": "Nasza dogłębna znajomość rynku prowansalskiego pozwala nam rozwijać cyfrowe rozwiązania idealnie dostosowane do specyficznych wyzwań lokalnych firm. Rozumiemy kulturowe i ekonomiczne bogactwo Marsylii i w każdym projekcie integrujemy je, aby stworzyć autentyczne i wydajne doświadczenia cyfrowe.",
+  "key-business-sectors": {
+    "tourism": "Turystyka",
+    "maritime": "Transport morski",
+    "local-commerce": "Handel lokalny",
+    "restaurant": "Restauracja"
+  },
+  "local-challenges": {
+    "tourism-competition": "Silna konkurencja w sektorze turystyki śródziemnomorskiej wymaga wyróżniającej się obecności w sieci",
+    "maritime-solutions": "Potrzeba rozwiązań cyfrowych dostosowanych do handlu morskiego i portowego",
+    "local-commerce-digitalization": "Cyfryzacja lokalnych sklepów stawiających czoła dużym sieciom",
+    "local-ecommerce": "Potrzeba rozwiązań e-commerce dostosowanych do prezentacji rzemiosła i lokalnych produktów"
+  },
+  "benefits": {
+    "custom-solutions": "Indywidualne rozwiązania dostosowane do specyfiki biznesów prowansalskich",
+    "tourism-maritime-expertise": "Wybitna wiedza o sektorze turystyki i transportu morskiego",
+    "international-ui": "Interfejs użytkownika zoptymalizowany dla międzynarodowej klienteli",
+    "mediterranean-knowledge": "Dogłębna wiedza o wyzwaniach ekonomicznych w regionie śródziemnomorskim",
+    "personalized-support": "Personalizowane wsparcie przez cały czas trwania twojego projektu cyfrowego"
+  },
+  "primary-stat": {
+    "label": "sektor turystyki"
+  },
+  "strengths": {
+    "tourism-experience": {
+      "title": "Doświadczenie w turystyce",
+      "description": "Strony i aplikacje zoptymalizowane pod kątem sektora turystyki śródziemnomorskiej."
+    },
+    "local-ecommerce": {
+      "title": "Lokalny e-commerce",
+      "description": "Rozwiązania do sprzedaży online dla prowansalskich rzemieślników i handlarzy."
+    },
+    "maritime-sector": {
+      "title": "Sektor morski",
+      "description": "Cyfryzacja dostosowana do działalności portowej i wodnej."
+    },
+    "mediterranean-design": {
+      "title": "Śródziemnomorski design",
+      "description": "Nowoczesne interfejsy odzwierciedlające śródziemnomorską tożsamość wizualną."
+    }
+  },
+  "focused-services": {
+    "tourism-websites": {
+      "name": "Strony internetowe dla turystyki",
+      "description": "Wielojęzyczne cyfrowe witryny dla hoteli, restauracji i atrakcji turystycznych."
+    },
+    "provencal-ecommerce": {
+      "name": "Prowansalski e-commerce",
+      "description": "Sklepy internetowe dopasowane do lokalnych producentów i rzemieślników."
+    },
+    "mobile-applications": {
+      "name": "Aplikacje mobilne",
+      "description": "Mobilne rozwiązania wzbogacające doświadczenia turystyczne i handlowe."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Ekspertyza",
+      "description": "Lata doświadczenia"
+    },
+    "satisfaction": {
+      "label": "Satysfakcja",
+      "description": "Zadowoleni klienci"
+    },
+    "average-time": {
+      "label": "Średni czas",
+      "description": "Tygodnie realizacji"
+    }
+  }
+}

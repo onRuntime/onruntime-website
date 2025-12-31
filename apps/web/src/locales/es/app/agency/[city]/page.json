@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Experiencia local no disponible",
+      "description": "Aún no tenemos experiencia específica para esta ciudad."
+    }
+  },
+  "breadcrumb": {
+    "home": "Inicio",
+    "local-expertise": "Experiencia local"
+  },
+  "challenges": {
+    "title": "Desafíos digitales para negocios en {city}",
+    "description": "Los negocios en {city} enfrentan desafíos específicos en la transformación digital. Nuestra experiencia nos permite abordarlos de manera efectiva.",
+    "market-issues": "Desafíos del mercado en {region}",
+    "our-solutions": "Nuestras soluciones personalizadas",
+    "discover-all-services": "Descubre todos nuestros servicios"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes sobre proyectos web en {city}",
+    "description": "Encuentra respuestas a las preguntas más comunes de los negocios en {city} sobre sus proyectos digitales.",
+    "questions": {
+      "choose-agency": {
+        "question": "¿Cómo elegir la agencia web adecuada en {city}?",
+        "answer": "Para elegir la agencia web adecuada en {city}, evalúa su conocimiento del mercado local, su portafolio en tu industria y su capacidad para entender tus objetivos específicos. La experiencia en desafíos digitales específicos de la región {region} también es un factor clave."
+      },
+      "project-costs": {
+        "question": "¿Cuáles son los costos de un proyecto web en {city}?",
+        "answer": "Los costos de un proyecto web en {city} varían según la complejidad, las características y los objetivos. Para un sitio web profesional de vitrina, espera entre 3,000 € y 8,000 €. Para una aplicación web personalizada o comercio electrónico, los precios generalmente comienzan en 10,000 €. Solicita una cotización personalizada para obtener una estimación precisa."
+      },
+      "development-time": {
+        "question": "¿Cuánto tiempo se toma desarrollar un sitio web o aplicación para mi negocio en {city}?",
+        "answer": "Los tiempos de desarrollo para un negocio en {city} dependen de la complejidad del proyecto. Un sitio web de vitrina puede completarse en 4-8 semanas, mientras que una aplicación personalizada o comercio electrónico generalmente requiere de 2 a 4 meses. Nuestra metodología ágil permite entregas progresivas para que veas el progreso rápidamente."
+      },
+      "remote-work": {
+        "question": "¿Pueden trabajar efectivamente con mi negocio en {city} de forma remota?",
+        "answer": "Absolutamente. Colaboramos de manera efectiva con negocios en {city} a través de nuestra metodología de trabajo remoto comprobada. Conferencias de video regulares, potentes herramientas colaborativas y nuestro profundo conocimiento del mercado local de {region} nos permiten proporcionar un seguimiento tan efectivo como el de un equipo en sitio."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros clientes en {city}",
+    "description": "Descubre los comentarios de negocios locales con los que hemos colaborado."
+  }
+}

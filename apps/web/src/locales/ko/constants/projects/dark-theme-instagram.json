@@ -1,0 +1,66 @@
+{
+  "short-description": "시스템이 다크 모드일 때 Instagram을 다크 모드로 변환하는 브라우저 확장입니다. iOS 앱처럼요.",
+  "description": "시스템이 다크 모드일 때 Instagram.com의 테마를 다크 모드로 변경합니다.",
+  "long-description": "Instagram™의 다크 테마는 iOS 앱 모양과 비슷한 다크 테마를 채택하여 Instagram.com의 시각적 경험을 변화시키는 브라우저 확장입니다.\n\n이 확장은 눈의 피로를 줄이고 Instagram 브라우징 경험을 향상시키는 간단하고 세련된 솔루션을 제공합니다. 운영 체제 기본 설정을 존중하는 방식으로요.",
+  "features": {
+    "auto-dark-mode": {
+      "title": "자동 다크 모드",
+      "description": "시스템 설정에 따라 다크 테마를 자동으로 활성화합니다."
+    },
+    "multi-browser": {
+      "title": "다중 브라우저 호환",
+      "description": "Firefox, Edge, Chrome에서 사용 가능합니다."
+    },
+    "open-source": {
+      "title": "오픈 소스",
+      "description": "자유롭게 접근 가능하며 검증 가능한 소스 코드입니다."
+    }
+  },
+  "technologies": {
+    "javascript": {
+      "description": "확장 개발"
+    },
+    "chrome-api": {
+      "description": "브라우저 통합"
+    },
+    "css": {
+      "description": "테마 커스터마이징"
+    }
+  },
+  "metrics": {
+    "users": {
+      "value": "52k+",
+      "label": "사용자",
+      "description": "활성 사용자"
+    },
+    "installs": {
+      "value": "82k+",
+      "label": "설치 수",
+      "description": "총 설치 수"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "오픈 소스",
+      "description": "공개 소스 코드"
+    }
+  },
+  "screenshots": {
+    "dark-interface": {
+      "caption": "다크 모드의 Instagram 인터페이스"
+    }
+  },
+  "challenges": {
+    "instagram-updates-compatibility": "Instagram의 잦은 업데이트와 호환성 유지하기",
+    "cross-browser-consistency": "다양한 브라우저에서 일관된 다크 테마 보장하기",
+    "browser-performance": "브라우저 성능에 미치는 영향 최소화하기"
+  },
+  "learnings": {
+    "dynamic-interface-modification": "웹 인터페이스를 동적으로 수정하는 복잡성",
+    "cross-browser-compatibility": "크로스 브라우저 호환성의 중요성",
+    "platform-updates-management": "자주 업데이트되는 웹 플랫폼 관리하기"
+  },
+  "future-plans": {
+    "more-customization": "더 많은 커스터마이징 옵션 추가하기",
+    "instagram-versions-compatibility": "다양한 Instagram 버전과의 호환성 향상하기"
+  }
+}

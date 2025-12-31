@@ -1,0 +1,69 @@
+{
+  "back": "Terug naar vacatures",
+  "share": {
+    "button": "Delen",
+    "text": "Ontdek deze kans: {jobTitle} bij onRuntime Studio",
+    "copied": "Link gekopieerd naar het klembord!"
+  },
+  "apply": "Solliciteer nu",
+  "published": "Geplaatst op",
+  "employment-type": {
+    "full-time": "Voltijd",
+    "part-time": "Deeltijd",
+    "contract": "Contract",
+    "temporary": "Tijdelijk",
+    "internship": "Stage",
+    "apprenticeship": "Leerlingplaats"
+  },
+  "workplace-type": {
+    "hybrid": "Hybride",
+    "remote": "Op afstand",
+    "on-site": "Op locatie"
+  },
+  "salary-format": {
+    "from": "Vanaf",
+    "up-to": "Tot",
+    "range": "-"
+  },
+  "sections": {
+    "description": "Functieomschrijving",
+    "no-description": "Er is geen gedetailleerde beschrijving beschikbaar voor deze functie.",
+    "requirements": "Vereisten",
+    "benefits": "Voordelen"
+  },
+  "details": {
+    "title": "Functiedetails",
+    "department": "Afdeling",
+    "location": "Locatie",
+    "contract": "Contracttype",
+    "salary": "Salaris",
+    "remote": "Remote werk",
+    "remote-possible": "Mogelijk",
+    "workplace": "Werkmodus"
+  },
+  "interested": {
+    "title": "Geïnteresseerd in deze functie?",
+    "description": "Solliciteer nu en word onderdeel van ons gepassioneerde team."
+  },
+  "culture": {
+    "title": "Onze bedrijfscultuur",
+    "description": "Bij onRuntime Studio stimuleren we een samenwerkende en inspirerende werkomgeving waar elk teamlid zijn of haar creativiteit kan uiten en vaardigheden kan ontwikkelen. We geven prioriteit aan innovatie, kwaliteit en het welzijn van onze medewerkers.",
+    "training": {
+      "title": "Continue training",
+      "description": "We investeren in de professionele ontwikkeling van onze teams"
+    },
+    "flexible": {
+      "title": "Flexibele omgeving",
+      "description": "Werk-privébalans en hybride werk"
+    },
+    "projects": {
+      "title": "Gevarieerde projecten",
+      "description": "Werk aan diverse en inspirerende projecten"
+    },
+    "learn-more": "Lees meer over ons team"
+  },
+  "cta": {
+    "title": "Klaar voor de uitdaging?",
+    "description": "Sluit je aan bij ons team en neem deel aan inspirerende projecten die je in staat stellen jouw vaardigheden te ontwikkelen en je creativiteit te uiten."
+  }
+}

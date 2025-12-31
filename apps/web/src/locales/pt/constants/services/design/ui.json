@@ -1,0 +1,80 @@
+{
+  "name": "Mockups de UI",
+  "description": "Design detalhado de interfaces de usuário",
+  "hero": {
+    "title": "Design de Interface do Usuário",
+    "description": "Crie interfaces modernas, elegantes e intuitivas para seus aplicativos. Nossa expertise em design de UI garante mockups profissionais que vão cativar seus usuários."
+  },
+  "features": {
+    "modern-design": {
+      "title": "Design moderno",
+      "description": "Interfaces elegantes seguindo as últimas tendências."
+    },
+    "design-system": {
+      "title": "Sistema de design",
+      "description": "Componentes consistentes e reutilizáveis."
+    },
+    "responsive-design": {
+      "title": "Design responsivo",
+      "description": "Adaptação perfeita a todas as telas."
+    },
+    "animations-micro-interactions": {
+      "title": "Animações e micro-interações",
+      "description": "Interações fluidas e envolventes."
+    }
+  },
+  "benefits": {
+    "visual-identity": {
+      "title": "Identidade visual",
+      "description": "Design consistente com a sua marca."
+    },
+    "user-experience": {
+      "title": "Experiência do usuário",
+      "description": "Interfaces intuitivas e agradáveis de usar."
+    },
+    "design-system": {
+      "title": "Sistema de design",
+      "description": "Biblioteca de componentes reutilizáveis."
+    },
+    "accessibility": {
+      "title": "Acessibilidade",
+      "description": "Interfaces acessíveis a todos os usuários."
+    }
+  },
+  "faq": {
+    "ui-design-process": {
+      "question": "Como funciona o processo de design de UI?",
+      "answer": "O processo começa com a análise das suas necessidades e identidade de marca. Depois, criamos versões iniciais das telas principais, estabelecemos o sistema de design e iteramos em mockups detalhados. Cada etapa inclui seu feedback para garantir um resultado perfeitamente alinhado com suas expectativas."
+    },
+    "tools-deliverables": {
+      "question": "Quais ferramentas e entregáveis são fornecidos?",
+      "answer": "Usamos principalmente o Figma para design de UI. Você recebe mockups detalhados de todas as telas, um sistema de design completo com seus componentes, especificações para desenvolvedores e os recursos necessários para integração."
+    },
+    "responsive-handling": {
+      "question": "Como vocês lidam com o design responsivo?",
+      "answer": "Seguimos uma abordagem mobile-first e criamos mockups para cada ponto de quebra importante (mobile, tablet, desktop). Cada interface é otimizada para oferecer a melhor experiência possível no seu meio."
+    },
+    "design-consistency": {
+      "question": "Como vocês garantem a consistência do design?",
+      "answer": "Criamos um sistema de design completo que inclui uma biblioteca de componentes, regras tipográficas, paleta de cores e princípios de design. Esse sistema garante consistência em toda a interface."
+    },
+    "developer-handoff": {
+      "question": "Como vocês facilitam o trabalho do desenvolvedor?",
+      "answer": "Fornecemos especificações detalhadas para cada componente, incluindo medidas, estilos, estados e interações. Também usamos ferramentas como Zeplin ou exportações do Figma para facilitar a integração."
+    }
+  },
+  "complementary": {
+    "design-system": {
+      "title": "Sistema de design",
+      "description": "Criação de uma biblioteca de componentes."
+    },
+    "prototyping": {
+      "title": "Prototipagem",
+      "description": "Criação de protótipos interativos."
+    },
+    "development": {
+      "title": "Desenvolvimento",
+      "description": "Integração dos seus mockups em código."
+    }
+  }
+}

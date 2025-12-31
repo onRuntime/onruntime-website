@@ -1,0 +1,79 @@
+{
+  "title": "Desenvolvimento Web em Nice | Soluções Digitais para Empresas da Côte d'Azur",
+  "description": "Crie seu site ou aplicativo móvel em Nice. Soluções digitais personalizadas para empresas da Côte d'Azur, adaptadas aos desafios locais do seu setor.",
+  "hero": {
+    "title": "Desenvolvimento Web & Móvel em Nice",
+    "description": "Ajudamos empresas em Nice e na Riviera Francesa a se digitalizarem com soluções web personalizadas, perfeitamente adaptadas aos desafios específicos do mercado azurenho."
+  },
+  "intro": "Entre o Mar Mediterrâneo e os Alpes, Nice se beneficia de uma influência internacional e de uma economia diversificada onde o turismo encontra a inovação. Nossa expertise digital permite que as empresas de Nice se destaquem em um ambiente competitivo, onde imagem e excelência são fundamentais.",
+  "expertise": "Nossa equipe projeta sites, aplicativos e soluções de e-commerce perfeitamente adaptadas às empresas de Nice e da Riviera Francesa. Entendemos os altos padrões do seu mercado local e oferecemos soluções digitais que ressaltam o posicionamento premium específico da região.",
+  "why-choose-us": "Nosso profundo conhecimento do mercado azurenho nos permite desenvolver soluções digitais perfeitamente adaptadas aos desafios específicos das empresas locais. Entendemos a dimensão internacional de Nice e sua reputação pela excelência, e integramos esses aspectos em cada projeto para criar experiências digitais refinadas e de alto desempenho.",
+  "key-business-sectors": {
+    "luxury-tourism": "Turismo de Luxo",
+    "real-estate": "Imóveis",
+    "events": "Eventos",
+    "health-wellness": "Saúde & Bem-Estar"
+  },
+  "local-challenges": {
+    "luxury-tourism-digitalization": "Digitalização do setor de turismo de alto padrão na Riviera Francesa",
+    "innovative-real-estate-solutions": "Necessidade de soluções imobiliárias inovadoras para um mercado internacional exigente",
+    "events-digital-showcase": "Vitrine digital de eventos (festivais, conferências, exposições)",
+    "health-wellness-transformation": "Transformação digital do setor de saúde e bem-estar em uma região renomada pela qualidade de vida"
+  },
+  "benefits": {
+    "international-clientele-solutions": "Soluções personalizadas adaptadas a uma clientela internacional exigente",
+    "premium-interfaces-expertise": "Experiência afiada em interfaces premium e experiência do usuário",
+    "azurean-market-knowledge": "Conhecimento aprofundado do mercado azurenho e suas especificidades",
+    "multilingual-applications": "Aplicações multilíngues adaptadas à clientela internacional da Riviera Francesa",
+    "personalized-support": "Suporte personalizado durante todo o seu projeto digital"
+  },
+  "primary-stat": {
+    "label": "turismo de luxo"
+  },
+  "strengths": {
+    "premium-experience": {
+      "title": "Experiência Premium",
+      "description": "Sites e aplicativos de alto padrão para turismo de luxo e hospitalidade."
+    },
+    "digital-real-estate": {
+      "title": "Imóveis Digitais",
+      "description": "Soluções inovadoras para agências imobiliárias e desenvolvedores."
+    },
+    "event-platforms": {
+      "title": "Plataformas de Eventos",
+      "description": "Sites e aplicativos para festivais, conferências e eventos prestigiados."
+    },
+    "connected-wellness": {
+      "title": "Bem-Estar Conectado",
+      "description": "Soluções digitais para clínicas, spas e centros de bem-estar."
+    }
+  },
+  "focused-services": {
+    "premium-websites": {
+      "name": "Sites Premium",
+      "description": "Vitrines digitais de alto padrão para hotéis, restaurantes e boutiques de luxo."
+    },
+    "real-estate-applications": {
+      "name": "Aplicativos Imobiliários",
+      "description": "Soluções personalizadas para apresentação e gestão de propriedades excepcionais."
+    },
+    "visual-identity": {
+      "name": "Identidade Visual",
+      "description": "Design UI/UX elegante e refinado para marcas e estabelecimentos prestigiados."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Especialização",
+      "description": "Anos de experiência"
+    },
+    "satisfaction": {
+      "label": "Satisfação",
+      "description": "Clientes satisfeitos"
+    },
+    "average-time": {
+      "label": "Tempo Médio",
+      "description": "Semanas para conclusão"
+    }
+  }
+}

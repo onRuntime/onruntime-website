@@ -1,0 +1,80 @@
+{
+  "name": "WordPress",
+  "description": "Tworzenie niestandardowych stron internetowych w WordPressie",
+  "hero": {
+    "title": "Niestandardowy rozwój WordPressa",
+    "description": "Stwórz profesjonalną stronę, która odzwierciedla Ciebie, korzystając z WordPressa. Nasza wiedza gwarantuje wyspecjalizowaną, bezpieczną stronę idealnie dopasowaną do Twoich potrzeb."
+  },
+  "features": {
+    "custom-themes": {
+      "title": "Niestandardowe motywy",
+      "description": "Tworzenie niestandardowych motywów, które odzwierciedlają Twoją tożsamość i precyzyjnie spełniają Twoje potrzeby."
+    },
+    "optimized-performance": {
+      "title": "Optymalna wydajność",
+      "description": "Zaawansowana optymalizacja by zapewnić szybkie czasy ładowania i płynne korzystanie."
+    },
+    "enhanced-security": {
+      "title": "Zwiększone bezpieczeństwo",
+      "description": "Wdrożenie najlepszych środowisk zabezpieczeń, aby chronić Twoją stronę i dane."
+    },
+    "simplified-administration": {
+      "title": "Uproszczona administracja",
+      "description": "Niestandardowy i intuicyjny interfejs administracyjny do łatwego zarządzania treściami."
+    }
+  },
+  "benefits": {
+    "intuitive-administration": {
+      "title": "Intuicyjna administracja",
+      "description": "Prosty i intuicyjny interfejs zarządzania do samodzielnego zarządzania treściami."
+    },
+    "seo-optimized": {
+      "title": "Optymalizacja SEO",
+      "description": "Struktura zoptymalizowana pod kątem naturalnych wyszukiwań i wbudowane narzędzia SEO."
+    },
+    "powerful-extensions": {
+      "title": "Mocne rozszerzenia",
+      "description": "Dostęp do tysięcy wtyczek, by rozszerzyć funkcjonalność Twojej strony."
+    },
+    "maximum-performance": {
+      "title": "Maksymalna wydajność",
+      "description": "Zaawansowana optymalizacja wydajności dla najlepszych doświadczeń użytkowników."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Ile czasu zajmuje stworzenie strony w WordPressie?",
+      "answer": "Średni czas stworzenia strony w WordPressie wynosi od 4 do 12 tygodni, w zależności od złożoności projektu. To obejmuje fazę projektowania, rozwój niestandardowego motywu, integrację treści i testowanie."
+    },
+    "migration": {
+      "question": "Czy możesz przenieść moją istniejącą stronę do WordPressa?",
+      "answer": "Tak, oferujemy kompleksową usługę migracji do WordPressa, w tym przeniesienie treści, obrazów i funkcji przy jednoczesnym zachowaniu SEO."
+    },
+    "maintenance-updates": {
+      "question": "Jak radzicie sobie z konserwacją i aktualizacjami?",
+      "answer": "Oferujemy różne plany konserwacji, obejmujące aktualizacje zabezpieczeń, regularne kopie zapasowe, aktualizacje WordPressa i wtyczek, a także monitorowanie wydajności."
+    },
+    "mobile-optimization": {
+      "question": "Czy moja strona będzie zoptymalizowana do urządzeń mobilnych?",
+      "answer": "Absolutnie. Wszystkie nasze rozwój WordPressa są domyślnie responsywne, co zapewnia optymalne doświadczenia na wszystkich urządzeniach: komputerach, tabletach i smartfonach."
+    },
+    "security-approach": {
+      "question": "Jakie jest Wasze podejście do bezpieczeństwa?",
+      "answer": "Wdrażamy kompleksową strategię bezpieczeństwa: mocna autoryzacja, zapora aplikacji webowej, monitorowanie prób włamań, automatyczne kopie zapasowe i regularne aktualizacje zabezpieczeń."
+    }
+  },
+  "complementary": {
+    "custom-development": {
+      "title": "Niestandardowy rozwój",
+      "description": "Tworzenie specyficznych funkcji, by zaspokoić Twoje szczególne potrzeby."
+    },
+    "digital-marketing": {
+      "title": "Marketing cyfrowy",
+      "description": "Strategie marketingowe dostosowane do zwiększenia Twojej widoczności online."
+    },
+    "wordpress-training": {
+      "title": "Szkolenie z WordPressa",
+      "description": "Szkolenie dostosowane do opanowania zarządzania Twoją stroną."
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "short-description": "ストリーマー向けのアフィリエイトプラットフォームで、オンラインカジノのボーナスやボックスオープニングに特化しています。",
+  "description": "ストリーマーのvitapvpのために開発されたアフィリエイトサイトで、パートナーのカジノからの最高のボーナスや特典を示し、アフィリエイトリンクにリダイレクトします。",
+  "long-description": "ShadowBonusは、ストリーマーのvitapvpのために開発されたアフィリエイトプラットフォームで、パートナーのオンラインカジノからの最高のボーナスや特典をわかりやすく魅力的に提示することを目的としています。\n\nこのプロジェクトは、本質に焦点を当てています：パートナーのオファーを強調し、アフィリエイトリンクへのコンバージョンを促進するクリーンなインターフェース。Reactとstyled-componentsを使用して開発され、サイトは使いやすさとコンバージョン効率を優先しています。\n\n私たちのアプローチは、vitapvpの視聴者が最善のオファーをすぐに発見し、パートナープラットフォームに簡単にアクセスできるスムーズなユーザー体験を提供することに重点を置いていました。",
+  "features": {
+    "partner-showcase": {
+      "title": "パートナーの紹介",
+      "description": "ストリーマーのパートナーのカジノやプラットフォームをわかりやすく魅力的に紹介"
+    },
+    "bonus-comparison": {
+      "title": "ボーナスの比較",
+      "description": "視聴者のために利用可能な最高のボーナスと特典を強調"
+    },
+    "affiliate-redirect": {
+      "title": "アフィリエイトのリダイレクト",
+      "description": "パートナーのアフィリエイトリンクへの最適化されたリダイレクトシステム"
+    },
+    "responsive-interface": {
+      "title": "レスポンシブインターフェース",
+      "description": "すべてのデバイスで最適な体験のための適応設計"
+    }
+  },
+  "technologies": {
+    "react": {
+      "description": "ユーザーインターフェース用のJavaScriptライブラリ"
+    },
+    "styled-components": {
+      "description": "モダンアプローチのためのCSS-in-JSスタイリング"
+    },
+    "cloudflare": {
+      "description": "ホスティングと継続的デプロイ"
+    }
+  },
+  "metrics": {
+    "weekly-visits": {
+      "value": "1500+",
+      "label": "週間訪問者数",
+      "description": "2021年7月のローンチ時点で"
+    },
+    "dev-time": {
+      "value": "2ヶ月",
+      "label": "開発時間",
+      "description": "迅速で効率的なデリバリー"
+    },
+    "team-size": {
+      "value": "3人",
+      "label": "チーム",
+      "description": "小さくて機敏なチーム"
+    }
+  },
+  "screenshots": {
+    "homepage": {
+      "caption": "パートナーオファーを紹介するホームページ"
+    },
+    "partners": {
+      "caption": "パートナーのカジノやプラットフォームのセクション"
+    }
+  },
+  "challenges": {
+    "attractive-interface": "パートナーオファーを強調する魅力的なインターフェースの作成",
+    "conversion-optimization": "アフィリエイトリンクへのコンバージョン率の最適化",
+    "simple-react-solution": "シンプルで効果的なReactソリューションの開発",
+    "cross-device-experience": "すべてのデバイスでスムーズなユーザー体験を保証"
+  },
+  "learnings": {
+    "affiliate-simplicity": "アフィリエイトプロジェクトにおけるシンプルさの重要性",
+    "streamer-conversion": "ストリーマーのためのコンバージョンジャーニーの最適化",
+    "react-styled-components": "Reactとstyled-componentsを使用した迅速で効率的な開発",
+    "gaming-streaming-needs": "ゲームストリーミングの世界の特定のニーズに適応"
+  },
+  "future-plans": {
+    "client-transfer": "プロジェクトはメンテナンスのためにクライアントに移管されました",
+    "streamer-evolutions": "ストリーマーのニーズに基づいた可能性のある進化"
+  }
+}

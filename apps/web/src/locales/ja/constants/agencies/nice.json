@@ -1,0 +1,79 @@
+{
+  "title": "ニースのウェブ開発 | コート・ダジュールのビジネス向けデジタルソリューション",
+  "description": "ニースでウェブサイトやモバイルアプリを作成します。コート・ダジュールのビジネスに合わせたカスタムデジタルソリューションで、あなたの業界の地元の課題に対応します。",
+  "hero": {
+    "title": "ニースのウェブ & モバイル開発",
+    "description": "私たちはニースやフレンチリビエラのビジネスがカスタムウェブソリューションを使ってデジタル化するのを支援します。特にアズール市場の特有な課題に完璧に適応しています。"
+  },
+  "intro": "地中海とアルプスの間に位置するニースは、国際的な影響と観光と革新が交錯する多様化した経済の恩恵を受けています。私たちのデジタル専門知識は、イメージと卓越性が重要な競争の激しい環境において、ニースのビジネスが際立つことを可能にします。",
+  "expertise": "私たちのチームは、ニースとフレンチリビエラのビジネスに完璧に適応したウェブサイトやアプリケーション、eコマースソリューションを設計しています。あなたの地域の市場の高い基準を理解し、地域特有のプレミアムなポジショニングを高めるデジタルソリューションを提供します。",
+  "why-choose-us": "私たちはアズール市場について深く理解しているので、地元のビジネスの特有な課題に完璧に適応したデジタルソリューションを開発できます。ニースの国際的な側面と卓越性の評判を理解し、各プロジェクトにこれらの要素を統合して洗練された高性能なデジタル体験を作り出します。",
+  "key-business-sectors": {
+    "luxury-tourism": "高級観光",
+    "real-estate": "不動産",
+    "events": "イベント",
+    "health-wellness": "健康 & ウェルネス"
+  },
+  "local-challenges": {
+    "luxury-tourism-digitalization": "フレンチリビエラの高級観光セクターのデジタル化",
+    "innovative-real-estate-solutions": "要求の厳しい国際市場向けの革新的な不動産ソリューションの必要性",
+    "events-digital-showcase": "イベントのデジタルショーケース（フェスティバル、会議、展示会）",
+    "health-wellness-transformation": "生活の質で知られる地域での健康・ウェルネスセクターのデジタル変革"
+  },
+  "benefits": {
+    "international-clientele-solutions": "要求が厳しい国際的な顧客向けにカスタマイズされたソリューション",
+    "premium-interfaces-expertise": "プレミアムインターフェースとユーザーエクスペリエンスの専門知識",
+    "azurean-market-knowledge": "アズール市場とその特性に関する深い知識",
+    "multilingual-applications": "フレンチリビエラの国際的な顧客に合わせた多言語アプリケーション",
+    "personalized-support": "デジタルプロジェクト全体を通じた個別サポート"
+  },
+  "primary-stat": {
+    "label": "高級観光"
+  },
+  "strengths": {
+    "premium-experience": {
+      "title": "プレミアムエクスペリエンス",
+      "description": "高級観光とホスピタリティ向けのハイエンドサイトとアプリケーション。"
+    },
+    "digital-real-estate": {
+      "title": "デジタル不動産",
+      "description": "不動産エージェンシーやディベロッパー向けの革新的なソリューション。"
+    },
+    "event-platforms": {
+      "title": "イベントプラットフォーム",
+      "description": "フェスティバル、会議、 prestigiousイベントのためのサイトとアプリケーション。"
+    },
+    "connected-wellness": {
+      "title": "コネクテッドウェルネス",
+      "description": "クリニック、スパ、ウェルネスセンター向けのデジタルソリューション。"
+    }
+  },
+  "focused-services": {
+    "premium-websites": {
+      "name": "プレミアムウェブサイト",
+      "description": "ホテル、レストラン、高級ブティックのためのハイエンドデジタルショーケース。"
+    },
+    "real-estate-applications": {
+      "name": "不動産アプリケーション",
+      "description": "特別な物件のプレゼンテーションと管理のためのカスタムソリューション。"
+    },
+    "visual-identity": {
+      "name": "ビジュアルアイデンティティ",
+      "description": "Prestigiousブランドや施設のためのエレガントで洗練されたUI/UXデザイン。"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "専門知識",
+      "description": "経験年数"
+    },
+    "satisfaction": {
+      "label": "満足度",
+      "description": "満足したクライアント"
+    },
+    "average-time": {
+      "label": "平均所要時間",
+      "description": "完了までの週数"
+    }
+  }
+}

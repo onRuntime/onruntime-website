@@ -1,0 +1,82 @@
+{
+  "short-description": "مكتبة مكونات حديثة وعالية الأداء وقابلة للتخصيص بدرجة كبيرة مبنية على React وReact Native، مستوحاة من Geist UI وVercel Design.",
+  "description": "مجموعة كاملة من المكونات المصممة لإنشاء واجهات مستخدم متسقة وأنيقة، مدعومة من Tonight Pass.",
+  "long-description": "Kitchn هي مكتبة شاملة لمكونات واجهة المستخدم تسهل تطوير التطبيقات الحديثة على الويب والهواتف المحمولة.\n\nمستوحاة من Geist UI وVercel Design، تتميز بنهجها البسيط وسهولة الاستخدام، حيث تقدم مجموعة من المكونات المحسّنة المبنية باستخدام styled-components وTypeScript.\n\nكل مكون مصمم ليكون وحدوي وأداءه عال وقابل للتخصيص بدرجة كبيرة، مما يسمح لفرق التطوير بإنشاء واجهات مستخدم متسقة بسرعة مع الحفاظ على تجربة مطور ممتازة.",
+  "features": {
+    "modular-architecture": {
+      "title": "معمارية وحدوية",
+      "description": "مكونات مستقلة وقابلة لإعادة الاستخدام مصممة للعمل معًا بانسجام"
+    },
+    "flexible-themes": {
+      "title": "ثيمات مرنة",
+      "description": "دعم كامل للوضعين الفاتح والداكن مع نظام ثيمات قابل للتوسع"
+    },
+    "cross-platform": {
+      "title": "عبر المنصات",
+      "description": "دعم أصلي لـ React وReact Native لتجربة متسقة عبر جميع المنصات"
+    },
+    "interactive-docs": {
+      "title": "توثيق تفاعلي",
+      "description": "توثيق شامل مع أمثلة ومساحة خاصة للتدريب السريع"
+    }
+  },
+  "technologies": {
+    "styled-components": {
+      "description": "نمط CSS داخل JS"
+    },
+    "react": {
+      "description": "مكتبة واجهة المستخدم على الويب"
+    },
+    "react-native": {
+      "description": "مكونات الهاتف المحمول الأصلية"
+    },
+    "typescript": {
+      "description": "سلامة نوعية وإكمال تلقائي"
+    },
+    "storybook": {
+      "description": "توثيق تفاعلي"
+    }
+  },
+  "metrics": {
+    "components": {
+      "value": "35+",
+      "label": "مكونات",
+      "description": "مكونات واجهة مستخدم قابلة لإعادة الاستخدام"
+    },
+    "downloads": {
+      "value": "20k+",
+      "label": "تنزيلات",
+      "description": "تنزيلات شهرية"
+    },
+    "github-stars": {
+      "value": "50+",
+      "label": "نجوم GitHub",
+      "description": "نجوم على GitHub"
+    }
+  },
+  "screenshots": {
+    "responsive": {
+      "caption": "مكونات تستجيب للأبعاد"
+    },
+    "themable": {
+      "caption": "ثيمات قابلة للتخصيص"
+    }
+  },
+  "challenges": {
+    "visual-consistency": "الحفاظ على اتساق بصري مثالي بين منصات الويب والهواتف المحمولة",
+    "bundle-optimization": "تحسين حجم الحزمة مع الحفاظ على غنى الميزات",
+    "react-compatibility": "ضمان التوافق مع إصدارات React المختلفة",
+    "backward-compatibility": "ضمان التوافق مع الإصدارات السابقة خلال التحديثات"
+  },
+  "learnings": {
+    "clear-documentation": "أهمية كبيرة للتوثيق الواضح والمفصل",
+    "modular-architecture": "الحاجة إلى معمارية وحدوية للصيانة",
+    "automated-testing": "قيمة الاختبار الآلي للموثوقية",
+    "developer-experience": "أثر تجربة المطور على الاستخدام المتزايد"
+  },
+  "future-plans": {
+    "component-library-expansion": "إثراء مكتبة المكونات",
+    "performance-optimization": "تحسينات مستمرة في الأداء",
+    "framework-compatibility": "توسيع التوافق مع الأطر الحديثة"
+  }
+}

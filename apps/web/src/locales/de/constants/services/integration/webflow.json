@@ -1,0 +1,80 @@
+{
+  "name": "Webflow",
+  "description": "Erstellung moderner Webseiten mit Webflow",
+  "hero": {
+    "title": "Professionelle Webflow-Entwicklung",
+    "description": "Bring deine Vision mit Webflow zum Leben. Unser Fachwissen garantiert eine moderne, interaktive Website, die perfekt auf deine Bedürfnisse zugeschnitten ist, ohne Kompromisse bei der Qualität."
+  },
+  "features": {
+    "advanced-visual-design": {
+      "title": "Fortgeschrittenes visuelles Design",
+      "description": "Erstellung einzigartiger Oberflächen und anspruchsvoller Animationen ohne die Einschränkungen des traditionellen Codierens."
+    },
+    "optimal-performance": {
+      "title": "Optimale Leistung",
+      "description": "Schnelle und reaktionsschnelle Seiten, die für alle Geräte und Browser optimiert sind."
+    },
+    "rich-interactions": {
+      "title": "Reiche Interaktionen",
+      "description": "Flüssige Benutzeranimationen und Interaktionen für ein modernes und ansprechendes Web-Erlebnis."
+    },
+    "integrated-cms": {
+      "title": "Integriertes CMS",
+      "description": "Leistungsstarkes und flexibles Content-Management-System für einfache Aktualisierungen."
+    }
+  },
+  "benefits": {
+    "visual-development": {
+      "title": "Visuelle Entwicklung",
+      "description": "Erstellung komplexer Seiten ohne Code zu schreiben, während du die volle Kontrolle über das Design behältst."
+    },
+    "native-seo": {
+      "title": "Nativer SEO",
+      "description": "Integrierte SEO-Tools und eine Struktur, die für Suchmaschinen optimiert ist."
+    },
+    "responsive-by-default": {
+      "title": "Responsive von Anfang an",
+      "description": "Design, das perfekt an alle Bildschirme angepasst ist, von mobil bis groß."
+    },
+    "optimized-hosting": {
+      "title": "Optimiertes Hosting",
+      "description": "Robuste Cloud-Infrastruktur mit globalem CDN für optimale Leistung."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Wie lange dauert es, eine Webflow-Seite zu erstellen?",
+      "answer": "Die durchschnittliche Zeit zur Erstellung einer Webflow-Seite variiert von 3 bis 8 Wochen, je nach Projektkomplexität. Dazu gehören Design, Interaktionsentwicklung, Content-Integration und Tests."
+    },
+    "self-update": {
+      "question": "Kann ich meine Seite selbst einfach aktualisieren?",
+      "answer": "Absolut! Webflow hat ein intuitives CMS, das wir auf deine Bedürfnisse anpassen. Wir schulen dich in dessen Nutzung, damit du deine Inhalte unabhängig verwalten kannst."
+    },
+    "ecommerce": {
+      "question": "Ist Webflow für E-Commerce-Seiten geeignet?",
+      "answer": "Ja, Webflow bietet eine robuste E-Commerce-Lösung, die wir anpassen können, um deinen Onlineshop mit erweiterten Funktionen und individuellem Design zu erstellen."
+    },
+    "animations-interactions": {
+      "question": "Wie handhabt ihr Animationen und Interaktionen?",
+      "answer": "Webflow ermöglicht die Erstellung anspruchsvoller Animationen und Interaktionen ohne Code. Wir gestalten reibungslose und professionelle interaktive Erlebnisse, während wir optimale Leistung beibehalten."
+    },
+    "seo-quality": {
+      "question": "Wie ist die SEO-Qualität mit Webflow?",
+      "answer": "Webflow generiert sauberen, SEO-optimierten Code. Wir implementieren die besten SEO-Praktiken, um deine Sichtbarkeit in Suchmaschinen zu maximieren."
+    }
+  },
+  "complementary": {
+    "custom-integrations": {
+      "title": "Benutzerdefinierte Integrationen",
+      "description": "Verbindung mit deinen Lieblings-Tools und -Diensten von Drittanbietern."
+    },
+    "digital-strategy": {
+      "title": "Digitale Strategie",
+      "description": "Unterstützung bei deiner Strategie für die Online-Präsenz."
+    },
+    "webflow-training": {
+      "title": "Webflow-Training",
+      "description": "Individuelles Training, um das Management deiner Seite zu meistern."
+    }
+  }
+}

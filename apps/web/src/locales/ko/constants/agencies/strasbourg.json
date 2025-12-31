@@ -1,0 +1,79 @@
+{
+  "title": "스트라스부르 웹 개발 | 알자스 비즈니스를 위한 디지털 솔루션",
+  "description": "스트라스부르에서 웹사이트나 모바일 애플리케이션을 만들어보세요. 지역의 국경을 넘는 도전과제에 맞춘 맞춤형 디지털 솔루션입니다.",
+  "hero": {
+    "title": "스트라스부르 웹 & 모바일 개발",
+    "description": "우리는 스트라스부르와 그랜드 에스트 지역의 비즈니스가 맞춤형 웹 솔루션을 통해 디지털화할 수 있도록 돕습니다. 알자스와 유럽 시장의 특정 도전과제에 완벽하게 적합합니다."
+  },
+  "intro": "유럽의 수도이자 국경 도시인 스트라스부르는 풍부한 유산을 지니고 있습니다. 알자스의 전통과 국제적 개방성을 조화롭게 결합하고 있어요. 유럽 기관의 본거지, 역동적인 산업 및 프랑스와 독일 사이의 전략적 위치 덕분에 디지털이 중요한 연결 역할을 하는 독특한 지역이에요.",
+  "expertise": "우리 팀은 스트라스부르 비즈니스에 완벽하게 적합한 웹사이트, 애플리케이션 및 디지털 솔루션을 설계해요. 국제기구, 산업회사 또는 지역 유산 관련 기업을 포함해요. 우리는 당신의 지역 및 국경을 넘는 시장의 특정 도전과제를 이해하고 다국어 통역이 가능하고 문화적 맞춤형 디지털 솔루션을 제공합니다.",
+  "why-choose-us": "우리는 스트라스부르 시장에 대한 깊은 지식을 바탕으로 지역 비즈니스의 특정 도전과제에 완벽하게 적합한 디지털 솔루션을 개발할 수 있어요. 유럽의 요구사항과 알자스의 문화적 특징을 이해하고 두 가지 측면을 통합하여 각 프로젝트에서 관련성이 높고 성능이 뛰어난 디지털 경험을 창출해요.",
+  "key-business-sectors": {
+    "european-institutions": "유럽 기관",
+    "cross-border-commerce": "국경을 넘는 상업",
+    "industry": "산업",
+    "culture-heritage": "문화 & 유산"
+  },
+  "local-challenges": {
+    "european-institutions-needs": "유럽 기관 및 국제기구의 구체적인 필요사항",
+    "cross-border-development": "독일 및 스위스와의 국경을 넘는 상업 개발",
+    "traditional-industries-transformation": "전통 알자스 산업의 디지털 전환",
+    "heritage-digital-showcase": "지역의 풍부한 문화 및 역사 유산의 디지털 전시"
+  },
+  "benefits": {
+    "multilingual-solutions": "스트라스부르 국제적 맥락에 맞춘 다국어 솔루션",
+    "european-standards-expertise": "유럽 표준에 부합하는 사용자 인터페이스에 대한 날카로운 전문성",
+    "cross-border-knowledge": "국경을 넘는 시장과 그 특수성에 대한 깊은 이해",
+    "innovative-traditional-approach": "혁신적이면서도 알자스 전통을 존중하는 접근 방식",
+    "personalized-support": "디지털 프로젝트 전반에 걸쳐 개인화된 지원"
+  },
+  "primary-stat": {
+    "label": "국제적 맥락"
+  },
+  "strengths": {
+    "european-solutions": {
+      "title": "유럽 솔루션",
+      "description": "기관 및 국제기구를 위한 다국어 플랫폼."
+    },
+    "cross-border-commerce": {
+      "title": "국경을 넘는 상업",
+      "description": "프랑스, 독일, 스위스 시장에 맞춘 전자상거래 솔루션."
+    },
+    "industry-40": {
+      "title": "산업 4.0",
+      "description": "전통 알자스 산업의 프로세스 디지털화."
+    },
+    "digital-heritage": {
+      "title": "디지털 유산",
+      "description": "문화 및 역사 유산을 전시하는 디지털 경험."
+    }
+  },
+  "focused-services": {
+    "institutional-websites": {
+      "name": "기관 웹사이트",
+      "description": "유럽 접근성 기준에 부합하는 다국어 플랫폼."
+    },
+    "cross-border-ecommerce": {
+      "name": "국경을 넘는 전자상거래",
+      "description": "독일 및 프랑스 시장의 특수성에 맞춘 상업 솔루션."
+    },
+    "industrial-applications": {
+      "name": "산업 애플리케이션",
+      "description": "산업 프로세스를 현대화하는 맞춤형 디지털 도구."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "전문성",
+      "description": "다년간의 경험"
+    },
+    "satisfaction": {
+      "label": "만족도",
+      "description": "만족한 고객들"
+    },
+    "average-time": {
+      "label": "평균 소요 시간",
+      "description": "완료 주수"
+    }
+  }
+}

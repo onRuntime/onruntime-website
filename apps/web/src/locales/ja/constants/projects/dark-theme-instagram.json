@@ -1,0 +1,66 @@
+{
+  "short-description": "Instagramをダークモードに変えるブラウザ拡張機能。iOSアプリに似てるよ。",
+  "description": "システムがダークモードのとき、Instagram.comのテーマをダークモードに変更する。",
+  "long-description": "Dark Theme for Instagram™は、Instagram.comのビジュアル体験をダークテーマに変えるブラウザ拡張機能で、iOSアプリの外観に似ているよ。\n\nこの拡張機能は、目の疲れを軽減してInstagramのブラウジング体験を向上させるシンプルでエレガントな解決策を提供していて、オペレーティングシステムの設定を尊重しているんだ。",
+  "features": {
+    "auto-dark-mode": {
+      "title": "自動ダークモード",
+      "description": "システム設定に基づいてダークテーマを自動で有効にする。"
+    },
+    "multi-browser": {
+      "title": "マルチブラウザ対応",
+      "description": "Firefox、Edge、Chromeで利用可能。"
+    },
+    "open-source": {
+      "title": "オープンソース",
+      "description": "自由にアクセスできて検証可能なソースコード。"
+    }
+  },
+  "technologies": {
+    "javascript": {
+      "description": "拡張機能の開発。"
+    },
+    "chrome-api": {
+      "description": "ブラウザ統合。"
+    },
+    "css": {
+      "description": "テーマカスタマイズ。"
+    }
+  },
+  "metrics": {
+    "users": {
+      "value": "52k+",
+      "label": "ユーザー",
+      "description": "アクティブなユーザー。"
+    },
+    "installs": {
+      "value": "82k+",
+      "label": "インストール数",
+      "description": "総インストール数。"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "オープンソース",
+      "description": "公開されているソースコード。"
+    }
+  },
+  "screenshots": {
+    "dark-interface": {
+      "caption": "ダークモードのInstagramインターフェース。"
+    }
+  },
+  "challenges": {
+    "instagram-updates-compatibility": "Instagramの頻繁なアップデートとの互換性を保つこと。",
+    "cross-browser-consistency": "異なるブラウザ間でダークテーマの一貫性を確保すること。",
+    "browser-performance": "ブラウザのパフォーマンスに与える影響を最小限にすること。"
+  },
+  "learnings": {
+    "dynamic-interface-modification": "ウェブインターフェースを動的に変更することの複雑さ。",
+    "cross-browser-compatibility": "クロスブラウザ互換性の重要性。",
+    "platform-updates-management": "頻繁なウェブプラットフォームのアップデート管理。"
+  },
+  "future-plans": {
+    "more-customization": "もっとカスタマイズオプションを追加すること。",
+    "instagram-versions-compatibility": "異なるInstagramバージョンとの互換性を向上させること。"
+  }
+}

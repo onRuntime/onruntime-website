@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Hizmet bulunamadı",
+      "description": "Bu hizmet mevcut değil."
+    }
+  },
+  "features": {
+    "title": "{service} alanında mükemmellik",
+    "description": "{service} konusundaki uzmanlığımız size profesyonel ve yüksek performanslı çözümler sunar."
+  },
+  "benefits": {
+    "title": "Profesyonel {service}",
+    "description": "Profesyonel bir {service} hizmetinin avantajlarını keşfedin."
+  },
+  "testimonials": {
+    "title": "Bize güveniyorlar",
+    "description": "Müşterilerimizin {service} projeleri hakkındaki geri bildirimlerini keşfedin"
+  },
+  "faq": {
+    "title": "Sıkça sorulan sorular",
+    "description": "{service} hizmetimizle ilgili bilmeniz gereken her şey"
+  },
+  "complementary": {
+    "title": "Tamamlayıcı hizmetler",
+    "description": "Ek hizmetlerimizle {service} projenizi optimize edin"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Linee guida del marchio",
+  "description": "Creare la tua identità visiva completa",
+  "hero": {
+    "title": "Branding e Identità del Marchio",
+    "description": "Dai vita al tuo marchio con un'identità visiva distintiva e memorabile. La nostra esperienza nel branding ti aiuta a creare un'immagine di marchio che risuona con il tuo pubblico e riflette i tuoi valori."
+  },
+  "features": {
+    "visual-identity": {
+      "title": "Identità visiva",
+      "description": "Creare un'identità unica e memorabile."
+    },
+    "brand-values": {
+      "title": "Valori del marchio",
+      "description": "Espressione visiva del tuo DNA e dei tuoi valori."
+    },
+    "brand-guidelines": {
+      "title": "Linee guida del marchio",
+      "description": "Documentazione completa della tua identità."
+    },
+    "design-system": {
+      "title": "Sistema di design",
+      "description": "Elementi visivi coerenti e riutilizzabili."
+    }
+  },
+  "benefits": {
+    "recognition": {
+      "title": "Riconoscimento",
+      "description": "Immagine di marchio memorabile e distintiva."
+    },
+    "consistency": {
+      "title": "Coerenza",
+      "description": "Comunicazione visiva unificata su tutti i media."
+    },
+    "trust": {
+      "title": "Fiducia",
+      "description": "Credibilità aumentata con il tuo pubblico."
+    },
+    "reach": {
+      "title": "Impatto",
+      "description": "Forte impatto visivo su tutti i canali."
+    }
+  },
+  "faq": {
+    "complete-identity": {
+      "question": "Cosa include un'identità di marca completa?",
+      "answer": "Un'identità di marca completa include il logo, la palette di colori, la tipografia, gli elementi grafici, il tono di voce e le regole d'uso. Forniamo un documento di linee guida del marchio dettagliato che documenta tutti questi elementi e guida il loro utilizzo coerente."
+    },
+    "creation-process": {
+      "question": "Come funziona il processo di creazione?",
+      "answer": "Il processo inizia con una fase di scoperta per comprendere il tuo marchio, i valori e il pubblico. Sviluppiamo poi concetti creativi, creiamo elementi visivi e iteriamo in base al tuo feedback. Il processo si conclude con la consegna di un documento di linee guida del marchio completo."
+    },
+    "deliverables": {
+      "question": "Quali deliverables vengono forniti?",
+      "answer": "Ricevi un pacchetto completo che include: loghi (diverse versioni), palette di colori, tipografia, elementi grafici, modelli di documenti, guide all'uso e file sorgente in tutti i formati necessari."
+    },
+    "uniqueness": {
+      "question": "Come garantite l'unicità dell'identità?",
+      "answer": "Effettuiamo ricerche approfondite sul tuo mercato e sulla concorrenza per creare un'identità distintiva. Verifichiamo anche la disponibilità degli elementi visivi per evitare conflitti con marchi esistenti."
+    },
+    "transition": {
+      "question": "Come gestite il passaggio alla nuova identità?",
+      "answer": "Forniamo un piano di implementazione graduale che guida il passaggio alla nuova identità. Questo include raccomandazioni per la comunicazione interna ed esterna e un cronoprogramma di attuazione."
+    }
+  },
+  "complementary": {
+    "marketing-kit": {
+      "title": "Kit di marketing",
+      "description": "Creazione di materiali di marketing coerenti."
+    },
+    "social-media": {
+      "title": "Social media",
+      "description": "Adattamento per i social media."
+    },
+    "print-materials": {
+      "title": "Materiali stampati",
+      "description": "Creazione di materiali stampati."
+    }
+  }
+}

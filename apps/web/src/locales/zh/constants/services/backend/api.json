@@ -1,0 +1,80 @@
+{
+  "name": "RESTful APIs",
+  "description": "高性能 API 的设计和开发",
+  "hero": {
+    "title": "RESTful & GraphQL APIs",
+    "description": "为你的应用开发现代、安全和高性能的 API。我们的专业知识可以保证满足你的具体需求的强大和可扩展接口."
+  },
+  "features": {
+    "rest-graphql": {
+      "title": "REST & GraphQL",
+      "description": "符合行业标准的现代 API 开发."
+    },
+    "advanced-security": {
+      "title": "高级安全",
+      "description": "针对漏洞和攻击的强大保护."
+    },
+    "optimal-performance": {
+      "title": "最佳性能",
+      "description": "优化架构以实现最小响应时间."
+    },
+    "complete-documentation": {
+      "title": "完整文档",
+      "description": "清晰和互动的文档方便集成."
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "高可用性",
+      "description": "冗余基础设施以实现最大可用性."
+    },
+    "scalability": {
+      "title": "可扩展性",
+      "description": "支持增长的架构设计."
+    },
+    "advanced-monitoring": {
+      "title": "高级监控",
+      "description": "实时跟踪性能和健康状况."
+    },
+    "intelligent-cache": {
+      "title": "智能缓存",
+      "description": "通过高级缓存实现性能优化."
+    }
+  },
+  "faq": {
+    "rest-vs-graphql": {
+      "question": "REST 和 GraphQL 有什么区别?",
+      "answer": "REST 是一种传统架构，每个端点对应特定资源，而 GraphQL 允许客户端准确请求所需的数据。我们会根据你的具体需求和用例为你提供最佳建议."
+    },
+    "api-security": {
+      "question": "你们如何确保 API 安全?",
+      "answer": "我们实施多层安全措施：JWT 身份验证，SSL/TLS 加密，速率限制，数据验证，防注入和 CSRF 攻击。我们还遵循 OWASP 对 API 安全的建议."
+    },
+    "scaling": {
+      "question": "你们如何处理扩展?",
+      "answer": "我们设计横向可扩展的 API，具备负载均衡、分布式缓存和查询优化。架构旨在支持显著的流量增长."
+    },
+    "documentation": {
+      "question": "你们提供什么文档?",
+      "answer": "我们提供全面的文档：OpenAPI/Swagger 技术文档，集成指南，代码示例和测试环境。文档会伴随每次 API 版本更新而保持最新."
+    },
+    "post-deployment-support": {
+      "question": "你们提供部署后的支持吗?",
+      "answer": "是的，我们提供多种维护计划，包括：24/7 监控，技术支持，持续性能优化，安全更新和功能演进."
+    }
+  },
+  "complementary": {
+    "advanced-analytics": {
+      "title": "高级分析",
+      "description": "对使用情况和性能的详细分析."
+    },
+    "data-migration": {
+      "title": "数据迁移",
+      "description": "从现有系统迁移."
+    },
+    "integration": {
+      "title": "集成",
+      "description": "为你的应用集成提供支持."
+    }
+  }
+}

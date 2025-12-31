@@ -1,0 +1,75 @@
+{
+  "short-description": "Affiliate platform voor streamers die gespecialiseerd is in online casino bonussen en box opening.",
+  "description": "Affiliate website ontwikkeld voor streamer vitapvp, die de beste bonussen en voordelen van partner casino’s weergeeft met doorverwijzing naar affiliate links.",
+  "long-description": "ShadowBonus is een affiliate platform ontwikkeld voor streamer vitapvp, ontworpen om de beste bonussen en voordelen van partner online casino's duidelijk en aantrekkelijk te presenteren.\n\nHet project richt zich op de essentie: een schone interface die partner aanbiedingen benadrukt en conversie naar affiliate links vergemakkelijkt. Ontwikkeld met React en styled-components, prioriteert de site gebruiksgemak en conversie-efficiëntie.\n\nOnze aanpak richtte zich op een soepele gebruikerservaring zodat vitapvp's kijkers snel de beste beschikbare aanbiedingen kunnen ontdekken en gemakkelijk toegang hebben tot partnerplatforms.",
+  "features": {
+    "partner-showcase": {
+      "title": "Partner showcase",
+      "description": "Duidelijke en aantrekkelijke presentatie van de partner casino's en platforms van de streamer"
+    },
+    "bonus-comparison": {
+      "title": "Bonusvergelijking",
+      "description": "Het benadrukken van de beste bonussen en voordelen beschikbaar voor kijkers"
+    },
+    "affiliate-redirect": {
+      "title": "Affiliate doorverwijzing",
+      "description": "Geoptimaliseerd doorverwijsysteem naar partner affiliate links"
+    },
+    "responsive-interface": {
+      "title": "Responsieve interface",
+      "description": "Adaptief ontwerp voor een optimale ervaring op alle apparaten"
+    }
+  },
+  "technologies": {
+    "react": {
+      "description": "JavaScript-bibliotheek voor gebruikersinterface"
+    },
+    "styled-components": {
+      "description": "CSS-in-JS styling voor een moderne benadering"
+    },
+    "cloudflare": {
+      "description": "Hosting en continue implementatie"
+    }
+  },
+  "metrics": {
+    "weekly-visits": {
+      "value": "1500+",
+      "label": "Wekelijkse bezoeken",
+      "description": "Bij lancering in juli 2021"
+    },
+    "dev-time": {
+      "value": "2 maanden",
+      "label": "Ontwikkelingstijd",
+      "description": "Snelle en efficiënte levering"
+    },
+    "team-size": {
+      "value": "3 personen",
+      "label": "Team",
+      "description": "Klein en wendbaar team"
+    }
+  },
+  "screenshots": {
+    "homepage": {
+      "caption": "Homepage die partner aanbiedingen toont"
+    },
+    "partners": {
+      "caption": "Sectie voor partner casino's en platforms"
+    }
+  },
+  "challenges": {
+    "attractive-interface": "Een aantrekkelijke interface creëren om partner aanbiedingen te benadrukken",
+    "conversion-optimization": "Conversieratio's naar affiliate links optimaliseren",
+    "simple-react-solution": "Een eenvoudige maar effectieve React-oplossing ontwikkelen",
+    "cross-device-experience": "Een soepele gebruikerservaring op alle apparaten garanderen"
+  },
+  "learnings": {
+    "affiliate-simplicity": "Het belang van eenvoud in affiliate projecten",
+    "streamer-conversion": "Conversietrajecten voor streamers optimaliseren",
+    "react-styled-components": "Snelle en efficiënte ontwikkeling met React en styled-components",
+    "gaming-streaming-needs": "Aanpassen aan de specifieke behoeften van de gaming streaming wereld"
+  },
+  "future-plans": {
+    "client-transfer": "Het project is overgedragen aan de klant voor onderhoud",
+    "streamer-evolutions": "Mogelijke evoluties op basis van de behoeften van de streamer"
+  }
+}

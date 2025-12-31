@@ -1,0 +1,79 @@
+{
+  "title": "Agenzia Web a Lione | Soluzioni Digitali Personalizzate",
+  "description": "Sviluppo web, design mobile e UI/UX a Lione. La nostra esperienza digitale su misura per le aziende della Rhône-Alpes per potenziare la tua presenza online.",
+  "hero": {
+    "title": "Sviluppo Web e Mobile a Lione",
+    "description": "Trasforma la tua attività a Lione con soluzioni digitali innovative perfettamente adattate al dinamismo economico della regione Auvergne-Rhône-Alpes."
+  },
+  "intro": "Nel cuore del dinamismo di Lione, la nostra esperienza digitale supporta le aziende della regione nella loro trasformazione digitale. Tra tradizione industriale, eccellenza biomedica e influenza gastronomica, Lione presenta un tessuto economico ricco e diversificato che comprendiamo appieno.",
+  "expertise": "Creiamo soluzioni web, mobile ed e-commerce adattate alle specificità del mercato di Lione e della Rhône-Alpes. Il nostro team padroneggia le sfide digitali specifiche dei settori di eccellenza della regione, dalla biotecnologia alla gastronomia, inclusa la produzione.",
+  "why-choose-us": "La nostra conoscenza del mercato di Lione ci consente di sviluppare soluzioni digitali perfettamente allineate alle esigenze e particolarità delle aziende locali. Comprendiamo gli standard di eccellenza della regione e offriamo supporto digitale che valorizza l'identità e il know-how di Lione.",
+  "key-business-sectors": {
+    "biotech": "Biotecnologia",
+    "pharma": "Industria Farmaceutica",
+    "gastronomy": "Gastronomia",
+    "finance": "Finanza"
+  },
+  "local-challenges": {
+    "industry-digitalization": "Digitalizzazione di PMI e medie imprese industriali di fronte alle sfide dell'Industria 4.0",
+    "gastronomy-visibility": "Sviluppo della visibilità digitale per i protagonisti della gastronomia di Lione",
+    "local-ecommerce": "Soluzioni e-commerce adattate al commercio locale e agli artigiani regionali",
+    "biotech-applications": "Applicazioni aziendali per i settori farmaceutico e biotech in espansione"
+  },
+  "benefits": {
+    "sector-expertise": "Competenza settoriale nei campi di eccellenza di Lione (biotech, pharma, gastronomia)",
+    "industrial-understanding": "Comprensione delle sfide di digitalizzazione nel bacino industriale della Rhône-Alpes",
+    "sme-solutions": "Soluzioni adattate a PMI e medie imprese nella trasformazione digitale",
+    "lyon-ui-design": "Design UI/UX che riflette l'identità visiva e gli standard di qualità di Lione",
+    "local-ecosystem-knowledge": "Conoscenza approfondita dell'ecosistema digitale locale"
+  },
+  "primary-stat": {
+    "label": "settore innovazione"
+  },
+  "strengths": {
+    "biotech-pharma": {
+      "title": "Soluzioni Biotech & Pharma",
+      "description": "Applicazioni specializzate per il cluster sanitario di Lione."
+    },
+    "gastronomy-ecommerce": {
+      "title": "E-commerce Gastronomico",
+      "description": "Valorizzazione digitale dei prodotti locali della Rhône-Alpes."
+    },
+    "industrial-applications": {
+      "title": "Applicazioni Industriali",
+      "description": "Strumenti digitali per l'Industria 4.0 e la produzione."
+    },
+    "business-interfaces": {
+      "title": "Interfacce Aziendali",
+      "description": "Design UI/UX adattato ai bisogni specifici di Lione."
+    }
+  },
+  "focused-services": {
+    "biotech-applications": {
+      "name": "Applicazioni Aziendali Biotech",
+      "description": "Soluzioni digitali per laboratori e aziende farmaceutiche a Lione."
+    },
+    "gastronomy-ecommerce": {
+      "name": "E-commerce Gastronomico",
+      "description": "Piattaforme di vendita online per mettere in mostra l'eccellenza culinaria di Lione."
+    },
+    "industrial-digitalization": {
+      "name": "Digitalizzazione Industriale",
+      "description": "Strumenti di controllo e soluzioni IoT per l'industria della Rhône-Alpes."
+    }
+  },
+  "stats": {
+    "biotech-projects": {
+      "label": "Progetti Biotech",
+      "description": "Applicazioni specializzate"
+    },
+    "satisfaction": {
+      "label": "Soddisfazione",
+      "description": "Clienti soddisfatti"
+    },
+    "sme-supported": {
+      "label": "PMI Sostenute",
+      "description": "Aziende di Lione"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "tagline": "Um estúdio criativo, ao redor do mundo.",
+  "location": "Mas você pode nos encontrar em <strong>Rouen</strong> e <strong>Paris</strong>.",
+  "nav": {
+    "navigation": "Navegação",
+    "resources": "Recursos",
+    "other": "Outros",
+    "social": "Mídias sociais"
+  },
+  "links": {
+    "services": "Nossos serviços",
+    "projects": "Nossos projetos",
+    "npo": "A associação",
+    "careers": "Carreiras",
+    "blog": "Blog",
+    "glossary": "Glossário",
+    "community": "Comunidade",
+    "status": "Status",
+    "contact": "Contato",
+    "terms": "Termos de serviço",
+    "privacy": "Política de privacidade",
+    "company": "Detalhes da empresa"
+  },
+  "status": "Todos os serviços estão operacionais",
+  "language": {
+    "label": "Idioma"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Desarrollo web en Marsella | Soluciones digitales para empresas de Provenza",
+  "description": "Crea tu sitio web o aplicación móvil en Marsella. Soluciones digitales personalizadas para empresas de Provenza, adaptadas a los desafíos locales de tu sector.",
+  "hero": {
+    "title": "Desarrollo web y móvil en Marsella",
+    "description": "Ayudamos a las empresas en Marsella y la región PACA a digitalizarse con soluciones web personalizadas, perfectamente adaptadas a los desafíos específicos del mercado mediterráneo."
+  },
+  "intro": "Entre el mar y las colinas, Marsella es un dinámico cruce económico donde se encuentran tradición e innovación. Nuestra experiencia digital permite que las empresas de Marsella se destaquen en un mercado mediterráneo competitivo y en constante evolución.",
+  "expertise": "Nuestro equipo diseña sitios web, aplicaciones y soluciones de comercio electrónico perfectamente adaptadas a las empresas de Marsella. Entendemos los desafíos de tu mercado local y ofrecemos soluciones digitales que realzan tu identidad provenzal mientras alcanzan una clientela internacional.",
+  "why-choose-us": "Nuestro conocimiento profundo del mercado provenzal nos permite desarrollar soluciones digitales perfectamente adaptadas a los desafíos específicos de las empresas locales. Comprendemos la riqueza cultural y económica de Marsella e la integramos en cada proyecto para crear experiencias digitales auténticas y de alto rendimiento.",
+  "key-business-sectors": {
+    "tourism": "Turismo",
+    "maritime": "Marítimo",
+    "local-commerce": "Comercio local",
+    "restaurant": "Restaurante"
+  },
+  "local-challenges": {
+    "tourism-competition": "Fuerte competencia en el sector turístico mediterráneo que requiere una presencia digital distintiva",
+    "maritime-solutions": "Necesidad de soluciones digitales adaptadas al comercio marítimo y portuario",
+    "local-commerce-digitalization": "Digitalización de tiendas locales frente a grandes cadenas",
+    "local-ecommerce": "Necesidad de soluciones de comercio electrónico adaptadas para mostrar artesanías y productos locales"
+  },
+  "benefits": {
+    "custom-solutions": "Soluciones personalizadas adaptadas a las especificidades de las empresas provenzales",
+    "tourism-maritime-expertise": "Amplia experiencia en los sectores turístico y marítimo",
+    "international-ui": "Interfaz de usuario optimizada para la clientela internacional",
+    "mediterranean-knowledge": "Conocimiento profundo de los desafíos económicos mediterráneos",
+    "personalized-support": "Soporte personalizado a lo largo de tu proyecto digital"
+  },
+  "primary-stat": {
+    "label": "sector turístico"
+  },
+  "strengths": {
+    "tourism-experience": {
+      "title": "Experiencia Turística",
+      "description": "Sitios y aplicaciones optimizados para el sector turístico mediterráneo."
+    },
+    "local-ecommerce": {
+      "title": "E-commerce Local",
+      "description": "Soluciones de ventas en línea para artesanos y comerciantes provenzales."
+    },
+    "maritime-sector": {
+      "title": "Sector Marítimo",
+      "description": "Digitalización adaptada a actividades portuarias y náuticas."
+    },
+    "mediterranean-design": {
+      "title": "Diseño Mediterráneo",
+      "description": "Interfaces modernas que reflejan la identidad visual mediterránea."
+    }
+  },
+  "focused-services": {
+    "tourism-websites": {
+      "name": "Sitios Web de Turismo",
+      "description": "Vitrinas digitales multilingües para hoteles, restaurantes y actividades turísticas."
+    },
+    "provencal-ecommerce": {
+      "name": "E-commerce Provenzal",
+      "description": "Tiendas en línea adaptadas a productores y artesanos locales."
+    },
+    "mobile-applications": {
+      "name": "Aplicaciones Móviles",
+      "description": "Soluciones móviles para enriquecer la experiencia turística y comercial."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Experiencia",
+      "description": "Años de experiencia"
+    },
+    "satisfaction": {
+      "label": "Satisfacción",
+      "description": "Clientes satisfechos"
+    },
+    "average-time": {
+      "label": "Tiempo Promedio",
+      "description": "Semanas de finalización"
+    }
+  }
+}

@@ -2,9 +2,26 @@ import type { TranslationLoader } from "@onruntime/translations";
 import type { NextRequest } from "next/server";
 
 export const locales = [
+  // Default
   { code: "en", label: "English" },
+  // Europe
   { code: "fr", label: "Français" },
+  { code: "de", label: "Deutsch" },
   { code: "es", label: "Español" },
+  { code: "it", label: "Italiano" },
+  { code: "pt", label: "Português" },
+  { code: "nl", label: "Nederlands" },
+  { code: "pl", label: "Polski" },
+  { code: "sv", label: "Svenska" },
+  // Asia
+  { code: "ja", label: "日本語" },
+  { code: "ko", label: "한국어" },
+  { code: "zh", label: "中文" },
+  // Middle East / Africa
+  { code: "ar", label: "العربية" },
+  { code: "tr", label: "Türkçe" },
+  // South Asia
+  { code: "hi", label: "हिन्दी" },
 ] as const;
 
 export type Locale = (typeof locales)[number]["code"];

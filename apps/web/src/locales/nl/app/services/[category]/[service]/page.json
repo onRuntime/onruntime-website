@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Service niet gevonden",
+      "description": "Deze service bestaat niet."
+    }
+  },
+  "features": {
+    "title": "Excellence in {service}",
+    "description": "Onze expertise in {service} garandeert je professionele en hoogpresterende oplossingen."
+  },
+  "benefits": {
+    "title": "Professionele {service}",
+    "description": "Ontdek de voordelen van een professionele {service} dienst."
+  },
+  "testimonials": {
+    "title": "Zij vertrouwen ons",
+    "description": "Ontdek de feedback van onze klanten over hun {service} projecten."
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "description": "Alles wat je moet weten over onze {service} dienst."
+  },
+  "complementary": {
+    "title": "Aanvullende diensten",
+    "description": "Optimaliseer je {service} project met onze extra diensten."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "short-description": "Online casino bonusları ve kutu açılışı konusunda uzmanlaşmış yayıncılar için bir bağlı kuruluş platformu.",
+  "description": "Yayıncı vitapvp için geliştirilen bağlı kuruluş web sitesi, ortak casinoların en iyi bonuslarını ve avantajlarını sergileyerek bağlı kuruluş bağlantılarına yönlendiriyor.",
+  "long-description": "ShadowBonus, yayıncı vitapvp için geliştirilen bir bağlı kuruluş platformu. Ortak çevrimiçi casinoların en iyi bonuslarını ve avantajlarını net ve çekici bir şekilde sunmak için tasarlandı.\n\nProjenin odak noktası temel unsurlarla ilgilidir: Ortak teklifleri vurgulayan temiz bir arayüz ve bağlı kuruluş bağlantılarına dönüşümü kolaylaştırmak. React ve styled-components ile geliştirilen site, kullanım kolaylığı ve dönüşüm verimliliğini ön planda tutuyor.\n\nBizim yaklaşımımız, vitapvp'nin izleyicilerinin en iyi mevcut teklifleri hızlıca keşfetmelerine ve ortak platformlara kolayca erişim sağlamalarına olanak tanıyan sorunsuz bir kullanıcı deneyimi sağlamaya odaklandı.",
+  "features": {
+    "partner-showcase": {
+      "title": "Ortak sergisi",
+      "description": "Yayıncının ortak casinolarını ve platformlarını net ve çekici bir şekilde sunma"
+    },
+    "bonus-comparison": {
+      "title": "Bonus karşılaştırması",
+      "description": "İzleyiciler için en iyi bonusları ve avantajları ön plana çıkarma"
+    },
+    "affiliate-redirect": {
+      "title": "Bağlı kuruluş yönlendirmesi",
+      "description": "Ortak bağlı kuruluş bağlantılarına optimize edilmiş yönlendirme sistemi"
+    },
+    "responsive-interface": {
+      "title": "Duyarlı arayüz",
+      "description": "Tüm cihazlarda optimal deneyim için uyumlu tasarım"
+    }
+  },
+  "technologies": {
+    "react": {
+      "description": "Kullanıcı arayüzü için JavaScript kütüphanesi"
+    },
+    "styled-components": {
+      "description": "Modern bir yaklaşım için CSS-in-JS stillendirme"
+    },
+    "cloudflare": {
+      "description": "Barındırma ve sürekli dağıtım"
+    }
+  },
+  "metrics": {
+    "weekly-visits": {
+      "value": "1500+",
+      "label": "Haftalık ziyaretler",
+      "description": "Temmuz 2021'deki lansmanda"
+    },
+    "dev-time": {
+      "value": "2 ay",
+      "label": "Geliştirme süresi",
+      "description": "Hızlı ve verimli teslimat"
+    },
+    "team-size": {
+      "value": "3 kişi",
+      "label": "Ekip",
+      "description": "Küçük ve çevik bir ekip"
+    }
+  },
+  "screenshots": {
+    "homepage": {
+      "caption": "Ortak tekliflerin sergilendiği ana sayfa"
+    },
+    "partners": {
+      "caption": "Ortak casinolar ve platformlar bölümü"
+    }
+  },
+  "challenges": {
+    "attractive-interface": "Ortak teklifleri vurgulamak için çekici bir arayüz yaratma",
+    "conversion-optimization": "Bağlı kuruluş bağlantılarına dönüşüm oranlarını optimize etme",
+    "simple-react-solution": "Basit ama etkili bir React çözümü geliştirme",
+    "cross-device-experience": "Tüm cihazlarda sorunsuz bir kullanıcı deneyimi sağlama"
+  },
+  "learnings": {
+    "affiliate-simplicity": "Bağlı kuruluş projelerinde sadeliğin önemi",
+    "streamer-conversion": "Yayıncılar için dönüşüm yolculuklarını optimize etme",
+    "react-styled-components": "React ve styled-components ile hızlı ve verimli geliştirme süreci",
+    "gaming-streaming-needs": "Oyun akışı dünyasının özel ihtiyaçlarına uyum sağlama"
+  },
+  "future-plans": {
+    "client-transfer": "Proje bakım için müşteriye devredildi",
+    "streamer-evolutions": "Yayıncının ihtiyaçlarına göre olası gelişmeler"
+  }
+}

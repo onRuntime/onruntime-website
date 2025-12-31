@@ -1,0 +1,82 @@
+{
+  "short-description": "Uma biblioteca de componentes moderna, performática e altamente personalizável para React e React Native, inspirada pelo Geist UI e Vercel Design.",
+  "description": "Um conjunto completo de styled-components projetados para criar interfaces de usuário consistentes e elegantes, mantidos pela Tonight Pass.",
+  "long-description": "Kitchn é uma biblioteca abrangente de componentes de UI que acelera o desenvolvimento de aplicações web e móveis modernas.\n\nInspirada pelo Geist UI e Vercel Design, ela se destaca pela sua abordagem minimalista e facilidade de uso, oferecendo uma coleção de componentes otimizados construídos com styled-components e TypeScript.\n\nCada componente é projetado para ser modular, performático e altamente personalizável, permitindo que as equipes de desenvolvimento criem rapidamente interfaces de usuário consistentes enquanto mantêm uma ótima experiência para os desenvolvedores.",
+  "features": {
+    "modular-architecture": {
+      "title": "Arquitetura Modular",
+      "description": "Componentes independentes e reutilizáveis projetados para trabalhar juntos de forma harmoniosa"
+    },
+    "flexible-themes": {
+      "title": "Temas Flexíveis",
+      "description": "Suporte total para modos claro e escuro com um sistema de temas extensível"
+    },
+    "cross-platform": {
+      "title": "Multiplataforma",
+      "description": "Suporte nativo para React e React Native para uma experiência consistente em todas as plataformas"
+    },
+    "interactive-docs": {
+      "title": "Documentação Interativa",
+      "description": "Documentação abrangente com exemplos e playground para integração rápida"
+    }
+  },
+  "technologies": {
+    "styled-components": {
+      "description": "Estilos CSS-in-JS"
+    },
+    "react": {
+      "description": "Biblioteca de UI para web"
+    },
+    "react-native": {
+      "description": "Componentes nativos para dispositivos móveis"
+    },
+    "typescript": {
+      "description": "Segurança de tipo e autocompletar"
+    },
+    "storybook": {
+      "description": "Documentação interativa"
+    }
+  },
+  "metrics": {
+    "components": {
+      "value": "35+",
+      "label": "Componentes",
+      "description": "Componentes de UI reutilizáveis"
+    },
+    "downloads": {
+      "value": "20k+",
+      "label": "Downloads",
+      "description": "Downloads mensais"
+    },
+    "github-stars": {
+      "value": "50+",
+      "label": "Estrelas no GitHub",
+      "description": "Estrelas no GitHub"
+    }
+  },
+  "screenshots": {
+    "responsive": {
+      "caption": "Componentes responsivos"
+    },
+    "themable": {
+      "caption": "Temas personalizáveis"
+    }
+  },
+  "challenges": {
+    "visual-consistency": "Manter perfeita consistência visual entre plataformas web e mobile",
+    "bundle-optimization": "Otimizar o tamanho do bundle, preservando a riqueza de recursos",
+    "react-compatibility": "Garantir compatibilidade com diferentes versões do React",
+    "backward-compatibility": "Garantir retrocompatibilidade durante atualizações"
+  },
+  "learnings": {
+    "clear-documentation": "Importância crucial de uma documentação clara e detalhada",
+    "modular-architecture": "Necessidade de arquitetura modular para manutenção",
+    "automated-testing": "Valor dos testes automatizados para confiabilidade",
+    "developer-experience": "Impacto da experiência do desenvolvedor na adoção"
+  },
+  "future-plans": {
+    "component-library-expansion": "Enriquecendo a biblioteca de componentes",
+    "performance-optimization": "Otimizações de performance contínuas",
+    "framework-compatibility": "Aumentando a compatibilidade com frameworks modernos"
+  }
+}

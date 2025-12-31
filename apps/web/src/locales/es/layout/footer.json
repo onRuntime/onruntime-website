@@ -1,0 +1,28 @@
+{
+  "tagline": "Un estudio creativo, en todo el mundo.",
+  "location": "Pero puedes encontrarnos en <strong>Rouen</strong> y <strong>París</strong>.",
+  "nav": {
+    "navigation": "Navegación",
+    "resources": "Recursos",
+    "other": "Otros",
+    "social": "Redes sociales"
+  },
+  "links": {
+    "services": "Nuestros servicios",
+    "projects": "Nuestros proyectos",
+    "npo": "La asociación",
+    "careers": "Carreras",
+    "blog": "Blog",
+    "glossary": "Glosario",
+    "community": "Comunidad",
+    "status": "Estado",
+    "contact": "Contacto",
+    "terms": "Términos de servicio",
+    "privacy": "Política de privacidad",
+    "company": "Detalles de la empresa"
+  },
+  "status": "Todos los servicios están operativos",
+  "language": {
+    "label": "Idioma"
+  }
+}

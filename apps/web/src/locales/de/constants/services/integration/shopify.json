@@ -1,0 +1,80 @@
+{
+  "name": "Shopify",
+  "description": "Erstellung und Anpassung von Shopify-Onlineshops",
+  "hero": {
+    "title": "Erstelle deinen Onlineshop mit Shopify",
+    "description": "Verwandle deine E-Commerce-Vision mit unserem Shopify-Know-how in die Realität. Wir erstellen leistungsstarke, ästhetische und conversionsoptimierte Onlineshops."
+  },
+  "features": {
+    "custom-design": {
+      "title": "Individuelles Design",
+      "description": "Erstellung eines einzigartigen Themas, das deine Marke widerspiegelt und die Benutzererfahrung optimiert."
+    },
+    "conversion-optimization": {
+      "title": "Conversion-Optimierung",
+      "description": "Umsetzung bewährter Praktiken zur Maximierung deiner Verkäufe und zur Bindung deiner Kunden."
+    },
+    "enhanced-security": {
+      "title": "Erweiterte Sicherheit",
+      "description": "Schutz deiner Daten und der Daten deiner Kunden mit den neuesten Sicherheitsstandards."
+    },
+    "advanced-integrations": {
+      "title": "Erweiterte Integrationen",
+      "description": "Verbindung mit deinen bevorzugten Tools für Bestandsverwaltung, Buchhaltung und Marketing."
+    }
+  },
+  "benefits": {
+    "secure-payments": {
+      "title": "Sichere Zahlungen",
+      "description": "Integration der gängigsten Zahlungsmethoden und sichere Transaktionsverwaltung."
+    },
+    "international-by-default": {
+      "title": "International von Anfang an",
+      "description": "Verkaufe weltweit mit Multi-Währungs-Management und automatischen Übersetzungen."
+    },
+    "powerful-analytics": {
+      "title": "Leistungsstarke Analysen",
+      "description": "Detaillierte Nachverfolgung deiner Leistung und Erkenntnisse zur Optimierung deiner Verkäufe."
+    },
+    "simplified-logistics": {
+      "title": "Vereinfachte Logistik",
+      "description": "Effizientes Auftragsmanagement und Integration mit großen Versanddienstleistern."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Wie lange dauert es, einen Shopify-Shop zu erstellen?",
+      "answer": "Die durchschnittliche Zeit zur Erstellung eines Shopify-Shops variiert zwischen 4 und 8 Wochen, je nach Projektkomplexität. Dazu gehören die Designphase, Entwicklung, Produktintegration und Tests."
+    },
+    "migration": {
+      "question": "Kannst du meinen bestehenden Shop zu Shopify migrieren?",
+      "answer": "Ja, wir bieten einen kompletten Migrationsservice von deinem bestehenden Shop zu Shopify an, einschließlich der Übertragung von Produkten, Kunden und Bestellungen, während wir einen reibungslosen Übergang gewährleisten."
+    },
+    "customization-types": {
+      "question": "Welche Arten von Anpassungen bietest du an?",
+      "answer": "Wir bieten vollständige Anpassungen deines Shopify-Shops an: individuelles Design, individuelle Funktionen, spezifische Integrationen und mobile Optimierung."
+    },
+    "post-launch-support": {
+      "question": "Bietest du Unterstützung nach dem Start an?",
+      "answer": "Ja, wir bieten mehrere Support- und Wartungspläne an, um den reibungslosen Betrieb deines Shops nach dem Start zu gewährleisten, einschließlich Updates, Optimierungen und technischem Support."
+    },
+    "security": {
+      "question": "Wie stellst du die Sicherheit meines Shops sicher?",
+      "answer": "Wir setzen bewährte Sicherheitspraktiken um: SSL, PCI DSS-Konformität, regelmäßige Backups und Betrugsprävention. Shopify bietet zudem eine Sicherheit auf Bankniveau für alle Transaktionen."
+    }
+  },
+  "complementary": {
+    "seo": {
+      "title": "SEO",
+      "description": "Suchmaschinenoptimierung zur Steigerung deiner Sichtbarkeit."
+    },
+    "digital-marketing": {
+      "title": "Digitales Marketing",
+      "description": "Marketingstrategien, die angepasst sind, um mehr Kunden anzuziehen und zu konvertieren."
+    },
+    "training": {
+      "title": "Schulung",
+      "description": "Umfassende Schulung, um deinen Shop eigenständig zu verwalten."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "PrestaShop",
+  "description": "PrestaShop店舗開発",
+  "hero": {
+    "title": "PrestaShopによるEコマース開発",
+    "description": "PrestaShopでプロフェッショナルなオンラインストアを立ち上げよう。私たちの専門知識があれば、ニーズに完璧に適応した強力でスケーラブルなEコマースソリューションが保証されるよ."
+  },
+  "features": {
+    "custom-design": {
+      "title": "カスタムデザイン",
+      "description": "ブランドを反映し、コンバージョンを最適化するカスタムテーマの作成."
+    },
+    "advanced-management": {
+      "title": "高度な管理",
+      "description": "商品、注文、顧客を管理するための強力な管理インターフェース."
+    },
+    "optimized-performance": {
+      "title": "最適化されたパフォーマンス",
+      "description": "高速な読み込み時間とスムーズな体験のための高度な最適化."
+    },
+    "enhanced-security": {
+      "title": "強化されたセキュリティ",
+      "description": "店舗と顧客データの高度な保護."
+    }
+  },
+  "benefits": {
+    "complete-management": {
+      "title": "完全な管理",
+      "description": "商品の管理、在庫、注文、顧客関係を完全にコントロール."
+    },
+    "multi-store": {
+      "title": "マルチストア",
+      "description": "1つの管理インターフェースから複数の店舗を管理."
+    },
+    "integrated-logistics": {
+      "title": "統合された物流",
+      "description": "高度なキャリアと配送コスト管理."
+    },
+    "detailed-analytics": {
+      "title": "詳細な分析",
+      "description": "パフォーマンスを追跡し、最適化するための完全な統計."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "PrestaShopストアの作成にはどれくらいの時間がかかりますか？",
+      "answer": "PrestaShopストアの作成には、プロジェクトの複雑さに応じて通常6〜12週間かかります。これにはテーマのカスタマイズ、カスタム機能の開発、商品の統合およびテストが含まれます."
+    },
+    "migration": {
+      "question": "既存のストアをPrestaShopに移行できますか？",
+      "answer": "はい、SEOを維持しながら商品の移行、顧客、注文、履歴を含む完全な移行サービスを提供しています."
+    },
+    "large-catalogs": {
+      "question": "PrestaShopは大規模な商品カタログに適していますか？",
+      "answer": "もちろん！PrestaShopは数千点の商品カタログを効率的に管理するために設計されており、優れたパフォーマンスを維持しています."
+    },
+    "custom-development": {
+      "question": "カスタム開発は提供していますか？",
+      "answer": "はい、PrestaShopをあなたの具体的なニーズに合わせるためにカスタムモジュールや機能を開発します：ERP統合、カスタム業務プロセスなど."
+    },
+    "maintenance-updates": {
+      "question": "メンテナンスやアップデートはどのように行いますか？",
+      "answer": "セキュリティアップデート、バックアップ、パフォーマンスの最適化、技術サポートを含むいくつかのメンテナンスプランを提供しています."
+    }
+  },
+  "complementary": {
+    "custom-modules": {
+      "title": "カスタムモジュール",
+      "description": "ビジネスのための特定の機能を開発します."
+    },
+    "digital-marketing": {
+      "title": "デジタルマーケティング",
+      "description": "あなたの可視性と売上を増やすためのマーケティング戦略."
+    },
+    "prestashop-training": {
+      "title": "PrestaShopトレーニング",
+      "description": "店舗管理をマスターするためのカスタムトレーニング."
+    }
+  }
+}

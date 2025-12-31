@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "Vamos discutir seu projeto",
+    "description": "Estamos sempre felizes em discutir novos projetos. Entre em contato para compartilhar suas ideias e ver como podemos ajudar você."
+  },
+  "form": {
+    "name": {
+      "label": "Nome completo",
+      "placeholder": "João Silva"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "você@exemplo.com"
+    },
+    "message": {
+      "label": "Mensagem",
+      "placeholder": "Descreva seu projeto..."
+    },
+    "submit": "Enviar mensagem",
+    "submitting": "Enviando..."
+  },
+  "toast": {
+    "success": {
+      "title": "Mensagem enviada",
+      "description": "Nós vamos te responder o mais rápido possível."
+    },
+    "error": {
+      "title": "Erro",
+      "description": "Ocorreu um erro ao enviar a mensagem",
+      "fallback": "Ocorreu um erro"
+    }
+  },
+  "info": {
+    "title": "Informações de contato",
+    "email": {
+      "label": "Email"
+    },
+    "offices": {
+      "label": "Nossos escritórios",
+      "value": "Rouen e Paris, França"
+    },
+    "phone": {
+      "label": "Telefone"
+    }
+  },
+  "hours": {
+    "title": "Horário de atendimento",
+    "timezone": "(horário de Paris)",
+    "weekdays": "De segunda a sexta-feira:",
+    "weekdays-time": "9:00 - 18:00",
+    "weekend": "Final de semana:",
+    "weekend-time": "Fechado"
+  },
+  "tagline": "Um estúdio criativo dedicado a transformar suas ideias em realidade digital."
+}

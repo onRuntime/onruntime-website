@@ -1,0 +1,80 @@
+{
+  "name": "Shopify",
+  "description": "创建和定制Shopify在线商店",
+  "hero": {
+    "title": "使用Shopify创建您的在线商店",
+    "description": "通过我们的Shopify专业知识，把您的电子商务愿景变为现实。我们创建高性能、美观且经过优化的在线商店。"
+  },
+  "features": {
+    "custom-design": {
+      "title": "自定义设计",
+      "description": "创建一个独特的主题，反映您的品牌并优化用户体验。"
+    },
+    "conversion-optimization": {
+      "title": "转化优化",
+      "description": "实施最佳实践以最大化您的销售并留住客户。"
+    },
+    "enhanced-security": {
+      "title": "增强安全性",
+      "description": "按照最新安全标准保护您的数据和客户数据。"
+    },
+    "advanced-integrations": {
+      "title": "高级集成",
+      "description": "与您最喜欢的工具进行连接，以管理库存、会计和营销。"
+    }
+  },
+  "benefits": {
+    "secure-payments": {
+      "title": "安全支付",
+      "description": "集成主要支付方式和安全交易管理。"
+    },
+    "international-by-default": {
+      "title": "默认国际化",
+      "description": "通过多货币管理和自动翻译在全球销售。"
+    },
+    "powerful-analytics": {
+      "title": "强大的分析功能",
+      "description": "详尽跟踪您的表现和洞察，以优化销售。"
+    },
+    "simplified-logistics": {
+      "title": "简化物流",
+      "description": "高效的订单管理和与主要承运商的集成。"
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "创建Shopify商店需要多长时间？",
+      "answer": "创建Shopify商店的平均时间为4到8周，具体取决于项目的复杂性。这包括设计阶段、开发、产品集成和测试。"
+    },
+    "migration": {
+      "question": "你们可以将我现有的商店迁移到Shopify吗？",
+      "answer": "可以，我们提供从您现有商店到Shopify的完整迁移服务，包括产品、客户和订单的转移，同时确保顺利过渡。"
+    },
+    "customization-types": {
+      "question": "你们提供什么类型的定制？",
+      "answer": "我们提供Shopify商店的全面定制：自定义设计、自定义功能、特定集成和移动优化。"
+    },
+    "post-launch-support": {
+      "question": "你们提供上线后的支持吗？",
+      "answer": "是的，我们提供多种支持和维护计划，以确保您商店上线后的顺利运营，包括更新、优化和技术支持。"
+    },
+    "security": {
+      "question": "你们如何确保我商店的安全？",
+      "answer": "我们实施安全最佳实践：SSL、PCI DSS合规、定期备份和防欺诈。Shopify还为所有交易提供银行级安全。"
+    }
+  },
+  "complementary": {
+    "seo": {
+      "title": "SEO",
+      "description": "搜索引擎优化以提高您的可见性。"
+    },
+    "digital-marketing": {
+      "title": "数字营销",
+      "description": "适应的营销策略，以吸引并转化更多客户。"
+    },
+    "training": {
+      "title": "培训",
+      "description": "全面培训，让您能够独立管理商店。"
+    }
+  }
+}

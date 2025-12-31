@@ -1,0 +1,79 @@
+{
+  "title": "Desarrollo web en Rouen | Soluciones digitales para negocios de Normandía",
+  "description": "Crea tu sitio web o aplicación móvil en Rouen. Soluciones digitales personalizadas para negocios de Normandía, adaptadas a los desafíos locales de tu sector.",
+  "hero": {
+    "title": "Desarrollo web y móvil en Rouen",
+    "description": "Ayudamos a las empresas en Rouen y Normandía a digitalizarse con soluciones web personalizadas, perfectamente adaptadas a los desafíos específicos del mercado normando."
+  },
+  "intro": "El tejido económico de Normandía presenta desafíos digitales específicos que hemos aprendido a dominar. Entre la industria manufacturera, el sector agroalimentario y la logística fluvial, creamos soluciones digitales que satisfacen las necesidades precisas de las empresas de Rouen.",
+  "expertise": "Nuestro equipo diseña sitios web, aplicaciones y soluciones de comercio electrónico perfectamente adaptadas a las empresas de Rouen y su región. Entendemos los desafíos de tu mercado y ofrecemos soluciones digitales que te ayudan a destacar y hacer crecer tu negocio.",
+  "why-choose-us": "Nuestro profundo conocimiento del mercado normando nos permite desarrollar soluciones digitales perfectamente adaptadas a los desafíos específicos de las empresas locales. A diferencia de las agencias parisinas, entendemos las sutilezas del tejido económico de Rouen y ofrecemos soluciones personalizadas con una relación calidad-precio ventajosa.",
+  "key-business-sectors": {
+    "industry": "Industria",
+    "agrifood": "Agroalimentario",
+    "logistics": "Logística",
+    "local-commerce": "Comercio Local"
+  },
+  "local-challenges": {
+    "traditional-industries-digitalization": "Digitalización de las industrias tradicionales de Normandía frente a la competencia internacional",
+    "logistics-optimization": "Optimización de la logística fluvial y portuaria a través de soluciones digitales innovadoras",
+    "local-ecommerce-needs": "Necesidad de soluciones de comercio electrónico adaptadas a productores y artesanos locales",
+    "sme-digital-transition": "Transición digital de las PYMES de Normandía con presupuestos controlados"
+  },
+  "benefits": {
+    "normandy-specific-solutions": "Soluciones personalizadas adaptadas a las particularidades de las empresas de Normandía",
+    "industrial-agrifood-expertise": "Experiencia aguda en los sectores industrial y agroalimentario regional",
+    "competitive-pricing": "Precios competitivos en comparación con agencias parisinas",
+    "seine-logistics-knowledge": "Conocimiento profundo de los desafíos logísticos relacionados con el eje del Sena",
+    "personalized-support": "Apoyo personalizado durante todo tu proyecto digital"
+  },
+  "primary-stat": {
+    "label": "sector industrial"
+  },
+  "strengths": {
+    "industrial-websites": {
+      "title": "Sitios web industriales",
+      "description": "Sitios de alto rendimiento adaptados a empresas manufactureras de Normandía."
+    },
+    "local-ecommerce": {
+      "title": "Comercio electrónico local",
+      "description": "Soluciones de venta en línea para productores y artesanos locales."
+    },
+    "business-applications": {
+      "title": "Aplicaciones empresariales",
+      "description": "Herramientas digitales personalizadas para optimizar tus procesos."
+    },
+    "sme-digitalization": {
+      "title": "Digitalización de PYMES",
+      "description": "Apoyo completo para tu transformación digital."
+    }
+  },
+  "focused-services": {
+    "professional-websites": {
+      "name": "Sitios web profesionales",
+      "description": "Vitrinas digitales de alto rendimiento optimizadas para SEO local en Rouen."
+    },
+    "regional-ecommerce": {
+      "name": "Comercio electrónico regional",
+      "description": "Tiendas en línea adaptadas a productores y comerciantes de Normandía."
+    },
+    "business-applications": {
+      "name": "Aplicaciones empresariales",
+      "description": "Software personalizado para la industria y logística regional."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Experiencia",
+      "description": "Años de experiencia"
+    },
+    "satisfaction": {
+      "label": "Satisfacción",
+      "description": "Clientes satisfechos"
+    },
+    "average-time": {
+      "label": "Tiempo promedio",
+      "description": "Semanas de finalización"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "لم يتم العثور على إعلان الوظيفة",
+      "description": "هذا إعلان الوظيفة غير موجود أو لم يعد متاحًا."
+    },
+    "title": "{jobTitle} | الوظائف",
+    "description": "انضم إلى onRuntime Studio كـ {jobTitle}. اكتشف هذه الفرصة المهنية وقدم طلبك الآن."
+  }
+}

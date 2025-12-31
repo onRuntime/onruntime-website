@@ -1,0 +1,13 @@
+{
+  "title": "Ett projekt anpassat till {city} marknaden?",
+  "description": "Vår expertis på den lokala {region} marknaden gör att vi kan erbjuda dig lösningar som är perfekt anpassade till din regionala kontext. Låt oss prata om ditt projekt!",
+  "features": {
+    "video": "Onlinekonsultation via videokonferens",
+    "calendar": "Flexibla tider anpassade efter ditt schema",
+    "expertise": "Djupgående expertis om {city} och {region} marknaden"
+  },
+  "buttons": {
+    "discuss": "Diskutera ditt projekt",
+    "discover": "Upptäck våra tjänster"
+  }
+}

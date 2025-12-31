@@ -1,0 +1,131 @@
+{
+  "short-description": "学生の国外移住をサポートするための完全なプラットフォームで、住居、ビザ、交通、ローカルサポートを統合しています。",
+  "description": "フランスの学生がAからZまでの国外移住を管理できるフルスタックプラットフォームの開発。統合サービスと地域の大使ネットワークを提供しています。",
+  "long-description": "Expat Facilitiesは、学生の国外移住を簡素化する革命的なフランスのスタートアップでした。私たちのチームは、シンプルなランディングページから、Airbnbのような機能と国外移住サービスのエコシステムを組み合わせた高度なソリューションへと進化させる完全なプラットフォームをゼロから開発しました。\n\nこのプラットフォームは、SpotahomeなどのパートナーとのAPIを統合して、ユニファイドな体験を提供しました。住居検索、ルフトハンザとのフライト予約、専門の保険、70カ国以上に存在する地域の大使のユニークなシステムを提供しています。\n\n主な技術的チャレンジは、スムーズで一貫性のあるユーザー体験を作成するために数十のサードパーティAPIを統合することでした。また、国際的な支払いと学生と地域の大使とのマッチングの複雑さを管理することも含まれます。",
+  "features": {
+    "housing-platform": {
+      "title": "統合型住居プラットフォーム",
+      "description": "SpotahomeなどのパートナーAPIを通じて学生向け住居を検索・予約できます。"
+    },
+    "ambassador-network": {
+      "title": "ローカル大使ネットワーク",
+      "description": "70カ国で300人以上の学生大使が新入生をサポートします。"
+    },
+    "visa-services": {
+      "title": "ビザと行政サービス",
+      "description": "完全なビザプロセス管理とパーソナライズされた行政サポートを提供します。"
+    },
+    "transport-logistics": {
+      "title": "輸送とロジスティクス",
+      "description": "フライト予約（ルフトハンザとの提携）、鉄道、優待料金での地元交通手段をご提供します。"
+    },
+    "expat-insurance": {
+      "title": "国外移住保険",
+      "description": "モンディアルアシスタンスとアリアンツとの提携により、一時的な国外移住に特化した保険を提供します。"
+    },
+    "advanced-tracking": {
+      "title": "高度なトラッキング",
+      "description": "全プロセスのリアルタイムトラッキングと通知、ダッシュボードインターフェースを提供します。"
+    }
+  },
+  "technologies": {
+    "nextjs": {
+      "description": "フロントエンド用のReactフレームワーク"
+    },
+    "nestjs": {
+      "description": "堅牢でモジュール化されたAPIバックエンド"
+    },
+    "mongodb": {
+      "description": "主なデータベース"
+    },
+    "graphql": {
+      "description": "データ用の統一API"
+    },
+    "google-cloud": {
+      "description": "クラウドインフラストラクチャとサービス"
+    },
+    "stripe": {
+      "description": "国際的な支払い"
+    },
+    "typescript": {
+      "description": "型安全な開発"
+    },
+    "styled-components": {
+      "description": "スタイリングとテーマ設定"
+    }
+  },
+  "metrics": {
+    "countries": {
+      "value": "70以上",
+      "label": "カバーしている国",
+      "description": "利用可能な国外移住先"
+    },
+    "ambassadors": {
+      "value": "300以上",
+      "label": "大使",
+      "description": "世界中の学生大使"
+    },
+    "users": {
+      "value": "2000以上",
+      "label": "ユーザー",
+      "description": "学生プラットフォームユーザー"
+    }
+  },
+  "screenshots": {
+    "redesign": {
+      "caption": "プラットフォームの再デザイン"
+    },
+    "testimonials": {
+      "caption": "テストとパートナーの声"
+    },
+    "flyer-bank": {
+      "caption": "パートナー銀行向けのチラシ"
+    },
+    "about-team": {
+      "caption": "チームについてと行動を促す呼びかけ"
+    },
+    "housing-hero": {
+      "caption": "統合検索機能を持つ住居セクション"
+    },
+    "housing-cta": {
+      "caption": "住居セクションの行動を促す呼びかけ"
+    },
+    "services-hero": {
+      "caption": "提供内容を紹介するサービスセクション"
+    },
+    "insurance-hero": {
+      "caption": "オファーの説明がある保険セクション"
+    },
+    "insurance-plans": {
+      "caption": "詳細な保険プラン"
+    },
+    "insurance-benefits": {
+      "caption": "提供される保険の特典"
+    },
+    "contact-success": {
+      "caption": "成功したコンタクトフォーム"
+    }
+  },
+  "challenges": {
+    "third-party-api-integration": "数十のサードパーティAPI（Spotahome、ルフトハンザ、保険）を統合したユニファイドな体験。",
+    "international-payments": "複数の通貨と規制でスライプを使った国際的な支払いの管理。",
+    "student-ambassador-matching": "地理的位置に基づいた学生と大使のマッチングシステムの開発。",
+    "scalable-architecture": "急成長をサポートするためのスケーラブルなアーキテクチャ（70カ国、300人以上の大使）。",
+    "real-time-availability": "パートナープラットフォーム間の住居の利用可能性をリアルタイムで同期する。",
+    "multilingual-interface": "多言語インターフェースと各国の特性への適応。"
+  },
+  "learnings": {
+    "api-orchestration-complexity": "異なるフォーマットや制限を持つサードパーティAPIをオーケストレーションする複雑さ。",
+    "multi-partner-error-handling": "マルチパートナーエコシステムにおけるエラーハンドリングの重要性。",
+    "internationalization-challenges": "翻訳を超えた国際化のチャレンジ（通貨、規制、文化）。",
+    "microservices-architecture": "パートナー統合を分離するために不可欠なマイクロサービスアーキテクチャ。",
+    "complex-ux-simplification": "複雑なプロセスをスムーズな体験に変えるためのUX/UIの重要性。",
+    "partner-relations": "統合のためのパートナー関係と技術交渉を管理すること。"
+  },
+  "future-plans": {
+    "other-expat-types": "他のタイプの国外移住（専門家、退職者）への拡大。",
+    "ai-matching": "AIを使った学生/大使のマッチング最適化。",
+    "ambassador-mobile-app": "大使のためのネイティブモバイルアプリ。",
+    "ambassador-training": "大使用のトレーニングプラットフォーム。"
+  }
+}

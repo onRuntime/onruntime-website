@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Glossário de desenvolvimento e design web",
+    "description": "Navegue pelo nosso glossário abrangente de termos técnicos em desenvolvimento web, design de UI/UX e gestão de projetos digitais."
+  },
+  "hero": {
+    "title": "Glossário",
+    "description": "Explore nosso glossário abrangente de termos técnicos em desenvolvimento web, design de UI/UX e gestão de projetos digitais."
+  },
+  "view-all": "Ver todos",
+  "empty": {
+    "title": "Nenhum termo foi adicionado ao glossário ainda.",
+    "subtitle": "Volte em breve para descobrir nosso glossário completo."
+  },
+  "letter": {
+    "metadata": {
+      "title": "Termos começando com {letter} | Glossário",
+      "description": "Descubra todos os termos do glossário que começam com a letra {letter}.",
+      "invalid": {
+        "title": "Letra inválida | Glossário",
+        "description": "Esta letra não é válida."
+      }
+    },
+    "count": "{count} termo(s) começando com a letra {letter}"
+  },
+  "term": {
+    "metadata": {
+      "not-found": {
+        "title": "Termo não encontrado | Glossário",
+        "description": "Este termo não existe em nosso glossário."
+      }
+    }
+  },
+  "tags": {
+    "metadata": {
+      "title": "Tags do glossário",
+      "description": "Explore as diferentes categorias de termos disponíveis em nosso glossário técnico."
+    },
+    "title": "Categorias do glossário",
+    "description": "Explore as {count} categorias de termos disponíveis em nosso glossário técnico.",
+    "empty": "Nenhuma categoria está disponível no momento."
+  },
+  "tag": {
+    "metadata": {
+      "title": "Termos relacionados a {tag} | Glossário",
+      "description": "Descubra todos os termos do glossário relacionados à categoria {tag}."
+    },
+    "count": "{count} termo(s) relacionados a esta categoria"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Progressieve web-apps",
+  "description": "Het creëren van hoogpresterende progressieve webapplicaties",
+  "hero": {
+    "title": "Progressieve web-apps (PWA)",
+    "description": "Transformeer je website in een echte installabele applicatie met Progressieve Web Apps. Bied een uitzonderlijke gebruikerservaring, online en offline."
+  },
+  "features": {
+    "native-installation": {
+      "title": "Native installatie",
+      "description": "Installeerbare applicaties rechtstreeks vanuit de browser, zonder tussenkomst van winkels."
+    },
+    "offline-mode": {
+      "title": "Offline modus",
+      "description": "Werkt zelfs zonder internetverbinding dankzij slimme caching."
+    },
+    "optimal-performance": {
+      "title": "Optimale prestaties",
+      "description": "Snelle laadtijden en een soepele ervaring op alle apparaten."
+    },
+    "push-notifications": {
+      "title": "Push notificaties",
+      "description": "Verbeterde gebruikersbetrokkenheid door push notificaties."
+    }
+  },
+  "benefits": {
+    "multi-platform": {
+      "title": "Multi-platform",
+      "description": "Één applicatie voor alle apparaten en besturingssystemen."
+    },
+    "always-updated": {
+      "title": "Altijd bijgewerkt",
+      "description": "Automatische updates zonder dat de gebruiker actie hoeft te ondernemen."
+    },
+    "lightweight": {
+      "title": "Lichtgewicht",
+      "description": "Geen zware installatie, direct toegankelijk."
+    },
+    "native-performance": {
+      "title": "Native prestaties",
+      "description": "Gebruikerservaring dicht bij native applicaties."
+    }
+  },
+  "faq": {
+    "what-is-pwa": {
+      "question": "Wat is een Progressieve Web App?",
+      "answer": "Een PWA is een webapplicatie die een ervaring biedt die vergelijkbaar is met een native applicatie: het is installeerbaar, werkt offline en kan pushmeldingen versturen. Het combineert de voordelen van het web (toegankelijkheid, automatische updates) en native (prestaties, geavanceerde functies)."
+    },
+    "vs-native": {
+      "question": "Wat zijn de voordelen in vergelijking met een native applicatie?",
+      "answer": "PWA's bieden verschillende voordelen: je hoeft niet door winkels te gaan, automatische updates, snellere en goedkopere ontwikkeling, betere vindbaarheid en één codebasis voor alle platformen."
+    },
+    "offline": {
+      "question": "Hoe werkt de offline modus?",
+      "answer": "We gebruiken Service Workers om essentiële bronnen en gegevens te cachen. De applicatie kan daardoor ook zonder internetverbinding werken, met automatische synchronisatie zodra de verbinding is hersteld."
+    },
+    "browser-compatibility": {
+      "question": "Zijn PWA's compatibel met alle browsers?",
+      "answer": "PWA's werken op de meeste moderne browsers. Voor oudere browsers stellen we fallback-oplossingen in om een optimale gebruikerservaring te garanderen."
+    },
+    "post-launch-support": {
+      "question": "Bieden jullie ondersteuning na de lancering?",
+      "answer": "Ja, we bieden verschillende onderhoudsplannen, waaronder: beveiligingsupdates, prestatie-optimalisaties, functie-uitbreidingen en technische ondersteuning."
+    }
+  },
+  "complementary": {
+    "advanced-analytics": {
+      "title": "Geavanceerde analytics",
+      "description": "Gedetailleerde tracking van gebruikersgedrag en prestaties."
+    },
+    "seo-optimized": {
+      "title": "Geoptimaliseerde SEO",
+      "description": "Optimalisatie voor zoekmachines en sociale media."
+    },
+    "enhanced-security": {
+      "title": "Verbeterde beveiliging",
+      "description": "Gegevensbescherming en veilige communicatie."
+    }
+  }
+}

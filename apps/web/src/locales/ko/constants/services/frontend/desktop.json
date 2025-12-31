@@ -1,0 +1,80 @@
+{
+  "name": "데스크탑 소프트웨어",
+  "description": "크로스 플랫폼 데스크탑 애플리케이션 개발",
+  "hero": {
+    "title": "크로스 플랫폼 데스크탑 애플리케이션",
+    "description": "윈도우, macOS, 리눅스를 위한 현대적이고 고성능의 데스크탑 애플리케이션을 개발해요. 우리의 전문성은 데스크탑의 잠재력을 최대한 활용한 프로페셔널 애플리케이션을 보장해요."
+  },
+  "features": {
+    "electron-react": {
+      "title": "Electron & React",
+      "description": "퍼포먼트가 뛰어나고 확장 가능한 데스크탑 애플리케이션을 위한 현대 기술."
+    },
+    "multiplatform": {
+      "title": "멀티 플랫폼",
+      "description": "단일 코드베이스에서 윈도우, macOS, 리눅스와 호환되는 애플리케이션."
+    },
+    "native-performance": {
+      "title": "네이티브 성능",
+      "description": "시스템 리소스를 효율적으로 활용하기 위한 최적화."
+    },
+    "system-integration": {
+      "title": "시스템 통합",
+      "description": "네이티브 운영 체제 기능에 접근할 수 있어요."
+    }
+  },
+  "benefits": {
+    "windows-macos": {
+      "title": "윈도우 & macOS",
+      "description": "주요 데스크탑 플랫폼을 위한 네이티브 지원."
+    },
+    "system-access": {
+      "title": "시스템 접근",
+      "description": "운영 체제와 직접 상호작용할 수 있어요."
+    },
+    "offline-mode": {
+      "title": "오프라인 모드",
+      "description": "인터넷 연결 없이도 독립적으로 작동해요."
+    },
+    "local-data": {
+      "title": "로컬 데이터",
+      "description": "강화된 보안을 위한 로컬 저장소 및 데이터 처리."
+    }
+  },
+  "faq": {
+    "why-electron": {
+      "question": "데스크탑 개발에 왜 Electron을 선택하나요?",
+      "answer": "Electron은 현대 웹 기술(React, TypeScript)을 사용해 크로스 플랫폼 데스크탑 애플리케이션을 만들 수 있게 해줘요. 이는 빠른 개발과 간편한 유지보수, 뛰어난 사용자 경험을 제공하며, 윈도우, macOS, 리눅스와의 호환성을 보장해요."
+    },
+    "security": {
+      "question": "데스크탑 애플리케이션 보안은 어떻게 처리하나요?",
+      "answer": "우리는 여러 보안 수준을 구현해요: 민감한 데이터 암호화, 코드 삽입 방지, 자동 보안 업데이트, 안전한 개발 모범 사례 등이 포함돼요. 각 운영 체제별 보안 권장 사항도 따르고 있어요."
+    },
+    "auto-update": {
+      "question": "자동 업데이트 시스템을 제공하나요?",
+      "answer": "네, 새로운 애플리케이션 버전을 손쉽게 배포할 수 있는 자동 업데이트 시스템을 통합해요. 사용자는 업데이트가 가능할 때 알림을 받고 한 번의 클릭으로 설치할 수 있어요."
+    },
+    "distribution": {
+      "question": "애플리케이션 배포는 어떻게 처리하나요?",
+      "answer": "전체 배포 과정을 관리해요: 각 플랫폼에 대한 설치 프로그램 생성, 애플리케이션 서명, 필요 시 스토어에 게시(Microsoft Store, Mac App Store) 및 자동 업데이트 시스템 설정."
+    },
+    "post-launch-support": {
+      "question": "출시 후 지원을 제공하나요?",
+      "answer": "네, 기술 지원, 버그 수정, 보안 업데이트, 성능 최적화, 기능 개발 등을 포함한 여러 유지보수 계획을 제공해요."
+    }
+  },
+  "complementary": {
+    "telemetry": {
+      "title": "텔레메트리",
+      "description": "성능 및 사용자 행동 추적."
+    },
+    "distribution": {
+      "title": "배포",
+      "description": "스토어 게시 및 업데이트 관리."
+    },
+    "cloud-sync": {
+      "title": "클라우드 동기화",
+      "description": "클라우드와 데이터 동기화."
+    }
+  }
+}

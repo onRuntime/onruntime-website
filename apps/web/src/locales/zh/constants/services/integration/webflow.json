@@ -1,0 +1,80 @@
+{
+  "name": "Webflow",
+  "description": "使用 Webflow 创建现代网站",
+  "hero": {
+    "title": "专业 Webflow 开发",
+    "description": "用 Webflow 实现你的愿景。我们的专业技术确保你拥有一个现代且互动的网站，完美适应你的需求，同时不妥协于质量."
+  },
+  "features": {
+    "advanced-visual-design": {
+      "title": "高级视觉设计",
+      "description": "创建独特的界面和复杂的动画，而不受传统编码的限制."
+    },
+    "optimal-performance": {
+      "title": "最佳性能",
+      "description": "快速且响应灵敏的网站，针对所有设备和浏览器进行优化."
+    },
+    "rich-interactions": {
+      "title": "丰富的互动体验",
+      "description": "流畅的用户动画和互动，带来现代而引人入胜的网络体验."
+    },
+    "integrated-cms": {
+      "title": "集成 CMS",
+      "description": "强大而灵活的内容管理系统，方便进行更新."
+    }
+  },
+  "benefits": {
+    "visual-development": {
+      "title": "视觉开发",
+      "description": "创建复杂的网站而无需编写代码，同时保持对设计的完全控制."
+    },
+    "native-seo": {
+      "title": "原生 SEO",
+      "description": "内置的 SEO 工具和结构经过优化，以适应搜索引擎."
+    },
+    "responsive-by-default": {
+      "title": "默认响应式设计",
+      "description": "设计完美适应所有屏幕，从手机到大屏幕."
+    },
+    "optimized-hosting": {
+      "title": "优化托管",
+      "description": "强大的云基础设施和全球 CDN，确保最佳性能."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "创建 Webflow 网站需要多长时间?",
+      "answer": "创建一个 Webflow 网站的平均时间为 3 到 8 周，具体取决于项目的复杂性。这包括设计、互动开发、内容整合和测试."
+    },
+    "self-update": {
+      "question": "我可以轻松自己更新网站吗?",
+      "answer": "当然可以！Webflow 具有直观的 CMS，我们会根据你的需求进行定制。我们会培训你使用它，这样你可以独立管理内容."
+    },
+    "ecommerce": {
+      "question": "Webflow 适合电子商务网站吗?",
+      "answer": "是的，Webflow 提供强大的电子商务解决方案，我们可以进行定制，帮助你创建拥有高级功能和自定义设计的在线商店."
+    },
+    "animations-interactions": {
+      "question": "你们如何处理动画和互动?",
+      "answer": "Webflow 可以创建无需编码的复杂动画和互动。我们设计流畅且专业的互动体验，同时保持最佳性能."
+    },
+    "seo-quality": {
+      "question": "使用 Webflow 的 SEO 质量如何?",
+      "answer": "Webflow 生成干净、经过 SEO 优化的代码。我们实施 SEO 最佳实践，以最大化你在搜索引擎上的可见性."
+    }
+  },
+  "complementary": {
+    "custom-integrations": {
+      "title": "自定义集成",
+      "description": "与你喜欢的第三方工具和服务进行连接."
+    },
+    "digital-strategy": {
+      "title": "数字战略",
+      "description": "支持你的在线存在策略."
+    },
+    "webflow-training": {
+      "title": "Webflow 培训",
+      "description": "定制培训，帮助你掌握网站管理."
+    }
+  }
+}

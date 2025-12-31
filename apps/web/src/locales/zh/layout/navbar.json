@@ -1,0 +1,33 @@
+{
+  "links": {
+    "services": "我们的服务",
+    "projects": "我们的项目",
+    "agencies": "我们的机构",
+    "npo": "协会",
+    "contact": "联系我们"
+  },
+  "services": {
+    "title": "我们的服务",
+    "description": "发现我们提供的全部开发和设计服务，让你的数字项目真正实现。",
+    "cta": "了解更多"
+  },
+  "projects": {
+    "title": "我们的作品集",
+    "description": "发现我们在各个领域的所有项目和成就",
+    "categories": {
+      "web-mobile": "网页和移动应用",
+      "open-source": "开源项目",
+      "design": "用户界面/用户体验设计"
+    },
+    "cta": "查看所有项目"
+  },
+  "agencies": {
+    "title": "我们在法国的机构",
+    "description": "探索我们在法国各地的机构网络和本地专业知识",
+    "agency": "机构 {name}",
+    "main": "主要机构",
+    "all": "我们所有的机构",
+    "by-region": "按地区划分的所有机构",
+    "cta": "查看所有机构"
+  }
+}

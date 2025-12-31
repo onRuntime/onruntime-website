@@ -1,0 +1,80 @@
+{
+  "name": "SquareSpace",
+  "description": "在SquareSpace上的集成和定制",
+  "hero": {
+    "title": "使用Squarespace制作优雅的网站",
+    "description": "用Squarespace创建精致的在线形象。我们的专业知识确保你的品牌形象与美观、实用的网站完美契合。"
+  },
+  "features": {
+    "minimalist-design": {
+      "title": "简约设计",
+      "description": "创建优雅且干净的网站，展示你的内容和品牌。"
+    },
+    "smooth-experience": {
+      "title": "流畅体验",
+      "description": "直观的导航和优化的性能，提供无缝的用户体验。"
+    },
+    "content-management": {
+      "title": "内容管理",
+      "description": "简单直观的管理界面，让你轻松管理内容。"
+    },
+    "media-integration": {
+      "title": "媒体集成",
+      "description": "通过动态画廊最佳展示你的图片和媒体。"
+    }
+  },
+  "benefits": {
+    "professional-templates": {
+      "title": "专业模板",
+      "description": "提供现代化且可定制的模板，适用于各行各业。"
+    },
+    "integrated-ecommerce": {
+      "title": "集成电商",
+      "description": "完整且可定制的在线销售解决方案。"
+    },
+    "optimal-performance": {
+      "title": "最佳性能",
+      "description": "快速安全的网站托管于强大的基础设施上。"
+    },
+    "integrated-marketing": {
+      "title": "集成营销",
+      "description": "营销工具和统计分析，助力你的业务增长。"
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "创建一个Squarespace网站需要多长时间？",
+      "answer": "创建一个Squarespace网站的平均时间为2到6周，具体取决于项目复杂性。这包括模板选择和定制、内容集成和测试。"
+    },
+    "product-sales": {
+      "question": "我可以在我的Squarespace网站上销售产品吗？",
+      "answer": "可以，Squarespace提供完整的电商解决方案，我们可以为你配置，让你可以在线销售产品，包含库存管理、安全支付和发货选项。"
+    },
+    "content-updates": {
+      "question": "更新内容容易吗？",
+      "answer": "绝对容易！Squarespace的界面非常直观。我们会培训你如何使用它，这样你就能独立管理内容。"
+    },
+    "seo-optimization": {
+      "question": "我的网站会优化SEO吗？",
+      "answer": "是的，我们会实施Squarespace SEO最佳实践，并配置所有必要的元素，以优化你在搜索引擎上的可见性。"
+    },
+    "maintenance-service": {
+      "question": "你们提供维护服务吗？",
+      "answer": "是的，我们提供不同的维护计划，包括更新、技术支持和你Squarespace网站的持续优化。"
+    }
+  },
+  "complementary": {
+    "advanced-customization": {
+      "title": "高级定制",
+      "description": "CSS和Javascript修改，使你的网站超出标准选项的定制。"
+    },
+    "content-strategy": {
+      "title": "内容策略",
+      "description": "支持创建和优化你的内容。"
+    },
+    "user-training": {
+      "title": "用户培训",
+      "description": "全面培训，以掌握你Squarespace网站的管理。"
+    }
+  }
+}

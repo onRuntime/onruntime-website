@@ -1,0 +1,80 @@
+{
+  "name": "Moodboard",
+  "description": "Definiowanie wizualnej tożsamości i atmosfery twojego projektu",
+  "hero": {
+    "title": "Moodboardy i kierunek artystyczny",
+    "description": "Ożyw swoją wizję za pomocą starannie zaprojektowanych moodboardów. Nasza wiedza projektowa pomoże ci określić jasny i inspirujący kierunek artystyczny dla twojego projektu."
+  },
+  "features": {
+    "creative-direction": {
+      "title": "Kierunek kreatywny",
+      "description": "Jasne określenie atmosfery i stylu wizualnego."
+    },
+    "color-palette": {
+      "title": "Paleta kolorów",
+      "description": "Harmonijny dobór kolorów twojej tożsamości."
+    },
+    "visual-style": {
+      "title": "Styl wizualny",
+      "description": "Eksploracja i określenie twojego uniwersum graficznego."
+    },
+    "targeted-inspiration": {
+      "title": "Ukierunkowana inspiracja",
+      "description": "Wnikliwe badania dostosowane do twojej branży."
+    }
+  },
+  "benefits": {
+    "clear-direction": {
+      "title": "Jasny kierunek",
+      "description": "Wspólna wizja i alignment ekip kreatywnych."
+    },
+    "visual-communication": {
+      "title": "Komunikacja wizualna",
+      "description": "Skuteczne wsparcie w dzieleniu się twoją wizją."
+    },
+    "consistency": {
+      "title": "Spójność",
+      "description": "Gwarantowana harmonijna tożsamość wizualna."
+    },
+    "creative-expertise": {
+      "title": "Ekspertyza kreatywna",
+      "description": "Profesjonalne porady i kierunek artystyczny."
+    }
+  },
+  "faq": {
+    "what-is-moodboard": {
+      "question": "Czym jest moodboard i do czego służy?",
+      "answer": "Moodboard to wizualna kompozycja, która określa kierunek artystyczny twojego projektu. Łączy kolory, typografię, obrazy i tekstury, aby stworzyć spójne odniesienie wizualne. To niezbędne narzędzie do komunikowania twojej wizji i zapewnienia spójności twojej tożsamości wizualnej."
+    },
+    "creation-process": {
+      "question": "Jak działa proces tworzenia?",
+      "answer": "Proces zaczyna się od fazy odkrywania, podczas której badamy twoje cele i uniwersum. Następnie przeprowadzamy wnikliwe badania, aby wybrać odpowiednie elementy wizualne. Po kilku iteracjach i twojej opinii finalizujemy moodboard, który będzie służył jako przewodnik dla twojego projektu."
+    },
+    "moodboard-elements": {
+      "question": "Jakie elementy zawiera moodboard?",
+      "answer": "Profesjonalny moodboard zazwyczaj zawiera: paletę kolorów, typografię, inspirujące obrazy, tekstury, wzory i odniesienia stylistyczne. Dodajemy również notatki wyjaśniające, aby doprecyzować wybory kreatywne."
+    },
+    "moodboard-usage": {
+      "question": "Jak korzystać z moodboardu podczas całego projektu?",
+      "answer": "Moodboard służy jako odniesienie przez cały projekt. Kieruje decyzjami projektowymi, zapewnia spójność wizualną i ułatwia komunikację między wszystkimi zainteresowanymi. To żywy dokument, który może ewoluować z twoją opinią."
+    },
+    "creation-timeline": {
+      "question": "Ile czasu zajmuje stworzenie moodboardu?",
+      "answer": "Stworzenie profesjonalnego moodboardu zazwyczaj zajmuje od 1 do 2 tygodni, wliczając fazę badań, początkowe tworzenie i iteracje na podstawie twojej opinii. Ten czas pozwala nam na dokładne eksplorowanie i udoskonalenie kierunku artystycznego."
+    }
+  },
+  "complementary": {
+    "brand-guidelines": {
+      "title": "Zasady marki",
+      "description": "Tworzenie pełnego dokumentu zasad marki."
+    },
+    "style-guide": {
+      "title": "Przewodnik stylu",
+      "description": "Szczegółowy przewodnik dotyczący korzystania z twojej tożsamości."
+    },
+    "artistic-direction": {
+      "title": "Kierunek artystyczny",
+      "description": "Bieżące wsparcie kreatywne."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "short-description": "Odkryj i zarezerwuj najlepsze wydarzenia dostosowane do twoich gustów.",
+  "description": "Tonight Pass to innowacyjna platforma, która ułatwia odkrywanie i rezerwację wydarzeń dzięki spersonalizowanemu systemowi rekomendacji opartemu na twoich preferencjach.",
+  "long-description": "Tonight Pass zmienia sposób, w jaki ludzie odkrywają i uczestniczą w wydarzeniach. Nasza platforma łączy technologię i doświadczenie użytkownika, aby oferować spersonalizowane rekomendacje i uproszczoną sprzedaż biletów.\n\nPlatforma łączy organizatorów wydarzeń i uczestników, zapewniając kompleksowe rozwiązanie do zarządzania rezerwacjami, inteligentnych rekomendacji i analityki danych. Aplikacja została zaprojektowana, aby zoptymalizować doświadczenie odkrywania wydarzeń, jednocześnie upraszczając zarządzanie dla organizatorów.",
+  "features": {
+    "ticketing": {
+      "title": "Uproszczona sprzedaż biletów",
+      "description": "Zarezerwuj bilety w zaledwie kilka kliknięć na wszystkie rodzaje wydarzeń"
+    },
+    "recommendations": {
+      "title": "Spersonalizowane rekomendacje",
+      "description": "Odkryj wydarzenia dostosowane do twoich gustów"
+    },
+    "e-tickets": {
+      "title": "Bezpieczne e-bilety",
+      "description": "Uzyskaj dostęp do wydarzeń dzięki bezpiecznym biletom cyfrowym"
+    }
+  },
+  "technologies": {
+    "react": {
+      "description": "Aplikacje internetowe i mobilne"
+    },
+    "nestjs": {
+      "description": "Backend API"
+    },
+    "mongodb": {
+      "description": "Główna baza danych"
+    }
+  },
+  "metrics": {
+    "time-saved": {
+      "value": "45 min",
+      "label": "Zaoszczędzony czas",
+      "description": "Średnio na jedno wyszukiwanie wydarzenia"
+    },
+    "coverage": {
+      "value": "100%",
+      "label": "Pokrycie",
+      "description": "Dostępne w całej Francji"
+    },
+    "ease": {
+      "value": "1 kliknięcie",
+      "label": "Łatwość",
+      "description": "Aby zarezerwować jakiekolwiek wydarzenie"
+    }
+  },
+  "screenshots": {},
+  "challenges": {
+    "ticketing-experience": "Rozwój płynnego i intuicyjnego doświadczenia sprzedaży biletów",
+    "recommendation-system": "Tworzenie spersonalizowanego systemu rekomendacji",
+    "scalable-infrastructure": "Utworzenie skalowalnej infrastruktury",
+    "traffic-peaks": "Zarządzanie szczytami ruchu podczas wydania biletów"
+  },
+  "learnings": {
+    "booking-simplicity": "Znaczenie prostoty w drodze rezerwacji",
+    "event-type-interface": "Potrzeba interfejsu dostosowanego do różnych typów wydarzeń",
+    "database-management": "Efektywne zarządzanie bazą danych wydarzeń",
+    "speed-reliability-balance": "Równowaga między szybkością a niezawodnością usług"
+  },
+  "future-plans": {
+    "venue-kiosks": "Wdrożenie kiosków w miejscach wydarzeń",
+    "recruitment-platform": "Uruchomienie platformy rekrutacyjnej dla wydarzeń",
+    "venue-rental": "Utworzenie usługi wynajmu miejsc",
+    "supplier-network": "Stworzenie sieci dostawców wydarzeń",
+    "organizer-tools": "Rozwój zaawansowanych narzędzi dla organizatorów",
+    "recommendation-improvement": "Udoskonalenie systemu rekomendacji"
+  }
+}

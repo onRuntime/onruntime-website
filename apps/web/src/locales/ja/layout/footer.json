@@ -1,0 +1,28 @@
+{
+  "tagline": "世界中のクリエイティブスタジオ。",
+  "location": "でも、<strong>ルーアン</strong>と<strong>パリ</strong>で私たちに会えます。",
+  "nav": {
+    "navigation": "ナビゲーション",
+    "resources": "リソース",
+    "other": "その他",
+    "social": "ソーシャルメディア"
+  },
+  "links": {
+    "services": "私たちのサービス",
+    "projects": "私たちのプロジェクト",
+    "npo": "法人",
+    "careers": "キャリア",
+    "blog": "ブログ",
+    "glossary": "用語集",
+    "community": "コミュニティ",
+    "status": "ステータス",
+    "contact": "コンタクト",
+    "terms": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "company": "会社概要"
+  },
+  "status": "すべてのサービスは稼働中",
+  "language": {
+    "label": "言語"
+  }
+}

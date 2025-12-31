@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Glossar für Webentwicklung und Design",
+    "description": "Durchstöbere unser umfassendes Glossar technischer Begriffe in der Webentwicklung, UI/UX-Design und digitalem Projektmanagement."
+  },
+  "hero": {
+    "title": "Glossar",
+    "description": "Entdecke unser umfassendes Glossar technischer Begriffe in der Webentwicklung, UI/UX-Design und digitalem Projektmanagement."
+  },
+  "view-all": "Alle anzeigen",
+  "empty": {
+    "title": "Es wurden noch keine Begriffe zum Glossar hinzugefügt.",
+    "subtitle": "Schau bald wieder vorbei, um unser vollständiges Glossar kennenzulernen."
+  },
+  "letter": {
+    "metadata": {
+      "title": "Begriffe, die mit {letter} beginnen | Glossar",
+      "description": "Entdecke alle Glossarbegriffe, die mit dem Buchstaben {letter} beginnen.",
+      "invalid": {
+        "title": "Ungültiger Buchstabe | Glossar",
+        "description": "Dieser Buchstabe ist nicht gültig."
+      }
+    },
+    "count": "{count} Begriff(e), die mit dem Buchstaben {letter} beginnen"
+  },
+  "term": {
+    "metadata": {
+      "not-found": {
+        "title": "Begriff nicht gefunden | Glossar",
+        "description": "Dieser Begriff existiert nicht in unserem Glossar."
+      }
+    }
+  },
+  "tags": {
+    "metadata": {
+      "title": "Glossar Tags",
+      "description": "Entdecke die verschiedenen Kategorien von Begriffen in unserem technischen Glossar."
+    },
+    "title": "Glossarkategorien",
+    "description": "Entdecke die {count} Kategorien von Begriffen in unserem technischen Glossar.",
+    "empty": "Derzeit sind keine Kategorien verfügbar."
+  },
+  "tag": {
+    "metadata": {
+      "title": "Begriffe, die zu {tag} gehören | Glossar",
+      "description": "Entdecke alle Glossarbegriffe, die zur Kategorie {tag} gehören."
+    },
+    "count": "{count} Begriff(e), die zu dieser Kategorie gehören"
+  }
+}

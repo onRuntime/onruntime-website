@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "cta": "Projenizi konuşalım"
+  },
+  "cards": {
+    "custom": {
+      "title": "Özel çözümler",
+      "description": "İhtiyaçlarınıza özel"
+    },
+    "support": {
+      "title": "Uzman desteği",
+      "description": "Uzmanlarımızdan"
+    },
+    "technologies": {
+      "title": "Modern teknolojiler",
+      "description": "Her zaman güncel"
+    },
+    "scalability": {
+      "title": "Garanti edilmiş ölçeklenebilirlik",
+      "description": "Büyümeniz için"
+    }
+  },
+  "cta": {
+    "title": "Projenizi hayata geçirmeye hazır mısınız?",
+    "description": "İhtiyaçlarınızı konuşmak ve kişiye özel bir teklif almak için bizimle iletişime geçin.",
+    "button": "Şimdi başlayın"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Moodboard",
+  "description": "Definiera den visuella identiteten och stämningen för ditt projekt",
+  "hero": {
+    "title": "Moodboards & konstnärlig riktning",
+    "description": "Ge liv åt din vision med noggrant utformade moodboards. Vår designkompetens hjälper dig att definiera en tydlig och inspirerande konstnärlig riktning för ditt projekt."
+  },
+  "features": {
+    "creative-direction": {
+      "title": "Kreativ riktning",
+      "description": "Tydlig definition av stämningen och den visuella stilen."
+    },
+    "color-palette": {
+      "title": "Färgpalett",
+      "description": "Harmonisk urval av dina identitetsfärger."
+    },
+    "visual-style": {
+      "title": "Visuell stil",
+      "description": "Utforskning och definition av ditt grafiska universum."
+    },
+    "targeted-inspiration": {
+      "title": "Målmedveten inspiration",
+      "description": "Djupgående forskning anpassad till din bransch."
+    }
+  },
+  "benefits": {
+    "clear-direction": {
+      "title": "Tydlig riktning",
+      "description": "Delad vision och samsyn mellan kreativa team."
+    },
+    "visual-communication": {
+      "title": "Visuell kommunikation",
+      "description": "Effektivt stöd för att dela din vision."
+    },
+    "consistency": {
+      "title": "Konsistens",
+      "description": "Garanti för en harmonisk visuell identitet."
+    },
+    "creative-expertise": {
+      "title": "Kreativ kompetens",
+      "description": "Professionell råd och konstnärlig riktning."
+    }
+  },
+  "faq": {
+    "what-is-moodboard": {
+      "question": "Vad är en moodboard och vad används den till?",
+      "answer": "En moodboard är en visuell samling som definierar den konstnärliga riktningen för ditt projekt. Den kombinerar färger, typografi, bilder och texturer för att skapa en sammanhängande visuell referens. Det är ett viktigt verktyg för att kommunicera din vision och säkerställa konsekvensen i din visuella identitet."
+    },
+    "creation-process": {
+      "question": "Hur fungerar skapelseprocessen?",
+      "answer": "Processen börjar med en upptäcktsfas där vi utforskar dina mål och ditt universum. Vi genomför sedan djupgående forskning för att välja lämpliga visuella element. Efter flera iterationer och din feedback, avslutar vi moodboarden som kommer att fungera som en guide för ditt projekt."
+    },
+    "moodboard-elements": {
+      "question": "Vilka element ingår i en moodboard?",
+      "answer": "En professionell moodboard inkluderar vanligtvis: en färgpalett, typografi, inspirerande bilder, texturer, mönster och stilreferenser. Vi lägger också till förklarande anteckningar för att klargöra kreativa val."
+    },
+    "moodboard-usage": {
+      "question": "Hur använder du moodboarden under projektets gång?",
+      "answer": "Moodboarden fungerar som en referens under hela projektet. Den vägleder designbeslut, säkerställer visuell konsistens och underlättar kommunikationen mellan alla intressenter. Det är ett levande dokument som kan utvecklas med din feedback."
+    },
+    "creation-timeline": {
+      "question": "Hur lång tid tar det att skapa en moodboard?",
+      "answer": "Att skapa en professionell moodboard tar vanligtvis 1 till 2 veckor, inklusive forskningsfasen, initial skapelse och iterationer baserat på din feedback. Den här tiden ger oss möjlighet att utforska grundligt och förfina den konstnärliga riktningen."
+    }
+  },
+  "complementary": {
+    "brand-guidelines": {
+      "title": "Varumärkesriktlinjer",
+      "description": "Skapelse av ett komplett dokument för varumärkesriktlinjer."
+    },
+    "style-guide": {
+      "title": "Stilguide",
+      "description": "Detaljerad guide för att använda din identitet."
+    },
+    "artistic-direction": {
+      "title": "Konstnärlig riktning",
+      "description": "Löpande kreativ vägledning."
+    }
+  }
+}

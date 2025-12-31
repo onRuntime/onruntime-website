@@ -1,0 +1,80 @@
+{
+  "name": "Molnlösningar",
+  "description": "Utbyggnad och hantering av molninfrastruktur",
+  "hero": {
+    "title": "Molnlösningar",
+    "description": "Optimera din infrastruktur med moderna och skalbara molnlösningar. Vår expertis garanterar säker och högpresterande utbyggnad på stora molnplattformar."
+  },
+  "features": {
+    "multi-cloud": {
+      "title": "Flera moln",
+      "description": "Stöd för stora plattformar (AWS, GCP, Azure)."
+    },
+    "advanced-security": {
+      "title": "Avancerad säkerhet",
+      "description": "Robust skydd av dina data och applikationer."
+    },
+    "optimal-performance": {
+      "title": "Optimal prestanda",
+      "description": "Arkitektur optimerad för maximal prestanda."
+    },
+    "automatic-scalability": {
+      "title": "Automatisk skalbarhet",
+      "description": "Dynamisk anpassning till belastningskrav."
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "Hög tillgänglighet",
+      "description": "Redundant och motståndskraftig infrastruktur."
+    },
+    "elastic-storage": {
+      "title": "Elastisk lagring",
+      "description": "Flexibel och säker datahantering."
+    },
+    "advanced-monitoring": {
+      "title": "Avancerad övervakning",
+      "description": "Övervakning i realtid av din infrastruktur."
+    },
+    "enhanced-security": {
+      "title": "Förbättrad säkerhet",
+      "description": "Flerskiktat skydd av dina resurser."
+    }
+  },
+  "faq": {
+    "platform-choice": {
+      "question": "Vilken molnplattform ska man välja?",
+      "answer": "Valet beror på dina specifika behov: AWS är bäst på tjänsteutbud, Google Cloud på maskininlärning och Azure på Microsoft-integration. Vi guidar dig till den bästa lösningen baserat på dina mål, tekniska begränsningar och budget."
+    },
+    "cloud-security": {
+      "question": "Hur hanterar ni säkerhet i molnet?",
+      "answer": "Vi implementerar flerskiktsäkerhet: datakryptering i vila och under överföring, IAM-åtkomstkontroll, virtuella privata nätverk (VPC), webbapplikationsbrandväggar (WAF) och kontinuerlig hotövervakning. Vi följer varje plattforms bästa metoder."
+    },
+    "cost-optimization": {
+      "question": "Hur optimerar ni kostnader?",
+      "answer": "Vi använder flera strategier: reserverade instanser, automatisk skalning, resursoptimering, borttagning av oanvända resurser och kostnadsövervakning. Vi gör regelbundna granskningar för att identifiera möjliga besparingar."
+    },
+    "high-availability": {
+      "question": "Hur säkerställer ni hög tillgänglighet?",
+      "answer": "Vi distribuerar din infrastruktur över flera tillgänglighetzoner, med dataduplicering, lastbalansering och automatisk omkoppling. Vi sätter också upp robusta katastrofåterställningsplaner (DRP)."
+    },
+    "support-24-7": {
+      "question": "Erbjuder ni support dygnet runt?",
+      "answer": "Ja, vi erbjuder flera supportnivåer, inklusive: övervakning dygnet runt, automatisk avisering, snabb åtgärd av incidenter, förebyggande underhåll och dedikerad teknisk support."
+    }
+  },
+  "complementary": {
+    "cloud-migration": {
+      "title": "Molnmigrering",
+      "description": "Smidig övergång till molnet."
+    },
+    "multi-region": {
+      "title": "Flera regioner",
+      "description": "Global utplacering av dina applikationer."
+    },
+    "devops": {
+      "title": "DevOps",
+      "description": "Automatisering och CI/CD i molnet."
+    }
+  }
+}

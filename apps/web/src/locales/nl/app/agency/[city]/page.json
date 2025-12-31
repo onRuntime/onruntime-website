@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Lokale expertise niet beschikbaar",
+      "description": "We hebben nog geen specifieke expertise voor deze stad."
+    }
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "local-expertise": "Lokale expertise"
+  },
+  "challenges": {
+    "title": "Digitale uitdagingen voor bedrijven in {city}",
+    "description": "Bedrijven in {city} staan voor specifieke uitdagingen bij digitale transformatie. Onze expertise stelt ons in staat om deze effectief aan te pakken.",
+    "market-issues": "Marktuitdagingen in {region}",
+    "our-solutions": "Onze op maat gemaakte oplossingen",
+    "discover-all-services": "Ontdek al onze diensten"
+  },
+  "faq": {
+    "title": "Veelgestelde vragen over webprojecten in {city}",
+    "description": "Vind antwoorden op de meest voorkomende vragen van bedrijven in {city} over hun digitale projecten.",
+    "questions": {
+      "choose-agency": {
+        "question": "Hoe kies ik de juiste webbureau in {city}?",
+        "answer": "Om de juiste webbureau in {city} te kiezen, beoordeel je hun kennis van de lokale markt, hun portfolio in jouw branche en hun in staat om jouw specifieke doelen te begrijpen. Expertise in digitale uitdagingen die specifiek zijn voor de regio {region} is ook een belangrijke factor."
+      },
+      "project-costs": {
+        "question": "Wat zijn de kosten van een webproject in {city}?",
+        "answer": "De kosten van een webproject in {city} variëren afhankelijk van de complexiteit, functies en doelstellingen. Voor een professionele showcase website kun je rekening houden met tussen de €3.000 en €8.000. Voor een op maat gemaakte webapplicatie of e-commerce beginnen de prijzen doorgaans bij €10.000. Vraag om een persoonlijke offerte voor een nauwkeurige schatting."
+      },
+      "development-time": {
+        "question": "Hoe lang duurt het om een website of applicatie voor mijn bedrijf in {city} te ontwikkelen?",
+        "answer": "De ontwikkelingstijd voor een bedrijf in {city} hangt af van de complexiteit van het project. Een showcase website kan binnen 4-8 weken worden afgerond, terwijl een op maat gemaakte applicatie of e-commerce doorgaans 2-4 maanden vereist. Onze agile methodologie zorgt voor geleidelijke leveringen zodat je snel vooruitgang kunt zien."
+      },
+      "remote-work": {
+        "question": "Kun je effectief op afstand met mijn bedrijf in {city} werken?",
+        "answer": "Absoluut. We werken effectief samen met bedrijven in {city} via onze bewezen methode voor remote work. Regelmatige videovergaderingen, krachtige samenwerkingshulpmiddelen en onze diepgaande kennis van de lokale markt in {region} stellen ons in staat om ondersteuning te bieden die even effectief is als met een team ter plaatse."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Wat onze klanten in {city} zeggen",
+    "description": "Ontdek feedback van lokale bedrijven waarmee we hebben samengewerkt."
+  }
+}

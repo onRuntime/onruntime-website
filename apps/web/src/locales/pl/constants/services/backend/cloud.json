@@ -1,0 +1,80 @@
+{
+  "name": "Rozwiązania w chmurze",
+  "description": "Wdrożenie i zarządzanie infrastrukturą w chmurze",
+  "hero": {
+    "title": "Rozwiązania w chmurze",
+    "description": "Optymalizuj swoją infrastrukturę z nowoczesnymi i skalowalnymi rozwiązaniami w chmurze. Nasza ekspertyza gwarantuje bezpieczeństwo i wysoką wydajność wdrożenia na głównych platformach chmurowych."
+  },
+  "features": {
+    "multi-cloud": {
+      "title": "Multi-cloud",
+      "description": "Wsparcie dla głównych platform (AWS, GCP, Azure)."
+    },
+    "advanced-security": {
+      "title": "Zaawansowane zabezpieczenia",
+      "description": "Solidna ochrona twoich danych i aplikacji."
+    },
+    "optimal-performance": {
+      "title": "Optymalna wydajność",
+      "description": "Architektura zoptymalizowana dla maksymalnej wydajności."
+    },
+    "automatic-scalability": {
+      "title": "Automatyczna skalowalność",
+      "description": "Dynamiczna adaptacja do wymagań obciążenia."
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "Wysoka dostępność",
+      "description": "Redundacyjna i odporna infrastruktura."
+    },
+    "elastic-storage": {
+      "title": "Elastyczne przechowywanie",
+      "description": "Elastyczne i bezpieczne zarządzanie danymi."
+    },
+    "advanced-monitoring": {
+      "title": "Zaawansowane monitorowanie",
+      "description": "Monitorowanie twojej infrastruktury w czasie rzeczywistym."
+    },
+    "enhanced-security": {
+      "title": "Zwiększone bezpieczeństwo",
+      "description": "Ochrona zasobów na wielu poziomach."
+    }
+  },
+  "faq": {
+    "platform-choice": {
+      "question": "Którą platformę chmurową wybrać?",
+      "answer": "Wybór zależy od twoich specyficznych potrzeb: AWS wyróżnia się różnorodnością usług, Google Cloud w uczeniu maszynowym, a Azure w integracji z Microsoft. Pomagamy ci znaleźć najlepsze rozwiązanie w oparciu o twoje cele, ograniczenia techniczne i budżet."
+    },
+    "cloud-security": {
+      "question": "Jak zajmujecie się bezpieczeństwem w chmurze?",
+      "answer": "Wprowadzamy wielowarstwowe zabezpieczenia: szyfrowanie danych w spoczynku i w tranzycie, kontrola dostępu IAM, wirtualne sieci prywatne (VPC), zapory aplikacji internetowych (WAF) i ciągłe monitorowanie zagrożeń. Stosujemy najlepsze praktyki każdej platformy."
+    },
+    "cost-optimization": {
+      "question": "Jak optymalizujecie koszty?",
+      "answer": "Używamy kilku strategii: rezerwowane instancje, automatyczne skalowanie, optymalizacja zasobów, usuwanie nieużywanych zasobów oraz monitorowanie kosztów. Regularnie przeprowadzamy audyty, aby zidentyfikować możliwości oszczędności."
+    },
+    "high-availability": {
+      "question": "Jak zapewniacie wysoką dostępność?",
+      "answer": "Rozkładamy twoją infrastrukturę w wielu strefach dostępności, z replikacją danych, równoważeniem obciążenia oraz automatycznym przełączaniem awaryjnym. Tworzymy także solidne plany odzyskiwania po awariach (DRP)."
+    },
+    "support-24-7": {
+      "question": "Czy oferujecie wsparcie 24/7?",
+      "answer": "Tak, oferujemy kilka poziomów wsparcia, w tym: monitoring 24/7, automatyczne powiadamianie, szybka interwencja w przypadku incydentów, konserwację zapobiegawczą oraz dedykowane wsparcie techniczne."
+    }
+  },
+  "complementary": {
+    "cloud-migration": {
+      "title": "Migracja do chmury",
+      "description": "Płynne przejście do chmury."
+    },
+    "multi-region": {
+      "title": "Multi-region",
+      "description": "Globalne wdrożenie twoich aplikacji."
+    },
+    "devops": {
+      "title": "DevOps",
+      "description": "Automatyzacja i CI/CD w chmurze."
+    }
+  }
+}

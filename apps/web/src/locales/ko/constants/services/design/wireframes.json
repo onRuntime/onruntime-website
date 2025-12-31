@@ -1,0 +1,80 @@
+{
+  "name": "와이어프레임",
+  "description": "구조와 사용자 여정 디자인하기",
+  "hero": {
+    "title": "와이어프레임 & UX 아키텍처",
+    "description": "전문가의 와이어프레임으로 사용자 인터페이스를 구조화해 보세요. 우리의 UX 디자인 전문 지식이 프로젝트 초기 단계부터 직관적인 아키텍처와 최적의 사용자 경험을 보장합니다."
+  },
+  "features": {
+    "ux-architecture": {
+      "title": "UX 아키텍처",
+      "description": "인터페이스의 명확하고 논리적인 구조."
+    },
+    "user-journey": {
+      "title": "사용자 여정",
+      "description": "내비게이션 흐름 최적화."
+    },
+    "visual-hierarchy": {
+      "title": "시각적 계층 구조",
+      "description": "콘텐츠와 기능의 효율적인 조직."
+    },
+    "interactions": {
+      "title": "상호작용",
+      "description": "동작 및 전환 정의."
+    }
+  },
+  "benefits": {
+    "responsive-design": {
+      "title": "반응형 디자인",
+      "description": "모든 화면 포맷에 적응."
+    },
+    "rapid-prototyping": {
+      "title": "신속한 프로토타이핑",
+      "description": "효율적인 테스트와 반복."
+    },
+    "collaboration": {
+      "title": "협업",
+      "description": "모든 이해관계자와의 명확한 소통."
+    },
+    "early-validation": {
+      "title": "조기 검증",
+      "description": "UX 문제의 빠른 발견 및 수정."
+    }
+  },
+  "faq": {
+    "what-is-wireframe": {
+      "question": "와이어프레임은 무엇이며 왜 중요한가?",
+      "answer": "와이어프레임은 인터페이스의 구조, 계층 및 기능에 초점을 맞춘 도식적 표현으로, 최종 디자인 요소는 포함되지 않습니다. 이는 정보 아키텍처와 사용자 경험을 검증하는 중요한 단계입니다."
+    },
+    "creation-process": {
+      "question": "생성 과정은 어떻게 이루어지나?",
+      "answer": "프로세스는 귀하의 요구와 목표를 분석하는 것으로 시작됩니다. 그런 다음 전체 구조를 검증하기 위해 저충실도 와이어프레임을 만든 후, 상호작용이 포함된 더 자세한 버전을 만듭니다. 여러 번의 반복과 귀하의 피드백을 통해 UI 디자인의 기초가 될 와이어프레임을 최종화합니다."
+    },
+    "deliverables": {
+      "question": "어떤 결과물이 제공되나?",
+      "answer": "각 주요 화면에 대한 완전한 와이어프레임 세트, 사용자 흐름 다이어그램, 상호작용 문서 및 사용자 여정을 테스트할 수 있는 인터랙티브 프로토타입을 받게 됩니다. 모든 소스 파일도 제공됩니다."
+    },
+    "responsive-handling": {
+      "question": "반응형 디자인은 어떻게 처리하나?",
+      "answer": "모바일 우선 접근 방식을 따라 각 중요한 화면 포맷(데스크탑, 태블릿, 모바일)에 맞게 최적화된 와이어프레임을 생성합니다. 각 버전은 해당 매체에서 최상의 사용자 경험을 제공하도록 최적화됩니다."
+    },
+    "creation-timeline": {
+      "question": "와이어프레임 생성에는 얼마나 걸리나?",
+      "answer": "소요 시간은 프로젝트의 복잡성에 따라 다르지만, 일반적으로 중간 규모 프로젝트의 경우 2주에서 4주가 소요되며, 분석, 생성, 반복 및 최종화 단계가 포함됩니다. 프로젝트 시작 시 상세한 일정을 설정합니다."
+    }
+  },
+  "complementary": {
+    "ux-audit": {
+      "title": "UX 감사",
+      "description": "기존 인터페이스에 대한 심층 분석."
+    },
+    "prototyping": {
+      "title": "프로토타이핑",
+      "description": "인터랙티브 프로토타입 생성."
+    },
+    "ux-documentation": {
+      "title": "UX 문서화",
+      "description": "사용자 여정에 대한 상세 문서."
+    }
+  }
+}

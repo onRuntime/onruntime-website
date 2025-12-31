@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Yerel web uzmanlığı | Büyük Fransız şehirlerinde dijital geliştirme",
+    "description": "Fransa genelindeki yerel işletmelere bölgesel dijital pazarlardaki uzmanlığımızla destek veriyoruz. Her bölgeye uyarlanmış dijital çözümler."
+  },
+  "hero": {
+    "title": "Fransa genelinde dijital partneriniz",
+    "description": "Her Fransız bölgesel pazarının özelliklerine uyarlanmış yenilikçi dijital çözümler geliştiriyoruz. Ekibimiz, Fransa'nın neresinde olursanız olun size etkili bir şekilde destek sağlamak için yerel dijital zorlukları ustalıkla yönetiyor.",
+    "cta": "Projenizi konuşalım",
+    "secondary-cta": "Yerel uzmanlığımızı keşfedin"
+  },
+  "expertise": {
+    "title": "Her bölgeye uyarlanmış uzmanlık",
+    "description": "Ekibimiz, yerel dijital ekosistemleri analiz eder ve anlar, bu sayede bölgenizin ekonomik ve kültürel özelliklerine mükemmel şekilde uyarlanmış çözümler sunar.",
+    "local-markets": {
+      "title": "Yerel pazarları anlama",
+      "description": "Bölgesel dijital ekosistemlerin özeliklerini ve trendlerini inceliyoruz ve ustalaşıyoruz."
+    },
+    "remote-work": {
+      "title": "Etkili uzaktan çalışma",
+      "description": "Ekibimiz, Fransa'nın neresinde olursanız olun, şirketinizle aynı verimlilikle uzaktan işbirliği yapar."
+    },
+    "custom-solutions": {
+      "title": "Özel çözümler",
+      "description": "Yerel bağlamınıza ve bölgesel pazarınızdaki özelliklere adapte edilmiş kişiye özel dijital stratejiler."
+    }
+  },
+  "cities": {
+    "title": "Büyük Fransız şehirlerinde uzmanlığımız",
+    "description": "Yerel pazarlar konusundaki derin bilgilerimizi keşfedin ve bunun işinize nasıl fayda sağlayabileceğini görün.",
+    "region-label": "Bölge",
+    "discover-cta": "Uzmanlığımızı keşfedin"
+  },
+  "why-us": {
+    "title": "Yerel projeniz için bizimle neden çalışmalısınız?",
+    "description": "Bölgesel pazarlar konusundaki bilgimiz, işiniz için pek çok avantaj sunar.",
+    "local-ecosystems": {
+      "title": "Yerel ekosistem uzmanlığı",
+      "description": "Bölgenize özgü pazar dinamiklerini anlayan bir ekip, böylece mükemmel uyumlu bir dijital strateji geliştirebiliyoruz."
+    },
+    "remote-agility": {
+      "title": "Uzaktan çeviklik",
+      "description": "Video konferans, mesajlaşma ve işbirliği araçlarıyla etkili bir işbirliği sağlıyor, pürüzsüz ve verimli bir çalışma deneyimi sunuyoruz."
+    },
+    "localized-strategies": {
+      "title": "Yerelleştirilmiş stratejiler",
+      "description": "Bölgenizin kültürel ve ekonomik özelliklerini dikkate alan dijital çözümler."
+    },
+    "regional-analysis": {
+      "title": "Bölgesel pazar analizi",
+      "description": "Coğrafi sektörünüze özgü trendleri, rekabeti ve fırsatları inceleyerek optimal bir dijital strateji oluşturuyoruz."
+    }
+  },
+  "services": {
+    "title": "Fransa'nın tüm bölgeleri için hizmetlerimiz",
+    "description": "Her yerel pazarın özelliklerine uyarlanmış kapsamlı dijital çözümler.",
+    "design": {
+      "title": "UI/UX Tasarımı",
+      "description": "Yerel kullanımlara uygun arayüzler"
+    },
+    "integration": {
+      "title": "Entegrasyon",
+      "description": "Bölgesel CMS ve e-ticaret çözümleri"
+    },
+    "frontend": {
+      "title": "Ön yüz",
+      "description": "Kullanıcılarınıza uygun uygulamalar"
+    },
+    "backend": {
+      "title": "Arka yüz",
+      "description": "Sağlam ve ölçeklenebilir altyapılar"
+    },
+    "discover-all": "Tüm hizmetlerimizi keşfedin"
+  },
+  "cta": {
+    "title": "Yerel pazarınıza uyarlanmış bir dijital proje mi?",
+    "description": "Projenizi konuşmak için bizimle iletişime geçin. Yerel pazarlar konusundaki uzmanlığımız, Fransa'nın neresinde olursanız olun size etkili bir şekilde destek olabilmemizi sağlıyor.",
+    "contact": "Bizimle iletişime geçin",
+    "learn-more": "Yaklaşımımız hakkında daha fazla bilgi edinin"
+  }
+}

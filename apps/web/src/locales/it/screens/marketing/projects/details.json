@@ -1,0 +1,71 @@
+{
+  "tags": {
+    "featured": "In primo piano",
+    "open-source": "Open Source",
+    "customer": "Progetto cliente"
+  },
+  "buttons": {
+    "view-project": "Visualizza progetto",
+    "source-code": "Codice sorgente"
+  },
+  "info": {
+    "start-date": "Data di inizio",
+    "status": "Status",
+    "statuses": {
+      "active": "Attivo",
+      "completed": "Completato",
+      "archived": "Archiviato"
+    },
+    "team": "Team",
+    "members": "membri"
+  },
+  "sections": {
+    "about": "Informazioni sul progetto",
+    "metrics": "Impatto e metriche",
+    "features": "Caratteristiche principali",
+    "technologies": "Tecnologie utilizzate",
+    "gallery": "Galleria",
+    "team": "Il team",
+    "challenges": "Sfide incontrate",
+    "learnings": "Apprendimenti chiave",
+    "future": "Prospettive future"
+  },
+  "cta": {
+    "title": "Interessato a questo progetto?",
+    "description": "Scopri come possiamo aiutarti a creare un progetto simile.",
+    "button": "Parliamo del tuo progetto"
+  },
+  "tonightpass": {
+    "hero": {
+      "title": "Il sistema di bigliettazione che semplifica i tuoi eventi",
+      "subtitle": "Dalla creazione all'ingresso, gestisci tutto in 5 minuti",
+      "description": "Soluzione di bigliettazione completa per gli organizzatori di eventi. Crea i tuoi eventi, vendi i tuoi biglietti e gestisci l'accesso con strumenti professionali e supporto dedicato.",
+      "buttons": {
+        "create": "Crea il mio evento",
+        "discover": "Scopri la soluzione"
+      },
+      "stats": {
+        "setup": {
+          "value": "5min",
+          "label": "Installazione"
+        },
+        "cost": {
+          "value": "$0",
+          "label": "Installazione"
+        },
+        "support": {
+          "value": "24/7",
+          "label": "Supporto"
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronto a semplificare la tua bigliettazione?",
+      "description": "Semplifica la gestione del tuo evento con una soluzione completa e intuitiva",
+      "buttons": {
+        "start": "Inizia ora",
+        "features": "Guarda tutte le caratteristiche"
+      }
+    }
+  }
+}

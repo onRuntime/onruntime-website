@@ -1,0 +1,13 @@
+{
+  "title": "Projekt dostosowany do rynku {city}?",
+  "description": "Nasza wiedza na temat lokalnego rynku {region} pozwala nam oferować rozwiązania idealnie dopasowane do Twojego kontekstu regionalnego. Porozmawiajmy o Twoim projekcie!",
+  "features": {
+    "video": "Konsultacja online za pośrednictwem wideokonferencji",
+    "calendar": "Elastyczne godziny dostosowane do Twojego harmonogramu",
+    "expertise": "Dogłębna wiedza na temat rynku {city} i {region}"
+  },
+  "buttons": {
+    "discuss": "Omów swój projekt",
+    "discover": "Odkryj nasze usługi"
+  }
+}

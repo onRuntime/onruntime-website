@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "プロジェクトが見つかりません",
+      "description": "このプロジェクトは存在しません。"
+    },
+    "title": "ケーススタディ: {name} - デジタルプロジェクト",
+    "description": "私たちのエージェンシーがどのように{name}をデザインし、開発したのかを発見してください。{shortDescription}"
+  }
+}

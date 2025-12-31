@@ -1,0 +1,113 @@
+{
+  "hero": {
+    "title": "Stowarzyszenie onRuntime Studio",
+    "description": "Francuska organizacja non-profit poświęcona innowacji i kreatywności w rozwoju stron internetowych, rozwoju mobilnym i designie."
+  },
+  "cta": {
+    "become-member": "Zostań członkiem",
+    "our-projects": "Nasze projekty"
+  },
+  "history": {
+    "title": "Nasza historia",
+    "description": "Założone w 2020 roku, onRuntime Studio powstało z wspólnej pasji programistów i projektantów, którzy współpracują od 2015 roku. Nasza organizacja ma na celu stworzenie przestrzeni do wspólnej pracy, innowacji i dzielenia się wiedzą, z ambicją, by wkrótce stać się pełnoprawną firmą.",
+    "timeline": {
+      "2015": {
+        "title": "Pierwsze współprace",
+        "description": "Początek współpracy między Jérémy'm, Antoine'm i Lucasem, głównie na platformach gier wideo."
+      },
+      "2020": {
+        "title": "Powstanie organizacji",
+        "description": "Oficjalne założenie onRuntime Studio jako francuskiej organizacji non-profit, na radę Bryana Rechera."
+      },
+      "2021": {
+        "title": "Spotkanie w Rouen",
+        "description": "Założyciele spotykają się w Rouen, aby przyspieszyć projekty, szczególnie ich flagowy projekt: Tonight Pass."
+      },
+      "2022": {
+        "title": "Pierwsze rekrutacje",
+        "description": "Organizacja rekrutuje pierwszych pracowników, aby wspierać rozwój swoich projektów."
+      },
+      "2023-2025": {
+        "title": "Kontynuacja ekspansji",
+        "description": "Skupienie na rozwoju Tonight Pass i przygotowaniach do przyszłej transformacji w firmę."
+      }
+    }
+  },
+  "founders": {
+    "title": "Założyciele",
+    "description": "Nasza organizacja została założona przez trzech entuzjastów, którzy od wielu lat pracują razem, aby wprowadzać innowacyjne projekty w życie.",
+    "website": "Strona internetowa",
+    "linkedin": "LinkedIn"
+  },
+  "values": {
+    "title": "Nasze wartości",
+    "description": "Te fundamentalne zasady kierują naszym podejściem i wizją, wpływając na każde nasze działanie i decyzję.",
+    "items": {
+      "innovation": {
+        "title": "Innowacja",
+        "description": "Constanszy przesuwamy granice kreatywności i technologii, aby oferować innowacyjne rozwiązania."
+      },
+      "community": {
+        "title": "Społeczność",
+        "description": "Wierzymy w siłę zbiorowości i promujemy środowisko współpracy, w którym każdy może się rozwijać."
+      },
+      "passion": {
+        "title": "Pasja",
+        "description": "Każdy projekt traktujemy z pasją i zaangażowaniem, bo naprawdę kochamy to, co robimy."
+      },
+      "learning": {
+        "title": "Nauka",
+        "description": "Cenimy ciągłą naukę i dzielenie się wiedzą, by wspólnie się rozwijać."
+      }
+    }
+  },
+  "expertise": {
+    "title": "Nasza wiedza techniczna",
+    "description": "Technologie, które opanowaliśmy i które wykorzystujemy w projektach naszej organizacji."
+  },
+  "membership": {
+    "title": "Zostań członkiem",
+    "description": "Dołącz do naszej społeczności entuzjastów i weź udział w rozwoju innowacyjnych projektów.",
+    "annual": {
+      "title": "Członkostwo roczne",
+      "price": "30€",
+      "period": "/rok",
+      "description": "Roczna opłata za zostanie członkiem wolontariuszem organizacji.",
+      "benefits": {
+        "hours": "Zaangażowanie od 3 do 6 godzin tygodniowo",
+        "projects": "Udział w projektach stowarzyszenia",
+        "discord": "Dedykowana rola na Discordzie i dostęp do prywatnych kanałów",
+        "mentoring": "Personalizowane mentorskie wsparcie od naszych doświadczonych członków",
+        "resources": "Dostęp do wszystkich naszych zasobów i szkoleń",
+        "autonomy": "Autonomia przy projektach organizacji"
+      },
+      "cta": "Złóż prośbę o członkostwo"
+    }
+  },
+  "initiatives": {
+    "title": "Nasze programy i inicjatywy",
+    "description": "Poznaj inicjatywy, które obecnie rozwijamy oraz nasze nadchodzące projekty.",
+    "mentoring": {
+      "title": "Program mentorskiego wsparcia technicznego",
+      "description": "Nasz program mentorski pozwala początkującym członkom być wspieranym w rozwoju umiejętności przez doświadczonych programistów i projektantów z organizacji.",
+      "status": "Obecnie aktywne"
+    },
+    "workshops": {
+      "title": "Warsztaty techniczne współpracy",
+      "description": "Prace grupowe i sesje nauki na tematy techniczne, organizowane online oraz osobiście, gdy to możliwe.",
+      "status": "W fazie rozwoju"
+    },
+    "hackathons": {
+      "title": "Hackathony społecznościowe",
+      "description": "Organizacja 48-godzinnych wydarzeń, podczas których zespoły będą opracowywać innowacyjne rozwiązania na określone problemy.",
+      "status": "Przyszły projekt"
+    },
+    "contribute": "Chcesz przyczynić się do rozwoju tych inicjatyw?",
+    "contact": "Skontaktuj się z nami"
+  },
+  "discord": {
+    "title": "Dołącz do naszej społeczności Discord",
+    "description": "Połącz się z innymi członkami, weź udział w dyskusjach technicznych i bądź na bieżąco z najnowszymi wiadomościami z organizacji.",
+    "cta": "Dołącz do Discorda"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Markenrichtlinien",
+  "description": "Erschaffung deiner kompletten visuellen Identität",
+  "hero": {
+    "title": "Branding & Markenidentität",
+    "description": "Bringe deine Marke mit einer einzigartigen und einprägsamen visuellen Identität zum Leben. Unsere Branding-Expertise hilft dir dabei, ein Markenimage zu schaffen, das bei deinem Publikum ankommt und deine Werte widerspiegelt."
+  },
+  "features": {
+    "visual-identity": {
+      "title": "Visuelle Identität",
+      "description": "Erschaffung einer einzigartigen und einprägsamen Identität."
+    },
+    "brand-values": {
+      "title": "Markenwerte",
+      "description": "Visuelle Ausdrucksform deiner DNA und Werte."
+    },
+    "brand-guidelines": {
+      "title": "Markenrichtlinien",
+      "description": "Vollständige Dokumentation deiner Identität."
+    },
+    "design-system": {
+      "title": "Designsystem",
+      "description": "Konsistente und wiederverwendbare visuelle Elemente."
+    }
+  },
+  "benefits": {
+    "recognition": {
+      "title": "Wiedererkennung",
+      "description": "Einprägsames und einzigartiges Markenimage."
+    },
+    "consistency": {
+      "title": "Konsistenz",
+      "description": "Einheitliche visuelle Kommunikation über alle Medien."
+    },
+    "trust": {
+      "title": "Vertrauen",
+      "description": "Erhöhte Glaubwürdigkeit bei deinem Publikum."
+    },
+    "reach": {
+      "title": "Reichweite",
+      "description": "Starker visueller Eindruck über alle Kanäle."
+    }
+  },
+  "faq": {
+    "complete-identity": {
+      "question": "Was umfasst eine komplette Markenidentität?",
+      "answer": "Eine komplette Markenidentität umfasst das Logo, die Farbpalette, Typografie, grafische Elemente, Tonalität und Verwendungsvorschriften. Wir stellen ein detailliertes Dokument der Markenrichtlinien zur Verfügung, das all diese Elemente dokumentiert und deren konsistente Nutzung anleitet."
+    },
+    "creation-process": {
+      "question": "Wie funktioniert der Erstellungsprozess?",
+      "answer": "Der Prozess beginnt mit einer Entdeckungsphase, um deine Marke, Werte und Zielgruppe zu verstehen. Anschließend entwickeln wir kreative Konzepte, erstellen visuelle Elemente und iterieren basierend auf deinem Feedback. Der Prozess endet mit der Lieferung eines kompletten Dokuments der Markenrichtlinien."
+    },
+    "deliverables": {
+      "question": "Welche Ergebnisse werden bereitgestellt?",
+      "answer": "Du erhältst ein komplettes Paket, das Folgendes umfasst: Logos (verschiedene Versionen), Farbpalette, Typografie, grafische Elemente, Dokumentvorlagen, Nutzungshinweise und Quelldateien in allen notwendigen Formaten."
+    },
+    "uniqueness": {
+      "question": "Wie sorgst du für die Einzigartigkeit der Identität?",
+      "answer": "Wir führen umfassende Recherchen zu deinem Markt und der Konkurrenz durch, um eine unverwechselbare Identität zu schaffen. Wir überprüfen auch die Verfügbarkeit visueller Elemente, um Konflikte mit bestehenden Marken zu vermeiden."
+    },
+    "transition": {
+      "question": "Wie gehst du mit dem Übergang zur neuen Identität um?",
+      "answer": "Wir bieten einen schrittweisen Bereitstellungsplan, der den Übergang zur neuen Identität leitet. Dazu gehören Empfehlungen für interne und externe Kommunikation sowie ein Zeitplan zur Umsetzung."
+    }
+  },
+  "complementary": {
+    "marketing-kit": {
+      "title": "Marketing-Kit",
+      "description": "Erstellung konsistenter Marketingmaterialien."
+    },
+    "social-media": {
+      "title": "Soziale Medien",
+      "description": "Anpassung für soziale Medien."
+    },
+    "print-materials": {
+      "title": "Druckmaterialien",
+      "description": "Erstellung von Druckmaterialien."
+    }
+  }
+}

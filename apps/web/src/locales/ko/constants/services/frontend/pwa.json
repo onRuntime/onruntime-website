@@ -1,0 +1,80 @@
+{
+  "name": "진보적인 웹 앱",
+  "description": "고성능의 진보적인 웹 애플리케이션 생성하기",
+  "hero": {
+    "title": "진보적인 웹 앱 (PWA)",
+    "description": "진보적인 웹 앱으로 웹사이트를 진정한 설치 가능한 애플리케이션으로 전환하세요. 온라인과 오프라인에서 뛰어난 사용자 경험을 제공합니다."
+  },
+  "features": {
+    "native-installation": {
+      "title": "네이티브 설치",
+      "description": "스토어를 거치지 않고 브라우저에서 직접 설치 가능한 애플리케이션."
+    },
+    "offline-mode": {
+      "title": "오프라인 모드",
+      "description": "스마트 캐싱 덕분에 인터넷 연결 없이도 작동합니다."
+    },
+    "optimal-performance": {
+      "title": "최적의 성능",
+      "description": "모든 장치에서 빠른 로딩과 매끄러운 경험 제공."
+    },
+    "push-notifications": {
+      "title": "푸시 알림",
+      "description": "푸시 알림을 통해 향상된 사용자 참여 유도."
+    }
+  },
+  "benefits": {
+    "multi-platform": {
+      "title": "멀티 플랫폼",
+      "description": "모든 장치와 운영 체제를 위한 하나의 애플리케이션."
+    },
+    "always-updated": {
+      "title": "항상 업데이트됨",
+      "description": "사용자 행동 없이 자동으로 업데이트."
+    },
+    "lightweight": {
+      "title": "경량화",
+      "description": "무거운 설치 없이 즉시 접근 가능."
+    },
+    "native-performance": {
+      "title": "네이티브 성능",
+      "description": "네이티브 애플리케이션에 가까운 사용자 경험."
+    }
+  },
+  "faq": {
+    "what-is-pwa": {
+      "question": "진보적인 웹 앱이란 무엇인가요?",
+      "answer": "PWA는 네이티브 애플리케이션과 유사한 경험을 제공하는 웹 애플리케이션입니다. 설치가 가능하고, 오프라인으로 작동하며, 푸시 알림을 보낼 수 있어요. 웹의 장점(접근성, 자동 업데이트)과 네이티브의 장점(성능, 고급 기능)을 결합했습니다."
+    },
+    "vs-native": {
+      "question": "네이티브 애플리케이션에 비해 어떤 장점이 있나요?",
+      "answer": "PWA는 몇 가지 장점을 제공합니다. 스토어를 우회할 필요가 없고, 자동 업데이트가 가능하며, 더 빠르고 저렴하게 개발할 수 있어요. 또한 더 나은 참조성이 있고, 모든 플랫폼을 위한 단일 코드베이스를 사용합니다."
+    },
+    "offline": {
+      "question": "오프라인 모드는 어떻게 작동하나요?",
+      "answer": "우리는 서비스 워커를 사용하여 필수 리소스와 데이터를 캐싱합니다. 따라서 애플리케이션은 인터넷 연결 없이도 작동하며, 연결이 복원되면 자동으로 동기화됩니다."
+    },
+    "browser-compatibility": {
+      "question": "PWA는 모든 브라우저와 호환되나요?",
+      "answer": "대부분의 최신 브라우저에서 PWA가 작동합니다. 구형 브라우저의 경우, 최적의 사용자 경험을 보장하기 위해 대체 솔루션을 설정합니다."
+    },
+    "post-launch-support": {
+      "question": "출시 후 지원을 제공하나요?",
+      "answer": "네, 보안 업데이트, 성능 최적화, 기능 추가 및 기술 지원을 포함한 여러 유지보수 계획을 제공합니다."
+    }
+  },
+  "complementary": {
+    "advanced-analytics": {
+      "title": "고급 분석",
+      "description": "사용자 행동과 성능을 상세하게 추적합니다."
+    },
+    "seo-optimized": {
+      "title": "최적화된 SEO",
+      "description": "검색 엔진 및 소셜 공유를 위한 최적화."
+    },
+    "enhanced-security": {
+      "title": "강화된 보안",
+      "description": "데이터 보호 및 안전한 통신."
+    }
+  }
+}

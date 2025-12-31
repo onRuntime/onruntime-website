@@ -1,0 +1,79 @@
+{
+  "title": "Webentwicklung in Toulouse | Digitale Lösungen für Unternehmen in Okzitanien",
+  "description": "Erstelle deine Website oder mobile Anwendung in Toulouse. Maßgeschneiderte digitale Lösungen für Unternehmen in Toulouse, die auf die lokalen Herausforderungen deines Sektors abgestimmt sind.",
+  "hero": {
+    "title": "Web- und Mobile-Entwicklung in Toulouse",
+    "description": "Wir helfen Unternehmen in Toulouse und Okzitanien, sich mit maßgeschneiderten Weblösungen zu digitalisieren, die perfekt auf die spezifischen Herausforderungen des Marktes in Toulouse abgestimmt sind."
+  },
+  "intro": "Toulouse, europäische Hauptstadt der Luftfahrt und dynamische Studentenstadt, bietet ein einzigartiges wirtschaftliches Ökosystem, in dem Innovation und Tradition nebeneinander existieren. Unser digitales Fachwissen ermöglicht es den Unternehmen in Toulouse, sich in einem wettbewerbsintensiven und ständig wandelnden technologischem Umfeld hervorzuheben.",
+  "expertise": "Unser Team entwirft Websites, Anwendungen und digitale Lösungen, die perfekt auf die Unternehmen in Toulouse abgestimmt sind, egal ob es sich um Luftfahrtgiganten, innovative Startups oder traditionelle Geschäfte handelt. Wir verstehen die spezifischen Herausforderungen deines lokalen Marktes und bieten hochmoderne technologische Lösungen an.",
+  "why-choose-us": "Unser tiefgehendes Wissen über den Markt in Toulouse ermöglicht es uns, digitale Lösungen zu entwickeln, die perfekt auf die spezifischen Herausforderungen der lokalen Unternehmen abgestimmt sind. Wir verstehen die technologischen Herausforderungen der rosa Stadt und integrieren dieses Fachwissen in jedes Projekt, um leistungsstarke und zukunftsorientierte digitale Erlebnisse zu schaffen.",
+  "key-business-sectors": {
+    "aeronautics": "Luftfahrt",
+    "space": "Raumfahrt",
+    "tech": "Technologie",
+    "education": "Bildung"
+  },
+  "local-challenges": {
+    "aerospace-transformation": "Digitale Transformation von Unternehmen im Luftfahrt-Ökosystem",
+    "startup-platforms": "Bedarf an innovativen Plattformen für Toulouse French Tech Startups",
+    "elearning-development": "Entwicklung von E-Learning-Lösungen für zahlreiche Bildungseinrichtungen",
+    "local-commerce-adaptation": "Anpassung lokaler Geschäfte an den Wettbewerb durch nationale Ketten"
+  },
+  "benefits": {
+    "high-tech-solutions": "Maßgeschneiderte Lösungen angepasst an Hochtechnologiebranchen",
+    "complex-interfaces-expertise": "Schafte Expertise in der Entwicklung komplexer Schnittstellen",
+    "startup-ecosystem-knowledge": "Umfassendes Wissen über das Startup-Ökosystem in Toulouse",
+    "agile-approach": "Agile Vorgehensweise, die perfekt zu innovativen Projekten passt",
+    "personalized-support": "Personalisierte Unterstützung während deines digitalen Projekts"
+  },
+  "primary-stat": {
+    "label": "Technologiesektor"
+  },
+  "strengths": {
+    "aeronautics-solutions": {
+      "title": "Luftfahrtlösungen",
+      "description": "Anpassungen und Schnittstellen, die auf spezifische Bedürfnisse des Luftfahrtsektors abgestimmt sind."
+    },
+    "startup-platforms": {
+      "title": "Startup-Plattformen",
+      "description": "Agile und skalierbare digitale Lösungen für innovative Startups."
+    },
+    "elearning": {
+      "title": "E-Learning",
+      "description": "Bildungsplattformen für Hochschulen."
+    },
+    "local-commerce": {
+      "title": "Lokaler Handel",
+      "description": "Maßgeschneiderte Digitalisierung für Geschäfte und Handwerksbetriebe in Toulouse."
+    }
+  },
+  "focused-services": {
+    "business-applications": {
+      "name": "Business-Anwendungen",
+      "description": "Maßgeschneiderte Lösungen für die Luftfahrtindustrie und Technologieunternehmen."
+    },
+    "innovative-websites": {
+      "name": "Innovative Websites",
+      "description": "Moderne digitale Schaufenster für Startups und innovative Unternehmen."
+    },
+    "ecommerce-platforms": {
+      "name": "E-Commerce-Plattformen",
+      "description": "Umfassende Lösungen für lokale Geschäfte, die sich digitalisieren möchten."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Jahre an Erfahrung"
+    },
+    "satisfaction": {
+      "label": "Zufriedenheit",
+      "description": "Zufriedene Kunden"
+    },
+    "average-time": {
+      "label": "Durchschnittliche Zeit",
+      "description": "Wochen zur Fertigstellung"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Makiety UI",
+  "description": "Szczegółowy projekt interfejsów użytkownika",
+  "hero": {
+    "title": "Projektowanie interfejsów użytkownika",
+    "description": "Tworzymy nowoczesne, eleganckie i intuicyjne interfejsy dla Twoich aplikacji. Nasza ekspertyza w projektowaniu UI gwarantuje profesjonalne makiety, które zachwycą Twoich użytkowników."
+  },
+  "features": {
+    "modern-design": {
+      "title": "Nowoczesny design",
+      "description": "Eleganckie interfejsy zgodne z najnowszymi trendami."
+    },
+    "design-system": {
+      "title": "System projektowania",
+      "description": "Spójne i wielokrotne komponenty."
+    },
+    "responsive-design": {
+      "title": "Responsywny design",
+      "description": "Idealne dopasowanie do wszystkich ekranów."
+    },
+    "animations-micro-interactions": {
+      "title": "Animacje i mikro-interakcje",
+      "description": "Płynne i angażujące interakcje."
+    }
+  },
+  "benefits": {
+    "visual-identity": {
+      "title": "Tożsamość wizualna",
+      "description": "Projekt zgodny z Twoją marką."
+    },
+    "user-experience": {
+      "title": "Doświadczenie użytkownika",
+      "description": "Intuicyjne i przyjemne interfejsy do użycia."
+    },
+    "design-system": {
+      "title": "System projektowania",
+      "description": "Biblioteka wielokrotnego użytku komponentów."
+    },
+    "accessibility": {
+      "title": "Dostępność",
+      "description": "Interfejsy dostępne dla wszystkich użytkowników."
+    }
+  },
+  "faq": {
+    "ui-design-process": {
+      "question": "Jak działa proces projektowania UI?",
+      "answer": "Proces zaczyna się od analizy Twoich potrzeb i tożsamości marki. Następnie tworzymy wstępne wersje kluczowych ekranów, ustalamy system projektowania, a następnie iterujemy nad szczegółowymi makietami. Każdy etap zawiera Twoją opinię, aby zapewnić rezultat idealnie dopasowany do Twoich oczekiwań."
+    },
+    "tools-deliverables": {
+      "question": "Jakie narzędzia i materiały są dostarczane?",
+      "answer": "Głównie używamy Figma do projektowania UI. Otrzymujesz szczegółowe makiety wszystkich ekranów, kompletny system projektowania z jego komponentami, specyfikacje dla deweloperów i zasoby potrzebne do integracji."
+    },
+    "responsive-handling": {
+      "question": "Jak obsługujecie responsywny design?",
+      "answer": "Podążamy za podejściem mobile-first i tworzymy makiety dla każdego ważnego punktu przerwania (mobilny, tablet, komputer stacjonarny). Każdy interfejs jest zoptymalizowany, aby zapewnić jak najlepsze doświadczenia na danym medium."
+    },
+    "design-consistency": {
+      "question": "Jak zapewniacie spójność projektowania?",
+      "answer": "Tworzymy kompletny system projektowania obejmujący bibliotekę komponentów, zasady typograficzne, paletę kolorów i zasady projektowania. Ten system zapewnia spójność w całym interfejsie."
+    },
+    "developer-handoff": {
+      "question": "Jak ułatwiacie pracę deweloperów?",
+      "answer": "Dostarczamy szczegółowe specyfikacje dla każdego komponentu, w tym pomiary, style, stany i interakcje. Używamy również narzędzi takich jak Zeplin lub eksporty Figma, aby ułatwić integrację."
+    }
+  },
+  "complementary": {
+    "design-system": {
+      "title": "System projektowania",
+      "description": "Tworzenie biblioteki komponentów."
+    },
+    "prototyping": {
+      "title": "Prototypowanie",
+      "description": "Tworzenie interaktywnych prototypów."
+    },
+    "development": {
+      "title": "Rozwój",
+      "description": "Integracja Twoich makiet w kod."
+    }
+  }
+}

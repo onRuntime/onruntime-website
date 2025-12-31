@@ -1,0 +1,13 @@
+{
+  "title": "Ein Projekt, das auf den Markt in {city} zugeschnitten ist?",
+  "description": "Unsere Expertise im lokalen Markt von {region} ermöglicht es uns, dir Lösungen anzubieten, die perfekt auf deinen regionalen Kontext abgestimmt sind. Lass uns über dein Projekt sprechen!",
+  "features": {
+    "video": "Online-Beratung über Videokonferenz",
+    "calendar": "Flexible Zeiten, die sich nach deinem Zeitplan richten",
+    "expertise": "Umfassende Expertise auf dem Markt in {city} und {region}"
+  },
+  "buttons": {
+    "discuss": "Sprich über dein Projekt",
+    "discover": "Entdecke unsere Dienstleistungen"
+  }
+}

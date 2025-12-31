@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Competenza web locale | Sviluppo digitale nelle principali città francesi",
+    "description": "Supportiamo le imprese locali in tutta la Francia con la nostra competenza nei mercati digitali regionali. Soluzioni digitali adattate a ciascuna regione."
+  },
+  "hero": {
+    "title": "Il tuo partner digitale in tutta la Francia",
+    "description": "Sviluppiamo soluzioni digitali innovative adattate alle specificità di ogni mercato regionale francese. Il nostro team domina le sfide digitali locali per supportarti in modo efficace, ovunque tu sia in Francia.",
+    "cta": "Parliamo del tuo progetto",
+    "secondary-cta": "Scopri la nostra expertise locale"
+  },
+  "expertise": {
+    "title": "Competenza adattata a ciascun territorio",
+    "description": "Il nostro team analizza e comprende gli ecosistemi digitali locali per offrirti soluzioni perfettamente adattate alle specificità economiche e culturali della tua regione.",
+    "local-markets": {
+      "title": "Comprendere i mercati locali",
+      "description": "Studiamo e dominiamo le specificità e le tendenze degli ecosistemi digitali regionali."
+    },
+    "remote-work": {
+      "title": "Lavoro remoto efficace",
+      "description": "Il nostro team collabora da remoto con la tua azienda, ovunque tu sia in Francia, con la stessa efficienza di persona."
+    },
+    "custom-solutions": {
+      "title": "Soluzioni personalizzate",
+      "description": "Strategie digitali su misura che si adattano al tuo contesto locale e alle peculiarità del tuo mercato regionale."
+    }
+  },
+  "cities": {
+    "title": "La nostra expertise nelle principali città francesi",
+    "description": "Scopri la nostra conoscenza approfondita dei mercati locali e come può beneficiare la tua azienda.",
+    "region-label": "Regione",
+    "discover-cta": "Scopri la nostra expertise"
+  },
+  "why-us": {
+    "title": "Perché lavorare con noi per il tuo progetto locale?",
+    "description": "La nostra conoscenza dei mercati regionali offre molti vantaggi per la tua azienda.",
+    "local-ecosystems": {
+      "title": "Competenza negli ecosistemi locali",
+      "description": "Un team che comprende le dinamiche di mercato specifiche della tua regione, consentendo una strategia digitale perfettamente adattata."
+    },
+    "remote-agility": {
+      "title": "Agilità remota",
+      "description": "Collaborazione efficace tramite videoconferenze, messaggistica e strumenti collaborativi per un'esperienza di lavoro fluida e produttiva."
+    },
+    "localized-strategies": {
+      "title": "Strategie localizzate",
+      "description": "Soluzioni digitali che tengono conto delle specificità culturali ed economiche del tuo territorio."
+    },
+    "regional-analysis": {
+      "title": "Analisi del mercato regionale",
+      "description": "Studio delle tendenze, della concorrenza e delle opportunità specifiche del tuo settore geografico per una strategia digitale ottimale."
+    }
+  },
+  "services": {
+    "title": "I nostri servizi per tutte le regioni della Francia",
+    "description": "Soluzioni digitali complete adattate alle specificità di ogni mercato locale.",
+    "design": {
+      "title": "UI/UX Design",
+      "description": "Interfacce adattate agli usi locali"
+    },
+    "integration": {
+      "title": "Integrazione",
+      "description": "Soluzioni CMS e e-commerce regionali"
+    },
+    "frontend": {
+      "title": "Front-end",
+      "description": "Applicazioni adattate ai tuoi utenti"
+    },
+    "backend": {
+      "title": "Back-end",
+      "description": "Infrastrutture robuste e scalabili"
+    },
+    "discover-all": "Scopri tutti i nostri servizi"
+  },
+  "cta": {
+    "title": "Un progetto digitale adattato al tuo mercato locale?",
+    "description": "Contattaci per discutere il tuo progetto. La nostra expertise nei mercati locali ci consente di supportarti in modo efficace, ovunque tu sia in Francia.",
+    "contact": "Contattaci",
+    "learn-more": "Scopri di più sul nostro approccio"
+  }
+}

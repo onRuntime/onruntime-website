@@ -1,0 +1,68 @@
+{
+  "short-description": "En sevdiğin etkinlikleri keşfet ve rezerve et.",
+  "description": "Tonight Pass, tercihlerinize dayalı kişiselleştirilmiş bir öneri sistemi aracılığıyla etkinlik keşfini ve rezervasyonunu basit hale getiren yenilikçi bir platformdur.",
+  "long-description": "Tonight Pass, insanların etkinlik keşfetme ve katılma şekillerini devrim niteliğinde değiştiriyor. Platformumuz, kişiselleştirilmiş öneriler ve basit biletleme sunmak için teknoloji ve kullanıcı deneyimini birleştiriyor.\n\nPlatform, etkinlik organizatörleri ve katılımcılar arasında bir bağlantı kurarak, rezervasyon yönetimi, akıllı öneriler ve veri analitiği için eksiksiz bir çözüm sunuyor. Uygulama, etkinlik keşfetme deneyimini optimize etmek için tasarlandı ve organizatörler için yönetimi kolaylaştırıyor.",
+  "features": {
+    "ticketing": {
+      "title": "Basit biletleme",
+      "description": "Tüm etkinlikler için sadece birkaç tıklama ile biletlerini rezerve et."
+    },
+    "recommendations": {
+      "title": "Kişiselleştirilmiş öneriler",
+      "description": "Kendi zevklerine uygun etkinlikleri keşfet."
+    },
+    "e-tickets": {
+      "title": "Güvenli e-biletler",
+      "description": "Güvenli dijital biletlerle etkinliklere eriş."
+    }
+  },
+  "technologies": {
+    "react": {
+      "description": "Web ve mobil uygulamalar"
+    },
+    "nestjs": {
+      "description": "Backend API"
+    },
+    "mongodb": {
+      "description": "Ana veritabanı"
+    }
+  },
+  "metrics": {
+    "time-saved": {
+      "value": "45dak",
+      "label": "Zaman tasarrufu",
+      "description": "Etkinlik araması başına ortalama."
+    },
+    "coverage": {
+      "value": "%100",
+      "label": "Kapsam",
+      "description": "Fransa genelinde mevcut."
+    },
+    "ease": {
+      "value": "1 tıklama",
+      "label": "Kolaylık",
+      "description": "Herhangi bir etkinliği rezerve etmek için."
+    }
+  },
+  "screenshots": {},
+  "challenges": {
+    "ticketing-experience": "Akıcı ve sezgisel bir biletleme deneyimi geliştirmek.",
+    "recommendation-system": "Kişiselleştirilmiş bir öneri sistemi oluşturmak.",
+    "scalable-infrastructure": "Ölçeklenebilir bir altyapı kurmak.",
+    "traffic-peaks": "Bilet satışları sırasında trafik zirvelerini yönetmek."
+  },
+  "learnings": {
+    "booking-simplicity": "Rezervasyon sürecinde sadeliğin önemi.",
+    "event-type-interface": "Farklı etkinlik türlerine uyumlu bir arayüze ihtiyaç.",
+    "database-management": "Etkinlik veritabanının verimli yönetimi.",
+    "speed-reliability-balance": "Hız ve hizmet güvenilirliği arasında denge."
+  },
+  "future-plans": {
+    "venue-kiosks": "Mekanlarda kioskları dağıtmak.",
+    "recruitment-platform": "Bir etkinlik işe alım platformu başlatmak.",
+    "venue-rental": "Mekan kiralama hizmeti kurmak.",
+    "supplier-network": "Etkinlik tedarikçileri ağı oluşturmak.",
+    "organizer-tools": "Organizatörler için ileri düzey araçlar geliştirmek.",
+    "recommendation-improvement": "Öneri sistemini iyileştirmek."
+  }
+}

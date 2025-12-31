@@ -1,0 +1,79 @@
+{
+  "title": "Webontwikkeling in Straatsburg | Digitale oplossingen voor Alsatiaanse bedrijven",
+  "description": "Maak je website of mobiele applicatie in Straatsburg. Aangepaste digitale oplossingen voor Alsatiaanse bedrijven, afgestemd op lokale en grensoverschrijdende uitdagingen.",
+  "hero": {
+    "title": "Web & Mobiele Ontwikkeling in Straatsburg",
+    "description": "We helpen bedrijven in Straatsburg en de Grand Est regio om te digitaliseren met op maat gemaakte weboplossingen, perfect aangepast aan de specifieke uitdagingen van de Alsatiaanse en Europese markt."
+  },
+  "intro": "Als Europese hoofdstad en grensstad met een rijke erfgoed, combineert Straatsburg Alsatiaanse tradities en internationale openheid. De status als zetel van Europese instellingen, de dynamische industrie en de strategische ligging tussen Frankrijk en Duitsland maken het een uniek gebied waar digitaal een essentiële brugfunctie vervult.",
+  "expertise": "Ons team ontwerpt websites, applicaties en digitale oplossingen die perfect zijn aangepast aan bedrijven in Straatsburg, of het nu internationale organisaties, industriële bedrijven of lokale erfgoedspelers zijn. We begrijpen de specifieke uitdagingen van jouw regionale en grensoverschrijdende markt en bieden meertalige en cultureel aangepaste digitale oplossingen.",
+  "why-choose-us": "Onze diepgaande kennis van de Straatsburgse markt stelt ons in staat om digitale oplossingen te ontwikkelen die perfect zijn afgestemd op de specifieke uitdagingen van lokale bedrijven. We begrijpen de eisen van de Europese context en Alsatiaanse culturele bijzonderheden en integreren deze dubbele dimensie in elk project om relevante en hoogrenderende digitale ervaringen te creëren.",
+  "key-business-sectors": {
+    "european-institutions": "Europese Instellingen",
+    "cross-border-commerce": "Grensoverschrijdende Handel",
+    "industry": "Industrie",
+    "culture-heritage": "Cultuur & Erfgoed"
+  },
+  "local-challenges": {
+    "european-institutions-needs": "Specifieke behoeften van Europese instellingen en internationale organisaties",
+    "cross-border-development": "Ontwikkeling van grensoverschrijdende handel met Duitsland en Zwitserland",
+    "traditional-industries-transformation": "Digitale transformatie van traditionele Alsatiaanse industrieën",
+    "heritage-digital-showcase": "Digitale showcase van het rijke culturele en historische erfgoed van de regio"
+  },
+  "benefits": {
+    "multilingual-solutions": "Meertalige oplossingen aangepast aan de internationale context van Straatsburg",
+    "european-standards-expertise": "Sharp expertise in gebruikersinterfaces die voldoen aan Europese normen",
+    "cross-border-knowledge": "Diepgaande kennis van grensoverschrijdende markten en hun specificiteiten",
+    "innovative-traditional-approach": "Een aanpak die zowel innovatief als respectvol is voor Alsatiaanse tradities",
+    "personalized-support": "Persoonlijke ondersteuning gedurende je digitale project"
+  },
+  "primary-stat": {
+    "label": "internationale context"
+  },
+  "strengths": {
+    "european-solutions": {
+      "title": "Europese Oplossingen",
+      "description": "Meertalige platforms voor instellingen en internationale organisaties."
+    },
+    "cross-border-commerce": {
+      "title": "Grensoverschrijdende Handel",
+      "description": "E-commerce oplossingen aangepast aan de Franse, Duitse en Zwitserse markten."
+    },
+    "industry-40": {
+      "title": "Industrie 4.0",
+      "description": "Procesdigitalisering voor de traditionele Alsatiaanse industrie."
+    },
+    "digital-heritage": {
+      "title": "Digitiaal Erfgoed",
+      "description": "Digitale ervaringen om cultureel en historisch erfgoed te tonen."
+    }
+  },
+  "focused-services": {
+    "institutional-websites": {
+      "name": "Institutionele Websites",
+      "description": "Meertalige platforms die voldoen aan Europese toegankelijkheidsnormen."
+    },
+    "cross-border-ecommerce": {
+      "name": "Grensoverschrijdende E-commerce",
+      "description": "Commerciële oplossingen afgestemd op de specificiteiten van de Duitse en Franse markt."
+    },
+    "industrial-applications": {
+      "name": "Industriële Toepassingen",
+      "description": "Op maat gemaakte digitale tools om industriële processen te moderniseren."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Jarenlange ervaring"
+    },
+    "satisfaction": {
+      "label": "Tevredenheid",
+      "description": "Tevreden klanten"
+    },
+    "average-time": {
+      "label": "Gemiddelde Tijd",
+      "description": "Weeken voor voltooiing"
+    }
+  }
+}

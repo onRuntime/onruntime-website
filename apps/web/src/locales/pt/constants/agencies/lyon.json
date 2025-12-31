@@ -1,0 +1,79 @@
+{
+  "title": "Agência Web em Lyon | Soluções Digitais Personalizadas",
+  "description": "Desenvolvimento web, design móvel e UI/UX em Lyon. Nossa expertise digital adaptada para negócios da região Rhône-Alpes para impulsionar sua presença online.",
+  "hero": {
+    "title": "Desenvolvimento Web e Móvel em Lyon",
+    "description": "Transforme seu negócio em Lyon com soluções digitais inovadoras perfeitamente adaptadas ao dinamismo econômico da região Auvergne-Rhône-Alpes."
+  },
+  "intro": "No coração do dinamismo de Lyon, nossa expertise digital apoia empresas da região na sua transformação digital. Entre tradição industrial, excelência biomédica e influência gastronômica, Lyon apresenta um tecido econômico rico e diversificado cujos desafios entendemos completamente.",
+  "expertise": "Criamos soluções web, móveis e de e-commerce adaptadas às especificidades do mercado de Lyon e Rhône-Alpes. Nossa equipe domina os desafios digitais específicos dos setores de excelência da região, de biotecnologia a gastronomia, passando pela manufatura.",
+  "why-choose-us": "Nosso conhecimento do mercado de Lyon nos permite desenvolver soluções digitais perfeitamente alinhadas com as exigências e particularidades dos negócios locais. Entendemos os padrões de excelência da região e oferecemos suporte digital que valoriza a identidade e o saber-fazer de Lyon.",
+  "key-business-sectors": {
+    "biotech": "Biotecnologia",
+    "pharma": "Indústria Farmacêutica",
+    "gastronomy": "Gastronomia",
+    "finance": "Finanças"
+  },
+  "local-challenges": {
+    "industry-digitalization": "Digitalização de PMEs industriais e médias empresas enfrentando os desafios da Indústria 4.0",
+    "gastronomy-visibility": "Desenvolvimento da visibilidade digital para os players da gastronomia em Lyon",
+    "local-ecommerce": "Soluções de e-commerce adaptadas ao comércio local e artesãos da região",
+    "biotech-applications": "Aplicativos empresariais para os setores farmacêutico e biotech em expansão"
+  },
+  "benefits": {
+    "sector-expertise": "Expertise setorial nos campos de excelência de Lyon (biotecnologia, farmacêutica, gastronomia)",
+    "industrial-understanding": "Compreensão dos desafios da digitalização na bacia industrial da Rhône-Alpes",
+    "sme-solutions": "Soluções adaptadas para PMEs e médias empresas na transformação digital",
+    "lyon-ui-design": "Designs UI/UX que refletem a identidade visual e os padrões de qualidade de Lyon",
+    "local-ecosystem-knowledge": "Conhecimento profundo do ecossistema digital local"
+  },
+  "primary-stat": {
+    "label": "setor de inovação"
+  },
+  "strengths": {
+    "biotech-pharma": {
+      "title": "Soluções Biotech & Pharma",
+      "description": "Aplicações especializadas para o cluster de saúde de Lyon."
+    },
+    "gastronomy-ecommerce": {
+      "title": "E-commerce de Gastronomia",
+      "description": "Valorização digital dos produtos locais da Rhône-Alpes."
+    },
+    "industrial-applications": {
+      "title": "Aplicações Industriais",
+      "description": "Ferramentas digitais para a Indústria 4.0 e produção."
+    },
+    "business-interfaces": {
+      "title": "Interfaces de Negócios",
+      "description": "Design UI/UX adaptado às necessidades específicas de Lyon."
+    }
+  },
+  "focused-services": {
+    "biotech-applications": {
+      "name": "Aplicativos Empresariais Biotech",
+      "description": "Soluções digitais para laboratórios e empresas farmacêuticas em Lyon."
+    },
+    "gastronomy-ecommerce": {
+      "name": "E-commerce de Gastronomia",
+      "description": "Plataformas de vendas online para destacar a excelência culinária de Lyon."
+    },
+    "industrial-digitalization": {
+      "name": "Digitalização Industrial",
+      "description": "Ferramentas de controle e soluções IoT para a indústria da Rhône-Alpes."
+    }
+  },
+  "stats": {
+    "biotech-projects": {
+      "label": "Projetos Biotech",
+      "description": "Aplicações especializadas"
+    },
+    "satisfaction": {
+      "label": "Satisfação",
+      "description": "Clientes satisfeitos"
+    },
+    "sme-supported": {
+      "label": "PMEs Apoidas",
+      "description": "Negócios de Lyon"
+    }
+  }
+}

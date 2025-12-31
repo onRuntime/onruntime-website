@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "cta": "Bespreek je project"
+  },
+  "expertise": {
+    "title": "Diepe expertise in {service}",
+    "description": "We combineren creativiteit en technische expertise om {service} oplossingen te leveren die perfect aansluiten bij jouw doelen. Onze gestructureerde aanpak en ervaring stellen ons in staat om duurzame en schaalbare oplossingen te creëren."
+  },
+  "services": {
+    "badge": "Onze diensten",
+    "title": "Op maat gemaakte {service} oplossingen",
+    "description": "Ontdek ons complete aanbod van {service} diensten, ontworpen om aan al jouw behoeften te voldoen en je te ondersteunen bij het realiseren van je projecten.",
+    "learnMore": "Leer meer"
+  },
+  "benefits": {
+    "badge": "Voordelen",
+    "title": "Waarom kiezen voor onze {service} diensten?"
+  },
+  "process": {
+    "badge": "Onze werkwijze",
+    "title": "Hoe wij werken",
+    "description": "Een geïntegreerde aanpak die onze verschillende expertisegebieden combineert voor optimale resultaten."
+  },
+  "cta": {
+    "title": "Klaar om je project tot leven te brengen?",
+    "description": "Neem contact met ons op om je behoeften te bespreken en een gepersonaliseerde offerte te krijgen.",
+    "button": "Begin nu"
+  }
+}

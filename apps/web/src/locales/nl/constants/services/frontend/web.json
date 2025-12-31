@@ -1,0 +1,80 @@
+{
+  "name": "Webtoepassingen",
+  "description": "Moderne webtoepassingen ontwikkelen met React en Next.js",
+  "hero": {
+    "title": "Frontend webontwikkeling",
+    "description": "Creëer moderne, responsieve en hoogpresterende webtoepassingen met de nieuwste frontendtechnologieën. Onze expertise garandeert een uitzonderlijke gebruikerservaring."
+  },
+  "features": {
+    "react-nextjs": {
+      "title": "React & Next.js",
+      "description": "Ontwikkeling met moderne frameworks voor performante en schaalbare toepassingen."
+    },
+    "responsive-design": {
+      "title": "Responsief ontwerp",
+      "description": "Aangepaste interfaces voor een optimale ervaring op alle apparaten."
+    },
+    "web-performance": {
+      "title": "Webprestaties",
+      "description": "Geavanceerde optimalisatie voor snelle laadtijden en een soepele ervaring."
+    },
+    "modern-ui-ux": {
+      "title": "Moderne UI/UX",
+      "description": "Elegante en intuïtieve gebruikersinterfaces volgens de laatste trends."
+    }
+  },
+  "benefits": {
+    "reactive-apps": {
+      "title": "Reactieve toepassingen",
+      "description": "Dynamische en reactieve interfaces voor een soepele gebruikerservaring."
+    },
+    "mobile-first": {
+      "title": "Mobiel eerst",
+      "description": "Ontwerp gericht op mobiel eerst en daarna aangepast aan grotere schermen."
+    },
+    "optimal-performance": {
+      "title": "Optimale prestaties",
+      "description": "Geavanceerde optimalisatie voor minimale laadtijden."
+    },
+    "seo-optimized": {
+      "title": "SEO geoptimaliseerd",
+      "description": "Structuur geoptimaliseerd voor uitstekende natuurlijke indexering."
+    }
+  },
+  "faq": {
+    "technologies": {
+      "question": "Welke technologieën gebruik je voor frontend ontwikkeling?",
+      "answer": "We gebruiken voornamelijk React met Next.js en TypeScript voor robuustere code. We integreren ook moderne tools zoals Tailwind CSS voor styling en verschillende bibliotheken voor animaties en interacties."
+    },
+    "performance": {
+      "question": "Hoe beheer je de prestaties van webtoepassingen?",
+      "answer": "We passen optimalisatie best practices toe: code splitting, lazy loading, afbeeldingsoptimalisatie, slimme caching en we gebruiken prestatiemetingen om optimale laadtijden te garanderen."
+    },
+    "seo": {
+      "question": "Bied je SEO-oplossingen aan?",
+      "answer": "Ja, we ontwikkelen toepassingen met SEO in gedachten: server-side rendering (SSR), statische pagina-generatie, dynamische metadata, semantische structuur en zoekmachineoptimalisatie."
+    },
+    "browser-compatibility": {
+      "question": "Hoe zorg je voor compatibiliteit met verschillende browsers?",
+      "answer": "We testen op belangrijke browsers en versies, gebruiken moderne transpilatietools en zetten geschikte fallback-voorzieningen op om een consistente ervaring te garanderen."
+    },
+    "maintenance": {
+      "question": "Bied je onderhoud voor ontwikkelde toepassingen aan?",
+      "answer": "Ja, we bieden verschillende onderhoudsplannen aan, inclusief beveiligingsupdates, continue prestatieoptimalisatie en functie-evolutie."
+    }
+  },
+  "complementary": {
+    "ui-ux-design": {
+      "title": "UI/UX ontwerp",
+      "description": "Ontwerp van moderne en ergonomische gebruikersinterfaces."
+    },
+    "api-integration": {
+      "title": "API-integratie",
+      "description": "Verbinding met je bestaande backendsystemen en diensten."
+    },
+    "internationalization": {
+      "title": "Internationalisatie",
+      "description": "Je toepassing aanpassen voor een internationaal publiek."
+    }
+  }
+}

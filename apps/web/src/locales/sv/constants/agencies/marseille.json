@@ -1,0 +1,79 @@
+{
+  "title": "Webbutveckling i Marseille | Digitala lösningar för Provence-företag",
+  "description": "Skapa din webbplats eller mobilapplikation i Marseille. Anpassade digitala lösningar för Provence-företag, skräddarsydda för de lokala utmaningarna i din bransch.",
+  "hero": {
+    "title": "Webb- och mobilutveckling i Marseille",
+    "description": "Vi hjälper företag i Marseille och PACA-regionen att digitalisera med skräddarsydda webbslösningar, perfekt anpassade till de specifika utmaningarna på Medelhavsmarknaden."
+  },
+  "intro": "Mellan hav och kullar är Marseille en dynamisk ekonomisk knutpunkt där tradition och innovation möts. Vår digitala expertis gör att företag i Marseille kan sticka ut på en konkurrensutsatt och ständigt föränderlig Medelhavsmaknad.",
+  "expertise": "Vårt team designar webbplatser, applikationer och e-handelslösningar som är perfekt anpassade för företag i Marseille. Vi förstår utmaningarna på din lokala marknad och erbjuder digitala lösningar som stärker din provençalska identitet samtidigt som de når en internationell kundkrets.",
+  "why-choose-us": "Vår djupa kunskap om den provençalska marknaden gör att vi kan utveckla digitala lösningar som är perfekt anpassade till de specifika utmaningarna för lokala företag. Vi förstår den kulturella och ekonomiska rikedom som Marseille har och integrerar den i varje projekt för att skapa autentiska och högpresterande digitala upplevelser.",
+  "key-business-sectors": {
+    "tourism": "Turism",
+    "maritime": "Maritim",
+    "local-commerce": "Lokal handel",
+    "restaurant": "Restaurang"
+  },
+  "local-challenges": {
+    "tourism-competition": "Hård konkurrens inom Medelhavsturismen som kräver en utmärkande digital närvaro",
+    "maritime-solutions": "Behov av digitala lösningar anpassade till maritim och hamnhandel",
+    "local-commerce-digitalization": "Digitalisering av lokala butiker som står emot stora kedjor",
+    "local-ecommerce": "Behov av e-handelslösningar som är anpassade för att visa hantverk och lokala produkter"
+  },
+  "benefits": {
+    "custom-solutions": "Skräddarsydda lösningar anpassade efter de specifika behoven hos Provence-företag",
+    "tourism-maritime-expertise": "Skarp expertis inom turism- och maritimsektorn",
+    "international-ui": "Användargränssnitt optimerat för internationella kunder",
+    "mediterranean-knowledge": "Djup kunskap om ekonomiska utmaningar i Medelhavet",
+    "personalized-support": "Personligt stöd genom hela ditt digitala projekt"
+  },
+  "primary-stat": {
+    "label": "turismsektorn"
+  },
+  "strengths": {
+    "tourism-experience": {
+      "title": "Turism erfarenhet",
+      "description": "Sajter och applikationer optimerade för den Medelhavsturismen."
+    },
+    "local-ecommerce": {
+      "title": "Lokal e-handel",
+      "description": "Online försäljningslösningar för provençalska hantverkare och handlare."
+    },
+    "maritime-sector": {
+      "title": "Maritim sektor",
+      "description": "Digitalisering anpassad till hamn- och nautiska aktiviteter."
+    },
+    "mediterranean-design": {
+      "title": "Medelhavdesign",
+      "description": "Moderna gränssnitt som återspeglar Medelhavets visuella identitet."
+    }
+  },
+  "focused-services": {
+    "tourism-websites": {
+      "name": "Turismsajter",
+      "description": "Flerspråkiga digitala skyltfönster för hotell, restauranger och turistaktiviteter."
+    },
+    "provencal-ecommerce": {
+      "name": "Provençalsk e-handel",
+      "description": "Webbbutiker anpassade för lokala producenter och hantverkare."
+    },
+    "mobile-applications": {
+      "name": "Mobilapplikationer",
+      "description": "Mobila lösningar för att berika turism- och handelsupplevelsen."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertis",
+      "description": "Års erfarenhet"
+    },
+    "satisfaction": {
+      "label": "Nöjdhet",
+      "description": "Nöjda kunder"
+    },
+    "average-time": {
+      "label": "Genomsnittlig tid",
+      "description": "Veckor till färdigställande"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Un team di creativi appassionati per brillare.",
+  "description": "Composto da talenti vari, dai developer ai designer appassionati. Ognuno porta il proprio tocco unico ai nostri progetti. Insieme, formiamo un collettivo dove l'innovazione è al centro di tutto ciò che facciamo.",
+  "stats": {
+    "experience": "Anni di esperienza",
+    "projects": "Progetti completati",
+    "clients": "Clienti soddisfatti"
+  },
+  "cta": "Scopri di più",
+  "card": {
+    "details": "Dettagli"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Webbutveckling i Nantes | Digitala lösningar för företag i Loire Valley",
+  "description": "Skapa din hemsida eller mobilapplikation i Nantes. Skräddarsydda digitala lösningar för företag i Nantes, anpassade till de lokala utmaningarna inom din sektor.",
+  "hero": {
+    "title": "Web & mobilutveckling i Nantes",
+    "description": "Vi hjälper företag i Nantes och Pays de la Loire att digitalisera sig med skräddarsydda webblösningar, perfekt anpassade till de specifika utmaningarna på Loire Valley-marknaden."
+  },
+  "intro": "Nantes är en historisk huvudstad i Bretagne och en innovativ storstad, känd för sin ekonomiska dynamik och livskvalitet. Dess blomstrande digitala ekosystem, kreativa industrier och engagemang för ekologisk övergång gör det till ett unikt område där digital innovation spelar en central roll.",
+  "expertise": "Vårt team designar webbplatser, applikationer och digitala lösningar som är perfekt anpassade till företag i Nantes, oavsett om de är innovativa startups, aktörer inom den ansvariga ekonomin eller traditionella företag i transformation. Vi förstår de specifika egenskaperna på den lokala marknaden och erbjuder digitala lösningar som stämmer överens med värdena av innovation och hållbarhet som är specifika för Nantes.",
+  "why-choose-us": "Vår djupa kunskap om Nantes marknad gör att vi kan utveckla digitala lösningar som är perfekt anpassade till de specifika utmaningarna hos lokala företag. Vi förstår den innovationsanda och det engagemang för en mer ansvarig ekonomi som kännetecknar Nantes och integrerar dessa värden i varje digitalt projekt vi levererar.",
+  "key-business-sectors": {
+    "tech-digital": "Tech & Digital",
+    "ecological-transition": "Ekologisk övergång",
+    "creative-industries": "Kreativa industrier",
+    "agrifood": "Agroindustri"
+  },
+  "local-challenges": {
+    "digital-ecosystem-competition": "Stark konkurrens i det växande digitala ekosystemet i Nantes",
+    "startup-scaleup-needs": "Specifika behov hos lokala franska tech-startups och scale-ups",
+    "ecological-transition-digitalization": "Digitalisering av aktörer inom ekologisk och energimässig övergång",
+    "traditional-industries-transformation": "Digital transformation av traditionella och agroindustriella industrier i regionen"
+  },
+  "benefits": {
+    "nantes-ecosystem-solutions": "Skräddarsydda lösningar anpassade till det digitala ekosystemet i Nantes",
+    "innovative-eco-technologies": "Skarp expertis inom innovativa och miljöansvarsfulla webteknologier",
+    "agile-approach": "Agil metodik som passar perfekt för startups och innovativa företag",
+    "digital-transition-knowledge": "Djup kunskap om digitala övergångsutmaningar i Loire Valley",
+    "personalized-support": "Personligt stöd under hela ditt digitala projekt"
+  },
+  "primary-stat": {
+    "label": "Nantes digitalt"
+  },
+  "strengths": {
+    "innovative-tech": {
+      "title": "Innovativ teknik",
+      "description": "Moderna digitala lösningar för startups och scale-ups i Nantes."
+    },
+    "eco-design": {
+      "title": "Ekodesign",
+      "description": "Sidor och applikationer med kontrollerad miljöpåverkan."
+    },
+    "maritime-industry": {
+      "title": "Maritim industri",
+      "description": "Digitalisering anpassad till hamn- och flodaktiviteter."
+    },
+    "renewable-energy": {
+      "title": "Förnybar energi",
+      "description": "Digitala lösningar för aktörer inom energiovergång."
+    }
+  },
+  "focused-services": {
+    "web-applications": {
+      "name": "Webbapplikationer",
+      "description": "Högpresterande och skalbara webbapplikationer för startups och innovativa företag."
+    },
+    "eco-designed-websites": {
+      "name": "Ekodesignade webbplatser",
+      "description": "Optimerade och hållbara webbplatser för aktörer inom den ansvariga ekonomin."
+    },
+    "business-platforms": {
+      "name": "Affärsplattformar",
+      "description": "Skräddarsydda lösningar för traditionella industrier i transformation."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertis",
+      "description": "År av erfarenhet"
+    },
+    "satisfaction": {
+      "label": "Tillfredsställelse",
+      "description": "Nöjda kunder"
+    },
+    "average-time": {
+      "label": "Genomsnittlig tid",
+      "description": "Veckor till färdigställande"
+    }
+  }
+}

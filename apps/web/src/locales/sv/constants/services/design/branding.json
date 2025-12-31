@@ -1,0 +1,80 @@
+{
+  "name": "Varumärkesriktlinjer",
+  "description": "Skapa din kompletta visuella identitet",
+  "hero": {
+    "title": "Varumärkesbyggande & Varumärkesidentitet",
+    "description": "Ge liv åt ditt varumärke med en distinkt och minnesvärd visuell identitet. Vår expertis inom varumärkesbyggande hjälper dig att skapa en varumärkesbild som resonerar med din publik och återspeglar dina värderingar."
+  },
+  "features": {
+    "visual-identity": {
+      "title": "Visuell identitet",
+      "description": "Skapa en unik och minnesvärd identitet."
+    },
+    "brand-values": {
+      "title": "Varumärkesvärden",
+      "description": "Visuell uttryck för din DNA och värden."
+    },
+    "brand-guidelines": {
+      "title": "Varumärkesriktlinjer",
+      "description": "Komplett dokumentation av din identitet."
+    },
+    "design-system": {
+      "title": "Designsystem",
+      "description": "Konsistenta och återanvändbara visuella element."
+    }
+  },
+  "benefits": {
+    "recognition": {
+      "title": "Kännedom",
+      "description": "Minnesvärd och distinkt varumärkesbild."
+    },
+    "consistency": {
+      "title": "Konsistens",
+      "description": "Enhetlig visuell kommunikation i alla medier."
+    },
+    "trust": {
+      "title": "Tillit",
+      "description": "Förbättrad trovärdighet med din publik."
+    },
+    "reach": {
+      "title": "Räckvidd",
+      "description": "Stark visuell påverkan över alla kanaler."
+    }
+  },
+  "faq": {
+    "complete-identity": {
+      "question": "Vad ingår i en komplett varumärkesidentitet?",
+      "answer": "En komplett varumärkesidentitet inkluderar logotyp, färgpalett, typografi, grafiska element, tonalitet och användningsregler. Vi tillhandahåller ett detaljerat dokument för varumärkesriktlinjer som dokumenterar alla dessa element och vägleder deras konsekventa användning."
+    },
+    "creation-process": {
+      "question": "Hur fungerar skapandeprocessen?",
+      "answer": "Processen börjar med en upptäcktsfas för att förstå ditt varumärke, värden och publik. Vi utvecklar sedan kreativa koncept, skapar visuella element och itererar baserat på din feedback. Processen avslutas med att vi levererar ett komplett dokument för varumärkesriktlinjer."
+    },
+    "deliverables": {
+      "question": "Vilka leveranser ingår?",
+      "answer": "Du får ett komplett paket inklusive: logotyper (olika versioner), färgpalett, typografi, grafiska element, dokumentmallar, användarguider och källfiler i alla nödvändiga format."
+    },
+    "uniqueness": {
+      "question": "Hur säkerställer ni identitetens unikhet?",
+      "answer": "Vi genomför noggrann forskning av din marknad och konkurrens för att skapa en distinkt identitet. Vi verifierar också tillgängligheten av visuella element för att undvika konflikter med befintliga varumärken."
+    },
+    "transition": {
+      "question": "Hur hanterar ni övergången till den nya identiteten?",
+      "answer": "Vi tillhandahåller en gradvis implementeringsplan som vägleder övergången till den nya identiteten. Detta inkluderar rekommendationer för intern och extern kommunikation, samt en tidsram för genomförande."
+    }
+  },
+  "complementary": {
+    "marketing-kit": {
+      "title": "Marknadskit",
+      "description": "Skapande av konsistenta marknadsföringsmaterial."
+    },
+    "social-media": {
+      "title": "Sociala medier",
+      "description": "Anpassning för sociala medier."
+    },
+    "print-materials": {
+      "title": "Tryckmaterial",
+      "description": "Skapande av tryckt material."
+    }
+  }
+}

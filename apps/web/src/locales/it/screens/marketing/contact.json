@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "Parliamo del tuo progetto",
+    "description": "Siamo sempre felici di discutere nuovi progetti. Contattaci per condividere le tue idee e vedere come possiamo aiutarti."
+  },
+  "form": {
+    "name": {
+      "label": "Nome completo",
+      "placeholder": "Giovanni Rossi"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "tuo@example.com"
+    },
+    "message": {
+      "label": "Messaggio",
+      "placeholder": "Descrivi il tuo progetto..."
+    },
+    "submit": "Invia messaggio",
+    "submitting": "Invio in corso..."
+  },
+  "toast": {
+    "success": {
+      "title": "Messaggio inviato",
+      "description": "Ti risponderemo il prima possibile."
+    },
+    "error": {
+      "title": "Errore",
+      "description": "Si è verificato un errore durante l'invio del messaggio",
+      "fallback": "Si è verificato un errore"
+    }
+  },
+  "info": {
+    "title": "Informazioni di contatto",
+    "email": {
+      "label": "Email"
+    },
+    "offices": {
+      "label": "I nostri uffici",
+      "value": "Rouen & Parigi, Francia"
+    },
+    "phone": {
+      "label": "Telefono"
+    }
+  },
+  "hours": {
+    "title": "Orari di apertura",
+    "timezone": "(ora di Parigi)",
+    "weekdays": "Lunedì - Venerdì:",
+    "weekdays-time": "9:00 - 18:00",
+    "weekend": "Fine settimana:",
+    "weekend-time": "Chiuso"
+  },
+  "tagline": "Uno studio creativo dedicato a trasformare le tue idee in realtà digitale."
+}

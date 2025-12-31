@@ -1,0 +1,80 @@
+{
+  "name": "RESTful APIs",
+  "description": "高性能のAPIの設計と開発",
+  "hero": {
+    "title": "RESTful & GraphQL APIs",
+    "description": "あなたのアプリケーションにモダンで安全、高性能なAPIを開発します。私たちの専門知識は、あなたのニーズを満たす強固でスケーラブルなインターフェースを保証します。"
+  },
+  "features": {
+    "rest-graphql": {
+      "title": "REST & GraphQL",
+      "description": "業界標準に基づいたモダンAPIの開発。"
+    },
+    "advanced-security": {
+      "title": "高度なセキュリティ",
+      "description": "脆弱性や攻撃に対する強固な保護。"
+    },
+    "optimal-performance": {
+      "title": "最適なパフォーマンス",
+      "description": "応答時間を最小限に抑えるために最適化されたアーキテクチャ。"
+    },
+    "complete-documentation": {
+      "title": "完全なドキュメンテーション",
+      "description": "簡単な統合のための明確で対話的なドキュメンテーション。"
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "高可用性",
+      "description": "最大の可用性のための冗長インフラ。"
+    },
+    "scalability": {
+      "title": "スケーラビリティ",
+      "description": "成長をサポートするために設計されたアーキテクチャ。"
+    },
+    "advanced-monitoring": {
+      "title": "高度なモニタリング",
+      "description": "パフォーマンスと健康のリアルタイム追跡。"
+    },
+    "intelligent-cache": {
+      "title": "インテリジェントキャッシュ",
+      "description": "高度なキャッシングによるパフォーマンス最適化。"
+    }
+  },
+  "faq": {
+    "rest-vs-graphql": {
+      "question": "RESTとGraphQLの違いは何ですか？",
+      "answer": "RESTは各エンドポイントが特定のリソースに対応する従来のアーキテクチャですが、GraphQLはクライアントが必要なデータを正確に要求できるようにします。具体的なニーズやユースケースに基づいて最適なアプローチをアドバイスします。"
+    },
+    "api-security": {
+      "question": "APIのセキュリティはどう確保していますか？",
+      "answer": "複数のセキュリティ層を実装しています：JWT認証、SSL/TLS暗号化、レート制限、データ検証、インジェクションやCSRF攻撃に対する保護。APIセキュリティに関するOWASPの推奨事項にも従っています。"
+    },
+    "scaling": {
+      "question": "スケーリングはどのように行いますか？",
+      "answer": "水平スケーラブルなAPIを設計し、負荷分散、分散キャッシング、クエリ最適化を行っています。このアーキテクチャは、交通量の大幅な増加をサポートできるように設計されています。"
+    },
+    "documentation": {
+      "question": "どのようなドキュメンテーションを提供していますか？",
+      "answer": "包括的なドキュメンテーションを提供します：OpenAPI/Swaggerの技術ドキュメンテーション、統合ガイド、コード例、テスト環境。ドキュメンテーションは各APIの進化に合わせて最新の状態に保たれています。"
+    },
+    "post-deployment-support": {
+      "question": "デプロイ後のサポートは提供していますか？",
+      "answer": "はい、いくつかのメンテナンスプランを提供しています：24/7モニタリング、技術サポート、継続的なパフォーマンス最適化、セキュリティ更新、機能の進化。"
+    }
+  },
+  "complementary": {
+    "advanced-analytics": {
+      "title": "高度な分析",
+      "description": "使用状況とパフォーマンスの詳細な分析。"
+    },
+    "data-migration": {
+      "title": "データ移行",
+      "description": "既存のシステムからの移行。"
+    },
+    "integration": {
+      "title": "統合",
+      "description": "あなたのアプリケーションとの統合サポート。"
+    }
+  }
+}

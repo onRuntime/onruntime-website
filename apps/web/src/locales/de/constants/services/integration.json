@@ -1,0 +1,49 @@
+{
+  "name": "Integration",
+  "description": "Integration auf großen E-Commerce- und CMS-Plattformen",
+  "benefits": {
+    "clean-maintainable-code": {
+      "title": "Sauberer und wartbarer Code",
+      "description": "Integration mit hohen Code-Standards und Architektur, die für langfristige Wartbarkeit ausgelegt ist."
+    },
+    "optimized-performance": {
+      "title": "Optimierte Leistung",
+      "description": "Schnelle und flüssige Websites durch fortschrittliche Optimierungstechniken und Best Practices."
+    },
+    "responsive-design": {
+      "title": "Responsive Design",
+      "description": "Perfekte Anpassung an alle Bildschirme und Geräte für ein konsistentes Nutzererlebnis."
+    },
+    "smooth-animations": {
+      "title": "Flüssige Animationen",
+      "description": "Integration von ausgefeilten Animationen, um das Nutzererlebnis zu bereichern und gleichzeitig die Leistung zu erhalten."
+    }
+  },
+  "process": {
+    "mockup-analysis": {
+      "title": "Mockup-Analyse",
+      "description": "Umfassende Untersuchung von Mockups, um Komponenten, Interaktionen und technische Punkte von Interesse zu identifizieren."
+    },
+    "technical-architecture": {
+      "title": "Technische Architektur",
+      "description": "Definition der Frontend-Architektur und Auswahl der Technologien, die zum Projekt passen."
+    },
+    "component-development": {
+      "title": "Komponentenentwicklung",
+      "description": "Erstellung von wiederverwendbaren Komponenten nach den Prinzipien des Designsystems."
+    },
+    "responsive-integration": {
+      "title": "Responsive Integration",
+      "description": "Gestaltungsanpassung für alle Bildschirmformate mit besonderem Fokus auf das mobile Erlebnis."
+    },
+    "optimization": {
+      "title": "Optimierung",
+      "description": "Optimierung der Leistung, Zugänglichkeit und technischen SEO."
+    },
+    "testing-validation": {
+      "title": "Testen und Validierung",
+      "description": "Gründliche Tests in verschiedenen Browsern und Geräten, um ein optimales Nutzererlebnis sicherzustellen."
+    }
+  },
+  "process-services": {}
+}

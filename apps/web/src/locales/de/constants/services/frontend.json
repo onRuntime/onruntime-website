@@ -1,0 +1,49 @@
+{
+  "name": "Frontend-Entwicklung",
+  "description": "Erstellung von hochperformanten Web- und mobilen Anwendungen",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Skalierbare Architektur",
+      "description": "Anwendungen, die auf modernen und skalierbaren Architekturen basieren, bereit für die Entwicklung Ihres Projekts."
+    },
+    "optimal-performance": {
+      "title": "Optimale Leistung",
+      "description": "Fokus auf Leistung mit fortschrittlichen Optimierungs- und Caching-Techniken."
+    },
+    "maintainable-code": {
+      "title": "Wartbarer Code",
+      "description": "Saubere und modulare Architektur, die einfache Wartung und schnelle Iterationen ermöglicht."
+    },
+    "enhanced-security": {
+      "title": "Verbesserte Sicherheit",
+      "description": "Umsetzung von Best Practices zur Frontend-Sicherheit zum Schutz Ihrer Nutzer."
+    }
+  },
+  "process": {
+    "technical-architecture": {
+      "title": "Technische Architektur",
+      "description": "Definition der Frontend-Architektur, Technologiewahl und Einrichtung der Entwicklungsumgebung."
+    },
+    "project-setup": {
+      "title": "Projektsetup",
+      "description": "Projektkonfiguration mit den besten Entwicklungsmethoden, Tests und kontinuierlicher Bereitstellung."
+    },
+    "feature-development": {
+      "title": "Funktionsentwicklung",
+      "description": "Implementierung von Funktionen mit Fokus auf Code-Qualität und Leistung."
+    },
+    "state-management": {
+      "title": "Zustandsverwaltung",
+      "description": "Einrichtung einer robusten und leistungsfähigen Zustandsverwaltung für Anwendungsdaten."
+    },
+    "testing-quality": {
+      "title": "Tests und Qualität",
+      "description": "Umsetzung von automatisierten Tests und Qualitätssicherungsprozessen."
+    },
+    "optimization-monitoring": {
+      "title": "Optimierung und Überwachung",
+      "description": "Einrichtung von Leistungsoptimierungs- und Überwachungswerkzeugen."
+    }
+  },
+  "process-services": {}
+}

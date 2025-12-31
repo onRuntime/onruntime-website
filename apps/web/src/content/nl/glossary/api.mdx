@@ -1,0 +1,44 @@
+---
+term: API
+shortDescription: >-
+  Applicatieprogrammeerinterface die het mogelijk maakt voor verschillende
+  applicaties om met elkaar te communiceren
+relatedTerms:
+  - REST
+  - GraphQL
+  - Backend
+tags:
+  - development
+  - technical
+---
+## Definitie
+
+Een API (Application Programming Interface) is in feite de taal die onze applicaties gebruiken om met elkaar te communiceren. Bij onRuntime gebruiken we ze constant om verschillende onderdelen van onze projecten met elkaar te verbinden. Denk aan een API als een ober in een restaurant. Je plaatst een bestelling (de aanvraag), zij brengen je wat je vroeg (de reactie), en je hoeft niet te weten wat er in de keuken gaande is.
+
+## Waarom we van API's houden
+
+- **Ze laten alles samenwerken**: Verschillende systemen kunnen data uitwisselen zonder gedoe
+- **Ze maken ons modulair**: We kunnen onafhankelijke componenten ontwikkelen en ze gemakkelijk verbinden
+- **Ze beschermen onze data**: We bepalen precies wie toegang heeft tot wat
+- **Ze besparen ons tijd**: We kunnen één onderdeel bijwerken zonder alles opnieuw te bouwen
+
+## API's die we dagelijks gebruiken
+
+### RESTful API's
+Ons dagelijkse brood! We gebruiken ze voor de meeste van onze webprojecten. Ze zijn eenvoudig, stateless (geen geheugen van de ene aanvraag naar de andere), en gebruiken klassieke HTTP-methodes. Perfect voor ontkoppelde interfaces zoals op Tonight Pass.
+
+### GraphQL API's
+We zijn fan van deze voor bepaalde complexe projecten! In plaats van 15 verschillende endpoints te creëren, laten we de client precies de data aanvragen die hij nodig heeft. Op Kitchn gaf dit ons veel bandbreedtebesparing.
+
+### SOAP API's
+We zullen niet liegen, we gebruiken deze niet veel meer... Ze zijn een beetje oldschool met hun XML en ultra-strikte specificaties. Maar we komen ze soms nog tegen in enterprise-projecten.
+
+## Hoe we ze dagelijks gebruiken
+
+Bij onRuntime zijn API's de kern van onze techstack. Ze stellen ons in staat om:
+
+- Ontkoppelde applicaties te bouwen (scheiden frontend/backend)
+- Eenvoudig derde partij diensten te integreren (betaling, mapping, enz.)
+- Onze microservicesarchitectuur te ontwikkelen voor bepaalde projecten
+
+Wanneer we een API ontwerpen, beginnen we altijd met het documenteren ervan met Swagger of Postman. Helpt ons om alles goed te doordenken en wordt een solide referentie voor het team. Geloof me, het bespaart een boel zinloze vergaderingen!

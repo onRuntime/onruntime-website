@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "Laten we je project bespreken",
+    "description": "We bespreken altijd graag nieuwe projecten. Neem contact met ons op om je ideeën te delen en te zien hoe we je kunnen helpen."
+  },
+  "form": {
+    "name": {
+      "label": "Volledige naam",
+      "placeholder": "Jan Jansen"
+    },
+    "email": {
+      "label": "E-mail",
+      "placeholder": "jij@voorbeeld.com"
+    },
+    "message": {
+      "label": "Bericht",
+      "placeholder": "Beschrijf je project..."
+    },
+    "submit": "Bericht versturen",
+    "submitting": "Versturen..."
+  },
+  "toast": {
+    "success": {
+      "title": "Bericht verzonden",
+      "description": "We nemen zo snel mogelijk contact met je op."
+    },
+    "error": {
+      "title": "Fout",
+      "description": "Er is een fout opgetreden bij het verzenden van het bericht.",
+      "fallback": "Er is een fout opgetreden."
+    }
+  },
+  "info": {
+    "title": "Contactinformatie",
+    "email": {
+      "label": "E-mail"
+    },
+    "offices": {
+      "label": "Onze kantoren",
+      "value": "Rouen & Parijs, Frankrijk"
+    },
+    "phone": {
+      "label": "Telefoon"
+    }
+  },
+  "hours": {
+    "title": "Openingstijden",
+    "timezone": "(Parijse tijd)",
+    "weekdays": "Maandag - Vrijdag:",
+    "weekdays-time": "9:00 - 18:00",
+    "weekend": "Weekend:",
+    "weekend-time": "Gesloten"
+  },
+  "tagline": "Een creatief bureau dat zich toelegt op het omzetten van jouw ideeën in digitale realiteit."
+}

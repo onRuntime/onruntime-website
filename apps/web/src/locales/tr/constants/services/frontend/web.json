@@ -1,0 +1,80 @@
+{
+  "name": "Web uygulamaları",
+  "description": "React ve Next.js ile modern web uygulama geliştirme",
+  "hero": {
+    "title": "Ön yüz web geliştirme",
+    "description": "En son ön yüz teknolojileriyle modern, duyarlı ve yüksek performanslı web uygulamaları oluşturun. Uzmanlığımız size olağanüstü bir kullanıcı deneyimi sunuyor."
+  },
+  "features": {
+    "react-nextjs": {
+      "title": "React & Next.js",
+      "description": "Performanslı ve ölçeklenebilir uygulamalar için modern çerçevelerle geliştirme."
+    },
+    "responsive-design": {
+      "title": "Duyarlı tasarım",
+      "description": "Tüm cihazlarda optimal deneyim için uyumlu arayüzler."
+    },
+    "web-performance": {
+      "title": "Web performansı",
+      "description": "Hızlı yükleme süreleri ve akıcı deneyim için ileri düzey optimizasyon."
+    },
+    "modern-ui-ux": {
+      "title": "Modern UI/UX",
+      "description": "En son trendlere uyan şık ve sezgisel kullanıcı arayüzleri."
+    }
+  },
+  "benefits": {
+    "reactive-apps": {
+      "title": "Reaktif uygulamalar",
+      "description": "Akıcı bir kullanıcı deneyimi için dinamik ve reaktif arayüzler."
+    },
+    "mobile-first": {
+      "title": "Mobil öncelikli",
+      "description": "Tasarımın önce mobil için düşünüldüğü, ardından daha büyük ekranlara adapte edildiği."
+    },
+    "optimal-performance": {
+      "title": "Optimal performans",
+      "description": "Minimum yükleme süreleri için ileri düzey optimizasyon."
+    },
+    "seo-optimized": {
+      "title": "SEO optimizasyonlu",
+      "description": "Mükemmel doğal referanslama için optimize edilmiş yapı."
+    }
+  },
+  "faq": {
+    "technologies": {
+      "question": "Ön yüz geliştirme için hangi teknolojileri kullanıyorsunuz?",
+      "answer": "Öncelikle React ve Next.js kullanıyoruz, ayrıca daha sağlam kod için TypeScript de tercih ediyoruz. Stil için Tailwind CSS gibi modern araçları ve animasyonlar ve etkileşimler için çeşitli kütüphaneleri entegre ediyoruz."
+    },
+    "performance": {
+      "question": "Web uygulama performansını nasıl yönetiyorsunuz?",
+      "answer": "Kod bölme, tembel yükleme, resim optimizasyonu, akıllı önbellekleme gibi optimizasyon en iyi uygulamalarını uyguluyoruz ve optimal yükleme sürelerini sağlamak için performans ölçüm araçları kullanıyoruz."
+    },
+    "seo": {
+      "question": "SEO çözümleri sunuyor musunuz?",
+      "answer": "Evet, SEO odaklı uygulamalar geliştiriyoruz: sunucu tarafı render (SSR), statik sayfa oluşturma, dinamik meta-veri, anlamsal yapı ve arama motoru optimizasyonu."
+    },
+    "browser-compatibility": {
+      "question": "Farklı tarayıcılarla uyumluluğu nasıl sağlıyorsunuz?",
+      "answer": "Ana tarayıcılar ve sürümlerde testler yapıyoruz, modern dönüştürme araçları kullanıyoruz ve tutarlı bir deneyim sağlamak için uygun yedeklemeler ayarlıyoruz."
+    },
+    "maintenance": {
+      "question": "Geliştirilen uygulamalar için bakım hizmeti sunuyor musunuz?",
+      "answer": "Evet, güvenlik güncellemeleri, sürekli performans optimizasyonu ve özellik evrimi gibi çeşitli bakım planları sunuyoruz."
+    }
+  },
+  "complementary": {
+    "ui-ux-design": {
+      "title": "UI/UX tasarımı",
+      "description": "Modern ve ergonomik kullanıcı arayüzlerinin tasarımı."
+    },
+    "api-integration": {
+      "title": "API entegrasyonu",
+      "description": "Mevcut arka uç sistemleriniz ve hizmetlerinizle bağlantı."
+    },
+    "internationalization": {
+      "title": "Uluslararasılaşma",
+      "description": "Uygulamanızı uluslararası bir kitleye uyarlamak."
+    }
+  }
+}

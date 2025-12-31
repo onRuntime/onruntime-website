@@ -1,0 +1,80 @@
+{
+  "name": "Progressiva webbappar",
+  "description": "Skapande av högpresterande progressiva webbapplikationer",
+  "hero": {
+    "title": "Progressiva webbappar (PWA)",
+    "description": "Transformera din webbplats till en verklig installbar applikation med progressiva webbappar. Erbjud en exceptionell användarupplevelse, online och offline."
+  },
+  "features": {
+    "native-installation": {
+      "title": "Inbyggd installation",
+      "description": "Installera appar direkt från webbläsaren, utan att gå igenom butiker."
+    },
+    "offline-mode": {
+      "title": "Offline-läge",
+      "description": "Fungerar även utan internetanslutning tack vare smart caching."
+    },
+    "optimal-performance": {
+      "title": "Optimal prestanda",
+      "description": "Snabb inladdning och smidig upplevelse på alla enheter."
+    },
+    "push-notifications": {
+      "title": "Push-notifikationer",
+      "description": "Förbättrad användarengagemang genom push-notifikationer."
+    }
+  },
+  "benefits": {
+    "multi-platform": {
+      "title": "Multiplattform",
+      "description": "En applikation för alla enheter och operativsystem."
+    },
+    "always-updated": {
+      "title": "Alltid uppdaterad",
+      "description": "Automatiska uppdateringar utan att användaren behöver agera."
+    },
+    "lightweight": {
+      "title": "Lättvikts",
+      "description": "Ingen tung installation, direkt tillgänglig."
+    },
+    "native-performance": {
+      "title": "Inbyggd prestanda",
+      "description": "Användarupplevelse nära inbyggda appar."
+    }
+  },
+  "faq": {
+    "what-is-pwa": {
+      "question": "Vad är en progressiv webbapp?",
+      "answer": "En PWA är en webbapplikation som erbjuder en upplevelse som liknar en inbyggd applikation: den är installbar, fungerar offline och kan skicka push-notifikationer. Den kombinerar fördelarna med webben (åtkomlighet, automatisk uppdatering) och inbyggda appar (prestanda, avancerade funktioner)."
+    },
+    "vs-native": {
+      "question": "Vilka fördelar finns det jämfört med en inbyggd applikation?",
+      "answer": "PWAs erbjuder flera fördelar: ingen  behöv av att gå igenom butiker, automatiska uppdateringar, snabbare och billigare utveckling, bättre sökmotoroptimering och en enda kodbas för alla plattformar."
+    },
+    "offline": {
+      "question": "Hur fungerar offline-läget?",
+      "answer": "Vi använder Service Workers för att cache:a viktiga resurser och data. Applikationen kan därmed fungera även utan internetanslutning, med automatisk synkronisering när anslutningen är återställd."
+    },
+    "browser-compatibility": {
+      "question": "Är PWAs kompatibla med alla webbläsare?",
+      "answer": "PWAs fungerar på de flesta moderna webbläsare. För äldre webbläsare sätter vi upp fallback-lösningar för att garantera en optimal användarupplevelse."
+    },
+    "post-launch-support": {
+      "question": "Erbjuder ni support efter lansering?",
+      "answer": "Ja, vi erbjuder flera underhållsplaner inklusive: säkerhetsuppdateringar, prestandaoptimeringar, tillägg av funktioner och teknisk support."
+    }
+  },
+  "complementary": {
+    "advanced-analytics": {
+      "title": "Avancerad analys",
+      "description": "Detaljerad spårning av användarbeteende och prestanda."
+    },
+    "seo-optimized": {
+      "title": "Optimerad SEO",
+      "description": "Optimering för sökmotorer och social delning."
+    },
+    "enhanced-security": {
+      "title": "Förbättrad säkerhet",
+      "description": "Dataskydd och säker kommunikation."
+    }
+  }
+}

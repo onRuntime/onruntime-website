@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "title": "Nuestros proyectos y logros",
+    "description": "Descubre nuestro portafolio de proyectos de desarrollo web, móvil y diseño UI/UX. Soluciones innovadoras e interfaces modernas creadas por nuestro equipo de expertos.",
+    "subdescription": "Desde la concepción hasta la finalización, cada proyecto refleja nuestra experiencia y compromiso con la creación de experiencias digitales excepcionales."
+  },
+  "expertise": {
+    "title": "Nuestra experiencia en desarrollo de proyectos",
+    "description": "En onRuntime Studio, combinamos creatividad, experiencia técnica y metodología probada para transformar tus ideas en soluciones digitales innovadoras y de alto rendimiento.",
+    "cards": {
+      "development": {
+        "title": "Desarrollo personalizado",
+        "description": "Soluciones cuidadosamente codificadas utilizando las tecnologías más adecuadas para tu proyecto y objetivos específicos."
+      },
+      "design": {
+        "title": "Diseño UI/UX excepcional",
+        "description": "Interfaces elegantes e intuitivas que capturan la atención de tus usuarios y comunican efectivamente la identidad de tu marca."
+      },
+      "performance": {
+        "title": "Rendimiento óptimo",
+        "description": "Aplicaciones rápidas, responsivas y optimizadas para ofrecer una experiencia de usuario suave y agradable."
+      }
+    }
+  },
+  "process": {
+    "title": "Nuestro proceso de entrega",
+    "description": "Una metodología probada que garantiza calidad y éxito para cada proyecto, desde el diseño inicial hasta la implementación final.",
+    "steps": {
+      "discovery": {
+        "title": "Descubrimiento",
+        "description": "Análisis profundo de tus necesidades, objetivos y las especificidades de tu sector."
+      },
+      "conception": {
+        "title": "Diseño",
+        "description": "Creación de maquetas y prototipos para visualizar y validar la experiencia del usuario."
+      },
+      "development": {
+        "title": "Desarrollo",
+        "description": "Codificación cuidadosa con tecnologías modernas y pruebas rigurosas para asegurar la calidad."
+      },
+      "deployment": {
+        "title": "Despliegue",
+        "description": "Lanzamiento en producción con monitoreo y soporte continuo para asegurar el éxito de tu proyecto."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros clientes sobre nosotros",
+    "description": "La satisfacción del cliente es nuestra máxima prioridad. Aquí hay algunos testimonios de socios con quienes hemos tenido el placer de trabajar."
+  },
+  "industries": {
+    "title": "Sectores que servimos",
+    "description": "Nuestra experiencia se extiende a muchos sectores, con soluciones adaptadas a las especificidades de cada industria.",
+    "items": {
+      "ecommerce": "E-commerce",
+      "startups": "Startups",
+      "luxury": "Lujo",
+      "institutions": "Instituciones"
+    }
+  },
+  "why-us": {
+    "title": "¿Por qué elegir onRuntime Studio?",
+    "description": "Nos destacamos por nuestro enfoque centrado en el cliente y nuestro compromiso con la excelencia.",
+    "items": {
+      "expertise": {
+        "title": "Experiencia técnica",
+        "description": "Un equipo de desarrolladores y diseñadores experimentados que dominan las últimas tecnologías."
+      },
+      "custom": {
+        "title": "Soluciones personalizadas",
+        "description": "Desarrollos personalizados que satisfacen exactamente tus necesidades específicas."
+      },
+      "support": {
+        "title": "Soporte continuo",
+        "description": "Soporte de calidad durante todo el proyecto y después del lanzamiento."
+      }
+    }
+  },
+  "cta": {
+    "title": "¿Listo para dar vida a tu proyecto?",
+    "description": "Contáctanos hoy para discutir tu idea y descubrir cómo nuestra experiencia puede ayudarte a convertirla en realidad.",
+    "buttons": {
+      "start": "Iniciar un proyecto",
+      "services": "Descubre nuestros servicios"
+    }
+  }
+}

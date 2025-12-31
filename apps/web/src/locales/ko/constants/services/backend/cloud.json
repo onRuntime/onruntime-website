@@ -1,0 +1,80 @@
+{
+  "name": "클라우드 솔루션",
+  "description": "클라우드 인프라 배포 및 관리",
+  "hero": {
+    "title": "클라우드 솔루션",
+    "description": "현대적이고 확장 가능한 클라우드 솔루션으로 인프라를 최적화해 보세요. 우리의 전문성은 주요 클라우드 플랫폼에서 안전하고 고성능으로 배포될 수 있도록 보장합니다."
+  },
+  "features": {
+    "multi-cloud": {
+      "title": "멀티 클라우드",
+      "description": "주요 플랫폼 지원 (AWS, GCP, Azure)"
+    },
+    "advanced-security": {
+      "title": "고급 보안",
+      "description": "데이터와 애플리케이션에 대한 강력한 보호."
+    },
+    "optimal-performance": {
+      "title": "최적 성능",
+      "description": "최대 성능을 위한 최적화된 아키텍처."
+    },
+    "automatic-scalability": {
+      "title": "자동 스케일링",
+      "description": "부하 요구 사항에 대한 동적 적응."
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "고가용성",
+      "description": "중복되고 복원력 있는 인프라."
+    },
+    "elastic-storage": {
+      "title": "탄력적 스토리지",
+      "description": "유연하고 안전한 데이터 관리."
+    },
+    "advanced-monitoring": {
+      "title": "고급 모니터링",
+      "description": "인프라의 실시간 모니터링."
+    },
+    "enhanced-security": {
+      "title": "향상된 보안",
+      "description": "리소스에 대한 다층 보호."
+    }
+  },
+  "faq": {
+    "platform-choice": {
+      "question": "어떤 클라우드 플랫폼을 선택해야 할까요?",
+      "answer": "선택은 특정 요구 사항에 따라 다릅니다. AWS는 서비스 다양성에서 뛰어나고, Google Cloud는 머신러닝에 강점을 지니며, Azure는 Microsoft 통합에서 우수합니다. 우리는 목표, 기술적 제약 및 예산에 따라 최선의 솔루션으로 안내해 드립니다."
+    },
+    "cloud-security": {
+      "question": "클라우드에서 보안은 어떻게 처리하나요?",
+      "answer": "우리는 다층 보안을 구현합니다. 데이터는 정지 상태와 전송 중 모두 암호화되며, IAM 접근 제어, 가상 사설망(VPC), 웹 애플리케이션 방화벽(WAF) 및 지속적인 위협 모니터링을 사용합니다. 각 플랫폼의 모범 사례를 따릅니다."
+    },
+    "cost-optimization": {
+      "question": "비용은 어떻게 최적화하나요?",
+      "answer": "여러 가지 전략을 사용합니다. 예약 인스턴스, 자동 스케일링, 리소스 최적화, 사용하지 않는 리소스 제거, 비용 모니터링 등이 있습니다. 정기적인 감사로 절약 기회를 식별합니다."
+    },
+    "high-availability": {
+      "question": "고가용성은 어떻게 보장하나요?",
+      "answer": "여러 가용성 영역에 걸쳐 인프라를 배포하고 데이터 복제, 부하 분산 및 자동 장애 조치를 구현합니다. 강력한 재해 복구 계획(DRP)도 설정합니다."
+    },
+    "support-24-7": {
+      "question": "24/7 지원을 제공하나요?",
+      "answer": "네, 24/7 모니터링, 자동 알림, 신속한 사고 개입, 예방 유지보수 및 전담 기술 지원을 포함한 여러 지원 단계를 제공합니다."
+    }
+  },
+  "complementary": {
+    "cloud-migration": {
+      "title": "클라우드 마이그레이션",
+      "description": "클라우드로의 부드러운 전환."
+    },
+    "multi-region": {
+      "title": "멀티 리전",
+      "description": "애플리케이션의 글로벌 배포."
+    },
+    "devops": {
+      "title": "데브옵스",
+      "description": "클라우드에서의 자동화 및 CI/CD."
+    }
+  }
+}

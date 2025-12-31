@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "cta": "Discuta seu projeto"
+  },
+  "expertise": {
+    "title": "Expertise profunda em {service}",
+    "description": "Nós combinamos criatividade e conhecimento técnico para entregar soluções de {service} que atendam perfeitamente aos seus objetivos. Nossa abordagem metódica e experiência nos permitem criar soluções sustentáveis e escaláveis."
+  },
+  "services": {
+    "badge": "Nossos serviços",
+    "title": "Soluções personalizadas de {service}",
+    "description": "Descubra nossa gama completa de serviços de {service}, projetados para atender todas as suas necessidades e apoiar você na realização dos seus projetos.",
+    "learnMore": "Saiba mais"
+  },
+  "benefits": {
+    "badge": "Benefícios",
+    "title": "Por que escolher nossos serviços de {service}?"
+  },
+  "process": {
+    "badge": "Nosso processo",
+    "title": "Como trabalhamos",
+    "description": "Uma abordagem integrada que combina nossas diferentes áreas de expertise para resultados ótimos."
+  },
+  "cta": {
+    "title": "Pronto para dar vida ao seu projeto?",
+    "description": "Entre em contato para discutir suas necessidades e receber um orçamento personalizado.",
+    "button": "Comece agora"
+  }
+}

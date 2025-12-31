@@ -1,0 +1,66 @@
+{
+  "short-description": "Una extensión del navegador que transforma Instagram en modo oscuro, similar a la aplicación de iOS.",
+  "description": "Cambia el tema de Instagram.com a modo oscuro cuando el sistema está en modo oscuro.",
+  "long-description": "El tema oscuro para Instagram™ es una extensión del navegador que transforma la experiencia visual de Instagram.com adoptando un tema oscuro, similar al aspecto de la aplicación de iOS.\n\nLa extensión ofrece una solución simple y elegante para reducir la fatiga visual y mejorar la experiencia de navegación en Instagram, mientras respeta las preferencias del sistema operativo.",
+  "features": {
+    "auto-dark-mode": {
+      "title": "Modo Oscuro Automático",
+      "description": "Habilitar automáticamente el tema oscuro según la configuración del sistema"
+    },
+    "multi-browser": {
+      "title": "Compatible con Varios Navegadores",
+      "description": "Disponible para Firefox, Edge y Chrome"
+    },
+    "open-source": {
+      "title": "Código Abierto",
+      "description": "Código fuente accesible y verificable"
+    }
+  },
+  "technologies": {
+    "javascript": {
+      "description": "Desarrollo de extensiones"
+    },
+    "chrome-api": {
+      "description": "Integración con el navegador"
+    },
+    "css": {
+      "description": "Personalización del tema"
+    }
+  },
+  "metrics": {
+    "users": {
+      "value": "52k+",
+      "label": "Usuarios",
+      "description": "Usuarios activos"
+    },
+    "installs": {
+      "value": "82k+",
+      "label": "Instalaciones",
+      "description": "Total de instalaciones"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "Código Abierto",
+      "description": "Código fuente público"
+    }
+  },
+  "screenshots": {
+    "dark-interface": {
+      "caption": "Interfaz de Instagram en modo oscuro"
+    }
+  },
+  "challenges": {
+    "instagram-updates-compatibility": "Mantener la compatibilidad con las frecuentes actualizaciones de Instagram",
+    "cross-browser-consistency": "Asegurar un tema oscuro consistente en diferentes navegadores",
+    "browser-performance": "Minimizar el impacto en el rendimiento del navegador"
+  },
+  "learnings": {
+    "dynamic-interface-modification": "Complejidad de modificar dinámicamente interfaces web",
+    "cross-browser-compatibility": "Importancia de la compatibilidad entre navegadores",
+    "platform-updates-management": "Manejo de actualizaciones frecuentes de la plataforma web"
+  },
+  "future-plans": {
+    "more-customization": "Agregar más opciones de personalización",
+    "instagram-versions-compatibility": "Mejorar la compatibilidad con diferentes versiones de Instagram"
+  }
+}

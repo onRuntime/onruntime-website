@@ -1,0 +1,8 @@
+{
+  "back-to-glossary": "用語集に戻る",
+  "related-terms": "関連用語",
+  "search": {
+    "placeholder": "用語を検索...",
+    "no-results": "\"{term}\" に対する結果は見つかりませんでした"
+  }
+}

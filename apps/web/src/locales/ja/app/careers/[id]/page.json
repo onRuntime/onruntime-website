@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "求人情報が見つかりません",
+      "description": "この求人情報は存在しないか、もう利用できません。"
+    },
+    "title": "{jobTitle} | キャリア",
+    "description": "{jobTitle}としてonRuntime Studioに参加しよう。このキャリアのチャンスを見つけて、今すぐ応募しよう。"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "short-description": "Entdecke und buche die besten Events, die auf deinen Geschmack abgestimmt sind.",
+  "description": "Tonight Pass ist eine innovative Plattform, die die Entdeckung und Buchung von Events durch ein personalisiertes Empfehlungssystem basierend auf deinen Vorlieben vereinfacht.",
+  "long-description": "Tonight Pass revolutioniert die Art und Weise, wie Menschen Events entdecken und besuchen. Unsere Plattform vereint Technologie und Benutzererfahrung, um personalisierte Empfehlungen und vereinfachte Ticketbuchungen anzubieten. \n\nDie Plattform verbindet Veranstalter und Teilnehmer und bietet eine umfassende Lösung für das Buchungsmanagement, intelligente Empfehlungen und Datenanalysen. Die Anwendung wurde entwickelt, um das Erlebnis der Evententdeckung zu optimieren und gleichzeitig das Management für Veranstalter zu vereinfachen.",
+  "features": {
+    "ticketing": {
+      "title": "Vereinfachte Ticketbuchung",
+      "description": "Buche deine Tickets in nur wenigen Klicks für alle Arten von Events"
+    },
+    "recommendations": {
+      "title": "Personalisierte Empfehlungen",
+      "description": "Entdecke Events, die auf deinen Geschmack abgestimmt sind"
+    },
+    "e-tickets": {
+      "title": "Sichere e-Tickets",
+      "description": "Zugang zu Events mit sicheren digitalen Tickets"
+    }
+  },
+  "technologies": {
+    "react": {
+      "description": "Web- und Mobilanwendungen"
+    },
+    "nestjs": {
+      "description": "Backend-API"
+    },
+    "mongodb": {
+      "description": "Hauptdatenbank"
+    }
+  },
+  "metrics": {
+    "time-saved": {
+      "value": "45min",
+      "label": "Zeitersparnis",
+      "description": "Im Durchschnitt pro Event-Suche"
+    },
+    "coverage": {
+      "value": "100%",
+      "label": "Abdeckung",
+      "description": "Verfügbar in ganz Frankreich"
+    },
+    "ease": {
+      "value": "1 Klick",
+      "label": "Benutzerfreundlichkeit",
+      "description": "Um ein Event zu buchen"
+    }
+  },
+  "screenshots": {},
+  "challenges": {
+    "ticketing-experience": "Entwicklung einer flüssigen und intuitiven Ticketbuchungserfahrung",
+    "recommendation-system": "Erstellung eines personalisierten Empfehlungssystems",
+    "scalable-infrastructure": "Aufbau einer skalierbaren Infrastruktur",
+    "traffic-peaks": "Verwaltung von Verkehrsspitzen während Ticketfreigaben"
+  },
+  "learnings": {
+    "booking-simplicity": "Wichtigkeit der Einfachheit im Buchungsprozess",
+    "event-type-interface": "Bedarf an einer Schnittstelle, die auf verschiedene Eventtypen zugeschnitten ist",
+    "database-management": "Effizientes Management einer Eventdatenbank",
+    "speed-reliability-balance": "Balance zwischen Geschwindigkeit und Dienstzuverlässigkeit"
+  },
+  "future-plans": {
+    "venue-kiosks": "Bereitstellung von Kiosken in Veranstaltungsorten",
+    "recruitment-platform": "Einführung einer Plattform für Eventrekrutierung",
+    "venue-rental": "Einrichtung eines Veranstaltungsortvermietungsdienstes",
+    "supplier-network": "Aufbau eines Netzwerks von Eventanbietern",
+    "organizer-tools": "Entwicklung fortschrittlicher Werkzeuge für Veranstalter",
+    "recommendation-improvement": "Verbesserung des Empfehlungssystems"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "retry": "再試行",
+  "no-results": "あなたの検索に一致する求人はありません。",
+  "count": "利用可能な求人件数",
+  "published": "公開日",
+  "view-offer": "オファーを見る",
+  "employment-type": {
+    "full-time": "フルタイム",
+    "part-time": "パートタイム",
+    "contract": "契約社員",
+    "temporary": "一時的な雇用",
+    "internship": "インターンシップ",
+    "apprenticeship": "見習い"
+  },
+  "workplace-type": {
+    "hybrid": "ハイブリッド",
+    "remote": "リモート",
+    "on-site": "対面で"
+  }
+}

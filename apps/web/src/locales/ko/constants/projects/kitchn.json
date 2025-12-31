@@ -1,0 +1,82 @@
+{
+  "short-description": "모던하고 성능이 뛰어나며 높은 커스터마이징이 가능한 React 및 React Native 컴포넌트 라이브러리로, Geist UI와 Vercel Design에서 영감을 받았어.",
+  "description": "일관되고 우아한 사용자 인터페이스를 만들기 위해 설계된 스타일드 컴포넌트의 완벽한 모음으로, Tonight Pass가 유지 관리하고 있어.",
+  "long-description": "Kitchn은 모던 웹 및 모바일 애플리케이션 개발을 가속화하는 포괄적인 UI 컴포넌트 라이브러리야.\n\nGeist UI와 Vercel Design에서 영감을 받아 미니멀리즘 방식과 사용의 용이성으로 돋보이며, 스타일드 컴포넌트와 TypeScript로 구축된 최적화된 컴포넌트 모음을 제공해.\n\n각 컴포넌트는 모듈화되어 있고 성능이 뛰어나며 높은 커스터마이징이 가능해서 개발팀이 일관된 사용자 인터페이스를 신속하게 만들 수 있도록 도와줘.",
+  "features": {
+    "modular-architecture": {
+      "title": "모듈형 아키텍처",
+      "description": "독립적이고 재사용 가능한 컴포넌트들이 조화롭게 작동하도록 설계되었어."
+    },
+    "flexible-themes": {
+      "title": "유연한 테마",
+      "description": "확장 가능한 테마 시스템으로 라이트 모드와 다크 모드를 완벽하게 지원해."
+    },
+    "cross-platform": {
+      "title": "크로스 플랫폼",
+      "description": "모든 플랫폼에서 일관된 경험을 제공하기 위해 React 및 React Native에 대한 네이티브 지원을 제공해."
+    },
+    "interactive-docs": {
+      "title": "인터랙티브 문서",
+      "description": "빠른 온보딩을 위한 예제와 플레이그라운드를 갖춘 포괄적 문서야."
+    }
+  },
+  "technologies": {
+    "styled-components": {
+      "description": "CSS-in-JS 스타일"
+    },
+    "react": {
+      "description": "웹 UI 라이브러리"
+    },
+    "react-native": {
+      "description": "네이티브 모바일 컴포넌트"
+    },
+    "typescript": {
+      "description": "타입 안전성과 자동 완성"
+    },
+    "storybook": {
+      "description": "인터랙티브 문서"
+    }
+  },
+  "metrics": {
+    "components": {
+      "value": "35+",
+      "label": "컴포넌트",
+      "description": "재사용 가능한 UI 컴포넌트"
+    },
+    "downloads": {
+      "value": "20k+",
+      "label": "다운로드",
+      "description": "월간 다운로드 수치"
+    },
+    "github-stars": {
+      "value": "50+",
+      "label": "GitHub 스타",
+      "description": "GitHub에서의 스타 수치"
+    }
+  },
+  "screenshots": {
+    "responsive": {
+      "caption": "반응형 컴포넌트"
+    },
+    "themable": {
+      "caption": "커스터마이징 가능한 테마"
+    }
+  },
+  "challenges": {
+    "visual-consistency": "웹과 모바일 플랫폼 간의 완벽한 시각적 일관성을 유지하기 어려워.",
+    "bundle-optimization": "기능의 풍부함을 유지하면서 번들 크기를 최적화하기가 힘들어.",
+    "react-compatibility": "서로 다른 React 버전과의 호환성을 보장해야 해.",
+    "backward-compatibility": "업데이트 중에 이전 버전과의 호환성을 보장해야 해."
+  },
+  "learnings": {
+    "clear-documentation": "명확하고 상세한 문서의 중요성을 절실히 느꼈어.",
+    "modular-architecture": "유지 관리성을 위한 모듈형 아키텍처의 필요성을 알게 되었어.",
+    "automated-testing": "신뢰성을 위한 자동화 테스트의 가치를 느꼈어.",
+    "developer-experience": "개발자 경험이 채택에 미치는 영향에 대해 깨달았어."
+  },
+  "future-plans": {
+    "component-library-expansion": "컴포넌트 라이브러리를 풍부하게 만드는 작업이야.",
+    "performance-optimization": "지속적인 성능 최적화가 필요해.",
+    "framework-compatibility": "모던 프레임워크와의 호환성을 확대할 예정이야."
+  }
+}

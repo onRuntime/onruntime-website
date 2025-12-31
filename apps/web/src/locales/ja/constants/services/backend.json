@@ -1,0 +1,49 @@
+{
+  "name": "バックエンド開発",
+  "description": "堅牢なソリューションのアーキテクチャと開発",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "スケーラブルなアーキテクチャ",
+      "description": "成長に合わせて進化するシステムを設計し、最新の分散型アーキテクチャを使用しています。"
+    },
+    "optimized-database": {
+      "title": "最適化されたデータベース",
+      "description": "最大パフォーマンスとデータ整合性のためのデータベース設計と最適化。"
+    },
+    "robust-infrastructure": {
+      "title": "堅牢なインフラ",
+      "description": "高可用性とレジリエンスのある最新のクラウドインフラでのデプロイ。"
+    },
+    "advanced-security": {
+      "title": "高度なセキュリティ",
+      "description": "セキュリティのベストプラクティスを実施し、機密データを保護します。"
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "ニーズ分析",
+      "description": "技術要件の詳細な調査、アーキテクチャの定義と技術の選択。"
+    },
+    "system-design": {
+      "title": "システム設計",
+      "description": "バックエンドアーキテクチャの設計、データモデル作成、APIの定義。"
+    },
+    "api-development": {
+      "title": "API開発",
+      "description": "RESTfulまたはGraphQL APIの実装と完全なドキュメント提供。"
+    },
+    "database": {
+      "title": "データベース",
+      "description": "パフォーマンスとスケーラビリティに重点を置いたデータベースのセットアップと最適化。"
+    },
+    "testing-security": {
+      "title": "テストとセキュリティ",
+      "description": "自動テストの実施と高度なセキュリティ対策。"
+    },
+    "deployment-monitoring": {
+      "title": "デプロイと監視",
+      "description": "クラウドインフラの設定、監視とアラート。"
+    }
+  },
+  "process-services": {}
+}

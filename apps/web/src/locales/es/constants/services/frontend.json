@@ -1,0 +1,49 @@
+{
+  "name": "Desarrollo front-end",
+  "description": "Creando aplicaciones web y móviles de alto rendimiento",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Arquitectura escalable",
+      "description": "Aplicaciones construidas sobre arquitecturas modernas y escalables, listas para la evolución de tu proyecto."
+    },
+    "optimal-performance": {
+      "title": "Rendimiento óptimo",
+      "description": "Enfócate en el rendimiento con técnicas avanzadas de optimización y almacenamiento en caché."
+    },
+    "maintainable-code": {
+      "title": "Código mantenible",
+      "description": "Arquitectura limpia y modular que permite un fácil mantenimiento y rápidas iteraciones."
+    },
+    "enhanced-security": {
+      "title": "Seguridad mejorada",
+      "description": "Implementación de las mejores prácticas de seguridad en frontend para proteger a tus usuarios."
+    }
+  },
+  "process": {
+    "technical-architecture": {
+      "title": "Arquitectura técnica",
+      "description": "Definición de la arquitectura frontend, selección de tecnología y configuración del entorno de desarrollo."
+    },
+    "project-setup": {
+      "title": "Configuración del proyecto",
+      "description": "Configuración del proyecto con las mejores prácticas de desarrollo, pruebas y despliegue continuo."
+    },
+    "feature-development": {
+      "title": "Desarrollo de funciones",
+      "description": "Implementación de funciones con enfoque en calidad de código y rendimiento."
+    },
+    "state-management": {
+      "title": "Gestión del estado",
+      "description": "Configuración de una gestión del estado robusta y eficiente para los datos de la aplicación."
+    },
+    "testing-quality": {
+      "title": "Pruebas y calidad",
+      "description": "Implementación de pruebas automatizadas y procesos de aseguramiento de la calidad."
+    },
+    "optimization-monitoring": {
+      "title": "Optimización y monitoreo",
+      "description": "Configuración de herramientas de optimización y monitoreo de rendimiento."
+    }
+  },
+  "process-services": {}
+}

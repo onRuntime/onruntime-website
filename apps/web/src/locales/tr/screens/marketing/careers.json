@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Ekibimize katıl",
+    "description": "onRuntime Studio'da kariyer fırsatlarını keşfet ve geliştirme ile tasarıma tutkulu dinamik bir ekibe katıl."
+  },
+  "why-join": {
+    "title": "Neden bize katılmalısın?",
+    "description": "onRuntime Studio'da yaratıcılığa, yeniliğe ve işbirliğine inanıyoruz. Dijitalin geleceğini şekillendirmek ve daha teşvik edici bir ortamda yeteneklerini geliştirmek için bize katıl.",
+    "cards": {
+      "creativity": {
+        "title": "Yaratıcılık ve Yenilik",
+        "description": "Fikirlerini ifade et ve sınırları zorlayan yenilikçi projelere katkıda bulun."
+      },
+      "team": {
+        "title": "Tutkulu Ekip",
+        "description": "Arkadaş canlısı ve teşvik edici bir ortamda yetenekli ve tutkulu profesyonellerle işbirliği yap."
+      },
+      "impact": {
+        "title": "Küresel Etki",
+        "description": "Gerçek etki yaratan ve dünya çapında kullanıcılara ulaşan projelere katkıda bulun."
+      }
+    }
+  },
+  "opportunities": {
+    "title": "Güncel fırsatlar",
+    "description": "İş tekliflerimizi keşfet ve yeteneklerine ve hedeflerine uygun pozisyonu bul.",
+    "search-placeholder": "Bir pozisyon, konum ara...",
+    "all": "Tümü"
+  },
+  "spontaneous": {
+    "title": "Uygun pozisyonu bulamadın mı?",
+    "description": "Bize spontane bir başvuru gönder! Ekibimize katılmak için her zaman olağanüstü yetenekler arıyoruz.",
+    "cta": "Spontane başvuru gönder"
+  },
+  "teams": {
+    "title": "Ekiplerimiz",
+    "description": "onRuntime Studio'yu oluşturan farklı ekipleri keşfet ve yeteneklerine ve hedeflerine en uygun olanı bul.",
+    "development": {
+      "title": "Geliştirme",
+      "description": "Geliştiricilerimiz, olağanüstü kullanıcı deneyimleri sunmak için en son teknolojileri kullanarak yüksek performanslı ve yenilikçi web ve mobil uygulamalar oluşturur."
+    },
+    "design": {
+      "title": "Tasarım",
+      "description": "Tasarım ekibimiz, her pikselin projenin görsel kimliğiyle mükemmel bir şekilde hizalandığından emin olarak şık ve sezgisel kullanıcı arayüzleri oluşturur."
+    },
+    "project": {
+      "title": "Proje & Ürün",
+      "description": "Proje yöneticilerimiz ve ürün yöneticilerimiz, projelerin sorunsuz bir şekilde ilerlemesini sağlar ve geliştirilen çözümlerin kullanıcı ihtiyaçlarını mükemmel bir şekilde karşıladığından emin olur."
+    },
+    "marketing": {
+      "title": "Pazarlama & İletişim",
+      "description": "Pazarlama ekibimiz, projelerimizi tanıtmak için çalışır ve iç ve dış kamuoyuna başarılarımız hakkında etkili bir şekilde iletişim kurar."
+    }
+  },
+  "cta": {
+    "title": "Bize katılmaya hazır mısın?",
+    "description": "İş tekliflerimizi incele ve yeteneklerine ve hedeflerine uygun pozisyonu bul. Ekibimize seni bekliyoruz!",
+    "button": "İş tekliflerini gözden geçir"
+  },
+  "error": "İş tekliflerini yüklerken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+}

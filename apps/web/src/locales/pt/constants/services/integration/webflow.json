@@ -1,0 +1,80 @@
+{
+  "name": "Webflow",
+  "description": "Criação de sites modernos com Webflow",
+  "hero": {
+    "title": "Desenvolvimento profissional com Webflow",
+    "description": "Dê vida à sua visão com Webflow. Nossa experiência garante um site moderno e interativo perfeitamente adaptado às suas necessidades, sem comprometer a qualidade."
+  },
+  "features": {
+    "advanced-visual-design": {
+      "title": "Design visual avançado",
+      "description": "Criação de interfaces únicas e animações sofisticadas sem as limitações da codificação tradicional."
+    },
+    "optimal-performance": {
+      "title": "Desempenho ideal",
+      "description": "Sites rápidos e responsivos otimizados para todos os dispositivos e navegadores."
+    },
+    "rich-interactions": {
+      "title": "Interações ricas",
+      "description": "Animações e interações suaves para uma experiência web moderna e envolvente."
+    },
+    "integrated-cms": {
+      "title": "CMS integrado",
+      "description": "Sistema de gerenciamento de conteúdo poderoso e flexível para atualizações fáceis."
+    }
+  },
+  "benefits": {
+    "visual-development": {
+      "title": "Desenvolvimento visual",
+      "description": "Criação de sites complexos sem escrever código, mantendo total controle sobre o design."
+    },
+    "native-seo": {
+      "title": "SEO nativo",
+      "description": "Ferramentas de SEO integradas e estrutura otimizada para motores de busca."
+    },
+    "responsive-by-default": {
+      "title": "Responsivo por padrão",
+      "description": "Design perfeitamente adaptado a todas as telas, desde dispositivos móveis a telas grandes."
+    },
+    "optimized-hosting": {
+      "title": "Hospedagem otimizada",
+      "description": "Infraestrutura robusta em nuvem com CDN global para desempenho ideal."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Quanto tempo leva para criar um site com Webflow?",
+      "answer": "O tempo médio para criar um site com Webflow varia de 3 a 8 semanas, dependendo da complexidade do projeto. Isso inclui design, desenvolvimento de interações, integração de conteúdo e testes."
+    },
+    "self-update": {
+      "question": "Posso atualizar meu site facilmente eu mesmo?",
+      "answer": "Claro! O Webflow possui um CMS intuitivo que personalizamos de acordo com suas necessidades. Nós te treinamos para que você possa gerenciar seu conteúdo de forma independente."
+    },
+    "ecommerce": {
+      "question": "O Webflow é adequado para sites de e-commerce?",
+      "answer": "Sim, o Webflow oferece uma solução de e-commerce robusta que podemos personalizar para criar sua loja online com recursos avançados e design customizado."
+    },
+    "animations-interactions": {
+      "question": "Como vocês lidam com animações e interações?",
+      "answer": "O Webflow permite criar animações e interações sofisticadas sem código. Nós projetamos experiências interativas suaves e profissionais, mantendo o desempenho ideal."
+    },
+    "seo-quality": {
+      "question": "Qual é a qualidade de SEO com o Webflow?",
+      "answer": "O Webflow gera código limpo, otimizado para SEO. Implementamos as melhores práticas de SEO para maximizar sua visibilidade nos motores de busca."
+    }
+  },
+  "complementary": {
+    "custom-integrations": {
+      "title": "Integrações personalizadas",
+      "description": "Conexão com suas ferramentas e serviços de terceiros favoritos."
+    },
+    "digital-strategy": {
+      "title": "Estratégia digital",
+      "description": "Apoio na estratégia da sua presença online."
+    },
+    "webflow-training": {
+      "title": "Treinamento em Webflow",
+      "description": "Treinamento personalizado para dominar a gestão do seu site."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Ett team av passionerade kreatörer som skiner.",
+  "description": "Bestående av olika talanger, från utvecklare till passionerade designers. Var och en bidrar med sin unika touch till våra projekt. Tillsammans bildar vi ett kollektiv där innovation är kärnan i allt vi gör.",
+  "stats": {
+    "experience": "År av erfarenhet",
+    "projects": "Avslutade projekt",
+    "clients": "Nöjda kunder"
+  },
+  "cta": "Läs mer",
+  "card": {
+    "details": "Detaljer"
+  }
+}

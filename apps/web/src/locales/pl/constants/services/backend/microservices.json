@@ -1,0 +1,80 @@
+{
+  "name": "Mikrousługi",
+  "description": "Architektura i rozwój mikrousług",
+  "hero": {
+    "title": "Architektura mikrousług",
+    "description": "Przekształć swoje monolityczne aplikacje w nowoczesne i skalowalne architektury mikrousług. Nasza wiedza gwarantuje elastyczną, odporną i wydajną infrastrukturę."
+  },
+  "features": {
+    "scalable-architecture": {
+      "title": "Skalowalna architektura",
+      "description": "Modularny design dla optymalnej skalowalności."
+    },
+    "continuous-deployment": {
+      "title": "Ciągłe wdrażanie",
+      "description": "Pipeline CI/CD dla płynnych aktualizacji."
+    },
+    "optimal-performance": {
+      "title": "Optymalna wydajność",
+      "description": "Niezależne usługi dla lepszej responsywności."
+    },
+    "high-availability": {
+      "title": "Wysoka dostępność",
+      "description": "Odporną architektura z redundancją."
+    }
+  },
+  "benefits": {
+    "granular-scalability": {
+      "title": "Granularna skalowalność",
+      "description": "Niezależne skalowanie każdej usługi."
+    },
+    "flexible-deployment": {
+      "title": "Elastyczne wdrażanie",
+      "description": "Aktualizacje bez przerwy w świadczeniu usług."
+    },
+    "fault-isolation": {
+      "title": "Izolacja błędów",
+      "description": "Zwiększona odporność dzięki izolacji usług."
+    },
+    "advanced-monitoring": {
+      "title": "Zaawansowane monitorowanie",
+      "description": "Szczegółowa kontrola każdego komponentu."
+    }
+  },
+  "faq": {
+    "when-microservices": {
+      "question": "Kiedy warto przyjąć architekturę mikrousług?",
+      "answer": "Architektura mikrousług jest szczególnie odpowiednia dla złożonych aplikacji wymagających wysokiej skalowalności, niezależnego skalowania komponentów oraz szybkiej ewolucji. Oceniamy razem z Tobą, czy ta architektura odpowiada Twoim specyficznym potrzebom."
+    },
+    "service-communication": {
+      "question": "Jak radzicie sobie z komunikacją między usługami?",
+      "answer": "Wdrażamy solidne wzorce komunikacji: API Gateway, brokerzy wiadomości (Kafka, RabbitMQ), komunikacja synchroniczna (REST, gRPC) i asynchroniczna. Każda metoda jest wybierana zgodnie ze specyficznymi potrzebami wydajności i niezawodności."
+    },
+    "data-consistency": {
+      "question": "Jak zapewniacie spójność danych?",
+      "answer": "Używamy kilku strategii: wzór Saga do rozproszonych transakcji, Event Sourcing dla śledzenia oraz CQRS dla separacji operacji odczytu i zapisu. Ostateczna spójność jest odpowiednio zarządzana."
+    },
+    "infrastructure-monitoring": {
+      "question": "Jak monitorujecie infrastrukturę?",
+      "answer": "Zakładamy kompleksowe monitorowanie: metryki wydajności, rozproszone śledzenie, centralne dzienniki i inteligentne alerty. Niestandardowe pulpity nawigacyjne pozwalają wizualizować stan każdej usługi."
+    },
+    "team-training": {
+      "question": "Czy oferujecie szkolenia dla zespołów?",
+      "answer": "Tak, oferujemy kompleksowe szkolenia dla Twoich zespołów: zasady mikrousług, najlepsze praktyki rozwoju, monitorowanie i rozwiązywanie problemów oraz wykorzystanie narzędzi DevOps."
+    }
+  },
+  "complementary": {
+    "devops-cicd": {
+      "title": "DevOps & CI/CD",
+      "description": "Pełna automatyzacja wdrożeń."
+    },
+    "monitoring-24-7": {
+      "title": "Monitorowanie 24/7",
+      "description": "Ciągła kontrola i powiadomienia w czasie rzeczywistym."
+    },
+    "optimization": {
+      "title": "Optymalizacja",
+      "description": "Ciągłe doskonalenie wydajności."
+    }
+  }
+}

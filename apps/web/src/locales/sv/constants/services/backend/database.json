@@ -1,0 +1,80 @@
+{
+  "name": "Databaser",
+  "description": "Databasarkitektur och optimering",
+  "hero": {
+    "title": "Databasarkitektur",
+    "description": "Designa och optimera dina databaser för optimal prestanda och maximal skalbarhet. Vår expertis garanterar en robust arkitektur som möter dina nuvarande och framtida behov."
+  },
+  "features": {
+    "optimized-architecture": {
+      "title": "Optimerad arkitektur",
+      "description": "Intelligent design av scheman och relationer för optimal prestanda."
+    },
+    "enhanced-security": {
+      "title": "Förbättrad säkerhet",
+      "description": "Robust skydd av känslig data och efterlevnad av standarder."
+    },
+    "high-performance": {
+      "title": "Hög prestanda",
+      "description": "Fråge- och indexoptimering för minimala svarstider."
+    },
+    "backup-recovery": {
+      "title": "Backup & Återställning",
+      "description": "Tillförlitliga backup- och återställningsstrategier."
+    }
+  },
+  "benefits": {
+    "horizontal-scalability": {
+      "title": "Horisontell skalbarhet",
+      "description": "Arkitektur designad för tillväxt och skalning."
+    },
+    "replication": {
+      "title": "Replikering",
+      "description": "Hög tillgänglighet och geografisk fördelning av data."
+    },
+    "advanced-monitoring": {
+      "title": "Avancerad övervakning",
+      "description": "I realtid spårning av prestanda och hälsa."
+    },
+    "optimized-search": {
+      "title": "Optimerad sökning",
+      "description": "Intelligent indexering för snabba sökningar."
+    }
+  },
+  "faq": {
+    "sql-vs-nosql": {
+      "question": "Hur väljer man mellan SQL och NoSQL?",
+      "answer": "Valet beror på dina specifika behov. SQL-databaser är idealiska för strukturerad data med komplexa relationer, medan NoSQL är bäst på att hantera ostrukturerad data och horisontell skalbarhet. Vi vägleder dig till den bästa lösningen baserat på dina användningsfall."
+    },
+    "data-security": {
+      "question": "Hur hanterar ni datasäkerhet?",
+      "answer": "Vi implementerar flera säkerhetslager: kryptering av känslig data, detaljerad åtkomstkontroll, åtkomstgranskning, regelbundna säkerhetskopior och efterlevnad av säkerhetsstandarder (GDPR, etc.). Vi utför också regelbundna säkerhetstester."
+    },
+    "performance-optimization": {
+      "question": "Hur optimerar ni prestanda?",
+      "answer": "Vi använder flera tekniker: schema- och frågaoptimering, intelligent indexering, caching, datapartitionering och kontinuerlig övervakning. Vi analyserar regelbundet prestanda för att identifiera optimeringsmöjligheter."
+    },
+    "migration-services": {
+      "question": "Erbjuder ni migrations tjänster?",
+      "answer": "Ja, vi hanterar databas migrationer från början till slut: analys av befintliga system, planering, testning, datamigrering med minimal avbrott och validering efter migrering. Vi säkerställer datakonsistens och integritet."
+    },
+    "data-availability": {
+      "question": "Hur säkerställer ni datatillgänglighet?",
+      "answer": "Vi sätter upp mycket tillgängliga arkitekturer med replikering, klustring och katastrof återställningsplaner. Vi utför regelbundna säkerhetskopior och testar återställningsprocedurer."
+    }
+  },
+  "complementary": {
+    "data-migration": {
+      "title": "Datamigrering",
+      "description": "Säker överföring från dina befintliga system."
+    },
+    "audit-optimization": {
+      "title": "Revision & Optimering",
+      "description": "Prestanda analys och rekommendationer."
+    },
+    "monitoring-24-7": {
+      "title": "Övervakning 24/7",
+      "description": "Kontinuerlig övervakning och realtidsvarningar."
+    }
+  }
+}

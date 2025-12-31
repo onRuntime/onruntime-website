@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Lokal expertis är inte tillgänglig",
+      "description": "Vi har ännu ingen specifik expertis för den här staden."
+    }
+  },
+  "breadcrumb": {
+    "home": "Start",
+    "local-expertise": "Lokal expertis"
+  },
+  "challenges": {
+    "title": "Digitala utmaningar för företag i {city}",
+    "description": "Företag i {city} står inför specifika utmaningar i sin digitala transformation. Vår expertis gör att vi kan hantera dem effektivt.",
+    "market-issues": "Utmaningar på {region} marknaden",
+    "our-solutions": "Våra skräddarsydda lösningar",
+    "discover-all-services": "Upptäck alla våra tjänster"
+  },
+  "faq": {
+    "title": "Vanliga frågor om webbprojekt i {city}",
+    "description": "Hitta svar på de vanligaste frågorna från företag i {city} om deras digitala projekt.",
+    "questions": {
+      "choose-agency": {
+        "question": "Hur väljer man rätt webbbyrå i {city}?",
+        "answer": "För att välja rätt webbbyrå i {city}, utvärdera deras kunskap om den lokala marknaden, deras portfolio inom din bransch, och deras förmåga att förstå dina specifika mål. Expertis i digitala utmaningar som är specifika för {region} är också en viktig faktor."
+      },
+      "project-costs": {
+        "question": "Vad kostar ett webbprojekt i {city}?",
+        "answer": "Kostnaderna för ett webbprojekt i {city} varierar beroende på komplexitet, funktioner och mål. För en professionell presentationswebbplats kan du räkna med mellan €3,000 och €8,000. För en skräddarsydd webbapplikation eller e-handel börjar priserna vanligtvis vid €10,000. Begär en personlig offert för en exakt uppskattning."
+      },
+      "development-time": {
+        "question": "Hur lång tid tar det att utveckla en webbplats eller applikation för mitt företag i {city}?",
+        "answer": "Utvecklingstidslinjer för ett företag i {city} beror på projektets komplexitet. En presentationswebbplats kan färdigställas på 4-8 veckor, medan en skräddarsydd applikation eller e-handel vanligtvis tar 2-4 månader. Vår agila metodik möjliggör progressiva leveranser så att vi snabbt kan se framsteg."
+      },
+      "remote-work": {
+        "question": "Kan ni arbeta effektivt med mitt företag i {city} på distans?",
+        "answer": "Absolut. Vi samarbetar effektivt med företag i {city} genom vår beprövade metodik för distansarbete. Regelbundna videokonferenser, kraftfulla samarbetsverktyg och vår djupa kunskap om den lokala marknaden i {region} gör att vi kan ge uppföljning lika effektivt som om vi var på plats."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Vad våra kunder i {city} säger",
+    "description": "Upptäck feedback från lokala företag vi har samarbetat med."
+  }
+}

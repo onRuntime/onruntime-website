@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Lokal webbexpertis | Digital utveckling i stora franska städer",
+    "description": "Vi stödjer lokala företag över hela Frankrike med vår expertis inom regionala digitala marknader. Digitala lösningar anpassade till varje region."
+  },
+  "hero": {
+    "title": "Din digitala partner i hela Frankrike",
+    "description": "Vi utvecklar innovativa digitala lösningar anpassade efter specifikationerna för varje fransk regional marknad. Vårt team behärskar lokala digitala utmaningar för att stödja dig effektivt, oavsett var du befinner dig i Frankrike.",
+    "cta": "Diskutera ditt projekt",
+    "secondary-cta": "Upptäck vår lokala expertis"
+  },
+  "expertise": {
+    "title": "Expertis anpassad till varje område",
+    "description": "Vårt team analyserar och förstår lokala digitala ekosystem för att erbjuda dig lösningar som är perfekt anpassade till de ekonomiska och kulturella specifikationerna i din region.",
+    "local-markets": {
+      "title": "Förståelse för lokala marknader",
+      "description": "Vi studerar och behärskar specifikationerna och trenderna för regionala digitala ekosystem."
+    },
+    "remote-work": {
+      "title": "Effektivt distansarbete",
+      "description": "Vårt team samarbetar på distans med ditt företag, oavsett var du är i Frankrike, med samma effektivitet som på plats."
+    },
+    "custom-solutions": {
+      "title": "Skräddarsydda lösningar",
+      "description": "Skräddarsydda digitala strategier som anpassar sig till din lokala kontext och de särskilda egenskaperna hos din regionala marknad."
+    }
+  },
+  "cities": {
+    "title": "Vår expertis i stora franska städer",
+    "description": "Upptäck vår djupa kunskap om lokala marknader och hur den kan gynna ditt företag.",
+    "region-label": "Region",
+    "discover-cta": "Upptäck vår expertis"
+  },
+  "why-us": {
+    "title": "Varför jobba med oss för ditt lokala projekt?",
+    "description": "Vår kunskap om regionala marknader erbjuder många fördelar för ditt företag.",
+    "local-ecosystems": {
+      "title": "Expertis inom lokala ekosystem",
+      "description": "Ett team som förstår marknadens dynamik specifik för din region, vilket möjliggör en perfekt anpassad digital strategi."
+    },
+    "remote-agility": {
+      "title": "Distanskraft",
+      "description": "Effektivt samarbete genom videokonferenser, meddelanden och samarbetsverktyg för en smidig och produktiv arbetsupplevelse."
+    },
+    "localized-strategies": {
+      "title": "Lokaliserade strategier",
+      "description": "Digitala lösningar som tar hänsyn till de kulturella och ekonomiska specifikationerna i ditt område."
+    },
+    "regional-analysis": {
+      "title": "Regional marknadsanalys",
+      "description": "Studie av trender, konkurrens och möjligheter specifika för din geografiska sektor för en optimal digital strategi."
+    }
+  },
+  "services": {
+    "title": "Våra tjänster för alla regioner i Frankrike",
+    "description": "Kompletta digitala lösningar anpassade till specifikationerna för varje lokal marknad.",
+    "design": {
+      "title": "UI/UX-design",
+      "description": "Gränssnitt anpassade till lokala användningar"
+    },
+    "integration": {
+      "title": "Integration",
+      "description": "Regionala CMS- och e-handelslösningar"
+    },
+    "frontend": {
+      "title": "Front-end",
+      "description": "Appliceringar anpassade till dina användare"
+    },
+    "backend": {
+      "title": "Back-end",
+      "description": "Robusta och skalbara infrastrukturer"
+    },
+    "discover-all": "Upptäck alla våra tjänster"
+  },
+  "cta": {
+    "title": "Ett digitalt projekt anpassat till din lokala marknad?",
+    "description": "Kontakta oss för att diskutera ditt projekt. Vår expertis inom lokala marknader gör att vi kan stödja dig effektivt, oavsett var du är i Frankrike.",
+    "contact": "Kontakta oss",
+    "learn-more": "Läs mer om vår metod"
+  }
+}

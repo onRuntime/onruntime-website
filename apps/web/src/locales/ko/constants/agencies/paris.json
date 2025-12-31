@@ -1,0 +1,80 @@
+{
+  "title": "파리의 웹 에이전시 | 웹 개발, 모바일 및 UI/UX 디자인",
+  "description": "파리의 중심부에서 당신의 디지털 파트너입니다. 파리의 비즈니스 성장을 가속화하는 웹 개발, 모바일 및 UI/UX 디자인 솔루션.",
+  "hero": {
+    "title": "수도에서의 디지털 개발",
+    "description": "경쟁력 있는 파리 시장과 역동적인 스타트업, 대기업 및 혁신적인 기업 생태계에 맞춘 혁신적인 솔루션으로 당신의 디지털 존재감을 변모시켜보세요."
+  },
+  "intro": "프랑스 수도 한가운데서 우리의 디지털 전문성이 파리 시장의 요구에 부응하는 혁신적인 웹 및 모바일 솔루션을 제공합니다. 대기업, 사치 브랜드 및 빠르게 성장하는 스타트업 사이에서, 파리는 그 도전과 기회를 완전히 이해하는 역동적인 디지털 생태계를 집약하고 있습니다.",
+  "expertise": "우리는 파리 비즈니스의 높은 기준을 충족하는 프리미엄 디지털 경험을 설계합니다. 우리 팀은 럭셔리 분야를 위한 세련된 사용자 인터페이스, 핀테크를 위한 고성능 애플리케이션, 빠르게 성장하는 스타트업을 위한 확장 가능한 솔루션을 만드는 등, 수도의 특정 과제를 잘 알고 있습니다.",
+  "why-choose-us": "우리는 파리 시장에 대한 깊은 이해를 바탕으로, 수도의 비즈니스 요구에 완벽하게 맞춘 디지털 솔루션을 개발합니다. 기술 혁신, 창의적 우수성 및 비즈니스 이해를 결합하여 매우 경쟁적인 환경에서 효과적으로 지원합니다.",
+  "key-business-sectors": {
+    "startups-tech": "테크 스타트업",
+    "finance": "금융",
+    "luxury": "사치품",
+    "media-communication": "미디어 & 커뮤니케이션"
+  },
+  "local-challenges": {
+    "digital-competition": "차별화된 솔루션이 필요한 강력한 디지털 경쟁이 있는 파리 시장",
+    "agile-tools-startups": "빠르게 성장하는 스타트업을 위한 민첩하고 고성능의 도구 필요",
+    "financial-digitalization": "핀테크와 맞서는 전통 금융 서비스의 디지털화",
+    "luxury-digital-experiences": "파리의 럭셔리 부문을 위한 프리미엄 디지털 경험 개발",
+    "corporate-transformation": "디지털 변환 중인 대기업을 위한 혁신적인 솔루션"
+  },
+  "benefits": {
+    "startup-expertise": "파리 스타트업 생태계에 적합한 최신 기술에 대한 전문성",
+    "premium-solutions": "수도의 시장 높은 기준을 충족하는 프리미엄 솔루션",
+    "luxury-finance-understanding": "맞춤형 디지털 경험을 위한 사치품과 금융 코드 이해",
+    "agility-responsiveness": "파리 비즈니스의 집중적인 속도에 맞춘 민첩성과 반응성",
+    "tech-trends-knowledge": "프랑스 기술 트렌드와 혁신에 대한 깊은 지식"
+  },
+  "primary-stat": {
+    "label": "스타트업 & 기술"
+  },
+  "strengths": {
+    "startup-solutions": {
+      "title": "스타트업 솔루션",
+      "description": "빠르게 성장하는 기업을 위한 확장 가능한 애플리케이션."
+    },
+    "luxury-experiences": {
+      "title": "럭셔리 경험",
+      "description": "고급 브랜드와 서비스에 대한 프리미엄 인터페이스."
+    },
+    "finance-fintech": {
+      "title": "금융 & 핀테크",
+      "description": "파리 금융 부문을 위한 안전한 솔루션."
+    },
+    "international": {
+      "title": "국제적",
+      "description": "글로벌 기업에 맞게 조정된 다국어 개발."
+    }
+  },
+  "focused-services": {
+    "saas-applications": {
+      "name": "SaaS 애플리케이션",
+      "description": "스타트업과 스케일업을 위한 혁신적인 클라우드 솔루션 개발."
+    },
+    "premium-ecommerce": {
+      "name": "프리미엄 전자상거래",
+      "description": "파리 럭셔리 브랜드를 위한 고급 판매 플랫폼."
+    },
+    "innovative-design": {
+      "name": "혁신적인 UI/UX 디자인",
+      "description": "파리에서 돋보일 수 있는 현대적이고 차별화된 사용자 인터페이스."
+    }
+  },
+  "stats": {
+    "startups": {
+      "label": "스타트업",
+      "description": "스타트업을 위한 프로젝트"
+    },
+    "luxury-clients": {
+      "label": "럭셔리 고객",
+      "description": "프리미엄 브랜드"
+    },
+    "average-roi": {
+      "label": "평균 ROI",
+      "description": "투자 수익률"
+    }
+  }
+}

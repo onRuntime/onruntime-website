@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "cta": "讨论你的项目"
+  },
+  "expertise": {
+    "title": "深入的{service}专业知识",
+    "description": "我们结合创造力和技术专业知识，为你提供完美符合目标的{service}解决方案。我们系统的方法和经验让我们能够创造可持续和可扩展的解决方案。"
+  },
+  "services": {
+    "badge": "我们的服务",
+    "title": "定制{service}解决方案",
+    "description": "发现我们完整的{service}服务范围，旨在满足你所有的需求，支持你实现项目目标。",
+    "learnMore": "了解更多"
+  },
+  "benefits": {
+    "badge": "好处",
+    "title": "为什么选择我们的{service}服务？"
+  },
+  "process": {
+    "badge": "我们的流程",
+    "title": "我们如何工作",
+    "description": "一种综合方法，结合我们不同的专业领域，以获得最佳结果。"
+  },
+  "cta": {
+    "title": "准备好让你的项目成真了吗？",
+    "description": "联系我们，讨论你的需求，获取个性化报价。",
+    "button": "立即开始"
+  }
+}

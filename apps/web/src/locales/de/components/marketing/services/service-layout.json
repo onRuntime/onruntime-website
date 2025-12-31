@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "cta": "Diskutiere dein Projekt"
+  },
+  "cards": {
+    "custom": {
+      "title": "Maßgeschneiderte Lösungen",
+      "description": "An deine Bedürfnisse angepasst"
+    },
+    "support": {
+      "title": "Fachkundige Unterstützung",
+      "description": "Von unseren Spezialisten"
+    },
+    "technologies": {
+      "title": "Moderne Technologien",
+      "description": "Immer auf dem neuesten Stand"
+    },
+    "scalability": {
+      "title": "Garantierte Skalierbarkeit",
+      "description": "Für dein Wachstum"
+    }
+  },
+  "cta": {
+    "title": "Bereit, dein Projekt zum Leben zu erwecken?",
+    "description": "Kontaktiere uns, um deine Anforderungen zu besprechen und ein persönliches Angebot zu erhalten.",
+    "button": "Jetzt starten"
+  }
+}

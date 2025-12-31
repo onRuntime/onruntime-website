@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "Dijital hizmetler ajansı: web, mobil ve UI/UX tasarım",
+    "description": "Tam web geliştirme, mobil, UI/UX tasarımı ve CMS entegrasyon hizmetleri. Ajansımız, hedeflerinize özel çözümler oluşturur."
+  },
+  "hero": {
+    "title": "Dijital projeleriniz için özel çözümler",
+    "description": "Fikir aşamasından teslimata kadar, projenizin her aşamasında uzmanlığımız ve tutkumuzla sizi destekliyoruz.",
+    "cta": "Bir proje başlat"
+  },
+  "technologies": {
+    "title": "Teknoloji yelpazemiz",
+    "description": "Tüm ihtiyaçlarınızı karşılamak için geniş bir modern teknoloji yelpazesine hakimiz."
+  },
+  "process": {
+    "title": "Çalışma sürecimiz",
+    "description": "Projenizi başarıya ulaştırmak için kanıtlanmış ve esnek bir metodoloji."
+  }
+}

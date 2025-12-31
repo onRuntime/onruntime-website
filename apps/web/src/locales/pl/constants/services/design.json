@@ -1,0 +1,49 @@
+{
+  "name": "Projektowanie UI/UX",
+  "description": "Tworzenie nowoczesnych interfejsów i optymalnych doświadczeń użytkownika",
+  "benefits": {
+    "user-centered-design": {
+      "title": "Projektowanie UI/UX skoncentrowane na użytkowniku",
+      "description": "Podejście, które stawia potrzeby użytkowników w centrum naszych projektów, potwierdzone interaktywnymi prototypami."
+    },
+    "creative-innovation": {
+      "title": "Kreatywna innowacja",
+      "description": "Kreatywne rozwiązania UI/UX i innowacyjne prototypy, które wyróżniają Twoją markę, jednocześnie respektując standardy."
+    },
+    "iterative-prototyping": {
+      "title": "Iteracyjne prototypowanie",
+      "description": "Metodologia oparta na szybkich prototypach i częstych iteracjach w celu udoskonalenia doświadczenia użytkownika."
+    },
+    "business-objectives": {
+      "title": "Cele biznesowe",
+      "description": "Projektowanie UI/UX dostosowane do Twoich celów biznesowych, potwierdzone testowaniem użytkowników na prototypach."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Analiza potrzeb",
+      "description": "Kluczowy pierwszy krok, w którym analizujemy Twoje potrzeby, markę i cele biznesowe, aby zdefiniować kierunek UI/UX."
+    },
+    "research-moodboard": {
+      "title": "Badania i moodboard",
+      "description": "Tworzenie moodboardów i badanie możliwych kierunków twórczych. Definiowanie ogólnego kierunku artystycznego."
+    },
+    "wireframes": {
+      "title": "Wireframe'y",
+      "description": "Projektowanie wireframe'ów w celu zatwierdzenia struktury, hierarchii i architektury informacji."
+    },
+    "interface-design": {
+      "title": "Projektowanie interfejsu",
+      "description": "Tworzenie finalnych makiet z poszanowaniem wytycznych Twojej marki. Szczególna uwaga poświęcona komponentom i ich ponownemu wykorzystaniu."
+    },
+    "prototyping": {
+      "title": "Prototypowanie",
+      "description": "Tworzenie prototypów w celu testowania interakcji i walidacji ścieżek użytkownika."
+    },
+    "development": {
+      "title": "Rozwój",
+      "description": "Przekształcanie makiet w funkcjonalne interfejsy, ze szczególnym uwzględnieniem zdefiniowanych animacji."
+    }
+  },
+  "process-services": {}
+}

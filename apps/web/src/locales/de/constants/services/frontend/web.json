@@ -1,0 +1,80 @@
+{
+  "name": "Webanwendungen",
+  "description": "Moderne Webanwendungsentwicklung mit React und Next.js",
+  "hero": {
+    "title": "Frontend-Webentwicklung",
+    "description": "Erstelle moderne, responsive und leistungsstarke Webanwendungen mit den neuesten Frontend-Technologien. Unser Fachwissen garantiert dir ein außergewöhnliches Benutzererlebnis."
+  },
+  "features": {
+    "react-nextjs": {
+      "title": "React & Next.js",
+      "description": "Entwicklung mit modernen Frameworks für leistungsfähige und skalierbare Anwendungen."
+    },
+    "responsive-design": {
+      "title": "Responsive Design",
+      "description": "Adaptive Schnittstellen für ein optimales Erlebnis auf allen Geräten."
+    },
+    "web-performance": {
+      "title": "Web-Performance",
+      "description": "Fortgeschrittene Optimierung für schnelle Ladezeiten und reibungslose Erfahrungen."
+    },
+    "modern-ui-ux": {
+      "title": "Moderne UI/UX",
+      "description": "Elegante und intuitiv gestaltete Benutzeroberflächen, die den neuesten Trends folgen."
+    }
+  },
+  "benefits": {
+    "reactive-apps": {
+      "title": "Reaktive Anwendungen",
+      "description": "Dynamische und reaktive Schnittstellen für ein flüssiges Benutzererlebnis."
+    },
+    "mobile-first": {
+      "title": "Mobile first",
+      "description": "Design zunächst für mobile Geräte und dann auf größere Bildschirme angepasst."
+    },
+    "optimal-performance": {
+      "title": "Optimale Leistung",
+      "description": "Fortgeschrittene Optimierung für minimale Ladezeiten."
+    },
+    "seo-optimized": {
+      "title": "SEO optimiert",
+      "description": "Struktur optimiert für hervorragende natürliche Auffindbarkeit."
+    }
+  },
+  "faq": {
+    "technologies": {
+      "question": "Welche Technologien nutzt ihr für die Frontend-Entwicklung?",
+      "answer": "Wir nutzen hauptsächlich React mit Next.js sowie TypeScript für robusteren Code. Außerdem integrieren wir moderne Tools wie Tailwind CSS für das Styling und verschiedene Bibliotheken fürAnimationen und Interaktionen."
+    },
+    "performance": {
+      "question": "Wie verwaltet ihr die Leistung von Webanwendungen?",
+      "answer": "Wir wenden Best Practices für die Optimierung an: Code-Splitting, Lazy Loading, Bildoptimierung, intelligentes Caching und wir nutzen Leistungsmesstools, um optimale Ladezeiten sicherzustellen."
+    },
+    "seo": {
+      "question": "Bietet ihr SEO-Lösungen an?",
+      "answer": "Ja, wir entwickeln Anwendungen mit SEO im Hinterkopf: serverseitiges Rendern (SSR), statische Seitengenerierung, dynamische Metadaten, semantische Struktur und Suchmaschinenoptimierung."
+    },
+    "browser-compatibility": {
+      "question": "Wie stellt ihr die Kompatibilität mit verschiedenen Browsern sicher?",
+      "answer": "Wir testen in den gängigsten Browsern und Versionen, nutzen moderne Transpilationstools und richten geeignete Fallbacks ein, um ein konsistentes Erlebnis zu gewährleisten."
+    },
+    "maintenance": {
+      "question": "Bietet ihr Wartung für entwickelte Anwendungen an?",
+      "answer": "Ja, wir bieten verschiedene Wartungspläne an, einschließlich Sicherheitsupdates, kontinuierlicher Leistungsoptimierung und Weiterentwicklung von Funktionen."
+    }
+  },
+  "complementary": {
+    "ui-ux-design": {
+      "title": "UI/UX-Design",
+      "description": "Gestaltung modern und ergonomisch gestalteter Benutzeroberflächen."
+    },
+    "api-integration": {
+      "title": "API-Integration",
+      "description": "Verbindung zu euren bestehenden Backend-Systemen und -diensten."
+    },
+    "internationalization": {
+      "title": "Internationalisierung",
+      "description": "Anpassung eurer Anwendung für ein internationales Publikum."
+    }
+  }
+}

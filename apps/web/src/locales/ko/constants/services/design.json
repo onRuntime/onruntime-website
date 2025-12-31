@@ -1,0 +1,49 @@
+{
+  "name": "UI/UX 디자인",
+  "description": "현대적인 인터페이스와 최적의 사용자 경험을 만들어요.",
+  "benefits": {
+    "user-centered-design": {
+      "title": "사용자 중심 UI/UX 디자인",
+      "description": "사용자의 필요를 우리 디자인의 중심에 두는 접근법이에요. 인터랙티브 프로토타입으로 검증돼요."
+    },
+    "creative-innovation": {
+      "title": "창의적인 혁신",
+      "description": "기준을 존중하면서 브랜드를 돋보이게 하는 창의적인 UI/UX 솔루션과 혁신적인 프로토타입이에요."
+    },
+    "iterative-prototyping": {
+      "title": "반복적인 프로토타이핑",
+      "description": "사용자 경험을 개선하기 위해 빠른 프로토타입과 빈번한 반복을 기반으로 한 방법론이에요."
+    },
+    "business-objectives": {
+      "title": "비즈니스 목표",
+      "description": "사용자 테스트로 검증된 비즈니스 목표에 맞춰진 UI/UX 디자인이에요."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "필요 분석",
+      "description": "UI/UX 방향성을 정의하기 위해 고객의 필요, 브랜드 그리고 비즈니스 목표를 분석하는 중요한 첫 단계에요."
+    },
+    "research-moodboard": {
+      "title": "리서치 및 무드보드",
+      "description": "무드보드를 만들고 가능한 창의적인 방향을 탐색해요. 전체적인 예술적 방향을 정의해요."
+    },
+    "wireframes": {
+      "title": "와이어프레임",
+      "description": "구성과 계층, 정보 구조를 검증하기 위해 와이어프레임을 디자인해요."
+    },
+    "interface-design": {
+      "title": "인터페이스 디자인",
+      "description": "브랜드 가이드를 준수하면서 최종 목업을 만들어요. 컴포넌트와 재사용성에 특별히 신경 써요."
+    },
+    "prototyping": {
+      "title": "프로토타이핑",
+      "description": "상호작용을 테스트하고 사용자 여정을 검증하기 위해 프로토타입을 만들어요."
+    },
+    "development": {
+      "title": "개발",
+      "description": "정해진 애니메이션에 특히 주의하면서 목업을 기능적인 인터페이스로 변환해요."
+    }
+  },
+  "process-services": {}
+}

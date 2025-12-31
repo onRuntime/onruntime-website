@@ -1,0 +1,79 @@
+{
+  "title": "Webontwikkeling in Montpellier | Digitale oplossingen voor Languedoc bedrijven",
+  "description": "Maak je website of mobiele applicatie in Montpellier. Aangepaste digitale oplossingen voor bedrijven in Montpellier, afgestemd op de lokale uitdagingen van je sector.",
+  "hero": {
+    "title": "Web & Mobiele ontwikkeling in Montpellier",
+    "description": "Wij helpen bedrijven in Montpellier en de regio Languedoc bij de digitalisering met maatwerk weboplossingen, perfect aangepast aan de specifieke uitdagingen van de regionale markt."
+  },
+  "intro": "Een dynamische stad op het kruispunt van Mediterrane en Languedoc invloeden, Montpellier valt op door zijn gezondheid innovatie ecosysteem, prestigieuze universiteiten en levensstijl. Onze digitale expertise stelt bedrijven in Montpellier in staat om deze rijkdom te benutten en zich te onderscheiden in een concurrerende omgeving.",
+  "expertise": "Ons team ontwerpt websites, applicaties en digitale oplossingen die perfect zijn afgestemd op bedrijven in Montpellier en de regio. We begrijpen de specifieke uitdagingen van jouw lokale markt, of het nu gaat om de gezondheidssector, onderwijs of de terroir van Languedoc, en bieden digitale oplossingen die jouw expertise en regionale wortels laten zien.",
+  "why-choose-us": "Onze diepe kennis van de Montpellier markt stelt ons in staat om digitale oplossingen te ontwikkelen die perfect zijn afgestemd op de specifieke uitdagingen van lokale bedrijven. We begrijpen de balans tussen innovatie en traditie die Montpellier kenmerkt, en integreren deze kennis in elk project om authentieke en hoogpresterende digitale ervaringen te creëren.",
+  "key-business-sectors": {
+    "health-biotech": "Gezondheid & Biotechnologie",
+    "higher-education": "Hoger onderwijs",
+    "viticulture": "Wijnbouw",
+    "tourism": "Toerisme"
+  },
+  "local-challenges": {
+    "biotech-health-digitalization": "Digitalisering van de groeiende biotechnologie- en gezondheidssector",
+    "innovative-educational-platforms": "Behoefte aan innovatieve educatieve platforms voor talrijke universiteiten en scholen",
+    "wine-heritage-digital-showcase": "Digitale etalage van wijnheritage en lokale producten",
+    "tourism-adaptation": "Aanpassing van toerismebedrijven aan de concurrentie uit de Middellandse Zee"
+  },
+  "benefits": {
+    "health-sector-solutions": "Maatwerkoplossingen voor innovatieve bedrijven in de gezondheidssector",
+    "educational-platforms-expertise": "Sterke expertise in educatieve platforms en e-learningtools",
+    "languedoc-market-knowledge": "Diepe kennis van de Languedoc-markt en zijn specificiteiten",
+    "regional-products-ui": "Gebruikersinterfaces geoptimaliseerd om regionale producten te tonen",
+    "personalized-support": "Persoonlijke ondersteuning gedurende je digitale project"
+  },
+  "primary-stat": {
+    "label": "biotechnologieën"
+  },
+  "strengths": {
+    "connected-health": {
+      "title": "Verbonden Gezondheid",
+      "description": "Digitale oplossingen voor startups en bedrijven in de levenswetenschappen."
+    },
+    "elearning": {
+      "title": "E-learning",
+      "description": "Educatieve platforms voor universiteiten en opleidingsinstellingen."
+    },
+    "digital-terroir": {
+      "title": "Digitaal Terroir",
+      "description": "Sites en e-commerce voor wijnhuizen en lokale producenten."
+    },
+    "regional-tourism": {
+      "title": "Regionaal Toerisme",
+      "description": "Digitale ervaringen om het erfgoed van Languedoc te tonen."
+    }
+  },
+  "focused-services": {
+    "health-applications": {
+      "name": "Gezondheidsapps",
+      "description": "Maatwerkoplossingen voor startups en bedrijven in de levenswetenschappen."
+    },
+    "educational-platforms": {
+      "name": "Educatieve Platforms",
+      "description": "Digitale leertools voor onderwijsinstellingen."
+    },
+    "terroir-ecommerce": {
+      "name": "Terroir E-commerce",
+      "description": "Online winkels voor lokale producenten en wijnhuizen."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Jaren ervaring"
+    },
+    "satisfaction": {
+      "label": "Tevredenheid",
+      "description": "Tevreden klanten"
+    },
+    "average-time": {
+      "label": "Gemiddelde tijd",
+      "description": "Weken voor afronding"
+    }
+  }
+}

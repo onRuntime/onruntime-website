@@ -1,0 +1,20 @@
+{
+  "retry": "재시도",
+  "no-results": "귀하의 검색과 일치하는 구직 정보가 없습니다.",
+  "count": "구직 정보(들) 사용 가능",
+  "published": "게시일",
+  "view-offer": "제안 보기",
+  "employment-type": {
+    "full-time": "풀타임",
+    "part-time": "파트타임",
+    "contract": "계약직",
+    "temporary": "일시직",
+    "internship": "인턴십",
+    "apprenticeship": "견습"
+  },
+  "workplace-type": {
+    "hybrid": "하이브리드",
+    "remote": "원격",
+    "on-site": "사내"
+  }
+}

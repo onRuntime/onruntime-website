@@ -1,0 +1,80 @@
+{
+  "name": "微服务",
+  "description": "微服务架构和开发",
+  "hero": {
+    "title": "微服务架构",
+    "description": "把你的单体应用转变为现代且可伸缩的微服务架构。我们的专业知识保证灵活性、弹性和高性能的基础设施。"
+  },
+  "features": {
+    "scalable-architecture": {
+      "title": "可伸缩的架构",
+      "description": "模块化设计以实现最佳的可伸缩性。"
+    },
+    "continuous-deployment": {
+      "title": "持续部署",
+      "description": "CI/CD管道实现平滑更新。"
+    },
+    "optimal-performance": {
+      "title": "最佳性能",
+      "description": "独立服务提高响应能力。"
+    },
+    "high-availability": {
+      "title": "高可用性",
+      "description": "具有冗余的弹性架构。"
+    }
+  },
+  "benefits": {
+    "granular-scalability": {
+      "title": "细粒度可伸缩性",
+      "description": "每个服务独立伸缩。"
+    },
+    "flexible-deployment": {
+      "title": "灵活部署",
+      "description": "更新时服务不中断。"
+    },
+    "fault-isolation": {
+      "title": "故障隔离",
+      "description": "通过服务隔离增强韧性。"
+    },
+    "advanced-monitoring": {
+      "title": "高级监控",
+      "description": "对每个组件进行详细监控。"
+    }
+  },
+  "faq": {
+    "when-microservices": {
+      "question": "何时采用微服务架构？",
+      "answer": "微服务架构特别适用于需要高可伸缩性、独立组件伸缩和快速演变的复杂应用。我们会与你一起评估这种架构是否符合你的特定需求。"
+    },
+    "service-communication": {
+      "question": "你们如何处理服务之间的通信？",
+      "answer": "我们实施强大的通信模式：API网关、消息代理（Kafka、RabbitMQ）、同步（REST、gRPC）和异步通信。每种方法都是根据特定的性能和可靠性需求选择的。"
+    },
+    "data-consistency": {
+      "question": "你们如何确保数据一致性？",
+      "answer": "我们采用多种策略：针对分布式事务的Saga模式、用于可追溯性的事件溯源，以及用于读写操作分离的CQRS。最终一致性会得到适当管理。"
+    },
+    "infrastructure-monitoring": {
+      "question": "你们如何监控基础设施？",
+      "answer": "我们建立全面的监控：性能指标、分布式追踪、集中日志和智能警报。自定义仪表板可以可视化每个服务的健康状态。"
+    },
+    "team-training": {
+      "question": "你们提供团队培训吗？",
+      "answer": "是的，我们为你的团队提供全面培训：微服务原则、开发最佳实践、监控和故障排除，以及DevOps工具的使用。"
+    }
+  },
+  "complementary": {
+    "devops-cicd": {
+      "title": "DevOps与CI/CD",
+      "description": "完整的部署自动化。"
+    },
+    "monitoring-24-7": {
+      "title": "24/7监控",
+      "description": "持续监控和实时报警。"
+    },
+    "optimization": {
+      "title": "优化",
+      "description": "持续提升性能。"
+    }
+  }
+}

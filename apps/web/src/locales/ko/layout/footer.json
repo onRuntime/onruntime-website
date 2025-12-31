@@ -1,0 +1,28 @@
+{
+  "tagline": "전 세계의 창의적인 스튜디오.",
+  "location": "하지만 <strong>루앙</strong>과 <strong>파리</strong>에서 만날 수 있어.",
+  "nav": {
+    "navigation": "탐색",
+    "resources": "자료",
+    "other": "기타",
+    "social": "소셜 미디어"
+  },
+  "links": {
+    "services": "우리의 서비스",
+    "projects": "우리의 프로젝트",
+    "npo": "협회",
+    "careers": "커리어",
+    "blog": "블로그",
+    "glossary": "용어집",
+    "community": "커뮤니티",
+    "status": "상태",
+    "contact": "연락하기",
+    "terms": "서비스 약관",
+    "privacy": "개인정보처리방침",
+    "company": "회사 정보"
+  },
+  "status": "모든 서비스가 운영 중이야",
+  "language": {
+    "label": "언어"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Aplikacje internetowe",
+  "description": "Nowoczesny rozwój aplikacji internetowych z użyciem React i Next.js",
+  "hero": {
+    "title": "Rozwój frontendu",
+    "description": "Twórz nowoczesne, responsywne i wydajne aplikacje internetowe z najnowszymi technologiami frontendowymi. Nasza wiedza gwarantuje wyjątkowe doświadczenie użytkownika."
+  },
+  "features": {
+    "react-nextjs": {
+      "title": "React & Next.js",
+      "description": "Rozwój z użyciem nowoczesnych frameworków do wydajnych i skalowalnych aplikacji."
+    },
+    "responsive-design": {
+      "title": "Responsywność",
+      "description": "Adaptacyjne interfejsy dla optymalnego doświadczenia na wszystkich urządzeniach."
+    },
+    "web-performance": {
+      "title": "Wydajność aplikacji internetowych",
+      "description": "Zaawansowana optymalizacja dla szybkich czasów ładowania i płynnego działania."
+    },
+    "modern-ui-ux": {
+      "title": "Nowoczesny UI/UX",
+      "description": "Eleganckie i intuicyjne interfejsy użytkownika zgodne z najnowszymi trendami."
+    }
+  },
+  "benefits": {
+    "reactive-apps": {
+      "title": "Reaktywne aplikacje",
+      "description": "Dynamiczne i reaktywne interfejsy dla płynnego doświadczenia użytkownika."
+    },
+    "mobile-first": {
+      "title": "Mobile first",
+      "description": "Projektowanie z myślą o urządzeniach mobilnych, a następnie dostosowywanie do większych ekranów."
+    },
+    "optimal-performance": {
+      "title": "Optymalna wydajność",
+      "description": "Zaawansowana optymalizacja dla minimalnych czasów ładowania."
+    },
+    "seo-optimized": {
+      "title": "Optymalizacja pod SEO",
+      "description": "Struktura zoptymalizowana dla doskonałego pozycjonowania w wynikach wyszukiwania."
+    }
+  },
+  "faq": {
+    "technologies": {
+      "question": "Jakich technologii używacie do rozwoju frontendu?",
+      "answer": "Głównie używamy React z Next.js oraz TypeScript dla bardziej solidnego kodu. Integrujemy też nowoczesne narzędzia takie jak Tailwind CSS do stylizacji i różne biblioteki do animacji i interakcji."
+    },
+    "performance": {
+      "question": "Jak zarządzacie wydajnością aplikacji internetowych?",
+      "answer": "Stosujemy najlepsze praktyki optymalizacji: dzielenie kodu, lazy loading, optymalizacja obrazów, inteligentne cache'owanie, a także korzystamy z narzędzi do pomiaru wydajności, aby zapewnić optymalne czasy ładowania."
+    },
+    "seo": {
+      "question": "Czy oferujecie rozwiązania SEO?",
+      "answer": "Tak, rozwijamy aplikacje z myślą o SEO: renderowanie po stronie serwera (SSR), generowanie stron statycznych, dynamiczne meta-dane, struktura semantyczna i optymalizacja pod kątem wyszukiwarek."
+    },
+    "browser-compatibility": {
+      "question": "Jak zapewniacie zgodność z różnymi przeglądarkami?",
+      "answer": "Testujemy na głównych przeglądarkach i wersjach, używamy nowoczesnych narzędzi do transpilacji i ustawiamy odpowiednie fallbacki, aby zapewnić spójne doświadczenie."
+    },
+    "maintenance": {
+      "question": "Czy oferujecie konserwację rozwiniętych aplikacji?",
+      "answer": "Tak, oferujemy różne plany konserwacji, w tym aktualizacje bezpieczeństwa, ciągłą optymalizację wydajności i ewolucję funkcji."
+    }
+  },
+  "complementary": {
+    "ui-ux-design": {
+      "title": "Projektowanie UI/UX",
+      "description": "Projekt nowoczesnych i ergonomicznych interfejsów użytkownika."
+    },
+    "api-integration": {
+      "title": "Integracja API",
+      "description": "Połączenie z Twoimi istniejącymi systemami i usługami backendowymi."
+    },
+    "internationalization": {
+      "title": "Internacjonalizacja",
+      "description": "Dostosowanie Twojej aplikacji do międzynarodowej publiczności."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "RESTful API's",
+  "description": "Ontwerp en ontwikkeling van API's met hoge prestaties",
+  "hero": {
+    "title": "RESTful & GraphQL API's",
+    "description": "Ontwikkel moderne, veilige en krachtige API's voor je applicaties. Onze expertise garandeert robuuste en schaalbare interfaces die aan je specifieke behoeften voldoen."
+  },
+  "features": {
+    "rest-graphql": {
+      "title": "REST & GraphQL",
+      "description": "Ontwikkeling van moderne API's met industriestandaarden."
+    },
+    "advanced-security": {
+      "title": "Geavanceerde beveiliging",
+      "description": "Robuste bescherming tegen kwetsbaarheden en aanvallen."
+    },
+    "optimal-performance": {
+      "title": "Optimale prestaties",
+      "description": "Architectuur geoptimaliseerd voor minimale responstijden."
+    },
+    "complete-documentation": {
+      "title": "Volledige documentatie",
+      "description": "Duidelijke en interactieve documentatie voor eenvoudige integratie."
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "Hoge beschikbaarheid",
+      "description": "Redundante infrastructuur voor maximale beschikbaarheid."
+    },
+    "scalability": {
+      "title": "Schaalbaarheid",
+      "description": "Architectuur ontworpen om groei te ondersteunen."
+    },
+    "advanced-monitoring": {
+      "title": "Geavanceerde monitoring",
+      "description": "Realtime tracking van prestatie en gezondheid."
+    },
+    "intelligent-cache": {
+      "title": "Intelligente cache",
+      "description": "Prestatieoptimalisatie met geavanceerde caching."
+    }
+  },
+  "faq": {
+    "rest-vs-graphql": {
+      "question": "Wat is het verschil tussen REST en GraphQL?",
+      "answer": "REST is een traditionele architectuur waarbij elk endpoint overeenkomt met een specifieke bron, terwijl GraphQL klanten in staat stelt exact de gegevens op te vragen die ze nodig hebben. We adviseren je over de beste aanpak op basis van je specifieke behoeften en gebruiksgevallen."
+    },
+    "api-security": {
+      "question": "Hoe zorg je voor API-beveiliging?",
+      "answer": "We implementeren meerdere beveiligingslagen: JWT-authenticatie, SSL/TLS-encryptie, rate limiting, gegevensvalidatie, bescherming tegen injecties en CSRF-aanvallen. We volgen ook de aanbevelingen van OWASP voor API-beveiliging."
+    },
+    "scaling": {
+      "question": "Hoe ga je om met schaalvergroting?",
+      "answer": "We ontwerpen horizontaal schaalbare API's, met load balancing, gedistribueerde caching en query-optimalisatie. De architectuur is ontworpen om aanzienlijke verkeersgroei te ondersteunen."
+    },
+    "documentation": {
+      "question": "Welke documentatie bied je aan?",
+      "answer": "We bieden uitgebreide documentatie: OpenAPI/Swagger technische documentatie, integratiehandleidingen, codevoorbeelden en een testomgeving. Documentatie wordt bijgewerkt bij elke evolutie van de API."
+    },
+    "post-deployment-support": {
+      "question": "Bied je ondersteuning na implementatie?",
+      "answer": "Ja, we bieden verschillende onderhoudsplannen, waaronder: 24/7 monitoring, technische ondersteuning, continue prestatieoptimalisatie, beveiligingsupdates en functionele evoluties."
+    }
+  },
+  "complementary": {
+    "advanced-analytics": {
+      "title": "Geavanceerde analytics",
+      "description": "Gedetailleerde analyse van gebruik en prestaties."
+    },
+    "data-migration": {
+      "title": "Gegevensmigratie",
+      "description": "Migratie van je bestaande systemen."
+    },
+    "integration": {
+      "title": "Integratie",
+      "description": "Ondersteuning voor integratie met je applicaties."
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "title": "尼斯的网页开发 | 为蔚蓝海岸企业提供数字解决方案",
+  "description": "在尼斯创建您的网站或移动应用。为蔚蓝海岸企业量身定制的数字解决方案，针对您行业的本地挑战。",
+  "hero": {
+    "title": "尼斯的网页与移动开发",
+    "description": "我们帮助尼斯和法国蔚蓝海岸的企业实现数字化，提供完美适应蔚蓝市场特定挑战的定制化网页解决方案。"
+  },
+  "intro": "在地中海和阿尔卑斯山之间，尼斯享有国际影响力和多元化经济，在这里，旅游与创新相遇。我们的数字专业知识使尼斯的企业能够在竞争激烈的环境中脱颖而出，形象和卓越至关重要。",
+  "expertise": "我们的团队设计的网站、应用和电子商务解决方案，为尼斯和法国蔚蓝海岸的企业量身定制。我们了解您本地市场的高标准，并提供增强该地区独特优质定位的数字解决方案。",
+  "why-choose-us": "我们对蔚蓝市场的深刻了解使我们能够开发完美适应本地企业特定挑战的数字解决方案。我们了解尼斯的国际化及其卓越声誉，并将这些方面融入每个项目，创造精致高效的数字体验。",
+  "key-business-sectors": {
+    "luxury-tourism": "奢华旅游",
+    "real-estate": "房地产",
+    "events": "活动",
+    "health-wellness": "健康与养生"
+  },
+  "local-challenges": {
+    "luxury-tourism-digitalization": "法国蔚蓝海岸高端旅游行业的数字化",
+    "innovative-real-estate-solutions": "对国际市场需求高的创新房地产解决方案的需求",
+    "events-digital-showcase": "活动（节日、会议、展览）的数字展示",
+    "health-wellness-transformation": "在著名于生活质量的地区，健康与养生行业的数字转型"
+  },
+  "benefits": {
+    "international-clientele-solutions": "针对要求高的国际客户的定制解决方案",
+    "premium-interfaces-expertise": "在高端界面和用户体验方面的专业知识强",
+    "azurean-market-knowledge": "对蔚蓝市场及其特性的深入了解",
+    "multilingual-applications": "适应法国蔚蓝海岸国际客户的多语言应用",
+    "personalized-support": "在整个数字项目中提供个性化支持"
+  },
+  "primary-stat": {
+    "label": "奢华旅游"
+  },
+  "strengths": {
+    "premium-experience": {
+      "title": "高端体验",
+      "description": "为奢华旅游和酒店提供高端网站和应用。"
+    },
+    "digital-real-estate": {
+      "title": "数字房地产",
+      "description": "为房地产代理商和开发商提供创新解决方案。"
+    },
+    "event-platforms": {
+      "title": "活动平台",
+      "description": "为节日、会议和重要活动提供网站和应用。"
+    },
+    "connected-wellness": {
+      "title": "连接健康",
+      "description": "为诊所、水疗中心和养生中心提供数字解决方案。"
+    }
+  },
+  "focused-services": {
+    "premium-websites": {
+      "name": "高端网站",
+      "description": "为酒店、餐厅和奢侈精品店提供高端数字展示。"
+    },
+    "real-estate-applications": {
+      "name": "房地产应用",
+      "description": "用于展示和管理卓越物业的定制解决方案。"
+    },
+    "visual-identity": {
+      "name": "视觉识别",
+      "description": "为知名品牌和机构提供优雅精致的UI/UX设计。"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "专业知识",
+      "description": "多年的经验"
+    },
+    "satisfaction": {
+      "label": "满意度",
+      "description": "满意的客户"
+    },
+    "average-time": {
+      "label": "平均时间",
+      "description": "完成周数"
+    }
+  }
+}

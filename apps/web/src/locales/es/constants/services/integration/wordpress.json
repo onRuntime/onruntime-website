@@ -1,0 +1,80 @@
+{
+  "name": "WordPress",
+  "description": "Desarrollo de sitios web personalizados en WordPress",
+  "hero": {
+    "title": "Desarrollo personalizado de WordPress",
+    "description": "Crea un sitio web profesional que te represente con WordPress. Nuestra experiencia garantiza un sitio de alto rendimiento y seguro, perfectamente adaptado a tus necesidades."
+  },
+  "features": {
+    "custom-themes": {
+      "title": "Temas personalizados",
+      "description": "Creación de temas personalizados que reflejan tu identidad y satisfacen tus necesidades."
+    },
+    "optimized-performance": {
+      "title": "Rendimiento optimizado",
+      "description": "Optimización avanzada para garantizar tiempos de carga rápidos y una experiencia de usuario fluida."
+    },
+    "enhanced-security": {
+      "title": "Seguridad mejorada",
+      "description": "Implementación de las mejores prácticas de seguridad para proteger tu sitio y tus datos."
+    },
+    "simplified-administration": {
+      "title": "Administración simplificada",
+      "description": "Interfaz de administración personalizada e intuitiva para la gestión fácil de contenidos."
+    }
+  },
+  "benefits": {
+    "intuitive-administration": {
+      "title": "Administración intuitiva",
+      "description": "Interfaz de gestión simple e intuitiva para administrar tu contenido de manera independiente."
+    },
+    "seo-optimized": {
+      "title": "Optimizado para SEO",
+      "description": "Estructura optimizada para búsqueda natural e integración de herramientas SEO."
+    },
+    "powerful-extensions": {
+      "title": "Extensiones poderosas",
+      "description": "Acceso a miles de plugins para ampliar la funcionalidad de tu sitio."
+    },
+    "maximum-performance": {
+      "title": "Máximo rendimiento",
+      "description": "Optimización de rendimiento avanzada para una experiencia de usuario óptima."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "¿Cuánto tiempo tarda en crear un sitio de WordPress?",
+      "answer": "El tiempo promedio para crear un sitio de WordPress varía de 4 a 12 semanas, dependiendo de la complejidad del proyecto. Esto incluye la fase de diseño, desarrollo de temas personalizados, integración de contenido y pruebas."
+    },
+    "migration": {
+      "question": "¿Puedes migrar mi sitio existente a WordPress?",
+      "answer": "Sí, ofrecemos un servicio completo de migración a WordPress, incluyendo la transferencia de contenido, imágenes y funciones, mientras preservamos tu SEO."
+    },
+    "maintenance-updates": {
+      "question": "¿Cómo manejan el mantenimiento y las actualizaciones?",
+      "answer": "Ofrecemos diferentes planes de mantenimiento que incluyen actualizaciones de seguridad, copias de seguridad regulares, actualizaciones de WordPress y plugins, así como monitoreo de rendimiento."
+    },
+    "mobile-optimization": {
+      "question": "¿Mi sitio estará optimizado para móviles?",
+      "answer": "Absolutamente. Todos nuestros desarrollos en WordPress son responsivos por defecto, garantizando una experiencia óptima en todos los dispositivos: computadoras, tabletas y smartphones."
+    },
+    "security-approach": {
+      "question": "¿Cuál es su enfoque hacia la seguridad?",
+      "answer": "Implementamos una estrategia de seguridad integral: autenticación fuerte, firewall de aplicaciones web, monitoreo de intentos de intrusión, copias de seguridad automatizadas y actualizaciones de seguridad regulares."
+    }
+  },
+  "complementary": {
+    "custom-development": {
+      "title": "Desarrollo personalizado",
+      "description": "Creación de características específicas para satisfacer tus necesidades particulares."
+    },
+    "digital-marketing": {
+      "title": "Marketing digital",
+      "description": "Estrategias de marketing adaptadas para aumentar tu visibilidad en línea."
+    },
+    "wordpress-training": {
+      "title": "Capacitación en WordPress",
+      "description": "Capacitación personalizada para dominar la gestión de tu sitio."
+    }
+  }
+}

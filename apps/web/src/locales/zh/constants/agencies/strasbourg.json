@@ -1,0 +1,79 @@
+{
+  "title": "斯特拉斯堡的网站开发 | 阿尔萨斯企业的数字解决方案",
+  "description": "在斯特拉斯堡创建你的网站或移动应用程序。为阿尔萨斯企业量身定制的数字解决方案，针对当地和跨境挑战。",
+  "hero": {
+    "title": "斯特拉斯堡的网络和移动开发",
+    "description": "我们帮助斯特拉斯堡及大东部地区的企业通过定制的网络解决方案实现数字化，完美适应阿尔萨斯和欧洲市场的具体挑战。"
+  },
+  "intro": "作为欧洲首都和边境城市，斯特拉斯堡拥有丰富的遗产，融合了阿尔萨斯传统和国际开放性。它作为欧洲机构的总部，活跃的产业以及位于法国和德国之间的战略位置，使其成为一个独特的地区，数字化在其中扮演着至关重要的桥梁角色。",
+  "expertise": "我们的团队设计的网站、应用程序和数字解决方案，完美适应斯特拉斯堡企业的需求，无论他们是国际组织、工业公司还是当地的遗产参与者。我们了解你所在地区的具体挑战以及跨境市场，提供多语言和文化适应的数字解决方案。",
+  "why-choose-us": "我们对斯特拉斯堡市场的深入了解，让我们能够开发出完美适应当地企业具体挑战的数字解决方案。我们理解欧洲背景的要求和阿尔萨斯文化的特殊性，将这两方面整合到每个项目中，创造出相关性强和高性能的数字体验。",
+  "key-business-sectors": {
+    "european-institutions": "欧洲机构",
+    "cross-border-commerce": "跨境商业",
+    "industry": "工业",
+    "culture-heritage": "文化与遗产"
+  },
+  "local-challenges": {
+    "european-institutions-needs": "欧洲机构和国际组织的特定需求",
+    "cross-border-development": "与德国和瑞士的跨境商业发展",
+    "traditional-industries-transformation": "传统阿尔萨斯工业的数字化转型",
+    "heritage-digital-showcase": "展示该地区丰富文化和历史遗产的数字展示"
+  },
+  "benefits": {
+    "multilingual-solutions": "适应斯特拉斯堡国际背景的多语言解决方案",
+    "european-standards-expertise": "在符合欧洲标准的用户界面方面具备丰富专长",
+    "cross-border-knowledge": "深入了解跨境市场及其特殊性",
+    "innovative-traditional-approach": "创新且尊重阿尔萨斯传统的方式",
+    "personalized-support": "在你整个数字项目中提供个性化支持"
+  },
+  "primary-stat": {
+    "label": "国际背景"
+  },
+  "strengths": {
+    "european-solutions": {
+      "title": "欧洲解决方案",
+      "description": "为机构和国际组织提供多语言平台。"
+    },
+    "cross-border-commerce": {
+      "title": "跨境商业",
+      "description": "适应法国、德国和瑞士市场的电子商务解决方案。"
+    },
+    "industry-40": {
+      "title": "工业4.0",
+      "description": "传统阿尔萨斯工业的过程数字化。"
+    },
+    "digital-heritage": {
+      "title": "数字遗产",
+      "description": "展示文化和历史遗产的数字体验。"
+    }
+  },
+  "focused-services": {
+    "institutional-websites": {
+      "name": "机构网站",
+      "description": "符合欧洲可访问性标准的多语言平台。"
+    },
+    "cross-border-ecommerce": {
+      "name": "跨境电子商务",
+      "description": "适应德国和法国市场特性的商业解决方案。"
+    },
+    "industrial-applications": {
+      "name": "工业应用",
+      "description": "定制数字工具以现代化工业流程。"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "专业知识",
+      "description": "多年的经验"
+    },
+    "satisfaction": {
+      "label": "满意度",
+      "description": "满意的客户"
+    },
+    "average-time": {
+      "label": "平均时间",
+      "description": "完成的周数"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Webbutveckling i Montpellier | Digitala lösningar för företag i Languedoc",
+  "description": "Skapa din webbplats eller mobilapplikation i Montpellier. Skräddarsydda digitala lösningar för företag i Montpellier, anpassade till de lokala utmaningarna i din bransch.",
+  "hero": {
+    "title": "Web & Mobil Utveckling i Montpellier",
+    "description": "Vi hjälper företag i Montpellier och Languedoc-regionen att digitalisera med skräddarsydda webbslösningar, perfekt anpassade för de specifika utmaningarna på den regionala marknaden."
+  },
+  "intro": "En dynamisk stad i korsningen mellan medelhavets och Languedoc-influenser, Montpellier utmärker sig med sitt ekosystem för hälsoinnovation, prestigefyllda universitet och livskonst. Vår digitala expertis gör det möjligt för företag i Montpellier att utnyttja denna rikedom och utmärka sig i en konkurrensutsatt miljö.",
+  "expertise": "Vårt team utformar webbplatser, applikationer och digitala lösningar som är perfekt anpassade för företag i Montpellier och dess region. Vi förstår de specifika utmaningarna på din lokala marknad, oavsett om det gäller hälsosektorn, utbildning eller Languedoc-terroir, och erbjuder digitala lösningar som visar upp din expertis och dina regionala rötter.",
+  "why-choose-us": "Vår djupa kunskap om Montpellier-marknaden gör att vi kan utveckla digitala lösningar som är perfekt anpassade till de specifika utmaningarna för lokala företag. Vi förstår balansen mellan innovation och tradition som kännetecknar Montpellier, och integrerar denna förståelse i varje projekt för att skapa autentiska och högpresterande digitala upplevelser.",
+  "key-business-sectors": {
+    "health-biotech": "Hälsa & Bioteknik",
+    "higher-education": "Högre Utbildning",
+    "viticulture": "Vinodling",
+    "tourism": "Turism"
+  },
+  "local-challenges": {
+    "biotech-health-digitalization": "Digitalisering av den expansiva bioteknik- och hälsovårdssektorn",
+    "innovative-educational-platforms": "Behov av innovativa utbildningsplattformar för flera universitet och skolor",
+    "wine-heritage-digital-showcase": "Digital utställning av vinärv och lokala produkter",
+    "tourism-adaptation": "Anpassning av turistaktörer inför medelhavskonkurrens"
+  },
+  "benefits": {
+    "health-sector-solutions": "Skräddarsydda lösningar anpassade för innovativa företag inom hälsosektorn",
+    "educational-platforms-expertise": "Skarp expertis inom utbildningsplattformar och e-lärverktyg",
+    "languedoc-market-knowledge": "Djupgående kunskap om Languedoc-marknaden och dess särdrag",
+    "regional-products-ui": "Användargränssnitt optimerade för att visa upp regionala produkter",
+    "personalized-support": "Personligt stöd under hela ditt digitala projekt"
+  },
+  "primary-stat": {
+    "label": "bioteknik"
+  },
+  "strengths": {
+    "connected-health": {
+      "title": "Ansluten Hälsa",
+      "description": "Digitala lösningar för startups och företag inom livsvetenskaper."
+    },
+    "elearning": {
+      "title": "E-lärande",
+      "description": "Utbildningsplattformar för universitet och utbildningsinstitutioner."
+    },
+    "digital-terroir": {
+      "title": "Digital Terroir",
+      "description": "Webbplatser och e-handel för vinproducenter och lokala producenter."
+    },
+    "regional-tourism": {
+      "title": "Regional Turism",
+      "description": "Digitala upplevelser för att visa upp Languedoc-arvet."
+    }
+  },
+  "focused-services": {
+    "health-applications": {
+      "name": "Hälsotillämpningar",
+      "description": "Skräddarsydda lösningar för startups och företag inom livsvetenskaper."
+    },
+    "educational-platforms": {
+      "name": "Utbildningsplattformar",
+      "description": "Digitala lärverktyg för utbildningsinstitutioner."
+    },
+    "terroir-ecommerce": {
+      "name": "Terroir E-handel",
+      "description": "Nätbutiker för lokala producenter och vinproducenter."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertis",
+      "description": "Års erfarenhet"
+    },
+    "satisfaction": {
+      "label": "Tillfredsställelse",
+      "description": "Nöjda kunder"
+    },
+    "average-time": {
+      "label": "Genomsnittlig Tid",
+      "description": "Veckor till färdigställande"
+    }
+  }
+}

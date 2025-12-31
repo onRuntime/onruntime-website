@@ -1,0 +1,20 @@
+{
+  "retry": "Spróbuj ponownie",
+  "no-results": "Brak ofert pracy pasujących do Twojego wyszukiwania.",
+  "count": "dostępna oferta pracy(a)",
+  "published": "Opublikowano",
+  "view-offer": "Zobacz ofertę",
+  "employment-type": {
+    "full-time": "Pełny etat",
+    "part-time": "Część etatu",
+    "contract": "Umowa",
+    "temporary": "Tymczasowa",
+    "internship": "Staże",
+    "apprenticeship": "Praktyka zawodowa"
+  },
+  "workplace-type": {
+    "hybrid": "Hybrydowa",
+    "remote": "Zdalna",
+    "on-site": "Na miejscu"
+  }
+}

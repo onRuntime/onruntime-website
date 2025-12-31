@@ -1,0 +1,80 @@
+{
+  "name": "Mobil uygulamalar",
+  "description": "React Native ile yerel mobil uygulamalar oluşturmak",
+  "hero": {
+    "title": "React Native mobil geliştirme",
+    "description": "React Native ile iOS ve Android için yüksek performanslı yerel mobil uygulamalar oluşturun. Uzmanlığımız, sağlam uygulamalar ve olağanüstü bir kullanıcı deneyimi sağlar."
+  },
+  "features": {
+    "react-native-expo": {
+      "title": "React Native & Expo",
+      "description": "Tek bir kod tabanı ile iOS ve Android için verimli çapraz platform geliştirme."
+    },
+    "native-design": {
+      "title": "Yerel tasarım",
+      "description": "Tanıdık bir deneyim için iOS ve Android tasarım yönergelerine saygı duyan arayüzler."
+    },
+    "native-performance": {
+      "title": "Yerel performans",
+      "description": "Her platformda neredeyse yerel performans için gelişmiş optimizasyon."
+    },
+    "mobile-ui-ux": {
+      "title": "Mobil UI/UX",
+      "description": "Her platformun en iyi uygulamalarını izleyen sezgisel mobil arayüzler."
+    }
+  },
+  "benefits": {
+    "multi-platform": {
+      "title": "Çoklu platform",
+      "description": "Tek bir kod tabanından iOS ve Android'de çalışan uygulamalar."
+    },
+    "tablet-support": {
+      "title": "Tablet desteği",
+      "description": "Farklı ekran boyutlarına ve yönlendirmelerine uyum sağlayan arayüzler."
+    },
+    "optimal-performance": {
+      "title": "En iyi performans",
+      "description": "Maksimum performans ve akıcılık için yerel optimizasyon."
+    },
+    "native-experience": {
+      "title": "Yerel deneyim",
+      "description": "Yerel cihaz özelliklerini kullanma (kamera, GPS, bildirimler...)."
+    }
+  },
+  "faq": {
+    "why-react-native": {
+      "question": "Mobil geliştirme için neden React Native'i seçmeliyim?",
+      "answer": "React Native, tek bir kod tabanından iOS ve Android için yüksek performanslı uygulamalar geliştirmeyi sağlar. Bu, maliyetleri ve geliştirme süresini azaltırken yerel kaliteden ödün vermez. Ayrıca büyük bir ekosistemden ve Meta (Facebook) desteğinden yararlanır."
+    },
+    "performance": {
+      "question": "Uygulama performansını nasıl sağlıyorsunuz?",
+      "answer": "Uygulamayı her yönüyle optimize ediyoruz: başlangıç süresi, bellek tüketimi, pürüzsüz animasyonlar, veri yükleme... Ayrıca performans sorunlarını belirlemek ve çözmek için profil oluşturma araçları da kullanıyoruz."
+    },
+    "store-publishing": {
+      "question": "Mağaza yayını ile ilgileniyor musunuz?",
+      "answer": "Evet, tüm yayımlama sürecini yönetiyoruz: varlık hazırlığı, geliştirici hesap yapılandırması, mağazalara gönderim (App Store ve Play Store) ve güncelleme takibi."
+    },
+    "updates": {
+      "question": "Uygulama güncellemelerini nasıl yönetiyorsunuz?",
+      "answer": "Mümkün olduğunda OTA (Over The Air) güncelleme sistemleri kuruyoruz ve mağazalar aracılığıyla güncellemeleri optimize edilmiş bir süreçle yönetiyoruz."
+    },
+    "post-launch-support": {
+      "question": "Yayından sonra destek veriyor musunuz?",
+      "answer": "Evet, performans izleme, hata düzeltmeleri, güvenlik güncellemeleri ve özellik gelişimi dahil çeşitli bakım planları sunuyoruz."
+    }
+  },
+  "complementary": {
+    "store-publishing": {
+      "title": "Mağaza yayını",
+      "description": "App Store ve Play Store yayınlarının tamamen yönetimi."
+    },
+    "backend-integration": {
+      "title": "Backend entegrasyonu",
+      "description": "Mevcut sistemlerinizle ve API'lerle bağlantı."
+    },
+    "react-native-training": {
+      "title": "React Native eğitimi",
+      "description": "Ekiplerinizi React Native geliştirme konusunda eğitmek."
+    }
+  }
+}

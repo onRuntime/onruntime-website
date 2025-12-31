@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "あなたのプロジェクトについて話しましょう",
+    "description": "新しいプロジェクトについて話すのはいつでも楽しいです。アイデアを共有し、どのようにお手伝いできるかを見てみましょう。"
+  },
+  "form": {
+    "name": {
+      "label": "フルネーム",
+      "placeholder": "ジョン・ドー"
+    },
+    "email": {
+      "label": "メール",
+      "placeholder": "you@example.com"
+    },
+    "message": {
+      "label": "メッセージ",
+      "placeholder": "プロジェクトについて説明してください..."
+    },
+    "submit": "メッセージを送信",
+    "submitting": "送信中..."
+  },
+  "toast": {
+    "success": {
+      "title": "メッセージが送信されました",
+      "description": "できるだけ早くご連絡します。"
+    },
+    "error": {
+      "title": "エラー",
+      "description": "メッセージを送信中にエラーが発生しました",
+      "fallback": "エラーが発生しました"
+    }
+  },
+  "info": {
+    "title": "連絡先情報",
+    "email": {
+      "label": "メール"
+    },
+    "offices": {
+      "label": "私たちのオフィス",
+      "value": "フランス、ルーアン & パリ"
+    },
+    "phone": {
+      "label": "電話"
+    }
+  },
+  "hours": {
+    "title": "営業時間",
+    "timezone": "（パリ時間）",
+    "weekdays": "月曜日 - 金曜日:",
+    "weekdays-time": "9:00 - 18:00",
+    "weekend": "週末:",
+    "weekend-time": "休業"
+  },
+  "tagline": "あなたのアイデアをデジタルの現実に変えるためのクリエイティブスタジオです。"
+}

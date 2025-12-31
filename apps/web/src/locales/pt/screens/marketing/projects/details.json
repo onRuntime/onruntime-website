@@ -1,0 +1,71 @@
+{
+  "tags": {
+    "featured": "Destaque",
+    "open-source": "Código Aberto",
+    "customer": "Projeto do cliente"
+  },
+  "buttons": {
+    "view-project": "Ver projeto",
+    "source-code": "Código fonte"
+  },
+  "info": {
+    "start-date": "Data de início",
+    "status": "Status",
+    "statuses": {
+      "active": "Ativo",
+      "completed": "Concluído",
+      "archived": "Arquivado"
+    },
+    "team": "Equipe",
+    "members": "membros"
+  },
+  "sections": {
+    "about": "Sobre o projeto",
+    "metrics": "Impacto e métricas",
+    "features": "Principais características",
+    "technologies": "Tecnologias utilizadas",
+    "gallery": "Galeria",
+    "team": "A equipe",
+    "challenges": "Desafios enfrentados",
+    "learnings": "Aprendizados principais",
+    "future": "Perspectivas futuras"
+  },
+  "cta": {
+    "title": "Interessado neste projeto?",
+    "description": "Descubra como podemos te ajudar a criar um projeto similar.",
+    "button": "Discutir seu projeto"
+  },
+  "tonightpass": {
+    "hero": {
+      "title": "A bilhetagem que simplifica seus eventos",
+      "subtitle": "Da criação à entrada, gerencie tudo em 5 minutos",
+      "description": "Solução completa de bilhetagem para organizadores de eventos. Crie seus eventos, venda seus ingressos e gerencie o acesso com ferramentas profissionais e suporte dedicado.",
+      "buttons": {
+        "create": "Criar meu evento",
+        "discover": "Descubra a solução"
+      },
+      "stats": {
+        "setup": {
+          "value": "5min",
+          "label": "Configuração"
+        },
+        "cost": {
+          "value": "$0",
+          "label": "Instalação"
+        },
+        "support": {
+          "value": "24/7",
+          "label": "Suporte"
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronto para simplificar sua bilhetagem?",
+      "description": "Simplifique a gestão do seu evento com uma solução completa e intuitiva",
+      "buttons": {
+        "start": "Comece agora",
+        "features": "Ver todas as características"
+      }
+    }
+  }
+}

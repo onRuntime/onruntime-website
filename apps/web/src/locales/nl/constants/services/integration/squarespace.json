@@ -1,0 +1,80 @@
+{
+  "name": "SquareSpace",
+  "description": "Integratie en aanpassing op SquareSpace",
+  "hero": {
+    "title": "Elegante websites met Squarespace",
+    "description": "Creëer een verfijnde online aanwezigheid met Squarespace. Onze expertise zorgt voor een esthetische, functionele website die perfect is aangepast aan jouw merkbeeld."
+  },
+  "features": {
+    "minimalist-design": {
+      "title": "Minimalistisch ontwerp",
+      "description": "Creëren van elegante en schone sites die jouw inhoud en merk in de schijnwerpers zetten."
+    },
+    "smooth-experience": {
+      "title": "Vlekkeloze ervaring",
+      "description": "Intuïtieve navigatie en geoptimaliseerde prestaties voor een perfecte gebruikerservaring."
+    },
+    "content-management": {
+      "title": "Inhoudsbeheer",
+      "description": "Eenvoudige en intuïtieve beheerdersinterface om jouw inhoud gemakkelijk te beheren."
+    },
+    "media-integration": {
+      "title": "Media-integratie",
+      "description": "Optimale presentatie van jouw afbeeldingen en media met dynamische galerijen."
+    }
+  },
+  "benefits": {
+    "professional-templates": {
+      "title": "Professionele sjablonen",
+      "description": "Grote keuze aan moderne en aanpasbare sjablonen voor alle sectoren."
+    },
+    "integrated-ecommerce": {
+      "title": "Geïntegreerde e-commerce",
+      "description": "Volledige en aanpasbare online verkoopoplossingen."
+    },
+    "optimal-performance": {
+      "title": "Optimale prestaties",
+      "description": "Snelle en veilige sites gehost op robuuste infrastructuur."
+    },
+    "integrated-marketing": {
+      "title": "Geïntegreerde marketing",
+      "description": "Marketingtools en statistische analyses om jouw bedrijf te laten groeien."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Hoe lang duurt het om een Squarespace site te maken?",
+      "answer": "De gemiddelde tijd om een Squarespace site te maken varieert van 2 tot 6 weken, afhankelijk van de complexiteit van het project. Dit omvat sjabloonselectie en aanpassing, inhoudsintegratie en testfase."
+    },
+    "product-sales": {
+      "question": "Kan ik producten verkopen op mijn Squarespace site?",
+      "answer": "Ja, Squarespace biedt een complete e-commerce oplossing die we kunnen configureren zodat je jouw producten online kunt verkopen, met voorraadbeheer, beveiligde betalingen en verzendopties."
+    },
+    "content-updates": {
+      "question": "Is het makkelijk om de inhoud bij te werken?",
+      "answer": "Absoluut! De interface van Squarespace is heel intuïtief. We trainen je in het gebruik zodat je jouw inhoud zelf kunt beheren."
+    },
+    "seo-optimization": {
+      "question": "Zal mijn site geoptimaliseerd zijn voor SEO?",
+      "answer": "Ja, we passen de beste SEO-praktijken van Squarespace toe en configureren alle noodzakelijke elementen om jouw zichtbaarheid op zoekmachines te optimaliseren."
+    },
+    "maintenance-service": {
+      "question": "Bieden jullie onderhoudsdiensten aan?",
+      "answer": "Ja, we bieden verschillende onderhoudsplannen aan, inclusief updates, technische ondersteuning en continue optimalisatie van jouw Squarespace site."
+    }
+  },
+  "complementary": {
+    "advanced-customization": {
+      "title": "Geavanceerde aanpassing",
+      "description": "CSS en Javascript aanpassingen om jouw site verder aan te passen dan de standaard opties."
+    },
+    "content-strategy": {
+      "title": "Inhoudsstrategie",
+      "description": "Ondersteuning bij het creëren en optimaliseren van jouw inhoud."
+    },
+    "user-training": {
+      "title": "Gebruikerstraining",
+      "description": "Volledige training om het beheer van jouw Squarespace site te beheersen."
+    }
+  }
+}

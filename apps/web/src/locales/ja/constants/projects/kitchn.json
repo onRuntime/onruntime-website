@@ -1,0 +1,82 @@
+{
+  "short-description": "Geist UIとVercel Designにインスパイアされた、モダンでパフォーマンスが高く、カスタマイズ性に富んだReactおよびReact Nativeのコンポーネントライブラリ",
+  "description": "Tonight Passがメンテナンスする、スタイル付きコンポーネントで一貫性とエlegantなユーザーインターフェースを作成するために設計された完全なスイート",
+  "long-description": "Kitchnは、現代のWebおよびモバイルアプリケーションの開発を加速する包括的なUIコンポーネントライブラリ。\n\nGeist UIとVercel Designにインスパイアされていて、ミニマリストなアプローチと使いやすさが際立っていて、スタイル付きコンポーネントとTypeScriptで構築された最適化されたコンポーネントのコレクションを提供してる。\n\n各コンポーネントはモジュラーで、パフォーマンスが高く、高いカスタマイズ性を持つように設計されてて、開発チームが一貫したユーザーインターフェースを素早く作成できるようになり、優れた開発者体験を維持できるようになってる。",
+  "features": {
+    "modular-architecture": {
+      "title": "モジュラーアーキテクチャ",
+      "description": "独立して再利用可能なコンポーネントが調和して連携できるように設計されてる"
+    },
+    "flexible-themes": {
+      "title": "フレキシブルなテーマ",
+      "description": "拡張可能なテーマシステムを使って、ライトモードとダークモードを完全にサポート"
+    },
+    "cross-platform": {
+      "title": "クロスプラットフォーム",
+      "description": "すべてのプラットフォームで一貫した体験を提供するためのReactおよびReact Nativeのネイティブサポート"
+    },
+    "interactive-docs": {
+      "title": "インタラクティブなドキュメント",
+      "description": "迅速なオンボーディングのために例とプレイグラウンドを含む包括的なドキュメント"
+    }
+  },
+  "technologies": {
+    "styled-components": {
+      "description": "CSS-in-JSスタイル"
+    },
+    "react": {
+      "description": "Web UIライブラリ"
+    },
+    "react-native": {
+      "description": "ネイティブモバイルコンポーネント"
+    },
+    "typescript": {
+      "description": "型安全性とオートコンプリート"
+    },
+    "storybook": {
+      "description": "インタラクティブなドキュメント"
+    }
+  },
+  "metrics": {
+    "components": {
+      "value": "35+",
+      "label": "コンポーネント",
+      "description": "再利用可能なUIコンポーネント"
+    },
+    "downloads": {
+      "value": "20k+",
+      "label": "ダウンロード数",
+      "description": "月間ダウンロード数"
+    },
+    "github-stars": {
+      "value": "50+",
+      "label": "GitHubの星",
+      "description": "GitHub上の星"
+    }
+  },
+  "screenshots": {
+    "responsive": {
+      "caption": "レスポンシブコンポーネント"
+    },
+    "themable": {
+      "caption": "カスタマイズ可能なテーマ"
+    }
+  },
+  "challenges": {
+    "visual-consistency": "Webとモバイルプラットフォーム間の完璧な視覚的一貫性を維持すること",
+    "bundle-optimization": "機能の豊富さを保ちながらバンドルサイズを最適化すること",
+    "react-compatibility": "異なるReactバージョンとの互換性を確保すること",
+    "backward-compatibility": "アップデート中に後方互換性を保証すること"
+  },
+  "learnings": {
+    "clear-documentation": "明確で詳細なドキュメントの重要性",
+    "modular-architecture": "メンテナンスのためのモジュラーアーキテクチャの必要性",
+    "automated-testing": "信頼性のための自動テストの価値",
+    "developer-experience": "採用に対する開発者体験の影響"
+  },
+  "future-plans": {
+    "component-library-expansion": "コンポーネントライブラリの拡充",
+    "performance-optimization": "継続的なパフォーマンスの最適化",
+    "framework-compatibility": "現代的なフレームワークとの互換性の拡張"
+  }
+}

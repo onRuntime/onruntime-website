@@ -1,0 +1,79 @@
+{
+  "title": "蒙彼利埃的网站开发 | 朗格多克企业的数字解决方案",
+  "description": "在蒙彼利埃创建你的网站或手机应用。为蒙彼利埃企业量身定制数字解决方案，以应对你行业的本地挑战。",
+  "hero": {
+    "title": "蒙彼利埃的网页与移动开发",
+    "description": "我们帮助蒙彼利埃和朗格多克地区的企业通过定制的网络解决方案实现数字化，完美适应区域市场的具体挑战。"
+  },
+  "intro": "蒙彼利埃是一座活力四射的城市，兼具地中海和朗格多克的影响，以其健康创新生态系统、知名大学和生活艺术而闻名。我们的数字专长帮助蒙彼利埃企业利用这一丰富资源，在竞争环境中脱颖而出。",
+  "expertise": "我们的团队设计的网站、应用程序和数字解决方案，完美适应蒙彼利埃及其地区的企业。我们了解你本地市场的特定挑战，无论是在健康领域、教育还是朗格多克的土特产方面，提供展示你的专业知识和地域根基的数字解决方案。",
+  "why-choose-us": "我们对蒙彼利埃市场的深入了解，使我们能够开发完全适合本地企业特定挑战的数字解决方案。我们理解蒙彼利埃特有的创新与传统之间的平衡，并将这种理解融入每一个项目，创造真实且高效的数字体验。",
+  "key-business-sectors": {
+    "health-biotech": "健康与生物技术",
+    "higher-education": "高等教育",
+    "viticulture": "葡萄种植",
+    "tourism": "旅游"
+  },
+  "local-challenges": {
+    "biotech-health-digitalization": "快速发展的生物技术和健康领域的数字化",
+    "innovative-educational-platforms": "众多大学和学校对创新教育平台的需求",
+    "wine-heritage-digital-showcase": "葡萄酒遗产和本地产品的数字展示",
+    "tourism-adaptation": "面对地中海竞争的旅游业适应"
+  },
+  "benefits": {
+    "health-sector-solutions": "为创新健康行业公司量身定制的解决方案",
+    "educational-platforms-expertise": "在教育平台和在线学习工具方面的丰富经验",
+    "languedoc-market-knowledge": "对朗格多克市场及其特性的深入了解",
+    "regional-products-ui": "优化用户界面以展示本地产品",
+    "personalized-support": "在整个数字项目过程中提供个性化支持"
+  },
+  "primary-stat": {
+    "label": "生物技术"
+  },
+  "strengths": {
+    "connected-health": {
+      "title": "互联健康",
+      "description": "为生命科学初创企业和公司提供数字解决方案。"
+    },
+    "elearning": {
+      "title": "电子学习",
+      "description": "为大学和培训机构提供教育平台。"
+    },
+    "digital-terroir": {
+      "title": "数字土特产",
+      "description": "为酒庄和本地生产者提供网站和电子商务解决方案。"
+    },
+    "regional-tourism": {
+      "title": "区域旅游",
+      "description": "数字体验展示朗格多克的文化遗产."
+    }
+  },
+  "focused-services": {
+    "health-applications": {
+      "name": "健康应用",
+      "description": "为生命科学初创企业和公司定制解决方案。"
+    },
+    "educational-platforms": {
+      "name": "教育平台",
+      "description": "为教育机构提供数字学习工具."
+    },
+    "terroir-ecommerce": {
+      "name": "土特产电子商务",
+      "description": "为当地生产者和酒庄提供在线商店."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "专长",
+      "description": "多年的经验"
+    },
+    "satisfaction": {
+      "label": "满意度",
+      "description": "满意的客户"
+    },
+    "average-time": {
+      "label": "平均时间",
+      "description": "完成的周数"
+    }
+  }
+}

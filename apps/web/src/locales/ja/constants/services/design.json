@@ -1,0 +1,49 @@
+{
+  "name": "UI/UXデザイン",
+  "description": "現代的なインターフェースと最適なユーザー体験を作成します",
+  "benefits": {
+    "user-centered-design": {
+      "title": "ユーザー中心のUI/UXデザイン",
+      "description": "ユーザーのニーズをデザインの中心に置き、インタラクティブなプロトタイプで検証します。"
+    },
+    "creative-innovation": {
+      "title": "クリエイティブなイノベーション",
+      "description": "基準を尊重しつつ、ブランドを際立たせるクリエイティブなUI/UXソリューションと革新的なプロトタイプを提供します。"
+    },
+    "iterative-prototyping": {
+      "title": "反復プロトタイピング",
+      "description": "ユーザー体験を洗練するために迅速なプロトタイプと頻繁な反復に基づいた方法論です。"
+    },
+    "business-objectives": {
+      "title": "ビジネスの目標",
+      "description": "プロトタイプのユーザーテストによって検証された、ビジネス目標に沿ったUI/UXデザインです。"
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "ニーズ分析",
+      "description": "私たちがニーズ、ブランド、およびビジネス目標を分析してUI/UXの方向性を定義する重要な第一歩です。"
+    },
+    "research-moodboard": {
+      "title": "リサーチとムードボード",
+      "description": "ムードボードを作成し、可能なクリエイティブな方向性を探ります。全体的なアートディレクションを定義します。"
+    },
+    "wireframes": {
+      "title": "ワイヤーフレーム",
+      "description": "構造、階層、情報アーキテクチャを検証するためのワイヤーフレームを設計します。"
+    },
+    "interface-design": {
+      "title": "インターフェースデザイン",
+      "description": "ブランドガイドラインを尊重しながら最終モックアップを作成します。コンポーネントとその再利用性に特に注意します。"
+    },
+    "prototyping": {
+      "title": "プロトタイピング",
+      "description": "インタラクションをテストし、ユーザージャーニーを検証するためのプロトタイプを作成します。"
+    },
+    "development": {
+      "title": "開発",
+      "description": "モックアップを機能的なインターフェースに変換し、定義されたアニメーションに特に注意します。"
+    }
+  },
+  "process-services": {}
+}

@@ -1,0 +1,44 @@
+---
+term: API
+shortDescription: >-
+  Interface de programação de aplicações que permite que diferentes aplicações
+  se comuniquem entre si.
+relatedTerms:
+  - REST
+  - GraphQL
+  - Backend
+tags:
+  - development
+  - technical
+---
+## Definição
+
+Uma API (Interface de Programação de Aplicações) é essencialmente a linguagem que nossas aplicações falam para se comunicar umas com as outras. Na onRuntime, usamos elas constantemente para conectar diferentes partes de nossos projetos. Pense em uma API como um garçom em um restaurante. Você faz um pedido (a solicitação), ele traz o que você pediu (a resposta), e você não precisa saber o que está acontecendo na cozinha.
+
+## Por que amamos APIs
+
+- **Elas fazem tudo funcionar junto**: Sistemas diferentes podem trocar dados sem complicação
+- **Elas nos tornam modulares**: Podemos desenvolver componentes independentes e conectá-los facilmente
+- **Elas protegem nossos dados**: Controlamos exatamente quem acessa o que
+- **Elas nos fazem economizar tempo**: Podemos atualizar uma parte sem reconstruir tudo
+
+## APIs que usamos diariamente
+
+### APIs RESTful
+Nosso pão com manteiga! Usamos elas na maioria de nossos projetos web. Elas são simples, sem estado (sem memória de uma solicitação para outra) e usam métodos HTTP clássicos. Perfeito para interfaces desacopladas como no Tonight Pass.
+
+### APIs GraphQL
+Nós somos fãs dessas para certos projetos complexos! Em vez de criar 15 endpoints diferentes, deixamos o cliente solicitar exatamente os dados que precisa. No Kitchn, isso nos economizou bastante largura de banda.
+
+### APIs SOAP
+Não vamos mentir, não usamos muito mais essas... Elas são um pouco old-school com seu XML e especificações ultra-rigorosas. Mas ainda encontramos elas às vezes em projetos empresariais.
+
+## Como as usamos diariamente
+
+Na onRuntime, as APIs estão no coração da nossa pilha tecnológica. Elas nos permitem:
+
+- Construir aplicações desacopladas (frontend/backend separados)
+- Integrar facilmente serviços de terceiros (pagamento, mapeamento, etc.)
+- Desenvolver nossa arquitetura de microsserviços em certos projetos
+
+Quando projetamos uma API, sempre começamos documentando-a com Swagger ou Postman. Isso nos ajuda a pensar nas coisas e se torna uma referência sólida para a equipe. Pode confiar, economiza muitas reuniões sem sentido!

@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Esperienza locale non disponibile",
+      "description": "Non abbiamo ancora competenze specifiche per questa città."
+    }
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "local-expertise": "Esperienza locale"
+  },
+  "challenges": {
+    "title": "Sfide digitali per le aziende a {city}",
+    "description": "Le aziende a {city} affrontano sfide specifiche nella trasformazione digitale. La nostra esperienza ci consente di affrontarle in modo efficace.",
+    "market-issues": "Sfide del mercato in {region}",
+    "our-solutions": "Le nostre soluzioni personalizzate",
+    "discover-all-services": "Scopri tutti i nostri servizi"
+  },
+  "faq": {
+    "title": "Domande frequenti sui progetti web a {city}",
+    "description": "Trova risposte alle domande più comuni delle aziende a {city} sui loro progetti digitali.",
+    "questions": {
+      "choose-agency": {
+        "question": "Come scegliere l'agenzia web giusta a {city}?",
+        "answer": "Per scegliere l'agenzia web giusta a {city}, valuta la loro conoscenza del mercato locale, il loro portfolio nel tuo settore e la loro capacità di comprendere i tuoi obiettivi specifici. La competenza nelle sfide digitali specifiche per la regione {region} è anche un fattore chiave."
+      },
+      "project-costs": {
+        "question": "Quali sono i costi di un progetto web a {city}?",
+        "answer": "I costi di un progetto web a {city} variano in base alla complessità, alle funzionalità e agli obiettivi. Per un sito web di presentazione professionale, aspettati tra i 3.000 € e gli 8.000 €. Per un'applicazione web personalizzata o un e-commerce, i prezzi partono generalmente da 10.000 €. Richiedi un preventivo personalizzato per una stima accurata."
+      },
+      "development-time": {
+        "question": "Quanto tempo ci vuole per sviluppare un sito web o un'applicazione per la mia azienda a {city}?",
+        "answer": "I tempi di sviluppo per un'azienda a {city} dipendono dalla complessità del progetto. Un sito web di presentazione può essere completato in 4-8 settimane, mentre un'applicazione personalizzata o un e-commerce richiede generalmente 2-4 mesi. La nostra metodologia agile consente consegne progressive per vedere il progresso rapidamente."
+      },
+      "remote-work": {
+        "question": "Potete lavorare in modo efficace con la mia azienda a {city} da remoto?",
+        "answer": "Assolutamente. Collaboriamo in modo efficace con le aziende a {city} grazie alla nostra metodologia di lavoro remoto collaudata. Videochiamate regolari, strumenti di collaborazione potenti e la nostra profonda conoscenza del mercato locale {region} ci permettono di fornire un follow-up altrettanto efficace quanto quello di un team in sede."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Cosa dicono i nostri clienti a {city}",
+    "description": "Scopri i feedback delle aziende locali con cui abbiamo collaborato."
+  }
+}

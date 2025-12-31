@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Proje bulunamadı",
+      "description": "Bu proje mevcut değil."
+    },
+    "title": "Vaka çalışması: {name} - Dijital proje",
+    "description": "Ajansımızın {name}'i nasıl tasarlayıp geliştirdiğini keşfedin. {shortDescription}"
+  }
+}

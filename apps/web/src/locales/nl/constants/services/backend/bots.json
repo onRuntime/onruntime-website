@@ -1,0 +1,80 @@
+{
+  "name": "Discord/Slack Bots",
+  "description": "Ontwikkeling van bots en automatiseringen",
+  "hero": {
+    "title": "Bots & Automatiseringen",
+    "description": "Ontwikkel slimme bots en automatiseringen om de betrokkenheid en productiviteit van je community te verbeteren. Onze expertise garandeert betrouwbare en hoogwaardige bots voor Discord, Slack en andere platforms."
+  },
+  "features": {
+    "discord-slack": {
+      "title": "Discord & Slack",
+      "description": "Aangepaste bots voor de belangrijkste communicatieplatforms."
+    },
+    "advanced-commands": {
+      "title": "Geavanceerde commando's",
+      "description": "Intuïtieve interface met aanpasbare commando's."
+    },
+    "optimal-performance": {
+      "title": "Optimale prestaties",
+      "description": "Architectuur geoptimaliseerd voor maximale responsiviteit."
+    },
+    "integrations": {
+      "title": "Integraties",
+      "description": "Verbinding met jouw bestaande tools en diensten."
+    }
+  },
+  "benefits": {
+    "intelligent-moderation": {
+      "title": "Slimme moderatie",
+      "description": "Geautomatiseerd beheer van je community en moderatie."
+    },
+    "notifications": {
+      "title": "Notificaties",
+      "description": "Aangepaste meldingen en automatische updates."
+    },
+    "engagement": {
+      "title": "Betrokkenheid",
+      "description": "Interactiviteit om je community te stimuleren."
+    },
+    "statistics": {
+      "title": "Statistieken",
+      "description": "Gedetailleerde registratie van activiteit en interacties."
+    }
+  },
+  "faq": {
+    "bot-types": {
+      "question": "Welke soorten bots kun je ontwikkelen?",
+      "answer": "We ontwikkelen bots voor verschillende platforms (Discord, Slack, Telegram) met diverse functies: moderatie, klantenservice, taakautomatisering, statistieken, spelletjes en community-activiteiten. Elke bot wordt aangepast aan jouw specifieke behoeften."
+    },
+    "bot-reliability": {
+      "question": "Hoe waarborg je de betrouwbaarheid van de bot?",
+      "answer": "We implementeren verschillende mechanismen: 24/7 monitoring, automatische herstart bij problemen, gedetailleerde logs en realtime meldingen. We voeren ook grondige tests uit voordat we iets implementeren."
+    },
+    "customization": {
+      "question": "Kunnen commando's en functies worden aangepast?",
+      "answer": "Ja, al onze bots zijn volledig aanpasbaar: commando's, reacties, rechten, integraties. We passen elke functie aan jouw wensen en moderatierichtlijnen aan."
+    },
+    "security": {
+      "question": "Hoe ga je om met beveiliging?",
+      "answer": "Beveiliging is een prioriteit: veilige authenticatie, gedetailleerde rechten, invoervalidatie, bescherming tegen spam en misbruik. We volgen de beste praktijken van elk platform."
+    },
+    "post-deployment-support": {
+      "question": "Bied je ondersteuning na implementatie?",
+      "answer": "Ja, we bieden verschillende onderhoudsplannen aan, waaronder: 24/7 monitoring, regelmatige updates, technische ondersteuning en functionele evoluties op basis van jouw behoeften."
+    }
+  },
+  "complementary": {
+    "analytics": {
+      "title": "Analytics",
+      "description": "Gedetailleerde registratie van gebruik en interacties."
+    },
+    "support-24-7": {
+      "title": "24/7 Ondersteuning",
+      "description": "Continue monitoring en snelle interventie."
+    },
+    "evolutions": {
+      "title": "Evoluties",
+      "description": "Regelmatige toevoeging van nieuwe functies."
+    }
+  }
+}

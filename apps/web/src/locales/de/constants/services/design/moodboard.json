@@ -1,0 +1,80 @@
+{
+  "name": "Moodboard",
+  "description": "Die visuelle Identität und Atmosphäre deines Projekts definieren.",
+  "hero": {
+    "title": "Moodboards & Künstlerische Leitung",
+    "description": "Bring deine Vision zum Leben mit sorgfältig gestalteten Moodboards. Unser Designwissen hilft dir, eine klare und inspirierende künstlerische Richtung für dein Projekt zu definieren."
+  },
+  "features": {
+    "creative-direction": {
+      "title": "Künstlerische Leitung",
+      "description": "Klare Definition der Atmosphäre und visuellen Stil."
+    },
+    "color-palette": {
+      "title": "Farbpalette",
+      "description": "Harmonische Auswahl deiner Identitätsfarben."
+    },
+    "visual-style": {
+      "title": "Visueller Stil",
+      "description": "Erforschung und Definition deines grafischen Universums."
+    },
+    "targeted-inspiration": {
+      "title": "Gezielte Inspiration",
+      "description": "Detaillierte Forschung, die auf deine Branche zugeschnitten ist."
+    }
+  },
+  "benefits": {
+    "clear-direction": {
+      "title": "Klare Richtung",
+      "description": "Gemeinsame Vision und Abstimmung der Kreativteams."
+    },
+    "visual-communication": {
+      "title": "Visuelle Kommunikation",
+      "description": "Effektive Unterstützung beim Teilen deiner Vision."
+    },
+    "consistency": {
+      "title": "Konsistenz",
+      "description": "Garantierte harmonische visuelle Identität."
+    },
+    "creative-expertise": {
+      "title": "Kreative Expertise",
+      "description": "Professionelle Beratung und künstlerische Leitung."
+    }
+  },
+  "faq": {
+    "what-is-moodboard": {
+      "question": "Was ist ein Moodboard und wofür wird es verwendet?",
+      "answer": "Ein Moodboard ist eine visuelle Zusammenstellung, die die künstlerische Richtung deines Projekts definiert. Es kombiniert Farben, Typografie, Bilder und Texturen, um ein kohärentes visuelles Referenzwerk zu schaffen. Es ist ein wichtiges Werkzeug, um deine Vision zu kommunizieren und die Konsistenz deiner visuellen Identität sicherzustellen."
+    },
+    "creation-process": {
+      "question": "Wie funktioniert der Erstellungsprozess?",
+      "answer": "Der Prozess beginnt mit einer Entdeckungsphase, in der wir deine Ziele und dein Umfeld erkunden. Danach führen wir eine eingehende Forschung durch, um geeignete visuelle Elemente auszuwählen. Nach mehreren Iterationen und deinem Feedback finalisieren wir das Moodboard, das als Leitfaden für dein Projekt dient."
+    },
+    "moodboard-elements": {
+      "question": "Welche Elemente umfasst ein Moodboard?",
+      "answer": "Ein professionelles Moodboard umfasst typischerweise: eine Farbpalette, Typografie, inspirierende Bilder, Texturen, Muster und stilistische Referenzen. Wir fügen auch erläuternde Notizen hinzu, um kreative Entscheidungen zu klären."
+    },
+    "moodboard-usage": {
+      "question": "Wie nutzt du das Moodboard während des Projekts?",
+      "answer": "Das Moodboard dient als Referenz während des gesamten Projekts. Es leitet Designentscheidungen, stellt visuelle Konsistenz sicher und erleichtert die Kommunikation zwischen allen Beteiligten. Es ist ein lebendiges Dokument, das sich mit deinem Feedback weiterentwickeln kann."
+    },
+    "creation-timeline": {
+      "question": "Wie lange dauert es, ein Moodboard zu erstellen?",
+      "answer": "Die Erstellung eines professionellen Moodboards dauert in der Regel 1 bis 2 Wochen, einschließlich der Forschungsphase, der ersten Erstellung und Iterationen basierend auf deinem Feedback. Diese Zeit ermöglicht es uns, die künstlerische Richtung gründlich zu erkunden und zu verfeinern."
+    }
+  },
+  "complementary": {
+    "brand-guidelines": {
+      "title": "Markenrichtlinien",
+      "description": "Erstellung eines vollständigen Dokumentes für Markenrichtlinien."
+    },
+    "style-guide": {
+      "title": "Styleguide",
+      "description": "Detaillierter Leitfaden zur Nutzung deiner Identität."
+    },
+    "artistic-direction": {
+      "title": "Künstlerische Richtung",
+      "description": "Fortlaufende kreative Begleitung."
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "title": "モンペリエのウェブ開発 | ラングドックビジネス向けデジタルソリューション",
+  "description": "モンペリエでウェブサイトやモバイルアプリを作成しよう。モンペリエの企業のためのカスタムデジタルソリューションで、地元の課題に応じたサービスを提供します。",
+  "hero": {
+    "title": "モンペリエのウェブ＆モバイル開発",
+    "description": "モンペリエやラングドック地域の企業が、地域市場の特定の課題に完全に適応したカスタムウェブソリューションでデジタル化を支援します。"
+  },
+  "intro": "地中海とラングドックの影響が交差するダイナミックな都市、モンペリエは、健康イノベーションのエコシステム、権威ある大学、そして生活の芸術で際立っています。私たちのデジタル専門知識により、モンペリエの企業はこの豊かさを活用し、競争の激しい環境の中で目立つことができます。",
+  "expertise": "私たちのチームは、モンペリエとその地域の企業に完全に適応したウェブサイト、アプリ、デジタルソリューションをデザインしています。私たちは、健康分野、教育、またはラングドックのテロワールなど、地元市場の特定の課題を理解し、あなたの専門知識と地域のルーツを際立たせるデジタルソリューションを提供します。",
+  "why-choose-us": "モンペリエ市場に対する私たちの深い知識は、地元企業の特定の課題に完全に適応したデジタルソリューションを開発することを可能にします。私たちは、モンペリエを特徴づける革新と伝統のバランスを理解し、各プロジェクトにその理解を取り入れて、真の高性能なデジタル体験を創出します。",
+  "key-business-sectors": {
+    "health-biotech": "健康 & バイオテクノロジー",
+    "higher-education": "高等教育",
+    "viticulture": "ワイン生産",
+    "tourism": "観光"
+  },
+  "local-challenges": {
+    "biotech-health-digitalization": "拡大するバイオテクノロジーと健康分野のデジタル化",
+    "innovative-educational-platforms": "多くの大学や学校のための革新的な教育プラットフォームの必要性",
+    "wine-heritage-digital-showcase": "ワインの遺産と地元産品のデジタルショーケース",
+    "tourism-adaptation": "地中海の競争に直面する観光業者の適応"
+  },
+  "benefits": {
+    "health-sector-solutions": "革新的な健康分野の企業に適応したカスタムソリューション",
+    "educational-platforms-expertise": "教育プラットフォームやeラーニングツールに対する鋭い専門知識",
+    "languedoc-market-knowledge": "ラングドック市場とその特性についての深い知識",
+    "regional-products-ui": "地域産品を見せるために最適化されたユーザーインターフェイス",
+    "personalized-support": "デジタルプロジェクト全体を通してのパーソナライズされたサポート"
+  },
+  "primary-stat": {
+    "label": "バイオテクノロジー"
+  },
+  "strengths": {
+    "connected-health": {
+      "title": "コネクテッドヘルス",
+      "description": "ライフサイエンスのスタートアップや企業向けのデジタルソリューション。"
+    },
+    "elearning": {
+      "title": "Eラーニング",
+      "description": "大学や教育機関向けの教育プラットフォーム。"
+    },
+    "digital-terroir": {
+      "title": "デジタルテロワール",
+      "description": "ワイン農園や地元の生産者向けのサイトやeコマース。"
+    },
+    "regional-tourism": {
+      "title": "地域観光",
+      "description": "ラングドックの遺産をショーケースするデジタル体験。"
+    }
+  },
+  "focused-services": {
+    "health-applications": {
+      "name": "健康アプリケーション",
+      "description": "ライフサイエンスのスタートアップや企業向けのカスタムソリューション。"
+    },
+    "educational-platforms": {
+      "name": "教育プラットフォーム",
+      "description": "教育機関向けのデジタル学習ツール。"
+    },
+    "terroir-ecommerce": {
+      "name": "テロワールEコマース",
+      "description": "地元生産者やワイン農園のためのオンラインストア。"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "専門知識",
+      "description": "経験年数"
+    },
+    "satisfaction": {
+      "label": "満足度",
+      "description": "満足したクライアント"
+    },
+    "average-time": {
+      "label": "平均時間",
+      "description": "完了までの週間数"
+    }
+  }
+}

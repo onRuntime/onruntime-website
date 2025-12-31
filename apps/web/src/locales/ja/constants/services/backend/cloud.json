@@ -1,0 +1,80 @@
+{
+  "name": "クラウドソリューション",
+  "description": "クラウドインフラの展開と管理",
+  "hero": {
+    "title": "クラウドソリューション",
+    "description": "最新でスケーラブルなクラウドソリューションでインフラを最適化しよう。私たちの専門知識が主要なクラウドプラットフォームでの安全で高性能な展開を保証します。"
+  },
+  "features": {
+    "multi-cloud": {
+      "title": "マルチクラウド",
+      "description": "主要プラットフォームのサポート（AWS, GCP, Azure）。"
+    },
+    "advanced-security": {
+      "title": "高度なセキュリティ",
+      "description": "データとアプリケーションの強固な保護。"
+    },
+    "optimal-performance": {
+      "title": "最適なパフォーマンス",
+      "description": "最大のパフォーマンスを最適化したアーキテクチャ。"
+    },
+    "automatic-scalability": {
+      "title": "自動スケーラビリティ",
+      "description": "負荷要件に動的に対応します。"
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "高可用性",
+      "description": "冗長で回復力のあるインフラ。"
+    },
+    "elastic-storage": {
+      "title": "弾力的なストレージ",
+      "description": "柔軟で安全なデータ管理。"
+    },
+    "advanced-monitoring": {
+      "title": "高度な監視",
+      "description": "インフラのリアルタイム監視。"
+    },
+    "enhanced-security": {
+      "title": "強化されたセキュリティ",
+      "description": "リソースの多層保護。"
+    }
+  },
+  "faq": {
+    "platform-choice": {
+      "question": "どのクラウドプラットフォームを選べばいいの？",
+      "answer": "選択はあなたの具体的なニーズによります。AWSはサービスの多様性が優れ、Google Cloudは機械学習に強みがあり、AzureはMicrosoftとの統合が得意です。目標、技術的制約、予算に基づいて最適なソリューションに導きます。"
+    },
+    "cloud-security": {
+      "question": "クラウドのセキュリティはどう扱っていますか？",
+      "answer": "私たちは多層のセキュリティを実施しています。データの暗号化（保存中と転送中）、IAMアクセス制御、仮想プライベートネットワーク（VPC）、ウェブアプリケーションファイアウォール（WAF）、および継続的な脅威監視です。各プラットフォームのベストプラクティスに従っています。"
+    },
+    "cost-optimization": {
+      "question": "コストの最適化はどう行っていますか？",
+      "answer": "いくつかの戦略を使っています：リザーブドインスタンス、自動スケーリング、リソースの最適化、未使用リソースの削除、コスト監視です。定期的に監査を行い、節約の機会を特定します。"
+    },
+    "high-availability": {
+      "question": "高可用性をどう確保していますか？",
+      "answer": "複数の可用性ゾーンにインフラを展開し、データレプリケーション、負荷分散、自動フェイルオーバーを行います。 robusteな災害復旧計画（DRP）を設定しています。"
+    },
+    "support-24-7": {
+      "question": "24時間365日のサポートは提供していますか？",
+      "answer": "はい、私たちはいくつかのサポートレベルを提供しています：24時間365日の監視、自動アラート、迅速なインシデント対応、予防保守、専任の技術サポートです。"
+    }
+  },
+  "complementary": {
+    "cloud-migration": {
+      "title": "クラウド移行",
+      "description": "スムーズなクラウドへの移行。"
+    },
+    "multi-region": {
+      "title": "マルチリージョン",
+      "description": "アプリケーションのグローバル展開。"
+    },
+    "devops": {
+      "title": "DevOps",
+      "description": "クラウドの自動化とCI/CD。"
+    }
+  }
+}

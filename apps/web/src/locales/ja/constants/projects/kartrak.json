@@ -1,0 +1,81 @@
+{
+  "short-description": "エコフレンドリーな活動追跡。楽しい方法でオンラインの足跡を監視しよう。",
+  "description": "オンラインでの環境への影響を理解し、減らすのを助けるブラウザ拡張機能。",
+  "long-description": "Kartrakは、ユーザーがデジタルのカーボンフットプリントを意識するように促す革新的なブラウザ拡張機能だよ。オンライン活動を監視することで、Kartrakはあなたのインターネット消費とその環境への影響に関する詳細な洞察を提供するんだ。\n\n拡張機能は、Ecoindexに基づいた高度なアルゴリズムを使って、ブラウジングのカーボンフットプリントを計算し、あなたの影響を減らすためのパーソナライズされた提案を提供してくれるよ。Ecoindexは、ウェブサイトの技術的な複雑さ、重さ、エネルギー効率を分析して、その環境への影響を評価することで知られている手法なんだ。\n\n楽しく教育的なアプローチで、Kartrakは環境意識を身近で魅力的にしているよ。",
+  "features": {
+    "real-time-tracking": {
+      "title": "リアルタイム追跡",
+      "description": "デジタルカーボンフットプリントをリアルタイムで可視化しよう"
+    },
+    "personalized-suggestions": {
+      "title": "パーソナライズされた提案",
+      "description": "あなたの影響を減らすためのアドバイスを受け取ろう"
+    },
+    "detailed-stats": {
+      "title": "詳細な統計",
+      "description": "ブラウジング習慣とその影響を分析しよう"
+    },
+    "ecological-goals": {
+      "title": "エコロジー目標",
+      "description": "目標を設定して進捗を追跡しよう"
+    }
+  },
+  "technologies": {
+    "typescript": {
+      "description": "ブラウザ拡張機能"
+    },
+    "react": {
+      "description": "ユーザーインターフェース"
+    },
+    "nodejs": {
+      "description": "バックエンドとAPI"
+    },
+    "chrome-api": {
+      "description": "ブラウザ統合"
+    }
+  },
+  "metrics": {
+    "sites-analyzed": {
+      "value": "∞",
+      "label": "分析されたサイト",
+      "description": "すべてのウェブサイトに対応"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "オープンソース",
+      "description": "公開されたソースコード"
+    },
+    "confidential": {
+      "value": "100%",
+      "label": "機密性",
+      "description": "ユーザーデータは収集しないよ"
+    }
+  },
+  "screenshots": {
+    "dashboard": {
+      "caption": "メインダッシュボード"
+    },
+    "stats": {
+      "caption": "詳細な統計"
+    }
+  },
+  "challenges": {
+    "carbon-calculation": "正確なカーボンフットプリントの計算",
+    "privacy-protection": "ユーザーのプライバシーを守る",
+    "background-performance": "バックグラウンドでの拡張機能のパフォーマンス",
+    "environmental-data-accuracy": "環境データの正確性"
+  },
+  "learnings": {
+    "environmental-impact-complexity": "環境影響計算の複雑さ",
+    "user-engagement": "ユーザーエンゲージメントの重要性",
+    "accuracy-performance-balance": "正確性とパフォーマンスのバランス",
+    "navigation-ux": "ブラウジング習慣に合わせたUX"
+  },
+  "future-plans": {
+    "more-browsers": "さらに多くのブラウザのサポート",
+    "eco-tools-integration": "他のエコフレンドリーなツールとの統合",
+    "community-features": "コミュニティ機能",
+    "personalized-reports": "パーソナライズされた詳細なレポート",
+    "auto-close-tabs": "未使用のタブを自動で閉じる"
+  }
+}

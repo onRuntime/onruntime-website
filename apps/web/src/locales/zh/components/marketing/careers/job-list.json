@@ -1,0 +1,20 @@
+{
+  "retry": "重试",
+  "no-results": "没有匹配您搜索的职位。",
+  "count": "可用职位(数)",
+  "published": "发布于",
+  "view-offer": "查看职位",
+  "employment-type": {
+    "full-time": "全职",
+    "part-time": "兼职",
+    "contract": "合同",
+    "temporary": "临时",
+    "internship": "实习",
+    "apprenticeship": "学徒"
+  },
+  "workplace-type": {
+    "hybrid": "混合工作",
+    "remote": "远程工作",
+    "on-site": "现场工作"
+  }
+}

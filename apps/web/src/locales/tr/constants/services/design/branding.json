@@ -1,0 +1,80 @@
+{
+  "name": "Marka kılavuzları",
+  "description": "Tam görsel kimliğinizi oluşturma",
+  "hero": {
+    "title": "Markalaşma & Marka Kimliği",
+    "description": "Markanızı özgün ve akılda kalıcı bir görsel kimlikle hayata geçirin. Markalaşma uzmanlığımız, marka imajınızı hedef kitlenizle uyumlu ve değerlerinizi yansıtan bir şekilde oluşturmanıza yardımcı olur."
+  },
+  "features": {
+    "visual-identity": {
+      "title": "Görsel kimlik",
+      "description": "Benzersiz ve akılda kalıcı bir kimlik yaratma."
+    },
+    "brand-values": {
+      "title": "Marka değerleri",
+      "description": "DNA'nızın ve değerlerinizin görsel ifadesi."
+    },
+    "brand-guidelines": {
+      "title": "Marka kılavuzları",
+      "description": "Kimliğinizin eksiksiz belgeleri."
+    },
+    "design-system": {
+      "title": "Tasarım sistemi",
+      "description": "Tutarlı ve tekrar kullanılabilir görsel unsurlar."
+    }
+  },
+  "benefits": {
+    "recognition": {
+      "title": "Tanınırlık",
+      "description": "Akılda kalıcı ve özgün marka imajı."
+    },
+    "consistency": {
+      "title": "Tutarlılık",
+      "description": "Tüm medya kanallarında birleşik görsel iletişim."
+    },
+    "trust": {
+      "title": "Güven",
+      "description": "Hedef kitlenizle arttırılmış güvenilirlik."
+    },
+    "reach": {
+      "title": "Ulaşım",
+      "description": "Tüm kanallarda güçlü görsel etki."
+    }
+  },
+  "faq": {
+    "complete-identity": {
+      "question": "Tam bir marka kimliği neleri içerir?",
+      "answer": "Tam bir marka kimliği logo, renk paleti, tipografi, grafik öğeler, ses tonu ve kullanım kurallarını içerir. Tüm bu unsurları belgeler ve tutarlı kullanımını rehberlik eden detaylı bir marka kılavuzları belgesi sağlıyoruz."
+    },
+    "creation-process": {
+      "question": "Oluşturma süreci nasıl işliyor?",
+      "answer": "Süreç, markanız, değerleriniz ve hedef kitlenizi anlamak için keşif aşaması ile başlar. Ardından yaratıcı kavramlar geliştirir, görsel unsurlar oluşturur ve geri bildiriminize göre iterasyonlar yaparız. Süreç, tam bir marka kılavuzları belgesinin teslimatı ile sona erer."
+    },
+    "deliverables": {
+      "question": "Hangi teslimatlar sağlanıyor?",
+      "answer": "Logo (farklı versiyonlar), renk paleti, tipografi, grafik unsurlar, belge şablonları, kullanım kılavuzları ve tüm gerekli formatlardaki kaynak dosyaları içeren tam bir paket alırsınız."
+    },
+    "uniqueness": {
+      "question": "Kimliğiniz özgünlüğünü nasıl sağlıyorsunuz?",
+      "answer": "Benzersiz bir kimlik oluşturmak için pazarınızı ve rekabetinizi titizlikle araştırıyoruz. Ayrıca, mevcut markalarla herhangi bir çatışmayı önlemek için görsel unsurların kullanılabilirliğini kontrol ediyoruz."
+    },
+    "transition": {
+      "question": "Yeni kimliğe geçişi nasıl yönetiyorsunuz?",
+      "answer": "Yeni kimliğe geçişi rehberlik eden kademeli bir uygulama planı sağlıyoruz. Bu, iç ve dış iletişim için öneriler ve bir uygulama zaman çizelgesini içerir."
+    }
+  },
+  "complementary": {
+    "marketing-kit": {
+      "title": "Pazarlama kiti",
+      "description": "Tutarlı pazarlama materyallerinin oluşturulması."
+    },
+    "social-media": {
+      "title": "Sosyal medya",
+      "description": "Sosyal medya için uyarlama."
+    },
+    "print-materials": {
+      "title": "Baskı materyalleri",
+      "description": "Basılı materyallerin oluşturulması."
+    }
+  }
+}

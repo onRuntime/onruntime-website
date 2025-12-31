@@ -1,0 +1,81 @@
+{
+  "short-description": "Ekologiczne śledzenie aktywności. Monitoruj swoje ślady w internecie w zabawny sposób.",
+  "description": "Rozszerzenie przeglądarki, które pomoże ci zrozumieć i zmniejszyć swój wpływ na środowisko w sieci.",
+  "long-description": "Kartrak to innowacyjne rozszerzenie przeglądarki, które podnosi świadomość użytkowników na temat ich cyfrowego śladu węglowego. Monitorując twoją aktywność w internecie, Kartrak dostarcza szczegółowych informacji na temat twojego zużycia internetu i jego wpływu na środowisko.\n\nRozszerzenie korzysta z zaawansowanych algorytmów opartych na Ecoindex, aby obliczyć twój ślad węglowy podczas przeglądania, oferując jednocześnie spersonalizowane sugestie, jak zmniejszyć swój wpływ. Ecoindex to uznana metodologia, która ocenia wpływ ekologiczny stron internetowych, analizując ich złożoność techniczną, wagę i efektywność energetyczną.\n\nZabawne i edukacyjne podejście Kartrak sprawia, że świadomość ekologiczna staje się dostępna i angażująca.",
+  "features": {
+    "real-time-tracking": {
+      "title": "Śledzenie w czasie rzeczywistym",
+      "description": "Zwizualizuj swój cyfrowy ślad węglowy w czasie rzeczywistym"
+    },
+    "personalized-suggestions": {
+      "title": "Spersonalizowane sugestie",
+      "description": "Otrzymaj dostosowane porady, jak zmniejszyć swój wpływ"
+    },
+    "detailed-stats": {
+      "title": "Szczegółowe statystyki",
+      "description": "Analizuj swoje nawyki przeglądania i ich wpływ"
+    },
+    "ecological-goals": {
+      "title": "Cele ekologiczne",
+      "description": "Ustal cele i śledź swoje postępy"
+    }
+  },
+  "technologies": {
+    "typescript": {
+      "description": "Rozszerzenie przeglądarki"
+    },
+    "react": {
+      "description": "Interfejs użytkownika"
+    },
+    "nodejs": {
+      "description": "Backend i API"
+    },
+    "chrome-api": {
+      "description": "Integracja z przeglądarką"
+    }
+  },
+  "metrics": {
+    "sites-analyzed": {
+      "value": "∞",
+      "label": "Analizowane strony",
+      "description": "Kompatybilne ze wszystkimi stronami internetowymi"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "Open Source",
+      "description": "Publiczny kod źródłowy"
+    },
+    "confidential": {
+      "value": "100%",
+      "label": "Poufne",
+      "description": "Nie zbieramy danych użytkowników"
+    }
+  },
+  "screenshots": {
+    "dashboard": {
+      "caption": "Główny panel"
+    },
+    "stats": {
+      "caption": "Szczegółowe statystyki"
+    }
+  },
+  "challenges": {
+    "carbon-calculation": "Dokładne obliczanie śladu węglowego",
+    "privacy-protection": "Ochrona prywatności użytkowników",
+    "background-performance": "Wydajność rozszerzenia w tle",
+    "environmental-data-accuracy": "Dokładność danych środowiskowych"
+  },
+  "learnings": {
+    "environmental-impact-complexity": "Złożoność obliczania wpływu na środowisko",
+    "user-engagement": "Znaczenie zaangażowania użytkowników",
+    "accuracy-performance-balance": "Równowaga między dokładnością a wydajnością",
+    "navigation-ux": "UX dostosowany do nawyków przeglądania"
+  },
+  "future-plans": {
+    "more-browsers": "Wsparcie dla większej liczby przeglądarek",
+    "eco-tools-integration": "Integracja z innymi ekologicznymi narzędziami",
+    "community-features": "Funkcje społecznościowe",
+    "personalized-reports": "Spersonalizowane szczegółowe raporty",
+    "auto-close-tabs": "Automatyczne zamykanie nieużywanych kart"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "디스코드/슬랙 봇",
+  "description": "봇 및 자동화 개발",
+  "hero": {
+    "title": "봇 및 자동화",
+    "description": "커뮤니티의 참여도와 생산성을 높이기 위해 지능형 봇과 자동화를 개발해요. 우리의 전문성 덕분에 디스코드, 슬랙 등 여러 플랫폼에 신뢰할 수 있고 고성능의 봇을 보장해요."
+  },
+  "features": {
+    "discord-slack": {
+      "title": "디스코드 & 슬랙",
+      "description": "주요 커뮤니케이션 플랫폼을 위한 커스텀 봇."
+    },
+    "advanced-commands": {
+      "title": "고급 명령어",
+      "description": "사용자 정의 가능한 명령어로 직관적인 인터페이스 제공."
+    },
+    "optimal-performance": {
+      "title": "최적의 성능",
+      "description": "최대 반응성을 위해 최적화된 아키텍처."
+    },
+    "integrations": {
+      "title": "통합",
+      "description": "기존 도구 및 서비스와의 연결."
+    }
+  },
+  "benefits": {
+    "intelligent-moderation": {
+      "title": "지능형 관리",
+      "description": "커뮤니티와 관리를 자동으로 관리."
+    },
+    "notifications": {
+      "title": "알림",
+      "description": "맞춤 알림 및 자동 업데이트."
+    },
+    "engagement": {
+      "title": "참여도",
+      "description": "커뮤니티를 활기차게 하는 인터랙티브한 기능."
+    },
+    "statistics": {
+      "title": "통계",
+      "description": "활동 및 상호작용에 대한 상세 추적."
+    }
+  },
+  "faq": {
+    "bot-types": {
+      "question": "어떤 유형의 봇을 개발할 수 있나요?",
+      "answer": "우리는 다양한 플랫폼(디스코드, 슬랙, 텔레그램)을 위한 봇을 개발해요. 각 봇은 특정 요구 사항에 맞게 맞춤화되어 있으며, 기능으로는 관리, 고객 지원, 업무 자동화, 통계, 게임 및 커뮤니티 활동이 있어요."
+    },
+    "bot-reliability": {
+      "question": "봇의 신뢰성을 어떻게 보장하나요?",
+      "answer": "우리는 여러 가지 메커니즘을 적용해요: 24/7 모니터링, 문제 발생 시 자동 재시작, 상세 로그 및 실시간 알림. 각 배포 전에 철저한 테스트도 진행해요."
+    },
+    "customization": {
+      "question": "명령어와 기능을 맞춤화할 수 있나요?",
+      "answer": "네, 모든 봇은 완전히 맞춤화 가능해요: 명령어, 응답, 권한, 통합. 우리는 각 기능을 당신의 필요와 관리 지침에 맞게 조정해요."
+    },
+    "security": {
+      "question": "보안을 어떻게 처리하나요?",
+      "answer": "보안이 최우선이에요: 안전한 인증, 세분화된 권한, 입력 검증, 스팸 및 남용 방지. 각 플랫폼의 모범 사례를 따라요."
+    },
+    "post-deployment-support": {
+      "question": "배포 후 지원을 제공하나요?",
+      "answer": "네, 우리는 여러 유지보수 계획을 제공해요. 여기에는 24/7 모니터링, 정기 업데이트, 기술 지원 및 필요에 따라 기능 발전이 포함돼요."
+    }
+  },
+  "complementary": {
+    "analytics": {
+      "title": "분석",
+      "description": "사용 및 상호작용에 대한 상세 추적."
+    },
+    "support-24-7": {
+      "title": "24/7 지원",
+      "description": "지속적인 모니터링과 신속한 개입."
+    },
+    "evolutions": {
+      "title": "진화",
+      "description": "정기적으로 새로운 기능 추가."
+    }
+  }
+}

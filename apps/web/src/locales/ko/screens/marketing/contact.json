@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "프로젝트에 대해 이야기해봐요",
+    "description": "우리는 항상 새로운 프로젝트에 대해 기쁘게 이야기해요. 당신의 아이디어를 공유하고 우리가 어떻게 도와줄 수 있는지 알려주세요."
+  },
+  "form": {
+    "name": {
+      "label": "이름",
+      "placeholder": "홍길동"
+    },
+    "email": {
+      "label": "이메일",
+      "placeholder": "you@example.com"
+    },
+    "message": {
+      "label": "메시지",
+      "placeholder": "당신의 프로젝트를 설명해보세요..."
+    },
+    "submit": "메시지 보내기",
+    "submitting": "보내는 중..."
+  },
+  "toast": {
+    "success": {
+      "title": "메시지가 전송되었어요",
+      "description": "가능한 빨리 연락드릴게요."
+    },
+    "error": {
+      "title": "오류",
+      "description": "메시지를 보내는 중 오류가 발생했어요",
+      "fallback": "오류가 발생했어요"
+    }
+  },
+  "info": {
+    "title": "연락처 정보",
+    "email": {
+      "label": "이메일"
+    },
+    "offices": {
+      "label": "우리 사무소",
+      "value": "프랑스, 루앙 & 파리"
+    },
+    "phone": {
+      "label": "전화"
+    }
+  },
+  "hours": {
+    "title": "운영 시간",
+    "timezone": "(파리 시간)",
+    "weekdays": "월요일 - 금요일:",
+    "weekdays-time": "오전 9:00 - 오후 6:00",
+    "weekend": "주말:",
+    "weekend-time": "휴무"
+  },
+  "tagline": "당신의 아이디어를 디지털 현실로 바꾸는 창의적인 스튜디오."
+}

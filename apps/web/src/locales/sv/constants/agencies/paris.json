@@ -1,0 +1,80 @@
+{
+  "title": "Webbyrå i Paris | Webb utveckling, mobil & UI/UX design",
+  "description": "Din digitala partner i hjärtat av Paris. Webb utveckling, mobil och UI/UX designlösningar för att påskynda tillväxten av ditt parisiska företag.",
+  "hero": {
+    "title": "Digital utveckling i huvudstaden",
+    "description": "Transformera din digitala närvaro med innovativa lösningar skräddarsydda för den konkurrensutsatta parisiska marknaden och dess dynamiska ekosystem av startups, stora företag och innovativa företag."
+  },
+  "intro": "I hjärtat av den franska huvudstaden möts vår digitala expertis av kraven från den parisiska marknaden med innovativa webb- och mobilösningar. Mellan stora företag, lyxiga företag och snabbt växande startups koncentrerar Paris ett dynamiskt digitalt ekosystem vars utmaningar och möjligheter vi fullt ut förstår.",
+  "expertise": "Vi designar premium digitala upplevelser som uppfyller de höga standarderna för parisiska företag. Vårt team behärskar de specifika utmaningarna i huvudstaden, oavsett om det handlar om att skapa genomarbetade användargränssnitt för lyxsektorn, högpresterande applikationer för fintech eller skalbara lösningar för snabbt växande startups.",
+  "why-choose-us": "Vår djupa kunskap om den parisiska marknaden gör att vi kan utveckla digitala lösningar som är perfekt anpassade till kraven från företagen i huvudstaden. Vi kombinerar teknisk innovation, kreativ excellens och affärsförståelse för att effektivt stödja dig i en mycket konkurrensutsatt miljö.",
+  "key-business-sectors": {
+    "startups-tech": "Tech-startups",
+    "finance": "Finans",
+    "luxury": "Lyx",
+    "media-communication": "Media & Kommunikation"
+  },
+  "local-challenges": {
+    "digital-competition": "Stark digital konkurrens på den parisiska marknaden som kräver differentierande lösningar",
+    "agile-tools-startups": "Behov av agila och högpresterande verktyg för snabbt växande startups",
+    "financial-digitalization": "Digitalisering av traditionella finanstjänster som möter fintechs",
+    "luxury-digital-experiences": "Utveckling av premium digitala upplevelser för den parisiska lyxsektorn",
+    "corporate-transformation": "Innovativa lösningar för stora företag som genomgår digital transformation"
+  },
+  "benefits": {
+    "startup-expertise": "Skarp expertis inom de senaste teknologierna anpassade till den parisiska startup-ekosystemet",
+    "premium-solutions": "Premium lösningar som uppfyller de höga standarderna för huvudstadens marknad",
+    "luxury-finance-understanding": "Förståelse för lyx- och finanskoder för skräddarsydda digitala upplevelser",
+    "agility-responsiveness": "Agilitet och snabbhet för att matcha det intensiva tempot hos parisiska företag",
+    "tech-trends-knowledge": "Djup kunskap om franska tekniktrender och innovationer"
+  },
+  "primary-stat": {
+    "label": "startup & tech"
+  },
+  "strengths": {
+    "startup-solutions": {
+      "title": "Startup-lösningar",
+      "description": "Skalbara applikationer för snabbt växande företag."
+    },
+    "luxury-experiences": {
+      "title": "Lyxiga upplevelser",
+      "description": "Premiumgränssnitt för högklassiga varumärken och tjänster."
+    },
+    "finance-fintech": {
+      "title": "Finans & Fintech",
+      "description": "Säkra lösningar för den parisiska finanssektorn."
+    },
+    "international": {
+      "title": "Internationell",
+      "description": "Flerspråkig utveckling anpassad till globala företag."
+    }
+  },
+  "focused-services": {
+    "saas-applications": {
+      "name": "SaaS-applikationer",
+      "description": "Utveckling av innovativa molnlösningar för startups och scale-ups."
+    },
+    "premium-ecommerce": {
+      "name": "Premium E-handel",
+      "description": "Högklassiga försäljningsplattformar för parisiska lyxvarumärken."
+    },
+    "innovative-design": {
+      "name": "Innovativ UI/UX-design",
+      "description": "Moderna och differentierande användargränssnitt för att sticka ut i Paris."
+    }
+  },
+  "stats": {
+    "startups": {
+      "label": "Startups",
+      "description": "Projekt för startups"
+    },
+    "luxury-clients": {
+      "label": "Lyxiga kunder",
+      "description": "Premium varumärken"
+    },
+    "average-roi": {
+      "label": "Genomsnittlig ROI",
+      "description": "Avkastning på investering"
+    }
+  }
+}

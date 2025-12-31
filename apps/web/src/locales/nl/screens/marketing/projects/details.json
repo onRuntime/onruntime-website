@@ -1,0 +1,71 @@
+{
+  "tags": {
+    "featured": "Uitgelicht",
+    "open-source": "Open Source",
+    "customer": "Cliënt project"
+  },
+  "buttons": {
+    "view-project": "Bekijk project",
+    "source-code": "Broncode"
+  },
+  "info": {
+    "start-date": "Startdatum",
+    "status": "Status",
+    "statuses": {
+      "active": "Actief",
+      "completed": "Voltooid",
+      "archived": "Gearchiveerd"
+    },
+    "team": "Team",
+    "members": "leden"
+  },
+  "sections": {
+    "about": "Over het project",
+    "metrics": "Impact en metrics",
+    "features": "Belangrijkste functies",
+    "technologies": "Gebruikte technologieën",
+    "gallery": "Galerij",
+    "team": "Het team",
+    "challenges": "Ontmoette uitdagingen",
+    "learnings": "Belangrijkste lessen",
+    "future": "Toekomstperspectieven"
+  },
+  "cta": {
+    "title": "Geïnteresseerd in dit project?",
+    "description": "Ontdek hoe we je kunnen helpen om een vergelijkbaar project te creëren.",
+    "button": "Bespreek je project"
+  },
+  "tonightpass": {
+    "hero": {
+      "title": "De ticketverkoop die je evenementen vereenvoudigt",
+      "subtitle": "Van creatie tot toegang, beheer alles in 5 minuten",
+      "description": "Complete ticketingoplossing voor evenementorganisatoren. Creëer je evenementen, verkoop je tickets en beheer toegang met professionele tools en toegewijde ondersteuning.",
+      "buttons": {
+        "create": "Maak mijn evenement",
+        "discover": "Ontdek de oplossing"
+      },
+      "stats": {
+        "setup": {
+          "value": "5min",
+          "label": "Instelling"
+        },
+        "cost": {
+          "value": "$0",
+          "label": "Installatie"
+        },
+        "support": {
+          "value": "24/7",
+          "label": "Ondersteuning"
+        }
+      }
+    },
+    "cta": {
+      "title": "Klaar om je ticketverkoop te vereenvoudigen?",
+      "description": "Vereenvoudig je evenementbeheer met een complete en intuïtieve oplossing",
+      "buttons": {
+        "start": "Begin nu",
+        "features": "Bekijk alle functies"
+      }
+    }
+  }
+}

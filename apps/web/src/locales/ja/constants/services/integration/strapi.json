@@ -1,0 +1,80 @@
+{
+  "name": "Strapi",
+  "description": "Strapiを使ったヘッドレスCMSの開発",
+  "hero": {
+    "title": "Strapiを使ったヘッドレスCMSの開発",
+    "description": "Strapiでモダンアプリケーションを開発しよう。私たちの専門知識があれば、あなたのニーズに完璧に適応した柔軟でスケーラブルなコンテンツ管理ソリューションを保証します。"
+  },
+  "features": {
+    "custom-api": {
+      "title": "カスタムAPI",
+      "description": "すべてのニーズに応じたカスタムRESTfulおよびGraphQL APIの作成。"
+    },
+    "flexible-administration": {
+      "title": "柔軟な管理",
+      "description": "ビジネスプロセスに合わせたカスタマイズ可能な管理インターフェース。"
+    },
+    "optimal-performance": {
+      "title": "最適なパフォーマンス",
+      "description": "高速な応答時間のための高性能アーキテクチャ。"
+    },
+    "advanced-security": {
+      "title": "高度なセキュリティ",
+      "description": "データとAPIの堅牢な保護。"
+    }
+  },
+  "benefits": {
+    "100-javascript": {
+      "title": "100% JavaScript",
+      "description": "JavaScript/Node.jsでの統一開発で、さらに効率的に。"
+    },
+    "flexible-models": {
+      "title": "柔軟なモデル",
+      "description": "制約なしでのカスタムコンテンツモデルの作成。"
+    },
+    "role-management": {
+      "title": "ユーザー管理",
+      "description": "アクセスとユーザー権限の正確な制御。"
+    },
+    "advanced-workflows": {
+      "title": "高度なワークフロー",
+      "description": "公開および検証プロセスの自動化。"
+    }
+  },
+  "faq": {
+    "setup-timeline": {
+      "question": "Strapiプロジェクトのセットアップにはどのくらいの時間がかかりますか？",
+      "answer": "Strapiプロジェクトのセットアップにかかる平均時間は、複雑さによって4週間から12週間まで異なります。これにはコンテンツモデルの設計、APIの開発、管理面のカスタマイズ、テストが含まれます。"
+    },
+    "multilingual": {
+      "question": "Strapiは多言語コンテンツに対応していますか？",
+      "answer": "はい、Strapiは多言語コンテンツをネイティブに扱います。特定のニーズに合わせた翻訳管理の設定とカスタマイズが可能です。"
+    },
+    "content-migration": {
+      "question": "既存のコンテンツをStrapiに移行することは可能ですか？",
+      "answer": "はい、既存のデータの分析、適応モデルの作成、コンテンツのインポートを含む完全なコンテンツ移行サービスを提供しています。"
+    },
+    "deployment-hosting": {
+      "question": "デプロイとホスティングはどのように行っていますか？",
+      "answer": "Strapiをさまざまなクラウドプラットフォーム（AWS、Google Cloud、DigitalOceanなど）にデプロイし、開発、ステージング、生産環境のスケーラブルなインフラを設定できます。"
+    },
+    "custom-plugins": {
+      "question": "カスタムプラグインの開発を提供していますか？",
+      "answer": "はい、特定の統合、カスタムワークフロー、専用の管理インターフェースなどのニーズに応じて、カスタムStrapiプラグインを開発します。"
+    }
+  },
+  "complementary": {
+    "frontend-development": {
+      "title": "フロントエンド開発",
+      "description": "あなたのStrapi APIに接続したフロントエンドアプリケーションの作成。"
+    },
+    "integrations": {
+      "title": "統合",
+      "description": "あなたの既存のサードパーティツールやサービスとの接続。"
+    },
+    "strapi-training": {
+      "title": "Strapiトレーニング",
+      "description": "CMS管理をマスターするためのカスタムトレーニング。"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Microsserviços",
+  "description": "Arquitetura e desenvolvimento de microsserviços",
+  "hero": {
+    "title": "Arquitetura de Microsserviços",
+    "description": "Transforme suas aplicações monolíticas em arquiteturas de microsserviços modernas e escaláveis. Nossa expertise garante uma infraestrutura flexível, resiliente e de alto desempenho."
+  },
+  "features": {
+    "scalable-architecture": {
+      "title": "Arquitetura escalável",
+      "description": "Design modular para escalabilidade ideal."
+    },
+    "continuous-deployment": {
+      "title": "Implantação contínua",
+      "description": "Pipeline CI/CD para atualizações suaves."
+    },
+    "optimal-performance": {
+      "title": "Desempenho ideal",
+      "description": "Serviços independentes para melhor resposta."
+    },
+    "high-availability": {
+      "title": "Alta disponibilidade",
+      "description": "Arquitetura resiliente com redundância."
+    }
+  },
+  "benefits": {
+    "granular-scalability": {
+      "title": "Escalabilidade granular",
+      "description": "Escalonamento independente de cada serviço."
+    },
+    "flexible-deployment": {
+      "title": "Implantação flexível",
+      "description": "Atualizações sem interrupção do serviço."
+    },
+    "fault-isolation": {
+      "title": "Isolamento de falhas",
+      "description": "Aumento da resiliência através do isolamento de serviços."
+    },
+    "advanced-monitoring": {
+      "title": "Monitoramento avançado",
+      "description": "Supervisão detalhada de cada componente."
+    }
+  },
+  "faq": {
+    "when-microservices": {
+      "question": "Quando adotar uma arquitetura de microsserviços?",
+      "answer": "A arquitetura de microsserviços é especialmente adequada para aplicações complexas que exigem alta escalabilidade, escalonamento independente de componentes e evolução rápida. Avaliamos com você se essa arquitetura atende às suas necessidades específicas."
+    },
+    "service-communication": {
+      "question": "Como você lida com a comunicação entre serviços?",
+      "answer": "Implementamos padrões de comunicação robustos: API Gateway, corretores de mensagens (Kafka, RabbitMQ), comunicação síncrona (REST, gRPC) e assíncrona. Cada método é escolhido conforme as necessidades específicas de desempenho e confiabilidade."
+    },
+    "data-consistency": {
+      "question": "Como você garante a consistência dos dados?",
+      "answer": "Utilizamos várias estratégias: padrão Saga para transações distribuídas, Event Sourcing para rastreabilidade e CQRS para separação das operações de leitura e gravação. A consistência eventual é gerenciada de forma adequada."
+    },
+    "infrastructure-monitoring": {
+      "question": "Como você monitora a infraestrutura?",
+      "answer": "Configuramos um monitoramento abrangente: métricas de desempenho, rastreamento distribuído, logs centralizados e alertas inteligentes. Painéis personalizados permitem visualizar a saúde de cada serviço."
+    },
+    "team-training": {
+      "question": "Vocês oferecem treinamento para equipes?",
+      "answer": "Sim, oferecemos treinamento abrangente para suas equipes: princípios de microsserviços, melhores práticas de desenvolvimento, monitoramento e solução de problemas, e uso de ferramentas DevOps."
+    }
+  },
+  "complementary": {
+    "devops-cicd": {
+      "title": "DevOps & CI/CD",
+      "description": "Automação completa da implantação."
+    },
+    "monitoring-24-7": {
+      "title": "Monitoramento 24/7",
+      "description": "Supervisão contínua e alertas em tempo real."
+    },
+    "optimization": {
+      "title": "Otimização",
+      "description": "Melhoria contínua do desempenho."
+    }
+  }
+}

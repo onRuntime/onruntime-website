@@ -1,0 +1,44 @@
+---
+term: API
+shortDescription: >-
+  Ett programgränssnitt som gör att olika applikationer kan kommunicera med
+  varandra
+relatedTerms:
+  - REST
+  - GraphQL
+  - Backend
+tags:
+  - development
+  - technical
+---
+## Definition
+
+Ett API (Application Programming Interface) är i grunden språket som våra applikationer talar för att kommunicera med varandra. På onRuntime använder vi dem ständigt för att koppla samman olika delar av våra projekt. Tänk på ett API som en servitör på en restaurang. Du gör en beställning (förfrågan), de tar med dig det du bad om (svaret), och du behöver inte veta vad som händer i köket.
+
+## Why we love APIs
+
+- **De får allt att fungera tillsammans**: Olika system kan byta data utan krångel
+- **De gör oss modulära**: Vi kan utveckla oberoende komponenter och koppla dem enkelt
+- **De skyddar våra data**: Vi kontrollerar exakt vem som får tillgång till vad
+- **De sparar tid**: Vi kan uppdatera en del utan att bygga om allt
+
+## APIs we use daily
+
+### RESTful APIs
+Våra dagliga bröd! Vi använder dem för de flesta av våra webbprojekt. De är enkla, stateless (ingen minneslagring från en förfrågan till en annan), och använder klassiska HTTP-metoder. Perfekta för löst kopplade gränssnitt som på Tonight Pass.
+
+### GraphQL APIs
+Vi är fans av dessa för vissa komplexa projekt! Istället för att skapa 15 olika endpoints låter vi klienten begära exakt de data den behöver. På Kitchn sparade detta mycket bandbredd.
+
+### SOAP APIs
+Vi ska inte ljuga, vi använder inte dessa så mycket längre... De är lite old-school med sin XML och ultrastrikta specifikationer. Men vi stöter fortfarande på dem ibland i företagsprojekt.
+
+## How we use them daily
+
+På onRuntime är APIs hjärtat i vår teknikstack. De tillåter oss att:
+
+- Bygga löst kopplade applikationer (separat frontend/backend)
+- Enkelt integrera tredjepartstjänster (betalning, kartor, etc.)
+- Utveckla vår mikroservicesarkitektur i vissa projekt
+
+När vi designar ett API börjar vi alltid med att dokumentera det med Swagger eller Postman. Det hjälper oss att tänka igenom saker och blir en solid referens för teamet. Lita på mig, det sparar mycket meningslösa möten!

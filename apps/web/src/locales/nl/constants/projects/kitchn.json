@@ -1,0 +1,82 @@
+{
+  "short-description": "Een moderne, prestatiegerichte en zeer aanpasbare React en React Native componentenbibliotheek, geïnspireerd door Geist UI en Vercel Design.",
+  "description": "Een complete set styled-components ontworpen om consistente en elegante gebruikersinterfaces te creëren, onderhouden door Tonight Pass.",
+  "long-description": "Kitchn is een uitgebreide UI componentenbibliotheek die de ontwikkeling van moderne web- en mobiele applicaties versnelt.\n\nGeïnspireerd door Geist UI en Vercel Design, valt het op door de minimalistische aanpak en gebruiksvriendelijkheid, met een verzameling geoptimaliseerde componenten gebouwd met styled-components en TypeScript.\n\nElke component is ontworpen om modulair, prestatiegericht en zeer aanpasbaar te zijn, zodat ontwikkelingsteams snel consistente gebruikersinterfaces kunnen creëren terwijl ze een uitstekende ontwikkelaarservaring behouden.",
+  "features": {
+    "modular-architecture": {
+      "title": "Modulaire Architectuur",
+      "description": "Onafhankelijke en herbruikbare componenten die harmonieus samenwerken"
+    },
+    "flexible-themes": {
+      "title": "Flexibele Thema's",
+      "description": "Volledige ondersteuning voor lichte en donkere modi met een uitbreidbaar thema systeem"
+    },
+    "cross-platform": {
+      "title": "Cross-Platform",
+      "description": "Natuurlijke ondersteuning voor React en React Native voor een consistente ervaring op alle platforms"
+    },
+    "interactive-docs": {
+      "title": "Interactieve Documentatie",
+      "description": "Uitgebreide documentatie met voorbeelden en een speelruimte voor snelle onboarding"
+    }
+  },
+  "technologies": {
+    "styled-components": {
+      "description": "CSS-in-JS stijlen"
+    },
+    "react": {
+      "description": "Web UI bibliotheek"
+    },
+    "react-native": {
+      "description": "Natuurlijke mobiele componenten"
+    },
+    "typescript": {
+      "description": "Type veiligheid en auto-aanvulling"
+    },
+    "storybook": {
+      "description": "Interactieve documentatie"
+    }
+  },
+  "metrics": {
+    "components": {
+      "value": "35+",
+      "label": "Componenten",
+      "description": "Herbruikbare UI componenten"
+    },
+    "downloads": {
+      "value": "20k+",
+      "label": "Downloads",
+      "description": "Maandelijkse downloads"
+    },
+    "github-stars": {
+      "value": "50+",
+      "label": "GitHub Sterren",
+      "description": "Sterren op GitHub"
+    }
+  },
+  "screenshots": {
+    "responsive": {
+      "caption": "Responsieve componenten"
+    },
+    "themable": {
+      "caption": "Aanpasbare thema's"
+    }
+  },
+  "challenges": {
+    "visual-consistency": "Het behoud van perfecte visuele consistentie tussen web- en mobiele platforms",
+    "bundle-optimization": "Optimalisatie van bundelgrootte terwijl de rijkdom aan functies behouden blijft",
+    "react-compatibility": "Zorgen voor compatibiliteit met verschillende React versies",
+    "backward-compatibility": "Garanderen van achterwaartse compatibiliteit tijdens updates"
+  },
+  "learnings": {
+    "clear-documentation": "Cruciale betekenis van duidelijke en gedetailleerde documentatie",
+    "modular-architecture": "Nodig voor modulaire architectuur voor onderhoudbaarheid",
+    "automated-testing": "Waarde van geautomatiseerd testen voor betrouwbaarheid",
+    "developer-experience": "Impact van ontwikkelaarservaring op adoptie"
+  },
+  "future-plans": {
+    "component-library-expansion": "Verrijking van de componentenbibliotheek",
+    "performance-optimization": "Continue prestatie-optimalisaties",
+    "framework-compatibility": "Verlenging van compatibiliteit met moderne frameworks"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Discord/Slack Botları",
+  "description": "Botlar ve otomasyonlar geliştirme",
+  "hero": {
+    "title": "Botlar & Otomasyonlar",
+    "description": "Topluluğunuzun katılımını ve verimliliğini artırmak için akıllı botlar ve otomasyonlar geliştirin. Uzmanlığımız, Discord, Slack ve diğer platformlar için güvenilir ve yüksek performanslı botlar sunar."
+  },
+  "features": {
+    "discord-slack": {
+      "title": "Discord & Slack",
+      "description": "Ana iletişim platformları için özel botlar."
+    },
+    "advanced-commands": {
+      "title": "Gelişmiş komutlar",
+      "description": "Özelleştirilebilir komutlarla sezgisel arayüz."
+    },
+    "optimal-performance": {
+      "title": "Optimum performans",
+      "description": "Maksimum yanıt verebilirlik için optimize edilmiş mimari."
+    },
+    "integrations": {
+      "title": "Entegrasyonlar",
+      "description": "Mevcut araçlarınız ve hizmetlerinizle bağlantı."
+    }
+  },
+  "benefits": {
+    "intelligent-moderation": {
+      "title": "Akıllı moderasyon",
+      "description": "Topluluğunuzun otomatik yönetimi ve moderasyonu."
+    },
+    "notifications": {
+      "title": "Bildirimler",
+      "description": "Özel uyarılar ve otomatik güncellemeler."
+    },
+    "engagement": {
+      "title": "Katılım",
+      "description": "Topluluğunuzu canlandıracak etkileşimli özellikler."
+    },
+    "statistics": {
+      "title": "İstatistikler",
+      "description": "Faaliyet ve etkileşimlerin detaylı takibi."
+    }
+  },
+  "faq": {
+    "bot-types": {
+      "question": "Hangi tür botlar geliştirebilirsiniz?",
+      "answer": "Farklı özelliklere sahip çeşitli platformlar (Discord, Slack, Telegram) için botlar geliştiriyoruz: moderasyon, müşteri desteği, görev otomasyonu, istatistikler, oyunlar ve topluluk etkinlikleri. Her bot, spesifik ihtiyaçlarınıza göre özelleştirilir."
+    },
+    "bot-reliability": {
+      "question": "Botların güvenilirliğini nasıl sağlıyorsunuz?",
+      "answer": "Birçok mekanizma uyguluyoruz: 7/24 izleme, problemler durumunda otomatik yeniden başlatma, ayrıntılı loglar ve gerçek zamanlı uyarılar. Her dağıtım öncesinde kapsamlı testler yapıyoruz."
+    },
+    "customization": {
+      "question": "Komutlar ve özellikler özelleştirilebilir mi?",
+      "answer": "Evet, tüm botlarımız tamamen özelleştirilebilir: komutlar, yanıtlar, izinler, entegrasyonlar. Her özelliği ihtiyaçlarınıza ve moderasyon kılavuzlarınıza göre uyarlıyoruz."
+    },
+    "security": {
+      "question": "Güvenliği nasıl sağlıyorsunuz?",
+      "answer": "Güvenlik önceliğimizdir: güvenli kimlik doğrulama, ayrıntılı izinler, giriş doğrulama, spam ve kötüye kullanım koruması. Her platformun en iyi uygulamalarını takip ediyoruz."
+    },
+    "post-deployment-support": {
+      "question": "Dağıtım sonrası destek sunuyor musunuz?",
+      "answer": "Evet, 7/24 izleme, düzenli güncellemeler, teknik destek ve ihtiyaçlarınıza göre fonksiyonel gelişimler içeren çeşitli bakım planları sunuyoruz."
+    }
+  },
+  "complementary": {
+    "analytics": {
+      "title": "Analizler",
+      "description": "Kullanım ve etkileşimlerin detaylı takibi."
+    },
+    "support-24-7": {
+      "title": "7/24 Destek",
+      "description": "Sürekli izleme ve hızlı müdahale."
+    },
+    "evolutions": {
+      "title": "Evolüsyonlar",
+      "description": "Düzenli olarak yeni özelliklerin eklenmesi."
+    }
+  }
+}

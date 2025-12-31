@@ -1,0 +1,80 @@
+{
+  "name": "UI 목업",
+  "description": "사용자 인터페이스의 상세한 디자인",
+  "hero": {
+    "title": "사용자 인터페이스 디자인",
+    "description": "애플리케이션에 현대적이고, 우아하며 직관적인 인터페이스를 만들어 보세요. 우리의 UI 디자인 전문성은 사용자를 사로잡는 전문적인 목업을 보장합니다."
+  },
+  "features": {
+    "modern-design": {
+      "title": "현대적 디자인",
+      "description": "최신 트렌드를 따르는 우아한 인터페이스."
+    },
+    "design-system": {
+      "title": "디자인 시스템",
+      "description": "일관되고 재사용 가능한 컴포넌트."
+    },
+    "responsive-design": {
+      "title": "반응형 디자인",
+      "description": "모든 화면에 완벽하게 적응."
+    },
+    "animations-micro-interactions": {
+      "title": "애니메이션 & 마이크로 인터랙션",
+      "description": "유동적이고 매력적인 인터랙션."
+    }
+  },
+  "benefits": {
+    "visual-identity": {
+      "title": "비주얼 아이덴티티",
+      "description": "브랜드와 일치하는 디자인."
+    },
+    "user-experience": {
+      "title": "사용자 경험",
+      "description": "직관적이고 사용하기 편한 인터페이스."
+    },
+    "design-system": {
+      "title": "디자인 시스템",
+      "description": "재사용 가능한 컴포넌트 라이브러리."
+    },
+    "accessibility": {
+      "title": "접근성",
+      "description": "모든 사용자가 접근 가능한 인터페이스."
+    }
+  },
+  "faq": {
+    "ui-design-process": {
+      "question": "UI 디자인 프로세스는 어떻게 되나요?",
+      "answer": "프로세스는 귀하의 니즈와 브랜드 아이덴티티를 분석하는 것으로 시작합니다. 그 다음 주요 화면의 초기 버전을 만들고, 디자인 시스템을 구축한 후, 상세한 목업을 반복합니다. 각 단계에는 귀하의 피드백이 포함되어 기대에 완벽하게 맞는 결과를 보장합니다."
+    },
+    "tools-deliverables": {
+      "question": "어떤 도구와 결과물이 제공되나요?",
+      "answer": "UI 디자인을 위해 주로 Figma를 사용합니다. 모든 화면의 상세한 목업, 각 구성 요소가 포함된 완전한 디자인 시스템, 개발자를 위한 사양 및 통합에 필요한 자산을 받습니다."
+    },
+    "responsive-handling": {
+      "question": "반응형 디자인은 어떻게 처리하나요?",
+      "answer": "모바일 우선 접근 방식을 따르고 각 중요한 브레이크포인트(모바일, 태블릿, 데스크톱)용 목업을 만듭니다. 각 인터페이스는 해당 매체에서 가능한 최고의 경험을 제공하도록 최적화됩니다."
+    },
+    "design-consistency": {
+      "question": "디자인의 일관성은 어떻게 확보하나요?",
+      "answer": "우리는 구성 요소 라이브러리, 타이포그래픽 규칙, 색상 팔레트 및 디자인 원칙을 포함하는 완전한 디자인 시스템을 만듭니다. 이 시스템은 인터페이스 전반에 걸쳐 일관성을 보장합니다."
+    },
+    "developer-handoff": {
+      "question": "개발자 작업을 어떻게 지원하나요?",
+      "answer": "각 구성 요소에 대한 측정, 스타일, 상태 및 인터랙션을 포함한 상세한 사양을 제공합니다. 또한 통합을 용이하게 하기 위해 Zeplin이나 Figma 내보내기와 같은 도구를 사용합니다."
+    }
+  },
+  "complementary": {
+    "design-system": {
+      "title": "디자인 시스템",
+      "description": "컴포넌트 라이브러리 생성."
+    },
+    "prototyping": {
+      "title": "프로토타이핑",
+      "description": "인터랙티브 프로토타입 생성."
+    },
+    "development": {
+      "title": "개발",
+      "description": "목업을 코드로 통합."
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "本地专业知识不可用",
+      "description": "我们还没有这个城市的具体专业知识。"
+    }
+  },
+  "breadcrumb": {
+    "home": "主页",
+    "local-expertise": "本地专业知识"
+  },
+  "challenges": {
+    "title": "{city} 企业面临的数字挑战",
+    "description": "{city} 的企业在数字转型方面面临具体挑战。我们的专业知识可以有效地解决这些问题。",
+    "market-issues": "{region} 市场挑战",
+    "our-solutions": "我们的定制解决方案",
+    "discover-all-services": "发现我们所有的服务"
+  },
+  "faq": {
+    "title": "关于 {city} 网站项目的常见问题",
+    "description": "找到 {city} 企业关于他们的数字项目最常见问题的答案。",
+    "questions": {
+      "choose-agency": {
+        "question": "如何选择合适的 {city} 网络机构？",
+        "answer": "要选择合适的 {city} 网络机构，评估他们对本地市场的了解，他们在你所在行业的作品集，以及他们理解你具体目标的能力。对 {region} 地区特定数字挑战的专业知识也是一个关键因素。"
+      },
+      "project-costs": {
+        "question": "在 {city} 的网站项目成本是多少？",
+        "answer": "在 {city} 的网站项目成本因复杂性、功能和目标而异。对于专业的展示网站，预计费用在 €3,000 到 €8,000 之间。对于定制的网络应用或电子商务，价格通常从 €10,000 开始。请求个性化报价以获得准确估算。"
+      },
+      "development-time": {
+        "question": "在 {city} 为我的企业开发一个网站或应用需要多长时间？",
+        "answer": "在 {city} 的企业开发的时间取决于项目的复杂性。一个展示网站可以在 4 到 8 周内完成，而定制应用或电子商务通常需要 2 到 4 个月。我们的敏捷方法允许逐步交付，以便快速看到进展。"
+      },
+      "remote-work": {
+        "question": "你能与我在 {city} 的企业远程有效合作吗？",
+        "answer": "当然可以。我们通过经过验证的远程工作方法与 {city} 的企业有效合作。定期的视频会议、强大的协作工具以及我们对当地 {region} 市场的深入了解，让我们能够提供与现场团队一样有效的跟进。"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "{city} 客户的反馈",
+    "description": "发现我们与之合作的本地企业的反馈。"
+  }
+}

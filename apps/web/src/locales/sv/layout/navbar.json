@@ -1,0 +1,33 @@
+{
+  "links": {
+    "services": "Våra tjänster",
+    "projects": "Våra projekt",
+    "agencies": "Våra byråer",
+    "npo": "Föreningen",
+    "contact": "Kontakta oss"
+  },
+  "services": {
+    "title": "Våra tjänster",
+    "description": "Upptäck vårt kompletta utbud av utvecklings- och designtjänster för att förverkliga dina digitala projekt.",
+    "cta": "Läs mer"
+  },
+  "projects": {
+    "title": "Vår portfölj",
+    "description": "Upptäck alla våra projekt och framgångar inom olika sektorer",
+    "categories": {
+      "web-mobile": "Webb- och mobilappar",
+      "open-source": "Öppen källkod-projekt",
+      "design": "UI/UX-design"
+    },
+    "cta": "Se alla projekt"
+  },
+  "agencies": {
+    "title": "Våra byråer i Frankrike",
+    "description": "Upptäck vårt nätverk av byråer och vår lokala expertis i hela Frankrike",
+    "agency": "Byrå {name}",
+    "main": "Huvudbyråer",
+    "all": "Alla våra byråer",
+    "by-region": "Alla våra byråer efter region",
+    "cta": "Se alla byråer"
+  }
+}

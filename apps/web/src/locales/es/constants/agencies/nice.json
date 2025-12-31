@@ -1,0 +1,79 @@
+{
+  "title": "Desarrollo web en Niza | Soluciones digitales para negocios de la Côte d'Azur",
+  "description": "Crea tu sitio web o aplicación móvil en Niza. Soluciones digitales personalizadas para negocios de la Côte d'Azur, adaptadas a los desafíos locales de tu sector.",
+  "hero": {
+    "title": "Desarrollo web y móvil en Niza",
+    "description": "Ayudamos a los negocios en Niza y la Riviera Francesa a digitalizarse con soluciones web personalizadas, perfectamente adaptadas a los retos específicos del mercado azurense."
+  },
+  "intro": "Entre el mar Mediterráneo y los Alpes, Niza se beneficia de una influencia internacional y una economía diversificada donde el turismo se encuentra con la innovación. Nuestra experiencia digital permite que los negocios de Niza se destaquen en un entorno competitivo donde la imagen y la excelencia son primordiales.",
+  "expertise": "Nuestro equipo diseña sitios web, aplicaciones y soluciones de comercio electrónico perfectamente adaptadas a los negocios de Niza y la Riviera Francesa. Entendemos los altos estándares de tu mercado local y ofrecemos soluciones digitales que realzan el posicionamiento premium específico de la región.",
+  "why-choose-us": "Nuestro profundo conocimiento del mercado azurense nos permite desarrollar soluciones digitales perfectamente adaptadas a los desafíos específicos de los negocios locales. Entendemos la dimensión internacional de Niza y su reputación de excelencia, e incorporamos estos aspectos en cada proyecto para crear experiencias digitales refinadas y de alto rendimiento.",
+  "key-business-sectors": {
+    "luxury-tourism": "Turismo de lujo",
+    "real-estate": "Bienes raíces",
+    "events": "Eventos",
+    "health-wellness": "Salud y bienestar"
+  },
+  "local-challenges": {
+    "luxury-tourism-digitalization": "Digitalización del sector turístico de lujo en la Riviera Francesa",
+    "innovative-real-estate-solutions": "Necesidad de soluciones innovadoras en bienes raíces para un mercado internacional exigente",
+    "events-digital-showcase": "Vitrina digital de eventos (festivales, conferencias, exposiciones)",
+    "health-wellness-transformation": "Transformación digital del sector de la salud y el bienestar en una región conocida por su calidad de vida"
+  },
+  "benefits": {
+    "international-clientele-solutions": "Soluciones personalizadas adaptadas a una clientela internacional exigente",
+    "premium-interfaces-expertise": "Amplia experiencia en interfaces premium y experiencia de usuario",
+    "azurean-market-knowledge": "Conocimiento profundo del mercado azurense y sus especificidades",
+    "multilingual-applications": "Aplicaciones multilingües adaptadas a la clientela internacional de la Riviera Francesa",
+    "personalized-support": "Soporte personalizado a lo largo de tu proyecto digital"
+  },
+  "primary-stat": {
+    "label": "turismo de lujo"
+  },
+  "strengths": {
+    "premium-experience": {
+      "title": "Experiencia Premium",
+      "description": "Sitios y aplicaciones de alto nivel para turismo de lujo y hostelería."
+    },
+    "digital-real-estate": {
+      "title": "Bienes Raíces Digitales",
+      "description": "Soluciones innovadoras para agencias inmobiliarias y desarrolladores."
+    },
+    "event-platforms": {
+      "title": "Plataformas de Eventos",
+      "description": "Sitios y aplicaciones para festivales, conferencias y eventos de prestigio."
+    },
+    "connected-wellness": {
+      "title": "Bienestar Conectado",
+      "description": "Soluciones digitales para clínicas, spas y centros de bienestar."
+    }
+  },
+  "focused-services": {
+    "premium-websites": {
+      "name": "Sitios Web Premium",
+      "description": "Vitrinas digitales de alto nivel para hoteles, restaurantes y boutiques de lujo."
+    },
+    "real-estate-applications": {
+      "name": "Aplicaciones Inmobiliarias",
+      "description": "Soluciones personalizadas para presentar y gestionar propiedades excepcionales."
+    },
+    "visual-identity": {
+      "name": "Identidad Visual",
+      "description": "Diseño de UI/UX elegante y refinado para marcas y establecimientos prestigiosos."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Experiencia",
+      "description": "Años de experiencia"
+    },
+    "satisfaction": {
+      "label": "Satisfacción",
+      "description": "Clientes satisfechos"
+    },
+    "average-time": {
+      "label": "Tiempo Promedio",
+      "description": "Semanas para la finalización"
+    }
+  }
+}

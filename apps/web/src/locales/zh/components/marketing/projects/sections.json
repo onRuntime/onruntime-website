@@ -1,0 +1,22 @@
+{
+  "featured": {
+    "title": "精选项目",
+    "view-project": "查看项目"
+  },
+  "studio": {
+    "title": "工作室项目"
+  },
+  "customer": {
+    "title": "客户项目",
+    "coming-soon": "即将推出",
+    "empty": {
+      "description": "我们的客户项目正在准备中。联系我们了解更多关于我们的工作或讨论你的项目.",
+      "button": "讨论你的项目"
+    }
+  },
+  "tags": {
+    "featured": "精选",
+    "open-source": "开源",
+    "customer": "客户"
+  }
+}

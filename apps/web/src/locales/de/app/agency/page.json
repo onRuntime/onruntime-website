@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Lokale Web-Expertise | Digitale Entwicklung in großen französischen Städten",
+    "description": "Wir unterstützen lokale Unternehmen in ganz Frankreich mit unserem Wissen über regionale digitale Märkte. Digitale Lösungen, die an jede Region angepasst sind."
+  },
+  "hero": {
+    "title": "Ihr digitaler Partner in ganz Frankreich",
+    "description": "Wir entwickeln innovative digitale Lösungen, die an die Besonderheiten jedes französischen regionalen Marktes angepasst sind. Unser Team behält die lokalen digitalen Herausforderungen im Blick, um Sie effektiv zu unterstützen, egal wo Sie in Frankreich sind.",
+    "cta": "Besprechen Sie Ihr Projekt",
+    "secondary-cta": "Entdecken Sie unser lokales Know-how"
+  },
+  "expertise": {
+    "title": "Expertise, die an jedes Gebiet angepasst ist",
+    "description": "Unser Team analysiert und versteht lokale digitale Ökosysteme, um Ihnen Lösungen zu bieten, die perfekt auf die wirtschaftlichen und kulturellen Besonderheiten Ihrer Region abgestimmt sind.",
+    "local-markets": {
+      "title": "Verstehen lokaler Märkte",
+      "description": "Wir studieren und beherrschen die Besonderheiten und Trends regionaler digitaler Ökosysteme."
+    },
+    "remote-work": {
+      "title": "Effektives Remote-Arbeiten",
+      "description": "Unser Team arbeitet remote mit Ihrem Unternehmen zusammen, wo immer Sie in Frankreich sind, mit der gleichen Effizienz wie in Persona."
+    },
+    "custom-solutions": {
+      "title": "Maßgeschneiderte Lösungen",
+      "description": "Individuelle digitale Strategien, die sich an Ihren lokalen Kontext und die Besonderheiten Ihres regionalen Marktes anpassen."
+    }
+  },
+  "cities": {
+    "title": "Unsere Expertise in großen französischen Städten",
+    "description": "Entdecken Sie unser umfassendes Wissen über lokale Märkte und wie es Ihrem Unternehmen zugutekommen kann.",
+    "region-label": "Region",
+    "discover-cta": "Entdecken Sie unser Know-how"
+  },
+  "why-us": {
+    "title": "Warum mit uns für Ihr lokales Projekt arbeiten?",
+    "description": "Unser Wissen über regionale Märkte bietet zahlreiche Vorteile für Ihr Unternehmen.",
+    "local-ecosystems": {
+      "title": "Expertise in lokalen Ökosystemen",
+      "description": "Ein Team, das die marktspezifischen Dynamiken Ihrer Region versteht und es ermöglicht, eine perfekt angepasste digitale Strategie zu entwickeln."
+    },
+    "remote-agility": {
+      "title": "Remote-Agilität",
+      "description": "Effektive Zusammenarbeit über Videokonferenzen, Messaging und Kollaborationstools für ein reibungsloses und produktives Arbeitserlebnis."
+    },
+    "localized-strategies": {
+      "title": "Lokalisierte Strategien",
+      "description": "Digitale Lösungen, die die kulturellen und wirtschaftlichen Besonderheiten Ihres Gebiets berücksichtigen."
+    },
+    "regional-analysis": {
+      "title": "Regionale Marktanalyse",
+      "description": "Studie von Trends, Wettbewerbern und Chancen, die spezifisch für Ihren geografischen Sektor sind, für eine optimale digitale Strategie."
+    }
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen für alle Regionen Frankreichs",
+    "description": "Komplette digitale Lösungen, die an die Besonderheiten jedes lokalen Marktes angepasst sind.",
+    "design": {
+      "title": "UI/UX Design",
+      "description": "Oberflächen, die an lokale Nutzungen angepasst sind"
+    },
+    "integration": {
+      "title": "Integration",
+      "description": "Regionale CMS- und E-Commerce-Lösungen"
+    },
+    "frontend": {
+      "title": "Front-end",
+      "description": "Anwendungen, die an Ihre Nutzer angepasst sind"
+    },
+    "backend": {
+      "title": "Back-end",
+      "description": "Robuste und skalierbare Infrastrukturen"
+    },
+    "discover-all": "Entdecken Sie alle unsere Dienstleistungen"
+  },
+  "cta": {
+    "title": "Ein digitales Projekt, das an Ihren lokalen Markt angepasst ist?",
+    "description": "Kontaktieren Sie uns, um Ihr Projekt zu besprechen. Unser Wissen über lokale Märkte ermöglicht es uns, Sie effektiv zu unterstützen, wo auch immer Sie in Frankreich sind.",
+    "contact": "Kontaktieren Sie uns",
+    "learn-more": "Erfahren Sie mehr über unseren Ansatz"
+  }
+}

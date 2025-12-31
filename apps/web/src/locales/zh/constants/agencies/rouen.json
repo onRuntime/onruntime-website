@@ -1,0 +1,79 @@
+{
+  "title": "鲁昂的网站开发 | 诺曼底企业的数字解决方案",
+  "description": "在鲁昂创建你的网站或移动应用。为诺曼底的企业量身定制的数字解决方案，针对你所在行业的本地挑战。",
+  "hero": {
+    "title": "鲁昂的网页与移动开发",
+    "description": "我们帮助鲁昂和诺曼底的企业通过定制的网络解决方案实现数字化，完美适应诺曼底市场特有的挑战。"
+  },
+  "intro": "诺曼底的经济结构面临特定的数字挑战，这是我们已经掌握的。我们为制造业、农产品行业和内河物流提供符合鲁昂企业精准需求的数字解决方案。",
+  "expertise": "我们的团队设计的网站、应用和电子商务解决方案，完美适应鲁昂及其周边地区的企业。我们理解你所在市场的挑战，并提供帮助你脱颖而出并发展业务的数字解决方案。",
+  "why-choose-us": "我们对诺曼底市场的深入了解让我们能够开发出完美适应本地企业特定挑战的数字解决方案。与巴黎的机构不同，我们理解鲁昂经济结构的微妙之处，能提供物有所值的定制解决方案。",
+  "key-business-sectors": {
+    "industry": "工业",
+    "agrifood": "农产品",
+    "logistics": "物流",
+    "local-commerce": "本地商业"
+  },
+  "local-challenges": {
+    "traditional-industries-digitalization": "面临国际竞争的传统诺曼底工业的数字化",
+    "logistics-optimization": "通过创新数字解决方案优化河流和港口物流",
+    "local-ecommerce-needs": "本地生产者和工匠需要适应的电商解决方案",
+    "sme-digital-transition": "诺曼底中小企业的数字转型，预算掌控"
+  },
+  "benefits": {
+    "normandy-specific-solutions": "量身定制的解决方案，适应诺曼底企业的特性",
+    "industrial-agrifood-expertise": "在地区工业和农产品领域的深厚专业知识",
+    "competitive-pricing": "与巴黎机构相比具有竞争力的价格",
+    "seine-logistics-knowledge": "对塞纳河物流挑战的深入了解",
+    "personalized-support": "在你的数字项目中提供个性化支持"
+  },
+  "primary-stat": {
+    "label": "工业部门"
+  },
+  "strengths": {
+    "industrial-websites": {
+      "title": "工业网站",
+      "description": "适合诺曼底制造公司的高绩效网站。"
+    },
+    "local-ecommerce": {
+      "title": "本地电子商务",
+      "description": "针对本地生产者和工匠的在线销售解决方案。"
+    },
+    "business-applications": {
+      "title": "商业应用",
+      "description": "定制数字工具来优化你的流程。"
+    },
+    "sme-digitalization": {
+      "title": "中小企业数字化",
+      "description": "全面支持你的数字转型。"
+    }
+  },
+  "focused-services": {
+    "professional-websites": {
+      "name": "专业网站",
+      "description": "为鲁昂的本地SEO优化的高绩效数字展示。"
+    },
+    "regional-ecommerce": {
+      "name": "区域电子商务",
+      "description": "适应诺曼底生产者和商人的在线商店。"
+    },
+    "business-applications": {
+      "name": "商业应用",
+      "description": "为地区工业和物流定制软件。"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "专业知识",
+      "description": "多年的经验"
+    },
+    "satisfaction": {
+      "label": "满意度",
+      "description": "满意的客户"
+    },
+    "average-time": {
+      "label": "平均时间",
+      "description": "完成的周数"
+    }
+  }
+}

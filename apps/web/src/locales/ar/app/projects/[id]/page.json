@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "المشروع غير موجود",
+      "description": "هذا المشروع غير موجود."
+    },
+    "title": "دراسة حالة: {name} - مشروع رقمي",
+    "description": "اكتشف كيف صممت وكالتنا وجمعت {name}. {shortDescription}"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Web-Agentur in Lyon | Individuelle digitale Lösungen",
+  "description": "Webentwicklung, mobile und UI/UX Design in Lyon. Unser digitales Know-how ist auf die Unternehmungen in der Rhône-Alpes-Region zugeschnitten, um deine Online-Präsenz zu stärken.",
+  "hero": {
+    "title": "Web- & Mobile-Entwicklung in Lyon",
+    "description": "Verwandle dein in Lyon ansässiges Unternehmen mit innovativen digitalen Lösungen, die perfekt an das wirtschaftliche Dynamik der Auvergne-Rhône-Alpes-Region angepasst sind."
+  },
+  "intro": "Im Herzen von Lyons Dynamik unterstützt unser digitales Know-how Unternehmen in der Region bei ihrer digitalen Transformation. Zwischen industrieller Tradition, biomedizinischer Exzellenz und gastronomischem Einfluss hat Lyon ein reichhaltiges und vielfältiges wirtschaftliches Gefüge, dessen Herausforderungen wir voll und ganz verstehen.",
+  "expertise": "Wir kreieren Web-, Mobile- und E-Commerce-Lösungen, die auf die Besonderheiten des Marktes in Lyon und Rhône-Alpes abgestimmt sind. Unser Team beherrscht die digitalen Herausforderungen, die spezifisch für die Sektoren der regionalen Exzellenz sind, von Biotechnologie bis Gastronomie, einschließlich der Fertigung.",
+  "why-choose-us": "Unser Wissen über den Lyoner Markt ermöglicht es uns, digitale Lösungen zu entwickeln, die perfekt auf die Anforderungen und Besonderheiten der lokalen Unternehmen abgestimmt sind. Wir verstehen die Standards der Exzellenz der Region und bieten digitale Unterstützung, die Lyons Identität und Know-how stärkt.",
+  "key-business-sectors": {
+    "biotech": "Biotechnologie",
+    "pharma": "Pharmazeutische Industrie",
+    "gastronomy": "Gastronomie",
+    "finance": "Finanzen"
+  },
+  "local-challenges": {
+    "industry-digitalization": "Digitalisierung von industriellen KMUs und Mittelständlern, die sich den Herausforderungen von Industrie 4.0 stellen",
+    "gastronomy-visibility": "Entwicklung digitaler Sichtbarkeit für Akteure der Lyoner Gastronomie",
+    "local-ecommerce": "E-Commerce-Lösungen, die auf den lokalen Handel und regionale Handwerker zugeschnitten sind",
+    "biotech-applications": "Geschäftsanwendungen für die wachsenden pharmazeutischen und biotechnologischen Sektoren"
+  },
+  "benefits": {
+    "sector-expertise": "Fachwissen in Lyons Bereichen der Exzellenz (Biotech, Pharma, Gastronomie)",
+    "industrial-understanding": "Verständnis der Herausforderungen der Digitalisierung im industriellen Raum Rhône-Alpes",
+    "sme-solutions": "Lösungen, die auf KMUs und Mittelständler in der digitalen Transformation abgestimmt sind",
+    "lyon-ui-design": "UI/UX Designs, die Lyons visuelle Identität und Qualitätsstandards widerspiegeln",
+    "local-ecosystem-knowledge": "Umfassendes Wissen über das lokale digitale Ökosystem"
+  },
+  "primary-stat": {
+    "label": "Innovationssektor"
+  },
+  "strengths": {
+    "biotech-pharma": {
+      "title": "Biotech- & Pharma-Lösungen",
+      "description": "Spezialisierte Anwendungen für Lyons Gesundheitscluster."
+    },
+    "gastronomy-ecommerce": {
+      "title": "Gastronomie E-Commerce",
+      "description": "Digitale Aufwertung regionaler Produkte aus Rhône-Alpes."
+    },
+    "industrial-applications": {
+      "title": "Industrielle Anwendungen",
+      "description": "Digitale Werkzeuge für Industrie 4.0 und Produktion."
+    },
+    "business-interfaces": {
+      "title": "Geschäftsinterfaces",
+      "description": "UI/UX-Design, das auf Lyons spezifische Bedürfnisse abgestimmt ist."
+    }
+  },
+  "focused-services": {
+    "biotech-applications": {
+      "name": "Biotech Geschäftsanwendungen",
+      "description": "Digitale Lösungen für Labore und Pharmaunternehmen in Lyon."
+    },
+    "gastronomy-ecommerce": {
+      "name": "Gastronomie E-Commerce",
+      "description": "Online-Verkaufsplattformen zur Präsentation von Lyons kulinarischer Exzellenz."
+    },
+    "industrial-digitalization": {
+      "name": "Industrielle Digitalisierung",
+      "description": "Kontrollwerkzeuge und IoT-Lösungen für die Industrie in Rhône-Alpes."
+    }
+  },
+  "stats": {
+    "biotech-projects": {
+      "label": "Biotech-Projekte",
+      "description": "Spezialisierte Anwendungen"
+    },
+    "satisfaction": {
+      "label": "Zufriedenheit",
+      "description": "Zufriedene Kunden"
+    },
+    "sme-supported": {
+      "label": "KMUs unterstützt",
+      "description": "Unternehmen in Lyon"
+    }
+  }
+}

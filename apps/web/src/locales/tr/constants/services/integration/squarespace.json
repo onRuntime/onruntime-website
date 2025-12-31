@@ -1,0 +1,80 @@
+{
+  "name": "SquareSpace",
+  "description": "SquareSpace'ta entegrasyon ve özelleştirme",
+  "hero": {
+    "title": "SquareSpace ile şık web siteleri",
+    "description": "SquareSpace ile ince bir çevrimiçi varlık oluştur. Uzmanlığımız, markanızın imajına mükemmel bir şekilde uyum sağlayan estetik ve işlevsel bir web sitesi garanti eder."
+  },
+  "features": {
+    "minimalist-design": {
+      "title": "Minimalist tasarım",
+      "description": "İçeriğinizi ve markanızı sergileyen zarif ve temiz sitelerin oluşturulması."
+    },
+    "smooth-experience": {
+      "title": "Akıcı deneyim",
+      "description": "Kusursuz bir kullanıcı deneyimi için sezgisel navigasyon ve optimize edilmiş performans."
+    },
+    "content-management": {
+      "title": "İçerik yönetimi",
+      "description": "İçeriğinizi kolayca yönetmek için basit ve sezgisel yönetici arayüzü."
+    },
+    "media-integration": {
+      "title": "Medya entegrasyonu",
+      "description": "Dinamik galerilerle resimlerinizin ve medyanızın optimal sergilenmesi."
+    }
+  },
+  "benefits": {
+    "professional-templates": {
+      "title": "Profesyonel şablonlar",
+      "description": "Tüm sektörler için geniş bir modern ve özelleştirilebilir şablon seçeneği."
+    },
+    "integrated-ecommerce": {
+      "title": "Entegre e-ticaret",
+      "description": "Tamamı özelleştirilebilir çevrimiçi satış çözümleri."
+    },
+    "optimal-performance": {
+      "title": "Optimal performans",
+      "description": "Güçlü altyapıda barındırılan hızlı ve güvenli siteler."
+    },
+    "integrated-marketing": {
+      "title": "Entegre pazarlama",
+      "description": "İşinizi büyütmek için pazarlama araçları ve istatistiksel analiz."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "SquareSpace sitesi oluşturmak ne kadar sürüyor?",
+      "answer": "SquareSpace sitesi oluşturmanın ortalama süresi, projenin karmaşıklığına bağlı olarak 2 ila 6 hafta arasında değişiyor. Bu süre şablon seçimi ve özelleştirme, içerik entegrasyonu ve test süreçlerini kapsar."
+    },
+    "product-sales": {
+      "question": "SquareSpace sitemde ürün satabilir miyim?",
+      "answer": "Evet, SquareSpace, ürünlerinizi çevrimiçi satabilmeniz için envanter yönetimi, güvenli ödemeler ve kargo seçenekleri ile yapılandırabileceğimiz tamamlayıcı bir e-ticaret çözümü sunuyor."
+    },
+    "content-updates": {
+      "question": "İçeriği güncellemek kolay mı?",
+      "answer": "Kesinlikle! SquareSpace’in arayüzü çok sezgisel. İçeriğinizi bağımsız olarak yönetebilmeniz için sizi kullanımı hakkında eğitiyoruz."
+    },
+    "seo-optimization": {
+      "question": "Sitem SEO için optimize edilecek mi?",
+      "answer": "Evet, SquareSpace'in SEO en iyi uygulamalarını uyguluyoruz ve arama motorlarındaki görünürlüğünüzü optimize etmek için gerekli tüm öğeleri yapılandırıyoruz."
+    },
+    "maintenance-service": {
+      "question": "Bakım hizmeti sunuyor musunuz?",
+      "answer": "Evet, güncellemeler, teknik destek ve SquareSpace sitenizin sürekli optimizasyonunu içeren farklı bakım planları sunuyoruz."
+    }
+  },
+  "complementary": {
+    "advanced-customization": {
+      "title": "İleri düzey özelleştirme",
+      "description": "Standart seçeneklerin ötesinde sitenizi özelleştirmek için CSS ve Javascript modifikasyonları."
+    },
+    "content-strategy": {
+      "title": "İçerik stratejisi",
+      "description": "İçeriğinizi oluşturma ve optimize etme konusunda destek."
+    },
+    "user-training": {
+      "title": "Kullanıcı eğitimi",
+      "description": "SquareSpace sitenizi yönetmeyi öğrenmek için kapsamlı bir eğitim."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "project": {
+    "market-application": "Anwendung auf den {region} Markt",
+    "expertise-featured": "Unsere Erfahrung mit diesem Projekt hat es uns ermöglicht, Fachwissen zu entwickeln, das besonders im Bereich der neuen Technologien in der {region} Region anwendbar ist.",
+    "expertise-digital": "Unsere Erfahrung mit diesem Projekt hat es uns ermöglicht, Fachwissen zu entwickeln, das besonders im Bereich des digitalen Handels in der {region} Region anwendbar ist.",
+    "skills-featured": "Die Fähigkeiten und Technologien, die in diesem Projekt verwendet werden, sind direkt übertragbar auf die Bedürfnisse von Unternehmen in {name}, insbesondere im Bereich der offenen Innovation.",
+    "skills-digital": "Die Fähigkeiten und Technologien, die in diesem Projekt verwendet werden, sind direkt übertragbar auf die Bedürfnisse von Unternehmen in {name}, insbesondere im Bereich der digitalen Transformation.",
+    "view-project": "Projekt ansehen"
+  },
+  "tags": {
+    "featured": "Ausgewähltes Projekt",
+    "open-source": "Open Source",
+    "customer": "Kundenprojekt"
+  },
+  "section": {
+    "title": "Unser Fachwissen für Projekte in {name}",
+    "description": "Entdecken Sie einige unserer Erfolge, die unser Know-how veranschaulichen und auf die digitalen Herausforderungen von Unternehmen in {region} anwendbar sind."
+  },
+  "cta": {
+    "title": "Ein digitales Projekt für Ihr Geschäft in {name}?",
+    "description": "Unser Fachwissen ist auf alle Sektoren anwendbar, mit besonderem Augenmerk auf die Besonderheiten des {region} Marktes.",
+    "button": "Lass uns über dein Projekt sprechen"
+  }
+}

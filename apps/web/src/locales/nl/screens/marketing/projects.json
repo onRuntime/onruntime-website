@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "title": "Onze projecten en prestaties",
+    "description": "Ontdek ons portfolio van web-, mobiele en UI/UX ontwerp ontwikkelingsprojecten. Eigenzinnige oplossingen en moderne interfaces gemaakt door ons team van experts.",
+    "subdescription": "Van concept tot voltooiing weerspiegelt elk project onze expertise en toewijding aan het creëren van uitzonderlijke digitale ervaringen."
+  },
+  "expertise": {
+    "title": "Onze projectontwikkelingsdeskundigheid",
+    "description": "Bij onRuntime Studio combineren we creativiteit, technische expertise en bewezen methodologie om jouw ideeën om te zetten in krachtige, innovatieve digitale oplossingen.",
+    "cards": {
+      "development": {
+        "title": "Maatwerk ontwikkeling",
+        "description": "Zorgvuldig gecodeerde oplossingen met de meest geschikte technologieën voor jouw project en specifieke doelstellingen."
+      },
+      "design": {
+        "title": "Uitzonderlijk UI/UX-design",
+        "description": "Elegante en intuïtieve interfaces die je gebruikers betrekken en effectief je merkidentiteit overbrengen."
+      },
+      "performance": {
+        "title": "Optimale prestaties",
+        "description": "Snelle, responsieve en geoptimaliseerde applicaties om een soepele en aangename gebruikerservaring te bieden."
+      }
+    }
+  },
+  "process": {
+    "title": "Ons leveringsproces",
+    "description": "Een bewezen methodologie die zorgt voor kwaliteit en succes voor elk project, van het initiële ontwerp tot de uiteindelijke implementatie.",
+    "steps": {
+      "discovery": {
+        "title": "Ontdekking",
+        "description": "Diepgaande analyse van jouw behoeften, doelstellingen en de specifics van jouw sector."
+      },
+      "conception": {
+        "title": "Ontwerp",
+        "description": "Het maken van mockups en prototypes om de gebruikerservaring te visualiseren en te valideren."
+      },
+      "development": {
+        "title": "Ontwikkeling",
+        "description": "Zorgvuldig coderen met moderne technologieën en rigoureuze tests om kwaliteit te waarborgen."
+      },
+      "deployment": {
+        "title": "Implementatie",
+        "description": "Productie lancering met doorlopende monitoring en ondersteuning om het succes van jouw project te waarborgen."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Wat onze cliënten over ons zeggen",
+    "description": "Cliënttevredenheid is onze hoogste prioriteit. Hier zijn enkele getuigenissen van partners met wie we het genoegen hebben gehad om te werken."
+  },
+  "industries": {
+    "title": "Sectoren die we bedienen",
+    "description": "Onze expertise strekt zich uit tot veel sectoren, met oplossingen die zijn aangepast aan de specificiteiten van elke industrie.",
+    "items": {
+      "ecommerce": "E-commerce",
+      "startups": "Startups",
+      "luxury": "Luxe",
+      "institutions": "Instellingen"
+    }
+  },
+  "why-us": {
+    "title": "Waarom kiezen voor onRuntime Studio?",
+    "description": "We onderscheiden ons door onze klantgerichte aanpak en toewijding aan uitmuntendheid.",
+    "items": {
+      "expertise": {
+        "title": "Technische expertise",
+        "description": "Een team van ervaren ontwikkelaars en ontwerpers die de nieuwste technologieën beheersen."
+      },
+      "custom": {
+        "title": "Maatwerk oplossingen",
+        "description": "Gepersonaliseerde ontwikkelingen die precies aansluiten op jouw specifieke behoeften."
+      },
+      "support": {
+        "title": "Doorlopende ondersteuning",
+        "description": "Kwaliteitsondersteuning gedurende het hele project en na de lancering."
+      }
+    }
+  },
+  "cta": {
+    "title": "Klaar om jouw project tot leven te brengen?",
+    "description": "Neem vandaag nog contact met ons op om je idee te bespreken en ontdek hoe onze expertise je kan helpen het werkelijkheid te maken.",
+    "buttons": {
+      "start": "Start een project",
+      "services": "Ontdek onze diensten"
+    }
+  }
+}

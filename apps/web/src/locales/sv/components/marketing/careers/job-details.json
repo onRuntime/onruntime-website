@@ -1,0 +1,69 @@
+{
+  "back": "Tillbaka till jobbannonser",
+  "share": {
+    "button": "Dela",
+    "text": "Upptäck denna möjlighet: {jobTitle} på onRuntime Studio",
+    "copied": "Länk kopierad till urklipp!"
+  },
+  "apply": "Ansök nu",
+  "published": "Publicerad den",
+  "employment-type": {
+    "full-time": "Heltid",
+    "part-time": "Deltid",
+    "contract": "Konsult",
+    "temporary": "Tillfällig",
+    "internship": "Praktik",
+    "apprenticeship": "Lärlingskap"
+  },
+  "workplace-type": {
+    "hybrid": "Hybrid",
+    "remote": "Fjärrarbete",
+    "on-site": "På plats"
+  },
+  "salary-format": {
+    "from": "Från",
+    "up-to": "Upp till",
+    "range": "-"
+  },
+  "sections": {
+    "description": "Jobbeskrivning",
+    "no-description": "Ingen detaljerad beskrivning finns tillgänglig för denna tjänst.",
+    "requirements": "Krav",
+    "benefits": "Förmåner"
+  },
+  "details": {
+    "title": "Jobbdetailler",
+    "department": "Avdelning",
+    "location": "Plats",
+    "contract": "Anställningstyp",
+    "salary": "Lön",
+    "remote": "Fjärrarbete",
+    "remote-possible": "Möjligt",
+    "workplace": "Arbetsläge"
+  },
+  "interested": {
+    "title": "Intresserad av denna tjänst?",
+    "description": "Ansök nu och gå med i vårt passionerade team."
+  },
+  "culture": {
+    "title": "Vår företagskultur",
+    "description": "På onRuntime Studio främjar vi en samarbetsvillig och stimulerande arbetsmiljö där varje teammedlem kan uttrycka sin kreativitet och utveckla sina färdigheter. Vi prioriterar innovation, kvalitet och välbefinnandet hos våra anställda.",
+    "training": {
+      "title": "Kontinuerlig utbildning",
+      "description": "Vi investerar i den professionella utvecklingen av våra team"
+    },
+    "flexible": {
+      "title": "Flexibel miljö",
+      "description": "Balans mellan arbete och liv samt hybridarbete"
+    },
+    "projects": {
+      "title": "Varierade projekt",
+      "description": "Arbeta med olika och stimulerande projekt"
+    },
+    "learn-more": "Lär dig mer om vårt team"
+  },
+  "cta": {
+    "title": "Redo för utmaningen?",
+    "description": "Gå med i vårt team och delta i stimulerande projekt som gör att du kan utveckla dina färdigheter och uttrycka din kreativitet."
+  }
+}

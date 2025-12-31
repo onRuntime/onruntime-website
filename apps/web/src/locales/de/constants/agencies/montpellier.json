@@ -1,0 +1,79 @@
+{
+  "title": "Webentwicklung in Montpellier | Digitale Lösungen für Unternehmen im Languedoc",
+  "description": "Erstelle deine Website oder mobile Anwendung in Montpellier. Maßgeschneiderte digitale Lösungen für Unternehmen in Montpellier, die auf die lokalen Herausforderungen deiner Branche abgestimmt sind.",
+  "hero": {
+    "title": "Web- und Mobile-Entwicklung in Montpellier",
+    "description": "Wir helfen Unternehmen in Montpellier und der Region Languedoc, sich mit individuellen Weblösungen zu digitalisieren, die perfekt auf die spezifischen Herausforderungen des regionalen Marktes abgestimmt sind."
+  },
+  "intro": "Eine dynamische Stadt an der Schnittstelle von mediterranen und Languedoc-Einflüssen, zeichnet sich Montpellier durch ein Ökosystem für Gesundheitsinnovationen, renommierte Universitäten und einen besonderen Lebensstil aus. Unsere digitale Expertise ermöglicht es Unternehmen in Montpellier, diesen Reichtum zu nutzen und sich in einem wettbewerbsintensiven Umfeld abzuheben.",
+  "expertise": "Unser Team gestaltet Websites, Anwendungen und digitale Lösungen, die perfekt auf die Unternehmen in Montpellier und seiner Umgebung abgestimmt sind. Wir verstehen die spezifischen Herausforderungen deines lokalen Marktes, sei es im Gesundheitssektor, im Bildungswesen oder im Languedoc-Terroir, und bieten digitale Lösungen, die dein Fachwissen und deine regionalen Wurzeln zur Geltung bringen.",
+  "why-choose-us": "Unser tiefes Wissen über den Markt in Montpellier ermöglicht es uns, digitale Lösungen zu entwickeln, die perfekt auf die spezifischen Herausforderungen lokaler Unternehmen abgestimmt sind. Wir verstehen das Gleichgewicht zwischen Innovation und Tradition, das Montpellier prägt, und integrieren dieses Verständnis in jedes Projekt, um authentische und leistungsstarke digitale Erlebnisse zu schaffen.",
+  "key-business-sectors": {
+    "health-biotech": "Gesundheit & Biotechnologien",
+    "higher-education": "Hochschulbildung",
+    "viticulture": "Weinbau",
+    "tourism": "Tourismus"
+  },
+  "local-challenges": {
+    "biotech-health-digitalization": "Digitalisierung des expandierenden Sektors Biotechnologie und Gesundheit",
+    "innovative-educational-platforms": "Bedarf an innovativen Bildungsplattformen für zahlreiche Universitäten und Schulen",
+    "wine-heritage-digital-showcase": "Digitale Präsentation des Wein-Erbes und regionaler Produkte",
+    "tourism-adaptation": "Anpassung der Akteure im Tourismus an die mediterrane Konkurrenz"
+  },
+  "benefits": {
+    "health-sector-solutions": "Maßgeschneiderte Lösungen für innovative Unternehmen im Gesundheitssektor",
+    "educational-platforms-expertise": "Schwache Expertise in Bildungsplattformen und E-Learning-Tools",
+    "languedoc-market-knowledge": "Tiefgehendes Wissen über den Markt im Languedoc und seine Besonderheiten",
+    "regional-products-ui": "Benutzeroberflächen, die optimiert sind, um regionale Produkte hervorzuheben",
+    "personalized-support": "Personalisierte Unterstützung während deines gesamten digitalen Projekts"
+  },
+  "primary-stat": {
+    "label": "Biotechnologien"
+  },
+  "strengths": {
+    "connected-health": {
+      "title": "Verbundene Gesundheit",
+      "description": "Digitale Lösungen für Startups und Unternehmen in den Lebenswissenschaften."
+    },
+    "elearning": {
+      "title": "E-Learning",
+      "description": "Bildungsplattformen für Universitäten und Bildungseinrichtungen."
+    },
+    "digital-terroir": {
+      "title": "Digitales Terroir",
+      "description": "Webseiten und E-Commerce für Weingüter und lokale Produzenten."
+    },
+    "regional-tourism": {
+      "title": "Regionaler Tourismus",
+      "description": "Digitale Erlebnisse zur Präsentation des Erbes des Languedoc."
+    }
+  },
+  "focused-services": {
+    "health-applications": {
+      "name": "Gesundheitsanwendungen",
+      "description": "Maßgeschneiderte Lösungen für Startups und Unternehmen in den Lebenswissenschaften."
+    },
+    "educational-platforms": {
+      "name": "Bildungsplattformen",
+      "description": "Digitale Lernwerkzeuge für Bildungseinrichtungen."
+    },
+    "terroir-ecommerce": {
+      "name": "Terroir-E-Commerce",
+      "description": "Online-Shops für lokale Produzenten und Weingüter."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Jahre Erfahrung"
+    },
+    "satisfaction": {
+      "label": "Zufriedenheit",
+      "description": "Zufriedene Kunden"
+    },
+    "average-time": {
+      "label": "Durchschnittliche Zeit",
+      "description": "Wochen bis zur Fertigstellung"
+    }
+  }
+}

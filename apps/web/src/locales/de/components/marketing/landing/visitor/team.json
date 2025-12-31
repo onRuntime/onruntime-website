@@ -1,0 +1,13 @@
+{
+  "title": "Ein Team von leidenschaftlichen Kreativen, die leuchten.",
+  "description": "Bestehend aus verschiedenen Talenten, von Entwicklern bis hin zu begeisterten Designern. Jeder bringt seinen eigenen Stil in unsere Projekte ein. Gemeinsam bilden wir ein Kollektiv, in dem Innovation im Mittelpunkt unseres Schaffens steht.",
+  "stats": {
+    "experience": "Jahre Erfahrung",
+    "projects": "Abgeschlossene Projekte",
+    "clients": "Zufriedene Kunden"
+  },
+  "cta": "Erfahre mehr",
+  "card": {
+    "details": "Details"
+  }
+}

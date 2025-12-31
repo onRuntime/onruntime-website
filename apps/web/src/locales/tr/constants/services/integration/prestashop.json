@@ -1,0 +1,80 @@
+{
+  "name": "PrestaShop",
+  "description": "PrestaShop mağaza geliştirme",
+  "hero": {
+    "title": "PrestaShop ile e-ticaret geliştirme",
+    "description": "PrestaShop ile profesyonel bir çevrimiçi mağaza açın. Uzmanlığımız, ihtiyaçlarınıza mükemmel şekilde uyum sağlayan güçlü ve ölçeklenebilir bir e-ticaret çözümünü garanti eder."
+  },
+  "features": {
+    "custom-design": {
+      "title": "Özel tasarım",
+      "description": "Markanızı yansıtan ve dönüşümü optimize eden özel temaların oluşturulması."
+    },
+    "advanced-management": {
+      "title": "Gelişmiş yönetim",
+      "description": "Ürünlerinizi, siparişlerinizi ve müşterilerinizi yönetmek için güçlü bir yönetici arayüzü."
+    },
+    "optimized-performance": {
+      "title": "Optimize edilmiş performans",
+      "description": "Hızlı yükleme süreleri ve sorunsuz bir deneyim için gelişmiş optimizasyon."
+    },
+    "enhanced-security": {
+      "title": "Gelişmiş güvenlik",
+      "description": "Mağazanızın ve müşterilerinizin verilerinin gelişmiş korunması."
+    }
+  },
+  "benefits": {
+    "complete-management": {
+      "title": "Tam yönetim",
+      "description": "Ürünleriniz, envanteriniz, siparişleriniz ve müşteri ilişkileri üzerinde tam kontrol."
+    },
+    "multi-store": {
+      "title": "Çoklu mağaza",
+      "description": "Tek bir yönetici arayüzünden birden fazla mağazanın yönetimi."
+    },
+    "integrated-logistics": {
+      "title": "Entegre lojistik",
+      "description": "Gelişmiş taşıyıcı ve nakliye maliyeti yönetimi."
+    },
+    "detailed-analytics": {
+      "title": "Detaylı analitik",
+      "description": "Performansınızı izlemek ve optimize etmek için tam istatistikler."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Bir PrestaShop mağazası oluşturmak ne kadar sürer?",
+      "answer": "Bir PrestaShop mağazası oluşturmanın ortalama süresi, proje karmaşıklığına bağlı olarak 6 ila 12 hafta arasında değişir. Bu süre, tema özelleştirme, özel özellik geliştirme, ürün entegrasyonu ve testleri içerir."
+    },
+    "migration": {
+      "question": "Mevcut mağazamı PrestaShop’a taşıyabilir misiniz?",
+      "answer": "Evet, ürünlerinizi, müşterilerinizi, siparişlerinizi ve geçmişinizi SEO’nuzu koruyarak PrestaShop’a taşıyan tam bir migrasyon hizmeti sunuyoruz."
+    },
+    "large-catalogs": {
+      "question": "PrestaShop büyük ürün katalogları için uygun mu?",
+      "answer": "Kesinlikle! PrestaShop, binlerce ürün varyasyonunu verimli bir şekilde yönetmek için tasarlanmıştır ve mükemmel performans sağlar."
+    },
+    "custom-development": {
+      "question": "Özel geliştirme sunuyor musunuz?",
+      "answer": "Evet, PrestaShop’u özel ihtiyaçlarınıza uyacak şekilde uyarlamak için özel modüller ve özellikler geliştiriyoruz: ERP entegrasyonları, özel iş süreçleri vb."
+    },
+    "maintenance-updates": {
+      "question": "Bakım ve güncellemeleri nasıl yönetiyorsunuz?",
+      "answer": "Güvenlik güncellemeleri, yedeklemeler, performans optimizasyonu ve teknik destek içeren çeşitli bakım planları sunuyoruz."
+    }
+  },
+  "complementary": {
+    "custom-modules": {
+      "title": "Özel modüller",
+      "description": "İşletmeniz için özel özelliklerin geliştirilmesi."
+    },
+    "digital-marketing": {
+      "title": "Dijital pazarlama",
+      "description": "Görünürlüğünüzü ve satışlarınızı artırmak için pazarlama stratejileri."
+    },
+    "prestashop-training": {
+      "title": "PrestaShop eğitimi",
+      "description": "Mağaza yönetimini öğrenmek için özel eğitim."
+    }
+  }
+}

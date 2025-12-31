@@ -1,0 +1,80 @@
+{
+  "name": "RESTful API",
+  "description": "고성능 API의 설계 및 개발",
+  "hero": {
+    "title": "RESTful & GraphQL API",
+    "description": "애플리케이션에 적합한 최신, 안전하고 고성능의 API를 개발해요. 우리의 전문 지식은 특정 요구 사항을 충족하는 견고하고 확장 가능한 인터페이스를 보장해요."
+  },
+  "features": {
+    "rest-graphql": {
+      "title": "REST & GraphQL",
+      "description": "업계 표준에 맞춘 최신 API 개발."
+    },
+    "advanced-security": {
+      "title": "고급 보안",
+      "description": "취약점 및 공격에 대한 강력한 보호."
+    },
+    "optimal-performance": {
+      "title": "최적 성능",
+      "description": "최소 응답 시간을 위해 최적화된 아키텍처."
+    },
+    "complete-documentation": {
+      "title": "완전한 문서",
+      "description": "쉬운 통합을 위한 명확하고 인터랙티브한 문서."
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "고가용성",
+      "description": "최대 가용성을 위한 중복 인프라."
+    },
+    "scalability": {
+      "title": "확장성",
+      "description": "성장을 지원하도록 설계된 아키텍처."
+    },
+    "advanced-monitoring": {
+      "title": "고급 모니터링",
+      "description": "성능 및 건강 상태의 실시간 추적."
+    },
+    "intelligent-cache": {
+      "title": "지능형 캐시",
+      "description": "고급 캐싱으로 성능 최적화."
+    }
+  },
+  "faq": {
+    "rest-vs-graphql": {
+      "question": "REST와 GraphQL의 차이는 무엇인가요?",
+      "answer": "REST는 각 엔드포인트가 특정 자원에 해당하는 전통적인 아키텍처인데, GraphQL은 클라이언트가 필요한 데이터만 요청할 수 있게 해요. 필요와 사용 사례에 따라 최선의 접근 방식을 조언해드려요."
+    },
+    "api-security": {
+      "question": "API 보안은 어떻게 보장하나요?",
+      "answer": "여러 가지 보안 계층을 구현해요: JWT 인증, SSL/TLS 암호화, 속도 제한, 데이터 검증, 주입 및 CSRF 공격 방어. 또한 API 보안을 위해 OWASP 권장 사항을 따르기도 해요."
+    },
+    "scaling": {
+      "question": "확장은 어떻게 처리하나요?",
+      "answer": "수평 확장이 가능한 API를 설계해요. 로드 밸런싱, 분산 캐싱, 쿼리 최적화를 지원해요. 아키텍처는 상당한 트래픽 증가를 지원하도록 설계되어 있어요."
+    },
+    "documentation": {
+      "question": "어떤 문서를 제공하나요?",
+      "answer": "종합적인 문서를 제공해요: OpenAPI/Swagger 기술 문서, 통합 가이드, 코드 예시, 테스트 환경. 문서는 각 API 발전에 따라 최신 상태로 유지돼요."
+    },
+    "post-deployment-support": {
+      "question": "배포 후 지원을 제공하나요?",
+      "answer": "네, 24/7 모니터링, 기술 지원, 지속적인 성능 최적화, 보안 업데이트 및 기능 진화를 포함한 여러 유지보수 계획을 제공해요."
+    }
+  },
+  "complementary": {
+    "advanced-analytics": {
+      "title": "고급 분석",
+      "description": "사용 및 성능에 대한 상세 분석."
+    },
+    "data-migration": {
+      "title": "데이터 마이그레이션",
+      "description": "기존 시스템에서의 마이그레이션."
+    },
+    "integration": {
+      "title": "통합",
+      "description": "당신의 애플리케이션과의 통합 지원."
+    }
+  }
+}

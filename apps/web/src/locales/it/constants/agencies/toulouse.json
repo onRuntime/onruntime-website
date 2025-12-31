@@ -1,0 +1,79 @@
+{
+  "title": "Sviluppo web a Tolosa | Soluzioni digitali per le imprese dell'Occitania",
+  "description": "Crea il tuo sito web o la tua applicazione mobile a Tolosa. Soluzioni digitali personalizzate per le imprese di Tolosa, adattate alle sfide locali del tuo settore.",
+  "hero": {
+    "title": "Sviluppo Web & Mobile a Tolosa",
+    "description": "Aiutiamo le imprese a Tolosa e in Occitania a digitalizzarsi con soluzioni web personalizzate, perfettamente adattate alle sfide specifiche del mercato di Tolosa."
+  },
+  "intro": "Capitale europea dell'aerospazio e vivace città universitaria, Tolosa presenta un ecosistema economico unico dove innovazione e tradizione coesistono. La nostra competenza digitale permette alle imprese di Tolosa di emergere in un ambiente tecnologico competitivo e in continua evoluzione.",
+  "expertise": "Il nostro team progetta siti web, applicazioni e soluzioni digitali perfettamente adattate alle imprese di Tolosa, sia che siano giganti aerospaziali, startup innovative o negozi tradizionali. Comprendiamo le sfide specifiche del tuo mercato locale e offriamo soluzioni tecnologiche all'avanguardia.",
+  "why-choose-us": "La nostra conoscenza approfondita del mercato di Tolosa ci consente di sviluppare soluzioni digitali perfettamente adattate alle sfide specifiche delle imprese locali. Comprendiamo le sfide tecnologiche della Città Rosa e integriamo questa competenza in ogni progetto per creare esperienze digitali performanti e orientate al futuro.",
+  "key-business-sectors": {
+    "aeronautics": "Aeronautica",
+    "space": "Spazio",
+    "tech": "Tecnologia",
+    "education": "Educazione"
+  },
+  "local-challenges": {
+    "aerospace-transformation": "Trasformazione digitale delle aziende nell'ecosistema aerospaziale",
+    "startup-platforms": "Necessità di piattaforme innovative per le startup di Tolosa French Tech",
+    "elearning-development": "Sviluppo di soluzioni di e-learning per numerose istituzioni educative",
+    "local-commerce-adaptation": "Adattamento dei negozi locali di fronte alla concorrenza delle catene nazionali"
+  },
+  "benefits": {
+    "high-tech-solutions": "Soluzioni personalizzate adattate alle industrie high-tech",
+    "complex-interfaces-expertise": "Esperienza approfondita nello sviluppo di interfacce complesse",
+    "startup-ecosystem-knowledge": "Conoscenza approfondita dell'ecosistema startup di Tolosa",
+    "agile-approach": "Approccio agile perfettamente adatto a progetti innovativi",
+    "personalized-support": "Supporto personalizzato durante il tuo progetto digitale"
+  },
+  "primary-stat": {
+    "label": "settore tecnologico"
+  },
+  "strengths": {
+    "aeronautics-solutions": {
+      "title": "Soluzioni Aeronautiche",
+      "description": "Applicazioni e interfacce adattate alle esigenze specifiche del settore aerospaziale."
+    },
+    "startup-platforms": {
+      "title": "Piattaforme Startup",
+      "description": "Soluzioni digitali agili e scalabili per startup innovative."
+    },
+    "elearning": {
+      "title": "E-learning",
+      "description": "Piattaforme educative per istituzioni di istruzione superiore."
+    },
+    "local-commerce": {
+      "title": "Commercio Locale",
+      "description": "Digitalizzazione personalizzata per negozi e artigiani di Tolosa."
+    }
+  },
+  "focused-services": {
+    "business-applications": {
+      "name": "Applicazioni Aziendali",
+      "description": "Soluzioni personalizzate per l'industria aeronautica e le aziende tecnologiche."
+    },
+    "innovative-websites": {
+      "name": "Siti Web Innovativi",
+      "description": "Vetrine digitali moderne per startup e aziende innovative."
+    },
+    "ecommerce-platforms": {
+      "name": "Piattaforme E-commerce",
+      "description": "Soluzioni complete per negozi locali che vogliono digitalizzarsi."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Esperienza",
+      "description": "Anni di esperienza"
+    },
+    "satisfaction": {
+      "label": "Soddisfazione",
+      "description": "Clienti soddisfatti"
+    },
+    "average-time": {
+      "label": "Tempo Medio",
+      "description": "Settimane di completamento"
+    }
+  }
+}

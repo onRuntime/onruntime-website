@@ -1,0 +1,80 @@
+{
+  "name": "UX/UI 审核",
+  "description": "对你现有接口的分析和优化",
+  "hero": {
+    "title": "UX/UI 审核与优化",
+    "description": "通过专业审核提升你的界面用户体验。我们的专业知识保证深入的分析和切实的建议来优化你的界面."
+  },
+  "features": {
+    "heuristic-analysis": {
+      "title": "启发式分析",
+      "description": "基于UX原则的专家评估."
+    },
+    "user-testing": {
+      "title": "用户测试",
+      "description": "观察和分析真实行为."
+    },
+    "analytics": {
+      "title": "分析",
+      "description": "对使用数据的分析."
+    },
+    "accessibility": {
+      "title": "可访问性",
+      "description": "对可访问性标准的验证."
+    }
+  },
+  "benefits": {
+    "conversion": {
+      "title": "转化率",
+      "description": "识别转化障碍."
+    },
+    "performance": {
+      "title": "性能",
+      "description": "对性能指标的分析."
+    },
+    "satisfaction": {
+      "title": "满意度",
+      "description": "用户满意度的测量."
+    },
+    "journeys": {
+      "title": "用户旅程",
+      "description": "优化用户旅程."
+    }
+  },
+  "faq": {
+    "complete-audit": {
+      "question": "完整的UX/UI审核包括什么？",
+      "answer": "完整审核包括：基于UX原则的启发式分析、用户测试、分析数据分析、可访问性评估、竞争基准和详细的建议。我们提供一份全面的报告，包含切实的解决方案."
+    },
+    "audit-process": {
+      "question": "审核过程是怎样的？",
+      "answer": "过程开始于发现阶段，以了解你的目标和KPI。然后我们进行各种分析（启发式、数据、测试），合成结果，并准备一份详细报告，包含优先级建议."
+    },
+    "deliverables": {
+      "question": "提供哪些交付物？",
+      "answer": "你会收到一份完整的审核报告，包括：执行摘要、详细分析、数据可视化、识别的问题及严重程度、优先级推荐和建议的行动计划."
+    },
+    "measuring-impact": {
+      "question": "你们如何衡量建议的影响？",
+      "answer": "我们为每个建议定义具体的KPI，并设置关键指标（转化率、用户满意度、任务完成时间等）的追踪，以衡量改进的影响."
+    },
+    "post-audit-support": {
+      "question": "你们提供审核后的支持吗？",
+      "answer": "是的，我们提供实施建议的支持，包括：行动优先级、实施支持和结果测量。我们还可以进行随访审核."
+    }
+  },
+  "complementary": {
+    "user-testing": {
+      "title": "用户测试",
+      "description": "与用户的深度测试会议."
+    },
+    "advanced-analytics": {
+      "title": "高级分析",
+      "description": "设置追踪和深入分析."
+    },
+    "ux-training": {
+      "title": "UX培训",
+      "description": "培训你的团队最佳实践."
+    }
+  }
+}

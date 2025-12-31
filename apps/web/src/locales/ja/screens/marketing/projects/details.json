@@ -1,0 +1,71 @@
+{
+  "tags": {
+    "featured": "注目",
+    "open-source": "オープンソース",
+    "customer": "クライアントプロジェクト"
+  },
+  "buttons": {
+    "view-project": "プロジェクトを表示",
+    "source-code": "ソースコード"
+  },
+  "info": {
+    "start-date": "開始日",
+    "status": "ステータス",
+    "statuses": {
+      "active": "アクティブ",
+      "completed": "完了",
+      "archived": "アーカイブ済み"
+    },
+    "team": "チーム",
+    "members": "メンバー"
+  },
+  "sections": {
+    "about": "プロジェクトについて",
+    "metrics": "影響とメトリクス",
+    "features": "主な機能",
+    "technologies": "使用される技術",
+    "gallery": "ギャラリー",
+    "team": "チーム",
+    "challenges": "直面した課題",
+    "learnings": "重要な学び",
+    "future": "未来の展望"
+  },
+  "cta": {
+    "title": "このプロジェクトに興味がありますか？",
+    "description": "あなたが同様のプロジェクトを作成するためにどう助けられるかを発見してください。",
+    "button": "プロジェクトについて話す"
+  },
+  "tonightpass": {
+    "hero": {
+      "title": "イベントを簡単にするチケット管理",
+      "subtitle": "作成から入場まで、すべて5分で管理",
+      "description": "イベントオーガナイザーのための完全なチケットソリューション。イベントを作成し、チケットを販売し、プロフェッショナルなツールと専用サポートでアクセスを管理します。",
+      "buttons": {
+        "create": "私のイベントを作成",
+        "discover": "ソリューションを発見"
+      },
+      "stats": {
+        "setup": {
+          "value": "5分",
+          "label": "セットアップ"
+        },
+        "cost": {
+          "value": "$0",
+          "label": "インストール"
+        },
+        "support": {
+          "value": "24/7",
+          "label": "サポート"
+        }
+      }
+    },
+    "cta": {
+      "title": "チケット管理を簡素化する準備はできましたか？",
+      "description": "完全かつ直感的なソリューションでイベント管理を簡略化しましょう",
+      "buttons": {
+        "start": "今すぐ始める",
+        "features": "すべての機能を見る"
+      }
+    }
+  }
+}

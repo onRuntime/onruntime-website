@@ -1,0 +1,20 @@
+{
+  "retry": "Opnieuw proberen",
+  "no-results": "Geen enkele vacature komt overeen met je zoekopdracht.",
+  "count": "vacature(s) beschikbaar",
+  "published": "Geplaatst op",
+  "view-offer": "Bekijk aanbieding",
+  "employment-type": {
+    "full-time": "Voltijd",
+    "part-time": "Deeltijd",
+    "contract": "Contract",
+    "temporary": "Tijdelijk",
+    "internship": "Stage",
+    "apprenticeship": "Beroepsopleiding"
+  },
+  "workplace-type": {
+    "hybrid": "Hybride",
+    "remote": "Thuiswerk",
+    "on-site": "Op locatie"
+  }
+}

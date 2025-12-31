@@ -1,0 +1,49 @@
+{
+  "name": "통합",
+  "description": "주요 전자상거래 및 CMS 플랫폼의 통합",
+  "benefits": {
+    "clean-maintainable-code": {
+      "title": "깨끗하고 유지보수가 쉬운 코드",
+      "description": "장기적인 유지보수를 위해 설계된 높은 코드 기준과 아키텍처로 통합됨."
+    },
+    "optimized-performance": {
+      "title": "최적화된 성능",
+      "description": "고급 최적화 기법과 모범 사례를 통해 빠르고 매끄러운 웹사이트 제공."
+    },
+    "responsive-design": {
+      "title": "반응형 디자인",
+      "description": "일관된 사용자 경험을 위해 모든 화면과 기기에 완벽하게 적응."
+    },
+    "smooth-animations": {
+      "title": "부드러운 애니메이션",
+      "description": "성능을 유지하면서 사용자 경험을 풍부하게 하기 위해 세련된 애니메이션 통합."
+    }
+  },
+  "process": {
+    "mockup-analysis": {
+      "title": "목업 분석",
+      "description": "구성 요소, 상호작용 및 기술적 주의사항을 식별하기 위해 목업을 심층적으로 연구."
+    },
+    "technical-architecture": {
+      "title": "기술 아키텍처",
+      "description": "프론트엔드 아키텍처 정의 및 프로젝트에 적합한 기술 선택."
+    },
+    "component-development": {
+      "title": "컴포넌트 개발",
+      "description": "디자인 시스템 원칙에 따라 재사용 가능한 컴포넌트 생성."
+    },
+    "responsive-integration": {
+      "title": "반응형 통합",
+      "description": "모바일 경험에 특별한 주의를 기울여 모든 화면 형식에 대한 디자인 적응."
+    },
+    "optimization": {
+      "title": "최적화",
+      "description": "성능, 접근성 및 기술적 SEO 최적화."
+    },
+    "testing-validation": {
+      "title": "테스트 및 검증",
+      "description": "최적의 사용자 경험을 보장하기 위해 다양한 브라우저와 기기에서 철저하게 테스트."
+    }
+  },
+  "process-services": {}
+}

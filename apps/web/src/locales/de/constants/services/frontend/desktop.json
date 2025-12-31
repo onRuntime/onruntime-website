@@ -1,0 +1,80 @@
+{
+  "name": "Desktop-Software",
+  "description": "Plattformübergreifende Entwicklung von Desktop-Anwendungen",
+  "hero": {
+    "title": "Plattformübergreifende Desktop-Anwendungen",
+    "description": "Entwickle moderne und leistungsstarke Desktop-Anwendungen für Windows, macOS und Linux. Unser Fachwissen garantiert professionelle Anwendungen, die die volle Power des Desktops nutzen."
+  },
+  "features": {
+    "electron-react": {
+      "title": "Electron & React",
+      "description": "Moderne Technologien für leistungsstarke und skalierbare Desktop-Anwendungen."
+    },
+    "multiplatform": {
+      "title": "Plattformübergreifend",
+      "description": "Windows, macOS und Linux kompatible Anwendungen aus einem einzigen Code."
+    },
+    "native-performance": {
+      "title": "Native Leistung",
+      "description": "Optimierung zur effizienten Nutzung von Systemressourcen."
+    },
+    "system-integration": {
+      "title": "Systemintegration",
+      "description": "Zugriff auf native Betriebssystemfunktionen."
+    }
+  },
+  "benefits": {
+    "windows-macos": {
+      "title": "Windows & macOS",
+      "description": "Native Unterstützung für wichtige Desktop-Plattformen."
+    },
+    "system-access": {
+      "title": "Systemzugriff",
+      "description": "Direkte Interaktion mit dem Betriebssystem."
+    },
+    "offline-mode": {
+      "title": "Offline-Modus",
+      "description": "Eigenständiger Betrieb ohne Internetverbindung."
+    },
+    "local-data": {
+      "title": "Lokale Daten",
+      "description": "Lokale Speicherung und Datenverarbeitung für erhöhte Sicherheit."
+    }
+  },
+  "faq": {
+    "why-electron": {
+      "question": "Warum Electron für die Desktop-Entwicklung wählen?",
+      "answer": "Electron ermöglicht das Erstellen plattformübergreifender Desktop-Anwendungen mit modernen Webtechnologien (React, TypeScript). Das bietet schnelle Entwicklung, vereinfachte Wartung und ein ausgezeichnetes Nutzererlebnis und gewährleistet gleichzeitig die Kompatibilität mit Windows, macOS und Linux."
+    },
+    "security": {
+      "question": "Wie gehen Sie mit der Sicherheit von Desktop-Anwendungen um?",
+      "answer": "Wir implementieren mehrere Sicherheitsebenen: Verschlüsselung sensibler Daten, Schutz vor Code-Injection, automatische Sicherheitsupdates und bewährte Verfahren in der sicheren Entwicklung. Außerdem folgen wir den Sicherheitsempfehlungen, die für jedes Betriebssystem spezifisch sind."
+    },
+    "auto-update": {
+      "question": "Bieten Sie ein automatisches Updatesystem an?",
+      "answer": "Ja, wir integrieren ein automatisches Updatesystem, das eine einfache Bereitstellung neuer Anwendungsversionen ermöglicht. Benutzer werden über verfügbare Updates informiert und können diese mit einem Klick installieren."
+    },
+    "distribution": {
+      "question": "Wie gehen Sie mit der Anwendungsdistribution um?",
+      "answer": "Wir verwalten den gesamten Verteilungsprozess: Erstellen von Installern für jede Plattform, Signieren von Anwendungen, Veröffentlichen in App-Stores wenn nötig (Microsoft Store, Mac App Store) und Einrichten eines automatischen Updatesystems."
+    },
+    "post-launch-support": {
+      "question": "Bieten Sie Unterstützung nach der Markteinführung an?",
+      "answer": "Ja, wir bieten mehrere Wartungspläne an, die technische Unterstützung, Fehlerbehebungen, Sicherheitsupdates, Leistungsoptimierungen und Weiterentwicklungen der Funktionen umfassen."
+    }
+  },
+  "complementary": {
+    "telemetry": {
+      "title": "Telemetrie",
+      "description": "Überwachung der Leistung und des Nutzerverhaltens."
+    },
+    "distribution": {
+      "title": "Distribution",
+      "description": "Veröffentlichen im Store und Update-Verwaltung."
+    },
+    "cloud-sync": {
+      "title": "Cloud-Synchronisierung",
+      "description": "Daten-Synchronisation mit der Cloud."
+    }
+  }
+}

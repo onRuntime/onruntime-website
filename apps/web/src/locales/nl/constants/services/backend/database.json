@@ -1,0 +1,80 @@
+{
+  "name": "Databases",
+  "description": "Database architectuur en optimalisatie",
+  "hero": {
+    "title": "Database Architectuur",
+    "description": "Ontwerp en optimaliseer je databases voor optimale prestaties en maximale schaalbaarheid. Onze expertise garandeert een robuuste architectuur die voldoet aan jouw huidige en toekomstige behoeften."
+  },
+  "features": {
+    "optimized-architecture": {
+      "title": "Geoptimaliseerde architectuur",
+      "description": "Intelligent ontwerp van schema's en relaties voor optimale prestaties."
+    },
+    "enhanced-security": {
+      "title": "Verbeterde beveiliging",
+      "description": "Robuste bescherming van gevoelige gegevens en naleving van normen."
+    },
+    "high-performance": {
+      "title": "Hoge prestaties",
+      "description": "Optimalisatie van query's en indexen voor minimale responstijden."
+    },
+    "backup-recovery": {
+      "title": "Backup & Herstel",
+      "description": "Betrouwbare backup- en herstelstrategieën."
+    }
+  },
+  "benefits": {
+    "horizontal-scalability": {
+      "title": "Horizontale schaalbaarheid",
+      "description": "Architectuur ontworpen voor groei en schaalvergroting."
+    },
+    "replication": {
+      "title": "Replicatie",
+      "description": "Hoge beschikbaarheid en geografische verspreiding van gegevens."
+    },
+    "advanced-monitoring": {
+      "title": "Geavanceerde monitoring",
+      "description": "Realtime tracking van prestaties en gezondheid."
+    },
+    "optimized-search": {
+      "title": "Geoptimaliseerde zoekfunctie",
+      "description": "Intelligent indexeren voor snelle zoekopdrachten."
+    }
+  },
+  "faq": {
+    "sql-vs-nosql": {
+      "question": "Hoe kies je tussen SQL en NoSQL?",
+      "answer": "De keuze hangt af van jouw specifieke behoeften. SQL-databases zijn ideaal voor gestructureerde gegevens met complexe relaties, terwijl NoSQL uitblinkt in het omgaan met ongestructureerde gegevens en horizontale schaalbaarheid. We begeleiden je naar de beste oplossing op basis van jouw use cases."
+    },
+    "data-security": {
+      "question": "Hoe ga je om met databeveiliging?",
+      "answer": "We implementeren meerdere beveiligingslagen: versleuteling van gevoelige gegevens, gedetailleerde toegangscontrole, audit van toegang, regelmatige backups en naleving van beveiligingsnormen (AVG, etc.). We voeren ook regelmatige veiligheidstests uit."
+    },
+    "performance-optimization": {
+      "question": "Hoe optimaliseer je de prestaties?",
+      "answer": "We gebruiken verschillende technieken: optimalisatie van schema's en query's, intelligent indexeren, caching, gegevenspartitionering en continue monitoring. We analyseren regelmatig de prestaties om optimalisatiekansen te identificeren."
+    },
+    "migration-services": {
+      "question": "Bied je migratiediensten aan?",
+      "answer": "Ja, we regelen database-migraties van begin tot eind: analyse van bestaande systemen, planning, testen, gegevensmigratie met minimale onderbreking en validatie na migratie. We zorgen voor gegevensconsistentie en integriteit."
+    },
+    "data-availability": {
+      "question": "Hoe zorg je voor gegevensbeschikbaarheid?",
+      "answer": "We zetten zeer beschikbare architecturen op met replicatie, clustering en plannen voor noodherstel. We voeren regelmatige backups uit en testen de herstelprocedures."
+    }
+  },
+  "complementary": {
+    "data-migration": {
+      "title": "Gegevensmigratie",
+      "description": "Veilige overdracht van je bestaande systemen."
+    },
+    "audit-optimization": {
+      "title": "Audit & Optimalisatie",
+      "description": "Prestatieanalyse en aanbevelingen."
+    },
+    "monitoring-24-7": {
+      "title": "24/7 Monitoring",
+      "description": "Continue surveillance en realtime meldingen."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "UX/UI Audit",
+  "description": "Analyse en optimalisatie van je bestaande interfaces",
+  "hero": {
+    "title": "UX/UI Audit & Optimalisatie",
+    "description": "Verbeter de gebruikerservaring van je interfaces met een professionele audit. Onze expertise garandeert een grondige analyse en concrete aanbevelingen om je interfaces te optimaliseren."
+  },
+  "features": {
+    "heuristic-analysis": {
+      "title": "Heuristische analyse",
+      "description": "Expertbeoordeling op basis van UX-principes."
+    },
+    "user-testing": {
+      "title": "Gebruikersonderzoek",
+      "description": "Observatie en analyse van echte gedragingen."
+    },
+    "analytics": {
+      "title": "Analytics",
+      "description": "Analyse van gebruiksgegevens."
+    },
+    "accessibility": {
+      "title": "Toegankelijkheid",
+      "description": "Verificatie van toegankelijkheidseisen."
+    }
+  },
+  "benefits": {
+    "conversion": {
+      "title": "Conversie",
+      "description": "Identificatie van conversieknelpunten."
+    },
+    "performance": {
+      "title": "Prestatie",
+      "description": "Analyse van prestatiestatistieken."
+    },
+    "satisfaction": {
+      "title": "Tevredenheid",
+      "description": "Meten van gebruikers tevredenheid."
+    },
+    "journeys": {
+      "title": "Reizen",
+      "description": "Optimalisatie van gebruikersreizen."
+    }
+  },
+  "faq": {
+    "complete-audit": {
+      "question": "Wat is er inbegrepen in een complete UX/UI audit?",
+      "answer": "Een complete audit omvat: heuristische analyse op basis van UX-principes, gebruikersonderzoek, analyse van analytische gegevens, beoordeling van toegankelijkheid, concurrentievergelijking en gedetailleerde aanbevelingen. We bieden een uitgebreid rapport met concrete oplossingen."
+    },
+    "audit-process": {
+      "question": "Hoe werkt het auditproces?",
+      "answer": "Het proces begint met een ontdekfase om je doelstellingen en KPI's te begrijpen. Vervolgens voeren we verschillende analyses uit (heuristisch, data, testen), synthetiseren we de resultaten en bereiden we een gedetailleerd rapport voor met prioriterende aanbevelingen."
+    },
+    "deliverables": {
+      "question": "Welke opleveringen worden verstrekt?",
+      "answer": "Je ontvangt een compleet auditrapport inclusief: executive summary, gedetailleerde analyses, datavisualisaties, geïdentificeerde problemen met ernstniveaus, prioriterende aanbevelingen en een voorgesteld actieplan."
+    },
+    "measuring-impact": {
+      "question": "Hoe meet je de impact van aanbevelingen?",
+      "answer": "We definiëren specifieke KPI's voor elke aanbeveling en zetten tracking van belangrijke statistieken (conversieratio, gebruikers tevredenheid, tijd voor taakvoltooiing, enz.) op om de impact van verbeteringen te meten."
+    },
+    "post-audit-support": {
+      "question": "Bieden jullie ondersteuning na de audit?",
+      "answer": "Ja, we bieden ondersteuning bij het implementeren van aanbevelingen, inclusief: prioritering van acties, implementatieondersteuning en meting van resultaten. We kunnen ook follow-up audits uitvoeren."
+    }
+  },
+  "complementary": {
+    "user-testing": {
+      "title": "Gebruikersonderzoek",
+      "description": "Diepgaande testsessies met je gebruikers."
+    },
+    "advanced-analytics": {
+      "title": "Geavanceerde analytics",
+      "description": "Opzetten van tracking en diepgaande analyse."
+    },
+    "ux-training": {
+      "title": "UX-training",
+      "description": "Training van je teams in best practices."
+    }
+  }
+}

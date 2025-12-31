@@ -1,0 +1,79 @@
+{
+  "title": "ルーアンのウェブ開発 | ノルマンディーのビジネス向けデジタルソリューション",
+  "description": "ルーアンであなたのウェブサイトやモバイルアプリケーションを作成します。あなたの業界のローカルな課題に合わせたカスタムデジタルソリューションを提供します。",
+  "hero": {
+    "title": "ルーアンのウェブ＆モバイル開発",
+    "description": "私たちはルーアンとノルマンディーのビジネスが、ノルマンディー市場の特定の課題に完全に適応したカスタムウェブソリューションでデジタル化するのを手助けします。"
+  },
+  "intro": "ノルマンディーの経済基盤は特有のデジタルチャレンジを抱えていて、私たちはそれをマスターしてきました。製造業、農業食品業界、川の物流の間で、ルーアンのビジネスの正確なニーズに応えるデジタルソリューションを作り出します。",
+  "expertise": "私たちのチームは、ルーアンとその周辺のビジネスに完全に適応したウェブサイト、アプリケーション、eコマースソリューションを設計します。私たちはあなたの市場の課題を理解していて、目立ち成長するためのデジタルソリューションを提供します。",
+  "why-choose-us": "私たちのノルマンディー市場に関する深い知識が、ローカルビジネスの特定の課題に完全に適応したデジタルソリューションを開発することを可能にしています。パリのエージェンシーとは違って、私たちはルーアンの経済基盤の微妙な点を理解していて、価値に優れたカスタムソリューションを提供します。",
+  "key-business-sectors": {
+    "industry": "工業",
+    "agrifood": "農業食品",
+    "logistics": "物流",
+    "local-commerce": "ローカルコマース"
+  },
+  "local-challenges": {
+    "traditional-industries-digitalization": "国際競争に直面する伝統的なノルマンディーの産業のデジタル化",
+    "logistics-optimization": "革新的なデジタルソリューションによる川と港の物流の最適化",
+    "local-ecommerce-needs": "地元の生産者や職人に適応したeコマースソリューションのニーズ",
+    "sme-digital-transition": "予算を管理しながらノルマンディーの中小企業のデジタル移行"
+  },
+  "benefits": {
+    "normandy-specific-solutions": "ノルマンディーのビジネスの特性に適応したカスタムソリューション",
+    "industrial-agrifood-expertise": "地域の工業および農業食品部門における高い専門知識",
+    "competitive-pricing": "パリのエージェンシーと比較して競争力のある価格設定",
+    "seine-logistics-knowledge": "セーヌ軸に関連する物流課題に関する深い知識",
+    "personalized-support": "あなたのデジタルプロジェクトを通じたパーソナライズされたサポート"
+  },
+  "primary-stat": {
+    "label": "工業部門"
+  },
+  "strengths": {
+    "industrial-websites": {
+      "title": "工業用ウェブサイト",
+      "description": "ノルマンディーの製造企業に適した高性能サイトです。"
+    },
+    "local-ecommerce": {
+      "title": "ローカルeコマース",
+      "description": "地元の生産者や職人向けのオンライン販売ソリューションです。"
+    },
+    "business-applications": {
+      "title": "ビジネスアプリケーション",
+      "description": "あなたのプロセスを最適化するためのカスタムデジタルツールです。"
+    },
+    "sme-digitalization": {
+      "title": "中小企業のデジタル化",
+      "description": "あなたのデジタルトランスフォーメーションのための完全なサポートです。"
+    }
+  },
+  "focused-services": {
+    "professional-websites": {
+      "name": "プロフェッショナルウェブサイト",
+      "description": "ルーアンの地域SEOに最適化された高性能デジタルショーケースです。"
+    },
+    "regional-ecommerce": {
+      "name": "地域eコマース",
+      "description": "ノルマンディーの生産者と商人に適したオンラインストアです。"
+    },
+    "business-applications": {
+      "name": "ビジネスアプリケーション",
+      "description": "地域の産業と物流のためのカスタムソフトウェアです。"
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "専門知識",
+      "description": "長年の経験"
+    },
+    "satisfaction": {
+      "label": "満足度",
+      "description": "満足しているクライアント"
+    },
+    "average-time": {
+      "label": "平均時間",
+      "description": "完了までの週間"
+    }
+  }
+}

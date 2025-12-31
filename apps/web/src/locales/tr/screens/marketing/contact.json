@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "Projenizi tartışalım",
+    "description": "Yeni projeleri tartışmaktan her zaman mutluluk duyarız. Fikirlerinizi paylaşmak ve size nasıl yardımcı olabileceğimizi görmek için bizimle iletişime geçin."
+  },
+  "form": {
+    "name": {
+      "label": "Tam ad",
+      "placeholder": "John Doe"
+    },
+    "email": {
+      "label": "E-posta",
+      "placeholder": "you@example.com"
+    },
+    "message": {
+      "label": "Mesaj",
+      "placeholder": "Projenizi tanımlayın..."
+    },
+    "submit": "Mesajı gönder",
+    "submitting": "Gönderiliyor..."
+  },
+  "toast": {
+    "success": {
+      "title": "Mesaj gönderildi",
+      "description": "En kısa sürede size geri döneceğiz."
+    },
+    "error": {
+      "title": "Hata",
+      "description": "Mesaj gönderilirken bir hata oluştu",
+      "fallback": "Bir hata oluştu"
+    }
+  },
+  "info": {
+    "title": "İletişim bilgileri",
+    "email": {
+      "label": "E-posta"
+    },
+    "offices": {
+      "label": "Ofislerimiz",
+      "value": "Rouen & Paris, Fransa"
+    },
+    "phone": {
+      "label": "Telefon"
+    }
+  },
+  "hours": {
+    "title": "Açılış saatleri",
+    "timezone": "(Paris saati)",
+    "weekdays": "Pazartesi - Cuma:",
+    "weekdays-time": "9:00 - 18:00",
+    "weekend": "Hafta sonu:",
+    "weekend-time": "Kapalı"
+  },
+  "tagline": "Fikirlerinizi dijital gerçeğe dönüştürmeye adanmış yaratıcı bir stüdyoyuz."
+}

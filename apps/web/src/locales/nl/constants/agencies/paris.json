@@ -1,0 +1,80 @@
+{
+  "title": "Web Agency in Parijs | Webontwikkeling, Mobiele & UI/UX Design",
+  "description": "Jouw digitale partner in het hart van Parijs. Webontwikkeling, mobiele en UI/UX design oplossingen om de groei van jouw Parijse bedrijf te versnellen.",
+  "hero": {
+    "title": "Digitale Ontwikkeling in de Hoofdstad",
+    "description": "Transformeer jouw digitale aanwezigheid met innovatieve oplossingen die zijn afgestemd op de competitieve Parijse markt en het dynamische ecosysteem van startups, grote bedrijven en innovatieve ondernemingen."
+  },
+  "intro": "In het hart van de Franse hoofdstad komen onze digitale expertise en de eisen van de Parijse markt samen met innovatieve web- en mobiele oplossingen. Tussen grote bedrijven, luxemerken en snelgroeiende startups, concentreert Parijs een dynamisch digitaal ecosysteem waarvan we de uitdagingen en kansen volledig begrijpen.",
+  "expertise": "We ontwerpen premium digitale ervaringen die voldoen aan de hoge standaarden van Parijse bedrijven. Ons team beheerst de specifieke uitdagingen van de hoofdstad, of het nu gaat om het creëren van verfijnde gebruikersinterfaces voor de luxesector, hoogwaardige applicaties voor fintechs of schaalbare oplossingen voor snelgroeiende startups.",
+  "why-choose-us": "Onze diepgaande kennis van de Parijse markt stelt ons in staat om digitale oplossingen te ontwikkelen die perfect zijn afgestemd op de eisen van bedrijven in de hoofdstad. We combineren technische innovatie, creatieve excellentie en zakelijke inzichten om je effectief te ondersteunen in een zeer competitieve omgeving.",
+  "key-business-sectors": {
+    "startups-tech": "Tech Startups",
+    "finance": "Financiën",
+    "luxury": "Luxe",
+    "media-communication": "Media & Communicatie"
+  },
+  "local-challenges": {
+    "digital-competition": "Sterke digitale concurrentie in de Parijse markt die vraagt om onderscheidende oplossingen",
+    "agile-tools-startups": "Behoefte aan wendbare en hoogwaardige tools voor snelgroeiende startups",
+    "financial-digitalization": "Digitalisering van traditionele financiële diensten onder druk van fintechs",
+    "luxury-digital-experiences": "Ontwikkeling van premium digitale ervaringen voor de Parijse luxesector",
+    "corporate-transformation": "Innovatieve oplossingen voor grote bedrijven die een digitale transformatie ondergaan"
+  },
+  "benefits": {
+    "startup-expertise": "Diepe expertise in de nieuwste technologieën die zijn aangepast aan het Parijse startup-ecosysteem",
+    "premium-solutions": "Premium oplossingen die voldoen aan de hoge standaarden van de hoofdstad",
+    "luxury-finance-understanding": "Inzicht in luxe- en financiële codes voor maatwerk digitale ervaringen",
+    "agility-responsiveness": "Wendbaarheid en snelheid om het intensieve tempo van Parijse bedrijven bij te kunnen houden",
+    "tech-trends-knowledge": "Diepgaande kennis van Franse techtrends en innovaties"
+  },
+  "primary-stat": {
+    "label": "startup & tech"
+  },
+  "strengths": {
+    "startup-solutions": {
+      "title": "Startup Oplossingen",
+      "description": "Schaalbare applicaties voor snelgroeiende bedrijven."
+    },
+    "luxury-experiences": {
+      "title": "Luxe Ervaringen",
+      "description": "Premium interfaces voor high-end merken en diensten."
+    },
+    "finance-fintech": {
+      "title": "Financiën & Fintech",
+      "description": "Veilige oplossingen voor de Parijse financiële sector."
+    },
+    "international": {
+      "title": "Internationaal",
+      "description": "Meertalige ontwikkeling aangepast aan wereldwijde bedrijven."
+    }
+  },
+  "focused-services": {
+    "saas-applications": {
+      "name": "SaaS Toepassingen",
+      "description": "Ontwikkeling van innovatieve cloudoplossingen voor startups en scale-ups."
+    },
+    "premium-ecommerce": {
+      "name": "Premium E-commerce",
+      "description": "High-end verkoopplatforms voor Parijse luxemerken."
+    },
+    "innovative-design": {
+      "name": "Innovatief UI/UX Design",
+      "description": "Moderne en onderscheidende gebruikersinterfaces om op te vallen in Parijs."
+    }
+  },
+  "stats": {
+    "startups": {
+      "label": "Startups",
+      "description": "Projecten voor startups"
+    },
+    "luxury-clients": {
+      "label": "Luxe klanten",
+      "description": "Premium merken"
+    },
+    "average-roi": {
+      "label": "Gemiddelde ROI",
+      "description": "Return on investment"
+    }
+  }
+}

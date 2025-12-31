@@ -1,0 +1,66 @@
+{
+  "short-description": "Eine Browsererweiterung, die Instagram in den Dark Mode verwandelt, ähnlich der iOS-App.",
+  "description": "Ändere das Design von Instagram.com in den Dark Mode, wenn das System im Dark Mode ist.",
+  "long-description": "Dark Theme für Instagram™ ist eine Browsererweiterung, die das visuelle Erlebnis von Instagram.com durch die Annahme eines dunklen Designs verwandelt, ähnlich dem Aussehen der iOS-App.\n\nDie Erweiterung bietet eine einfache und elegante Lösung, um die Augen zu entlasten und das Browsen auf Instagram zu verbessern, während die Präferenzen des Betriebssystems respektiert werden.",
+  "features": {
+    "auto-dark-mode": {
+      "title": "Automatischer Dark Mode",
+      "description": "Aktiviert automatisch das dunkle Design basierend auf den Systemeinstellungen"
+    },
+    "multi-browser": {
+      "title": "Mehrere Browser kompatibel",
+      "description": "Verfügbar für Firefox, Edge und Chrome"
+    },
+    "open-source": {
+      "title": "Open Source",
+      "description": "Frei zugänglicher und überprüfbarer Quellcode"
+    }
+  },
+  "technologies": {
+    "javascript": {
+      "description": "Entwicklung von Erweiterungen"
+    },
+    "chrome-api": {
+      "description": "Browser-Integration"
+    },
+    "css": {
+      "description": "Designanpassung"
+    }
+  },
+  "metrics": {
+    "users": {
+      "value": "52k+",
+      "label": "Nutzer",
+      "description": "Aktive Nutzer"
+    },
+    "installs": {
+      "value": "82k+",
+      "label": "Installationen",
+      "description": "Gesamtinstallationen"
+    },
+    "open-source": {
+      "value": "100%",
+      "label": "Open Source",
+      "description": "Öffentlicher Quellcode"
+    }
+  },
+  "screenshots": {
+    "dark-interface": {
+      "caption": "Instagram-Oberfläche im Dark Mode"
+    }
+  },
+  "challenges": {
+    "instagram-updates-compatibility": "Die Kompatibilität mit den häufigen Updates von Instagram aufrechtzuerhalten",
+    "cross-browser-consistency": "Einen konsistenten Dark Mode über verschiedene Browser hinweg sicherzustellen",
+    "browser-performance": "Beeinträchtigung der Browserleistung minimieren"
+  },
+  "learnings": {
+    "dynamic-interface-modification": "Komplexität der dynamischen Modifikation von Weboberflächen",
+    "cross-browser-compatibility": "Wichtigkeit der Browserübergreifenden Kompatibilität",
+    "platform-updates-management": "Verwaltung häufiger Aktualisierungen der Webplattform"
+  },
+  "future-plans": {
+    "more-customization": "Hinzufügen weiterer Anpassungsoptionen",
+    "instagram-versions-compatibility": "Verbesserung der Kompatibilität mit verschiedenen Instagram-Versionen"
+  }
+}
