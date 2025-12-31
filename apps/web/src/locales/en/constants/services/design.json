@@ -44,13 +44,5 @@
       "title": "Development",
       "description": "Transforming mockups into functional interfaces, with particular attention to defined animations."
     }
-  },
-  "process-services": {
-    "needs-analysis": ["UI/UX Design"],
-    "research-moodboard": ["UI/UX Design", "Moodboard"],
-    "wireframes": ["UI/UX Design", "Wireframes"],
-    "interface-design": ["UI/UX Design"],
-    "prototyping": ["UI/UX Design"],
-    "development": ["Frontend Development", "Integration"]
   }
 }

@@ -44,6 +44,5 @@
       "title": "Implementatie en monitoring",
       "description": "Opzetten van cloudinfrastructuur, monitoring en waarschuwingen."
     }
-  },
-  "process-services": {}
+  }
 }

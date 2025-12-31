@@ -44,6 +44,5 @@
       "title": "部署和监控",
       "description": "设置云基础设施、监控和警报."
     }
-  },
-  "process-services": {}
+  }
 }

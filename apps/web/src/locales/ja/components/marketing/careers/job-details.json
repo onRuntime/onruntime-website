@@ -37,8 +37,6 @@
     "location": "勤務地",
     "contract": "契約タイプ",
     "salary": "給与",
-    "remote": "リモート勤務",
-    "remote-possible": "可能",
     "workplace": "勤務形態"
   },
   "interested": {

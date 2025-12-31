@@ -44,20 +44,6 @@
       }
     }
   },
-  "testimonials": {
-    "title": "What our clients say about us",
-    "description": "Client satisfaction is our top priority. Here are some testimonials from partners we've had the pleasure of working with.",
-    "items": [
-      {
-        "quote": "The onRuntime Studio team transformed our vision into an exceptional digital solution that exceeded all our expectations. Their technical expertise and creativity made all the difference.",
-        "author": "Thomas M. - Marketing director"
-      },
-      {
-        "quote": "A reliable and innovative partner who truly understands our needs. Their methodical approach and transparent communication made the development process enjoyable and stress-free.",
-        "author": "Sophie D. - Startup founder"
-      }
-    ]
-  },
   "industries": {
     "title": "Industries we serve",
     "description": "Our expertise extends to many sectors, with solutions adapted to the specificities of each industry.",

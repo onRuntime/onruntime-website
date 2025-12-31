@@ -37,8 +37,6 @@
     "location": "Konum",
     "contract": "Sözleşme türü",
     "salary": "Maaş",
-    "remote": "Uzaktan çalışma",
-    "remote-possible": "Mümkün",
     "workplace": "Çalışma şekli"
   },
   "interested": {

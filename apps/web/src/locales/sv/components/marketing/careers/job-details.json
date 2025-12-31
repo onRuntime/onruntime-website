@@ -37,8 +37,6 @@
     "location": "Plats",
     "contract": "Anställningstyp",
     "salary": "Lön",
-    "remote": "Fjärrarbete",
-    "remote-possible": "Möjligt",
     "workplace": "Arbetsläge"
   },
   "interested": {

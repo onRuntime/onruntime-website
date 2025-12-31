@@ -44,6 +44,5 @@
       "title": "Test ve doğrulama",
       "description": "Optimal kullanıcı deneyimi sağlamak için farklı tarayıcılar ve cihazlar üzerinde kapsamlı test."
     }
-  },
-  "process-services": {}
+  }
 }

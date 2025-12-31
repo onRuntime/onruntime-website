@@ -44,6 +44,5 @@
       "title": "Bereitstellung und Überwachung",
       "description": "Einrichtung der Cloud-Infrastruktur, Überwachung und Benachrichtigungen."
     }
-  },
-  "process-services": {}
+  }
 }

@@ -44,6 +44,5 @@
       "title": "Implantação e monitoramento",
       "description": "Configuração de infraestrutura em nuvem, monitoramento e alertas."
     }
-  },
-  "process-services": {}
+  }
 }

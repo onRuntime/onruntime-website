@@ -21,8 +21,5 @@
     "privacy": "Privacybeleid",
     "company": "Bedrijfsdetails"
   },
-  "status": "Alle diensten zijn operationeel",
-  "language": {
-    "label": "Taal"
-  }
+  "status": "Alle diensten zijn operationeel"
 }

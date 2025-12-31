@@ -8,7 +8,8 @@
     "start": "next start",
     "type-check": "tsc --noEmit",
     "translate": "npx tsx scripts/generate-translations.ts",
-    "translate:init": "npx tsx scripts/generate-translations.ts --init"
+    "translate:init": "npx tsx scripts/generate-translations.ts --init",
+    "test": "tsx --test tests/index.ts"
   },
   "dependencies": {
     "@fontsource/cal-sans": "^5.2.3",

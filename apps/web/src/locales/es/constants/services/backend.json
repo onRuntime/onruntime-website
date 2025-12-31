@@ -44,6 +44,5 @@
       "title": "Despliegue y monitoreo",
       "description": "Configuración de infraestructura cloud, monitoreo y alertas."
     }
-  },
-  "process-services": {}
+  }
 }

@@ -44,10 +44,6 @@
       }
     }
   },
-  "testimonials": {
-    "title": "Lo que dicen nuestros clientes sobre nosotros",
-    "description": "La satisfacción del cliente es nuestra máxima prioridad. Aquí hay algunos testimonios de socios con quienes hemos tenido el placer de trabajar."
-  },
   "industries": {
     "title": "Sectores que servimos",
     "description": "Nuestra experiencia se extiende a muchos sectores, con soluciones adaptadas a las especificidades de cada industria.",

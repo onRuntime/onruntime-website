@@ -44,6 +44,5 @@
       "title": "Distribuzione e monitoraggio",
       "description": "Impostazione dell'infrastruttura cloud, monitoraggio e avvisi."
     }
-  },
-  "process-services": {}
+  }
 }

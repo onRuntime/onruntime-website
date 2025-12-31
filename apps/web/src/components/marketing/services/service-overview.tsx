@@ -79,7 +79,7 @@ const SubServiceCard: React.FC<SubServiceCardProps> = ({ categoryId, subService,
           </div>
         </div>
         <div className="mt-auto pt-4 flex justify-between items-center border-t">
-          <span className="text-sm text-muted-foreground">{tOverview("services.learnMore")}</span>
+          <span className="text-sm text-muted-foreground">{tOverview("services.learn-more")}</span>
           <ArrowRight className={`w-4 h-4 text-muted-foreground group-hover:text-${accentColor} transition-colors`} />
         </div>
       </div>

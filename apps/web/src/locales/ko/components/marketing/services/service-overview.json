@@ -10,7 +10,7 @@
     "badge": "우리의 서비스",
     "title": "맞춤형 {service} 솔루션",
     "description": "모든 요구에 맞춘 {service} 서비스의 완벽한 범위를 확인해보세요. 여러분의 프로젝트 달성을 지원해 드릴 거예요.",
-    "learnMore": "더 알아보기"
+    "learn-more": "더 알아보기"
   },
   "benefits": {
     "badge": "장점",

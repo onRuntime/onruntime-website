@@ -44,13 +44,5 @@
       "title": "Deployment and monitoring",
       "description": "Setting up cloud infrastructure, monitoring and alerts."
     }
-  },
-  "process-services": {
-    "needs-analysis": ["Architecture", "Technical consulting"],
-    "system-design": ["Architecture", "Database Design"],
-    "api-development": ["API Development", "Documentation"],
-    "database": ["Database", "Optimization"],
-    "testing-security": ["Tests", "Security"],
-    "deployment-monitoring": ["DevOps", "Monitoring"]
   }
 }

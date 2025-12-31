@@ -44,6 +44,5 @@
       "title": "测试和验证",
       "description": "在不同浏览器和设备上进行全面测试，以确保最佳用户体验。"
     }
-  },
-  "process-services": {}
+  }
 }

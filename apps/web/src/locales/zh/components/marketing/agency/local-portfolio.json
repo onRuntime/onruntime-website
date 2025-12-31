@@ -1,8 +1,8 @@
 {
   "project": {
-    "market-application": "申请进入{name}市场",
-    "expertise-featured": "我们在这个项目上的经验使我们能够发展出特别适用于{name}地区新技术领域的专业知识。",
-    "expertise-digital": "我们在这个项目上的经验使我们能够发展出特别适用于{name}地区数字商业领域的专业知识。",
+    "market-application": "申请进入{region}市场",
+    "expertise-featured": "我们在这个项目上的经验使我们能够发展出特别适用于{region}地区新技术领域的专业知识。",
+    "expertise-digital": "我们在这个项目上的经验使我们能够发展出特别适用于{region}地区数字商业领域的专业知识。",
     "skills-featured": "这个项目中使用的技能和技术可以直接转移到{name}企业的需求上，尤其是在开放创新方面。",
     "skills-digital": "这个项目中使用的技能和技术可以直接转移到{name}企业的需求上，特别是在数字化转型方面。",
     "view-project": "查看项目"
@@ -14,11 +14,11 @@
   },
   "section": {
     "title": "我们在{name}项目上的专业知识",
-    "description": "了解我们的一些成就，它们展示了我们的专业技能，适用于{name}地区企业面临的数字挑战。"
+    "description": "了解我们的一些成就，它们展示了我们的专业技能，适用于{region}地区企业面临的数字挑战。"
   },
   "cta": {
     "title": "为您的{name}业务提供数字项目？",
-    "description": "我们的专业知识适用于各个行业，特别关注{name}市场的具体情况。",
+    "description": "我们的专业知识适用于各个行业，特别关注{region}市场的具体情况。",
     "button": "让我们讨论您的项目"
   }
 }

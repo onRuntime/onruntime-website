@@ -44,20 +44,6 @@
       }
     }
   },
-  "testimonials": {
-    "title": "Ce que nos clients disent de nous",
-    "description": "La satisfaction de nos clients est notre priorité absolue. Voici quelques témoignages de partenaires avec qui nous avons eu le plaisir de collaborer.",
-    "items": [
-      {
-        "quote": "L'équipe d'onRuntime Studio a transformé notre vision en une solution digitale exceptionnelle qui a dépassé toutes nos attentes. Leur expertise technique et leur créativité ont fait toute la différence.",
-        "author": "Thomas M. - Directeur marketing"
-      },
-      {
-        "quote": "Un partenaire fiable et innovant qui comprend réellement nos besoins. Leur approche méthodique et leur communication transparente ont rendu le processus de développement agréable et sans stress.",
-        "author": "Sophie D. - Fondatrice startup"
-      }
-    ]
-  },
   "industries": {
     "title": "Industries que nous servons",
     "description": "Notre expertise s'étend à de nombreux secteurs, avec des solutions adaptées aux spécificités de chaque industrie.",

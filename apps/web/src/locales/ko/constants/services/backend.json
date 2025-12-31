@@ -44,6 +44,5 @@
       "title": "배포 및 모니터링",
       "description": "클라우드 인프라 설정, 모니터링 및 알림."
     }
-  },
-  "process-services": {}
+  }
 }

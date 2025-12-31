@@ -37,8 +37,6 @@
     "location": "Locatie",
     "contract": "Contracttype",
     "salary": "Salaris",
-    "remote": "Remote werk",
-    "remote-possible": "Mogelijk",
     "workplace": "Werkmodus"
   },
   "interested": {

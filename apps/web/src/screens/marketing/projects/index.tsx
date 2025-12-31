@@ -166,37 +166,6 @@ const ProjectsPage = () => {
 
         <StudioProjects />
 
-        <div className="bg-card border rounded-lg p-12 space-y-8">
-          <div className="text-center">
-            <h2 className="text-2xl font-medium text-foreground mb-4">
-              {t("testimonials.title")}
-            </h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
-              {t("testimonials.description")}
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="p-6 border rounded-lg bg-background">
-              <p className="italic text-muted-foreground mb-4">
-                &quot;{t("testimonials.items.0.quote")}&quot;
-              </p>
-              <div className="font-medium">
-                {t("testimonials.items.0.author")}
-              </div>
-            </div>
-
-            <div className="p-6 border rounded-lg bg-background">
-              <p className="italic text-muted-foreground mb-4">
-                &quot;{t("testimonials.items.1.quote")}&quot;
-              </p>
-              <div className="font-medium">
-                {t("testimonials.items.1.author")}
-              </div>
-            </div>
-          </div>
-        </div>
-
         <CustomerProjects />
 
         <div className="space-y-8">

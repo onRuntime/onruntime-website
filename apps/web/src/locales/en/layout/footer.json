@@ -21,8 +21,5 @@
     "privacy": "Privacy policy",
     "company": "Company details"
   },
-  "status": "All services are operational",
-  "language": {
-    "label": "Language"
-  }
+  "status": "All services are operational"
 }

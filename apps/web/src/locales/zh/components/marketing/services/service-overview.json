@@ -10,7 +10,7 @@
     "badge": "我们的服务",
     "title": "定制{service}解决方案",
     "description": "发现我们完整的{service}服务范围，旨在满足你所有的需求，支持你实现项目目标。",
-    "learnMore": "了解更多"
+    "learn-more": "了解更多"
   },
   "benefits": {
     "badge": "好处",

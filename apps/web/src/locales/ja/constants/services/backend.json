@@ -44,6 +44,5 @@
       "title": "デプロイと監視",
       "description": "クラウドインフラの設定、監視とアラート。"
     }
-  },
-  "process-services": {}
+  }
 }

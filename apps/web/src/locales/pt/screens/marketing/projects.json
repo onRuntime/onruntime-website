@@ -44,10 +44,6 @@
       }
     }
   },
-  "testimonials": {
-    "title": "O que nossos clientes dizem sobre nós",
-    "description": "A satisfação do cliente é nossa prioridade máxima. Aqui estão alguns depoimentos de parceiros com quem tivemos o prazer de trabalhar."
-  },
   "industries": {
     "title": "Setores que atendemos",
     "description": "Nossa experiência se estende a muitos setores, com soluções adaptadas às especificidades de cada indústria.",
