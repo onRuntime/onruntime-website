@@ -1,0 +1,87 @@
+---
+title: Getting Started
+description: A sitemap generator for Next.js applications
+---
+
+## What is @onruntime/next-sitemap?
+
+`@onruntime/next-sitemap` is a powerful sitemap generator designed specifically for Next.js applications. It automatically generates `sitemap.xml` and `robots.txt` files for your Next.js site.
+
+<Callout type="info" title="Key Features">
+  - Automatic sitemap generation for App Router
+  - Support for dynamic routes
+  - Configurable priority and changefreq
+  - robots.txt generation
+  - Multi-language sitemap support
+</Callout>
+
+## Why Use It?
+
+### SEO Optimization
+
+Sitemaps help search engines discover and index your pages more efficiently:
+
+- **Faster indexing** - Search engines can find all your pages
+- **Better crawling** - Inform crawlers about page updates
+- **Priority hints** - Guide crawlers to important pages
+
+### Next.js Integration
+
+Built specifically for Next.js, it understands:
+
+- App Router structure
+- Dynamic routes
+- Static generation
+- Internationalized routing
+
+## Quick Example
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+This generates a complete sitemap including all your static and dynamic pages.
+
+## Generated Output
+
+The package generates standard XML sitemaps:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/about</loc>
+    <lastmod>2024-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+```
+
+## Next Steps
+
+<Cards>
+  <Card
+    title="Installation"
+    description="Install and set up the package"
+    href="/docs/next-sitemap/installation"
+  />
+  <Card
+    title="Configuration"
+    description="Learn about configuration options"
+    href="/docs/next-sitemap/configuration"
+  />
+</Cards>

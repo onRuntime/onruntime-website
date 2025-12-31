@@ -1,0 +1,26 @@
+{
+  "title": "Gitmoji Conventional Commits",
+  "description": "Commit conventions by onRuntime Studio",
+  "sections": [
+    {
+      "title": "Guide",
+      "pages": [
+        {
+          "slug": "getting-started",
+          "title": "Getting Started",
+          "description": "Learn our commit convention"
+        },
+        {
+          "slug": "emojis",
+          "title": "Emoji Reference",
+          "description": "Complete list of gitmojis"
+        },
+        {
+          "slug": "with-ai",
+          "title": "With AI",
+          "description": "Use gitmoji with Claude Code"
+        }
+      ]
+    }
+  ]
+}

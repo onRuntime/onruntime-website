@@ -1,0 +1,195 @@
+---
+title: API Reference
+description: Complete API documentation for @onruntime/translations
+---
+
+## TranslationsProvider
+
+The provider component that wraps your application.
+
+```tsx
+import { TranslationsProvider } from "@onruntime/translations/react";
+
+<TranslationsProvider
+  locale="en"
+  locales={{ en, fr }}
+  fallbackLocale="en"
+>
+  {children}
+</TranslationsProvider>
+```
+
+### Props
+
+| Prop | Type | Required | Description |
+|------|------|----------|-------------|
+| `locale` | `string` | Yes | Current active locale |
+| `locales` | `Record<string, object>` | Yes | Object containing all locale translations |
+| `fallbackLocale` | `string` | No | Fallback locale when key is missing |
+| `children` | `ReactNode` | Yes | Child components |
+
+## useTranslation
+
+Hook for accessing translations in client components.
+
+```tsx
+const { t, locale, setLocale } = useTranslation("namespace");
+```
+
+### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `namespace` | `string` | Yes | Translation namespace to use |
+
+### Returns
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `t` | `(key: string, vars?: object) => string` | Translation function |
+| `locale` | `string` | Current locale |
+| `setLocale` | `(locale: string) => void` | Function to change locale |
+
+### Example
+
+```tsx
+const { t, locale, setLocale } = useTranslation("common");
+
+// Basic usage
+t("greeting");  // "Hello"
+
+// With variables
+t("greeting_name", { name: "John" });  // "Hello, John!"
+
+// Nested keys
+t("nav.home");  // "Home"
+
+// Change locale
+setLocale("fr");
+```
+
+## getTranslation
+
+Async function for accessing translations in server components (Next.js).
+
+```tsx
+const { t } = await getTranslation("namespace");
+```
+
+### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `namespace` | `string` | Yes | Translation namespace to use |
+
+### Returns
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `t` | `(key: string, vars?: object) => string` | Translation function |
+| `locale` | `string` | Current locale |
+
+### Example
+
+```tsx
+// Server Component
+export default async function Page() {
+  const { t } = await getTranslation("common");
+
+  return <h1>{t("title")}</h1>;
+}
+```
+
+## Link Component
+
+Locale-aware Link component for Next.js.
+
+```tsx
+import { Link } from "@onruntime/translations/next";
+
+<Link href="/about">About</Link>
+```
+
+### Props
+
+All props from Next.js `Link` component, plus:
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `locale` | `string` | Current locale | Override the link locale |
+
+### Example
+
+```tsx
+// Uses current locale
+<Link href="/about">About</Link>
+
+// Force specific locale
+<Link href="/about" locale="fr">À propos</Link>
+```
+
+## Translation Function (t)
+
+The `t` function is used to retrieve translated strings.
+
+### Signature
+
+```tsx
+t(key: string, variables?: Record<string, string | number>): string
+```
+
+### Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `key` | `string` | Translation key (supports dot notation) |
+| `variables` | `object` | Variables to interpolate |
+
+### Variable Interpolation
+
+```json
+{
+  "greeting": "Hello, {name}!",
+  "items": "You have {count} items"
+}
+```
+
+```tsx
+t("greeting", { name: "Alice" });  // "Hello, Alice!"
+t("items", { count: 5 });          // "You have 5 items"
+```
+
+### Nested Keys
+
+```json
+{
+  "user": {
+    "profile": {
+      "title": "Profile"
+    }
+  }
+}
+```
+
+```tsx
+t("user.profile.title");  // "Profile"
+```
+
+## Type Definitions
+
+### TranslationNamespaces
+
+Extend this interface for type-safe translations:
+
+```tsx
+declare module "@onruntime/translations" {
+  interface TranslationNamespaces {
+    common: typeof import("./locales/en/common.json");
+    auth: typeof import("./locales/en/auth.json");
+  }
+}
+```
+
+<Callout type="info" title="TypeScript Benefits">
+  With proper type definitions, you'll get autocomplete for translation keys and compile-time errors for invalid keys.
+</Callout>

@@ -1,0 +1,170 @@
+---
+title: API Reference
+description: Complete API documentation for @onruntime/next-sitemap
+---
+
+## generateSitemap
+
+Generates a sitemap for your Next.js application.
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const sitemap = await generateSitemap(options);
+```
+
+### Options
+
+| Option | Type | Required | Description |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | Yes | Your site's base URL |
+| `additionalPaths` | `SitemapEntry[]` | No | Additional URLs to include |
+| `exclude` | `string[]` | No | Glob patterns to exclude |
+| `defaults` | `SitemapDefaults` | No | Default values for all entries |
+| `locales` | `string[]` | No | Supported locales |
+| `defaultLocale` | `string` | No | Default locale |
+
+### SitemapEntry
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `url` | `string` | Page URL (relative or absolute) |
+| `lastModified` | `Date \| string` | Last modification date |
+| `changeFrequency` | `ChangeFrequency` | How often the page changes |
+| `priority` | `number` | Priority (0.0 - 1.0) |
+
+### ChangeFrequency
+
+```tsx
+type ChangeFrequency =
+  | "always"
+  | "hourly"
+  | "daily"
+  | "weekly"
+  | "monthly"
+  | "yearly"
+  | "never";
+```
+
+### Example
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  const blogPosts = await fetchPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    additionalPaths: blogPosts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      priority: 0.8,
+    })),
+    exclude: ["/admin/*", "/api/*"],
+  });
+}
+```
+
+## generateRobots
+
+Generates a robots.txt file.
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+const robots = generateRobots(options);
+```
+
+### Options
+
+| Option | Type | Required | Description |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | Yes | Your site's base URL |
+| `rules` | `RobotsRule[]` | No | Custom robots rules |
+| `sitemap` | `string \| boolean` | No | Sitemap URL or `false` to exclude |
+
+### RobotsRule
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `userAgent` | `string` | Target user agent |
+| `allow` | `string \| string[]` | Allowed paths |
+| `disallow` | `string \| string[]` | Disallowed paths |
+| `crawlDelay` | `number` | Crawl delay in seconds |
+
+### Example
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+        crawlDelay: 1,
+      },
+    ],
+  });
+}
+```
+
+## generateSitemapIndex
+
+Generates a sitemap index for large sites.
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+const index = await generateSitemapIndex(options);
+```
+
+### Options
+
+| Option | Type | Required | Description |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | Yes | Your site's base URL |
+| `sitemapsPerFile` | `number` | No | URLs per sitemap (default: 5000) |
+
+### Example
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 10000,
+  });
+}
+```
+
+## Type Exports
+
+The package exports TypeScript types for convenience:
+
+```tsx
+import type {
+  SitemapEntry,
+  SitemapOptions,
+  RobotsOptions,
+  RobotsRule,
+  ChangeFrequency,
+} from "@onruntime/next-sitemap";
+```
+
+<Callout type="info" title="TypeScript Support">
+  All functions and options are fully typed. Your IDE will provide autocomplete and type checking.
+</Callout>

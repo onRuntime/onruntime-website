@@ -1,0 +1,92 @@
+---
+title: Getting Started
+description: Learn our commit convention
+---
+
+We like to have a clean project history. Our commits convention is inspired by [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0) but customized with [gitmoji](https://gitmoji.dev) to make it more visual and fun.
+
+## Structure
+
+The commit message should be structured as follows and **in lowercase**:
+
+```
+<gitmoji> <type> <description> [(#<issue number>)]
+
+[optional body]
+
+[optional footer(s)]
+```
+
+### Example
+
+```bash
+📝 update documentation contributors
+
+- Add @jerembdn as a contributor
+- Add @younesbessa as a contributor
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+Most of the time, a simple one-liner is enough:
+
+```bash
+📝 update documentation contributors
+```
+
+## Types
+
+We use the following commit types:
+
+| Type | Description |
+| --- | --- |
+| `add` | Add a new feature |
+| `fix` | Fix a bug |
+| `improve` | Improve something |
+| `update` | Update something |
+| `remove` | Remove something |
+| `refactor` | Refactor something |
+| `rename` | Rename something |
+| `move` | Move a file or folder |
+| `upgrade` | Upgrade dependencies |
+| `downgrade` | Downgrade dependencies |
+
+## Description
+
+Write descriptions in **imperative mood** and **lowercase**:
+
+```bash
+# Good
+📝 update documentation contributors
+
+# Bad
+📝 updated documentation contributors
+
+# Bad
+📝 Update documentation contributors
+```
+
+## Issue Number
+
+Link commits to issues by adding the issue number:
+
+```bash
+📝 update documentation contributors (#123)
+```
+
+## Body
+
+Use the body for context and motivation:
+
+```bash
+📝 update documentation contributors
+
+- Add @jerembdn as a contributor
+- Add @younesbessa as a contributor
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+<Callout type="info" title="One Commit, One Purpose">
+  Each commit should represent a single logical change. Don't mix unrelated changes.
+</Callout>
