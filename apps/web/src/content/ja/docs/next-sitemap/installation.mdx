@@ -1,0 +1,121 @@
+---
+title: インストール
+description: '@onruntime/next-sitemapをインストールして設定する'
+---
+## インストール
+
+お好みのパッケージマネージャーを使ってパッケージをインストールしてね：
+
+```bash
+# npm
+npm install @onruntime/next-sitemap
+
+# yarn
+yarn add @onruntime/next-sitemap
+
+# pnpm
+pnpm add @onruntime/next-sitemap
+```
+
+## 基本設定
+
+### App Router (Next.js 13+)
+
+`app` ディレクトリに `sitemap.ts` ファイルを作成してね：
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://your-domain.com",
+  });
+}
+```
+
+### robots.txt
+
+robots.txt の生成のために `robots.ts` ファイルを作成してね：
+
+```tsx
+// app/robots.ts
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://your-domain.com",
+  });
+}
+```
+
+## プロジェクト構造
+
+セットアップが完了すると、プロジェクトはこんな感じになるよ：
+
+<Files>
+  <Folder name="app" defaultOpen>
+    <File name="sitemap.ts" />
+    <File name="robots.ts" />
+    <File name="page.tsx" />
+    <Folder name="about">
+      <File name="page.tsx" />
+    </Folder>
+    <Folder name="blog">
+      <File name="page.tsx" />
+      <Folder name="[slug]">
+        <File name="page.tsx" />
+      </Folder>
+    </Folder>
+  </Folder>
+</Files>
+
+## インストール確認
+
+開発サーバーを起動して、以下にアクセスしてね：
+
+- `http://localhost:3000/sitemap.xml` - あなたのサイトマップ
+- `http://localhost:3000/robots.txt` - あなたの robots.txt
+
+サイトマップのための生成された XML と robots.txt のためのテキストコンテンツを見ることができるよ。
+
+<Callout type="info" title="開発と本番">
+  サイトマップにはビルド時に発見された全てのルートが含まれるよ。開発中は、現在のルート構造を反映しているよ。
+</Callout>
+
+## 環境変数
+
+本番用に基本URLを設定してね：
+
+```env
+# .env.production
+NEXT_PUBLIC_SITE_URL=https://your-domain.com
+```
+
+それから、設定に使ってね：
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://your-domain.com",
+  });
+}
+```
+
+## 次のステップ
+
+<Cards>
+  <Card
+    title="設定"
+    description="サイトマップ生成をカスタマイズする"
+    href="/docs/next-sitemap/configuration"
+  />
+  <Card
+    title="API リファレンス"
+    description="利用可能な全てのオプションを探る"
+    href="/docs/next-sitemap/api"
+  />
+</Cards>

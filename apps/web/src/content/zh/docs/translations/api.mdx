@@ -1,0 +1,194 @@
+---
+title: API 参考
+description: '@onruntime/translations 的完整 API 文档'
+---
+## TranslationsProvider
+
+包装你应用的提供者组件。
+
+```tsx
+import { TranslationsProvider } from "@onruntime/translations/react";
+
+<TranslationsProvider
+  locale="en"
+  locales={{ en, fr }}
+  fallbackLocale="en"
+>
+  {children}
+</TranslationsProvider>
+```
+
+### Props
+
+| Prop | Type | Required | Description |
+|------|------|----------|-------------|
+| `locale` | `string` | Yes | 当前活动语言环境 |
+| `locales` | `Record<string, object>` | Yes | 包含所有语言环境翻译的对象 |
+| `fallbackLocale` | `string` | No | 当键缺失时的备用语言环境 |
+| `children` | `ReactNode` | Yes | 子组件 |
+
+## useTranslation
+
+用于在客户端组件中访问翻译的 Hook。
+
+```tsx
+const { t, locale, setLocale } = useTranslation("namespace");
+```
+
+### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `namespace` | `string` | Yes | 要使用的翻译命名空间 |
+
+### Returns
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `t` | `(key: string, vars?: object) => string` | 翻译函数 |
+| `locale` | `string` | 当前语言环境 |
+| `setLocale` | `(locale: string) => void` | 改变语言环境的函数 |
+
+### Example
+
+```tsx
+const { t, locale, setLocale } = useTranslation("common");
+
+// 基本用法
+t("greeting");  // "Hello"
+
+// 带变量
+t("greeting_name", { name: "John" });  // "Hello, John!"
+
+// 嵌套键
+t("nav.home");  // "Home"
+
+// 更改语言环境
+setLocale("fr");
+```
+
+## getTranslation
+
+用于在服务器组件（Next.js）中访问翻译的异步函数。
+
+```tsx
+const { t } = await getTranslation("namespace");
+```
+
+### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `namespace` | `string` | Yes | 要使用的翻译命名空间 |
+
+### Returns
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `t` | `(key: string, vars?: object) => string` | 翻译函数 |
+| `locale` | `string` | 当前语言环境 |
+
+### Example
+
+```tsx
+// 服务器组件
+export default async function Page() {
+  const { t } = await getTranslation("common");
+
+  return <h1>{t("title")}</h1>;
+}
+```
+
+## Link Component
+
+支持地点的链接组件，适用于 Next.js。
+
+```tsx
+import { Link } from "@onruntime/translations/next";
+
+<Link href="/about">About</Link>
+```
+
+### Props
+
+来自 Next.js `Link` 组件的所有 props，以及：
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `locale` | `string` | 当前语言环境 | 重写链接语言环境 |
+
+### Example
+
+```tsx
+// 使用当前语言环境
+<Link href="/about">About</Link>
+
+// 强制指定语言环境
+<Link href="/about" locale="fr">À propos</Link>
+```
+
+## Translation Function (t)
+
+`t` 函数用于获取翻译的字符串。
+
+### Signature
+
+```tsx
+t(key: string, variables?: Record<string, string | number>): string
+```
+
+### Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `key` | `string` | 翻译键（支持点表示法） |
+| `variables` | `object` | 要插入的变量 |
+
+### Variable Interpolation
+
+```json
+{
+  "greeting": "Hello, {name}!",
+  "items": "You have {count} items"
+}
+```
+
+```tsx
+t("greeting", { name: "Alice" });  // "Hello, Alice!"
+t("items", { count: 5 });          // "You have 5 items"
+```
+
+### Nested Keys
+
+```json
+{
+  "user": {
+    "profile": {
+      "title": "Profile"
+    }
+  }
+}
+```
+
+```tsx
+t("user.profile.title");  // "Profile"
+```
+
+## Type Definitions
+
+### TranslationNamespaces
+
+扩展这个接口以实现类型安全的翻译：
+
+```tsx
+declare module "@onruntime/translations" {
+  interface TranslationNamespaces {
+    common: typeof import("./locales/en/common.json");
+    auth: typeof import("./locales/en/auth.json");
+  }
+}
+```
+
+<Callout type="info" title="TypeScript Benefits">
+  有了正确的类型定义，你将获得翻译键的自动补全以及无效键的编译时错误。
+</Callout>

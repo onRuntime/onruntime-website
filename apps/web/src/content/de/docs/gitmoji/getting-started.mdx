@@ -1,0 +1,91 @@
+---
+title: Erste Schritte
+description: Lerne unser Commit-Konvention
+---
+Wir mögen eine saubere Projektgeschichte. Unser Commit-Konvention ist inspiriert von [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0), aber mit [gitmoji](https://gitmoji.dev) angepasst, um es visuell und spaßig zu gestalten.
+
+## Struktur
+
+Die Commit-Nachricht sollte wie folgt strukturiert sein und **in kleingeschriebener Form**:
+
+```
+<gitmoji> <type> <description> [(#<issue number>)]
+
+[optionale body]
+
+[optionale footer(s)]
+```
+
+### Beispiel
+
+```bash
+📝 update documentation contributors
+
+- Add @jerembdn as a contributor
+- Add @younesbessa as a contributor
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+In den meisten Fällen reicht eine einfache Einzeiligkeit:
+
+```bash
+📝 update documentation contributors
+```
+
+## Typen
+
+Wir verwenden die folgenden Commit-Typen:
+
+| Typ | Beschreibung |
+| --- | --- |
+| `add` | Neue Funktion hinzufügen |
+| `fix` | Bug beheben |
+| `improve` | Etwas verbessern |
+| `update` | Etwas aktualisieren |
+| `remove` | Etwas entfernen |
+| `refactor` | Etwas umstrukturieren |
+| `rename` | Etwas umbenennen |
+| `move` | Eine Datei oder einen Ordner verschieben |
+| `upgrade` | Abhängigkeiten aktualisieren |
+| `downgrade` | Abhängigkeiten downgraden |
+
+## Beschreibung
+
+Schreibe Beschreibungen im **Imperativ** und **in kleingeschriebener Form**:
+
+```bash
+# Gut
+📝 update documentation contributors
+
+# Schlecht
+📝 updated documentation contributors
+
+# Schlecht
+📝 Update documentation contributors
+```
+
+## Issue-Nummer
+
+Verlinke Commits zu Issues, indem du die Issue-Nummer hinzufügst:
+
+```bash
+📝 update documentation contributors (#123)
+```
+
+## Body
+
+Verwende den Body für Kontext und Motivation:
+
+```bash
+📝 update documentation contributors
+
+- Add @jerembdn as a contributor
+- Add @younesbessa as a contributor
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+<Callout type="info" title="Ein Commit, Ein Ziel">
+  Jeder Commit sollte eine einzelne logische Änderung darstellen. Mische keine unzusammenhängenden Änderungen.
+</Callout>

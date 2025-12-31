@@ -1,0 +1,176 @@
+---
+title: تكوين
+description: قم بتكوين @onruntime/next-sitemap وفقًا لاحتياجاتك
+---
+## الإعدادات الأساسية
+
+أبسط إعداد يتطلب فقط عنوان URL الأساسي الخاص بك:
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+## الإعدادات المتقدمة
+
+### المسارات المخصصة
+
+أضف مسارات مخصصة أو محتوى ديناميكي:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  // جلب المحتوى الديناميكي
+  const posts = await fetchBlogPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    additionalPaths: posts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    })),
+  });
+}
+```
+
+### استبعاد المسارات
+
+استبعد مسارات محددة من خريطة الموقع:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    exclude: [
+      "/admin/*",
+      "/api/*",
+      "/private/*",
+    ],
+  });
+}
+```
+
+### الأولوية وتكرار التغيير
+
+حدد القيم الافتراضية لجميع الصفحات:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+  });
+}
+```
+
+## إعدادات robots.txt
+
+### robots.txt الأساسية
+
+```tsx
+// app/robots.ts
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+### قواعد مخصصة
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+      },
+    ],
+  });
+}
+```
+
+## التدويل
+
+### خرائط المواقع متعددة اللغات
+
+دعم عدة لغات مع بدائل:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const locales = ["en", "fr", "de"];
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    locales,
+    defaultLocale: "en",
+  });
+}
+```
+
+هذا يولد عناوين URL مع بدائل `hreflang`:
+
+```xml
+<url>
+  <loc>https://example.com/en/about</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/about"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about"/>
+</url>
+```
+
+## تقسيم خرائط المواقع
+
+للمواقع الكبيرة، قسم خريطة الموقع الخاصة بك إلى ملفات متعددة:
+
+```tsx
+// app/sitemap/[id]/route.ts
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export async function GET(
+  request: Request,
+  { params }: { params: { id: string } }
+) {
+  const sitemaps = await generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 5000,
+  });
+
+  return new Response(sitemaps[parseInt(params.id)], {
+    headers: { "Content-Type": "application/xml" },
+  });
+}
+```
+
+<Callout type="info" title="المواقع الكبيرة">
+  توصي Google بالحفاظ على خرائط المواقع أقل من 50 ميغابايت و50,000 عنوان URL. استخدم خرائط المواقع المقسمة للمواقع الأكبر.
+</Callout>

@@ -1,0 +1,63 @@
+---
+title: 使用AI
+description: 用gitmoji和Claude Code
+---
+安装我们的 gitmoji 插件用于 [Claude Code](https://claude.ai/code)，以生成符合约定的提交。
+
+## 安装插件
+
+添加 onRuntime 市场并安装插件：
+
+```bash
+# 添加 onRuntime 市场
+/plugin marketplace add https://onruntime.com/plugins
+
+# 安装 gitmoji 插件
+/plugin install gitmoji@onruntime
+```
+
+或者直接从菜单安装：
+
+1. 在 Claude Code 中运行 `/plugin`
+2. 前往 **Discover** 标签
+3. 添加市场： `https://onruntime.com/plugins`
+4. 搜索 “gitmoji” 并安装
+
+## 使用方法
+
+运行 `/commit` 命令来创建提交：
+
+```
+/commit
+```
+
+```
+/commit fix the login bug
+```
+
+Claude Code 将会分析你的更改，并生成符合 gitmoji 约定的提交。
+
+<Callout type="info" title="插件命令">
+  `/commit` 命令会自动获取你的 git 状态和差异，以生成合适的提交信息。
+</Callout>
+
+## 替代方案：CLAUDE.md
+
+如果你不想安装插件，可以将以下内容添加到你项目的 `CLAUDE.md`：
+
+```markdown
+## 提交约定
+
+使用 gitmoji 传统提交：
+
+\`\`\`
+<gitmoji> <type> <description>
+\`\`\`
+
+类型：add, fix, improve, update, remove, refactor, rename, move, upgrade, downgrade
+
+规则：
+- 使用小写字母
+- 使用命令式语气（“add”而不是“added”）
+- 每次提交一个逻辑更改
+```

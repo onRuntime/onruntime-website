@@ -1,0 +1,91 @@
+---
+title: Iniziare
+description: Scopri la nostra convenzione di commit
+---
+Ci piace avere una cronologia del progetto pulita. La nostra convenzione sui commit è ispirata ai [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0) ma personalizzata con [gitmoji](https://gitmoji.dev) per renderla più visiva e divertente.
+
+## Struttura
+
+Il messaggio del commit dovrebbe essere strutturato come segue e **in minuscolo**:
+
+```
+<gitmoji> <tipo> <descrizione> [(#<numero dell'issue>)]
+
+[corpo facoltativo]
+
+[footer(e) facoltativi]
+```
+
+### Esempio
+
+```bash
+📝 aggiorna i contributori della documentazione
+
+- Aggiungi @jerembdn come contributore
+- Aggiungi @younesbessa come contributore
+
+Co-autore: Younes Bessa <younes@onruntime.com>
+```
+
+La maggior parte delle volte, una semplice riga è sufficiente:
+
+```bash
+📝 aggiorna i contributori della documentazione
+```
+
+## Tipi
+
+Utilizziamo i seguenti tipi di commit:
+
+| Tipo | Descrizione |
+| --- | --- |
+| `add` | Aggiungi una nuova funzionalità |
+| `fix` | Risolvi un bug |
+| `improve` | Migliora qualcosa |
+| `update` | Aggiorna qualcosa |
+| `remove` | Rimuovi qualcosa |
+| `refactor` | Rifattorizza qualcosa |
+| `rename` | Rinomina qualcosa |
+| `move` | Sposta un file o una cartella |
+| `upgrade` | Aggiorna le dipendenze |
+| `downgrade` | Downgrada le dipendenze |
+
+## Descrizione
+
+Scrivi le descrizioni in **modo imperativo** e **in minuscolo**:
+
+```bash
+# Buono
+📝 aggiorna i contributori della documentazione
+
+# Cattivo
+📝 aggiornato i contributori della documentazione
+
+# Cattivo
+📝 Aggiorna i contributori della documentazione
+```
+
+## Numero dell'Issue
+
+Collega i commit alle issue aggiungendo il numero dell'issue:
+
+```bash
+📝 aggiorna i contributori della documentazione (#123)
+```
+
+## Corpo
+
+Usa il corpo per contesto e motivazione:
+
+```bash
+📝 aggiorna i contributori della documentazione
+
+- Aggiungi @jerembdn come contributore
+- Aggiungi @younesbessa come contributore
+
+Co-autore: Younes Bessa <younes@onruntime.com>
+```
+
+<Callout type="info" title="Un commit, un obiettivo">
+  Ogni commit dovrebbe rappresentare un singolo cambiamento logico. Non mescolare cambiamenti non correlati.
+</Callout>

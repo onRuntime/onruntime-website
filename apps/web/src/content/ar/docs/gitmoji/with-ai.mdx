@@ -1,0 +1,63 @@
+---
+title: مع الذكاء الاصطناعي
+description: استخدم gitmoji مع Claude Code
+---
+قم بتثبيت ملحق gitmoji الخاص بنا لـ [Claude Code](https://claude.ai/code) لإنشاء التزامات تتبع الاتفاق.
+
+## تثبيت الملحق
+
+أضف سوق onRuntime وثبّت الملحق:
+
+```bash
+# أضف سوق onRuntime
+/plugin marketplace add https://onruntime.com/plugins
+
+# ثبّت ملحق gitmoji
+/plugin install gitmoji@onruntime
+```
+
+أو قم بالتثبيت مباشرة من القائمة:
+
+1. قم بتشغيل `/plugin` في Claude Code
+2. انتقل إلى علامة التبويب **Discover**
+3. أضف السوق: `https://onruntime.com/plugins`
+4. ابحث عن "gitmoji" وقم بالتثبيت
+
+## الاستخدام
+
+قم بتشغيل أمر `/commit` لإنشاء التزام:
+
+```
+/commit
+```
+
+```
+/commit fix the login bug
+```
+
+سيقوم Claude Code بتحليل التغييرات الخاصة بك وإنشاء التزام يتبع اتفاق gitmoji.
+
+<Callout type="info" title="أمر الملحق">
+  أمر `/commit` يسترجع تلقائياً حالة جيت الخاصة بك و diff لإنشاء رسالة الالتزام المناسبة.
+</Callout>
+
+## بديل: CLAUDE.md
+
+إذا كنت تفضل عدم تثبيت الملحق، أضف هذا إلى `CLAUDE.md` الخاص بمشروعك:
+
+```markdown
+## اتفاق الالتزام
+
+استخدم التزامات gitmoji التقليدية:
+
+\`\`\`
+<gitmoji> <type> <description>
+\`\`\`
+
+الأنواع: add, fix, improve, update, remove, refactor, rename, move, upgrade, downgrade
+
+القواعد:
+- اكتب بأحرف صغيرة
+- استخدم صيغة الأمر ("add" وليس "added")
+- تغيير منطقي واحد لكل التزام
+```

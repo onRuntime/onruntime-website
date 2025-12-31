@@ -1,0 +1,169 @@
+---
+title: API 참조
+description: '@onruntime/next-sitemap에 대한 완전한 API 문서'
+---
+## generateSitemap
+
+Next.js 애플리케이션을 위한 사이트맵을 생성해.
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const sitemap = await generateSitemap(options);
+```
+
+### Options
+
+| Option | Type | Required | Description |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | Yes | 사이트의 기본 URL |
+| `additionalPaths` | `SitemapEntry[]` | No | 포함할 추가 URL |
+| `exclude` | `string[]` | No | 제외할 glob 패턴 |
+| `defaults` | `SitemapDefaults` | No | 모든 항목의 기본값 |
+| `locales` | `string[]` | No | 지원하는 로케일 |
+| `defaultLocale` | `string` | No | 기본 로케일 |
+
+### SitemapEntry
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `url` | `string` | 페이지 URL (상대 또는 절대) |
+| `lastModified` | `Date \| string` | 마지막 수정 날짜 |
+| `changeFrequency` | `ChangeFrequency` | 페이지가 얼마나 자주 변경되는지 |
+| `priority` | `number` | 우선순위 (0.0 - 1.0) |
+
+### ChangeFrequency
+
+```tsx
+type ChangeFrequency =
+  | "always"
+  | "hourly"
+  | "daily"
+  | "weekly"
+  | "monthly"
+  | "yearly"
+  | "never";
+```
+
+### Example
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  const blogPosts = await fetchPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    additionalPaths: blogPosts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      priority: 0.8,
+    })),
+    exclude: ["/admin/*", "/api/*"],
+  });
+}
+```
+
+## generateRobots
+
+robots.txt 파일을 생성해.
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+const robots = generateRobots(options);
+```
+
+### Options
+
+| Option | Type | Required | Description |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | Yes | 사이트의 기본 URL |
+| `rules` | `RobotsRule[]` | No | 커스텀 로봇 규칙 |
+| `sitemap` | `string \| boolean` | No | 사이트맵 URL 또는 제외할 경우 `false` |
+
+### RobotsRule
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `userAgent` | `string` | 대상 사용자 에이전트 |
+| `allow` | `string \| string[]` | 허용된 경로 |
+| `disallow` | `string \| string[]` | 금지된 경로 |
+| `crawlDelay` | `number` | 크롤링 지연 시간 (초 단위) |
+
+### Example
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+        crawlDelay: 1,
+      },
+    ],
+  });
+}
+```
+
+## generateSitemapIndex
+
+대규모 사이트를 위한 사이트맵 인덱스를 생성해.
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+const index = await generateSitemapIndex(options);
+```
+
+### Options
+
+| Option | Type | Required | Description |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | Yes | 사이트의 기본 URL |
+| `sitemapsPerFile` | `number` | No | 사이트맵당 URL 수 (기본값: 5000) |
+
+### Example
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 10000,
+  });
+}
+```
+
+## Type Exports
+
+패키지는 편의를 위해 TypeScript 타입을 내보내.
+
+```tsx
+import type {
+  SitemapEntry,
+  SitemapOptions,
+  RobotsOptions,
+  RobotsRule,
+  ChangeFrequency,
+} from "@onruntime/next-sitemap";
+```
+
+<Callout type="info" title="TypeScript Support">
+  모든 함수와 옵션은 완전히 타입이 지정되어 있어. 당신의 IDE가 자동 완성 및 타입 검사를 제공할 거야.
+</Callout>

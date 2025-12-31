@@ -1,0 +1,127 @@
+---
+title: Kurulum
+description: '@onruntime/translations''ı kur ve yapılandır'
+---
+## Kurulum
+
+Paketinizi tercih ettiğiniz paket yöneticisiyle kurun:
+
+```bash
+# npm
+npm install @onruntime/translations
+
+# yarn
+yarn add @onruntime/translations
+
+# pnpm
+pnpm add @onruntime/translations
+```
+
+## Proje Ayarları
+
+### 1. Çeviri Dosyaları Oluşturun
+
+Projenizde her dil için çeviri dosyalarıyla bir `locales` dizini oluşturun:
+
+<Files>
+  <Folder name="src" defaultOpen>
+    <Folder name="locales" defaultOpen>
+      <Folder name="en" defaultOpen>
+        <File name="common.json" />
+      </Folder>
+      <Folder name="fr">
+        <File name="common.json" />
+      </Folder>
+    </Folder>
+  </Folder>
+</Files>
+
+Örnek `locales/en/common.json`:
+
+```json
+{
+  "title": "Hoş Geldin",
+  "greeting": "Merhaba, {name}!",
+  "items": {
+    "one": "{count} öğe",
+    "other": "{count} öğe"
+  }
+}
+```
+
+### 2. TypeScript'i Yapılandırın (İsteğe Bağlı)
+
+Tip güvenli çeviriler için bir tip tanım dosyası oluşturun:
+
+```typescript
+// types/translations.d.ts
+import "onruntime/translations";
+
+declare module "@onruntime/translations" {
+  interface TranslationNamespaces {
+    common: typeof import("../locales/en/common.json");
+    auth: typeof import("../locales/en/auth.json");
+  }
+}
+```
+
+### 3. Sağlayıcıyı Ayarlayın
+
+Uygulamanızı `TranslationsProvider` ile sarmalayın:
+
+```tsx
+// React için
+import { TranslationsProvider } from "@onruntime/translations/react";
+import en from "./locales/en";
+import fr from "./locales/fr";
+
+const locales = { en, fr };
+
+function App() {
+  return (
+    <TranslationsProvider locale="en" locales={locales}>
+      <YourApp />
+    </TranslationsProvider>
+  );
+}
+```
+
+<Callout type="info" title="Next.js Uygulama Yönlendiricisi">
+  Next.js ile App Yönlendiricisi için önerilen kurulum için [Next.js Kullanımı](/docs/translations/nextjs) kılavuzuna göz atın.
+</Callout>
+
+## Kurulumu Doğrulama
+
+Kurulumuza basit bir bileşenle test edin:
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function TestComponent() {
+  const { t } = useTranslation("common");
+
+  return (
+    <div>
+      <h1>{t("title")}</h1>
+      <p>{t("greeting", { name: "Dünya" })}</p>
+    </div>
+  );
+}
+```
+
+Eğer çevirilerinizin görüntülendiğini görüyorsanız, her şey yolunda!
+
+## Sonraki Adımlar
+
+<Cards>
+  <Card
+    title="React Kullanımı"
+    description="React'te çevirileri nasıl kullanacağınızı öğrenin"
+    href="/docs/translations/react"
+  />
+  <Card
+    title="Next.js Kullanımı"
+    description="Next.js'de çevirileri ayarlayın"
+    href="/docs/translations/nextjs"
+  />
+</Cards>

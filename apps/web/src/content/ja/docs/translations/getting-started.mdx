@@ -1,0 +1,92 @@
+---
+title: はじめに
+description: ReactとNext.jsのための軽量で型安全な国際化ライブラリ
+---
+## What is @onruntime/translations?
+
+`@onruntime/translations`は、ReactとNext.jsアプリケーション向けに設計された軽量で型安全な国際化（i18n）ライブラリだよ。完全なTypeScriptサポートを持つシンプルなAPIで翻訳を管理できるんだ。
+
+<Callout type="info" title="Key Features">
+  - TypeScriptによる型安全な翻訳
+  - ReactとNext.js（App Router）のサポート
+  - 名前空間ベースの整理
+  - 変数の補間
+  - 軽量で高性能
+</Callout>
+
+## Why Use It?
+
+### Type Safety
+
+無効な翻訳キーを使用しているとコンパイル時エラーが出るよ：
+
+```typescript
+const { t } = useTranslation("common");
+
+t("greeting");        // ✅ 有効なキー
+t("invalid_key");     // ❌ TypeScriptエラー
+```
+
+### Simple API
+
+あなたの翻訳ニーズに対してたった2つのフックがあれば大丈夫：
+
+```typescript
+// クライアントコンポーネント
+const { t } = useTranslation("namespace");
+
+// サーバーコンポーネント（Next.js）
+const { t } = await getTranslation("namespace");
+```
+
+### Organized Translations
+
+名前空間を使って翻訳を整理しよう：
+
+<Files>
+  <Folder name="locales" defaultOpen>
+    <Folder name="en" defaultOpen>
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+    </Folder>
+    <Folder name="fr">
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+    </Folder>
+  </Folder>
+</Files>
+
+## Quick Example
+
+```tsx
+// locales/en/common.json
+{
+  "greeting": "Hello, {name}!"
+}
+
+// コンポーネント
+import { useTranslation } from "@onruntime/translations/react";
+
+function Welcome({ name }) {
+  const { t } = useTranslation("common");
+
+  return <h1>{t("greeting", { name })}</h1>;
+}
+```
+
+## Next Steps
+
+<Cards>
+  <Card
+    title="Installation"
+    description="パッケージをインストールして設定する"
+    href="/docs/translations/installation"
+  />
+  <Card
+    title="React Usage"
+    description="Reactでの翻訳の使い方を学ぼう"
+    href="/docs/translations/react"
+  />
+</Cards>

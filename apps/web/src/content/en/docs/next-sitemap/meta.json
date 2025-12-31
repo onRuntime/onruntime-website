@@ -1,0 +1,36 @@
+{
+  "title": "@onruntime/next-sitemap",
+  "description": "Sitemap generator for Next.js",
+  "sections": [
+    {
+      "title": "Getting Started",
+      "pages": [
+        {
+          "slug": "getting-started",
+          "title": "Getting Started",
+          "description": "What is @onruntime/next-sitemap?"
+        },
+        {
+          "slug": "installation",
+          "title": "Installation",
+          "description": "Install and set up the package"
+        }
+      ]
+    },
+    {
+      "title": "Configuration",
+      "pages": [
+        {
+          "slug": "configuration",
+          "title": "Configuration",
+          "description": "Configure sitemap generation"
+        },
+        {
+          "slug": "api",
+          "title": "API Reference",
+          "description": "Complete API documentation"
+        }
+      ]
+    }
+  ]
+}

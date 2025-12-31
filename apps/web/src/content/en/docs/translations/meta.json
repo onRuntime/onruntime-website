@@ -1,0 +1,46 @@
+{
+  "title": "@onruntime/translations",
+  "description": "Internationalization for React & Next.js",
+  "sections": [
+    {
+      "title": "Getting Started",
+      "pages": [
+        {
+          "slug": "getting-started",
+          "title": "Getting Started",
+          "description": "What is @onruntime/translations?"
+        },
+        {
+          "slug": "installation",
+          "title": "Installation",
+          "description": "Install and set up the package"
+        }
+      ]
+    },
+    {
+      "title": "Usage",
+      "pages": [
+        {
+          "slug": "react",
+          "title": "React Usage",
+          "description": "Using translations in React apps"
+        },
+        {
+          "slug": "nextjs",
+          "title": "Next.js Usage",
+          "description": "Using translations in Next.js apps"
+        }
+      ]
+    },
+    {
+      "title": "API Reference",
+      "pages": [
+        {
+          "slug": "api",
+          "title": "API Reference",
+          "description": "Complete API documentation"
+        }
+      ]
+    }
+  ]
+}

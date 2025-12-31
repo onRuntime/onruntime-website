@@ -1,0 +1,169 @@
+---
+title: API Referansı
+description: '@onruntime/next-sitemap için eksiksiz API belgelendirmesi'
+---
+## generateSitemap
+
+Next.js uygulamanız için bir site haritası oluşturur.
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const sitemap = await generateSitemap(options);
+```
+
+### Options
+
+| Seçenek | Tür | Zorunlu | Açıklama |
+|---------|-----|---------|----------|
+| `baseUrl` | `string` | Evet | Sitenizin ana URL'si |
+| `additionalPaths` | `SitemapEntry[]` | Hayır | Dahil edilecek ek URL'ler |
+| `exclude` | `string[]` | Hayır | Hariç tutulacak glob kalıpları |
+| `defaults` | `SitemapDefaults` | Hayır | Tüm girdiler için varsayılan değerler |
+| `locales` | `string[]` | Hayır | Desteklenen diller |
+| `defaultLocale` | `string` | Hayır | Varsayılan dil |
+
+### SitemapEntry
+
+| Özellik | Tür | Açıklama |
+|---------|-----|----------|
+| `url` | `string` | Sayfa URL'si (göreceli veya mutlak) |
+| `lastModified` | `Date \| string` | Son değişiklik tarihi |
+| `changeFrequency` | `ChangeFrequency` | Sayfanın ne sıklıkla değiştiği |
+| `priority` | `number` | Öncelik (0.0 - 1.0) |
+
+### ChangeFrequency
+
+```tsx
+type ChangeFrequency =
+  | "always"
+  | "hourly"
+  | "daily"
+  | "weekly"
+  | "monthly"
+  | "yearly"
+  | "never";
+```
+
+### Örnek
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  const blogPosts = await fetchPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    additionalPaths: blogPosts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      priority: 0.8,
+    })),
+    exclude: ["/admin/*", "/api/*"],
+  });
+}
+```
+
+## generateRobots
+
+Bir robots.txt dosyası oluşturur.
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+const robots = generateRobots(options);
+```
+
+### Options
+
+| Seçenek | Tür | Zorunlu | Açıklama |
+|---------|-----|---------|----------|
+| `baseUrl` | `string` | Evet | Sitenizin ana URL'si |
+| `rules` | `RobotsRule[]` | Hayır | Özel robots kuralları |
+| `sitemap` | `string \| boolean` | Hayır | Site haritası URL'si veya hariç tutmak için `false` |
+
+### RobotsRule
+
+| Özellik | Tür | Açıklama |
+|---------|-----|----------|
+| `userAgent` | `string` | Hedef kullanıcı aracısı |
+| `allow` | `string \| string[]` | İzin verilen yollar |
+| `disallow` | `string \| string[]` | İzin verilmeyen yollar |
+| `crawlDelay` | `number` | Saniyeler cinsinden tarama gecikmesi |
+
+### Örnek
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+        crawlDelay: 1,
+      },
+    ],
+  });
+}
+```
+
+## generateSitemapIndex
+
+Büyük siteler için bir site haritası indeksi oluşturur.
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+const index = await generateSitemapIndex(options);
+```
+
+### Options
+
+| Seçenek | Tür | Zorunlu | Açıklama |
+|---------|-----|---------|----------|
+| `baseUrl` | `string` | Evet | Sitenizin ana URL'si |
+| `sitemapsPerFile` | `number` | Hayır | Her site haritası için URL sayısı (varsayılan: 5000) |
+
+### Örnek
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 10000,
+  });
+}
+```
+
+## Type Exports
+
+Paket, kullanım kolaylığı için TypeScript türlerini dışa aktarır:
+
+```tsx
+import type {
+  SitemapEntry,
+  SitemapOptions,
+  RobotsOptions,
+  RobotsRule,
+  ChangeFrequency,
+} from "@onruntime/next-sitemap";
+```
+
+<Callout type="info" title="TypeScript Desteği">
+  Tüm fonksiyonlar ve seçenekler tamamen tiplenmiştir. IDE'niz otomatik tamamlama ve tip kontrolü sağlayacak.
+</Callout>

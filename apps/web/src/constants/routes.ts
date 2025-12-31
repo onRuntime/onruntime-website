@@ -14,6 +14,7 @@ const Routes = {
   projects: "/projects",
   careers: "/careers",
   glossary: "/glossary",
+  docs: "/docs",
 
   agency: {
     root: "/agency",

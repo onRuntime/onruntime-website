@@ -13,6 +13,7 @@ import Navbar from "@/components/marketing/navbar";
 import Footer from "@/components/layout/footer/footer";
 import { Toaster } from "@/components/ui/toaster";
 import { OrganizationSchema } from "@/components/json-ld/organization-schema";
+import { ConditionalLayout } from "@/components/layout/conditional-layout";
 
 import { Providers } from "./providers";
 
@@ -44,11 +45,15 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
 
         <Providers locale={locale}>
           <Provider>
-            <Navbar />
+            <ConditionalLayout hideOnDocs>
+              <Navbar />
+            </ConditionalLayout>
 
             {children}
 
-            <Footer />
+            <ConditionalLayout hideOnDocs>
+              <Footer />
+            </ConditionalLayout>
           </Provider>
         </Providers>
 

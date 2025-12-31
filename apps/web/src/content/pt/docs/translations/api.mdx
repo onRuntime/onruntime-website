@@ -1,0 +1,194 @@
+---
+title: Referência da API
+description: Documentação completa da API para @onruntime/translations
+---
+## TranslationsProvider
+
+O componente provider que envolve sua aplicação.
+
+```tsx
+import { TranslationsProvider } from "@onruntime/translations/react";
+
+<TranslationsProvider
+  locale="en"
+  locales={{ en, fr }}
+  fallbackLocale="en"
+>
+  {children}
+</TranslationsProvider>
+```
+
+### Props
+
+| Prop | Tipo | Obrigatório | Descrição |
+|------|------|-------------|-----------|
+| `locale` | `string` | Sim | Locale ativo atual |
+| `locales` | `Record<string, object>` | Sim | Objeto contendo todas as traduções de locale |
+| `fallbackLocale` | `string` | Não | Locale de fallback quando a chave está ausente |
+| `children` | `ReactNode` | Sim | Componentes filhos |
+
+## useTranslation
+
+Hook para acessar traduções em componentes cliente.
+
+```tsx
+const { t, locale, setLocale } = useTranslation("namespace");
+```
+
+### Parâmetros
+
+| Parâmetro | Tipo | Obrigatório | Descrição |
+|-----------|------|-------------|-----------|
+| `namespace` | `string` | Sim | Namespace de tradução a ser usado |
+
+### Retorna
+
+| Propriedade | Tipo | Descrição |
+|-------------|------|-----------|
+| `t` | `(key: string, vars?: object) => string` | Função de tradução |
+| `locale` | `string` | Locale atual |
+| `setLocale` | `(locale: string) => void` | Função para mudar o locale |
+
+### Exemplo
+
+```tsx
+const { t, locale, setLocale } = useTranslation("common");
+
+// Uso básico
+t("greeting");  // "Hello"
+
+// Com variáveis
+t("greeting_name", { name: "John" });  // "Hello, John!"
+
+// Chaves aninhadas
+t("nav.home");  // "Home"
+
+// Mudar locale
+setLocale("fr");
+```
+
+## getTranslation
+
+Função assíncrona para acessar traduções em componentes servidor (Next.js).
+
+```tsx
+const { t } = await getTranslation("namespace");
+```
+
+### Parâmetros
+
+| Parâmetro | Tipo | Obrigatório | Descrição |
+|-----------|------|-------------|-----------|
+| `namespace` | `string` | Sim | Namespace de tradução a ser usado |
+
+### Retorna
+
+| Propriedade | Tipo | Descrição |
+|-------------|------|-----------|
+| `t` | `(key: string, vars?: object) => string` | Função de tradução |
+| `locale` | `string` | Locale atual |
+
+### Exemplo
+
+```tsx
+// Componente Servidor
+export default async function Page() {
+  const { t } = await getTranslation("common");
+
+  return <h1>{t("title")}</h1>;
+}
+```
+
+## Link Component
+
+Componente Link consciente do Locale para Next.js.
+
+```tsx
+import { Link } from "@onruntime/translations/next";
+
+<Link href="/about">About</Link>
+```
+
+### Props
+
+Todas as props do componente `Link` do Next.js, mais:
+
+| Prop | Tipo | Padrão | Descrição |
+|------|------|--------|-----------|
+| `locale` | `string` | Locale atual | Sobrescreve o locale do link |
+
+### Exemplo
+
+```tsx
+// Usa o locale atual
+<Link href="/about">About</Link>
+
+// Força um locale específico
+<Link href="/about" locale="fr">À propos</Link>
+```
+
+## Função de Tradução (t)
+
+A função `t` é usada para recuperar strings traduzidas.
+
+### Assinatura
+
+```tsx
+t(key: string, variables?: Record<string, string | number>): string
+```
+
+### Parâmetros
+
+| Parâmetro | Tipo | Descrição |
+|-----------|------|-----------|
+| `key` | `string` | Chave de tradução (suporta notação de ponto) |
+| `variables` | `object` | Variáveis para interpolação |
+
+### Interpolação de Variáveis
+
+```json
+{
+  "greeting": "Hello, {name}!",
+  "items": "You have {count} items"
+}
+```
+
+```tsx
+t("greeting", { name: "Alice" });  // "Hello, Alice!"
+t("items", { count: 5 });          // "You have 5 items"
+```
+
+### Chaves Aninhadas
+
+```json
+{
+  "user": {
+    "profile": {
+      "title": "Profile"
+    }
+  }
+}
+```
+
+```tsx
+t("user.profile.title");  // "Profile"
+```
+
+## Definições de Tipos
+
+### TranslationNamespaces
+
+Estenda esta interface para traduções seguras em termos de tipo:
+
+```tsx
+declare module "@onruntime/translations" {
+  interface TranslationNamespaces {
+    common: typeof import("./locales/en/common.json");
+    auth: typeof import("./locales/en/auth.json");
+  }
+}
+```
+
+<Callout type="info" title="Benefícios do TypeScript">
+  Com definições de tipo adequadas, você terá autocomplete para chaves de tradução e erros em tempo de compilação para chaves inválidas.
+</Callout>

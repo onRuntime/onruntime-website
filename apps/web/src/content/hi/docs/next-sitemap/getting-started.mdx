@@ -1,0 +1,86 @@
+---
+title: शुरुआत करना
+description: Next.js एप्लिकेशन के लिए एक साइटमैप जनरेटर
+---
+## @onruntime/next-sitemap क्या है?
+
+`@onruntime/next-sitemap` एक शक्तिशाली साइटमैप जनरेटर है जो विशेष रूप से Next.js एप्लिकेशन के लिए डिज़ाइन किया गया है। यह आपके Next.js साइट के लिए स्वचालित रूप से `sitemap.xml` और `robots.txt` फ़ाइलें उत्पन्न करता है।
+
+<Callout type="info" title="मुख्य विशेषताएँ">
+  - ऐप राउटर के लिए स्वचालित साइटमैप निर्माण
+  - डायनामिक रूट्स के लिए समर्थन
+  - कॉन्फ़िगरेबल प्राथमिकता और परिवर्तन आवृत्ति
+  - robots.txt निर्माण
+  - बहु-भाषा साइटमैप समर्थन
+</Callout>
+
+## इसका उपयोग क्यों करें?
+
+### SEO अनुकूलन
+
+साइटमैप खोज इंजनों को आपकी पृष्ठों का पता लगाने और उन्हें अधिक कुशलता से अनुक्रमित करने में मदद करते हैं:
+
+- **तेज़ अनुक्रमण** - खोज इंजन आपके सभी पृष्ठों को खोज सकते हैं
+- **बेहतर क्रॉलिंग** - क्रॉलर्स को पृष्ठ अपडेट के बारे में सूचित करें
+- **प्राथमिकता संकेत** - क्रॉलर्स को महत्वपूर्ण पृष्ठों की दिशा दिखाएं
+
+### Next.js एकीकरण
+
+विशेष रूप से Next.js के लिए निर्मित, यह समझता है:
+
+- ऐप राउटर संरचना
+- डायनामिक रूट्स
+- स्थिर निर्माण
+- अंतर्राष्ट्रीयकरण रूटिंग
+
+## त्वरित उदाहरण
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+यह आपके सभी स्थिर और डायनामिक पृष्ठों सहित एक पूर्ण साइटमैप उत्पन्न करता है।
+
+## उत्पन्न आउटपुट
+
+पैकेज मानक XML साइटमैप उत्पन्न करता है:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/about</loc>
+    <lastmod>2024-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+```
+
+## अगला कदम
+
+<Cards>
+  <Card
+    title="स्थापना"
+    description="पैकेज स्थापित और सेटअप करें"
+    href="/docs/next-sitemap/installation"
+  />
+  <Card
+    title="कॉन्फ़िगरेशन"
+    description="कॉन्फ़िगरेशन विकल्पों के बारे में जानें"
+    href="/docs/next-sitemap/configuration"
+  />
+</Cards>

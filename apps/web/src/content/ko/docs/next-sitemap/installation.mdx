@@ -1,0 +1,121 @@
+---
+title: 설치
+description: '@onruntime/next-sitemap을 설치하고 설정해줘'
+---
+## 설치
+
+선호하는 패키지 관리자를 사용해 패키지를 설치하세요:
+
+```bash
+# npm
+npm install @onruntime/next-sitemap
+
+# yarn
+yarn add @onruntime/next-sitemap
+
+# pnpm
+pnpm add @onruntime/next-sitemap
+```
+
+## 기본 설정
+
+### 앱 라우터 (Next.js 13+)
+
+`app` 디렉토리에 `sitemap.ts` 파일을 생성하세요:
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://your-domain.com",
+  });
+}
+```
+
+### robots.txt
+
+robots.txt 생성을 위한 `robots.ts` 파일을 생성하세요:
+
+```tsx
+// app/robots.ts
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://your-domain.com",
+  });
+}
+```
+
+## 프로젝트 구조
+
+설정 후, 당신의 프로젝트는 다음과 같이 보여야 해요:
+
+<Files>
+  <Folder name="app" defaultOpen>
+    <File name="sitemap.ts" />
+    <File name="robots.ts" />
+    <File name="page.tsx" />
+    <Folder name="about">
+      <File name="page.tsx" />
+    </Folder>
+    <Folder name="blog">
+      <File name="page.tsx" />
+      <Folder name="[slug]">
+        <File name="page.tsx" />
+      </Folder>
+    </Folder>
+  </Folder>
+</Files>
+
+## 설치 확인
+
+개발 서버를 시작하고 방문하세요:
+
+- `http://localhost:3000/sitemap.xml` - 당신의 사이트맵
+- `http://localhost:3000/robots.txt` - 당신의 robots.txt
+
+사이트맵을 위한 생성된 XML과 robots.txt의 텍스트 내용을 볼 수 있어요.
+
+<Callout type="info" title="개발 vs 배포">
+  사이트맵은 빌드 시간에 발견된 모든 경로를 포함해요. 개발 중에는 현재의 경로 구조를 반영해요.
+</Callout>
+
+## 환경 변수
+
+배포를 위해 기본 URL을 설정하세요:
+
+```env
+# .env.production
+NEXT_PUBLIC_SITE_URL=https://your-domain.com
+```
+
+그 후 설정에서 사용하세요:
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://your-domain.com",
+  });
+}
+```
+
+## 다음 단계
+
+<Cards>
+  <Card
+    title="설정"
+    description="사이트맵 생성 사용자 정의"
+    href="/docs/next-sitemap/configuration"
+  />
+  <Card
+    title="API 참조"
+    description="사용할 수 있는 모든 옵션 탐색"
+    href="/docs/next-sitemap/api"
+  />
+</Cards>

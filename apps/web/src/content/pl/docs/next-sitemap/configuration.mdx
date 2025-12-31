@@ -1,0 +1,176 @@
+---
+title: Konfiguracja
+description: Skonfiguruj @onruntime/next-sitemap według swoich potrzeb
+---
+## Podstawowa konfiguracja
+
+Najprostsza konfiguracja wymaga tylko Twojego podstawowego URL-a:
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+## Zaawansowana konfiguracja
+
+### Niestandardowe trasy
+
+Dodaj niestandardowe trasy lub dynamiczne treści:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  // Pobierz dynamiczne treści
+  const posts = await fetchBlogPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    additionalPaths: posts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    })),
+  });
+}
+```
+
+### Wykluczanie tras
+
+Wyklucz konkretne trasy z mapy witryny:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    exclude: [
+      "/admin/*",
+      "/api/*",
+      "/private/*",
+    ],
+  });
+}
+```
+
+### Priorytet i częstotliwość zmian
+
+Ustaw domyślne wartości dla wszystkich stron:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+  });
+}
+```
+
+## Konfiguracja robots.txt
+
+### Podstawowy robots.txt
+
+```tsx
+// app/robots.ts
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+### Niestandardowe zasady
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+      },
+    ],
+  });
+}
+```
+
+## Internacjonalizacja
+
+### Mapa witryn w wielu językach
+
+Obsługuj wiele języków z alternatywami:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const locales = ["en", "fr", "de"];
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    locales,
+    defaultLocale: "en",
+  });
+}
+```
+
+To generuje adresy URL z alternatywami `hreflang`:
+
+```xml
+<url>
+  <loc>https://example.com/en/about</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/about"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about"/>
+</url>
+```
+
+## Podzielone mapy witryn
+
+Dla dużych witryn podziel swoją mapę witryn na wiele plików:
+
+```tsx
+// app/sitemap/[id]/route.ts
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export async function GET(
+  request: Request,
+  { params }: { params: { id: string } }
+) {
+  const sitemaps = await generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 5000,
+  });
+
+  return new Response(sitemaps[parseInt(params.id)], {
+    headers: { "Content-Type": "application/xml" },
+  });
+}
+```
+
+<Callout type="info" title="Duże witryny">
+  Google zaleca utrzymywanie map witryn poniżej 50 MB i 50 000 adresów URL. Używaj podzielonych map witryn dla większych witryn.
+</Callout>

@@ -1,0 +1,157 @@
+---
+title: Gebruik van React
+description: Gebruik van @onruntime/translations in React-applicaties
+---
+## Basisgebruik
+
+### De useTranslation Hook
+
+De `useTranslation` hook is je belangrijkste manier om vertalingen in React-componenten te verkrijgen:
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function MyComponent() {
+  const { t, locale } = useTranslation("common");
+
+  return (
+    <div>
+      <p>Huidige taalinstelling: {locale}</p>
+      <h1>{t("title")}</h1>
+    </div>
+  );
+}
+```
+
+### Variabele Interpolatie
+
+Stuur variabelen mee naar je vertalingen:
+
+```json
+// locales/en/common.json
+{
+  "greeting": "Hallo, {name}!",
+  "items_count": "Je hebt {count} items"
+}
+```
+
+```tsx
+function Greeting({ name, itemCount }) {
+  const { t } = useTranslation("common");
+
+  return (
+    <>
+      <p>{t("greeting", { name })}</p>
+      <p>{t("items_count", { count: itemCount })}</p>
+    </>
+  );
+}
+```
+
+## Meerdere Namespaces
+
+Je kunt meerdere namespaces in dezelfde component gebruiken:
+
+```tsx
+function Dashboard() {
+  const { t: tCommon } = useTranslation("common");
+  const { t: tDashboard } = useTranslation("dashboard");
+
+  return (
+    <div>
+      <h1>{tDashboard("title")}</h1>
+      <button>{tCommon("buttons.save")}</button>
+    </div>
+  );
+}
+```
+
+## Taalinstelling Wijzigen
+
+Gebruik de `setLocale` functie om de huidige taalinstelling te wijzigen:
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function LanguageSwitcher() {
+  const { locale, setLocale } = useTranslation("common");
+
+  return (
+    <select value={locale} onChange={(e) => setLocale(e.target.value)}>
+      <option value="en">Engels</option>
+      <option value="fr">Français</option>
+      <option value="de">Deutsch</option>
+    </select>
+  );
+}
+```
+
+## Geneste Sleutels
+
+Toegang tot geneste vertaal-sleutels met behulp van puntnotatie:
+
+```json
+// locales/en/common.json
+{
+  "nav": {
+    "home": "Home",
+    "about": "Over",
+    "contact": "Contact"
+  }
+}
+```
+
+```tsx
+function Navigation() {
+  const { t } = useTranslation("common");
+
+  return (
+    <nav>
+      <a href="/">{t("nav.home")}</a>
+      <a href="/about">{t("nav.about")}</a>
+      <a href="/contact">{t("nav.contact")}</a>
+    </nav>
+  );
+}
+```
+
+## Beste Praktijken
+
+<Callout type="info" title="Organiseer op Functie">
+  Organiseer vertalingen op functie of pagina in plaats van alles in één bestand te zetten.
+</Callout>
+
+### Aanbevolen Structuur
+
+<Files>
+  <Folder name="locales" defaultOpen>
+    <Folder name="en" defaultOpen>
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+      <File name="settings.json" />
+    </Folder>
+  </Folder>
+</Files>
+
+### Houd Sleutels Consistent
+
+Gebruik consistente naamgevingsconventies in alle locales:
+
+```json
+// ✅ Goed - consistente structuur
+{
+  "page_title": "Dashboard",
+  "actions": {
+    "save": "Opslaan",
+    "cancel": "Annuleren"
+  }
+}
+
+// ❌ Vermijd - inconsistent
+{
+  "pageTitle": "Dashboard",
+  "save_button": "Opslaan",
+  "cancelBtn": "Annuleren"
+}
+```

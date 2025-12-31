@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "Documentatie",
+    "description": "Leer hoe je met onRuntime Studio aan de slag gaat. Verken onze documentatie voor handleidingen, tutorials en best practices."
+  },
+  "title": "Documentatie",
+  "subtitle": "Welkom bij de onRuntime Studio documentatie. Leer hoe je met ons samenwerkt, verken onze processen en ontdek best practices.",
+  "toc": {
+    "title": "Op deze pagina"
+  },
+  "reading-time": {
+    "min-read": "min lezen",
+    "words": "woorden"
+  },
+  "navigation": {
+    "previous": "Vorige",
+    "next": "Volgende",
+    "last-updated": "Laatst bijgewerkt op"
+  },
+  "sidebar": {
+    "title": "Documentatie"
+  }
+}

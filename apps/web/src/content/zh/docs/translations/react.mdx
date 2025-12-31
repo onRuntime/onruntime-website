@@ -1,0 +1,157 @@
+---
+title: React 使用
+description: 在 React 应用程序中使用 @onruntime/translations
+---
+## 基础用法
+
+### useTranslation Hook
+
+`useTranslation` hook 是你在 React 组件中访问翻译的主要方式：
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function MyComponent() {
+  const { t, locale } = useTranslation("common");
+
+  return (
+    <div>
+      <p>当前语言环境: {locale}</p>
+      <h1>{t("title")}</h1>
+    </div>
+  );
+}
+```
+
+### 变量插值
+
+将变量传递给你的翻译：
+
+```json
+// locales/en/common.json
+{
+  "greeting": "你好, {name}!",
+  "items_count": "你有 {count} 个项目"
+}
+```
+
+```tsx
+function Greeting({ name, itemCount }) {
+  const { t } = useTranslation("common");
+
+  return (
+    <>
+      <p>{t("greeting", { name })}</p>
+      <p>{t("items_count", { count: itemCount })}</p>
+    </>
+  );
+}
+```
+
+## 多个命名空间
+
+你可以在同一个组件中使用多个命名空间：
+
+```tsx
+function Dashboard() {
+  const { t: tCommon } = useTranslation("common");
+  const { t: tDashboard } = useTranslation("dashboard");
+
+  return (
+    <div>
+      <h1>{tDashboard("title")}</h1>
+      <button>{tCommon("buttons.save")}</button>
+    </div>
+  );
+}
+```
+
+## 更改语言环境
+
+使用 `setLocale` 函数来更改当前语言环境：
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function LanguageSwitcher() {
+  const { locale, setLocale } = useTranslation("common");
+
+  return (
+    <select value={locale} onChange={(e) => setLocale(e.target.value)}>
+      <option value="en">英语</option>
+      <option value="fr">法语</option>
+      <option value="de">德语</option>
+    </select>
+  );
+}
+```
+
+## 嵌套键
+
+使用点表示法访问嵌套的翻译键：
+
+```json
+// locales/en/common.json
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "contact": "联系"
+  }
+}
+```
+
+```tsx
+function Navigation() {
+  const { t } = useTranslation("common");
+
+  return (
+    <nav>
+      <a href="/">{t("nav.home")}</a>
+      <a href="/about">{t("nav.about")}</a>
+      <a href="/contact">{t("nav.contact")}</a>
+    </nav>
+  );
+}
+```
+
+## 最佳实践
+
+<Callout type="info" title="按功能组织">
+  按功能或页面组织翻译，而不是把所有内容放在一个文件中。
+</Callout>
+
+### 推荐结构
+
+<Files>
+  <Folder name="locales" defaultOpen>
+    <Folder name="en" defaultOpen>
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+      <File name="settings.json" />
+    </Folder>
+  </Folder>
+</Files>
+
+### 保持键的一致性
+
+在所有语言环境中使用一致的命名约定：
+
+```json
+// ✅ 好 - 一致的结构
+{
+  "page_title": "仪表板",
+  "actions": {
+    "save": "保存",
+    "cancel": "取消"
+  }
+}
+
+// ❌ 避免 - 不一致
+{
+  "pageTitle": "仪表板",
+  "save_button": "保存",
+  "cancelBtn": "取消"
+}
+```

@@ -1,0 +1,127 @@
+---
+title: 安装
+description: 安装和配置 @onruntime/translations
+---
+## 安装
+
+使用你喜欢的包管理器安装这个包：
+
+```bash
+# npm
+npm install @onruntime/translations
+
+# yarn
+yarn add @onruntime/translations
+
+# pnpm
+pnpm add @onruntime/translations
+```
+
+## 项目设置
+
+### 1. 创建翻译文件
+
+在项目中创建一个 `locales` 目录，并为每种语言添加翻译文件：
+
+<Files>
+  <Folder name="src" defaultOpen>
+    <Folder name="locales" defaultOpen>
+      <Folder name="en" defaultOpen>
+        <File name="common.json" />
+      </Folder>
+      <Folder name="fr">
+        <File name="common.json" />
+      </Folder>
+    </Folder>
+  </Folder>
+</Files>
+
+示例 `locales/en/common.json`：
+
+```json
+{
+  "title": "欢迎",
+  "greeting": "你好, {name}!",
+  "items": {
+    "one": "{count} 项",
+    "other": "{count} 项"
+  }
+}
+```
+
+### 2. 配置 TypeScript（可选）
+
+为了实现类型安全的翻译，创建一个类型定义文件：
+
+```typescript
+// types/translations.d.ts
+import "onruntime/translations";
+
+declare module "@onruntime/translations" {
+  interface TranslationNamespaces {
+    common: typeof import("../locales/en/common.json");
+    auth: typeof import("../locales/en/auth.json");
+  }
+}
+```
+
+### 3. 设置提供者
+
+用 `TranslationsProvider` 包裹你的应用：
+
+```tsx
+// 对于 React
+import { TranslationsProvider } from "@onruntime/translations/react";
+import en from "./locales/en";
+import fr from "./locales/fr";
+
+const locales = { en, fr };
+
+function App() {
+  return (
+    <TranslationsProvider locale="en" locales={locales}>
+      <YourApp />
+    </TranslationsProvider>
+  );
+}
+```
+
+<Callout type="info" title="Next.js 应用路由">
+  对于使用 App Router 的 Next.js，请查看 [Next.js 使用](/docs/translations/nextjs) 指南以获取推荐设置。
+</Callout>
+
+## 验证安装
+
+用一个简单的组件测试你的设置：
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function TestComponent() {
+  const { t } = useTranslation("common");
+
+  return (
+    <div>
+      <h1>{t("title")}</h1>
+      <p>{t("greeting", { name: "World" })}</p>
+    </div>
+  );
+}
+```
+
+如果你看到你的翻译被渲染出来，那就没问题了！
+
+## 接下来的步骤
+
+<Cards>
+  <Card
+    title="React 使用"
+    description="学习如何在 React 中使用翻译"
+    href="/docs/translations/react"
+  />
+  <Card
+    title="Next.js 使用"
+    description="在 Next.js 中设置翻译"
+    href="/docs/translations/nextjs"
+  />
+</Cards>

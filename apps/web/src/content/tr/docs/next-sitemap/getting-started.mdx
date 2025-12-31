@@ -1,0 +1,86 @@
+---
+title: Başlarken
+description: Next.js uygulamaları için bir site haritası oluşturucu
+---
+## @onruntime/next-sitemap Nedir?
+
+`@onruntime/next-sitemap`, özel olarak Next.js uygulamaları için tasarlanmış güçlü bir sitemap oluşturucusudur. Next.js siteniz için otomatik olarak `sitemap.xml` ve `robots.txt` dosyaları oluşturur.
+
+<Callout type="info" title="Ana Özellikler">
+  - App Router için otomatik sitemap oluşturma
+  - Dinamik yolları destekleme
+  - Yapılandırılabilir öncelik ve changefreq
+  - robots.txt oluşturma
+  - Çok dilli sitemap desteği
+</Callout>
+
+## Neden Kullanmalısınız?
+
+### SEO Optimizasyonu
+
+Sitemap'ler arama motorlarının sayfalarınızı daha verimli bir şekilde keşfetmesine ve dizine eklemesine yardımcı olur:
+
+- **Daha hızlı dizinleme** - Arama motorları tüm sayfalarınızı bulabilir
+- **Daha iyi tarama** - Tarayıcılara sayfa güncellemeleri hakkında bilgi verir
+- **Öncelik ipuçları** - Tarayıcıları önemli sayfalara yönlendirir
+
+### Next.js Entegrasyonu
+
+Özellikle Next.js için oluşturulmuş olup, şunları anlar:
+
+- App Router yapısı
+- Dinamik yollar
+- Statik oluşturma
+- Uluslararasılaştırılmış yönlendirme
+
+## Hızlı Örnek
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+Bu, tüm statik ve dinamik sayfalarınızı içeren tam bir sitemap oluşturur.
+
+## Oluşturulan Çıktı
+
+Paket, standart XML sitemap'leri oluşturur:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/about</loc>
+    <lastmod>2024-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+```
+
+## Sonraki Adımlar
+
+<Cards>
+  <Card
+    title="Kurulum"
+    description="Paketi yükleyin ve ayarlayın"
+    href="/docs/next-sitemap/installation"
+  />
+  <Card
+    title="Yapılandırma"
+    description="Yapılandırma seçeneklerini öğrenin"
+    href="/docs/next-sitemap/configuration"
+  />
+</Cards>

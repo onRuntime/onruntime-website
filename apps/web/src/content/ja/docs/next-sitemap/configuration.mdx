@@ -1,0 +1,176 @@
+---
+title: 設定
+description: '@onruntime/next-sitemapを自分のニーズに合わせて設定する'
+---
+## 基本設定
+
+最も簡単な設定は、基本URLのみが必要です：
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+## 高度な設定
+
+### カスタムルート
+
+カスタムルートや動的コンテンツを追加：
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  // 動的コンテンツを取得
+  const posts = await fetchBlogPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    additionalPaths: posts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    })),
+  });
+}
+```
+
+### ルートの除外
+
+特定のルートをサイトマップから除外：
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    exclude: [
+      "/admin/*",
+      "/api/*",
+      "/private/*",
+    ],
+  });
+}
+```
+
+### プライオリティと変更頻度
+
+すべてのページのデフォルト値を設定：
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+  });
+}
+```
+
+## robots.txtの設定
+
+### 基本のrobots.txt
+
+```tsx
+// app/robots.ts
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+### カスタムルール
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+      },
+    ],
+  });
+}
+```
+
+## 国際化
+
+### 多言語サイトマップ
+
+オルタネートを使って複数の言語をサポート：
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const locales = ["en", "fr", "de"];
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    locales,
+    defaultLocale: "en",
+  });
+}
+```
+
+これは`hreflang`オルタネートを持つURLsを生成します：
+
+```xml
+<url>
+  <loc>https://example.com/en/about</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/about"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about"/>
+</url>
+```
+
+## 分割サイトマップ
+
+大規模なサイトの場合、サイトマップを複数のファイルに分割：
+
+```tsx
+// app/sitemap/[id]/route.ts
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export async function GET(
+  request: Request,
+  { params }: { params: { id: string } }
+) {
+  const sitemaps = await generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 5000,
+  });
+
+  return new Response(sitemaps[parseInt(params.id)], {
+    headers: { "Content-Type": "application/xml" },
+  });
+}
+```
+
+<Callout type="info" title="大規模サイトの場合">
+  Googleは、サイトマップを50MB未満かつ50,000URLs以下に保つことを推奨しています。大規模サイトには分割サイトマップを使用してください。
+</Callout>

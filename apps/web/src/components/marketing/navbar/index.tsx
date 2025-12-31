@@ -154,6 +154,11 @@ const Navbar: React.FC = () => {
 			title: t("links.npo"),
 			path: Routes.npo,
 		},
+		{
+			type: NavItemType.Link,
+			title: t("links.docs"),
+			path: Routes.docs,
+		},
 	];
 
 	useEffect(() => {

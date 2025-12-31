@@ -1,0 +1,169 @@
+---
+title: مرجع واجهة برمجة التطبيقات
+description: وثائق كاملة لواجهة برمجة التطبيقات لـ @onruntime/next-sitemap
+---
+## generateSitemap
+
+ينشئ خريطة موقع لتطبيق Next.js الخاص بك.
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const sitemap = await generateSitemap(options);
+```
+
+### Options
+
+| الخيار | النوع | مطلوب | الوصف |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | نعم | عنوان URL الأساسي لموقعك |
+| `additionalPaths` | `SitemapEntry[]` | لا | عناوين URL إضافية للإدراج |
+| `exclude` | `string[]` | لا | أنماط Glob للاستبعاد |
+| `defaults` | `SitemapDefaults` | لا | القيم الافتراضية لجميع الإدخالات |
+| `locales` | `string[]` | لا | اللغات المدعومة |
+| `defaultLocale` | `string` | لا | اللغة الافتراضية |
+
+### SitemapEntry
+
+| الخاصية | النوع | الوصف |
+|----------|------|-------------|
+| `url` | `string` | عنوان URL للصفحة (نسبي أو مطلق) |
+| `lastModified` | `Date \| string` | تاريخ آخر تعديل |
+| `changeFrequency` | `ChangeFrequency` | مدى تكرار تغيير الصفحة |
+| `priority` | `number` | الأولوية (0.0 - 1.0) |
+
+### ChangeFrequency
+
+```tsx
+type ChangeFrequency =
+  | "always"
+  | "hourly"
+  | "daily"
+  | "weekly"
+  | "monthly"
+  | "yearly"
+  | "never";
+```
+
+### Example
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  const blogPosts = await fetchPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    additionalPaths: blogPosts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      priority: 0.8,
+    })),
+    exclude: ["/admin/*", "/api/*"],
+  });
+}
+```
+
+## generateRobots
+
+ينشئ ملف robots.txt.
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+const robots = generateRobots(options);
+```
+
+### Options
+
+| الخيار | النوع | مطلوب | الوصف |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | نعم | عنوان URL الأساسي لموقعك |
+| `rules` | `RobotsRule[]` | لا | قواعد الروبوتات المخصصة |
+| `sitemap` | `string \| boolean` | لا | عنوان URL لخريطة الموقع أو `false` للاستبعاد |
+
+### RobotsRule
+
+| الخاصية | النوع | الوصف |
+|----------|------|-------------|
+| `userAgent` | `string` | عميل المستخدم المستهدف |
+| `allow` | `string \| string[]` | المسارات المسموح بها |
+| `disallow` | `string \| string[]` | المسارات الممنوعة |
+| `crawlDelay` | `number` | تأخير الزحف بالثواني |
+
+### Example
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+        crawlDelay: 1,
+      },
+    ],
+  });
+}
+```
+
+## generateSitemapIndex
+
+ينشئ فهرس خريطة الموقع للمواقع الكبيرة.
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+const index = await generateSitemapIndex(options);
+```
+
+### Options
+
+| الخيار | النوع | مطلوب | الوصف |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | نعم | عنوان URL الأساسي لموقعك |
+| `sitemapsPerFile` | `number` | لا | عناوين URL لكل خريطة موقع (افتراضي: 5000) |
+
+### Example
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 10000,
+  });
+}
+```
+
+## Type Exports
+
+الحزمة تصدر أنواع TypeScript للراحة:
+
+```tsx
+import type {
+  SitemapEntry,
+  SitemapOptions,
+  RobotsOptions,
+  RobotsRule,
+  ChangeFrequency,
+} from "@onruntime/next-sitemap";
+```
+
+<Callout type="info" title="TypeScript Support">
+  جميع الدوال والخيارات مهيأة بالكامل. سيوفر لك IDE الخاص بك الإكمال التلقائي والتحقق من الأنواع.
+</Callout>

@@ -1,0 +1,158 @@
+---
+title: React Usage
+description: Using @onruntime/translations in React applications
+---
+
+## Basic Usage
+
+### The useTranslation Hook
+
+The `useTranslation` hook is your primary way to access translations in React components:
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function MyComponent() {
+  const { t, locale } = useTranslation("common");
+
+  return (
+    <div>
+      <p>Current locale: {locale}</p>
+      <h1>{t("title")}</h1>
+    </div>
+  );
+}
+```
+
+### Variable Interpolation
+
+Pass variables to your translations:
+
+```json
+// locales/en/common.json
+{
+  "greeting": "Hello, {name}!",
+  "items_count": "You have {count} items"
+}
+```
+
+```tsx
+function Greeting({ name, itemCount }) {
+  const { t } = useTranslation("common");
+
+  return (
+    <>
+      <p>{t("greeting", { name })}</p>
+      <p>{t("items_count", { count: itemCount })}</p>
+    </>
+  );
+}
+```
+
+## Multiple Namespaces
+
+You can use multiple namespaces in the same component:
+
+```tsx
+function Dashboard() {
+  const { t: tCommon } = useTranslation("common");
+  const { t: tDashboard } = useTranslation("dashboard");
+
+  return (
+    <div>
+      <h1>{tDashboard("title")}</h1>
+      <button>{tCommon("buttons.save")}</button>
+    </div>
+  );
+}
+```
+
+## Changing Locale
+
+Use the `setLocale` function to change the current locale:
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function LanguageSwitcher() {
+  const { locale, setLocale } = useTranslation("common");
+
+  return (
+    <select value={locale} onChange={(e) => setLocale(e.target.value)}>
+      <option value="en">English</option>
+      <option value="fr">Français</option>
+      <option value="de">Deutsch</option>
+    </select>
+  );
+}
+```
+
+## Nested Keys
+
+Access nested translation keys using dot notation:
+
+```json
+// locales/en/common.json
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  }
+}
+```
+
+```tsx
+function Navigation() {
+  const { t } = useTranslation("common");
+
+  return (
+    <nav>
+      <a href="/">{t("nav.home")}</a>
+      <a href="/about">{t("nav.about")}</a>
+      <a href="/contact">{t("nav.contact")}</a>
+    </nav>
+  );
+}
+```
+
+## Best Practices
+
+<Callout type="info" title="Organize by Feature">
+  Organize translations by feature or page rather than putting everything in one file.
+</Callout>
+
+### Recommended Structure
+
+<Files>
+  <Folder name="locales" defaultOpen>
+    <Folder name="en" defaultOpen>
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+      <File name="settings.json" />
+    </Folder>
+  </Folder>
+</Files>
+
+### Keep Keys Consistent
+
+Use consistent naming conventions across all locales:
+
+```json
+// ✅ Good - consistent structure
+{
+  "page_title": "Dashboard",
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel"
+  }
+}
+
+// ❌ Avoid - inconsistent
+{
+  "pageTitle": "Dashboard",
+  "save_button": "Save",
+  "cancelBtn": "Cancel"
+}
+```
