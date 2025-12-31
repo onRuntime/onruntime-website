@@ -1,0 +1,176 @@
+---
+title: Configuratie
+description: Stel @onruntime/next-sitemap in volgens jouw wensen
+---
+## Basisconfiguratie
+
+De eenvoudigste configuratie vereist alleen je basis-URL:
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+## Geavanceerde configuratie
+
+### Aangepaste routes
+
+Voeg aangepaste routes of dynamische inhoud toe:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  // Haal dynamische inhoud op
+  const posts = await fetchBlogPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    additionalPaths: posts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    })),
+  });
+}
+```
+
+### Routes uitsluiten
+
+Exclusief specifieke routes uit de sitemap:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    exclude: [
+      "/admin/*",
+      "/api/*",
+      "/private/*",
+    ],
+  });
+}
+```
+
+### Prioriteit en wijzigingsfrequentie
+
+Stel standaardwaarden in voor alle pagina's:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+  });
+}
+```
+
+## robots.txt Configuratie
+
+### Basis robots.txt
+
+```tsx
+// app/robots.ts
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+### Aangepaste regels
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+      },
+    ],
+  });
+}
+```
+
+## Internationalisatie
+
+### Meertalige sitemaps
+
+Ondersteun meerdere talen met alternatieven:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const locales = ["en", "fr", "de"];
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    locales,
+    defaultLocale: "en",
+  });
+}
+```
+
+Dit genereert URL's met `hreflang`-alternatieven:
+
+```xml
+<url>
+  <loc>https://example.com/en/about</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/about"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about"/>
+</url>
+```
+
+## Gesplitste sitemaps
+
+Voor grote sites, split je sitemap in meerdere bestanden:
+
+```tsx
+// app/sitemap/[id]/route.ts
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export async function GET(
+  request: Request,
+  { params }: { params: { id: string } }
+) {
+  const sitemaps = await generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 5000,
+  });
+
+  return new Response(sitemaps[parseInt(params.id)], {
+    headers: { "Content-Type": "application/xml" },
+  });
+}
+```
+
+<Callout type="info" title="Grote sites">
+  Google raadt aan om sitemaps onder de 50 MB en 50.000 URL's te houden. Gebruik gesplitste sitemaps voor grotere sites.
+</Callout>

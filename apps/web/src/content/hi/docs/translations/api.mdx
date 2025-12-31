@@ -1,0 +1,194 @@
+---
+title: एपीआई संदर्भ
+description: '@onruntime/translations के लिए पूरी एपीआई दस्तावेज़ीकरण'
+---
+## TranslationsProvider
+
+आपके एप्लिकेशन को लपेटने वाला प्रोवाइडर कंपोनेंट।
+
+```tsx
+import { TranslationsProvider } from "@onruntime/translations/react";
+
+<TranslationsProvider
+  locale="hi"
+  locales={{ en, fr }}
+  fallbackLocale="en"
+>
+  {children}
+</TranslationsProvider>
+```
+
+### Props
+
+| Prop | Type | Required | Description |
+|------|------|----------|-------------|
+| `locale` | `string` | हाँ | वर्तमान सक्रिय लोकेल |
+| `locales` | `Record<string, object>` | हाँ | सभी लोकेल अनुवादों को शामिल करने वाला ऑब्जेक्ट |
+| `fallbackLocale` | `string` | नहीं | जब कुंजी गायब हो तो फॉलबैक लोकेल |
+| `children` | `ReactNode` | हाँ | चाइल्ड कंपोनेंट्स |
+
+## useTranslation
+
+क्लाइंट कंपोनेंट्स में अनुवादों तक पहुंचने के लिए हुक।
+
+```tsx
+const { t, locale, setLocale } = useTranslation("namespace");
+```
+
+### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `namespace` | `string` | हाँ | उपयोग करने के लिए अनुवाद नामक्षेत्र |
+
+### Returns
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `t` | `(key: string, vars?: object) => string` | अनुवाद कार्य |
+| `locale` | `string` | वर्तमान लोकेल |
+| `setLocale` | `(locale: string) => void` | लोकेल बदलने के लिए कार्य |
+
+### Example
+
+```tsx
+const { t, locale, setLocale } = useTranslation("common");
+
+// बुनियादी उपयोग
+t("greeting");  // "नमस्ते"
+
+// वेरिएबल के साथ
+t("greeting_name", { name: "John" });  // "नमस्ते, John!"
+
+// नेस्टेड कीज
+t("nav.home");  // "गृह"
+
+// लोकेल बदलें
+setLocale("fr");
+```
+
+## getTranslation
+
+सर्वर कंपोनेंट्स (Next.js) में अनुवादों तक पहुंचने के लिए ऐसिंक कार्य।
+
+```tsx
+const { t } = await getTranslation("namespace");
+```
+
+### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `namespace` | `string` | हाँ | उपयोग करने के लिए अनुवाद नामक्षेत्र |
+
+### Returns
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `t` | `(key: string, vars?: object) => string` | अनुवाद कार्य |
+| `locale` | `string` | वर्तमान लोकेल |
+
+### Example
+
+```tsx
+// सर्वर कंपोनेंट
+export default async function Page() {
+  const { t } = await getTranslation("common");
+
+  return <h1>{t("title")}</h1>;
+}
+```
+
+## Link Component
+
+Next.js के लिए लोकेल-जानकारी लिंक कंपोनेंट।
+
+```tsx
+import { Link } from "@onruntime/translations/next";
+
+<Link href="/about">About</Link>
+```
+
+### Props
+
+Next.js `Link` कंपोनेंट के सभी प्रॉप्स, साथ में:
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `locale` | `string` | वर्तमान लोकेल | लिंक लोकेल को ओवरराइड करें |
+
+### Example
+
+```tsx
+// वर्तमान लोकेल का उपयोग करता है
+<Link href="/about">About</Link>
+
+// विशेष लोकेल जबरदस्ती
+<Link href="/about" locale="fr">À propos</Link>
+```
+
+## Translation Function (t)
+
+`t` कार्य अनुवादित स्ट्रिंग प्राप्त करने के लिए उपयोग किया जाता है।
+
+### Signature
+
+```tsx
+t(key: string, variables?: Record<string, string | number>): string
+```
+
+### Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `key` | `string` | अनुवाद कुंजी (डॉट नोटेशन का समर्थन करता है) |
+| `variables` | `object` | इंटरपोलेट करने के लिए वेरिएबल्स |
+
+### Variable Interpolation
+
+```json
+{
+  "greeting": "नमस्ते, {name}!",
+  "items": "आपके पास {count} आइटम हैं"
+}
+```
+
+```tsx
+t("greeting", { name: "Alice" });  // "नमस्ते, Alice!"
+t("items", { count: 5 });          // "आपके पास 5 आइटम हैं"
+```
+
+### Nested Keys
+
+```json
+{
+  "user": {
+    "profile": {
+      "title": "प्रोफ़ाइल"
+    }
+  }
+}
+```
+
+```tsx
+t("user.profile.title");  // "प्रोफ़ाइल"
+```
+
+## Type Definitions
+
+### TranslationNamespaces
+
+टाइप-सेफ अनुवादों के लिए इस इंटरफेस को बढ़ाएं:
+
+```tsx
+declare module "@onruntime/translations" {
+  interface TranslationNamespaces {
+    common: typeof import("./locales/en/common.json");
+    auth: typeof import("./locales/en/auth.json");
+  }
+}
+```
+
+<Callout type="info" title="TypeScript Benefits">
+  सही टाइप डेफिनिशन्स के साथ, आपको अनुवाद कुंजियों के लिए ऑटो-कम्प्लीट मिलेगा और अमान्य कुंजियों के लिए कम्पाइल-टाइम त्रुटियाँ।
+</Callout>

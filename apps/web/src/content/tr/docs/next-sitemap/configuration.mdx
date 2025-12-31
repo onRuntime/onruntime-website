@@ -1,0 +1,176 @@
+---
+title: Yapılandırma
+description: İhtiyaçlarına göre @onruntime/next-sitemap'i yapılandır
+---
+## Temel Yapılandırma
+
+En basit yapılandırma yalnızca temel URL'nizi gerektirir:
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+## Gelişmiş Yapılandırma
+
+### Özel Yollar
+
+Özel yollar veya dinamik içerik ekleyin:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  // Dinamik içeriği al
+  const posts = await fetchBlogPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    additionalPaths: posts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      changeFrequency: "haftalık",
+      priority: 0.7,
+    })),
+  });
+}
+```
+
+### Yolları Hariç Tutma
+
+Belirli yolları sitemap'ten çıkarın:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    exclude: [
+      "/admin/*",
+      "/api/*",
+      "/private/*",
+    ],
+  });
+}
+```
+
+### Öncelik ve Değiştirme Sıklığı
+
+Tüm sayfalar için varsayılan değerleri ayarlayın:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "haftalık",
+      priority: 0.7,
+    },
+  });
+}
+```
+
+## robots.txt Yapılandırması
+
+### Temel robots.txt
+
+```tsx
+// app/robots.ts
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+### Özel Kurallar
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+      },
+    ],
+  });
+}
+```
+
+## Uluslararasılaşma
+
+### Çok Dilli Sitemaps
+
+Alternatiflerle birden fazla dili destekleyin:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const locales = ["en", "fr", "de"];
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    locales,
+    defaultLocale: "en",
+  });
+}
+```
+
+Bu, `hreflang` alternatifleri ile URL'ler oluşturur:
+
+```xml
+<url>
+  <loc>https://example.com/en/about</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/about"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about"/>
+</url>
+```
+
+## Bölünmüş Sitemaps
+
+Büyük siteler için sitemap'inizi birden fazla dosyaya ayırın:
+
+```tsx
+// app/sitemap/[id]/route.ts
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export async function GET(
+  request: Request,
+  { params }: { params: { id: string } }
+) {
+  const sitemaps = await generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 5000,
+  });
+
+  return new Response(sitemaps[parseInt(params.id)], {
+    headers: { "Content-Type": "application/xml" },
+  });
+}
+```
+
+<Callout type="info" title="Büyük Siteler">
+  Google, sitemaps'in 50MB'ın altında ve 50,000 URL'den az tutulmasını önerir. Daha büyük siteler için bölünmüş sitemaps kullanın.
+</Callout>

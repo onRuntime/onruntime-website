@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "ドキュメント",
+    "description": "onRuntime Studioの使い方を学ぶ。ガイド、チュートリアル、ベストプラクティスについてのドキュメントを探ってみてね。"
+  },
+  "title": "ドキュメント",
+  "subtitle": "onRuntime Studioのドキュメントへようこそ。私たちと一緒に作業する方法や、プロセスを探ったり、ベストプラクティスを見つけたりしよう。",
+  "toc": {
+    "title": "このページについて"
+  },
+  "reading-time": {
+    "min-read": "分読",
+    "words": "単語"
+  },
+  "navigation": {
+    "previous": "前へ",
+    "next": "次へ",
+    "last-updated": "最終更新日"
+  },
+  "sidebar": {
+    "title": "ドキュメント"
+  }
+}

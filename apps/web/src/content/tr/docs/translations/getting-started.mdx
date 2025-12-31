@@ -1,0 +1,92 @@
+---
+title: Başlarken
+description: 'React ve Next.js için hafif, tip güvenli bir uluslararasılaştırma kütüphanesi'
+---
+## @onruntime/translations Nedir?
+
+`@onruntime/translations`, React ve Next.js uygulamaları için tasarlanmış hafif, tip güvenli bir uluslararasılaştırma (i18n) kütüphanesidir. Tam TypeScript desteği ile çevirileri yönetmek için basit bir API sunar.
+
+<Callout type="info" title="Ana Özellikler">
+  - TypeScript ile tip güvenli çeviriler
+  - React ve Next.js (App Router) desteği
+  - Ad alanına dayalı organizasyon
+  - Değişken yerleştirme
+  - Hafif ve performanslı
+</Callout>
+
+## Neden Kullanmalısınız?
+
+### Tip Güvenliği
+
+Geçersiz çeviri anahtarlarını kullanırken derleme zamanı hataları alın:
+
+```typescript
+const { t } = useTranslation("common");
+
+t("greeting");        // ✅ Geçerli anahtar
+t("invalid_key");     // ❌ TypeScript hatası
+```
+
+### Basit API
+
+Tüm çeviri ihtiyaçlarınız için sadece iki kanca:
+
+```typescript
+// İstemci Bileşenleri
+const { t } = useTranslation("namespace");
+
+// Sunucu Bileşenleri (Next.js)
+const { t } = await getTranslation("namespace");
+```
+
+### Düzenli Çeviriler
+
+Çevirilerinizi ad alanlarıyla düzenli tutun:
+
+<Files>
+  <Folder name="locales" defaultOpen>
+    <Folder name="en" defaultOpen>
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+    </Folder>
+    <Folder name="fr">
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+    </Folder>
+  </Folder>
+</Files>
+
+## Hızlı Örnek
+
+```tsx
+// locales/en/common.json
+{
+  "greeting": "Merhaba, {name}!"
+}
+
+// Bileşen
+import { useTranslation } from "@onruntime/translations/react";
+
+function Welcome({ name }) {
+  const { t } = useTranslation("common");
+
+  return <h1>{t("greeting", { name })}</h1>;
+}
+```
+
+## Sonraki Adımlar
+
+<Cards>
+  <Card
+    title="Kurulum"
+    description="Paketi kurun ve yapılandırın"
+    href="/docs/translations/installation"
+  />
+  <Card
+    title="React Kullanımı"
+    description="React'te çevirilerin nasıl kullanılacağını öğrenin"
+    href="/docs/translations/react"
+  />
+</Cards>

@@ -1,0 +1,91 @@
+---
+title: Başlarken
+description: Commit kuralımızı öğren
+---
+Biz temiz bir proje geçmişine sahip olmayı seviyoruz. Commit konvansiyonumuz [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0) ilham alınarak oluşturuldu ama daha görsel ve eğlenceli hale getirilmesi için [gitmoji](https://gitmoji.dev) ile özelleştirildi.
+
+## Yapı
+
+Commit mesajı aşağıdaki gibi yapılandırılmalı ve **küçük harf** ile yazılmalıdır:
+
+```
+<gitmoji> <type> <description> [(#<issue number>)]
+
+[isteğe bağlı gövde]
+
+[isteğe bağlı footer(lar)]
+```
+
+### Örnek
+
+```bash
+📝 update documentation contributors
+
+- @jerembdn'yi katkıcı olarak ekle
+- @younesbessa'yı katkıcı olarak ekle
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+Çoğu zaman basit bir satır yeterlidir:
+
+```bash
+📝 update documentation contributors
+```
+
+## Türler
+
+Aşağıdaki commit türlerini kullanıyoruz:
+
+| Tür | Açıklama |
+| --- | --- |
+| `add` | Yeni bir özellik ekle |
+| `fix` | Bir hatayı düzelt |
+| `improve` | Bir şeyi geliştir |
+| `update` | Bir şeyi güncelle |
+| `remove` | Bir şeyi kaldır |
+| `refactor` | Bir şeyi yeniden düzenle |
+| `rename` | Bir şeyi yeniden adlandır |
+| `move` | Bir dosya veya klasörü taşı |
+| `upgrade` | Bağlantıları güncelle |
+| `downgrade` | Bağlantıları düşür |
+
+## Açıklama
+
+Açıklamaları **emir kipi** ve **küçük harfle** yaz:
+
+```bash
+# İyi
+📝 update documentation contributors
+
+# Kötü
+📝 updated documentation contributors
+
+# Kötü
+📝 Update documentation contributors
+```
+
+## Sorun Numarası
+
+Commit’leri sorun numarasına bağlamak için sorun numarasını ekle:
+
+```bash
+📝 update documentation contributors (#123)
+```
+
+## Gövde
+
+Gövdeyi bağlam ve motivasyon için kullan:
+
+```bash
+📝 update documentation contributors
+
+- @jerembdn'yi katkıcı olarak ekle
+- @younesbessa'yı katkıcı olarak ekle
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+<Callout type="info" title="Bir Commit, Bir Amaç">
+  Her commit tek bir mantıksal değişikliği temsil etmelidir. Alakasız değişiklikleri karıştırmayın.
+</Callout>

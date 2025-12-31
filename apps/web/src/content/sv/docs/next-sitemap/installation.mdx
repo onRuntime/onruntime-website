@@ -1,0 +1,121 @@
+---
+title: Installation
+description: Installera och ställ in @onruntime/next-sitemap
+---
+## Installation
+
+Installera paketet med hjälp av din föredragna paketchefs:
+
+```bash
+# npm
+npm install @onruntime/next-sitemap
+
+# yarn
+yarn add @onruntime/next-sitemap
+
+# pnpm
+pnpm add @onruntime/next-sitemap
+```
+
+## Grundläggande Installation
+
+### App Router (Next.js 13+)
+
+Skapa en `sitemap.ts` fil i din `app`-katalog:
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://your-domain.com",
+  });
+}
+```
+
+### robots.txt
+
+Skapa en `robots.ts` fil för generering av robots.txt:
+
+```tsx
+// app/robots.ts
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://your-domain.com",
+  });
+}
+```
+
+## Projektstruktur
+
+Efter installationen ska ditt projekt se ut så här:
+
+<Files>
+  <Folder name="app" defaultOpen>
+    <File name="sitemap.ts" />
+    <File name="robots.ts" />
+    <File name="page.tsx" />
+    <Folder name="about">
+      <File name="page.tsx" />
+    </Folder>
+    <Folder name="blog">
+      <File name="page.tsx" />
+      <Folder name="[slug]">
+        <File name="page.tsx" />
+      </Folder>
+    </Folder>
+  </Folder>
+</Files>
+
+## Verifiera Installation
+
+Starta din utvecklingsserver och besök:
+
+- `http://localhost:3000/sitemap.xml` - Din sitemap
+- `http://localhost:3000/robots.txt` - Din robots.txt
+
+Du ska se genererad XML för din sitemap och textinnehåll för robots.txt.
+
+<Callout type="info" title="Utveckling vs Produktion">
+  Sitemapen kommer att inkludera alla rutter som upptäckts vid bygget. I utveckling återspeglar den din nuvarande ruttstruktur.
+</Callout>
+
+## Miljövariabler
+
+För produktion, ställ in din bas-URL:
+
+```env
+# .env.production
+NEXT_PUBLIC_SITE_URL=https://your-domain.com
+```
+
+Använd den sedan i din konfiguration:
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://your-domain.com",
+  });
+}
+```
+
+## Nästa Steg
+
+<Cards>
+  <Card
+    title="Konfiguration"
+    description="Anpassa sitemap-generering"
+    href="/docs/next-sitemap/configuration"
+  />
+  <Card
+    title="API Referens"
+    description="Utforska alla tillgängliga alternativ"
+    href="/docs/next-sitemap/api"
+  />
+</Cards>

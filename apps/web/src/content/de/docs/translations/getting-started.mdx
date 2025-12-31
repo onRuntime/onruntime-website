@@ -1,0 +1,94 @@
+---
+title: Erste Schritte
+description: >-
+  Eine leichte, typsichere Internationalisierungsbibliothek für React und
+  Next.js
+---
+## Was ist @onruntime/translations?
+
+`@onruntime/translations` ist eine leichte, typensichere Internationalisierungsbibliothek (i18n), die für React- und Next.js-Anwendungen entwickelt wurde. Sie bietet eine einfache API zur Verwaltung von Übersetzungen mit voller TypeScript-Unterstützung.
+
+<Callout type="info" title="Hauptmerkmale">
+  - Typensichere Übersetzungen mit TypeScript
+  - Unterstützung für React und Next.js (App Router)
+  - Namensraum-basierte Organisation
+  - Variableninterpolation
+  - Leichtgewichtig und performant
+</Callout>
+
+## Warum nutzen?
+
+### Typensicherheit
+
+Erhalte Compile-Zeitfehler, wenn ungültige Übersetzungsschlüssel verwendet werden:
+
+```typescript
+const { t } = useTranslation("common");
+
+t("greeting");        // ✅ Gültiger Schlüssel
+t("invalid_key");     // ❌ TypeScript-Fehler
+```
+
+### Einfache API
+
+Nur zwei Hooks für all deine Übersetzungsbedürfnisse:
+
+```typescript
+// Client-Komponenten
+const { t } = useTranslation("namespace");
+
+// Server-Komponenten (Next.js)
+const { t } = await getTranslation("namespace");
+```
+
+### Organisierte Übersetzungen
+
+Halte deine Übersetzungen mit Namensräumen organisiert:
+
+<Files>
+  <Folder name="locales" defaultOpen>
+    <Folder name="en" defaultOpen>
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+    </Folder>
+    <Folder name="fr">
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+    </Folder>
+  </Folder>
+</Files>
+
+## Schnelles Beispiel
+
+```tsx
+// locales/en/common.json
+{
+  "greeting": "Hallo, {name}!"
+}
+
+// Komponente
+import { useTranslation } from "@onruntime/translations/react";
+
+function Welcome({ name }) {
+  const { t } = useTranslation("common");
+
+  return <h1>{t("greeting", { name })}</h1>;
+}
+```
+
+## Nächste Schritte
+
+<Cards>
+  <Card
+    title="Installation"
+    description="Installiere und konfiguriere das Paket"
+    href="/docs/translations/installation"
+  />
+  <Card
+    title="React Nutzung"
+    description="Lerne, wie man Übersetzungen in React verwendet"
+    href="/docs/translations/react"
+  />
+</Cards>

@@ -1,0 +1,91 @@
+---
+title: 开始使用
+description: 了解我们的提交规范
+---
+我们喜欢保持项目历史的清晰。我们的提交规范灵感来自于 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0)，但使用 [gitmoji](https://gitmoji.dev) 进行了自定义，让它更具视觉效果和趣味。
+
+## 结构
+
+提交信息应该按以下结构编写，并且**全小写**：
+
+```
+<gitmoji> <type> <description> [(#<issue number>)]
+
+[可选的主体]
+
+[可选的脚注]
+```
+
+### 示例
+
+```bash
+📝 update documentation contributors
+
+- Add @jerembdn as a contributor
+- Add @younesbessa as a contributor
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+大多数时候，一行简单的信息就足够了：
+
+```bash
+📝 update documentation contributors
+```
+
+## 类型
+
+我们使用以下提交类型：
+
+| 类型 | 描述 |
+| --- | --- |
+| `add` | 添加新功能 |
+| `fix` | 修复一个bug |
+| `improve` | 改进某些内容 |
+| `update` | 更新某些内容 |
+| `remove` | 删除某些内容 |
+| `refactor` | 重构某些内容 |
+| `rename` | 重命名某些内容 |
+| `move` | 移动一个文件或文件夹 |
+| `upgrade` | 升级依赖 |
+| `downgrade` | 降级依赖 |
+
+## 描述
+
+描述应该用**命令式语气**和**小写**编写：
+
+```bash
+# 好
+📝 update documentation contributors
+
+# 坏
+📝 updated documentation contributors
+
+# 坏
+📝 Update documentation contributors
+```
+
+## 问题编号
+
+通过添加问题编号来链接提交和问题：
+
+```bash
+📝 update documentation contributors (#123)
+```
+
+## 主体
+
+使用主体提供背景和动机：
+
+```bash
+📝 update documentation contributors
+
+- Add @jerembdn as a contributor
+- Add @younesbessa as a contributor
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+<Callout type="info" title="一次提交，一个目的">
+  每次提交应该代表一个逻辑变更。不要混合不相关的变更。
+</Callout>

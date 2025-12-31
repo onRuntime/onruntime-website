@@ -1,0 +1,92 @@
+---
+title: 入门指南
+description: 一个轻量级、类型安全的国际化库，用于 React 和 Next.js
+---
+## 什么是 @onruntime/translations？
+
+`@onruntime/translations` 是一个轻量级、类型安全的国际化（i18n）库，专为 React 和 Next.js 应用程序设计。它提供了一个简单的 API 来管理翻译，并完全支持 TypeScript。
+
+<Callout type="info" title="主要特点">
+  - 使用 TypeScript 进行类型安全的翻译
+  - 支持 React 和 Next.js（App Router）
+  - 基于命名空间的组织
+  - 变量插值
+  - 轻量且高效
+</Callout>
+
+## 为什么要使用它？
+
+### 类型安全
+
+使用无效翻译键时会得到编译错误：
+
+```typescript
+const { t } = useTranslation("common");
+
+t("greeting");        // ✅ 有效的键
+t("invalid_key");     // ❌ TypeScript 错误
+```
+
+### 简单的 API
+
+只有两个 hooks 满足你所有的翻译需求：
+
+```typescript
+// 客户端组件
+const { t } = useTranslation("namespace");
+
+// 服务器组件（Next.js）
+const { t } = await getTranslation("namespace");
+```
+
+### 有序的翻译
+
+使用命名空间保持你的翻译有序：
+
+<Files>
+  <Folder name="locales" defaultOpen>
+    <Folder name="en" defaultOpen>
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+    </Folder>
+    <Folder name="fr">
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+    </Folder>
+  </Folder>
+</Files>
+
+## 快速示例
+
+```tsx
+// locales/en/common.json
+{
+  "greeting": "Hello, {name}!"
+}
+
+// 组件
+import { useTranslation } from "@onruntime/translations/react";
+
+function Welcome({ name }) {
+  const { t } = useTranslation("common");
+
+  return <h1>{t("greeting", { name })}</h1>;
+}
+```
+
+## 下一步
+
+<Cards>
+  <Card
+    title="安装"
+    description="安装和配置该包"
+    href="/docs/translations/installation"
+  />
+  <Card
+    title="React 使用"
+    description="了解如何在 React 中使用翻译"
+    href="/docs/translations/react"
+  />
+</Cards>

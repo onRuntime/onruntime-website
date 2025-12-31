@@ -1,0 +1,127 @@
+---
+title: التثبيت
+description: قم بتثبيت وتكوين @onruntime/translations
+---
+## التثبيت
+
+قم بتثبيت الحزمة باستخدام مدير الحزم المفضل لديك:
+
+```bash
+# npm
+npm install @onruntime/translations
+
+# yarn
+yarn add @onruntime/translations
+
+# pnpm
+pnpm add @onruntime/translations
+```
+
+## إعداد المشروع
+
+### 1. إنشاء ملفات الترجمة
+
+قم بإنشاء دليل `locales` في مشروعك مع ملفات ترجمة لكل لغة:
+
+<Files>
+  <Folder name="src" defaultOpen>
+    <Folder name="locales" defaultOpen>
+      <Folder name="en" defaultOpen>
+        <File name="common.json" />
+      </Folder>
+      <Folder name="fr">
+        <File name="common.json" />
+      </Folder>
+    </Folder>
+  </Folder>
+</Files>
+
+مثال `locales/en/common.json`:
+
+```json
+{
+  "title": "مرحبًا",
+  "greeting": "مرحبًا، {name}!",
+  "items": {
+    "one": "{count} عنصر",
+    "other": "{count} عناصر"
+  }
+}
+```
+
+### 2. تكوين TypeScript (اختياري)
+
+لترجمات آمنة من حيث النوع، قم بإنشاء ملف تعريف نوع:
+
+```typescript
+// types/translations.d.ts
+import "onruntime/translations";
+
+declare module "@onruntime/translations" {
+  interface TranslationNamespaces {
+    common: typeof import("../locales/en/common.json");
+    auth: typeof import("../locales/en/auth.json");
+  }
+}
+```
+
+### 3. إعداد المزود
+
+قم بلف تطبيقك بـ `TranslationsProvider`:
+
+```tsx
+// لـ React
+import { TranslationsProvider } from "@onruntime/translations/react";
+import en from "./locales/en";
+import fr from "./locales/fr";
+
+const locales = { en, fr };
+
+function App() {
+  return (
+    <TranslationsProvider locale="en" locales={locales}>
+      <YourApp />
+    </TranslationsProvider>
+  );
+}
+```
+
+<Callout type="info" title="Next.js App Router">
+  إذا كنت تستخدم Next.js مع App Router، تحقق من دليل [استخدام Next.js](/docs/translations/nextjs) للإعداد الموصى به.
+</Callout>
+
+## التحقق من التثبيت
+
+اختبر إعدادك بمكون بسيط:
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function TestComponent() {
+  const { t } = useTranslation("common");
+
+  return (
+    <div>
+      <h1>{t("title")}</h1>
+      <p>{t("greeting", { name: "World" })}</p>
+    </div>
+  );
+}
+```
+
+إذا رأيت ترجماتك تم عرضها، فأنت جاهز!
+
+## الخطوات التالية
+
+<Cards>
+  <Card
+    title="استخدام React"
+    description="تعلم كيفية استخدام الترجمات في React"
+    href="/docs/translations/react"
+  />
+  <Card
+    title="استخدام Next.js"
+    description="إعداد الترجمات في Next.js"
+    href="/docs/translations/nextjs"
+  />
+</Cards>

@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "Dokümantasyon",
+    "description": "onRuntime Studio ile nasıl çalışacağınızı öğrenin. Kılavuzlar, öğreticiler ve en iyi uygulamalar için belgelerimize göz atın."
+  },
+  "title": "Dokümantasyon",
+  "subtitle": "onRuntime Studio belgelerine hoş geldiniz. Bizimle nasıl çalışacağınızı öğrenin, süreçlerimizi keşfedin ve en iyi uygulamaları öğrenin.",
+  "toc": {
+    "title": "Bu sayfada"
+  },
+  "reading-time": {
+    "min-read": "dakika okunma süresi",
+    "words": "kelime"
+  },
+  "navigation": {
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "last-updated": "Son güncelleme"
+  },
+  "sidebar": {
+    "title": "Dokümantasyon"
+  }
+}

@@ -1,0 +1,86 @@
+---
+title: البدء
+description: مولد خريطة الموقع لتطبيقات Next.js
+---
+## ما هو @onruntime/next-sitemap؟
+
+`@onruntime/next-sitemap` هو مولد خرائط مواقع قوي مصمم خصيصًا لتطبيقات Next.js. يقوم تلقائيًا بإنشاء ملفات `sitemap.xml` و `robots.txt` لموقعك على Next.js.
+
+<Callout type="info" title="الميزات الرئيسية">
+  - إنشاء خرائط مواقع تلقائي لجهاز التوجيه الخاص بالتطبيق
+  - دعم للمسارات الديناميكية
+  - أولوية وقابلية تغيير مخصصة
+  - إنشاء robots.txt
+  - دعم لخرائط المواقع متعددة اللغات
+</Callout>
+
+## لماذا استخدامه؟
+
+### تحسين محركات البحث
+
+تساعد خرائط المواقع محركات البحث في اكتشاف وفهرسة صفحاتك بكفاءة أكبر:
+
+- **فهرسة أسرع** - يمكن لمحركات البحث العثور على صفحاتك كلها
+- **زحف أفضل** - إبلاغ الزواحف بتحديثات الصفحات
+- **تلميحات أولوية** - توجيه الزواحف إلى الصفحات المهمة
+
+### تكامل مع Next.js
+
+تم بناؤه خصيصًا لـ Next.js، ويفهم:
+
+- هيكل جهاز التوجيه الخاص بالتطبيق
+- المسارات الديناميكية
+- التوليد الثابت
+- التوجيه الدولي
+
+## مثال سريع
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+هذا ينشئ خريطة موقع كاملة بما في ذلك جميع صفحاتك الثابتة والديناميكية.
+
+## الناتج الناتج
+
+الحزمة تنشئ خرائط مواقع XML قياسية:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/about</loc>
+    <lastmod>2024-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+```
+
+## الخطوات التالية
+
+<Cards>
+  <Card
+    title="التثبيت"
+    description="تثبيت وإعداد الحزمة"
+    href="/docs/next-sitemap/installation"
+  />
+  <Card
+    title="التكوين"
+    description="تعلم عن خيارات التكوين"
+    href="/docs/next-sitemap/configuration"
+  />
+</Cards>

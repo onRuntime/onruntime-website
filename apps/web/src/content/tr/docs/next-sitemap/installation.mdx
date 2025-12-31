@@ -1,0 +1,121 @@
+---
+title: Kurulum
+description: '@onruntime/next-sitemap''ı kur ve ayarla'
+---
+## Kurulum
+
+Paketinizi tercih ettiğiniz paket yöneticisi ile yükleyin:
+
+```bash
+# npm
+npm install @onruntime/next-sitemap
+
+# yarn
+yarn add @onruntime/next-sitemap
+
+# pnpm
+pnpm add @onruntime/next-sitemap
+```
+
+## Temel Kurulum
+
+### App Router (Next.js 13+)
+
+`app` dizininizde bir `sitemap.ts` dosyası oluşturun:
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://your-domain.com",
+  });
+}
+```
+
+### robots.txt
+
+robots.txt oluşturma için bir `robots.ts` dosyası oluşturun:
+
+```tsx
+// app/robots.ts
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://your-domain.com",
+  });
+}
+```
+
+## Proje Yapısı
+
+Kurulumdan sonra, projeniz şu şekilde görünmelidir:
+
+<Files>
+  <Folder name="app" defaultOpen>
+    <File name="sitemap.ts" />
+    <File name="robots.ts" />
+    <File name="page.tsx" />
+    <Folder name="about">
+      <File name="page.tsx" />
+    </Folder>
+    <Folder name="blog">
+      <File name="page.tsx" />
+      <Folder name="[slug]">
+        <File name="page.tsx" />
+      </Folder>
+    </Folder>
+  </Folder>
+</Files>
+
+## Kurulumu Doğrula
+
+Geliştirme sunucunuzu başlatın ve ziyaret edin:
+
+- `http://localhost:3000/sitemap.xml` - Sitemap'iniz
+- `http://localhost:3000/robots.txt` - Robots.txt'iniz
+
+Sitemap'iniz için oluşturulmuş XML ve robots.txt için metin içeriğini görmelisiniz.
+
+<Callout type="info" title="Geliştirme vs Üretim">
+  Sitemap, derleme zamanı sırasında keşfedilen tüm yolları içerecek. Geliştirmede, mevcut yol yapınızı yansıtır.
+</Callout>
+
+## Ortam Değişkenleri
+
+Üretim için, temel URL'nizi ayarlayın:
+
+```env
+# .env.production
+NEXT_PUBLIC_SITE_URL=https://your-domain.com
+```
+
+Sonra bunu yapılandırmanızda kullanın:
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://your-domain.com",
+  });
+}
+```
+
+## Sonraki Adımlar
+
+<Cards>
+  <Card
+    title="Yapılandırma"
+    description="Sitemap oluşturmayı özelleştirin"
+    href="/docs/next-sitemap/configuration"
+  />
+  <Card
+    title="API Referansı"
+    description="Tüm mevcut seçenekleri keşfedin"
+    href="/docs/next-sitemap/api"
+  />
+</Cards>

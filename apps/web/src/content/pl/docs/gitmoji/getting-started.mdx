@@ -1,0 +1,91 @@
+---
+title: Zaczynamy
+description: Poznaj naszą konwencję commitów
+---
+Lubimy mieć czystą historię projektu. Nasza konwencja commitów jest inspirowana [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0), ale dostosowana z użyciem [gitmoji](https://gitmoji.dev), żeby było to bardziej wizualne i zabawne.
+
+## Struktura
+
+Wiadomość commit powinna być zbudowana w następujący sposób i **ma być napisana małymi literami**:
+
+```
+<gitmoji> <type> <description> [(#<numer issue>)]
+
+[nieobowiązkowe ciało]
+
+[nieobowiązkowe stopki]
+```
+
+### Przykład
+
+```bash
+📝 update documentation contributors
+
+- Dodaj @jerembdn jako współautora
+- Dodaj @younesbessa jako współautora
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+Z reguły wystarczy prosty jednowierszowy wpis:
+
+```bash
+📝 update documentation contributors
+```
+
+## Typy
+
+Używamy następujących typów commitów:
+
+| Typ | Opis |
+| --- | --- |
+| `add` | Dodaj nową funkcjonalność |
+| `fix` | Napraw błąd |
+| `improve` | Popraw coś |
+| `update` | Zaktualizuj coś |
+| `remove` | Usuń coś |
+| `refactor` | Przeorganizuj coś |
+| `rename` | Zmień nazwę czegoś |
+| `move` | Przenieś plik lub folder |
+| `upgrade` | Zaktualizuj zależności |
+| `downgrade` | Obniż zależności |
+
+## Opis
+
+Pisanie opisów w **trybie rozkazującym** i **małymi literami**:
+
+```bash
+# Dobrze
+📝 update documentation contributors
+
+# Źle
+📝 updated documentation contributors
+
+# Źle
+📝 Update documentation contributors
+```
+
+## Numer issue
+
+Połącz commity z issue, dodając numer issue:
+
+```bash
+📝 update documentation contributors (#123)
+```
+
+## Ciało
+
+Użyj ciała do kontekstu i motywacji:
+
+```bash
+📝 update documentation contributors
+
+- Dodaj @jerembdn jako współautora
+- Dodaj @younesbessa jako współautora
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+<Callout type="info" title="Jeden Commit, Jeden Cel">
+  Każdy commit powinien reprezentować jedną logiczną zmianę. Nie mieszaj niepowiązanych zmian.
+</Callout>

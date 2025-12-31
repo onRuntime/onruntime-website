@@ -1,0 +1,63 @@
+---
+title: AIを使って
+description: Claude Codeでgitmojiを使おう
+---
+私たちのgitmojiプラグインを[Claude Code](https://claude.ai/code)にインストールして、慣習に従ったコミットを生成しましょう。
+
+## プラグインのインストール
+
+onRuntimeマーケットプレイスを追加して、プラグインをインストールします：
+
+```bash
+# onRuntimeマーケットプレイスを追加
+/plugin marketplace add https://onruntime.com/plugins
+
+# gitmojiプラグインをインストール
+/plugin install gitmoji@onruntime
+```
+
+またはメニューから直接インストールします：
+
+1. Claude Codeで`/plugin`を実行
+2. **Discover**タブに移動
+3. マーケットプレイスを追加：`https://onruntime.com/plugins`
+4. "gitmoji"を検索してインストール
+
+## 使い方
+
+`/commit`コマンドを実行してコミットを作成します：
+
+```
+/commit
+```
+
+```
+/commit fix the login bug
+```
+
+Claude Codeはあなたの変更を分析し、gitmojiの慣習に従ったコミットを作成します。
+
+<Callout type="info" title="プラグインコマンド">
+  `/commit`コマンドは自動的にあなたのgitステータスとdiffを取得して、適切なコミットメッセージを生成します。
+</Callout>
+
+## 代替：CLAUDE.md
+
+プラグインをインストールしたくない場合は、プロジェクトの`CLAUDE.md`にこれを追加します：
+
+```markdown
+## コミットの慣習
+
+gitmojiの従来のコミットを使ってください：
+
+\`\`\`
+<gitmoji> <type> <description>
+\`\`\`
+
+タイプ：add, fix, improve, update, remove, refactor, rename, move, upgrade, downgrade
+
+ルール：
+- 小文字で書く
+- 命令形を使う（"add"ではなく"added"）
+- コミットごとに一つの論理的変更
+```

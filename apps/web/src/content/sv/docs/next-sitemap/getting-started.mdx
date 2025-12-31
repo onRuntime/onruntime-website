@@ -1,0 +1,86 @@
+---
+title: Komma igång
+description: En webbplatskarta generator för Next.js-applikationer
+---
+## Vad är @onruntime/next-sitemap?
+
+`@onruntime/next-sitemap` är en kraftfull sitemap-generator som är designad specifikt för Next.js-applikationer. Den genererar automatiskt `sitemap.xml` och `robots.txt` filer för din Next.js-sajt.
+
+<Callout type="info" title="Nyckelfunktioner">
+  - Automatisk sitemap-generering för App Router
+  - Stöd för dynamiska rutter
+  - Konfigurerbar prioritet och changefreq
+  - robots.txt-generering
+  - Stöd för flerspråkiga sitemaps
+</Callout>
+
+## Varför använda det?
+
+### SEO-optimering
+
+Sitemaps hjälper sökmotorer att upptäcka och indexera dina sidor mer effektivt:
+
+- **Snabbare indexering** - Sökmotorer kan hitta alla dina sidor
+- **Bättre crawlning** - Informera crawlers om siduppdateringar
+- **Prioritetsledtrådar** - Vägleder crawlers till viktiga sidor
+
+### Next.js-integration
+
+Byggd specifikt för Next.js, förstår den:
+
+- App Router-struktur
+- Dynamiska rutter
+- Statisk generering
+- Internationaliserad routing
+
+## Snabbt exempel
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+Detta genererar en komplett sitemap som inkluderar alla dina statiska och dynamiska sidor.
+
+## Genererad utdata
+
+Paketet genererar standard XML sitemaps:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/about</loc>
+    <lastmod>2024-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+```
+
+## Nästa steg
+
+<Cards>
+  <Card
+    title="Installation"
+    description="Installera och ställ in paketet"
+    href="/docs/next-sitemap/installation"
+  />
+  <Card
+    title="Konfiguration"
+    description="Lär dig om konfigurationsalternativ"
+    href="/docs/next-sitemap/configuration"
+  />
+</Cards>

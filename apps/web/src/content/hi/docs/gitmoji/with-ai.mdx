@@ -1,0 +1,63 @@
+---
+title: एआई के साथ
+description: Claude Code के साथ gitmoji का इस्तेमाल करो
+---
+हमारा gitmoji प्लगइन [Claude Code](https://claude.ai/code) के लिए इंस्टॉल करें ताकि कंवencija के अनुसार कमिट जेनरेट कर सकें।
+
+## प्लगइन इंस्टॉल करें
+
+onRuntime मार्केटप्लेस जोड़ें और प्लगइन इंस्टॉल करें:
+
+```bash
+# Add the onRuntime marketplace
+/plugin marketplace add https://onruntime.com/plugins
+
+# Install the gitmoji plugin
+/plugin install gitmoji@onruntime
+```
+
+या मेनू से सीधे इंस्टॉल करें:
+
+1. Claude Code में `/plugin` चलाएं
+2. **Discover** टैब पर जाएं
+3. मार्केटप्लेस जोड़ें: `https://onruntime.com/plugins`
+4. "gitmoji" खोजें और इंस्टॉल करें
+
+## उपयोग
+
+कमिट बनाने के लिए `/commit` कमांड चलाएं:
+
+```
+/commit
+```
+
+```
+/commit fix the login bug
+```
+
+Claude Code आपके बदलावों का विश्लेषण करेगा और gitmoji कंवencija के अनुसार एक कमिट बनाएगा।
+
+<Callout type="info" title="प्लगइन कमांड">
+  `/commit` कमांड अपने git स्थिति और डिफ को स्वचालित रूप से लाता है ताकि उपयुक्त कमिट संदेश जेनरेट किया जा सके।
+</Callout>
+
+## वैकल्पिक: CLAUDE.md
+
+अगर आप प्लगइन इंस्टॉल नहीं करना चाहते, तो यह अपने प्रोजेक्ट के `CLAUDE.md` में जोड़ें:
+
+```markdown
+## कमिट कंवENCIA
+
+gitmoji पारंपरिक कमिट्स का उपयोग करें:
+
+\`\`\`
+<gitmoji> <type> <description>
+\`\`\`
+
+प्रकार: add, fix, improve, update, remove, refactor, rename, move, upgrade, downgrade
+
+नियम:
+- छोटी अक्षरों में लिखें
+- कार्य रूप का उपयोग करें ("add" नहीं "added")
+- हर कमिट में एक तार्किक परिवर्तन
+```

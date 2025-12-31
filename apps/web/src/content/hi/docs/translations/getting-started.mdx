@@ -1,0 +1,92 @@
+---
+title: शुरू करना
+description: 'React और Next.js के लिए एक हल्की, टाइप-सुरक्षित अंतर्राष्ट्रीयकरण लाइब्रेरी'
+---
+## @onruntime/translations क्या है?
+
+`@onruntime/translations` एक हल्का, प्रकार-सुरक्षित अंतर्राष्ट्रीयकरण (i18n) पुस्तकालय है जिसे React और Next.js अनुप्रयोगों के लिए डिज़ाइन किया गया है। यह पूर्ण TypeScript समर्थन के साथ अनुवादों को प्रबंधित करने के लिए एक सरल API प्रदान करता है।
+
+<Callout type="info" title="मुख्य विशेषताएँ">
+  - TypeScript के साथ प्रकार-सुरक्षित अनुवाद
+  - React और Next.js (ऐप राउटर) के लिए समर्थन
+  - नामस्थान-आधारित संगठन
+  - चर अंतर्संबंध
+  - हल्का और सक्षम
+</Callout>
+
+## इसका उपयोग क्यों करें?
+
+### प्रकार सुरक्षा
+
+अवैध अनुवाद कुंजी का उपयोग करने पर संकलन-समय में त्रुटियाँ प्राप्त करें:
+
+```typescript
+const { t } = useTranslation("common");
+
+t("greeting");        // ✅ वैध कुंजी
+t("invalid_key");     // ❌ TypeScript त्रुटि
+```
+
+### सरल API
+
+आपकी सभी अनुवाद आवश्यकताओं के लिए दो केवल हुक:
+
+```typescript
+// क्लाइंट घटक
+const { t } = useTranslation("namespace");
+
+// सर्वर घटक (Next.js)
+const { t } = await getTranslation("namespace");
+```
+
+### संगठित अनुवाद
+
+अपने अनुवादों को नामस्थान के साथ संगठित रखें:
+
+<Files>
+  <Folder name="locales" defaultOpen>
+    <Folder name="en" defaultOpen>
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+    </Folder>
+    <Folder name="fr">
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+    </Folder>
+  </Folder>
+</Files>
+
+## त्वरित उदाहरण
+
+```tsx
+// locales/en/common.json
+{
+  "greeting": "Hello, {name}!"
+}
+
+// घटक
+import { useTranslation } from "@onruntime/translations/react";
+
+function Welcome({ name }) {
+  const { t } = useTranslation("common");
+
+  return <h1>{t("greeting", { name })}</h1>;
+}
+```
+
+## अगले कदम
+
+<Cards>
+  <Card
+    title="इंस्टॉलेशन"
+    description="पैकेज स्थापित करें और कॉन्फ़िगर करें"
+    href="/docs/translations/installation"
+  />
+  <Card
+    title="React उपयोग"
+    description="React में अनुवादों का उपयोग कैसे करें यह सीखें"
+    href="/docs/translations/react"
+  />
+</Cards>

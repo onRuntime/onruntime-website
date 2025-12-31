@@ -1,0 +1,194 @@
+---
+title: مرجع API
+description: وثائق كاملة لواجهة برمجة التطبيقات لـ @onruntime/translations
+---
+## TranslationsProvider
+
+مكون الموفر الذي يلف تطبيقك.
+
+```tsx
+import { TranslationsProvider } from "@onruntime/translations/react";
+
+<TranslationsProvider
+  locale="ar"
+  locales={{ en, fr }}
+  fallbackLocale="en"
+>
+  {children}
+</TranslationsProvider>
+```
+
+### Props
+
+| Prop | Type | Required | Description |
+|------|------|----------|-------------|
+| `locale` | `string` | نعم | الإعداد المحلي النشط الحالي |
+| `locales` | `Record<string, object>` | نعم | كائن يحتوي على جميع ترجمات الإعدادات المحلية |
+| `fallbackLocale` | `string` | لا | الإعداد المحلي الاحتياطي عند فقدان المفتاح |
+| `children` | `ReactNode` | نعم | مكونات الطفل |
+
+## useTranslation
+
+خطاف للوصول إلى الترجمات في مكونات العميل.
+
+```tsx
+const { t, locale, setLocale } = useTranslation("namespace");
+```
+
+### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `namespace` | `string` | نعم | مساحة اسم الترجمة للاستخدام |
+
+### Returns
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `t` | `(key: string, vars?: object) => string` | دالة الترجمة |
+| `locale` | `string` | الإعداد المحلي الحالي |
+| `setLocale` | `(locale: string) => void` | دالة لتغيير الإعداد المحلي |
+
+### Example
+
+```tsx
+const { t, locale, setLocale } = useTranslation("common");
+
+// الاستخدام الأساسي
+t("greeting");  // "مرحبا"
+
+// مع المتغيرات
+t("greeting_name", { name: "جون" });  // "مرحبا، جون!"
+
+// المفاتيح المتداخلة
+t("nav.home");  // "الرئيسية"
+
+// تغيير الإعداد المحلي
+setLocale("fr");
+```
+
+## getTranslation
+
+دالة غير متزامنة للوصول إلى الترجمات في مكونات الخادم (Next.js).
+
+```tsx
+const { t } = await getTranslation("namespace");
+```
+
+### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `namespace` | `string` | نعم | مساحة اسم الترجمة للاستخدام |
+
+### Returns
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `t` | `(key: string, vars?: object) => string` | دالة الترجمة |
+| `locale` | `string` | الإعداد المحلي الحالي |
+
+### Example
+
+```tsx
+// مكون الخادم
+export default async function Page() {
+  const { t } = await getTranslation("common");
+
+  return <h1>{t("title")}</h1>;
+}
+```
+
+## Link Component
+
+مكون رابط يدرك الإعداد المحلي لـ Next.js.
+
+```tsx
+import { Link } from "@onruntime/translations/next";
+
+<Link href="/about">حول</Link>
+```
+
+### Props
+
+جميع الخصائص من مكون `Link` الخاص بـ Next.js، بالإضافة إلى:
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `locale` | `string` | الإعداد المحلي الحالي | تجاوز إعدادات اللغة للرابط |
+
+### Example
+
+```tsx
+// يستخدم الإعداد المحلي الحالي
+<Link href="/about">حول</Link>
+
+// فرض إعداد محلي معين
+<Link href="/about" locale="fr">À propos</Link>
+```
+
+## Translation Function (t)
+
+تستخدم دالة `t` لاسترجاع السلاسل المترجمة.
+
+### Signature
+
+```tsx
+t(key: string, variables?: Record<string, string | number>): string
+```
+
+### Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `key` | `string` | مفتاح الترجمة (يدعم الصيغة النقطية) |
+| `variables` | `object` | المتغيرات للإدراج |
+
+### Variable Interpolation
+
+```json
+{
+  "greeting": "مرحبا، {name}!",
+  "items": "لديك {count} عناصر"
+}
+```
+
+```tsx
+t("greeting", { name: "أليس" });  // "مرحبا، أليس!"
+t("items", { count: 5 });          // "لديك 5 عناصر"
+```
+
+### Nested Keys
+
+```json
+{
+  "user": {
+    "profile": {
+      "title": "الملف الشخصي"
+    }
+  }
+}
+```
+
+```tsx
+t("user.profile.title");  // "الملف الشخصي"
+```
+
+## Type Definitions
+
+### TranslationNamespaces
+
+وسّع هذه الواجهة لترجمات ذات نوع آمن:
+
+```tsx
+declare module "@onruntime/translations" {
+  interface TranslationNamespaces {
+    common: typeof import("./locales/en/common.json");
+    auth: typeof import("./locales/en/auth.json");
+  }
+}
+```
+
+<Callout type="info" title="فوائد TypeScript">
+  مع التعريفات الصحيحة للنوع، ستحصل على إكمال تلقائي لمفاتيح الترجمة وأخطاء في وقت الترجمة للمفاتيح غير الصالحة.
+</Callout>
