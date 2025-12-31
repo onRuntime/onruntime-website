@@ -1,15 +1,114 @@
+"use client";
+
 import React from 'react';
 import { cn } from "@/lib/utils";
-import { LucideIcon } from 'lucide-react';
+import { useTranslation } from "@onruntime/translations/react";
+import { ServiceFeature } from '@/types/service';
+import Services from '@/constants/services';
+
+interface FeatureItemProps {
+  categoryId: string;
+  serviceId: string;
+  feature: ServiceFeature;
+  type: 'features' | 'benefits' | 'complementary';
+  accentColor?: string;
+}
+
+const FeatureItem: React.FC<FeatureItemProps> = ({
+  categoryId,
+  serviceId,
+  feature,
+  type,
+  accentColor = "onruntime-blue"
+}) => {
+  const { t } = useTranslation(`constants/services/${categoryId}/${serviceId}`);
+  const FeatureIcon = feature.icon;
+
+  return (
+    <div className="flex gap-4">
+      {FeatureIcon && (
+        <div className={`p-2 rounded-md bg-${accentColor}/10 text-${accentColor} h-fit flex-shrink-0`}>
+          <FeatureIcon className="w-5 h-5" />
+        </div>
+      )}
+      <div>
+        <h3 className="font-medium text-foreground mb-2">{t(`${type}.${feature.key}.title`)}</h3>
+        <p className="text-sm text-muted-foreground">{t(`${type}.${feature.key}.description`)}</p>
+      </div>
+    </div>
+  );
+};
+
+interface FeatureCardProps {
+  categoryId: string;
+  serviceId: string;
+  feature: ServiceFeature;
+  type: 'features' | 'benefits' | 'complementary';
+  accentColor?: string;
+}
+
+const FeatureCard: React.FC<FeatureCardProps> = ({
+  categoryId,
+  serviceId,
+  feature,
+  type,
+  accentColor = "onruntime-blue"
+}) => {
+  const { t } = useTranslation(`constants/services/${categoryId}/${serviceId}`);
+  const FeatureIcon = feature.icon;
+
+  return (
+    <div className="p-6 rounded-lg border bg-card hover:border-onruntime-blue transition-colors">
+      {FeatureIcon && (
+        <div className={`p-3 rounded-md bg-${accentColor}/10 text-${accentColor} mb-4 w-fit`}>
+          <FeatureIcon className="w-5 h-5" />
+        </div>
+      )}
+      <h3 className="text-lg font-medium text-foreground mb-2">{t(`${type}.${feature.key}.title`)}</h3>
+      <p className="text-sm text-muted-foreground">{t(`${type}.${feature.key}.description`)}</p>
+    </div>
+  );
+};
+
+interface FeatureMinimalProps {
+  categoryId: string;
+  serviceId: string;
+  feature: ServiceFeature;
+  type: 'features' | 'benefits' | 'complementary';
+  accentColor?: string;
+}
+
+const FeatureMinimal: React.FC<FeatureMinimalProps> = ({
+  categoryId,
+  serviceId,
+  feature,
+  type,
+  accentColor = "onruntime-blue"
+}) => {
+  const { t } = useTranslation(`constants/services/${categoryId}/${serviceId}`);
+  const FeatureIcon = feature.icon;
+
+  return (
+    <div className="flex gap-4">
+      {FeatureIcon && (
+        <div className={`p-2 rounded-md bg-${accentColor}/10 text-${accentColor} h-fit flex-shrink-0`}>
+          <FeatureIcon className="w-5 h-5" />
+        </div>
+      )}
+      <div>
+        <h3 className="font-medium text-foreground mb-1">{t(`${type}.${feature.key}.title`)}</h3>
+        <p className="text-sm text-muted-foreground">{t(`${type}.${feature.key}.description`)}</p>
+      </div>
+    </div>
+  );
+};
 
 interface FeatureSectionProps {
+  categoryId: string;
+  serviceId: string;
   title: string;
   description: string;
-  features: {
-    title: string;
-    description: string;
-    icon?: LucideIcon;
-  }[];
+  type: 'features' | 'benefits' | 'complementary';
   reversed?: boolean;
   className?: string;
   accentColor?: string;
@@ -17,70 +116,78 @@ interface FeatureSectionProps {
 }
 
 const FeatureSection: React.FC<FeatureSectionProps> = ({
+  categoryId,
+  serviceId,
   title,
   description,
-  features,
+  type,
   reversed = false,
   className,
   accentColor = "onruntime-blue",
   variant = 'default'
 }) => {
+  // Look up features from Services constant
+  const categoryData = Services.find(s => s.id === categoryId);
+  const subService = categoryData?.subServices.find(s => s.id === serviceId);
+
+  const features = type === 'features'
+    ? subService?.features
+    : type === 'benefits'
+      ? subService?.benefits
+      : subService?.complementaryServices;
+
+  if (!features || features.length === 0) {
+    return null;
+  }
+
+  const firstFeatureIcon = features[0]?.icon;
+
   const renderFeatures = () => {
     switch (variant) {
       case 'cards':
         return (
           <div className="grid sm:grid-cols-2 gap-6">
             {features.map((feature, index) => (
-              <div
+              <FeatureCard
                 key={index}
-                className="p-6 rounded-lg border bg-card hover:border-onruntime-blue transition-colors"
-              >
-                {feature.icon && (
-                  <div className={`p-3 rounded-md bg-${accentColor}/10 text-${accentColor} mb-4 w-fit`}>
-                    <feature.icon className="w-5 h-5" />
-                  </div>
-                )}
-                <h3 className="text-lg font-medium text-foreground mb-2">{feature.title}</h3>
-                <p className="text-sm text-muted-foreground">{feature.description}</p>
-              </div>
+                categoryId={categoryId}
+                serviceId={serviceId}
+                feature={feature}
+                type={type}
+                accentColor={accentColor}
+              />
             ))}
           </div>
         );
-        
+
       case 'minimal':
         return (
           <div className="space-y-6">
             {features.map((feature, index) => (
-              <div key={index} className="flex gap-4">
-                {feature.icon && (
-                  <div className={`p-2 rounded-md bg-${accentColor}/10 text-${accentColor} h-fit flex-shrink-0`}>
-                    <feature.icon className="w-5 h-5" />
-                  </div>
-                )}
-                <div>
-                  <h3 className="font-medium text-foreground mb-1">{feature.title}</h3>
-                  <p className="text-sm text-muted-foreground">{feature.description}</p>
-                </div>
-              </div>
+              <FeatureMinimal
+                key={index}
+                categoryId={categoryId}
+                serviceId={serviceId}
+                feature={feature}
+                type={type}
+                accentColor={accentColor}
+              />
             ))}
           </div>
         );
-        
+
       default:
         return (
           <div className="grid gap-6">
             {features.map((feature, index) => (
-              <div key={index} className="flex gap-4">
-                {feature.icon && (
-                  <div className={`p-2 rounded-md bg-${accentColor}/10 text-${accentColor} h-fit flex-shrink-0`}>
-                    <feature.icon className="w-5 h-5" />
-                  </div>
-                )}
-                <div>
-                  <h3 className="font-medium text-foreground mb-2">{feature.title}</h3>
-                  <p className="text-sm text-muted-foreground">{feature.description}</p>
-                </div>
-              </div>
+              <FeatureItem
+                key={index}
+                categoryId={categoryId}
+                serviceId={serviceId}
+                feature={feature}
+                type={type}
+                accentColor={accentColor}
+              />
             ))}
           </div>
         );
@@ -105,8 +212,8 @@ const FeatureSection: React.FC<FeatureSectionProps> = ({
         </div>
 
         <div className="absolute inset-0 z-10 flex items-center justify-center">
-          {features[0]?.icon && React.createElement(
-            features[0].icon, 
+          {firstFeatureIcon && React.createElement(
+            firstFeatureIcon,
             { className: `w-32 h-32 text-${accentColor} opacity-10` }
           )}
         </div>

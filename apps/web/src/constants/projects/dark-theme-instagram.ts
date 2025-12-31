@@ -2,120 +2,60 @@ import { type Project, Tag } from "@/types/project";
 import { Chrome, Code, Paintbrush, Shield, Smartphone } from "lucide-react";
 
 export const darkThemeForInstagram: Project = {
-	id: "dark-theme-instagram",
-	name: "Dark Theme for Instagram",
-	tags: [Tag.OPEN_SOURCE],
-	shortDescription:
-		"Une extension de navigateur qui transforme Instagram en mode sombre, similaire à l'application iOS.",
-	description:
-		"Changez le thème de Instagram.com en mode sombre lorsque le système est en mode sombre.",
-	longDescription: `Dark Theme for Instagram™ est une extension de navigateur qui transforme l'expérience visuelle de Instagram.com en adoptant un thème sombre, similaire à l'apparence de l'application iOS.
+  id: "dark-theme-instagram",
+  name: "Dark Theme for Instagram",
+  tags: [Tag.OPEN_SOURCE],
+  iconUrl: "/static/images/projects/dark-theme-instagram/icon.png",
+  showcaseUrl: "/static/images/projects/dark-theme-instagram/showcase.jpg",
+  thumbnailUrl: "/static/images/projects/dark-theme-instagram/thumbnail.webp",
+  website: "https://chromewebstore.google.com/detail/hhpaefgagkcciebgfdmoljlebdmpfcfb",
+  repository: "https://github.com/onRuntime/instagram-dark-extension",
+  startDate: "2020-07",
+  status: "archived",
 
-L'extension offre une solution simple et élégante pour réduire la fatigue oculaire et améliorer l'expérience de navigation sur Instagram, tout en respectant les préférences du système d'exploitation.`,
-	iconUrl: "/static/images/projects/dark-theme-instagram/icon.png",
-	showcaseUrl: "/static/images/projects/dark-theme-instagram/showcase.jpg",
-	thumbnailUrl: "/static/images/projects/dark-theme-instagram/thumbnail.webp",
-	website:
-		"https://chromewebstore.google.com/detail/hhpaefgagkcciebgfdmoljlebdmpfcfb",
-	repository: "https://github.com/onRuntime/instagram-dark-extension",
-	startDate: "2020-07",
-	status: "archived",
+  features: [
+    { key: "auto-dark-mode", icon: Chrome },
+    { key: "multi-browser", icon: Smartphone },
+    { key: "open-source", icon: Shield },
+  ],
 
-	features: [
-		{
-			title: "Mode Sombre Automatique",
-			description:
-				"Activez automatiquement le thème sombre basé sur les paramètres système",
-			icon: Chrome,
-		},
-		{
-			title: "Compatible Multi-Navigateurs",
-			description: "Disponible pour Firefox, Edge et Chrome",
-			icon: Smartphone,
-		},
-		{
-			title: "Open Source",
-			description: "Code source librement accessible et vérifiable",
-			icon: Shield,
-		},
-	],
+  technologies: [
+    { key: "javascript", name: "JavaScript", icon: Code },
+    { key: "chrome-api", name: "Chrome API", icon: Chrome },
+    { key: "css", name: "CSS", icon: Paintbrush },
+  ],
 
-	technologies: [
-		{
-			name: "JavaScript",
-			description: "Développement de l'extension",
-			icon: Code,
-		},
-		{
-			name: "Chrome API",
-			description: "Intégration navigateur",
-			icon: Chrome,
-		},
-		{
-			name: "CSS",
-			description: "Personnalisation du thème",
-			icon: Paintbrush,
-		},
-	],
+  metrics: [
+    { key: "users", value: "52k+" },
+    { key: "installs", value: "82k+" },
+    { key: "open-source", value: "100%" },
+  ],
 
-	metrics: [
-		{
-			label: "Utilisateurs",
-			value: "52k+",
-			description: "Utilisateurs actifs",
-		},
-		{
-			label: "Installations",
-			value: "82k+",
-			description: "Total d'installations",
-		},
-		{
-			label: "Open Source",
-			value: "100%",
-			description: "Code source public",
-		},
-	],
+  team: [
+    { ref: "lucas-bodin", role: "Lead Designer" },
+    { ref: "antoine-kingue", role: "Lead Developer" },
+    { ref: "jeremy-baudrin", role: "Developer" },
+    { ref: "johann-six", role: "Developer" },
+  ],
 
-	team: [
-		{
-			ref: "lucas-bodin",
-			role: "Lead Designer",
-		},
-		{
-			ref: "antoine-kingue",
-			role: "Lead Developer",
-		},
-		{
-			ref: "jeremy-baudrin",
-			role: "Developer",
-		},
-		{
-			ref: "johann-six",
-			role: "Developer",
-		},
-	],
+  screenshots: [
+    { key: "dark-interface", url: "/static/images/projects/dark-theme-instagram/showcase.jpg" },
+  ],
 
-	screenshots: [
-		{
-			url: "/static/images/projects/dark-theme-instagram/showcase.jpg",
-			caption: "Interface Instagram en mode sombre",
-		},
-	],
+  challenges: [
+    "instagram-updates-compatibility",
+    "cross-browser-consistency",
+    "browser-performance",
+  ],
 
-	challenges: [
-		"Maintenir la compatibilité avec les mises à jour fréquentes d'Instagram",
-		"Assurer un thème sombre cohérent sur différents navigateurs",
-		"Minimiser l'impact sur les performances du navigateur",
-	],
+  learnings: [
+    "dynamic-interface-modification",
+    "cross-browser-compatibility",
+    "platform-updates-management",
+  ],
 
-	learnings: [
-		"Complexité de la modification dynamique des interfaces web",
-		"Importance de la compatibilité cross-navigateurs",
-		"Gestion des mises à jour fréquentes des plateformes web",
-	],
-
-	futurePlans: [
-		"Ajout de plus d'options de personnalisation",
-		"Amélioration de la compatibilité avec différentes versions d'Instagram",
-	],
+  futurePlans: [
+    "more-customization",
+    "instagram-versions-compatibility",
+  ],
 };

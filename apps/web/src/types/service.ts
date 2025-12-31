@@ -8,7 +8,7 @@ export enum ServiceCategory {
 }
 
 export interface ServiceTestimonial {
-  content: string;
+  key: string;
   author: {
     name: string;
     role: string;
@@ -18,32 +18,26 @@ export interface ServiceTestimonial {
 }
 
 export interface ServiceFAQItem {
-  question: string;
-  answer: string;
+  key: string;
 }
 
 export interface ServiceFeature {
-  title: string;
-  description: string;
+  key: string;
   icon: LucideIcon;
 }
 
 export interface ServiceBenefit {
-  title: string;
-  description: string;
+  key: string;
   icon: LucideIcon;
 }
 
 export interface ServiceProcessStep {
-  title: string;
-  description: string;
-  services?: string[];
+  key: string;
+  serviceKeys?: string[];
 }
 
 export interface SubService {
   id: string;
-  name: string;
-  description: string;
   route: string;
   icon?: LucideIcon;
 
@@ -52,14 +46,10 @@ export interface SubService {
   testimonials?: ServiceTestimonial[];
   faqItems?: ServiceFAQItem[];
   complementaryServices?: ServiceFeature[];
-  heroTitle?: string;
-  heroDescription?: string;
 }
 
 export interface ServiceCategoryData {
   id: ServiceCategory;
-  name: string;
-  description: string;
   icon: LucideIcon;
   subServices: SubService[];
 

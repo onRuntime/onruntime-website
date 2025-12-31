@@ -1,0 +1,69 @@
+{
+  "back": "Retour aux offres",
+  "share": {
+    "button": "Partager",
+    "text": "Découvrez cette opportunité : {jobTitle} chez onRuntime Studio",
+    "copied": "Lien copié dans le presse-papier !"
+  },
+  "apply": "Postuler maintenant",
+  "published": "Publié le",
+  "employment-type": {
+    "full-time": "Temps plein",
+    "part-time": "Temps partiel",
+    "contract": "Contrat",
+    "temporary": "Temporaire",
+    "internship": "Stage",
+    "apprenticeship": "Apprentissage"
+  },
+  "workplace-type": {
+    "hybrid": "Hybride",
+    "remote": "Télétravail",
+    "on-site": "Sur site"
+  },
+  "salary-format": {
+    "from": "À partir de",
+    "up-to": "Jusqu'à",
+    "range": "-"
+  },
+  "sections": {
+    "description": "Description du poste",
+    "no-description": "Aucune description détaillée n'est disponible pour ce poste.",
+    "requirements": "Prérequis",
+    "benefits": "Avantages"
+  },
+  "details": {
+    "title": "Détails du poste",
+    "department": "Département",
+    "location": "Lieu",
+    "contract": "Type de contrat",
+    "salary": "Salaire",
+    "remote": "Télétravail",
+    "remote-possible": "Possible",
+    "workplace": "Mode de travail"
+  },
+  "interested": {
+    "title": "Intéressé par ce poste ?",
+    "description": "Postulez dès maintenant et rejoignez notre équipe passionnée."
+  },
+  "culture": {
+    "title": "Notre culture d'entreprise",
+    "description": "Chez onRuntime Studio, nous cultivons un environnement de travail collaboratif et stimulant où chaque membre de l'équipe peut exprimer sa créativité et développer ses compétences. Nous privilégions l'innovation, la qualité et le bien-être de nos collaborateurs.",
+    "training": {
+      "title": "Formation continue",
+      "description": "Nous investissons dans le développement professionnel de nos équipes"
+    },
+    "flexible": {
+      "title": "Environnement flexible",
+      "description": "Équilibre vie professionnelle/vie personnelle et travail hybride"
+    },
+    "projects": {
+      "title": "Projets variés",
+      "description": "Travaillez sur des projets diversifiés et stimulants"
+    },
+    "learn-more": "En savoir plus sur notre équipe"
+  },
+  "cta": {
+    "title": "Prêt à relever le défi ?",
+    "description": "Rejoignez notre équipe et participez à des projets stimulants qui vous permettront de développer vos compétences et d'exprimer votre créativité."
+  }
+}

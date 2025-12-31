@@ -1,3 +1,5 @@
+"use client";
+
 import {
   NavigationMenuContent,
   NavigationMenuItem,
@@ -8,10 +10,13 @@ import Routes from "@/constants/routes";
 import { getMajorAgencies } from "@/constants/agencies";
 import { ArrowRight, MapPin } from "lucide-react";
 import React from "react";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import { cn } from "@/lib/utils";
 
+import { useTranslation } from "@onruntime/translations/react";
+
 const NavigationAgencies: React.FC = () => {
+  const { t } = useTranslation("layout/navbar");
   
   const majorAgencies = getMajorAgencies();
 
@@ -26,7 +31,7 @@ const NavigationAgencies: React.FC = () => {
   return (
     <NavigationMenuItem>
       <Link href={Routes.agency.root}>
-        <NavigationMenuTrigger>Nos agences</NavigationMenuTrigger>
+        <NavigationMenuTrigger>{t("links.agencies")}</NavigationMenuTrigger>
       </Link>
 
       <NavigationMenuContent>
@@ -39,9 +44,9 @@ const NavigationAgencies: React.FC = () => {
             >
               <div className="flex h-full flex-col justify-between">
                 <div>
-                  <h3 className="text-sm font-medium mb-2">Nos agences en France</h3>
+                  <h3 className="text-sm font-medium mb-2">{t("agencies.title")}</h3>
                   <p className="text-xs text-muted-foreground mb-4">
-                    Découvrez notre réseau d&apos;agences et notre expertise locale dans toute la France
+                    {t("agencies.description")}
                   </p>
                 </div>
                 
@@ -49,7 +54,7 @@ const NavigationAgencies: React.FC = () => {
                   {majorAgencies.slice(0, 3).map(agency => (
                     <div key={agency.id} className="flex items-center gap-2 text-xs">
                       <MapPin className="h-3.5 w-3.5 text-onruntime-blue" />
-                      <span>Agence {agency.name}</span>
+                      <span>{t("agencies.agency", { name: agency.name })}</span>
                     </div>
                   ))}
                 </div>
@@ -60,7 +65,7 @@ const NavigationAgencies: React.FC = () => {
           <div className="grid gap-6">
             
             <div className="space-y-3">
-              <h4 className="text-sm font-medium">Principales agences</h4>
+              <h4 className="text-sm font-medium">{t("agencies.main")}</h4>
               <div className="grid grid-cols-2 gap-2">
                 {majorAgencies.map(agency => (
                   <NavigationMenuLink asChild key={agency.id}>
@@ -80,7 +85,7 @@ const NavigationAgencies: React.FC = () => {
             </div>
 
             <div className="hidden lg:block">
-              <h4 className="text-sm font-medium mb-2">Toutes nos agences par région</h4>
+              <h4 className="text-sm font-medium mb-2">{t("agencies.by-region")}</h4>
               <div className="grid grid-cols-2 gap-3">
                 {Object.entries(agenciesByRegion).slice(0, 4).map(([region, regionAgencies]) => (
                   <div key={region} className="space-y-2">
@@ -106,7 +111,7 @@ const NavigationAgencies: React.FC = () => {
                   href={Routes.agency.root} 
                   className="flex justify-between items-center hover:text-accent-foreground transition-colors"
                 >
-                  <span>Voir toutes nos agences</span>
+                  <span>{t("agencies.cta")}</span>
                   <ArrowRight className="h-3 w-3" />
                 </Link>
               </NavigationMenuLink>

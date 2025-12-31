@@ -1,0 +1,30 @@
+{
+  "tagline": "Un studio de créatif, à travers le monde.",
+  "location": "Mais on peut se voir sur <strong>Rouen</strong> et <strong>Paris</strong>.",
+  "nav": {
+    "navigation": "Navigation",
+    "resources": "Ressources",
+    "other": "Autres",
+    "social": "Réseaux sociaux"
+  },
+  "links": {
+    "services": "Nos services",
+    "projects": "Nos projets",
+    "npo": "L'association",
+    "careers": "Carrières",
+    "blog": "Blog",
+    "glossary": "Glossaire",
+    "community": "Communauté",
+    "status": "Status",
+    "contact": "Contact",
+    "terms": "Conditions générales",
+    "privacy": "Politique de confidentialité",
+    "company": "Détails de l'entreprise"
+  },
+  "status": "Tous les services sont opérationnels",
+  "language": {
+    "label": "Langue",
+    "en": "English",
+    "fr": "Français"
+  }
+}

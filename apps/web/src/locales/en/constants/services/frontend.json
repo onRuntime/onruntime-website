@@ -1,0 +1,56 @@
+{
+  "name": "Front-end development",
+  "description": "Creating high-performance web and mobile applications",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Scalable architecture",
+      "description": "Applications built on modern and scalable architectures, ready for your project's evolution."
+    },
+    "optimal-performance": {
+      "title": "Optimal performance",
+      "description": "Focus on performance with advanced optimization and caching techniques."
+    },
+    "maintainable-code": {
+      "title": "Maintainable code",
+      "description": "Clean and modular architecture enabling easy maintenance and quick iterations."
+    },
+    "enhanced-security": {
+      "title": "Enhanced security",
+      "description": "Implementation of frontend security best practices to protect your users."
+    }
+  },
+  "process": {
+    "technical-architecture": {
+      "title": "Technical architecture",
+      "description": "Frontend architecture definition, technology selection and development environment setup."
+    },
+    "project-setup": {
+      "title": "Project setup",
+      "description": "Project configuration with development best practices, testing and continuous deployment."
+    },
+    "feature-development": {
+      "title": "Feature development",
+      "description": "Feature implementation with focus on code quality and performance."
+    },
+    "state-management": {
+      "title": "State management",
+      "description": "Setting up robust and performant state management for application data."
+    },
+    "testing-quality": {
+      "title": "Testing and quality",
+      "description": "Implementation of automated tests and quality assurance processes."
+    },
+    "optimization-monitoring": {
+      "title": "Optimization and monitoring",
+      "description": "Performance optimization and monitoring tools setup."
+    }
+  },
+  "process-services": {
+    "technical-architecture": ["Architecture", "Technical consulting"],
+    "project-setup": ["Technical setup", "CI/CD"],
+    "feature-development": ["Frontend development", "React", "Next.js"],
+    "state-management": ["State Management", "API Integration"],
+    "testing-quality": ["Unit tests", "E2E tests"],
+    "optimization-monitoring": ["Performance", "Analytics"]
+  }
+}

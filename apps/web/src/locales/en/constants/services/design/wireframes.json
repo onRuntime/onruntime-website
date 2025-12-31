@@ -1,0 +1,80 @@
+{
+  "name": "Wireframes",
+  "description": "Designing structure and user journey",
+  "hero": {
+    "title": "Wireframes & UX Architecture",
+    "description": "Structure your user interfaces with professional wireframes. Our UX design expertise guarantees intuitive architecture and optimal user experience from the earliest stages of your project."
+  },
+  "features": {
+    "ux-architecture": {
+      "title": "UX architecture",
+      "description": "Clear and logical structure of your interfaces."
+    },
+    "user-journey": {
+      "title": "User journey",
+      "description": "Optimization of navigation flows."
+    },
+    "visual-hierarchy": {
+      "title": "Visual hierarchy",
+      "description": "Efficient organization of content and features."
+    },
+    "interactions": {
+      "title": "Interactions",
+      "description": "Definition of behaviors and transitions."
+    }
+  },
+  "benefits": {
+    "responsive-design": {
+      "title": "Responsive design",
+      "description": "Adaptation to all screen formats."
+    },
+    "rapid-prototyping": {
+      "title": "Rapid prototyping",
+      "description": "Efficient testing and iterations."
+    },
+    "collaboration": {
+      "title": "Collaboration",
+      "description": "Clear communication with all stakeholders."
+    },
+    "early-validation": {
+      "title": "Early validation",
+      "description": "Quick detection and correction of UX issues."
+    }
+  },
+  "faq": {
+    "what-is-wireframe": {
+      "question": "What is a wireframe and why is it important?",
+      "answer": "A wireframe is a schematic representation of your interface that focuses on structure, hierarchy and functionality, without the final design elements. It's a crucial step that validates information architecture and user experience before investing in detailed design."
+    },
+    "creation-process": {
+      "question": "How does the creation process work?",
+      "answer": "The process begins with analyzing your needs and objectives. We then create low-fidelity wireframes to validate the overall structure, then more detailed versions with interactions. After several iterations and your feedback, we finalize the wireframes that will serve as the basis for UI design."
+    },
+    "deliverables": {
+      "question": "What deliverables are provided?",
+      "answer": "You receive a complete set of wireframes for each key screen, user flow diagrams, interaction documentation, and interactive prototypes to test user journeys. All source files are also provided."
+    },
+    "responsive-handling": {
+      "question": "How do you handle responsive design?",
+      "answer": "We create wireframes adapted to each important screen format (desktop, tablet, mobile) following a mobile-first approach. Each version is optimized to offer the best possible user experience on its medium."
+    },
+    "creation-timeline": {
+      "question": "How long does wireframe creation take?",
+      "answer": "Duration depends on project complexity, but generally 2 to 4 weeks for a medium project, including analysis, creation, iterations and finalization phases. We establish a detailed schedule at the start of the project."
+    }
+  },
+  "complementary": {
+    "ux-audit": {
+      "title": "UX audit",
+      "description": "In-depth analysis of your existing interfaces."
+    },
+    "prototyping": {
+      "title": "Prototyping",
+      "description": "Creation of interactive prototypes."
+    },
+    "ux-documentation": {
+      "title": "UX documentation",
+      "description": "Detailed documentation of user journeys."
+    }
+  }
+}

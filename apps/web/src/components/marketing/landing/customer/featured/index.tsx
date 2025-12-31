@@ -3,36 +3,40 @@ import DotPattern from "@/components/ui/dot-pattern";
 import Safari from "@/components/ui/safari";
 import Routes from "@/constants/routes";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
 import React from "react";
 import Balancer from "react-wrap-balancer";
+import { getTranslation } from "@/lib/translations.server";
 
-const Featured: React.FC = () => {
+const Featured: React.FC = async () => {
+  const { t } = await getTranslation("components/marketing/landing/customer/featured");
+
   return (
     <header className="bg-gradient-to-t from-onruntime-magenta/10 to-transparent overflow-hidden">
       <div className="px-4 md:px-0 pt-16 flex flex-col justify-center items-center max-w-5xl mx-auto">
         <div className="relative max-w-xl flex flex-col items-center gap-6">
           <h1 className="font-semibold text-5xl md:text-6xl text-foreground text-center">
             <Balancer>
-              {"Vous méritez "}
-              <span className="text-onruntime-magenta inline">le meilleur</span>
-              {" pour votre projet."}
+              {t("title").split("<accent>")[0]}
+              <span className="text-onruntime-magenta inline">
+                {t("title").split("<accent>")[1]?.split("</accent>")[0]}
+              </span>
+              {t("title").split("</accent>")[1]}
             </Balancer>
           </h1>
 
-          <h2 className="text-center text-muted-foreground">
-            Parce que le meilleur c’est nous, <strong>onRuntime Studio</strong>,
-            votre allié pour réaliser cet objectif grâce à nos équipes de
-            passionnés.
-          </h2>
+          <p
+            className="text-center text-muted-foreground"
+            dangerouslySetInnerHTML={{ __html: t("description") }}
+          />
 
           <div className="flex gap-3">
             <Link href={Routes.contact}>
-              <Button>Réserver une prestation</Button>
+              <Button>{t("cta.book")}</Button>
             </Link>
 
             <Link href={Routes.projects}>
-              <Button variant={"outline"}>Voir notre travail</Button>
+              <Button variant={"outline"}>{t("cta.work")}</Button>
             </Link>
           </div>
 

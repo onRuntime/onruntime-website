@@ -1,32 +1,35 @@
 import React from 'react';
-import Link from 'next/link';
+import { Link } from '@onruntime/translations/next';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import DotPattern from '@/components/ui/dot-pattern';
 import { cn } from '@/lib/utils';
 import Routes from '@/constants/routes';
 import { Agency } from '@/types/agency';
+import { getTranslation } from '@/lib/translations.server';
 
 interface CityHeroSectionProps {
   agency: Agency;
 }
 
-const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
-  
+const CityHeroSection = async ({ agency }: CityHeroSectionProps) => {
+  const { t } = await getTranslation('components/marketing/agency/city-hero-section');
+  const { t: tAgency } = await getTranslation(`constants/agencies/${agency.id}`);
+
   const accent = agency.accentColor || "blue";
 
-  const heroTitle = agency.heroTitle || `Développement web à ${agency.name}`;
-  const heroDescription = agency.heroDescription || agency.description;
+  const heroTitle = tAgency('hero.title');
+  const heroDescription = tAgency('hero.description');
 
   return (
     <div className="relative overflow-hidden rounded-xl border border-border bg-card mb-24">
       <div className="grid md:grid-cols-2 gap-6">
-        
+
         <div className="min-w-0 p-8 md:p-12 flex flex-col items-start gap-6 relative z-10">
           <h1 className="font-medium text-4xl md:text-5xl text-foreground">
             {heroTitle}
           </h1>
-          
+
           <p className="text-muted-foreground text-lg">
             {heroDescription}
           </p>
@@ -34,14 +37,14 @@ const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
           <div className="flex flex-wrap gap-4 mt-2">
             {agency.keyBusinessSectors.slice(0, 3).map((sector, index) => (
               <div key={index} className="px-3 py-1 bg-background rounded-full border text-sm">
-                {sector}
+                {tAgency(`key-business-sectors.${sector}`)}
               </div>
             ))}
           </div>
 
           <Button asChild size="lg" className="whitespace-normal sm:whitespace-nowrap">
             <Link href={Routes.contact}>
-              Démarrer votre projet à {agency.name}
+              {t('cta', { name: agency.name })}
               <ArrowRight className="ml-2 w-5 h-5" />
             </Link>
           </Button>
@@ -49,7 +52,7 @@ const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
 
         <div className="relative hidden md:flex items-center justify-center p-8 overflow-hidden">
           <div className="relative z-10 w-full max-w-xs aspect-square">
-            
+
             {agency.primaryStat && agency.primaryStat.icon && (
               <div className={`absolute inset-0 rounded-full bg-onruntime-${accent}/5 backdrop-blur-sm border border-onruntime-${accent}/10 flex items-center justify-center`}>
                 {React.createElement(
@@ -59,14 +62,14 @@ const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
               </div>
             )}
 
-            <div 
+            <div
               className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-background/80 backdrop-blur-sm p-4 rounded-lg border border-border shadow-sm"
               style={{ maxWidth: '160px' }}
             >
               <p className="text-center font-medium text-lg capitalize">{agency.name}</p>
               {agency.primaryStat && (
                 <p className="text-xs text-center text-muted-foreground mt-1">
-                  Spécialiste {agency.primaryStat.label}
+                  {t('specialist', { stat: tAgency('primary-stat.label') })}
                 </p>
               )}
             </div>
@@ -78,7 +81,7 @@ const CityHeroSection: React.FC<CityHeroSectionProps> = ({ agency }) => {
         </div>
       </div>
 
-      <div className={`absolute inset-0 z-0 opacity-10 overflow-hidden`}>
+      <div className="absolute inset-0 z-0 opacity-10 overflow-hidden">
         <div className={`absolute -right-20 -top-20 w-[400px] h-[400px] rounded-full bg-onruntime-${accent} blur-3xl`}></div>
         <div className={`absolute -left-20 -bottom-20 w-[300px] h-[300px] rounded-full bg-onruntime-${accent} blur-3xl`}></div>
       </div>

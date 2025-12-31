@@ -2,30 +2,33 @@
 
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Routes from "@/constants/routes";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { Link, usePathname } from "@onruntime/translations/next";
 import React from "react";
+import { useTranslation } from "@onruntime/translations/react";
 
 const PageSwitcher: React.FC = () => {
   const pathname = usePathname();
+  const { t } = useTranslation("components/marketing/landing/page-switcher");
 
   return (
-    <div className="w-full fixed bottom-6 select-none">
+    <div className="w-full fixed bottom-6 select-none pointer-events-none">
       <Tabs
-        defaultValue=""
-        value={pathname.replace("/", "")}
+        defaultValue={Routes.landing.visitor}
+        value={pathname}
         className="w-fit mx-auto"
       >
-        <TabsList className="grid w-full grid-cols-2 bg-background/50 shadow-xs backdrop-blur-2xl">
-          <Link href={Routes.landing.customer} scroll={false}>
-            <TabsTrigger value="customer">
-              Je suis un potentiel client
-            </TabsTrigger>
-          </Link>
+        <TabsList className="grid w-full grid-cols-2 bg-background/50 shadow-xs backdrop-blur-2xl pointer-events-auto">
+          <TabsTrigger value={Routes.landing.customer} className="w-full" asChild>
+            <Link href={Routes.landing.customer} scroll={false}>
+              {t("customer")}
+            </Link>
+          </TabsTrigger>
 
-          <Link href={Routes.landing.visitor} scroll={false}>
-            <TabsTrigger value="">Je suis un simple visiteur</TabsTrigger>
-          </Link>
+          <TabsTrigger value={Routes.landing.visitor} className="w-full" asChild>
+            <Link href={Routes.landing.visitor} scroll={false}>
+              {t("visitor")}
+            </Link>
+          </TabsTrigger>
         </TabsList>
       </Tabs>
     </div>

@@ -1,13 +1,9 @@
 import { Link } from "@onruntime/translations/next";
 
-import { getTranslation } from "@/lib/translations";
+import { getTranslation } from "@/lib/translations.server";
 
-export default async function Home({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
-  const { t, locale } = await getTranslation(params);
+export default async function Home() {
+  const { t, locale } = await getTranslation();
   const count: number = 5;
 
   const otherLocale = locale === "en" ? "fr" : "en";

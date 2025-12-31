@@ -1,0 +1,80 @@
+{
+  "name": "Shopify",
+  "description": "Creation and customization of Shopify online stores",
+  "hero": {
+    "title": "Create your online store with Shopify",
+    "description": "Transform your e-commerce vision into reality with our Shopify expertise. We create high-performance, aesthetic and conversion-optimized online stores."
+  },
+  "features": {
+    "custom-design": {
+      "title": "Custom design",
+      "description": "Creation of a unique theme that reflects your brand and optimizes user experience."
+    },
+    "conversion-optimization": {
+      "title": "Conversion optimization",
+      "description": "Implementation of best practices to maximize your sales and retain your customers."
+    },
+    "enhanced-security": {
+      "title": "Enhanced security",
+      "description": "Protection of your data and your customers' data with the latest security standards."
+    },
+    "advanced-integrations": {
+      "title": "Advanced integrations",
+      "description": "Connection with your favorite tools for inventory management, accounting and marketing."
+    }
+  },
+  "benefits": {
+    "secure-payments": {
+      "title": "Secure payments",
+      "description": "Integration of major payment methods and secure transaction management."
+    },
+    "international-by-default": {
+      "title": "International by default",
+      "description": "Sell worldwide with multi-currency management and automatic translations."
+    },
+    "powerful-analytics": {
+      "title": "Powerful analytics",
+      "description": "Detailed tracking of your performance and insights to optimize your sales."
+    },
+    "simplified-logistics": {
+      "title": "Simplified logistics",
+      "description": "Efficient order management and integration with major carriers."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "How long does it take to create a Shopify store?",
+      "answer": "The average time to create a Shopify store varies from 4 to 8 weeks, depending on project complexity. This includes the design phase, development, product integration and testing."
+    },
+    "migration": {
+      "question": "Can you migrate my existing store to Shopify?",
+      "answer": "Yes, we offer a complete migration service from your existing store to Shopify, including transfer of products, customers and orders, while ensuring a smooth transition."
+    },
+    "customization-types": {
+      "question": "What types of customization do you offer?",
+      "answer": "We offer complete customization of your Shopify store: custom design, custom features, specific integrations, and mobile optimization."
+    },
+    "post-launch-support": {
+      "question": "Do you offer post-launch support?",
+      "answer": "Yes, we offer several support and maintenance plans to ensure the smooth operation of your store after launch, including updates, optimizations and technical support."
+    },
+    "security": {
+      "question": "How do you ensure the security of my store?",
+      "answer": "We implement security best practices: SSL, PCI DSS compliance, regular backups, and fraud protection. Shopify also provides bank-level security for all transactions."
+    }
+  },
+  "complementary": {
+    "seo": {
+      "title": "SEO",
+      "description": "Search engine optimization to increase your visibility."
+    },
+    "digital-marketing": {
+      "title": "Digital marketing",
+      "description": "Marketing strategies adapted to attract and convert more customers."
+    },
+    "training": {
+      "title": "Training",
+      "description": "Complete training to manage your store independently."
+    }
+  }
+}

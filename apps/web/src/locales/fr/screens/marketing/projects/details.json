@@ -1,0 +1,71 @@
+{
+  "tags": {
+    "featured": "Projet phare",
+    "open-source": "Open Source",
+    "customer": "Projet client"
+  },
+  "buttons": {
+    "view-project": "Voir le projet",
+    "source-code": "Code source"
+  },
+  "info": {
+    "start-date": "Date de début",
+    "status": "Statut",
+    "statuses": {
+      "active": "En cours",
+      "completed": "Terminé",
+      "archived": "Archivé"
+    },
+    "team": "Équipe",
+    "members": "membres"
+  },
+  "sections": {
+    "about": "À propos du projet",
+    "metrics": "Impact et métriques",
+    "features": "Fonctionnalités clés",
+    "technologies": "Technologies utilisées",
+    "gallery": "Galerie",
+    "team": "L'équipe",
+    "challenges": "Défis rencontrés",
+    "learnings": "Apprentissages clés",
+    "future": "Perspectives futures"
+  },
+  "cta": {
+    "title": "Intéressé par ce projet ?",
+    "description": "Découvrez comment nous pouvons vous aider à réaliser un projet similaire.",
+    "button": "Discuter de votre projet"
+  },
+  "tonightpass": {
+    "hero": {
+      "title": "La billetterie qui simplifie vos événements",
+      "subtitle": "De la création à l'entrée, gérez tout en 5 minutes",
+      "description": "Solution complète de billetterie pour organisateurs d'événements. Créez vos événements, vendez vos billets et gérez l'accès avec des outils professionnels et un support dédié.",
+      "buttons": {
+        "create": "Créer mon événement",
+        "discover": "Découvrir la solution"
+      },
+      "stats": {
+        "setup": {
+          "value": "5min",
+          "label": "Configuration"
+        },
+        "cost": {
+          "value": "0€",
+          "label": "Installation"
+        },
+        "support": {
+          "value": "24/7",
+          "label": "Support"
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à simplifier votre billetterie ?",
+      "description": "Simplifiez la gestion de vos événements avec une solution complète et intuitive",
+      "buttons": {
+        "start": "Commencer maintenant",
+        "features": "Voir toutes les fonctionnalités"
+      }
+    }
+  }
+}

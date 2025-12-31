@@ -1,4 +1,6 @@
-import React from 'react';
+"use client";
+
+import React from "react";
 import {
   Accordion,
   AccordionContent,
@@ -6,25 +8,57 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { cn } from "@/lib/utils";
+import { useTranslation } from "@onruntime/translations/react";
+import Services from "@/constants/services";
 
-interface FAQItem {
-  question: string;
-  answer: string;
+interface FAQItemProps {
+  categoryId: string;
+  serviceId: string;
+  faqKey: string;
+  index: number;
 }
 
+const FAQItem: React.FC<FAQItemProps> = ({
+  categoryId,
+  serviceId,
+  faqKey,
+  index,
+}) => {
+  const { t } = useTranslation(`constants/services/${categoryId}/${serviceId}`);
+
+  return (
+    <AccordionItem value={`item-${index}`}>
+      <AccordionTrigger className="text-left">
+        {t(`faq.${faqKey}.question`)}
+      </AccordionTrigger>
+      <AccordionContent>{t(`faq.${faqKey}.answer`)}</AccordionContent>
+    </AccordionItem>
+  );
+};
+
 interface FAQSectionProps {
+  categoryId: string;
+  serviceId: string;
   title: string;
   description: string;
-  items: FAQItem[];
   className?: string;
 }
 
 const FAQSection: React.FC<FAQSectionProps> = ({
+  categoryId,
+  serviceId,
   title,
   description,
-  items,
-  className
+  className,
 }) => {
+  const categoryData = Services.find((s) => s.id === categoryId);
+  const subService = categoryData?.subServices.find((s) => s.id === serviceId);
+  const faqItems = subService?.faqItems || [];
+
+  if (faqItems.length === 0) {
+    return null;
+  }
+
   return (
     <div className={cn("flex flex-col gap-12", className)}>
       <div className="text-center max-w-2xl mx-auto">
@@ -34,15 +68,14 @@ const FAQSection: React.FC<FAQSectionProps> = ({
 
       <div className="max-w-3xl mx-auto w-full">
         <Accordion type="single" collapsible className="w-full">
-          {items.map((item, index) => (
-            <AccordionItem key={index} value={`item-${index}`}>
-              <AccordionTrigger className="text-left">
-                {item.question}
-              </AccordionTrigger>
-              <AccordionContent>
-                {item.answer}
-              </AccordionContent>
-            </AccordionItem>
+          {faqItems.map((item, index) => (
+            <FAQItem
+              key={item.key}
+              categoryId={categoryId}
+              serviceId={serviceId}
+              faqKey={item.key}
+              index={index}
+            />
           ))}
         </Accordion>
       </div>

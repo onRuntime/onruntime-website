@@ -1,0 +1,80 @@
+{
+  "name": "Cloud Solutions",
+  "description": "Cloud infrastructure deployment and management",
+  "hero": {
+    "title": "Cloud Solutions",
+    "description": "Optimize your infrastructure with modern and scalable cloud solutions. Our expertise guarantees secure and high-performance deployment on major cloud platforms."
+  },
+  "features": {
+    "multi-cloud": {
+      "title": "Multi-cloud",
+      "description": "Support for major platforms (AWS, GCP, Azure)."
+    },
+    "advanced-security": {
+      "title": "Advanced security",
+      "description": "Robust protection of your data and applications."
+    },
+    "optimal-performance": {
+      "title": "Optimal performance",
+      "description": "Architecture optimized for maximum performance."
+    },
+    "automatic-scalability": {
+      "title": "Automatic scalability",
+      "description": "Dynamic adaptation to load requirements."
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "High availability",
+      "description": "Redundant and resilient infrastructure."
+    },
+    "elastic-storage": {
+      "title": "Elastic storage",
+      "description": "Flexible and secure data management."
+    },
+    "advanced-monitoring": {
+      "title": "Advanced monitoring",
+      "description": "Real-time monitoring of your infrastructure."
+    },
+    "enhanced-security": {
+      "title": "Enhanced security",
+      "description": "Multi-layer protection of your resources."
+    }
+  },
+  "faq": {
+    "platform-choice": {
+      "question": "Which cloud platform to choose?",
+      "answer": "The choice depends on your specific needs: AWS excels in service variety, Google Cloud in machine learning, and Azure in Microsoft integration. We guide you to the best solution based on your objectives, technical constraints and budget."
+    },
+    "cloud-security": {
+      "question": "How do you handle security in the cloud?",
+      "answer": "We implement multi-layer security: data encryption at rest and in transit, IAM access control, virtual private networks (VPC), web application firewalls (WAF), and continuous threat monitoring. We follow each platform's best practices."
+    },
+    "cost-optimization": {
+      "question": "How do you optimize costs?",
+      "answer": "We use several strategies: reserved instances, automatic scaling, resource optimization, removal of unused resources, and cost monitoring. We perform regular audits to identify savings opportunities."
+    },
+    "high-availability": {
+      "question": "How do you ensure high availability?",
+      "answer": "We deploy your infrastructure across multiple availability zones, with data replication, load balancing, and automatic failover. We also set up robust disaster recovery plans (DRP)."
+    },
+    "support-24-7": {
+      "question": "Do you offer 24/7 support?",
+      "answer": "Yes, we offer several support levels including: 24/7 monitoring, automatic alerting, rapid incident intervention, preventive maintenance, and dedicated technical support."
+    }
+  },
+  "complementary": {
+    "cloud-migration": {
+      "title": "Cloud migration",
+      "description": "Smooth transition to the cloud."
+    },
+    "multi-region": {
+      "title": "Multi-region",
+      "description": "Global deployment of your applications."
+    },
+    "devops": {
+      "title": "DevOps",
+      "description": "Automation and CI/CD in the cloud."
+    }
+  }
+}

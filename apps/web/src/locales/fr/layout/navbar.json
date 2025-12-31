@@ -1,0 +1,33 @@
+{
+  "links": {
+    "services": "Nos services",
+    "projects": "Nos projets",
+    "agencies": "Nos agences",
+    "npo": "L'association",
+    "contact": "Nous contacter"
+  },
+  "services": {
+    "title": "Nos services",
+    "description": "Découvrez notre gamme complète de services de développement et de design pour donner vie à vos projets digitaux.",
+    "cta": "En savoir plus"
+  },
+  "projects": {
+    "title": "Notre portfolio",
+    "description": "Découvrez tous nos projets et réalisations pour divers secteurs",
+    "categories": {
+      "web-mobile": "Applications Web & Mobile",
+      "open-source": "Projets Open Source",
+      "design": "Design UI/UX"
+    },
+    "cta": "Voir tous les projets"
+  },
+  "agencies": {
+    "title": "Nos agences en France",
+    "description": "Découvrez notre réseau d'agences et notre expertise locale dans toute la France",
+    "agency": "Agence {name}",
+    "main": "Principales agences",
+    "all": "Toutes nos agences",
+    "by-region": "Toutes nos agences par région",
+    "cta": "Voir toutes nos agences"
+  }
+}

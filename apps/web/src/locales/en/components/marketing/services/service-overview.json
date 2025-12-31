@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "cta": "Discuss your project"
+  },
+  "expertise": {
+    "title": "Deep expertise in {service}",
+    "description": "We combine creativity and technical expertise to deliver {service} solutions that perfectly meet your objectives. Our methodical approach and experience allow us to create sustainable and scalable solutions."
+  },
+  "services": {
+    "badge": "Our services",
+    "title": "Custom {service} solutions",
+    "description": "Discover our complete range of {service} services, designed to meet all your needs and support you in achieving your projects.",
+    "learnMore": "Learn more"
+  },
+  "benefits": {
+    "badge": "Benefits",
+    "title": "Why choose our {service} services?"
+  },
+  "process": {
+    "badge": "Our process",
+    "title": "How we work",
+    "description": "An integrated approach that combines our different areas of expertise for optimal results."
+  },
+  "cta": {
+    "title": "Ready to bring your project to life?",
+    "description": "Contact us to discuss your needs and get a personalized quote.",
+    "button": "Get started now"
+  }
+}

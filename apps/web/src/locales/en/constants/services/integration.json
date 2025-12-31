@@ -1,0 +1,56 @@
+{
+  "name": "Integration",
+  "description": "Integration on major e-commerce and CMS platforms",
+  "benefits": {
+    "clean-maintainable-code": {
+      "title": "Clean and maintainable code",
+      "description": "Integration with high code standards and architecture designed for long-term maintainability."
+    },
+    "optimized-performance": {
+      "title": "Optimized performance",
+      "description": "Fast and smooth websites through advanced optimization techniques and best practices."
+    },
+    "responsive-design": {
+      "title": "Responsive design",
+      "description": "Perfect adaptation to all screens and devices for a consistent user experience."
+    },
+    "smooth-animations": {
+      "title": "Smooth animations",
+      "description": "Integration of polished animations to enrich user experience while maintaining performance."
+    }
+  },
+  "process": {
+    "mockup-analysis": {
+      "title": "Mockup analysis",
+      "description": "In-depth study of mockups to identify components, interactions and technical points of attention."
+    },
+    "technical-architecture": {
+      "title": "Technical architecture",
+      "description": "Definition of frontend architecture and selection of technologies suited to the project."
+    },
+    "component-development": {
+      "title": "Component development",
+      "description": "Creation of reusable components following design system principles."
+    },
+    "responsive-integration": {
+      "title": "Responsive integration",
+      "description": "Design adaptation for all screen formats with particular attention to mobile experience."
+    },
+    "optimization": {
+      "title": "Optimization",
+      "description": "Performance, accessibility and technical SEO optimization."
+    },
+    "testing-validation": {
+      "title": "Testing and validation",
+      "description": "Thorough testing on different browsers and devices to ensure optimal user experience."
+    }
+  },
+  "process-services": {
+    "mockup-analysis": ["Technical analysis", "Architecture"],
+    "technical-architecture": ["Architecture", "Technical consulting"],
+    "component-development": ["Frontend Development", "Integration"],
+    "responsive-integration": ["Integration", "Responsive Design"],
+    "optimization": ["Performance", "Technical SEO"],
+    "testing-validation": ["Testing", "Quality Assurance"]
+  }
+}

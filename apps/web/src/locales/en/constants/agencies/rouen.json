@@ -1,0 +1,79 @@
+{
+  "title": "Web Development in Rouen | Digital Solutions for Normandy Businesses",
+  "description": "Create your website or mobile application in Rouen. Custom digital solutions for Normandy businesses, tailored to the local challenges of your sector.",
+  "hero": {
+    "title": "Web & Mobile Development in Rouen",
+    "description": "We help businesses in Rouen and Normandy digitalize with custom web solutions, perfectly adapted to the specific challenges of the Normandy market."
+  },
+  "intro": "The Normandy economic fabric presents specific digital challenges that we have learned to master. Between manufacturing industry, agri-food sector and river logistics, we create digital solutions that meet the precise needs of Rouen businesses.",
+  "expertise": "Our team designs websites, applications and e-commerce solutions perfectly adapted to businesses in Rouen and its region. We understand the challenges of your market and offer digital solutions that help you stand out and grow your business.",
+  "why-choose-us": "Our in-depth knowledge of the Normandy market allows us to develop digital solutions perfectly adapted to the specific challenges of local businesses. Unlike Parisian agencies, we understand the subtleties of Rouen's economic fabric and provide custom solutions at an advantageous value for money.",
+  "key-business-sectors": {
+    "industry": "Industry",
+    "agrifood": "Agri-food",
+    "logistics": "Logistics",
+    "local-commerce": "Local Commerce"
+  },
+  "local-challenges": {
+    "traditional-industries-digitalization": "Digitalization of traditional Normandy industries facing international competition",
+    "logistics-optimization": "Optimization of river and port logistics through innovative digital solutions",
+    "local-ecommerce-needs": "Need for e-commerce solutions adapted to local producers and artisans",
+    "sme-digital-transition": "Digital transition of Normandy SMEs with controlled budgets"
+  },
+  "benefits": {
+    "normandy-specific-solutions": "Custom solutions adapted to the specificities of Normandy businesses",
+    "industrial-agrifood-expertise": "Sharp expertise in regional industrial and agri-food sectors",
+    "competitive-pricing": "Competitive pricing compared to Parisian agencies",
+    "seine-logistics-knowledge": "In-depth knowledge of logistics challenges related to the Seine axis",
+    "personalized-support": "Personalized support throughout your digital project"
+  },
+  "primary-stat": {
+    "label": "industrial sector"
+  },
+  "strengths": {
+    "industrial-websites": {
+      "title": "Industrial Websites",
+      "description": "High-performance sites adapted to Normandy manufacturing companies."
+    },
+    "local-ecommerce": {
+      "title": "Local E-commerce",
+      "description": "Online sales solutions for local producers and artisans."
+    },
+    "business-applications": {
+      "title": "Business Applications",
+      "description": "Custom digital tools to optimize your processes."
+    },
+    "sme-digitalization": {
+      "title": "SME Digitalization",
+      "description": "Complete support for your digital transformation."
+    }
+  },
+  "focused-services": {
+    "professional-websites": {
+      "name": "Professional Websites",
+      "description": "High-performance digital showcases optimized for local SEO in Rouen."
+    },
+    "regional-ecommerce": {
+      "name": "Regional E-commerce",
+      "description": "Online stores adapted to Normandy producers and merchants."
+    },
+    "business-applications": {
+      "name": "Business Applications",
+      "description": "Custom software for regional industry and logistics."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Years of experience"
+    },
+    "satisfaction": {
+      "label": "Satisfaction",
+      "description": "Satisfied clients"
+    },
+    "average-time": {
+      "label": "Average Time",
+      "description": "Weeks of completion"
+    }
+  }
+}

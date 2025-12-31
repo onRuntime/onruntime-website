@@ -1,0 +1,81 @@
+{
+  "short-description": "Complete platform for student expatriation support, integrating housing, visa, transport, and local support.",
+  "description": "Development of a full-stack platform enabling French students to manage their expatriation from A to Z with integrated services and a network of local ambassadors.",
+  "long-description": "Expat Facilities was a revolutionary French startup that simplified expatriation for students. Our team developed a complete platform from scratch, evolving from a simple landing page to a sophisticated solution combining Airbnb-like features with an expatriation services ecosystem.\n\nThe platform integrated multiple partner APIs to offer a unified experience: housing search via partners like Spotahome, flight bookings with Lufthansa, specialized insurance, and a unique system of local ambassadors present in over 70 countries.\n\nThe main technical challenge was orchestrating dozens of third-party APIs to create a smooth and coherent user experience, while managing the complexities of international payments and matching between students and local ambassadors.",
+  "features": {
+    "housing-platform": {
+      "title": "Integrated housing platform",
+      "description": "Search and book student housing via partner API integrations like Spotahome"
+    },
+    "ambassador-network": {
+      "title": "Local ambassador network",
+      "description": "Over 300 student ambassadors in 70 countries to support newcomers on-site"
+    },
+    "visa-services": {
+      "title": "Visa and administrative services",
+      "description": "Complete visa process management and personalized administrative support"
+    },
+    "transport-logistics": {
+      "title": "Transport and logistics",
+      "description": "Flight bookings (Lufthansa partnership), trains, and local transport with preferential rates"
+    },
+    "expat-insurance": {
+      "title": "Expatriation insurance",
+      "description": "Specialized insurance for temporary expatriation in partnership with Mondial Assistance and Allianz"
+    },
+    "advanced-tracking": {
+      "title": "Advanced tracking",
+      "description": "Real-time tracking of all processes with notifications and dashboard interface"
+    }
+  },
+  "technologies": {
+    "nextjs": { "description": "React framework for frontend" },
+    "nestjs": { "description": "Robust and modular API backend" },
+    "mongodb": { "description": "Main database" },
+    "graphql": { "description": "Unified API for data" },
+    "google-cloud": { "description": "Cloud infrastructure and services" },
+    "stripe": { "description": "International payments" },
+    "typescript": { "description": "Type-safe development" },
+    "styled-components": { "description": "Styling and theming" }
+  },
+  "metrics": {
+    "countries": { "value": "70+", "label": "Countries covered", "description": "Available expatriation destinations" },
+    "ambassadors": { "value": "300+", "label": "Ambassadors", "description": "Student ambassadors worldwide" },
+    "users": { "value": "2000+", "label": "Users", "description": "Student platform users" }
+  },
+  "screenshots": {
+    "redesign": { "caption": "Platform redesign" },
+    "testimonials": { "caption": "Testimonials and partners" },
+    "flyer-bank": { "caption": "Flyer for partner banks" },
+    "about-team": { "caption": "About the team and call to Action" },
+    "housing-hero": { "caption": "Housing section with integrated search" },
+    "housing-cta": { "caption": "Call to Action for housing section" },
+    "services-hero": { "caption": "Services section with offer presentation" },
+    "insurance-hero": { "caption": "Insurance section with offer explanation" },
+    "insurance-plans": { "caption": "Detailed insurance plans" },
+    "insurance-benefits": { "caption": "Insurance benefits offered" },
+    "contact-success": { "caption": "Contact form with success" }
+  },
+  "challenges": {
+    "third-party-api-integration": "Integrating dozens of third-party APIs (Spotahome, Lufthansa, insurance) into a unified experience",
+    "international-payments": "Managing international payments with Stripe in multiple currencies and regulations",
+    "student-ambassador-matching": "Developing a student/ambassador matching system based on geolocation",
+    "scalable-architecture": "Scalable architecture to support rapid growth (70 countries, 300+ ambassadors)",
+    "real-time-availability": "Real-time synchronization of housing availability between partner platforms",
+    "multilingual-interface": "Multilingual interface and adaptation to local specificities of each country"
+  },
+  "learnings": {
+    "api-orchestration-complexity": "Complexity of orchestrating third-party APIs with different formats and limitations",
+    "multi-partner-error-handling": "Crucial importance of error handling in a multi-partner ecosystem",
+    "internationalization-challenges": "Internationalization challenges beyond translation (currencies, regulations, cultures)",
+    "microservices-architecture": "Essential microservices architecture to isolate partner integrations",
+    "complex-ux-simplification": "Critical UX/UI to transform a complex process into a smooth experience",
+    "partner-relations": "Managing partner relations and technical negotiations for integrations"
+  },
+  "future-plans": {
+    "other-expat-types": "Expansion to other types of expatriation (professionals, retirees)",
+    "ai-matching": "AI to optimize student/ambassador matching",
+    "ambassador-mobile-app": "Native mobile app for ambassadors",
+    "ambassador-training": "Training platform for ambassadors"
+  }
+}

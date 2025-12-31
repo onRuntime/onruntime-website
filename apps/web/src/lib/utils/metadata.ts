@@ -1,18 +1,17 @@
-import { Metadata } from "next";
+import { locales } from "@/lib/translations";
+import { siteConfig } from "@/constants/site-config";
 
-export const siteConfig = {
-  name: "onRuntime Studio",
-  description: "Agence digitale spécialisée en développement web, mobile et design UI/UX. Notre équipe d'experts transforme vos idées en solutions digitales performantes.",
-  url: process.env.NEXT_PUBLIC_APP_URL || "https://onruntime.com",
-  ogImage: "/og.jpg", 
-  links: {
-    discord: "https://discord.gg/ucX9c5yXmX",
-    instagram: "https://www.instagram.com/onruntime/",
-    linkedin: "https://www.linkedin.com/company/onruntime",
-    github: "https://github.com/onruntime",
-    twitter: "https://twitter.com/onruntime",
-  },
-};
+/**
+ * Convert locale code to OpenGraph locale format
+ * e.g., "fr" → "fr_FR", "en" → "en_US"
+ */
+export function toOgLocale(locale: string): string {
+  const countryOverrides: Record<string, string> = {
+    en: "US", // English defaults to US
+  };
+  const country = countryOverrides[locale] || locale.toUpperCase();
+  return `${locale}_${country}`;
+}
 
 export type OGImageType = 'default' | 'project' | 'service' | 'blog' | 'team' | 'legal';
 
@@ -26,7 +25,7 @@ export function getOGImageUrl({
   type?: OGImageType;
 }): string {
   const params = new URLSearchParams();
-  
+
   params.append('title', title);
   params.append('description', description);
   params.append('type', type);
@@ -34,93 +33,11 @@ export function getOGImageUrl({
   return `${siteConfig.url}/api/og?${params.toString()}`;
 }
 
-export function constructMetadata({
-  title = siteConfig.name,
-  description = siteConfig.description,
-  ogType = "website",
-  ogImage,
-  ogImageType = "default",
-  noIndex = false,
-  canonical,
-}: {
-  title?: string;
-  description?: string;
-  ogType?: "website" | "article";
-  ogImage?: string;
-  ogImageType?: OGImageType;
-  noIndex?: boolean;
-  canonical?: string;
-} = {}): Metadata {
-  // Titre avec format cohérent
-  const formattedTitle = title === siteConfig.name 
-    ? title 
-    : `${title} | ${siteConfig.name}`;
-
-  const finalOgImage = ogImage || getOGImageUrl({
-    title,
-    description,
-    type: ogImageType,
-  });
-  
-  return {
-    title: formattedTitle,
-    description,
-    
-    metadataBase: new URL(siteConfig.url),
-    
-    ...(canonical && { 
-      alternates: { 
-        canonical 
-      }
-    }),
-    
-    authors: [{ name: "onRuntime Studio", url: siteConfig.url }],
-    creator: "onRuntime Studio",
-    publisher: "onRuntime Studio",
-    
-    openGraph: {
-      type: ogType,
-      locale: "fr_FR",
-      url: canonical || siteConfig.url,
-      title: formattedTitle,
-      description,
-      siteName: siteConfig.name,
-      images: [
-        {
-          url: finalOgImage,
-          width: 1200,
-          height: 630,
-          alt: title,
-        },
-      ],
-    },
-    
-    twitter: {
-      card: "summary_large_image",
-      title: formattedTitle,
-      description,
-      images: [finalOgImage],
-      creator: "@onruntime",
-      site: "@onruntime",
-    },
-    
-    icons: {
-      icon: [
-        { url: "/favicon.ico" },
-      ],
-      shortcut: "/favicon-16x16.png",
-      apple: [
-        { url: "/apple-touch-icon.png" },
-      ],
-    },
-    
-    manifest: "/site.webmanifest",
-    
-    ...(noIndex && {
-      robots: {
-        index: false,
-        follow: false,
-      },
-    }),
-  };
+/**
+ * Get the path without locale prefix
+ */
+export function getPathWithoutLocale(pathname: string): string {
+  const segments = pathname.split("/").filter(Boolean);
+  const hasLocalePrefix = locales.includes(segments[0]);
+  return hasLocalePrefix ? `/${segments.slice(1).join("/")}` : pathname;
 }

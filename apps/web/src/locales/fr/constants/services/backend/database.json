@@ -1,0 +1,80 @@
+{
+  "name": "Bases de données",
+  "description": "Architecture et optimisation de bases de données",
+  "hero": {
+    "title": "Architecture de Bases de Données",
+    "description": "Concevez et optimisez vos bases de données pour des performances optimales et une scalabilité maximale. Notre expertise vous garantit une architecture robuste qui répond à vos besoins actuels et futurs."
+  },
+  "features": {
+    "optimized-architecture": {
+      "title": "Architecture optimisée",
+      "description": "Conception intelligente des schémas et des relations pour des performances optimales."
+    },
+    "enhanced-security": {
+      "title": "Sécurité renforcée",
+      "description": "Protection robuste des données sensibles et conformité aux normes."
+    },
+    "high-performance": {
+      "title": "Haute performance",
+      "description": "Optimisation des requêtes et des index pour des temps de réponse minimaux."
+    },
+    "backup-recovery": {
+      "title": "Backup & Recovery",
+      "description": "Stratégies de sauvegarde et de restauration fiables."
+    }
+  },
+  "benefits": {
+    "horizontal-scalability": {
+      "title": "Scalabilité horizontale",
+      "description": "Architecture conçue pour la croissance et la montée en charge."
+    },
+    "replication": {
+      "title": "Réplication",
+      "description": "Haute disponibilité et répartition géographique des données."
+    },
+    "advanced-monitoring": {
+      "title": "Monitoring avancé",
+      "description": "Suivi en temps réel des performances et de la santé."
+    },
+    "optimized-search": {
+      "title": "Recherche optimisée",
+      "description": "Indexation intelligente pour des recherches rapides."
+    }
+  },
+  "faq": {
+    "sql-vs-nosql": {
+      "question": "Comment choisir entre SQL et NoSQL ?",
+      "answer": "Le choix dépend de vos besoins spécifiques. Les bases SQL sont idéales pour les données structurées avec des relations complexes, tandis que NoSQL excelle dans la gestion de données non structurées et la scalabilité horizontale. Nous vous guidons vers la meilleure solution selon vos cas d'usage."
+    },
+    "data-security": {
+      "question": "Comment gérez-vous la sécurité des données ?",
+      "answer": "Nous implémentons plusieurs niveaux de sécurité : chiffrement des données sensibles, contrôle d'accès granulaire, audit des accès, backups réguliers, et conformité aux normes de sécurité (RGPD, etc.). Nous effectuons également des tests de sécurité réguliers."
+    },
+    "performance-optimization": {
+      "question": "Comment optimisez-vous les performances ?",
+      "answer": "Nous utilisons plusieurs techniques : optimisation des schémas et des requêtes, indexation intelligente, mise en cache, partitionnement des données, et monitoring continu. Nous analysons régulièrement les performances pour identifier les opportunités d'optimisation."
+    },
+    "migration-services": {
+      "question": "Proposez-vous des services de migration ?",
+      "answer": "Oui, nous gérons les migrations de bases de données de bout en bout : analyse de l'existant, planification, tests, migration des données avec minimum d'interruption, et validation post-migration. Nous assurons la cohérence et l'intégrité des données."
+    },
+    "data-availability": {
+      "question": "Comment assurez-vous la disponibilité des données ?",
+      "answer": "Nous mettons en place des architectures hautement disponibles avec réplication, clustering, et plans de reprise d'activité. Nous effectuons des sauvegardes régulières et testons les procédures de restauration."
+    }
+  },
+  "complementary": {
+    "data-migration": {
+      "title": "Migration de données",
+      "description": "Transfer sécurisé depuis vos systèmes existants."
+    },
+    "audit-optimization": {
+      "title": "Audit & Optimisation",
+      "description": "Analyse des performances et recommandations."
+    },
+    "monitoring-24-7": {
+      "title": "Monitoring 24/7",
+      "description": "Surveillance continue et alertes en temps réel."
+    }
+  }
+}

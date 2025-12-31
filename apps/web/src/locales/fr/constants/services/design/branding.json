@@ -1,0 +1,80 @@
+{
+  "name": "Charte graphique",
+  "description": "Création de votre identité visuelle complète",
+  "hero": {
+    "title": "Branding & Identité de Marque",
+    "description": "Donnez vie à votre marque avec une identité visuelle distinctive et mémorable. Notre expertise en branding vous aide à créer une image de marque qui résonne avec votre audience et reflète vos valeurs."
+  },
+  "features": {
+    "visual-identity": {
+      "title": "Identité visuelle",
+      "description": "Création d'une identité unique et mémorable."
+    },
+    "brand-values": {
+      "title": "Valeurs de marque",
+      "description": "Expression visuelle de votre ADN et vos valeurs."
+    },
+    "brand-guidelines": {
+      "title": "Charte graphique",
+      "description": "Documentation complète de votre identité."
+    },
+    "design-system": {
+      "title": "Design system",
+      "description": "Éléments visuels cohérents et réutilisables."
+    }
+  },
+  "benefits": {
+    "recognition": {
+      "title": "Reconnaissance",
+      "description": "Image de marque mémorable et distinctive."
+    },
+    "consistency": {
+      "title": "Cohérence",
+      "description": "Communication visuelle unifiée sur tous les supports."
+    },
+    "trust": {
+      "title": "Confiance",
+      "description": "Crédibilité renforcée auprès de votre audience."
+    },
+    "reach": {
+      "title": "Portée",
+      "description": "Impact visuel fort sur tous les canaux."
+    }
+  },
+  "faq": {
+    "complete-identity": {
+      "question": "Que comprend une identité de marque complète ?",
+      "answer": "Une identité de marque complète inclut le logo, la palette de couleurs, la typographie, les éléments graphiques, le ton de voix, et les règles d'utilisation. Nous fournissons une charte graphique détaillée qui documente tous ces éléments et guide leur utilisation cohérente."
+    },
+    "creation-process": {
+      "question": "Comment se déroule le processus de création ?",
+      "answer": "Le processus commence par une phase de découverte pour comprendre votre marque, vos valeurs et votre audience. Nous développons ensuite des concepts créatifs, créons les éléments visuels, et itérons selon vos retours. Le processus se termine par la livraison d'une charte graphique complète."
+    },
+    "deliverables": {
+      "question": "Quels livrables sont fournis ?",
+      "answer": "Vous recevez un package complet incluant : logos (différentes versions), palette de couleurs, typographies, éléments graphiques, modèles de documents, guides d'utilisation, et fichiers sources dans tous les formats nécessaires."
+    },
+    "uniqueness": {
+      "question": "Comment garantissez-vous l'unicité de l'identité ?",
+      "answer": "Nous effectuons une recherche approfondie de votre marché et de la concurrence pour créer une identité distinctive. Nous vérifions également la disponibilité des éléments visuels pour éviter tout conflit avec des marques existantes."
+    },
+    "transition": {
+      "question": "Comment gérez-vous la transition vers la nouvelle identité ?",
+      "answer": "Nous fournissons un plan de déploiement progressif qui guide la transition vers la nouvelle identité. Cela inclut des recommandations pour la communication interne et externe, et un calendrier de mise en œuvre."
+    }
+  },
+  "complementary": {
+    "marketing-kit": {
+      "title": "Marketing Kit",
+      "description": "Création de supports marketing cohérents."
+    },
+    "social-media": {
+      "title": "Réseaux sociaux",
+      "description": "Adaptation pour les médias sociaux."
+    },
+    "print-materials": {
+      "title": "Supports print",
+      "description": "Création de supports imprimés."
+    }
+  }
+}

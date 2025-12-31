@@ -1,0 +1,79 @@
+{
+  "title": "Web Development in Marseille | Digital Solutions for Provençal Businesses",
+  "description": "Create your website or mobile application in Marseille. Custom digital solutions for Provençal businesses, tailored to the local challenges of your sector.",
+  "hero": {
+    "title": "Web & Mobile Development in Marseille",
+    "description": "We help businesses in Marseille and the PACA region digitalize with custom web solutions, perfectly adapted to the specific challenges of the Mediterranean market."
+  },
+  "intro": "Between sea and hills, Marseille is a dynamic economic crossroads where tradition and innovation meet. Our digital expertise enables Marseille businesses to stand out in a competitive and constantly evolving Mediterranean market.",
+  "expertise": "Our team designs websites, applications and e-commerce solutions perfectly adapted to Marseille businesses. We understand the challenges of your local market and offer digital solutions that enhance your Provençal identity while reaching an international clientele.",
+  "why-choose-us": "Our in-depth knowledge of the Provençal market allows us to develop digital solutions perfectly adapted to the specific challenges of local businesses. We understand the cultural and economic richness of Marseille and integrate it into each project to create authentic and high-performing digital experiences.",
+  "key-business-sectors": {
+    "tourism": "Tourism",
+    "maritime": "Maritime",
+    "local-commerce": "Local Commerce",
+    "restaurant": "Restaurant"
+  },
+  "local-challenges": {
+    "tourism-competition": "Strong competition in the Mediterranean tourism sector requiring a distinctive digital presence",
+    "maritime-solutions": "Need for digital solutions adapted to maritime and port commerce",
+    "local-commerce-digitalization": "Digitalization of local shops facing large chains",
+    "local-ecommerce": "Need for e-commerce solutions adapted to showcase crafts and local products"
+  },
+  "benefits": {
+    "custom-solutions": "Custom solutions adapted to the specificities of Provençal businesses",
+    "tourism-maritime-expertise": "Sharp expertise in tourism and maritime sectors",
+    "international-ui": "User interface optimized for international clientele",
+    "mediterranean-knowledge": "In-depth knowledge of Mediterranean economic challenges",
+    "personalized-support": "Personalized support throughout your digital project"
+  },
+  "primary-stat": {
+    "label": "tourism sector"
+  },
+  "strengths": {
+    "tourism-experience": {
+      "title": "Tourism Experience",
+      "description": "Sites and applications optimized for the Mediterranean tourism sector."
+    },
+    "local-ecommerce": {
+      "title": "Local E-commerce",
+      "description": "Online sales solutions for Provençal artisans and merchants."
+    },
+    "maritime-sector": {
+      "title": "Maritime Sector",
+      "description": "Digitalization adapted to port and nautical activities."
+    },
+    "mediterranean-design": {
+      "title": "Mediterranean Design",
+      "description": "Modern interfaces reflecting Mediterranean visual identity."
+    }
+  },
+  "focused-services": {
+    "tourism-websites": {
+      "name": "Tourism Websites",
+      "description": "Multilingual digital showcases for hotels, restaurants and tourist activities."
+    },
+    "provencal-ecommerce": {
+      "name": "Provençal E-commerce",
+      "description": "Online stores adapted to local producers and artisans."
+    },
+    "mobile-applications": {
+      "name": "Mobile Applications",
+      "description": "Mobile solutions to enrich the tourism and commercial experience."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Years of experience"
+    },
+    "satisfaction": {
+      "label": "Satisfaction",
+      "description": "Satisfied clients"
+    },
+    "average-time": {
+      "label": "Average Time",
+      "description": "Weeks of completion"
+    }
+  }
+}

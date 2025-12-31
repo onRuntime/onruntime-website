@@ -1,17 +1,87 @@
 "use client";
 
+import { Link } from "@onruntime/translations/next";
+import type React from "react";
+import { useState, useRef, useEffect } from "react";
+import { ChevronDown, Menu } from "lucide-react";
+
+import { useTranslation } from "@onruntime/translations/react";
+
 import { Button } from "@/components/ui/button";
 import Routes from "@/constants/routes";
 import Services from "@/constants/services";
 import Projects from "@/constants/projects";
 import { getMajorAgencies } from "@/constants/agencies";
 import { OnRuntimeWordMark } from "@/logos/components";
-import Link from "next/link";
-import type React from "react";
-import { useState, useRef, useEffect } from "react";
-import Navigation from "./navigation";
-import { ChevronDown, Menu } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { ServiceCategoryData, SubService } from "@/types/service";
+
+import Navigation from "./navigation";
+
+// Mobile menu components for projects
+const MobileProjectLink: React.FC<{
+	project: { id: string; name: string };
+	onClose: () => void;
+}> = ({ project, onClose }) => {
+	return (
+		<Link
+			href={Routes.project(project.id)}
+			className="block text-sm font-medium"
+			onClick={onClose}
+		>
+			{project.name}
+		</Link>
+	);
+};
+
+// Mobile menu components for services
+const MobileSubServiceLink: React.FC<{
+	categoryId: string;
+	subService: SubService;
+	onClose: () => void;
+}> = ({ categoryId, subService, onClose }) => {
+	const { t } = useTranslation(`constants/services/${categoryId}/${subService.id}`);
+
+	return (
+		<Link
+			href={subService.route}
+			className="block text-xs text-muted-foreground hover:text-foreground"
+			onClick={onClose}
+		>
+			{t("name")}
+		</Link>
+	);
+};
+
+const MobileServiceCategory: React.FC<{
+	service: ServiceCategoryData;
+	onClose: () => void;
+}> = ({ service, onClose }) => {
+	const { t } = useTranslation(`constants/services/${service.id}`);
+
+	return (
+		<div className="space-y-2 pb-3">
+			<Link
+				href={Routes.service[service.id].root}
+				className="block text-sm font-medium"
+				onClick={onClose}
+			>
+				{t("name")}
+			</Link>
+
+			<div className="pl-3 space-y-2">
+				{service.subServices.map((subService) => (
+					<MobileSubServiceLink
+						key={subService.id}
+						categoryId={service.id}
+						subService={subService}
+						onClose={onClose}
+					/>
+				))}
+			</div>
+		</div>
+	);
+};
 
 interface SubNavItem {
 	title: string;
@@ -24,13 +94,26 @@ interface DropdownItem {
 	items?: SubNavItem[];
 }
 
-interface NavItem {
-	title: string;
-	path: string;
-	dropdown?: DropdownItem[];
+enum NavItemType {
+	Link = "link",
+	Services = "services",
+	Projects = "projects",
+	Dropdown = "dropdown",
 }
 
+interface BaseNavItem {
+	title: string;
+	path: string;
+}
+
+type NavItem =
+	| (BaseNavItem & { type: NavItemType.Link })
+	| (BaseNavItem & { type: NavItemType.Services })
+	| (BaseNavItem & { type: NavItemType.Projects })
+	| (BaseNavItem & { type: NavItemType.Dropdown; dropdown: DropdownItem[] });
+
 const Navbar: React.FC = () => {
+	const { t } = useTranslation("layout/navbar");
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 	const [expandedSection, setExpandedSection] = useState<string | null>(null);
 
@@ -42,41 +125,33 @@ const Navbar: React.FC = () => {
 
 	const navItems: NavItem[] = [
 		{
-			title: "Nos services",
+			type: NavItemType.Services,
+			title: t("links.services"),
 			path: Routes.services,
-			dropdown: Services.map((service) => ({
-				title: service.name,
-				path: Routes.service[service.id].root,
-				items: service.subServices.map((subService) => ({
-					title: subService.name,
-					path: subService.route,
-				})),
-			})),
 		},
 		{
-			title: "Nos projets",
-			path: Routes.unknown,
-			dropdown: Projects.slice(0, 5).map((project) => ({
-				title: project.name,
-				path: Routes.project(project.id),
-			})),
+			type: NavItemType.Projects,
+			title: t("links.projects"),
+			path: Routes.projects,
 		},
 		{
-			title: "Nos agences",
+			type: NavItemType.Dropdown,
+			title: t("links.agencies"),
 			path: Routes.agency.root,
 			dropdown: [
 				{
-					title: "Toutes nos agences",
+					title: t("agencies.all"),
 					path: Routes.agency.root,
 				},
 				...majorAgencies.map((agency) => ({
-					title: `Agence ${agency.name}`,
+					title: t("agencies.agency", { name: agency.name }),
 					path: Routes.agency.city(agency.id),
 				})),
 			],
 		},
 		{
-			title: "L'association",
+			type: NavItemType.Link,
+			title: t("links.npo"),
 			path: Routes.npo,
 		},
 	];
@@ -137,9 +212,9 @@ const Navbar: React.FC = () => {
 					<Navigation />
 
 					<div className="flex gap-2">
-						<Link href={Routes.contact} aria-label="Nous contacter" passHref>
+						<Link href={Routes.contact} aria-label={t("links.contact")} passHref>
 							<Button className="hidden md:inline-flex" variant="outline">
-								Nous contacter
+								{t("links.contact")}
 							</Button>
 						</Link>
 
@@ -160,7 +235,63 @@ const Navbar: React.FC = () => {
 					<div className="px-3 flex flex-col space-y-4 md:hidden max-h-[calc(100vh-100px)] overflow-y-auto pb-4">
 						{navItems.map((item) => (
 							<div key={item.title} className="border-t border-border pt-3">
-								{item.dropdown ? (
+								{item.type === NavItemType.Services ? (
+									<div className="space-y-3">
+										<button
+											onClick={() => toggleSection(item.title)}
+											className="flex w-full justify-between items-center text-base font-medium"
+											aria-expanded={expandedSection === item.title}
+										>
+											{item.title}
+											<ChevronDown
+												className={cn(
+													"h-4 w-4 transition-transform",
+													expandedSection === item.title ? "rotate-180" : "",
+												)}
+											/>
+										</button>
+
+										{expandedSection === item.title && (
+											<div className="pl-4 space-y-4 pt-2 overflow-y-auto">
+												{Services.map((service) => (
+													<MobileServiceCategory
+														key={service.id}
+														service={service}
+														onClose={closeMenu}
+													/>
+												))}
+											</div>
+										)}
+									</div>
+								) : item.type === NavItemType.Projects ? (
+									<div className="space-y-3">
+										<button
+											onClick={() => toggleSection(item.title)}
+											className="flex w-full justify-between items-center text-base font-medium"
+											aria-expanded={expandedSection === item.title}
+										>
+											{item.title}
+											<ChevronDown
+												className={cn(
+													"h-4 w-4 transition-transform",
+													expandedSection === item.title ? "rotate-180" : "",
+												)}
+											/>
+										</button>
+
+										{expandedSection === item.title && (
+											<div className="pl-4 space-y-4 pt-2 overflow-y-auto">
+												{Projects.slice(0, 5).map((project) => (
+													<MobileProjectLink
+														key={project.id}
+														project={project}
+														onClose={closeMenu}
+													/>
+												))}
+											</div>
+										)}
+									</div>
+								) : item.type === NavItemType.Dropdown ? (
 									<div className="space-y-3">
 										<button
 											onClick={() => toggleSection(item.title)}
@@ -224,7 +355,7 @@ const Navbar: React.FC = () => {
 							className="block pt-4 pb-2"
 							onClick={closeMenu}
 						>
-							<Button className="w-full">Nous contacter</Button>
+							<Button className="w-full">{t("links.contact")}</Button>
 						</Link>
 					</div>
 				)}

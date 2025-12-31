@@ -1,0 +1,71 @@
+{
+  "tags": {
+    "featured": "Featured",
+    "open-source": "Open Source",
+    "customer": "Client project"
+  },
+  "buttons": {
+    "view-project": "View project",
+    "source-code": "Source code"
+  },
+  "info": {
+    "start-date": "Start date",
+    "status": "Status",
+    "statuses": {
+      "active": "Active",
+      "completed": "Completed",
+      "archived": "Archived"
+    },
+    "team": "Team",
+    "members": "members"
+  },
+  "sections": {
+    "about": "About the project",
+    "metrics": "Impact and metrics",
+    "features": "Key features",
+    "technologies": "Technologies used",
+    "gallery": "Gallery",
+    "team": "The team",
+    "challenges": "Challenges encountered",
+    "learnings": "Key learnings",
+    "future": "Future perspectives"
+  },
+  "cta": {
+    "title": "Interested in this project?",
+    "description": "Discover how we can help you create a similar project.",
+    "button": "Discuss your project"
+  },
+  "tonightpass": {
+    "hero": {
+      "title": "The ticketing that simplifies your events",
+      "subtitle": "From creation to entry, manage everything in 5 minutes",
+      "description": "Complete ticketing solution for event organizers. Create your events, sell your tickets and manage access with professional tools and dedicated support.",
+      "buttons": {
+        "create": "Create my event",
+        "discover": "Discover the solution"
+      },
+      "stats": {
+        "setup": {
+          "value": "5min",
+          "label": "Setup"
+        },
+        "cost": {
+          "value": "$0",
+          "label": "Installation"
+        },
+        "support": {
+          "value": "24/7",
+          "label": "Support"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to simplify your ticketing?",
+      "description": "Simplify your event management with a complete and intuitive solution",
+      "buttons": {
+        "start": "Start now",
+        "features": "See all features"
+      }
+    }
+  }
+}

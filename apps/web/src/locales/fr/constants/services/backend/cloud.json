@@ -1,0 +1,80 @@
+{
+  "name": "Solutions Cloud",
+  "description": "Déploiement et gestion d'infrastructures cloud",
+  "hero": {
+    "title": "Solutions Cloud",
+    "description": "Optimisez votre infrastructure avec des solutions cloud modernes et évolutives. Notre expertise vous garantit un déploiement sécurisé et performant sur les principales plateformes cloud."
+  },
+  "features": {
+    "multi-cloud": {
+      "title": "Multi-cloud",
+      "description": "Support des principales plateformes (AWS, GCP, Azure)."
+    },
+    "advanced-security": {
+      "title": "Sécurité avancée",
+      "description": "Protection robuste de vos données et applications."
+    },
+    "optimal-performance": {
+      "title": "Performance optimale",
+      "description": "Architecture optimisée pour des performances maximales."
+    },
+    "automatic-scalability": {
+      "title": "Scalabilité automatique",
+      "description": "Adaptation dynamique aux besoins de charge."
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "Haute disponibilité",
+      "description": "Infrastructure redondante et résiliente."
+    },
+    "elastic-storage": {
+      "title": "Stockage élastique",
+      "description": "Gestion flexible et sécurisée des données."
+    },
+    "advanced-monitoring": {
+      "title": "Monitoring avancé",
+      "description": "Surveillance en temps réel de votre infrastructure."
+    },
+    "enhanced-security": {
+      "title": "Sécurité renforcée",
+      "description": "Protection multicouche de vos ressources."
+    }
+  },
+  "faq": {
+    "platform-choice": {
+      "question": "Quelle plateforme cloud choisir ?",
+      "answer": "Le choix dépend de vos besoins spécifiques : AWS excelle en variété de services, Google Cloud en machine learning, et Azure en intégration Microsoft. Nous vous guidons vers la meilleure solution en fonction de vos objectifs, contraintes techniques et budget."
+    },
+    "cloud-security": {
+      "question": "Comment gérez-vous la sécurité dans le cloud ?",
+      "answer": "Nous implémentons une sécurité multicouche : chiffrement des données au repos et en transit, contrôle d'accès IAM, réseaux privés virtuels (VPC), pare-feu applicatifs (WAF), et surveillance continue des menaces. Nous suivons les meilleures pratiques de chaque plateforme."
+    },
+    "cost-optimization": {
+      "question": "Comment optimisez-vous les coûts ?",
+      "answer": "Nous utilisons plusieurs stratégies : instances réservées, scaling automatique, optimisation des ressources, suppression des ressources inutilisées, et monitoring des coûts. Nous effectuons des audits réguliers pour identifier les opportunités d'économies."
+    },
+    "high-availability": {
+      "question": "Comment assurez-vous la haute disponibilité ?",
+      "answer": "Nous déployons votre infrastructure sur plusieurs zones de disponibilité, avec réplication des données, load balancing, et failover automatique. Nous mettons également en place des plans de reprise d'activité (DRP) robustes."
+    },
+    "support-24-7": {
+      "question": "Proposez-vous un support 24/7 ?",
+      "answer": "Oui, nous proposons plusieurs niveaux de support incluant : monitoring 24/7, alerting automatique, intervention rapide en cas d'incident, maintenance préventive, et support technique dédié."
+    }
+  },
+  "complementary": {
+    "cloud-migration": {
+      "title": "Migration cloud",
+      "description": "Transition en douceur vers le cloud."
+    },
+    "multi-region": {
+      "title": "Multi-région",
+      "description": "Déploiement global de vos applications."
+    },
+    "devops": {
+      "title": "DevOps",
+      "description": "Automatisation et CI/CD dans le cloud."
+    }
+  }
+}

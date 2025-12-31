@@ -1,0 +1,19 @@
+{
+  "title": "Make a donation",
+  "description": "Support our organization and projects by making a one-time donation. Your contribution helps us fund our activities, events, and development tools.",
+  "other": "Other",
+  "custom-amount": {
+    "label": "Custom amount",
+    "placeholder": "Enter an amount"
+  },
+  "button": {
+    "donate": "Donate",
+    "processing": "Processing..."
+  },
+  "secure-payment": "Secure payment by Stripe",
+  "toast": {
+    "title": "Payment simulated",
+    "description-prefix": "Your donation of",
+    "description-suffix": "has been processed successfully. In a real implementation, you would be redirected to Stripe."
+  }
+}

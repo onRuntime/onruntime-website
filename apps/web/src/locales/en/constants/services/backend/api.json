@@ -1,0 +1,80 @@
+{
+  "name": "RESTful APIs",
+  "description": "Design and development of high-performance APIs",
+  "hero": {
+    "title": "RESTful & GraphQL APIs",
+    "description": "Develop modern, secure and high-performance APIs for your applications. Our expertise guarantees robust and scalable interfaces that meet your specific needs."
+  },
+  "features": {
+    "rest-graphql": {
+      "title": "REST & GraphQL",
+      "description": "Development of modern APIs with industry standards."
+    },
+    "advanced-security": {
+      "title": "Advanced security",
+      "description": "Robust protection against vulnerabilities and attacks."
+    },
+    "optimal-performance": {
+      "title": "Optimal performance",
+      "description": "Architecture optimized for minimal response times."
+    },
+    "complete-documentation": {
+      "title": "Complete documentation",
+      "description": "Clear and interactive documentation for easy integration."
+    }
+  },
+  "benefits": {
+    "high-availability": {
+      "title": "High availability",
+      "description": "Redundant infrastructure for maximum availability."
+    },
+    "scalability": {
+      "title": "Scalability",
+      "description": "Architecture designed to support growth."
+    },
+    "advanced-monitoring": {
+      "title": "Advanced monitoring",
+      "description": "Real-time tracking of performance and health."
+    },
+    "intelligent-cache": {
+      "title": "Intelligent cache",
+      "description": "Performance optimization with advanced caching."
+    }
+  },
+  "faq": {
+    "rest-vs-graphql": {
+      "question": "What is the difference between REST and GraphQL?",
+      "answer": "REST is a traditional architecture where each endpoint corresponds to a specific resource, while GraphQL allows clients to request exactly the data they need. We advise you on the best approach based on your specific needs and use cases."
+    },
+    "api-security": {
+      "question": "How do you ensure API security?",
+      "answer": "We implement multiple security layers: JWT authentication, SSL/TLS encryption, rate limiting, data validation, protection against injections and CSRF attacks. We also follow OWASP recommendations for API security."
+    },
+    "scaling": {
+      "question": "How do you handle scaling?",
+      "answer": "We design horizontally scalable APIs, with load balancing, distributed caching, and query optimization. The architecture is designed to support significant traffic growth."
+    },
+    "documentation": {
+      "question": "What documentation do you provide?",
+      "answer": "We provide comprehensive documentation: OpenAPI/Swagger technical documentation, integration guides, code examples, and test environment. Documentation is kept up to date with each API evolution."
+    },
+    "post-deployment-support": {
+      "question": "Do you offer post-deployment support?",
+      "answer": "Yes, we offer several maintenance plans including: 24/7 monitoring, technical support, continuous performance optimization, security updates and functional evolutions."
+    }
+  },
+  "complementary": {
+    "advanced-analytics": {
+      "title": "Advanced analytics",
+      "description": "Detailed analysis of usage and performance."
+    },
+    "data-migration": {
+      "title": "Data migration",
+      "description": "Migration from your existing systems."
+    },
+    "integration": {
+      "title": "Integration",
+      "description": "Support for integration with your applications."
+    }
+  }
+}

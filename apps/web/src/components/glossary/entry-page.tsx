@@ -1,19 +1,21 @@
-import React from 'react'
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ChevronLeft, Tag as TagIcon } from "lucide-react"
-import Link from "next/link"
+import { Link } from "@onruntime/translations/next"
 import { GlossaryEntry } from '@/types/glossary'
+import { getTranslation } from "@/lib/translations.server"
 
 interface GlossaryEntryPageProps {
   entry: GlossaryEntry;
   relatedEntries?: GlossaryEntry[];
 }
 
-const GlossaryEntryPage: React.FC<GlossaryEntryPageProps> = ({
+const GlossaryEntryPage = async ({
   entry,
   relatedEntries = []
-}) => {
+}: GlossaryEntryPageProps) => {
+  const { t } = await getTranslation('components/glossary');
+
   return (
     <main className="min-h-screen pt-32 pb-16">
       <div className="px-4 md:px-0 max-w-3xl mx-auto">
@@ -22,7 +24,7 @@ const GlossaryEntryPage: React.FC<GlossaryEntryPageProps> = ({
           <Link href="/glossary">
             <Button variant="ghost" className="pl-0 hover:pl-0">
               <ChevronLeft className="mr-2 h-4 w-4" />
-              Retour au glossaire
+              {t('back-to-glossary')}
             </Button>
           </Link>
         </div>
@@ -54,7 +56,7 @@ const GlossaryEntryPage: React.FC<GlossaryEntryPageProps> = ({
         {/* Related terms */}
         {relatedEntries.length > 0 && (
           <div className="mt-12 pt-8 border-t">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">Termes associés</h2>
+            <h2 className="text-2xl font-semibold text-foreground mb-4">{t('related-terms')}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {relatedEntries.map(related => (
                 <Link 

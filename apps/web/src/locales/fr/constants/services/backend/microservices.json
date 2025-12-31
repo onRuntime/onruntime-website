@@ -1,0 +1,80 @@
+{
+  "name": "Microservices",
+  "description": "Architecture et développement de microservices",
+  "hero": {
+    "title": "Architecture Microservices",
+    "description": "Transformez vos applications monolithiques en architectures microservices modernes et scalables. Notre expertise vous garantit une infrastructure flexible, résiliente et performante."
+  },
+  "features": {
+    "scalable-architecture": {
+      "title": "Architecture évolutive",
+      "description": "Conception modulaire pour une scalabilité optimale."
+    },
+    "continuous-deployment": {
+      "title": "Déploiement continu",
+      "description": "Pipeline CI/CD pour des mises à jour fluides."
+    },
+    "optimal-performance": {
+      "title": "Performance optimale",
+      "description": "Services indépendants pour une meilleure réactivité."
+    },
+    "high-availability": {
+      "title": "Haute disponibilité",
+      "description": "Architecture résiliente avec redondance."
+    }
+  },
+  "benefits": {
+    "granular-scalability": {
+      "title": "Scalabilité granulaire",
+      "description": "Mise à l'échelle indépendante de chaque service."
+    },
+    "flexible-deployment": {
+      "title": "Déploiement flexible",
+      "description": "Mises à jour sans interruption de service."
+    },
+    "fault-isolation": {
+      "title": "Isolation des pannes",
+      "description": "Résilience accrue grâce à l'isolation des services."
+    },
+    "advanced-monitoring": {
+      "title": "Monitoring avancé",
+      "description": "Surveillance détaillée de chaque composant."
+    }
+  },
+  "faq": {
+    "when-microservices": {
+      "question": "Quand adopter une architecture microservices ?",
+      "answer": "L'architecture microservices est particulièrement adaptée aux applications complexes nécessitant une grande scalabilité, une mise à l'échelle indépendante des composants, et une évolution rapide. Nous évaluons avec vous si cette architecture correspond à vos besoins spécifiques."
+    },
+    "service-communication": {
+      "question": "Comment gérez-vous la communication entre services ?",
+      "answer": "Nous implémentons des patterns de communication robustes : API Gateway, message brokers (Kafka, RabbitMQ), communication synchrone (REST, gRPC) et asynchrone. Chaque méthode est choisie selon les besoins spécifiques de performance et de fiabilité."
+    },
+    "data-consistency": {
+      "question": "Comment assurez-vous la cohérence des données ?",
+      "answer": "Nous utilisons plusieurs stratégies : Saga pattern pour les transactions distribuées, Event Sourcing pour la traçabilité, et CQRS pour la séparation des opérations de lecture et d'écriture. La cohérence éventuelle est gérée de manière appropriée."
+    },
+    "infrastructure-monitoring": {
+      "question": "Comment surveillez-vous l'infrastructure ?",
+      "answer": "Nous mettons en place un monitoring complet : métriques de performance, tracing distribué, logs centralisés, et alerting intelligent. Des dashboards personnalisés permettent de visualiser la santé de chaque service."
+    },
+    "team-training": {
+      "question": "Proposez-vous de la formation pour les équipes ?",
+      "answer": "Oui, nous proposons des formations complètes pour vos équipes : principes des microservices, bonnes pratiques de développement, monitoring et troubleshooting, et utilisation des outils DevOps."
+    }
+  },
+  "complementary": {
+    "devops-cicd": {
+      "title": "DevOps & CI/CD",
+      "description": "Automatisation complète du déploiement."
+    },
+    "monitoring-24-7": {
+      "title": "Monitoring 24/7",
+      "description": "Surveillance continue et alertes en temps réel."
+    },
+    "optimization": {
+      "title": "Optimisation",
+      "description": "Amélioration continue des performances."
+    }
+  }
+}

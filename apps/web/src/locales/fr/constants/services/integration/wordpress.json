@@ -1,0 +1,80 @@
+{
+  "name": "WordPress",
+  "description": "Développement de sites WordPress sur mesure",
+  "hero": {
+    "title": "Développement WordPress sur mesure",
+    "description": "Créez un site web professionnel qui vous ressemble avec WordPress. Notre expertise vous garantit un site performant, sécurisé et parfaitement adapté à vos besoins."
+  },
+  "features": {
+    "custom-themes": {
+      "title": "Thèmes sur mesure",
+      "description": "Création de thèmes personnalisés qui reflètent votre identité et répondent précisément à vos besoins."
+    },
+    "optimized-performance": {
+      "title": "Performance optimisée",
+      "description": "Optimisation poussée pour garantir des temps de chargement rapides et une expérience utilisateur fluide."
+    },
+    "enhanced-security": {
+      "title": "Sécurité renforcée",
+      "description": "Mise en place des meilleures pratiques de sécurité pour protéger votre site et vos données."
+    },
+    "simplified-administration": {
+      "title": "Administration simplifiée",
+      "description": "Interface d'administration personnalisée et intuitive pour une gestion facile de votre contenu."
+    }
+  },
+  "benefits": {
+    "intuitive-administration": {
+      "title": "Administration intuitive",
+      "description": "Interface de gestion simple et intuitive pour gérer votre contenu en toute autonomie."
+    },
+    "seo-optimized": {
+      "title": "SEO optimisé",
+      "description": "Structure optimisée pour le référencement naturel et outils SEO intégrés."
+    },
+    "powerful-extensions": {
+      "title": "Extensions puissantes",
+      "description": "Accès à des milliers de plugins pour étendre les fonctionnalités de votre site."
+    },
+    "maximum-performance": {
+      "title": "Performance maximale",
+      "description": "Optimisation avancée des performances pour une expérience utilisateur optimale."
+    }
+  },
+  "faq": {
+    "creation-timeline": {
+      "question": "Combien de temps faut-il pour créer un site WordPress ?",
+      "answer": "Le délai moyen pour créer un site WordPress varie de 4 à 12 semaines, selon la complexité du projet. Ce délai comprend la phase de design, le développement du thème sur mesure, l'intégration du contenu et les tests."
+    },
+    "migration": {
+      "question": "Pouvez-vous migrer mon site existant vers WordPress ?",
+      "answer": "Oui, nous proposons un service complet de migration vers WordPress, incluant le transfert du contenu, des images et des fonctionnalités, tout en préservant votre référencement."
+    },
+    "maintenance-updates": {
+      "question": "Comment gérez-vous la maintenance et les mises à jour ?",
+      "answer": "Nous proposons différentes formules de maintenance incluant les mises à jour de sécurité, les sauvegardes régulières, les mises à jour de WordPress et des plugins, ainsi que le monitoring des performances."
+    },
+    "mobile-optimization": {
+      "question": "Mon site sera-t-il optimisé pour les mobiles ?",
+      "answer": "Absolument. Tous nos développements WordPress sont responsive par défaut, garantissant une expérience optimale sur tous les appareils : ordinateurs, tablettes et smartphones."
+    },
+    "security-approach": {
+      "question": "Quelle est votre approche en matière de sécurité ?",
+      "answer": "Nous mettons en place une stratégie de sécurité complète : authentification forte, pare-feu applicatif, monitoring des tentatives d'intrusion, sauvegardes automatisées et mises à jour de sécurité régulières."
+    }
+  },
+  "complementary": {
+    "custom-development": {
+      "title": "Développement sur mesure",
+      "description": "Création de fonctionnalités spécifiques pour répondre à vos besoins particuliers."
+    },
+    "digital-marketing": {
+      "title": "Marketing digital",
+      "description": "Stratégies marketing adaptées pour augmenter votre visibilité en ligne."
+    },
+    "wordpress-training": {
+      "title": "Formation WordPress",
+      "description": "Formation personnalisée pour maîtriser la gestion de votre site."
+    }
+  }
+}

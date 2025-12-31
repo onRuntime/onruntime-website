@@ -1,0 +1,19 @@
+{
+  "title": "Faire un don",
+  "description": "Soutenez notre association et nos projets en faisant un don ponctuel. Votre contribution nous aide à financer nos activités, nos événements et nos outils de développement.",
+  "other": "Autre",
+  "custom-amount": {
+    "label": "Montant personnalisé",
+    "placeholder": "Entrez un montant"
+  },
+  "button": {
+    "donate": "Faire un don de",
+    "processing": "Traitement..."
+  },
+  "secure-payment": "Paiement sécurisé par Stripe",
+  "toast": {
+    "title": "Paiement simulé",
+    "description-prefix": "Votre don de",
+    "description-suffix": "a été traité avec succès. Dans une implémentation réelle, vous seriez redirigé vers Stripe."
+  }
+}

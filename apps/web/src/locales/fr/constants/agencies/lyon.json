@@ -1,0 +1,79 @@
+{
+  "title": "Agence Web à Lyon | Solutions Digitales sur Mesure",
+  "description": "Développement web, mobile et design UI/UX à Lyon. Notre expertise digitale adaptée aux entreprises de Rhône-Alpes pour dynamiser votre présence en ligne.",
+  "hero": {
+    "title": "Développement Web & Mobile à Lyon",
+    "description": "Transformez votre entreprise lyonnaise avec des solutions digitales innovantes parfaitement adaptées au dynamisme économique de la région Auvergne-Rhône-Alpes."
+  },
+  "intro": "Implantée au cœur du dynamisme lyonnais, notre expertise digitale accompagne les entreprises de la région dans leur transformation numérique. Entre tradition industrielle, excellence biomédicale et rayonnement gastronomique, Lyon présente un tissu économique riche et diversifié dont nous comprenons parfaitement les enjeux.",
+  "expertise": "Nous créons des solutions web, mobile et e-commerce adaptées aux spécificités du marché lyonnais et rhônalpin. Notre équipe maîtrise les défis numériques propres aux secteurs d'excellence de la région, des biotechnologies à la gastronomie, en passant par l'industrie manufacturière.",
+  "why-choose-us": "Notre connaissance du marché lyonnais nous permet de développer des solutions numériques parfaitement alignées avec les exigences et les particularités des entreprises locales. Nous comprenons les standards d'excellence de la région et proposons un accompagnement digital qui valorise l'identité et le savoir-faire lyonnais.",
+  "key-business-sectors": {
+    "biotech": "Biotechnologie",
+    "pharma": "Industrie pharmaceutique",
+    "gastronomy": "Gastronomie",
+    "finance": "Finance"
+  },
+  "local-challenges": {
+    "industry-digitalization": "Digitalisation des PME et ETI industrielles face aux enjeux de l'industrie 4.0",
+    "gastronomy-visibility": "Développement de la visibilité numérique pour les acteurs de la gastronomie lyonnaise",
+    "local-ecommerce": "Solutions e-commerce adaptées au commerce local et aux artisans de la région",
+    "biotech-applications": "Applications métier pour les secteurs pharmaceutique et biotech en pleine expansion"
+  },
+  "benefits": {
+    "sector-expertise": "Expertise sectorielle dans les domaines d'excellence lyonnais (biotech, pharma, gastronomie)",
+    "industrial-understanding": "Compréhension des enjeux de digitalisation du bassin industriel rhônalpin",
+    "sme-solutions": "Solutions adaptées aux PME et ETI en transformation numérique",
+    "lyon-ui-design": "Designs UI/UX reflétant l'identité visuelle et les standards de qualité lyonnais",
+    "local-ecosystem-knowledge": "Connaissance approfondie de l'écosystème numérique local"
+  },
+  "primary-stat": {
+    "label": "secteur d'innovation"
+  },
+  "strengths": {
+    "biotech-pharma": {
+      "title": "Solutions Biotech & Pharma",
+      "description": "Applications spécialisées pour le pôle santé lyonnais."
+    },
+    "gastronomy-ecommerce": {
+      "title": "E-commerce gastronomique",
+      "description": "Valorisation digitale des produits du terroir rhônalpin."
+    },
+    "industrial-applications": {
+      "title": "Applications industrielles",
+      "description": "Outils numériques pour l'industrie 4.0 et la production."
+    },
+    "business-interfaces": {
+      "title": "Interfaces métier",
+      "description": "Design UI/UX adaptés aux besoins spécifiques lyonnais."
+    }
+  },
+  "focused-services": {
+    "biotech-applications": {
+      "name": "Applications métier biotech",
+      "description": "Solutions digitales pour les laboratoires et entreprises pharmaceutiques lyonnaises."
+    },
+    "gastronomy-ecommerce": {
+      "name": "E-commerce gastronomique",
+      "description": "Plateformes de vente en ligne pour valoriser l'excellence culinaire lyonnaise."
+    },
+    "industrial-digitalization": {
+      "name": "Digitalisation industrielle",
+      "description": "Outils de pilotage et solutions IoT pour l'industrie rhônalpine."
+    }
+  },
+  "stats": {
+    "biotech-projects": {
+      "label": "Projets biotech",
+      "description": "Applications spécialisées"
+    },
+    "satisfaction": {
+      "label": "Satisfaction",
+      "description": "Clients satisfaits"
+    },
+    "sme-supported": {
+      "label": "PME accompagnées",
+      "description": "Entreprises lyonnaises"
+    }
+  }
+}

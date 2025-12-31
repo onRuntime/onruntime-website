@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Expertise locale non disponible",
+      "description": "Nous n'avons pas encore d'expertise spécifique pour cette ville."
+    }
+  },
+  "breadcrumb": {
+    "home": "Accueil",
+    "local-expertise": "Expertise locale"
+  },
+  "challenges": {
+    "title": "Défis numériques des entreprises à {city}",
+    "description": "Les entreprises de {city} font face à des défis spécifiques en matière de transformation digitale. Notre expertise nous permet d'y répondre efficacement.",
+    "market-issues": "Enjeux du marché {region}",
+    "our-solutions": "Nos solutions adaptées",
+    "discover-all-services": "Découvrir tous nos services"
+  },
+  "faq": {
+    "title": "Questions fréquentes sur les projets web à {city}",
+    "description": "Découvrez les réponses aux questions les plus courantes des entreprises de {city} concernant leurs projets digitaux.",
+    "questions": {
+      "choose-agency": {
+        "question": "Comment choisir la bonne agence web à {city} ?",
+        "answer": "Pour choisir la bonne agence web à {city}, évaluez leur connaissance du marché local, leur portfolio dans votre secteur d'activité, et leur capacité à comprendre vos objectifs spécifiques. L'expertise dans les défis numériques propres à la région {region} est également un facteur clé."
+      },
+      "project-costs": {
+        "question": "Quels sont les coûts d'un projet web à {city} ?",
+        "answer": "Les coûts d'un projet web à {city} varient selon la complexité, les fonctionnalités et les objectifs. Pour un site vitrine professionnel, comptez entre 3 000€ et 8 000€. Pour une application web ou e-commerce, les tarifs débutent généralement à 10 000€. Demandez un devis personnalisé pour une estimation précise."
+      },
+      "development-time": {
+        "question": "Combien de temps faut-il pour développer un site web ou une application pour mon entreprise à {city} ?",
+        "answer": "Les délais de développement pour une entreprise à {city} dépendent de la complexité du projet. Un site vitrine peut être réalisé en 4-8 semaines, tandis qu'une application sur mesure ou un e-commerce nécessite généralement 2-4 mois. Notre méthodologie agile permet des livraisons progressives pour voir rapidement les avancées."
+      },
+      "remote-work": {
+        "question": "Pouvez-vous travailler efficacement avec mon entreprise à {city} à distance ?",
+        "answer": "Absolument. Nous collaborons efficacement avec les entreprises de {city} grâce à notre méthodologie éprouvée de travail à distance. Visioconférences régulières, outils collaboratifs performants et notre connaissance approfondie du marché local de {region} nous permettent d'assurer un suivi aussi efficace qu'avec une équipe sur place."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients à {city}",
+    "description": "Découvrez les retours d'entreprises locales avec lesquelles nous avons collaboré."
+  }
+}

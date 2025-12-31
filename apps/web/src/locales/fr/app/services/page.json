@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "Agence de services digitaux : web, mobile et design UI/UX",
+    "description": "Services complets de développement web, mobile, design UI/UX et intégration CMS. Notre agence crée des solutions sur mesure qui répondent à vos objectifs."
+  },
+  "hero": {
+    "title": "Des solutions sur mesure pour vos projets digitaux",
+    "description": "De la conception à la réalisation, nous vous accompagnons à chaque étape de votre projet avec expertise et passion.",
+    "cta": "Démarrer un projet"
+  },
+  "technologies": {
+    "title": "Notre stack technologique",
+    "description": "Nous maîtrisons un large éventail de technologies modernes pour répondre à tous vos besoins."
+  },
+  "process": {
+    "title": "Notre processus de travail",
+    "description": "Une méthodologie éprouvée et flexible pour mener votre projet vers le succès."
+  }
+}

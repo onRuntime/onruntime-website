@@ -15,7 +15,8 @@ import {
   MapPin,
   Share2,
 } from "lucide-react";
-import Link from "next/link";
+import { Link } from "@onruntime/translations/next";
+import { useTranslation } from "@onruntime/translations/react";
 import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
 import JobContent from "@/components/ui/job-content";
@@ -26,19 +27,49 @@ interface JobDetailPageProps {
 }
 
 const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
+  const { t } = useTranslation("components/marketing/careers/job-details");
+
+  const getEmploymentType = (type: string | null | undefined) => {
+    if (!type) return null;
+    const key = type.toLowerCase().replace(/_/g, "-");
+    const translated = t(`employment-type.${key}`);
+    return translated !== `employment-type.${key}` ? translated : type;
+  };
+
+  const getWorkplaceType = (type: string | null | undefined) => {
+    if (!type) return null;
+    const key = type.toLowerCase().replace(/_/g, "-");
+    const translated = t(`workplace-type.${key}`);
+    return translated !== `workplace-type.${key}` ? translated : type;
+  };
+
+  const formatSalary = (salary: JobPosting["salary"]) => {
+    if (!salary) return null;
+    const { min, max, currency } = salary;
+    const symbol = currency === "EUR" ? "€" : currency;
+
+    if (min && max) {
+      return `${min.toLocaleString()} ${t("salary-format.range")} ${max.toLocaleString()} ${symbol}`;
+    } else if (min) {
+      return `${t("salary-format.from")} ${min.toLocaleString()} ${symbol}`;
+    } else if (max) {
+      return `${t("salary-format.up-to")} ${max.toLocaleString()} ${symbol}`;
+    }
+    return null;
+  };
 
   const handleShareClick = () => {
     if (navigator.share) {
       navigator
         .share({
           title: job.title,
-          text: `Découvrez cette opportunité: ${job.title} chez onRuntime Studio`,
+          text: t("share.text", { jobTitle: job.title }),
           url: window.location.href,
         })
         .catch((error) => console.log("Error sharing", error));
     } else {
       navigator.clipboard.writeText(window.location.href);
-      alert("Lien copié dans le presse-papier!");
+      alert(t("share.copied"));
     }
   };
 
@@ -55,7 +86,7 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
           <Link href="/careers">
             <Button variant="ghost" className="group">
               <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
-              Retour aux offres
+              {t("back")}
             </Button>
           </Link>
         </div>
@@ -63,11 +94,13 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
         <div className="relative border rounded-lg p-8 bg-card">
           <div className="max-w-3xl">
             <div className="flex flex-wrap gap-2 mb-4">
-              <Badge>{job.department}</Badge>
+              {job.department && <Badge>{job.department}</Badge>}
               {job.seniority && (
                 <Badge variant="outline">{job.seniority}</Badge>
               )}
-              {job.remote && <Badge variant="outline">Remote</Badge>}
+              {job.workplaceType && (
+                <Badge variant="outline">{getWorkplaceType(job.workplaceType)}</Badge>
+              )}
             </div>
 
             <h1 className="font-medium text-3xl md:text-4xl text-foreground mb-4">
@@ -79,23 +112,25 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
                 <MapPin className="w-4 h-4 mr-2" />
                 {job.location}
               </div>
-              <div className="flex items-center text-muted-foreground">
-                <Clock className="w-4 h-4 mr-2" />
-                {job.employmentType}
-              </div>
+              {job.employmentType && (
+                <div className="flex items-center text-muted-foreground">
+                  <Clock className="w-4 h-4 mr-2" />
+                  {getEmploymentType(job.employmentType)}
+                </div>
+              )}
               <div className="flex items-center text-muted-foreground">
                 <CalendarDays className="w-4 h-4 mr-2" />
-                Publié le {formatDate(job.datePosted)}
+                {t("published")} {formatDate(job.datePosted)}
               </div>
             </div>
 
             <div className="flex flex-wrap gap-3">
               <Button onClick={handleApplyClick}>
-                Postuler maintenant
+                {t("apply")}
                 <Briefcase className="ml-2 w-4 h-4" />
               </Button>
               <Button variant="outline" onClick={handleShareClick}>
-                Partager
+                {t("share.button")}
                 <Share2 className="ml-2 w-4 h-4" />
               </Button>
             </div>
@@ -115,28 +150,31 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
           <div className="md:col-span-2 space-y-6">
             <div>
               <h2 className="text-2xl font-medium mb-4">
-                Description du poste
+                {t("sections.description")}
               </h2>
               {job.description ? (
                 <JobContent content={job.description} />
               ) : (
                 <p className="text-muted-foreground">
-                  {job.shortDescription ||
-                    "Aucune description détaillée n'est disponible pour ce poste."}
+                  {job.shortDescription || t("sections.no-description")}
                 </p>
               )}
             </div>
 
             {job.requirements && (
               <div>
-                <h2 className="text-2xl font-medium mb-4">Prérequis</h2>
+                <h2 className="text-2xl font-medium mb-4">
+                  {t("sections.requirements")}
+                </h2>
                 <JobContent content={job.requirements} />
               </div>
             )}
 
             {job.benefits && (
               <div>
-                <h2 className="text-2xl font-medium mb-4">Avantages</h2>
+                <h2 className="text-2xl font-medium mb-4">
+                  {t("sections.benefits")}
+                </h2>
                 <JobContent content={job.benefits} />
               </div>
             )}
@@ -144,83 +182,90 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
 
           <div className="space-y-8">
             <div className="border rounded-lg p-6 bg-card">
-              <h3 className="text-lg font-medium mb-4">Détails du poste</h3>
+              <h3 className="text-lg font-medium mb-4">
+                {t("details.title")}
+              </h3>
 
               <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <Building className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
-                  <div>
-                    <p className="text-sm text-foreground font-medium">
-                      Département
-                    </p>
-                    <p className="text-sm text-muted-foreground">
-                      {job.department}
-                    </p>
+                {job.department && (
+                  <div className="flex items-start gap-3">
+                    <Building className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
+                    <div>
+                      <p className="text-sm text-foreground font-medium">
+                        {t("details.department")}
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        {job.department}
+                      </p>
+                    </div>
                   </div>
-                </div>
+                )}
 
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
                   <div>
-                    <p className="text-sm text-foreground font-medium">Lieu</p>
+                    <p className="text-sm text-foreground font-medium">
+                      {t("details.location")}
+                    </p>
                     <p className="text-sm text-muted-foreground">
                       {job.location}
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3">
-                  <Clock className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
-                  <div>
-                    <p className="text-sm text-foreground font-medium">
-                      Type de contrat
-                    </p>
-                    <p className="text-sm text-muted-foreground">
-                      {job.employmentType}
-                    </p>
-                  </div>
-                </div>
-
-                {job.salary && (
+                {job.employmentType && (
                   <div className="flex items-start gap-3">
-                    <FileText className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
+                    <Clock className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
                     <div>
                       <p className="text-sm text-foreground font-medium">
-                        Salaire
+                        {t("details.contract")}
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        {job.salary}
+                        {getEmploymentType(job.employmentType)}
                       </p>
                     </div>
                   </div>
                 )}
 
-                {job.remote && (
+                {job.workplaceType && (
                   <div className="flex items-start gap-3">
                     <Globe className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
                     <div>
                       <p className="text-sm text-foreground font-medium">
-                        Télétravail
+                        {t("details.workplace")}
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        {typeof job.remote === "string"
-                          ? job.remote
-                          : "Possible"}
+                        {getWorkplaceType(job.workplaceType)}
                       </p>
                     </div>
                   </div>
                 )}
+
+                {job.salary && formatSalary(job.salary) && (
+                  <div className="flex items-start gap-3">
+                    <FileText className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
+                    <div>
+                      <p className="text-sm text-foreground font-medium">
+                        {t("details.salary")}
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        {formatSalary(job.salary)}
+                      </p>
+                    </div>
+                  </div>
+                )}
+
               </div>
             </div>
             <div className="border rounded-lg p-6 bg-card text-center">
               <h3 className="text-lg font-medium mb-4">
-                Intéressé par ce poste ?
+                {t("interested.title")}
               </h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Postulez dès maintenant et rejoignez notre équipe passionnée.
+                {t("interested.description")}
               </p>
               <Button onClick={handleApplyClick} className="w-full">
-                Postuler maintenant
+                {t("apply")}
               </Button>
             </div>
           </div>
@@ -229,14 +274,10 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
         <div className="border rounded-lg p-8 bg-card">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-2xl font-medium mb-4">
-              Notre culture d&apos;entreprise
+              {t("culture.title")}
             </h2>
             <p className="text-muted-foreground mb-6">
-              Chez onRuntime Studio, nous cultivons un environnement de travail
-              collaboratif et stimulant où chaque membre de l&apos;équipe peut
-              exprimer sa créativité et développer ses compétences. Nous
-              privilégions l&apos;innovation, la qualité et le bien-être de nos
-              collaborateurs.
+              {t("culture.description")}
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
@@ -245,11 +286,10 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
                   <FileText className="w-5 h-5" />
                 </div>
                 <h3 className="font-medium text-foreground mb-2">
-                  Formation continue
+                  {t("culture.training.title")}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  Nous investissons dans le développement professionnel de nos
-                  équipes
+                  {t("culture.training.description")}
                 </p>
               </div>
 
@@ -258,11 +298,10 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
                   <Building className="w-5 h-5" />
                 </div>
                 <h3 className="font-medium text-foreground mb-2">
-                  Environnement flexible
+                  {t("culture.flexible.title")}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  Équilibre vie professionnelle/vie personnelle et travail
-                  hybride
+                  {t("culture.flexible.description")}
                 </p>
               </div>
 
@@ -271,10 +310,10 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
                   <Globe className="w-5 h-5" />
                 </div>
                 <h3 className="font-medium text-foreground mb-2">
-                  Projets variés
+                  {t("culture.projects.title")}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  Travaillez sur des projets diversifiés et stimulants
+                  {t("culture.projects.description")}
                 </p>
               </div>
             </div>
@@ -282,7 +321,7 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
             <div className="text-center">
               <Link href="/npo">
                 <Button variant="outline">
-                  En savoir plus sur notre équipe
+                  {t("culture.learn-more")}
                 </Button>
               </Link>
             </div>
@@ -291,15 +330,13 @@ const JobDetailPage: React.FC<JobDetailPageProps> = ({ job }) => {
 
         <div className="border rounded-lg p-8 bg-card text-center">
           <h2 className="text-2xl font-medium mb-4">
-            Prêt à relever le défi ?
+            {t("cta.title")}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto mb-6">
-            Rejoignez notre équipe et participez à des projets stimulants qui
-            vous permettront de développer vos compétences et dexprimer votre
-            créativité.
+            {t("cta.description")}
           </p>
           <Button size="lg" onClick={handleApplyClick}>
-            Postuler maintenant
+            {t("apply")}
             <Briefcase className="ml-2 w-5 h-5" />
           </Button>
         </div>

@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "Discutons de votre projet",
+    "description": "Nous sommes toujours ravis d'échanger sur de nouveaux projets. Contactez-nous pour discuter de vos idées et voir comment nous pouvons vous aider."
+  },
+  "form": {
+    "name": {
+      "label": "Nom complet",
+      "placeholder": "John Doe"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "you@example.com"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Décrivez votre projet..."
+    },
+    "submit": "Envoyer le message",
+    "submitting": "Envoi en cours..."
+  },
+  "toast": {
+    "success": {
+      "title": "Message envoyé",
+      "description": "Nous vous répondrons dans les plus brefs délais."
+    },
+    "error": {
+      "title": "Erreur",
+      "description": "Une erreur est survenue lors de l'envoi du message",
+      "fallback": "Une erreur est survenue"
+    }
+  },
+  "info": {
+    "title": "Informations de contact",
+    "email": {
+      "label": "Email"
+    },
+    "offices": {
+      "label": "Nos bureaux",
+      "value": "Rouen & Paris, France"
+    },
+    "phone": {
+      "label": "Téléphone"
+    }
+  },
+  "hours": {
+    "title": "Horaires d'ouverture",
+    "timezone": "(heure de Paris)",
+    "weekdays": "Lundi - Vendredi:",
+    "weekdays-time": "9:00 - 18:00",
+    "weekend": "Weekend:",
+    "weekend-time": "Fermé"
+  },
+  "tagline": "Un studio créatif dédié à transformer vos idées en réalité numérique."
+}

@@ -1,60 +1,47 @@
-
 import { LucideIcon } from "lucide-react";
 
 export interface AgencyTestimonial {
-  name: string;
-  role: string;
-  company: string;
-  text: string;
-  imageUrl?: string;
+  key: string;
+  author: {
+    name: string;
+    role: string;
+    company: string;
+    imageUrl?: string;
+  };
 }
 
 export interface AgencyStrength {
-  title: string;
-  description: string;
+  key: string;
   icon?: LucideIcon;
 }
 
 export interface AgencyService {
-  name: string;
-  description: string;
+  key: string;
   link: string;
   icon?: LucideIcon;
 }
 
 export interface AgencyStat {
-  label: string;
+  key: string;
   value: string;
-  description: string;
 }
 
 export interface Agency {
-  
-  id: string;            
-  name: string;          
-  region: string;        
+  id: string;
+  name: string;
+  region: string;
 
-  title: string;         
-  description: string;   
+  keyBusinessSectors: string[];
+  localChallenges: string[];
+  benefits: string[];
 
-  heroTitle?: string;    
-  heroDescription?: string; 
-  introText: string;     
-  expertiseText: string; 
-  whyChooseUs: string;   
-
-  keyBusinessSectors: string[]; 
-  localChallenges: string[];    
-  benefits: string[];           
-
-  strengths: AgencyStrength[];  
-  focusedServices: AgencyService[]; 
-  testimonials: AgencyTestimonial[]; 
+  strengths: AgencyStrength[];
+  focusedServices: AgencyService[];
+  testimonials: AgencyTestimonial[];
 
   contactInfo: {
-    email: string;       
-    phone: string;       
-    meetingOptions?: string[]; 
+    email: string;
+    phone: string;
   };
 
   stats: AgencyStat[];
@@ -64,11 +51,10 @@ export interface Agency {
     longitude: string;
   };
 
-  accentColor?: string;  
-  primaryStat?: {        
+  accentColor?: string;
+  primaryStat?: {
+    key: string;
     icon: LucideIcon;
-    value: string;
-    label: string;
   };
 
   nearbyLocations: string[];

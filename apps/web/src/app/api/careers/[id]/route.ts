@@ -1,47 +1,44 @@
 import { NextRequest, NextResponse } from "next/server";
 import { unstable_cache } from "next/cache";
 import { joinClient } from "@/services/join";
-import {
-  formatEmploymentType,
-  formatSalary,
-  extractTags,
-} from "@/lib/utils/careers";
+import { formatSalary, extractTags } from "@/lib/utils/careers";
 
-const getCachedJob = unstable_cache(
-  async (jobId: string) => {
-    const job = await joinClient.job(jobId);
+const getCachedJob = (locale: string) =>
+  unstable_cache(
+    async (jobId: string) => {
+      const job = await joinClient.job(jobId, locale);
 
-    if (!job) {
-      return null;
+      if (!job) {
+        return null;
+      }
+
+      return {
+        id: job.id,
+        title: job.title,
+        department: job.department?.name || null,
+        location: job.office?.city || "Remote",
+        employmentType: job.employmentType || null,
+        workplaceType: job.workplaceType || null,
+        datePosted: job.publishedAt || job.createdAt || new Date().toISOString(),
+        applyUrl:
+          job.applyUrl || `https://join.com/companies/onruntime/jobs/${job.id}`,
+        seniority: job.seniority?.name || null,
+        remote: job.remote || job.workplaceType === "REMOTE",
+        shortDescription: job.shortDescription || "",
+        description: job.description || "",
+        requirements: job.requirements || "",
+        benefits: job.benefits || "",
+        salary: formatSalary(job.salaryMin, job.salaryMax, job.salaryCurrency),
+        validThrough: job.validThrough || null,
+        tags: extractTags(job),
+      };
+    },
+    ["join-job", locale],
+    {
+      revalidate: 300,
+      tags: ["careers"],
     }
-
-    return {
-      id: job.id,
-      title: job.title,
-      department: job.department?.name || "Non spécifié",
-      location: job.location?.name || "Remote",
-      employmentType: formatEmploymentType(job.employmentType) || "Temps plein",
-      datePosted: job.publishedAt || new Date().toISOString(),
-      applyUrl:
-        job.applyUrl || `https://join.com/companies/onruntime/jobs/${job.id}`,
-      seniority: job.seniority?.name || null,
-      remote: job.remote || false,
-      shortDescription: job.shortDescription || "",
-      description: job.description || "",
-      requirements: job.requirements || "",
-      benefits: job.benefits || "",
-      salary:
-        formatSalary(job.salaryMin, job.salaryMax, job.salaryCurrency) || null,
-      validThrough: job.validThrough || null,
-      tags: extractTags(job),
-    };
-  },
-  ["join-job"],
-  {
-    revalidate: 300,
-    tags: ["careers"],
-  }
-);
+  );
 
 export async function GET(
   request: NextRequest,
@@ -49,6 +46,7 @@ export async function GET(
 ) {
   try {
     const { id } = await params;
+    const locale = request.nextUrl.searchParams.get("locale") || "fr";
 
     if (!id) {
       return NextResponse.json(
@@ -57,7 +55,7 @@ export async function GET(
       );
     }
 
-    const job = await getCachedJob(id);
+    const job = await getCachedJob(locale)(id);
 
     if (!job) {
       return NextResponse.json({ error: "Job not found" }, { status: 404 });

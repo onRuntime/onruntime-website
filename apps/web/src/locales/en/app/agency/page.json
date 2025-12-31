@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Local web expertise | Digital development in major French cities",
+    "description": "We support local businesses throughout France with our expertise in regional digital markets. Digital solutions adapted to each region."
+  },
+  "hero": {
+    "title": "Your digital partner throughout France",
+    "description": "We develop innovative digital solutions adapted to the specificities of each French regional market. Our team masters local digital challenges to support you effectively, wherever you are in France.",
+    "cta": "Discuss your project",
+    "secondary-cta": "Discover our local expertise"
+  },
+  "expertise": {
+    "title": "Expertise adapted to each territory",
+    "description": "Our team analyzes and understands local digital ecosystems to offer you solutions perfectly adapted to the economic and cultural specificities of your region.",
+    "local-markets": {
+      "title": "Understanding local markets",
+      "description": "We study and master the specificities and trends of regional digital ecosystems."
+    },
+    "remote-work": {
+      "title": "Effective remote work",
+      "description": "Our team collaborates remotely with your company, wherever you are in France, with the same efficiency as in person."
+    },
+    "custom-solutions": {
+      "title": "Custom solutions",
+      "description": "Tailor-made digital strategies that adapt to your local context and the particularities of your regional market."
+    }
+  },
+  "cities": {
+    "title": "Our expertise in major French cities",
+    "description": "Discover our in-depth knowledge of local markets and how it can benefit your business.",
+    "region-label": "Region",
+    "discover-cta": "Discover our expertise"
+  },
+  "why-us": {
+    "title": "Why work with us for your local project?",
+    "description": "Our knowledge of regional markets offers many advantages for your business.",
+    "local-ecosystems": {
+      "title": "Local ecosystem expertise",
+      "description": "A team that understands the market dynamics specific to your region, enabling a perfectly adapted digital strategy."
+    },
+    "remote-agility": {
+      "title": "Remote agility",
+      "description": "Effective collaboration through video conferencing, messaging and collaborative tools for a smooth and productive work experience."
+    },
+    "localized-strategies": {
+      "title": "Localized strategies",
+      "description": "Digital solutions that take into account the cultural and economic specificities of your territory."
+    },
+    "regional-analysis": {
+      "title": "Regional market analysis",
+      "description": "Study of trends, competition and opportunities specific to your geographic sector for an optimal digital strategy."
+    }
+  },
+  "services": {
+    "title": "Our services for all regions of France",
+    "description": "Complete digital solutions adapted to the specificities of each local market.",
+    "design": {
+      "title": "UI/UX Design",
+      "description": "Interfaces adapted to local uses"
+    },
+    "integration": {
+      "title": "Integration",
+      "description": "Regional CMS and e-commerce solutions"
+    },
+    "frontend": {
+      "title": "Front-end",
+      "description": "Applications adapted to your users"
+    },
+    "backend": {
+      "title": "Back-end",
+      "description": "Robust and scalable infrastructures"
+    },
+    "discover-all": "Discover all our services"
+  },
+  "cta": {
+    "title": "A digital project adapted to your local market?",
+    "description": "Contact us to discuss your project. Our expertise in local markets allows us to support you effectively, wherever you are in France.",
+    "contact": "Contact us",
+    "learn-more": "Learn more about our approach"
+  }
+}

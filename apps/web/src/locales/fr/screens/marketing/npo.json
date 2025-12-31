@@ -1,0 +1,113 @@
+{
+  "hero": {
+    "title": "L'Association onRuntime Studio",
+    "description": "Une association loi 1901 dédiée à l'innovation et la créativité dans le domaine du développement web, mobile et design."
+  },
+  "cta": {
+    "become-member": "Devenir membre",
+    "our-projects": "Nos projets"
+  },
+  "history": {
+    "title": "Notre histoire",
+    "description": "Fondée en 2020, onRuntime Studio est née de la passion commune de développeurs et designers qui collaborent ensemble depuis 2015. Notre association a pour vocation de créer un espace collaboratif pour innover et partager nos connaissances, avec l'ambition de devenir prochainement une entreprise à part entière.",
+    "timeline": {
+      "2015": {
+        "title": "Premières collaborations",
+        "description": "Début des collaborations entre Jérémy, Antoine et Lucas, principalement sur des plateformes de jeux vidéos."
+      },
+      "2020": {
+        "title": "Création de l'association",
+        "description": "Fondation officielle d'onRuntime Studio en tant qu'association loi 1901, sur les conseils de Bryan Recher."
+      },
+      "2021": {
+        "title": "Réunion à Rouen",
+        "description": "Les fondateurs se réunissent à Rouen afin d'accélérer les projets, notamment avec leur projet phare: Tonight Pass."
+      },
+      "2022": {
+        "title": "Premiers recrutements",
+        "description": "L'association recrute ses premiers salariés pour soutenir le développement de ses projets."
+      },
+      "2023-2025": {
+        "title": "Expansion continue",
+        "description": "Focus sur le développement de Tonight Pass et préparation à une transformation future en entreprise."
+      }
+    }
+  },
+  "founders": {
+    "title": "Les fondateurs",
+    "description": "Notre association a été fondée par trois passionnés qui travaillent ensemble depuis plusieurs années pour donner vie à des projets innovants.",
+    "website": "Site web",
+    "linkedin": "LinkedIn"
+  },
+  "values": {
+    "title": "Nos valeurs",
+    "description": "Ces principes fondamentaux guident notre approche et notre vision, influençant chacune de nos actions et décisions.",
+    "items": {
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nous repoussons constamment les limites de la créativité et de la technologie pour offrir des solutions novatrices."
+      },
+      "community": {
+        "title": "Communauté",
+        "description": "Nous croyons en la force du collectif et favorisons un environnement collaboratif où chacun peut s'épanouir."
+      },
+      "passion": {
+        "title": "Passion",
+        "description": "Chaque projet est abordé avec passion et dévouement, car nous aimons profondément ce que nous faisons."
+      },
+      "learning": {
+        "title": "Apprentissage",
+        "description": "Nous valorisons l'apprentissage continu et le partage des connaissances pour progresser ensemble."
+      }
+    }
+  },
+  "expertise": {
+    "title": "Notre expertise technique",
+    "description": "Les technologies que nous maîtrisons et utilisons dans nos projets associatifs."
+  },
+  "membership": {
+    "title": "Devenir membre",
+    "description": "Rejoignez notre communauté de passionnés et participez au développement de projets innovants.",
+    "annual": {
+      "title": "Adhésion annuelle",
+      "price": "30€",
+      "period": "/an",
+      "description": "Cotisation annuelle pour devenir membre bénévole de l'association.",
+      "benefits": {
+        "hours": "Engagement de 3 à 6 heures par semaine",
+        "projects": "Participation aux projets associatifs",
+        "discord": "Rôle Discord dédié et accès aux salons privés",
+        "mentoring": "Mentorat personnalisé par nos membres expérimentés",
+        "resources": "Accès à toutes nos ressources et formations",
+        "autonomy": "Autonomie sur les projets de l'association"
+      },
+      "cta": "Demander mon adhésion"
+    }
+  },
+  "initiatives": {
+    "title": "Nos programmes et initiatives",
+    "description": "Découvrez les initiatives que nous développons actuellement et nos projets à venir.",
+    "mentoring": {
+      "title": "Programme de mentorat technique",
+      "description": "Notre programme de mentorat permet aux membres débutants d'être accompagnés dans leur montée en compétences par des développeurs et designers expérimentés de l'association.",
+      "status": "Actuellement actif"
+    },
+    "workshops": {
+      "title": "Ateliers techniques collaboratifs",
+      "description": "Sessions de travail et d'apprentissage en groupe sur des technologies spécifiques, organisées en ligne et en présentiel quand possible.",
+      "status": "En phase de développement"
+    },
+    "hackathons": {
+      "title": "Hackathons communautaires",
+      "description": "Organisation d'événements de 48h où des équipes développeront ensemble des solutions innovantes sur des problématiques précises.",
+      "status": "Projet futur"
+    },
+    "contribute": "Vous souhaitez contribuer au développement de ces initiatives ?",
+    "contact": "Nous contacter"
+  },
+  "discord": {
+    "title": "Rejoignez notre communauté Discord",
+    "description": "Connectez-vous avec les autres membres, participez aux discussions techniques et restez informé des dernières actualités de l'association.",
+    "cta": "Rejoindre le Discord"
+  }
+}

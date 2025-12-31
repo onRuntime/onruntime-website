@@ -1,0 +1,79 @@
+{
+  "title": "Web Development in Nice | Digital Solutions for Côte d'Azur Businesses",
+  "description": "Create your website or mobile application in Nice. Custom digital solutions for Côte d'Azur businesses, tailored to the local challenges of your sector.",
+  "hero": {
+    "title": "Web & Mobile Development in Nice",
+    "description": "We help businesses in Nice and the French Riviera digitalize with custom web solutions, perfectly adapted to the specific challenges of the Azurean market."
+  },
+  "intro": "Between the Mediterranean Sea and the Alps, Nice benefits from international influence and a diversified economy where tourism meets innovation. Our digital expertise enables Nice businesses to stand out in a competitive environment where image and excellence are paramount.",
+  "expertise": "Our team designs websites, applications and e-commerce solutions perfectly adapted to businesses in Nice and the French Riviera. We understand the high standards of your local market and offer digital solutions that enhance the premium positioning specific to the region.",
+  "why-choose-us": "Our in-depth knowledge of the Azurean market allows us to develop digital solutions perfectly adapted to the specific challenges of local businesses. We understand the international dimension of Nice and its reputation for excellence, and integrate these aspects into each project to create refined and high-performing digital experiences.",
+  "key-business-sectors": {
+    "luxury-tourism": "Luxury Tourism",
+    "real-estate": "Real Estate",
+    "events": "Events",
+    "health-wellness": "Health & Wellness"
+  },
+  "local-challenges": {
+    "luxury-tourism-digitalization": "Digitalization of the high-end tourism sector on the French Riviera",
+    "innovative-real-estate-solutions": "Need for innovative real estate solutions for a demanding international market",
+    "events-digital-showcase": "Digital showcase of events (festivals, conferences, exhibitions)",
+    "health-wellness-transformation": "Digital transformation of the health and wellness sector in a region renowned for quality of life"
+  },
+  "benefits": {
+    "international-clientele-solutions": "Custom solutions adapted to a demanding international clientele",
+    "premium-interfaces-expertise": "Sharp expertise in premium interfaces and user experience",
+    "azurean-market-knowledge": "In-depth knowledge of the Azurean market and its specificities",
+    "multilingual-applications": "Multilingual applications adapted to the French Riviera's international clientele",
+    "personalized-support": "Personalized support throughout your digital project"
+  },
+  "primary-stat": {
+    "label": "luxury tourism"
+  },
+  "strengths": {
+    "premium-experience": {
+      "title": "Premium Experience",
+      "description": "High-end sites and applications for luxury tourism and hospitality."
+    },
+    "digital-real-estate": {
+      "title": "Digital Real Estate",
+      "description": "Innovative solutions for real estate agencies and developers."
+    },
+    "event-platforms": {
+      "title": "Event Platforms",
+      "description": "Sites and applications for festivals, conferences and prestigious events."
+    },
+    "connected-wellness": {
+      "title": "Connected Wellness",
+      "description": "Digital solutions for clinics, spas and wellness centers."
+    }
+  },
+  "focused-services": {
+    "premium-websites": {
+      "name": "Premium Websites",
+      "description": "High-end digital showcases for hotels, restaurants and luxury boutiques."
+    },
+    "real-estate-applications": {
+      "name": "Real Estate Applications",
+      "description": "Custom solutions for presenting and managing exceptional properties."
+    },
+    "visual-identity": {
+      "name": "Visual Identity",
+      "description": "Elegant and refined UI/UX design for prestigious brands and establishments."
+    }
+  },
+  "stats": {
+    "expertise": {
+      "label": "Expertise",
+      "description": "Years of experience"
+    },
+    "satisfaction": {
+      "label": "Satisfaction",
+      "description": "Satisfied clients"
+    },
+    "average-time": {
+      "label": "Average Time",
+      "description": "Weeks of completion"
+    }
+  }
+}

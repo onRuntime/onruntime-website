@@ -3,7 +3,9 @@ export interface JobPosting {
 
   title: string;
 
-  employmentType: string;
+  employmentType?: string | null;
+
+  workplaceType?: string | null; // HYBRID, REMOTE, ON_SITE
 
   department: string;
 
@@ -27,7 +29,11 @@ export interface JobPosting {
 
   benefits?: string;
 
-  salary?: string;
+  salary?: {
+    min?: number;
+    max?: number;
+    currency: string;
+  } | null;
 
   validThrough?: string;
 }

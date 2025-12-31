@@ -1,22 +1,24 @@
-import React from 'react';
 import { Agency } from '@/types/agency';
+import { getTranslation } from '@/lib/translations.server';
 
 interface LocalExpertiseProps {
   agency: Agency;
 }
 
-const LocalExpertise: React.FC<LocalExpertiseProps> = ({ agency }) => {
-  
+const LocalExpertise = async ({ agency }: LocalExpertiseProps) => {
+  const { t } = await getTranslation(`constants/agencies/${agency.id}`);
+  const { t: tComponent } = await getTranslation('components/marketing/agency/local-expertise');
+
   const accent = agency.accentColor || "blue";
 
   return (
     <div className="space-y-12">
       <div className="text-center">
         <h2 className="text-3xl font-medium text-foreground mb-4">
-          Solutions web adaptées aux entreprises de {agency.name}
+          {tComponent('title', { city: agency.name })}
         </h2>
         <p className="text-muted-foreground max-w-3xl mx-auto">
-          {agency.expertiseText}
+          {t('expertise')}
         </p>
       </div>
 
@@ -41,16 +43,16 @@ const LocalExpertise: React.FC<LocalExpertiseProps> = ({ agency }) => {
                   </svg>
                 </div>
               )}
-              <h3 className="text-xl font-medium text-foreground mb-2">{strength.title}</h3>
-              <p className="text-sm text-muted-foreground">{strength.description}</p>
+              <h3 className="text-xl font-medium text-foreground mb-2">{t(`strengths.${strength.key}.title`)}</h3>
+              <p className="text-sm text-muted-foreground">{t(`strengths.${strength.key}.description`)}</p>
             </div>
           );
         })}
       </div>
 
       <div className="p-6 border rounded-lg bg-card">
-        <h3 className="text-xl font-medium text-foreground mb-4">Notre approche pour les projets à {agency.name}</h3>
-        <p className="text-muted-foreground">{agency.whyChooseUs}</p>
+        <h3 className="text-xl font-medium text-foreground mb-4">{tComponent('approach.title', { city: agency.name })}</h3>
+        <p className="text-muted-foreground">{t('why-choose-us')}</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
           {agency.benefits.map((benefit, index) => (
@@ -60,7 +62,7 @@ const LocalExpertise: React.FC<LocalExpertiseProps> = ({ agency }) => {
                   <path d="M20 6 9 17l-5-5"/>
                 </svg>
               </div>
-              <p className="text-sm text-muted-foreground">{benefit}</p>
+              <p className="text-sm text-muted-foreground">{t(`benefits.${benefit}`)}</p>
             </div>
           ))}
         </div>

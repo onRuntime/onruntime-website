@@ -1,0 +1,80 @@
+{
+  "name": "Brand guidelines",
+  "description": "Creating your complete visual identity",
+  "hero": {
+    "title": "Branding & Brand Identity",
+    "description": "Bring your brand to life with a distinctive and memorable visual identity. Our branding expertise helps you create a brand image that resonates with your audience and reflects your values."
+  },
+  "features": {
+    "visual-identity": {
+      "title": "Visual identity",
+      "description": "Creating a unique and memorable identity."
+    },
+    "brand-values": {
+      "title": "Brand values",
+      "description": "Visual expression of your DNA and values."
+    },
+    "brand-guidelines": {
+      "title": "Brand guidelines",
+      "description": "Complete documentation of your identity."
+    },
+    "design-system": {
+      "title": "Design system",
+      "description": "Consistent and reusable visual elements."
+    }
+  },
+  "benefits": {
+    "recognition": {
+      "title": "Recognition",
+      "description": "Memorable and distinctive brand image."
+    },
+    "consistency": {
+      "title": "Consistency",
+      "description": "Unified visual communication across all media."
+    },
+    "trust": {
+      "title": "Trust",
+      "description": "Enhanced credibility with your audience."
+    },
+    "reach": {
+      "title": "Reach",
+      "description": "Strong visual impact across all channels."
+    }
+  },
+  "faq": {
+    "complete-identity": {
+      "question": "What does a complete brand identity include?",
+      "answer": "A complete brand identity includes the logo, color palette, typography, graphic elements, tone of voice, and usage rules. We provide a detailed brand guidelines document that documents all these elements and guides their consistent use."
+    },
+    "creation-process": {
+      "question": "How does the creation process work?",
+      "answer": "The process begins with a discovery phase to understand your brand, values and audience. We then develop creative concepts, create visual elements, and iterate based on your feedback. The process ends with the delivery of a complete brand guidelines document."
+    },
+    "deliverables": {
+      "question": "What deliverables are provided?",
+      "answer": "You receive a complete package including: logos (different versions), color palette, typography, graphic elements, document templates, usage guides, and source files in all necessary formats."
+    },
+    "uniqueness": {
+      "question": "How do you ensure identity uniqueness?",
+      "answer": "We conduct thorough research of your market and competition to create a distinctive identity. We also verify the availability of visual elements to avoid any conflict with existing brands."
+    },
+    "transition": {
+      "question": "How do you handle the transition to the new identity?",
+      "answer": "We provide a gradual deployment plan that guides the transition to the new identity. This includes recommendations for internal and external communication, and an implementation timeline."
+    }
+  },
+  "complementary": {
+    "marketing-kit": {
+      "title": "Marketing kit",
+      "description": "Creation of consistent marketing materials."
+    },
+    "social-media": {
+      "title": "Social media",
+      "description": "Adaptation for social media."
+    },
+    "print-materials": {
+      "title": "Print materials",
+      "description": "Creation of printed materials."
+    }
+  }
+}

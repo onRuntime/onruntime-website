@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "Digital services agency: web, mobile and UI/UX design",
+    "description": "Complete web development, mobile, UI/UX design and CMS integration services. Our agency creates custom solutions tailored to your goals."
+  },
+  "hero": {
+    "title": "Custom solutions for your digital projects",
+    "description": "From conception to delivery, we support you at every stage of your project with expertise and passion.",
+    "cta": "Start a project"
+  },
+  "technologies": {
+    "title": "Our technology stack",
+    "description": "We master a wide range of modern technologies to meet all your needs."
+  },
+  "process": {
+    "title": "Our work process",
+    "description": "A proven and flexible methodology to lead your project to success."
+  }
+}

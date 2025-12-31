@@ -1,8 +1,10 @@
+import { siteConfig } from "@/constants/site-config";
+
 export const ORGANIZATION_DATA = {
   name: "onRuntime Studio",
   legalName: "onRuntime Studio",
-  url: "https://onruntime.com",
-  logo: "https://onruntime.com/android-chrome-512x512.png",
+  url: siteConfig.url,
+  logo: `${siteConfig.url}/android-chrome-512x512.png`,
   address: {
     streetAddress: "La Combe",
     addressLocality: "La Roche-de-Rame",

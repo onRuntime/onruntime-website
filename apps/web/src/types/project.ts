@@ -8,22 +8,20 @@ export enum Tag {
 }
 
 export interface Technology {
+  key: string;
   name: string;
-  description: string;
   icon: LucideIcon;
 }
 
 export interface Feature {
-  title: string;
-  description: string;
+  key: string;
   icon?: LucideIcon;
   image?: string;
 }
 
 export interface Metric {
-  label: string;
+  key: string;
   value: string;
-  description?: string;
 }
 
 export interface ProjectTeamMember {
@@ -32,29 +30,35 @@ export interface ProjectTeamMember {
 }
 
 export interface Testimonial {
-  content: string;
+  key: string;
   author: {
     name: string;
-    role: string;
-    company: string;
     image: string;
   };
+}
+
+export interface Screenshot {
+  key: string;
+  url: string;
+}
+
+export interface Resource {
+  key: string;
+  type: "article" | "video" | "documentation";
+  url: string;
 }
 
 export interface Project {
   id: string;
   name: string;
   tags: Tag[];
-  shortDescription: string;
-  description: string;
-  longDescription: string; 
   iconUrl: string;
   showcaseUrl: string;
   thumbnailUrl: string;
 
-  website?: string; 
-  repository?: string; 
-  startDate: string; 
+  website?: string;
+  repository?: string;
+  startDate: string;
   status: "active" | "completed" | "archived";
 
   features: Feature[];
@@ -64,18 +68,11 @@ export interface Project {
   team: ProjectTeamMember[];
   testimonials?: Testimonial[];
 
-  screenshots: Array<{
-    url: string;
-    caption: string;
-  }>;
+  screenshots: Screenshot[];
 
-  challenges: string[]; 
-  learnings: string[]; 
-  futurePlans?: string[]; 
+  challenges: string[];
+  learnings: string[];
+  futurePlans?: string[];
 
-  resources?: Array<{
-    type: "article" | "video" | "documentation";
-    title: string;
-    url: string;
-  }>;
+  resources?: Resource[];
 }

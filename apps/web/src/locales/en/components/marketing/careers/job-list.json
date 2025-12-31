@@ -1,0 +1,20 @@
+{
+  "retry": "Retry",
+  "no-results": "No job offers match your search.",
+  "count": "job offer(s) available",
+  "published": "Published on",
+  "view-offer": "View offer",
+  "employment-type": {
+    "full-time": "Full-time",
+    "part-time": "Part-time",
+    "contract": "Contract",
+    "temporary": "Temporary",
+    "internship": "Internship",
+    "apprenticeship": "Apprenticeship"
+  },
+  "workplace-type": {
+    "hybrid": "Hybrid",
+    "remote": "Remote",
+    "on-site": "On-site"
+  }
+}

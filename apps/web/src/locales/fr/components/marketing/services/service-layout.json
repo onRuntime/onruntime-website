@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "cta": "Discuter de votre projet"
+  },
+  "cards": {
+    "custom": {
+      "title": "Solutions sur mesure",
+      "description": "Adaptées à vos besoins"
+    },
+    "support": {
+      "title": "Support expert",
+      "description": "Par nos spécialistes"
+    },
+    "technologies": {
+      "title": "Technologies modernes",
+      "description": "Toujours à jour"
+    },
+    "scalability": {
+      "title": "Évolutivité garantie",
+      "description": "Pour votre croissance"
+    }
+  },
+  "cta": {
+    "title": "Prêt à concrétiser votre projet ?",
+    "description": "Contactez-nous pour discuter de vos besoins et obtenir un devis personnalisé.",
+    "button": "Commencer maintenant"
+  }
+}

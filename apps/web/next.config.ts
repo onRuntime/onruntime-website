@@ -16,6 +16,14 @@ const nextConfig: NextConfig = {
     });
     return config;
   },
+  async rewrites() {
+    return [
+      {
+        source: "/sitemap-:id.xml",
+        destination: "/sitemap.xml/:id",
+      },
+    ];
+  },
   async redirects() {
     return [
       {

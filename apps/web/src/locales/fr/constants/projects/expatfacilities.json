@@ -1,0 +1,81 @@
+{
+  "short-description": "Plateforme complète d'accompagnement pour l'expatriation étudiante, intégrant logement, visa, transport et support local.",
+  "description": "Développement d'une plateforme full-stack permettant aux étudiants français de gérer leur expatriation de A à Z avec des services intégrés et un réseau d'ambassadeurs locaux.",
+  "long-description": "Expat Facilities était une startup française révolutionnaire qui simplifiait l'expatriation pour les étudiants. Notre équipe a développé une plateforme complète from scratch, évoluant d'une simple landing page vers une solution sophistiquée combinant les fonctionnalités d'Airbnb avec un écosystème de services d'expatriation.\n\nLa plateforme intégrait de multiples APIs partenaires pour offrir une expérience unifiée : recherche de logements via des partenaires comme Spotahome, réservations de vols avec Lufthansa, assurances spécialisées, et un système unique d'ambassadeurs locaux présents dans plus de 70 pays.\n\nLe défi technique principal était l'orchestration de dizaines d'APIs tierces pour créer une expérience utilisateur fluide et cohérente, tout en gérant les complexités des paiements internationaux et du matching entre étudiants et ambassadeurs locaux.",
+  "features": {
+    "housing-platform": {
+      "title": "Plateforme de logement intégrée",
+      "description": "Recherche et réservation de logements étudiants via l'intégration d'APIs partenaires comme Spotahome"
+    },
+    "ambassador-network": {
+      "title": "Réseau d'ambassadeurs locaux",
+      "description": "Plus de 300 ambassadeurs étudiants dans 70 pays pour accompagner sur place les nouveaux arrivants"
+    },
+    "visa-services": {
+      "title": "Services visa et administratif",
+      "description": "Gestion complète des démarches de visa et accompagnement administratif personnalisé"
+    },
+    "transport-logistics": {
+      "title": "Transport et logistique",
+      "description": "Réservation de vols (partenariat Lufthansa), trains, et transport local avec tarifs préférentiels"
+    },
+    "expat-insurance": {
+      "title": "Assurances expatriation",
+      "description": "Assurances spécialisées pour expatriation temporaire en partenariat avec Mondial Assistance et Allianz"
+    },
+    "advanced-tracking": {
+      "title": "Tracking avancé",
+      "description": "Suivi en temps réel de toutes les démarches avec notifications et interface de pilotage"
+    }
+  },
+  "technologies": {
+    "nextjs": { "description": "Framework React pour le frontend" },
+    "nestjs": { "description": "Backend API robuste et modulaire" },
+    "mongodb": { "description": "Base de données principale" },
+    "graphql": { "description": "API unifiée pour les données" },
+    "google-cloud": { "description": "Infrastructure cloud et services" },
+    "stripe": { "description": "Paiements internationaux" },
+    "typescript": { "description": "Développement type-safe" },
+    "styled-components": { "description": "Styling et thématisation" }
+  },
+  "metrics": {
+    "countries": { "value": "70+", "label": "Pays couverts", "description": "Destinations d'expatriation disponibles" },
+    "ambassadors": { "value": "300+", "label": "Ambassadeurs", "description": "Étudiants ambassadeurs dans le monde" },
+    "users": { "value": "2000+", "label": "Utilisateurs", "description": "Étudiants utilisateurs de la plateforme" }
+  },
+  "screenshots": {
+    "redesign": { "caption": "Redesign de la plateforme" },
+    "testimonials": { "caption": "Témoignages et partenaires" },
+    "flyer-bank": { "caption": "Flyer pour les banques partenaires" },
+    "about-team": { "caption": "À propos de l'équipe et call to Action" },
+    "housing-hero": { "caption": "Section logement avec recherche intégrée" },
+    "housing-cta": { "caption": "Call to Action pour la section logement" },
+    "services-hero": { "caption": "Section services avec présentation des offres" },
+    "insurance-hero": { "caption": "Section assurance avec explication des offres" },
+    "insurance-plans": { "caption": "Formules d'assurance détaillées" },
+    "insurance-benefits": { "caption": "Avantages des assurances proposées" },
+    "contact-success": { "caption": "Formulaire de contact avec succès" }
+  },
+  "challenges": {
+    "third-party-api-integration": "Intégration de dizaines d'APIs tierces (Spotahome, Lufthansa, assurances) dans une expérience unifiée",
+    "international-payments": "Gestion des paiements internationaux avec Stripe dans multiple devises et réglementations",
+    "student-ambassador-matching": "Développement d'un système de matching étudiants/ambassadeurs basé sur la géolocalisation",
+    "scalable-architecture": "Architecture scalable pour supporter la croissance rapide (70 pays, 300+ ambassadeurs)",
+    "real-time-availability": "Synchronisation en temps réel des disponibilités logements entre plateformes partenaires",
+    "multilingual-interface": "Interface multilingue et adaptation aux spécificités locales de chaque pays"
+  },
+  "learnings": {
+    "api-orchestration-complexity": "Complexité de l'orchestration d'APIs tierces avec des formats et limitations différents",
+    "multi-partner-error-handling": "Importance cruciale de la gestion d'erreur dans un écosystème multi-partenaires",
+    "internationalization-challenges": "Défis de l'internationalisation au-delà de la traduction (devises, réglementations, cultures)",
+    "microservices-architecture": "Architecture microservices essentielle pour isoler les intégrations partenaires",
+    "complex-ux-simplification": "UX/UI critique pour transformer un processus complexe en expérience fluide",
+    "partner-relations": "Gestion des relations partenaires et négociations techniques pour les intégrations"
+  },
+  "future-plans": {
+    "other-expat-types": "Expansion vers d'autres types d'expatriation (professionnels, retraités)",
+    "ai-matching": "IA pour optimiser le matching étudiants/ambassadeurs",
+    "ambassador-mobile-app": "Application mobile native pour les ambassadeurs",
+    "ambassador-training": "Plateforme de formation pour les ambassadeurs"
+  }
+}

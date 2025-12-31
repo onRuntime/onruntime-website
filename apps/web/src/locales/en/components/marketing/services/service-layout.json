@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "cta": "Discuss your project"
+  },
+  "cards": {
+    "custom": {
+      "title": "Custom solutions",
+      "description": "Tailored to your needs"
+    },
+    "support": {
+      "title": "Expert support",
+      "description": "By our specialists"
+    },
+    "technologies": {
+      "title": "Modern technologies",
+      "description": "Always up to date"
+    },
+    "scalability": {
+      "title": "Guaranteed scalability",
+      "description": "For your growth"
+    }
+  },
+  "cta": {
+    "title": "Ready to bring your project to life?",
+    "description": "Contact us to discuss your needs and get a personalized quote.",
+    "button": "Get started now"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Rejoignez notre équipe",
+    "description": "Découvrez les opportunités de carrière chez onRuntime Studio et rejoignez une équipe dynamique de passionnés du développement et du design."
+  },
+  "why-join": {
+    "title": "Pourquoi nous rejoindre ?",
+    "description": "Chez onRuntime Studio, nous croyons en la créativité, l'innovation et la collaboration. Rejoignez-nous pour façonner l'avenir du digital et développer vos compétences dans un environnement stimulant.",
+    "cards": {
+      "creativity": {
+        "title": "Créativité et Innovation",
+        "description": "Exprimez vos idées et contribuez à des projets innovants qui repoussent les limites du possible."
+      },
+      "team": {
+        "title": "Équipe Passionnée",
+        "description": "Collaborez avec des professionnels talentueux et passionnés dans un environnement convivial et stimulant."
+      },
+      "impact": {
+        "title": "Impact Global",
+        "description": "Contribuez à des projets qui ont un impact réel et touchent des utilisateurs à travers le monde."
+      }
+    }
+  },
+  "opportunities": {
+    "title": "Nos opportunités actuelles",
+    "description": "Découvrez nos offres d'emploi et trouvez le poste qui correspond à vos compétences et aspirations.",
+    "search-placeholder": "Rechercher un poste, un lieu...",
+    "all": "Tous"
+  },
+  "spontaneous": {
+    "title": "Vous n'avez pas trouvé le poste qui vous correspond ?",
+    "description": "Envoyez-nous une candidature spontanée ! Nous sommes toujours à la recherche de talents exceptionnels pour rejoindre notre équipe.",
+    "cta": "Envoyer une candidature spontanée"
+  },
+  "teams": {
+    "title": "Nos équipes",
+    "description": "Découvrez les différentes équipes qui composent onRuntime Studio et trouvez celle qui correspond le mieux à vos compétences et aspirations.",
+    "development": {
+      "title": "Développement",
+      "description": "Nos développeurs créent des applications web et mobiles performantes et innovantes, en utilisant les technologies les plus récentes pour offrir des expériences utilisateur exceptionnelles."
+    },
+    "design": {
+      "title": "Design",
+      "description": "Notre équipe de designers crée des interfaces utilisateur élégantes et intuitives, en veillant à ce que chaque pixel soit parfaitement aligné avec l'identité visuelle du projet."
+    },
+    "project": {
+      "title": "Projet & Produit",
+      "description": "Nos chefs de projet et product managers assurent le bon déroulement des projets et veillent à ce que les solutions développées répondent parfaitement aux besoins des utilisateurs."
+    },
+    "marketing": {
+      "title": "Marketing & Communication",
+      "description": "Notre équipe marketing travaille à faire connaître nos projets et à communiquer efficacement sur nos réalisations, tant en interne qu'auprès du grand public."
+    }
+  },
+  "cta": {
+    "title": "Prêt à nous rejoindre ?",
+    "description": "Parcourez nos offres d'emploi et trouvez le poste qui correspond à vos compétences et aspirations. Nous avons hâte de vous accueillir dans notre équipe !",
+    "button": "Voir les offres d'emploi"
+  },
+  "error": "Une erreur est survenue lors du chargement des offres d'emploi. Veuillez réessayer ultérieurement."
+}

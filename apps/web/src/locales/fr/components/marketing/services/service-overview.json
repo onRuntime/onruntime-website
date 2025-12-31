@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "cta": "Discuter de votre projet"
+  },
+  "expertise": {
+    "title": "Une expertise pointue en {service}",
+    "description": "Nous combinons créativité et expertise technique pour offrir des solutions {service} qui répondent parfaitement à vos objectifs. Notre approche méthodique et notre expérience nous permettent de créer des solutions durables et évolutives."
+  },
+  "services": {
+    "badge": "Nos services",
+    "title": "Solutions {service} sur mesure",
+    "description": "Découvrez notre gamme complète de services {service}, conçue pour répondre à tous vos besoins et vous accompagner dans la réalisation de vos projets.",
+    "learnMore": "En savoir plus"
+  },
+  "benefits": {
+    "badge": "Avantages",
+    "title": "Pourquoi choisir nos services {service} ?"
+  },
+  "process": {
+    "badge": "Notre processus",
+    "title": "Comment nous travaillons",
+    "description": "Une approche intégrée qui combine nos différentes expertises pour un résultat optimal."
+  },
+  "cta": {
+    "title": "Prêt à concrétiser votre projet ?",
+    "description": "Contactez-nous pour discuter de vos besoins et obtenir un devis personnalisé.",
+    "button": "Commencer maintenant"
+  }
+}

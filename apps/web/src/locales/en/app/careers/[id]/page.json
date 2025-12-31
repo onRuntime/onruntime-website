@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "not-found": {
+      "title": "Job posting not found",
+      "description": "This job posting does not exist or is no longer available."
+    },
+    "title": "{jobTitle} | Careers",
+    "description": "Join onRuntime Studio as {jobTitle}. Discover this career opportunity and apply now."
+  }
+}

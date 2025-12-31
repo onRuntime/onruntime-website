@@ -6,13 +6,24 @@ const JOIN_API_BASE_URL = "https://api.join.com/v2";
 const joinJobSchema = z.object({
   id: z.union([z.string(), z.number()]).transform((val) => String(val)),
   title: z.string(),
+  createdAt: z.string().optional(),
+  lastUpdatedAt: z.string().optional(),
+  status: z.string().optional(),
+  remote: z.boolean().optional(),
+  office: z.object({
+    id: z.union([z.string(), z.number(), z.null()]).optional(),
+    name: z.string().nullable().optional(),
+    city: z.string().nullable().optional(),
+    countryIso: z.string().nullable().optional(),
+  }).optional(),
+  workplaceType: z.string().nullable().optional(), // HYBRID, REMOTE, ON_SITE
+  remoteType: z.string().nullable().optional(),
+  // Fields from single job endpoint
   department: z.object({ name: z.string() }).optional(),
-  location: z.object({ name: z.string() }).optional(),
-  employmentType: z.string().optional(),
+  employmentType: z.string().nullable().optional(),
   publishedAt: z.string().optional(),
   applyUrl: z.string().optional(),
   seniority: z.object({ name: z.string() }).optional(),
-  remote: z.boolean().optional(),
   shortDescription: z.string().optional(),
   description: z.string().optional(),
   requirements: z.string().optional(),
@@ -26,23 +37,27 @@ const joinJobSchema = z.object({
 
 export type JoinJob = z.output<typeof joinJobSchema>;
 
-async function request(path: string): Promise<Response> {
+async function request(path: string, locale?: string): Promise<Response> {
   const apiKey = env.JOIN_API_KEY;
   if (!apiKey) {
     throw new Error("JOIN_API_KEY is not configured");
   }
 
-  return fetch(`${JOIN_API_BASE_URL}${path}`, {
-    headers: {
-      Authorization: apiKey,
-      Accept: "application/json",
-    },
-  });
+  const headers: HeadersInit = {
+    Authorization: apiKey,
+    Accept: "application/json",
+  };
+
+  if (locale) {
+    headers["Accept-Language"] = locale;
+  }
+
+  return fetch(`${JOIN_API_BASE_URL}${path}`, { headers });
 }
 
 export const joinClient = {
-  async jobs(): Promise<JoinJob[]> {
-    const response = await request("/jobs");
+  async jobs(locale?: string): Promise<JoinJob[]> {
+    const response = await request("/jobs", locale);
 
     if (!response.ok) {
       const errorText = await response.text();
@@ -61,8 +76,8 @@ export const joinClient = {
     return result.data;
   },
 
-  async job(jobId: string): Promise<JoinJob | null> {
-    const response = await request(`/jobs/${jobId}`);
+  async job(jobId: string, locale?: string): Promise<JoinJob | null> {
+    const response = await request(`/jobs/${jobId}`, locale);
 
     if (response.status === 404) {
       return null;

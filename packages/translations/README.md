@@ -20,15 +20,17 @@ pnpm add @onruntime/translations
 
 #### 1. Create your translations config
 
+Create two files to separate shared config from server-only code:
+
 ```typescript
-// lib/translations.ts
-import {
-  getTranslation as getTranslationCore,
-  type TranslationLoader,
-} from "@onruntime/translations";
+// lib/translations.ts (shared config - can be imported anywhere)
+import type { TranslationLoader } from "@onruntime/translations";
+import type { NextRequest } from "next/server";
 
 export const locales = ["en", "fr"];
 export const defaultLocale = locales[0];
+
+export const LOCALE_COOKIE = "NEXT_LOCALE";
 
 export const load: TranslationLoader = (locale, namespace) => {
   try {
@@ -38,44 +40,121 @@ export const load: TranslationLoader = (locale, namespace) => {
   }
 };
 
-export const getTranslation = async (
-  params: Promise<{ lang: string }>,
-  namespace = "common",
-) => {
-  const { lang } = await params;
-  return getTranslationCore(load, lang, namespace);
+export function getPreferredLocale(request: NextRequest): string {
+  // Check cookie first (user's explicit choice)
+  const cookieLocale = request.cookies.get(LOCALE_COOKIE)?.value;
+  if (cookieLocale && locales.includes(cookieLocale)) {
+    return cookieLocale;
+  }
+
+  // Fall back to Accept-Language header
+  const acceptLanguage = request.headers.get("accept-language");
+  if (!acceptLanguage) return defaultLocale;
+
+  const preferred = acceptLanguage
+    .split(",")
+    .map((lang) => {
+      const [code, priorityToken] = lang.trim().split(";");
+      const priorityMatch = priorityToken?.match(/q=([0-9.]+)/);
+      const priority = priorityMatch ? parseFloat(priorityMatch[1]) : 1.0;
+      return {
+        code: code.split("-")[0].toLowerCase(),
+        priority: Number.isNaN(priority) ? 1.0 : priority,
+      };
+    })
+    .sort((a, b) => b.priority - a.priority)
+    .find((lang) => locales.includes(lang.code));
+
+  return preferred?.code || defaultLocale;
+}
+```
+
+```typescript
+// lib/translations.server.ts (server-only - for server components)
+import "server-only";
+
+import { headers } from "next/headers";
+import { getTranslation as getTranslationCore } from "@onruntime/translations";
+
+import { load, defaultLocale } from "./translations";
+
+export const getTranslation = async (namespace = "common") => {
+  const headersList = await headers();
+  const locale = headersList.get("x-locale") || defaultLocale;
+  return getTranslationCore(load, locale, namespace);
 };
 ```
 
-#### 2. Setup middleware
+> **Note:** Install the `server-only` package to prevent accidental imports in client components: `pnpm add server-only`
+
+#### 2. Setup proxy
+
+The proxy detects the user's language from a `NEXT_LOCALE` cookie (set when user changes language) or falls back to `Accept-Language` header.
 
 ```typescript
-// middleware.ts
+// proxy.ts
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-import { locales, defaultLocale } from "@/lib/translations";
+import { locales, defaultLocale, LOCALE_COOKIE, getPreferredLocale } from "@/lib/translations";
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   const pathnameLocale = locales.find(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
   );
 
+  const isSecure = request.url.startsWith("https://");
+
   if (pathnameLocale === defaultLocale) {
-    const newPathname = pathname.replace(`/${defaultLocale}`, "") || "/";
-    return NextResponse.redirect(new URL(newPathname, request.url));
+    const newPathname = pathname.slice(`/${defaultLocale}`.length) || "/";
+    const response = NextResponse.redirect(new URL(newPathname, request.url));
+    response.cookies.set(LOCALE_COOKIE, defaultLocale, {
+      path: "/",
+      maxAge: 60 * 60 * 24 * 365, // 1 year
+      secure: isSecure,
+      sameSite: "lax",
+    });
+    return response;
   }
 
-  if (pathnameLocale) return;
+  // If URL has a non-default locale prefix, use it and persist preference
+  if (pathnameLocale) {
+    const requestHeaders = new Headers(request.headers);
+    requestHeaders.set("x-locale", pathnameLocale);
+    requestHeaders.set("x-pathname", pathname);
+    const response = NextResponse.next({
+      request: { headers: requestHeaders },
+    });
+    response.cookies.set(LOCALE_COOKIE, pathnameLocale, {
+      path: "/",
+      maxAge: 60 * 60 * 24 * 365, // 1 year
+      secure: isSecure,
+      sameSite: "lax",
+    });
+    return response;
+  }
 
+  const preferredLocale = getPreferredLocale(request);
+
+  if (preferredLocale !== defaultLocale) {
+    return NextResponse.redirect(
+      new URL(`/${preferredLocale}${pathname}`, request.url),
+    );
+  }
+
+  const requestHeaders = new Headers(request.headers);
+  requestHeaders.set("x-locale", defaultLocale);
+  requestHeaders.set("x-pathname", pathname);
   request.nextUrl.pathname = `/${defaultLocale}${pathname}`;
-  return NextResponse.rewrite(request.nextUrl);
+  return NextResponse.rewrite(request.nextUrl, {
+    request: { headers: requestHeaders },
+  });
 }
 
 export const config = {
-  matcher: ["/((?!_next|favicon.ico).*)"],
+  matcher: ["/((?!_next|favicon.ico|api|.*\\.).*)"],
 };
 ```
 
@@ -119,14 +198,10 @@ export default async function RootLayout({
 // app/[lang]/page.tsx
 import { Link } from "@onruntime/translations/next";
 
-import { getTranslation } from "@/lib/translations";
+import { getTranslation } from "@/lib/translations.server";
 
-export default async function Home({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
-  const { t, locale } = await getTranslation(params);
+export default async function Home() {
+  const { t, locale } = await getTranslation();
 
   return (
     <div>

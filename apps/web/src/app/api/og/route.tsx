@@ -1,8 +1,10 @@
 
 import { ImageResponse } from "@vercel/og";
 import { NextRequest } from "next/server";
-import { siteConfig } from "@/lib/utils/metadata";
+import { siteConfig } from "@/constants/site-config";
 import { OnRuntimeWordMark } from "@/logos/components";
+import { getTranslation } from "@/lib/translations.server";
+import { getPreferredLocale } from "@/lib/translations";
 
 export const runtime = "edge";
 
@@ -15,11 +17,14 @@ const figtreeBold = fetch(
 ).then((res) => res.arrayBuffer());
 
 export async function GET(req: NextRequest) {
-  
+
   const { searchParams } = new URL(req.url);
 
+  const locale = getPreferredLocale(req);
+  const { t } = await getTranslation("constants/site-config", locale);
+
   const title = searchParams.get("title") || siteConfig.name;
-  const description = searchParams.get("description") || siteConfig.description;
+  const description = searchParams.get("description") || t("description");
 
   const [regularFont, boldFont] = await Promise.all([
     figtreeRegular,

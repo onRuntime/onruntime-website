@@ -9,11 +9,10 @@ export const env = createEnv({
     RESEND_API_KEY: z.string().optional(),
   },
   client: {
-    NEXT_PUBLIC_APP_URL: z.string().optional(),
+    NEXT_PUBLIC_APP_URL: z.string().optional().default("https://onruntime.com"),
   },
   runtimeEnv: {
-    NEXT_PUBLIC_APP_URL:
-      process.env.NEXT_PUBLIC_APP_URL || "https://onruntime.com",
+    NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL,
     NODE_ENV: process.env.NODE_ENV,
     PORT: process.env.PORT,
     JOIN_API_KEY: process.env.JOIN_API_KEY,

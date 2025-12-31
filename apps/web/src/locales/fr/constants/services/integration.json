@@ -1,0 +1,56 @@
+{
+  "name": "Intégration",
+  "description": "Intégration sur les principales plateformes e-commerce et CMS",
+  "benefits": {
+    "clean-maintainable-code": {
+      "title": "Code propre et maintenable",
+      "description": "Intégration avec des standards de code élevés et une architecture pensée pour la maintenabilité à long terme."
+    },
+    "optimized-performance": {
+      "title": "Performance optimisée",
+      "description": "Sites web rapides et fluides grâce à des techniques d'optimisation avancées et au respect des bonnes pratiques."
+    },
+    "responsive-design": {
+      "title": "Responsive design",
+      "description": "Adaptation parfaite à tous les écrans et appareils pour une expérience utilisateur cohérente."
+    },
+    "smooth-animations": {
+      "title": "Animations fluides",
+      "description": "Intégration d'animations soignées pour enrichir l'expérience utilisateur tout en maintenant les performances."
+    }
+  },
+  "process": {
+    "mockup-analysis": {
+      "title": "Analyse des maquettes",
+      "description": "Étude approfondie des maquettes pour identifier les composants, les interactions et les points d'attention techniques."
+    },
+    "technical-architecture": {
+      "title": "Architecture technique",
+      "description": "Définition de l'architecture frontend et choix des technologies adaptées au projet."
+    },
+    "component-development": {
+      "title": "Développement des composants",
+      "description": "Création des composants réutilisables en suivant les principes du design system."
+    },
+    "responsive-integration": {
+      "title": "Intégration responsive",
+      "description": "Adaptation du design pour tous les formats d'écran avec une attention particulière à l'expérience mobile."
+    },
+    "optimization": {
+      "title": "Optimisation",
+      "description": "Optimisation des performances, de l'accessibilité et du référencement technique."
+    },
+    "testing-validation": {
+      "title": "Tests et validation",
+      "description": "Tests approfondis sur différents navigateurs et appareils pour garantir une expérience utilisateur optimale."
+    }
+  },
+  "process-services": {
+    "mockup-analysis": ["Analyse technique", "Architecture"],
+    "technical-architecture": ["Architecture", "Conseil technique"],
+    "component-development": ["Développement Frontend", "Intégration"],
+    "responsive-integration": ["Intégration", "Responsive Design"],
+    "optimization": ["Performance", "SEO technique"],
+    "testing-validation": ["Tests", "Quality Assurance"]
+  }
+}

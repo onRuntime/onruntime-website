@@ -1,0 +1,56 @@
+{
+  "name": "UI/UX Design",
+  "description": "Creating modern interfaces and optimal user experiences",
+  "benefits": {
+    "user-centered-design": {
+      "title": "User-centered UI/UX design",
+      "description": "An approach that places user needs at the heart of our designs, validated by interactive prototypes."
+    },
+    "creative-innovation": {
+      "title": "Creative innovation",
+      "description": "Creative UI/UX solutions and innovative prototypes that set your brand apart while respecting standards."
+    },
+    "iterative-prototyping": {
+      "title": "Iterative prototyping",
+      "description": "A methodology based on rapid prototypes and frequent iterations to refine the user experience."
+    },
+    "business-objectives": {
+      "title": "Business objectives",
+      "description": "UI/UX design aligned with your business goals, validated by user testing on prototypes."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Needs analysis",
+      "description": "Crucial first step where we analyze your needs, brand and business objectives to define the UI/UX direction."
+    },
+    "research-moodboard": {
+      "title": "Research and moodboard",
+      "description": "Creating moodboards and exploring possible creative directions. Defining the overall artistic direction."
+    },
+    "wireframes": {
+      "title": "Wireframes",
+      "description": "Designing wireframes to validate structure, hierarchy and information architecture."
+    },
+    "interface-design": {
+      "title": "Interface design",
+      "description": "Creating final mockups while respecting your brand guidelines. Special attention to components and their reusability."
+    },
+    "prototyping": {
+      "title": "Prototyping",
+      "description": "Creating prototypes to test interactions and validate user journeys."
+    },
+    "development": {
+      "title": "Development",
+      "description": "Transforming mockups into functional interfaces, with particular attention to defined animations."
+    }
+  },
+  "process-services": {
+    "needs-analysis": ["UI/UX Design"],
+    "research-moodboard": ["UI/UX Design", "Moodboard"],
+    "wireframes": ["UI/UX Design", "Wireframes"],
+    "interface-design": ["UI/UX Design"],
+    "prototyping": ["UI/UX Design"],
+    "development": ["Frontend Development", "Integration"]
+  }
+}

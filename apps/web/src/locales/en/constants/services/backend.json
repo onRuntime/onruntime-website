@@ -1,0 +1,56 @@
+{
+  "name": "Back-end Development",
+  "description": "Architecture and development of robust solutions",
+  "benefits": {
+    "scalable-architecture": {
+      "title": "Scalable architecture",
+      "description": "Systems designed to evolve with your growth, using modern and distributed architectures."
+    },
+    "optimized-database": {
+      "title": "Optimized database",
+      "description": "Database design and optimization for maximum performance and data integrity."
+    },
+    "robust-infrastructure": {
+      "title": "Robust infrastructure",
+      "description": "Deployment on modern cloud infrastructure with high availability and resilience."
+    },
+    "advanced-security": {
+      "title": "Advanced security",
+      "description": "Implementation of security best practices and protection of sensitive data."
+    }
+  },
+  "process": {
+    "needs-analysis": {
+      "title": "Needs analysis",
+      "description": "In-depth study of technical requirements, architecture definition and technology choices."
+    },
+    "system-design": {
+      "title": "System design",
+      "description": "Backend architecture design, data modeling and API definition."
+    },
+    "api-development": {
+      "title": "API development",
+      "description": "Implementation of RESTful or GraphQL APIs with complete documentation."
+    },
+    "database": {
+      "title": "Database",
+      "description": "Database setup and optimization with focus on performance and scalability."
+    },
+    "testing-security": {
+      "title": "Testing and security",
+      "description": "Implementation of automated tests and advanced security measures."
+    },
+    "deployment-monitoring": {
+      "title": "Deployment and monitoring",
+      "description": "Setting up cloud infrastructure, monitoring and alerts."
+    }
+  },
+  "process-services": {
+    "needs-analysis": ["Architecture", "Technical consulting"],
+    "system-design": ["Architecture", "Database Design"],
+    "api-development": ["API Development", "Documentation"],
+    "database": ["Database", "Optimization"],
+    "testing-security": ["Tests", "Security"],
+    "deployment-monitoring": ["DevOps", "Monitoring"]
+  }
+}

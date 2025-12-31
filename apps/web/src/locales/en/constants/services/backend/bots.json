@@ -1,0 +1,80 @@
+{
+  "name": "Discord/Slack Bots",
+  "description": "Development of bots and automations",
+  "hero": {
+    "title": "Bots & Automations",
+    "description": "Develop intelligent bots and automations to improve engagement and productivity of your community. Our expertise guarantees reliable and high-performance bots for Discord, Slack and other platforms."
+  },
+  "features": {
+    "discord-slack": {
+      "title": "Discord & Slack",
+      "description": "Custom bots for major communication platforms."
+    },
+    "advanced-commands": {
+      "title": "Advanced commands",
+      "description": "Intuitive interface with customizable commands."
+    },
+    "optimal-performance": {
+      "title": "Optimal performance",
+      "description": "Architecture optimized for maximum responsiveness."
+    },
+    "integrations": {
+      "title": "Integrations",
+      "description": "Connection with your existing tools and services."
+    }
+  },
+  "benefits": {
+    "intelligent-moderation": {
+      "title": "Intelligent moderation",
+      "description": "Automated management of your community and moderation."
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "Custom alerts and automatic updates."
+    },
+    "engagement": {
+      "title": "Engagement",
+      "description": "Interactive features to animate your community."
+    },
+    "statistics": {
+      "title": "Statistics",
+      "description": "Detailed tracking of activity and interactions."
+    }
+  },
+  "faq": {
+    "bot-types": {
+      "question": "What types of bots can you develop?",
+      "answer": "We develop bots for various platforms (Discord, Slack, Telegram) with different features: moderation, customer support, task automation, statistics, games and community activities. Each bot is customized according to your specific needs."
+    },
+    "bot-reliability": {
+      "question": "How do you ensure bot reliability?",
+      "answer": "We implement several mechanisms: 24/7 monitoring, automatic restart in case of problems, detailed logs, and real-time alerts. We also perform thorough testing before each deployment."
+    },
+    "customization": {
+      "question": "Can commands and features be customized?",
+      "answer": "Yes, all our bots are fully customizable: commands, responses, permissions, integrations. We adapt each feature to your needs and moderation guidelines."
+    },
+    "security": {
+      "question": "How do you handle security?",
+      "answer": "Security is a priority: secure authentication, granular permissions, input validation, protection against spam and abuse. We follow each platform's best practices."
+    },
+    "post-deployment-support": {
+      "question": "Do you offer post-deployment support?",
+      "answer": "Yes, we offer several maintenance plans including: 24/7 monitoring, regular updates, technical support, and functional evolutions according to your needs."
+    }
+  },
+  "complementary": {
+    "analytics": {
+      "title": "Analytics",
+      "description": "Detailed tracking of usage and interactions."
+    },
+    "support-24-7": {
+      "title": "24/7 Support",
+      "description": "Continuous monitoring and rapid intervention."
+    },
+    "evolutions": {
+      "title": "Evolutions",
+      "description": "Regular addition of new features."
+    }
+  }
+}
