@@ -27,7 +27,13 @@ const FeatureItem: React.FC<FeatureItemProps> = ({
   return (
     <div className="flex gap-4">
       {FeatureIcon && (
-        <div className={`p-2 rounded-md bg-${accentColor}/10 text-${accentColor} h-fit shrink-0`}>
+        <div
+          className="p-2 rounded-md h-fit shrink-0"
+          style={{
+            backgroundColor: `color-mix(in srgb, var(--${accentColor}) 10%, transparent)`,
+            color: `var(--${accentColor})`
+          }}
+        >
           <FeatureIcon className="w-5 h-5" />
         </div>
       )}
@@ -60,7 +66,13 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
   return (
     <div className="p-6 rounded-lg border bg-card hover:border-onruntime-blue transition-colors">
       {FeatureIcon && (
-        <div className={`p-3 rounded-md bg-${accentColor}/10 text-${accentColor} mb-4 w-fit`}>
+        <div
+          className="p-3 rounded-md mb-4 w-fit"
+          style={{
+            backgroundColor: `color-mix(in srgb, var(--${accentColor}) 10%, transparent)`,
+            color: `var(--${accentColor})`
+          }}
+        >
           <FeatureIcon className="w-5 h-5" />
         </div>
       )}
@@ -91,7 +103,13 @@ const FeatureMinimal: React.FC<FeatureMinimalProps> = ({
   return (
     <div className="flex gap-4">
       {FeatureIcon && (
-        <div className={`p-2 rounded-md bg-${accentColor}/10 text-${accentColor} h-fit shrink-0`}>
+        <div
+          className="p-2 rounded-md h-fit shrink-0"
+          style={{
+            backgroundColor: `color-mix(in srgb, var(--${accentColor}) 10%, transparent)`,
+            color: `var(--${accentColor})`
+          }}
+        >
           <FeatureIcon className="w-5 h-5" />
         </div>
       )}
@@ -126,7 +144,6 @@ const FeatureSection: React.FC<FeatureSectionProps> = ({
   accentColor = "onruntime-blue",
   variant = 'default'
 }) => {
-  // Look up features from Services constant
   const categoryData = Services.find(s => s.id === categoryId);
   const subService = categoryData?.subServices.find(s => s.id === serviceId);
 
@@ -205,16 +222,25 @@ const FeatureSection: React.FC<FeatureSectionProps> = ({
         {renderFeatures()}
       </div>
 
-      <div className={cn("relative rounded-xl border border-border bg-card min-h-[320px] overflow-hidden", reversed && "md:order-1")}>
-        <div className={`absolute inset-0 z-0 opacity-20 overflow-hidden`}>
-          <div className={`absolute ${reversed ? '-left-20' : '-right-20'} -top-20 w-[300px] h-[300px] rounded-full bg-${accentColor} blur-3xl`}></div>
-          <div className={`absolute ${reversed ? '-right-20' : '-left-20'} -bottom-20 w-[250px] h-[250px] rounded-full bg-${accentColor} blur-3xl`}></div>
+      <div className={cn("relative rounded-xl border border-border bg-card min-h-80 overflow-hidden", reversed && "md:order-1")}>
+        <div className="absolute inset-0 z-0 opacity-20 overflow-hidden">
+          <div
+            className={cn("absolute -top-20 size-75 rounded-full blur-3xl", reversed ? "-left-20" : "-right-20")}
+            style={{ backgroundColor: `var(--${accentColor})` }}
+          />
+          <div
+            className={cn("absolute -bottom-20 size-62.5 rounded-full blur-3xl", reversed ? "-right-20" : "-left-20")}
+            style={{ backgroundColor: `var(--${accentColor})` }}
+          />
         </div>
 
         <div className="absolute inset-0 z-10 flex items-center justify-center">
           {firstFeatureIcon && React.createElement(
             firstFeatureIcon,
-            { className: `w-32 h-32 text-${accentColor} opacity-10` }
+            {
+              className: "size-32 opacity-10",
+              style: { color: `var(--${accentColor})` }
+            }
           )}
         </div>
       </div>
