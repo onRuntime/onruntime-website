@@ -14,7 +14,7 @@ const Featured: React.FC = async () => {
   const { t } = await getTranslation("components/marketing/landing/visitor/featured");
 
   return (
-    <header className="bg-linear-to-t from-onruntime-blue/10 to-transparent">
+    <header className="bg-gradient-to-t from-onruntime-blue/10 to-transparent">
       <div className="px-4 md:px-0 py-16 flex flex-col justify-center items-center max-w-5xl mx-auto">
         <div className="relative max-w-xl flex flex-col items-center gap-6">
           <h1 className="font-semibold text-5xl md:text-6xl text-foreground text-center">
@@ -64,7 +64,7 @@ const Featured: React.FC = async () => {
             sizes="100vw"
           />
 
-          <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent flex flex-col justify-end items-center p-5 md:p-10 gap-5">
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end items-center p-5 md:p-10 gap-5">
             <Image
               className="hidden md:block self-start"
               src={"/static/images/quotes.png"}

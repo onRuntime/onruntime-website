@@ -103,9 +103,9 @@ export const TechnologiesSection = () => (
   <div className="relative py-10 md:py-8">
     <div className="w-full overflow-hidden relative">
       
-      <div className="absolute left-0 top-0 w-32 h-full bg-linear-to-r from-muted to-transparent z-10" />
+      <div className="absolute left-0 top-0 w-32 h-full bg-gradient-to-r from-muted to-transparent z-10" />
 
-      <div className="absolute right-0 top-0 w-32 h-full bg-linear-to-l from-muted to-transparent z-10" />
+      <div className="absolute right-0 top-0 w-32 h-full bg-gradient-to-l from-muted to-transparent z-10" />
 
       <div className="flex flex-col gap-2">
         {" "}
@@ -151,7 +151,7 @@ export const ConsultingSection = () => (
       </Link>
     </div>
 
-    <div className="absolute right-0 top-0 bottom-0 w-1/3 bg-linear-to-l from-onruntime-blue/10 to-transparent" />
+    <div className="absolute right-0 top-0 bottom-0 w-1/3 bg-gradient-to-l from-onruntime-blue/10 to-transparent" />
   </div>
 );
 

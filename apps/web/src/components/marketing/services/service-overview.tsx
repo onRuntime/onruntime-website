@@ -344,7 +344,7 @@ const ServiceOverviewPage: React.FC<ServiceOverviewPageProps> = ({
           </div>
 
           <div className={`absolute inset-0 z-0 opacity-10 overflow-hidden`}>
-            <div className={`absolute right-0 top-0 w-full h-full bg-linear-to-bl from-${accentColor} to-transparent`}></div>
+            <div className={`absolute right-0 top-0 w-full h-full bg-gradient-to-bl from-${accentColor} to-transparent`}></div>
           </div>
 
           <DotPattern
