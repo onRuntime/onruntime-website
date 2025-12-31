@@ -135,7 +135,7 @@ const JobList: React.FC<JobListProps> = ({ jobs, isLoading, error }) => {
                 )}
               </div>
 
-              <div className="flex-shrink-0">
+              <div className="shrink-0">
                 <Link href={`/careers/${job.id}`} passHref>
                   <Button>{t("view-offer")}</Button>
                 </Link>

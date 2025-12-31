@@ -56,12 +56,12 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
               </div>
 
               <div className="relative hidden md:flex items-center justify-center p-8 overflow-hidden">
-                <div className={`absolute right-0 top-0 w-64 h-64 rounded-full bg-${accentColor}/5 backdrop-blur-sm border border-${accentColor}/10`}></div>
-                <div className={`absolute right-24 bottom-12 w-32 h-32 rounded-full bg-${accentColor}/10 backdrop-blur-sm border border-${accentColor}/20`}></div>
-                <div className={`absolute left-12 top-24 w-48 h-48 rounded-full bg-${accentColor}/8 backdrop-blur-sm border border-${accentColor}/15`}></div>
+                <div className={`absolute right-0 top-0 w-64 h-64 rounded-full bg-${accentColor}/5 backdrop-blur-xs border border-${accentColor}/10`}></div>
+                <div className={`absolute right-24 bottom-12 w-32 h-32 rounded-full bg-${accentColor}/10 backdrop-blur-xs border border-${accentColor}/20`}></div>
+                <div className={`absolute left-12 top-24 w-48 h-48 rounded-full bg-${accentColor}/8 backdrop-blur-xs border border-${accentColor}/15`}></div>
 
                 <div className="z-10 grid grid-cols-2 gap-4 w-full max-w-md">
-                  <div className="bg-background/80 backdrop-blur-sm p-4 rounded-lg border border-border shadow-sm transform rotate-2 hover:rotate-0 transition-transform">
+                  <div className="bg-background/80 backdrop-blur-xs p-4 rounded-lg border border-border shadow-xs transform rotate-2 hover:rotate-0 transition-transform">
                     <div className={`w-10 h-10 rounded-md bg-${accentColor}/10 flex items-center justify-center mb-3`}>
                       <ArrowRight className={`w-5 h-5 text-${accentColor}`} />
                     </div>
@@ -69,7 +69,7 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
                     <p className="text-xs text-muted-foreground mt-1">{t("cards.custom.description")}</p>
                   </div>
 
-                  <div className="bg-background/80 backdrop-blur-sm p-4 rounded-lg border border-border shadow-sm transform -rotate-1 hover:rotate-0 transition-transform">
+                  <div className="bg-background/80 backdrop-blur-xs p-4 rounded-lg border border-border shadow-xs transform -rotate-1 hover:rotate-0 transition-transform">
                     <div className={`w-10 h-10 rounded-md bg-${accentColor}/10 flex items-center justify-center mb-3`}>
                       <ArrowRight className={`w-5 h-5 text-${accentColor}`} />
                     </div>
@@ -77,7 +77,7 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
                     <p className="text-xs text-muted-foreground mt-1">{t("cards.support.description")}</p>
                   </div>
 
-                  <div className="bg-background/80 backdrop-blur-sm p-4 rounded-lg border border-border shadow-sm transform -rotate-3 hover:rotate-0 transition-transform">
+                  <div className="bg-background/80 backdrop-blur-xs p-4 rounded-lg border border-border shadow-xs transform -rotate-3 hover:rotate-0 transition-transform">
                     <div className={`w-10 h-10 rounded-md bg-${accentColor}/10 flex items-center justify-center mb-3`}>
                       <ArrowRight className={`w-5 h-5 text-${accentColor}`} />
                     </div>
@@ -85,7 +85,7 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
                     <p className="text-xs text-muted-foreground mt-1">{t("cards.technologies.description")}</p>
                   </div>
 
-                  <div className="bg-background/80 backdrop-blur-sm p-4 rounded-lg border border-border shadow-sm transform rotate-1 hover:rotate-0 transition-transform">
+                  <div className="bg-background/80 backdrop-blur-xs p-4 rounded-lg border border-border shadow-xs transform rotate-1 hover:rotate-0 transition-transform">
                     <div className={`w-10 h-10 rounded-md bg-${accentColor}/10 flex items-center justify-center mb-3`}>
                       <ArrowRight className={`w-5 h-5 text-${accentColor}`} />
                     </div>
@@ -106,7 +106,7 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
               height={30}
               className={cn(
                 "absolute inset-0 z-0",
-                "[mask-image:radial-gradient(ellipse_at_center,transparent_20%,black_100%)]"
+                "mask-[radial-gradient(ellipse_at_center,transparent_20%,black_100%)]"
               )}
             />
           </div>
@@ -132,7 +132,7 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
             </div>
 
             <div className={`absolute inset-0 z-0 opacity-10 overflow-hidden`}>
-              <div className={`absolute right-0 top-0 w-full h-full bg-gradient-to-bl from-${accentColor} to-transparent`}></div>
+              <div className={`absolute right-0 top-0 w-full h-full bg-linear-to-bl from-${accentColor} to-transparent`}></div>
             </div>
           </div>
         </div>

@@ -56,7 +56,7 @@ export default async function GlossaryPage() {
             height={30}
             className={cn(
               "z-[-1]",
-              "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]"
+              "mask-[radial-gradient(300px_circle_at_center,white,transparent)]"
             )}
           />
         </div>
@@ -93,7 +93,7 @@ export default async function GlossaryPage() {
             <div key={letter} id={letter} className="scroll-mt-32">
               <div className="flex items-center gap-4 mb-6">
                 <h2 className="text-4xl font-bold text-foreground uppercase">{letter}</h2>
-                <div className="h-px flex-grow bg-border"></div>
+                <div className="h-px grow bg-border"></div>
                 <Link href={`/glossary/${letter}`}>
                   <Button variant="outline" size="sm">
                     {t('view-all')}

@@ -18,8 +18,12 @@ export const Link = ({ href, locale, ...props }: LinkProps) => {
 
   // Handle string href
   if (typeof href === "string") {
-    // If href is external, use as-is
-    if (href.startsWith("http") || href.startsWith("//")) {
+    // If href is external or a protocol link (mailto:, tel:, etc.), use as-is
+    if (
+      href.startsWith("http") ||
+      href.startsWith("//") ||
+      /^[a-zA-Z][a-zA-Z0-9+.-]*:/.test(href)
+    ) {
       return <NextLink href={href} {...props} />;
     }
 

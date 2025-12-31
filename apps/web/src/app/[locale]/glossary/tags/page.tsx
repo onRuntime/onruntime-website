@@ -47,7 +47,7 @@ export default async function TagsPage() {
               href={`/glossary/tag/${encodeURIComponent(tag)}`}
               className="p-4 border rounded-lg hover:border-primary transition-colors flex items-center gap-3"
             >
-              <TagIcon className="h-5 w-5 text-primary flex-shrink-0" />
+              <TagIcon className="h-5 w-5 text-primary shrink-0" />
               <span className="font-medium text-foreground">{tag}</span>
             </Link>
           ))}

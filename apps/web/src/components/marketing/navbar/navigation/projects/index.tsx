@@ -23,7 +23,7 @@ const FeaturedProjectCard: React.FC<{ project: Project }> = ({ project }) => {
     <NavigationMenuLink asChild className="block">
       <Link
         href={Routes.project(project.id)}
-        className="group flex p-3 gap-4 select-none rounded-md no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+        className="group flex p-3 gap-4 select-none rounded-md no-underline outline-hidden transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
       >
         <div className="relative h-12 w-12 overflow-hidden rounded-md">
           <Image
@@ -53,7 +53,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
     <NavigationMenuLink asChild>
       <Link
         href={Routes.project(project.id)}
-        className="block select-none space-y-1 rounded-md p-3 no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+        className="block select-none space-y-1 rounded-md p-3 no-underline outline-hidden transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
       >
         <div className="flex items-center justify-between">
           <div className="text-sm font-medium leading-none">
@@ -98,7 +98,7 @@ const NavigationProjects: React.FC = () => {
           <NavigationMenuLink asChild className="block">
             <Link
               href={Routes.projects}
-              className="group h-full select-none rounded-md bg-muted p-4 no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+              className="group h-full select-none rounded-md bg-muted p-4 no-underline outline-hidden transition-colors hover:bg-accent hover:text-accent-foreground"
             >
               <div className="flex h-full flex-col justify-between">
                 <div>

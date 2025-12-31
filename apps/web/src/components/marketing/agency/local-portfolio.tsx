@@ -63,7 +63,7 @@ const LocalPortfolioProject = async ({
           fill
         />
       </div>
-      <div className="p-6 flex-grow flex flex-col">
+      <div className="p-6 grow flex flex-col">
         <h3 className="text-xl font-medium mb-2">{project.name}</h3>
         <p className="text-sm text-muted-foreground mb-4">{tProject("description")}</p>
 

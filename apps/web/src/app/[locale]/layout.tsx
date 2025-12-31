@@ -1,6 +1,5 @@
 import "reflect-metadata";
 import "@fontsource/cal-sans";
-import "@/styles/reset.css";
 import "@/styles/globals.css";
 
 import type { ReactNode } from "react";

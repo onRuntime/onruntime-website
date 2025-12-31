@@ -37,7 +37,7 @@ const LegalPage: React.FC<LegalPageProps> = async ({
             height={30}
             className={cn(
               "z-[-1]",
-              "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]"
+              "mask-[radial-gradient(300px_circle_at_center,white,transparent)]"
             )}
           />
         </div>

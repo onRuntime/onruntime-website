@@ -153,7 +153,7 @@ export default async function CityPage({ params }: AgencyPageProps) {
                 return (
                   <div key={index} className="flex items-start gap-3 mb-4">
                     {Icon && (
-                      <div className="p-1.5 rounded-md bg-onruntime-blue/10 text-onruntime-blue mt-0.5 flex-shrink-0">
+                      <div className="p-1.5 rounded-md bg-onruntime-blue/10 text-onruntime-blue mt-0.5 shrink-0">
                         <Icon className="w-4 h-4" />
                       </div>
                     )}

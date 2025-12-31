@@ -21,7 +21,7 @@ const JobContent: React.FC<JobContentProps> = ({ content, className = "" }) => {
         [&_blockquote]:border-l-4 [&_blockquote]:border-primary [&_blockquote]:pl-4 [&_blockquote]:italic [&_blockquote]:my-4 [&_blockquote]:text-muted-foreground
         [&_code]:bg-muted [&_code]:text-foreground [&_code]:px-1 [&_code]:py-0.5 [&_code]:rounded [&_code]:font-mono [&_code]:text-sm
         [&_hr]:border-border [&_hr]:my-8
-        [&_a]:text-primary [&_a]:hover:underline
+        [&_a]:text-primary hover:[&_a]:underline
         ${className}
       `}
       dangerouslySetInnerHTML={{ __html: content }}

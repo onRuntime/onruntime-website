@@ -40,7 +40,7 @@ const NavigationAgencies: React.FC = () => {
           <NavigationMenuLink asChild className="block">
             <Link 
               href={Routes.agency.root}
-              className="group h-full select-none rounded-md bg-muted p-4 no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+              className="group h-full select-none rounded-md bg-muted p-4 no-underline outline-hidden transition-colors hover:bg-accent hover:text-accent-foreground"
             >
               <div className="flex h-full flex-col justify-between">
                 <div>
