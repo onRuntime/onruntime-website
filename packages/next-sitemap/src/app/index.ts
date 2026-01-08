@@ -22,6 +22,13 @@ export interface CreateSitemapHandlerOptions extends SitemapConfig {
     keys: () => string[];
     (key: string): PageModule;
   };
+
+  /**
+   * Enable debug logging to diagnose issues with route discovery
+   * Logs info about generateStaticParams calls and skipped routes
+   * @default false
+   */
+  debug?: boolean;
 }
 
 interface RouteData {
@@ -84,7 +91,7 @@ function extractRoutes(
   return routes;
 }
 
-async function getAllPaths(routes: RouteData[]): Promise<string[]> {
+async function getAllPaths(routes: RouteData[], debug = false): Promise<string[]> {
   const allPaths: string[] = ["/"];
   const seenPaths = new Set<string>(["/"]); // Avoid duplicates
 
@@ -97,17 +104,41 @@ async function getAllPaths(routes: RouteData[]): Promise<string[]> {
       }
     } else if (route.getParams) {
       // Dynamic route with generateStaticParams
-      const params = await route.getParams();
+      try {
+        const params = await route.getParams();
 
-      for (const param of params) {
-        let dynamicPath = route.pathname;
-        for (const segment of route.dynamicSegments) {
-          dynamicPath = dynamicPath.replace(`[${segment}]`, param[segment]);
+        if (debug) {
+          console.log(`[next-sitemap] ${route.pathname}: generateStaticParams returned ${params.length} params`);
         }
-        if (!seenPaths.has(dynamicPath)) {
-          allPaths.push(dynamicPath);
-          seenPaths.add(dynamicPath);
+
+        for (const param of params) {
+          let dynamicPath = route.pathname;
+          for (const segment of route.dynamicSegments) {
+            const value = param[segment];
+            if (value === undefined) {
+              if (debug) {
+                console.warn(`[next-sitemap] ${route.pathname}: missing param "${segment}" in`, param);
+              }
+              continue;
+            }
+            dynamicPath = dynamicPath.replace(`[${segment}]`, value);
+          }
+          if (!seenPaths.has(dynamicPath)) {
+            allPaths.push(dynamicPath);
+            seenPaths.add(dynamicPath);
+          }
         }
+      } catch (error) {
+        console.error(`[next-sitemap] Error calling generateStaticParams for ${route.pathname}:`, error);
+        // Continue with other routes instead of failing completely
+      }
+    } else if (route.dynamicSegments.length > 0) {
+      // Dynamic route without generateStaticParams - warn user
+      if (debug) {
+        console.warn(
+          `[next-sitemap] Skipping dynamic route ${route.pathname}: no generateStaticParams exported. ` +
+          `Use additionalSitemaps for routes that fetch data at runtime.`
+        );
       }
     }
   }
@@ -152,14 +183,23 @@ function pathsToEntries(
  * Use in: app/sitemap.xml/route.ts
  */
 export function createSitemapIndexHandler(options: CreateSitemapHandlerOptions) {
-  const { urlsPerSitemap = 5000, locales = [], defaultLocale, additionalSitemaps, exclude } = options;
+  const { urlsPerSitemap = 5000, locales = [], defaultLocale, additionalSitemaps, exclude, debug = false } = options;
   // Auto-detect localeSegment if i18n is configured
   const localeSegment = options.localeSegment ?? (locales.length > 0 || defaultLocale ? "[locale]" : "");
   const routes = extractRoutes(options.pagesContext, localeSegment);
 
+  if (debug) {
+    console.log(`[next-sitemap] Found ${routes.length} routes:`);
+    routes.forEach((r) => {
+      const hasParams = r.getParams ? "✓ generateStaticParams" : "✗ no generateStaticParams";
+      const segments = r.dynamicSegments.length > 0 ? ` [${r.dynamicSegments.join(", ")}]` : "";
+      console.log(`  ${r.pathname}${segments} - ${hasParams}`);
+    });
+  }
+
   return {
     GET: async () => {
-      const allPaths = await getAllPaths(routes);
+      const allPaths = await getAllPaths(routes, debug);
       // Filter excluded paths for accurate count
       const filteredPaths = allPaths.filter((pathname) => !shouldExclude(pathname, exclude));
       const sitemapCount = Math.max(1, Math.ceil(filteredPaths.length / urlsPerSitemap));
@@ -179,14 +219,14 @@ export function createSitemapIndexHandler(options: CreateSitemapHandlerOptions) 
  * Use in: app/sitemap.xml/[id]/route.ts
  */
 export function createSitemapHandler(options: CreateSitemapHandlerOptions) {
-  const { urlsPerSitemap = 5000, locales = [], defaultLocale, exclude } = options;
+  const { urlsPerSitemap = 5000, locales = [], defaultLocale, exclude, debug = false } = options;
   // Auto-detect localeSegment if i18n is configured
   const localeSegment = options.localeSegment ?? (locales.length > 0 || defaultLocale ? "[locale]" : "");
   const routes = extractRoutes(options.pagesContext, localeSegment);
 
   // Helper to get filtered paths (excludes are applied here for pagination)
   const getFilteredPaths = async () => {
-    const allPaths = await getAllPaths(routes);
+    const allPaths = await getAllPaths(routes, debug);
     return allPaths.filter((pathname) => !shouldExclude(pathname, exclude));
   };
 

@@ -118,6 +118,7 @@ export default nextConfig;
 | `priority` | `number`, `"auto"`, or `function` | `"auto"` | Priority calculation (auto = depth-based) |
 | `changeFreq` | `ChangeFrequency` or `function` | `"weekly"` | Change frequency for entries |
 | `additionalSitemaps` | `string[]` | `[]` | Additional sitemaps to include in index |
+| `debug` | `boolean` | `false` | Enable debug logging to diagnose route discovery issues |
 
 #### Exclude Routes
 
@@ -265,6 +266,78 @@ export async function GET() {
   </url>
 </urlset>
 ```
+
+## Troubleshooting
+
+### Dynamic routes not included in sitemap
+
+If your dynamic routes (e.g., `/articles/[slug]`) are not appearing in the sitemap, enable debug mode to diagnose:
+
+```typescript
+const { GET } = createSitemapIndexHandler({
+  baseUrl: "https://example.com",
+  pagesContext,
+  debug: true, // Enable debug logging
+});
+```
+
+This will log:
+- All discovered routes and whether `generateStaticParams` was found
+- Number of params returned by each `generateStaticParams` call
+- Any errors that occur during param generation
+
+**Common issues:**
+
+1. **`generateStaticParams` not detected**: Make sure it's exported as a named export at the top level of your page file:
+   ```typescript
+   // ✅ Correct
+   export async function generateStaticParams() { ... }
+
+   // ❌ Wrong - not exported
+   async function generateStaticParams() { ... }
+   ```
+
+2. **Database/API errors**: If `generateStaticParams` fetches data from a database or API, errors are caught and logged. Check the console for error messages.
+
+3. **Empty params returned**: If `generateStaticParams` returns an empty array, no dynamic paths will be generated.
+
+### Recommended approach for API/Database routes
+
+For routes that fetch data from external sources (APIs, databases like Payload CMS), we recommend using `additionalSitemaps` with a custom sitemap route:
+
+```typescript
+// app/sitemap.xml/route.ts
+const { GET } = createSitemapIndexHandler({
+  baseUrl: "https://example.com",
+  pagesContext,
+  additionalSitemaps: ["/articles-sitemap.xml"],
+});
+
+// app/articles-sitemap.xml/route.ts
+import { generateSitemapXml } from "@onruntime/next-sitemap";
+import { getPayload } from "payload";
+
+export async function GET() {
+  const payload = await getPayload({ config: configPromise });
+  const articles = await payload.find({
+    collection: "articles",
+    limit: 1000,
+    select: { slug: true, updatedAt: true },
+  });
+
+  const entries = articles.docs.map((article) => ({
+    url: `https://example.com/articles/${article.slug}`,
+    lastModified: article.updatedAt,
+    priority: 0.7,
+  }));
+
+  return new Response(generateSitemapXml(entries), {
+    headers: { "Content-Type": "application/xml" },
+  });
+}
+```
+
+This approach gives you full control over data fetching and error handling.
 
 ## License
 
