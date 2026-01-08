@@ -47,12 +47,28 @@ function extractRoutes(
     // Also remove route groups like (legal) and locale segment
     let pathname = key
       .replace("./", "/")
-      .replace("/page.tsx", "")
-      .replace(new RegExp(`^/${localeSegment.replace(/[[\]]/g, "\\$&")}`), "")
-      .replace(/\/\([^)]+\)/g, "") || "/";
+      .replace("/page.tsx", "");
 
-    // Handle root page in locale folder
-    if (pathname === "") pathname = "/";
+    // Only strip locale segment if one is configured
+    if (localeSegment) {
+      pathname = pathname.replace(
+        new RegExp(`^/${localeSegment.replace(/[[\]]/g, "\\$&")}`),
+        ""
+      );
+    }
+
+    // Remove route groups like (frontend), (legal), etc.
+    pathname = pathname.replace(/\/\([^)]+\)/g, "");
+
+    // Skip invalid paths that contain src/ or app/ segments
+    if (/(?:^|\/)(src|app)(?:\/|$)/.test(pathname)) continue;
+
+    // Ensure pathname starts with / and handle empty paths
+    if (!pathname || pathname === "") {
+      pathname = "/";
+    } else if (!pathname.startsWith("/")) {
+      pathname = "/" + pathname;
+    }
 
     // Extract dynamic segments
     const dynamicSegments =
