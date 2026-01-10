@@ -50,44 +50,18 @@ function getAllFiles(dir: string, ext: string): string[] {
 }
 
 function getFilesToProcess(): ChangedFiles {
-  if (isInitMode) {
-    // Init mode: get all files from default locale
-    const jsonDir = resolve(WEB_ROOT, LOCALES_DIR, defaultLocale);
-    const mdxDir = resolve(WEB_ROOT, CONTENT_DIR, defaultLocale);
+  // Always get all files from default locale and check for missing translations
+  const jsonDir = resolve(WEB_ROOT, LOCALES_DIR, defaultLocale);
+  const mdxDir = resolve(WEB_ROOT, CONTENT_DIR, defaultLocale);
 
-    const jsonFiles = getAllFiles(jsonDir, ".json").map(
-      (f) => `apps/web/${LOCALES_DIR}/${defaultLocale}/${f.replace(jsonDir + "/", "")}`
-    );
-    const mdxFiles = getAllFiles(mdxDir, ".mdx").map(
-      (f) => `apps/web/${CONTENT_DIR}/${defaultLocale}/${f.replace(mdxDir + "/", "")}`
-    );
+  const jsonFiles = getAllFiles(jsonDir, ".json").map(
+    (f) => `apps/web/${LOCALES_DIR}/${defaultLocale}/${f.replace(jsonDir + "/", "")}`
+  );
+  const mdxFiles = getAllFiles(mdxDir, ".mdx").map(
+    (f) => `apps/web/${CONTENT_DIR}/${defaultLocale}/${f.replace(mdxDir + "/", "")}`
+  );
 
-    return { json: jsonFiles, mdx: mdxFiles };
-  }
-
-  // Normal mode: get changed files from git
-  try {
-    let output = execSync("git diff --name-only HEAD~1 HEAD", {
-      encoding: "utf-8",
-    });
-    const uncommitted = execSync("git diff --name-only HEAD", {
-      encoding: "utf-8",
-    });
-    output = output + "\n" + uncommitted;
-
-    const files = [...new Set(output.split("\n").filter(Boolean))];
-
-    return {
-      json: files.filter(
-        (f) => f.startsWith(`apps/web/${LOCALES_DIR}/`) && f.endsWith(".json")
-      ),
-      mdx: files.filter(
-        (f) => f.startsWith(`apps/web/${CONTENT_DIR}/`) && f.endsWith(".mdx")
-      ),
-    };
-  } catch {
-    return { json: [], mdx: [] };
-  }
+  return { json: jsonFiles, mdx: mdxFiles };
 }
 
 function parseLocalePath(
