@@ -1,5 +1,13 @@
 # @onruntime/next-sitemap
 
+## 0.4.1
+
+### Patch Changes
+
+- eb72a36: - Add `normalizePath` function to ensure consistent URLs without trailing slashes
+  - Round priority values to 2 decimal places to avoid floating point precision issues
+  - Add unit tests for core utilities and XML generation
+
 ## 0.4.0
 
 ### Minor Changes
