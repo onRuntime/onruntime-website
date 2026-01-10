@@ -86,7 +86,9 @@ export interface SitemapEntry {
 export function calculateDepthPriority(pathname: string): number {
   if (pathname === "/") return 1.0;
   const depth = pathname.split("/").filter(Boolean).length;
-  return Math.max(0.1, 1.0 - depth * 0.2);
+  const priority = Math.max(0.1, 1.0 - depth * 0.2);
+  // Round to 2 decimal places to avoid floating point precision issues
+  return Math.round(priority * 100) / 100;
 }
 
 /**
@@ -156,6 +158,14 @@ export type PageModule = {
 };
 
 /**
+ * Normalize pathname by removing trailing slash (except for root)
+ */
+export function normalizePath(pathname: string): string {
+  if (pathname === "/") return pathname;
+  return pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
+}
+
+/**
  * Generate the full URL for a pathname
  */
 export function buildUrl(
@@ -164,10 +174,11 @@ export function buildUrl(
   locale?: string,
   defaultLocale?: string
 ): string {
+  const normalizedPath = normalizePath(pathname);
   if (!locale || locale === defaultLocale) {
-    return `${baseUrl}${pathname}`;
+    return `${baseUrl}${normalizedPath}`;
   }
-  return `${baseUrl}/${locale}${pathname}`;
+  return `${baseUrl}/${locale}${normalizedPath}`;
 }
 
 /**
