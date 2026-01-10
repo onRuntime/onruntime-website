@@ -212,6 +212,81 @@ importers:
         specifier: ^5
         version: 5.9.3
 
+  examples/next-sitemap/app-with-locales:
+    dependencies:
+      '@onruntime/next-sitemap':
+        specifier: workspace:*
+        version: link:../../../packages/next-sitemap
+      next:
+        specifier: ^16.1.1
+        version: 16.1.1(@opentelemetry/api@1.9.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+      react:
+        specifier: ^19.1.0
+        version: 19.2.3
+      react-dom:
+        specifier: ^19.1.0
+        version: 19.2.3(react@19.2.3)
+    devDependencies:
+      '@types/node':
+        specifier: ^22
+        version: 22.19.3
+      '@types/react':
+        specifier: ^19
+        version: 19.2.7
+      typescript:
+        specifier: ^5
+        version: 5.9.3
+
+  examples/next-sitemap/pages:
+    dependencies:
+      '@onruntime/next-sitemap':
+        specifier: workspace:*
+        version: link:../../../packages/next-sitemap
+      next:
+        specifier: ^16.1.1
+        version: 16.1.1(@opentelemetry/api@1.9.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+      react:
+        specifier: ^19.1.0
+        version: 19.2.3
+      react-dom:
+        specifier: ^19.1.0
+        version: 19.2.3(react@19.2.3)
+    devDependencies:
+      '@types/node':
+        specifier: ^22
+        version: 22.19.3
+      '@types/react':
+        specifier: ^19
+        version: 19.2.7
+      typescript:
+        specifier: ^5
+        version: 5.9.3
+
+  examples/next-sitemap/pages-with-locales:
+    dependencies:
+      '@onruntime/next-sitemap':
+        specifier: workspace:*
+        version: link:../../../packages/next-sitemap
+      next:
+        specifier: ^16.1.1
+        version: 16.1.1(@opentelemetry/api@1.9.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+      react:
+        specifier: ^19.1.0
+        version: 19.2.3
+      react-dom:
+        specifier: ^19.1.0
+        version: 19.2.3(react@19.2.3)
+    devDependencies:
+      '@types/node':
+        specifier: ^22
+        version: 22.19.3
+      '@types/react':
+        specifier: ^19
+        version: 19.2.7
+      typescript:
+        specifier: ^5
+        version: 5.9.3
+
   examples/translations/next-app:
     dependencies:
       '@onruntime/translations':
