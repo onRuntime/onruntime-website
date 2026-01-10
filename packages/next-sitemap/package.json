@@ -28,6 +28,11 @@
       "types": "./dist/app/index.d.ts",
       "import": "./dist/app/index.js",
       "require": "./dist/app/index.cjs"
+    },
+    "./pages": {
+      "types": "./dist/pages/index.d.ts",
+      "import": "./dist/pages/index.js",
+      "require": "./dist/pages/index.cjs"
     }
   },
   "files": [
@@ -51,6 +56,7 @@
     "sitemap",
     "nextjs",
     "app-router",
+    "pages-router",
     "seo",
     "xml",
     "dynamic-sitemap"

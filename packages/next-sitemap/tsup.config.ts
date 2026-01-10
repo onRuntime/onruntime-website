@@ -23,4 +23,15 @@ export default defineConfig([
     splitting: false,
     treeshake: true,
   },
+  // Next.js Pages Router integration
+  {
+    entry: {
+      "pages/index": "src/pages/index.ts",
+    },
+    format: ["esm", "cjs"],
+    dts: true,
+    external: ["next", "@onruntime/next-sitemap"],
+    splitting: false,
+    treeshake: true,
+  },
 ]);
