@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "文档",
+    "description": "了解如何使用 onRuntime Studio。浏览我们的文档，获取指南、教程和最佳实践。"
+  },
+  "title": "文档",
+  "subtitle": "欢迎来到 onRuntime Studio 文档。了解如何与我们合作，探索我们的流程，并发现最佳实践。",
+  "toc": {
+    "title": "本页内容"
+  },
+  "reading-time": {
+    "min-read": "分钟阅读",
+    "words": "字"
+  },
+  "navigation": {
+    "previous": "上一页",
+    "next": "下一页",
+    "last-updated": "最后更新于"
+  },
+  "sidebar": {
+    "title": "文档"
+  }
+}

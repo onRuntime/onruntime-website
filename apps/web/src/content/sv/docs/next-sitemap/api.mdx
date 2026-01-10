@@ -1,0 +1,169 @@
+---
+title: API-referens
+description: Komplett API-dokumentation för @onruntime/next-sitemap
+---
+## generateSitemap
+
+Genererar en sitemap för din Next.js-applikation.
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const sitemap = await generateSitemap(options);
+```
+
+### Options
+
+| Option | Typ | Obligatorisk | Beskrivning |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | Ja | Din sidas bas-URL |
+| `additionalPaths` | `SitemapEntry[]` | Nej | Ytterligare URL:er att inkludera |
+| `exclude` | `string[]` | Nej | Glob-mönster att exkludera |
+| `defaults` | `SitemapDefaults` | Nej | Standardvärden för alla poster |
+| `locales` | `string[]` | Nej | Stödda språkregioner |
+| `defaultLocale` | `string` | Nej | Standard språkregion |
+
+### SitemapEntry
+
+| Egenskap | Typ | Beskrivning |
+|----------|------|-------------|
+| `url` | `string` | Sidans URL (relativ eller absolut) |
+| `lastModified` | `Date \| string` | Senaste ändringsdatum |
+| `changeFrequency` | `ChangeFrequency` | Hur ofta sidan ändras |
+| `priority` | `number` | Prioritet (0.0 - 1.0) |
+
+### ChangeFrequency
+
+```tsx
+type ChangeFrequency =
+  | "always"
+  | "hourly"
+  | "daily"
+  | "weekly"
+  | "monthly"
+  | "yearly"
+  | "never";
+```
+
+### Example
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  const blogPosts = await fetchPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    additionalPaths: blogPosts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      priority: 0.8,
+    })),
+    exclude: ["/admin/*", "/api/*"],
+  });
+}
+```
+
+## generateRobots
+
+Genererar en robots.txt-fil.
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+const robots = generateRobots(options);
+```
+
+### Options
+
+| Option | Typ | Obligatorisk | Beskrivning |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | Ja | Din sidas bas-URL |
+| `rules` | `RobotsRule[]` | Nej | Anpassade robots-regler |
+| `sitemap` | `string \| boolean` | Nej | Sitemap-URL eller `false` för att exkludera |
+
+### RobotsRule
+
+| Egenskap | Typ | Beskrivning |
+|----------|------|-------------|
+| `userAgent` | `string` | Mål användaragenter |
+| `allow` | `string \| string[]` | Tillåtna sökvägar |
+| `disallow` | `string \| string[]` | Otillåtna sökvägar |
+| `crawlDelay` | `number` | Fördröjning i sekunder |
+
+### Example
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+        crawlDelay: 1,
+      },
+    ],
+  });
+}
+```
+
+## generateSitemapIndex
+
+Genererar en sitemap-index för stora sidor.
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+const index = await generateSitemapIndex(options);
+```
+
+### Options
+
+| Option | Typ | Obligatorisk | Beskrivning |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | Ja | Din sidas bas-URL |
+| `sitemapsPerFile` | `number` | Nej | URL:er per sitemap (standard: 5000) |
+
+### Example
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 10000,
+  });
+}
+```
+
+## Type Exports
+
+Paketerar TypeScript-typer för bekvämlighet:
+
+```tsx
+import type {
+  SitemapEntry,
+  SitemapOptions,
+  RobotsOptions,
+  RobotsRule,
+  ChangeFrequency,
+} from "@onruntime/next-sitemap";
+```
+
+<Callout type="info" title="TypeScript Support">
+  Alla funktioner och alternativ är fullständigt typade. Din IDE kommer att ge autocomplet och typkontroll.
+</Callout>

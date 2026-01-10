@@ -1,0 +1,169 @@
+---
+title: API-Referenz
+description: Komplette API-Dokumentation für @onruntime/next-sitemap
+---
+## generateSitemap
+
+Generiert eine Sitemap für deine Next.js-Anwendung.
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const sitemap = await generateSitemap(options);
+```
+
+### Optionen
+
+| Option | Typ | Erforderlich | Beschreibung |
+|--------|------|-------------|--------------|
+| `baseUrl` | `string` | Ja | Die Basis-URL deiner Seite |
+| `additionalPaths` | `SitemapEntry[]` | Nein | Zusätzliche URLs, die einbezogen werden sollen |
+| `exclude` | `string[]` | Nein | Glob-Muster zum Ausschließen |
+| `defaults` | `SitemapDefaults` | Nein | Standardwerte für alle Einträge |
+| `locales` | `string[]` | Nein | Unterstützte Sprachen |
+| `defaultLocale` | `string` | Nein | Standardsprache |
+
+### SitemapEntry
+
+| Eigenschaft | Typ | Beschreibung |
+|-------------|------|--------------|
+| `url` | `string` | Seiten-URL (relativ oder absolut) |
+| `lastModified` | `Date \| string` | Letztes Änderungsdatum |
+| `changeFrequency` | `ChangeFrequency` | Wie oft sich die Seite ändert |
+| `priority` | `number` | Priorität (0.0 - 1.0) |
+
+### ChangeFrequency
+
+```tsx
+type ChangeFrequency =
+  | "always"
+  | "hourly"
+  | "daily"
+  | "weekly"
+  | "monthly"
+  | "yearly"
+  | "never";
+```
+
+### Beispiel
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  const blogPosts = await fetchPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    additionalPaths: blogPosts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      priority: 0.8,
+    })),
+    exclude: ["/admin/*", "/api/*"],
+  });
+}
+```
+
+## generateRobots
+
+Generiert eine robots.txt-Datei.
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+const robots = generateRobots(options);
+```
+
+### Optionen
+
+| Option | Typ | Erforderlich | Beschreibung |
+|--------|------|-------------|--------------|
+| `baseUrl` | `string` | Ja | Die Basis-URL deiner Seite |
+| `rules` | `RobotsRule[]` | Nein | Benutzerdefinierte Robots-Regeln |
+| `sitemap` | `string \| boolean` | Nein | Sitemap-URL oder `false`, um auszuschließen |
+
+### RobotsRule
+
+| Eigenschaft | Typ | Beschreibung |
+|-------------|------|--------------|
+| `userAgent` | `string` | Ziel-Browser-Agent |
+| `allow` | `string \| string[]` | Erlaubte Pfade |
+| `disallow` | `string \| string[]` | Verbotene Pfade |
+| `crawlDelay` | `number` | Crawling-Verzögerung in Sekunden |
+
+### Beispiel
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+        crawlDelay: 1,
+      },
+    ],
+  });
+}
+```
+
+## generateSitemapIndex
+
+Generiert einen Sitemap-Index für große Seiten.
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+const index = await generateSitemapIndex(options);
+```
+
+### Optionen
+
+| Option | Typ | Erforderlich | Beschreibung |
+|--------|------|-------------|--------------|
+| `baseUrl` | `string` | Ja | Die Basis-URL deiner Seite |
+| `sitemapsPerFile` | `number` | Nein | URLs pro Sitemap (Standard: 5000) |
+
+### Beispiel
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 10000,
+  });
+}
+```
+
+## Type Exports
+
+Das Paket exportiert TypeScript-Typen zur Vereinfachung:
+
+```tsx
+import type {
+  SitemapEntry,
+  SitemapOptions,
+  RobotsOptions,
+  RobotsRule,
+  ChangeFrequency,
+} from "@onruntime/next-sitemap";
+```
+
+<Callout type="info" title="TypeScript Support">
+  Alle Funktionen und Optionen sind vollständig typisiert. Deine IDE bietet Autovervollständigung und Typprüfung.
+</Callout>

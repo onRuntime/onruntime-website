@@ -1,0 +1,92 @@
+---
+title: البدء
+description: مكتبة ترجمة خفيفة وآمنة من حيث النوع لReact وNext.js
+---
+## ما هو @onruntime/translations؟
+
+`@onruntime/translations` هي مكتبة خفيفة ومؤمنة نوعياً للترجمة (i18n) مصممة لتطبيقات React وNext.js. توفر واجهة برمجة تطبيقات بسيطة لإدارة الترجمات مع دعم كامل لـ TypeScript.
+
+<Callout type="info" title="المميزات الرئيسية">
+  - ترجمات مؤمنة نوعياً باستخدام TypeScript
+  - دعم لـ React وNext.js (App Router)
+  - تنظيم بناءً على المساحة الاسمية
+  - استبدال المتغيرات
+  - خفيفة وأداء عالي
+</Callout>
+
+## لماذا تستخدمها؟
+
+### أمان النوع
+
+احصل على أخطاء وقت التجميع عند استخدام مفاتيح ترجمة غير صالحة:
+
+```typescript
+const { t } = useTranslation("common");
+
+t("greeting");        // ✅ مفتاح صالح
+t("invalid_key");     // ❌ خطأ TypeScript
+```
+
+### واجهة برمجة تطبيقات بسيطة
+
+فقط اثنان من الـ hooks لجميع احتياجاتك في الترجمة:
+
+```typescript
+// مكونات العميل
+const { t } = useTranslation("namespace");
+
+// مكونات الخادم (Next.js)
+const { t } = await getTranslation("namespace");
+```
+
+### تنظيم الترجمات
+
+احتفظ بترجماتك منظمة باستخدام المساحات الاسمية:
+
+<Files>
+  <Folder name="locales" defaultOpen>
+    <Folder name="en" defaultOpen>
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+    </Folder>
+    <Folder name="fr">
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+    </Folder>
+  </Folder>
+</Files>
+
+## مثال سريع
+
+```tsx
+// locales/en/common.json
+{
+  "greeting": "مرحبا، {name}!"
+}
+
+// المكون
+import { useTranslation } from "@onruntime/translations/react";
+
+function Welcome({ name }) {
+  const { t } = useTranslation("common");
+
+  return <h1>{t("greeting", { name })}</h1>;
+}
+```
+
+## الخطوات التالية
+
+<Cards>
+  <Card
+    title="التثبيت"
+    description="ثبت وتهيئة الحزمة"
+    href="/docs/translations/installation"
+  />
+  <Card
+    title="استخدام React"
+    description="تعلم كيفية استخدام الترجمات في React"
+    href="/docs/translations/react"
+  />
+</Cards>

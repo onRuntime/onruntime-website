@@ -1,0 +1,63 @@
+---
+title: Med AI
+description: Använd gitmoji med Claude Code
+---
+Installera vår gitmoji-plugin för [Claude Code](https://claude.ai/code) för att generera commits enligt konventionen.
+
+## Installera Pluginen
+
+Lägg till onRuntime marketplace och installera pluginen:
+
+```bash
+# Lägg till onRuntime marketplace
+/plugin marketplace add https://onruntime.com/plugins
+
+# Installera gitmoji-pluginen
+/plugin install gitmoji@onruntime
+```
+
+Eller installera direkt från menyn:
+
+1. Kör `/plugin` i Claude Code
+2. Gå till **Upptäck** fliken
+3. Lägg till marketplace: `https://onruntime.com/plugins`
+4. Sök efter "gitmoji" och installera
+
+## Användning
+
+Kör kommandot `/commit` för att skapa en commit:
+
+```
+/commit
+```
+
+```
+/commit fixa inloggningsfelet
+```
+
+Claude Code kommer att analysera dina ändringar och skapa en commit enligt gitmoji-konventionen.
+
+<Callout type="info" title="Plugin Kommando">
+  Kommandot `/commit` hämtar automatiskt din git-status och diff för att generera det lämpliga commit-meddelandet.
+</Callout>
+
+## Alternativ: CLAUDE.md
+
+Om du föredrar att inte installera pluginen, lägg till detta i ditt projekts `CLAUDE.md`:
+
+```markdown
+## Commit Konvention
+
+Använd gitmoji konventionella commits:
+
+\`\`\`
+<gitmoji> <typ> <beskrivning>
+\`\`\`
+
+Typer: add, fix, improve, update, remove, refactor, rename, move, upgrade, downgrade
+
+Regler:
+- Skriv med små bokstäver
+- Använd imperativ form ("lägg till" inte "lades till")
+- En logisk ändring per commit
+```

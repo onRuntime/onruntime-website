@@ -1,0 +1,86 @@
+---
+title: Aan de slag
+description: Een sitemapgenerator voor Next.js-toepassingen
+---
+## Wat is @onruntime/next-sitemap?
+
+`@onruntime/next-sitemap` is een krachtige sitemapgenerator die speciaal is ontworpen voor Next.js-applicaties. Het genereert automatisch `sitemap.xml` en `robots.txt` bestanden voor je Next.js-site.
+
+<Callout type="info" title="Belangrijkste Kenmerken">
+  - Automatische sitemapgeneratie voor App Router
+  - Ondersteuning voor dynamische routes
+  - Configureerbare prioriteit en changefreq
+  - robots.txt generatie
+  - Meertalige sitemapondersteuning
+</Callout>
+
+## Waarom Zou Je Het Gebruiken?
+
+### SEO Optimalisatie
+
+Sitemaps helpen zoekmachines om je pagina's efficiënter te ontdekken en te indexeren:
+
+- **Snellere indexering** - Zoekmachines kunnen al je pagina's vinden
+- **Betere crawling** - Informeer crawlers over paginawijzigingen
+- **Prioriteitsindicaties** - Leid crawlers naar belangrijke pagina's
+
+### Next.js Integratie
+
+Speciaal gebouwd voor Next.js, het begrijpt:
+
+- App Router structuur
+- Dynamische routes
+- Statische generatie
+- Geïndternationaliseerde routing
+
+## Snelle Voorbeeld
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+Dit genereert een complete sitemap met al je statische en dynamische pagina's.
+
+## Geproduceerde Output
+
+Het pakket genereert standaard XML-sitemaps:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/about</loc>
+    <lastmod>2024-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+```
+
+## Volgende Stappen
+
+<Cards>
+  <Card
+    title="Installatie"
+    description="Installeer en stel het pakket in"
+    href="/docs/next-sitemap/installation"
+  />
+  <Card
+    title="Configuratie"
+    description="Leer over configuratieopties"
+    href="/docs/next-sitemap/configuration"
+  />
+</Cards>

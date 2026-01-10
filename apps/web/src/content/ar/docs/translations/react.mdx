@@ -1,0 +1,157 @@
+---
+title: استخدام React
+description: استخدام @onruntime/translations في تطبيقات React
+---
+## الاستخدام الأساسي
+
+### هوك useTranslation
+
+هوك `useTranslation` هو طريقتك الأساسية للوصول إلى الترجمات في مكونات React:
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function MyComponent() {
+  const { t, locale } = useTranslation("common");
+
+  return (
+    <div>
+      <p>اللغة الحالية: {locale}</p>
+      <h1>{t("title")}</h1>
+    </div>
+  );
+}
+```
+
+### استبدال المتغيرات
+
+مرر المتغيرات إلى الترجمات الخاصة بك:
+
+```json
+// locales/en/common.json
+{
+  "greeting": "مرحبا، {name}!",
+  "items_count": "لديك {count} عناصر"
+}
+```
+
+```tsx
+function Greeting({ name, itemCount }) {
+  const { t } = useTranslation("common");
+
+  return (
+    <>
+      <p>{t("greeting", { name })}</p>
+      <p>{t("items_count", { count: itemCount })}</p>
+    </>
+  );
+}
+```
+
+## عدة نطاقات
+
+يمكنك استخدام عدة نطاقات في نفس المكون:
+
+```tsx
+function Dashboard() {
+  const { t: tCommon } = useTranslation("common");
+  const { t: tDashboard } = useTranslation("dashboard");
+
+  return (
+    <div>
+      <h1>{tDashboard("title")}</h1>
+      <button>{tCommon("buttons.save")}</button>
+    </div>
+  );
+}
+```
+
+## تغيير اللغة
+
+استخدم دالة `setLocale` لتغيير اللغة الحالية:
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function LanguageSwitcher() {
+  const { locale, setLocale } = useTranslation("common");
+
+  return (
+    <select value={locale} onChange={(e) => setLocale(e.target.value)}>
+      <option value="en">الإنجليزية</option>
+      <option value="fr">الفرنسية</option>
+      <option value="de">الألمانية</option>
+    </select>
+  );
+}
+```
+
+## المفاتيح المتداخلة
+
+يمكنك الوصول إلى المفاتيح المتداخلة باستخدام تنسيق النقاط:
+
+```json
+// locales/en/common.json
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "contact": "اتصل"
+  }
+}
+```
+
+```tsx
+function Navigation() {
+  const { t } = useTranslation("common");
+
+  return (
+    <nav>
+      <a href="/">{t("nav.home")}</a>
+      <a href="/about">{t("nav.about")}</a>
+      <a href="/contact">{t("nav.contact")}</a>
+    </nav>
+  );
+}
+```
+
+## أفضل الممارسات
+
+<Callout type="info" title="تنظيم حسب الميزة">
+  نظم الترجمات حسب الميزة أو الصفحة بدلاً من وضع كل شيء في ملف واحد.
+</Callout>
+
+### الهيكل المقترح
+
+<Files>
+  <Folder name="locales" defaultOpen>
+    <Folder name="en" defaultOpen>
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+      <File name="settings.json" />
+    </Folder>
+  </Folder>
+</Files>
+
+### احتفظ بالمفاتيح متسقة
+
+استخدم تسميات متسقة عبر جميع اللغات:
+
+```json
+// ✅ جيد - هيكل متسق
+{
+  "page_title": "لوحة التحكم",
+  "actions": {
+    "save": "احفظ",
+    "cancel": "ألغ"
+  }
+}
+
+// ❌ تجنب - غير متسق
+{
+  "pageTitle": "لوحة التحكم",
+  "save_button": "احفظ",
+  "cancelBtn": "ألغ"
+}
+```

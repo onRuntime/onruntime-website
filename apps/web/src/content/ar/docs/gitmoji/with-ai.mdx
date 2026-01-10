@@ -1,0 +1,63 @@
+---
+title: مع الذكاء الاصطناعي
+description: استخدم gitmoji مع Claude Code
+---
+قم بتثبيت ملحق gitmoji الخاص بنا لـ [Claude Code](https://claude.ai/code) لتوليد Commits وفقًا للاتفاقية.
+
+## تثبيت الملحق
+
+أضف سوق onRuntime وقم بتثبيت الملحق:
+
+```bash
+# إضافة سوق onRuntime
+/plugin marketplace add https://onruntime.com/plugins
+
+# تثبيت ملحق gitmoji
+/plugin install gitmoji@onruntime
+```
+
+أو قم بالتثبيت مباشرة من القائمة:
+
+1. قم بتشغيل `/plugin` في Claude Code
+2. انتقل إلى علامة التبويب **Discover**
+3. أضف السوق: `https://onruntime.com/plugins`
+4. ابحث عن "gitmoji" وقم بالتثبيت
+
+## الاستخدام
+
+قم بتشغيل الأمر `/commit` لإنشاء Commit:
+
+```
+/commit
+```
+
+```
+/commit fix the login bug
+```
+
+سيقوم Claude Code بتحليل تغييراتك وإنشاء Commit وفقًا لاتفاقية gitmoji.
+
+<Callout type="info" title="أمر الملحق">
+  يقوم الأمر `/commit` تلقائيًا بجلب حالة git والتغيير لإنشاء رسالة Commit المناسبة.
+</Callout>
+
+## بديل: CLAUDE.md
+
+إذا كنت تفضل عدم تثبيت الملحق، أضف هذا إلى ملف `CLAUDE.md` الخاص بمشروعك:
+
+```markdown
+## اتفاقية Commit
+
+استخدم Commits التقليدية الخاصة بـ gitmoji:
+
+\`\`\`
+<gitmoji> <type> <description>
+\`\`\`
+
+الأنواع: add, fix, improve, update, remove, refactor, rename, move, upgrade, downgrade
+
+القواعد:
+- اكتب بحروف صغيرة
+- استخدم صيغة الأمر ("add" وليس "added")
+- تغيير منطقي واحد لكل Commit
+```

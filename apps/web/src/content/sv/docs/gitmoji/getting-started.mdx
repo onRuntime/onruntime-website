@@ -1,0 +1,91 @@
+---
+title: Kom igång
+description: Lär dig vår commit-konvention
+---
+Vi gillar att ha en ren projektlogg. Vår commit-konvention är inspirerad av [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0) men anpassad med [gitmoji](https://gitmoji.dev) för att göra den mer visuell och rolig.
+
+## Struktur
+
+Commit-meddelandet bör struktureras som följande och **i gemener**:
+
+```
+<gitmoji> <typ> <beskrivning> [(#<ärendenummer>)]
+
+[valfritt brödtext]
+
+[valfria fotnot(er)]
+```
+
+### Exempel
+
+```bash
+📝 uppdatera dokumentation bidragsgivare
+
+- Lägg till @jerembdn som bidragsgivare
+- Lägg till @younesbessa som bidragsgivare
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+Det mesta av tiden är en enkel rad tillräcklig:
+
+```bash
+📝 uppdatera dokumentation bidragsgivare
+```
+
+## Typer
+
+Vi använder följande commit-typer:
+
+| Typ | Beskrivning |
+| --- | --- |
+| `add` | Lägg till en ny funktion |
+| `fix` |Åtgärda en bugg |
+| `improve` | Förbättra något |
+| `update` | Uppdatera något |
+| `remove` | Ta bort något |
+| `refactor` | Refaktorisera något |
+| `rename` | Byt namn på något |
+| `move` | Flytta en fil eller mapp |
+| `upgrade` | Uppgradera beroenden |
+| `downgrade` | Nedgradera beroenden |
+
+## Beskrivning
+
+Skriv beskrivningar i **imperativ form** och **gemener**:
+
+```bash
+# Bra
+📝 uppdatera dokumentation bidragsgivare
+
+# Dåligt
+📝 uppdaterade dokumentation bidragsgivare
+
+# Dåligt
+📝 Uppdatera dokumentation bidragsgivare
+```
+
+## Ärendenummer
+
+Länka commits till ärenden genom att lägga till ärendenumret:
+
+```bash
+📝 uppdatera dokumentation bidragsgivare (#123)
+```
+
+## Brödtext
+
+Använd brödtexten för sammanhang och motivation:
+
+```bash
+📝 uppdatera dokumentation bidragsgivare
+
+- Lägg till @jerembdn som bidragsgivare
+- Lägg till @younesbessa som bidragsgivare
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+<Callout type="info" title="En Commit, En Syfte">
+  Varje commit bör representera en enda logisk förändring. Blanda inte orelaterade förändringar.
+</Callout>

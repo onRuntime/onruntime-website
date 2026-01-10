@@ -1,0 +1,91 @@
+---
+title: 始めに
+description: コミットのルールについて学ぼう
+---
+私たちはクリーンなプロジェクト履歴を持ちたいと思っています。私たちのコミット規約は [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0) からインスパイアを受けていますが、[gitmoji](https://gitmoji.dev) を使ってもっと視覚的で楽しいものにカスタマイズしています。
+
+## 構造
+
+コミットメッセージは以下のように構成され、**小文字**であるべきです：
+
+```
+<gitmoji> <type> <description> [(#<issue number>)]
+
+[optional body]
+
+[optional footer(s)]
+```
+
+### 例
+
+```bash
+📝 update documentation contributors
+
+- Add @jerembdn as a contributor
+- Add @younesbessa as a contributor
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+ほとんどの場合、シンプルなワンライナーで十分です：
+
+```bash
+📝 update documentation contributors
+```
+
+## タイプ
+
+私たちは以下のコミットタイプを使用します：
+
+| Type | Description |
+| --- | --- |
+| `add` | 新しい機能を追加 |
+| `fix` | バグを修正 |
+| `improve` | 何かを改善 |
+| `update` | 何かを更新 |
+| `remove` | 何かを削除 |
+| `refactor` | 何かをリファクタリング |
+| `rename` | 何かの名前を変更 |
+| `move` | ファイルやフォルダを移動 |
+| `upgrade` | 依存関係をアップグレード |
+| `downgrade` | 依存関係をダウングレード |
+
+## 説明
+
+説明は**命令形**で**小文字**で書いてください：
+
+```bash
+# 良い
+📝 update documentation contributors
+
+# 悪い
+📝 updated documentation contributors
+
+# 悪い
+📝 Update documentation contributors
+```
+
+## イシュー番号
+
+コミットをイシューにリンクさせるためにイシュー番号を追加します：
+
+```bash
+📝 update documentation contributors (#123)
+```
+
+## 本文
+
+本文はコンテキストと動機のために使います：
+
+```bash
+📝 update documentation contributors
+
+- Add @jerembdn as a contributor
+- Add @younesbessa as a contributor
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+<Callout type="info" title="一つのコミット、一つの目的">
+  各コミットは単一の論理的変更を表すべきです。無関係な変更を混ぜないでください。
+</Callout>

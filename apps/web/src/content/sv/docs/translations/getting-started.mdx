@@ -1,0 +1,94 @@
+---
+title: Komma igång
+description: >-
+  Ett lättviktsbibliotek för internationellisering med typ-säkerhet för React
+  och Next.js
+---
+## Vad är @onruntime/translations?
+
+`@onruntime/translations` är ett lättviktigt, typ-säkert internationaliserings (i18n) bibliotek som är designat för React och Next.js applikationer. Det ger en enkel API för att hantera översättningar med full TypeScript-support.
+
+<Callout type="info" title="Nyckelfunktioner">
+  - Typ-säkra översättningar med TypeScript
+  - Stöd för React och Next.js (App Router)
+  - Namnrymdsbaserad organisation
+  - Variabel-interpolation
+  - Lättviktigt och prestandaeffektivt
+</Callout>
+
+## Varför använda det?
+
+### Typ-säkerhet
+
+Få kompileringsfel när du använder ogiltiga översättningsnycklar:
+
+```typescript
+const { t } = useTranslation("common");
+
+t("greeting");        // ✅ Ogiltig nyckel
+t("invalid_key");     // ❌ TypeScript fel
+```
+
+### Enkel API
+
+Bara två hooks för alla dina översättningsbehov:
+
+```typescript
+// Klientkomponenter
+const { t } = useTranslation("namespace");
+
+// Serverkomponenter (Next.js)
+const { t } = await getTranslation("namespace");
+```
+
+### Organiserade översättningar
+
+Håll dina översättningar organiserade med namnrymder:
+
+<Files>
+  <Folder name="locales" defaultOpen>
+    <Folder name="en" defaultOpen>
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+    </Folder>
+    <Folder name="fr">
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+    </Folder>
+  </Folder>
+</Files>
+
+## Snabbt exempel
+
+```tsx
+// locales/en/common.json
+{
+  "greeting": "Hej, {name}!"
+}
+
+// Komponent
+import { useTranslation } from "@onruntime/translations/react";
+
+function Welcome({ name }) {
+  const { t } = useTranslation("common");
+
+  return <h1>{t("greeting", { name })}</h1>;
+}
+```
+
+## Nästa steg
+
+<Cards>
+  <Card
+    title="Installation"
+    description="Installera och konfigurera paketet"
+    href="/docs/translations/installation"
+  />
+  <Card
+    title="React-användning"
+    description="Lär dig hur du använder översättningar i React"
+    href="/docs/translations/react"
+  />
+</Cards>

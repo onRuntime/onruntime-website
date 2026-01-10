@@ -1,0 +1,86 @@
+---
+title: 入门
+description: 一个用于 Next.js 应用程序的网站地图生成器
+---
+## 什么是 @onruntime/next-sitemap?
+
+`@onruntime/next-sitemap` 是一个强大的 sitemap 生成器，专门为 Next.js 应用设计。它会自动为你的 Next.js 网站生成 `sitemap.xml` 和 `robots.txt` 文件。
+
+<Callout type="info" title="主要特性">
+  - 为 App Router 自动生成 sitemap
+  - 支持动态路由
+  - 可配置的优先级和更新频率
+  - 生成 robots.txt
+  - 多语言 sitemap 支持
+</Callout>
+
+## 为什么要使用它？
+
+### SEO 优化
+
+Sitemap 帮助搜索引擎更高效地发现和索引你的页面：
+
+- **更快的索引** - 搜索引擎可以找到你所有的页面
+- **更好的爬取** - 告诉爬虫页面更新的信息
+- **优先级提示** - 指导爬虫关注重要页面
+
+### Next.js 集成
+
+专为 Next.js 构建，它理解：
+
+- App Router 结构
+- 动态路由
+- 静态生成
+- 国际化路由
+
+## 快速示例
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+这会生成一个完整的 sitemap，包括你所有的静态和动态页面。
+
+## 生成的输出
+
+这个包生成标准的 XML sitemap：
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/about</loc>
+    <lastmod>2024-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+```
+
+## 下一步
+
+<Cards>
+  <Card
+    title="安装"
+    description="安装并设置该包"
+    href="/docs/next-sitemap/installation"
+  />
+  <Card
+    title="配置"
+    description="了解配置选项"
+    href="/docs/next-sitemap/configuration"
+  />
+</Cards>

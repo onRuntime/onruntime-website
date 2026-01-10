@@ -1,0 +1,157 @@
+---
+title: React Kullanımı
+description: React uygulamalarında @onruntime/çevirilerini kullanma
+---
+## Temel Kullanım
+
+### useTranslation Hook'u
+
+`useTranslation` hook'u, React bileşenlerinde çevirilere erişmenin ana yoludur:
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function MyComponent() {
+  const { t, locale } = useTranslation("common");
+
+  return (
+    <div>
+      <p>Mevcut yerel: {locale}</p>
+      <h1>{t("title")}</h1>
+    </div>
+  );
+}
+```
+
+### Değişken İnterpolasyonu
+
+Çevirilerinize değişkenler geçirin:
+
+```json
+// locales/en/common.json
+{
+  "greeting": "Merhaba, {name}!",
+  "items_count": "Toplam {count} öğeniz var"
+}
+```
+
+```tsx
+function Greeting({ name, itemCount }) {
+  const { t } = useTranslation("common");
+
+  return (
+    <>
+      <p>{t("greeting", { name })}</p>
+      <p>{t("items_count", { count: itemCount })}</p>
+    </>
+  );
+}
+```
+
+## Birden Fazla İsim Alanı
+
+Aynı bileşende birden fazla isim alanı kullanabilirsiniz:
+
+```tsx
+function Dashboard() {
+  const { t: tCommon } = useTranslation("common");
+  const { t: tDashboard } = useTranslation("dashboard");
+
+  return (
+    <div>
+      <h1>{tDashboard("title")}</h1>
+      <button>{tCommon("buttons.save")}</button>
+    </div>
+  );
+}
+```
+
+## Yerel Değiştirme
+
+Mevcut yereli değiştirmek için `setLocale` fonksiyonunu kullanın:
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function LanguageSwitcher() {
+  const { locale, setLocale } = useTranslation("common");
+
+  return (
+    <select value={locale} onChange={(e) => setLocale(e.target.value)}>
+      <option value="en">İngilizce</option>
+      <option value="fr">Fransızca</option>
+      <option value="de">Almanca</option>
+    </select>
+  );
+}
+```
+
+## İç İçe Anahtarlar
+
+Nokta notasyonu kullanarak iç içe çeviri anahtarlarına erişin:
+
+```json
+// locales/en/common.json
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkında",
+    "contact": "İletişim"
+  }
+}
+```
+
+```tsx
+function Navigation() {
+  const { t } = useTranslation("common");
+
+  return (
+    <nav>
+      <a href="/">{t("nav.home")}</a>
+      <a href="/about">{t("nav.about")}</a>
+      <a href="/contact">{t("nav.contact")}</a>
+    </nav>
+  );
+}
+```
+
+## En İyi Uygulamalar
+
+<Callout type="info" title="Özelliklere Göre Düzenleyin">
+  Çevirileri, her şeyi tek bir dosyada toplamak yerine özellik veya sayfa bazında düzenleyin.
+</Callout>
+
+### Önerilen Yapı
+
+<Files>
+  <Folder name="locales" defaultOpen>
+    <Folder name="en" defaultOpen>
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+      <File name="settings.json" />
+    </Folder>
+  </Folder>
+</Files>
+
+### Anahtarları Tutarlı Tutun
+
+Tüm yerellerde tutarlı adlandırma kuralları kullanın:
+
+```json
+// ✅ İyi - tutarlı yapı
+{
+  "page_title": "Gösterge Paneli",
+  "actions": {
+    "save": "Kaydet",
+    "cancel": "İptal"
+  }
+}
+
+// ❌ Kaçının - tutarsız
+{
+  "pageTitle": "Gösterge Paneli",
+  "save_button": "Kaydet",
+  "cancelBtn": "İptal"
+}
+```

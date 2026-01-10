@@ -1,0 +1,169 @@
+---
+title: APIリファレンス
+description: '@onruntime/next-sitemapの完全なAPIドキュメント'
+---
+## generateSitemap
+
+あなたの Next.js アプリケーションのためのサイトマップを生成します。
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const sitemap = await generateSitemap(options);
+```
+
+### Options
+
+| Option | Type | Required | Description |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | はい | あなたのサイトの基本URL |
+| `additionalPaths` | `SitemapEntry[]` | いいえ | 含める追加のURL |
+| `exclude` | `string[]` | いいえ | 除外するグロブパターン |
+| `defaults` | `SitemapDefaults` | いいえ | すべてのエントリーのデフォルト値 |
+| `locales` | `string[]` | いいえ | サポートされているロケール |
+| `defaultLocale` | `string` | いいえ | デフォルトロケール |
+
+### SitemapEntry
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `url` | `string` | ページURL（相対URLまたは絶対URL） |
+| `lastModified` | `Date \| string` | 最終更新日 |
+| `changeFrequency` | `ChangeFrequency` | ページがどのくらいの頻度で更新されるか |
+| `priority` | `number` | 優先度（0.0 - 1.0） |
+
+### ChangeFrequency
+
+```tsx
+type ChangeFrequency =
+  | "always"
+  | "hourly"
+  | "daily"
+  | "weekly"
+  | "monthly"
+  | "yearly"
+  | "never";
+```
+
+### Example
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  const blogPosts = await fetchPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    additionalPaths: blogPosts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      priority: 0.8,
+    })),
+    exclude: ["/admin/*", "/api/*"],
+  });
+}
+```
+
+## generateRobots
+
+robots.txt ファイルを生成します。
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+const robots = generateRobots(options);
+```
+
+### Options
+
+| Option | Type | Required | Description |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | はい | あなたのサイトの基本URL |
+| `rules` | `RobotsRule[]` | いいえ | カスタムロボットルール |
+| `sitemap` | `string \| boolean` | いいえ | サイトマップのURL または 除外する場合は `false` |
+
+### RobotsRule
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `userAgent` | `string` | 対象のユーザーエージェント |
+| `allow` | `string \| string[]` | 許可されたパス |
+| `disallow` | `string \| string[]` | 許可されていないパス |
+| `crawlDelay` | `number` | クロール遅延（秒） |
+
+### Example
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+        crawlDelay: 1,
+      },
+    ],
+  });
+}
+```
+
+## generateSitemapIndex
+
+大規模サイトのためのサイトマップインデックスを生成します。
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+const index = await generateSitemapIndex(options);
+```
+
+### Options
+
+| Option | Type | Required | Description |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | はい | あなたのサイトの基本URL |
+| `sitemapsPerFile` | `number` | いいえ | サイトマップごとのURL数（デフォルト: 5000） |
+
+### Example
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 10000,
+  });
+}
+```
+
+## Type Exports
+
+このパッケージは便利なための TypeScript タイプをエクスポートします：
+
+```tsx
+import type {
+  SitemapEntry,
+  SitemapOptions,
+  RobotsOptions,
+  RobotsRule,
+  ChangeFrequency,
+} from "@onruntime/next-sitemap";
+```
+
+<Callout type="info" title="TypeScript Support">
+  すべての関数とオプションは完全に型付けされています。あなたのIDEが自動補完や型チェックを提供します。
+</Callout>

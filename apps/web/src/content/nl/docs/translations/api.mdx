@@ -1,0 +1,194 @@
+---
+title: API-referentie
+description: Complete API-documentatie voor @onruntime/translations
+---
+## VertalingenProvider
+
+De provider component die je applicatie omhult.
+
+```tsx
+import { VertalingenProvider } from "@onruntime/translations/react";
+
+<VertalingenProvider
+  locale="nl"
+  locales={{ nl, fr }}
+  fallbackLocale="nl"
+>
+  {children}
+</VertalingenProvider>
+```
+
+### Props
+
+| Prop | Type | Verplicht | Beschrijving |
+|------|------|----------|-------------|
+| `locale` | `string` | Ja | Huidige actieve locale |
+| `locales` | `Record<string, object>` | Ja | Object dat alle locale vertalingen bevat |
+| `fallbackLocale` | `string` | Nee | Fallback locale wanneer de sleutel ontbreekt |
+| `children` | `ReactNode` | Ja | Kindcomponenten |
+
+## useTranslation
+
+Hook voor het verkrijgen van vertalingen in clientcomponenten.
+
+```tsx
+const { t, locale, setLocale } = useTranslation("namespace");
+```
+
+### Parameters
+
+| Parameter | Type | Verplicht | Beschrijving |
+|-----------|------|----------|-------------|
+| `namespace` | `string` | Ja | Te gebruiken vertalingsnamespace |
+
+### Returns
+
+| Eigenschap | Type | Beschrijving |
+|------------|------|-------------|
+| `t` | `(key: string, vars?: object) => string` | Vertalingsfunctie |
+| `locale` | `string` | Huidige locale |
+| `setLocale` | `(locale: string) => void` | Functie om de locale te veranderen |
+
+### Voorbeeld
+
+```tsx
+const { t, locale, setLocale } = useTranslation("common");
+
+// Basisgebruik
+t("greeting");  // "Hallo"
+
+// Met variabelen
+t("greeting_name", { name: "John" });  // "Hallo, John!"
+
+// Geneste sleutels
+t("nav.home");  // "Home"
+
+// Verander locale
+setLocale("fr");
+```
+
+## getTranslation
+
+Async functie voor het verkrijgen van vertalingen in servercomponenten (Next.js).
+
+```tsx
+const { t } = await getTranslation("namespace");
+```
+
+### Parameters
+
+| Parameter | Type | Verplicht | Beschrijving |
+|-----------|------|----------|-------------|
+| `namespace` | `string` | Ja | Te gebruiken vertalingsnamespace |
+
+### Returns
+
+| Eigenschap | Type | Beschrijving |
+|------------|------|-------------|
+| `t` | `(key: string, vars?: object) => string` | Vertalingsfunctie |
+| `locale` | `string` | Huidige locale |
+
+### Voorbeeld
+
+```tsx
+// Servercomponent
+export default async function Pagina() {
+  const { t } = await getTranslation("common");
+
+  return <h1>{t("title")}</h1>;
+}
+```
+
+## Link Component
+
+Locale-bewuste Link component voor Next.js.
+
+```tsx
+import { Link } from "@onruntime/translations/next";
+
+<Link href="/about">Over</Link>
+```
+
+### Props
+
+Alle props van Next.js `Link` component, plus:
+
+| Prop | Type | Standaard | Beschrijving |
+|------|------|-----------|-------------|
+| `locale` | `string` | Huidige locale | Overschrijf de link locale |
+
+### Voorbeeld
+
+```tsx
+// Gebruikt huidige locale
+<Link href="/about">Over</Link>
+
+// Dwing specifieke locale af
+<Link href="/about" locale="fr">À propos</Link>
+```
+
+## Vertaalfunctie (t)
+
+De `t` functie wordt gebruikt om vertaalde strings op te halen.
+
+### Handtekening
+
+```tsx
+t(key: string, variables?: Record<string, string | number>): string
+```
+
+### Parameters
+
+| Parameter | Type | Beschrijving |
+|-----------|------|-------------|
+| `key` | `string` | Vertalingssleutel (ondersteunt puntnotatie) |
+| `variables` | `object` | Variabelen om in te voegen |
+
+### Variabele Invoegen
+
+```json
+{
+  "greeting": "Hallo, {name}!",
+  "items": "Je hebt {count} items"
+}
+```
+
+```tsx
+t("greeting", { name: "Alice" });  // "Hallo, Alice!"
+t("items", { count: 5 });          // "Je hebt 5 items"
+```
+
+### Geneste Sleutels
+
+```json
+{
+  "user": {
+    "profile": {
+      "title": "Profiel"
+    }
+  }
+}
+```
+
+```tsx
+t("user.profile.title");  // "Profiel"
+```
+
+## Type Definities
+
+### TranslationNamespaces
+
+Breid deze interface uit voor type-veilige vertalingen:
+
+```tsx
+declare module "@onruntime/translations" {
+  interface TranslationNamespaces {
+    common: typeof import("./locales/nl/common.json");
+    auth: typeof import("./locales/nl/auth.json");
+  }
+}
+```
+
+<Callout type="info" title="TypeScript Voordelen">
+  Met de juiste type definities krijg je autocomplete voor vertaal sleutels en compile-tijd fouten voor ongeldige sleutels.
+</Callout>

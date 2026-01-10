@@ -1,0 +1,91 @@
+---
+title: Aan de slag
+description: Leer onze commitconventie
+---
+We vinden het belangrijk om een schone projectgeschiedenis te hebben. Onze commit-conventie is geïnspireerd door [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0) maar aangepast met [gitmoji](https://gitmoji.dev) om het visueler en leuker te maken.
+
+## Structuur
+
+De commit-bericht moet als volgt gestructureerd zijn en **in kleine letters**:
+
+```
+<gitmoji> <type> <beschrijving> [(#<issue nummer>)]
+
+[optionele body]
+
+[optionele footer(s)]
+```
+
+### Voorbeeld
+
+```bash
+📝 update documentatie bijdragers
+
+- Voeg @jerembdn toe als bijdrager
+- Voeg @younesbessa toe als bijdrager
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+De meeste tijd is een eenvoudige one-liner genoeg:
+
+```bash
+📝 update documentatie bijdragers
+```
+
+## Types
+
+We gebruiken de volgende commit types:
+
+| Type | Beschrijving |
+| --- | --- |
+| `add` | Voeg een nieuwe functie toe |
+| `fix` | Los een bug op |
+| `improve` | Verbeter iets |
+| `update` | Update iets |
+| `remove` | Verwijder iets |
+| `refactor` | Refactor iets |
+| `rename` | Hernoem iets |
+| `move` | Verplaats een bestand of map |
+| `upgrade` | Upgrade afhankelijkheden |
+| `downgrade` | Downgrade afhankelijkheden |
+
+## Beschrijving
+
+Schrijf beschrijvingen in **imperatieve vorm** en **kleine letters**:
+
+```bash
+# Goed
+📝 update documentatie bijdragers
+
+# Slecht
+📝 updated documentatie bijdragers
+
+# Slecht
+📝 Update documentatie bijdragers
+```
+
+## Issue Nummer
+
+Koppel commits aan issues door het issue nummer toe te voegen:
+
+```bash
+📝 update documentatie bijdragers (#123)
+```
+
+## Body
+
+Gebruik de body voor context en motivatie:
+
+```bash
+📝 update documentatie bijdragers
+
+- Voeg @jerembdn toe als bijdrager
+- Voeg @younesbessa toe als bijdrager
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+<Callout type="info" title="Eén Commit, Één Doel">
+  Elke commit moet een enkele logische wijziging vertegenwoordigen. Meng geen niet-gerelateerde wijzigingen.
+</Callout>

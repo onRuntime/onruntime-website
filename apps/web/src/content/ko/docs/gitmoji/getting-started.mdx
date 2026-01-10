@@ -1,0 +1,91 @@
+---
+title: 시작하기
+description: 우리의 커밋 규칙을 배워보세요
+---
+우리는 깔끔한 프로젝트 기록을 유지하는 걸 좋아해. 우리의 커밋 규칙은 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0)에서 영감을 받았지만 시각적으로 더 재미있게 보이도록 [gitmoji](https://gitmoji.dev)로 커스터마이즈했어.
+
+## 구조
+
+커밋 메시지는 다음과 같이 **소문자**로 구조화되어야 해:
+
+```
+<gitmoji> <type> <description> [(#<issue number>)]
+
+[optional body]
+
+[optional footer(s)]
+```
+
+### 예시
+
+```bash
+📝 update documentation contributors
+
+- Add @jerembdn as a contributor
+- Add @younesbessa as a contributor
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+대부분의 경우, 간단한 한 줄이면 충분해:
+
+```bash
+📝 update documentation contributors
+```
+
+## 유형
+
+우리는 다음의 커밋 유형을 사용해:
+
+| Type | Description |
+| --- | --- |
+| `add` | 새로운 기능 추가 |
+| `fix` | 버그 수정 |
+| `improve` | 무언가 개선 |
+| `update` | 무언가 업데이트 |
+| `remove` | 무언가 제거 |
+| `refactor` | 무언가 리팩토링 |
+| `rename` | 무언가 이름 바꾸기 |
+| `move` | 파일이나 폴더 이동 |
+| `upgrade` | 의존성 업그레이드 |
+| `downgrade` | 의존성 다운그레이드 |
+
+## 설명
+
+설명은 **명령형**으로 **소문자**로 작성해:
+
+```bash
+# 좋은 예
+📝 update documentation contributors
+
+# 나쁜 예
+📝 updated documentation contributors
+
+# 나쁜 예
+📝 Update documentation contributors
+```
+
+## 이슈 번호
+
+커밋을 이슈에 연결하려면 이슈 번호를 추가해:
+
+```bash
+📝 update documentation contributors (#123)
+```
+
+## 본문
+
+본문은 맥락과 동기를 위해 사용해:
+
+```bash
+📝 update documentation contributors
+
+- Add @jerembdn as a contributor
+- Add @younesbessa as a contributor
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+<Callout type="info" title="한 커밋, 한 목적">
+  각 커밋은 하나의 논리적 변경을 나타내야 해. 관련 없는 변경사항은 섞지 마.
+</Callout>

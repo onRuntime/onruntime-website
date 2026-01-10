@@ -1,0 +1,194 @@
+---
+title: APIリファレンス
+description: '@onruntime/translationsの完全なAPIドキュメント'
+---
+## TranslationsProvider
+
+あなたのアプリケーションをラップするプロバイダーコンポーネント。
+
+```tsx
+import { TranslationsProvider } from "@onruntime/translations/react";
+
+<TranslationsProvider
+  locale="en"
+  locales={{ en, fr }}
+  fallbackLocale="en"
+>
+  {children}
+</TranslationsProvider>
+```
+
+### Props
+
+| Prop | Type | Required | Description |
+|------|------|----------|-------------|
+| `locale` | `string` | はい | 現在アクティブなロケール |
+| `locales` | `Record<string, object>` | はい | すべてのロケール翻訳を含むオブジェクト |
+| `fallbackLocale` | `string` | いいえ | キーが見つからないときのフォールバックロケール |
+| `children` | `ReactNode` | はい | 子コンポーネント |
+
+## useTranslation
+
+クライアントコンポーネントで翻訳にアクセスするためのフック。
+
+```tsx
+const { t, locale, setLocale } = useTranslation("namespace");
+```
+
+### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `namespace` | `string` | はい | 使用する翻訳のネームスペース |
+
+### Returns
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `t` | `(key: string, vars?: object) => string` | 翻訳関数 |
+| `locale` | `string` | 現在のロケール |
+| `setLocale` | `(locale: string) => void` | ロケールを変更する関数 |
+
+### Example
+
+```tsx
+const { t, locale, setLocale } = useTranslation("common");
+
+// 基本的な使い方
+t("greeting");  // "こんにちは"
+
+// 変数を使った場合
+t("greeting_name", { name: "John" });  // "こんにちは、John！"
+
+// ネストされたキー
+t("nav.home");  // "ホーム"
+
+// ロケールを変更
+setLocale("fr");
+```
+
+## getTranslation
+
+サーバーコンポーネント（Next.js）で翻訳にアクセスするための非同期関数。
+
+```tsx
+const { t } = await getTranslation("namespace");
+```
+
+### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `namespace` | `string` | はい | 使用する翻訳のネームスペース |
+
+### Returns
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `t` | `(key: string, vars?: object) => string` | 翻訳関数 |
+| `locale` | `string` | 現在のロケール |
+
+### Example
+
+```tsx
+// サーバーコンポーネント
+export default async function Page() {
+  const { t } = await getTranslation("common");
+
+  return <h1>{t("title")}</h1>;
+}
+```
+
+## Link Component
+
+Next.js用のロケール対応リンクコンポーネント。
+
+```tsx
+import { Link } from "@onruntime/translations/next";
+
+<Link href="/about">About</Link>
+```
+
+### Props
+
+Next.jsの`Link`コンポーネントからのすべてのpropsに加えて：
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `locale` | `string` | 現在のロケール | リンクのロケールを上書き |
+
+### Example
+
+```tsx
+// 現在のロケールを使用
+<Link href="/about">About</Link>
+
+// 特定のロケールで強制
+<Link href="/about" locale="fr">À propos</Link>
+```
+
+## Translation Function (t)
+
+`t`関数は翻訳された文字列を取得するために使用されます。
+
+### Signature
+
+```tsx
+t(key: string, variables?: Record<string, string | number>): string
+```
+
+### Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `key` | `string` | 翻訳キー（ドット表記に対応） |
+| `variables` | `object` | 補間するための変数 |
+
+### Variable Interpolation
+
+```json
+{
+  "greeting": "こんにちは、{name}！",
+  "items": "{count}個のアイテムがあります"
+}
+```
+
+```tsx
+t("greeting", { name: "Alice" });  // "こんにちは、Alice！"
+t("items", { count: 5 });          // "5個のアイテムがあります"
+```
+
+### Nested Keys
+
+```json
+{
+  "user": {
+    "profile": {
+      "title": "プロフィール"
+    }
+  }
+}
+```
+
+```tsx
+t("user.profile.title");  // "プロフィール"
+```
+
+## Type Definitions
+
+### TranslationNamespaces
+
+型安全な翻訳のためにこのインターフェースを拡張：
+
+```tsx
+declare module "@onruntime/translations" {
+  interface TranslationNamespaces {
+    common: typeof import("./locales/en/common.json");
+    auth: typeof import("./locales/en/auth.json");
+  }
+}
+```
+
+<Callout type="info" title="TypeScriptの利点">
+  適切な型定義を用いることで、翻訳キーのオートコンプリートや不正なキーに対するコンパイル時エラーが得られます。
+</Callout>

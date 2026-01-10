@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "Documentação",
+    "description": "Aprenda como trabalhar com o onRuntime Studio. Explore nossa documentação para guias, tutoriais e melhores práticas."
+  },
+  "title": "Documentação",
+  "subtitle": "Bem-vindo à documentação do onRuntime Studio. Aprenda como trabalhar conosco, explore nossos processos e descubra melhores práticas.",
+  "toc": {
+    "title": "Nesta página"
+  },
+  "reading-time": {
+    "min-read": "min de leitura",
+    "words": "palavras"
+  },
+  "navigation": {
+    "previous": "Anterior",
+    "next": "Próximo",
+    "last-updated": "Última atualização em"
+  },
+  "sidebar": {
+    "title": "Documentação"
+  }
+}

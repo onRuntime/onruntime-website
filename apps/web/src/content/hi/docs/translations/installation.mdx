@@ -1,0 +1,127 @@
+---
+title: स्थापना
+description: '@onruntime/translations को स्थापित और कॉन्फ़िगर करें'
+---
+## स्थापना
+
+अपने पसंदीदा पैकेज प्रबंधक का उपयोग करके पैकेज स्थापित करें:
+
+```bash
+# npm
+npm install @onruntime/translations
+
+# yarn
+yarn add @onruntime/translations
+
+# pnpm
+pnpm add @onruntime/translations
+```
+
+## प्रोजेक्ट सेटअप
+
+### 1. अनुवाद फ़ाइलें बनाएं
+
+अपने प्रोजेक्ट में `locales` निर्देशिका बनाएँ जिसमें प्रत्येक भाषा के लिए अनुवाद फ़ाइलें हों:
+
+<Files>
+  <Folder name="src" defaultOpen>
+    <Folder name="locales" defaultOpen>
+      <Folder name="en" defaultOpen>
+        <File name="common.json" />
+      </Folder>
+      <Folder name="fr">
+        <File name="common.json" />
+      </Folder>
+    </Folder>
+  </Folder>
+</Files>
+
+उदाहरण `locales/en/common.json`:
+
+```json
+{
+  "title": "स्वागत है",
+  "greeting": "नमस्ते, {name}!",
+  "items": {
+    "one": "{count} आइटम",
+    "other": "{count} आइटम"
+  }
+}
+```
+
+### 2. TypeScript कॉन्फ़िगर करें (वैकल्पिक)
+
+प्रकार-सुरक्षित अनुवादों के लिए, एक प्रकार परिभाषा फ़ाइल बनाएँ:
+
+```typescript
+// types/translations.d.ts
+import "onruntime/translations";
+
+declare module "@onruntime/translations" {
+  interface TranslationNamespaces {
+    common: typeof import("../locales/en/common.json");
+    auth: typeof import("../locales/en/auth.json");
+  }
+}
+```
+
+### 3. प्रदाता सेट करें
+
+अपने ऐप को `TranslationsProvider` के साथ लपेटें:
+
+```tsx
+// React के लिए
+import { TranslationsProvider } from "@onruntime/translations/react";
+import en from "./locales/en";
+import fr from "./locales/fr";
+
+const locales = { en, fr };
+
+function App() {
+  return (
+    <TranslationsProvider locale="en" locales={locales}>
+      <YourApp />
+    </TranslationsProvider>
+  );
+}
+```
+
+<Callout type="info" title="Next.js ऐप राउटर">
+  Next.js के साथ ऐप राउटर के लिए, अनुशंसित सेटअप के लिए [Next.js उपयोग](/docs/translations/nextjs) गाइड देखें।
+</Callout>
+
+## स्थापना की पुष्टि करना
+
+एक साधारण घटक के साथ अपने सेटअप का परीक्षण करें:
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function TestComponent() {
+  const { t } = useTranslation("common");
+
+  return (
+    <div>
+      <h1>{t("title")}</h1>
+      <p>{t("greeting", { name: "विश्व" })}</p>
+    </div>
+  );
+}
+```
+
+अगर आपको अपने अनुवाद प्रदर्शित होते हैं, तो आप तैयार हैं!
+
+## अगले कदम
+
+<Cards>
+  <Card
+    title="React उपयोग"
+    description="React में अनुवाद का उपयोग कैसे करें"
+    href="/docs/translations/react"
+  />
+  <Card
+    title="Next.js उपयोग"
+    description="Next.js में अनुवाद सेट करें"
+    href="/docs/translations/nextjs"
+  />
+</Cards>

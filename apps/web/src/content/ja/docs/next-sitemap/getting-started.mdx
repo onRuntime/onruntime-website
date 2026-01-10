@@ -1,0 +1,86 @@
+---
+title: 始めに
+description: Next.jsアプリケーションのためのサイトマップジェネレーター
+---
+## What is @onruntime/next-sitemap?
+
+`@onruntime/next-sitemap` は、Next.js アプリケーション専用に設計された強力なサイトマップジェネレーターです。これにより、あなたの Next.js サイトのために `sitemap.xml` と `robots.txt` ファイルが自動生成されます。
+
+<Callout type="info" title="主な機能">
+  - アプリルーター用の自動サイトマップ生成
+  - 動的ルートのサポート
+  - 設定可能な優先度と changefreq
+  - robots.txt の生成
+  - 多言語サイトマップのサポート
+</Callout>
+
+## なんで使うの？
+
+### SEO最適化
+
+サイトマップは検索エンジンがページを効率的に発見し、インデックスさせるのを手助けします:
+
+- **インデックスの迅速化** - 検索エンジンが全てのページを見つけられる
+- **クローリングの向上** - ページの更新についてクローラーに知らせる
+- **優先度のヒント** - クローラーを重要なページへ誘導する
+
+### Next.jsとの統合
+
+Next.js のために特別に構築されているので、以下を理解しています:
+
+- アプリルーター構造
+- 動的ルート
+- 静的生成
+- 国際化ルーティング
+
+## クイック例
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+これにより、あなたの全ての静的および動的ページを含む完全なサイトマップが生成されます。
+
+## 生成された出力
+
+このパッケージは標準的な XML サイトマップを生成します:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/about</loc>
+    <lastmod>2024-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+```
+
+## 次のステップ
+
+<Cards>
+  <Card
+    title="インストール"
+    description="パッケージをインストールして設定する"
+    href="/docs/next-sitemap/installation"
+  />
+  <Card
+    title="設定"
+    description="設定オプションについて学ぶ"
+    href="/docs/next-sitemap/configuration"
+  />
+</Cards>

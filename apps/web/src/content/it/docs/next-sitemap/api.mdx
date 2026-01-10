@@ -1,0 +1,169 @@
+---
+title: Riferimento API
+description: Documentazione completa dell'API per @onruntime/next-sitemap
+---
+## generateSitemap
+
+Genera una mappa del sito per la tua applicazione Next.js.
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const sitemap = await generateSitemap(options);
+```
+
+### Options
+
+| Opzione | Tipo | Richiesto | Descrizione |
+|---------|------|-----------|-------------|
+| `baseUrl` | `string` | Sì | L'URL di base del tuo sito |
+| `additionalPaths` | `SitemapEntry[]` | No | URL aggiuntivi da includere |
+| `exclude` | `string[]` | No | Pattern glob da escludere |
+| `defaults` | `SitemapDefaults` | No | Valori di default per tutte le voci |
+| `locales` | `string[]` | No | Lingue supportate |
+| `defaultLocale` | `string` | No | Lingua di default |
+
+### SitemapEntry
+
+| Proprietà | Tipo | Descrizione |
+|-----------|------|-------------|
+| `url` | `string` | URL della pagina (relativo o assoluto) |
+| `lastModified` | `Date \| string` | Data dell'ultima modifica |
+| `changeFrequency` | `ChangeFrequency` | Quanto spesso cambia la pagina |
+| `priority` | `number` | Priorità (0.0 - 1.0) |
+
+### ChangeFrequency
+
+```tsx
+type ChangeFrequency =
+  | "always"
+  | "hourly"
+  | "daily"
+  | "weekly"
+  | "monthly"
+  | "yearly"
+  | "never";
+```
+
+### Example
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  const blogPosts = await fetchPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    additionalPaths: blogPosts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      priority: 0.8,
+    })),
+    exclude: ["/admin/*", "/api/*"],
+  });
+}
+```
+
+## generateRobots
+
+Genera un file robots.txt.
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+const robots = generateRobots(options);
+```
+
+### Options
+
+| Opzione | Tipo | Richiesto | Descrizione |
+|---------|------|-----------|-------------|
+| `baseUrl` | `string` | Sì | L'URL di base del tuo sito |
+| `rules` | `RobotsRule[]` | No | Regole personalizzate per i robot |
+| `sitemap` | `string \| boolean` | No | URL della mappa del sito o `false` per escludere |
+
+### RobotsRule
+
+| Proprietà | Tipo | Descrizione |
+|-----------|------|-------------|
+| `userAgent` | `string` | User agent target |
+| `allow` | `string \| string[]` | Percorsi consentiti |
+| `disallow` | `string \| string[]` | Percorsi non consentiti |
+| `crawlDelay` | `number` | Ritardo di scansione in secondi |
+
+### Example
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+        crawlDelay: 1,
+      },
+    ],
+  });
+}
+```
+
+## generateSitemapIndex
+
+Genera un indice della mappa del sito per siti grandi.
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+const index = await generateSitemapIndex(options);
+```
+
+### Options
+
+| Opzione | Tipo | Richiesto | Descrizione |
+|---------|------|-----------|-------------|
+| `baseUrl` | `string` | Sì | L'URL di base del tuo sito |
+| `sitemapsPerFile` | `number` | No | URL per mappa del sito (default: 5000) |
+
+### Example
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 10000,
+  });
+}
+```
+
+## Type Exports
+
+Il pacchetto esporta tipi TypeScript per comodità:
+
+```tsx
+import type {
+  SitemapEntry,
+  SitemapOptions,
+  RobotsOptions,
+  RobotsRule,
+  ChangeFrequency,
+} from "@onruntime/next-sitemap";
+```
+
+<Callout type="info" title="Supporto TypeScript">
+  Tutte le funzioni e le opzioni sono completamente tipizzate. Il tuo IDE fornirà completamento automatico e controllo dei tipi.
+</Callout>

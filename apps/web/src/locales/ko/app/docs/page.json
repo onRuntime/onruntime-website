@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "문서",
+    "description": "onRuntime Studio를 사용하는 방법을 배워보세요. 가이드, 튜토리얼, 모범 사례에 대한 문서를 살펴보세요."
+  },
+  "title": "문서",
+  "subtitle": "onRuntime Studio 문서에 오신 것을 환영합니다. 저희와 함께 작업하는 방법을 배우고, 저희 프로세스를 탐색하며, 모범 사례를 발견하세요.",
+  "toc": {
+    "title": "이 페이지에서"
+  },
+  "reading-time": {
+    "min-read": "분 읽기",
+    "words": "단어"
+  },
+  "navigation": {
+    "previous": "이전",
+    "next": "다음",
+    "last-updated": "마지막 업데이트 날짜"
+  },
+  "sidebar": {
+    "title": "문서"
+  }
+}

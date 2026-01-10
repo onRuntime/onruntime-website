@@ -1,0 +1,191 @@
+---
+title: नेक्स्ट.जेएस का उपयोग
+description: Next.js ऐप राउ्टर के साथ @onruntime/translations का उपयोग करना
+---
+## ऐप राउटर के लिए सेटअप
+
+### 1. प्रोवाइडर को कॉन्फ़िगर करें
+
+अनुवाद सेट करने के लिए एक प्रोवाइडर्स फ़ाइल बनाएं:
+
+```tsx
+// app/providers.tsx
+"use client";
+
+import { TranslationsProvider } from "@onruntime/translations/react";
+import { ReactNode } from "react";
+
+import en from "@/locales/en";
+import fr from "@/locales/fr";
+
+const locales = { en, fr };
+
+interface ProvidersProps {
+  children: ReactNode;
+  locale: string;
+}
+
+export function Providers({ children, locale }: ProvidersProps) {
+  return (
+    <TranslationsProvider locale={locale} locales={locales}>
+      {children}
+    </TranslationsProvider>
+  );
+}
+```
+
+### 2. रूट लेआउट सेट करें
+
+अपने रूट लेआउट में प्रोवाइडर का उपयोग करें:
+
+```tsx
+// app/[locale]/layout.tsx
+import { Providers } from "../providers";
+
+export default function LocaleLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: { locale: string };
+}) {
+  return (
+    <Providers locale={params.locale}>
+      {children}
+    </Providers>
+  );
+}
+```
+
+## सर्वर कॉम्पोनेंट्स
+
+सर्वर कॉम्पोनेंट्स के लिए `getTranslation` का उपयोग करें:
+
+```tsx
+// app/[locale]/page.tsx
+import { getTranslation } from "@/lib/translations.server";
+
+export default async function HomePage() {
+  const { t } = await getTranslation("common");
+
+  return (
+    <div>
+      <h1>{t("title")}</h1>
+      <p>{t("description")}</p>
+    </div>
+  );
+}
+```
+
+<Callout type="warning" title="सर्वर बनाम क्लाइंट">
+  सर्वर कॉम्पोनेंट्स में `getTranslation` और क्लाइंट कॉम्पोनेंट्स में `useTranslation` का उपयोग करें।
+</Callout>
+
+## क्लाइंट कॉम्पोनेंट्स
+
+क्लाइंट कॉम्पोनेंट्स के लिए `useTranslation` का उपयोग करें:
+
+```tsx
+"use client";
+
+import { useTranslation } from "@onruntime/translations/react";
+
+export function LanguageSwitcher() {
+  const { locale, setLocale } = useTranslation("common");
+
+  return (
+    <select value={locale} onChange={(e) => setLocale(e.target.value)}>
+      <option value="en">English</option>
+      <option value="fr">Français</option>
+    </select>
+  );
+}
+```
+
+## लोकेल-आधारित रूटिंग
+
+### मिडलवेयर सेटअप
+
+लोकेल डिटेक्शन को संभालने के लिए मिडलवेयर सेट करें:
+
+```tsx
+// middleware.ts
+import { NextRequest, NextResponse } from "next/server";
+
+const locales = ["en", "fr"];
+const defaultLocale = "en";
+
+export function middleware(request: NextRequest) {
+  const pathname = request.nextUrl.pathname;
+
+  // चैक करें कि pathname में लोकेल है
+  const pathnameHasLocale = locales.some(
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+  );
+
+  if (pathnameHasLocale) return;
+
+  // डिफ़ॉल्ट लोकेल पर रीडायरेक्ट करें
+  return NextResponse.redirect(
+    new URL(`/${defaultLocale}${pathname}`, request.url)
+  );
+}
+
+export const config = {
+  matcher: ["/((?!api|_next|.*\\..*).*)"],
+};
+```
+
+## स्टैटिक जेनरेशन
+
+सभी लोकेलों के लिए स्टैटिक पृष्ठ उत्पन्न करें:
+
+```tsx
+// app/[locale]/page.tsx
+export async function generateStaticParams() {
+  return [{ locale: "en" }, { locale: "fr" }];
+}
+```
+
+## लिंक कॉम्पोनेंट
+
+नेविगेशन के लिए अनुवादित लिंक कॉम्पोनेंट का उपयोग करें:
+
+```tsx
+import { Link } from "@onruntime/translations/next";
+
+function Navigation() {
+  return (
+    <nav>
+      <Link href="/">Home</Link>
+      <Link href="/about">About</Link>
+    </nav>
+  );
+}
+```
+
+`Link` कॉम्पोनेंट अपने आप लोकेल प्रीफिक्सिंग को संभालता है।
+
+## उदाहरण प्रोजेक्ट संरचना
+
+<Files>
+  <Folder name="app" defaultOpen>
+    <Folder name="[locale]" defaultOpen>
+      <File name="layout.tsx" />
+      <File name="page.tsx" />
+      <Folder name="about">
+        <File name="page.tsx" />
+      </Folder>
+    </Folder>
+    <File name="providers.tsx" />
+  </Folder>
+  <Folder name="locales" defaultOpen>
+    <Folder name="en">
+      <File name="common.json" />
+    </Folder>
+    <Folder name="fr">
+      <File name="common.json" />
+    </Folder>
+  </Folder>
+  <File name="middleware.ts" />
+</Files>

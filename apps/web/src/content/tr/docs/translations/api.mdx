@@ -1,0 +1,194 @@
+---
+title: API Referansı
+description: '@onruntime/çeviriler için tam API belgelendirmesi'
+---
+## TranslationsProvider
+
+Uygulamanızı saran sağlayıcı bileşeni.
+
+```tsx
+import { TranslationsProvider } from "@onruntime/translations/react";
+
+<TranslationsProvider
+  locale="tr"
+  locales={{ en, fr }}
+  fallbackLocale="en"
+>
+  {children}
+</TranslationsProvider>
+```
+
+### Props
+
+| Prop | Type | Required | Description |
+|------|------|----------|-------------|
+| `locale` | `string` | Evet | Geçerli aktif dil |
+| `locales` | `Record<string, object>` | Evet | Tüm dil çevirilerini içeren nesne |
+| `fallbackLocale` | `string` | Hayır | Anahtar yoksa kullanılacak yedelek dil |
+| `children` | `ReactNode` | Evet | Çocuk bileşenler |
+
+## useTranslation
+
+İstemci bileşenlerinde çevirilere erişmek için hook.
+
+```tsx
+const { t, locale, setLocale } = useTranslation("namespace");
+```
+
+### Parametreler
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `namespace` | `string` | Evet | Kullanılacak çeviri ad alanı |
+
+### Dönüş Değerleri
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `t` | `(key: string, vars?: object) => string` | Çeviri fonksiyonu |
+| `locale` | `string` | Geçerli dil |
+| `setLocale` | `(locale: string) => void` | Dili değiştirmek için fonksiyon |
+
+### Örnek
+
+```tsx
+const { t, locale, setLocale } = useTranslation("common");
+
+// Temel kullanım
+t("greeting");  // "Merhaba"
+
+// Değişkenlerle
+t("greeting_name", { name: "John" });  // "Merhaba, John!"
+
+// İç içe anahtarlar
+t("nav.home");  // "Ana Sayfa"
+
+// Dil değiştir
+setLocale("fr");
+```
+
+## getTranslation
+
+Sunucu bileşenlerinde çevirilere erişmek için asenkron fonksiyon (Next.js).
+
+```tsx
+const { t } = await getTranslation("namespace");
+```
+
+### Parametreler
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `namespace` | `string` | Evet | Kullanılacak çeviri ad alanı |
+
+### Dönüş Değerleri
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `t` | `(key: string, vars?: object) => string` | Çeviri fonksiyonu |
+| `locale` | `string` | Geçerli dil |
+
+### Örnek
+
+```tsx
+// Sunucu Bileşeni
+export default async function Page() {
+  const { t } = await getTranslation("common");
+
+  return <h1>{t("title")}</h1>;
+}
+```
+
+## Link Component
+
+Next.js için dil bilincine sahip Link bileşeni.
+
+```tsx
+import { Link } from "@onruntime/translations/next";
+
+<Link href="/about">Hakkında</Link>
+```
+
+### Props
+
+Next.js `Link` bileşeninden tüm props'lar, artı:
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `locale` | `string` | Geçerli dil | Link dilini geçersiz kıl |
+
+### Örnek
+
+```tsx
+// Geçerli dili kullanır
+<Link href="/about">Hakkında</Link>
+
+// Belirli bir dili zorla
+<Link href="/about" locale="fr">À propos</Link>
+```
+
+## Translation Function (t)
+
+`t` fonksiyonu çevrilmiş stringleri almak için kullanılır.
+
+### İmza
+
+```tsx
+t(key: string, variables?: Record<string, string | number>): string
+```
+
+### Parametreler
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `key` | `string` | Çeviri anahtarı (nokta notasyonu destekler) |
+| `variables` | `object` | Yerine konulacak değişkenler |
+
+### Değişken Yerine Geçme
+
+```json
+{
+  "greeting": "Merhaba, {name}!",
+  "items": "Toplam {count} ürününüz var"
+}
+```
+
+```tsx
+t("greeting", { name: "Alice" });  // "Merhaba, Alice!"
+t("items", { count: 5 });          // "Toplam 5 ürününüz var"
+```
+
+### İç İçe Anahtarlar
+
+```json
+{
+  "user": {
+    "profile": {
+      "title": "Profil"
+    }
+  }
+}
+```
+
+```tsx
+t("user.profile.title");  // "Profil"
+```
+
+## Type Definitions
+
+### TranslationNamespaces
+
+Tip güvenli çeviriler için bu arayüzü genişletin:
+
+```tsx
+declare module "@onruntime/translations" {
+  interface TranslationNamespaces {
+    common: typeof import("./locales/en/common.json");
+    auth: typeof import("./locales/en/auth.json");
+  }
+}
+```
+
+<Callout type="info" title="TypeScript Faydaları">
+  Uygun tip tanımları ile çeviri anahtarları için otomatik tamamlama ve geçersiz anahtarlar için derleme zamanı hataları alırsınız.
+</Callout>

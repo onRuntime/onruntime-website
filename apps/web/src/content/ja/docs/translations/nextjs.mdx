@@ -1,0 +1,191 @@
+---
+title: Next.jsの使い方
+description: Next.jsのApp Routerで@onruntime/translationsを使う
+---
+## アプリルーターのセットアップ
+
+### 1. プロバイダーの設定
+
+翻訳を設定するためのプロバイダーファイルを作成：
+
+```tsx
+// app/providers.tsx
+"use client";
+
+import { TranslationsProvider } from "@onruntime/translations/react";
+import { ReactNode } from "react";
+
+import en from "@/locales/en";
+import fr from "@/locales/fr";
+
+const locales = { en, fr };
+
+interface ProvidersProps {
+  children: ReactNode;
+  locale: string;
+}
+
+export function Providers({ children, locale }: ProvidersProps) {
+  return (
+    <TranslationsProvider locale={locale} locales={locales}>
+      {children}
+    </TranslationsProvider>
+  );
+}
+```
+
+### 2. ルートレイアウトのセットアップ
+
+ルートレイアウトでプロバイダーを使う：
+
+```tsx
+// app/[locale]/layout.tsx
+import { Providers } from "../providers";
+
+export default function LocaleLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: { locale: string };
+}) {
+  return (
+    <Providers locale={params.locale}>
+      {children}
+    </Providers>
+  );
+}
+```
+
+## サーバーコンポーネント
+
+サーバーコンポーネントでは `getTranslation` を使う：
+
+```tsx
+// app/[locale]/page.tsx
+import { getTranslation } from "@/lib/translations.server";
+
+export default async function HomePage() {
+  const { t } = await getTranslation("common");
+
+  return (
+    <div>
+      <h1>{t("title")}</h1>
+      <p>{t("description")}</p>
+    </div>
+  );
+}
+```
+
+<Callout type="warning" title="サーバー vs クライアント">
+  サーバーコンポーネントでは `getTranslation` を使い、クライアントコンポーネントでは `useTranslation` を使います。
+</Callout>
+
+## クライアントコンポーネント
+
+クライアントコンポーネントでは `useTranslation` を使う：
+
+```tsx
+"use client";
+
+import { useTranslation } from "@onruntime/translations/react";
+
+export function LanguageSwitcher() {
+  const { locale, setLocale } = useTranslation("common");
+
+  return (
+    <select value={locale} onChange={(e) => setLocale(e.target.value)}>
+      <option value="en">English</option>
+      <option value="fr">Français</option>
+    </select>
+  );
+}
+```
+
+## ロケールベースのルーティング
+
+### ミドルウェアの設定
+
+ロケール検出を処理するためのミドルウェアを設定：
+
+```tsx
+// middleware.ts
+import { NextRequest, NextResponse } from "next/server";
+
+const locales = ["en", "fr"];
+const defaultLocale = "en";
+
+export function middleware(request: NextRequest) {
+  const pathname = request.nextUrl.pathname;
+
+  // パス名にロケールがあるか確認
+  const pathnameHasLocale = locales.some(
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+  );
+
+  if (pathnameHasLocale) return;
+
+  // デフォルトロケールにリダイレクト
+  return NextResponse.redirect(
+    new URL(`/${defaultLocale}${pathname}`, request.url)
+  );
+}
+
+export const config = {
+  matcher: ["/((?!api|_next|.*\\..*).*)"],
+};
+```
+
+## 静的生成
+
+全てのロケールのための静的ページを生成：
+
+```tsx
+// app/[locale]/page.tsx
+export async function generateStaticParams() {
+  return [{ locale: "en" }, { locale: "fr" }];
+}
+```
+
+## リンクコンポーネント
+
+ナビゲーションのために翻訳されたリンクコンポーネントを使う：
+
+```tsx
+import { Link } from "@onruntime/translations/next";
+
+function Navigation() {
+  return (
+    <nav>
+      <Link href="/">Home</Link>
+      <Link href="/about">About</Link>
+    </nav>
+  );
+}
+```
+
+`Link` コンポーネントは自動的にロケールのプレフィックスを処理します。
+
+## 例プロジェクト構造
+
+<Files>
+  <Folder name="app" defaultOpen>
+    <Folder name="[locale]" defaultOpen>
+      <File name="layout.tsx" />
+      <File name="page.tsx" />
+      <Folder name="about">
+        <File name="page.tsx" />
+      </Folder>
+    </Folder>
+    <File name="providers.tsx" />
+  </Folder>
+  <Folder name="locales" defaultOpen>
+    <Folder name="en">
+      <File name="common.json" />
+    </Folder>
+    <Folder name="fr">
+      <File name="common.json" />
+    </Folder>
+  </Folder>
+  <File name="middleware.ts" />
+</Files>

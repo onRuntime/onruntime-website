@@ -1,0 +1,176 @@
+---
+title: कॉन्फ़िगरेशन
+description: अपने जरूरतों के लिए @onruntime/next-sitemap को कॉन्फ़िगर करें
+---
+## बेसिक कॉन्फ़िगरेशन
+
+सबसे सरल कॉन्फ़िगरेशन में केवल आपकी बेस URL की आवश्यकता होती है:
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+## उन्नत कॉन्फ़िगरेशन
+
+### कस्टम रूट्स
+
+कस्टम रूट्स या डायनामिक कंटेंट जोड़ें:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  // डायनामिक कंटेंट लाएं
+  const posts = await fetchBlogPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    additionalPaths: posts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    })),
+  });
+}
+```
+
+### रूट्स को छोड़ना
+
+साइटमैप से विशेष रूट्स को छोड़ें:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    exclude: [
+      "/admin/*",
+      "/api/*",
+      "/private/*",
+    ],
+  });
+}
+```
+
+### प्राथमिकता और परिवर्तन की आवृत्ति
+
+सभी पृष्ठों के लिए डिफ़ॉल्ट मान सेट करें:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+  });
+}
+```
+
+## robots.txt कॉन्फ़िगरेशन
+
+### बेसिक robots.txt
+
+```tsx
+// app/robots.ts
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+### कस्टम नियम
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+      },
+    ],
+  });
+}
+```
+
+## अंतरराष्ट्रीयकरण
+
+### मल्टी-भाषा साइटमैप्स
+
+वैकल्पिक भाषाओं का समर्थन करें:
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const locales = ["en", "fr", "de"];
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    locales,
+    defaultLocale: "en",
+  });
+}
+```
+
+यह `hreflang` वैकल्पिक भाषाओं के साथ URLs उत्पन्न करता है:
+
+```xml
+<url>
+  <loc>https://example.com/en/about</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/about"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about"/>
+</url>
+```
+
+## विभाजित साइटमैप्स
+
+बड़े साइटों के लिए, अपने साइटमैप को कई फ़ाइलों में विभाजित करें:
+
+```tsx
+// app/sitemap/[id]/route.ts
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export async function GET(
+  request: Request,
+  { params }: { params: { id: string } }
+) {
+  const sitemaps = await generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 5000,
+  });
+
+  return new Response(sitemaps[parseInt(params.id)], {
+    headers: { "Content-Type": "application/xml" },
+  });
+}
+```
+
+<Callout type="info" title="बड़े साइट्स">
+  Google सिफारिश करता है कि साइटमैप 50MB और 50,000 URLs के तहत रखें। बड़े साइटों के लिए विभाजित साइटमैप्स का उपयोग करें।
+</Callout>

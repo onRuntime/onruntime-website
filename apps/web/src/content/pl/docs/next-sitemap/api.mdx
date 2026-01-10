@@ -1,0 +1,169 @@
+---
+title: Dokumentacja API
+description: Pełna dokumentacja API dla @onruntime/next-sitemap
+---
+## generateSitemap
+
+Generuje mapę witryny dla twojej aplikacji Next.js.
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const sitemap = await generateSitemap(options);
+```
+
+### Opcje
+
+| Opcja | Typ | Wymagana | Opis |
+|-------|-----|----------|------|
+| `baseUrl` | `string` | Tak | Podstawowy URL twojej witryny |
+| `additionalPaths` | `SitemapEntry[]` | Nie | Dodatkowe URL do uwzględnienia |
+| `exclude` | `string[]` | Nie | Wzorce glob do wykluczenia |
+| `defaults` | `SitemapDefaults` | Nie | Domyślne wartości dla wszystkich wpisów |
+| `locales` | `string[]` | Nie | Obsługiwane lokalizacje |
+| `defaultLocale` | `string` | Nie | Domyślna lokalizacja |
+
+### SitemapEntry
+
+| Właściwość | Typ | Opis |
+|------------|-----|------|
+| `url` | `string` | URL strony (relatywny lub absolutny) |
+| `lastModified` | `Date \| string` | Data ostatniej modyfikacji |
+| `changeFrequency` | `ChangeFrequency` | Jak często strona się zmienia |
+| `priority` | `number` | Priorytet (0.0 - 1.0) |
+
+### ChangeFrequency
+
+```tsx
+type ChangeFrequency =
+  | "always"
+  | "hourly"
+  | "daily"
+  | "weekly"
+  | "monthly"
+  | "yearly"
+  | "never";
+```
+
+### Przykład
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  const blogPosts = await fetchPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    additionalPaths: blogPosts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      priority: 0.8,
+    })),
+    exclude: ["/admin/*", "/api/*"],
+  });
+}
+```
+
+## generateRobots
+
+Generuje plik robots.txt.
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+const robots = generateRobots(options);
+```
+
+### Opcje
+
+| Opcja | Typ | Wymagana | Opis |
+|-------|-----|----------|------|
+| `baseUrl` | `string` | Tak | Podstawowy URL twojej witryny |
+| `rules` | `RobotsRule[]` | Nie | Niestandardowe zasady dla robotów |
+| `sitemap` | `string \| boolean` | Nie | URL mapy witryny lub `false`, aby wykluczyć |
+
+### RobotsRule
+
+| Właściwość | Typ | Opis |
+|------------|-----|------|
+| `userAgent` | `string` | Docelowy agent użytkownika |
+| `allow` | `string \| string[]` | Dozwolone ścieżki |
+| `disallow` | `string \| string[]` | Zablokowane ścieżki |
+| `crawlDelay` | `number` | Opóźnienie skanowania w sekundach |
+
+### Przykład
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+        crawlDelay: 1,
+      },
+    ],
+  });
+}
+```
+
+## generateSitemapIndex
+
+Generuje indeks mapy witryny dla dużych witryn.
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+const index = await generateSitemapIndex(options);
+```
+
+### Opcje
+
+| Opcja | Typ | Wymagana | Opis |
+|-------|-----|----------|------|
+| `baseUrl` | `string` | Tak | Podstawowy URL twojej witryny |
+| `sitemapsPerFile` | `number` | Nie | URL-e na mapę witryny (domyślnie: 5000) |
+
+### Przykład
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 10000,
+  });
+}
+```
+
+## Eksporty Typów
+
+Pakiet eksportuje typy TypeScript dla wygody:
+
+```tsx
+import type {
+  SitemapEntry,
+  SitemapOptions,
+  RobotsOptions,
+  RobotsRule,
+  ChangeFrequency,
+} from "@onruntime/next-sitemap";
+```
+
+<Callout type="info" title="Wsparcie dla TypeScript">
+  Wszystkie funkcje i opcje są w pełni typowane. Twoje IDE zapewni autouzupełnianie i sprawdzanie typów.
+</Callout>

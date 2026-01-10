@@ -1,0 +1,169 @@
+---
+title: API-referentie
+description: Complete API-documentatie voor @onruntime/next-sitemap
+---
+## generateSitemap
+
+Genereert een sitemap voor je Next.js-applicatie.
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const sitemap = await generateSitemap(options);
+```
+
+### Opties
+
+| Optie | Type | Vereist | Beschrijving |
+|-------|------|---------|--------------|
+| `baseUrl` | `string` | Ja | De basis URL van je site |
+| `additionalPaths` | `SitemapEntry[]` | Nee | Extra URL's om op te nemen |
+| `exclude` | `string[]` | Nee | Glob-patronen om uit te sluiten |
+| `defaults` | `SitemapDefaults` | Nee | Standaardwaarden voor alle items |
+| `locales` | `string[]` | Nee | Ondersteunde talen |
+| `defaultLocale` | `string` | Nee | Standaardtaal |
+
+### SitemapEntry
+
+| Eigenschap | Type | Beschrijving |
+|------------|------|--------------|
+| `url` | `string` | Pagina URL (relatief of absoluut) |
+| `lastModified` | `Date \| string` | Laatste wijzigingsdatum |
+| `changeFrequency` | `ChangeFrequency` | Hoe vaak de pagina verandert |
+| `priority` | `number` | Prioriteit (0.0 - 1.0) |
+
+### ChangeFrequency
+
+```tsx
+type ChangeFrequency =
+  | "always"
+  | "hourly"
+  | "daily"
+  | "weekly"
+  | "monthly"
+  | "yearly"
+  | "never";
+```
+
+### Voorbeeld
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  const blogPosts = await fetchPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    additionalPaths: blogPosts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      priority: 0.8,
+    })),
+    exclude: ["/admin/*", "/api/*"],
+  });
+}
+```
+
+## generateRobots
+
+Genereert een robots.txt-bestand.
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+const robots = generateRobots(options);
+```
+
+### Opties
+
+| Optie | Type | Vereist | Beschrijving |
+|-------|------|---------|--------------|
+| `baseUrl` | `string` | Ja | De basis URL van je site |
+| `rules` | `RobotsRule[]` | Nee | Aangepaste robotsregels |
+| `sitemap` | `string \| boolean` | Nee | Sitemap URL of `false` om uit te sluiten |
+
+### RobotsRule
+
+| Eigenschap | Type | Beschrijving |
+|------------|------|--------------|
+| `userAgent` | `string` | Doelgebruikersagent |
+| `allow` | `string \| string[]` | Toegestane paden |
+| `disallow` | `string \| string[]` | Verboden paden |
+| `crawlDelay` | `number` | Crawldelay in seconden |
+
+### Voorbeeld
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+        crawlDelay: 1,
+      },
+    ],
+  });
+}
+```
+
+## generateSitemapIndex
+
+Genereert een sitemapindex voor grote sites.
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+const index = await generateSitemapIndex(options);
+```
+
+### Opties
+
+| Optie | Type | Vereist | Beschrijving |
+|-------|------|---------|--------------|
+| `baseUrl` | `string` | Ja | De basis URL van je site |
+| `sitemapsPerFile` | `number` | Nee | URL's per sitemap (standaard: 5000) |
+
+### Voorbeeld
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 10000,
+  });
+}
+```
+
+## Type Exports
+
+Het pakket exporteert TypeScript-typen voor gemak:
+
+```tsx
+import type {
+  SitemapEntry,
+  SitemapOptions,
+  RobotsOptions,
+  RobotsRule,
+  ChangeFrequency,
+} from "@onruntime/next-sitemap";
+```
+
+<Callout type="info" title="TypeScript Ondersteuning">
+  Alle functies en opties zijn volledig getypeerd. Je IDE zal autocompletion en typechecking bieden.
+</Callout>

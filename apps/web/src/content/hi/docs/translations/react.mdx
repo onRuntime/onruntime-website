@@ -1,0 +1,157 @@
+---
+title: रिएक्ट उपयोग
+description: React अनुप्रयोगों में @onruntime/translations का उपयोग करना
+---
+## बेसिक उपयोग
+
+### The useTranslation Hook
+
+`useTranslation` हुक आपके React कॉम्पोनेंट्स में अनुवाद एक्सेस करने का मुख्य तरीका है:
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function MyComponent() {
+  const { t, locale } = useTranslation("common");
+
+  return (
+    <div>
+      <p>वर्तमान स्थानीयकरण: {locale}</p>
+      <h1>{t("title")}</h1>
+    </div>
+  );
+}
+```
+
+### वेरिएबल इंटरपोलेशन
+
+अपने अनुवादों में वेरिएबल पास करें:
+
+```json
+// locales/en/common.json
+{
+  "greeting": "नमस्ते, {name}!",
+  "items_count": "आपके पास {count} आइटम हैं"
+}
+```
+
+```tsx
+function Greeting({ name, itemCount }) {
+  const { t } = useTranslation("common");
+
+  return (
+    <>
+      <p>{t("greeting", { name })}</p>
+      <p>{t("items_count", { count: itemCount })}</p>
+    </>
+  );
+}
+```
+
+## मल्टीपल नेमस्पेसेस
+
+आप एक ही कॉम्पोनेंट में मल्टीपल नेमस्पेसेस का उपयोग कर सकते हैं:
+
+```tsx
+function Dashboard() {
+  const { t: tCommon } = useTranslation("common");
+  const { t: tDashboard } = useTranslation("dashboard");
+
+  return (
+    <div>
+      <h1>{tDashboard("title")}</h1>
+      <button>{tCommon("buttons.save")}</button>
+    </div>
+  );
+}
+```
+
+## स्थानीयकरण बदलना
+
+वर्तमान स्थानीयकरण बदलने के लिए `setLocale` फ़ंक्शन का उपयोग करें:
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function LanguageSwitcher() {
+  const { locale, setLocale } = useTranslation("common");
+
+  return (
+    <select value={locale} onChange={(e) => setLocale(e.target.value)}>
+      <option value="en">English</option>
+      <option value="fr">Français</option>
+      <option value="de">Deutsch</option>
+    </select>
+  );
+}
+```
+
+## नेस्टेड कीज़
+
+डॉट नोटेशन का उपयोग करके नेस्टेड अनुवाद कीज़ तक पहुँचें:
+
+```json
+// locales/en/common.json
+{
+  "nav": {
+    "home": "घर",
+    "about": "के बारे में",
+    "contact": "संपर्क"
+  }
+}
+```
+
+```tsx
+function Navigation() {
+  const { t } = useTranslation("common");
+
+  return (
+    <nav>
+      <a href="/">{t("nav.home")}</a>
+      <a href="/about">{t("nav.about")}</a>
+      <a href="/contact">{t("nav.contact")}</a>
+    </nav>
+  );
+}
+```
+
+## बेस्ट प्रैक्टिसेज
+
+<Callout type="info" title="विशेषता के अनुसार व्यवस्थित करें">
+  अनुवादों को विशेषता या पृष्ठ के अनुसार व्यवस्थित करें न कि सब कुछ एक फाइल में डालें।
+</Callout>
+
+### अनुशंसित संरचना
+
+<Files>
+  <Folder name="locales" defaultOpen>
+    <Folder name="en" defaultOpen>
+      <File name="common.json" />
+      <File name="auth.json" />
+      <File name="dashboard.json" />
+      <File name="settings.json" />
+    </Folder>
+  </Folder>
+</Files>
+
+### कीज़ को स्थिर रखें
+
+सभी स्थानीयकरणों में सुसंगत नामकरण रिवाजों का उपयोग करें:
+
+```json
+// ✅ अच्छा - सुसंगत संरचना
+{
+  "page_title": "डैशबोर्ड",
+  "actions": {
+    "save": "सहेजें",
+    "cancel": "रद्द करें"
+  }
+}
+
+// ❌ बचें - असंगत
+{
+  "pageTitle": "डैशबोर्ड",
+  "save_button": "सहेजें",
+  "cancelBtn": "रद्द करें"
+}
+```

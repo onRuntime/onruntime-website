@@ -1,0 +1,121 @@
+---
+title: 安装
+description: 安装并设置 @onruntime/next-sitemap
+---
+## 安装
+
+使用你喜欢的包管理器安装该包：
+
+```bash
+# npm
+npm install @onruntime/next-sitemap
+
+# yarn
+yarn add @onruntime/next-sitemap
+
+# pnpm
+pnpm add @onruntime/next-sitemap
+```
+
+## 基本设置
+
+### 应用路由 (Next.js 13+)
+
+在你的 `app` 目录下创建一个 `sitemap.ts` 文件：
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://your-domain.com",
+  });
+}
+```
+
+### robots.txt
+
+创建一个 `robots.ts` 文件用于生成 robots.txt：
+
+```tsx
+// app/robots.ts
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://your-domain.com",
+  });
+}
+```
+
+## 项目结构
+
+设置完成后，你的项目结构应如下所示：
+
+<Files>
+  <Folder name="app" defaultOpen>
+    <File name="sitemap.ts" />
+    <File name="robots.ts" />
+    <File name="page.tsx" />
+    <Folder name="about">
+      <File name="page.tsx" />
+    </Folder>
+    <Folder name="blog">
+      <File name="page.tsx" />
+      <Folder name="[slug]">
+        <File name="page.tsx" />
+      </Folder>
+    </Folder>
+  </Folder>
+</Files>
+
+## 验证安装
+
+启动你的开发服务器并访问：
+
+- `http://localhost:3000/sitemap.xml` - 你的 sitemap
+- `http://localhost:3000/robots.txt` - 你的 robots.txt
+
+你应该能看到生成的 sitemap 的 XML 和 robots.txt 的文本内容。
+
+<Callout type="info" title="开发与生产">
+  sitemap 会包含在构建时发现的所有路由。在开发中，它反映了你当前的路由结构。
+</Callout>
+
+## 环境变量
+
+在生产环境中，设置你的基本 URL：
+
+```env
+# .env.production
+NEXT_PUBLIC_SITE_URL=https://your-domain.com
+```
+
+然后在你的配置中使用它：
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://your-domain.com",
+  });
+}
+```
+
+## 下一步
+
+<Cards>
+  <Card
+    title="配置"
+    description="自定义 sitemap 生成"
+    href="/docs/next-sitemap/configuration"
+  />
+  <Card
+    title="API 参考"
+    description="探索所有可用选项"
+    href="/docs/next-sitemap/api"
+  />
+</Cards>

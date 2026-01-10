@@ -1,0 +1,86 @@
+---
+title: Comenzando
+description: Un generador de mapa del sitio para aplicaciones Next.js
+---
+## ¿Qué es @onruntime/next-sitemap?
+
+`@onruntime/next-sitemap` es un poderoso generador de sitemaps diseñado específicamente para aplicaciones Next.js. Genera automáticamente los archivos `sitemap.xml` y `robots.txt` para tu sitio Next.js.
+
+<Callout type="info" title="Características Clave">
+  - Generación automática de sitemaps para App Router
+  - Soporte para rutas dinámicas
+  - Prioridad y changefreq configurables
+  - Generación de robots.txt
+  - Soporte para sitemaps multilingües
+</Callout>
+
+## ¿Por Qué Usarlo?
+
+### Optimización de SEO
+
+Los sitemaps ayudan a los motores de búsqueda a descubrir e indexar tus páginas de manera más eficiente:
+
+- **Indexación más rápida** - Los motores de búsqueda pueden encontrar todas tus páginas
+- **Mejor rastreo** - Informa a los rastreadores sobre actualizaciones de las páginas
+- **Sugerencias de prioridad** - Guía a los rastreadores hacia páginas importantes
+
+### Integración con Next.js
+
+Construido específicamente para Next.js, entiende:
+
+- Estructura de App Router
+- Rutas dinámicas
+- Generación estática
+- Enrutamiento internacionalizado
+
+## Ejemplo Rápido
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+Esto genera un sitemap completo que incluye todas tus páginas estáticas y dinámicas.
+
+## Salida Generada
+
+El paquete genera sitemaps XML estándar:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/about</loc>
+    <lastmod>2024-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+```
+
+## Próximos Pasos
+
+<Cards>
+  <Card
+    title="Instalación"
+    description="Instala y configura el paquete"
+    href="/docs/next-sitemap/installation"
+  />
+  <Card
+    title="Configuración"
+    description="Aprende sobre las opciones de configuración"
+    href="/docs/next-sitemap/configuration"
+  />
+</Cards>

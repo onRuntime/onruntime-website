@@ -1,0 +1,86 @@
+---
+title: Zaczynamy
+description: Generator mapy strony dla aplikacji Next.js
+---
+## Co to jest @onruntime/next-sitemap?
+
+`@onruntime/next-sitemap` to potężny generator mapy witryny stworzony specjalnie dla aplikacji Next.js. Automatycznie generuje pliki `sitemap.xml` i `robots.txt` dla Twojej witryny Next.js.
+
+<Callout type="info" title="Kluczowe funkcje">
+  - Automatyczne generowanie mapy witryny dla App Router
+  - Wsparcie dla dynamicznych tras
+  - Konfigurowalne priorytety i częstotliwość zmian
+  - Generowanie pliku robots.txt
+  - Wsparcie dla map witryn w wielu językach
+</Callout>
+
+## Dlaczego warto to stosować?
+
+### Optymalizacja SEO
+
+Mapy witryn pomagają wyszukiwarkom odkrywać i indeksować Twoje strony efektywniej:
+
+- **Szybsze indeksowanie** - Wyszukiwarki mogą znaleźć wszystkie Twoje strony
+- **Lepsze przeszukiwanie** - Informuj boty o aktualizacjach stron
+- **Wskazówki dotyczące priorytetów** - Kieruj boty do ważnych stron
+
+### Integracja z Next.js
+
+Zbudowany specjalnie dla Next.js, rozumie:
+
+- Strukturę App Router
+- Dynamiczne trasy
+- Generowanie statyczne
+- Zinternacjonalizowane routingi
+
+## Szybki przykład
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+To generuje kompletną mapę witryny, w tym wszystkie Twoje statyczne i dynamiczne strony.
+
+## Wygenerowane wyjście
+
+Pakiet generuje standardowe mapy witryn w formacie XML:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/about</loc>
+    <lastmod>2024-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+```
+
+## Następne kroki
+
+<Cards>
+  <Card
+    title="Instalacja"
+    description="Zainstaluj i skonfiguruj pakiet"
+    href="/docs/next-sitemap/installation"
+  />
+  <Card
+    title="Konfiguracja"
+    description="Dowiedz się o opcjach konfiguracyjnych"
+    href="/docs/next-sitemap/configuration"
+  />
+</Cards>

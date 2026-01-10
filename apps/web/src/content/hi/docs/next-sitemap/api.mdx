@@ -1,0 +1,169 @@
+---
+title: एपीआई संदर्भ
+description: '@onruntime/next-sitemap के लिए पूर्ण एपीआई दस्तावेज़'
+---
+## generateSitemap
+
+आपकी Next.js एप्लिकेशन के लिए एक साइटमैप जनरेट करता है।
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const sitemap = await generateSitemap(options);
+```
+
+### Options
+
+| Option | Type | Required | Description |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | हाँ | आपकी साइट का बेस URL |
+| `additionalPaths` | `SitemapEntry[]` | नहीं | शामिल करने के लिए अतिरिक्त URLs |
+| `exclude` | `string[]` | नहीं | बाहर करने के लिए ग्लोब पैटर्न |
+| `defaults` | `SitemapDefaults` | नहीं | सभी प्रविष्टियों के लिए डिफ़ॉल्ट मान |
+| `locales` | `string[]` | नहीं | समर्थित क्षेत्रीय भाषाएँ |
+| `defaultLocale` | `string` | नहीं | डिफ़ॉल्ट क्षेत्रीय भाषा |
+
+### SitemapEntry
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `url` | `string` | पृष्ठ URL (सापेक्ष या निरपेक्ष) |
+| `lastModified` | `Date \| string` | अंतिम संशोधन तिथि |
+| `changeFrequency` | `ChangeFrequency` | पृष्ठ कितनी बार बदलता है |
+| `priority` | `number` | प्राथमिकता (0.0 - 1.0) |
+
+### ChangeFrequency
+
+```tsx
+type ChangeFrequency =
+  | "always"
+  | "hourly"
+  | "daily"
+  | "weekly"
+  | "monthly"
+  | "yearly"
+  | "never";
+```
+
+### Example
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  const blogPosts = await fetchPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    additionalPaths: blogPosts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      priority: 0.8,
+    })),
+    exclude: ["/admin/*", "/api/*"],
+  });
+}
+```
+
+## generateRobots
+
+एक robots.txt फ़ाइल जनरेट करता है।
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+const robots = generateRobots(options);
+```
+
+### Options
+
+| Option | Type | Required | Description |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | हाँ | आपकी साइट का बेस URL |
+| `rules` | `RobotsRule[]` | नहीं | कस्टम रोबोट नियम |
+| `sitemap` | `string \| boolean` | नहीं | साइटमैप URL या बाहर करने के लिए `false` |
+
+### RobotsRule
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `userAgent` | `string` | लक्षित यूजर एजेंट |
+| `allow` | `string \| string[]` | अनुमत पथ |
+| `disallow` | `string \| string[]` | निषिद्ध पथ |
+| `crawlDelay` | `number` | सेकंड में क्रॉल देरी |
+
+### Example
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+        crawlDelay: 1,
+      },
+    ],
+  });
+}
+```
+
+## generateSitemapIndex
+
+बड़े साइटों के लिए एक साइटमैप इंडेक्स जनरेट करता है।
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+const index = await generateSitemapIndex(options);
+```
+
+### Options
+
+| Option | Type | Required | Description |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | हाँ | आपकी साइट का बेस URL |
+| `sitemapsPerFile` | `number` | नहीं | प्रत्येक साइटमैप के लिए URLs (डिफ़ॉल्ट: 5000) |
+
+### Example
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 10000,
+  });
+}
+```
+
+## Type Exports
+
+पैकेज सुविधाजनक के लिए TypeScript प्रकारों को निर्यात करता है:
+
+```tsx
+import type {
+  SitemapEntry,
+  SitemapOptions,
+  RobotsOptions,
+  RobotsRule,
+  ChangeFrequency,
+} from "@onruntime/next-sitemap";
+```
+
+<Callout type="info" title="TypeScript Support">
+  सभी फ़ंक्शन और विकल्प पूरी तरह से टाइप किए गए हैं। आपका IDE ऑटो-कम्प्लीट और टाइप चेकिंग प्रदान करेगा।
+</Callout>

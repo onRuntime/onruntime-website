@@ -1,0 +1,127 @@
+---
+title: 설치
+description: '@onruntime/translations를 설치하고 설정해요'
+---
+## 설치
+
+선호하는 패키지 관리자를 사용하여 패키지를 설치하세요:
+
+```bash
+# npm
+npm install @onruntime/translations
+
+# yarn
+yarn add @onruntime/translations
+
+# pnpm
+pnpm add @onruntime/translations
+```
+
+## 프로젝트 설정
+
+### 1. 번역 파일 만들기
+
+각 언어에 대한 번역 파일을 포함하는 `locales` 디렉토리를 프로젝트에 생성하세요:
+
+<Files>
+  <Folder name="src" defaultOpen>
+    <Folder name="locales" defaultOpen>
+      <Folder name="en" defaultOpen>
+        <File name="common.json" />
+      </Folder>
+      <Folder name="fr">
+        <File name="common.json" />
+      </Folder>
+    </Folder>
+  </Folder>
+</Files>
+
+`locales/en/common.json` 예시:
+
+```json
+{
+  "title": "환영합니다",
+  "greeting": "안녕하세요, {name}!",
+  "items": {
+    "one": "{count} 항목",
+    "other": "{count} 항목"
+  }
+}
+```
+
+### 2. TypeScript 구성하기 (선택 사항)
+
+타입 안전한 번역을 위해 타입 정의 파일을 생성하세요:
+
+```typescript
+// types/translations.d.ts
+import "onruntime/translations";
+
+declare module "@onruntime/translations" {
+  interface TranslationNamespaces {
+    common: typeof import("../locales/en/common.json");
+    auth: typeof import("../locales/en/auth.json");
+  }
+}
+```
+
+### 3. Provider 설정하기
+
+`TranslationsProvider`로 앱을 감싸세요:
+
+```tsx
+// React용
+import { TranslationsProvider } from "@onruntime/translations/react";
+import en from "./locales/en";
+import fr from "./locales/fr";
+
+const locales = { en, fr };
+
+function App() {
+  return (
+    <TranslationsProvider locale="en" locales={locales}>
+      <YourApp />
+    </TranslationsProvider>
+  );
+}
+```
+
+<Callout type="info" title="Next.js 앱 라우터">
+  Next.js와 앱 라우터를 사용하는 경우, 추천 설정을 위해 [Next.js 사용법](/docs/translations/nextjs) 가이드를 확인하세요.
+</Callout>
+
+## 설치 확인하기
+
+간단한 컴포넌트로 설정을 테스트하세요:
+
+```tsx
+import { useTranslation } from "@onruntime/translations/react";
+
+function TestComponent() {
+  const { t } = useTranslation("common");
+
+  return (
+    <div>
+      <h1>{t("title")}</h1>
+      <p>{t("greeting", { name: "World" })}</p>
+    </div>
+  );
+}
+```
+
+번역이 정상적으로 렌더링되면 준비 완료입니다!
+
+## 다음 단계
+
+<Cards>
+  <Card
+    title="React 사용법"
+    description="React에서 번역을 사용하는 방법 배우기"
+    href="/docs/translations/react"
+  />
+  <Card
+    title="Next.js 사용법"
+    description="Next.js에서 번역 설정하기"
+    href="/docs/translations/nextjs"
+  />
+</Cards>

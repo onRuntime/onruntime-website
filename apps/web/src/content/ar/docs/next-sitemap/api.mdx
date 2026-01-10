@@ -1,0 +1,169 @@
+---
+title: مرجع واجهة برمجة التطبيقات
+description: وثائق كاملة لواجهة برمجة التطبيقات لـ @onruntime/next-sitemap
+---
+## generateSitemap
+
+يولد خريطة موقع لتطبيق Next.js الخاص بك.
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const sitemap = await generateSitemap(options);
+```
+
+### Options
+
+| Option | Type | Required | Description |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | نعم | عنوان URL الأساسي لموقعك |
+| `additionalPaths` | `SitemapEntry[]` | لا | عناوين URL إضافية للتضمين |
+| `exclude` | `string[]` | لا | أنماط glob للاستبعاد |
+| `defaults` | `SitemapDefaults` | لا | القيم الافتراضية لجميع الإدخالات |
+| `locales` | `string[]` | لا | اللغات المدعومة |
+| `defaultLocale` | `string` | لا | اللغة الافتراضية |
+
+### SitemapEntry
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `url` | `string` | عنوان URL للصفحة (نسبي أو مطلق) |
+| `lastModified` | `Date \| string` | تاريخ آخر تعديل |
+| `changeFrequency` | `ChangeFrequency` | مدى تكرار تغيير الصفحة |
+| `priority` | `number` | الأولوية (0.0 - 1.0) |
+
+### ChangeFrequency
+
+```tsx
+type ChangeFrequency =
+  | "always"
+  | "hourly"
+  | "daily"
+  | "weekly"
+  | "monthly"
+  | "yearly"
+  | "never";
+```
+
+### Example
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  const blogPosts = await fetchPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    additionalPaths: blogPosts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      priority: 0.8,
+    })),
+    exclude: ["/admin/*", "/api/*"],
+  });
+}
+```
+
+## generateRobots
+
+يولد ملف robots.txt.
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+const robots = generateRobots(options);
+```
+
+### Options
+
+| Option | Type | Required | Description |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | نعم | عنوان URL الأساسي لموقعك |
+| `rules` | `RobotsRule[]` | لا | قواعد روبوتات مخصصة |
+| `sitemap` | `string \| boolean` | لا | عنوان URL لخريطة الموقع أو `false` للاستبعاد |
+
+### RobotsRule
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `userAgent` | `string` | وكيل المستخدم المستهدف |
+| `allow` | `string \| string[]` | المسارات المسموح بها |
+| `disallow` | `string \| string[]` | المسارات المحظورة |
+| `crawlDelay` | `number` | تأخير الزحف بالثواني |
+
+### Example
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+        crawlDelay: 1,
+      },
+    ],
+  });
+}
+```
+
+## generateSitemapIndex
+
+يولد فهرس خريطة الموقع لمواقع كبيرة.
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+const index = await generateSitemapIndex(options);
+```
+
+### Options
+
+| Option | Type | Required | Description |
+|--------|------|----------|-------------|
+| `baseUrl` | `string` | نعم | عنوان URL الأساسي لموقعك |
+| `sitemapsPerFile` | `number` | لا | عناوين URL لكل خريطة موقع (الافتراضي: 5000) |
+
+### Example
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 10000,
+  });
+}
+```
+
+## Type Exports
+
+الحزمة تصدر أنواع TypeScript للراحة:
+
+```tsx
+import type {
+  SitemapEntry,
+  SitemapOptions,
+  RobotsOptions,
+  RobotsRule,
+  ChangeFrequency,
+} from "@onruntime/next-sitemap";
+```
+
+<Callout type="info" title="دعم TypeScript">
+  جميع الوظائف والخيارات مكتوبة بشكل كامل. سيوفر IDE الخاص بك الإكمال التلقائي والتحقق من النوع.
+</Callout>

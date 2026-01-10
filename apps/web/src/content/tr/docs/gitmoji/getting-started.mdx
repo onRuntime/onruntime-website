@@ -1,0 +1,91 @@
+---
+title: Başlarken
+description: Taahhüt kuralımızı öğrenin
+---
+Projelerimizin temiz bir geçmişe sahip olmasını seviyoruz. Komutlarımıza dair convention'ımız, [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0)'tan ilham alınarak oluşturuldu ama daha görsel ve eğlenceli hale getirmek için [gitmoji](https://gitmoji.dev) ile uyumlu bir şekilde düzenlendi.
+
+## Yapı
+
+Commit mesajı aşağıdaki gibi yapılandırılmalı ve **küçük harfle** olmalı:
+
+```
+<gitmoji> <type> <description> [(#<issue number>)]
+
+[isteğe bağlı gövde]
+
+[isteğe bağlı alt bilgiler]
+```
+
+### Örnek
+
+```bash
+📝 belge katkılarını güncelle
+
+- @jerembdn'i katkıcı olarak ekle
+- @younesbessa'yı katkıcı olarak ekle
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+Çoğu zaman, basit bir satır yeterli:
+
+```bash
+📝 belge katkılarını güncelle
+```
+
+## Türler
+
+Aşağıdaki commit türlerini kullanıyoruz:
+
+| Tür | Açıklama |
+| --- | --- |
+| `add` | Yeni bir özellik ekle |
+| `fix` | Bir hatayı düzelt |
+| `improve` | Bir şeyi geliştir |
+| `update` | Bir şeyi güncelle |
+| `remove` | Bir şeyi kaldır |
+| `refactor` | Bir şeyi yeniden yapılandır |
+| `rename` | Bir şeyi yeniden adlandır |
+| `move` | Bir dosyayı veya klasörü taşı |
+| `upgrade` | Bağımlılıkları güncelle |
+| `downgrade` | Bağımlılıkları düşür |
+
+## Açıklama
+
+Açıklamaları **emir kipinde** ve **küçük harfle** yaz:
+
+```bash
+# İyi
+📝 belge katkılarını güncelle
+
+# Kötü
+📝 belgeleri güncelledim
+
+# Kötü
+📝 Belge katkılarını güncelle
+```
+
+## Sorun Numarası
+
+Commit'leri sorunlara bağlamak için sorun numarasını ekleyin:
+
+```bash
+📝 belge katkılarını güncelle (#123)
+```
+
+## Gövde
+
+Gövdeyi bağlam ve motivasyon için kullan:
+
+```bash
+📝 belge katkılarını güncelle
+
+- @jerembdn'i katkıcı olarak ekle
+- @younesbessa'yı katkıcı olarak ekle
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+<Callout type="info" title="Bir Commit, Bir Amaç">
+  Her commit, tek bir mantıksal değişikliği temsil etmelidir. İlgisiz değişiklikleri karıştırmayın.
+</Callout>

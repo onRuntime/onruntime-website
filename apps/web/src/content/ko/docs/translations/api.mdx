@@ -1,0 +1,194 @@
+---
+title: API 참조
+description: '@onruntime/translations에 대한 완전한 API 문서'
+---
+## TranslationsProvider
+
+애플리케이션을 감싸는 프로바이더 컴포넌트야.
+
+```tsx
+import { TranslationsProvider } from "@onruntime/translations/react";
+
+<TranslationsProvider
+  locale="en"
+  locales={{ en, fr }}
+  fallbackLocale="en"
+>
+  {children}
+</TranslationsProvider>
+```
+
+### Props
+
+| Prop | Type | Required | Description |
+|------|------|----------|-------------|
+| `locale` | `string` | 예 | 현재 활성 로케일 |
+| `locales` | `Record<string, object>` | 예 | 모든 로케일 번역이 담긴 객체 |
+| `fallbackLocale` | `string` | 아니요 | 키가 없을 때 사용할 백업 로케일 |
+| `children` | `ReactNode` | 예 | 자식 컴포넌트들 |
+
+## useTranslation
+
+클라이언트 컴포넌트에서 번역에 접근하는 훅이야.
+
+```tsx
+const { t, locale, setLocale } = useTranslation("namespace");
+```
+
+### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `namespace` | `string` | 예 | 사용할 번역 네임스페이스 |
+
+### Returns
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `t` | `(key: string, vars?: object) => string` | 번역 함수 |
+| `locale` | `string` | 현재 로케일 |
+| `setLocale` | `(locale: string) => void` | 로케일을 변경하는 함수 |
+
+### Example
+
+```tsx
+const { t, locale, setLocale } = useTranslation("common");
+
+// 기본 사용법
+t("greeting");  // "Hello"
+
+// 변수와 함께
+t("greeting_name", { name: "John" });  // "Hello, John!"
+
+// 중첩 키
+t("nav.home");  // "Home"
+
+// 로케일 변경
+setLocale("fr");
+```
+
+## getTranslation
+
+서버 컴포넌트(Next.js)에서 번역에 접근하는 비동기 함수야.
+
+```tsx
+const { t } = await getTranslation("namespace");
+```
+
+### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `namespace` | `string` | 예 | 사용할 번역 네임스페이스 |
+
+### Returns
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `t` | `(key: string, vars?: object) => string` | 번역 함수 |
+| `locale` | `string` | 현재 로케일 |
+
+### Example
+
+```tsx
+// 서버 컴포넌트
+export default async function Page() {
+  const { t } = await getTranslation("common");
+
+  return <h1>{t("title")}</h1>;
+}
+```
+
+## Link Component
+
+Next.js를 위한 로케일 인식 Link 컴포넌트야.
+
+```tsx
+import { Link } from "@onruntime/translations/next";
+
+<Link href="/about">About</Link>
+```
+
+### Props
+
+Next.js `Link` 컴포넌트의 모든 props, 추가로:
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `locale` | `string` | 현재 로케일 | 링크 로케일을 재정의해 |
+
+### Example
+
+```tsx
+// 현재 로케일 사용
+<Link href="/about">About</Link>
+
+// 특정 로케일 강제 사용
+<Link href="/about" locale="fr">À propos</Link>
+```
+
+## Translation Function (t)
+
+`t` 함수는 번역된 문자열을 가져오는 데 사용돼.
+
+### Signature
+
+```tsx
+t(key: string, variables?: Record<string, string | number>): string
+```
+
+### Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `key` | `string` | 번역 키 (점 표기법 지원) |
+| `variables` | `object` | 보간할 변수 |
+
+### Variable Interpolation
+
+```json
+{
+  "greeting": "Hello, {name}!",
+  "items": "You have {count} items"
+}
+```
+
+```tsx
+t("greeting", { name: "Alice" });  // "Hello, Alice!"
+t("items", { count: 5 });          // "You have 5 items"
+```
+
+### Nested Keys
+
+```json
+{
+  "user": {
+    "profile": {
+      "title": "Profile"
+    }
+  }
+}
+```
+
+```tsx
+t("user.profile.title");  // "Profile"
+```
+
+## Type Definitions
+
+### TranslationNamespaces
+
+타입 안전한 번역을 위해 이 인터페이스를 확장해:
+
+```tsx
+declare module "@onruntime/translations" {
+  interface TranslationNamespaces {
+    common: typeof import("./locales/en/common.json");
+    auth: typeof import("./locales/en/auth.json");
+  }
+}
+```
+
+<Callout type="info" title="TypeScript Benefits">
+  올바른 타입 정의를 제공하면 번역 키에 대한 자동 완성과 잘못된 키에 대한 컴파일 타임 오류를 얻을 수 있어.
+</Callout>

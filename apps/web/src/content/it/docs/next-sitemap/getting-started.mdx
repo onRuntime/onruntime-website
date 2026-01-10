@@ -1,0 +1,86 @@
+---
+title: Iniziare
+description: Un generatore di sitemap per applicazioni Next.js
+---
+## Cos'è @onruntime/next-sitemap?
+
+`@onruntime/next-sitemap` è un potente generatore di sitemap progettato specificamente per le applicazioni Next.js. Genera automaticamente i file `sitemap.xml` e `robots.txt` per il tuo sito Next.js.
+
+<Callout type="info" title="Caratteristiche Chiave">
+  - Generazione automatica della sitemap per App Router
+  - Supporto per percorsi dinamici
+  - Priorità e changefreq configurabili
+  - Generazione di robots.txt
+  - Supporto per sitemap multilingue
+</Callout>
+
+## Perché Usarlo?
+
+### Ottimizzazione SEO
+
+Le sitemap aiutano i motori di ricerca a scoprire e indicizzare le tue pagine in modo più efficiente:
+
+- **Indicizzazione più veloce** - I motori di ricerca possono trovare tutte le tue pagine
+- **Migliore crawling** - Informano i crawler sugli aggiornamenti delle pagine
+- **Suggerimenti di priorità** - Guidano i crawler verso le pagine importanti
+
+### Integrazione con Next.js
+
+Costruito specificamente per Next.js, comprende:
+
+- Struttura dell'App Router
+- Percorsi dinamici
+- Generazione statica
+- Routing internazionalizzato
+
+## Esempio Veloce
+
+```tsx
+// app/sitemap.ts
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemap({
+    baseUrl: "https://example.com",
+  });
+}
+```
+
+Questo genera una sitemap completa che include tutte le tue pagine statiche e dinamiche.
+
+## Output Generato
+
+Il pacchetto genera sitemap XML standard:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/about</loc>
+    <lastmod>2024-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+```
+
+## Prossimi Passi
+
+<Cards>
+  <Card
+    title="Installazione"
+    description="Installa e configura il pacchetto"
+    href="/docs/next-sitemap/installation"
+  />
+  <Card
+    title="Configurazione"
+    description="Scopri le opzioni di configurazione"
+    href="/docs/next-sitemap/configuration"
+  />
+</Cards>

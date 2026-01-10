@@ -1,0 +1,191 @@
+---
+title: Uso do Next.js
+description: Usando @onruntime/translations com o Next.js App Router
+---
+## Configuração para o App Router
+
+### 1. Configurar o Provider
+
+Crie um arquivo de providers para configurar traduções:
+
+```tsx
+// app/providers.tsx
+"use client";
+
+import { TranslationsProvider } from "@onruntime/translations/react";
+import { ReactNode } from "react";
+
+import en from "@/locales/en";
+import fr from "@/locales/fr";
+
+const locales = { en, fr };
+
+interface ProvidersProps {
+  children: ReactNode;
+  locale: string;
+}
+
+export function Providers({ children, locale }: ProvidersProps) {
+  return (
+    <TranslationsProvider locale={locale} locales={locales}>
+      {children}
+    </TranslationsProvider>
+  );
+}
+```
+
+### 2. Configurar o Layout Raiz
+
+Use o provider no seu layout raiz:
+
+```tsx
+// app/[locale]/layout.tsx
+import { Providers } from "../providers";
+
+export default function LocaleLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: { locale: string };
+}) {
+  return (
+    <Providers locale={params.locale}>
+      {children}
+    </Providers>
+  );
+}
+```
+
+## Componentes do Servidor
+
+Use `getTranslation` para Componentes do Servidor:
+
+```tsx
+// app/[locale]/page.tsx
+import { getTranslation } from "@/lib/translations.server";
+
+export default async function HomePage() {
+  const { t } = await getTranslation("common");
+
+  return (
+    <div>
+      <h1>{t("title")}</h1>
+      <p>{t("description")}</p>
+    </div>
+  );
+}
+```
+
+<Callout type="warning" title="Servidor vs Cliente">
+  Use `getTranslation` em Componentes do Servidor e `useTranslation` em Componentes do Cliente.
+</Callout>
+
+## Componentes do Cliente
+
+Use `useTranslation` para Componentes do Cliente:
+
+```tsx
+"use client";
+
+import { useTranslation } from "@onruntime/translations/react";
+
+export function LanguageSwitcher() {
+  const { locale, setLocale } = useTranslation("common");
+
+  return (
+    <select value={locale} onChange={(e) => setLocale(e.target.value)}>
+      <option value="en">Inglês</option>
+      <option value="fr">Français</option>
+    </select>
+  );
+}
+```
+
+## Roteamento baseado em Localização
+
+### Configuração do Middleware
+
+Configure o middleware para lidar com a detecção de localização:
+
+```tsx
+// middleware.ts
+import { NextRequest, NextResponse } from "next/server";
+
+const locales = ["en", "fr"];
+const defaultLocale = "en";
+
+export function middleware(request: NextRequest) {
+  const pathname = request.nextUrl.pathname;
+
+  // Verifique se o pathname tem uma localização
+  const pathnameHasLocale = locales.some(
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+  );
+
+  if (pathnameHasLocale) return;
+
+  // Redirecionar para a localização padrão
+  return NextResponse.redirect(
+    new URL(`/${defaultLocale}${pathname}`, request.url)
+  );
+}
+
+export const config = {
+  matcher: ["/((?!api|_next|.*\\..*).*)"],
+};
+```
+
+## Geração Estática
+
+Gere páginas estáticas para todas as localidades:
+
+```tsx
+// app/[locale]/page.tsx
+export async function generateStaticParams() {
+  return [{ locale: "en" }, { locale: "fr" }];
+}
+```
+
+## Componente Link
+
+Use o componente Link traduzido para navegação:
+
+```tsx
+import { Link } from "@onruntime/translations/next";
+
+function Navigation() {
+  return (
+    <nav>
+      <Link href="/">Home</Link>
+      <Link href="/about">About</Link>
+    </nav>
+  );
+}
+```
+
+O componente `Link` lida automaticamente com a prefixação de localidade.
+
+## Estrutura do Projeto de Exemplo
+
+<Files>
+  <Folder name="app" defaultOpen>
+    <Folder name="[locale]" defaultOpen>
+      <File name="layout.tsx" />
+      <File name="page.tsx" />
+      <Folder name="about">
+        <File name="page.tsx" />
+      </Folder>
+    </Folder>
+    <File name="providers.tsx" />
+  </Folder>
+  <Folder name="locales" defaultOpen>
+    <Folder name="en">
+      <File name="common.json" />
+    </Folder>
+    <Folder name="fr">
+      <File name="common.json" />
+    </Folder>
+  </Folder>
+  <File name="middleware.ts" />
+</Files>

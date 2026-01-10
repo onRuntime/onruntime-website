@@ -1,0 +1,194 @@
+---
+title: API Referens
+description: Komplett API-dokumentation för @onruntime/översättningar
+---
+## TranslationsProvider
+
+Provider-komponenten som omsluter din applikation.
+
+```tsx
+import { TranslationsProvider } from "@onruntime/translations/react";
+
+<TranslationsProvider
+  locale="en"
+  locales={{ en, fr }}
+  fallbackLocale="en"
+>
+  {children}
+</TranslationsProvider>
+```
+
+### Props
+
+| Prop | Typ | Obligatorisk | Beskrivning |
+|------|-----|--------------|-------------|
+| `locale` | `string` | Ja | Nuvarande aktiva språkversion |
+| `locales` | `Record<string, object>` | Ja | Objekt som innehåller alla språkversioner |
+| `fallbackLocale` | `string` | Nej | Reservspråkversion när nyckeln saknas |
+| `children` | `ReactNode` | Ja | Barnkomponenter |
+
+## useTranslation
+
+Hook för att få åtkomst till översättningar i klientkomponenter.
+
+```tsx
+const { t, locale, setLocale } = useTranslation("namespace");
+```
+
+### Parametrar
+
+| Parameter | Typ | Obligatorisk | Beskrivning |
+|-----------|-----|--------------|-------------|
+| `namespace` | `string` | Ja | Översättningsnamnsrum att använda |
+
+### Returer
+
+| Egenskap | Typ | Beskrivning |
+|----------|-----|-------------|
+| `t` | `(key: string, vars?: object) => string` | Översättningsfunktion |
+| `locale` | `string` | Aktuell språkversion |
+| `setLocale` | `(locale: string) => void` | Funktion för att byta språkversion |
+
+### Exempel
+
+```tsx
+const { t, locale, setLocale } = useTranslation("common");
+
+// Grundläggande användning
+t("greeting");  // "Hello"
+
+// Med variabler
+t("greeting_name", { name: "John" });  // "Hello, John!"
+
+// Nestade nycklar
+t("nav.home");  // "Home"
+
+// Byt språkversion
+setLocale("fr");
+```
+
+## getTranslation
+
+Async-funktion för att få åtkomst till översättningar i serverkomponenter (Next.js).
+
+```tsx
+const { t } = await getTranslation("namespace");
+```
+
+### Parametrar
+
+| Parameter | Typ | Obligatorisk | Beskrivning |
+|-----------|-----|--------------|-------------|
+| `namespace` | `string` | Ja | Översättningsnamnsrum att använda |
+
+### Returer
+
+| Egenskap | Typ | Beskrivning |
+|----------|-----|-------------|
+| `t` | `(key: string, vars?: object) => string` | Översättningsfunktion |
+| `locale` | `string` | Aktuell språkversion |
+
+### Exempel
+
+```tsx
+// Serverkomponent
+export default async function Page() {
+  const { t } = await getTranslation("common");
+
+  return <h1>{t("title")}</h1>;
+}
+```
+
+## Link Component
+
+Språkmedveten Link-komponent för Next.js.
+
+```tsx
+import { Link } from "@onruntime/translations/next";
+
+<Link href="/about">About</Link>
+```
+
+### Props
+
+Alla props från Next.js `Link`-komponenten, plus:
+
+| Prop | Typ | Standard | Beskrivning |
+|------|-----|----------|-------------|
+| `locale` | `string` | Aktuell språkversion | Överskriv länkens språkversion |
+
+### Exempel
+
+```tsx
+// Använder aktuell språkversion
+<Link href="/about">About</Link>
+
+// Tvinga specifik språkversion
+<Link href="/about" locale="fr">À propos</Link>
+```
+
+## Translation Function (t)
+
+`t`-funktionen används för att hämta översatta strängar.
+
+### Signatur
+
+```tsx
+t(key: string, variables?: Record<string, string | number>): string
+```
+
+### Parametrar
+
+| Parameter | Typ | Beskrivning |
+|-----------|-----|-------------|
+| `key` | `string` | Översättningsnyckel (stödjer punktnotation) |
+| `variables` | `object` | Variabler att interpolera |
+
+### Variabel Interpolering
+
+```json
+{
+  "greeting": "Hello, {name}!",
+  "items": "You have {count} items"
+}
+```
+
+```tsx
+t("greeting", { name: "Alice" });  // "Hello, Alice!"
+t("items", { count: 5 });          // "You have 5 items"
+```
+
+### Nestade Nycklar
+
+```json
+{
+  "user": {
+    "profile": {
+      "title": "Profile"
+    }
+  }
+}
+```
+
+```tsx
+t("user.profile.title");  // "Profile"
+```
+
+## Type Definitions
+
+### TranslationNamespaces
+
+Utöka detta gränssnitt för typ-säker översättning:
+
+```tsx
+declare module "@onruntime/translations" {
+  interface TranslationNamespaces {
+    common: typeof import("./locales/en/common.json");
+    auth: typeof import("./locales/en/auth.json");
+  }
+}
+```
+
+<Callout type="info" title="TypeScript Fördelar">
+  Med rätt typdefinitioner får du autocompletion för översättningsnycklar och kompileringstidsfel för ogiltiga nycklar.
+</Callout>

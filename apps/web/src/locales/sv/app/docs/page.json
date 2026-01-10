@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "Dokumentation",
+    "description": "Lär dig hur du arbetar med onRuntime Studio. Utforska vår dokumentation för guider, tutorials och bästa praxis."
+  },
+  "title": "Dokumentation",
+  "subtitle": "Välkommen till onRuntime Studio-dokumentationen. Lär dig hur du arbetar med oss, utforska våra processer och upptäck bästa praxis.",
+  "toc": {
+    "title": "På den här sidan"
+  },
+  "reading-time": {
+    "min-read": "min läsning",
+    "words": "ord"
+  },
+  "navigation": {
+    "previous": "Föregående",
+    "next": "Nästa",
+    "last-updated": "Senast uppdaterad den"
+  },
+  "sidebar": {
+    "title": "Dokumentation"
+  }
+}

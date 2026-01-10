@@ -1,0 +1,91 @@
+---
+title: Começando
+description: Aprenda nossa convenção de commit
+---
+Gostamos de ter um histórico de projeto limpo. Nossa convenção de commits é inspirada por [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0) mas personalizada com [gitmoji](https://gitmoji.dev) para torná-la mais visual e divertida.
+
+## Estrutura
+
+A mensagem de commit deve ser estruturada da seguinte forma e **em letras minúsculas**:
+
+```
+<gitmoji> <tipo> <descrição> [(#<número do problema>)]
+
+[cuerpo opcional]
+
+[rodapé(s) opcional(is)]
+```
+
+### Exemplo
+
+```bash
+📝 atualizar colaboradores da documentação
+
+- Adicionar @jerembdn como colaborador
+- Adicionar @younesbessa como colaborador
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+Na maioria das vezes, uma linha simples é suficiente:
+
+```bash
+📝 atualizar colaboradores da documentação
+```
+
+## Tipos
+
+Usamos os seguintes tipos de commit:
+
+| Tipo | Descrição |
+| --- | --- |
+| `add` | Adicionar uma nova funcionalidade |
+| `fix` | Corrigir um bug |
+| `improve` | Melhorar algo |
+| `update` | Atualizar algo |
+| `remove` | Remover algo |
+| `refactor` | Refatorar algo |
+| `rename` | Renomear algo |
+| `move` | Mover um arquivo ou pasta |
+| `upgrade` | Atualizar dependências |
+| `downgrade` | Retornar dependências |
+
+## Descrição
+
+Escreva descrições no **modo imperativo** e **em letras minúsculas**:
+
+```bash
+# Bom
+📝 atualizar colaboradores da documentação
+
+# Ruim
+📝 atualizou colaboradores da documentação
+
+# Ruim
+📝 Atualizar colaboradores da documentação
+```
+
+## Número do Problema
+
+Linke commits a problemas adicionando o número do problema:
+
+```bash
+📝 atualizar colaboradores da documentação (#123)
+```
+
+## Corpo
+
+Use o corpo para contexto e motivação:
+
+```bash
+📝 atualizar colaboradores da documentação
+
+- Adicionar @jerembdn como colaborador
+- Adicionar @younesbessa como colaborador
+
+Co-authored-by: Younes Bessa <younes@onruntime.com>
+```
+
+<Callout type="info" title="Um Commit, Um Propósito">
+  Cada commit deve representar uma única alteração lógica. Não misture alterações não relacionadas.
+</Callout>

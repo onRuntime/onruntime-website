@@ -1,0 +1,63 @@
+---
+title: Yapay zeka ile
+description: Claude Code ile gitmoji kullan
+---
+Gitmoji eklentimizi [Claude Code](https://claude.ai/code) için yükleyin ve geleneklere uygun commitler oluşturun.
+
+## Eklentiyi Yükle
+
+onRuntime pazarını ekleyin ve eklentiyi yükleyin:
+
+```bash
+# onRuntime pazarını ekleyin
+/plugin marketplace add https://onruntime.com/plugins
+
+# gitmoji eklentisini yükleyin
+/plugin install gitmoji@onruntime
+```
+
+Ya da menüden doğrudan yükleyin:
+
+1. Claude Code içinde `/plugin` komutunu çalıştırın
+2. **Discover** sekmesine gidin
+3. Pazar ekleyin: `https://onruntime.com/plugins`
+4. "gitmoji" için arama yapın ve yükleyin
+
+## Kullanım
+
+Bir commit oluşturmak için `/commit` komutunu çalıştırın:
+
+```
+/commit
+```
+
+```
+/commit fix the login bug
+```
+
+Claude Code değişikliklerinizi analiz edecek ve gitmoji geleneklerine uygun bir commit oluşturacaktır.
+
+<Callout type="info" title="Eklenti Komutu">
+  `/commit` komutu otomatik olarak git durumunuzu ve diff'inizi alır ve uygun commit mesajını oluşturur.
+</Callout>
+
+## Alternatif: CLAUDE.md
+
+Eklentiyi yüklemek istemiyorsanız, projenizin `CLAUDE.md` dosyasına bunu ekleyin:
+
+```markdown
+## Commit Gelenekleri
+
+Gitmoji geleneksel commitleri kullanın:
+
+\`\`\`
+<gitmoji> <type> <description>
+\`\`\`
+
+Türler: add, fix, improve, update, remove, refactor, rename, move, upgrade, downgrade
+
+Kurallar:
+- Küçük harfle yazın
+- Emir kipi kullanın ("add" değil "added")
+- Her commit için bir mantıksal değişiklik
+```

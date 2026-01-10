@@ -1,0 +1,169 @@
+---
+title: API 参考
+description: '@onruntime/next-sitemap 的完整 API 文档'
+---
+## generateSitemap
+
+为你的 Next.js 应用生成一个 sitemap。
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+const sitemap = await generateSitemap(options);
+```
+
+### 选项
+
+| 选项 | 类型 | 必需 | 描述 |
+|------|------|------|------|
+| `baseUrl` | `string` | 是 | 你网站的 base URL |
+| `additionalPaths` | `SitemapEntry[]` | 否 | 额外要包含的 URL |
+| `exclude` | `string[]` | 否 | 要排除的 Glob 模式 |
+| `defaults` | `SitemapDefaults` | 否 | 所有条目的默认值 |
+| `locales` | `string[]` | 否 | 支持的语言环境 |
+| `defaultLocale` | `string` | 否 | 默认语言环境 |
+
+### SitemapEntry
+
+| 属性 | 类型 | 描述 |
+|------|------|------|
+| `url` | `string` | 页面 URL（相对或绝对） |
+| `lastModified` | `Date \| string` | 最后修改日期 |
+| `changeFrequency` | `ChangeFrequency` | 页面更改的频率 |
+| `priority` | `number` | 优先级（0.0 - 1.0） |
+
+### ChangeFrequency
+
+```tsx
+type ChangeFrequency =
+  | "always"
+  | "hourly"
+  | "daily"
+  | "weekly"
+  | "monthly"
+  | "yearly"
+  | "never";
+```
+
+### 示例
+
+```tsx
+import { generateSitemap } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  const blogPosts = await fetchPosts();
+
+  return generateSitemap({
+    baseUrl: "https://example.com",
+    defaults: {
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    additionalPaths: blogPosts.map((post) => ({
+      url: `/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      priority: 0.8,
+    })),
+    exclude: ["/admin/*", "/api/*"],
+  });
+}
+```
+
+## generateRobots
+
+生成一个 robots.txt 文件。
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+const robots = generateRobots(options);
+```
+
+### 选项
+
+| 选项 | 类型 | 必需 | 描述 |
+|------|------|------|------|
+| `baseUrl` | `string` | 是 | 你网站的 base URL |
+| `rules` | `RobotsRule[]` | 否 | 自定义的 robots 规则 |
+| `sitemap` | `string \| boolean` | 否 | sitemap URL 或 `false`以排除 |
+
+### RobotsRule
+
+| 属性 | 类型 | 描述 |
+|------|------|------|
+| `userAgent` | `string` | 目标用户代理 |
+| `allow` | `string \| string[]` | 允许的路径 |
+| `disallow` | `string \| string[]` | 不允许的路径 |
+| `crawlDelay` | `number` | 爬取延迟，单位为秒 |
+
+### 示例
+
+```tsx
+import { generateRobots } from "@onruntime/next-sitemap/app";
+
+export default function robots() {
+  return generateRobots({
+    baseUrl: "https://example.com",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/private/"],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+        crawlDelay: 1,
+      },
+    ],
+  });
+}
+```
+
+## generateSitemapIndex
+
+为大型网站生成一个 sitemap 索引。
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+const index = await generateSitemapIndex(options);
+```
+
+### 选项
+
+| 选项 | 类型 | 必需 | 描述 |
+|------|------|------|------|
+| `baseUrl` | `string` | 是 | 你网站的 base URL |
+| `sitemapsPerFile` | `number` | 否 | 每个 sitemap 的 URL 数量（默认：5000） |
+
+### 示例
+
+```tsx
+import { generateSitemapIndex } from "@onruntime/next-sitemap/app";
+
+export default async function sitemap() {
+  return generateSitemapIndex({
+    baseUrl: "https://example.com",
+    sitemapsPerFile: 10000,
+  });
+}
+```
+
+## 类型导出
+
+这个包导出了 TypeScript 类型以方便使用：
+
+```tsx
+import type {
+  SitemapEntry,
+  SitemapOptions,
+  RobotsOptions,
+  RobotsRule,
+  ChangeFrequency,
+} from "@onruntime/next-sitemap";
+```
+
+<Callout type="info" title="TypeScript 支持">
+  所有函数和选项都有完整的类型定义。你的 IDE 会提供自动补全和类型检查。
+</Callout>
