@@ -41,7 +41,8 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "test": "tsx --test tests/index.ts"
   },
   "peerDependencies": {
     "next": ">=14.0.0"
@@ -50,6 +51,7 @@
     "@types/node": "^22.0.0",
     "next": "^16.1.1",
     "tsup": "^8",
+    "tsx": "^4",
     "typescript": "^5"
   },
   "keywords": [
