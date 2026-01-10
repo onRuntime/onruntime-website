@@ -36,12 +36,6 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: pnpm --filter @onruntime/web translate
 
-      - name: Test
-        run: pnpm test
-
-      - name: Build
-        run: pnpm build
-
       - name: Commit translations
         if: github.ref == 'refs/heads/master'
         run: |
@@ -53,3 +47,9 @@ jobs:
             git commit -m "🌐 update ${FILES_CHANGED} translations files"
             git push
           fi
+
+      - name: Test
+        run: pnpm test
+
+      - name: Build
+        run: pnpm build
