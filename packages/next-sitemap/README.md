@@ -5,11 +5,15 @@ Dynamic sitemap generation for Next.js with automatic route discovery.
 ## Example
 
 - [Next.js App Router](https://github.com/onRuntime/onruntime/tree/master/examples/next-sitemap/app)
+- [Next.js App Router with i18n](https://github.com/onRuntime/onruntime/tree/master/examples/next-sitemap/app-with-locales)
+- [Next.js Pages Router](https://github.com/onRuntime/onruntime/tree/master/examples/next-sitemap/pages)
+- [Next.js Pages Router with i18n](https://github.com/onRuntime/onruntime/tree/master/examples/next-sitemap/pages-with-locales)
 
 ## Features
 
+- **App Router** and **Pages Router** support
 - Automatic route discovery using `require.context`
-- Calls `generateStaticParams` for dynamic routes
+- Calls `generateStaticParams` (App Router) or `getStaticPaths` (Pages Router) for dynamic routes
 - Multi-sitemap support with sitemap index (for sites with >50,000 URLs)
 - hreflang alternates for i18n
 - Fully static generation (SSG)
@@ -104,6 +108,89 @@ const nextConfig: NextConfig = {
 export default nextConfig;
 ```
 
+### Next.js Pages Router
+
+#### 1. Create the sitemap index API route
+
+```typescript
+// pages/api/sitemap.xml.ts
+import { createSitemapIndexApiHandler } from "@onruntime/next-sitemap/pages";
+
+// @ts-expect-error - require.context is a webpack/turbopack feature
+const pagesContext = require.context("../", true, /^\.\/(?!\[|_|api\/).*\.tsx$/);
+
+export default createSitemapIndexApiHandler({
+  baseUrl: "https://example.com",
+  pagesContext,
+});
+```
+
+#### 2. Create the individual sitemap API route
+
+```typescript
+// pages/api/sitemap/[id].ts
+import { createSitemapApiHandler } from "@onruntime/next-sitemap/pages";
+
+// @ts-expect-error - require.context is a webpack/turbopack feature
+const pagesContext = require.context("../../", true, /^\.\/(?!\[|_|api\/).*\.tsx$/);
+
+export default createSitemapApiHandler({
+  baseUrl: "https://example.com",
+  pagesContext,
+});
+```
+
+#### 3. Add URL rewrite in next.config.ts
+
+```typescript
+// next.config.ts
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  async rewrites() {
+    return [
+      {
+        source: "/sitemap.xml",
+        destination: "/api/sitemap.xml",
+      },
+      {
+        source: "/sitemap-:id.xml",
+        destination: "/api/sitemap/:id",
+      },
+    ];
+  },
+};
+
+export default nextConfig;
+```
+
+#### With i18n (optional)
+
+The Pages Router uses Next.js native i18n config in `next.config.js`. Pages stay in `pages/` (no `[locale]` folder), and you just need to provide `locales` and `defaultLocale`:
+
+```typescript
+// next.config.js
+module.exports = {
+  i18n: {
+    locales: ['en', 'fr'],
+    defaultLocale: 'en',
+  },
+}
+
+// pages/api/sitemap.xml.ts
+import { createSitemapIndexApiHandler } from "@onruntime/next-sitemap/pages";
+
+// @ts-expect-error - require.context is a webpack/turbopack feature
+const pagesContext = require.context("../", true, /^\.\/(?!\[|_|api\/).*\.tsx$/);
+
+export default createSitemapIndexApiHandler({
+  baseUrl: "https://example.com",
+  locales: ["en", "fr"],
+  defaultLocale: "en",
+  pagesContext,
+});
+```
+
 ### Configuration Options
 
 | Option | Type | Default | Description |
@@ -192,9 +279,9 @@ const { GET } = createSitemapIndexHandler({
 
 ### How It Works
 
-1. `require.context` scans your app directory at build time
+1. `require.context` scans your app/pages directory at build time
 2. For each page found, it extracts the route path
-3. For dynamic routes (e.g., `/projects/[id]`), it calls `generateStaticParams`
+3. For dynamic routes (e.g., `/projects/[id]`), it calls `generateStaticParams` (App Router) or `getStaticPaths` (Pages Router)
 4. URLs are paginated into multiple sitemaps (default: 5000 URLs each)
 5. A sitemap index lists all individual sitemaps
 
@@ -288,10 +375,13 @@ This will log:
 
 **Common issues:**
 
-1. **`generateStaticParams` not detected**: Make sure it's exported as a named export at the top level of your page file:
+1. **`generateStaticParams`/`getStaticPaths` not detected**: Make sure it's exported at the top level of your page file:
    ```typescript
-   // ✅ Correct
+   // ✅ Correct (App Router)
    export async function generateStaticParams() { ... }
+
+   // ✅ Correct (Pages Router)
+   export async function getStaticPaths() { ... }
 
    // ❌ Wrong - not exported
    async function generateStaticParams() { ... }
