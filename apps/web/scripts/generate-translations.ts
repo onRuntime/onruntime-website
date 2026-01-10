@@ -1,4 +1,3 @@
-import { execSync } from "child_process";
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, statSync } from "fs";
 import { dirname, resolve, join } from "path";
 
@@ -16,21 +15,67 @@ import { localeCodes, defaultLocale, type Locale } from "../src/lib/translations
 
 const LOCALES_DIR = "src/locales";
 const CONTENT_DIR = "src/content";
+const CONCURRENCY = 25;
 
-const isInitMode = process.argv.includes("--init");
-
-function getTargetLocales(source: Locale): Locale[] {
-  if (source !== defaultLocale) return [];
-  return localeCodes.filter((l) => l !== source) as Locale[];
+function getTargetLocales(): Locale[] {
+  return localeCodes.filter((l) => l !== defaultLocale) as Locale[];
 }
 
 type JsonValue = string | number | boolean | null | JsonObject | JsonValue[];
 type JsonObject = { [key: string]: JsonValue };
 
-interface ChangedFiles {
-  json: string[];
-  mdx: string[];
+interface TranslationTask {
+  type: "json" | "mdx";
+  sourcePath: string;
+  targetPath: string;
+  targetLocale: Locale;
+  namespace: string;
 }
+
+interface TranslationResult {
+  targetPath: string;
+  content: string;
+}
+
+// ============ Progress Tracker ============
+
+class ProgressTracker {
+  private completed = 0;
+  private total = 0;
+  private inProgress = 0;
+  private written = 0;
+
+  setTotal(total: number) {
+    this.total = total;
+  }
+
+  start() {
+    this.inProgress++;
+  }
+
+  complete() {
+    this.completed++;
+    this.inProgress--;
+  }
+
+  incrementWritten() {
+    this.written++;
+  }
+
+  getWritten() {
+    return this.written;
+  }
+
+  log(message: string) {
+    const progress = `[${this.completed}/${this.total}]`;
+    const active = this.inProgress > 0 ? ` (${this.inProgress} active)` : "";
+    console.log(`${progress}${active} ${message}`);
+  }
+}
+
+const progress = new ProgressTracker();
+
+// ============ File Utils ============
 
 function getAllFiles(dir: string, ext: string): string[] {
   const results: string[] = [];
@@ -47,41 +92,6 @@ function getAllFiles(dir: string, ext: string): string[] {
     }
   }
   return results;
-}
-
-function getFilesToProcess(): ChangedFiles {
-  // Always get all files from default locale and check for missing translations
-  const jsonDir = resolve(WEB_ROOT, LOCALES_DIR, defaultLocale);
-  const mdxDir = resolve(WEB_ROOT, CONTENT_DIR, defaultLocale);
-
-  const jsonFiles = getAllFiles(jsonDir, ".json").map(
-    (f) => `apps/web/${LOCALES_DIR}/${defaultLocale}/${f.replace(jsonDir + "/", "")}`
-  );
-  const mdxFiles = getAllFiles(mdxDir, ".mdx").map(
-    (f) => `apps/web/${CONTENT_DIR}/${defaultLocale}/${f.replace(mdxDir + "/", "")}`
-  );
-
-  return { json: jsonFiles, mdx: mdxFiles };
-}
-
-function parseLocalePath(
-  filePath: string
-): { locale: Locale; namespace: string } | null {
-  const match = filePath.match(
-    new RegExp(`apps/web/${LOCALES_DIR}/(${localeCodes.join("|")})/(.+)\\.json$`)
-  );
-  if (!match) return null;
-  return { locale: match[1] as Locale, namespace: match[2] };
-}
-
-function parseContentPath(
-  filePath: string
-): { locale: Locale; contentPath: string } | null {
-  const match = filePath.match(
-    new RegExp(`apps/web/${CONTENT_DIR}/(${localeCodes.join("|")})/(.+)\\.mdx$`)
-  );
-  if (!match) return null;
-  return { locale: match[1] as Locale, contentPath: match[2] };
 }
 
 function toAbsolutePath(gitPath: string): string {
@@ -152,6 +162,8 @@ function mergeTranslations(
   return result;
 }
 
+// ============ Translation API ============
+
 async function translateBatch(
   texts: Record<string, string>,
   sourceLang: Locale,
@@ -212,109 +224,96 @@ ${content}`,
   return text;
 }
 
-// ============ JSON Processing ============
+// ============ Task Collection ============
 
-async function processJsonFile(
-  changedFile: string,
-  allChangedFiles: Set<string>
-): Promise<{ targetPath: string; content: string }[]> {
-  const parsed = parseLocalePath(changedFile);
-  if (!parsed) return [];
+function collectTasks(): TranslationTask[] {
+  const tasks: TranslationTask[] = [];
+  const targetLocales = getTargetLocales();
 
-  const { locale: sourceLocale, namespace } = parsed;
-  const targetLocales = getTargetLocales(sourceLocale);
-  if (targetLocales.length === 0) return [];
+  // Collect JSON tasks
+  const jsonDir = resolve(WEB_ROOT, LOCALES_DIR, defaultLocale);
+  const jsonFiles = getAllFiles(jsonDir, ".json");
 
-  const sourcePath = `apps/web/${LOCALES_DIR}/${sourceLocale}/${namespace}.json`;
-  const sourceJson = readJson(sourcePath);
-  if (!sourceJson) return [];
+  for (const file of jsonFiles) {
+    const namespace = file.replace(jsonDir + "/", "").replace(".json", "");
+    const sourcePath = `apps/web/${LOCALES_DIR}/${defaultLocale}/${namespace}.json`;
 
-  const sourceFlat = flattenJson(sourceJson);
-  const results: { targetPath: string; content: string }[] = [];
-
-  for (const targetLocale of targetLocales) {
-    const targetPath = `apps/web/${LOCALES_DIR}/${targetLocale}/${namespace}.json`;
-
-    if (!isInitMode && allChangedFiles.has(targetPath)) {
-      console.log(
-        `⚠️  Conflict detected, skipping: ${namespace} (${targetLocale})`
-      );
-      continue;
+    for (const targetLocale of targetLocales) {
+      const targetPath = `apps/web/${LOCALES_DIR}/${targetLocale}/${namespace}.json`;
+      tasks.push({
+        type: "json",
+        sourcePath,
+        targetPath,
+        targetLocale,
+        namespace,
+      });
     }
-
-    const targetJson = readJson(targetPath) || {};
-    const targetFlat = flattenJson(targetJson);
-
-    const missingKeys: Record<string, string> = {};
-    for (const [key, value] of Object.entries(sourceFlat)) {
-      if (!(key in targetFlat)) {
-        missingKeys[key] = value;
-      }
-    }
-
-    if (Object.keys(missingKeys).length === 0) continue;
-
-    console.log(
-      `🔄 Translating ${Object.keys(missingKeys).length} keys: ${namespace} (${sourceLocale} → ${targetLocale})`
-    );
-
-    const translated = await translateBatch(
-      missingKeys,
-      sourceLocale,
-      targetLocale
-    );
-    const newTargetJson = mergeTranslations(sourceJson, targetJson, translated);
-
-    results.push({
-      targetPath,
-      content: JSON.stringify(newTargetJson, null, 2) + "\n",
-    });
   }
 
-  return results;
+  // Collect MDX tasks
+  const mdxDir = resolve(WEB_ROOT, CONTENT_DIR, defaultLocale);
+  const mdxFiles = getAllFiles(mdxDir, ".mdx");
+
+  for (const file of mdxFiles) {
+    const contentPath = file.replace(mdxDir + "/", "").replace(".mdx", "");
+    const sourcePath = `apps/web/${CONTENT_DIR}/${defaultLocale}/${contentPath}.mdx`;
+
+    for (const targetLocale of targetLocales) {
+      const targetPath = `apps/web/${CONTENT_DIR}/${targetLocale}/${contentPath}.mdx`;
+      tasks.push({
+        type: "mdx",
+        sourcePath,
+        targetPath,
+        targetLocale,
+        namespace: contentPath,
+      });
+    }
+  }
+
+  return tasks;
 }
 
-// ============ MDX Processing ============
+// ============ Task Execution ============
 
-async function processMdxFile(
-  changedFile: string,
-  allChangedFiles: Set<string>
-): Promise<{ targetPath: string; content: string }[]> {
-  const parsed = parseContentPath(changedFile);
-  if (!parsed) return [];
+async function executeJsonTask(task: TranslationTask): Promise<TranslationResult | null> {
+  const sourceJson = readJson(task.sourcePath);
+  if (!sourceJson) return null;
 
-  const { locale: sourceLocale, contentPath } = parsed;
-  const targetLocales = getTargetLocales(sourceLocale);
-  if (targetLocales.length === 0) return [];
+  const sourceFlat = flattenJson(sourceJson);
+  const targetJson = readJson(task.targetPath) || {};
+  const targetFlat = flattenJson(targetJson);
 
-  const sourcePath = `apps/web/${CONTENT_DIR}/${sourceLocale}/${contentPath}.mdx`;
-  const sourceContent = readFile(sourcePath);
-  if (!sourceContent) return [];
-
-  const { data: sourceFrontmatter, content: sourceMarkdown } =
-    matter(sourceContent);
-
-  const results: { targetPath: string; content: string }[] = [];
-
-  for (const targetLocale of targetLocales) {
-    const targetPath = `apps/web/${CONTENT_DIR}/${targetLocale}/${contentPath}.mdx`;
-
-    if (!isInitMode && allChangedFiles.has(targetPath)) {
-      console.log(
-        `⚠️  Conflict detected, skipping: ${contentPath} (${targetLocale})`
-      );
-      continue;
+  const missingKeys: Record<string, string> = {};
+  for (const [key, value] of Object.entries(sourceFlat)) {
+    if (!(key in targetFlat)) {
+      missingKeys[key] = value;
     }
+  }
 
-    const targetContent = readFile(targetPath);
-    let targetFrontmatter: Record<string, unknown> = {};
+  if (Object.keys(missingKeys).length === 0) return null;
 
-    if (targetContent) {
-      const parsed = matter(targetContent);
-      targetFrontmatter = parsed.data;
-    }
+  progress.log(`🔄 ${task.namespace} (${defaultLocale} → ${task.targetLocale}) - ${Object.keys(missingKeys).length} keys`);
 
-    // Check if frontmatter has changed or file doesn't exist
+  const translated = await translateBatch(missingKeys, defaultLocale, task.targetLocale);
+  const newTargetJson = mergeTranslations(sourceJson, targetJson, translated);
+
+  return {
+    targetPath: task.targetPath,
+    content: JSON.stringify(newTargetJson, null, 2) + "\n",
+  };
+}
+
+async function executeMdxTask(task: TranslationTask): Promise<TranslationResult | null> {
+  const sourceContent = readFile(task.sourcePath);
+  if (!sourceContent) return null;
+
+  const targetContent = readFile(task.targetPath);
+
+  // If target exists, check if we need to update frontmatter
+  if (targetContent) {
+    const { data: sourceFrontmatter } = matter(sourceContent);
+    const { data: targetFrontmatter, content: targetMarkdown } = matter(targetContent);
+
     const frontmatterToTranslate: Record<string, string> = {};
     for (const [key, value] of Object.entries(sourceFrontmatter)) {
       if (typeof value === "string" && !(key in targetFrontmatter)) {
@@ -322,83 +321,90 @@ async function processMdxFile(
       }
     }
 
-    // If target doesn't exist, we need to translate everything
-    if (!targetContent) {
-      console.log(
-        `🔄 Translating MDX: ${contentPath} (${sourceLocale} → ${targetLocale})`
-      );
+    if (Object.keys(frontmatterToTranslate).length === 0) return null;
 
-      // Translate frontmatter strings
-      const translatedFrontmatter =
-        Object.keys(frontmatterToTranslate).length > 0
-          ? await translateBatch(
-              frontmatterToTranslate,
-              sourceLocale,
-              targetLocale
-            )
-          : {};
+    progress.log(`🔄 ${task.namespace} (${defaultLocale} → ${task.targetLocale}) - frontmatter`);
 
-      // Merge frontmatter (keep non-string values from source)
-      const newFrontmatter: Record<string, unknown> = {};
-      for (const [key, value] of Object.entries(sourceFrontmatter)) {
+    const translatedFrontmatter = await translateBatch(
+      frontmatterToTranslate,
+      defaultLocale,
+      task.targetLocale
+    );
+
+    const newFrontmatter = { ...targetFrontmatter };
+    for (const [key, value] of Object.entries(sourceFrontmatter)) {
+      if (!(key in newFrontmatter)) {
         if (typeof value === "string" && key in translatedFrontmatter) {
           newFrontmatter[key] = translatedFrontmatter[key];
         } else {
           newFrontmatter[key] = value;
         }
       }
+    }
 
-      // Translate markdown content
-      const translatedMarkdown = await translateMarkdown(
-        sourceMarkdown,
-        sourceLocale,
-        targetLocale
-      );
+    return {
+      targetPath: task.targetPath,
+      content: matter.stringify(targetMarkdown, newFrontmatter),
+    };
+  }
 
-      // Reconstruct MDX file
-      const newContent = matter.stringify(translatedMarkdown, newFrontmatter);
+  // Target doesn't exist - translate everything
+  progress.log(`🔄 ${task.namespace} (${defaultLocale} → ${task.targetLocale}) - full MDX`);
 
-      results.push({ targetPath, content: newContent });
-    } else if (Object.keys(frontmatterToTranslate).length > 0) {
-      // Target exists but has missing frontmatter keys
-      console.log(
-        `🔄 Updating frontmatter: ${contentPath} (${sourceLocale} → ${targetLocale})`
-      );
+  const { data: sourceFrontmatter, content: sourceMarkdown } = matter(sourceContent);
 
-      const translatedFrontmatter = await translateBatch(
-        frontmatterToTranslate,
-        sourceLocale,
-        targetLocale
-      );
-
-      // Merge with existing target frontmatter
-      const existingParsed = matter(targetContent);
-      const newFrontmatter = { ...existingParsed.data };
-
-      for (const [key, value] of Object.entries(sourceFrontmatter)) {
-        if (!(key in newFrontmatter)) {
-          if (typeof value === "string" && key in translatedFrontmatter) {
-            newFrontmatter[key] = translatedFrontmatter[key];
-          } else {
-            newFrontmatter[key] = value;
-          }
-        }
-      }
-
-      const newContent = matter.stringify(
-        existingParsed.content,
-        newFrontmatter
-      );
-      results.push({ targetPath, content: newContent });
+  // Translate frontmatter strings
+  const frontmatterToTranslate: Record<string, string> = {};
+  for (const [key, value] of Object.entries(sourceFrontmatter)) {
+    if (typeof value === "string") {
+      frontmatterToTranslate[key] = value;
     }
   }
 
-  return results;
+  const translatedFrontmatter = Object.keys(frontmatterToTranslate).length > 0
+    ? await translateBatch(frontmatterToTranslate, defaultLocale, task.targetLocale)
+    : {};
+
+  const newFrontmatter: Record<string, unknown> = {};
+  for (const [key, value] of Object.entries(sourceFrontmatter)) {
+    if (typeof value === "string" && key in translatedFrontmatter) {
+      newFrontmatter[key] = translatedFrontmatter[key];
+    } else {
+      newFrontmatter[key] = value;
+    }
+  }
+
+  const translatedMarkdown = await translateMarkdown(sourceMarkdown, defaultLocale, task.targetLocale);
+
+  return {
+    targetPath: task.targetPath,
+    content: matter.stringify(translatedMarkdown, newFrontmatter),
+  };
 }
 
-// ============ Parallel Processing ============
+function writeResult(result: TranslationResult): void {
+  const absPath = toAbsolutePath(result.targetPath);
+  mkdirSync(dirname(absPath), { recursive: true });
+  writeFileSync(absPath, result.content);
+  progress.incrementWritten();
+}
 
-const CONCURRENCY = 20;
+async function executeTask(task: TranslationTask): Promise<void> {
+  progress.start();
+  try {
+    const result = task.type === "json"
+      ? await executeJsonTask(task)
+      : await executeMdxTask(task);
+
+    if (result) {
+      writeResult(result);
+    }
+  } finally {
+    progress.complete();
+  }
+}
+
+// ============ Parallel Execution ============
 
 async function runWithConcurrency<T, R>(
   items: T[],
@@ -428,53 +434,28 @@ async function runWithConcurrency<T, R>(
 // ============ Main ============
 
 async function main() {
-  if (isInitMode) {
-    console.log("🚀 Running in init mode - generating all missing translations...\n");
-  }
+  console.log("📊 Collecting translation tasks...\n");
 
-  const { json: jsonFiles, mdx: mdxFiles } = getFilesToProcess();
+  const tasks = collectTasks();
 
-  if (jsonFiles.length === 0 && mdxFiles.length === 0) {
-    console.log("No locale/content files found.");
+  if (tasks.length === 0) {
+    console.log("No translation tasks found.");
     return;
   }
 
-  console.log(
-    `📁 Files to process: ${jsonFiles.length} JSON, ${mdxFiles.length} MDX`
-  );
+  console.log(`📁 Found ${tasks.length} potential tasks (${tasks.filter(t => t.type === "json").length} JSON, ${tasks.filter(t => t.type === "mdx").length} MDX)`);
   console.log(`⚡ Processing with concurrency: ${CONCURRENCY}\n`);
 
-  const allChangedFiles = new Set([...jsonFiles, ...mdxFiles]);
+  progress.setTotal(tasks.length);
 
-  // Process JSON and MDX files in parallel
-  const [jsonResults, mdxResults] = await Promise.all([
-    runWithConcurrency(
-      jsonFiles,
-      (file) => processJsonFile(file, allChangedFiles),
-      CONCURRENCY
-    ),
-    runWithConcurrency(
-      mdxFiles,
-      (file) => processMdxFile(file, allChangedFiles),
-      CONCURRENCY
-    ),
-  ]);
+  await runWithConcurrency(tasks, executeTask, CONCURRENCY);
 
-  const results = [...jsonResults.flat(), ...mdxResults.flat()];
-
-  if (results.length === 0) {
-    console.log("No translations needed.");
-    return;
+  const written = progress.getWritten();
+  if (written === 0) {
+    console.log("\n✅ All translations are up to date.");
+  } else {
+    console.log(`\n🎉 Generated ${written} translation file(s).`);
   }
-
-  for (const { targetPath, content } of results) {
-    const absPath = toAbsolutePath(targetPath);
-    mkdirSync(dirname(absPath), { recursive: true });
-    writeFileSync(absPath, content);
-    console.log(`✅ Updated: ${targetPath}`);
-  }
-
-  console.log(`\n🎉 Generated ${results.length} translation file(s).`);
 }
 
 main().catch(console.error);
