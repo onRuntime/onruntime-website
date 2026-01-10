@@ -1,0 +1,55 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+    name: Build and test
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+
+    env:
+      CI: true
+      NEXT_PUBLIC_APP_URL: "https://onruntime.com"
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Use Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22.x"
+          cache: "pnpm"
+
+      - name: Install Dependencies
+        run: pnpm install
+
+      - name: Generate translations
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: pnpm --filter @onruntime/web translate
+
+      - name: Test
+        run: pnpm test
+
+      - name: Build
+        run: pnpm build
+
+      - name: Commit translations
+        if: github.ref == 'refs/heads/master'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add apps/web/src/locales/ apps/web/src/content/
+          if ! git diff --staged --quiet; then
+            FILES_CHANGED=$(git diff --staged --name-only | wc -l | tr -d ' ')
+            git commit -m "🌐 update ${FILES_CHANGED} translations files"
+            git push
+          fi
