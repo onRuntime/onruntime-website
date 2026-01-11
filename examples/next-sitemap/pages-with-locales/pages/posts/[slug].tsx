@@ -1,22 +1,21 @@
 import Link from "next/link";
-import { useRouter } from "next/router";
 import type { GetStaticPaths, GetStaticProps } from "next";
 
 const posts = [
   {
     slug: "hello-world",
-    title: { en: "Hello World", fr: "Bonjour le monde" },
-    content: { en: "Welcome to our blog!", fr: "Bienvenue sur notre blog !" },
+    title: "Hello World",
+    content: "Welcome to our blog!",
   },
   {
     slug: "getting-started",
-    title: { en: "Getting Started", fr: "Premiers pas" },
-    content: { en: "Learn how to use this package.", fr: "Apprenez \u00E0 utiliser ce package." },
+    title: "Getting Started",
+    content: "Learn how to use this package.",
   },
   {
     slug: "advanced-usage",
-    title: { en: "Advanced Usage", fr: "Utilisation avanc\u00E9e" },
-    content: { en: "Advanced tips and tricks.", fr: "Trucs et astuces avanc\u00E9s." },
+    title: "Advanced Usage",
+    content: "Advanced tips and tricks.",
   },
 ];
 
@@ -44,14 +43,10 @@ export const getStaticProps: GetStaticProps<PostProps> = async ({ params }) => {
 };
 
 export default function Post({ post }: PostProps) {
-  const { locale = "en" } = useRouter();
-  const title = post.title[locale as keyof typeof post.title] || post.title.en;
-  const content = post.content[locale as keyof typeof post.content] || post.content.en;
-
   return (
     <main style={{ padding: "2rem", fontFamily: "system-ui" }}>
-      <h1>{title}</h1>
-      <p>{content}</p>
+      <h1>{post.title}</h1>
+      <p>{post.content}</p>
       <Link href="/posts">Back to Posts</Link>
     </main>
   );

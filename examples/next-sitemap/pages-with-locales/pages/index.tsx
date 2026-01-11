@@ -1,21 +1,17 @@
 import Link from "next/link";
-import { useRouter } from "next/router";
-
-const content = {
-  en: { title: "Home", nav: "Navigation" },
-  fr: { title: "Accueil", nav: "Navigation" },
-};
 
 export default function Home() {
-  const { locale = "en" } = useRouter();
-  const t = content[locale as keyof typeof content] || content.en;
-
   return (
     <main style={{ padding: "2rem", fontFamily: "system-ui" }}>
-      <h1>{t.title}</h1>
-      <nav>
-        <h2>{t.nav}</h2>
+      <h1>Next Sitemap Example (Pages Router)</h1>
+      <p>This example demonstrates automatic sitemap generation.</p>
+
+      <nav style={{ marginTop: "2rem" }}>
+        <h2>Pages</h2>
         <ul>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
           <li>
             <Link href="/about">About</Link>
           </li>
@@ -23,13 +19,16 @@ export default function Home() {
             <Link href="/posts">Posts</Link>
           </li>
         </ul>
-        <h3>Switch locale:</h3>
+      </nav>
+
+      <nav style={{ marginTop: "2rem" }}>
+        <h2>Sitemaps</h2>
         <ul>
           <li>
-            <Link href="/" locale="en">English</Link>
+            <a href="/sitemap.xml">Sitemap Index</a>
           </li>
           <li>
-            <Link href="/" locale="fr">Fran\u00E7ais</Link>
+            <a href="/sitemap-0.xml">Sitemap 0</a>
           </li>
         </ul>
       </nav>
