@@ -5,14 +5,23 @@ import { createJiti } from "jiti";
 
 const fixturesDir = path.join(import.meta.dirname, "fixtures");
 
-// Create jiti instance with jsx support (same config as in src/)
-const jiti = createJiti(import.meta.url, { jsx: true });
+// Create jiti instance for importing TypeScript/JavaScript files
+const jiti = createJiti(import.meta.url, {
+  moduleCache: false,
+  interopDefault: true,
+  jsx: true,
+});
+
+async function importModule(modulePath: string) {
+  const module = await jiti.import(modulePath) as Record<string, unknown>;
+  return module;
+}
 
 export function jitiTests() {
-  describe("jiti import with JSX", () => {
-    test("imports App Router page.tsx with JSX", async () => {
+  describe("jiti import pages", () => {
+    test("imports App Router page.tsx", async () => {
       const modulePath = path.join(fixturesDir, "app/page.tsx");
-      const module = await jiti.import(modulePath);
+      const module = await importModule(modulePath);
       assert.ok(module, "module should be imported");
       assert.ok(
         typeof (module as { default: unknown }).default === "function",
@@ -22,7 +31,7 @@ export function jitiTests() {
 
     test("imports App Router page with generateStaticParams", async () => {
       const modulePath = path.join(fixturesDir, "app/posts/[slug]/page.tsx");
-      const module = (await jiti.import(modulePath)) as {
+      const module = await importModule(modulePath) as {
         generateStaticParams?: () => Promise<Array<{ slug: string }>>;
       };
 
@@ -42,7 +51,7 @@ export function jitiTests() {
 
     test("imports Pages Router page with getStaticPaths", async () => {
       const modulePath = path.join(fixturesDir, "pages/posts/[slug].tsx");
-      const module = (await jiti.import(modulePath)) as {
+      const module = await importModule(modulePath) as {
         getStaticPaths?: () => Promise<{
           paths: Array<{ params: { slug: string } }>;
           fallback: boolean;
@@ -65,7 +74,7 @@ export function jitiTests() {
 
     test("imports static page without dynamic exports", async () => {
       const modulePath = path.join(fixturesDir, "app/about/page.tsx");
-      const module = (await jiti.import(modulePath)) as {
+      const module = await importModule(modulePath) as {
         generateStaticParams?: unknown;
         default: unknown;
       };

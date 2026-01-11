@@ -1,6 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
-import { createJiti } from "jiti";
+import { createJiti, type Jiti } from "jiti";
+import stripJsonComments from "strip-json-comments";
 import type { NextApiRequest, NextApiResponse, MetadataRoute } from "next";
 import {
   type SitemapConfig,
@@ -59,7 +60,7 @@ function findPageFiles(dir: string, baseDir: string = dir): string[] {
         // Recursively search subdirectories
         files.push(...findPageFiles(fullPath, baseDir));
       } else if (
-        (entry.name.endsWith(".tsx") || entry.name.endsWith(".ts")) &&
+        /\.(tsx?|jsx?)$/.test(entry.name) &&
         !entry.name.startsWith("_") // Skip _app, _document, etc.
       ) {
         // Convert absolute path to relative path like './about.tsx'
@@ -104,20 +105,88 @@ function getPageKeys(options: Pick<CreateSitemapApiHandlerOptions, "pagesDirecto
   return findPageFiles(resolvePagesDirectory(options));
 }
 
-/**
- * Create a jiti instance for importing TypeScript files at runtime
- * jsx: true enables JSX/TSX parsing via @babel/plugin-transform-react-jsx
- */
-const jiti = createJiti(import.meta.url, { jsx: true });
+// Cache for jiti instances per project
+const jitiCache = new Map<string, Jiti>();
 
 /**
- * Import a page module using jiti (supports TypeScript/TSX)
+ * Read tsconfig.json and extract path aliases
+ */
+function getTsconfigPaths(projectRoot: string): Record<string, string> {
+  const alias: Record<string, string> = {};
+
+  try {
+    const tsconfigPath = path.join(projectRoot, "tsconfig.json");
+    if (fs.existsSync(tsconfigPath)) {
+      const content = fs.readFileSync(tsconfigPath, "utf-8");
+      // Remove comments using strip-json-comments (handles strings correctly)
+      // Then remove trailing commas
+      const withoutComments = stripJsonComments(content);
+      const cleaned = withoutComments.replace(/,(\s*[}\]])/g, "$1");
+      const tsconfig = JSON.parse(cleaned) as {
+        compilerOptions?: {
+          baseUrl?: string;
+          paths?: Record<string, string[]>;
+        };
+      };
+
+      const baseUrl = tsconfig.compilerOptions?.baseUrl || ".";
+      const paths = tsconfig.compilerOptions?.paths || {};
+
+      for (const [key, values] of Object.entries(paths)) {
+        if (values.length > 0) {
+          // Convert TypeScript path pattern to jiti alias
+          // e.g., "@/*" -> ["./src/*"] becomes "@/*" -> "./src/*"
+          const aliasKey = key.replace(/\*$/, "");
+          const aliasValue = path.join(projectRoot, baseUrl, values[0].replace(/\*$/, ""));
+          alias[aliasKey] = aliasValue;
+        }
+      }
+    }
+  } catch {
+    // Ignore errors reading tsconfig
+  }
+
+  return alias;
+}
+
+/**
+ * Get or create a jiti instance for a project
+ */
+function getJiti(projectRoot: string): Jiti {
+  if (jitiCache.has(projectRoot)) {
+    return jitiCache.get(projectRoot)!;
+  }
+
+  const alias = getTsconfigPaths(projectRoot);
+
+  const jiti = createJiti(import.meta.url, {
+    moduleCache: false,
+    interopDefault: true,
+    jsx: true,
+    alias,
+  });
+
+  jitiCache.set(projectRoot, jiti);
+  return jiti;
+}
+
+/**
+ * Import a page module using jiti
+ * Jiti handles TypeScript compilation at runtime without bundling issues
  */
 async function importPage(pagesDirectory: string, key: string): Promise<PageModule> {
   // Convert key like './blog/[slug].tsx' to absolute path
   const relativePath = key.replace("./", "");
   const absolutePath = path.join(pagesDirectory, relativePath);
-  return jiti.import(absolutePath) as Promise<PageModule>;
+
+  // Get jiti instance with project-specific aliases
+  const projectRoot = process.cwd();
+  const jiti = getJiti(projectRoot);
+
+  // Use jiti to import the TypeScript file
+  const module = await jiti.import(absolutePath) as Record<string, unknown>;
+
+  return (module.default || module) as PageModule;
 }
 
 interface RouteData {
@@ -142,7 +211,7 @@ function extractRoutes(
     // ./index.tsx -> /
     let pathname = key
       .replace(/^\.\//, "/")
-      .replace(/\.tsx?$/, "")
+      .replace(/\.(tsx?|jsx?)$/, "")
       .replace(/\/index$/, "/");
 
     // Normalize trailing slash for root

@@ -45,7 +45,8 @@
     "test": "tsx --test tests/index.ts"
   },
   "dependencies": {
-    "jiti": "^2.6.1"
+    "jiti": "^2",
+    "strip-json-comments": "^5"
   },
   "peerDependencies": {
     "next": ">=14.0.0"

@@ -1,6 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
-import { createJiti } from "jiti";
+import { createJiti, type Jiti } from "jiti";
+import stripJsonComments from "strip-json-comments";
 import {
   type SitemapConfig,
   type SitemapEntry,
@@ -52,7 +53,7 @@ function findPageFiles(dir: string, baseDir: string = dir): string[] {
       if (entry.isDirectory()) {
         // Recursively search subdirectories
         files.push(...findPageFiles(fullPath, baseDir));
-      } else if (entry.name === "page.tsx" || entry.name === "page.ts") {
+      } else if (/^page\.(tsx?|jsx?)$/.test(entry.name)) {
         // Convert absolute path to relative path like './articles/[slug]/page.tsx'
         const relativePath = "./" + path.relative(baseDir, fullPath).replace(/\\/g, "/");
         files.push(relativePath);
@@ -95,18 +96,107 @@ function getPageKeys(options: Pick<CreateSitemapHandlerOptions, "appDirectory">)
   return findPageFiles(resolveAppDirectory(options));
 }
 
-// Create a jiti instance for importing TypeScript files at runtime
-// jsx: true enables JSX/TSX parsing via @babel/plugin-transform-react-jsx
-const jiti = createJiti(import.meta.url, { jsx: true });
+// Cache for jiti instances per project
+const jitiCache = new Map<string, Jiti>();
 
 /**
- * Import a page module using jiti (supports TypeScript/TSX at runtime)
+ * Read tsconfig.json and extract path aliases
  */
-async function importPage(appDirectory: string, key: string): Promise<PageModule> {
+function getTsconfigPaths(projectRoot: string, debug = false): Record<string, string> {
+  const alias: Record<string, string> = {};
+
+  try {
+    const tsconfigPath = path.join(projectRoot, "tsconfig.json");
+    if (debug) {
+      console.log("[next-sitemap] Looking for tsconfig at:", tsconfigPath);
+      console.log("[next-sitemap] tsconfig exists:", fs.existsSync(tsconfigPath));
+    }
+    if (fs.existsSync(tsconfigPath)) {
+      const content = fs.readFileSync(tsconfigPath, "utf-8");
+      // Remove comments using strip-json-comments (handles strings correctly)
+      // Then remove trailing commas
+      const withoutComments = stripJsonComments(content);
+      const cleaned = withoutComments.replace(/,(\s*[}\]])/g, "$1");
+
+      if (debug) {
+        console.log("[next-sitemap] Cleaned tsconfig (first 500 chars):", cleaned.slice(0, 500));
+      }
+
+      const tsconfig = JSON.parse(cleaned) as {
+        compilerOptions?: {
+          baseUrl?: string;
+          paths?: Record<string, string[]>;
+        };
+      };
+
+      if (debug) {
+        console.log("[next-sitemap] Parsed tsconfig paths:", tsconfig.compilerOptions?.paths);
+      }
+
+      const baseUrl = tsconfig.compilerOptions?.baseUrl || ".";
+      const paths = tsconfig.compilerOptions?.paths || {};
+
+      for (const [key, values] of Object.entries(paths)) {
+        if (values.length > 0) {
+          // Convert TypeScript path pattern to jiti alias
+          // e.g., "@/*" -> ["./src/*"] becomes "@/*" -> "./src/*"
+          const aliasKey = key.replace(/\*$/, "");
+          const aliasValue = path.join(projectRoot, baseUrl, values[0].replace(/\*$/, ""));
+          alias[aliasKey] = aliasValue;
+        }
+      }
+    }
+  } catch (error) {
+    if (debug) {
+      console.error("[next-sitemap] Error parsing tsconfig:", error);
+    }
+  }
+
+  return alias;
+}
+
+/**
+ * Get or create a jiti instance for a project
+ */
+function getJiti(projectRoot: string, debug = false): Jiti {
+  if (jitiCache.has(projectRoot)) {
+    return jitiCache.get(projectRoot)!;
+  }
+
+  const alias = getTsconfigPaths(projectRoot, debug);
+
+  if (debug) {
+    console.log("[next-sitemap] Final alias config:", JSON.stringify(alias));
+  }
+
+  const jiti = createJiti(import.meta.url, {
+    moduleCache: false,
+    interopDefault: true,
+    jsx: true,
+    alias,
+  });
+
+  jitiCache.set(projectRoot, jiti);
+  return jiti;
+}
+
+/**
+ * Import a page module using jiti
+ * Jiti handles TypeScript compilation at runtime without bundling issues
+ */
+async function importPage(appDirectory: string, key: string, debug = false): Promise<PageModule> {
   // Convert key like './articles/[slug]/page.tsx' to absolute path
   const relativePath = key.replace("./", "");
   const absolutePath = path.join(appDirectory, relativePath);
-  return jiti.import(absolutePath) as Promise<PageModule>;
+
+  // Get jiti instance with project-specific aliases
+  const projectRoot = process.cwd();
+  const jiti = getJiti(projectRoot, debug);
+
+  // Use jiti to import the TypeScript file
+  const module = await jiti.import(absolutePath) as Record<string, unknown>;
+
+  return (module.default || module) as PageModule;
 }
 
 interface RouteData {
@@ -130,7 +220,7 @@ function extractRoutes(
     // Also remove route groups like (legal) and locale segment
     let pathname = key
       .replace("./", "/")
-      .replace("/page.tsx", "");
+      .replace(/\/page\.(tsx?|jsx?)$/, "");
 
     // Only strip locale segment if one is configured
     if (localeSegment) {
@@ -190,7 +280,7 @@ async function getAllPaths(
         if (debug) {
           console.log(`[next-sitemap] ${route.pathname}: importing ${route.key}`);
         }
-        const module = await importPage(appDirectory, route.key);
+        const module = await importPage(appDirectory, route.key, debug);
         getParams = module.generateStaticParams || null;
       } catch (error) {
         if (debug) {
