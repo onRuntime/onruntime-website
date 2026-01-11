@@ -188,17 +188,17 @@ export function createSitemapIndexHandler(options: CreateSitemapHandlerOptions) 
   const localeSegment = options.localeSegment ?? (locales.length > 0 || defaultLocale ? "[locale]" : "");
   const routes = extractRoutes(options.pagesContext, localeSegment);
 
-  if (debug) {
-    console.log(`[next-sitemap] Found ${routes.length} routes:`);
-    routes.forEach((r) => {
-      const hasParams = r.getParams ? "✓ generateStaticParams" : "✗ no generateStaticParams";
-      const segments = r.dynamicSegments.length > 0 ? ` [${r.dynamicSegments.join(", ")}]` : "";
-      console.log(`  ${r.pathname}${segments} - ${hasParams}`);
-    });
-  }
-
   return {
     GET: async () => {
+      if (debug) {
+        console.log(`[next-sitemap] Found ${routes.length} routes:`);
+        routes.forEach((r) => {
+          const hasParams = r.getParams ? "✓ generateStaticParams" : "✗ no generateStaticParams";
+          const segments = r.dynamicSegments.length > 0 ? ` [${r.dynamicSegments.join(", ")}]` : "";
+          console.log(`  ${r.pathname}${segments} - ${hasParams}`);
+        });
+      }
+
       const allPaths = await getAllPaths(routes, debug);
       // Filter excluded paths for accurate count
       const filteredPaths = allPaths.filter((pathname) => !shouldExclude(pathname, exclude));
