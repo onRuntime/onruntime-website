@@ -22,12 +22,6 @@ export interface SitemapConfig {
   urlsPerSitemap?: number;
 
   /**
-   * Path to the app directory relative to the project root
-   * Default: "./src/app" or "./app"
-   */
-  appDir?: string;
-
-  /**
    * Locale segment in the URL path (e.g., "[locale]")
    * Auto-detected as "[locale]" when locales or defaultLocale is set
    */

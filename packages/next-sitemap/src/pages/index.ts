@@ -1,3 +1,6 @@
+import * as fs from "fs";
+import * as path from "path";
+import { createJiti } from "jiti";
 import type { NextApiRequest, NextApiResponse, MetadataRoute } from "next";
 import {
   type SitemapConfig,
@@ -18,13 +21,16 @@ export type { SitemapConfig, SitemapEntry, ChangeFrequency, MetadataRoute };
 
 export interface CreateSitemapApiHandlerOptions extends SitemapConfig {
   /**
-   * The require.context result for page discovery
-   * Example: require.context('./', true, /^\.\/(?!\[|_|api\/).*\.tsx$/)
+   * Path to the pages directory to scan for page files.
+   * Can be absolute or relative to process.cwd().
+   * If not provided, auto-detects src/pages or pages.
+   *
+   * Example:
+   * ```ts
+   * pagesDirectory: 'src/pages'
+   * ```
    */
-  pagesContext: {
-    keys: () => string[];
-    (key: string): PageModule;
-  };
+  pagesDirectory?: string;
 
   /**
    * Enable debug logging to diagnose issues with route discovery
@@ -34,25 +40,101 @@ export interface CreateSitemapApiHandlerOptions extends SitemapConfig {
   debug?: boolean;
 }
 
+/**
+ * Recursively find all page files in a directory
+ * Pages Router uses .tsx files directly (not page.tsx in folders)
+ */
+function findPageFiles(dir: string, baseDir: string = dir): string[] {
+  const files: string[] = [];
+
+  try {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+
+    for (const entry of entries) {
+      const fullPath = path.join(dir, entry.name);
+
+      if (entry.isDirectory()) {
+        // Skip api directory
+        if (entry.name === "api") continue;
+        // Recursively search subdirectories
+        files.push(...findPageFiles(fullPath, baseDir));
+      } else if (
+        (entry.name.endsWith(".tsx") || entry.name.endsWith(".ts")) &&
+        !entry.name.startsWith("_") // Skip _app, _document, etc.
+      ) {
+        // Convert absolute path to relative path like './about.tsx'
+        const relativePath = "./" + path.relative(baseDir, fullPath).replace(/\\/g, "/");
+        files.push(relativePath);
+      }
+    }
+  } catch {
+    // Directory doesn't exist or can't be read
+  }
+
+  return files;
+}
+
+/**
+ * Auto-detect the pages directory (src/pages or pages)
+ */
+function detectPagesDirectory(): string {
+  const srcPages = path.join(process.cwd(), "src/pages");
+  if (fs.existsSync(srcPages)) {
+    return srcPages;
+  }
+  return path.join(process.cwd(), "pages");
+}
+
+/**
+ * Resolve the pages directory path
+ */
+function resolvePagesDirectory(options: Pick<CreateSitemapApiHandlerOptions, "pagesDirectory">): string {
+  if (options.pagesDirectory) {
+    return path.isAbsolute(options.pagesDirectory)
+      ? options.pagesDirectory
+      : path.join(process.cwd(), options.pagesDirectory);
+  }
+  return detectPagesDirectory();
+}
+
+/**
+ * Get page keys from pagesDirectory
+ */
+function getPageKeys(options: Pick<CreateSitemapApiHandlerOptions, "pagesDirectory">): string[] {
+  return findPageFiles(resolvePagesDirectory(options));
+}
+
+/**
+ * Create a jiti instance for importing TypeScript files at runtime
+ * jsx: true enables JSX/TSX parsing via @babel/plugin-transform-react-jsx
+ */
+const jiti = createJiti(import.meta.url, { jsx: true });
+
+/**
+ * Import a page module using jiti (supports TypeScript/TSX)
+ */
+async function importPage(pagesDirectory: string, key: string): Promise<PageModule> {
+  // Convert key like './blog/[slug].tsx' to absolute path
+  const relativePath = key.replace("./", "");
+  const absolutePath = path.join(pagesDirectory, relativePath);
+  return jiti.import(absolutePath) as Promise<PageModule>;
+}
+
 interface RouteData {
   pathname: string;
   dynamicSegments: string[];
-  getParams: (() => Promise<Record<string, string>[]>) | null;
+  key: string;
 }
 
 function extractRoutes(
-  pagesContext: CreateSitemapApiHandlerOptions["pagesContext"],
+  pageKeys: string[],
   localeSegment: string
 ): RouteData[] {
   const routes: RouteData[] = [];
 
-  for (const key of pagesContext.keys()) {
-    // Skip catch-all routes like [...slug], API routes, and special files
+  for (const key of pageKeys) {
+    // Skip catch-all routes like [...slug]
     if (key.includes("[...")) continue;
-    if (key.includes("/api/")) continue;
-    if (key.includes("/_")) continue;
-
-    const pageModule = pagesContext(key);
 
     // Convert file path to URL path
     // ./about.tsx -> /about
@@ -88,31 +170,21 @@ function extractRoutes(
     const dynamicSegments =
       pathname.match(/\[([^\]]+)\]/g)?.map((s) => s.slice(1, -1)) || [];
 
-    // Pages Router uses getStaticPaths instead of generateStaticParams
-    const getStaticPaths = (pageModule as { getStaticPaths?: () => Promise<{ paths: Array<{ params: Record<string, string> }> }> }).getStaticPaths;
-
-    let getParams: (() => Promise<Record<string, string>[]>) | null = null;
-    if (getStaticPaths) {
-      getParams = async () => {
-        const result = await getStaticPaths();
-        return result.paths.map((p) => p.params);
-      };
-    } else if (pageModule.generateStaticParams) {
-      // Also support generateStaticParams for consistency
-      getParams = pageModule.generateStaticParams;
-    }
-
     routes.push({
       pathname,
       dynamicSegments,
-      getParams,
+      key,
     });
   }
 
   return routes;
 }
 
-async function getAllPaths(routes: RouteData[], debug = false): Promise<string[]> {
+async function getAllPaths(
+  routes: RouteData[],
+  pagesDirectory: string,
+  debug = false
+): Promise<string[]> {
   const allPaths: string[] = ["/"];
   const seenPaths = new Set<string>(["/"]); // Avoid duplicates
 
@@ -123,43 +195,71 @@ async function getAllPaths(routes: RouteData[], debug = false): Promise<string[]
         allPaths.push(route.pathname);
         seenPaths.add(route.pathname);
       }
-    } else if (route.getParams) {
-      // Dynamic route with getStaticPaths/generateStaticParams
+    } else {
+      // Dynamic route - load module via importPage
+      let getParams: (() => Promise<Record<string, string>[]>) | null = null;
+
       try {
-        const params = await route.getParams();
-
         if (debug) {
-          console.log(`[next-sitemap] ${route.pathname}: getStaticPaths returned ${params.length} params`);
+          console.log(`[next-sitemap] ${route.pathname}: importing ${route.key}`);
         }
+        const module = await importPage(pagesDirectory, route.key);
 
-        for (const param of params) {
-          let dynamicPath = route.pathname;
-          for (const segment of route.dynamicSegments) {
-            const value = param[segment];
-            if (value === undefined) {
-              if (debug) {
-                console.warn(`[next-sitemap] ${route.pathname}: missing param "${segment}" in`, param);
-              }
-              continue;
-            }
-            dynamicPath = dynamicPath.replace(`[${segment}]`, value);
-          }
-          if (!seenPaths.has(dynamicPath)) {
-            allPaths.push(dynamicPath);
-            seenPaths.add(dynamicPath);
-          }
+        // Pages Router uses getStaticPaths
+        const getStaticPaths = (module as unknown as { getStaticPaths?: () => Promise<{ paths: Array<{ params: Record<string, string> }> }> }).getStaticPaths;
+        if (getStaticPaths) {
+          getParams = async () => {
+            const result = await getStaticPaths();
+            return result.paths.map((p) => p.params);
+          };
+        } else if ((module as unknown as PageModule).generateStaticParams) {
+          // Also support generateStaticParams for consistency
+          getParams = (module as unknown as PageModule).generateStaticParams!;
         }
       } catch (error) {
-        console.error(`[next-sitemap] Error calling getStaticPaths for ${route.pathname}:`, error);
-        // Continue with other routes instead of failing completely
+        if (debug) {
+          console.warn(`[next-sitemap] ${route.pathname}: import failed:`, error);
+        }
       }
-    } else if (route.dynamicSegments.length > 0) {
-      // Dynamic route without getStaticPaths - warn user
-      if (debug) {
-        console.warn(
-          `[next-sitemap] Skipping dynamic route ${route.pathname}: no getStaticPaths exported. ` +
-          `Use additionalSitemaps for routes that fetch data at runtime.`
-        );
+
+      if (getParams) {
+        // Dynamic route with getStaticPaths/generateStaticParams
+        try {
+          const params = await getParams();
+
+          if (debug) {
+            console.log(`[next-sitemap] ${route.pathname}: getStaticPaths returned ${params.length} params`);
+          }
+
+          for (const param of params) {
+            let dynamicPath = route.pathname;
+            for (const segment of route.dynamicSegments) {
+              const value = param[segment];
+              if (value === undefined) {
+                if (debug) {
+                  console.warn(`[next-sitemap] ${route.pathname}: missing param "${segment}" in`, param);
+                }
+                continue;
+              }
+              dynamicPath = dynamicPath.replace(`[${segment}]`, value);
+            }
+            if (!seenPaths.has(dynamicPath)) {
+              allPaths.push(dynamicPath);
+              seenPaths.add(dynamicPath);
+            }
+          }
+        } catch (error) {
+          console.error(`[next-sitemap] Error calling getStaticPaths for ${route.pathname}:`, error);
+          // Continue with other routes instead of failing completely
+        }
+      } else {
+        // Dynamic route without getStaticPaths - warn user
+        if (debug) {
+          console.warn(
+            `[next-sitemap] Skipping dynamic route ${route.pathname}: no getStaticPaths exported. ` +
+            `Use additionalSitemaps for routes that fetch data at runtime.`
+          );
+        }
       }
     }
   }
@@ -207,19 +307,21 @@ export function createSitemapIndexApiHandler(options: CreateSitemapApiHandlerOpt
   const { urlsPerSitemap = 5000, additionalSitemaps, exclude, debug = false } = options;
   // Pages Router doesn't use [locale] segment - i18n is handled via next.config.js
   const localeSegment = options.localeSegment ?? "";
-  const routes = extractRoutes(options.pagesContext, localeSegment);
+  const pagesDir = resolvePagesDirectory(options);
+  const pageKeys = getPageKeys(options);
+  const routes = extractRoutes(pageKeys, localeSegment);
 
   if (debug) {
     console.log(`[next-sitemap] Found ${routes.length} routes:`);
     routes.forEach((r) => {
-      const hasParams = r.getParams ? "✓ getStaticPaths" : "✗ no getStaticPaths";
-      const segments = r.dynamicSegments.length > 0 ? ` [${r.dynamicSegments.join(", ")}]` : "";
-      console.log(`  ${r.pathname}${segments} - ${hasParams}`);
+      const isDynamic = r.dynamicSegments.length > 0;
+      const segments = isDynamic ? ` [${r.dynamicSegments.join(", ")}]` : "";
+      console.log(`  ${r.pathname}${segments}${isDynamic ? " (dynamic)" : ""}`);
     });
   }
 
   return async function handler(_req: NextApiRequest, res: NextApiResponse) {
-    const allPaths = await getAllPaths(routes, debug);
+    const allPaths = await getAllPaths(routes, pagesDir, debug);
     // Filter excluded paths for accurate count
     const filteredPaths = allPaths.filter((pathname) => !shouldExclude(pathname, exclude));
     const sitemapCount = Math.max(1, Math.ceil(filteredPaths.length / urlsPerSitemap));
@@ -240,11 +342,13 @@ export function createSitemapApiHandler(options: CreateSitemapApiHandlerOptions)
   const { urlsPerSitemap = 5000, exclude, debug = false } = options;
   // Pages Router doesn't use [locale] segment - i18n is handled via next.config.js
   const localeSegment = options.localeSegment ?? "";
-  const routes = extractRoutes(options.pagesContext, localeSegment);
+  const pagesDir = resolvePagesDirectory(options);
+  const pageKeys = getPageKeys(options);
+  const routes = extractRoutes(pageKeys, localeSegment);
 
   // Helper to get filtered paths (excludes are applied here for pagination)
   const getFilteredPaths = async () => {
-    const allPaths = await getAllPaths(routes, debug);
+    const allPaths = await getAllPaths(routes, pagesDir, debug);
     return allPaths.filter((pathname) => !shouldExclude(pathname, exclude));
   };
 
@@ -275,9 +379,11 @@ export async function getSitemapStaticPaths(options: CreateSitemapApiHandlerOpti
   const { urlsPerSitemap = 5000, exclude, debug = false } = options;
   // Pages Router doesn't use [locale] segment - i18n is handled via next.config.js
   const localeSegment = options.localeSegment ?? "";
-  const routes = extractRoutes(options.pagesContext, localeSegment);
+  const pagesDir = resolvePagesDirectory(options);
+  const pageKeys = getPageKeys(options);
+  const routes = extractRoutes(pageKeys, localeSegment);
 
-  const allPaths = await getAllPaths(routes, debug);
+  const allPaths = await getAllPaths(routes, pagesDir, debug);
   const filteredPaths = allPaths.filter((pathname) => !shouldExclude(pathname, exclude));
   const sitemapCount = Math.max(1, Math.ceil(filteredPaths.length / urlsPerSitemap));
 
