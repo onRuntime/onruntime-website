@@ -7,12 +7,13 @@ import {
   buildUrl,
   generateSitemapXml,
   generateSitemapIndexXml,
-  generateRobotsTxt,
   shouldExclude,
   getPriority,
   getChangeFreq,
 } from "../index";
+import { generateRobotsTxt } from "./robots";
 
+export * from "./robots";
 export type { SitemapConfig, SitemapEntry, ChangeFrequency, MetadataRoute };
 
 export interface CreateSitemapApiHandlerOptions extends SitemapConfig {

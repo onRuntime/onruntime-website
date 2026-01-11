@@ -1,7 +1,7 @@
 import assert from "node:assert";
 import test, { describe } from "node:test";
 import type { MetadataRoute } from "next";
-import { generateRobotsTxt } from "../src/index";
+import { generateRobotsTxt } from "../src/pages/robots";
 
 export function robotsTests() {
   describe("generateRobotsTxt", () => {
