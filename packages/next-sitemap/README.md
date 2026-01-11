@@ -12,7 +12,7 @@ Dynamic sitemap generation for Next.js with automatic route discovery.
 ## Features
 
 - **App Router** and **Pages Router** support
-- Automatic route discovery using `require.context`
+- Automatic route discovery using filesystem scan
 - Calls `generateStaticParams` (App Router) or `getStaticPaths` (Pages Router) for dynamic routes
 - Multi-sitemap support with sitemap index (for sites with >50,000 URLs)
 - hreflang alternates for i18n
@@ -37,12 +37,8 @@ import { createSitemapIndexHandler } from "@onruntime/next-sitemap/app";
 
 export const dynamic = "force-static";
 
-// @ts-expect-error - require.context is a webpack/turbopack feature
-const pagesContext = require.context("../", true, /\/page\.tsx$/);
-
 const { GET } = createSitemapIndexHandler({
   baseUrl: "https://example.com",
-  pagesContext,
 });
 
 export { GET };
@@ -56,12 +52,8 @@ import { createSitemapHandler } from "@onruntime/next-sitemap/app";
 
 export const dynamic = "force-static";
 
-// @ts-expect-error - require.context is a webpack/turbopack feature
-const pagesContext = require.context("../../", true, /\/page\.tsx$/);
-
 const { generateStaticParams, GET } = createSitemapHandler({
   baseUrl: "https://example.com",
-  pagesContext,
 });
 
 export { generateStaticParams, GET };
@@ -73,13 +65,10 @@ If your app uses a `[locale]` segment for internationalization, just add `locale
 
 ```typescript
 // app/sitemap.xml/route.ts
-const pagesContext = require.context("../[locale]", true, /\/page\.tsx$/);
-
 const { GET } = createSitemapIndexHandler({
   baseUrl: "https://example.com",
   locales: ["en", "fr"],
   defaultLocale: "en",
-  pagesContext,
 });
 ```
 
@@ -117,12 +106,8 @@ export default nextConfig;
 // pages/api/sitemap.xml.ts
 import { createSitemapIndexApiHandler } from "@onruntime/next-sitemap/pages";
 
-// @ts-expect-error - require.context is a webpack/turbopack feature
-const pagesContext = require.context("../", true, /^\.\/(?!\[|_|api\/).*\.tsx$/);
-
 export default createSitemapIndexApiHandler({
   baseUrl: "https://example.com",
-  pagesContext,
 });
 ```
 
@@ -132,12 +117,8 @@ export default createSitemapIndexApiHandler({
 // pages/api/sitemap/[id].ts
 import { createSitemapApiHandler } from "@onruntime/next-sitemap/pages";
 
-// @ts-expect-error - require.context is a webpack/turbopack feature
-const pagesContext = require.context("../../", true, /^\.\/(?!\[|_|api\/).*\.tsx$/);
-
 export default createSitemapApiHandler({
   baseUrl: "https://example.com",
-  pagesContext,
 });
 ```
 
@@ -181,14 +162,10 @@ module.exports = {
 // pages/api/sitemap.xml.ts
 import { createSitemapIndexApiHandler } from "@onruntime/next-sitemap/pages";
 
-// @ts-expect-error - require.context is a webpack/turbopack feature
-const pagesContext = require.context("../", true, /^\.\/(?!\[|_|api\/).*\.tsx$/);
-
 export default createSitemapIndexApiHandler({
   baseUrl: "https://example.com",
   locales: ["en", "fr"],
   defaultLocale: "en",
-  pagesContext,
 });
 ```
 
@@ -197,11 +174,12 @@ export default createSitemapIndexApiHandler({
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
 | `baseUrl` | `string` | required | Base URL of the site |
+| `appDirectory` | `string` | auto | (App Router) Path to scan for pages. Auto-detects `src/app` or `app` |
+| `pagesDirectory` | `string` | auto | (Pages Router) Path to scan for pages. Auto-detects `src/pages` or `pages` |
 | `locales` | `string[]` | `[]` | List of supported locales |
 | `defaultLocale` | `string` | `undefined` | Default locale (URLs without prefix) |
 | `urlsPerSitemap` | `number` | `5000` | Max URLs per sitemap file |
 | `localeSegment` | `string` | auto | Auto-detected as `"[locale]"` when i18n is configured. Override for custom names like `"[lang]"`. |
-| `pagesContext` | `object` | required | Result of `require.context()` |
 | `exclude` | `string[]` or `function` | `undefined` | Patterns or function to exclude routes |
 | `priority` | `number`, `"auto"`, or `function` | `"auto"` | Priority calculation (auto = depth-based) |
 | `changeFreq` | `ChangeFrequency` or `function` | `"weekly"` | Change frequency for entries |
@@ -216,14 +194,12 @@ Exclude specific routes from the sitemap using glob patterns or a function:
 // Using glob patterns
 const { GET } = createSitemapIndexHandler({
   baseUrl: "https://example.com",
-  pagesContext,
   exclude: ["/admin/*", "/api/*", "/private/**"],
 });
 
 // Using a function
 const { GET } = createSitemapIndexHandler({
   baseUrl: "https://example.com",
-  pagesContext,
   exclude: (path) => path.startsWith("/internal"),
 });
 ```
@@ -273,14 +249,13 @@ Include custom sitemaps in the sitemap index (e.g., for API-fetched data):
 ```typescript
 const { GET } = createSitemapIndexHandler({
   baseUrl: "https://example.com",
-  pagesContext,
   additionalSitemaps: ["/products-sitemap.xml", "/blog-sitemap.xml"],
 });
 ```
 
 ### How It Works
 
-1. `require.context` scans your app/pages directory at build time
+1. The filesystem is scanned to discover all pages in your app/pages directory
 2. For each page found, it extracts the route path
 3. For dynamic routes (e.g., `/projects/[id]`), it calls `generateStaticParams` (App Router) or `getStaticPaths` (Pages Router)
 4. URLs are paginated into multiple sitemaps (default: 5000 URLs each)
@@ -405,7 +380,6 @@ If your dynamic routes (e.g., `/articles/[slug]`) are not appearing in the sitem
 ```typescript
 const { GET } = createSitemapIndexHandler({
   baseUrl: "https://example.com",
-  pagesContext,
   debug: true, // Enable debug logging
 });
 ```
@@ -441,7 +415,6 @@ For routes that fetch data from external sources (APIs, databases like Payload C
 // app/sitemap.xml/route.ts
 const { GET } = createSitemapIndexHandler({
   baseUrl: "https://example.com",
-  pagesContext,
   additionalSitemaps: ["/articles-sitemap.xml"],
 });
 
