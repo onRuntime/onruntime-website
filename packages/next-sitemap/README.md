@@ -384,6 +384,18 @@ Add a rewrite in `next.config.ts`:
 
 **Note:** For App Router, use the [native `robots.ts` file convention](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/robots) instead.
 
+## Requirements
+
+This package requires a **Node.js server runtime**. It works with:
+- Vercel
+- Netlify (with Next.js runtime)
+- Railway, Render, Fly.io
+- AWS (EC2, ECS, Lambda)
+- Docker containers
+- Any Node.js server
+
+It does **not** work with static exports (`output: 'export'`) or static hosting platforms like Cloudflare Pages, Netlify (static mode), or GitHub Pages.
+
 ## Troubleshooting
 
 ### Dynamic routes not included in sitemap
