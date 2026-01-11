@@ -1,5 +1,11 @@
 # @onruntime/next-sitemap
 
+## 0.5.0
+
+### Minor Changes
+
+- ca8aa76: Add robots.txt support for Pages Router with `createRobotsApiHandler` and `generateRobotsTxt` using Next.js `MetadataRoute.Robots` type
+
 ## 0.4.1
 
 ### Patch Changes

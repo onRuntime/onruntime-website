@@ -1,6 +1,6 @@
 {
   "name": "@onruntime/next-sitemap",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Dynamic sitemap generation for Next.js with automatic route discovery",
   "author": "onRuntime Studio <contact@onruntime.com>",
   "repository": {
