@@ -1,4 +1,4 @@
-import type { NextApiRequest, NextApiResponse } from "next";
+import type { NextApiRequest, NextApiResponse, MetadataRoute } from "next";
 import {
   type SitemapConfig,
   type SitemapEntry,
@@ -7,12 +7,13 @@ import {
   buildUrl,
   generateSitemapXml,
   generateSitemapIndexXml,
+  generateRobotsTxt,
   shouldExclude,
   getPriority,
   getChangeFreq,
 } from "../index";
 
-export type { SitemapConfig, SitemapEntry, ChangeFrequency };
+export type { SitemapConfig, SitemapEntry, ChangeFrequency, MetadataRoute };
 
 export interface CreateSitemapApiHandlerOptions extends SitemapConfig {
   /**
@@ -284,5 +285,31 @@ export async function getSitemapStaticPaths(options: CreateSitemapApiHandlerOpti
       params: { id: String(i) },
     })),
     fallback: false,
+  };
+}
+
+/**
+ * Create API handler for robots.txt
+ * Use in: pages/api/robots.txt.ts or pages/robots.txt.ts (with rewrites)
+ *
+ * @example
+ * // pages/api/robots.txt.ts
+ * import { createRobotsApiHandler } from "@onruntime/next-sitemap/pages";
+ *
+ * export default createRobotsApiHandler({
+ *   rules: {
+ *     userAgent: "*",
+ *     allow: "/",
+ *     disallow: ["/admin", "/private"],
+ *   },
+ *   sitemap: "https://example.com/sitemap.xml",
+ * });
+ */
+export function createRobotsApiHandler(config: MetadataRoute.Robots) {
+  return function handler(_req: NextApiRequest, res: NextApiResponse) {
+    const robotsTxt = generateRobotsTxt(config);
+
+    res.setHeader("Content-Type", "text/plain");
+    res.status(200).send(robotsTxt);
   };
 }

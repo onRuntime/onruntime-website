@@ -17,6 +17,7 @@ Dynamic sitemap generation for Next.js with automatic route discovery.
 - Multi-sitemap support with sitemap index (for sites with >50,000 URLs)
 - hreflang alternates for i18n
 - Fully static generation (SSG)
+- robots.txt generation with Next.js `MetadataRoute.Robots` compatibility
 
 ## Installation
 
@@ -353,6 +354,35 @@ export async function GET() {
   </url>
 </urlset>
 ```
+
+## Robots.txt (Pages Router)
+
+For Pages Router, use `createRobotsApiHandler` to generate a `robots.txt` file. The configuration uses the same format as [Next.js `MetadataRoute.Robots`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/robots).
+
+```typescript
+// pages/api/robots.txt.ts
+import { createRobotsApiHandler } from "@onruntime/next-sitemap/pages";
+
+export default createRobotsApiHandler({
+  rules: {
+    userAgent: "*",
+    allow: "/",
+    disallow: ["/admin", "/private"],
+  },
+  sitemap: "https://example.com/sitemap.xml",
+});
+```
+
+Add a rewrite in `next.config.ts`:
+
+```typescript
+{
+  source: "/robots.txt",
+  destination: "/api/robots.txt",
+}
+```
+
+**Note:** For App Router, use the [native `robots.ts` file convention](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/robots) instead.
 
 ## Troubleshooting
 
