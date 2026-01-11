@@ -20,6 +20,9 @@ import { generateRobotsTxt } from "./robots";
 export * from "./robots";
 export type { SitemapConfig, SitemapEntry, ChangeFrequency, MetadataRoute };
 
+// Use indirect reference to avoid Turbopack static analysis warning
+const joinPath = (...segments: string[]) => path.join(...segments);
+
 export interface CreateSitemapApiHandlerOptions extends SitemapConfig {
   /**
    * Path to the pages directory to scan for page files.
@@ -137,7 +140,7 @@ function getTsconfigPaths(projectRoot: string): Record<string, string> {
           // Convert TypeScript path pattern to jiti alias
           // e.g., "@/*" -> ["./src/*"] becomes "@/*" -> "./src/*"
           const aliasKey = key.replace(/\*$/, "");
-          const aliasValue = path.join(projectRoot, baseUrl, values[0].replace(/\*$/, ""));
+          const aliasValue = joinPath(projectRoot, baseUrl, values[0].replace(/\*$/, ""));
           alias[aliasKey] = aliasValue;
         }
       }

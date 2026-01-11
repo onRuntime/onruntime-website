@@ -17,6 +17,9 @@ import {
 
 export type { SitemapConfig, SitemapEntry, ChangeFrequency };
 
+// Use indirect reference to avoid Turbopack static analysis warning
+const joinPath = (...segments: string[]) => path.join(...segments);
+
 export interface CreateSitemapHandlerOptions extends SitemapConfig {
   /**
    * Path to the app directory to scan for page.tsx files.
@@ -141,7 +144,7 @@ function getTsconfigPaths(projectRoot: string, debug = false): Record<string, st
           // Convert TypeScript path pattern to jiti alias
           // e.g., "@/*" -> ["./src/*"] becomes "@/*" -> "./src/*"
           const aliasKey = key.replace(/\*$/, "");
-          const aliasValue = path.join(projectRoot, baseUrl, values[0].replace(/\*$/, ""));
+          const aliasValue = joinPath(projectRoot, baseUrl, values[0].replace(/\*$/, ""));
           alias[aliasKey] = aliasValue;
         }
       }
