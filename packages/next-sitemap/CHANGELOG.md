@@ -1,5 +1,16 @@
 # @onruntime/next-sitemap
 
+## 0.6.1
+
+### Patch Changes
+
+- fdcce2b: Add tsconfig path alias support and .js/.jsx file scanning
+
+  - Add automatic tsconfig.json path alias resolution (`@/*` -> `./src/*`)
+  - Add `strip-json-comments` for robust JSONC parsing
+  - Support `.js` and `.jsx` files in addition to `.ts` and `.tsx`
+  - Improve jiti configuration with `interopDefault` and per-project caching
+
 ## 0.6.0
 
 ### Minor Changes
@@ -7,9 +18,11 @@
 - f03af8e: Simplify API with automatic route discovery and jiti-powered module imports for both App Router and Pages Router.
 
   **Breaking changes:**
+
   - App Router: `pagesDirectory` option renamed to `appDirectory`
 
   **New features:**
+
   - Auto-detect `src/app` or `app` directory (App Router) / `src/pages` or `pages` (Pages Router)
   - Use filesystem scanning + jiti for runtime TSX/JSX imports (no more `pagesContext` or `importPage` options)
   - Works reliably in both development and production modes
