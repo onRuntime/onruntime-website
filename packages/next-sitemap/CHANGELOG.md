@@ -1,5 +1,11 @@
 # @onruntime/next-sitemap
 
+## 0.5.1
+
+### Patch Changes
+
+- 724bbf9: Fix debug logging in App Router - move logs inside GET handler so they appear at request time instead of module initialization
+
 ## 0.5.0
 
 ### Minor Changes
