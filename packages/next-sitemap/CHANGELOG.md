@@ -1,5 +1,11 @@
 # @onruntime/next-sitemap
 
+## 0.9.1
+
+### Patch Changes
+
+- 3903a3d: Fix trailing slash on root URL with locales (e.g., `/fr` instead of `/fr/`)
+
 ## 0.9.0
 
 ### Minor Changes
