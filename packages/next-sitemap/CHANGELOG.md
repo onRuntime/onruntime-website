@@ -1,5 +1,11 @@
 # @onruntime/next-sitemap
 
+## 0.9.0
+
+### Minor Changes
+
+- Fix Pages Router sitemap generation in Docker/production environments by reading from routes-manifest.json instead of scanning source files
+
 ## 0.8.0
 
 ### Minor Changes

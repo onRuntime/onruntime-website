@@ -79,6 +79,45 @@ export interface RouteInfo {
 }
 
 /**
+ * Resolve the file path for a route
+ * Handles both source files (./path/file.tsx) and manifest paths (/path/file)
+ */
+function resolveFilePath(directory: string, fileKey: string): string | null {
+  // If it's already a relative file path (from file scanning)
+  if (fileKey.startsWith("./")) {
+    return join(directory, fileKey.replace("./", ""));
+  }
+
+  // It's a manifest path (e.g., /calendar/[year]/[month])
+  // Try to find the compiled JS file
+  const basePath = fileKey === "/" ? "/index" : fileKey;
+
+  // Try .js extension first (compiled)
+  const jsPath = join(directory, basePath + ".js");
+  if (existsSync(jsPath)) {
+    return jsPath;
+  }
+
+  // Try source extensions
+  for (const ext of JS_EXTENSIONS) {
+    const sourcePath = join(directory, basePath + ext);
+    if (existsSync(sourcePath)) {
+      return sourcePath;
+    }
+  }
+
+  // Try index files for directory-based routes
+  for (const ext of JS_EXTENSIONS) {
+    const indexPath = join(directory, basePath, "index" + ext);
+    if (existsSync(indexPath)) {
+      return indexPath;
+    }
+  }
+
+  return null;
+}
+
+/**
  * Execute worker via child process to get static params
  */
 export async function executeWorker(
@@ -86,8 +125,15 @@ export async function executeWorker(
   fileKey: string,
   debug: boolean
 ): Promise<Record<string, string>[] | null> {
-  const absolutePath = join(directory, fileKey.replace("./", ""));
+  const absolutePath = resolveFilePath(directory, fileKey);
   const projectRoot = process.cwd();
+
+  if (!absolutePath) {
+    if (debug) {
+      console.warn(`[next-sitemap] Could not resolve file path for ${fileKey} in ${directory}`);
+    }
+    return null;
+  }
   // Go up one level because this code is bundled into dist/app/ or dist/pages/
   const distRoot = join(__dirname, "..");
   const workerPath = join(distRoot, "worker.cjs");
