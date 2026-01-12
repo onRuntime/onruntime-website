@@ -1,5 +1,12 @@
 # @onruntime/next-sitemap-example-app
 
+## 0.1.11
+
+### Patch Changes
+
+- Updated dependencies [ed5e4b9]
+  - @onruntime/next-sitemap@0.7.0
+
 ## 0.1.10
 
 ### Patch Changes
