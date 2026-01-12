@@ -184,11 +184,11 @@ export function buildUrl(
   defaultLocale?: string
 ): string {
   const normalizedPath = normalizePath(pathname);
-  if (!locale || locale === defaultLocale) {
-    return `${baseUrl}${normalizedPath}`;
-  }
-  // For root path with locale, don't add trailing slash
+  // For root path, don't add trailing slash
   const pathSuffix = pathname === "/" ? "" : normalizedPath;
+  if (!locale || locale === defaultLocale) {
+    return `${baseUrl}${pathSuffix}`;
+  }
   return `${baseUrl}/${locale}${pathSuffix}`;
 }
 

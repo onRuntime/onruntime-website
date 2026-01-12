@@ -49,7 +49,7 @@ export function coreTests() {
 
     test("handles root path correctly", () => {
       const url = buildUrl("https://example.com", "/", "en", "en");
-      assert.strictEqual(url, "https://example.com/");
+      assert.strictEqual(url, "https://example.com");
     });
 
     test("handles root path with non-default locale", () => {
