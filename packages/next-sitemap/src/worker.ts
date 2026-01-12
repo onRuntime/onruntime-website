@@ -10,9 +10,10 @@
  * Output: JSON WorkerOutput
  */
 
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync, mkdtempSync } from "node:fs";
 import { Module } from "node:module";
 import { extname, join } from "node:path";
+import { tmpdir } from "node:os";
 import { createJiti } from "jiti";
 import stripJsonComments from "strip-json-comments";
 import {
@@ -24,13 +25,69 @@ import {
 // Indirect reference to avoid Turbopack static analysis
 const joinPath = (...segments: string[]) => join(...segments);
 
+// Track mocked modules for debugging
+const mockedModules = new Set<string>();
+
+// Temp directory for mock files
+let mockTempDir: string | null = null;
+
+function getMockTempDir(): string {
+  if (!mockTempDir) {
+    mockTempDir = mkdtempSync(joinPath(tmpdir(), "next-sitemap-"));
+  }
+  return mockTempDir;
+}
+
+/**
+ * Create a mock file that exports a generic proxy
+ */
+function createMockFile(name: string): string {
+  const mockPath = joinPath(getMockTempDir(), `${name.replace(/[^a-zA-Z0-9]/g, "_")}-mock.js`);
+  const mockContent = `
+// Auto-generated mock for ${name}
+const handler = {
+  get(_, prop) {
+    if (prop === Symbol.toPrimitive) return () => "";
+    if (prop === "then") return undefined;
+    return new Proxy(() => {}, handler);
+  },
+  apply() { return new Proxy(() => {}, handler); }
+};
+const mock = new Proxy(() => {}, handler);
+module.exports = mock;
+module.exports.default = mock;
+// Common named exports
+module.exports.env = mock;
+module.exports.createEnv = () => mock;
+`;
+  writeFileSync(mockPath, mockContent);
+  return mockPath;
+}
+
 installMockLoader();
 main();
 
 /**
- * Wrap Module._load to mock non-JS files.
- * This is more reliable than Module._extensions because it intercepts
- * all require() calls before extension handling.
+ * Create a generic mock that returns empty objects/functions for any property access
+ */
+function createGenericMock(): unknown {
+  const handler: ProxyHandler<object> = {
+    get(_, prop) {
+      if (prop === Symbol.toPrimitive) return () => "";
+      if (prop === "then") return undefined; // Not a promise
+      // Return a function that returns a mock for chaining
+      return new Proxy(() => createGenericMock(), handler);
+    },
+    apply() {
+      return createGenericMock();
+    },
+  };
+  return new Proxy(() => {}, handler);
+}
+
+/**
+ * Wrap Module._load to mock non-JS files and modules that fail to load.
+ * This allows the worker to continue even when dependencies can't be loaded.
  */
 function installMockLoader(): void {
   const ModuleInternal = Module as typeof Module & {
@@ -46,25 +103,31 @@ function installMockLoader(): void {
     try {
       resolvedPath = ModuleInternal._resolveFilename(request, parent, isMain);
     } catch {
-      // If resolution fails, let original handler deal with it
-      return originalLoad(request, parent, isMain);
+      // Resolution failed - return generic mock
+      mockedModules.add(request);
+      return createGenericMock();
     }
 
-    // Check extension
+    // Check extension - mock non-JS files
     const ext = extname(resolvedPath).toLowerCase();
-
-    // If it has an extension and it's NOT a JS extension, return empty module
     if (ext && !JS_EXTENSIONS.has(ext)) {
       return {};
     }
 
-    // Otherwise, use original loader
-    return originalLoad(request, parent, isMain);
+    // Try to load the module, mock on failure
+    try {
+      return originalLoad(request, parent, isMain);
+    } catch {
+      // Module failed to load - return generic mock
+      mockedModules.add(request);
+      return createGenericMock();
+    }
   };
 }
 
 /**
  * Parse tsconfig.json and extract path aliases for jiti
+ * Also mocks bare imports that would resolve to project root files (baseUrl: ".")
  */
 function parseTsconfigAliases(projectRoot: string): Record<string, string> {
   const aliases: Record<string, string> = {};
@@ -93,7 +156,21 @@ function parseTsconfigAliases(projectRoot: string): Record<string, string> {
       if (existsSync(srcPath)) {
         aliases["src/"] = `${srcPath}/`;
       }
+
+      // Mock bare imports that resolve to project root files
+      // Common pattern: import { env } from "env" resolves to ./env.ts
+      for (const ext of JS_EXTENSIONS) {
+        const envFile = joinPath(projectRoot, `env${ext}`);
+        if (existsSync(envFile)) {
+          aliases["env"] = createMockFile("env");
+          break;
+        }
+      }
     }
+
+    // Always mock server-only and client-only (jiti resolves these before Module._load)
+    aliases["server-only"] = createMockFile("server-only");
+    aliases["client-only"] = createMockFile("client-only");
 
     // Process path mappings
     for (const [pattern, targets] of Object.entries(paths)) {
