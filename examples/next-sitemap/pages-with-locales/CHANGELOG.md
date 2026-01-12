@@ -1,5 +1,12 @@
 # @onruntime/next-sitemap-example-pages-with-locales
 
+## 0.1.9
+
+### Patch Changes
+
+- Updated dependencies [c156f05]
+  - @onruntime/next-sitemap@0.8.0
+
 ## 0.1.8
 
 ### Patch Changes
