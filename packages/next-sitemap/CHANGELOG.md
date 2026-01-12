@@ -1,5 +1,11 @@
 # @onruntime/next-sitemap
 
+## 0.9.2
+
+### Patch Changes
+
+- 48b8573: Fix trailing slash on root URL (e.g., `https://example.com` instead of `https://example.com/`)
+
 ## 0.9.1
 
 ### Patch Changes
