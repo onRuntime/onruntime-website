@@ -42,7 +42,7 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "type-check": "tsc --noEmit",
-    "test": "tsx --test tests/index.ts"
+    "test": "tsup && tsx --test tests/index.ts"
   },
   "dependencies": {
     "jiti": "^2",

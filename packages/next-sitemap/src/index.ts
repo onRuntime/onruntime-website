@@ -1,5 +1,8 @@
 export type ChangeFrequency = "always" | "hourly" | "daily" | "weekly" | "monthly" | "yearly" | "never";
 
+// Re-export worker constants and types from shared
+export * from "./shared";
+
 export interface SitemapConfig {
   /**
    * Base URL of the site (e.g., "https://example.com")
@@ -60,6 +63,12 @@ export interface SitemapConfig {
    * @example additionalSitemaps: ["/products-sitemap.xml", "/blog-sitemap.xml"]
    */
   additionalSitemaps?: string[];
+
+  /**
+   * Enable debug logging to diagnose issues with route discovery
+   * @default false
+   */
+  debug?: boolean;
 }
 
 export interface SitemapEntry {
