@@ -187,7 +187,9 @@ export function buildUrl(
   if (!locale || locale === defaultLocale) {
     return `${baseUrl}${normalizedPath}`;
   }
-  return `${baseUrl}/${locale}${normalizedPath}`;
+  // For root path with locale, don't add trailing slash
+  const pathSuffix = pathname === "/" ? "" : normalizedPath;
+  return `${baseUrl}/${locale}${pathSuffix}`;
 }
 
 /**
