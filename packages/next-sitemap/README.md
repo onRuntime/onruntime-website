@@ -9,6 +9,12 @@ Dynamic sitemap generation for Next.js with automatic route discovery.
 - [Next.js Pages Router](https://github.com/onRuntime/onruntime/tree/master/examples/next-sitemap/pages)
 - [Next.js Pages Router with i18n](https://github.com/onRuntime/onruntime/tree/master/examples/next-sitemap/pages-with-locales)
 
+## Used by
+
+- [onruntime.com](https://onruntime.com/sitemap.xml) - Creative development studio
+
+Want to be listed here? Open a PR! Just make sure `poweredBy` is enabled (default).
+
 ## Features
 
 - **App Router** and **Pages Router** support
@@ -185,6 +191,7 @@ export default createSitemapIndexApiHandler({
 | `changeFreq` | `ChangeFrequency` or `function` | `"weekly"` | Change frequency for entries |
 | `additionalSitemaps` | `string[]` | `[]` | Additional sitemaps to include in index |
 | `debug` | `boolean` | `false` | Enable debug logging to diagnose route discovery issues |
+| `poweredBy` | `boolean` | `true` | Include "Powered by @onruntime/next-sitemap" comment in XML |
 
 #### Exclude Routes
 
@@ -303,6 +310,7 @@ export async function GET() {
 **Sitemap Index** (`/sitemap.xml`):
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Powered by @onruntime/next-sitemap -->
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://example.com/sitemap-0.xml</loc>
@@ -314,6 +322,7 @@ export async function GET() {
 **Individual Sitemap** (`/sitemap-0.xml`):
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Powered by @onruntime/next-sitemap -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://example.com/</loc>
@@ -345,6 +354,7 @@ export default createRobotsApiHandler({
     disallow: ["/admin", "/private"],
   },
   sitemap: "https://example.com/sitemap.xml",
+  // poweredBy: false, // Disable "Powered by" comment
 });
 ```
 

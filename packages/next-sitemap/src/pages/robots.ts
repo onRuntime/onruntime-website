@@ -1,11 +1,25 @@
 import type { MetadataRoute } from "next";
 
+export interface RobotsConfig extends MetadataRoute.Robots {
+  /**
+   * Include "Powered by @onruntime/next-sitemap" comment
+   * @default true
+   */
+  poweredBy?: boolean;
+}
+
 /**
  * Generate robots.txt content from configuration
  * Compatible with Next.js MetadataRoute.Robots
  */
-export function generateRobotsTxt(config: MetadataRoute.Robots): string {
+export function generateRobotsTxt(config: RobotsConfig): string {
+  const { poweredBy = true } = config;
   const lines: string[] = [];
+
+  if (poweredBy) {
+    lines.push("# Powered by @onruntime/next-sitemap");
+    lines.push("");
+  }
   const rules = Array.isArray(config.rules) ? config.rules : [config.rules];
 
   for (const rule of rules) {

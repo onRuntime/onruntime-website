@@ -14,9 +14,10 @@ import {
   generateAllPaths,
   pathsToEntries,
 } from "../shared";
-import { generateRobotsTxt } from "./robots";
+import { generateRobotsTxt, type RobotsConfig } from "./robots";
 
 export * from "./robots";
+export type { RobotsConfig };
 export type { SitemapConfig, SitemapEntry, ChangeFrequency, MetadataRoute };
 
 export interface CreateSitemapApiHandlerOptions extends SitemapConfig {
@@ -144,7 +145,7 @@ export function createSitemapIndexApiHandler(options: CreateSitemapApiHandlerOpt
 
     res.setHeader("Content-Type", "application/xml");
     res.status(200).send(
-      generateSitemapIndexXml(options.baseUrl, sitemapCount, { additionalSitemaps })
+      generateSitemapIndexXml(options.baseUrl, sitemapCount, { additionalSitemaps, poweredBy: options.poweredBy })
     );
   };
 }
@@ -174,7 +175,7 @@ export function createSitemapApiHandler(options: CreateSitemapApiHandlerOptions)
     const entries = pathsToEntries(paths, { ...options, exclude: undefined });
 
     res.setHeader("Content-Type", "application/xml");
-    res.status(200).send(generateSitemapXml(entries));
+    res.status(200).send(generateSitemapXml(entries, { poweredBy: options.poweredBy }));
   };
 }
 
@@ -205,7 +206,7 @@ export async function getSitemapStaticPaths(options: CreateSitemapApiHandlerOpti
  * Create API handler for robots.txt
  * Use in: pages/api/robots.txt.ts
  */
-export function createRobotsApiHandler(config: MetadataRoute.Robots) {
+export function createRobotsApiHandler(config: RobotsConfig) {
   return function handler(_req: NextApiRequest, res: NextApiResponse) {
     res.setHeader("Content-Type", "text/plain");
     res.status(200).send(generateRobotsTxt(config));

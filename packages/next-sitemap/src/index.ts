@@ -69,6 +69,12 @@ export interface SitemapConfig {
    * @default false
    */
   debug?: boolean;
+
+  /**
+   * Include "Powered by @onruntime/next-sitemap" comment in generated XML
+   * @default true
+   */
+  poweredBy?: boolean;
 }
 
 export interface SitemapEntry {
@@ -187,7 +193,11 @@ export function buildUrl(
 /**
  * Generate sitemap XML from entries
  */
-export function generateSitemapXml(entries: SitemapEntry[]): string {
+export function generateSitemapXml(
+  entries: SitemapEntry[],
+  options?: { poweredBy?: boolean }
+): string {
+  const { poweredBy = true } = options || {};
   const hasAlternates = entries.some((e) => e.alternates?.languages);
   const xmlns = hasAlternates
     ? 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"'
@@ -223,7 +233,8 @@ export function generateSitemapXml(entries: SitemapEntry[]): string {
     })
     .join("\n");
 
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset ${xmlns}>\n${urlEntries}\n</urlset>`;
+  const comment = poweredBy ? "\n<!-- Powered by @onruntime/next-sitemap -->" : "";
+  return `<?xml version="1.0" encoding="UTF-8"?>${comment}\n<urlset ${xmlns}>\n${urlEntries}\n</urlset>`;
 }
 
 /**
@@ -235,9 +246,10 @@ export function generateSitemapIndexXml(
   options?: {
     sitemapPattern?: string;
     additionalSitemaps?: string[];
+    poweredBy?: boolean;
   }
 ): string {
-  const { sitemapPattern = "/sitemap-{id}.xml", additionalSitemaps = [] } = options || {};
+  const { sitemapPattern = "/sitemap-{id}.xml", additionalSitemaps = [], poweredBy = true } = options || {};
   const now = new Date().toISOString();
 
   // Generate entries for paginated sitemaps
@@ -253,6 +265,7 @@ export function generateSitemapIndexXml(
   });
 
   const allEntries = [...paginatedEntries, ...additionalEntries].join("\n");
+  const comment = poweredBy ? "\n<!-- Powered by @onruntime/next-sitemap -->" : "";
 
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${allEntries}\n</sitemapindex>`;
+  return `<?xml version="1.0" encoding="UTF-8"?>${comment}\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${allEntries}\n</sitemapindex>`;
 }

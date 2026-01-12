@@ -133,7 +133,7 @@ export function createSitemapIndexHandler(options: CreateSitemapHandlerOptions) 
       const sitemapCount = Math.max(1, Math.ceil(filteredPaths.length / urlsPerSitemap));
 
       return new Response(
-        generateSitemapIndexXml(options.baseUrl, sitemapCount, { additionalSitemaps }),
+        generateSitemapIndexXml(options.baseUrl, sitemapCount, { additionalSitemaps, poweredBy: options.poweredBy }),
         { headers: { "Content-Type": "application/xml" } }
       );
     },
@@ -171,7 +171,7 @@ export function createSitemapHandler(options: CreateSitemapHandlerOptions) {
       const paths = filteredPaths.slice(sitemapId * urlsPerSitemap, (sitemapId + 1) * urlsPerSitemap);
       const entries = pathsToEntries(paths, { ...options, exclude: undefined });
 
-      return new Response(generateSitemapXml(entries), {
+      return new Response(generateSitemapXml(entries, { poweredBy: options.poweredBy }), {
         headers: { "Content-Type": "application/xml" },
       });
     },
