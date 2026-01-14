@@ -14,6 +14,7 @@ Dynamic sitemap generation for Next.js with automatic route discovery.
 - [onruntime.com](https://onruntime.com/sitemap.xml) - Creative development studio
 - [trendstack.news](https://trendstack.news/sitemap.xml) - News site
 - [tonightpass.com](https://tonightpass.com/sitemap.xml) - Nightlife platform
+- [analayer.com](https://analayer.com/sitemap.xml) - Google Analytics enhancement
 
 Want to be listed here? Open a PR! Just make sure `poweredBy` is enabled (default).
 
