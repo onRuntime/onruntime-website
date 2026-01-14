@@ -1,5 +1,11 @@
 # @onruntime/next-sitemap
 
+## 0.9.3
+
+### Patch Changes
+
+- 6ae7d68: Fix lastmod date format to use W3C Datetime without milliseconds (YYYY-MM-DDThh:mm:ss+00:00) for better compatibility with sitemap validators
+
 ## 0.9.2
 
 ### Patch Changes
