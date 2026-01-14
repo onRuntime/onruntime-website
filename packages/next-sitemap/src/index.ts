@@ -175,6 +175,14 @@ export function normalizePath(pathname: string): string {
 }
 
 /**
+ * Format a Date to W3C Datetime format without milliseconds
+ * Output format: YYYY-MM-DDThh:mm:ss+00:00
+ */
+function formatDateW3C(date: Date): string {
+  return date.toISOString().replace(/\.\d{3}Z$/, "+00:00");
+}
+
+/**
  * Generate the full URL for a pathname
  */
 export function buildUrl(
@@ -218,7 +226,7 @@ export function generateSitemapXml(
       if (entry.lastModified) {
         const date =
           entry.lastModified instanceof Date
-            ? entry.lastModified.toISOString()
+            ? formatDateW3C(entry.lastModified)
             : entry.lastModified;
         parts.push(`    <lastmod>${date}</lastmod>`);
       }
@@ -252,7 +260,7 @@ export function generateSitemapIndexXml(
   }
 ): string {
   const { sitemapPattern = "/sitemap-{id}.xml", additionalSitemaps = [], poweredBy = true } = options || {};
-  const now = new Date().toISOString();
+  const now = formatDateW3C(new Date());
 
   // Generate entries for paginated sitemaps
   const paginatedEntries = Array.from({ length: sitemapCount }, (_, i) => {

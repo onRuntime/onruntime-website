@@ -66,7 +66,8 @@ export function xmlTests() {
       ];
       const xml = generateSitemapXml(entries);
 
-      assert.ok(xml.includes("<lastmod>2024-06-15T10:00:00.000Z</lastmod>"));
+      // Format should be W3C Datetime without milliseconds: YYYY-MM-DDThh:mm:ss+00:00
+      assert.ok(xml.includes("<lastmod>2024-06-15T10:00:00+00:00</lastmod>"));
     });
 
     test("generates multiple URL entries", () => {
